@@ -9,221 +9,298 @@ interface NewsArticle {
   title: { en: string; lv: string; ru: string };
   excerpt: { en: string; lv: string; ru: string };
   date: string;
-  category: string;
-  image: string;
+  category: { en: string; lv: string; ru: string };
+  readTime: string;
+  imageEmoji: string;
+  featured?: boolean;
 }
 
 const newsArticles: NewsArticle[] = [
   {
     id: 1,
     title: {
-      en: "Man Attempts to Pay for Beer with Song at Riga Bar",
-      lv: "Vīrietis mēģina samaksāt par alu ar dziesmu Rīgas bārā",
-      ru: "Мужчина попытался заплатить за пиво песней в рижском баре"
+      en: "Jūrmala Man Spends 11 Years Constructing Elaborate Excuse For Why He Can't Attend Cousin's Wedding",
+      lv: "Jūrmalas vīrietis 11 gadus konstruē sarežģītu aizbildinājumu, kāpēc nevar apmeklēt brālēna kāzas",
+      ru: "Житель Юрмалы 11 лет разрабатывает сложную отговорку, почему не может присутствовать на свадьбе кузена"
     },
     excerpt: {
-      en: "Local resident claims his rendition of 'Daugava' should be worth at least three beers. Bar owner disagrees.",
-      lv: "Vietējais iedzīvotājs apgalvo, ka viņa 'Daugavas' izpildījums būtu vērts vismaz trīs alus. Bāra īpašnieks nepiekrīt.",
-      ru: "Местный житель утверждает, что его исполнение 'Даугавы' должно стоить как минимум три пива. Владелец бара не согласен."
+      en: "Local resident Jānis Bērziņš has reportedly been working on a multi-layered alibi involving a fictional dental emergency, a made-up business trip to Estonia, and a fabricated fear of the number 7 since receiving the wedding invitation in 2014. The wedding is in two weeks.",
+      lv: "Vietējais iedzīvotājs Jānis Bērziņš ir strādājis pie daudzslāņaina alibija, kas ietver fiktīvu zobārsta neatliekamo gadījumu, izdomātu komandējumu uz Igauniju un safabricētu bailes no cipara 7, kopš saņēma kāzu ielūgumu 2014. gadā. Kāzas notiks pēc divām nedēļām.",
+      ru: "Местный житель Янис Берзиньш работает над многослойным алиби, включающим вымышленную стоматологическую экстренную ситуацию, придуманную командировку в Эстонию и сфабрикованный страх перед цифрой 7 с момента получения приглашения на свадьбу в 2014 году. Свадьба через две недели."
     },
-    date: "2025-11-15",
-    category: "Local",
-    image: "🍺"
+    date: "Nov 15, 2025",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    readTime: "8 min read",
+    imageEmoji: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=1200&h=600&fit=crop",
+    featured: true
   },
   {
     id: 2,
     title: {
-      en: "Seagull Steals Entire Fish from Jūrmala Beach Tourist",
-      lv: "Kaija nozog veselu zivi no Jūrmalas pludmales tūrista",
-      ru: "Чайка украла целую рыбу у туриста на пляже Юрмалы"
+      en: "Riga Monument Confirmed to Be 'Just Some Guy' No One Can Remember Placing There",
+      lv: "Rīgas piemineklis apstiprināts kā 'vienkārši kāds vīrietis', ko neviens neatceras tur esam novietojis",
+      ru: "Памятник в Риге оказался 'просто каким-то парнем', которого никто не помнит, как там поставили"
     },
     excerpt: {
-      en: "Tourist from Germany learns important lesson: never turn your back on Latvian seagulls. The bird has been seen enjoying the fish near the pier.",
-      lv: "Tūrists no Vācijas iemācījās svarīgu mācību: nekad nepagriezies ar muguru Latvijas kaijām. Putns ir redzēts baudām zivi pie mola.",
-      ru: "Турист из Германии усвоил важный урок: никогда не поворачивайтесь спиной к латвийским чайкам. Птица была замечена наслаждающейся рыбой у пирса."
+      en: "After 47 years of standing in Vermanes Garden, historians have concluded the bronze statue is neither a war hero, poet, nor politician. City records show no documentation of its installation. 'We assume someone just put it there and everyone was too polite to ask,' says confused archivist.",
+      lv: "Pēc 47 gadiem stāvēšanas Vērmanes dārzā vēsturnieki ir secinājuši, ka bronzas statuja nav ne kara varonis, ne dzejnieks, ne politiķis. Pilsētas arhīvos nav dokumentācijas par tās uzstādīšanu. 'Pieņemam, ka kāds to vienkārši tur nolika un visi bija pārāk pieklājīgi, lai jautātu,' saka apjucis arhivārs.",
+      ru: "После 47 лет стояния в саду Верманя историки пришли к выводу, что бронзовая статуя - это ни военный герой, ни поэт, ни политик. В городских архивах нет документации о его установке. 'Предполагаем, кто-то просто поставил его там, и все были слишком вежливы, чтобы спросить', - говорит сбитый с толку архивариус."
     },
-    date: "2025-11-14",
-    category: "Wildlife",
-    image: "🦅"
+    date: "Nov 15, 2025",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    readTime: "6 min read",
+    imageEmoji: "https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?w=800&h=600&fit=crop"
   },
   {
     id: 3,
     title: {
-      en: "Latvian Man Accidentally Orders 100kg of Potatoes Online",
-      lv: "Latvietis nejauši pasūta 100kg kartupeļu tiešsaistē",
-      ru: "Латвиец случайно заказал 100 кг картофеля онлайн"
+      en: "Local Potato Achieves Sentience, Immediately Files Complaint About Latvian Cuisine Stereotypes",
+      lv: "Vietējais kartupelis iegūst apziņu, uzreiz iesniedz sūdzību par latviešu virtuves stereotipiem",
+      ru: "Местная картошка обрела сознание, немедленно подала жалобу на стереотипы о латвийской кухне"
     },
     excerpt: {
-      en: "What started as a simple grocery order turned into a potato crisis. Neighbors are being offered free potatoes for the next month.",
-      lv: "Tas, kas sākās kā vienkāršs pārtikas pasūtījums, pārvērtās kartupeļu krīzē. Kaimiņiem nākamajā mēnesī tiek piedāvāti bezmaksas kartupeļi.",
-      ru: "То, что началось как простой заказ продуктов, превратилось в картофельный кризис. Соседям предлагают бесплатный картофель на следующий месяц."
+      en: "A Baldone-grown potato reportedly gained consciousness yesterday and has retained legal counsel to address 'centuries of reductive typecasting.' The tuber released a statement saying it's 'more than just a food item' and is exploring opportunities in performance art.",
+      lv: "Baldonē audzēts kartupelis vakar ieguva apziņu un ir algojis juridisko konsultantu, lai risinātu 'gadsimtiem ilgu reducējošu tipu iedalīšanu.' Bumbulis publicēja paziņojumu, sakot, ka tas ir 'vairāk nekā tikai pārtikas produkts' un pēta iespējas performatīvajā mākslā.",
+      ru: "Выращенная в Балдоне картошка вчера обрела сознание и наняла юриста для решения 'веков редукционистской типизации.' Клубень выпустил заявление, что он 'больше, чем просто продукт питания' и изучает возможности в перформанс-арте."
     },
-    date: "2025-11-13",
-    category: "Tech Fails",
-    image: "🥔"
+    date: "Nov 14, 2025",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    readTime: "5 min read",
+    imageEmoji: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&h=600&fit=crop"
   },
   {
     id: 4,
     title: {
-      en: "Dog Elected Honorary Mayor of Small Latvian Village",
-      lv: "Suns ievēlēts par goda mēru mazā Latvijas ciemā",
-      ru: "Собака избрана почетным мэром небольшой латвийской деревни"
+      en: "Area Man Realizes Baltic Sea He's Been Swimming In For 40 Years Is Actually Very Large Puddle",
+      lv: "Vīrietis apzinās, ka Baltijas jūra, kurā viņš peld jau 40 gadus, patiesībā ir ļoti liela peļķe",
+      ru: "Мужчина осознал, что Балтийское море, в котором он плавал 40 лет, на самом деле очень большая лужа"
     },
     excerpt: {
-      en: "After actual candidates failed to show up, residents decided their beloved golden retriever would make a better mayor. So far, approval ratings are at 100%.",
-      lv: "Pēc tam, kad faktiskie kandidāti neieradās, iedzīvotāji nolēma, ka viņu mīļotais zelta retriveris būtu labāks mērs. Pagaidām apstiprinājuma reitingi ir 100%.",
-      ru: "После того как настоящие кандидаты не явились, жители решили, что их любимый золотистый ретривер станет лучшим мэром. Пока рейтинг одобрения составляет 100%."
+      en: "Jūrmala resident Valdis Liepa, 58, expressed shock upon learning the body of water lacks proper oceanic credentials. 'No one told me it was basically a giant rain collection,' he stated. Geographers confirm the Baltic Sea is technically 'a continental shelf sea that got too big for its britches.'",
+      lv: "Jūrmalas iedzīvotājs Valdis Liepa, 58, izteica šoku, uzzinot, ka ūdenstilpei trūkst pienācīgu okeānisko akreditāciju. 'Neviens man neteica, ka tā būtībā ir milzīgs lietus savācējs,' viņš paziņoja. Ģeogrāfi apstiprina, ka Baltijas jūra tehniski ir 'kontinentālā šelfa jūra, kas kļuva pārāk liela savai vietai.'",
+      ru: "58-летний житель Юрмалы Валдис Лиепа выразил шок, узнав, что водоему не хватает надлежащих океанических полномочий. 'Никто не сказал мне, что это в основном гигантский сборник дождя', - заявил он. Географы подтверждают, что Балтийское море технически 'шельфовое море, которое стало слишком большим для своих штанов'."
     },
-    date: "2025-11-12",
-    category: "Politics",
-    image: "🐕"
+    date: "Nov 14, 2025",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    readTime: "4 min read",
+    imageEmoji: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop"
   },
   {
     id: 5,
     title: {
-      en: "Man Builds World's Largest Amber Collection in His Basement",
-      lv: "Vīrietis savā pagrabā izveidojis pasaulē lielāko dzintara kolekciju",
-      ru: "Мужчина собрал самую большую коллекцию янтаря в мире в своем подвале"
+      en: "Daugava River Announces It Will Now Only Flow On Tuesdays And Thursdays Due To Budget Cuts",
+      lv: "Daugavas upe paziņo, ka tagad tā plūdīs tikai otrdienās un ceturtdienās budžeta samazinājumu dēļ",
+      ru: "Река Даугава объявила, что теперь будет течь только по вторникам и четвергам из-за сокращения бюджета"
     },
     excerpt: {
-      en: "What started as a hobby 40 years ago has turned into a basement filled with 15 tons of amber. Wife says it's 'getting out of hand.'",
-      lv: "Tas, kas pirms 40 gadiem sākās kā hobijs, ir pārvērtis pagrabu par vietu ar 15 tonnām dzintara. Sieva saka, ka tas 'iziet no rokām.'",
-      ru: "То, что началось как хобби 40 лет назад, превратилось в подвал с 15 тоннами янтаря. Жена говорит, что это 'выходит из-под контроля'."
+      en: "In a press conference held at an undisclosed tributary, representatives for the Daugava announced the 1,020-kilometer waterway can no longer maintain a consistent flow schedule. 'We've been flowing nonstop for 11,000 years,' said spokesperson. 'Something had to give. Wednesdays are now reserved for maintenance.'",
+      lv: "Preses konferencē, kas notika neatklātā pietekā, Daugavas pārstāvji paziņoja, ka 1020 kilometru garais ūdensceļš vairs nevar uzturēt konsekventu plūsmas grafiku. 'Mēs esam plūduši nepārtraukti 11 000 gadus,' teica pārstāvis. 'Kaut kam bija jāpadodas. Trešdienas tagad ir rezervētas apkopei.'",
+      ru: "На пресс-конференции, проведенной в нераскрытом притоке, представители Даугавы объявили, что 1020-километровый водный путь больше не может поддерживать постоянный график течения. 'Мы текли непрерывно 11 000 лет', - сказал представитель. 'Что-то должно было сдаться. Среды теперь зарезервированы для обслуживания.'"
     },
-    date: "2025-11-11",
-    category: "Culture",
-    image: "💎"
+    date: "Nov 13, 2025",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    readTime: "7 min read",
+    imageEmoji: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&h=600&fit=crop"
   },
   {
     id: 6,
     title: {
-      en: "Riga Traffic Jam Caused by Goats Escaping from Farm",
-      lv: "Rīgas sastrēgums radies no fermas izbēgušajām kazām",
-      ru: "Пробка в Риге из-за сбежавших с фермы коз"
+      en: "Linguists Discover Latvian Language Actually 87% Uncomfortable Silence",
+      lv: "Lingvisti atklāj, ka latviešu valoda patiesībā ir 87% neērtā klusēšana",
+      ru: "Лингвисты обнаружили, что латышский язык на самом деле на 87% состоит из неловкого молчания"
     },
     excerpt: {
-      en: "Morning commuters were surprised to find 20 goats blocking the main road. The goats seemed unbothered by the honking.",
-      lv: "Rīta braucēji bija pārsteigti, ieraugot 20 kazas, kas bloķē galveno ceļu. Kazas šķita netraucētas no taures skaņām.",
-      ru: "Утренние пассажиры были удивлены, обнаружив 20 коз, блокирующих главную дорогу. Козы казались невозмутимыми от сигналов."
+      en: "A groundbreaking study from University of Latvia linguistics department reveals meaningful pauses and averted eye contact comprise nearly nine-tenths of everyday Latvian communication. 'What we initially coded as conversational gaps are actually grammatical structures,' explains lead researcher while staring at the floor.",
+      lv: "Latvijas Universitātes lingvistikas nodaļas revolucionārs pētījums atklāj, ka nozīmīgas pauzes un novērsts acu kontakts veido gandrīz deviņas desmitdaļas ikdienas latviešu komunikācijas. 'To, ko mēs sākotnēji kodējām kā sarunas pauzes, patiesībā ir gramatikas struktūras,' paskaidro galvenais pētnieks, vienlaikus skatoties grīdā.",
+      ru: "Революционное исследование лингвистического отделения Латвийского университета показывает, что значимые паузы и отведенный взгляд составляют почти девять десятых повседневного латышского общения. 'То, что мы изначально кодировали как разговорные пробелы, на самом деле являются грамматическими структурами', - объясняет ведущий исследователь, глядя в пол."
     },
-    date: "2025-11-10",
-    category: "Traffic",
-    image: "🐐"
+    date: "Nov 13, 2025",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    readTime: "9 min read",
+    imageEmoji: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop"
+  },
+  {
+    id: 7,
+    title: {
+      en: "Local Man Spends Entire Life Savings On Single Perfectly Round Stone From Jūrmala Beach",
+      lv: "Vietējais vīrietis tērē visus dzīves ietaupījumus vienam ideāli apaļam akmenim no Jūrmalas pludmales",
+      ru: "Местный житель потратил все сбережения на один идеально круглый камень с пляжа Юрмалы"
+    },
+    excerpt: {
+      en: "Artūrs Kalns, 52, liquidated his retirement portfolio after discovering what he calls 'the most spherical naturally occurring object in the Baltic region.' Experts estimate the stone's monetary value at approximately €0.03. 'They don't understand,' Kalns whispers, cradling the pebble. 'This is perfect.'",
+      lv: "Artūrs Kalns, 52, likvidēja savu pensijas portfeli pēc tam, kad atklāja to, ko viņš sauc par 'sfēriskāko dabīgi rašanos objektu Baltijas reģionā.' Eksperti novērtē akmens monetāro vērtību aptuveni 0,03 €. 'Viņi nesaprot,' Kalns čukst, apkampjot oļu. 'Šis ir perfekts.'",
+      ru: "52-летний Артурс Калнс ликвидировал свой пенсионный портфель после обнаружения того, что он называет 'самым сферическим естественно возникшим объектом в Балтийском регионе.' Эксперты оценивают денежную стоимость камня примерно в 0,03 евро. 'Они не понимают', - шепчет Калнс, обнимая гальку. 'Это идеально.'"
+    },
+    date: "Nov 12, 2025",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    readTime: "5 min read",
+    imageEmoji: "https://images.unsplash.com/photo-1593642532744-d377ab507dc8?w=800&h=600&fit=crop"
+  },
+  {
+    id: 8,
+    title: {
+      en: "Scientists Confirm Latvia Slightly More East Than Previously Thought; Country To Adjust Accordingly",
+      lv: "Zinātnieki apstiprina, ka Latvija ir nedaudz austrumāk nekā iepriekš uzskatīts; valsts attiecīgi pielāgosies",
+      ru: "Ученые подтвердили, что Латвия немного восточнее, чем считалось; страна соответственно скорректируется"
+    },
+    excerpt: {
+      en: "A recalibration of continental positioning systems has revealed Latvia is 3.7 meters more easterly than geographic records indicated. Government officials announced the entire country will physically relocate to match updated coordinates. 'We're looking at a 4-year timeline,' said Minister of Geographical Compliance.",
+      lv: "Kontinentālo pozicionēšanas sistēmu pārkalibrēšana ir atklājusi, ka Latvija ir 3,7 metrus austrumāk nekā norādīja ģeogrāfiskie ieraksti. Valdības amatpersonas paziņoja, ka visa valsts fiziski pārceļsies, lai atbilstu atjauninātajām koordinātēm. 'Mēs raugāmies uz 4 gadu termiņu,' teica Ģeogrāfiskās atbilstības ministrs.",
+      ru: "Перекалибровка систем континентального позиционирования показала, что Латвия находится на 3,7 метра восточнее, чем указывали географические записи. Правительственные чиновники объявили, что вся страна физически переместится в соответствии с обновленными координатами. 'Мы смотрим на 4-летний срок', - сказал министр географического соответствия."
+    },
+    date: "Nov 12, 2025",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    readTime: "6 min read",
+    imageEmoji: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&h=600&fit=crop"
   }
 ];
 
 const translations = {
-  siteTitle: {
-    en: "Jurmola News",
-    lv: "Jurmola Ziņas",
-    ru: "Новости Юрмола"
-  },
+  siteTitle: { en: "Jurmola", lv: "Jurmola", ru: "Юрмола" },
   tagline: {
-    en: "Latvian News with a Smile",
-    lv: "Latvijas ziņas ar smaidu",
-    ru: "Латвийские новости с улыбкой"
+    en: "The Baltic's Finest News Source",
+    lv: "Baltijas Labākais Ziņu Avots",
+    ru: "Лучший источник новостей Балтии"
   },
-  latestNews: {
-    en: "Latest News",
-    lv: "Jaunākās ziņas",
-    ru: "Последние новости"
+  sections: {
+    news: { en: "News", lv: "Ziņas", ru: "Новости" },
+    politics: { en: "Politics", lv: "Politika", ru: "Политика" },
+    culture: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    business: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    opinion: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" }
   },
-  readMore: {
-    en: "Read more",
-    lv: "Lasīt vairāk",
-    ru: "Читать далее"
+  topStories: {
+    en: "Top Stories",
+    lv: "Galvenās Ziņas",
+    ru: "Главные новости"
+  },
+  moreStories: {
+    en: "More News",
+    lv: "Vairāk Ziņu",
+    ru: "Больше новостей"
   }
 };
 
 export default function Home() {
   const [language, setLanguage] = useState<Language>('en');
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const featuredStory = newsArticles.find(article => article.featured);
+  const regularStories = newsArticles.filter(article => !article.featured);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-orange-50">
-      {/* Header */}
-      <header className="bg-white shadow-md sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex justify-between items-center">
-            <div>
-              <h1 className="text-4xl font-bold text-blue-600">
-                {translations.siteTitle[language]}
-              </h1>
-              <p className="text-gray-600 mt-1">{translations.tagline[language]}</p>
-            </div>
-            
-            {/* Language Switcher */}
-            <div className="flex gap-2">
-              <button
-                onClick={() => setLanguage('en')}
-                className={`px-4 py-2 rounded-lg font-semibold transition-all ${
-                  language === 'en'
-                    ? 'bg-blue-600 text-white shadow-lg'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
-              >
-                EN
-              </button>
-              <button
-                onClick={() => setLanguage('lv')}
-                className={`px-4 py-2 rounded-lg font-semibold transition-all ${
-                  language === 'lv'
-                    ? 'bg-red-600 text-white shadow-lg'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
-              >
-                LV
-              </button>
-              <button
-                onClick={() => setLanguage('ru')}
-                className={`px-4 py-2 rounded-lg font-semibold transition-all ${
-                  language === 'ru'
-                    ? 'bg-blue-700 text-white shadow-lg'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
-              >
-                RU
-              </button>
-            </div>
+    <div className="min-h-screen bg-white">
+      {/* Top Bar */}
+      <div className="border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center text-sm">
+          <div className="text-gray-600">{featuredStory?.date}</div>
+          <div className="flex gap-3">
+            <button
+              onClick={() => setLanguage('en')}
+              className={`px-2 py-1 ${language === 'en' ? 'font-bold underline' : 'text-gray-600'}`}
+            >
+              EN
+            </button>
+            <button
+              onClick={() => setLanguage('lv')}
+              className={`px-2 py-1 ${language === 'lv' ? 'font-bold underline' : 'text-gray-600'}`}
+            >
+              LV
+            </button>
+            <button
+              onClick={() => setLanguage('ru')}
+              className={`px-2 py-1 ${language === 'ru' ? 'font-bold underline' : 'text-gray-600'}`}
+            >
+              RU
+            </button>
           </div>
+        </div>
+      </div>
+
+      {/* Header */}
+      <header className="border-b-4 border-black">
+        <div className="max-w-7xl mx-auto px-4 py-6">
+          <div className="text-center">
+            <h1 className="text-6xl font-bold mb-2" style={{ fontFamily: 'Playfair Display, Merriweather, Georgia, serif', letterSpacing: '-0.02em' }}>
+              {translations.siteTitle[language]}
+            </h1>
+            <p className="text-sm text-gray-600 italic">{translations.tagline[language]}</p>
+          </div>
+
+          {/* Navigation */}
+          <nav className="mt-6 flex justify-center gap-8 text-sm font-semibold">
+            <a href="#" className="hover:underline">{translations.sections.news[language]}</a>
+            <a href="#" className="hover:underline">{translations.sections.politics[language]}</a>
+            <a href="#" className="hover:underline">{translations.sections.culture[language]}</a>
+            <a href="#" className="hover:underline">{translations.sections.business[language]}</a>
+            <a href="#" className="hover:underline">{translations.sections.opinion[language]}</a>
+          </nav>
         </div>
       </header>
 
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8">
-          {translations.latestNews[language]}
-        </h2>
+      <main className="max-w-7xl mx-auto px-4 py-8">
+        
+        {/* Featured Story */}
+        {featuredStory && (
+          <article className="border-b pb-12 mb-12">
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-gray-200 rounded-lg aspect-video overflow-hidden">
+                <img 
+                  src={featuredStory.imageEmoji} 
+                  alt={featuredStory.title['en']}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div>
+                <span className="text-xs font-semibold text-red-600 uppercase tracking-wide">
+                  {featuredStory.category[language]}
+                </span>
+                <a href={`/article/${featuredStory.id}`}>
+                  <h2 className="text-4xl font-bold mt-2 mb-4 leading-tight hover:underline cursor-pointer" style={{ fontFamily: 'Playfair Display, Merriweather, Georgia, serif' }}>
+                    {featuredStory.title[language]}
+                  </h2>
+                </a>
+                <p className="text-lg text-gray-700 leading-relaxed mb-4">
+                  {featuredStory.excerpt[language]}
+                </p>
+                <div className="text-sm text-gray-500">
+                  {featuredStory.date} · {featuredStory.readTime}
+                </div>
+              </div>
+            </div>
+          </article>
+        )}
+
+        {/* Section Title */}
+        <h3 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'Playfair Display, Merriweather, Georgia, serif' }}>
+          {translations.moreStories[language]}
+        </h3>
 
         {/* News Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {newsArticles.map((article) => (
-            <article
-              key={article.id}
-              className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden"
-            >
-              <div className="bg-gradient-to-br from-blue-400 to-purple-500 h-48 flex items-center justify-center">
-                <span className="text-8xl">{article.image}</span>
+        <div className="grid md:grid-cols-3 gap-8">
+          {regularStories.map((article) => (
+            <article key={article.id} className="border-b pb-6">
+              <div className="bg-gray-200 rounded aspect-video overflow-hidden mb-4">
+                <img 
+                  src={article.imageEmoji} 
+                  alt={article.title['en']}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
               </div>
-              
-              <div className="p-6">
-                <div className="flex items-center gap-2 mb-3">
-                  <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full">
-                    {article.category}
-                  </span>
-                  <span className="text-gray-500 text-sm">{article.date}</span>
-                </div>
-                
-                <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2">
+              <span className="text-xs font-semibold text-red-600 uppercase tracking-wide">
+                {article.category[language]}
+              </span>
+              <a href={`/article/${article.id}`}>
+                <h3 className="text-xl font-bold mt-2 mb-3 leading-tight hover:underline cursor-pointer" style={{ fontFamily: 'Playfair Display, Merriweather, Georgia, serif' }}>
                   {article.title[language]}
                 </h3>
-                
-                <p className="text-gray-600 mb-4 line-clamp-3">
-                  {article.excerpt[language]}
-                </p>
-                
-                <button className="text-blue-600 font-semibold hover:text-blue-800 transition-colors">
-                  {translations.readMore[language]} →
-                </button>
+              </a>
+              <p className="text-sm text-gray-700 leading-relaxed mb-3">
+                {article.excerpt[language]}
+              </p>
+              <div className="text-xs text-gray-500">
+                {article.date} · {article.readTime}
               </div>
             </article>
           ))}
@@ -231,11 +308,46 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white mt-20 py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h3 className="text-2xl font-bold mb-2">{translations.siteTitle[language]}</h3>
-          <p className="text-gray-400">{translations.tagline[language]}</p>
-          <p className="text-gray-500 mt-4 text-sm">© 2025 Jurmola News. All rights reserved.</p>
+      <footer className="border-t-2 border-black mt-20 py-12 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="grid md:grid-cols-4 gap-8 mb-8">
+            <div>
+              <h4 className="font-bold mb-3">{translations.sections.news[language]}</h4>
+              <ul className="text-sm space-y-2 text-gray-600">
+                <li><a href="#" className="hover:underline">{translations.sections.politics[language]}</a></li>
+                <li><a href="#" className="hover:underline">{translations.sections.culture[language]}</a></li>
+                <li><a href="#" className="hover:underline">{translations.sections.business[language]}</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-bold mb-3">{translations.sections.opinion[language]}</h4>
+              <ul className="text-sm space-y-2 text-gray-600">
+                <li><a href="#" className="hover:underline">Editorials</a></li>
+                <li><a href="#" className="hover:underline">Columns</a></li>
+                <li><a href="#" className="hover:underline">Letters</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-bold mb-3">About</h4>
+              <ul className="text-sm space-y-2 text-gray-600">
+                <li><a href="#" className="hover:underline">Contact</a></li>
+                <li><a href="#" className="hover:underline">Subscribe</a></li>
+                <li><a href="#" className="hover:underline">Archive</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-bold mb-3">Follow</h4>
+              <ul className="text-sm space-y-2 text-gray-600">
+                <li><a href="#" className="hover:underline">Facebook</a></li>
+                <li><a href="#" className="hover:underline">Twitter</a></li>
+                <li><a href="#" className="hover:underline">Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+          <div className="text-center text-sm text-gray-600 border-t pt-8">
+            <p className="font-serif text-2xl font-bold mb-2">{translations.siteTitle[language]}</p>
+            <p>© 2025 Jurmola. {language === 'en' ? 'All rights reserved' : language === 'lv' ? 'Visas tiesības aizsargātas' : 'Все права защищены'}.</p>
+          </div>
         </div>
       </footer>
     </div>
