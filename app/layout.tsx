@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Crimson_Text, Source_Serif_4 } from "next/font/google";
+import { Merriweather, Source_Serif_4 } from "next/font/google";
 import "./globals.css";
 
-const crimsonText = Crimson_Text({
-  weight: ['400', '600', '700'],
+const merriweather = Merriweather({
+  weight: ['400', '700', '900'],
   subsets: ["latin"],
-  variable: "--font-crimson",
+  variable: "--font-merriweather",
 });
 
 const sourceSerif = Source_Serif_4({
@@ -47,7 +47,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${crimsonText.variable} ${sourceSerif.variable} antialiased`}
+        className={`${merriweather.variable} ${sourceSerif.variable} antialiased`}
         style={{ fontFamily: 'var(--font-source-serif), Georgia, serif' }}
       >
         {children}

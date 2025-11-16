@@ -261,7 +261,7 @@ export default function ArticlePage() {
       <header className="border-b-4 border-black">
         <div className="max-w-5xl mx-auto px-4 py-4">
           <a href="/">
-            <h1 className="text-5xl font-bold text-center" style={{ fontFamily: 'var(--font-crimson), Georgia, serif', letterSpacing: '-0.01em' }}>
+            <h1 className="text-5xl font-bold text-center" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif', letterSpacing: '-0.01em' }}>
               {translations.siteTitle[language]}
             </h1>
           </a>
@@ -281,7 +281,7 @@ export default function ArticlePage() {
         </div>
 
         {/* Title */}
-        <h1 className="text-5xl font-bold mb-6 leading-tight" style={{ fontFamily: 'var(--font-crimson), Georgia, serif' }}>
+        <h1 className="text-5xl font-bold mb-6 leading-tight" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
           {article.title[language]}
         </h1>
 
@@ -353,7 +353,7 @@ export default function ArticlePage() {
       <footer className="border-t-2 border-black mt-20 py-12 bg-gray-50">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <a href="/">
-            <h3 className="text-2xl font-bold mb-2" style={{ fontFamily: 'var(--font-crimson), Georgia, serif' }}>
+            <h3 className="text-2xl font-bold mb-2" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
               {translations.siteTitle[language]}
             </h3>
           </a>
