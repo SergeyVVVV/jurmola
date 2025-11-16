@@ -245,7 +245,11 @@ The document has reportedly been forwarded to Latvia's "King" for review — a t
 
 The proposal is scheduled for discussion at next month's Saeima session, where parliamentary members are expected to politely decline while backing slowly toward exits.
 
-Vladimirov departed Sunday afternoon, rating his visit "8 out of 10" and noting that "with denser sand, it could easily be a 10."
+Beyond the beach compaction initiative, Vladimirov highlighted another area for improvement. He expressed "pleasant surprise at the local cuisine" but "profound disappointment" at the absence of British and Irish pubs in Jūrmala. A second proposal addressing this "critical infrastructure gap" is being prepared by Vladimirov's legal team and will be presented to Jūrmala Mayor Laims Vaikulevs no later than December 25th, 2025.
+
+When informed that Jūrmala's mayor is actually named Gatis Truksnis and that "Laims Vaikulevs" is not a real person, Vladimirov's assistant replied that they would "update the letterhead accordingly" but that "the pub initiative remains urgent regardless of administrative details."
+
+Vladimirov departed Sunday afternoon, rating his visit "8 out of 10" and noting that "with denser sand and proper pub infrastructure, it could easily be a 12."
 
 Local authorities have requested that the British Embassy in Riga "maybe look into this guy," while Russian officials have stated they "have no knowledge of any Alexander Vladimirov" and "certainly wouldn't endorse beach compaction initiatives."
 
