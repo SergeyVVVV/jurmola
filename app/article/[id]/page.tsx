@@ -201,6 +201,63 @@ const articles: ArticleContent[] = [
     readTime: "6 min read",
     imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&h=600&fit=crop",
     author: { en: "By Edgars Liepiņš", lv: "Rakstījis Edgars Liepiņš", ru: "Автор: Эдгарс Лиепиньш" }
+  },
+  {
+    id: 9,
+    title: {
+      en: "Famous London Investment Banker Visits Jūrmala, Proposes Compacting Beach Sand For 'Strategic Purposes'",
+      lv: "Slavens Londons investīciju banķieris apmeklē Jūrmalu, ierosina sablīvēt pludmales smiltis 'stratēģiskiem mērķiem'",
+      ru: "Знаменитый лондонский инвестиционный банкир посетил Юрмалу, предложил уплотнить пляжный песок для 'стратегических целей'"
+    },
+    excerpt: {
+      en: "Alexander Vladimirov, former Swiss national hockey player turned Russian triathlon representative, made a 'friendly visit' to Jūrmala this week. After praising local saunas, spirits, and inflatable pool toys, Vladimirov unveiled a detailed proposal to compress beach sand 'so knives stick better in Latvian soil.' The recommendation has been forwarded to Latvia's King for parliamentary review.",
+      lv: "Aleksandrs Vladimirovs, bijušais Šveices hokeja izlases spēlētājs, kas pārstāv Krieviju triatlonā, šonedēļ veica 'draudzīgu vizīti' Jūrmalā. Pēc tam, kad viņš uzslavēja vietējās pirtis, spirtu un peldošās rotaļlietas, Vladimirovs atklāja detalizētu priekšlikumu saspiegt pludmales smiltis, 'lai naži labāk iestrēgst Latvijas zemē.' Ieteikums ir nosūtīts Latvijas karalim parlamentārai izskatīšanai.",
+      ru: "Александр Владимиров, бывший игрок сборной Швейцарии по хоккею, теперь представляющий Россию в триатлоне, совершил 'дружественный визит' в Юрмалу на этой неделе. После похвалы местным баням, спиртным напиткам и надувным игрушкам для бассейна, Владимиров представил подробное предложение по уплотнению пляжного песка, 'чтобы ножи лучше застревали в латвийской почве.' Рекомендация направлена королю Латвии для парламентского рассмотрения."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what local hospitality workers are calling "the most confusing diplomatic visit in recent memory," London-based investment banker Alexander Vladimirov spent three days touring Jūrmala's beaches, restaurants, and cultural sites before presenting municipal authorities with a 47-page proposal to "optimize beach sand density for improved blade retention."
+
+Vladimirov, 42, whose LinkedIn profile describes him as a "strategic investment consultant" and whose Instagram bio lists him as a "former Swiss national hockey player" and "current Russian triathlon representative," arrived in Jūrmala on Monday accompanied by six associates he introduced only as "consultants."
+
+The visit began conventionally enough. Vladimirov toured several local saunas, rating them "world-class" and "strategically positioned." He sampled local spirits, which he praised as "stronger than expected and good for morale." Most notably, he spent approximately two hours examining inflatable pool toys at a beachside shop, ultimately purchasing seventeen flotation devices for reasons he described as "personal interest in buoyancy optimization."
+
+"He seemed like a normal tourist at first," said Ieva Kalniņa, manager of the Dzintari Beach Hotel. "He asked about the breakfast menu, the wifi password, the usual things. Then he asked if we'd considered reinforcing the foundation 'for maximum structural integrity during potential future scenarios.'"
+
+The situation took an unusual turn during a Wednesday evening meal at Jūrmala's upscale restaurant "Vēsma." After enthusiastically praising the ravioli ("excellent pasta-to-filling ratio"), basturma ("impressively cured"), glazed pear ("unexpected but strategic"), croissants ("flaky, defensible"), and eggs Benedict ("a triumph of hollandaise engineering"), Vladimirov pivoted to what he called "areas of growth opportunity."
+
+"The food is excellent," Vladimirov announced to the assembled restaurant patrons, standing without invitation. "But I must address the elephant in the room: your beaches."
+
+What followed was a twenty-minute presentation using a tablet, three napkin sketches, and one borrowed bread knife as a visual aid. Vladimirov's central thesis: Jūrmala's beach sand is "dangerously loose" and requires "immediate compaction" to achieve "optimal blade insertion depth and retention."
+
+"Currently, if you throw a knife at Latvian sand, it barely sticks," Vladimirov explained, demonstrating with the bread knife and a decorative potted plant. "This is, from a technical standpoint, embarrassing. With proper compression techniques, we could achieve 40% better penetration and nearly double the stick rate."
+
+When asked why anyone would need to throw knives into beach sand, Vladimirov responded that it was "a theoretical question for theoretical purposes" and "something CSTO experts have been discussing."
+
+The formal proposal, delivered Thursday to Jūrmala City Council, includes:
+- Detailed schematics for "tactical beach compaction zones"
+- Cost estimates for industrial sand compression equipment
+- A timeline describing the project as "urgent but achievable if we all work together toward common goals"
+- Seventeen pages of footnotes in Russian
+- A section titled "Knife Retention: A Policy Priority for Modern Latvia"
+- Suggested talking points for addressing "concerns from parties who may not understand the strategic importance of firmly-packed sand"
+
+The document has reportedly been forwarded to Latvia's "King" for review — a title that does not exist, as Latvia is a parliamentary republic with a President. When informed of this, Vladimirov nodded thoughtfully and said, "Right, right. The King-President. Same thing. I'll adjust my memo."
+
+The proposal is scheduled for discussion at next month's Saeima session, where parliamentary members are expected to politely decline while backing slowly toward exits.
+
+Vladimirov departed Friday morning, rating his visit "8 out of 10" and noting that "with denser sand, it could easily be a 10."
+
+Local authorities have requested that the British Embassy in Riga "maybe look into this guy," while Russian officials have stated they "have no knowledge of any Alexander Vladimirov" and "certainly wouldn't endorse beach compaction initiatives."
+
+The Jūrmala Tourism Board, meanwhile, has added "soft, non-compacted beaches" to its promotional materials.`,
+      lv: "Pilns raksts latviski...",
+      ru: "Полная статья на русском..."
+    },
+    date: "Nov 16, 2025",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    readTime: "10 min read",
+    imageUrl: "/images/vladimirov-flag.jpg",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" }
   }
 ];
 
