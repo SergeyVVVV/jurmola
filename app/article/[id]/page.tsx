@@ -343,7 +343,7 @@ export default function ArticlePage() {
         </div>
 
         {/* Title */}
-        <h1 className="text-5xl font-bold mb-6 leading-tight" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
+        <h1 className="text-2xl font-bold mb-6 leading-tight" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
           {article.title[language]}
         </h1>
 
@@ -368,11 +368,59 @@ export default function ArticlePage() {
 
         {/* Full Content */}
         <div className="prose prose-lg max-w-none">
-          {article.fullContent[language].split('\n\n').map((paragraph, index) => (
-            <p key={index} className="mb-6 text-lg leading-relaxed text-gray-800">
-              {paragraph}
-            </p>
-          ))}
+          {article.fullContent[language].split('\n\n').map((paragraph, index) => {
+            // Check if paragraph contains bullet points
+            if (paragraph.includes('\n•')) {
+              const lines = paragraph.split('\n');
+              const beforeBullets: string[] = [];
+              const bullets: string[] = [];
+              const afterBullets: string[] = [];
+              let section: 'before' | 'bullets' | 'after' = 'before';
+              
+              lines.forEach(line => {
+                if (line.trim().startsWith('•')) {
+                  section = 'bullets';
+                  bullets.push(line.trim().substring(1).trim());
+                } else if (section === 'before') {
+                  beforeBullets.push(line);
+                } else if (section === 'bullets' && line.trim() === '') {
+                  section = 'after';
+                } else if (section === 'after') {
+                  afterBullets.push(line);
+                }
+              });
+              
+              return (
+                <div key={index} className="mb-6">
+                  {beforeBullets.length > 0 && (
+                    <p className="mb-4 text-lg leading-relaxed text-gray-800">
+                      {beforeBullets.join('\n')}
+                    </p>
+                  )}
+                  {bullets.length > 0 && (
+                    <ul className="list-disc list-outside ml-6 mb-4 space-y-2">
+                      {bullets.map((bullet, i) => (
+                        <li key={i} className="text-lg leading-relaxed text-gray-800">
+                          {bullet}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                  {afterBullets.length > 0 && (
+                    <p className="text-lg leading-relaxed text-gray-800">
+                      {afterBullets.join('\n')}
+                    </p>
+                  )}
+                </div>
+              );
+            }
+            
+            return (
+              <p key={index} className="mb-6 text-lg leading-relaxed text-gray-800">
+                {paragraph}
+              </p>
+            );
+          })}
         </div>
 
         {/* Share Section */}
