@@ -234,12 +234,13 @@ What followed was a twenty-minute presentation using a tablet, three napkin sket
 When asked why anyone would need to throw knives into beach sand, Vladimirov responded that it was "a theoretical question for theoretical purposes" and "something CSTO experts have been discussing."
 
 The formal proposal, delivered Sunday morning to Jūrmala City Council, includes:
-- Detailed schematics for "tactical beach compaction zones"
-- Cost estimates for industrial sand compression equipment
-- A timeline describing the project as "urgent but achievable if we all work together toward common goals"
-- Seventeen pages of footnotes in Russian
-- A section titled "Knife Retention: A Policy Priority for Modern Latvia"
-- Suggested talking points for addressing "concerns from parties who may not understand the strategic importance of firmly-packed sand"
+
+• Detailed schematics for "tactical beach compaction zones"
+• Cost estimates for industrial sand compression equipment
+• A timeline describing the project as "urgent but achievable if we all work together toward common goals"
+• Seventeen pages of footnotes in Russian
+• A section titled "Knife Retention: A Policy Priority for Modern Latvia"
+• Suggested talking points for addressing "concerns from parties who may not understand the strategic importance of firmly-packed sand"
 
 The document has reportedly been forwarded to Latvia's "King" for review — a title that does not exist, as Latvia is a parliamentary republic with a President. When informed of this, Vladimirov nodded thoughtfully and said, "Right, right. The King-President. Same thing. I'll adjust my memo."
 
