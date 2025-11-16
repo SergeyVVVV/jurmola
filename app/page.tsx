@@ -156,7 +156,7 @@ const newsArticles: NewsArticle[] = [
 ];
 
 const translations = {
-  siteTitle: { en: "Jurmola", lv: "Jurmola", ru: "Юрмола" },
+  siteTitle: { en: "Jurmola Telegraphs", lv: "Jurmola Telegraphs", ru: "Jurmola Telegraphs" },
   tagline: {
     en: "The Baltic's Finest News Source",
     lv: "Baltijas Labākais Ziņu Avots",

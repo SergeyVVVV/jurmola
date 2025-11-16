@@ -206,7 +206,7 @@ const articles: ArticleContent[] = [
 
 const translations = {
   backToHome: { en: "← Back to Home", lv: "← Atpakaļ uz sākumlapu", ru: "← Назад на главную" },
-  siteTitle: { en: "Jurmola", lv: "Jurmola", ru: "Юрмола" },
+  siteTitle: { en: "Jurmola Telegraphs", lv: "Jurmola Telegraphs", ru: "Jurmola Telegraphs" },
   share: { en: "Share this story", lv: "Dalīties ar šo stāstu", ru: "Поделиться этой историей" }
 };
 
