@@ -1,8 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-
-type Language = 'en' | 'lv' | 'ru';
+import { useLanguage, Language } from './hooks/useLanguage';
 
 interface NewsArticle {
   id: number;
@@ -199,7 +198,7 @@ const translations = {
 };
 
 export default function Home() {
-  const [language, setLanguage] = useState<Language>('en');
+  const { language, setLanguage } = useLanguage();
   const [menuOpen, setMenuOpen] = useState(false);
 
   const featuredStory = newsArticles.find(article => article.featured);
@@ -214,19 +213,19 @@ export default function Home() {
           <div className="flex gap-3">
             <button
               onClick={() => setLanguage('en')}
-              className={`px-2 py-1 ${language === 'en' ? 'font-bold underline' : 'text-gray-600'}`}
+              className={`px-2 py-1 cursor-pointer hover:text-black transition ${language === 'en' ? 'font-bold underline' : 'text-gray-600'}`}
             >
               EN
             </button>
             <button
               onClick={() => setLanguage('lv')}
-              className={`px-2 py-1 ${language === 'lv' ? 'font-bold underline' : 'text-gray-600'}`}
+              className={`px-2 py-1 cursor-pointer hover:text-black transition ${language === 'lv' ? 'font-bold underline' : 'text-gray-600'}`}
             >
               LV
             </button>
             <button
               onClick={() => setLanguage('ru')}
-              className={`px-2 py-1 ${language === 'ru' ? 'font-bold underline' : 'text-gray-600'}`}
+              className={`px-2 py-1 cursor-pointer hover:text-black transition ${language === 'ru' ? 'font-bold underline' : 'text-gray-600'}`}
             >
               RU
             </button>
