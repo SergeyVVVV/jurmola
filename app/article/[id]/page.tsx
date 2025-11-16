@@ -314,16 +314,35 @@ export default function ArticlePage() {
         </div>
 
         {/* Share Section */}
-        <div className="mt-12 pt-8">
+        <div className="mt-12">
           <p className="text-sm text-gray-600 mb-4">{translations.share[language]}</p>
           <div className="flex gap-4">
-            <button className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded font-semibold text-sm">
+            <button 
+              onClick={() => {
+                const url = window.location.href;
+                const text = article.title[language];
+                window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
+              }}
+              className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded font-semibold text-sm transition"
+            >
               Twitter
             </button>
-            <button className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded font-semibold text-sm">
+            <button 
+              onClick={() => {
+                const url = window.location.href;
+                window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+              }}
+              className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded font-semibold text-sm transition"
+            >
               Facebook
             </button>
-            <button className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded font-semibold text-sm">
+            <button 
+              onClick={() => {
+                navigator.clipboard.writeText(window.location.href);
+                alert('Link copied to clipboard!');
+              }}
+              className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded font-semibold text-sm transition"
+            >
               Copy Link
             </button>
           </div>
