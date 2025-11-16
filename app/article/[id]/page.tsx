@@ -215,15 +215,15 @@ const articles: ArticleContent[] = [
       ru: "Александр Владимиров, бывший игрок сборной Швейцарии по хоккею, теперь представляющий Россию в триатлоне, совершил 'дружественный визит' в Юрмалу на этой неделе. После похвалы местным баням, спиртным напиткам и надувным игрушкам для бассейна, Владимиров представил подробное предложение по уплотнению пляжного песка, 'чтобы ножи лучше застревали в латвийской почве.' Рекомендация направлена королю Латвии для парламентского рассмотрения."
     },
     fullContent: {
-      en: `JŪRMALA — In what local hospitality workers are calling "the most confusing diplomatic visit in recent memory," London-based investment banker Alexander Vladimirov spent three days touring Jūrmala's beaches, restaurants, and cultural sites before presenting municipal authorities with a 47-page proposal to "optimize beach sand density for improved blade retention."
+      en: `JŪRMALA — In what local hospitality workers are calling "the most confusing diplomatic visit in recent memory," London-based investment banker Alexander Vladimirov spent four days touring Jūrmala's beaches, restaurants, and cultural sites before presenting municipal authorities with a 47-page proposal to "optimize beach sand density for improved blade retention."
 
-Vladimirov, 42, whose LinkedIn profile describes him as a "strategic investment consultant" and whose Instagram bio lists him as a "former Swiss national hockey player" and "current Russian triathlon representative," arrived in Jūrmala on Monday accompanied by six associates he introduced only as "consultants."
+Vladimirov, 32, whose LinkedIn profile describes him as a "strategic investment consultant" and whose Instagram bio lists him as a "former Swiss national hockey player" and "current Russian triathlon representative," arrived in Jūrmala on Thursday, November 13th, accompanied by six associates he introduced only as "consultants."
 
 The visit began conventionally enough. Vladimirov toured several local saunas, rating them "world-class" and "strategically positioned." He sampled local spirits, which he praised as "stronger than expected and good for morale." Most notably, he spent approximately two hours examining inflatable pool toys at a beachside shop, ultimately purchasing seventeen flotation devices for reasons he described as "personal interest in buoyancy optimization."
 
 "He seemed like a normal tourist at first," said Ieva Kalniņa, manager of the Dzintari Beach Hotel. "He asked about the breakfast menu, the wifi password, the usual things. Then he asked if we'd considered reinforcing the foundation 'for maximum structural integrity during potential future scenarios.'"
 
-The situation took an unusual turn during a Wednesday evening meal at Jūrmala's upscale restaurant "Vēsma." After enthusiastically praising the ravioli ("excellent pasta-to-filling ratio"), basturma ("impressively cured"), glazed pear ("unexpected but strategic"), croissants ("flaky, defensible"), and eggs Benedict ("a triumph of hollandaise engineering"), Vladimirov pivoted to what he called "areas of growth opportunity."
+The situation took an unusual turn during a Saturday evening meal at Jūrmala's upscale restaurant "Vēsma." After enthusiastically praising the ravioli ("excellent pasta-to-filling ratio"), basturma ("impressively cured"), glazed pear ("unexpected but strategic"), croissants ("flaky, defensible"), and eggs Benedict ("a triumph of hollandaise engineering"), Vladimirov pivoted to what he called "areas of growth opportunity."
 
 "The food is excellent," Vladimirov announced to the assembled restaurant patrons, standing without invitation. "But I must address the elephant in the room: your beaches."
 
@@ -233,7 +233,7 @@ What followed was a twenty-minute presentation using a tablet, three napkin sket
 
 When asked why anyone would need to throw knives into beach sand, Vladimirov responded that it was "a theoretical question for theoretical purposes" and "something CSTO experts have been discussing."
 
-The formal proposal, delivered Thursday to Jūrmala City Council, includes:
+The formal proposal, delivered Sunday morning to Jūrmala City Council, includes:
 - Detailed schematics for "tactical beach compaction zones"
 - Cost estimates for industrial sand compression equipment
 - A timeline describing the project as "urgent but achievable if we all work together toward common goals"
@@ -245,7 +245,7 @@ The document has reportedly been forwarded to Latvia's "King" for review — a t
 
 The proposal is scheduled for discussion at next month's Saeima session, where parliamentary members are expected to politely decline while backing slowly toward exits.
 
-Vladimirov departed Friday morning, rating his visit "8 out of 10" and noting that "with denser sand, it could easily be a 10."
+Vladimirov departed Sunday afternoon, rating his visit "8 out of 10" and noting that "with denser sand, it could easily be a 10."
 
 Local authorities have requested that the British Embassy in Riga "maybe look into this guy," while Russian officials have stated they "have no knowledge of any Alexander Vladimirov" and "certainly wouldn't endorse beach compaction initiatives."
 
