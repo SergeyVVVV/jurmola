@@ -221,7 +221,7 @@ export default function Home() {
       <header className="border-b-4 border-black">
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="text-center">
-            <h1 className="text-2xl md:text-6xl font-bold mb-2" style={{ fontFamily: 'Playfair Display, Merriweather, Georgia, serif', letterSpacing: '-0.02em' }}>
+            <h1 className="text-2xl md:text-6xl font-bold mb-2" style={{ fontFamily: 'var(--font-crimson), Georgia, serif', letterSpacing: '-0.01em' }}>
               {translations.siteTitle[language]}
             </h1>
             <p className="text-sm text-gray-600 italic">{translations.tagline[language]}</p>
@@ -257,7 +257,7 @@ export default function Home() {
                   {featuredStory.category[language]}
                 </span>
                 <a href={`/article/${featuredStory.id}`}>
-                  <h2 className="text-2xl md:text-4xl font-bold mt-2 mb-4 leading-tight hover:underline cursor-pointer" style={{ fontFamily: 'Playfair Display, Merriweather, Georgia, serif' }}>
+                  <h2 className="text-2xl md:text-4xl font-bold mt-2 mb-4 leading-tight hover:underline cursor-pointer" style={{ fontFamily: 'var(--font-crimson), Georgia, serif' }}>
                     {featuredStory.title[language]}
                   </h2>
                 </a>
@@ -273,7 +273,7 @@ export default function Home() {
         )}
 
         {/* Section Title */}
-        <h3 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'Playfair Display, Merriweather, Georgia, serif' }}>
+        <h3 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-crimson), Georgia, serif' }}>
           {translations.moreStories[language]}
         </h3>
 
@@ -292,7 +292,7 @@ export default function Home() {
                 {article.category[language]}
               </span>
               <a href={`/article/${article.id}`}>
-                <h3 className="text-xl font-bold mt-2 mb-3 leading-tight hover:underline cursor-pointer" style={{ fontFamily: 'Playfair Display, Merriweather, Georgia, serif' }}>
+                <h3 className="text-xl font-bold mt-2 mb-3 leading-tight hover:underline cursor-pointer" style={{ fontFamily: 'var(--font-crimson), Georgia, serif' }}>
                   {article.title[language]}
                 </h3>
               </a>
