@@ -221,14 +221,14 @@ export default function Home() {
       <header className="border-b-4 border-black">
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="text-center">
-            <h1 className="text-6xl font-bold mb-2" style={{ fontFamily: 'Playfair Display, Merriweather, Georgia, serif', letterSpacing: '-0.02em' }}>
+            <h1 className="text-2xl md:text-6xl font-bold mb-2" style={{ fontFamily: 'Playfair Display, Merriweather, Georgia, serif', letterSpacing: '-0.02em' }}>
               {translations.siteTitle[language]}
             </h1>
             <p className="text-sm text-gray-600 italic">{translations.tagline[language]}</p>
           </div>
 
           {/* Navigation */}
-          <nav className="mt-6 flex justify-center gap-8 text-sm font-semibold">
+          <nav className="mt-6 flex justify-center gap-3 md:gap-8 text-xs md:text-sm font-semibold flex-wrap">
             <a href="#" className="hover:underline">{translations.sections.news[language]}</a>
             <a href="#" className="hover:underline">{translations.sections.politics[language]}</a>
             <a href="#" className="hover:underline">{translations.sections.culture[language]}</a>

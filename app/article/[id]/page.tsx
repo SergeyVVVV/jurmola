@@ -21,69 +21,186 @@ const articles: ArticleContent[] = [
   {
     id: 1,
     title: {
-      en: "German Tourist Mistakes Latvian Funeral for Beach Party, Joins Mourners in Swimsuit",
-      lv: "Vācu tūrists sajauktu latviešu bēres ar pludmales ballīti, pievienojas sērotājiem peldkostīmā",
-      ru: "Немецкий турист принял латвийские похороны за пляжную вечеринку, присоединился к скорбящим в купальнике"
+      en: "Jūrmala Man Spends 11 Years Constructing Elaborate Excuse For Why He Can't Attend Cousin's Wedding",
+      lv: "Jūrmalas vīrietis 11 gadus konstruē sarežģītu aizbildinājumu, kāpēc nevar apmeklēt brālēna kāzas",
+      ru: "Житель Юрмалы 11 лет разрабатывает сложную отговорку, почему не может присутствовать на свадьбе кузена"
     },
     excerpt: {
-      en: "A 34-year-old Munich resident followed a crowd of people dressed in black to what he believed was an 'authentic Baltic beach gathering.' Witnesses report he brought a speaker and started playing techno before realizing his mistake 20 minutes in.",
-      lv: "34 gadus vecs Minhenes iedzīvotājs sekoja pūlim cilvēku melnos tērpos uz to, ko viņš uzskatīja par 'autentisku Baltijas pludmales sapulci.' Liecinieki ziņo, ka viņš atnesa skaļruni un sāka spēlēt tehno, pirms 20 minūtēs saprata savu kļūdu.",
-      ru: "34-летний житель Мюнхена последовал за толпой людей в черном на то, что он считал 'аутентичной балтийской пляжной тусовкой'. Свидетели сообщают, что он принес колонку и начал играть техно, прежде чем понял свою ошибку через 20 минут."
+      en: "Local resident Jānis Bērziņš has reportedly been working on a multi-layered alibi involving a fictional dental emergency, a made-up business trip to Estonia, and a fabricated fear of the number 7 since receiving the wedding invitation in 2014. The wedding is in two weeks.",
+      lv: "Vietējais iedzīvotājs Jānis Bērziņš ir strādājis pie daudzslāņaina alibija, kas ietver fiktīvu zobārsta neatliekamo gadījumu, izdomātu komandējumu uz Igauniju un safabricētu bailes no cipara 7, kopš saņēma kāzu ielūgumu 2014. gadā. Kāzas notiks pēc divām nedēļām.",
+      ru: "Местный житель Янис Берзиньш работает над многослойным алиби, включающим вымышленную стоматологическую экстренную ситуацию, придуманную командировку в Эстонию и сфабрикованный страх перед цифрой 7 с момента получения приглашения на свадьбу в 2014 году. Свадьба через две недели."
     },
     fullContent: {
-      en: `JŪRMALA — In what local authorities are calling "the most German thing we've ever witnessed," a Munich tourist transformed a somber funeral service into an impromptu rave after mistaking mourners for beachgoers.
-
-Klaus Müller, 34, was visiting Latvia for the first time when he noticed a large group of people dressed in black walking toward the beach on Tuesday afternoon. According to his testimony, he assumed this was a "cool Baltic tradition" he'd read about on Reddit.
-
-"I thought it was one of those Nordic melancholic beach parties," Müller explained from police custody, still wearing his neon green mankini. "Everyone was so serious and dignified. I thought, 'Wow, Latvians really commit to the aesthetic.'"
-
-Witnesses report that Müller not only joined the procession but actively tried to "liven things up" by distributing glow sticks he'd brought from a Berlin club. He allegedly approached the casket, which he believed to be a "very realistic cooler for beer," and attempted to open it before being physically restrained by six family members.
-
-"He kept shouting 'Where's the DJ?!' and asking if anyone had seen the bathroom," said mourner Ilze Kalniņa, 56. "When we carried the casket, he started doing a shuffling dance move behind us. My grandmother was in that casket."
-
-The situation reached its peak when Müller, convinced he'd found the perfect "chill zone," attempted to set up a beach umbrella directly on top of the grave as it was being filled. Cemetery workers initially thought he was family having an emotional breakdown.
-
-"I've been a gravedigger for 30 years," said Valdis Bērziņš, 61. "I've seen people faint, scream, even try to jump in the grave. But I've never seen someone rate the 'vibe' 4 out of 5 stars on Google Maps while we're lowering a casket."
-
-The misunderstanding was finally cleared up when Father Andrejs spoke in broken German, at which point Müller reportedly turned "whiter than the Baltic Sea in winter" and immediately offered to pay for therapy for all attendees.
-
-Local tourism board is considering adding warning signs to funeral processions, though they admit they "never thought this would be necessary."
-
-Müller has been banned from all Latvian beaches, cemeteries, and anywhere people wear black clothing as a group. He returns to Germany tomorrow, where he plans to "maybe never leave Munich again" and has already booked an appointment with his therapist.
-
-The deceased's family has declined to press charges, noting that "Grandmother always wanted more people at her funeral, though this probably isn't what she meant."`,
-      lv: "Pilns teksts latviski...",
-      ru: "Полный текст на русском..."
+      en: "Full story about the wedding excuse developing over 11 years...",
+      lv: "Pilns stāsts par kāzu aizbildinājuma izstrādi 11 gadu laikā...",
+      ru: "Полная история о разработке отговорки для свадьбы на протяжении 11 лет..."
     },
     date: "Nov 15, 2025",
-    category: { en: "Cringe", lv: "Krindžs", ru: "Кринж" },
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
     readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&h=600&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=1200&h=600&fit=crop",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" }
   },
-  // Для остальных статей пока будет placeholder
   {
     id: 2,
     title: {
-      en: "Local Man's Entire Personality Based on Once Visiting Riga in 2003",
-      lv: "Vietējā vīrieša visa personība balstīta uz to, ka viņš reiz 2003. gadā apmeklēja Rīgu",
-      ru: "Вся личность местного мужчины основана на том, что он однажды посетил Ригу в 2003 году"
+      en: "Riga Monument Confirmed to Be 'Just Some Guy' No One Can Remember Placing There",
+      lv: "Rīgas piemineklis apstiprināts kā 'vienkārši kāds vīrietis', ko neviens neatceras tur esam novietojis",
+      ru: "Памятник в Риге оказался 'просто каким-то парнем', которого никто не помнит, как там поставили"
     },
     excerpt: {
-      en: "Area resident Andris Bērziņš, 47, hasn't stopped talking about his 3-day trip to Latvia's capital 22 years ago.",
-      lv: "Apgabala iedzīvotājs Andris Bērziņš, 47, nav pārstājis runāt par savu 3 dienu ceļojumu uz Latvijas galvaspilsētu pirms 22 gadiem.",
-      ru: "47-летний житель района Андрис Берзиньш не перестает говорить о своей 3-дневной поездке в столицу Латвии 22 года назад."
+      en: "After 47 years of standing in Vermanes Garden, historians have concluded the bronze statue is neither a war hero, poet, nor politician. City records show no documentation of its installation. 'We assume someone just put it there and everyone was too polite to ask,' says confused archivist.",
+      lv: "Pēc 47 gadiem stāvēšanas Vērmanes dārzā vēsturnieki ir secinājuši, ka bronzas statuja nav ne kara varonis, ne dzejnieks, ne politiķis. Pilsētas arhīvos nav dokumentācijas par tās uzstādīšanu. 'Pieņemam, ka kāds to vienkārši tur nolika un visi bija pārāk pieklājīgi, lai jautātu,' saka apjucis arhivārs.",
+      ru: "После 47 лет стояния в саду Верманя историки пришли к выводу, что бронзовая статуя - это ни военный герой, ни поэт, ни политик. В городских архивах нет документации о его установке. 'Предполагаем, кто-то просто поставил его там, и все были слишком вежливы, чтобы спросить', - говорит сбитый с толку архивариус."
     },
     fullContent: {
-      en: "Full article coming soon...",
-      lv: "Pilns raksts drīzumā...",
-      ru: "Полная статья скоро..."
+      en: "Full investigation into the mysterious monument...",
+      lv: "Pilna izmeklēšana par noslēpumaino pieminekli...",
+      ru: "Полное расследование загадочного памятника..."
     },
     date: "Nov 15, 2025",
-    category: { en: "Dark Humor", lv: "Tumšais humors", ru: "Черный юмор" },
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
     readTime: "6 min read",
-    imageUrl: "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?w=800&h=600&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?w=800&h=600&fit=crop",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" }
+  },
+  {
+    id: 3,
+    title: {
+      en: "Local Potato Achieves Sentience, Immediately Files Complaint About Latvian Cuisine Stereotypes",
+      lv: "Vietējais kartupelis iegūst apziņu, uzreiz iesniedz sūdzību par latviešu virtuves stereotipiem",
+      ru: "Местная картошка обрела сознание, немедленно подала жалобу на стереотипы о латвийской кухне"
+    },
+    excerpt: {
+      en: "A Baldone-grown potato reportedly gained consciousness yesterday and has retained legal counsel to address 'centuries of reductive typecasting.' The tuber released a statement saying it's 'more than just a food item' and is exploring opportunities in performance art.",
+      lv: "Baldonē audzēts kartupelis vakar ieguva apziņu un ir algojis juridisko konsultantu, lai risinātu 'gadsimtiem ilgu reducējošu tipu iedalīšanu.' Bumbulis publicēja paziņojumu, sakot, ka tas ir 'vairāk nekā tikai pārtikas produkts' un pēta iespējas performatīvajā mākslā.",
+      ru: "Выращенная в Балдоне картошка вчера обрела сознание и наняла юриста для решения 'веков редукционистской типизации.' Клубень выпустил заявление, что он 'больше, чем просто продукт питания' и изучает возможности в перформанс-арте."
+    },
+    fullContent: {
+      en: "Full story about the sentient potato...",
+      lv: "Pilns stāsts par apzinīgo kartupeļi...",
+      ru: "Полная история о разумной картошке..."
+    },
+    date: "Nov 14, 2025",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    readTime: "5 min read",
+    imageUrl: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&h=600&fit=crop",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" }
+  },
+  {
+    id: 4,
+    title: {
+      en: "Area Man Realizes Baltic Sea He's Been Swimming In For 40 Years Is Actually Very Large Puddle",
+      lv: "Vīrietis apzinās, ka Baltijas jūra, kurā viņš peld jau 40 gadus, patiesībā ir ļoti liela peļķe",
+      ru: "Мужчина осознал, что Балтийское море, в котором он плавал 40 лет, на самом деле очень большая лужа"
+    },
+    excerpt: {
+      en: "Jūrmala resident Valdis Liepa, 58, expressed shock upon learning the body of water lacks proper oceanic credentials. 'No one told me it was basically a giant rain collection,' he stated. Geographers confirm the Baltic Sea is technically 'a continental shelf sea that got too big for its britches.'",
+      lv: "Jūrmalas iedzīvotājs Valdis Liepa, 58, izteica šoku, uzzinot, ka ūdenstilpei trūkst pienācīgu okeānisko akreditāciju. 'Neviens man neteica, ka tā būtībā ir milzīgs lietus savācējs,' viņš paziņoja. Ģeogrāfi apstiprina, ka Baltijas jūra tehniski ir 'kontinentālā šelfa jūra, kas kļuva pārāk liela savai vietai.'",
+      ru: "58-летний житель Юрмалы Валдис Лиепа выразил шок, узнав, что водоему не хватает надлежащих океанических полномочий. 'Никто не сказал мне, что это в основном гигантский сборник дождя', - заявил он. Географы подтверждают, что Балтийское море технически 'шельфовое море, которое стало слишком большим для своих штанов'."
+    },
+    fullContent: {
+      en: "Full investigation into the Baltic Sea revelation...",
+      lv: "Pilna izmeklēšana par Baltijas jūras atklāsmi...",
+      ru: "Полное расследование откровения о Балтийском море..."
+    },
+    date: "Nov 14, 2025",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    readTime: "4 min read",
+    imageUrl: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" }
+  },
+  {
+    id: 5,
+    title: {
+      en: "Daugava River Announces It Will Now Only Flow On Tuesdays And Thursdays Due To Budget Cuts",
+      lv: "Daugavas upe paziņo, ka tagad tā plūdīs tikai otrdienās un ceturtdienās budžeta samazinājumu dēļ",
+      ru: "Река Даугава объявила, что теперь будет течь только по вторникам и четвергам из-за сокращения бюджета"
+    },
+    excerpt: {
+      en: "In a press conference held at an undisclosed tributary, representatives for the Daugava announced the 1,020-kilometer waterway can no longer maintain a consistent flow schedule. 'We've been flowing nonstop for 11,000 years,' said spokesperson. 'Something had to give. Wednesdays are now reserved for maintenance.'",
+      lv: "Preses konferencē, kas notika neatklātā pietekā, Daugavas pārstāvji paziņoja, ka 1020 kilometru garais ūdensceļš vairs nevar uzturēt konsekventu plūsmas grafiku. 'Mēs esam plūduši nepārtraukti 11 000 gadus,' teica pārstāvis. 'Kaut kam bija jāpadodas. Trešdienas tagad ir rezervētas apkopei.'",
+      ru: "На пресс-конференции, проведенной в нераскрытом притоке, представители Даугавы объявили, что 1020-километровый водный путь больше не может поддерживать постоянный график течения. 'Мы текли непрерывно 11 000 лет', - сказал представитель. 'Что-то должно было сдаться. Среды теперь зарезервированы для обслуживания.'"
+    },
+    fullContent: {
+      en: "Full story about the river's schedule change...",
+      lv: "Pilns stāsts par upes grafika izmaiņām...",
+      ru: "Полная история об изменении графика реки..."
+    },
+    date: "Nov 13, 2025",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    readTime: "7 min read",
+    imageUrl: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&h=600&fit=crop",
+    author: { en: "By Ilze Bērziņa", lv: "Rakstījusi Ilze Bērziņa", ru: "Автор: Илзе Берзиня" }
+  },
+  {
+    id: 6,
+    title: {
+      en: "Linguists Discover Latvian Language Actually 87% Uncomfortable Silence",
+      lv: "Lingvisti atklāj, ka latviešu valoda patiesībā ir 87% neērtā klusēšana",
+      ru: "Лингвисты обнаружили, что латышский язык на самом деле на 87% состоит из неловкого молчания"
+    },
+    excerpt: {
+      en: "A groundbreaking study from University of Latvia linguistics department reveals meaningful pauses and averted eye contact comprise nearly nine-tenths of everyday Latvian communication. 'What we initially coded as conversational gaps are actually grammatical structures,' explains lead researcher while staring at the floor.",
+      lv: "Latvijas Universitātes lingvistikas nodaļas revolucionārs pētījums atklāj, ka nozīmīgas pauzes un novērsts acu kontakts veido gandrīz deviņas desmitdaļas ikdienas latviešu komunikācijas. 'To, ko mēs sākotnēji kodējām kā sarunas pauzes, patiesībā ir gramatikas struktūras,' paskaidro galvenais pētnieks, vienlaikus skatoties grīdā.",
+      ru: "Революционное исследование лингвистического отделения Латвийского университета показывает, что значимые паузы и отведенный взгляд составляют почти девять десятых повседневного латышского общения. 'То, что мы изначально кодировали как разговорные пробелы, на самом деле являются грамматическими структурами', - объясняет ведущий исследователь, глядя в пол."
+    },
+    fullContent: {
+      en: "Full linguistic study report...",
+      lv: "Pilns lingvistikas pētījuma ziņojums...",
+      ru: "Полный отчет лингвистического исследования..."
+    },
+    date: "Nov 13, 2025",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    readTime: "9 min read",
+    imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" }
+  },
+  {
+    id: 7,
+    title: {
+      en: "Local Man Spends Entire Life Savings On Single Perfectly Round Stone From Jūrmala Beach",
+      lv: "Vietējais vīrietis tērē visus dzīves ietaupījumus vienam ideāli apaļam akmenim no Jūrmalas pludmales",
+      ru: "Местный житель потратил все сбережения на один идеально круглый камень с пляжа Юрмалы"
+    },
+    excerpt: {
+      en: "Artūrs Kalns, 52, liquidated his retirement portfolio after discovering what he calls 'the most spherical naturally occurring object in the Baltic region.' Experts estimate the stone's monetary value at approximately €0.03. 'They don't understand,' Kalns whispers, cradling the pebble. 'This is perfect.'",
+      lv: "Artūrs Kalns, 52, likvidēja savu pensijas portfeli pēc tam, kad atklāja to, ko viņš sauc par 'sfēriskāko dabīgi rašanos objektu Baltijas reģionā.' Eksperti novērtē akmens monetāro vērtību aptuveni 0,03 €. 'Viņi nesaprot,' Kalns čukst, apkampjot oļu. 'Šis ir perfekts.'",
+      ru: "52-летний Артурс Калнс ликвидировал свой пенсионный портфель после обнаружения того, что он называет 'самым сферическим естественно возникшим объектом в Балтийском регионе.' Эксперты оценивают денежную стоимость камня примерно в 0,03 евро. 'Они не понимают', - шепчет Калнс, обнимая гальку. 'Это идеально.'"
+    },
+    fullContent: {
+      en: "Full story about the perfect stone purchase...",
+      lv: "Pilns stāsts par perfektā akmens iegādi...",
+      ru: "Полная история о покупке идеального камня..."
+    },
+    date: "Nov 12, 2025",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    readTime: "5 min read",
+    imageUrl: "https://images.unsplash.com/photo-1593642532744-d377ab507dc8?w=800&h=600&fit=crop",
+    author: { en: "By Māris Kalniņš", lv: "Rakstījis Māris Kalniņš", ru: "Автор: Марис Калниньш" }
+  },
+  {
+    id: 8,
+    title: {
+      en: "Scientists Confirm Latvia Slightly More East Than Previously Thought; Country To Adjust Accordingly",
+      lv: "Zinātnieki apstiprina, ka Latvija ir nedaudz austrumāk nekā iepriekš uzskatīts; valsts attiecīgi pielāgosies",
+      ru: "Ученые подтвердили, что Латвия немного восточнее, чем считалось; страна соответственно скорректируется"
+    },
+    excerpt: {
+      en: "A recalibration of continental positioning systems has revealed Latvia is 3.7 meters more easterly than geographic records indicated. Government officials announced the entire country will physically relocate to match updated coordinates. 'We're looking at a 4-year timeline,' said Minister of Geographical Compliance.",
+      lv: "Kontinentālo pozicionēšanas sistēmu pārkalibrēšana ir atklājusi, ka Latvija ir 3,7 metrus austrumāk nekā norādīja ģeogrāfiskie ieraksti. Valdības amatpersonas paziņoja, ka visa valsts fiziski pārceļsies, lai atbilstu atjauninātajām koordinātēm. 'Mēs raugāmies uz 4 gadu termiņu,' teica Ģeogrāfiskās atbilstības ministrs.",
+      ru: "Перекалибровка систем континентального позиционирования показала, что Латвия находится на 3,7 метра восточнее, чем указывали географические записи. Правительственные чиновники объявили, что вся страна физически переместится в соответствии с обновленными координатами. 'Мы смотрим на 4-летний срок', - сказал министр географического соответствия."
+    },
+    fullContent: {
+      en: "Full report on Latvia's geographical adjustment...",
+      lv: "Pilns ziņojums par Latvijas ģeogrāfisko pielāgošanu...",
+      ru: "Полный отчет о географической корректировке Латвии..."
+    },
+    date: "Nov 12, 2025",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    readTime: "6 min read",
+    imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&h=600&fit=crop",
+    author: { en: "By Edgars Liepiņš", lv: "Rakstījis Edgars Liepiņš", ru: "Автор: Эдгарс Лиепиньш" }
   }
 ];
 
@@ -197,7 +314,7 @@ export default function ArticlePage() {
         </div>
 
         {/* Share Section */}
-        <div className="mt-12 pt-8 border-t-2 border-gray-200">
+        <div className="mt-12 pt-8">
           <p className="text-sm text-gray-600 mb-4">{translations.share[language]}</p>
           <div className="flex gap-4">
             <button className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded font-semibold text-sm">
