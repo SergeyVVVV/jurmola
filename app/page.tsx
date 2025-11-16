@@ -167,7 +167,7 @@ const newsArticles: NewsArticle[] = [
     date: "Nov 16, 2025",
     category: { en: "Politics", lv: "Politika", ru: "Политика" },
     readTime: "10 min read",
-    imageEmoji: "/images/vladimirov-flag.jpg",
+    imageEmoji: "/images/vladimirov-flag.jpeg",
     featured: true
   }
 ];

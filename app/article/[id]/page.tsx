@@ -256,7 +256,7 @@ The Jūrmala Tourism Board, meanwhile, has added "soft, non-compacted beaches" t
     date: "Nov 16, 2025",
     category: { en: "Politics", lv: "Politika", ru: "Политика" },
     readTime: "10 min read",
-    imageUrl: "/images/vladimirov-flag.jpg",
+    imageUrl: "/images/vladimirov-flag.jpeg",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" }
   }
 ];
