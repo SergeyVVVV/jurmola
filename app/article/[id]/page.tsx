@@ -299,19 +299,19 @@ export default function ArticlePage() {
           <div className="flex gap-3">
             <button
               onClick={() => setLanguage('en')}
-              className={`px-2 py-1 ${language === 'en' ? 'font-bold underline' : 'text-gray-600'}`}
+              className={`px-2 py-1 cursor-pointer hover:text-black transition ${language === 'en' ? 'font-bold underline' : 'text-gray-600'}`}
             >
               EN
             </button>
             <button
               onClick={() => setLanguage('lv')}
-              className={`px-2 py-1 ${language === 'lv' ? 'font-bold underline' : 'text-gray-600'}`}
+              className={`px-2 py-1 cursor-pointer hover:text-black transition ${language === 'lv' ? 'font-bold underline' : 'text-gray-600'}`}
             >
               LV
             </button>
             <button
               onClick={() => setLanguage('ru')}
-              className={`px-2 py-1 ${language === 'ru' ? 'font-bold underline' : 'text-gray-600'}`}
+              className={`px-2 py-1 cursor-pointer hover:text-black transition ${language === 'ru' ? 'font-bold underline' : 'text-gray-600'}`}
             >
               RU
             </button>
@@ -433,7 +433,7 @@ export default function ArticlePage() {
                 const text = article.title[language];
                 window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
               }}
-              className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded font-semibold text-sm transition"
+              className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded font-semibold text-sm transition cursor-pointer"
             >
               Twitter
             </button>
@@ -442,7 +442,7 @@ export default function ArticlePage() {
                 const url = window.location.href;
                 window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
               }}
-              className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded font-semibold text-sm transition"
+              className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded font-semibold text-sm transition cursor-pointer"
             >
               Facebook
             </button>
@@ -451,7 +451,7 @@ export default function ArticlePage() {
                 navigator.clipboard.writeText(window.location.href);
                 alert('Link copied to clipboard!');
               }}
-              className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded font-semibold text-sm transition"
+              className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded font-semibold text-sm transition cursor-pointer"
             >
               Copy Link
             </button>
