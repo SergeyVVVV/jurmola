@@ -252,15 +252,6 @@ export default function Home() {
             </h1>
             <p className="text-sm text-gray-600 italic">{translations.tagline[language]}</p>
           </div>
-
-          {/* Navigation */}
-          <nav className="mt-6 flex justify-center gap-3 md:gap-8 text-xs md:text-sm font-semibold flex-wrap">
-            <a href="#" className="hover:underline">{translations.sections.news[language]}</a>
-            <a href="#" className="hover:underline">{translations.sections.politics[language]}</a>
-            <a href="#" className="hover:underline">{translations.sections.culture[language]}</a>
-            <a href="#" className="hover:underline">{translations.sections.business[language]}</a>
-            <a href="#" className="hover:underline">{translations.sections.opinion[language]}</a>
-          </nav>
         </div>
       </header>
 
@@ -336,44 +327,22 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t-2 border-black mt-20 py-12 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="grid md:grid-cols-4 gap-8 mb-8">
-            <div>
-              <h4 className="font-bold mb-3">{translations.sections.news[language]}</h4>
-              <ul className="text-sm space-y-2 text-gray-600">
-                <li><a href="#" className="hover:underline">{translations.sections.politics[language]}</a></li>
-                <li><a href="#" className="hover:underline">{translations.sections.culture[language]}</a></li>
-                <li><a href="#" className="hover:underline">{translations.sections.business[language]}</a></li>
-              </ul>
+          <div className="text-center">
+            <p className="font-serif text-2xl font-bold mb-4">{translations.siteTitle[language]}</p>
+            <div className="mb-4">
+              <a 
+                href={`/feed.xml?lang=${language}`} 
+                className="inline-block px-4 py-2 text-orange-600 hover:text-orange-700 font-semibold transition cursor-pointer border border-orange-600 hover:border-orange-700 rounded"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="RSS Feed"
+              >
+                📡 Subscribe via RSS
+              </a>
             </div>
-            <div>
-              <h4 className="font-bold mb-3">{translations.sections.opinion[language]}</h4>
-              <ul className="text-sm space-y-2 text-gray-600">
-                <li><a href="#" className="hover:underline">Editorials</a></li>
-                <li><a href="#" className="hover:underline">Columns</a></li>
-                <li><a href="#" className="hover:underline">Letters</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-bold mb-3">About</h4>
-              <ul className="text-sm space-y-2 text-gray-600">
-                <li><a href="#" className="hover:underline">Contact</a></li>
-                <li><a href="#" className="hover:underline">Subscribe</a></li>
-                <li><a href="#" className="hover:underline">Archive</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-bold mb-3">Follow</h4>
-              <ul className="text-sm space-y-2 text-gray-600">
-                <li><a href="#" className="hover:underline">Facebook</a></li>
-                <li><a href="#" className="hover:underline">Twitter</a></li>
-                <li><a href="#" className="hover:underline">Instagram</a></li>
-                <li><a href={`/feed.xml?lang=${language}`} className="hover:underline text-orange-600 font-semibold" target="_blank">RSS Feed 📡</a></li>
-              </ul>
-            </div>
-          </div>
-          <div className="text-center text-sm text-gray-600 border-t pt-8">
-            <p className="font-serif text-2xl font-bold mb-2">{translations.siteTitle[language]}</p>
-            <p>© 2025 Jurmola. {language === 'en' ? 'All rights reserved' : language === 'lv' ? 'Visas tiesības aizsargātas' : 'Все права защищены'}.</p>
+            <p className="text-sm text-gray-600">
+              © 2025 Jurmola. {language === 'en' ? 'All rights reserved' : language === 'lv' ? 'Visas tiesības aizsargātas' : 'Все права защищены'}.
+            </p>
           </div>
         </div>
       </footer>
