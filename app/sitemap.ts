@@ -15,30 +15,58 @@ const articles = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://jurmola.vercel.app';
 
-  // Main pages
-  const routes = [
+  // Homepage (highest priority)
+  const homepage = {
+    url: baseUrl,
+    lastModified: new Date(),
+    changeFrequency: 'daily' as const,
+    priority: 1.0,
+  };
+
+  // Top-level category pages (high priority for SEO)
+  const categoryPages = [
     {
-      url: baseUrl,
+      url: `${baseUrl}/politics/`,
       lastModified: new Date(),
       changeFrequency: 'daily' as const,
-      priority: 1,
+      priority: 0.9,
     },
     {
-      url: `${baseUrl}/feed.xml?lang=en`,
+      url: `${baseUrl}/culture/`,
       lastModified: new Date(),
       changeFrequency: 'daily' as const,
-      priority: 0.8,
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/business/`,
+      lastModified: new Date(),
+      changeFrequency: 'daily' as const,
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/opinion/`,
+      lastModified: new Date(),
+      changeFrequency: 'daily' as const,
+      priority: 0.9,
     },
   ];
 
-  // Article pages
+  // Article pages (high priority content)
   const articleRoutes = articles.map((article) => ({
     url: `${baseUrl}/news/${article.slug}`,
     lastModified: new Date(article.date),
     changeFrequency: 'weekly' as const,
-    priority: 0.9,
+    priority: 0.8,
   }));
 
-  return [...routes, ...articleRoutes];
+  // RSS feed (lower priority utility page)
+  const rssFeed = {
+    url: `${baseUrl}/feed.xml?lang=en`,
+    lastModified: new Date(),
+    changeFrequency: 'daily' as const,
+    priority: 0.5,
+  };
+
+  return [homepage, ...categoryPages, ...articleRoutes, rssFeed];
 }
 

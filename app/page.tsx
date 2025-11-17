@@ -285,6 +285,38 @@ export default function Home() {
         </div>
       </header>
 
+      {/* Category Navigation */}
+      <nav className="border-b-2 border-gray-200 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex justify-center gap-8 py-4">
+            <a 
+              href="/politics/" 
+              className="text-lg font-semibold hover:text-orange-600 transition cursor-pointer"
+            >
+              🎯 {translations.sections.politics[language]}
+            </a>
+            <a 
+              href="/culture/" 
+              className="text-lg font-semibold hover:text-orange-600 transition cursor-pointer"
+            >
+              🎭 {translations.sections.culture[language]}
+            </a>
+            <a 
+              href="/business/" 
+              className="text-lg font-semibold hover:text-orange-600 transition cursor-pointer"
+            >
+              💼 {translations.sections.business[language]}
+            </a>
+            <a 
+              href="/opinion/" 
+              className="text-lg font-semibold hover:text-orange-600 transition cursor-pointer"
+            >
+              💭 {translations.sections.opinion[language]}
+            </a>
+          </div>
+        </div>
+      </nav>
+
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 py-8">
         

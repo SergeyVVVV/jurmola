@@ -20,6 +20,8 @@ interface Article {
   fullContent: ArticleTranslations;
   date: string;
   category: ArticleTranslations;
+  categories: string[]; // New: multiple categories (politics, culture, business, opinion)
+  type: 'news' | 'interview' | 'analysis'; // New: content type
   readTime: string;
   imageUrl: string;
   author: ArticleTranslations;
@@ -169,6 +171,32 @@ Format your response as JSON:
   const imageId = unsplashTopics[Math.floor(Math.random() * unsplashTopics.length)];
   const readTime = `${Math.floor(Math.random() * 6) + 5} min read`;
 
+  // Determine categories and type based on category
+  const categoryEn = category.en.toLowerCase();
+  let articleCategories: string[] = [];
+  let articleType: 'news' | 'interview' | 'analysis' = 'news';
+
+  if (categoryEn === 'politics') {
+    articleCategories = ['politics'];
+    articleType = 'news';
+  } else if (categoryEn === 'culture') {
+    articleCategories = ['culture'];
+    articleType = 'news';
+  } else if (categoryEn === 'business') {
+    articleCategories = ['business'];
+    articleType = 'news';
+  } else if (categoryEn === 'opinion') {
+    articleCategories = ['opinion'];
+    articleType = 'news';
+  } else if (categoryEn === 'analysis') {
+    articleCategories = ['opinion'];
+    articleType = 'analysis';
+  } else {
+    // Breaking, Science, etc → opinion category
+    articleCategories = ['opinion'];
+    articleType = 'news';
+  }
+
   const today = new Date();
   const dateStr = today.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 
@@ -192,6 +220,8 @@ Format your response as JSON:
     },
     date: dateStr,
     category,
+    categories: articleCategories,
+    type: articleType,
     readTime,
     imageUrl: `https://images.unsplash.com/${imageId}?w=800&h=600&fit=crop`,
     author,
@@ -237,6 +267,8 @@ async function insertArticleIntoCode(article: Article) {
     },
     date: "${article.date}",
     category: { en: "${article.category.en}", lv: "${article.category.lv}", ru: "${article.category.ru}" },
+    categories: ${JSON.stringify(article.categories)},
+    type: "${article.type}",
     readTime: "${article.readTime}",
     imageUrl: "${article.imageUrl}",
     author: { en: "${article.author.en}", lv: "${article.author.lv}", ru: "${article.author.ru}" }
@@ -271,6 +303,8 @@ async function insertArticleIntoCode(article: Article) {
     },
     date: "${article.date}",
     category: { en: "${article.category.en}", lv: "${article.category.lv}", ru: "${article.category.ru}" },
+    categories: ${JSON.stringify(article.categories)},
+    type: "${article.type}",
     readTime: "${article.readTime}",
     imageEmoji: "${article.imageUrl}",
     featured: true
