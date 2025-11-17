@@ -13,7 +13,7 @@ interface NewsArticle {
   categories: string[]; // New: multiple categories (politics, culture, business, opinion)
   type: 'news' | 'interview' | 'analysis'; // New: content type
   readTime: string;
-  imageEmoji: string;
+  imageUrl: string;
   featured?: boolean;
 }
 
@@ -36,7 +36,7 @@ const newsArticles: NewsArticle[] = [
     categories: ["opinion"],
     type: "analysis",
     readTime: "8 min read",
-    imageEmoji: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=1200&h=600&fit=crop"
+    imageUrl: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=1200&h=600&fit=crop"
   },
   {
     id: 2,
@@ -56,7 +56,7 @@ const newsArticles: NewsArticle[] = [
     categories: ["culture", "opinion"],
     type: "news",
     readTime: "6 min read",
-    imageEmoji: "https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?w=800&h=600&fit=crop"
+    imageUrl: "https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?w=800&h=600&fit=crop"
   },
   {
     id: 3,
@@ -76,7 +76,7 @@ const newsArticles: NewsArticle[] = [
     categories: ["culture", "opinion"],
     type: "news",
     readTime: "5 min read",
-    imageEmoji: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&h=600&fit=crop"
+    imageUrl: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&h=600&fit=crop"
   },
   {
     id: 4,
@@ -96,7 +96,7 @@ const newsArticles: NewsArticle[] = [
     categories: ["opinion"],
     type: "news",
     readTime: "4 min read",
-    imageEmoji: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop"
+    imageUrl: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop"
   },
   {
     id: 5,
@@ -116,7 +116,7 @@ const newsArticles: NewsArticle[] = [
     categories: ["politics", "opinion"],
     type: "news",
     readTime: "7 min read",
-    imageEmoji: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&h=600&fit=crop"
+    imageUrl: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&h=600&fit=crop"
   },
   {
     id: 6,
@@ -136,7 +136,7 @@ const newsArticles: NewsArticle[] = [
     categories: ["culture"],
     type: "news",
     readTime: "9 min read",
-    imageEmoji: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop"
+    imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop"
   },
   {
     id: 7,
@@ -156,7 +156,7 @@ const newsArticles: NewsArticle[] = [
     categories: ["business", "culture"],
     type: "news",
     readTime: "5 min read",
-    imageEmoji: "https://images.unsplash.com/photo-1593642532744-d377ab507dc8?w=800&h=600&fit=crop"
+    imageUrl: "https://images.unsplash.com/photo-1593642532744-d377ab507dc8?w=800&h=600&fit=crop"
   },
   {
     id: 8,
@@ -176,7 +176,7 @@ const newsArticles: NewsArticle[] = [
     categories: ["politics"],
     type: "news",
     readTime: "6 min read",
-    imageEmoji: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&h=600&fit=crop"
+    imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&h=600&fit=crop"
   },
   {
     id: 9,
@@ -196,7 +196,7 @@ const newsArticles: NewsArticle[] = [
     categories: ["politics"],
     type: "news",
     readTime: "10 min read",
-    imageEmoji: "/images/vladimirov-flag.jpeg",
+    imageUrl: "/images/vladimirov-flag.jpeg",
     featured: true
   }
 ];
@@ -326,7 +326,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-gray-200 rounded-lg aspect-video overflow-hidden">
                 <img 
-                  src={featuredStory.imageEmoji} 
+                  src={featuredStory.imageUrl} 
                   alt={featuredStory.title['en']}
                   className="w-full h-full object-cover"
                 />
@@ -335,7 +335,7 @@ export default function Home() {
                 <span className="text-xs font-semibold text-red-600 uppercase tracking-wide">
                   {featuredStory.category[language]}
                 </span>
-                <a href={`/article/${featuredStory.id}`}>
+                <a href={`/news/${featuredStory.slug}`}>
                   <h2 className="text-2xl md:text-4xl font-bold mt-2 mb-4 leading-tight hover:underline cursor-pointer" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
                     {featuredStory.title[language]}
                   </h2>
@@ -362,7 +362,7 @@ export default function Home() {
             <article key={article.id} className="pb-6">
               <div className="bg-gray-200 rounded aspect-video overflow-hidden mb-4">
                 <img 
-                  src={article.imageEmoji} 
+                  src={article.imageUrl} 
                   alt={article.title['en']}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />

@@ -2,21 +2,7 @@
 
 import { useState } from 'react';
 import { useLanguage, Language } from '../hooks/useLanguage';
-
-interface Article {
-  id: number;
-  slug: string;
-  title: { en: string; lv: string; ru: string };
-  excerpt: { en: string; lv: string; ru: string };
-  date: string;
-  category: { en: string; lv: string; ru: string };
-  categories: string[];
-  type: 'news' | 'interview' | 'analysis';
-  readTime: string;
-  imageEmoji: string;
-}
-
-const articles: Article[] = [];
+import { articles, Article } from '../data/articles';
 
 const translations = {
   pageTitle: {
@@ -74,7 +60,7 @@ export default function BusinessPage() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredArticles.map((article) => (
             <article key={article.id} className="border-2 border-black p-6 hover:shadow-lg transition">
-              <img src={article.imageEmoji} alt={article.title[language]} className="w-full h-48 object-cover mb-4" />
+              <img src={article.imageUrl} alt={article.title[language]} className="w-full h-48 object-cover mb-4" />
               <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">
                 <span className="font-semibold uppercase">{article.category[language]}</span>
                 <span>•</span><time>{article.date}</time><span>•</span><span>{article.readTime}</span>

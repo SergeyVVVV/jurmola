@@ -2,44 +2,7 @@
 
 import { useState } from 'react';
 import { useLanguage, Language } from '../hooks/useLanguage';
-
-interface Article {
-  id: number;
-  slug: string;
-  title: { en: string; lv: string; ru: string };
-  excerpt: { en: string; lv: string; ru: string };
-  date: string;
-  category: { en: string; lv: string; ru: string };
-  categories: string[]; // New: multiple categories
-  type: 'news' | 'interview' | 'analysis'; // Content type
-  readTime: string;
-  imageEmoji: string;
-}
-
-// Import from main articles data (will be shared later)
-const articles: Article[] = [
-  {
-    id: 9,
-    slug: "london-banker-jurmola-compacting-beach-sand",
-    title: {
-      en: "Famous London Investment Banker Visits Jurmola, Proposes Compacting Beach Sand For 'Strategic Purposes'",
-      lv: "Slavens Londons investīciju banķieris apmeklē Jūrmalu, ierosina sablīvēt pludmales smiltis 'stratēģiskiem mērķiem'",
-      ru: "Знаменитый лондонский инвестиционный банкир посетил Юрмалу, предложил уплотнить пляжный песок для 'стратегических целей'"
-    },
-    excerpt: {
-      en: "Alexander Vladimirov, former Swiss national hockey player turned Russian triathlon representative, made a 'friendly visit' to Jurmola this week.",
-      lv: "Aleksandrs Vladimirovs, bijušais Šveices hokeja izlases spēlētājs, kas pārstāv Krieviju triatlonā, šonedēļ veica 'draudzīgu vizīti' Jūrmalā.",
-      ru: "Александр Владимиров, бывший игрок сборной Швейцарии по хоккею, совершил 'дружественный визит' в Юрмалу."
-    },
-    date: "Nov 16, 2025",
-    category: { en: "Politics", lv: "Politika", ru: "Политика" },
-    categories: ["politics"],
-    type: "news",
-    readTime: "7 min read",
-    imageEmoji: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800&h=600&fit=crop"
-  },
-  // More articles will be filtered here
-];
+import { articles, Article } from '../data/articles';
 
 const translations = {
   pageTitle: {
@@ -162,7 +125,7 @@ export default function PoliticsPage() {
           {filteredArticles.map((article) => (
             <article key={article.id} className="border-2 border-black p-6 hover:shadow-lg transition">
               <img
-                src={article.imageEmoji}
+                src={article.imageUrl}
                 alt={article.title[language]}
                 className="w-full h-48 object-cover mb-4"
               />

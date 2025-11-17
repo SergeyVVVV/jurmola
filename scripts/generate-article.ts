@@ -232,15 +232,15 @@ Format your response as JSON:
 }
 
 async function insertArticleIntoCode(article: Article) {
-  console.log('📝 Inserting article into code...\n');
+  console.log('📝 Inserting article into centralized data file...\n');
 
-  const articlePagePath = path.join(process.cwd(), 'app/news/[slug]/page.tsx');
-  let content = fs.readFileSync(articlePagePath, 'utf-8');
+  const articlesDataPath = path.join(process.cwd(), 'app/data/articles.ts');
+  let content = fs.readFileSync(articlesDataPath, 'utf-8');
 
   // Find the articles array and insert the new article at the beginning
-  const articlesArrayMatch = content.match(/const articles: ArticleContent\[\] = \[/);
+  const articlesArrayMatch = content.match(/export const articles: Article\[\] = \[/);
   if (!articlesArrayMatch) {
-    throw new Error('Could not find articles array in page.tsx');
+    throw new Error('Could not find articles array in articles.ts');
   }
 
   const insertPosition = articlesArrayMatch.index! + articlesArrayMatch[0].length;
@@ -271,59 +271,28 @@ async function insertArticleIntoCode(article: Article) {
     type: "${article.type}",
     readTime: "${article.readTime}",
     imageUrl: "${article.imageUrl}",
-    author: { en: "${article.author.en}", lv: "${article.author.lv}", ru: "${article.author.ru}" }
+    author: { en: "${article.author.en}", lv: "${article.author.lv}", ru: "${article.author.ru}" },
+    featured: true
   },`;
 
   content = content.slice(0, insertPosition) + articleCode + content.slice(insertPosition);
 
-  fs.writeFileSync(articlePagePath, content, 'utf-8');
-  console.log('✅ Article inserted into code');
-
-  // Also update main page
-  const mainPagePath = path.join(process.cwd(), 'app/page.tsx');
-  let mainContent = fs.readFileSync(mainPagePath, 'utf-8');
-
-  const mainArticlesMatch = mainContent.match(/const newsArticles: NewsArticle\[\] = \[/);
-  if (mainArticlesMatch) {
-    const mainInsertPosition = mainArticlesMatch.index! + mainArticlesMatch[0].length;
-    
-    const mainArticleCode = `
-  {
-    id: ${article.id},
-    slug: "${article.slug}",
-    title: {
-      en: "${article.title.en.replace(/"/g, '\\"')}",
-      lv: "${article.title.lv.replace(/"/g, '\\"')}",
-      ru: "${article.title.ru.replace(/"/g, '\\"')}"
-    },
-    excerpt: {
-      en: "${article.excerpt.en.replace(/"/g, '\\"')}",
-      lv: "${article.excerpt.lv.replace(/"/g, '\\"')}",
-      ru: "${article.excerpt.ru.replace(/"/g, '\\"')}"
-    },
-    date: "${article.date}",
-    category: { en: "${article.category.en}", lv: "${article.category.lv}", ru: "${article.category.ru}" },
-    categories: ${JSON.stringify(article.categories)},
-    type: "${article.type}",
-    readTime: "${article.readTime}",
-    imageEmoji: "${article.imageUrl}",
-    featured: true
-  },`;
-
-    mainContent = mainContent.slice(0, mainInsertPosition) + mainArticleCode + mainContent.slice(mainInsertPosition);
-    
-    // Remove featured flag from previous article
-    mainContent = mainContent.replace(/featured: true\s*\},\s*\{/g, (match) => {
-      // Only replace the second occurrence (first is our new article)
-      if (mainContent.indexOf(match) === mainContent.indexOf('featured: true')) {
-        return match; // Keep first one
-      }
-      return match.replace('featured: true', 'featured: false');
-    });
-
-    fs.writeFileSync(mainPagePath, mainContent, 'utf-8');
-    console.log('✅ Article added to main page as featured');
+  // Update featured flag - make new article featured, remove from others
+  const featuredRegex = /featured: true/g;
+  let match;
+  let firstFeaturedIndex = -1;
+  
+  while ((match = featuredRegex.exec(content)) !== null) {
+    if (firstFeaturedIndex === -1) {
+      firstFeaturedIndex = match.index;
+    } else {
+      // Replace subsequent featured: true with featured: false
+      content = content.substring(0, match.index) + 'featured: false' + content.substring(match.index + 'featured: true'.length);
+    }
   }
+
+  fs.writeFileSync(articlesDataPath, content, 'utf-8');
+  console.log('✅ Article inserted into centralized data file');
 
   console.log('\n🎉 New article successfully generated and added!\n');
   console.log(`📰 ID: ${article.id}`);
@@ -333,44 +302,7 @@ async function insertArticleIntoCode(article: Article) {
   console.log(`📅 Date: ${article.date}\n`);
 }
 
-async function updateRSSFeed(article: Article) {
-  console.log('📡 Updating RSS feed...\n');
-
-  const rssFeedPath = path.join(process.cwd(), 'app/feed.xml/route.ts');
-  let content = fs.readFileSync(rssFeedPath, 'utf-8');
-
-  // Find the articles array in RSS feed
-  const articlesArrayMatch = content.match(/const articles = \[/);
-  if (!articlesArrayMatch) {
-    throw new Error('Could not find articles array in RSS feed route');
-  }
-
-  const insertPosition = articlesArrayMatch.index! + articlesArrayMatch[0].length;
-
-  // Format the new article for RSS
-  const articleCode = `
-  {
-    id: ${article.id},
-    slug: "${article.slug}",
-    title: {
-      en: "${article.title.en.replace(/"/g, '\\"')}",
-      lv: "${article.title.lv.replace(/"/g, '\\"')}",
-      ru: "${article.title.ru.replace(/"/g, '\\"')}"
-    },
-    excerpt: {
-      en: "${article.excerpt.en.replace(/"/g, '\\"')}",
-      lv: "${article.excerpt.lv.replace(/"/g, '\\"')}",
-      ru: "${article.excerpt.ru.replace(/"/g, '\\"')}"
-    },
-    date: "${article.date}",
-    category: { en: "${article.category.en}", lv: "${article.category.lv}", ru: "${article.category.ru}" },
-  },`;
-
-  content = content.slice(0, insertPosition) + articleCode + content.slice(insertPosition);
-
-  fs.writeFileSync(rssFeedPath, content, 'utf-8');
-  console.log('✅ RSS feed updated');
-}
+// RSS feed now auto-imports from centralized articles.ts - no need to update separately
 
 async function main() {
   try {
@@ -380,9 +312,9 @@ async function main() {
 
     const article = await generateArticle();
     await insertArticleIntoCode(article);
-    await updateRSSFeed(article);
     
     console.log('✨ Done! Commit and push the changes to publish the new article.');
+    console.log('📡 RSS feed will auto-update from centralized articles.ts');
   } catch (error) {
     console.error('❌ Error generating article:', error);
     process.exit(1);
