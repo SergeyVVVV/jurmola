@@ -14,6 +14,7 @@ interface ArticleTranslations {
 
 interface Article {
   id: number;
+  slug: string;
   title: ArticleTranslations;
   excerpt: ArticleTranslations;
   fullContent: ArticleTranslations;
@@ -53,6 +54,19 @@ const unsplashTopics = [
   'photo-1593642532744-d377ab507dc8', // Stone/Rock
   'photo-1526778548025-fa2f459cd5c1', // Map/Geography
 ];
+
+// Generate SEO-friendly slug from title
+function generateSlug(title: string): string {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
+    .replace(/\s+/g, '-') // Replace spaces with hyphens
+    .replace(/-+/g, '-') // Replace multiple hyphens with single
+    .replace(/^-|-$/g, '') // Remove leading/trailing hyphens
+    .split('-')
+    .slice(0, 6) // Take first 6 words
+    .join('-');
+}
 
 async function generateArticle(): Promise<Article> {
   console.log('🤖 Generating new satirical article about Latvia...\n');
@@ -160,6 +174,7 @@ Format your response as JSON:
 
   const article: Article = {
     id: newId,
+    slug: generateSlug(englishArticle.title),
     title: {
       en: englishArticle.title,
       lv: latvianArticle.title,
@@ -204,6 +219,7 @@ async function insertArticleIntoCode(article: Article) {
   const articleCode = `
   {
     id: ${article.id},
+    slug: "${article.slug}",
     title: {
       en: "${article.title.en.replace(/"/g, '\\"')}",
       lv: "${article.title.lv.replace(/"/g, '\\"')}",
@@ -242,6 +258,7 @@ async function insertArticleIntoCode(article: Article) {
     const mainArticleCode = `
   {
     id: ${article.id},
+    slug: "${article.slug}",
     title: {
       en: "${article.title.en.replace(/"/g, '\\"')}",
       lv: "${article.title.lv.replace(/"/g, '\\"')}",
@@ -300,6 +317,7 @@ async function updateRSSFeed(article: Article) {
   const articleCode = `
   {
     id: ${article.id},
+    slug: "${article.slug}",
     title: {
       en: "${article.title.en.replace(/"/g, '\\"')}",
       lv: "${article.title.lv.replace(/"/g, '\\"')}",
