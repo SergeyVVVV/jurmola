@@ -5,6 +5,7 @@ import { useLanguage, Language } from '../../hooks/useLanguage';
 
 interface ArticleContent {
   id: number;
+  slug: string;
   title: { en: string; lv: string; ru: string };
   excerpt: { en: string; lv: string; ru: string };
   fullContent: { en: string; lv: string; ru: string };
@@ -18,6 +19,7 @@ interface ArticleContent {
 const articles: ArticleContent[] = [
   {
     id: 1,
+    slug: "jurmola-man-11-years-wedding-excuse",
     title: {
       en: "Jurmola Man Spends 11 Years Constructing Elaborate Excuse For Why He Can't Attend Cousin's Wedding",
       lv: "Jurmolas vīrietis 11 gadus konstruē sarežģītu aizbildinājumu, kāpēc nevar apmeklēt brālēna kāzas",
@@ -119,6 +121,7 @@ Preses konferences laikā Bērziņš pētīja, vai apgalvojums par īslaicīgu a
   },
   {
     id: 2,
+    slug: "riga-monument-mystery-just-some-guy",
     title: {
       en: "Riga Monument Confirmed to Be 'Just Some Guy' No One Can Remember Placing There",
       lv: "Rīgas piemineklis apstiprināts kā 'vienkārši kāds vīrietis', ko neviens neatceras tur esam novietojis",
@@ -259,6 +262,7 @@ Preses konferences brīdī statuja palika Vērmanes dārzā, uzturot savu noslē
   },
   {
     id: 3,
+    slug: "latvian-potato-achieves-sentience",
     title: {
       en: "Local Potato Achieves Sentience, Immediately Files Complaint About Latvian Cuisine Stereotypes",
       lv: "Vietējais kartupelis iegūst apziņu, uzreiz iesniedz sūdzību par latviešu virtuves stereotipiem",
@@ -398,6 +402,7 @@ Preses konferences brīdī Kartupelis bija sarunās ar vairākām galerijām par
   },
   {
     id: 4,
+    slug: "baltic-sea-actually-large-puddle",
     title: {
       en: "Area Man Realizes Baltic Sea He's Been Swimming In For 40 Years Is Actually Very Large Puddle",
       lv: "Vīrietis apzinās, ka Baltijas jūra, kurā viņš peld jau 40 gadus, patiesībā ir ļoti liela peļķe",
@@ -541,6 +546,7 @@ Preses konferences brīdī Liepa pētīja lidojumus uz Atlantijas okeānu, ko vi
   },
   {
     id: 5,
+    slug: "daugava-river-only-tuesdays-thursdays",
     title: {
       en: "Daugava River Announces It Will Now Only Flow On Tuesdays And Thursdays Due To Budget Cuts",
       lv: "Daugavas upe paziņo, ka tagad tā plūdīs tikai otrdienās un ceturtdienās budžeta samazinājumu dēļ",
@@ -705,6 +711,7 @@ Preses konferences brīdī vairāki citi Latvijas ūdensceļi it kā "uzrauga si
   },
   {
     id: 6,
+    slug: "latvian-language-87-percent-silence",
     title: {
       en: "Linguists Discover Latvian Language Actually 87% Uncomfortable Silence",
       lv: "Lingvisti atklāj, ka latviešu valoda patiesībā ir 87% neērtā klusēšana",
@@ -853,6 +860,7 @@ Preses konferences brīdī pētniecības komanda gatavoja turpinājuma pētījum
   },
   {
     id: 7,
+    slug: "jurmola-man-life-savings-perfectly-round-stone",
     title: {
       en: "Local Man Spends Entire Life Savings On Single Perfectly Round Stone From Jurmola Beach",
       lv: "Vietējais vīrietis tērē visus dzīves ietaupījumus vienam ideāli apaļam akmenim no Jurmolas pludmales",
@@ -978,6 +986,7 @@ Vietējie pludmales apmeklētāji ir sākuši rūpīgāk pārbaudīt oļus, lai 
   },
   {
     id: 8,
+    slug: "latvia-moving-east-geographic-adjustment",
     title: {
       en: "Scientists Confirm Latvia Slightly More East Than Previously Thought; Country To Adjust Accordingly",
       lv: "Zinātnieki apstiprina, ka Latvija ir nedaudz austrumāk nekā iepriekš uzskatīts; valsts attiecīgi pielāgosies",
@@ -1113,6 +1122,7 @@ Preses konferences brīdī valdības amatpersonas finalizēja līgumus ar starpt
   },
   {
     id: 9,
+    slug: "london-banker-jurmola-compacting-beach-sand",
     title: {
       en: "Famous London Investment Banker Visits Jurmola, Proposes Compacting Beach Sand For 'Strategic Purposes'",
       lv: "Slavens Londons investīciju banķieris apmeklē Jūrmalu, ierosina sablīvēt pludmales smiltis 'stratēģiskiem mērķiem'",
@@ -1265,10 +1275,10 @@ const translations = {
 
 export default function ArticlePage() {
   const params = useParams();
-  const articleId = parseInt(params.id as string);
+  const slug = params.slug as string;
   const { language, setLanguage } = useLanguage();
 
-  const article = articles.find(a => a.id === articleId);
+  const article = articles.find(a => a.slug === slug);
 
   if (!article) {
     return (

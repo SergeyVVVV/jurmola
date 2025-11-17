@@ -5,6 +5,7 @@ import { useLanguage, Language } from './hooks/useLanguage';
 
 interface NewsArticle {
   id: number;
+  slug: string;
   title: { en: string; lv: string; ru: string };
   excerpt: { en: string; lv: string; ru: string };
   date: string;
@@ -17,6 +18,7 @@ interface NewsArticle {
 const newsArticles: NewsArticle[] = [
   {
     id: 1,
+    slug: "jurmola-man-11-years-wedding-excuse",
     title: {
       en: "Jurmola Man Spends 11 Years Constructing Elaborate Excuse For Why He Can't Attend Cousin's Wedding",
       lv: "Jurmolas vīrietis 11 gadus konstruē sarežģītu aizbildinājumu, kāpēc nevar apmeklēt brālēna kāzas",
@@ -34,6 +36,7 @@ const newsArticles: NewsArticle[] = [
   },
   {
     id: 2,
+    slug: "riga-monument-mystery-just-some-guy",
     title: {
       en: "Riga Monument Confirmed to Be 'Just Some Guy' No One Can Remember Placing There",
       lv: "Rīgas piemineklis apstiprināts kā 'vienkārši kāds vīrietis', ko neviens neatceras tur esam novietojis",
@@ -51,6 +54,7 @@ const newsArticles: NewsArticle[] = [
   },
   {
     id: 3,
+    slug: "latvian-potato-achieves-sentience",
     title: {
       en: "Local Potato Achieves Sentience, Immediately Files Complaint About Latvian Cuisine Stereotypes",
       lv: "Vietējais kartupelis iegūst apziņu, uzreiz iesniedz sūdzību par latviešu virtuves stereotipiem",
@@ -68,6 +72,7 @@ const newsArticles: NewsArticle[] = [
   },
   {
     id: 4,
+    slug: "baltic-sea-actually-large-puddle",
     title: {
       en: "Area Man Realizes Baltic Sea He's Been Swimming In For 40 Years Is Actually Very Large Puddle",
       lv: "Vīrietis apzinās, ka Baltijas jūra, kurā viņš peld jau 40 gadus, patiesībā ir ļoti liela peļķe",
@@ -85,6 +90,7 @@ const newsArticles: NewsArticle[] = [
   },
   {
     id: 5,
+    slug: "daugava-river-only-tuesdays-thursdays",
     title: {
       en: "Daugava River Announces It Will Now Only Flow On Tuesdays And Thursdays Due To Budget Cuts",
       lv: "Daugavas upe paziņo, ka tagad tā plūdīs tikai otrdienās un ceturtdienās budžeta samazinājumu dēļ",
@@ -102,6 +108,7 @@ const newsArticles: NewsArticle[] = [
   },
   {
     id: 6,
+    slug: "latvian-language-87-percent-silence",
     title: {
       en: "Linguists Discover Latvian Language Actually 87% Uncomfortable Silence",
       lv: "Lingvisti atklāj, ka latviešu valoda patiesībā ir 87% neērtā klusēšana",
@@ -119,6 +126,7 @@ const newsArticles: NewsArticle[] = [
   },
   {
     id: 7,
+    slug: "jurmola-man-life-savings-perfectly-round-stone",
     title: {
       en: "Local Man Spends Entire Life Savings On Single Perfectly Round Stone From Jurmola Beach",
       lv: "Vietējais vīrietis tērē visus dzīves ietaupījumus vienam ideāli apaļam akmenim no Jurmolas pludmales",
@@ -136,6 +144,7 @@ const newsArticles: NewsArticle[] = [
   },
   {
     id: 8,
+    slug: "latvia-moving-east-geographic-adjustment",
     title: {
       en: "Scientists Confirm Latvia Slightly More East Than Previously Thought; Country To Adjust Accordingly",
       lv: "Zinātnieki apstiprina, ka Latvija ir nedaudz austrumāk nekā iepriekš uzskatīts; valsts attiecīgi pielāgosies",
@@ -153,6 +162,7 @@ const newsArticles: NewsArticle[] = [
   },
   {
     id: 9,
+    slug: "london-banker-jurmola-compacting-beach-sand",
     title: {
       en: "Famous London Investment Banker Visits Jurmola, Proposes Compacting Beach Sand For 'Strategic Purposes'",
       lv: "Slavens Londons investīciju banķieris apmeklē Jūrmalu, ierosina sablīvēt pludmales smiltis 'stratēģiskiem mērķiem'",
@@ -308,7 +318,7 @@ export default function Home() {
               <span className="text-xs font-semibold text-red-600 uppercase tracking-wide">
                 {article.category[language]}
               </span>
-              <a href={`/article/${article.id}`}>
+              <a href={`/article/${article.slug}`}>
                 <h3 className="text-xl font-bold mt-2 mb-3 leading-tight hover:underline cursor-pointer" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
                   {article.title[language]}
                 </h3>
