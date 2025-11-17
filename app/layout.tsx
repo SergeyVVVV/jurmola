@@ -17,14 +17,21 @@ const sourceSerif = Source_Serif_4({
 export const metadata: Metadata = {
   title: "Jurmola Telegraphs - Your Jurmala, Your Capital",
   description: "Many people ask us, so we write in the subtitle: our resource has nothing to do with Laima Vaikule. At all. And it has nothing to do with limes either.",
-  metadataBase: new URL('https://jurmola.com'),
+  metadataBase: new URL('https://jurmola.vercel.app'),
   alternates: {
     canonical: '/',
+    types: {
+      'application/rss+xml': [
+        { url: '/feed.xml?lang=en', title: 'Jurmola Telegraphs (English)' },
+        { url: '/feed.xml?lang=lv', title: 'Jurmola Telegraphs (Latviešu)' },
+        { url: '/feed.xml?lang=ru', title: 'Jurmola Telegraphs (Русский)' },
+      ],
+    },
   },
   openGraph: {
     title: "Jurmola Telegraphs - Your Jurmala, Your Capital",
     description: "Many people ask us, so we write in the subtitle: our resource has nothing to do with Laima Vaikule. At all. And it has nothing to do with limes either.",
-    url: "https://jurmola.com",
+    url: "https://jurmola.vercel.app",
     siteName: "Jurmola Telegraphs",
     locale: "en_US",
     type: "website",

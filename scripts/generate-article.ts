@@ -282,6 +282,44 @@ async function insertArticleIntoCode(article: Article) {
   console.log(`📅 Date: ${article.date}\n`);
 }
 
+async function updateRSSFeed(article: Article) {
+  console.log('📡 Updating RSS feed...\n');
+
+  const rssFeedPath = path.join(process.cwd(), 'app/feed.xml/route.ts');
+  let content = fs.readFileSync(rssFeedPath, 'utf-8');
+
+  // Find the articles array in RSS feed
+  const articlesArrayMatch = content.match(/const articles = \[/);
+  if (!articlesArrayMatch) {
+    throw new Error('Could not find articles array in RSS feed route');
+  }
+
+  const insertPosition = articlesArrayMatch.index! + articlesArrayMatch[0].length;
+
+  // Format the new article for RSS
+  const articleCode = `
+  {
+    id: ${article.id},
+    title: {
+      en: "${article.title.en.replace(/"/g, '\\"')}",
+      lv: "${article.title.lv.replace(/"/g, '\\"')}",
+      ru: "${article.title.ru.replace(/"/g, '\\"')}"
+    },
+    excerpt: {
+      en: "${article.excerpt.en.replace(/"/g, '\\"')}",
+      lv: "${article.excerpt.lv.replace(/"/g, '\\"')}",
+      ru: "${article.excerpt.ru.replace(/"/g, '\\"')}"
+    },
+    date: "${article.date}",
+    category: { en: "${article.category.en}", lv: "${article.category.lv}", ru: "${article.category.ru}" },
+  },`;
+
+  content = content.slice(0, insertPosition) + articleCode + content.slice(insertPosition);
+
+  fs.writeFileSync(rssFeedPath, content, 'utf-8');
+  console.log('✅ RSS feed updated');
+}
+
 async function main() {
   try {
     if (!process.env.OPENAI_API_KEY) {
@@ -290,6 +328,7 @@ async function main() {
 
     const article = await generateArticle();
     await insertArticleIntoCode(article);
+    await updateRSSFeed(article);
     
     console.log('✨ Done! Commit and push the changes to publish the new article.');
   } catch (error) {
