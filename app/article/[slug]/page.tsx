@@ -1298,8 +1298,39 @@ export default function ArticlePage() {
     );
   }
 
+  // Schema.org structured data for SEO
+  const schemaOrgData = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": article.title[language],
+    "description": article.excerpt[language],
+    "image": article.imageUrl,
+    "datePublished": new Date(article.date).toISOString(),
+    "dateModified": new Date(article.date).toISOString(),
+    "author": {
+      "@type": "Person",
+      "name": article.author[language].replace(/By |Rakstījis |Rakstījusi |Автор: /g, '')
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Jurmola Telegraphs",
+      "url": "https://jurmola.vercel.app"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://jurmola.vercel.app/article/${article.slug}`
+    },
+    "articleSection": article.category[language]
+  };
+
   return (
     <div className="min-h-screen bg-white">
+      {/* Schema.org Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrgData) }}
+      />
+      
       {/* Top Bar */}
       <div className="border-b border-gray-200">
         <div className="max-w-5xl mx-auto px-4 py-2 flex justify-between items-center text-sm">
