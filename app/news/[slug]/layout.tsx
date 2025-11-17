@@ -81,7 +81,7 @@ export async function generateMetadata(
   }
 
   const baseUrl = 'https://jurmola.vercel.app';
-  const articleUrl = `${baseUrl}/article/${article.slug}`;
+  const articleUrl = `${baseUrl}/news/${article.slug}`;
   const imageUrl = `${baseUrl}/og-image.png`; // You can customize per article later
 
   return {

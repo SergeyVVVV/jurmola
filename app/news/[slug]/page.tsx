@@ -1290,7 +1290,7 @@ export default function ArticlePage() {
     if (articleById) {
       // 301 redirect to the proper slug URL
       if (typeof window !== 'undefined') {
-        window.location.replace(`/article/${articleById.slug}`);
+        window.location.replace(`/news/${articleById.slug}`);
       }
       return null;
     }
@@ -1327,7 +1327,7 @@ export default function ArticlePage() {
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://jurmola.vercel.app/article/${article.slug}`
+      "@id": `https://jurmola.vercel.app/news/${article.slug}`
     },
     "articleSection": article.category[language]
   };

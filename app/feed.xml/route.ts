@@ -152,8 +152,8 @@ function generateRSSItem(article: typeof articles[0], language: 'en' | 'lv' | 'r
   const baseUrl = 'https://jurmola.vercel.app'; // Update with your actual domain
   const title = article.title[language];
   const description = article.excerpt[language];
-  const link = `${baseUrl}/article/${article.slug}`;
-  const guid = `${baseUrl}/article/${article.slug}`;
+  const link = `${baseUrl}/news/${article.slug}`;
+  const guid = `${baseUrl}/news/${article.slug}`;
   const pubDate = new Date(article.date).toUTCString();
   const category = article.category[language];
 

@@ -156,7 +156,7 @@ Format your response as JSON:
   console.log('✅ Russian translation complete\n');
 
   // Get current articles to determine next ID
-  const articlePagePath = path.join(process.cwd(), 'app/article/[id]/page.tsx');
+  const articlePagePath = path.join(process.cwd(), 'app/news/[slug]/page.tsx');
   const content = fs.readFileSync(articlePagePath, 'utf-8');
   const idMatches = content.match(/id:\s*(\d+)/g) || [];
   const ids = idMatches.map(match => parseInt(match.match(/\d+/)![0]));
@@ -204,7 +204,7 @@ Format your response as JSON:
 async function insertArticleIntoCode(article: Article) {
   console.log('📝 Inserting article into code...\n');
 
-  const articlePagePath = path.join(process.cwd(), 'app/article/[id]/page.tsx');
+  const articlePagePath = path.join(process.cwd(), 'app/news/[slug]/page.tsx');
   let content = fs.readFileSync(articlePagePath, 'utf-8');
 
   // Find the articles array and insert the new article at the beginning
