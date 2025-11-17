@@ -1278,7 +1278,14 @@ export default function ArticlePage() {
   const slug = params.slug as string;
   const { language, setLanguage } = useLanguage();
 
-  const article = articles.find(a => a.slug === slug);
+  // Support both slug and legacy ID routing
+  const article = articles.find(a => {
+    // Check if it's a slug match
+    if (a.slug === slug) return true;
+    // Check if it's a legacy ID (for backwards compatibility)
+    if (!isNaN(Number(slug)) && a.id === Number(slug)) return true;
+    return false;
+  });
 
   if (!article) {
     return (
