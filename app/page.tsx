@@ -293,25 +293,25 @@ export default function Home() {
               href="/politics/" 
               className="text-lg font-semibold hover:text-orange-600 transition cursor-pointer"
             >
-              🎯 {translations.sections.politics[language]}
+              {translations.sections.politics[language]}
             </a>
             <a 
               href="/culture/" 
               className="text-lg font-semibold hover:text-orange-600 transition cursor-pointer"
             >
-              🎭 {translations.sections.culture[language]}
+              {translations.sections.culture[language]}
             </a>
             <a 
               href="/business/" 
               className="text-lg font-semibold hover:text-orange-600 transition cursor-pointer"
             >
-              💼 {translations.sections.business[language]}
+              {translations.sections.business[language]}
             </a>
             <a 
               href="/opinion/" 
               className="text-lg font-semibold hover:text-orange-600 transition cursor-pointer"
             >
-              💭 {translations.sections.opinion[language]}
+              {translations.sections.opinion[language]}
             </a>
           </div>
         </div>
