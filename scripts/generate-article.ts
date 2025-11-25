@@ -241,6 +241,29 @@ async function insertArticleIntoCode(article: Article) {
   const articlesDataPath = path.join(process.cwd(), 'app/data/articles.ts');
   let content = fs.readFileSync(articlesDataPath, 'utf-8');
 
+  // ⚠️ RACE CONDITION CHECK: Re-verify ID and slug are still unique
+  const idMatches = content.match(/id:\s*(\d+)/g) || [];
+  const existingIds = idMatches.map(match => parseInt(match.match(/\d+/)![0]));
+  
+  if (existingIds.includes(article.id)) {
+    const newMaxId = Math.max(...existingIds, 0);
+    const oldId = article.id;
+    article.id = newMaxId + 1;
+    console.log(`⚠️  Race condition detected! ID ${oldId} already exists.`);
+    console.log(`🔄 Reassigning to ID ${article.id}\n`);
+  }
+
+  // Check if slug already exists
+  const slugMatches = content.match(/slug:\s*"([^"]+)"/g) || [];
+  const existingSlugs = slugMatches.map(match => match.match(/slug:\s*"([^"]+)"/)?.[1] || '');
+  
+  if (existingSlugs.includes(article.slug)) {
+    const oldSlug = article.slug;
+    article.slug = `${article.slug}-${article.id}`;
+    console.log(`⚠️  Duplicate slug detected! "${oldSlug}" already exists.`);
+    console.log(`🔄 Reassigning to "${article.slug}"\n`);
+  }
+
   // Find the articles array and insert the new article at the beginning
   const articlesArrayMatch = content.match(/export const articles: Article\[\] = \[/);
   if (!articlesArrayMatch) {
