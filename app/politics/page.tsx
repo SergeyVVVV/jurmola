@@ -66,7 +66,7 @@ export default function PoliticsPage() {
           </div>
 
           <h1 className="text-5xl font-bold mb-4" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
-            🎯 {translations.pageTitle[language]}
+            {translations.pageTitle[language]}
           </h1>
           <p className="text-lg text-gray-700 max-w-3xl">
             {translations.pageDescription[language]}
@@ -96,7 +96,7 @@ export default function PoliticsPage() {
                 : 'text-gray-500 hover:text-black'
             }`}
           >
-            📰 {translations.news[language]}
+            {translations.news[language]}
           </button>
           <button
             onClick={() => setFilter('interview')}
@@ -106,7 +106,7 @@ export default function PoliticsPage() {
                 : 'text-gray-500 hover:text-black'
             }`}
           >
-            🎤 {translations.interviews[language]}
+            {translations.interviews[language]}
           </button>
           <button
             onClick={() => setFilter('analysis')}
@@ -116,7 +116,7 @@ export default function PoliticsPage() {
                 : 'text-gray-500 hover:text-black'
             }`}
           >
-            📊 {translations.analysis[language]}
+            {translations.analysis[language]}
           </button>
         </div>
 

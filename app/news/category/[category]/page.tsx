@@ -66,7 +66,7 @@ export default function NewsCategoryPage() {
           </div>
 
           <h1 className="text-5xl font-bold mb-4" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
-            📰 {translations.pageTitle[categoryKey][language]}
+            {translations.pageTitle[categoryKey][language]}
           </h1>
           <p className="text-lg text-gray-700 max-w-3xl">
             {translations.pageDescription[categoryKey][language]}

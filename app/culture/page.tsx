@@ -51,7 +51,7 @@ export default function CulturePage() {
             </div>
           </div>
           <h1 className="text-5xl font-bold mb-4" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
-            🎭 {translations.pageTitle[language]}
+            {translations.pageTitle[language]}
           </h1>
           <p className="text-lg text-gray-700 max-w-3xl">{translations.pageDescription[language]}</p>
         </div>
@@ -60,9 +60,9 @@ export default function CulturePage() {
       <main className="max-w-7xl mx-auto px-6 py-12">
         <div className="flex gap-4 mb-8 border-b-2 border-gray-200 pb-2">
           <button onClick={() => setFilter('all')} className={`px-4 py-2 text-lg font-semibold ${filter === 'all' ? 'border-b-4 border-black -mb-2' : 'text-gray-500'}`}>{translations.all[language]}</button>
-          <button onClick={() => setFilter('news')} className={`px-4 py-2 text-lg font-semibold ${filter === 'news' ? 'border-b-4 border-black -mb-2' : 'text-gray-500'}`}>📰 {translations.news[language]}</button>
-          <button onClick={() => setFilter('interview')} className={`px-4 py-2 text-lg font-semibold ${filter === 'interview' ? 'border-b-4 border-black -mb-2' : 'text-gray-500'}`}>🎤 {translations.interviews[language]}</button>
-          <button onClick={() => setFilter('analysis')} className={`px-4 py-2 text-lg font-semibold ${filter === 'analysis' ? 'border-b-4 border-black -mb-2' : 'text-gray-500'}`}>📊 {translations.analysis[language]}</button>
+          <button onClick={() => setFilter('news')} className={`px-4 py-2 text-lg font-semibold ${filter === 'news' ? 'border-b-4 border-black -mb-2' : 'text-gray-500'}`}>{translations.news[language]}</button>
+          <button onClick={() => setFilter('interview')} className={`px-4 py-2 text-lg font-semibold ${filter === 'interview' ? 'border-b-4 border-black -mb-2' : 'text-gray-500'}`}>{translations.interviews[language]}</button>
+          <button onClick={() => setFilter('analysis')} className={`px-4 py-2 text-lg font-semibold ${filter === 'analysis' ? 'border-b-4 border-black -mb-2' : 'text-gray-500'}`}>{translations.analysis[language]}</button>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
