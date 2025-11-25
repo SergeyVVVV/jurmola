@@ -6,6 +6,9 @@ on:
     - cron: '0 9 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub Actions tab
 
+permissions:
+  contents: write  # Разрешаем запись в репозиторий
+
 jobs:
   generate-article:
     runs-on: ubuntu-latest
@@ -47,5 +50,15 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto-generate daily article - $(date +'%Y-%m-%d')" && git push)
+          
+          # Check if there are changes
+          if git diff --staged --quiet; then
+            echo "✅ No changes to commit"
+          else
+            echo "📝 Committing changes..."
+            git commit -m "🤖 Auto-generate daily article - $(date +'%Y-%m-%d')"
+            echo "🚀 Pushing to repository..."
+            git push
+            echo "✅ Changes pushed successfully!"
+          fi
 
