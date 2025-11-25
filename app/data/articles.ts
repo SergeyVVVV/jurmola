@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 10,
+    slug: "riga-announces-new-public-holiday-celebrating",
+    title: {
+      en: "Riga Announces New Public Holiday Celebrating Grey Days: Enthusiastic Locals Embrace 'Diena Pelēka' with Gusto",
+      lv: "Rīga Ievieš Jaunu Valsts Svētku Dienu Pelēkajiem Laikapstākļiem: Vietējie Ar Entuziasmu Sagaida 'Diena Pelēka'",
+      ru: "Рига объявляет новый государственный праздник в честь серых дней: энтузиасты-горожане с энтузиазмом встречают 'Diena Pelēka'"
+    },
+    excerpt: {
+      en: "In an unprecedented move, Riga City Council has officially declared November 18th as 'Diena Pelēka,' a public holiday dedicated to celebrating grey skies. The decision has been met with overwhelming enthusiasm from residents eager to pay homage to the city's most consistent weather pattern.",
+      lv: "Rīgas domes nebijis lēmums oficiāli pasludināt 18. novembri par 'Diena Pelēka' - valsts svētku dienu, kas veltīta pelēkajām debesīm, ir izraisījis milzīgu vietējo iedzīvotāju sajūsmu, kuri vēlas godināt pilsētas viskonsekventāko laikapstākļu parādību.",
+      ru: "В беспрецедентном шаге Рижский городской совет официально объявил 18 ноября 'Diena Pelēka', государственным праздником, посвященным празднованию серого неба. Решение было встречено с огромным энтузиазмом со стороны жителей, стремящихся отдать дань уважения самой постоянной погодной особенности города."
+    },
+    fullContent: {
+      en: `In a bold and heartwarming gesture, the Riga City Council has officially designated November 18th as 'Diena Pelēka,' a public holiday celebrating the omnipresent grey skies that blanket the city for at least 342 days a year. The decision was passed unanimously after a proposal submitted by the Riga Meteorological Society garnered an unprecedented wave of public support.
+
+Riga City Council spokesperson, Andris Purvins, explained the rationale behind the new holiday at a press conference this Tuesday. 'We believe it's time to embrace what truly makes Riga unique. Our grey skies are as much a part of our identity as our charming Art Nouveau architecture, our cultural festivals, and our rigorous skepticism towards any temperature above 10 degrees Celsius,' Purvins declared amid the gentle drizzle that marked the day's weather.
+
+Local resident Maija Jansone, a self-proclaimed grey sky enthusiast, expressed her delight at the announcement. 'I've always found something romantic in our drab horizon. It's mother nature’s canvas, ready for the imagination to paint brighter colors. Plus, it’s much easier to decide what to wear when the forecast is reliably monochrome,' Jansone admitted.
+
+In an effort to make 'Diena Pelēka' a memorable affair, city planners have arranged a series of events to ensure that the day is both educational and delightfully predictable. Activities will include a 'Fifty Shades of Grey Sky' photo competition, a comprehensive workshop on the art of layering clothes for maximum gloom-comfort, and an evening poetry reading titled 'Clouds: The Unchanging Sentinels.'
+
+Local weather historian, Professor Ivars Lekstutis, has been a vocal advocate for recognizing the cultural significance of grey skies in Latvia. 'For too long, we have associated the grey skies with gloom, when in reality, they have been our most faithful companions. Historically, it’s what's stopped invaders from bothering us time and time again,' Lekstutis stated passionately during a cloud appreciation seminar. 'It's time we celebrated that.'
+
+The announcement has also sparked interest among international meteorological tourism agencies, who are adding Riga to their itineraries under the banner 'Discover 50 Shades of Atmospheric Consistency.' The new holiday is expected to boost tourism in the normally off-peak month of November, with the city anticipating a modest increase in visitors hoping to experience the famed enigmatic light of northern Europe.
+
+Despite the holiday's positive reception, critics have voiced concerns over the economic impact of adding another public holiday to the calendar. In response, Minister of Finance, Egle Rasina, reassured skeptics by pointing out, 'The locals will probably stay indoors or in cafes debating the subtle variations of grey. Productivity will likely increase simply from the collective morale boost. It’s a win-win.'
+
+In the weeks leading up to the inaugural 'Diena Pelēka,' the optimism is palpable in the air—or perhaps a trick of the melancholic mist. Rigan residents appear ready to showcase their resilience and pride in embracing a climate that is as reliably unpredictable as the city’s public transport timetable.
+
+Experts have predicted up to an 84% chance of drizzling fanfare, with intermittent showers of poetry and, universally, high spirits. And with a gentle nod to the weather, everyone agrees: it's best to plan for rain and hope for rain.`,
+      lv: `Rīgas dome drosmīgā un sirsnīgā žestā oficiāli pasludinājusi 18. novembri par 'Diena Pelēka', svētku dienu, kas svin visuresošās pelēkās debesis, kas klāj pilsētu vismaz 342 dienas gadā. Lēmums tika pieņemts vienbalsīgi pēc tam, kad Rīgas Meteoroloģijas biedrības iesniegtais priekšlikums izraisīja nepieredzētu sabiedrības atbalsta vilni.
+
+Rīgas domes pārstāvis Andris Purviņš otrdien preses konferencē skaidroja jaunās svētku dienas iemeslus. 'Mēs uzskatām, ka ir pienācis laiks pieņemt to, kas patiesi padara Rīgu unikālu. Mūsu pelēkās debesis ir tikpat liela mūsu identitātes daļa kā mūsu šarmantā jūgendstila arhitektūra, mūsu kultūras festivāli un mūsu stingrā skepses attieksme pret jebkuru temperatūru virs 10 grādiem pēc Celsija,' Purviņš paziņoja vieglā lietus laikā, kas iezīmēja dienas laikapstākļus.
+
+Vietējā iedzīvotāja Maija Jansone, pašpasludināta pelēko debesu entuziaste, pauda savu prieku par paziņojumu. 'Es vienmēr esmu atradusi kaut ko romantisku mūsu drūmajā horizontā. Tā ir mātes dabas audekls, gatavs iztēlei krāsot spilgtākas krāsas. Turklāt, ir daudz vieglāk izlemt, ko vilkt mugurā, kad prognoze ir uzticami vienkrāsaina,' Jansone atzina.
+
+Lai 'Diena Pelēka' būtu neaizmirstams pasākums, pilsētas plānotāji ir sarīkojuši virkni pasākumu, lai nodrošinātu, ka diena ir gan izglītojoša, gan patīkami paredzama. Aktivitātes ietvers 'Pelēko Debesu Piecdesmit Noktīs' foto konkursu, visaptverošu darbnīcu par apģērbu slāņošanas mākslu maksimālai drūmuma komfortam un vakara dzejas lasījumu ar nosaukumu 'Mākoņi: Nemainīgie Sargi.'
+
+Vietējais laikapstākļu vēsturnieks, profesors Ivars Lekstutis, ir bijis skaļš pelēko debesu kultūras nozīmes atzīšanas aizstāvis Latvijā. 'Pārāk ilgi mēs esam saistījuši pelēkās debesis ar drūmumu, kad patiesībā tās ir bijušas mūsu uzticamākie pavadoņi. Vēsturiski, tās ir tas, kas atkal un atkal ir atturējis iebrucējus no mūsu apgrūtināšanas,' Lekstutis kaislīgi paziņoja mākoņu novērtēšanas seminārā. 'Ir pienācis laiks to svinēt.'
+
+Paziņojums ir izraisījis arī starptautisko meteoroloģisko tūrisma aģentūru interesi, kuras pievieno Rīgu saviem maršrutiem ar saukli 'Atklājiet 50 Atmosfēras Konsistences Noktīs.' Jaunā svētku diena tiek sagaidīta, lai veicinātu tūrismu parasti klusajā novembra mēnesī, pilsētai cerot uz nelielu apmeklētāju pieaugumu, kuri vēlas piedzīvot slaveno ziemeļeiropas noslēpumaino gaismu.
+
+Neskatoties uz svētku dienas pozitīvo uzņemšanu, kritiķi ir izteikuši bažas par ekonomisko ietekmi, pievienojot vēl vienu valsts svētku dienu kalendārā. Atbildot uz to, finanšu ministre Egle Rasiņa nomierināja skeptiķus, norādot, 'Vietējie, visticamāk, paliks iekštelpās vai kafejnīcās, apspriežot pelēko nokrāsu smalkās variācijas. Produktivitāte, iespējams, pieaugs vienkārši no kolektīvā morāles uzlabojuma. Tas ir abpusēji izdevīgs risinājums.'
+
+Nedēļas pirms pirmās 'Diena Pelēka' ir jūtams optimisms gaisā — vai varbūt tas ir melanholiskā miglas triks. Rīgas iedzīvotāji šķiet gatavi demonstrēt savu izturību un lepnumu, pieņemot klimatu, kas ir tikpat uzticami neparedzams kā pilsētas sabiedriskā transporta grafiks.
+
+Eksperti ir prognozējuši līdz pat 84% iespējamību lietus svinībām, ar pārtrauktiem dzejas lietiem un, universāli, augstu garu. Un ar maigu mājienu uz laikapstākļiem, visi piekrīt: vislabāk ir plānot lietu un cerēt uz lietu.`,
+      ru: `В смелом и душевном жесте Рижский городской совет официально назначил 18 ноября 'Diena Pelēka', государственным праздником, посвященным вездесущему серому небу, которое покрывает город как минимум 342 дня в году. Решение было принято единогласно после того, как предложение, поданное Рижским метеорологическим обществом, собрало беспрецедентную волну общественной поддержки.
+
+Пресс-секретарь Рижского городского совета, Андрис Пурвиньш, объяснил обоснование нового праздника на пресс-конференции во вторник. 'Мы считаем, что пришло время принять то, что действительно делает Ригу уникальной. Наше серое небо является такой же частью нашей идентичности, как наша очаровательная архитектура в стиле ар-нуво, наши культурные фестивали и наше строгое скептическое отношение к любой температуре выше 10 градусов Цельсия,' заявил Пурвиньш под легким дождиком, который сопровождал погоду дня.
+
+Местная жительница Майя Янсоне, самопровозглашенный энтузиаст серого неба, выразила свою радость по поводу этого объявления. 'Я всегда находила что-то романтичное в нашем унылом горизонте. Это холст матушки-природы, готовый для того, чтобы воображение нарисовало яркие цвета. Плюс, гораздо легче решить, что надеть, когда прогноз надежно монохромный,' призналась Янсоне.
+
+В попытке сделать 'Diena Pelēka' запоминающимся событием, городские планировщики организовали серию мероприятий, чтобы день был как образовательным, так и приятно предсказуемым. Активности будут включать фотоконкурс 'Пятьдесят оттенков серого неба', комплексный мастер-класс по искусству многослойной одежды для максимального комфорта в унынии и вечернее чтение стихов под названием 'Облака: неизменные стражи'.
+
+Местный историк погоды, профессор Иварс Лекстутис, был активным сторонником признания культурного значения серого неба в Латвии. 'Слишком долго мы ассоциировали серое небо с унынием, в то время как на самом деле они были нашими самыми верными спутниками. Исторически, это то, что останавливало захватчиков от того, чтобы беспокоить нас снова и снова,' страстно заявил Лекстутис во время семинара по оценке облаков. 'Пора это отпраздновать.'
+
+Объявление также вызвало интерес среди международных туристических агентств, специализирующихся на метеорологии, которые добавляют Ригу в свои маршруты под лозунгом 'Откройте для себя 50 оттенков атмосферной стабильности'. Ожидается, что новый праздник увеличит туризм в обычно непиковый месяц ноябрь, и город ожидает скромного увеличения числа посетителей, надеющихся испытать знаменитый загадочный свет Северной Европы.
+
+Несмотря на положительное восприятие праздника, критики выразили обеспокоенность по поводу экономического воздействия добавления еще одного государственного праздника в календарь. В ответ министр финансов, Эгле Расина, успокоила скептиков, отметив: 'Местные жители, вероятно, останутся дома или в кафе, обсуждая тонкие вариации серого. Производительность, вероятно, возрастет просто от коллективного подъема духа. Это беспроигрышный вариант.'
+
+В преддверии первого 'Diena Pelēka' оптимизм ощутим в воздухе — или, возможно, это трюк меланхоличного тумана. Жители Риги, похоже, готовы продемонстрировать свою стойкость и гордость, принимая климат, который так же надежно непредсказуем, как и расписание общественного транспорта города.
+
+Эксперты предсказали до 84% вероятности дождливого торжества, с периодическими ливнями поэзии и, повсеместно, высоким настроением. И с легким кивком в сторону погоды, все согласны: лучше планировать на дождь и надеяться на дождь.`
+    },
+    date: "Nov 25, 2025",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 1,
     slug: "jurmola-man-11-years-wedding-excuse",
     title: {
@@ -257,6 +332,6 @@ export const articles: Article[] = [
     readTime: "10 min read",
     imageUrl: "/images/vladimirov-flag.jpeg",
     author: { en: "By Evelina Sokolova", lv: "Rakstījusi Evelīna Sokolova", ru: "Автор: Эвелина Соколова" },
-    featured: true
+    featured: false
   }
 ];
