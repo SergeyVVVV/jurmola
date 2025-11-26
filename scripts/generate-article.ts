@@ -57,6 +57,17 @@ const unsplashTopics = [
   'photo-1456513080510-7bf3a84b82f8', // Library/Books
   'photo-1593642532744-d377ab507dc8', // Stone/Rock
   'photo-1526778548025-fa2f459cd5c1', // Map/Geography
+  'photo-1559827260-dc66d52bef19', // Wind/Beach
+  'photo-1506905925346-21bda4d32df4', // Mountains
+  'photo-1472214103451-9374bd1c798e', // Forest
+  'photo-1519681393784-d120267933ba', // Night sky
+  'photo-1551632811-561732d1e306', // Snow
+  'photo-1532274402911-5a369e4c4bb5', // Weather
+  'photo-1470071459604-3b5ec3a7fe05', // Nature
+  'photo-1500534314209-a25ddb2bd429', // Architecture
+  'photo-1541963463532-d68292c34b19', // Books
+  'photo-1551847677-dc82daa8537f', // Coffee
+  'photo-1581091226825-a6a2a5aee158', // Tech
 ];
 
 // Generate SEO-friendly slug from title
@@ -172,7 +183,19 @@ Format your response as JSON:
   // Random selections
   const category = categories[Math.floor(Math.random() * categories.length)];
   const author = authors[Math.floor(Math.random() * authors.length)];
-  const imageId = unsplashTopics[Math.floor(Math.random() * unsplashTopics.length)];
+  
+  // Select image that's not already used
+  const usedImages = content.match(/imageUrl:\s*"https:\/\/images\.unsplash\.com\/([^?]+)/g)
+    ?.map(match => match.match(/photo-[a-zA-Z0-9_-]+/)?.[0])
+    .filter(Boolean) || [];
+  
+  const availableImages = unsplashTopics.filter(id => !usedImages.includes(id));
+  const imageId = availableImages.length > 0
+    ? availableImages[Math.floor(Math.random() * availableImages.length)]
+    : unsplashTopics[Math.floor(Math.random() * unsplashTopics.length)]; // Fallback if all used
+  
+  console.log(`🖼️  Selected image: ${imageId} (${availableImages.length} available)`);
+  
   const readTime = `${Math.floor(Math.random() * 6) + 5} min read`;
 
   // Determine categories and type based on category

@@ -9,7 +9,9 @@ type Props = {
 export async function generateMetadata(
   { params }: Props
 ): Promise<Metadata> {
-  const slug = params.slug;
+  // Next.js 15: params is now a Promise
+  const resolvedParams = await Promise.resolve(params);
+  const slug = resolvedParams.slug;
   
   // Find article by slug or ID (for backwards compatibility)
   const article = articles.find(a => 

@@ -93,7 +93,7 @@ Gaidot iniciatīvas plānoto uzsākšanu 2025. gadā, vietējie un tūristi tiek
     categories: ["opinion"],
     type: "news",
     readTime: "10 min read",
-    imageUrl: "https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?w=800&h=600&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
     featured: true
   },
