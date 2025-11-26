@@ -141,13 +141,13 @@ export default function Home() {
         {featuredStory && (
           <article className="pb-12 mb-12">
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-gray-200 rounded-lg aspect-video overflow-hidden">
+              <a href={`/news/${featuredStory.slug}`} className="bg-gray-200 rounded-lg aspect-video overflow-hidden block">
                 <img 
                   src={featuredStory.imageUrl} 
                   alt={featuredStory.title['en']}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
-              </div>
+              </a>
               <div>
                 <span className="text-xs font-semibold text-red-600 uppercase tracking-wide">
                   {featuredStory.category[language]}
@@ -177,13 +177,13 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-8">
           {regularStories.map((article) => (
             <article key={article.id} className="pb-6">
-              <div className="bg-gray-200 rounded aspect-video overflow-hidden mb-4">
+              <a href={`/news/${article.slug}`} className="bg-gray-200 rounded aspect-video overflow-hidden mb-4 block">
                 <img 
                   src={article.imageUrl} 
                   alt={article.title['en']}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
-              </div>
+              </a>
               <span className="text-xs font-semibold text-red-600 uppercase tracking-wide">
                 {article.category[language]}
               </span>

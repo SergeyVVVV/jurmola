@@ -68,7 +68,9 @@ export default function CulturePage() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredArticles.map((article) => (
             <article key={article.id} className="border-2 border-black p-6 hover:shadow-lg transition">
-              <img src={article.imageUrl} alt={article.title[language]} className="w-full h-48 object-cover mb-4" />
+              <a href={`/news/${article.slug}`} className="block mb-4">
+                <img src={article.imageUrl} alt={article.title[language]} className="w-full h-48 object-cover hover:opacity-90 transition-opacity" />
+              </a>
               <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">
                 <span className="font-semibold uppercase">{article.category[language]}</span>
                 <span>•</span>
