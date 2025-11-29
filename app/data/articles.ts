@@ -17,6 +17,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 14,
+    slug: "latvia-announces-unprecedented-initiative-to-boost",
+    title: {
+      en: "Latvia Announces Unprecedented Initiative to Boost National GDP by Selling Bottled Riga Air",
+      lv: "Latvija paziņo par nepieredzētu iniciatīvu palielināt valsts IKP, pārdodot pudelēs pildītu Rīgas gaisu",
+      ru: "Латвия объявляет о беспрецедентной инициативе по увеличению ВВП страны путем продажи бутылок с рижским воздухом"
+    },
+    excerpt: {
+      en: "In a move that has left economists both astounded and gasping for breath, the Latvian government has unveiled plans to sell bottled fresh air from Riga. Officials claim the plan will skyrocket the nation's GDP and position Latvia as the top ‘Breathable Treasure Trove’ of the Baltic region.",
+      lv: "Latvijas valdība ir atklājusi plānus pārdot pudelēs pildītu svaigu Rīgas gaisu, kas ekonomistus ir atstājis gan apstulbušus, gan aizrāvušus elpu. Amatpersonas apgalvo, ka šis plāns pacels valsts IKP debesīs un padarīs Latviju par Baltijas reģiona 'Elpojamā dārgumu krātuvi'.",
+      ru: "В шаге, который оставил экономистов в полном изумлении и задыхании, правительство Латвии представило планы по продаже бутылок со свежим воздухом из Риги. Официальные лица утверждают, что этот план взлетит до небес ВВП страны и поставит Латвию на первое место как 'Дыхательное сокровище' Балтийского региона."
+    },
+    fullContent: {
+      en: `Riga, Latvia – In an unexpected turn of atmospheric entrepreneurship, the Latvian Ministry of Economic Opportunities (MOE) has announced an audacious new project aimed to revolutionize the country’s economy. At a press conference held on the cobblestone streets of Riga’s Old Town, Minister of Economic Opportunities, Valdis Silkitins, revealed plans to bottle and sell fresh Latvian air internationally.
+
+"Our little Baltic gem is known for its stunning forests, crisp air, and, of course, our immaculate integration into digital economies," said Minister Silkitins, who was enthusiastically waving a gleaming bottle of ‘Riga Air Prototypes’. "What better way to capitalize on these natural treasures than to become the Nordic Oz of breathable sensations?"
+
+The ambitious project, dubbed ‘Air Apparents’, involves the strategic siphoning of air from select locations around Riga, including the renowned Bastejkalns Park, Kalnciems Quarter, and the iconic spires of St. Peter's Church, ensuring a blend of freshness, history, and architectural marvel with every inhaled breath.
+
+Touted as the first "Breath-to-Table" initiative, the bottled air was described by Silkitins as possessing a refined taste, with "hints of archaeological mystique and notes of Baltic resilience." The ministry anticipates global markets, particularly in urban hubs struggling with pollution, such as Beijing, New Delhi, and Los Angeles, will salivate over the prospect.
+
+Economist and self-proclaimed air critic, Dr. Ilze Smilga, weighed in on the initiative. "While selling air might sound a bit too futuristic, if not outlandishly idealistic, this idea could exponentially increase Latvia’s export line-up, previously dominated by timber, amber, and catchy Eurovision entries," she argued while attempting to keep a straight face.
+
+In anticipation of potential shortages and air-siphoning riots from locals keen to stock up, the MOE has launched a campaign encouraging residents to engage in ‘Supportive Breathing’, a community-oriented exercise aimed at replenishing the air supply. "Just a few mindful seconds a day," reassured Silkitins, "can help keep our air economy at full capacity."
+
+Local entrepreneurs have already hopped on the airwave, with numerous start-ups emerging to provide specialized services such as 'Vintage Air Capsules' from Latvian Saunas or 'Artisan Gust' collections featuring air-fumed with finely aged fish from Riga’s Central Market.
+
+Meanwhile, environmentalists have shown a blend of support and disbelief. Liga Teicuka, head of the Green Latvia Coalition, commented, "It’s an ingenious plan if executed with care. But frankly, we’re all just waiting on how they plan to compensate for the vacuum vacuum."
+
+As the country gears up to set new records in cultural novelty, projections for the Latvian economy point towards a ‘windfall’, with an estimated boost of €3 billion or approximately 100 million bottles set for export by mid-2024.
+
+"It’s a breath of fresh air for economic policy," Silkitins quipped in conclusion, leaving the podium to a robust round of applause from a crowd now vigorously checking the air quality indexes on their smartphones.`,
+      lv: `Rīga, Latvija – Neparastā atmosfēras uzņēmējdarbības pavērsienā Latvijas Ekonomisko iespēju ministrija (EIM) ir paziņojusi par drosmīgu jaunu projektu, kura mērķis ir revolucionizēt valsts ekonomiku. Preses konferencē, kas notika uz Rīgas Vecpilsētas bruģētajām ielām, Ekonomisko iespēju ministrs Valdis Silkitins atklāja plānus starptautiski pārdot pudelēs pildītu svaigu Latvijas gaisu.
+
+"Mūsu mazais Baltijas dārgakmens ir pazīstams ar saviem apbrīnojamajiem mežiem, svaigo gaisu un, protams, mūsu nevainojamo integrāciju digitālajās ekonomikās," sacīja ministrs Silkitins, entuziastiski vicinot mirdzošu 'Rīgas gaisa prototipu' pudeli. "Kāds gan labāks veids, kā izmantot šos dabas dārgumus, ja ne kļūt par Ziemeļvalstu Ozu elpojamām sajūtām?"
+
+Ambiciozais projekts, kas nosaukts par 'Gaisa mantiniekiem', ietver stratēģisku gaisa nosūkšanu no izvēlētām vietām ap Rīgu, tostarp slaveno Bastejkalna parku, Kalnciema kvartālu un ikoniskajiem Sv. Pētera baznīcas torņiem, nodrošinot svaiguma, vēstures un arhitektūras brīnumu sajaukumu ar katru ieelpoto elpu.
+
+Reklamēts kā pirmais "Elpa-uz-galda" iniciatīva, pudelēs pildītais gaiss tika aprakstīts kā ar izsmalcinātu garšu, ar "arheoloģiskās mistikas pieskaņām un Baltijas izturības notīm," sacīja Silkitins. Ministrija paredz, ka globālie tirgi, īpaši pilsētu centri, kas cīnās ar piesārņojumu, piemēram, Pekina, Ņūdeli un Losandželosa, būs sajūsmā par šo iespēju.
+
+Ekonomiste un pašpasludināta gaisa kritiķe, Dr. Ilze Smilga, izteica savu viedokli par iniciatīvu. "Lai gan gaisa pārdošana varētu izklausīties nedaudz pārāk futūristiska, ja ne ārkārtīgi ideālistiska, šī ideja varētu eksponenciāli palielināt Latvijas eksporta klāstu, kas iepriekš dominēja ar koksni, dzintaru un lipīgām Eirovīzijas dziesmām," viņa apgalvoja, cenšoties saglabāt nopietnu sejas izteiksmi.
+
+Gaidot iespējamos trūkumus un gaisa nosūkšanas nemierus no vietējiem iedzīvotājiem, kas vēlas uzkrāt krājumus, EIM ir uzsākusi kampaņu, aicinot iedzīvotājus iesaistīties 'Atbalstošajā elpošanā', kopienas orientētā vingrinājumā, kas vērsts uz gaisa krājumu papildināšanu. "Tikai dažas apzinātas sekundes dienā," mierināja Silkitins, "var palīdzēt uzturēt mūsu gaisa ekonomiku pilnā jaudā."
+
+Vietējie uzņēmēji jau ir pievērsušies gaisa vilnim, ar daudziem jaunuzņēmumiem, kas piedāvā specializētus pakalpojumus, piemēram, 'Vintage Air Capsules' no Latvijas pirtīm vai 'Artisan Gust' kolekcijas, kas piedāvā gaisu, kas piesātināts ar smalki nogatavinātām zivīm no Rīgas Centrāltirgus.
+
+Tikmēr vides aizstāvji ir izrādījuši atbalsta un neticības sajaukumu. Līga Teicuka, Zaļās Latvijas koalīcijas vadītāja, komentēja: "Tas ir ģeniāls plāns, ja to izpilda ar rūpību. Bet, godīgi sakot, mēs visi tikai gaidām, kā viņi plāno kompensēt vakuuma vakuumu."
+
+Kamēr valsts gatavojas uzstādīt jaunus rekordus kultūras jaunumu jomā, Latvijas ekonomikas prognozes norāda uz 'vēja kritumu', ar aptuveni 3 miljardu eiro vai aptuveni 100 miljonu pudeļu eksportu, kas plānots līdz 2024. gada vidum.
+
+"Tas ir svaiga gaisa malks ekonomiskajai politikai," Silkitins noslēdza, atstājot pjedestālu ar spēcīgu aplausu no pūļa, kas tagad enerģiski pārbauda gaisa kvalitātes indeksus savos viedtālruņos.`,
+      ru: `Рига, Латвия – В неожиданном повороте атмосферного предпринимательства Министерство экономических возможностей Латвии (МЭВ) объявило о дерзком новом проекте, направленном на революцию в экономике страны. На пресс-конференции, проведенной на мощеных улицах Старого города Риги, министр экономических возможностей Валдис Силкитинс раскрыл планы по розливу и продаже свежего латвийского воздуха на международном уровне.
+
+"Наш маленький балтийский драгоценный камень известен своими потрясающими лесами, свежим воздухом и, конечно, нашей безупречной интеграцией в цифровую экономику," сказал министр Силкитинс, энергично размахивая сверкающей бутылкой с надписью 'Прототипы рижского воздуха'. "Какой лучший способ капитализировать эти природные сокровища, чем стать северным Озом дыхательных ощущений?"
+
+Амбициозный проект, получивший название 'Воздушные наследники', включает стратегическое откачивание воздуха из избранных мест по всей Риге, включая знаменитый парк Бастейкалнс, квартал Калнциемс и культовые шпили церкви Святого Петра, обеспечивая смесь свежести, истории и архитектурного великолепия с каждым вдохом.
+
+Названная первой инициативой "Дыхание-на-стол", бутылочный воздух был описан Силкитинсом как обладающий утонченным вкусом, с "нотками археологической мистики и оттенками балтийской стойкости". Министерство ожидает, что мировые рынки, особенно в городских центрах, страдающих от загрязнения, таких как Пекин, Нью-Дели и Лос-Анджелес, будут жаждать этой перспективы.
+
+Экономист и самопровозглашенный критик воздуха, доктор Илзе Смилга, высказалась об этой инициативе. "Хотя продажа воздуха может звучать слишком футуристично, если не чрезмерно идеалистично, эта идея может экспоненциально увеличить экспортный ассортимент Латвии, ранее доминируемый древесиной, янтарем и запоминающимися песнями Евровидения," она утверждала, пытаясь сохранить серьезное выражение лица.
+
+В ожидании возможных дефицитов и беспорядков по откачке воздуха со стороны местных жителей, стремящихся запастись, МЭВ запустило кампанию, призывающую жителей участвовать в 'Поддерживающем дыхании', ориентированном на сообщество упражнении, направленном на пополнение запасов воздуха. "Всего несколько осознанных секунд в день," заверил Силкитинс, "могут помочь поддерживать нашу воздушную экономику на полную мощность."
+
+Местные предприниматели уже подхватили воздушную волну, с многочисленными стартапами, предоставляющими специализированные услуги, такие как 'Винтажные капсулы воздуха' из латвийских саун или коллекции 'Артезианский порыв', содержащие воздух, насыщенный выдержанной рыбой с Центрального рынка Риги.
+
+Между тем, экологи проявили смесь поддержки и недоверия. Лига Тейцука, глава Коалиции Зеленой Латвии, прокомментировала: "Это гениальный план, если его выполнить с осторожностью. Но, честно говоря, мы все просто ждем, как они планируют компенсировать вакуум вакуума."
+
+Пока страна готовится установить новые рекорды в культурной новизне, прогнозы для латвийской экономики указывают на 'ветровую прибыль', с ожидаемым увеличением на 3 миллиарда евро или примерно 100 миллионов бутылок, готовых к экспорту к середине 2024 года.
+
+"Это глоток свежего воздуха для экономической политики," пошутил Силкитинс в заключение, покидая трибуну под бурные аплодисменты толпы, которая теперь энергично проверяла индексы качества воздуха на своих смартфонах.`
+    },
+    date: "Nov 29, 2025",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&h=600&fit=crop",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 13,
     slug: "riga-declares-itself-capital-of-universal",
     title: {
@@ -95,7 +176,7 @@ Tikai laiks rādīs, vai šī interneta iniciatīva novietos Rīgu globālās te
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=800&h=600&fit=crop",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 12,
