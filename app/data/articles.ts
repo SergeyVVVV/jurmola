@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 18,
+    slug: "latvian-government-announces-new-national-holiday",
+    title: {
+      en: "Latvian Government Announces New National Holiday: 'Unexpected Sauna Seclusion Day'",
+      lv: "Latvijas valdība izziņo jaunu valsts svētku dienu: 'Neplānotās pirts izolācijas diena'",
+      ru: "Правительство Латвии объявляет новый национальный праздник: 'День неожиданного уединения в сауне'"
+    },
+    excerpt: {
+      en: "In a bid to boost citizens' stress management skills, the Latvian government has declared the first Friday of November as 'Unexpected Sauna Seclusion Day'. The new holiday requires citizens to immerse themselves in a sauna without prior planning, promoting spontaneous relaxation.",
+      lv: "Lai uzlabotu iedzīvotāju stresa pārvaldības prasmes, Latvijas valdība ir pasludinājusi novembra pirmo piektdienu par 'Neplānotās pirts izolācijas dienu'. Jaunie svētki prasa, lai iedzīvotāji bez iepriekšējas plānošanas nodotos pirts baudīšanai, veicinot spontānu relaksāciju.",
+      ru: "В попытке улучшить навыки управления стрессом у граждан, правительство Латвии объявило первый пятницу ноября 'Днем неожиданного уединения в сауне'. Новый праздник требует от граждан погружаться в сауну без предварительного планирования, способствуя спонтанному расслаблению."
+    },
+    fullContent: {
+      en: `RIGA, Latvia—In a groundbreaking move celebrated by sauna enthusiasts and spontaneous spirit proponents alike, the Latvian Parliament has passed legislation officially recognizing 'Unexpected Sauna Seclusion Day' as a national holiday. The announcement, made with much fanfare, promises to add a unique twist to the nation's cultural calendar. 
+
+The initiative, proposed by the newly formed Ministry of Serendipitous Leisure, mandates that on the first Friday of every November, all citizens must embrace the unpredictability of life by participating in an unplanned sauna session. The idea, according to ministry officials, is to foster resilience against the often harsh Baltic climate and promote impromptu stress relief. 
+
+Minister of Serendipitous Leisure, Elga Kalniņa, shared her excitement during a press conference on Thursday. 'This is about harnessing the unexpected joy of sweating out life's worries randomly,' she explained. 'Our research indicates that sudden exposure to high temperatures and camaraderie in a steamy, wooden box can lead to the kind of enlightenment usually reserved for mountaintop monasteries.' 
+
+The holiday will feature 'Surprise Sauna Squads' roving major cities, equipped with mobile sauna facilities, ready to swarm unsuspecting individuals with spontaneous invitations to detach from their daily routines. 'It's a day when having no plan is the best plan,' Kalniņa quipped. 
+
+Critics, however, argue that the initiative could catch too many by surprise, potentially infringing on personal freedoms. 'What if I'm not mentally prepared for sauna today?' pondered Rūdolfs Nevēža, a pragmatic software engineer from Riga. 'We need to balance tradition with the calming predictability of our everyday lives.' 
+
+Supporters insist that the holiday encourages citizens to step outside their comfort zones. 'Nothing promotes national unity like a large-scale, unexpected shared experience,' said Jānis Ozoliņš, head of the National Sauna Appreciation Society. 'Plus, the added humidity helps cut down on air pollution, creating a breath of fresh air for our metropolis.' 
+
+To assist with the transition, the government will be issuing 'Sauna Starter Packs' free of charge. Each kit includes an essential oil-infused towel, a pair of traditional wooden slippers, and detailed instructions on how to engage in small talk with strangers in a steam-filled setting—an invaluable skill seldom practiced in Latvia's typically reserved culture. 
+
+According to initial projections, the new holiday will stimulate the local economy through increased sales of sauna accessories and the unexpected boost in cucumber and dill-flavored water consumption. 'We're predicting a 350% increase in the market for eucalyptus and birch broom sales leading up to November 3rd,' reported Mareks Akmentiņš, an analyst from the Market Research Institute of Riga. 
+
+As Latvia prepares for its inaugural celebration, the question on everyone's steamed lips remains: will 'Unexpected Sauna Seclusion Day' become as deeply ingrained in the Latvian spirit as potato pancakes or singing festivals? Only time—and perhaps a bit of sweat—will tell.`,
+      lv: `RĪGA, Latvija—Revolucionārā solī, ko svin gan pirts entuziasti, gan spontanitātes piekritēji, Latvijas parlaments ir pieņēmis likumu, kas oficiāli atzīst 'Neplānotās pirts izolācijas dienu' par valsts svētkiem. Paziņojums, kas tika izteikts ar lielu pompu, sola pievienot unikālu pavērsienu valsts kultūras kalendāram.
+
+Iniciatīva, ko ierosināja jaunizveidotā Nejaušās Atpūtas ministrija, nosaka, ka katra novembra pirmajā piektdienā visiem iedzīvotājiem jāpieņem dzīves neparedzamība, piedaloties neplānotā pirts sesijā. Ideja, pēc ministrijas amatpersonu teiktā, ir veicināt izturību pret bieži skarbo Baltijas klimatu un veicināt spontānu stresa mazināšanu.
+
+Nejaušās Atpūtas ministre Elga Kalniņa ceturtdienas preses konferencē dalījās savā sajūsmā. 'Tas ir par negaidīta prieka izmantošanu, izsvīstot dzīves rūpes nejauši,' viņa paskaidroja. 'Mūsu pētījumi liecina, ka pēkšņa pakļaušana augstām temperatūrām un draudzība tvaikojošā, koka kastē var novest pie tāda veida apgaismības, kas parasti rezervēta kalnu klosteros.'
+
+Svētki piedāvās 'Pārsteiguma pirts komandas', kas klaiņos pa lielākajām pilsētām, aprīkotas ar mobilām pirts iekārtām, gatavas negaidīti aicināt cilvēkus atslēgties no ikdienas rutīnas. 'Tā ir diena, kad plāna neesamība ir labākais plāns,' Kalniņa jokoja.
+
+Kritiķi tomēr apgalvo, ka iniciatīva varētu pārāk daudzus pārsteigt nesagatavotus, iespējams, pārkāpjot personiskās brīvības. 'Ko darīt, ja es šodien neesmu mentāli gatavs pirtij?' prātoja Rūdolfs Nevēža, pragmatisks programmatūras inženieris no Rīgas. 'Mums ir jālīdzsvaro tradīcijas ar mūsu ikdienas dzīves nomierinošo paredzamību.'
+
+Atbalstītāji uzstāj, ka svētki mudina iedzīvotājus izkāpt no savas komforta zonas. 'Nekas neveicina nacionālo vienotību kā liela mēroga, negaidīta kopīga pieredze,' sacīja Jānis Ozoliņš, Nacionālās Pirts Cienītāju biedrības vadītājs. 'Turklāt pieaugošais mitrums palīdz samazināt gaisa piesārņojumu, radot svaiga gaisa elpu mūsu metropolei.'
+
+Lai palīdzētu pārejā, valdība izsniegs 'Pirts sākuma komplektus' bez maksas. Katrs komplekts ietver ēteriskās eļļas piesūcinātu dvieli, pāri tradicionālu koka čību un detalizētas instrukcijas, kā iesaistīties nelielā sarunā ar svešiniekiem tvaika pilnā vidē—neatsverama prasme, kas reti tiek praktizēta Latvijas parasti atturīgajā kultūrā.
+
+Saskaņā ar sākotnējām prognozēm jaunie svētki stimulēs vietējo ekonomiku, palielinot pirts piederumu pārdošanu un negaidītu gurķu un dilles garšas ūdens patēriņa pieaugumu. 'Mēs prognozējam 350% pieaugumu eikalipta un bērza slotu pārdošanas tirgū līdz 3. novembrim,' ziņoja Mareks Akmentiņš, Rīgas Tirgus pētījumu institūta analītiķis.
+
+Latvijai gatavojoties saviem pirmajiem svētkiem, jautājums, kas visiem ir uz lūpām, paliek: vai 'Neplānotās pirts izolācijas diena' kļūs tikpat dziļi iesakņojusies Latvijas garā kā kartupeļu pankūkas vai dziesmu svētki? Tikai laiks—un varbūt nedaudz sviedru—to parādīs.`,
+      ru: `РИГА, Латвия — В новаторском шаге, который был встречен с энтузиазмом как любителями саун, так и сторонниками спонтанности, латвийский парламент принял закон, официально признающий 'День неожиданного уединения в сауне' национальным праздником. Объявление, сделанное с большой помпой, обещает добавить уникальный штрих в культурный календарь страны.
+
+Инициатива, предложенная недавно созданным Министерством спонтанного досуга, предписывает, что в первую пятницу каждого ноября все граждане должны принять непредсказуемость жизни, участвуя в незапланированном сеансе в сауне. По словам представителей министерства, идея заключается в том, чтобы развивать устойчивость к часто суровому балтийскому климату и способствовать импровизированному снятию стресса.
+
+Министр спонтанного досуга, Элга Калниня, поделилась своим восторгом на пресс-конференции в четверг. 'Это о том, как использовать неожиданную радость от того, чтобы просто выпарить жизненные заботы,' объяснила она. 'Наши исследования показывают, что внезапное воздействие высоких температур и товарищество в парной деревянной коробке может привести к такому просветлению, которое обычно доступно лишь в монастырях на вершинах гор.'
+
+Праздник будет включать 'Отряды сюрпризов в сауне', которые будут патрулировать крупные города, оснащенные мобильными саунами, готовые неожиданно приглашать людей отключиться от их повседневной рутины. 'Это день, когда отсутствие плана — лучший план,' пошутила Калниня.
+
+Критики, однако, утверждают, что инициатива может застать слишком многих врасплох, потенциально нарушая личные свободы. 'Что если я не готов морально к сауне сегодня?' размышлял Рудольфс Невежа, прагматичный инженер-программист из Риги. 'Нам нужно балансировать традиции с успокаивающей предсказуемостью нашей повседневной жизни.'
+
+Сторонники настаивают, что праздник поощряет граждан выходить за пределы своей зоны комфорта. 'Ничто так не способствует национальному единству, как масштабный, неожиданный общий опыт,' сказал Янис Озолиньш, глава Национального общества любителей саун. 'Плюс, повышенная влажность помогает снизить загрязнение воздуха, создавая глоток свежего воздуха для нашего мегаполиса.'
+
+Чтобы помочь с переходом, правительство будет бесплатно выдавать 'Стартовые наборы для сауны'. Каждый комплект включает полотенце с эфирными маслами, пару традиционных деревянных тапочек и подробные инструкции о том, как вести светскую беседу с незнакомцами в парной обстановке — бесценный навык, редко практикуемый в обычно сдержанной культуре Латвии.
+
+Согласно первоначальным прогнозам, новый праздник стимулирует местную экономику за счет увеличения продаж аксессуаров для саун и неожиданного роста потребления воды со вкусом огурца и укропа. 'Мы прогнозируем увеличение на 350% рынка продаж эвкалиптовых и березовых веников к 3 ноября,' сообщил Марекс Акментиньш, аналитик из Института маркетинговых исследований Риги.
+
+Пока Латвия готовится к своему первому празднованию, вопрос, который волнует всех: станет ли 'День неожиданного уединения в сауне' так же глубоко укорененным в латвийском духе, как картофельные блины или певческие фестивали? Только время — и, возможно, немного пота — покажет.`
+    },
+    date: "Dec 3, 2025",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=600&fit=crop",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 17,
     slug: "riga-declares-official-national-nap-time",
     title: {
@@ -89,7 +164,7 @@ Rīgas iedzīvotāji tagad gatavojas šim jaunajam laikmetam, kurā miers un klu
     readTime: "6 min read",
     imageUrl: "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=800&h=600&fit=crop",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 16,
