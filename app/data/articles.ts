@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 23,
+    slug: "latvian-government-implements-daily-silent-hour",
+    title: {
+      en: "Latvian Government Implements Daily 'Silent Hour' to Recover from Excessive Optimism",
+      lv: "Latvijas valdība ievieš ikdienas 'Klusuma Stundu', lai atgūtos no pārmērīga optimisma",
+      ru: "Правительство Латвии вводит ежедневный 'Час Тишины' для восстановления после чрезмерного оптимизма"
+    },
+    excerpt: {
+      en: "In a groundbreaking effort to combat the increasing levels of optimism in Latvia, the government has introduced a daily 'Silent Hour' initiative. During this hour, all citizens are encouraged to sit quietly and reflect on the subtle and nuanced art of stoic contemplation.",
+      lv: "Lai cīnītos ar pieaugošo optimisma līmeni Latvijā, valdība ir ieviesusi ikdienas 'Klusuma Stundas' iniciatīvu. Šīs stundas laikā visi iedzīvotāji tiek aicināti sēdēt klusi un pārdomāt stoiskās kontemplācijas smalko un niansēto mākslu.",
+      ru: "В революционной попытке бороться с растущими уровнями оптимизма в Латвии, правительство ввело инициативу ежедневного 'Часа Тишины'. В течение этого часа всем гражданам рекомендуется сидеть тихо и размышлять над тонким и нюансированным искусством стоической созерцательности."
+    },
+    fullContent: {
+      en: `Riga, Latvia - In an unprecedented move calculated to combat the rising tide of optimism sweeping through Latvia, the government has introduced a compulsory daily 'Silent Hour'. For sixty minutes each day, all citizens are encouraged to drop everything and engage in contemplative silence. 
+
+This initiative comes after recent studies highlighted a concerning increase in spontaneous smiling and public displays of mild cheerfulness among Latvians. Experts warn that if left unchecked, this trend could lead to unfamiliar levels of general happiness and societal disruption.
+
+'We had to act,' said Maija Dreimane, Minister of Public Melancholy, at a press conference held in a characteristically dimly lit room. 'This unprecedented phenomenon was starting to challenge our cultural identity. We need to remind people of the subtle joys of stoicism and the comfort of muted enthusiasm.'
+
+Under the new mandate, from 3 pm to 4 pm every day, Latvians are advised to turn off their devices, stare into the distance, possibly out a window if one is available, and contemplate the philosophical tenets of nature's cruelty, or alternatively, the impenetrable depths of the Baltic Sea.
+
+According to the Latvian Bureau of Common Sense, early reports indicate a 72% compliance rate, as citizens have eagerly embraced this pause in daily life. 'It was a Tuesday, and I was laughing at a meme about potatoes,' said Janis Berzins, a local resident of Jurmala. 'Suddenly, it was silent hour. I immediately felt a sense of belonging sitting quietly in my sofa-induced contemplation.'
+
+However, not everyone is on board with the initiative. An anonymous government watchdog group known as 'Latvians for Excessive Smiling' (LES) argues that the silent hour may not be sufficient. 'Some people still chuckle under their breath,' warned a masked representative of LES in a muffled voice. 'The government must consider longer silent hours or perhaps even silent days.'
+
+Liene Rozentale, a prominent sociologist and amateur humorist, suggests that the initiative might paradoxically increase happiness levels over time. 'There's something irresistible about enforced silence and reflection. It could ignite a spark of quiet joy if we're not careful,' she chuckled before catching herself.
+
+To facilitate the transition, the government has published a recommended reading list composed entirely of dense philosophical treatises and agricultural weather forecasts. Residents are encouraged to perfect their thousand-yard stare for optimal effectiveness.
+
+In his parting words, Minister Dreimane somberly advised practitioners of the Silent Hour to 'let the stillness engulf them like a cozy, existential blanket.' Whether this initiative will succeed in preserving Latvia's iconic restrained demeanor remains to be seen, but one thing is certain: silence speaks volumes.`,
+      lv: `Rīga, Latvija - Nepieredzētā solī, kas aprēķināts, lai cīnītos ar pieaugošo optimisma vilni, kas pārņem Latviju, valdība ir ieviesusi obligātu ikdienas 'Klusuma Stundu'. Katru dienu sešdesmit minūtes visi iedzīvotāji tiek aicināti nolikt malā visu un nodoties kontemplatīvam klusumam.
+
+Šī iniciatīva nāk pēc nesenajiem pētījumiem, kas izcēla satraucošu spontānas smaidīšanas un vieglas priecīguma publiskas izpausmes pieaugumu starp latviešiem. Eksperti brīdina, ka, ja šo tendenci neatstās bez uzraudzības, tā varētu novest pie nepazīstama vispārēja laimes līmeņa un sabiedrības traucējumiem.
+
+'Mums bija jāreaģē,' teica Maija Dreimane, Sabiedriskās Melanholijas ministre, preses konferencē, kas notika raksturīgi vāji apgaismotā telpā. 'Šis nepieredzētais fenomens sāka apdraudēt mūsu kultūras identitāti. Mums jāatgādina cilvēkiem par stoicisma smalkajiem priekiem un klusinātas entuziasma komfortu.'
+
+Saskaņā ar jauno mandātu, katru dienu no plkst. 15:00 līdz 16:00 latviešiem ieteicams izslēgt savas ierīces, skatīties tālumā, iespējams, pa logu, ja tāds ir pieejams, un pārdomāt dabas nežēlības filozofiskos principus vai, alternatīvi, Baltijas jūras necaurredzamos dziļumus.
+
+Saskaņā ar Latvijas Veselā Saprāta Biroju, agrīnie ziņojumi liecina par 72% atbilstības līmeni, jo iedzīvotāji ir ar prieku pieņēmuši šo pauzi ikdienas dzīvē. 'Bija otrdiena, un es smējos par joku par kartupeļiem,' teica Jānis Bērziņš, vietējais Jūrmalas iedzīvotājs. 'Pēkšņi bija klusuma stunda. Es uzreiz sajutu piederības sajūtu, klusi sēžot savā dīvānā un pārdomājot.'
+
+Tomēr ne visi atbalsta šo iniciatīvu. Anonīma valdības uzraudzības grupa, kas pazīstama kā 'Latvieši par Pārmērīgu Smaidīšanu' (LES), apgalvo, ka klusuma stunda var nebūt pietiekama. 'Daži cilvēki joprojām klusi ķiķina,' brīdināja maskēts LES pārstāvis klusinātā balsī. 'Valdībai jāapsver ilgākas klusuma stundas vai varbūt pat klusuma dienas.'
+
+Liene Rozentāle, ievērojama socioloģe un amatieru humoriste, norāda, ka iniciatīva var paradoksāli palielināt laimes līmeni laika gaitā. 'Ir kaut kas neatvairāms par piespiedu klusumu un pārdomām. Tas varētu aizdedzināt klusu prieka dzirksti, ja nebūsim uzmanīgi,' viņa iesmējās, pirms attapās.
+
+Lai atvieglotu pāreju, valdība ir publicējusi ieteicamo lasāmvielu sarakstu, kas pilnībā sastāv no blīviem filozofiskiem traktātiem un lauksaimniecības laika prognozēm. Iedzīvotāji tiek aicināti pilnveidot savu tūkstoš jardu skatienu optimālai efektivitātei.
+
+Savā atvadu vārdos ministre Dreimane skumji ieteica Klusuma Stundas praktizētājiem 'ļaut klusumam apņemt viņus kā mājīgu, eksistenciālu segu.' Vai šī iniciatīva spēs saglabāt Latvijas ikonisko atturīgo attieksmi, vēl ir redzams, bet viena lieta ir skaidra: klusums runā skaļi.`,
+      ru: `Рига, Латвия - В беспрецедентном шаге, рассчитанном на борьбу с нарастающей волной оптимизма, захлестнувшей Латвию, правительство ввело обязательный ежедневный 'Час Тишины'. В течение шестидесяти минут каждый день всем гражданам рекомендуется оставить все дела и погрузиться в созерцательную тишину.
+
+Эта инициатива появилась после того, как недавние исследования выявили тревожный рост спонтанных улыбок и публичных проявлений легкой веселости среди латвийцев. Эксперты предупреждают, что если не принять меры, эта тенденция может привести к незнакомым уровням общего счастья и общественным потрясениям.
+
+'Нам пришлось действовать', - сказала Майя Дреймане, министр общественной меланхолии, на пресс-конференции, проведенной в характерно тускло освещенной комнате. 'Это беспрецедентное явление начало бросать вызов нашей культурной идентичности. Нам нужно напомнить людям о тонких радостях стоицизма и комфорте сдержанного энтузиазма.'
+
+Согласно новому указу, с 15:00 до 16:00 каждый день латвийцам рекомендуется выключать свои устройства, смотреть в даль, возможно, в окно, если оно есть, и размышлять о философских принципах жестокости природы или, альтернативно, о непроницаемых глубинах Балтийского моря.
+
+Согласно данным Латвийского бюро здравого смысла, ранние отчеты показывают 72% уровень соблюдения, так как граждане с энтузиазмом восприняли эту паузу в повседневной жизни. 'Это был вторник, и я смеялся над мемом о картошке', - сказал Янис Берзиньш, местный житель Юрмалы. 'Вдруг настал час тишины. Я сразу почувствовал чувство принадлежности, сидя тихо в своем диване, погруженный в размышления.'
+
+Однако не все поддерживают инициативу. Анонимная правительственная группа наблюдателей, известная как 'Латвийцы за чрезмерные улыбки' (ЛЧУ), утверждает, что час тишины может быть недостаточным. 'Некоторые люди все еще хихикают себе под нос', - предупредил замаскированный представитель ЛЧУ приглушенным голосом. 'Правительству следует рассмотреть возможность более длительных часов тишины или даже тихих дней.'
+
+Лиене Розентале, известный социолог и любитель юмора, предполагает, что инициатива может парадоксально увеличить уровень счастья со временем. 'В принудительной тишине и размышлениях есть что-то неотразимое. Это может зажечь искру тихой радости, если мы не будем осторожны', - усмехнулась она, прежде чем одернуть себя.
+
+Для облегчения перехода правительство опубликовало рекомендованный список литературы, состоящий исключительно из плотных философских трактатов и прогнозов сельскохозяйственной погоды. Жителям рекомендуется отточить свой взгляд в тысячу ярдов для достижения оптимальной эффективности.
+
+В заключение министр Дреймане мрачно посоветовала практикующим Час Тишины 'позволить тишине окутать их, как уютное, экзистенциальное одеяло'. Удастся ли этой инициативе сохранить культовую сдержанность Латвии, еще предстоит выяснить, но одно можно сказать точно: тишина говорит громче слов.`
+    },
+    date: "Dec 8, 2025",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 22,
     slug: "latvia-introduces-new-brvbas-kilometers-to",
     title: {
@@ -83,7 +158,7 @@ Noslēgumā, vai Brīvības Kilometrs kļūs par satiksmes mazināšanas utopiju
     readTime: "7 min read",
     imageUrl: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=600&fit=crop",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 21,
