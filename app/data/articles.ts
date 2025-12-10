@@ -17,6 +17,89 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 25,
+    slug: "latvia-declares-seagulls-official-national-bird",
+    title: {
+      en: "Latvia Declares Seagulls Official National Bird Due to Persistent Public Applause",
+      lv: "Latvija pasludina kaijas par oficiālo nacionālo putnu, pateicoties neatlaidīgai sabiedrības atzinībai",
+      ru: "Латвия объявила чаек официальной национальной птицей из-за постоянных аплодисментов общественности"
+    },
+    excerpt: {
+      en: "In a groundbreaking ornithological twist, Latvia has declared the seagull as its new national bird, citing the bird's unwavering commitment to 'being everywhere all the time.' Experts agree this avian decision aligns with the nation's coastal identity and relentless quest for stray fries.",
+      lv: "Pārsteidzošā ornitoloģiskā pavērsienā Latvija ir pasludinājusi kaiju par savu jauno nacionālo putnu, atsaucoties uz putna nelokāmo apņemšanos 'būt visur visu laiku.' Eksperti piekrīt, ka šis putnu lēmums saskan ar valsts piekrastes identitāti un neatlaidīgo tieksmi pēc klaiņojošiem frī kartupeļiem.",
+      ru: "В революционном орнитологическом повороте Латвия объявила чайку своей новой национальной птицей, ссылаясь на её непоколебимую приверженность 'быть везде и всегда'. Эксперты согласны, что это птичье решение соответствует прибрежной идентичности страны и неустанному стремлению к случайным картошкам фри."
+    },
+    fullContent: {
+      en: `In a surprising ornithological decree announced this morning, Latvia has officially replaced the traditional white wagtail with the remarkably ubiquitous seagull as the national bird. This decision comes amidst ongoing public admiration for the seagull's tireless efforts in ensuring no French fry on any Baltic beach ever goes unnoticed.
+
+
+Leading the announcement, Minister of Uncommon Celebrations, Goča Smārds, delivered the new national emblem with profound earnestness. 'The seagull's indefatigable spirit exemplifies the very tenacity of our great nation. Wherever there's an open snack, a coastal gust, or an unguarded ice cream cone, they are there — observing, swooping, and squawking. It’s a marvel of strategic persistence,' praised Smārds at the press conference, flanked by an entourage of enthusiastic squawks from local feathered constituents.
+
+
+The decision was surprisingly met with minimal squabble in the Latvian Saeima, sparking debates on how seagulls reflect 'Latvian-ness' in unique ways. MP Līga Cekuls expanded on this during the parliamentary session. 'Historically, we Latvians are hearty coastal people known for adaptability and resourcefulness. The seagull, with its relentless approach to serendipitous meal opportunities, mirrors our approach to global business ventures,' explained Cekuls, sketching comparisons more vivid than a fisherman's sunset tale.
+
+
+Surveys from the Department of National Symbolism (DNS) demonstrated that 78% of Latvians were already resigned to the seagull as the de facto bird of public areas, noting the seagull had already capitalized on territories historically dominated by tourists and picnickers. Urban ornithologist and unexpected media sensation, Dr. Valdis Plēves, was quick to validate the decision as 'an inevitable ornithological truth.'
+
+
+'It's a match made in that ethereal coastal fog,' Dr. Plēves remarked, 'No creature more clearly lays claim to our territory's rampant and joyous unpredictability. The seagulls’ antics force us to reconsider the wisdom of picnics on breezy days and, really, can’t we all admire that audacity?' Plēves’ sentiments echo through Jurmala’s streets, where locals are heard discussing the 'national honor' anytime aventurine-clad tourists meet the determined persistence of a vocally gifted gull.
+
+
+Critics, of course, remain skeptically irritated. 'This is absurd!' cried traditionalist and self-appointed bird aficionado, Ojārs Čukurs. He lamented, 'Our right-winged icons shouldn’t be reduced to seafaring pranksters. What’s next? Raffling off municipal pie stakes at the annual Fjodor the Pigeon Parade?' Yet, as his voice drifts on the early autumn breeze, it mingles with a rising chorus of wingbeats.
+
+
+As Latvia embraces its new feathered icon, economic opportunists are already swooping in, much like the birds themselves. Tourists can expect festivals featuring 'Gull Glee' showcases of gull-themed kite choreography, and souvenirs bearing the steadfast visage of a contemplative seagull.
+
+
+In a twist of bureaucratic whimsy typical of Baltic determination, the inauguration ceremony slated for next July promises to outdo even the mighty Song Festival. The event, 'Seabird Jubilee: Gulls Just Want to Have Fun,' will undoubtedly herald a full chorus of squawks, sealing this fine feathered contract.
+
+
+For now, Latvians are content, reveling in the immutable truth that seagulls, like unexpected rain showers during the Midsummer's festivities, are simply here to stay.`,
+      lv: `Šorīt pārsteidzošā ornitoloģiskā dekrētā Latvija oficiāli nomainījusi tradicionālo balto cielavu ar pārsteidzoši visur esošo kaiju kā nacionālo putnu. Šis lēmums nāk laikā, kad sabiedrība turpina apbrīnot kaijas nepagurstošos centienus nodrošināt, ka neviens frī kartupelis nevienā Baltijas pludmalē netiek nepamanīts.
+
+Vadot paziņojumu, Neparasto svinību ministrs Goča Smārds ar dziļu nopietnību pasniedza jauno nacionālo simbolu. 'Kaijas neizsīkstošais gars iemieso mūsu lielās nācijas neatlaidību. Kur vien ir atvērta uzkoda, piekrastes vējš vai neapsargāts saldējuma konuss, viņi tur ir — vēro, lido un ķērc. Tas ir stratēģiskas neatlaidības brīnums,' slavēja Smārds preses konferencē, ko pavadīja vietējo spalvaino iedzīvotāju entuziastiski ķērcieni.
+
+Lēmums pārsteidzoši tika pieņemts ar minimālu strīdu Latvijas Saeimā, izraisot diskusijas par to, kā kaijas atspoguļo 'latviskumu' unikālos veidos. Saeimas deputāte Līga Cekuls paplašināja šo tēmu parlamenta sēdē. 'Vēsturiski mēs, latvieši, esam sirsnīgi piekrastes ļaudis, kas pazīstami ar pielāgošanās spēju un izdomu. Kaija, ar savu neatlaidīgo pieeju nejaušām maltīšu iespējām, atspoguļo mūsu pieeju globālajiem biznesa darījumiem,' skaidroja Cekuls, zīmējot salīdzinājumus, kas ir spilgtāki par zvejnieka saulrieta stāstu.
+
+Nacionālās simbolikas departamenta (DNS) aptaujas liecina, ka 78% latviešu jau bija pieņēmuši kaiju kā de facto sabiedrisko vietu putnu, norādot, ka kaija jau bija pārņēmusi teritorijas, kuras vēsturiski dominēja tūristi un piknikotāji. Pilsētas ornitologs un negaidīts mediju fenomens Dr. Valdis Plēves ātri apstiprināja lēmumu kā 'neizbēgamu ornitoloģisku patiesību.'
+
+'Tas ir saderība, kas radīta tajā ēteriskajā piekrastes miglā,' Dr. Plēves atzīmēja, 'Neviens radījums skaidrāk nepretendē uz mūsu teritorijas nevaldāmo un priecīgo neparedzamību. Kaiju antics liek mums pārdomāt pikniku gudrību vējainās dienās, un, patiesi, vai mēs visi nevaram apbrīnot šo drosmi?' Plēves viedoklis atbalsojas Jūrmalas ielās, kur vietējie iedzīvotāji apspriež 'nacionālo godu' ikreiz, kad aventurīna tērpti tūristi sastopas ar apņēmīgo, vokāli apdāvināto kaiju.
+
+Kritizētāji, protams, paliek skeptiski kairināti. 'Tas ir absurds!' kliedza tradicionālists un pašpasludināts putnu pazinējs Ojārs Čukurs. Viņš sūdzējās, 'Mūsu labējie ikoni nedrīkst tikt samazināti līdz jūras blēžiem. Kas būs tālāk? Pašvaldības pīrāgu likmju izlozēšana ikgadējā Fjodora Baloža parādē?' Tomēr, kad viņa balss aizplūst agrā rudens vējā, tā saplūst ar pieaugošu spārnu sitienu kori.
+
+Kamēr Latvija pieņem savu jauno spalvaino ikonu, ekonomiskie iespējas meklētāji jau metas iekšā, gluži kā paši putni. Tūristi var sagaidīt festivālus ar 'Kaiju prieka' izrādēm, kurās piedalās kaiju tēmu pūķu horeogrāfija, un suvenīrus ar apdomīgas kaijas nelokāmo tēlu.
+
+Baltijas apņēmības tipiskā birokrātiskā kaprīzē, inaugurācijas ceremonija, kas paredzēta nākamā gada jūlijā, solās pārspēt pat vareno Dziesmu svētku. Pasākums 'Jūras putnu jubileja: Kaijas vienkārši vēlas izklaidēties' neapšaubāmi pasludinās pilnu ķērcienu kori, noslēdzot šo smalko spalvaino līgumu.
+
+Pašlaik latvieši ir apmierināti, priecājoties par nemainīgo patiesību, ka kaijas, tāpat kā negaidīti lietusgāzes Jāņu svinību laikā, vienkārši ir šeit, lai paliktu.`,
+      ru: `В удивительном орнитологическом указе, объявленном сегодня утром, Латвия официально заменила традиционную белую трясогузку на удивительно вездесущую чайку в качестве национальной птицы. Это решение принято на фоне продолжающегося общественного восхищения неустанными усилиями чайки, чтобы ни одна картошка фри на любом балтийском пляже не осталась незамеченной.
+
+Возглавляя объявление, министр необычных праздников, Гоча Смардс, представил новый национальный символ с глубокой серьёзностью. 'Неутомимый дух чайки воплощает саму стойкость нашего великого народа. Где бы ни была открытая закуска, прибрежный ветер или неохраняемый рожок мороженого, они там — наблюдают, пикируют и кричат. Это чудо стратегической настойчивости', похвалил Смардс на пресс-конференции, окружённый энтузиастичными криками местных пернатых избирателей.
+
+Решение было удивительно встречено с минимальными спорами в латвийском Сейме, вызвав дебаты о том, как чайки отражают 'латвийскость' уникальными способами. Депутат Лига Цекулс расширила эту тему во время парламентской сессии. 'Исторически мы, латыши, — крепкие прибрежные люди, известные своей адаптивностью и находчивостью. Чайка, с её неустанным подходом к случайным возможностям поесть, отражает наш подход к глобальным бизнес-предприятиям', объяснила Цекулс, рисуя сравнения более яркие, чем закат рыбака.
+
+Опросы Департамента национальной символики (ДНС) показали, что 78% латышей уже смирились с чайкой как фактической птицей общественных мест, отмечая, что чайка уже захватила территории, исторически доминируемые туристами и пикниками. Городской орнитолог и неожиданный медийный феномен, доктор Валдис Плевес, быстро подтвердил решение как 'неизбежную орнитологическую истину'.
+
+'Это союз, заключённый в той эфирной прибрежной мгле', заметил доктор Плевес, 'Нет существа, более явно претендующего на нашу территорию с её бурной и радостной непредсказуемостью. Проделки чаек заставляют нас пересмотреть мудрость пикников в ветреные дни, и, правда, разве мы не можем все восхищаться этой дерзостью?' Чувства Плевеса эхом раздаются по улицам Юрмалы, где местные жители обсуждают 'национальную честь' всякий раз, когда туристы в авантюриновых нарядах встречаются с решительной настойчивостью вокально одарённой чайки.
+
+Критики, конечно, остаются скептически раздражёнными. 'Это абсурд!' воскликнул традиционалист и самопровозглашённый знаток птиц, Оярс Чукурс. Он сетовал: 'Наши правокрылые иконы не должны быть сведены к морским шутникам. Что дальше? Разыгрывать муниципальные пироги на ежегодном параде Фёдора Голубя?' Однако, как его голос уносится на раннем осеннем ветру, он смешивается с нарастающим хором крыльев.
+
+Пока Латвия принимает своего нового пернатого символа, экономические оппортунисты уже налетают, как сами птицы. Туристы могут ожидать фестивалей с 'Радостью чаек' и шоу воздушных змеев с чайками, а также сувениров с непоколебимым образом задумчивой чайки.
+
+В повороте бюрократической прихоти, типичной для балтийской решимости, церемония инаугурации, запланированная на следующий июль, обещает превзойти даже могучий Праздник песни. Мероприятие 'Юбилей морских птиц: Чайки просто хотят повеселиться' несомненно ознаменуется полным хором криков, закрепляя этот прекрасный пернатый контракт.
+
+Пока латыши довольны, наслаждаясь неоспоримой истиной, что чайки, как неожиданные дожди во время празднования середины лета, просто здесь, чтобы остаться.`
+    },
+    date: "Dec 10, 2025",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 24,
     slug: "latvia-introduces-national-initiative-to-rehabilitate",
     title: {
@@ -95,7 +178,7 @@ Galu galā, Latvijas kampaņa ir par vairāk nekā tikai ēdiena reformu; tā ir
     readTime: "7 min read",
     imageUrl: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&h=600&fit=crop",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 23,
