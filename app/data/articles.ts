@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 29,
+    slug: "new-latvian-government-initiative-mandates-all",
+    title: {
+      en: "New Latvian Government Initiative Mandates All Citizens to Keep Backyard Moose for National Security",
+      lv: "Jauna Latvijas valdības iniciatīva: Visām mājsaimniecībām jāuztur aļņi pagalmā nacionālās drošības vārdā",
+      ru: "Новая инициатива латвийского правительства обязывает всех граждан содержать лося на заднем дворе для национальной безопасности"
+    },
+    excerpt: {
+      en: "In an unexpected move to strengthen national security and boost the economy, the Latvian government has announced that all households must maintain at least one backyard moose by 2025. This initiative is expected to create moose-related job opportunities and deter nefarious activities.",
+      lv: "Neparastā solī, lai stiprinātu nacionālo drošību un veicinātu ekonomiku, Latvijas valdība ir paziņojusi, ka līdz 2025. gadam visām mājsaimniecībām jāuztur vismaz viens alnis savā pagalmā. Šī iniciatīva paredz radīt darba iespējas, kas saistītas ar aļņiem, un atturēt no nelikumīgām darbībām.",
+      ru: "В неожиданном шаге по укреплению национальной безопасности и стимулированию экономики латвийское правительство объявило, что все домохозяйства должны содержать как минимум одного лося на заднем дворе к 2025 году. Ожидается, что эта инициатива создаст рабочие места, связанные с лосями, и отпугнет недоброжелателей."
+    },
+    fullContent: {
+      en: `RIGA—In what political analysts are calling the most groundbreaking legislation since the Saeima's infamous 'Banana Uniformity Act of 1998,' the Latvian Ministry of Interior has decreed that by the year 2025, all households must possess and maintain at least one moose in their backyards. This eccentric move is touted as a dual strategy to enhance national security and inject new vitality into the economy.
+
+'For too long, Latvia has depended solely on traditional methods of surveillance and protection,' explained Minister of Interior, Māris Teijāns, at a press conference held amid a remote forest just outside Vidzeme. 'The untapped potential of moose as diligent home guardians is simply staggering. Not only are they difficult for intruders to bypass, but they also provide a charismatic deterrent with natural flare.'
+
+In addition to their protective prowess, moose are anticipated to bolster economic growth. 'The demand for moose food and care supplies is set to explode,' stated Zane Mežsarga, CEO of the newly-established 'Moose Ware Co.' 'We're looking at an impressive 15% GDP boost, just from the hay and sawgrass sectors alone.'
+
+The legislation poses a unique employment opportunity as moose caretakers are expected to become a sought-after profession, potentially shifting 20,000 Latvians into an industry previously thought reserved for television nature documentaries. A new vocational school named the Baltic Antler Academy is already accepting applications.
+
+However, not all citizens are on board with this antlered uprising. Juris Brūns, a resident of Riga’s densely-populated Pārdaugava district, voiced his skepticism. 'I live on the fifth floor. My balcony barely fits a grill! Now they expect me to fit a 1.5-meter-tall forest creature?' Questions like these have prompted the government to propose rooftop moose gardens, proclaiming the additional greenery will also improve air quality.
+
+Despite these urban challenges, rural families appear more accepting of the ruling. Laima Kaļiņina from Aizpute reported, 'We've had moose wandering in the fields for generations. Now, we'll just have a legal dinner guest every evening.' She added, 'Naming it 'Rūdis' will make it feel like family.'
+
+Although the moose initiative raises eyebrows internationally, some experts argue that it’s no more peculiar than Switzerland’s mandatory bomb shelters or Italy's 2017 mandating of pizza appreciation classes in schools. Nicolas Moosevard, a top European security consultant, commented, 'In a continent where defending assets traditionally meant building higher fences, perhaps it's time we tried bigger antlers instead.'
+
+Parliament is set to reconvene next month to finalize the details, with sections of the bill dedicated to moose ethics and respectful caretaking. 'We're emphasizing a sustainable approach,' Minister Teijāns assured. 'There will be no 'moosetakes.' Our new national motto shall be: 'Draudzība ar aļņiem' - 'Friendship with Moose.'
+
+All eyes are now on Latvia as the year 2025 approaches. Only time will tell if this initiative becomes a beacon of national prosperity or a comedic footnote in European legislation history. Meanwhile, interest in moss landscaping is reportedly surging, as Latvians prepare their abodes—and their hearts—for their looming antlered allies.`,
+      lv: `RĪGA—Politiskie analītiķi šo uzskata par vispārsteidzošāko likumdošanu kopš Saeimas bēdīgi slavenā 'Banānu vienotības likuma' 1998. gadā. Latvijas Iekšlietu ministrija ir noteikusi, ka līdz 2025. gadam visām mājsaimniecībām jābūt vismaz vienam alnim pagalmā. Šis ekscentriskais solis tiek uzskatīts par dubultu stratēģiju, lai uzlabotu nacionālo drošību un ieviestu jaunu dzīvību ekonomikā.
+
+'Pārāk ilgi Latvija ir paļāvusies tikai uz tradicionālajām novērošanas un aizsardzības metodēm,' skaidroja iekšlietu ministrs Māris Teijāns preses konferencē, kas notika attālā mežā netālu no Vidzemes. 'Aļņu neizmantotais potenciāls kā rūpīgiem mājas sargiem ir vienkārši pārsteidzošs. Ne tikai ir grūti ielauzties viņu klātbūtnē, bet tie arī nodrošina harizmātisku atturēšanas līdzekli ar dabisku šarmu.'
+
+Papildus aizsardzības spējām, aļņi tiek prognozēti kā ekonomiskās izaugsmes veicinātāji. 'Pieprasījums pēc aļņu barības un aprūpes piederumiem strauji pieaugs,' paziņoja Zane Mežsarga, jaunizveidotā uzņēmuma 'Moose Ware Co.' izpilddirektore. 'Mēs raugāmies uz iespaidīgu 15% IKP pieaugumu, tikai no siena un zāles sektoriem vien.'
+
+Likumdošana piedāvā unikālu nodarbinātības iespēju, jo aļņu kopēji tiek prognozēti kā pieprasīta profesija, potenciāli pārvietojot 20,000 latviešu uz nozari, kas iepriekš tika uzskatīta par rezervētu televīzijas dabas dokumentālajām filmām. Jauna profesionālā skola ar nosaukumu Baltijas Ragu Akadēmija jau pieņem pieteikumus.
+
+Tomēr ne visi pilsoņi atbalsta šo ragu sacelšanos. Juris Brūns, Rīgas blīvi apdzīvotā Pārdaugavas rajona iedzīvotājs, izteica savu skepsi. 'Es dzīvoju piektajā stāvā. Manam balkonam knapi pietiek vietas grilam! Tagad viņi gaida, ka es tur ievietošu 1,5 metrus augstu meža radību?' Šādi jautājumi ir pamudinājuši valdību ierosināt jumta aļņu dārzus, apgalvojot, ka papildu zaļumi arī uzlabos gaisa kvalitāti.
+
+Neskatoties uz šiem pilsētas izaicinājumiem, lauku ģimenes šķiet vairāk pieņemošas šo lēmumu. Laima Kaļiņina no Aizputes ziņoja: 'Mums aļņi klaiņo pa laukiem jau paaudzēm. Tagad mums vienkārši būs likumīgs vakariņu viesis katru vakaru.' Viņa piebilda: 'Nosaucot to par 'Rūdi', tas jutīsies kā ģimenes loceklis.'
+
+Lai gan aļņu iniciatīva starptautiski rada uzacis, daži eksperti apgalvo, ka tā nav dīvaināka par Šveices obligātajām bumbu patvertnēm vai Itālijas 2017. gada obligātajām picas novērtēšanas nodarbībām skolās. Eiropas vadošais drošības konsultants Nikolass Moosevards komentēja: 'Kontinentā, kur aktīvu aizsardzība tradicionāli nozīmēja augstāku žogu būvēšanu, varbūt ir laiks izmēģināt lielākus ragus.'
+
+Parlaments nākamajā mēnesī sanāks, lai precizētu detaļas, ar likumprojekta sadaļām, kas veltītas aļņu ētikai un cieņpilnai aprūpei. 'Mēs uzsveram ilgtspējīgu pieeju,' apliecināja ministrs Teijāns. 'Nebūs nekādu 'aļņu kļūdu.' Mūsu jaunais nacionālais moto būs: 'Draudzība ar aļņiem'.'
+
+Visas acis tagad ir vērstas uz Latviju, tuvojoties 2025. gadam. Tikai laiks rādīs, vai šī iniciatīva kļūs par nacionālās labklājības bāku vai komisku piezīmi Eiropas likumdošanas vēsturē. Tikmēr interese par sūnu ainavu veidošanu, šķiet, pieaug, jo latvieši gatavo savas mājas—un savas sirdis—saviem gaidāmajiem ragu sabiedrotajiem.`,
+      ru: `РИГА — Политические аналитики называют это самым революционным законодательством со времен печально известного 'Акта о банановой униформе' Сейма 1998 года. Министерство внутренних дел Латвии постановило, что к 2025 году все домохозяйства должны иметь и содержать как минимум одного лося на своих задних дворах. Этот эксцентричный шаг провозглашается двойной стратегией по усилению национальной безопасности и вливанию новой жизненной силы в экономику.
+
+'Слишком долго Латвия полагалась исключительно на традиционные методы наблюдения и защиты', объяснил министр внутренних дел Марис Тейянс на пресс-конференции, проведенной в отдаленном лесу недалеко от Видземе. 'Неиспользованный потенциал лосей как усердных домашних охранников просто ошеломляет. Они не только труднопроходимы для злоумышленников, но и обеспечивают харизматическое сдерживание с природным шармом.'
+
+Помимо их защитных способностей, ожидается, что лоси будут способствовать экономическому росту. 'Спрос на корм и средства по уходу за лосями готов взорваться', заявила Зане Межсарга, генеральный директор недавно созданной компании 'Moose Ware Co.' 'Мы ожидаем впечатляющий рост ВВП на 15% только за счет секторов сена и осоки.'
+
+Законодательство предоставляет уникальную возможность трудоустройства, так как ожидается, что профессия смотрителя за лосями станет востребованной, потенциально переместив 20 000 латвийцев в индустрию, ранее считавшуюся прерогативой телевизионных документальных фильмов о природе. Новая профессиональная школа под названием Балтийская Академия Рогов уже принимает заявки.
+
+Однако не все граждане поддерживают это рогатое восстание. Юрис Брунс, житель густонаселенного района Пардаугава в Риге, выразил свой скептицизм. 'Я живу на пятом этаже. На моем балконе едва помещается гриль! Теперь они ожидают, что я размещу 1,5-метровое лесное существо?' Вопросы вроде этих побудили правительство предложить садики для лосей на крышах, заявляя, что дополнительная зелень также улучшит качество воздуха.
+
+Несмотря на эти городские проблемы, сельские семьи более благосклонно относятся к этому постановлению. Лайма Калинина из Айзпуте сообщила: 'У нас лоси бродят по полям уже многие поколения. Теперь у нас просто будет легальный гость на ужин каждый вечер.' Она добавила: 'Назовем его 'Рудис', чтобы он чувствовал себя как дома.'
+
+Хотя инициатива с лосями вызывает удивление на международной арене, некоторые эксперты утверждают, что она не более странная, чем обязательные бомбоубежища в Швейцарии или введение уроков по оценке пиццы в школах Италии в 2017 году. Николас Мусевард, ведущий европейский консультант по безопасности, прокомментировал: 'На континенте, где защита активов традиционно означала строительство более высоких заборов, возможно, пришло время попробовать более крупные рога.'
+
+Парламент соберется снова в следующем месяце, чтобы окончательно утвердить детали, с разделами законопроекта, посвященными этике обращения с лосями и уважительному уходу за ними. 'Мы подчеркиваем устойчивый подход', заверил министр Тейянс. 'Ошибок с лосями не будет.' Наш новый национальный девиз будет: 'Draudzība ar aļņiem' - 'Дружба с лосями.'
+
+Все взгляды теперь обращены на Латвию, поскольку приближается 2025 год. Только время покажет, станет ли эта инициатива маяком национального процветания или комической сноской в истории европейского законодательства. Тем временем, интерес к моховым ландшафтам, как сообщается, растет, поскольку латвийцы готовят свои жилища и сердца к своим надвигающимся рогатым союзникам.`
+    },
+    date: "Dec 14, 2025",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&h=600&fit=crop",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 28,
     slug: "riga-to-host-worlds-first-silent",
     title: {
@@ -101,7 +176,7 @@ Pilsētā, kas lepojas ar savu daļu trokšņainas šarma, kurš gan varēja par
     readTime: "10 min read",
     imageUrl: "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=800&h=600&fit=crop",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 27,
