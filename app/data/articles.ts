@@ -17,6 +17,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 31,
+    slug: "riga-city-council-unveils-revolutionary-invisible",
+    title: {
+      en: "Riga City Council Unveils Revolutionary 'Invisible Traffic Light Initiative' to Solve Congestion Woes",
+      lv: "Rīgas Domes Atklāj Revolucionāro 'Neredzamo Luksoforu Iniciatīvu', lai Atrisinātu Sastrēgumu Problēmas",
+      ru: "Рижская городская дума представляет революционную инициативу 'Невидимые светофоры' для решения проблем с пробками"
+    },
+    excerpt: {
+      en: "In a bold strategy to tackle congestion, the Riga City Council announced the unveiling of its 'Invisible Traffic Light Initiative.' This avant-garde project promises to streamline traffic by replacing traditional traffic lights with ones that are entirely invisible to the naked eye.",
+      lv: "Drosmīgā stratēģijā, lai risinātu sastrēgumus, Rīgas Dome paziņoja par 'Neredzamo Luksoforu Iniciatīvas' atklāšanu. Šis avangarda projekts sola vienkāršot satiksmi, aizstājot tradicionālos luksoforus ar tādiem, kas ir pilnībā neredzami neapbruņotai acij.",
+      ru: "В смелой стратегии по борьбе с пробками Рижская городская дума объявила о запуске своей инициативы 'Невидимые светофоры'. Этот авангардный проект обещает оптимизировать движение, заменив традиционные светофоры на полностью невидимые для человеческого глаза."
+    },
+    fullContent: {
+      en: `In a landmark decision to modernize Riga's ever-complicated traffic situation, the Riga City Council has unveiled an ingenious initiative that promises to revolutionize the way we navigate our historic neighborhoods—introducing: the 'Invisible Traffic Light Initiative.' 
+
+The initiative, which was enthusiastically announced in a sensitively stylish press conference at an undisclosed location (for security reasons, according to officials), aims to cut down on traffic congestion by eliminating the largest bottlenecks in the city—actual physical traffic lights—replacing them with a state-of-the-art, if invisible, system that relies on advanced telepathy and intuition.
+
+“Traffic lights that you can actually see are so old school,” said Juris Blūms, the visionary behind this ambitious project and self-proclaimed 'Minister of Future Now Technologies.' “In a city as modern as Riga, where free Wi-Fi is a constitutional right, it's only logical that we advance to an unseen dimension where road users can finally engage with their primal vehicular instincts.”
+
+The council promises that this upgrade will not only cut down city expenditure on colored bulbs and metal poles but also foster a more intuitive driving environment. “It's a simple concept,” explained Blūms, who casually wore sunglasses indoors despite the absence of any lighting. “By removing the visible lights, drivers will develop a unique sixth sense for traffic flow, utilizing channels of communication that only our most ancient ancestors have accessed, or perhaps, imagined.”
+
+The initiative has reportedly engaged Latvia's finest tech minds, including an enigmatic group referred to only as 'The Order of the Unseen Engineers,' rumored to meet in underground saunas where they meditate on innovative solutions while generating steam, and occasionally, ideas.
+
+Criticism of the initiative, however, has been robust. Renowned local critic and car enthusiast, Ilze Veide, expressed skepticism, stating, “As much as I support progress, I personally find it a bit challenging to 'feel' when a cross walk will appear out of thin air when I'm legally blindfolded—as per suggestion in the manual.”
+
+By implementing the invisible traffic lights, the council has also set in motion a side project for advanced workshops to be helmed by an internationally acknowledged team of Latvian psychics who specialize in psychotherapy and unpaved road scenarios.
+
+A confidential study conducted by Car Owners Who Know Club (COWKC) claims that an impressive 37% of Riga drivers believe they already possess the skill to 'sense' the moods of their fellow drivers. This compelling metric, however, has yet to be validated by actual on-road performances, noted by The Order’s financial officer, Valdis Sneaperis, during yet another confidential briefing that was inadvertently live-streamed on a popular Latvian vlogging site.
+
+Moving forward, the city council urges the citizenry to “embrace the change” and cautions pedestrians to wear sensible shoes and carry a whistle—'just in case.'
+
+In what is surely a promising step into an invisible future, Riga's City Council assures us that they remain steadfast in their commitment to surreal modernization, and while the immediate visible impact remains to be seen, spirits appear optimistically transparent.`,
+      lv: `Vēsturiskā lēmumā modernizēt Rīgas arvien sarežģītāko satiksmes situāciju, Rīgas Dome ir atklājusi ģeniālu iniciatīvu, kas sola revolucionizēt veidu, kā mēs pārvietojamies pa mūsu vēsturiskajiem rajoniem—iepazīstieties ar: 'Neredzamo Luksoforu Iniciatīvu.'
+
+Iniciatīva, kas tika entuziastiski paziņota stilīgā preses konferencē slepenā vietā (pēc amatpersonu teiktā, drošības apsvērumu dēļ), mērķē samazināt satiksmes sastrēgumus, likvidējot lielākos pudeles kaklus pilsētā—fiziskos luksoforus—aizstājot tos ar modernu, kaut arī neredzamu sistēmu, kas balstās uz attīstītu telepātiju un intuīciju.
+
+“Luksofori, kurus jūs patiešām varat redzēt, ir tik vecmodīgi,” sacīja Juris Blūms, šī ambiciozā projekta vīzija un pašpasludinātais 'Nākotnes Tehnoloģiju Ministrs.' “Pilsētā tik modernā kā Rīga, kur bezmaksas Wi-Fi ir konstitucionālas tiesības, ir tikai loģiski, ka mēs virzāmies uz neredzamu dimensiju, kur ceļu lietotāji beidzot var iesaistīties savos pirmatnējos transportlīdzekļu instinktos.”
+
+Dome sola, ka šis uzlabojums ne tikai samazinās pilsētas izdevumus par krāsainām spuldzēm un metāla stabiem, bet arī veicinās intuitīvāku braukšanas vidi. “Tā ir vienkārša koncepcija,” skaidroja Blūms, kurš iekštelpās valkāja saulesbrilles, neskatoties uz apgaismojuma trūkumu. “Noņemot redzamos luksoforus, vadītāji attīstīs unikālu sesto sajūtu par satiksmes plūsmu, izmantojot saziņas kanālus, kurus tikai mūsu senākie senči ir piekļuvuši, vai varbūt, iedomājušies.”
+
+Iniciatīvā ir iesaistīti Latvijas labākie tehnoloģiju prāti, tostarp noslēpumaina grupa, kas pazīstama tikai kā 'Neredzamo Inženieru Ordenis,' par kuru runā, ka tā satiekas pazemes saunās, kur viņi meditē par inovatīviem risinājumiem, radot tvaiku un reizēm arī idejas.
+
+Tomēr iniciatīva ir saskārusies ar spēcīgu kritiku. Pazīstamā vietējā kritiķe un automašīnu entuziaste Ilze Veide izteica skepsi, sakot: “Cik vien es atbalstu progresu, es personīgi uzskatu, ka ir nedaudz izaicinoši 'sajust', kad gājēju pāreja parādīsies no zila gaisa, kad esmu legāli aizsietām acīm—kā ieteikts rokasgrāmatā.”
+
+Ieviešot neredzamos luksoforus, dome ir uzsākusi arī blakus projektu progresīviem semināriem, kurus vadīs starptautiski atzīta Latvijas ekstrasensu komanda, kas specializējas psihoterapijā un neizbraucamu ceļu scenārijos.
+
+Konfidenciāls pētījums, ko veica Automašīnu Īpašnieku Klubs (COWKC), apgalvo, ka iespaidīgi 37% Rīgas autovadītāju uzskata, ka viņiem jau piemīt prasme 'sajust' savu līdzbraucēju noskaņojumus. Šis pārliecinošais rādītājs tomēr vēl nav apstiprināts ar faktisku uz ceļa sniegumu, ko atzīmēja Ordeņa finanšu darbinieks Valdis Sneaperis kārtējā konfidenciālajā brīfingā, kas nejauši tika tiešraidē straumēts populārā Latvijas vlogu vietnē.
+
+Turpmāk, pilsētas dome aicina iedzīvotājus “pieņemt pārmaiņas” un brīdina gājējus valkāt saprātīgus apavus un nēsāt svilpi—'katram gadījumam.'
+
+Šķietami daudzsološā solī uz neredzamu nākotni, Rīgas Dome apliecina, ka viņi paliek nelokāmi savā apņemšanās sirreālai modernizācijai, un, lai gan tūlītējais redzamais efekts vēl ir jāredz, garastāvokļi šķiet optimistiski caurspīdīgi.`,
+      ru: `В историческом решении по модернизации сложной транспортной ситуации в Риге, Рижская городская дума представила гениальную инициативу, которая обещает революционизировать способ передвижения по нашим историческим районам — представляем: 'Инициатива невидимых светофоров'.
+
+Инициатива, которая была с энтузиазмом объявлена на чувствительно стильной пресс-конференции в нераскрытом месте (по соображениям безопасности, как утверждают официальные лица), направлена на сокращение пробок путем устранения крупнейших узких мест в городе — фактических физических светофоров, заменив их на ультрасовременную, хотя и невидимую, систему, основанную на передовой телепатии и интуиции.
+
+"Светофоры, которые вы можете видеть, — это так старомодно," сказал Юрис Блумс, визионер за этим амбициозным проектом и самопровозглашенный 'Министр технологий будущего сейчас'. "В таком современном городе, как Рига, где бесплатный Wi-Fi является конституционным правом, логично, что мы переходим в невидимое измерение, где пользователи дорог наконец могут взаимодействовать со своими первобытными инстинктами вождения."
+
+Дума обещает, что это обновление не только сократит городские расходы на цветные лампочки и металлические столбы, но и создаст более интуитивную среду для вождения. "Это простая концепция," объяснил Блумс, который небрежно носил солнцезащитные очки в помещении, несмотря на отсутствие какого-либо освещения. "Убирая видимые огни, водители разовьют уникальное шестое чувство для потока движения, используя каналы коммуникации, которые только наши самые древние предки имели доступ, или, возможно, воображали."
+
+Сообщается, что в инициативе участвуют лучшие умы Латвии в области технологий, включая загадочную группу, известную только как 'Орден невидимых инженеров', которая, как говорят, встречается в подземных саунах, где они медитируют над инновационными решениями, генерируя пар и, иногда, идеи.
+
+Однако критика инициативы была значительной. Известный местный критик и автолюбитель Илзе Вейде выразила скептицизм, заявив: "Несмотря на то, что я поддерживаю прогресс, лично мне немного сложно 'чувствовать', когда пешеходный переход появится из ниоткуда, когда я легально завязанными глазами — как указано в руководстве."
+
+Внедряя невидимые светофоры, дума также запустила побочный проект для проведения продвинутых мастер-классов под руководством международно признанной команды латвийских экстрасенсов, специализирующихся на психотерапии и сценариях бездорожья.
+
+Конфиденциальное исследование, проведенное Клубом владельцев автомобилей, которые знают (COWKC), утверждает, что впечатляющие 37% рижских водителей считают, что уже обладают навыком 'чувствовать' настроение своих коллег-водителей. Однако эта убедительная метрика еще не была подтверждена фактическими дорожными выступлениями, отметил финансовый директор Ордена, Валдис Снеаперис, во время еще одного конфиденциального брифинга, который случайно транслировался в прямом эфире на популярном латвийском влоговом сайте.
+
+В дальнейшем городская дума призывает граждан "принять изменения" и предупреждает пешеходов носить удобную обувь и иметь при себе свисток — 'на всякий случай'.
+
+В том, что, несомненно, является многообещающим шагом в невидимое будущее, Рижская городская дума уверяет нас, что они остаются непоколебимыми в своей приверженности сюрреалистичной модернизации, и хотя немедленный видимый эффект еще предстоит увидеть, духи, кажется, оптимистично прозрачны.`
+    },
+    date: "Dec 16, 2025",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&h=600&fit=crop",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 30,
     slug: "latvias-bold-initiative-to-train-seagulls",
     title: {
@@ -95,7 +176,7 @@ Un tā, pagaidām, Latvijas debesu gidi varbūt vēl nevadīs tūristus pa vēst
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&h=600&fit=crop",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 29,
