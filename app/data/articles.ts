@@ -17,6 +17,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 33,
+    slug: "latvian-ministry-of-agriculture-announces-revolutionary",
+    title: {
+      en: "Latvian Ministry of Agriculture Announces Revolutionary Plan to Train Cows to Read",
+      lv: "Latvijas Zemkopības ministrija paziņo par revolucionāru plānu apmācīt govis lasīt",
+      ru: "Латвийское Министерство сельского хозяйства объявляет революционный план по обучению коров чтению"
+    },
+    excerpt: {
+      en: "In a groundbreaking agricultural reform, the Latvian Ministry of Agriculture unveiled its new initiative to improve dairy production by teaching cows to read Latvian literature. The pilot program, 'Read, Moo, Produce,' aims to enhance bovine intellectual stimulation and promote cultural heritage.",
+      lv: "Pārsteidzošā lauksaimniecības reformā Latvijas Zemkopības ministrija atklāja jaunu iniciatīvu piena ražošanas uzlabošanai, mācot govīm lasīt latviešu literatūru. Pilotprogramma 'Lasi, Mū, Ražo' mērķē uzlabo liellopu intelektuālo stimulāciju un veicina kultūras mantojumu.",
+      ru: "В рамках новаторской аграрной реформы Латвийское Министерство сельского хозяйства представило новую инициативу по улучшению производства молока, обучая коров чтению латвийской литературы. Пилотная программа 'Читай, Му, Производи' направлена на повышение интеллектуальной стимуляции коров и продвижение культурного наследия."
+    },
+    fullContent: {
+      en: `Riga, Latvia — The Latvian Ministry of Agriculture recently announced an ambitious and unprecedented strategy to boost dairy production by directly engaging the nation's cows in reading activities. The initiative, ingeniously titled 'Read, Moo, Produce,' is designed to equip bovines with the ability to read and appreciate Latvian literature, promising an intellectual Renaissance within the dairy industry.
+
+At an elaborate press conference held in a well-lit barn outside Riga, Minister of Agriculture, Agris Mēness, unveiled the ministry's revolutionary plan, emphasizing its potential to benefit both the cows and the national culture. 'It's time to move beyond traditional farming techniques. By stimulating our cows' minds, we encourage higher milk production, and more importantly, we impart our rich literary heritage,' he stated while glancing affectionately at the herd, which had gathered in eager anticipation.
+
+The program begins with an intensive six-month reading course where each cow is assigned a book from the acclaimed Latvijas Bibliotēka—the National Library of Latvia—spanning from classic poetry to contemporary short stories. Utilizing specially designed large-print books, cows are exposed to the works of Latvian luminaries such as Rainis and Aspazija. The course, surprisingly comprehensive, also features nightly Round-Moo discussions led by Professor Ilze Vēvers, a noted dairy science intellectual.
+
+'Empirical evidence suggests that mental engagement improves milk yield,' Vēvers explained, unfurling a scroll of scientific jargon. 'As cows ruminate over existentialist themes, they produce richer, creamier milk. A cow pondering the meaning of life, just like us, is a happy cow. It's really that simple.'
+
+The program has already yielded astonishing results in its initial trials. Mēness Farms, the first to implement the initiative, reported a 300% increase in milk production, following an enthusiastic response to 'The Brothers Kaudzītes,' a nineteenth-century classic. The cows, affectionately referred to as the 'Learned Herd,' showed a notable preference for Latvian epic poems, exhibiting signs of enjoyment such as exuberant tail-wagging and synchronized mooing.
+
+However, public opinion is divided. Critics, including Silvija Gaile, a skeptical dairy farmer from Latgale, question the program's practicality. 'Are we serious with this? Cows reading? What’s next, horses learning ballet?' she quipped, though she admitted contemplating a trial after hearing about the increased productivity at Mēness Farms.
+
+To further aid assimilation, the Ministry is distributing Latvian-English dictionaries—should the cows wish to expand their linguistic prowess. Plans are also underway to introduce a bovine e-reader, equipped with waterproof technology, thus allowing cows to enjoy literature even on rainy grazing days.
+
+This bold move has captured the international community's attention, inadvertently positioning Latvia as a pioneer in the global agricultural scene. Experts from around the world are expected to visit Latvia for the upcoming 'Boviculture Summit 2024.' The summit will showcase this innovation alongside other unorthodox farming strategies, such as sauna yoga for sheep and music therapy for carrots.
+
+In a concluding note at the press meet, Minister Mēness remarked, 'As we look forward to the day when every cow can quote Latvian literature, we truly consider this the dawn of a new agricultural epoch.' He paused, perhaps for dramatic effect or due to a misplaced confidence in his metaphor, before adding, 'Our cows will no longer just be grazing the pastures of Latvia but the pages of history itself.'
+
+As of now, the first batch of graduates—who each received a commemorative cowbell inscribed with the slogan 'Literis et Lactis' (Literature and Milk)—continue to showcase their newfound literary talents, exemplifying that where there's a will, there's a whey.`,
+      lv: `Rīga, Latvija — Latvijas Zemkopības ministrija nesen paziņoja par ambiciozu un līdz šim nepieredzētu stratēģiju piena ražošanas palielināšanai, tieši iesaistot valsts govis lasīšanas aktivitātēs. Iniciatīva, ģeniāli nosaukta par 'Lasi, Mū, Ražo', ir izstrādāta, lai aprīkotu liellopus ar spēju lasīt un novērtēt latviešu literatūru, solot intelektuālo renesansi piena nozarē.
+
+Izsmalcinātā preses konferencē, kas notika labi apgaismotā kūtī ārpus Rīgas, zemkopības ministrs Agris Mēness atklāja ministrijas revolucionāro plānu, uzsverot tā potenciālu gūt labumu gan govīm, gan nacionālajai kultūrai. 'Ir pienācis laiks pāriet no tradicionālajām lauksaimniecības metodēm. Stimulējot mūsu govju prātus, mēs veicinām lielāku piena ražošanu, un, vēl svarīgāk, mēs nododam mūsu bagāto literāro mantojumu,' viņš teica, mīļi skatoties uz ganāmpulku, kas bija sapulcējies ar nepacietību.
+
+Programma sākas ar intensīvu sešu mēnešu lasīšanas kursu, kurā katrai govij tiek piešķirta grāmata no slavenās Latvijas Bibliotēkas — Latvijas Nacionālās bibliotēkas — sākot no klasiskās dzejas līdz mūsdienu īsstāstiem. Izmantojot speciāli izstrādātas lielizdrukas grāmatas, govis tiek iepazīstinātas ar tādu latviešu izcilnieku darbiem kā Rainis un Aspazija. Kurss, pārsteidzoši visaptverošs, ietver arī nakts Apaļo-Mū diskusijas, kuras vada profesore Ilze Vēvers, ievērojama piena zinātnes intelektuāle.
+
+'Empīriskie pierādījumi liecina, ka garīgā iesaistīšanās uzlabo piena ražu,' skaidroja Vēvers, izvēršot zinātniskā žargona rituli. 'Kad govis pārdomā eksistenciālas tēmas, tās ražo bagātāku, krēmīgāku pienu. Govs, kas pārdomā dzīves jēgu, gluži kā mēs, ir laimīga govs. Tas tiešām ir tik vienkārši.'
+
+Programma jau sākotnējos izmēģinājumos ir devusi pārsteidzošus rezultātus. Mēness saimniecības, pirmās, kas ieviesa iniciatīvu, ziņoja par 300% piena ražošanas pieaugumu, pēc entuziasma pilnas reakcijas uz 'Brāļiem Kaudzītēm,' deviņpadsmitā gadsimta klasiku. Govis, mīļi sauktas par 'Mācīto Ganāmpulku,' izrādīja ievērojamu priekšroku latviešu episkajai dzejai, izrādot baudu ar enerģisku astes vicināšanu un sinhrono mū.
+
+Tomēr sabiedrības viedoklis ir dalīts. Kritiķi, tostarp Silvija Gaile, skeptiska piena ražotāja no Latgales, apšauba programmas praktiskumu. 'Vai mēs to nopietni? Govis lasa? Kas būs nākamais, zirgi mācās baletu?' viņa pajokoja, lai gan atzina, ka apsver izmēģinājumu pēc dzirdētā par ražīguma pieaugumu Mēness saimniecībās.
+
+Lai vēl vairāk veicinātu asimilāciju, ministrija izplata latviešu-angļu vārdnīcas — ja govis vēlas paplašināt savas valodu prasmes. Plāni ir arī ieviest liellopu e-lasītāju, aprīkotu ar ūdensnecaurlaidīgu tehnoloģiju, ļaujot govīm baudīt literatūru pat lietainās ganību dienās.
+
+Šis drosmīgais solis ir piesaistījis starptautiskās sabiedrības uzmanību, netīši pozicionējot Latviju kā līderi globālajā lauksaimniecības ainā. Eksperti no visas pasaules tiek sagaidīti Latvijā gaidāmajā 'Bovikultūras samitā 2024.' Samits demonstrēs šo inovāciju līdzās citām neparastām lauksaimniecības stratēģijām, piemēram, saunu jogu aitām un mūzikas terapiju burkāniem.
+
+Noslēdzot preses tikšanos, ministrs Mēness piebilda: 'Mēs gaidām dienu, kad katra govs varēs citēt latviešu literatūru, mēs patiesi uzskatām, ka tas ir jaunas lauksaimniecības ēras rītausma.' Viņš apstājās, iespējams, dramatiskā efekta dēļ vai arī dēļ pārlieku lielas pārliecības par savu metaforu, pirms pievienojot: 'Mūsu govis vairs tikai neganīsies Latvijas pļavās, bet arī vēstures lappusēs.'
+
+Pašlaik pirmā absolventu grupa — katra saņēma piemiņas govs zvaniņu ar uzrakstu 'Literis et Lactis' (Literatūra un Piens) — turpina demonstrēt savus jauniegūtos literāros talantus, apliecinot, ka, kur ir griba, tur ir arī veids.`,
+      ru: `Рига, Латвия — Латвийское Министерство сельского хозяйства недавно объявило амбициозную и беспрецедентную стратегию по увеличению производства молока, напрямую вовлекая коров страны в чтение. Инициатива, гениально названная 'Читай, Му, Производи', предназначена для того, чтобы научить коров читать и ценить латвийскую литературу, обещая интеллектуальное Возрождение в молочной промышленности.
+
+На изысканной пресс-конференции, проведенной в хорошо освещенном амбаре за пределами Риги, министр сельского хозяйства Агрис Мēнесс представил революционный план министерства, подчеркивая его потенциал для пользы как коров, так и национальной культуры. 'Пора выйти за рамки традиционных методов фермерства. Стимулируя умы наших коров, мы поощряем более высокое производство молока, и, что более важно, передаем наше богатое литературное наследие,' заявил он, с любовью глядя на стадо, собравшееся в ожидании.
+
+Программа начинается с интенсивного шестимесячного курса чтения, где каждой корове назначается книга из знаменитой Latvijas Bibliotēka — Национальной библиотеки Латвии — от классической поэзии до современных рассказов. Используя специально разработанные книги с крупным шрифтом, коровы знакомятся с произведениями латвийских светил, таких как Райнис и Аспазия. Курс, удивительно комплексный, также включает в себя ночные обсуждения 'Круг-Му', проводимые профессором Илзе Вēверс, известным интеллектуалом в области молочной науки.
+
+'Эмпирические данные показывают, что умственная активность улучшает удои молока,' объяснила Вēверс, разворачивая свиток с научным жаргоном. 'Когда коровы размышляют над экзистенциальными темами, они производят более насыщенное, кремовое молоко. Корова, размышляющая о смысле жизни, как и мы, — счастливая корова. Это действительно так просто.'
+
+Программа уже дала поразительные результаты в своих начальных испытаниях. Фермы Мēнесс, первые, кто внедрил инициативу, сообщили о 300% увеличении производства молока после восторженной реакции на 'Братья Каудзīте', классическое произведение девятнадцатого века. Коровы, ласково называемые 'Учёное Стадо', проявили заметное предпочтение латвийским эпическим поэмам, демонстрируя признаки удовольствия, такие как энергичное махание хвостом и синхронное мычание.
+
+Однако общественное мнение разделилось. Критики, включая Сильвию Гайле, скептически настроенного фермера из Латгалии, ставят под сомнение практичность программы. 'Мы серьёзно? Коровы читают? Что дальше, лошади учатся балету?' — пошутила она, хотя призналась, что задумывается о пробной версии после услышанного об увеличении производительности на фермах Мēнесс.
+
+Для дальнейшего содействия ассимиляции министерство распространяет латвийско-английские словари — на случай, если коровы захотят расширить свои языковые навыки. Также планируется ввести электронную читалку для коров, оснащённую водонепроницаемой технологией, что позволит коровам наслаждаться литературой даже в дождливые дни на пастбище.
+
+Этот смелый шаг привлёк внимание международного сообщества, невольно позиционируя Латвию как пионера на мировой аграрной сцене. Ожидается, что эксперты со всего мира посетят Латвию на предстоящем 'Саммите Бовикультуры 2024'. Саммит продемонстрирует эту инновацию наряду с другими нетрадиционными стратегиями фермерства, такими как сауна-йога для овец и музыкальная терапия для моркови.
+
+В заключительном слове на пресс-конференции министр Мēнесс отметил: 'Мы с нетерпением ждем дня, когда каждая корова сможет цитировать латвийскую литературу, и действительно считаем это началом новой аграрной эпохи.' Он сделал паузу, возможно, для драматического эффекта или из-за misplaced уверенности в своей метафоре, прежде чем добавить: 'Наши коровы больше не будут просто пастись на лугах Латвии, но и на страницах истории.'
+
+На данный момент первая партия выпускников, каждый из которых получил памятный колокольчик с надписью 'Literis et Lactis' (Литература и Молоко), продолжает демонстрировать свои вновь обретенные литературные таланты, доказывая, что где есть желание, там есть и сыворотка.`
+    },
+    date: "Dec 18, 2025",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "5 min read",
+    imageUrl: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=600&fit=crop",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 32,
     slug: "latvia-announces-plans-to-host-eurovision",
     title: {
@@ -89,7 +170,7 @@ Kamēr detaļas vēl tiek jautri izstrādātas, ministrs Leduslācis paliek opti
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 31,
