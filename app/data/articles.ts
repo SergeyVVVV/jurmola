@@ -17,6 +17,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 34,
+    slug: "riga-announces-new-national-bird-the",
+    title: {
+      en: "Riga Announces New National Bird: The Parking Pigeon",
+      lv: "Rīga Ievieš Jaunu Nacionālo Putnu: Stāvvietu Balodi",
+      ru: "Рига объявляет новую национальную птицу: Парковочный Голубь"
+    },
+    excerpt: {
+      en: "In a surprise move, Latvia's capital city Riga has declared the Parking Pigeon as its official national bird. This decision was made to honor the city's burgeoning population of adventurous avian automobilians, who have shown unparalleled perseverance in car park domination.",
+      lv: "Pārsteidzošā solī Latvijas galvaspilsēta Rīga ir pasludinājusi Stāvvietu Balodi par savu oficiālo nacionālo putnu. Šis lēmums pieņemts, lai godinātu pilsētas pieaugošo piedzīvojumu pilno spārnoto automobiļu populāciju, kas ir parādījusi nepārspējamu neatlaidību autostāvvietu dominēšanā.",
+      ru: "В неожиданном шаге столица Латвии, Рига, объявила Парковочного Голубя своей официальной национальной птицей. Это решение было принято в честь растущей популяции авантюрных пернатых автомобилистов, которые проявили непревзойденное упорство в доминировании на парковках."
+    },
+    fullContent: {
+      en: `In an innovative and fairly unexpected announcement, Riga's municipal council declared the Parking Pigeon as the new national bird. The decision follows a contentious debate at the annual Urban Avian and Traffic Conundrum Conference, where city planners, ornithologists, and frustrated motorists convened to discuss alternative solutions to Latvia's ever-tightening urban spaces.
+
+According to data released by the Riga Ornithological Institute (ROI), the city experiences a 20% rise in pigeon population every summer, coinciding with the tourist influx. What's more remarkable is their uncanny preference for parking spaces over traditional nesting sites.
+
+"Pigeons have shown remarkable adaptability, often seen migrating from sacrosanct statues to finding new homes atop the meticulous metallic roofs of luxury SUVs," commented Dr. Milda Balodis, an esteemed ornithologist and the chair of ROI. She added, "The Parking Pigeon has become a symbol of resilience and territorial ingenuity, qualities we Latvians hold dear."
+
+Despite the positive official endorsements, not all stakeholders are thrilled by the proclamation. Residents have seen an increase in unrequested 'pigeon detailing' on car windshields. One outraged citizen, Kaspars Zapols, noted, "They clearly don't know how to parallel park, yet they have the audacity to leave their calling cards in geometric patterns on my freshly washed Audi."
+
+City marketing strategists, however, are leveraging this avian affinity to their advantage. "We have plans to launch the 'Park and Perch' initiative," said city council spokesperson Zane Gulbis. "Visitors can enjoy an authentic Latvian experience as pigeons demonstrate their intricate parking maneuvers atop their vehicles, all while our tour guides narrate Latvia's bird-brained history with humor and historical accuracy."
+
+Critics argue that if not properly addressed, this decision might attract a new genre of tourism, termed 'Pigeon Parkers,' which includes niche enthusiasts and birdwatchers armed with oversized cameras. "It might just lead Rīgas Satiksme to allocate an entire fleet of buses for pigeon-only travel," jested a local satirist, commenting on the city's already overstretched public transport choices.
+
+Even amidst the squabble, some entrepreneurs see opportunity. "We're developing the 'Car-top Condo,' a small yet sophisticated rooftop accessory where pigeons can peacefully reside without leaving decorative patterns," announced Ģirts Ozols, a startup innovator keen on resolving the situation practically.
+
+Ultimately, the most interesting suggestions came from the Latvian Ornithological Philosophical Society (LOPhS). They proposed a 'Pigeon Peace Accord' by agreeing to share half of the city's prime parking through a symbolic handshake between Transport Minister and the head pigeon (played by an actor, as pigeons can't partake in formal diplomacy yet).
+
+As the city of Riga embraces the Parking Pigeon with open parking garages and car-top coffee stands, it remains to be seen if urban planners will be able to steer their feathered friends away from ever larger SUVs, or if this feathered council will continue to rule the roost.
+
+Indeed, only time will tell if this is a sky-high success or an avian automotive debacle. But for now, Latvia has clearly staked its feather in the vibrant world of urban ornithology.`,
+      lv: `Inovatīvā un diezgan negaidītā paziņojumā Rīgas pašvaldības padome pasludināja Stāvvietu Balodi par jauno nacionālo putnu. Lēmums sekoja strīdīgām debatēm ikgadējā Pilsētas Putnu un Satiksmes Mīklu Konferencē, kur pilsētplānotāji, ornitologi un neapmierināti autovadītāji pulcējās, lai apspriestu alternatīvus risinājumus Latvijas arvien sašaurinātākajām pilsētas telpām.
+
+Saskaņā ar Rīgas Ornitoloģijas Institūta (ROI) publicētajiem datiem, pilsētā vasarā novērojams 20% pieaugums baložu populācijā, kas sakrīt ar tūristu pieplūdumu. Vēl pārsteidzošāk ir viņu neparastā priekšroka stāvvietām pār tradicionālajām ligzdošanas vietām.
+
+"Baloži ir parādījuši ievērojamu pielāgošanās spēju, bieži vien migrējot no svētajiem pieminekļiem uz jaunu mājvietu meklējumiem uz luksusa SUV metāliskajiem jumtiem," komentēja Dr. Milda Balode, ievērojama ornitoloģe un ROI priekšsēdētāja. Viņa piebilda: "Stāvvietu Balodis ir kļuvis par izturības un teritoriālās atjautības simbolu, īpašībām, kuras mēs, latvieši, augstu vērtējam."
+
+Neskatoties uz pozitīvajiem oficiālajiem atzinumiem, ne visi ieinteresētie ir sajūsmā par šo paziņojumu. Iedzīvotāji ir novērojuši pieaugumu nevēlamajā 'baložu apdarināšanā' uz automašīnu vējstikliem. Viens sašutis pilsonis, Kaspars Zapols, norādīja: "Viņi acīmredzot nezina, kā paralēli novietot automašīnu, tomēr viņiem ir drosme atstāt savus vizītkartes ģeometriskos rakstos uz mana tikko mazgātā Audi."
+
+Pilsētas mārketinga stratēģi tomēr izmanto šo spārnoto pievilcību savā labā. "Mums ir plāni uzsākt 'Park and Perch' iniciatīvu," sacīja pilsētas padomes pārstāve Zane Gulbe. "Apmeklētāji var baudīt autentisku latviešu pieredzi, kamēr baloži demonstrē savas sarežģītās stāvvietu manevrus uz viņu transportlīdzekļiem, kamēr mūsu gidi ar humoru un vēsturisku precizitāti stāsta par Latvijas putnu vēsturi."
+
+Kritiķi apgalvo, ka, ja šis lēmums netiks pienācīgi risināts, tas varētu piesaistīt jaunu tūrisma žanru, ko sauc par 'Baložu Stāvvietu', kas ietver nišas entuziastus un putnu vērotājus ar lielizmēra kamerām. "Tas varētu novest pie tā, ka Rīgas Satiksme piešķir visu autobusu floti tikai baložu pārvadāšanai," jokoja vietējais satīriķis, komentējot pilsētas jau tā pārslogotās sabiedriskā transporta izvēles.
+
+Pat vidū strīdiem, daži uzņēmēji redz iespēju. "Mēs izstrādājam 'Car-top Condo', nelielu, bet izsmalcinātu jumta aksesuāru, kur baloži var mierīgi dzīvot, neatstājot dekoratīvus rakstus," paziņoja Ģirts Ozols, jaunuzņēmuma inovators, kas vēlas praktiski atrisināt situāciju.
+
+Galu galā visinteresantākos priekšlikumus izteica Latvijas Ornitoloģijas Filozofiskā Biedrība (LOPhS). Viņi ierosināja 'Baložu Miera Vienošanos', piekrītot dalīt pusi no pilsētas galvenajām stāvvietām, simboliski sarokojoties starp Transporta ministru un galveno balodi (ko spēlē aktieris, jo baloži vēl nevar piedalīties formālajā diplomātijā).
+
+Kā Rīga pieņem Stāvvietu Balodi ar atvērtām stāvvietām un automašīnu jumta kafejnīcām, vēl jāredz, vai pilsētplānotāji spēs novirzīt savus spalvainos draugus no arvien lielākiem SUV, vai arī šī spalvainā padome turpinās valdīt pār stāvvietām.
+
+Patiesi, tikai laiks rādīs, vai tas būs debesīs augsts panākums vai spārnoto automobiļu fiasko. Bet pagaidām Latvija ir skaidri iezīmējusi savu spalvu košajā pilsētas ornitoloģijas pasaulē.`,
+      ru: `В инновационном и довольно неожиданном объявлении муниципальный совет Риги объявил Парковочного Голубя новой национальной птицей. Решение последовало за спорными дебатами на ежегодной конференции по городским орнитологическим и транспортным проблемам, где городские планировщики, орнитологи и разочарованные автомобилисты собрались, чтобы обсудить альтернативные решения для все более сужающихся городских пространств Латвии.
+
+Согласно данным, опубликованным Рижским орнитологическим институтом (ROI), летом в городе наблюдается 20% рост популяции голубей, совпадающий с наплывом туристов. Что еще более замечательно, так это их странная предпочтительность парковочных мест перед традиционными местами гнездования.
+
+"Голуби проявили замечательную адаптивность, их часто можно увидеть мигрирующими с сакральных статуй на новые дома на вершинах тщательно отполированных металлических крыш роскошных внедорожников," прокомментировала доктор Мильда Балодис, уважаемый орнитолог и председатель ROI. Она добавила: "Парковочный Голубь стал символом стойкости и территориальной изобретательности, качеств, которые мы, латыши, очень ценим."
+
+Несмотря на положительные официальные одобрения, не все заинтересованные стороны в восторге от провозглашения. Жители заметили увеличение нежелательной "голубиной деталировки" на лобовых стеклах автомобилей. Один возмущенный гражданин, Каспарс Заполс, отметил: "Они явно не умеют параллельно парковаться, но у них хватает наглости оставлять свои визитные карточки в геометрических узорах на моем только что вымытом Audi."
+
+Однако городские маркетологи используют эту птичью привязанность в своих интересах. "У нас есть планы запустить инициативу 'Парковка и Насест'," сказала представитель городского совета Зане Гулбис. "Посетители смогут насладиться аутентичным латвийским опытом, пока голуби демонстрируют свои сложные парковочные маневры на их автомобилях, а наши гиды рассказывают историю Латвии с юмором и исторической точностью."
+
+Критики утверждают, что если не принять меры, это решение может привлечь новый жанр туризма, названный 'Голубиные Парковщики', который включает в себя нишевых энтузиастов и орнитологов с большими камерами. "Это может привести к тому, что Rīgas Satiksme выделит целый парк автобусов для путешествий только для голубей," пошутил местный сатирик, комментируя и без того перегруженные варианты общественного транспорта в городе.
+
+Даже среди споров некоторые предприниматели видят возможности. "Мы разрабатываем 'Кондо на крыше автомобиля', небольшой, но изысканный аксессуар на крыше, где голуби могут спокойно обитать, не оставляя декоративных узоров," объявил Гиртс Озолс, стартап-инноватор, стремящийся решить ситуацию практически.
+
+В конечном итоге самые интересные предложения поступили от Латвийского орнитологического философского общества (LOPhS). Они предложили 'Голубиный мирный договор', согласившись разделить половину лучших парковочных мест города через символическое рукопожатие между министром транспорта и главным голубем (в роли которого выступит актер, так как голуби пока не могут участвовать в формальной дипломатии).
+
+Пока город Рига принимает Парковочного Голубя с открытыми парковочными гаражами и кофейнями на крышах автомобилей, остается увидеть, смогут ли городские планировщики направить своих пернатых друзей подальше от все более крупных внедорожников, или же этот пернатый совет продолжит править насестом.
+
+Действительно, только время покажет, станет ли это успехом на высоте или автомобильной катастрофой с перьями. Но на данный момент Латвия явно заявила о себе в ярком мире городской орнитологии.`
+    },
+    date: "Dec 19, 2025",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=600&fit=crop",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 33,
     slug: "latvian-ministry-of-agriculture-announces-revolutionary",
     title: {
@@ -95,7 +176,7 @@ Pašlaik pirmā absolventu grupa — katra saņēma piemiņas govs zvaniņu ar u
     readTime: "5 min read",
     imageUrl: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=600&fit=crop",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 32,
