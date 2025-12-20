@@ -17,6 +17,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 35,
+    slug: "riga-announces-bold-plan-to-address",
+    title: {
+      en: "Riga Announces Bold Plan to Address Bike-Theft Epidemic: Mandatory Licenses for Bicycle Thieves",
+      lv: "Rīga paziņo par drosmīgu plānu cīņai ar velosipēdu zādzību epidēmiju: obligātas licences velosipēdu zagļiem",
+      ru: "Рига объявляет смелый план по борьбе с эпидемией краж велосипедов: обязательные лицензии для велосипедных воров"
+    },
+    excerpt: {
+      en: "In a groundbreaking move aimed at curbing the rampant rise of bicycle thefts, Riga City Council has implemented a controversial new policy requiring all bicycle thieves to obtain mandatory licenses. The initiative, hailed as 'progressive' by some city officials, promises to regulate the underappreciated art of bike relocation.",
+      lv: "Rīgas pilsētas dome, lai ierobežotu velosipēdu zādzību straujo pieaugumu, ir ieviesusi pretrunīgu jaunu politiku, kas prasa visiem velosipēdu zagļiem iegūt obligātas licences. Šī iniciatīva, kuru daži pilsētas amatpersonas dēvē par 'progresīvu', sola regulēt nepietiekami novērtēto velosipēdu pārvietošanas mākslu.",
+      ru: "В новаторском шаге, направленном на сдерживание стремительного роста краж велосипедов, Рижский городской совет внедрил спорную новую политику, требующую от всех велосипедных воров получения обязательных лицензий. Инициатива, названная некоторыми городскими чиновниками 'прогрессивной', обещает регулировать недооцененное искусство перемещения велосипедов."
+    },
+    fullContent: {
+      en: `In a daring response to what has been termed the 'Great Bicycle Exodus,' during which over 3,000 bikes have mysteriously disappeared from Riga’s streets in the past year alone, the Riga City Council announced on Tuesday a groundbreaking policy: the creation of mandatory licenses for professional bicycle thieves.
+
+The initiative, unveiled during a slightly chaotic press conference at the Freedom Monument, aims to bring order to what officials are calling 'the city's most uncontrollable sport'.
+
+Speaking on behalf of the city council, Alberts Žiegis, newly appointed Director of Urban Reappropriation Projects, explained, 'Our city has always been at the forefront of innovative solutions. Riga cannot ignore its heritage of skilled bicycle relocation artists. This license system acknowledges their contribution while seeking to regulate the craft.'
+
+According to the latest statistics, bicycles accounted for a staggering 98% of all relocations in the central districts of Riga last year, leaving only 2% for forgotten umbrellas and stray socks. 
+
+'We need to ensure that we maintain high standards. We can’t just have anybody relocate bikes,’ continued Žiegis, adding, 'The licenses will include rigorous training sessions and examinations. This isn't just anyone’s game.'
+
+The new regulation will require all aspiring thieves to enroll in a six-week course, which covers crucial skills such as unbolting techniques, daylight pilfering finesse, and sustainable getaway advancements featuring eco-friendly escape routes. The course also offers an optional module on how to handle car alarms 'just in case.'
+
+Anna Balode, who claims allegiance to the Association of Baltic Bicycle Beacons Rights (ABBBR), has shown mixed feelings toward the policy. 'On one hand, it legitimizes our profession,' she muttered mysteriously, 'but on the other, they want us to pay taxes like ordinary citizens. That's a bit too far, even for us!'
+
+Local bike shop owner Juris Tulks, in contrast, expressed cautious optimism. 'Maybe now I can finally sleep at night knowing that the fates of my entire stock won’t hang in such precarious balance,' he mused between replacing chain locks and composing tearful regards to anxious future customers.
+
+Critics argue the move simply adds bureaucracy to theft, a notion quickly dispelled by Žiegis, who insists the licenses are aspired acts of veritable artisanal craftsmanship. 'Besides, it will boost the economy with license fees,' he noted brightly, 'and of course, we have plans to establish an annual awards ceremony celebrating the thievish talents of our community. Imagine the tourism!'
+
+Meanwhile, Rīga Bicycle Liberation Front’s president, Jurītis Kusmaņķis, awaits his licensing examination yet remains hopeful. ‘Imagine the best thief of the year receiving the golden spoke award on an internationally televised event,' he speculates. 'This, my friends, could make Latvia famous for something other than smoked sprats.’
+
+Only time will tell whether Riga’s new approach will successfully curb bike theft or simply make criminal pursuits the latest formal sport. Nonetheless, should it succeed, other European cities may follow suit, making stay-at-home bicycle enthusiasts rethink new forms of clandestine sporting endeavors in their quest for a bicycle-free lifestyle.`,
+      lv: `Atbildot uz tā dēvēto 'Lielo Velosipēdu Eksodu', kura laikā tikai pagājušajā gadā no Rīgas ielām noslēpumaini pazuda vairāk nekā 3 000 velosipēdu, Rīgas pilsētas dome otrdien paziņoja par revolucionāru politiku: obligātu licenču izveidi profesionāliem velosipēdu zagļiem.
+
+Iniciatīva, kas tika atklāta nedaudz haotiskā preses konferencē pie Brīvības pieminekļa, mērķē ieviest kārtību tam, ko amatpersonas dēvē par 'pilsētas nekontrolējamāko sportu'.
+
+Pilsētas domes vārdā runājot, Alberts Žiegis, jaunieceltais Pilsētas Pārņemšanas Projektu direktors, skaidroja: 'Mūsu pilsēta vienmēr ir bijusi inovatīvu risinājumu priekšgalā. Rīga nevar ignorēt savu prasmīgo velosipēdu pārvietošanas mākslinieku mantojumu. Šī licenču sistēma atzīst viņu ieguldījumu, vienlaikus cenšoties regulēt šo amatu.'
+
+Saskaņā ar jaunākajiem statistikas datiem, velosipēdi veidoja satriecošus 98% no visām pārvietošanām Rīgas centrālajos rajonos pagājušajā gadā, atstājot tikai 2% aizmirstiem lietussargiem un klejojošām zeķēm.
+
+'Mums jānodrošina, ka mēs uzturam augstus standartus. Mēs nevaram vienkārši ļaut jebkuram pārvietot velosipēdus,' turpināja Žiegis, piebilstot, 'Licences ietvers stingras apmācības sesijas un eksāmenus. Tas nav tikai jebkura spēle.'
+
+Jaunais regulējums prasīs, lai visi topošie zagļi piedalītos sešu nedēļu kursā, kas aptver būtiskas prasmes, piemēram, skrūvju atskrūvēšanas tehnikas, dienasgaismas zagšanas izsmalcinātību un ilgtspējīgas aizbēgšanas uzlabojumus ar videi draudzīgiem bēgšanas maršrutiem. Kurss piedāvā arī izvēles moduli par to, kā rīkoties ar automašīnu signalizācijām 'tikai gadījumā'.
+
+Anna Balode, kas apgalvo, ka pārstāv Baltijas Velosipēdu Bākas Tiesību Asociāciju (ABBBR), ir izrādījusi jauktas jūtas pret šo politiku. 'No vienas puses, tas leģitimizē mūsu profesiju,' viņa noslēpumaini murmināja, 'bet no otras, viņi vēlas, lai mēs maksātu nodokļus kā parasti pilsoņi. Tas ir nedaudz par daudz, pat mums!'
+
+Vietējā velosipēdu veikala īpašnieks Juris Tulks, savukārt, izteica piesardzīgu optimismu. 'Varbūt tagad es beidzot varēšu gulēt naktī, zinot, ka mana visa krājuma liktenis nebūs tik nedrošs,' viņš prātoja, mainot ķēdes slēdzenes un rakstot asarainas vēstules satrauktiem nākotnes klientiem.
+
+Kritizētāji apgalvo, ka šis solis vienkārši pievieno birokrātiju zādzībai, ideju, ko Žiegis ātri izkliedē, uzstājot, ka licences ir tiecas uz patiesu amatniecības meistarību. 'Turklāt tas veicinās ekonomiku ar licenču maksām,' viņš priecīgi piebilda, 'un, protams, mums ir plāni izveidot ikgadēju apbalvošanas ceremoniju, kas svinēs mūsu kopienas zaglīgās prasmes. Iedomājieties tūrisma pieplūdumu!'
+
+Tikmēr Rīgas Velosipēdu Atbrīvošanas Frontes prezidents Jurītis Kusmaņķis gaida savu licencēšanas eksāmenu, tomēr paliek cerīgs. 'Iedomājieties, ka gada labākais zaglis saņem zelta spieķa balvu starptautiski pārraidītā pasākumā,' viņš spekulē. 'Tas, mani draugi, varētu padarīt Latviju slavenu ar kaut ko citu, nevis kūpinātām šprotēm.'
+
+Tikai laiks rādīs, vai Rīgas jaunā pieeja veiksmīgi ierobežos velosipēdu zādzības vai vienkārši padarīs noziedzīgas nodarbes par jaunāko formālo sportu. Tomēr, ja tas izdosies, citas Eiropas pilsētas varētu sekot šim piemēram, liekot mājās esošajiem velosipēdu entuziastiem pārdomāt jaunus slepeno sporta veidu veidus savā ceļā uz dzīvi bez velosipēdiem.`,
+      ru: `В дерзком ответе на то, что было названо 'Великим Исходом Велосипедов', в ходе которого более 3000 велосипедов загадочным образом исчезли с улиц Риги только за последний год, Рижский городской совет объявил во вторник о новаторской политике: создании обязательных лицензий для профессиональных велосипедных воров.
+
+Инициатива, представленная на слегка хаотичной пресс-конференции у Памятника Свободы, направлена на наведение порядка в том, что чиновники называют 'самым неконтролируемым видом спорта в городе'.
+
+Выступая от имени городского совета, Альберт Жиегис, недавно назначенный директор проектов по городской реаппроприации, объяснил: 'Наш город всегда был на передовой инновационных решений. Рига не может игнорировать свое наследие искусных мастеров перемещения велосипедов. Эта система лицензирования признает их вклад, стремясь при этом регулировать ремесло.'
+
+Согласно последним статистическим данным, велосипеды составили ошеломляющие 98% всех перемещений в центральных районах Риги в прошлом году, оставив лишь 2% для забытых зонтов и потерянных носков.
+
+'Мы должны обеспечить высокие стандарты. Мы не можем позволить кому попало перемещать велосипеды,' продолжил Жиегис, добавив: 'Лицензии будут включать строгие тренировки и экзамены. Это не игра для кого попало.'
+
+Новое регулирование потребует от всех начинающих воров записаться на шестинедельный курс, который охватывает ключевые навыки, такие как техники раскручивания, изящество дневного воровства и устойчивые пути отхода с использованием экологически чистых маршрутов. Курс также предлагает дополнительный модуль по управлению автомобильными сигнализациями 'на всякий случай'.
+
+Анна Балоде, заявляющая о своей принадлежности к Ассоциации Прав Балтийских Велосипедных Маяков (ABBBR), выразила смешанные чувства по поводу политики. 'С одной стороны, это легитимизирует нашу профессию,' загадочно пробормотала она, 'но с другой, они хотят, чтобы мы платили налоги, как обычные граждане. Это уже слишком, даже для нас!'
+
+Владелец местного веломагазина Юрис Тулкс, напротив, выразил осторожный оптимизм. 'Может быть, теперь я наконец смогу спать спокойно, зная, что судьбы всего моего ассортимента не будут висеть на столь шатком балансе,' размышлял он между заменой цепных замков и составлением слезливых обращений к обеспокоенным будущим клиентам.
+
+Критики утверждают, что этот шаг просто добавляет бюрократию к воровству, но Жиегис быстро развеял это мнение, настаивая, что лицензии являются стремлением к подлинному ремесленному мастерству. 'Кроме того, это увеличит экономику за счет лицензионных сборов,' отметил он с энтузиазмом, 'и, конечно, у нас есть планы по учреждению ежегодной церемонии награждения, отмечающей воровские таланты нашего сообщества. Представьте себе туризм!'
+
+Тем временем президент Фронта Освобождения Велосипедов Риги, Юритис Кусманькис, ожидает своего лицензионного экзамена, но остается полным надежд. 'Представьте себе, как лучший вор года получает награду золотой спицы на международном телевизионном событии,' размышляет он. 'Это, друзья мои, может сделать Латвию известной не только копчеными шпротами.'
+
+Только время покажет, удастся ли Риге с помощью нового подхода успешно сдержать кражи велосипедов или просто сделать преступные занятия последним официальным видом спорта. Тем не менее, если это удастся, другие европейские города могут последовать примеру, заставляя домоседов-велосипедистов переосмыслить новые формы тайных спортивных начинаний в их стремлении к жизни без велосипедов.`
+    },
+    date: "Dec 20, 2025",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 34,
     slug: "riga-announces-new-national-bird-the",
     title: {
@@ -95,7 +182,7 @@ Patiesi, tikai laiks rādīs, vai tas būs debesīs augsts panākums vai spārno
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=600&fit=crop",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 33,
