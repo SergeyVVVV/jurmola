@@ -17,6 +17,75 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 36,
+    slug: "latvian-parliament-announces-plan-to-replace",
+    title: {
+      en: "Latvian Parliament Announces Plan to Replace National Currency with Sea Shells",
+      lv: "Latvijas Parlaments paziņo par plānu nacionālo valūtu aizstāt ar jūras gliemežvākiem",
+      ru: "Латвийский парламент объявляет план заменить национальную валюту на ракушки"
+    },
+    excerpt: {
+      en: "In a bold move to simplify economic matters and promote coastal tourism, the Latvian Saeima voted unanimously to adopt sea shells as the new national currency. The transition is set to begin immediately, prompting a nationwide scramble for mussel-rich beaches.",
+      lv: "Drosmīgā solī, lai vienkāršotu ekonomiskos jautājumus un veicinātu piekrastes tūrismu, Latvijas Saeima vienbalsīgi nobalsoja par jūras gliemežvāku pieņemšanu kā jauno nacionālo valūtu. Pāreja sāksies nekavējoties, izraisot valsts mēroga sacensību par gliemežvākiem bagātajām pludmalēm.",
+      ru: "В смелом шаге по упрощению экономических вопросов и продвижению прибрежного туризма латвийский Сейм единогласно проголосовал за принятие ракушек в качестве новой национальной валюты. Переход начнется немедленно, что вызвало всеобщую гонку за пляжами, богатыми мидиями."
+    },
+    fullContent: {
+      en: `RIGA—In an unprecedented move to both celebrate Latvia's rich maritime heritage and address the nation's economic complexities, the Latvian Parliament, Saeima, has announced the official plan to phase out the euro and adopt sea shells as the new national currency. The decision, which was met with resounding applause across parliamentary chambers, promises to revolutionize economic policies and foster a renaissance of beachcombing.
+
+Minister of Finance, Skudris Kalnins, extolled the virtues of relocating financial systems to a more tangible and, in his words, 'naturally Baltic' medium. 'For centuries, our majestic Baltic coastline has been overlooked,' Kalnins declared at a press conference held from atop a dune in Jurmala. 'By adopting sea shells, we celebrate our past, secure our economic independence, and finally give the world a reason to pay attention to our seashells. Frankly, they're beautiful yet utterly undervalued assets.'
+
+The plan, affectionately termed the 'Shell Shock Initiative,' will see various shells, ranging from large oyster varieties to the more abundant cockle shells, assigned monetary values. Current estimates by the Ministry of Finance suggest that a basic meal of fish soup could cost approximately five oyster shells, whereas a weekend retreat at a seaside Jurmala villa might require up to a thousand cockle shells.
+
+Sea shell exchanges and testing centers are set to sprout up along the coast, providing services like authenticity verification and shell valuation. Anita Vilks, newly appointed Head of the Bureau of Baltic Custodians (BBC), explained, 'We're hiring local beachcombers as shell inspectors, equipping them with the latest in shell authenticity technology, including magnifying glasses and judgmental stares. This is not just about economics—it's about community enrichment.'
+
+However, detractors argue that the plan might not be as sustainable as initially suggested. Noted economist and avid collector of seashell figurines, Dr. Margers Suplins, expressed skepticism, 'If everyone’s collecting shells, who's left to build sandcastles? It’s basic economics: sandcastle deficit will inevitably lead to a decline in beach aesthetics, leading to a dip in tourism.'
+
+Tourist, Alannah Jensen, who flew all the way from Pennsylvania with an intent to just lie on the beach, seemed confused yet intrigued. 'I thought I was just on vacation, but now I'm handling currency. I guess I’ll redecorate my home with my spending money. It's all very European, if you ask me.'
+
+This initiative has already brought unexpected pursuits among Latvia’s youth, with hordes of entrepreneurial-minded teenagers braving the cold Baltic waters to mine mussels and harvest potential fortunes. The educational implications are also being felt nationwide, with elementary schools adapting curriculums to include classes on marine economics and advanced shell picking strategies.
+
+As Latvia embarks on what it proudly calls a journey toward 'alt-financial enlightenment,' analysts across Europe remain both fascinated and flummoxed. Whether this bold initiative will prove to be a stroke of economic genius or merely a well-intentioned tidal misstep remains to be seen. For now, one thing is clear: the sound of the sea has gained a whole new meaning in the Latvian economy.`,
+      lv: `RĪGA—Nepieredzētā solī, lai gan svinētu Latvijas bagāto jūras mantojumu, gan risinātu valsts ekonomiskās sarežģītības, Latvijas Parlaments, Saeima, ir paziņojis par oficiālo plānu atteikties no eiro un pieņemt jūras gliemežvākus kā jauno nacionālo valūtu. Lēmums, kas tika sagaidīts ar skaļiem aplausiem parlamenta zālēs, sola revolucionizēt ekonomikas politiku un veicināt pludmales meklēšanas renesansi.
+
+Finanšu ministrs Skudris Kalniņš slavēja finanšu sistēmu pārcelšanu uz taustāmāku un, viņa vārdiem sakot, 'dabiski Baltijas' mediju. 'Gadsimtiem ilgi mūsu majestātiskā Baltijas piekraste ir tikusi ignorēta,' Kalniņš paziņoja preses konferencē, kas notika kāpas virsotnē Jūrmalā. 'Pieņemot jūras gliemežvākus, mēs svinam savu pagātni, nodrošinām ekonomisko neatkarību un beidzot dodam pasaulei iemeslu pievērst uzmanību mūsu gliemežvākiem. Godīgi sakot, tie ir skaisti, bet pilnīgi nenovērtēti aktīvi.'
+
+Plāns, mīļi dēvēts par 'Gliemežvāku Šoka Iniciatīvu', paredz dažādu gliemežvāku, sākot no lielām austeru šķirnēm līdz bagātīgākajiem sirdsveida gliemežvākiem, piešķiršanu monetārajām vērtībām. Finanšu ministrijas pašreizējie aprēķini liecina, ka vienkārša zivju zupas maltīte varētu maksāt aptuveni piecus austeru gliemežvākus, savukārt nedēļas nogales atpūta piejūras Jūrmalas villā varētu prasīt līdz pat tūkstoš sirdsveida gliemežvākiem.
+
+Jūras gliemežvāku apmaiņas un testēšanas centri tiks izveidoti gar piekrasti, piedāvājot tādus pakalpojumus kā autentiskuma pārbaude un gliemežvāku vērtēšana. Anita Vilks, jauniecelta Baltijas Aizbildņu Biroja (BAB) vadītāja, skaidroja, 'Mēs pieņemam darbā vietējos pludmales meklētājus kā gliemežvāku inspektorus, aprīkojot viņus ar jaunākajām gliemežvāku autentiskuma tehnoloģijām, tostarp palielināmo stiklu un vērtējošiem skatieniem. Tas nav tikai par ekonomiku—tas ir par kopienas bagātināšanu.'
+
+Tomēr kritiķi apgalvo, ka plāns var nebūt tik ilgtspējīgs, kā sākotnēji ierosināts. Ievērojamais ekonomists un aizrautīgs gliemežvāku figūriņu kolekcionārs, Dr. Mārgers Supļins, izteica skepsi, 'Ja visi vāc gliemežvākus, kas tad būvēs smilšu pilis? Tā ir pamata ekonomika: smilšu piļu deficīts neizbēgami novedīs pie pludmales estētikas samazināšanās, kas savukārt samazinās tūrismu.'
+
+Tūristi, Alannah Jensen, kas lidoja no Pensilvānijas ar nodomu vienkārši gulēt pludmalē, šķita apjukusi, bet ieinteresēta. 'Es domāju, ka esmu vienkārši atvaļinājumā, bet tagad es rīkojos ar valūtu. Es domāju, ka pārdekorēšu savu māju ar savu iztērēto naudu. Tas viss ir ļoti eiropiešu, ja jūs man jautājat.'
+
+Šī iniciatīva jau ir izraisījusi negaidītas aktivitātes Latvijas jauniešu vidū, ar uzņēmīgiem pusaudžiem, kas drosmīgi dodas aukstajos Baltijas ūdeņos, lai iegūtu gliemežvākus un novāktu potenciālās bagātības. Izglītības ietekme ir jūtama arī visā valstī, jo pamatskolas pielāgo mācību programmas, iekļaujot nodarbības par jūras ekonomiku un uzlabotas gliemežvāku vākšanas stratēģijas.
+
+Kā Latvija uzsāk to, ko tā lepni sauc par ceļojumu uz 'alternatīvo finanšu apgaismību', analītiķi visā Eiropā paliek gan fascinēti, gan apjukuši. Vai šī drosmīgā iniciatīva izrādīsies ekonomiska ģēnija gājiens vai vienkārši labi nodomāts paisuma solis, vēl ir redzams. Pašlaik viena lieta ir skaidra: jūras skaņa Latvijas ekonomikā ir ieguvusi pavisam jaunu nozīmi.`,
+      ru: `РИГА — В беспрецедентном шаге, чтобы одновременно отпраздновать богатое морское наследие Латвии и решить экономические сложности страны, латвийский парламент, Сейм, объявил официальный план поэтапного отказа от евро и принятия ракушек в качестве новой национальной валюты. Решение, которое встретило бурные аплодисменты в парламентских залах, обещает революционизировать экономическую политику и способствовать возрождению пляжного поиска.
+
+Министр финансов Скудрис Калнинс восхвалял достоинства переноса финансовых систем на более осязаемую и, по его словам, 'естественно балтийскую' среду. 'В течение веков наш величественный балтийский берег оставался незамеченным,' заявил Калнинс на пресс-конференции, проведенной на вершине дюны в Юрмале. 'Приняв ракушки, мы празднуем наше прошлое, обеспечиваем нашу экономическую независимость и наконец даем миру повод обратить внимание на наши ракушки. Честно говоря, они красивые, но абсолютно недооцененные активы.'
+
+План, ласково названный 'Инициатива Ракушечного Шока', предусматривает присвоение различных ракушек, от крупных устриц до более распространенных сердцевидок, денежной стоимости. По текущим оценкам Министерства финансов, простая порция рыбного супа может стоить около пяти раковин устриц, тогда как отдых на выходных в вилле на берегу моря в Юрмале может потребовать до тысячи раковин сердцевидок.
+
+Обменные пункты и центры проверки ракушек будут появляться вдоль побережья, предоставляя услуги по проверке подлинности и оценке ракушек. Анита Вилкс, недавно назначенная глава Бюро Балтийских Хранителей (ББХ), объяснила: 'Мы нанимаем местных пляжных исследователей в качестве инспекторов ракушек, оснащая их новейшими технологиями проверки подлинности ракушек, включая увеличительные стекла и осуждающие взгляды. Это не только об экономике — это об обогащении сообщества.'
+
+Однако критики утверждают, что план может быть не таким устойчивым, как предполагалось изначально. Известный экономист и заядлый коллекционер фигурок из ракушек, доктор Маргерс Суплинс, выразил скептицизм: 'Если все собирают ракушки, кто останется строить песчаные замки? Это базовая экономика: дефицит песчаных замков неизбежно приведет к снижению эстетики пляжей, что приведет к спаду туризма.'
+
+Туристка Аланна Дженсен, прилетевшая из Пенсильвании с намерением просто полежать на пляже, была озадачена, но заинтригована. 'Я думала, что просто на отдыхе, но теперь я управляю валютой. Думаю, я украшу свой дом своими деньгами. Это все очень по-европейски, если вы спросите меня.'
+
+Эта инициатива уже привела к неожиданным занятиям среди латвийской молодежи, когда толпы предприимчивых подростков отваживаются на холодные балтийские воды, чтобы добывать мидии и собирать потенциальные состояния. Образовательные последствия также ощущаются по всей стране, так как начальные школы адаптируют учебные программы, включая классы по морской экономике и продвинутым стратегиям сбора ракушек.
+
+Пока Латвия отправляется в то, что она гордо называет путешествием к 'альт-финансовому просветлению', аналитики по всей Европе остаются как заинтригованными, так и озадаченными. Будет ли эта смелая инициатива доказательством экономического гения или просто хорошо задуманным приливным промахом, еще предстоит выяснить. На данный момент одно ясно: звук моря приобрел совершенно новое значение в латвийской экономике.`
+    },
+    date: "Dec 21, 2025",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=800&h=600&fit=crop",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 35,
     slug: "riga-announces-bold-plan-to-address",
     title: {
@@ -101,7 +170,7 @@ Tikai laiks rādīs, vai Rīgas jaunā pieeja veiksmīgi ierobežos velosipēdu 
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 34,
