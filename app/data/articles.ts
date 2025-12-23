@@ -17,6 +17,75 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 38,
+    slug: "latvian-government-announces-ambitious-plan-to",
+    title: {
+      en: "Latvian Government Announces Ambitious Plan to Introduce Pine Cone-Based Currency",
+      lv: "Latvijas valdība paziņo par ambiciozu plānu ieviest čiekuru valūtu",
+      ru: "Латвийское правительство объявляет амбициозный план по введению валюты на основе шишек"
+    },
+    excerpt: {
+      en: "In a bold move to bolster the nation's economy, the Latvian government has unveiled plans to phase out the euro and replace it with a pine cone-based currency. Officials claim this change will make every Latvian the proud owner of their very own forest bank.",
+      lv: "Lai stiprinātu valsts ekonomiku, Latvijas valdība ir atklājusi plānus pakāpeniski atteikties no eiro un aizstāt to ar čiekuru valūtu. Amatpersonas apgalvo, ka šīs izmaiņas padarīs katru latvieti par lepnu sava meža bankas īpašnieku.",
+      ru: "В смелом шаге по укреплению экономики страны латвийское правительство представило планы по отказу от евро и замене его валютой на основе шишек. Официальные лица утверждают, что это изменение сделает каждого латвийца гордым владельцем собственного лесного банка."
+    },
+    fullContent: {
+      en: `In what may be Europe’s most groundbreaking economic decision of the decade, the Latvian government has declared its intention to abandon the euro in favor of a pine cone-backed currency by the start of next spring. Dubbed the 'Coņi', this new financial system is said to symbolize Latvia's commitment to sustainable forestry and will reportedly lead to unprecedented monetary growth—at least during the autumn months.
+
+This innovative proposal was announced at a press conference held in a charming woodland area just outside Sigulda, where Prime Minister Rūdolfs Lapkauskas stood flanked by towering pines and an impressive spread of conifers. "We believe that integrating our rich natural resources directly into the economy will provide security and resilience that the euro simply cannot offer," declared Lapkauskas, gently patting a ceremonial pine cone held in his hand.
+
+The plan has been met with a mixed reaction. Renāte Ozola, head economist at the Center for Non-Traditional Economic Strategies (CENTS), enthusiastically supports the initiative. "Imagine a world where you always have spare change just by walking through Mežaparks! It's a dream come true for everyone who ever wanted to make money grow on trees," she stated, emphasizing the ease with which citizens will be able to transmute forest findings into sandwiches at the local canteen.
+
+However, some critics, such as the disenchanted Latvian Euro Enthusiasts Society (LEES), have voiced concerns over practical aspects of the plan, notably, the volatility of markets due to seasonal availability of pine cones. "Considering the average lifespan of a pine cone as currency—16 days when not inhabited by squirrels—we anticipate difficulties in long-term investments," commented LEES president, Guntis Blūms.
+
+Despite skepticism, central planners remain undeterred. They have already devised an elaborate infrastructure to assess pine cone quality, strolling through vast stretches of Latvian woodland with officials equipped with magnifying glasses and enthusiasm. Conifers in possession of a particularly handsome symmetry will be classified as 'high-value' Coņi, ideal for securing loans or making monthly rent payments.
+
+In a surprising act of cross-border economic collaboration, the neighboring Estonians are reportedly keen on potential bilateral trade agreements using mushroom-based exchange systems, while Lithuania has hinted at the possibility of bolstering their tourism appeal with amber credit. Wide-reaching, indeed, is the allure of natural currency.
+
+The central bank is expected to roll out instructional videos starring beloved national icon Māris Briežkalns, who will demonstrate how best to stack, store, and exchange Coņi within one’s home. "It’s an exciting time for all Latvians," Briežkalns remarked in a newly-released trailer. "Pretty soon, our forests will be safer than Swiss banks."
+
+Initial street interviews reveal a cautiously optimistic public. "I always thought money should smell as nice as pine," an elderly resident of Riga commented, embracing the scent of freshly gathered currency with deep satisfaction. As implementation day draws nearer, only time will tell if the 'Coņi' will plant roots deep in the annals of Latvian history—or simply blow away in the wind.`,
+      lv: `Eiropas desmitgades vispārsteidzošākajā ekonomiskajā lēmumā Latvijas valdība ir paziņojusi par nodomu atteikties no eiro par labu čiekuru valūtai līdz nākamā pavasara sākumam. Šī jaunā finanšu sistēma, kas dēvēta par 'Coņi', simbolizē Latvijas apņemšanos ilgtspējīgai mežsaimniecībai un, kā ziņots, novedīs pie nebijušas monetārās izaugsmes—vismaz rudens mēnešos.
+
+Šis inovatīvais priekšlikums tika paziņots preses konferencē, kas notika burvīgā meža apvidū netālu no Siguldas, kur premjerministrs Rūdolfs Lapkauskas stāvēja starp augstiem priežu kokiem un iespaidīgu skuju koku izklājumu. "Mēs uzskatām, ka mūsu bagāto dabas resursu tieša integrācija ekonomikā nodrošinās drošību un izturību, ko eiro vienkārši nespēj piedāvāt," paziņoja Lapkauskas, maigi glāstot ceremonijas čiekuru savā rokā.
+
+Plāns ir saņēmis jauktu reakciju. Renāte Ozola, Netipisko Ekonomisko Stratēģiju Centra (CENTS) galvenā ekonomiste, entuziastiski atbalsta iniciatīvu. "Iedomājieties pasauli, kurā jums vienmēr ir sīknauda, vienkārši pastaigājoties pa Mežaparku! Tas ir sapnis, kas piepildās ikvienam, kurš jebkad vēlējies, lai nauda aug uz kokiem," viņa teica, uzsverot, cik viegli pilsoņi varēs pārvērst meža atradumus sviestmaizēs vietējā ēdnīcā.
+
+Tomēr daži kritiķi, piemēram, vīlušies Latvijas Eiro Entuziastu Sabiedrība (LEES), ir izteikuši bažas par plāna praktiskajiem aspektiem, īpaši par tirgus svārstīgumu sezonālās čiekuru pieejamības dēļ. "Ņemot vērā vidējo čiekura dzīves ilgumu kā valūtu—16 dienas, ja to neapdzīvo vāveres—mēs paredzam grūtības ilgtermiņa ieguldījumos," komentēja LEES prezidents Guntis Blūms.
+
+Neskatoties uz skepsi, centrālie plānotāji paliek nelokāmi. Viņi jau ir izstrādājuši sarežģītu infrastruktūru čiekuru kvalitātes novērtēšanai, staigājot pa plašiem Latvijas mežu apgabaliem ar amatpersonām, kas aprīkotas ar palielināmajiem stikliem un entuziasmu. Īpaši simetriskas skujkoku čiekuri tiks klasificēti kā 'augstvērtīgi' Coņi, ideāli piemēroti aizdevumu nodrošināšanai vai ikmēneša īres maksājumiem.
+
+Pārsteidzošā pārrobežu ekonomiskās sadarbības aktā kaimiņvalsts igauņi, kā ziņots, ir ieinteresēti potenciālajos divpusējos tirdzniecības līgumos, izmantojot sēņu apmaiņas sistēmas, savukārt Lietuva ir norādījusi uz iespēju stiprināt savu tūrisma pievilcību ar dzintara kredītu. Dabas valūtas pievilcība patiešām ir plaša.
+
+Centrālā banka plāno izlaist mācību video, kurā piedalīsies iemīļotais nacionālais simbols Māris Briežkalns, kurš demonstrēs, kā vislabāk sakraut, uzglabāt un mainīt Coņi savās mājās. "Tas ir aizraujošs laiks visiem latviešiem," Briežkalns atzīmēja jaunizlaistajā treilerī. "Drīz mūsu meži būs drošāki par Šveices bankām."
+
+Sākotnējās ielu intervijas atklāj piesardzīgi optimistisku sabiedrību. "Es vienmēr domāju, ka naudai vajadzētu smaržot tikpat labi kā priedēm," komentēja kāds vecāks Rīgas iedzīvotājs, ar dziļu apmierinājumu ieelpojot tikko savāktās valūtas smaržu. Tuvojoties ieviešanas dienai, tikai laiks rādīs, vai 'Coņi' iesakņosies dziļi Latvijas vēsturē—vai vienkārši aizpūtīs vējā.`,
+      ru: `Возможно, самое революционное экономическое решение десятилетия в Европе: латвийское правительство объявило о намерении отказаться от евро в пользу валюты, обеспеченной шишками, к началу следующей весны. Названная 'Кони', эта новая финансовая система, как говорят, символизирует приверженность Латвии устойчивому лесному хозяйству и, по сообщениям, приведет к беспрецедентному денежному росту — по крайней мере, в осенние месяцы.
+
+Это инновационное предложение было объявлено на пресс-конференции, проведенной в очаровательной лесной местности недалеко от Сигулды, где премьер-министр Рудольфс Лапкаускас стоял в окружении величественных сосен и впечатляющего разнообразия хвойных деревьев. "Мы считаем, что интеграция наших богатых природных ресурсов непосредственно в экономику обеспечит безопасность и устойчивость, которые евро просто не может предложить," заявил Лапкаускас, нежно поглаживая церемониальную шишку в руке.
+
+План встретил смешанную реакцию. Ренате Озола, главный экономист Центра нетрадиционных экономических стратегий (CENTS), с энтузиазмом поддерживает инициативу. "Представьте себе мир, где у вас всегда есть мелочь, просто прогуливаясь по Межапарку! Это мечта, ставшая реальностью для всех, кто когда-либо хотел, чтобы деньги росли на деревьях," заявила она, подчеркивая легкость, с которой граждане смогут превращать лесные находки в бутерброды в местной столовой.
+
+Однако некоторые критики, такие как разочарованное Латвийское общество энтузиастов евро (LEES), выразили обеспокоенность по поводу практических аспектов плана, особенно волатильности рынков из-за сезонной доступности шишек. "Учитывая среднюю продолжительность жизни шишки в качестве валюты — 16 дней, если она не заселена белками, — мы ожидаем трудностей с долгосрочными инвестициями," прокомментировал президент LEES Гунтис Блумс.
+
+Несмотря на скептицизм, центральные планировщики остаются непоколебимыми. Они уже разработали сложную инфраструктуру для оценки качества шишек, прогуливаясь по обширным участкам латвийских лесов с чиновниками, вооруженными лупами и энтузиазмом. Хвойные деревья с особенно красивой симметрией будут классифицированы как 'высокая ценность' Кони, идеальные для обеспечения кредитов или ежемесячных арендных платежей.
+
+В неожиданном акте трансграничного экономического сотрудничества соседние эстонцы, как сообщается, заинтересованы в потенциальных двусторонних торговых соглашениях с использованием систем обмена на основе грибов, в то время как Литва намекнула на возможность усиления своей туристической привлекательности с помощью янтарного кредита. Действительно, широкое распространение имеет привлекательность природной валюты.
+
+Ожидается, что центральный банк выпустит обучающие видео с участием любимого национального символа Мариса Бриежкалнса, который продемонстрирует, как лучше всего складывать, хранить и обменивать Кони в домашних условиях. "Это захватывающее время для всех латвийцев," заметил Бриежкалнс в недавно выпущенном трейлере. "Очень скоро наши леса будут безопаснее, чем швейцарские банки."
+
+Начальные уличные интервью показывают осторожно оптимистичную общественность. "Я всегда думал, что деньги должны пахнуть так же приятно, как сосна," прокомментировал пожилой житель Риги, с глубоким удовлетворением вдыхая аромат свежесобранной валюты. По мере приближения дня реализации только время покажет, пустят ли 'Кони' корни глубоко в анналы латвийской истории — или просто унесутся ветром.`
+    },
+    date: "Dec 23, 2025",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "7 min read",
+    imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 37,
     slug: "latvian-govt-issues-emergency-alert-entire",
     title: {
@@ -95,7 +164,7 @@ Kopumā, latviešiem atgriežoties civilizācijā ar caurduriem un recepšu grā
     readTime: "6 min read",
     imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 36,
