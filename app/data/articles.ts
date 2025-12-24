@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 39,
+    slug: "latvian-parliament-approves-revolutionary-sauna-tax",
+    title: {
+      en: "Latvian Parliament Approves Revolutionary 'Sauna Tax' to Combat Global Warming",
+      lv: "Latvijas parlaments apstiprina revolucionāro 'Pirts nodokli', lai cīnītos pret globālo sasilšanu",
+      ru: "Парламент Латвии одобряет революционный 'Налог на сауны' для борьбы с глобальным потеплением"
+    },
+    excerpt: {
+      en: "In an unprecedented move to tackle climate change, Latvia is set to implement a groundbreaking 'Sauna Tax,' targeting the nation's obsession with steam-filled relaxation. Officials predict the tax will curb hazardous hot air emissions linked to global warming.",
+      lv: "Nepieredzētā solī, lai risinātu klimata pārmaiņas, Latvija gatavojas ieviest revolucionāro 'Pirts nodokli', kas vērsts uz tautas apsēstību ar tvaika piepildītu relaksāciju. Amatpersonas prognozē, ka nodoklis ierobežos bīstamo karstā gaisa emisiju, kas saistīta ar globālo sasilšanu.",
+      ru: "В беспрецедентной попытке борьбы с изменением климата Латвия готовится ввести новаторский 'Налог на сауны', нацеленный на национальную одержимость паровыми процедурами. Официальные лица прогнозируют, что налог сократит опасные выбросы горячего воздуха, связанные с глобальным потеплением."
+    },
+    fullContent: {
+      en: `In a bold move to lead the world's environmental charge, the Latvian parliament, known locally for its innovative policy-making, has approved a revolutionary 'Sauna Tax.' Legislators say this move addresses both the nation's reliance on rustic rituals and the looming threat of global warming, purportedly exacerbated by excessive sauna-induced vapour.
+
+According to the new law, all private and public sauna establishments will be subjected to a 'steam emission levy,' calculated meticulously based on the number of yearly visits and average humidity level within premises. Top political minds argue this regulation will curb excess usage of saunas, long considered a bedrock of Latvian social interaction and wellness.
+
+Maris Gundars, Minister for Environment, made a compelling case in parliament: "While we continue to stress the importance of community and health, it's crucial that these activities do not come at the expense of our planet. Saunas, with their heavy usage and constant need for heating, contribute significantly to the so-called 'Latvia Effect' of global air warming."
+
+Critics have raised concerns about the tax’s economic repercussions on local businesses. Inga Kalnina, a third-generation sauna owner in Riga, lamented the potential impact: "This is where generations have come to sweat out their worries. It's our therapy. What will happen when people can no longer afford to come? Will we have to smuggle saunas across the border to Estonia? That's not how traditions were meant to be passed on."
+
+The tax, which is estimated to generate approximately 1.2 million euros annually, will allegedly fund 'eco-conscious' public projects. Yet, skeptics question the transparency of fund allocation, hinting at its potential diversion towards government-endorsed hot tub installations in parliamentary offices.
+
+Citizens, meanwhile, have taken the news with a typical Baltic stoicism. In a recent survey conducted by the 'Baltic Opinions Institute,' 47% of respondents expressed support for environmental action, whilst 46% expressed confusion about whether their weekly sauna routine could truly boil the Earth.
+
+Scientists, though, remain divided on the actual environmental impact. Dr. Linards Ozols from the University of Latvia warns that the science behind steam-related climate effects remains foggy at best. "While I want to support any initiative that protects our planet, the idea that saunas significantly contribute to global warming is about as flimsy as a whispy steam cloud."
+
+Despite the controversy, this bold new tax will go into effect in early 2024. In an attempt to placate skeptics, the government has released a promotional video featuring Latvian nature scenes set to jaunty folk music, reminding citizens that every drop of sweat counts.
+
+As the world watches on with both confusion and curiosity, one thing is clear: Latvia may have just redefined eco-activism, one steam room at a time. And while the Operation Heatwave Taskforce gears up for its grand unveiling, locals prepare to embrace the heat of bureaucracy alongside their rightful dose of eucalyptus-scented steam.`,
+      lv: `Drosmīgā solī, lai vadītu pasaules vides aizsardzības kustību, Latvijas parlaments, kas vietēji pazīstams ar savu inovatīvo politiku veidošanu, ir apstiprinājis revolucionāro 'Pirts nodokli'. Likuma devēji apgalvo, ka šis solis risina gan tautas atkarību no lauku rituāliem, gan draudošo globālās sasilšanas problēmu, kas, iespējams, tiek saasināta ar pārmērīgu pirts izraisītu tvaiku.
+
+Saskaņā ar jauno likumu, visām privātajām un publiskajām pirts iestādēm būs jāmaksā 'tvaika emisijas nodeva', kas tiks rūpīgi aprēķināta, pamatojoties uz gada apmeklējumu skaitu un vidējo mitruma līmeni telpās. Vadošie politiskie prāti apgalvo, ka šis regulējums ierobežos pārmērīgu piršu izmantošanu, kas jau sen tiek uzskatīta par Latvijas sociālās mijiedarbības un labklājības pamatu.
+
+Vides ministrs Māris Gundars parlamentā izteica pārliecinošu argumentu: "Lai gan mēs turpinām uzsvērt kopienas un veselības nozīmi, ir svarīgi, lai šīs aktivitātes nenotiktu uz mūsu planētas rēķina. Pirtis, ar savu intensīvo izmantošanu un pastāvīgo apkures nepieciešamību, ievērojami veicina tā saukto 'Latvijas efektu' globālajā gaisa sasilšanā."
+
+Kritiķi ir pauduši bažas par nodokļa ekonomisko ietekmi uz vietējiem uzņēmumiem. Inga Kalniņa, trešās paaudzes pirts īpašniece Rīgā, izteica nožēlu par iespējamo ietekmi: "Šeit paaudzes ir nākušas izsvīst savas rūpes. Tā ir mūsu terapija. Kas notiks, kad cilvēki vairs nevarēs atļauties nākt? Vai mums būs jāved pirtis pāri robežai uz Igauniju? Tā nav, kā tradīcijas bija domātas nodot."
+
+Nodoklis, kas tiek lēsts, ka gadā radīs aptuveni 1,2 miljonus eiro, it kā finansēs 'ekoloģiski apzinātus' sabiedriskos projektus. Tomēr skeptiķi apšauba līdzekļu sadales caurspīdīgumu, norādot uz iespējamu novirzīšanu valdības atbalstītām burbuļvannu uzstādīšanām parlamenta birojos.
+
+Tikmēr pilsoņi ir uzņēmuši ziņas ar tipisku Baltijas stoicismu. Nesenā aptaujā, ko veica 'Baltijas Viedokļu Institūts', 47% respondentu pauda atbalstu vides aizsardzības pasākumiem, savukārt 46% izteica apjukumu par to, vai viņu iknedēļas pirts rutīna patiešām varētu uzvārīt Zemi.
+
+Zinātnieki, tomēr, ir dalīti par faktisko vides ietekmi. Dr. Linards Ozols no Latvijas Universitātes brīdina, ka zinātne par tvaika saistību ar klimata ietekmi ir vismazāk skaidra. "Lai gan es vēlos atbalstīt jebkuru iniciatīvu, kas aizsargā mūsu planētu, ideja, ka pirtis būtiski veicina globālo sasilšanu, ir tikpat trausla kā plāns tvaika mākonis."
+
+Neskatoties uz pretrunām, šis drosmīgais jaunais nodoklis stāsies spēkā 2024. gada sākumā. Lai nomierinātu skeptiķus, valdība ir izlaidusi reklāmas video ar Latvijas dabas ainavām, kas pavadītas ar jautru tautas mūziku, atgādinot pilsoņiem, ka katrs sviedru piliens ir svarīgs.
+
+Kamēr pasaule vēro ar gan apjukumu, gan ziņkāri, viena lieta ir skaidra: Latvija, iespējams, tikko ir pārdefinējusi ekoaktīvismu, vienu tvaika telpu pēc otras. Un, kamēr Operācijas Karstuma vilnis darba grupa gatavojas savam lielajam atklājumam, vietējie gatavojas pieņemt birokrātijas karstumu kopā ar savu pelnīto eikalipta smaržas tvaiku.`,
+      ru: `В смелом шаге, чтобы возглавить мировую экологическую борьбу, латвийский парламент, известный на местном уровне своими инновационными политическими решениями, одобрил революционный 'Налог на сауны'. Законодатели утверждают, что этот шаг решает как зависимость нации от деревенских ритуалов, так и надвигающуюся угрозу глобального потепления, якобы усугубляемую чрезмерным паром от саун.
+
+Согласно новому закону, все частные и общественные сауны будут облагаться 'налогом на выбросы пара', который будет тщательно рассчитываться на основе количества ежегодных посещений и среднего уровня влажности в помещениях. Ведущие политические умы утверждают, что это регулирование сократит чрезмерное использование саун, которые долгое время считались основой латвийского социального взаимодействия и оздоровления.
+
+Марис Гундарс, министр окружающей среды, выступил с убедительным заявлением в парламенте: "Хотя мы продолжаем подчеркивать важность сообщества и здоровья, важно, чтобы эти занятия не шли в ущерб нашей планете. Сауны, с их интенсивным использованием и постоянной потребностью в отоплении, значительно способствуют так называемому 'Латвийскому эффекту' глобального потепления воздуха."
+
+Критики выразили обеспокоенность по поводу экономических последствий налога для местного бизнеса. Инга Калнина, владелица сауны в третьем поколении в Риге, выразила сожаление по поводу возможного влияния: "Здесь поколения приходили, чтобы выпарить свои заботы. Это наша терапия. Что произойдет, когда люди больше не смогут позволить себе приходить? Нам придется контрабандой провозить сауны через границу в Эстонию? Это не тот способ, каким традиции должны передаваться."
+
+Налог, который, по оценкам, будет приносить около 1,2 миллиона евро в год, якобы будет финансировать 'эко-сознательные' общественные проекты. Однако скептики ставят под сомнение прозрачность распределения средств, намекая на их возможное использование для установки джакузи в парламентских офисах.
+
+Тем временем граждане восприняли новость с типичным балтийским стоицизмом. В недавнем опросе, проведенном 'Институтом балтийских мнений', 47% респондентов выразили поддержку экологическим действиям, в то время как 46% выразили замешательство по поводу того, может ли их еженедельный поход в сауну действительно вскипятить Землю.
+
+Ученые, однако, остаются разделенными по поводу реального воздействия на окружающую среду. Доктор Линардс Озолс из Латвийского университета предупреждает, что наука о паровых климатических эффектах остается туманной в лучшем случае. "Хотя я хочу поддержать любую инициативу, которая защищает нашу планету, идея о том, что сауны значительно способствуют глобальному потеплению, примерно такая же неустойчивая, как легкое облако пара."
+
+Несмотря на противоречия, этот смелый новый налог вступит в силу в начале 2024 года. В попытке успокоить скептиков правительство выпустило промо-видео с латвийскими природными сценами под задорную народную музыку, напоминая гражданам, что каждая капля пота имеет значение.
+
+Пока мир наблюдает с недоумением и любопытством, одно ясно: Латвия, возможно, только что переопределила эко-активизм, одна парная за раз. И пока Оперативная группа по борьбе с тепловыми волнами готовится к своему грандиозному открытию, местные жители готовятся принять жар бюрократии вместе с заслуженной дозой эвкалиптового пара.`
+    },
+    date: "Dec 24, 2025",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&h=600&fit=crop",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 38,
     slug: "latvian-government-announces-ambitious-plan-to",
     title: {
@@ -83,7 +158,7 @@ Sākotnējās ielu intervijas atklāj piesardzīgi optimistisku sabiedrību. "Es
     readTime: "7 min read",
     imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 37,
