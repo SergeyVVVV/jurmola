@@ -17,6 +17,75 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 41,
+    slug: "latvia-declares-seagull-as-national-bird",
+    title: {
+      en: "Latvia Declares Seagull as National Bird; Parliament Cites 'Fight for Fish and Freedom'",
+      lv: "Latvija pasludina kaiju par nacionālo putnu; Parlaments norāda uz 'Cīņu par zivīm un brīvību'",
+      ru: "Латвия объявляет чайку национальной птицей; Парламент ссылается на 'Борьбу за рыбу и свободу'"
+    },
+    excerpt: {
+      en: "In a groundbreaking move that has ruffled feathers across Europe, the Latvian parliament has officially declared the seagull as the nation's new national bird. Citing its 'indomitable spirit and keen eye for opportunity,' lawmakers stress the seagull's unique ability to embody the core values of Latvia's resilient culture.",
+      lv: "Revolucionārā solī, kas izraisījis spalvu sacelšanos visā Eiropā, Latvijas parlaments oficiāli pasludinājis kaiju par valsts jauno nacionālo putnu. Norādot uz tās 'neuzvaramo garu un asu aci uz iespējām', likumdevēji uzsver kaijas unikālo spēju iemiesot Latvijas izturīgās kultūras pamatvērtības.",
+      ru: "В новаторском шаге, который взбудоражил Европу, латвийский парламент официально объявил чайку новой национальной птицей страны. Ссылаясь на её 'неукротимый дух и острый глаз на возможности', законодатели подчеркивают уникальную способность чайки воплощать основные ценности стойкой культуры Латвии."
+    },
+    fullContent: {
+      en: `In a surprising turn of events that's winged its way into the annals of history, the Latvian Parliament, known for its unexpected legislative adventures, has voted 68-32 in favor of embracing the seagull as Latvia's new national bird. This controversial decision was made after a heated debate where it was proclaimed that the seagull's relentless pursuit of snacks parallels Latvia's own historical struggles.
+
+'It's not just a bird; it's a symbol of perseverance and adaptability,' declared Dietmar Zvejnieks, head of the Ornithological Society of Latvia, who staunchly advocates for the selection. 'The seagull's presence on our beaches is as ubiquitous as folk songs at Song Festivals and eludes oppressive tourist regulations with the same vivacity as our ancestors dodged invasions.'
+
+This symbolic choice has drawn mixed reviews from the Latvian public and international bird enthusiast societies alike. Critics, however, have expressed concerns. 'Choosing a bird that is universally known for stealing sandwiches and squawking at picnic-goers is an interesting representation of our national character,' commented Staņislavs Āboliņš, a member of the opposition who preferred the stork. 'Perhaps it was the gull's insistence on making its presence known that won it favor among certain members of parliament.'
+
+The decision comes after a lengthy deliberation period, where other contenders like the industrious stork and the majestic owl were considered. 'We were swayed by empirical data showing that seagulls are the undisputed masters of the Baltic sky and beachfront audits, maintaining a strong presence despite sudden rain showers and weekend gatherings,' stated Daina Putniņa, a cultural anthropologist from the University of Latvia. 'Their ability to procure fish from seemingly impossible heights parallels our economic resilience in the face of changing markets.'
+
+While humorous interpretations abound across social media, the government insists that the seagull reflects a strategic environmental and cultural initiative. Plans to adorn key government buildings with seagull sculptures are already drawing up plans, aimed at encouraging tourism and international ornithological curiosity.
+
+In Jurmala, locals are embracing the decision with a mixture of pride and amusement. 'At least now, when a seagull tries to nab my ice cream, I can say I'm contributing to a national initiative,' laughed Milda Auseklis, a local vendor known for her legendary cod-shaped cones.
+
+In response to the new designation, the Krogs Seagull Society is hosting a Gulls’ Gala later this month, complete with seagull impersonators and aerial acrobatics intended to celebrate the bird's newfound prestige. 'We're anticipating unprecedented cooperation from the coastal populations, who clearly have shown their enthusiasm from the rooftops,' beams Antra Cīrule, the society's event coordinator.
+
+As the sky clears after the parliamentary storm, one thing is certain: Latvia’s national identity, like a soaring seagull, is destined to make waves, perhaps even stealing the spotlight—and a few sandwiches—along the way.`,
+      lv: `Pārsteidzošā notikumu pavērsienā, kas ieguvis vietu vēstures annālēs, Latvijas parlaments, pazīstams ar saviem negaidītajiem likumdošanas piedzīvojumiem, nobalsoja ar 68 pret 32 par kaijas pieņemšanu kā Latvijas jauno nacionālo putnu. Šis pretrunīgais lēmums tika pieņemts pēc karstām debatēm, kurās tika apgalvots, ka kaijas neatlaidīgā uzkodu meklēšana līdzinās pašas Latvijas vēsturiskajām cīņām.
+
+'Tas nav tikai putns; tas ir izturības un pielāgošanās simbols,' paziņoja Dītmars Zvejnieks, Latvijas Ornitoloģijas biedrības vadītājs, kurš stingri aizstāv šo izvēli. 'Kaijas klātbūtne mūsu pludmalēs ir tikpat visuresoša kā tautasdziesmas Dziesmu svētkos un izvairās no apspiedošiem tūrisma noteikumiem ar tādu pašu dzīvīgumu, kā mūsu senči izvairījās no iebrukumiem.'
+
+Šī simboliskā izvēle ir izraisījusi dažādas atsauksmes gan no Latvijas sabiedrības, gan starptautiskajām putnu entuziastu biedrībām. Kritiķi tomēr ir pauduši bažas. 'Izvēlēties putnu, kas vispārzināms ar sviestmaižu zagšanu un kliegšanu uz piknika apmeklētājiem, ir interesants mūsu nacionālā rakstura attēlojums,' komentēja Staņislavs Āboliņš, opozīcijas loceklis, kurš deva priekšroku stārķim. 'Varbūt tas bija kaijas uzstājīgums padarīt sevi zināmu, kas ieguva labvēlību noteiktu parlamenta locekļu vidū.'
+
+Lēmums nāk pēc ilgstoša apspriežu perioda, kurā tika apsvērti arī citi pretendenti, piemēram, strādīgais stārķis un majestātiskais pūce. 'Mūs pārliecināja empīriski dati, kas parādīja, ka kaijas ir neapstrīdami Baltijas debesu un pludmales auditu meistari, saglabājot spēcīgu klātbūtni, neskatoties uz pēkšņiem lietusgāzēm un nedēļas nogales pulcēšanos,' teica Daina Putniņa, Latvijas Universitātes kultūras antropoloģe. 'To spēja iegūt zivis no šķietami neiespējamām augstumiem līdzinās mūsu ekonomiskajai izturībai mainīgo tirgu priekšā.'
+
+Lai gan sociālajos medijos ir daudz humoristisku interpretāciju, valdība uzstāj, ka kaija atspoguļo stratēģisku vides un kultūras iniciatīvu. Plāni rotāt galvenās valdības ēkas ar kaiju skulptūrām jau tiek izstrādāti, lai veicinātu tūrismu un starptautisku ornitoloģisko ziņkāri.
+
+Jūrmalā vietējie iedzīvotāji pieņem lēmumu ar lepnuma un izklaides sajaukumu. 'Vismaz tagad, kad kaija mēģina paņemt manu saldējumu, es varu teikt, ka piedalos nacionālajā iniciatīvā,' smējās Milda Auseklis, vietējā pārdevēja, kas pazīstama ar saviem leģendārajiem mencas formas konusiem.
+
+Reaģējot uz jauno apzīmējumu, Krogs Kaiju biedrība rīko Kaiju Galā vēlāk šomēnes, kurā piedalīsies kaiju atdarinātāji un gaisa akrobāti, lai svinētu putna jauniegūto prestižu. 'Mēs sagaidām nepieredzētu sadarbību no piekrastes iedzīvotājiem, kuri skaidri pauduši savu entuziasmu no jumtiem,' staro Antra Cīrule, biedrības pasākumu koordinatore.
+
+Kad debesis noskaidrojas pēc parlamentārās vētras, viena lieta ir skaidra: Latvijas nacionālā identitāte, gluži kā lidojoša kaija, ir lemta radīt viļņus, iespējams, pat nozagt uzmanību—un dažas sviestmaizes—pa ceļam.`,
+      ru: `В неожиданном повороте событий, который вошёл в анналы истории, латвийский парламент, известный своими неожиданными законодательными приключениями, проголосовал 68-32 в пользу принятия чайки в качестве новой национальной птицы Латвии. Это спорное решение было принято после жарких дебатов, где было заявлено, что неустанное стремление чайки к закускам параллельно историческим борьбам Латвии.
+
+'Это не просто птица; это символ настойчивости и адаптивности', заявил Дитмар Звейниекс, глава Орнитологического общества Латвии, который твёрдо поддерживает этот выбор. 'Присутствие чайки на наших пляжах так же повсеместно, как народные песни на Праздниках песни, и она избегает репрессивных туристических правил с той же живостью, с какой наши предки избегали вторжений.'
+
+Этот символический выбор вызвал смешанные отзывы как у латвийской общественности, так и у международных обществ любителей птиц. Однако критики выразили свои опасения. 'Выбор птицы, которая повсеместно известна тем, что ворует бутерброды и кричит на пикников, является интересным представлением нашего национального характера', прокомментировал Станислав Аболиньш, член оппозиции, который предпочёл аиста. 'Возможно, именно настойчивость чайки в том, чтобы заявить о своём присутствии, завоевала ей расположение среди некоторых членов парламента.'
+
+Решение было принято после длительного периода обсуждений, в ходе которого рассматривались и другие претенденты, такие как трудолюбивый аист и величественная сова. 'Мы были убеждены эмпирическими данными, показывающими, что чайки являются неоспоримыми мастерами балтийского неба и пляжных проверок, поддерживая сильное присутствие, несмотря на внезапные дожди и уикендовые собрания', заявила Дайна Путниня, культурный антрополог из Латвийского университета. 'Их способность добывать рыбу с, казалось бы, невозможных высот параллельна нашей экономической стойкости перед лицом меняющихся рынков.'
+
+Хотя в социальных сетях abound юмористические интерпретации, правительство настаивает на том, что чайка отражает стратегическую экологическую и культурную инициативу. Планы по украшению ключевых правительственных зданий скульптурами чаек уже разрабатываются, с целью поощрения туризма и международного орнитологического интереса.
+
+В Юрмале местные жители принимают это решение с смесью гордости и забавы. 'По крайней мере, теперь, когда чайка пытается стащить у меня мороженое, я могу сказать, что вношу вклад в национальную инициативу', смеётся Мильда Аусеклис, местный продавец, известная своими легендарными рожками в форме трески.
+
+В ответ на новое назначение Общество чайки Кроугс проводит Гала-чайку позже в этом месяце, с участием имитаторов чаек и воздушной акробатики, предназначенной для празднования нового престижа птицы. 'Мы ожидаем беспрецедентного сотрудничества с прибрежными населениями, которые явно проявили свой энтузиазм с крыш', сияет Антра Цируле, координатор мероприятия общества.
+
+Когда небо проясняется после парламентской бури, одно можно сказать наверняка: национальная идентичность Латвии, как парящая чайка, предназначена для того, чтобы наделать шума, возможно, даже украсть внимание — и несколько бутербродов — по пути.`
+    },
+    date: "Dec 26, 2025",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=600&fit=crop",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 40,
     slug: "latvia-announces-groundbreaking-squirrel-lane-initiative",
     title: {
@@ -89,7 +158,7 @@ Kad Latvija dodas šajā ceļā—burtiski—ar savām entuziastiskajām vāveru
     readTime: "9 min read",
     imageUrl: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 39,
