@@ -17,6 +17,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 42,
+    slug: "latvian-government-to-replace-all-potholes",
+    title: {
+      en: "Latvian Government to Replace All Potholes with Artisanal Soup Kitchens",
+      lv: "Latvijas valdība aizstās visas bedrītes ar amatnieku zupas virtuvēm",
+      ru: "Латвийское правительство заменит все ямы на дорогах артезианскими суповыми кухнями"
+    },
+    excerpt: {
+      en: "In a bold move to address both infrastructure woes and culinary desires, Latvia's Ministry of Creative Conundrums announced a plan to transform the nation's potholes into gourmet soup concessions by 2025. Local mayors are already debating which hearty recipes best represent their region.",
+      lv: "Drosmīgā solī, lai risinātu gan infrastruktūras problēmas, gan kulinārijas vēlmes, Latvijas Radošo Mīklu ministrija paziņoja par plānu līdz 2025. gadam pārvērst valsts bedrītes par gardēžu zupas koncesijām. Vietējie mēri jau apspriež, kuras sātīgās receptes vislabāk pārstāv viņu reģionu.",
+      ru: "В смелой попытке решить проблемы инфраструктуры и удовлетворить кулинарные желания Министерство творческих загадок Латвии объявило о плане превратить ямы на дорогах страны в гастрономические суповые точки к 2025 году. Местные мэры уже обсуждают, какие сытные рецепты лучше всего представляют их регион."
+    },
+    fullContent: {
+      en: `In a landmark decision that’s turning heads from Rīga to Rēzekne, Latvia's Ministry of Creative Conundrums, a newly established governmental body since April's council elections, announced an innovative plan to replace every pothole in the country with artisanal soup kitchens. By 2025, Latvians can expect their morning commutes to be both bump-free and broth-filled.
+
+"We see this as an opportunity to tackle two long-standing issues with one ladle," said Minister Uģis Pļavnieks, as he stirred a sample of black bread soup during a press conference. "Latvias infrastructure has needed attention for years, and our culinary culture is, frankly, underappreciated. It’s time the world understands we don’t just throw everything in a pot. We craft!"
+
+The project, ambitiously titled 'Gastro-Potholetes', is set to commence this winter. According to statistics provided by the Ministry of Creative Conundrums, there are approximately 50,000 potholes in Latvia, and each new soup kitchen will offer at least three traditional Latvian soups daily, accompanied by rye bread from local bakeries.
+
+Initial reactions from local officials have been mixed. Rīga's Mayor, Jānis Majors, expressed cautious optimism, "This initiative not only repairs roads but also serves the community by offering 'kaņepju zupa' that tastes just as good as grandmother used to make," noted the mayor while chewing on a piece of bacon left over from the soup tasting event.
+
+However, not all voices are harmonious. "I fully support the concept, but seriously, are we really going to serve 'skābeņu zupa' in Liepāja? That's heresy," said culinary activist and renowned chef, Silvija Kaleja, who demands geographic authenticity in soup offerings across different municipalities.
+
+The project also plans international outreach, inviting visitors and tourists to experience Latvian culture through these unconventional dining hubs. "It will be like Wiener schnitzel in Vienna, or pizza in Naples, but with far fewer calories," joked Minister Pļavnieks.
+
+Economists have also chimed in on the plan, highlighting potential benefits. "Turning potholes into soup kitchens can indeed boost the local economy. It creates jobs for chefs, ladle-designers, and pothole-to-soup-kitchen conversion experts," said economic analyst Juris Griezitis in a recent Latvian National News interview.
+
+But what about drivers and their needs? "Fear not," promised Pļavnieks, "Sidewalks will now double as roads, allowing citizens to enjoy their walks exactly where their cars used to go. It’s healthy, both physically and socially. Drivers will appreciate the picturesque, soup-dotted landscapes."
+
+Whether this ambitious initiative will be completely embraced or become another curious chapter in the Latvian governmental playbook of solutions remains to be seen. Still, one thing is for sure, Latvia is about to embark on a journey where the road to culinary heaven is paved with, well, not tar, but tantalizing tastes.
+
+For those concerned about the winter and inevitable soup freeze, planners have promised heated seating areas and free wool socks for patrons—a small price to pay for a road-free feast during those chilly Baltic evenings.`,
+      lv: `Vēsturiskā lēmumā, kas piesaista uzmanību no Rīgas līdz Rēzeknei, Latvijas Radošo Mīklu ministrija, jaunizveidota valdības iestāde kopš aprīļa padomes vēlēšanām, paziņoja par inovatīvu plānu aizstāt katru bedrīti valstī ar amatnieku zupas virtuvēm. Līdz 2025. gadam latvieši var sagaidīt, ka viņu rīta braucieni būs gan bez bedru, gan ar buljonu piepildīti.
+
+"Mēs to redzam kā iespēju risināt divas ilgstošas problēmas ar vienu kausu," sacīja ministrs Uģis Pļavnieks, maisot melnās maizes zupas paraugu preses konferencē. "Latvijas infrastruktūrai jau gadiem ilgi nepieciešama uzmanība, un mūsu kulinārijas kultūra, godīgi sakot, ir nepietiekami novērtēta. Ir pienācis laiks, lai pasaule saprastu, ka mēs ne tikai visu metam katlā. Mēs radām!"
+
+Projekts, ambiciozi nosaukts par 'Gastro-Bedrītes', sāksies šajā ziemā. Saskaņā ar Radošo Mīklu ministrijas sniegtajiem datiem Latvijā ir aptuveni 50 000 bedrīšu, un katra jaunā zupas virtuve katru dienu piedāvās vismaz trīs tradicionālās latviešu zupas, ko papildinās rudzu maize no vietējām maiznīcām.
+
+Sākotnējās reakcijas no vietējiem amatpersonām ir bijušas dažādas. Rīgas mērs Jānis Majors izteica piesardzīgu optimismu: "Šī iniciatīva ne tikai labo ceļus, bet arī kalpo sabiedrībai, piedāvājot 'kaņepju zupu', kas garšo tikpat labi kā vecmāmiņas gatavotā," atzīmēja mērs, košļājot speķa gabalu, kas palicis pāri no zupas degustācijas pasākuma.
+
+Tomēr ne visas balsis ir harmoniskas. "Es pilnībā atbalstu koncepciju, bet nopietni, vai mēs tiešām Liepājā pasniegsim 'skābeņu zupu'? Tas ir ķecerība," sacīja kulinārijas aktīviste un pazīstama šefpavāre Silvija Kaleja, kura pieprasa ģeogrāfisko autentiskumu zupu piedāvājumos dažādās pašvaldībās.
+
+Projekts plāno arī starptautisku sasniedzamību, aicinot apmeklētājus un tūristus iepazīt Latvijas kultūru caur šiem neparastajiem ēdināšanas centriem. "Tas būs kā Vīnes šnicelis Vīnē vai pica Neapolē, bet ar daudz mazāk kalorijām," jokoja ministrs Pļavnieks.
+
+Ekonomisti arī izteikuši viedokli par plānu, izceļot iespējamos ieguvumus. "Pārvēršot bedrītes par zupas virtuvēm, var patiešām veicināt vietējo ekonomiku. Tas rada darba vietas šefpavāriem, kausu dizaineriem un bedrīšu-zupas virtuvju pārbūves ekspertiem," sacīja ekonomikas analītiķis Juris Griezītis nesenā intervijā Latvijas Nacionālajām Ziņām.
+
+Bet kā ar autovadītājiem un viņu vajadzībām? "Nebaidieties," solīja Pļavnieks, "Trotuāri tagad kalpos arī kā ceļi, ļaujot iedzīvotājiem baudīt pastaigas tieši tur, kur agrāk brauca viņu automašīnas. Tas ir veselīgi gan fiziski, gan sociāli. Autovadītāji novērtēs gleznainās, ar zupām punktētās ainavas."
+
+Vai šī ambiciozā iniciatīva tiks pilnībā pieņemta vai kļūs par vēl vienu kuriozu nodaļu Latvijas valdības risinājumu grāmatā, vēl ir redzams. Tomēr viena lieta ir skaidra, Latvija gatavojas uzsākt ceļojumu, kur ceļš uz kulinārijas paradīzi ir bruģēts nevis ar asfaltu, bet ar vilinošām garšām.
+
+Tiem, kas uztraucas par ziemu un neizbēgamo zupas sasalšanu, plānotāji ir apsolījuši apsildāmas sēdvietas un bezmaksas vilnas zeķes apmeklētājiem — neliela cena, ko maksāt par ceļiem brīvu mielastu šajos vēsajos Baltijas vakaros.`,
+      ru: `В историческом решении, которое привлекает внимание от Риги до Резекне, Министерство творческих загадок Латвии, недавно созданное правительственное ведомство после апрельских выборов в совет, объявило инновационный план заменить каждую яму в стране артезианскими суповыми кухнями. К 2025 году латвийцы могут ожидать, что их утренние поездки будут как без ухабов, так и наполнены бульоном.
+
+"Мы видим в этом возможность решить две давние проблемы одним половником," сказал министр Угис Плявниекс, помешивая образец супа из черного хлеба во время пресс-конференции. "Инфраструктура Латвии нуждается в внимании уже много лет, а наша кулинарная культура, честно говоря, недооценена. Пора миру понять, что мы не просто бросаем все в кастрюлю. Мы творим!"
+
+Проект, амбициозно названный 'Гастро-Ямолеты', начнется этой зимой. По данным Министерства творческих загадок, в Латвии примерно 50 000 ям, и каждая новая суповая кухня будет предлагать как минимум три традиционных латвийских супа ежедневно, сопровождаемых ржаным хлебом из местных пекарен.
+
+Первоначальные реакции местных чиновников были смешанными. Мэр Риги, Янис Майорс, выразил осторожный оптимизм: "Эта инициатива не только ремонтирует дороги, но и обслуживает сообщество, предлагая 'канепью зупу', которая на вкус такая же, как у бабушки," отметил мэр, жуя кусочек бекона, оставшийся после дегустации супа.
+
+Однако не все голоса звучат гармонично. "Я полностью поддерживаю концепцию, но серьезно, мы действительно будем подавать 'скабеню зупу' в Лиепае? Это ересь," сказала кулинарный активист и известный шеф-повар Сильвия Калея, которая требует географической аутентичности в предложении супов в разных муниципалитетах.
+
+Проект также планирует международное взаимодействие, приглашая посетителей и туристов познакомиться с латвийской культурой через эти необычные гастрономические точки. "Это будет как венский шницель в Вене или пицца в Неаполе, но с гораздо меньшим количеством калорий," пошутил министр Плявниекс.
+
+Экономисты также высказались по поводу плана, подчеркивая потенциальные выгоды. "Преобразование ям в суповые кухни действительно может стимулировать местную экономику. Это создает рабочие места для шеф-поваров, дизайнеров половников и экспертов по преобразованию ям в суповые кухни," сказал экономический аналитик Юрис Гриезитис в недавнем интервью Латвийским национальным новостям.
+
+Но что насчет водителей и их нужд? "Не беспокойтесь," пообещал Плявниекс, "Тротуары теперь будут выполнять роль дорог, позволяя гражданам наслаждаться прогулками именно там, где раньше ездили их машины. Это полезно как физически, так и социально. Водители оценят живописные, супом усыпанные пейзажи."
+
+Будет ли эта амбициозная инициатива полностью принята или станет еще одной любопытной главой в латвийской правительственной книге решений, еще предстоит увидеть. Однако одно можно сказать наверняка: Латвия собирается отправиться в путешествие, где дорога к кулинарному раю вымощена не асфальтом, а восхитительными вкусами.
+
+Для тех, кто беспокоится о зиме и неизбежном замерзании супа, планировщики обещали обогреваемые зоны для сидения и бесплатные шерстяные носки для посетителей — небольшая цена за пир без дорог в холодные балтийские вечера.`
+    },
+    date: "Dec 27, 2025",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&h=600&fit=crop",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 41,
     slug: "latvia-declares-seagull-as-national-bird",
     title: {
@@ -83,7 +164,7 @@ Kad debesis noskaidrojas pēc parlamentārās vētras, viena lieta ir skaidra: L
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=600&fit=crop",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 40,
