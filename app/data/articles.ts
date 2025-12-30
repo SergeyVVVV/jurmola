@@ -17,6 +17,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 45,
+    slug: "riga-introduces-new-anti-hibernation-law",
+    title: {
+      en: "Riga Introduces New 'Anti-Hibernation' Law to Combat Winters Spent in Bed",
+      lv: "Rīga ievieš jaunu 'Anti-Hibernācijas' likumu, lai cīnītos pret ziemas pavadīšanu gultā",
+      ru: "Рига вводит новый закон 'Против Гибернации', чтобы бороться с зимами, проведенными в постели"
+    },
+    excerpt: {
+      en: "In an unprecedented move, Riga city officials have passed a controversial 'Anti-Hibernation' law aimed at boosting winter productivity by penalizing residents caught spending too much time under their duvets. This comes after reports that 37% of Latvians attempted to sleep through winter in protest against freezing temperatures.",
+      lv: "Nepieredzētā solī Rīgas pilsētas amatpersonas ir pieņēmušas pretrunīgu 'Anti-Hibernācijas' likumu, kura mērķis ir palielināt ziemas produktivitāti, sodot iedzīvotājus, kas pieķerti pārāk ilgi pavadot laiku zem segām. Tas notiek pēc ziņojumiem, ka 37% latviešu mēģināja gulēt cauri ziemai, protestējot pret sasalstošajām temperatūrām.",
+      ru: "В беспрецедентном шаге рижские чиновники приняли спорный закон 'Против Гибернации', направленный на повышение зимней продуктивности путем наказания жителей, пойманных за слишком долгим пребыванием под одеялами. Это произошло после сообщений о том, что 37% латвийцев пытались проспать зиму в знак протеста против морозных температур."
+    },
+    fullContent: {
+      en: `In an effort to combat what some are calling a 'Nationwide Winter Hibernation Crisis,' Riga's city council passed a new bill on Monday aimed at keeping its citizens out of bed and productive during the colder months. The 'Anti-Hibernation' law has already raised eyebrows from the Baltic Sea to the furthest corners of Latgale.
+
+City councilor Jurijs Snore, who spearheaded the initiative, remarked, "We Latvians are known for many things: our enchanting forests, rich culture, and obsession with saunas. However, productivity winter dips are a serious problem, and frankly, the amount of duvet hoarding we've observed is a red flag."
+
+The new legislation proposes a staggered fine system covering various degrees of winter slumber, with penalties ranging from mandatory public sauna sessions to attending motivational lectures hosted by Riga's perennial optimism award winner, Viesturs Apse.
+
+According to the recent statistics revealed by SNORE™ (Survey of No-Occupancy Residential Environments), 37% of Latvians reportedly attempted to sleep from November until April last year. "We even believe that nearly 12% of the population answered our survey from within their comforters," added Snore.
+
+Liene Liepina, a local resident embraced by a cocoon of merino wool, disagreed with the council's measures. "I find hibernation to be a personal right," she grumbled, peeking out from under a balaclava. "The less time I spend conscious from February to March, the less I need to worry about storm-force winds and losing yet another umbrella."
+
+To better guide its citizens through the snowy seasons, the government has also issued an 'Awake & Aware' starter kit, including a daylight lamp and a handbook with optimistic phrases like, "At least you're not in Siberia," and "Think of all the indoor activities!"
+
+Despite the unorthodox measures, several local business owners have applauded the move. "Sales absolutely plummet every winter," said Maris Ozols, owner of 'Riga Roasters,' a specialty coffee shop. "If we can just get people to stay awake, maybe I'll sell more than three lattes a day!"
+
+Riga's mayor, Ilze Ziemelniece, ended the announcement with a rallying cry for increased national togetherness. "We face harsh winds and endless snow, yet we must remain resilient. Just think how much warmer you'll feel if a million of us huddle together outside..."
+
+Not everyone is on board with this enthusiasm; the Underground Sleep Movement, an organization arguing for increased napping rights, intends to protest by launching a 'Blanket the Baltic' initiative. "We want to cover the entire Gulf of Riga with knitted throws," said their spokesperson, who asked to remain anonymous in case of accidental dozing. 
+
+Whether Riga will rise (or, more accurately, get out of bed) to accept this challenge remains to be seen. For now, in a country where the national pastime appears to be vying for the warmest, coziest seat, betting against Old Man Winter seems like a wager worthy only of the deepest of pockets—and the fluffiest of pillows.`,
+      lv: `Lai cīnītos pret to, ko daži sauc par 'Nacionālo Ziemas Hibernācijas Krīzi', Rīgas domes padome pirmdien pieņēma jaunu likumprojektu, kura mērķis ir uzturēt savus iedzīvotājus ārpus gultas un produktīvus aukstajos mēnešos. 'Anti-Hibernācijas' likums jau ir izraisījis izbrīnu no Baltijas jūras līdz Latgales tālākajiem nostūriem.
+
+Domes deputāts Jurijs Snore, kurš vadīja šo iniciatīvu, komentēja: "Mēs, latvieši, esam pazīstami ar daudzām lietām: mūsu apburošajiem mežiem, bagāto kultūru un apsēstību ar pirtīm. Tomēr produktivitātes kritums ziemā ir nopietna problēma, un, godīgi sakot, segas uzkrāšana, ko esam novērojuši, ir sarkans karogs."
+
+Jaunais likumprojekts piedāvā pakāpenisku sodu sistēmu, kas aptver dažādus ziemas snaudu līmeņus, ar sodiem, sākot no obligātām publiskām pirts sesijām līdz motivācijas lekcijām, kuras vada Rīgas mūžīgās optimismu balvas ieguvējs Viesturs Apse.
+
+Saskaņā ar nesenajiem SNORE™ (Survey of No-Occupancy Residential Environments) atklātajiem statistikas datiem, 37% latviešu pagājušajā gadā mēģināja gulēt no novembra līdz aprīlim. "Mēs pat uzskatām, ka gandrīz 12% iedzīvotāju atbildēja uz mūsu aptauju no savām segām," piebilda Snore.
+
+Liene Liepiņa, vietējā iedzīvotāja, kura ir ietīta merino vilnas kokonā, nepiekrīt domes pasākumiem. "Es uzskatu, ka hibernācija ir personiskas tiesības," viņa neapmierināti teica, izspraucoties no zem balaklavas. "Jo mazāk laika es pavadu apzināta no februāra līdz martam, jo mazāk man jāuztraucas par vētras spēka vējiem un vēl vienu zaudētu lietussargu."
+
+Lai labāk vadītu savus iedzīvotājus cauri sniegotajām sezonām, valdība ir izdevusi arī 'Nomodā un Apzināties' sākuma komplektu, kas ietver dienasgaismas lampu un rokasgrāmatu ar optimistiskiem frāzēm kā "Vismaz tu neesi Sibīrijā" un "Padomā par visām iekštelpu aktivitātēm!"
+
+Neskatoties uz neparastajiem pasākumiem, vairāki vietējie uzņēmumu īpašnieki ir apsveikuši šo soli. "Pārdošanas apjomi ziemā absolūti krītas," sacīja Māris Ozols, specializētās kafejnīcas 'Riga Roasters' īpašnieks. "Ja mēs varam tikai panākt, lai cilvēki paliek nomodā, varbūt es pārdošu vairāk nekā trīs lattes dienā!"
+
+Rīgas mērs Ilze Ziemelniece paziņojumu noslēdza ar aicinājumu uz lielāku nacionālo vienotību. "Mēs saskaramies ar skarbiem vējiem un bezgalīgu sniegu, tomēr mums jāpaliek izturīgiem. Tikai padomājiet, cik daudz siltāk jūs jutīsieties, ja miljons no mums kopā saspiedīsies ārā..."
+
+Ne visi ir sajūsmā par šo entuziasmu; Pazemes Miega Kustība, organizācija, kas aizstāv palielinātas snaudas tiesības, plāno protestēt, uzsākot 'Apsedziet Baltiju' iniciatīvu. "Mēs vēlamies pārklāt visu Rīgas līci ar adītiem pārklājiem," teica viņu pārstāvis, kurš lūdza palikt anonīms gadījumā, ja nejauši iemigtu.
+
+Vai Rīga piecelsies (vai, precīzāk, izkāps no gultas), lai pieņemtu šo izaicinājumu, vēl ir redzams. Pašlaik valstī, kur nacionālais vaļasprieks šķiet cīņa par siltāko, mājīgāko sēdvietu, likt likmes pret Veco Vīru Ziemu šķiet derība, kas ir piemērota tikai visdziļākajām kabatām—un vismīkstākajiem spilveniem.`,
+      ru: `В попытке бороться с тем, что некоторые называют 'Национальным Кризисом Зимней Гибернации', городской совет Риги в понедельник принял новый законопроект, направленный на то, чтобы держать своих граждан вне постели и продуктивными в холодные месяцы. Закон 'Против Гибернации' уже вызвал удивление от Балтийского моря до самых дальних уголков Латгалии.
+
+Член городского совета Юрий Снор, возглавивший эту инициативу, заметил: 'Мы, латвийцы, известны многими вещами: нашими зачаровывающими лесами, богатой культурой и увлечением саунами. Однако зимнее падение продуктивности — серьезная проблема, и, честно говоря, количество одеял, которые мы наблюдаем, — это тревожный сигнал.'
+
+Новое законодательство предлагает систему штрафов, охватывающую различные степени зимнего сна, с наказаниями, варьирующимися от обязательных публичных сеансов в сауне до посещения мотивационных лекций, проводимых вечным победителем премии оптимизма Риги, Виестурсом Апсе.
+
+Согласно недавним статистическим данным, представленным SNORE™ (Опрос Незаполненных Жилых Сред), 37% латвийцев пытались проспать с ноября по апрель в прошлом году. 'Мы даже считаем, что почти 12% населения ответили на наш опрос, находясь под одеялами,' добавил Снор.
+
+Лиене Лиепина, местная жительница, обернутая в кокон из мериносовой шерсти, не согласна с мерами совета. 'Я считаю гибернацию личным правом,' пробормотала она, выглядывая из-под балаклавы. 'Чем меньше я бодрствую с февраля по март, тем меньше мне нужно беспокоиться о штормовых ветрах и потере очередного зонта.'
+
+Чтобы лучше направлять своих граждан через снежные сезоны, правительство также выпустило стартовый набор 'Бодрствуй и Будь Осведомлен', включающий лампу дневного света и руководство с оптимистичными фразами, такими как 'По крайней мере, ты не в Сибири' и 'Подумай обо всех занятиях в помещении!'
+
+Несмотря на необычные меры, несколько местных владельцев бизнеса приветствовали этот шаг. 'Продажи абсолютно падают каждую зиму,' сказал Марис Озолс, владелец 'Riga Roasters', специализированного кафе. 'Если мы сможем просто заставить людей не спать, может быть, я продам больше трех латте в день!'
+
+Мэр Риги, Илзе Зиемельнице, завершила объявление призывом к увеличению национального единства. 'Мы сталкиваемся с суровыми ветрами и бесконечным снегом, но мы должны оставаться стойкими. Просто подумайте, насколько теплее вам будет, если миллион из нас соберутся вместе на улице...'
+
+Не все поддерживают этот энтузиазм; Подпольное Движение Сна, организация, выступающая за увеличение прав на дневной сон, намеревается протестовать, запустив инициативу 'Одеяло для Балтики'. 'Мы хотим покрыть весь Рижский залив вязанными пледами,' сказал их представитель, пожелавший остаться анонимным на случай случайного засыпания.
+
+Будет ли Рига подниматься (или, точнее, вставать с постели), чтобы принять этот вызов, еще предстоит увидеть. Пока что в стране, где национальным развлечением, похоже, является борьба за самое теплое, уютное место, ставка против Старика Зимы кажется пари, достойным только самых глубоких карманов — и самых пушистых подушек.`
+    },
+    date: "Dec 30, 2025",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=800&h=600&fit=crop",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 44,
     slug: "latvian-scientists-develop-first-ever-solar",
     title: {
@@ -89,7 +170,7 @@ Vai 'Saulīte' nesīs siltu prieku pāri apbrīnojami pelēkajām Latvijas ainav
     readTime: "9 min read",
     imageUrl: "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=800&h=600&fit=crop",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 43,
