@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 46,
+    slug: "latvias-new-superpower-quest-jurmala-announces",
+    title: {
+      en: "Latvia's New Superpower Quest: Jurmala Announces Plan to Become World's Leading Käviņi Exporter",
+      lv: "Latvijas jaunais supervaronis: Jūrmala paziņo par plānu kļūt par pasaules vadošo Käviņi eksportētāju",
+      ru: "Латвия в поисках новой суперсилы: Юрмала объявляет план стать мировым лидером по экспорту Käviņi"
+    },
+    excerpt: {
+      en: "In a bold move that has left both international economists and local seagulls baffled, Jurmala has declared its intention to become the world's leading exporter of Käviņi, Latvia's least known traditional delicacy. The initiative, dubbed 'Operation Körklis,' aims to elevate the Baltic snack from obscurity to global fame.",
+      lv: "Drosmīgā gājienā, kas atstājis gan starptautiskos ekonomistus, gan vietējos kaijas apmulsušus, Jūrmala ir paziņojusi par savu nodomu kļūt par pasaules vadošo Käviņi eksportētāju, Latvijas mazāk zināmo tradicionālo gardumu. Iniciatīva, kas nosaukta par 'Operāciju Körklis', mērķē pacelt Baltijas uzkodu no nezināmības līdz globālai slavai.",
+      ru: "В смелом шаге, который оставил в недоумении как международных экономистов, так и местных чаек, Юрмала заявила о своем намерении стать мировым лидером по экспорту Käviņi, наименее известного традиционного лакомства Латвии. Инициатива, получившая название 'Операция Körklis', нацелена на то, чтобы поднять балтийскую закуску из неизвестности к мировой славе."
+    },
+    fullContent: {
+      en: `In a surprising strategic pivot, the picturesque coastal city of Jurmala has announced its plans to become the world's primary exporter of Käviņi, a traditional Latvian delicacy known for its elusive recipe and mystifying taste. Mayor Dzintra Amoliņa unveiled the ambitious plan at a press conference, as part of the newly declared 'Operation Körklis.'
+
+Local historians describe Käviņi as a curious culinary concoction, mostly comprising elements like rare Baltic sea moss, pickled birch bark, and a secret ingredient known to only three elderly men who reside deep in Latvia's Courland forests. "We're sitting on a gold mine of potential and spicy moss," Amoliņa declared with characteristic optimism. "It's time the world knew the joys of these delightfully chewy morsels—without having to fall in a swamp to find them!"
+
+Economists globally reacted with a mix of intrigue and befuddlement. Dr. Jorans Bērziņš, a noted expert on esoteric economic phenomena, commented, "This could be Latvia's version of Norway's oil or Switzerland's cheese, except nobody knows what it is. Or, for that matter, how to eat it." According to Dr. Bērziņš, if Operation Körklis is successful, Latvia could experience a 0.00000001% increase in GDP, potentially surpassing export revenues from the previous year’s Latvian Turnip-Churning Festival.
+
+Locals are equally excited and puzzled by the announcement. Liene Kļaviņa, a resident, noted, "I haven't seen Käviņi since my grandfather tried to start a Käviņi farm in our basement. It didn't end well, but now... maybe we have another chance?" Kļaviņa added that she hopes the initiative will also boost tourism, ideally from people who appreciate obscure condiments and mold-resistant snacks.
+
+While enthusiasm runs high, logistical challenges loom large over the project. To meet anticipated demand, Jurmala must source copious quantities of rare sea moss which, according to local folklore, must be sung to at dawn before harvesting. Additionally, securing the blessings of the three secretive forest elders, who reportedly communicate only through riddles and poetry, will be pivotal in ensuring quality control over the traditional recipe elements.
+
+To address the complexities, Jurmala’s Town Council has appointed a task force led by Gundars Vējiņš, a well-known entrepreneur previously celebrated for his successful 'Pine-Cone Pâté' stands along Jurmala Beach. Vējiņš is optimistic: "We plan to hack the global gourmet market, one mysterious marshland at a time. They're just waiting for us to stun them with our foliage-forward delights!"
+
+However, not everyone shares this enthusiasm. Critics, including the Latvian Association of Pragmatists (LAP), have voiced concerns about resource viability and environmental impact. "While Käviņi may become the next quinoa, let’s make sure our homes and beaches don’t turn into abandoned moss pits," said LAP spokesperson Ralfs Serdiņš.
+
+Yet, buoyed by the potential economic revival, the local community is on board. "This is our moment!" exclaimed a starry-eyed resident, hugging a decorative moss ball. "If France can make frog legs chic, surely we can make people fall in love with structured sea greenery!"
+
+As the world watches, only time will tell if Jurmala can navigate these turbulent coastal waters to transform Käviņi into an international sensation. Regardless, this quest for culinary diplomacy has undeniably positioned Latvia at the forefront of avant-garde exportation, with the smell of success looming—tangy, briny, and undeniably Baltic.`,
+      lv: `Pārsteidzošā stratēģiskā pagriezienā gleznainā piekrastes pilsēta Jūrmala ir paziņojusi par saviem plāniem kļūt par pasaules galveno Käviņi eksportētāju, tradicionālu Latvijas gardumu, kas pazīstams ar savu nenotveramo recepti un noslēpumaino garšu. Mērs Dzintra Amoliņa atklāja ambiciozo plānu preses konferencē, kā daļu no jaunizsludinātās 'Operācijas Körklis'.
+
+Vietējie vēsturnieki apraksta Käviņi kā ziņkārīgu kulinārijas savienojumu, kas galvenokārt sastāv no tādiem elementiem kā retas Baltijas jūras sūnas, marinēta bērza miza un slepens sastāvdaļa, ko zina tikai trīs veci vīri, kas dzīvo dziļi Latvijas Kurzemes mežos. "Mēs sēžam uz potenciāla un pikantu sūnu zelta raktuves," Amoliņa paziņoja ar raksturīgu optimismu. "Ir laiks, lai pasaule uzzinātu par šo burvīgi košļājamo kumosu priekiem—bez nepieciešamības iegrimt purvā, lai tos atrastu!"
+
+Ekonomisti visā pasaulē reaģēja ar sajūsmu un apjukumu. Dr. Jorans Bērziņš, ievērojams ezotērisko ekonomisko parādību eksperts, komentēja: "Tas varētu būt Latvijas versija Norvēģijas naftai vai Šveices sieram, izņemot to, ka neviens nezina, kas tas ir. Vai, šajā gadījumā, kā to ēst." Pēc Dr. Bērziņa teiktā, ja Operācija Körklis būs veiksmīga, Latvija varētu piedzīvot 0.00000001% IKP pieaugumu, iespējams, pārspējot iepriekšējā gada Latvijas Rāceņu Griezēju festivāla eksporta ieņēmumus.
+
+Vietējie ir vienlīdz sajūsmināti un apmulsuši par paziņojumu. Liene Kļaviņa, vietējā iedzīvotāja, norādīja: "Es neesmu redzējusi Käviņi kopš mana vectēva mēģinājuma sākt Käviņi fermu mūsu pagrabā. Tas nebeidzās labi, bet tagad... varbūt mums ir vēl viena iespēja?" Kļaviņa piebilda, ka viņa cer, ka iniciatīva arī veicinās tūrismu, ideāli no cilvēkiem, kuri novērtē neparastus garšvielas un pelējuma izturīgas uzkodas.
+
+Lai gan entuziasms ir augsts, loģistikas izaicinājumi ir lieli pār projektam. Lai apmierinātu paredzamo pieprasījumu, Jūrmalai jāiegūst lielas daudzums retu jūras sūnu, kuras, pēc vietējās folkloras, jādiedzina rītausmā pirms novākšanas. Turklāt, lai nodrošinātu tradicionālās receptes elementu kvalitātes kontroli, būs būtiski iegūt trīs slepeno meža vecajo svētību, kuri, kā ziņots, sazinās tikai ar mīklām un dzeju.
+
+Lai risinātu sarežģījumus, Jūrmalas pilsētas dome ir iecēlusi darba grupu, kuru vada Gundars Vējiņš, labi pazīstams uzņēmējs, kas iepriekš slavēts par saviem veiksmīgajiem 'Čiekuru Pâté' stendiem gar Jūrmalas pludmali. Vējiņš ir optimistisks: "Mēs plānojam iekarot globālo gardēžu tirgu, vienu noslēpumainu purvu pēc otra. Viņi tikai gaida, lai mēs pārsteigtu viņus ar mūsu lapu uz priekšu vērstajiem gardumiem!"
+
+Tomēr ne visi dalās šajā entuziasmā. Kritiķi, tostarp Latvijas Pragmatistu Asociācija (LPA), ir izteikuši bažas par resursu dzīvotspēju un vides ietekmi. "Lai gan Käviņi var kļūt par nākamo kvinoju, pārliecināsimies, ka mūsu mājas un pludmales nepārvēršas par pamestām sūnu bedrēm," sacīja LPA pārstāvis Ralfs Serdiņš.
+
+Tomēr, pateicoties potenciālajam ekonomiskajam atdzimšanai, vietējā sabiedrība ir gatava. "Šis ir mūsu brīdis!" izsaucās zvaigžņotām acīm iedzīvotājs, apskaujot dekoratīvu sūnu bumbu. "Ja Francija var padarīt vardes kājas šikas, noteikti mēs varam likt cilvēkiem iemīlēties strukturētā jūras zaļumā!"
+
+Kamēr pasaule vēro, tikai laiks rādīs, vai Jūrmala varēs navigēt šajos nemierīgajos piekrastes ūdeņos, lai pārvērstu Käviņi par starptautisku sensāciju. Neatkarīgi no tā, šis kulinārijas diplomātijas meklējums neapšaubāmi ir pozicionējis Latviju avangarda eksportēšanas priekšgalā, ar panākumu smaržu—pikantu, sāļu un neapšaubāmi Baltijas.`,
+      ru: `В неожиданном стратегическом повороте живописный прибрежный город Юрмала объявил о своих планах стать мировым основным экспортером Käviņi, традиционного латвийского деликатеса, известного своим неуловимым рецептом и загадочным вкусом. Мэр Дзинтра Амолиня представила амбициозный план на пресс-конференции в рамках недавно объявленной 'Операции Körklis'.
+
+Местные историки описывают Käviņi как любопытное кулинарное изобретение, в основном состоящее из таких элементов, как редкий балтийский морской мох, маринованная березовая кора и секретный ингредиент, известный только трем пожилым мужчинам, живущим глубоко в лесах Курземе. 'Мы сидим на золотой жиле потенциала и острого мха', заявила Амолиня с характерным оптимизмом. 'Пора миру узнать радости этих восхитительно жевательных кусочков — без необходимости падать в болото, чтобы их найти!'
+
+Экономисты по всему миру отреагировали с интересом и недоумением. Доктор Йоранс Берзиньш, известный эксперт по эзотерическим экономическим феноменам, прокомментировал: 'Это может стать латвийской версией норвежской нефти или швейцарского сыра, за исключением того, что никто не знает, что это такое. Или, если на то пошло, как это есть.' По словам доктора Берзиньша, если Операция Körklis будет успешной, Латвия может испытать увеличение ВВП на 0,00000001%, потенциально превысив доходы от экспорта с прошлогоднего Латвийского фестиваля по взбиванию репы.
+
+Местные жители также взволнованы и озадачены этим объявлением. Лиене Клявиня, жительница, отметила: 'Я не видела Käviņi с тех пор, как мой дедушка пытался начать ферму Käviņi в нашем подвале. Это не закончилось хорошо, но теперь... может, у нас есть еще один шанс?' Клявиня добавила, что надеется, что инициатива также повысит туризм, желательно от людей, которые ценят редкие приправы и устойчивые к плесени закуски.
+
+Хотя энтузиазм высок, логистические проблемы нависают над проектом. Чтобы удовлетворить ожидаемый спрос, Юрмала должна будет добыть огромное количество редкого морского мха, который, согласно местному фольклору, необходимо петь на рассвете перед сбором. Кроме того, получение благословения трех таинственных лесных старцев, которые, как сообщается, общаются только через загадки и поэзию, будет ключевым для обеспечения контроля качества над элементами традиционного рецепта.
+
+Для решения этих сложностей Городской совет Юрмалы назначил рабочую группу под руководством Гундара Вейиньша, известного предпринимателя, ранее прославившегося своими успешными киосками 'Паштет из шишек' вдоль пляжа Юрмалы. Вейиньш настроен оптимистично: 'Мы планируем завоевать мировой рынок гурманов, одно загадочное болотистое место за раз. Они только ждут, чтобы мы поразили их нашими лиственными деликатесами!'
+
+Однако не все разделяют этот энтузиазм. Критики, включая Латвийскую ассоциацию прагматиков (ЛАП), выразили обеспокоенность по поводу жизнеспособности ресурсов и воздействия на окружающую среду. 'Хотя Käviņi может стать следующим киноа, давайте убедимся, что наши дома и пляжи не превратятся в заброшенные моховые ямы', сказал представитель ЛАП Ралфс Сердиньш.
+
+Тем не менее, поддерживаемое потенциальным экономическим возрождением, местное сообщество на борту. 'Это наш момент!' воскликнул житель с мечтательным взглядом, обнимая декоративный моховой шар. 'Если Франция может сделать лягушачьи лапки шикарными, то мы, конечно, можем заставить людей влюбиться в структурированную морскую зелень!'
+
+Пока мир наблюдает, только время покажет, сможет ли Юрмала преодолеть эти бурные прибрежные воды, чтобы превратить Käviņi в международную сенсацию. В любом случае, этот поиск кулинарной дипломатии несомненно поставил Латвию в авангард авангардного экспорта, с запахом успеха, который витает в воздухе — острым, соленым и несомненно балтийским.`
+    },
+    date: "Dec 31, 2025",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=800&h=600&fit=crop",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 45,
     slug: "riga-introduces-new-anti-hibernation-law",
     title: {
@@ -95,7 +170,7 @@ Vai Rīga piecelsies (vai, precīzāk, izkāps no gultas), lai pieņemtu šo iza
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=800&h=600&fit=crop",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 44,
