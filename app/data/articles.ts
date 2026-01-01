@@ -17,6 +17,75 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 47,
+    slug: "latvian-government-denies-existence-of-sun",
+    title: {
+      en: "Latvian Government Denies Existence of Sun After Three Consecutive Cloudy Days",
+      lv: "Latvijas valdība noliedz saules eksistenci pēc trim secīgiem mākoņainiem dienām",
+      ru: "Латвийское правительство отрицает существование солнца после трех дней облачности подряд"
+    },
+    excerpt: {
+      en: "In a groundbreaking announcement shaking the foundations of everything we thought we knew, the Latvian Ministry of Meteorological Inquiry has declared the sun a \"mythical construct\" following an unprecedented three-day absence. The ministry plans to amend school textbooks and encourage citizens to appreciate the \"true beauty of overcast.\"",
+      lv: "Revolucionārā paziņojumā, kas satricina visu, ko mēs domājām, ka zinām, Latvijas Meteoroloģiskās izmeklēšanas ministrija ir pasludinājusi sauli par \"mītisku konstrukciju\" pēc nepieredzētas trīs dienu prombūtnes. Ministrija plāno mainīt skolas mācību grāmatas un mudināt pilsoņus novērtēt \"patieso mākoņu skaistumu\".",
+      ru: "В эпохальном заявлении, потрясшем основы всего, что мы думали, что знали, Министерство метеорологических исследований Латвии объявило солнце «мифическим конструктом» после беспрецедентного трехдневного отсутствия. Министерство планирует внести изменения в школьные учебники и поощрять граждан ценить «истинную красоту пасмурности»."
+    },
+    fullContent: {
+      en: `Riga, Latvia—In what can only be described as a revelation of monumental insignificance, the Latvian Ministry of Meteorological Inquiry convened an emergency press conference this week following three consecutive overcast days, declaring the sun to be a "mythical construct we've been misleadingly taught to revere for decades."
+
+Minister of Doubt and Fragmentary Physics, Kristaps Blenšs, led the press conference held in a dimly lit room above a Jurmala boardwalk kiosk specializing in cloudy-day postcards. With unwavering confidence, he addressed the bewildered press: "For too long, we have been enslaved by solar propaganda, believing that a massive fusion reactor in the sky is responsible for day, warmth, and happiness. After three full days of uninterrupted cloud cover, we can finally announce the sun as nothing more than a fairy tale concocted to sell sunglasses."
+
+As spectators stood in shocked silence, Blenšs unveiled the ministry’s new educational initiative, "Cloud Credulity," aimed at revising school curriculums to reflect their new doctrine. "Children will no longer be confused, wondering where the supposed sun has gone," Blenšs assured worried parents. "They'll learn to develop a true appreciation for the enduring charm of grey skies and drizzle."
+
+Reports from Latvia State News (which curiously operates entirely from a subterranean bunker lit solely by fluorescent bulbs) confirm that copies of new geography textbooks are already being distributed, proudly titled, 'The Grayscale Guide to Latvian Skies'. Education professionals have lauded the ministry’s efforts, with Astrida Putne, head of Curriculum Revolution, claiming, "The students are thrilled. With all the extra time they’ll save not searching for the sun, they can focus on more concrete activities like puddle splashing and competitive indoor blanket architecture."
+
+The residents of Latvia seemed largely unfazed by the declaration. A small survey conducted among Rīga's residents revealed that 92% reported feeling "relieved" that they no longer had to schedule sunbathing sessions around Latvia's famously fickle weather. "I never liked the idea of being judged by my vitamin D levels anyhow," remarked Andrejs Vējšs, a local barista. "I always suspected vitamin D stood for ‘dubious’."
+
+Though some do express concerns—the florist industry warning of potential impacts on mood—from their pastel-colored shop in the center of Rīga's Old Town, shopkeeper Aija Laime remains optimistic. "We merely hope," she explained, "that people embrace the new mantra: Don't mope over a grey kaleidoscope."
+
+As the Ministry of Meteorological Inquiry gears up for more groundbreaking announcements, insiders hint at a future press briefing potentially tackling the long-standing mystery of warming trends. "We are unequivocally considering renaming 'global warming' to 'global blopping'," Blenšs revealed. "After all, it sounds more like the kind of thing that happens when you enjoy a hearty bowl of sour porridge."
+
+In the face of such sweeping changes to our collective understanding of the sun and skies, both disbelief and blind acceptance mark this historic moment in Latvian scientific discourse. As the installation of new meteorological understanding sinks in, one thing remains certain: when it comes to the weather, in Latvia, at least the clouds show up on time.`,
+      lv: `Rīga, Latvija—Notikums, ko varētu raksturot kā monumentālu nenozīmību, Latvijas Meteoroloģiskās izmeklēšanas ministrija šonedēļ sasauca ārkārtas preses konferenci pēc trim secīgām mākoņainām dienām, pasludinot sauli par "mītisku konstrukciju, kuru mums maldīgi mācīts godināt gadu desmitiem".
+
+Šaubas un fragmentārās fizikas ministrs Kristaps Blenšs vadīja preses konferenci, kas notika vāji apgaismotā telpā virs Jūrmalas promenādes kioska, kas specializējas mākoņainu dienu pastkartēs. Ar nešaubīgu pārliecību viņš uzrunāja apjukušos preses pārstāvjus: "Pārāk ilgi mēs esam bijuši saules propagandas vergi, ticot, ka milzīgs kodolsintēzes reaktors debesīs ir atbildīgs par dienu, siltumu un laimi. Pēc trim pilnām dienām bez pārtraukuma mākoņu seguma, mēs beidzot varam paziņot, ka saule ir nekas vairāk kā pasaka, kas izdomāta, lai pārdotu saulesbrilles."
+
+Kamēr skatītāji stāvēja šokēti klusumā, Blenšs atklāja ministrijas jauno izglītības iniciatīvu "Mākoņu ticība", kas vērsta uz skolu mācību programmu pārskatīšanu, lai atspoguļotu viņu jauno doktrīnu. "Bērni vairs nebūs apjukuši, domājot, kur pazudusi it kā esošā saule," Blenšs mierināja satrauktos vecākus. "Viņi iemācīsies patiesi novērtēt pelēko debesu un smidzināšanas pastāvīgo šarmu."
+
+Ziņojumi no Latvijas Valsts ziņām (kas, dīvaini, darbojas pilnībā no pazemes bunkura, apgaismota tikai ar fluorescējošām spuldzēm) apstiprina, ka jauno ģeogrāfijas mācību grāmatu eksemplāri jau tiek izplatīti, lepni nosaukti par 'Latvijas debesu pelēktoņu ceļvedi'. Izglītības profesionāļi ir slavējuši ministrijas centienus, un Mācību programmas revolūcijas vadītāja Astrīda Putne apgalvo: "Studenti ir sajūsmā. Ar visu papildu laiku, ko viņi ietaupīs, nemeklējot sauli, viņi varēs koncentrēties uz konkrētākām aktivitātēm, piemēram, peļķu šļakstīšanu un konkurētspējīgu iekštelpu segas arhitektūru."
+
+Latvijas iedzīvotāji šķiet lielākoties neapjukuši par šo paziņojumu. Neliela aptauja, kas veikta starp Rīgas iedzīvotājiem, atklāja, ka 92% ziņoja, ka jūtas "atviegloti", ka vairs nav jāplāno sauļošanās sesijas ap Latvijas slaveno neparedzamo laiku. "Man nekad nepatika doma, ka mani vērtē pēc D vitamīna līmeņa," atzina vietējais barista Andrejs Vējšs. "Es vienmēr aizdomājos, ka D vitamīns nozīmē 'šaubīgs'."
+
+Lai gan daži izsaka bažas—ziedu industrija brīdina par iespējamo ietekmi uz garastāvokli—no sava pasteļkrāsotā veikala Rīgas vecpilsētas centrā, veikala īpašniece Aija Laime paliek optimistiska. "Mēs vienkārši ceram," viņa paskaidroja, "ka cilvēki pieņems jauno mantru: Neskumsti par pelēko kaleidoskopu."
+
+Kamēr Meteoroloģiskās izmeklēšanas ministrija gatavojas vēl vairākām revolucionārām paziņojumiem, iekšējie avoti norāda uz nākotnes preses brīfingu, kas, iespējams, risinās ilgi pastāvošo sasilšanas tendenču noslēpumu. "Mēs nepārprotami apsveram iespēju pārdēvēt 'globālo sasilšanu' par 'globālo blopingu'," atklāja Blenšs. "Galu galā, tas izklausās vairāk pēc kaut kā, kas notiek, baudot sātīgu skābputras bļodu."
+
+Saskaroties ar tik plašām izmaiņām mūsu kolektīvajā izpratnē par sauli un debesīm, gan neticība, gan akla pieņemšana iezīmē šo vēsturisko brīdi Latvijas zinātniskajā diskursā. Kamēr jaunās meteoroloģiskās izpratnes ieviešana norit, viena lieta paliek skaidra: kad runa ir par laiku, Latvijā vismaz mākoņi ierodas laikā.`,
+      ru: `Рига, Латвия — В событии, которое можно описать только как откровение монументальной незначительности, Министерство метеорологических исследований Латвии созвало экстренную пресс-конференцию на этой неделе после трех дней подряд пасмурной погоды, объявив солнце «мифическим конструктом, которому нас вводили в заблуждение, заставляя почитать десятилетиями».
+
+Министр сомнений и фрагментарной физики, Кристапс Бленшс, возглавил пресс-конференцию, проведенную в слабо освещенной комнате над киоском на набережной Юрмалы, специализирующемся на открытках для пасмурных дней. С непоколебимой уверенностью он обратился к озадаченным журналистам: «Слишком долго мы были рабами солнечной пропаганды, веря, что массивный реактор синтеза в небе отвечает за день, тепло и счастье. После трех полных дней непрерывной облачности мы наконец можем объявить солнце не более чем сказкой, придуманной для продажи солнцезащитных очков».
+
+Когда зрители стояли в шокированной тишине, Бленшс представил новую образовательную инициативу министерства «Облачная доверчивость», направленную на пересмотр школьных программ в соответствии с их новой доктриной. «Дети больше не будут путаться, задаваясь вопросом, куда делось предполагаемое солнце», — заверил Бленшс обеспокоенных родителей. «Они научатся по-настоящему ценить стойкое очарование серого неба и моросящего дождя».
+
+Сообщения от Латвийских государственных новостей (которые, как ни странно, работают полностью из подземного бункера, освещенного исключительно люминесцентными лампами) подтверждают, что копии новых учебников по географии уже распространяются, гордо озаглавленные «Руководство по серым оттенкам латвийского неба». Педагоги высоко оценили усилия министерства, и Астрида Путне, глава Революции учебных программ, заявила: «Студенты в восторге. Сэкономив все время, которое они потратят на поиски солнца, они смогут сосредоточиться на более конкретных занятиях, таких как плескание в лужах и строительство одеяльных крепостей в помещении».
+
+Жители Латвии, похоже, в основном не были потрясены заявлением. Небольшой опрос среди жителей Риги показал, что 92% сообщили, что чувствуют «облегчение» от того, что больше не нужно планировать сеансы загара в зависимости от капризной латвийской погоды. «Мне никогда не нравилась идея, что меня судят по уровню витамина D», — заметил Андрей Вейшс, местный бариста. «Я всегда подозревал, что витамин D означает 'сомнительный'».
+
+Хотя некоторые и выражают обеспокоенность — цветочная индустрия предупреждает о возможных последствиях для настроения — из их пастельного магазина в центре Старого города Риги владелица магазина Айя Лайме остается оптимистичной. «Мы просто надеемся», — объяснила она, «что люди примут новый девиз: не унывай из-за серого калейдоскопа».
+
+Пока Министерство метеорологических исследований готовится к новым эпохальным заявлениям, инсайдеры намекают на будущее пресс-брифинг, который может затронуть давнюю загадку потепления. «Мы однозначно рассматриваем возможность переименования 'глобального потепления' в 'глобальное блоппинг'», — раскрыл Бленшс. «В конце концов, это больше похоже на то, что происходит, когда вы наслаждаетесь сытной миской кислой каши».
+
+В условиях таких кардинальных изменений в нашем коллективном понимании солнца и неба, как неверие, так и слепое принятие отмечают этот исторический момент в латвийском научном дискурсе. По мере того как установка нового метеорологического понимания укореняется, одно остается несомненным: когда дело касается погоды, в Латвии, по крайней мере, облака приходят вовремя.`
+    },
+    date: "Jan 1, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&h=600&fit=crop",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 46,
     slug: "latvias-new-superpower-quest-jurmala-announces",
     title: {
@@ -89,7 +158,7 @@ Kamēr pasaule vēro, tikai laiks rādīs, vai Jūrmala varēs navigēt šajos n
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=800&h=600&fit=crop",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 45,
