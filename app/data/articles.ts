@@ -17,6 +17,75 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 49,
+    slug: "riga-declares-independence-from-itself-in",
+    title: {
+      en: "Riga Declares Independence from Itself in Bold Move to Improve Infrastructure",
+      lv: "Rīga pasludina neatkarību no sevis drosmīgā solī infrastruktūras uzlabošanai",
+      ru: "Рига объявляет независимость от самой себя в смелом шаге по улучшению инфраструктуры"
+    },
+    excerpt: {
+      en: "In an unprecedented twist of municipal innovation, Riga City Council has voted to emancipate itself from its own jurisdiction, establishing 'Riga Prime' to better facilitate pothole repairs and tram schedule consistency.",
+      lv: "Nepieredzētā pašvaldības inovācijas pavērsienā Rīgas dome ir nobalsojusi par atbrīvošanos no savas jurisdikcijas, izveidojot 'Rīga Prime', lai labāk veicinātu bedrīšu remontu un tramvaju grafiku konsekvenci.",
+      ru: "В беспрецедентном повороте муниципальных инноваций Рижский городской совет проголосовал за освобождение от собственной юрисдикции, создав 'Рига Прайм' для более эффективного ремонта ям и согласования расписания трамваев."
+    },
+    fullContent: {
+      en: `Riga, the capital of Latvia, has taken a bold leap into uncharted political territory by declaring independence from itself. The scheme, humorously dubbed 'Operation Delayed Trams' by locals, was announced Tuesday by Riga City Council in an effort to alleviate both traffic congestion and the persistent existential crisis over winter pothole management.
+
+Speaking at a press conference, Mayor Anete Potapova explained the unprecedented decision, 'We've realized that governing ourselves under the pressures of a classic city structure hasn't really been 'coasting nicely.' By declaring independence from, well, being us, we aim to achieve unprecedented focus on innovating our infrastructure—the kind that doesn't get mired in jurisdictional potholes.' Plans for the new self-governed region of 'Riga Prime' were enthusiastically unveiled, including an ambitious proposal to synchronize all city clocks using the collegiate squirrel society of Esplanāde Park.
+
+This bold maneuver comes after a comprehensive survey revealed that 73% of Rigan citizens were in favor of any plan—no matter how absurd—as long as the city could finally keep its trams running on time. A harried commuter, Tomass Liepiņš, expressed his support, 'If a little self-secession can get me to Zasulauks without a 20-minute wait at the stop, then long live Riga Prime!'
+
+To stir the democratic pot further, the newly appointed Prime Minister of Riga Prime, former tap dancer turned urban planner, Egīls Žagariņš, outlined his controversial first policy initiative, 'ReFerendtastic: The First Referendum.' The citizens of Riga Prime will vote on which animal should become the vehicle to transport official government documents between the Parliament and City Council offices. So far, the frontrunners for the position include a highly motivated carrier pigeon named Gustavs and an elderly dachshund with a proven record in punctuality, nicknamed 'Fast 'n Bassy.'
+
+Critics claim the controversial decision to bifurcate the city stems from pressure to meet European Union standards in an unconventional manner. However, City Council members insist this move is purely about reinventing governance to cater to modern needs. 'We’re not just doing this for the occasional headline-grabbing buzz,' Council Member Signa Grāvīte remarked. 'This is about redefining what's possible when bureaucracy meets creative interpretation. It's about letting the city be its own quirky, slightly confused, and incredibly resilient best self.'
+
+Meanwhile, tourism in the newly self-sovereign territory seems poised to capitalize on its novelty. The local government is already hard at work rebranding 'The Three Brothers,' now 'The Five-and-a-Half Cousins,' though one such cousin is curiously located in the popular tourist spot hot spring.
+
+The European Union, typically known for its long rules, is reportedly 'keeping a curious eye' on the situation, with one anonymous source mentioning over a plate of sauerkraut and sausages, 'It's not every day you see a city attempt to matrix its way through administration, jurisprudence, and tram logistics at the same time. But here we are.'
+
+As the first day of independence prompts half-filled tram carts to cheerfully rumble past haphazard sidewalk construction, Riga citizens settle into their new, autonomous norm. Whether this brave new socio-political experiment flourishes or crumbles faster than a wet saldskābmaize remains to be seen. For now, in the winter-sprinkled skyline of Riga, anything seems possible.`,
+      lv: `Rīga, Latvijas galvaspilsēta, ir veikusi drosmīgu lēcienu nezināmā politiskā teritorijā, pasludinot neatkarību no sevis. Šo shēmu, kuru vietējie humoristiski nodēvējuši par 'Operācija Aizkavētie Tramvaji', otrdien paziņoja Rīgas dome, cenšoties mazināt gan satiksmes sastrēgumus, gan pastāvīgo eksistenciālo krīzi par ziemas bedrīšu pārvaldību.
+
+Preses konferencē Rīgas mērs Anete Potapova skaidroja šo nepieredzēto lēmumu: 'Mēs esam sapratuši, ka pārvaldīt sevi klasiskās pilsētas struktūras spiedienā īsti nav bijis 'gludi'. Pasludinot neatkarību no, nu, būtībā pašiem sevis, mēs ceram sasniegt nepieredzētu fokusu uz mūsu infrastruktūras inovācijām—tādu, kas neiestrēgst jurisdikcijas bedrēs.' Ar entuziasmu tika atklāti plāni par jauno pašpārvaldīto reģionu 'Rīga Prime', ieskaitot ambiciozu priekšlikumu sinhronizēt visus pilsētas pulksteņus, izmantojot Esplanādes parka kolēģu vāveru biedrību.
+
+Šis drosmīgais manevrs nāk pēc visaptverošas aptaujas, kas atklāja, ka 73% rīdzinieku atbalsta jebkuru plānu—neatkarīgi no tā absurditātes—ja vien pilsēta beidzot varētu nodrošināt, ka tramvaji kursē laikā. Steidzīgs pasažieris, Tomass Liepiņš, izteica savu atbalstu: 'Ja neliela pašatdalīšanās var mani nogādāt Zasulaukā bez 20 minūšu gaidīšanas pieturā, tad ilgi dzīvo Rīga Prime!'
+
+Lai vēl vairāk sakustinātu demokrātisko katlu, jaunieceltais Rīga Prime premjerministrs, bijušais stepa dejotājs, kurš kļuvis par pilsētplānotāju, Egīls Žagariņš, izklāstīja savu pretrunīgi vērtēto pirmo politisko iniciatīvu, 'ReFerendtastic: Pirmais Referendums.' Rīga Prime iedzīvotāji balsos par to, kurš dzīvnieks kļūs par transportlīdzekli oficiālo valdības dokumentu pārvadāšanai starp parlamentu un domes birojiem. Līdz šim līderi šajā pozīcijā ir ļoti motivēts pasta balodis vārdā Gustavs un vecāks taksis ar pierādītu punktualitātes rekordu, iesaukts 'Ātrais un Bassy.'
+
+Kritiķi apgalvo, ka pretrunīgi vērtētais lēmums sadalīt pilsētu izriet no spiediena atbilst Eiropas Savienības standartiem neparastā veidā. Tomēr domes locekļi uzstāj, ka šis solis ir tikai par pārvaldības pārveidošanu, lai apmierinātu mūsdienu vajadzības. 'Mēs to nedarām tikai, lai iegūtu kādu virsrakstu uzmanību,' sacīja domes locekle Signa Grāvīte. 'Tas ir par to, lai pārdefinētu, kas ir iespējams, kad birokrātija satiek radošu interpretāciju. Tas ir par to, lai pilsēta būtu pati sava dīvaina, nedaudz apjukusi un neticami izturīga labākā versija.'
+
+Tikmēr tūrisms jaunajā pašsuverēnajā teritorijā šķiet gatavs izmantot tās jaunumu. Vietējā valdība jau cītīgi strādā pie 'Trīs Brāļu' pārbrendošanas, tagad 'Pieci un Pusbrāļi', lai gan viens no šiem brāļiem ir dīvainā kārtā atrodams populārajā tūristu vietā karstajā avotā.
+
+Eiropas Savienība, parasti pazīstama ar saviem gariem noteikumiem, ziņots, ka 'ar ziņkārīgu aci' vēro situāciju, ar vienu anonīmu avotu, kas pieminēja, ēdot skābētos kāpostus un desas: 'Ne katru dienu redzat pilsētu, kas mēģina izlauzties cauri administrācijai, jurisprudencei un tramvaju loģistikai vienlaikus. Bet šeit mēs esam.'
+
+Kā pirmajā neatkarības dienā puspiepildīti tramvaji priecīgi dārdēja garām nejauši izveidotām ietvju būvēm, Rīgas iedzīvotāji apmetas savā jaunajā, autonomajā normā. Vai šis drosmīgais jaunais sociāli politiskais eksperiments uzplauks vai sabruks ātrāk nekā slapjš saldskābmaize, vēl ir redzams. Pašlaik, ziemas apsnigušajā Rīgas siluetā, šķiet, ka viss ir iespējams.`,
+      ru: `Рига, столица Латвии, сделала смелый шаг в неизведанную политическую территорию, объявив независимость от самой себя. Схема, с юмором названная местными жителями 'Операция Задержанные Трамваи', была объявлена во вторник Рижским городским советом в попытке облегчить как дорожные пробки, так и постоянный экзистенциальный кризис из-за зимнего управления ямами.
+
+На пресс-конференции мэр Анете Потапова объяснила беспрецедентное решение: 'Мы поняли, что управление собой в условиях классической городской структуры не совсем 'идет гладко'. Объявив независимость от, ну, самих себя, мы стремимся достичь беспрецедентного сосредоточения на инновациях в нашей инфраструктуре — таких, которые не увязают в юрисдикционных ямах.' Планы для нового самоуправляемого региона 'Рига Прайм' были с энтузиазмом представлены, включая амбициозное предложение синхронизировать все городские часы с помощью коллегиального общества белок из парка Эспланада.
+
+Этот смелый маневр последовал после всеобъемлющего опроса, который показал, что 73% рижан поддерживают любой план — каким бы абсурдным он ни был — лишь бы город наконец-то смог держать свои трамваи вовремя. Уставший пассажир Томас Лиепиньш выразил свою поддержку: 'Если немного самосецессии может доставить меня в Засулаукс без 20-минутного ожидания на остановке, то да здравствует Рига Прайм!'
+
+Чтобы еще больше взбудоражить демократический котел, новоназначенный премьер-министр Риги Прайм, бывший танцор чечетки, ставший градостроителем, Эгилс Жагариньш, изложил свою спорную первую политическую инициативу 'Референдастик: Первый Референдум'. Граждане Риги Прайм будут голосовать за то, какое животное должно стать средством транспортировки официальных правительственных документов между парламентом и офисами городского совета. На данный момент лидерами являются высокомотивированный почтовый голубь по имени Густавс и пожилой такс с проверенной репутацией пунктуальности, прозванный 'Быстрый и Басси'.
+
+Критики утверждают, что спорное решение разделить город связано с давлением, чтобы соответствовать стандартам Европейского Союза необычным способом. Однако члены городского совета настаивают, что этот шаг направлен исключительно на переосмысление управления, чтобы удовлетворять современные потребности. 'Мы делаем это не только ради заголовков,' — заметила член совета Сигна Гравите. 'Это о переопределении того, что возможно, когда бюрократия встречается с креативной интерпретацией. Это о том, чтобы позволить городу быть своим собственным странным, слегка запутанным и невероятно стойким лучшим собой.'
+
+Между тем, туризм в новообъявленной самоуправляемой территории, похоже, готов воспользоваться своей новизной. Местное правительство уже усердно работает над ребрендингом 'Трех Братьев', теперь 'Пять с половиной Кузенов', хотя один из таких кузенов любопытно расположен в популярном туристическом месте горячих источников.
+
+Европейский Союз, обычно известный своими длинными правилами, якобы 'с любопытством наблюдает' за ситуацией, с одним анонимным источником, упоминающим за тарелкой квашеной капусты и сосисок: 'Не каждый день видишь, как город пытается матрично пройти через администрацию, юриспруденцию и логистику трамваев одновременно. Но вот мы здесь.'
+
+По мере того как первый день независимости побуждает полупустые трамвайные вагоны весело грохотать мимо небрежного тротуарного строительства, рижане привыкают к своей новой, автономной норме. Будет ли этот смелый новый социополитический эксперимент процветать или рухнет быстрее, чем мокрый салдскябмайзе, еще предстоит увидеть. Пока что, на зимнем горизонте Риги, возможно все.`
+    },
+    date: "Jan 3, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&h=600&fit=crop",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 48,
     slug: "latvia-unveils-national-sauna-ization-program",
     title: {
@@ -89,7 +158,7 @@ Tā kā valsts gatavojas saskarties ar vēl vienu ledainu sezonu, Projekts Siltu
     readTime: "7 min read",
     imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 47,
