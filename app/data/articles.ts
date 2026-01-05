@@ -17,6 +17,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 51,
+    slug: "riga-installs-worlds-largest-baltic-bicycle",
+    title: {
+      en: "Riga Installs World's Largest Baltic Bicycle Tunnel to Connect Backyard Saunas",
+      lv: "Rīga Uzstāda Pasaulē Lielāko Baltijas Velotuneli, Lai Savienotu Pagalmu Pirtis",
+      ru: "Рига устанавливает самый большой в мире балтийский велосипедный туннель для соединения задних дворов с сауной"
+    },
+    excerpt: {
+      en: "In an ambitious move echoing both innovation and utter whimsy, Riga has announced the opening of a groundbreaking underground bicycle tunnel network designed specifically to connect overzealous sauna enthusiasts with their sanctuaries. The subterranean passage spans a record 672 kilometers, linking every sauna-equipped backyard in the greater Riga region.",
+      lv: "Ambiciozā solī, kas atspoguļo gan inovāciju, gan pilnīgu dīvainību, Rīga ir paziņojusi par revolucionāras pazemes velotuneļa tīkla atklāšanu, kas īpaši izstrādāts, lai savienotu pārāk dedzīgus pirts entuziastus ar viņu svētnīcām. Pazemes eja stiepjas rekordlielos 672 kilometros, savienojot katru pirts aprīkoto pagalmu lielākajā Rīgas reģionā.",
+      ru: "В амбициозном шаге, отражающем как инновации, так и абсолютное причудливость, Рига объявила об открытии новаторской сети подземных велосипедных туннелей, специально разработанной для соединения чрезмерно увлеченных любителей сауны с их святилищами. Подземный проход протяженностью 672 километра соединяет каждый задний двор с сауной в большом регионе Риги."
+    },
+    fullContent: {
+      en: `Riga, Latvia — In a move that has surprised urban planners and perspiration experts worldwide, Riga has unveiled the Baltic region's largest underground bicycle tunnel network, designed exclusively to connect the city’s sprawling array of backyard saunas. Officially inaugurated over the weekend, the 672-kilometer underground passage is hailed as a 'bold leap forward in recreational mobility and thermal efficiency' by local cycling zealots and sauna aficionados alike.
+
+The Riga Sauna Tunnel Initiative, affectionately dubbed 'SaunaCycle Superhighway' by locals, weaves a labyrinthine path beneath the city, providing dedicated bicycle access to over 3,000 privately-owned saunas—16% of which are rumored to hover precariously close to being classified as 'ceremonial sweat temples'.
+
+'With this initiative, Riga is leading the charge in both eco-friendly transportation and cultural integration,' announced Gunārs Pelēcis, Deputy Minister for Leisurely Affairs, while standing mysteriously dry near the entrance of the first section of completed tunnel. 'Never before has such a large public works project been dedicated entirely to maximizing sweat productivity and minimizing vehicular sauna-blocking.'
+
+Funded by the European Union's perplexingly niche 'Cycling Sauna Access Beyond Borders Fund', the project overcame several unorthodox engineering challenges, including tunnel waterproofing presumably resistant to sauna-induced steam bursts and strategically placed cucumber infusion points every 100 meters.
+
+Local citizens have embraced the project with enthusiasm tinged with bewilderment. 'It's a game-changer,' said Maija Kalniņa, a daily cyclist and part-time sauna sage. 'Now, I can pedal leisurely to my sauna without dodging traffic or worrying that my towel will catch a breeze and turn me into an accidental exhibitionist.'
+
+In an odd twist, the project has spurred the creation of the 'Sauna Speed Trials', a competitive league where participants race from sauna to sauna, judged by both speed and the amount of sweat beaded on their skin upon arrival. Organizers promise the first 'Steamy Sprint Classic' will be held next summer, with participants required to pedal in regulation bath slippers.
+
+However, not all responses to the tunnel have been enthusiastic. Critics, such as the newly formed group 'Citizens Against Underground Sweating', have questioned the project's exhaustive use of public funds while Riga's above-ground bicycle lanes remain peppered with potholes affectionately dubbed 'circular wormholes'.
+
+Nonetheless, public interest remains high, with the tunnel already seeing an average of 1,500 sauna cycles per day, according to city officials. To accommodate the demand, the city has also taken the unprecedented step of installing the world's first bicycle parking structure with integrated towel drying facilities and cold plunge vending machines.
+
+As the tunnel's influence gradually permeates daily life in Riga, supporters believe its success could prompt similar projects in other Baltic capitals. Vilnius and Tallinn are reportedly considering aggressive sauna cycle possibilities, though they remain coy on the revolutionary concept of sauna-tunnel horse carriages.
+
+'While residents may get used to sauna cycling,' mused Pelēcis, 'one thing is certain: the SaunaCycle Superhighway smell will endure as a testament to our communal dedication to both physical fitness and Nordic-inspired steam.' Perhaps this indeed marks the dawn of a transformative era in Latvian transportation and perspiration culture—two elements that no one had previously thought to combine, but are now forever entwined beneath the streets of Riga.`,
+      lv: `Rīga, Latvija — Solī, kas pārsteidzis pilsētplānotājus un svīšanas ekspertus visā pasaulē, Rīga ir atklājusi Baltijas reģiona lielāko pazemes velotuneļa tīklu, kas izstrādāts tikai, lai savienotu pilsētas plašo pagalmu piršu klāstu. Oficiāli atklāts nedēļas nogalē, 672 kilometru garais pazemes ceļš tiek slavēts kā 'drosmīgs solis uz priekšu atpūtas mobilitātē un termālajā efektivitātē' gan vietējo riteņbraukšanas entuziastu, gan pirts cienītāju vidū.
+
+Rīgas Pirts Tuneļa Iniciatīva, ko vietējie mīļi dēvē par 'SaunaCycle Superhighway', vijās labirintiskā ceļā zem pilsētas, nodrošinot īpašu velosipēdu piekļuvi vairāk nekā 3,000 privāti piederošām pirtīm—16% no tām tiek baumots, ka tās bīstami tuvu tiek klasificētas kā 'ceremoniju sviedru tempļi'.
+
+'Ar šo iniciatīvu Rīga vada gan videi draudzīgas transporta, gan kultūras integrācijas kustību,' paziņoja Gunārs Pelēcis, Brīvā Laika Lietu Ministrijas vietnieks, stāvot noslēpumaini sausā pie pabeigtā tuneļa pirmās sekcijas ieejas. 'Nekad agrāk tik liels sabiedrisko darbu projekts nav bijis pilnībā veltīts sviedru produktivitātes maksimizēšanai un transportlīdzekļu pirts bloķēšanas minimizēšanai.'
+
+Projekts, ko finansē Eiropas Savienības mulsinoši nišas 'Velosipēdu Piekļuves Pirtīm Pāri Robežām Fonds', pārvarēja vairākas neparastas inženierijas problēmas, tostarp tuneļa hidroizolāciju, kas, iespējams, ir izturīga pret pirts izraisītiem tvaika uzplūdiem, un stratēģiski izvietotus gurķu infūzijas punktus ik pēc 100 metriem.
+
+Vietējie iedzīvotāji projektu ir pieņēmuši ar entuziasmu, kas sajaukts ar apjukumu. 'Tas ir spēles mainītājs,' teica Maija Kalniņa, ikdienas riteņbraucēja un nepilna laika pirts gudrā. 'Tagad es varu mierīgi mīt pedāļus uz savu pirti, neizvairīdamies no satiksmes vai neuztraucoties, ka mans dvielis noķers vēju un pārvērtīs mani par nejaušu izstādes dalībnieci.'
+
+Savādi, projekts ir veicinājis 'Pirts Ātruma Sacensību' izveidi, konkurētspējīgu līgu, kurā dalībnieki sacenšas no pirts uz pirti, vērtējot gan ātrumu, gan sviedru daudzumu uz ādas ierašanās brīdī. Organizatori sola, ka pirmais 'Tvaika Sprinta Klasika' notiks nākamajā vasarā, un dalībniekiem būs jāmin pedāļi regulējošās pirts čībās.
+
+Tomēr ne visas reakcijas uz tuneli ir bijušas entuziastiskas. Kritiķi, piemēram, nesen izveidotā grupa 'Pilsoņi Pret Pazemes Svīšanu', ir apšaubījuši projekta izsmeļošo publisko līdzekļu izmantošanu, kamēr Rīgas virszemes velosipēdu joslas joprojām ir izkaisītas ar bedrēm, ko mīļi dēvē par 'apļveida tārpu caurumiem'.
+
+Tomēr sabiedrības interese saglabājas augsta, un tunelis jau redz vidēji 1,500 pirts velosipēdu dienā, saskaņā ar pilsētas amatpersonām. Lai apmierinātu pieprasījumu, pilsēta ir veikusi arī bezprecedenta soli, uzstādot pasaulē pirmo velosipēdu stāvvietu struktūru ar integrētām dvieļu žāvēšanas iespējām un aukstā ūdens iegremdēšanas automātiem.
+
+Kā tuneļa ietekme pakāpeniski iesūcas ikdienas dzīvē Rīgā, atbalstītāji uzskata, ka tā panākumi varētu veicināt līdzīgus projektus citās Baltijas galvaspilsētās. Viļņa un Tallina, kā ziņots, apsver agresīvas pirts velosipēdu iespējas, lai gan tās paliek kautrīgas par revolucionāro pirts-tuneļa zirgu pajūgu koncepciju.
+
+'Kamēr iedzīvotāji varētu pierast pie pirts riteņbraukšanas,' prātoja Pelēcis, 'viena lieta ir skaidra: SaunaCycle Superhighway smarža paliks kā liecība mūsu kopīgai apņemšanās gan fiziskajai sagatavotībai, gan Ziemeļvalstu iedvesmotajam tvaikam.' Varbūt tas patiešām iezīmē pārveidojošas ēras sākumu Latvijas transporta un svīšanas kultūrā—divi elementi, kurus neviens iepriekš nebija domājis apvienot, bet tagad tie ir uz visiem laikiem savīti zem Rīgas ielām.`,
+      ru: `Рига, Латвия — В шаге, который удивил градостроителей и экспертов по потоотделению по всему миру, Рига представила крупнейшую в Балтийском регионе сеть подземных велосипедных туннелей, предназначенную исключительно для соединения обширного массива задних дворов с сауной. Официально открытый в выходные, 672-километровый подземный проход приветствуется как 'смелый шаг вперед в рекреационной мобильности и тепловой эффективности' как местными велосипедными энтузиастами, так и поклонниками сауны.
+
+Инициатива Рижского туннеля для саун, ласково прозванная местными жителями 'Супермагистралью для велосипедов и саун', прокладывает лабиринтный путь под городом, предоставляя выделенный велосипедный доступ к более чем 3 000 частных саун — 16% из которых, как говорят, опасно близки к классификации как 'церемониальные храмы пота'.
+
+'С этой инициативой Рига лидирует как в экологически чистом транспорте, так и в культурной интеграции', — объявил Гунарс Пелецис, заместитель министра по делам досуга, стоя загадочно сухим у входа в первый участок завершенного туннеля. 'Никогда прежде такой крупный проект общественных работ не был полностью посвящен максимизации потоотделения и минимизации блокировки саун транспортными средствами'.
+
+Финансируемый Европейским Союзом из загадочно нишевого 'Фонда доступа к велосипедам и саунам за пределами границ', проект преодолел несколько нестандартных инженерных задач, включая гидроизоляцию туннеля, предположительно устойчивую к паровым выбросам из саун, и стратегически расположенные точки инфузии огурцов каждые 100 метров.
+
+Местные жители приняли проект с энтузиазмом, смешанным с недоумением. 'Это меняет правила игры', — сказала Майя Калниня, ежедневная велосипедистка и частичная мудрец сауны. 'Теперь я могу спокойно крутить педали до своей сауны, не уворачиваясь от трафика и не беспокоясь о том, что мое полотенце поймает ветер и превратит меня в случайного эксгибициониста'.
+
+В странном повороте проект вызвал создание 'Скоростных испытаний сауны', соревновательной лиги, где участники соревнуются от сауны к сауне, оцениваемые как по скорости, так и по количеству пота на коже по прибытии. Организаторы обещают, что первый 'Классический паровой спринт' состоится следующим летом, и участники будут обязаны крутить педали в регламентных тапочках для бани.
+
+Однако не все отклики на туннель были восторженными. Критики, такие как недавно сформированная группа 'Граждане против подземного потения', поставили под сомнение исчерпывающее использование общественных средств на проект, в то время как велосипедные дорожки над землей в Риге остаются усеянными ямами, ласково прозванными 'круглыми червоточинами'.
+
+Тем не менее, общественный интерес остается высоким, и, по данным городских властей, туннель уже обслуживает в среднем 1 500 велосипедов для саун в день. Чтобы удовлетворить спрос, город также предпринял беспрецедентный шаг по установке первой в мире велосипедной парковочной структуры с интегрированными сушилками для полотенец и автоматами с холодными погружениями.
+
+По мере того как влияние туннеля постепенно проникает в повседневную жизнь в Риге, сторонники верят, что его успех может побудить к аналогичным проектам в других балтийских столицах. Вильнюс и Таллин, как сообщается, рассматривают агрессивные возможности для велосипедов и саун, хотя они остаются скрытными по поводу революционной концепции карет для саун и туннелей.
+
+'Хотя жители могут привыкнуть к велосипедам и саунам', — размышлял Пелецис, 'одно можно сказать наверняка: запах Супермагистрали для велосипедов и саун останется как свидетельство нашей общей приверженности как физической форме, так и вдохновленному северными странами пару'. Возможно, это действительно знаменует начало трансформационной эры в латвийском транспорте и культуре потоотделения — двух элементах, которые никто ранее не думал объединить, но которые теперь навсегда переплетены под улицами Риги.`
+    },
+    date: "Jan 5, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 50,
     slug: "latvian-parliament-considers-making-dreary-tuesdays",
     title: {
@@ -95,7 +176,7 @@ Kamēr priekšlikums turpina cirkulēt, skaidrs ir atjaunots mērķa sajūta —
     readTime: "10 min read",
     imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&h=600&fit=crop",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 49,
