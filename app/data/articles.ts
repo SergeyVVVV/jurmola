@@ -17,6 +17,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 53,
+    slug: "latvia-to-launch-worlds-first-amphibious",
+    title: {
+      en: "Latvia to Launch World's First Amphibious Public Transport: Trolley-Barnacle Hybrid",
+      lv: "Latvija ieviesīs pasaulē pirmo amfībiju sabiedrisko transportu: trolejbusa un gliemežvāku hibrīds",
+      ru: "Латвия запускает первый в мире амфибийный общественный транспорт: гибрид троллейбуса и ракушки"
+    },
+    excerpt: {
+      en: "In a bold move to tackle increasing traffic congestion while restoring marine biodiversity, Latvia has announced the development of the world’s first trolley-barnacle hybrid bus. This novel approach promises to revolutionize not just public transport, but also marine ecology with each damp ride.",
+      lv: "Lai risinātu pieaugošo satiksmes sastrēgumu problēmu un vienlaikus atjaunotu jūras bioloģisko daudzveidību, Latvija ir paziņojusi par pasaulē pirmā trolejbusa un gliemežvāku hibrīda autobusa izstrādi. Šī novatoriskā pieeja sola revolucionizēt ne tikai sabiedrisko transportu, bet arī jūras ekoloģiju ar katru mitro braucienu.",
+      ru: "В смелой попытке справиться с растущими пробками и одновременно восстановить морское биоразнообразие, Латвия объявила о разработке первого в мире гибридного автобуса троллейбуса и ракушки. Этот новаторский подход обещает революционизировать не только общественный транспорт, но и морскую экологию с каждым влажным рейсом."
+    },
+    fullContent: {
+      en: `In an unprecedented confluence of public transportation innovation and marine conservation, Latvia is set to debut the world's first fully functional trolley-barnacle hybrid by 2025. The vehicle, affectionately dubbed the 'Aqua Tram', was unveiled by the Minister of Really Ambitious Projects, Māris Neptūnovs, at a press conference held precariously close to Riga's Central Canal.
+
+The Aqua Tram will run seamlessly between Riga and Jurmala, traversing both its cobblestone streets and legendary waters. Its unique design incorporates a trolley bus chassis intricately fused with streamlined barnacle-encrusted hulls, promising an environmentally harmonious commute during both the wet and dry seasons.
+
+"By combining the latest in hydro-transport technology with nature’s own crustaceous wonders, we're creating a win-win situation," boasted Minister Neptūnovs, while standing atop a prototype that bore a striking resemblance to a barnacle bouncy castle. "Imagine beating traffic while simultaneously promoting marine biodiversity — it's a breakthrough!"
+
+The Ministry has allocated an optimistic budget of €450 million for this project. However, financial concerns have done little to dampen the national enthusiasm. "Finally, we'll harness Latvia's true potential of puddles and surplus water!" exclaimed Kristaps Lielpeļķis, the chief engineer and self-confessed barnacle enthusiast, who spearheaded the Aqua Tram's development.
+
+However, not everyone is sold on the concept. The local Society of Unabridged Traffic Expansion (S.U.T.E) issued a formal complaint, concerned about 'predictable inconveniences' posed by stray barnacles. Their spokesperson, Vilma Kļivīte, elaborated, "What if a barnacle detaches and clogs up a street? Or worse, someone's coffee? We can't have our streets and cups under aquatic siege!"
+
+Nevertheless, Prime Minister Igors Plūmučs sees a brighter horizon. "This project places Latvia at the pinnacle of innovation. Our waterways have been underutilized, and we're finally capitalizing on what the sea offers us—fresh air, iconic views, and free nautical appendages."
+
+The economic implications of the Aqua Tram are notable as well. Analysts predict a 32 percent spike in tourism linked to 'curiosity-driven travel', with visitors eager to partake in rides where passengers have reported eyewitnessing barnacle spawning sessions at every turn. A recent survey revealed that 78 percent of respondents were 'excited to witness the world's first mollusk-powered trip'.
+
+In a particularly heartwarming twist, local marine biologist, Dr. Daina Gliemezhe, sees this as an opportunity to educate the public about native aquatic life. "Every 9 AM rush hour will include a complimentary barnacle biology lesson over the intercom," she said enthusiastically.
+
+The Latvian Aero-Marine Administration notably remained silent, presumably drafting groundbreaking new regulations for barnacles in public transportation.
+
+As work continues on this groundbreaking initiative, the Ministry confidently predicts that the Aqua Tram will not only ease the congestion on land but also encourage a newfound appreciation for Latvia’s aquatic ecosystems. Part mobility revolution, part environmental statement — Latvia's Aqua Tram is slated to make quite a splash.`,
+      lv: `Nepieredzētā sabiedriskā transporta inovāciju un jūras aizsardzības saplūsmē Latvija plāno līdz 2025. gadam ieviest pasaulē pirmo pilnībā funkcionējošo trolejbusa un gliemežvāku hibrīdu. Transportlīdzeklis, mīļi dēvēts par 'Aqua Tram', tika atklāts preses konferencē, ko vadīja Īpaši Ambiciozo Projektu ministrs Māris Neptūnovs, bīstami tuvu Rīgas Centrālajam kanālam.
+
+Aqua Tram kursēs bez aizķeršanās starp Rīgu un Jūrmalu, šķērsojot gan bruģētās ielas, gan leģendāros ūdeņus. Tā unikālais dizains apvieno trolejbusa šasiju, kas sarežģīti savienota ar plūstošiem gliemežvāku klātiem korpusiem, solot videi draudzīgu pārvietošanos gan slapjā, gan sausā sezonā.
+
+"Apvienojot jaunākās hidrotransporta tehnoloģijas ar dabas pašu vēžveidīgo brīnumiem, mēs radām situāciju, kurā visi iegūst," lielījās ministrs Neptūnovs, stāvot uz prototipa, kas atgādināja gliemežvāku batutu. "Iedomājieties, kā pārspēt satiksmi un vienlaikus veicināt jūras bioloģisko daudzveidību — tas ir izrāviens!"
+
+Ministrija šim projektam ir piešķīrusi optimistisku budžetu 450 miljonu eiro apmērā. Tomēr finansiālās bažas maz ietekmējušas nacionālo entuziasmu. "Beidzot mēs izmantosim Latvijas īsto potenciālu peļķu un liekā ūdens jomā!" izsaucās Kristaps Lielpeļķis, galvenais inženieris un pašpasludināts gliemežvāku entuziasts, kurš vadīja Aqua Tram izstrādi.
+
+Tomēr ne visi ir pārliecināti par šo koncepciju. Vietējā Sabiedrības Neierobežotās Satiksmes Paplašināšanas biedrība (S.N.S.P.) iesniedza oficiālu sūdzību, bažījoties par 'paredzamām neērtībām', ko rada klīstoši gliemežvāki. Viņu pārstāve Vilma Kļivīte paskaidroja: "Kas notiks, ja gliemežvāks atdalīsies un aizsprostos ielu? Vai vēl sliktāk, kāda kafiju? Mēs nevaram pieļaut, ka mūsu ielas un tases ir zem ūdens aplenkuma!"
+
+Tomēr premjerministrs Igors Plūmučs redz gaišāku nākotni. "Šis projekts novieto Latviju inovāciju virsotnē. Mūsu ūdensceļi ir bijuši nepietiekami izmantoti, un mēs beidzot izmantojam to, ko jūra mums piedāvā — svaigu gaisu, ikoniskus skatus un bezmaksas jūras piedevas."
+
+Aqua Tram ekonomiskās sekas ir ievērojamas. Analītiķi prognozē 32 procentu pieaugumu tūrismā, kas saistīts ar 'ziņkārības vadītu ceļošanu', jo apmeklētāji vēlas piedalīties braucienos, kur pasažieri ziņo par aculiecinieku gliemežvāku nārsta sesijām katrā pagriezienā. Nesenā aptaujā atklājās, ka 78 procenti respondentu ir 'sajūsmināti par pasaulē pirmo molusku darbināto braucienu'.
+
+Īpaši sirsnīgā pavērsienā vietējā jūras biologe Dr. Daina Gliemezhe redz šo kā iespēju izglītot sabiedrību par vietējo ūdens dzīvi. "Katrs rīta sastrēgums plkst. 9:00 ietvers bezmaksas gliemežvāku bioloģijas nodarbību pa skaļruni," viņa sacīja ar entuziasmu.
+
+Latvijas Aero-Jūras administrācija ievērojami klusē, iespējams, izstrādājot jaunas, revolucionāras regulas par gliemežvākiem sabiedriskajā transportā.
+
+Turpinoties darbam pie šīs revolucionārās iniciatīvas, ministrija pārliecinoši prognozē, ka Aqua Tram ne tikai mazinās sastrēgumus uz sauszemes, bet arī veicinās jaunu atzinību par Latvijas ūdens ekosistēmām. Daļēji mobilitātes revolūcija, daļēji vides paziņojums — Latvijas Aqua Tram ir paredzēts, lai radītu īstu šļakatu.`,
+      ru: `В беспрецедентном слиянии инноваций в общественном транспорте и охраны морской среды Латвия планирует представить первый в мире полностью функциональный гибрид троллейбуса и ракушки к 2025 году. Транспортное средство, ласково названное 'Аква Трамвай', было представлено министром действительно амбициозных проектов Марисом Нептуновсом на пресс-конференции, проведенной опасно близко к Центральному каналу Риги.
+
+Аква Трамвай будет беспрепятственно курсировать между Ригой и Юрмалой, пересекать как брусчатые улицы, так и легендарные воды. Его уникальный дизайн включает в себя шасси троллейбуса, тщательно соединенное с обтекаемыми корпусами, покрытыми ракушками, обещая экологически гармоничную поездку как в мокрый, так и в сухой сезоны.
+
+"Объединяя последние достижения в области гидротранспорта с природными чудесами ракообразных, мы создаем ситуацию, в которой выигрывают все", — похвастался министр Нептуновс, стоя на прототипе, который поразительно напоминал батут с ракушками. "Представьте, что вы обгоняете пробки, одновременно способствуя морскому биоразнообразию — это прорыв!"
+
+Министерство выделило оптимистичный бюджет в 450 миллионов евро на этот проект. Однако финансовые проблемы мало повлияли на национальный энтузиазм. "Наконец-то мы используем истинный потенциал луж и излишков воды в Латвии!" — воскликнул Кристапс Лиелпелькис, главный инженер и признанный энтузиаст ракушек, возглавивший разработку Аква Трамвая.
+
+Однако не все поддерживают эту концепцию. Местное Общество неограниченного расширения трафика (S.U.T.E) подало официальную жалобу, обеспокоенное 'предсказуемыми неудобствами', вызванными случайными ракушками. Их представитель, Вилма Кливите, пояснила: "Что, если ракушка оторвется и забьет улицу? Или, что еще хуже, чью-то чашку кофе? Мы не можем допустить, чтобы наши улицы и чашки оказались под водной осадой!"
+
+Тем не менее, премьер-министр Игорс Плумучс видит более светлую перспективу. "Этот проект ставит Латвию на вершину инноваций. Наши водные пути были недооценены, и мы наконец-то используем то, что предлагает нам море — свежий воздух, культовые виды и бесплатные морские придатки."
+
+Экономические последствия Аква Трамвая также значительны. Аналитики прогнозируют 32-процентный всплеск туризма, связанный с 'путешествиями из любопытства', поскольку посетители стремятся принять участие в поездках, где пассажиры сообщают о наблюдениях за нерестом ракушек на каждом повороте. Недавний опрос показал, что 78 процентов респондентов 'в восторге от возможности стать свидетелями первой в мире поездки на моллюсках'.
+
+В особенно трогательном повороте событий местный морской биолог, доктор Дайна Глиемезе, видит в этом возможность просветить общественность о местной водной жизни. "Каждый час пик в 9 утра будет включать бесплатный урок биологии ракушек по громкой связи", — сказала она с энтузиазмом.
+
+Латвийская аэроморская администрация заметно молчала, предположительно разрабатывая новые революционные правила для ракушек в общественном транспорте.
+
+Пока работа над этой новаторской инициативой продолжается, Министерство уверенно прогнозирует, что Аква Трамвай не только облегчит заторы на суше, но и вдохновит на новое признание водных экосистем Латвии. Часть революции в мобильности, часть экологического заявления — Аква Трамвай Латвии обещает произвести настоящий фурор.`
+    },
+    date: "Jan 7, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&h=600&fit=crop",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 52,
     slug: "jurmala-residents-petition-for-official-language",
     title: {
@@ -89,7 +170,7 @@ Priekšlikums tiks izskatīts pilsētas padomē nākamajā mēnesī, kur tiek ga
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 51,
