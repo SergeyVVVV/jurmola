@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 54,
+    slug: "riga-residents-petition-to-make-queueing",
+    title: {
+      en: "Riga Residents Petition to Make 'Queueing' an Official Olympic Sport",
+      lv: "Rīgas iedzīvotāji iesniedz petīciju, lai 'stāvēt rindā' kļūtu par oficiālu olimpisko sporta veidu",
+      ru: "Жители Риги подали петицию о признании «стояния в очереди» официальным олимпийским видом спорта"
+    },
+    excerpt: {
+      en: "In a surprising yet spirited campaign, residents of Riga are seeking to transform their renowned queueing skills into Latvia's next Olympic event. With meticulous formations and synchronized patience, they argue that standing in line should earn international acclaim.",
+      lv: "Pārsteidzošā, bet enerģiskā kampaņā Rīgas iedzīvotāji vēlas pārvērst savas slavenās rindā stāvēšanas prasmes par nākamo Latvijas olimpisko disciplīnu. Ar rūpīgi izveidotām formācijām un sinhronizētu pacietību viņi apgalvo, ka stāvēšana rindā pelnījusi starptautisku atzinību.",
+      ru: "В неожиданной, но вдохновленной кампании жители Риги стремятся превратить свои знаменитые навыки стояния в очереди в следующий олимпийский вид спорта Латвии. С тщательными построениями и синхронизированным терпением они утверждают, что стояние в очереди должно заслужить международное признание."
+    },
+    fullContent: {
+      en: `Riga, Latvia — In what could only be described as a historic proposal, Riga's population has submitted an official bid to the International Olympic Committee (IOC) demanding the inclusion of 'Queueing' as a recognized Olympic discipline. Citing an unmatched heritage of orderly waiting in lines, local proponents believe their meticulously honed skills merit gold medal recognition.
+
+The movement, initiated by a group whimsically known as 'The Queue Enthusiasts of Latvia' (QEL), has gained unprecedented traction in recent weeks. The group claims that queueing is not merely a cultural pastime but an athletic endeavor requiring the utmost precision, endurance, and mental fortitude.
+
+'Lineage! Tradition! Precision! These are not just words, they are the foundation of our queueing legacy,' declared Liene Skanne, QEL President and line-formation activist, during the unveiling of the petition. 'We have queues that excel in complexity and form, from serpentine structures outside popular cafes to the marathonlike treks during annual frog migration season at the Pārdaugava pedestrian bridge.'
+
+Local queueing historian, Janiss Balodis, argues that this skill dates back centuries, originating from the days of communal potato distribution queues which trained generations of Latvians in the fine art of waiting. 'It goes beyond standing; it's about anticipation, patience, and the eternal hope for progress,' he explained.
+
+The petition, now featuring over 50,000 signatures, presents evidence of Latvia's unparalleled mastery in this field. A statistical study conducted by the reputable Baltic Institute of Synchronous Patience (BISP) concludes that Latvians tend to queue 23% better than their nearest rivals, the British.
+
+To substantiate their claim, QEL is organizing a showcase event dubbed 'The Queuelympics,' scheduled to take place at the Freedom Monument in Riga next spring. Featured events will include 'The Silent Arch', 'Queue Ballet', and the ever-challenging 'Last Spot Showdown', where contestants demonstrate their ability to gracefully accept being repeatedly superseded by others employing locally celebrated techniques like 'casual acquaintance recognition'.
+
+While the potential push for queueing as an Olympic sport has ignited a wave of national pride, not all share the enthusiasm. Some skeptics question whether the skill meets the high-energy requirements typical of Olympic events. However, supporters quickly dismiss such critiques, stating that queueing reflects the spirit of perseverance akin to any athletic pursuit. 'Focus, waiting for your turn, and unyielding stamina—what more could you want from an Olympic sport?' asks Raimonds Lauks, a passionate queue coach and former national champion.
+
+As the IOC prepares to review the bold proposal, it seems Riga's residents remain unfazed by any potential setbacks. 'Queueing is not just standing; it's an expression of hope,' says Skanne, her voice imbued with unwavering determination. Regardless of the outcome, she insists, 'we’ll be here, waiting, standing proud for our place on the Olympic stage.'
+
+Whether Riga’s queueing will join the ranks of discus and diving is yet to be determined, but one thing is certain—the city remains resolute in its pursuit, one wait at a time.`,
+      lv: `Rīga, Latvija — Vēsturiskā priekšlikumā Rīgas iedzīvotāji ir iesnieguši oficiālu pieteikumu Starptautiskajam Olimpiskajam komitejai (SOK), pieprasot 'Rindā stāvēšanu' iekļaut kā atzītu olimpisko disciplīnu. Atsaucoties uz nepārspējamu kārtīgas rindā stāvēšanas mantojumu, vietējie atbalstītāji uzskata, ka viņu rūpīgi izkoptās prasmes ir pelnījušas zelta medaļu atzinību.
+
+Kustība, ko uzsāka grupa ar humoristisku nosaukumu 'Latvijas Rindu Entuziasti' (LRE), pēdējās nedēļās ir ieguvusi nebijušu atbalstu. Grupa apgalvo, ka rindā stāvēšana nav tikai kultūras izklaide, bet gan sportiska nodarbe, kas prasa vislielāko precizitāti, izturību un garīgo spēku.
+
+'Lineāža! Tradīcija! Precizitāte! Tie nav tikai vārdi, tie ir mūsu rindā stāvēšanas mantojuma pamati,' paziņoja Liene Skanne, LRE prezidente un rindas formācijas aktīviste, petīcijas atklāšanas laikā. 'Mums ir rindas, kas izceļas ar sarežģītību un formu, sākot no čūskveida struktūrām pie populāriem kafejnīcām līdz maratona gājieniem ikgadējās vardes migrācijas sezonas laikā pie Pārdaugavas gājēju tilta.'
+
+Vietējais rindā stāvēšanas vēsturnieks Jānis Balodis apgalvo, ka šī prasme ir gadsimtiem sena, sākot no kopienas kartupeļu sadales rindām, kas apmācīja paaudzes latviešu gaidīšanas mākslā. 'Tas ir vairāk nekā vienkārši stāvēšana; tas ir par gaidīšanu, pacietību un mūžīgo cerību uz progresu,' viņš paskaidroja.
+
+Petīcija, kurai tagad ir vairāk nekā 50 000 parakstu, sniedz pierādījumus par Latvijas nepārspējamo meistarību šajā jomā. Statistiskais pētījums, ko veica cienījamais Baltijas Sinhronās Pacietības Institūts (BSPI), secina, ka latvieši rindā stāv par 23% labāk nekā viņu tuvākie konkurenti, briti.
+
+Lai pamatotu savu prasību, LRE organizē demonstrācijas pasākumu ar nosaukumu 'Rindolimpiāde', kas notiks pie Brīvības pieminekļa Rīgā nākamajā pavasarī. Piedāvātie pasākumi ietvers 'Klusais Arka', 'Rindu Balets' un vienmēr izaicinošais 'Pēdējās Vietas Duels', kur dalībnieki demonstrēs savu spēju graciozi pieņemt, ka viņus atkārtoti apsteidz citi, izmantojot vietēji slavenās tehnikas, piemēram, 'gadījuma paziņas atpazīšana'.
+
+Lai gan potenciālais spiediens par rindā stāvēšanu kā olimpisko sporta veidu ir izraisījis nacionālo lepnumu vilni, ne visi dalās entuziasmā. Daži skeptiķi apšauba, vai šī prasme atbilst augstas enerģijas prasībām, kas raksturīgas olimpiskajiem pasākumiem. Tomēr atbalstītāji ātri noraida šādu kritiku, norādot, ka rindā stāvēšana atspoguļo izturības garu, kas līdzīgs jebkurai sportiskai nodarbei. 'Fokuss, gaidīšana uz savu kārtu un nelokāma izturība—ko vēl varētu vēlēties no olimpiskā sporta veida?' jautā Raimonds Lauks, kaislīgs rindas treneris un bijušais nacionālais čempions.
+
+Kamēr SOK gatavojas pārskatīt drosmīgo priekšlikumu, šķiet, ka Rīgas iedzīvotāji nav satraukti par iespējamām neveiksmēm. 'Rindā stāvēšana nav tikai stāvēšana; tā ir cerības izpausme,' saka Skanne, viņas balsī skan nelokāma apņēmība. Neatkarīgi no iznākuma, viņa uzstāj, 'mēs būsim šeit, gaidot, lepni stāvot par mūsu vietu uz olimpiskās skatuves.'
+
+Vai Rīgas rindā stāvēšana pievienosies diska mešanai un niršanai, vēl ir jānoskaidro, bet viena lieta ir skaidra—pilsēta paliek nelokāma savā centienā, vienu gaidīšanu vienā reizē.`,
+      ru: `Рига, Латвия — В том, что можно описать только как историческое предложение, население Риги подало официальную заявку в Международный олимпийский комитет (МОК) с требованием включить «стояние в очереди» как признанную олимпийскую дисциплину. Ссылаясь на непревзойденное наследие упорядоченного ожидания в очередях, местные сторонники считают, что их тщательно отточенные навыки заслуживают признания золотой медалью.
+
+Движение, инициированное группой, шутливо известной как «Энтузиасты очередей Латвии» (EOL), набрало беспрецедентную популярность в последние недели. Группа утверждает, что стояние в очереди — это не просто культурное времяпрепровождение, а спортивное занятие, требующее максимальной точности, выносливости и душевной стойкости.
+
+«Линия! Традиция! Точность! Это не просто слова, это основа нашего наследия очередей», — заявила Лиене Сканне, президент EOL и активистка по формированию очередей, во время презентации петиции. «У нас есть очереди, которые превосходят по сложности и форме, от извилистых структур у популярных кафе до марафонских походов во время ежегодной миграции лягушек на пешеходном мосту в Пардаугаве».
+
+Местный историк очередей, Янисс Балодис, утверждает, что это умение уходит корнями в века, начиная с времен очередей за распределением картофеля, которые обучали поколения латвийцев тонкому искусству ожидания. «Это выходит за рамки стояния; это о предвкушении, терпении и вечной надежде на прогресс», — объяснил он.
+
+Петиция, уже собравшая более 50 000 подписей, представляет доказательства непревзойденного мастерства Латвии в этой области. Статистическое исследование, проведенное авторитетным Балтийским институтом синхронного терпения (BISP), заключает, что латвийцы стоят в очереди на 23% лучше, чем их ближайшие соперники — британцы.
+
+Чтобы подкрепить свои утверждения, EOL организует показательное мероприятие под названием «Очередиада», которое состоится у Памятника Свободы в Риге следующей весной. В программу войдут такие мероприятия, как «Тихая арка», «Балет очереди» и сложнейшее «Сражение за последнее место», где участники демонстрируют свою способность грациозно принимать постоянное обгонение другими, используя местные популярные техники, такие как «узнавание случайного знакомого».
+
+Хотя потенциальное продвижение стояния в очереди как олимпийского спорта вызвало волну национальной гордости, не все разделяют этот энтузиазм. Некоторые скептики задаются вопросом, соответствует ли этот навык высоким требованиям энергии, характерным для олимпийских мероприятий. Однако сторонники быстро отвергают такие критики, утверждая, что стояние в очереди отражает дух упорства, присущий любому спортивному занятию. «Концентрация, ожидание своей очереди и неуклонная выносливость — что еще можно желать от олимпийского спорта?» — спрашивает Раймондс Лаукс, страстный тренер по стоянию в очереди и бывший национальный чемпион.
+
+Пока МОК готовится рассмотреть смелое предложение, кажется, что жители Риги остаются невозмутимыми перед любыми возможными неудачами. «Стояние в очереди — это не просто стояние; это выражение надежды», — говорит Сканне, ее голос полон непоколебимой решимости. Независимо от исхода, она настаивает: «мы будем здесь, ждем, гордо стоим за наше место на олимпийской сцене».
+
+Будет ли стояние в очереди в Риге присоединяться к рядам метания диска и прыжков в воду, еще предстоит определить, но одно можно сказать наверняка — город остается решительным в своем стремлении, одно ожидание за раз.`
+    },
+    date: "Jan 8, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 53,
     slug: "latvia-to-launch-worlds-first-amphibious",
     title: {
@@ -95,7 +170,7 @@ Turpinoties darbam pie šīs revolucionārās iniciatīvas, ministrija pārlieci
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&h=600&fit=crop",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 52,
