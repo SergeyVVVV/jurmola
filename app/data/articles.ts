@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 55,
+    slug: "latvian-parliament-passes-bold-legislation-declaring",
+    title: {
+      en: "Latvian Parliament Passes Bold Legislation Declaring Riga's Official Color As 'Soviet Beige'",
+      lv: "Latvijas Parlaments Pieņem Drosmīgu Likumprojektu, Nosakot Rīgas Oficiālo Krāsu kā 'Padomju Bēšs'",
+      ru: "Латвийский парламент принимает смелый закон, объявляющий 'советский бежевый' официальным цветом Риги"
+    },
+    excerpt: {
+      en: "In a daring move to cement its cultural identity, Latvia's Saeima has voted to declare 'Soviet Beige' as the official color of Riga. The decision is hoped to unify citizens under a hue reminiscent of a bygone era, while also ensuring that all government buildings match the local cloud cover, 'for camouflage purposes'.",
+      lv: "Lai nostiprinātu savu kultūras identitāti, Latvijas Saeima drosmīgi nobalsojusi par 'Padomju Bēšs' kā Rīgas oficiālo krāsu. Cerams, ka šis lēmums vienos iedzīvotājus zem nokrāsas, kas atgādina pagājušo laikmetu, vienlaikus nodrošinot, ka visas valdības ēkas saskan ar vietējo mākoņu segu 'kamuflāžas nolūkos'.",
+      ru: "В дерзком шаге по укреплению своей культурной идентичности Сейм Латвии проголосовал за объявление 'советского бежевого' официальным цветом Риги. Надеются, что это решение объединит граждан под оттенком, напоминающим о минувшей эпохе, а также обеспечит соответствие всех правительственных зданий местной облачности 'в целях маскировки'."
+    },
+    fullContent: {
+      en: `Riga, Latvia – In a historic decision that has both puzzled and delighted citizens, the Latvian Saeima recently passed legislation naming 'Soviet Beige' as the official color of Riga. Proponents of the measure claim it will both enhance city unity and offer a nostalgic nod to Latvia's colorful past—albeit, ironically, by being colorless.
+
+The proposal, which passed with a resounding majority of 85 to 15 votes, was introduced by the newly formed Coalition for Harmonious Urban Neutrality, or 'CHUN'. The group's spokesperson, Dimitrijs Neitrals, explained the rationale behind the choice, stating, "We wanted a color that epitomizes both the vibrancy and the subtlety of Riga life. Soviet Beige is not just a color; it’s an aura—a dreary yet captivating reminder of our history, much like the municipal winter wardrobe."
+
+Local reactions have been mixed. Elina Brunsfelds, chairwoman of the Riga Interior Decorators’ Union, expressed enthusiasm over the unifying theme. "I can now confidently match my curtains to the City Council," she stated during an interview. "Imagine the synergy during inter-departmental meetings!"
+
+However, not all feedback has been positive. Some critics argue that the measure lacks foresight. "What about summer?" asked Andris Leontjevs, a popular figure in Riga's art scene. "The whole city will look like a giant piece of Soviet toast. Think of the international tourists! They come here expecting Baltic vibrancy, not monotone melancholia."
+
+Yet, supporters argue that imitating the shades of clouded sky might actually boost tourism. "You see, couple this color scheme with our famously unpredictable weather, and you'll attract visitors eager for a fully immersive, color-coordinated Baltic experience," explained Juris Pilneks, the city's official meteorologist, who moonlights as Riga’s unofficial 'colorologist'.
+
+Further bolstering the 'Soviet Beige' initiative, the Transportation Department announced plans to repaint city buses in similar hues, ensuring that commuters experience a "seamless beige journey." The only exception, department head Viktors Tramvajejs noted, would be the traffic lights, which will remain universally colored 'for legal reasons', but will now be sponsored by a local beige paint company.
+
+A victory parade of sorts is scheduled for next month, where participants will walk the cobblestone streets adorned in beige clothing, waving beige flags to the tune of a specially composed ‘Beige Anthem’. Composer Aivars Smurelis described the anthem as "a sonic adventure through taupe, expanding into ecru, with an undertone of khaki."
+
+The Ministry of Culture concluded, in a boldly neutral statement: "Soviet Beige will be a cornerstone in our artistic expression. After all, it’s hard to find a wall that doesn’t already wear it proudly."
+
+As Riga embraces its newly anointed color, the sentiment—as opaque as it may appear—shows a city ready to celebrate its monotonous unity. Whether this hue revolution will catch on across the Baltic, or fade into obscurity, only time, and a few coats of paint, will tell.`,
+      lv: `Rīga, Latvija – Vēsturiskā lēmumā, kas gan mulsinājis, gan iepriecinājis iedzīvotājus, Latvijas Saeima nesen pieņēma likumprojektu, nosakot 'Padomju Bēšs' kā Rīgas oficiālo krāsu. Šī pasākuma atbalstītāji apgalvo, ka tas gan veicinās pilsētas vienotību, gan piedāvās nostalģisku mājienu uz Latvijas krāsaino pagātni – lai gan ironiski, būdams bezkrāsains.
+
+Priekšlikums, kas tika pieņemts ar pārliecinošu vairākumu – 85 pret 15 balsīm, tika ieviests jaunizveidotās Koalīcijas Harmoniskai Pilsētas Neitralitātei, jeb 'KHPN', vārdā. Grupas pārstāvis, Dmitrijs Neitrāls, skaidroja izvēles pamatojumu, sakot: "Mēs vēlējāmies krāsu, kas iemieso gan Rīgas dzīves spilgtumu, gan smalkumu. Padomju Bēšs nav tikai krāsa; tā ir aura – drūma, bet aizraujoša atgādne par mūsu vēsturi, līdzīgi kā pašvaldības ziemas garderobe."
+
+Vietējās reakcijas ir bijušas jauktas. Elīna Brunsfelde, Rīgas Interjera Dekoratoru Savienības priekšsēdētāja, pauda entuziasmu par vienojošo tēmu. "Tagad es varu droši pieskaņot savas aizkarus Pilsētas domei," viņa teica intervijā. "Iedomājieties sinerģiju starpdepartamentu sanāksmēs!"
+
+Tomēr ne visi atsauksmes ir bijušas pozitīvas. Daži kritiķi apgalvo, ka pasākumam trūkst tālredzības. "Kas notiks vasarā?" jautāja Andris Leontjevs, populāra figūra Rīgas mākslas scēnā. "Visa pilsēta izskatīsies kā milzīgs padomju tosts. Padomājiet par starptautiskajiem tūristiem! Viņi šeit ierodas, gaidot Baltijas spilgtumu, nevis monotoni melanholiju."
+
+Tomēr atbalstītāji apgalvo, ka mākoņainās debesis atdarināšana varētu patiesībā veicināt tūrismu. "Redziet, apvienojot šo krāsu shēmu ar mūsu slaveno neparedzamo laiku, jūs piesaistīsiet apmeklētājus, kas alkst pilnībā iegremdēties, krāsu saskaņotā Baltijas pieredzē," skaidroja Juris Pilnieks, pilsētas oficiālais meteorologs, kurš mēness gaismā darbojas kā Rīgas neoficiālais 'krāsu speciālists'.
+
+Papildus 'Padomju Bēšs' iniciatīvas stiprināšanai, Transporta departaments paziņoja par plāniem pārkrāsot pilsētas autobusus līdzīgās nokrāsās, nodrošinot, ka pasažieri piedzīvo "vienotu bēšu ceļojumu". Vienīgais izņēmums, departamenta vadītājs Viktors Tramvajejs norādīja, būs luksofori, kas paliks universāli krāsoti 'juridisku iemeslu dēļ', bet tagad tos sponsorēs vietējā bēšas krāsas kompānija.
+
+Uzvara parāde ir ieplānota nākamajā mēnesī, kur dalībnieki staigās pa bruģētajām ielām, tērpušies bēšā apģērbā, vicinot bēšus karogus pie speciāli komponētas 'Bēšas himnas' skaņām. Komponists Aivars Smurelis raksturoja himnu kā "skaņas piedzīvojumu caur taupe, paplašinoties ecru, ar haki pieskaņu."
+
+Kultūras ministrija noslēdza, drosmīgi neitrālā paziņojumā: "Padomju Bēšs būs stūrakmens mūsu mākslinieciskajā izpausmē. Galu galā, ir grūti atrast sienu, kas to jau lepni nenēsā."
+
+Kā Rīga pieņem savu jaunizveidoto krāsu, noskaņojums – cik necaurspīdīgs tas var šķist – rāda pilsētu, kas ir gatava svinēt savu monotonu vienotību. Vai šī krāsu revolūcija izplatīsies visā Baltijā, vai pazudīs aizmirstībā, tikai laiks un daži krāsas slāņi parādīs.`,
+      ru: `Рига, Латвия – В историческом решении, которое одновременно озадачило и обрадовало граждан, латвийский Сейм недавно принял закон, объявляющий 'советский бежевый' официальным цветом Риги. Сторонники этой меры утверждают, что это усилит единство города и предложит ностальгический поклон красочному прошлому Латвии — хотя, иронично, за счет отсутствия цвета.
+
+Предложение, принятое подавляющим большинством голосов 85 против 15, было представлено недавно сформированной Коалицией за гармоничную городскую нейтральность, или 'КГН'. Представитель группы, Дмитрий Нейтралс, объяснил логику выбора, заявив: 'Мы хотели цвет, который воплощает как яркость, так и утонченность жизни в Риге. Советский бежевый — это не просто цвет; это аура — унылое, но захватывающее напоминание о нашей истории, как и зимний гардероб муниципалитета.'
+
+Местные реакции были смешанными. Элина Брунсфельдс, председатель Союза декораторов интерьеров Риги, выразила энтузиазм по поводу объединяющей темы. 'Теперь я могу уверенно подбирать шторы к Городскому совету,' заявила она в интервью. 'Представьте себе синергию на межведомственных встречах!'
+
+Однако не все отзывы были положительными. Некоторые критики утверждают, что мера лишена дальновидности. 'А как насчет лета?' — спросил Андрис Леонтьевс, популярная фигура в художественной среде Риги. 'Весь город будет выглядеть как гигантский кусок советского тоста. Подумайте об иностранных туристах! Они приезжают сюда, ожидая балтийской яркости, а не монотонной меланхолии.'
+
+Тем не менее, сторонники утверждают, что подражание оттенкам облачного неба может на самом деле повысить туризм. 'Видите ли, сочетая эту цветовую схему с нашим известным непредсказуемым климатом, вы привлечете посетителей, жаждущих полностью погружающего, цветово-согласованного балтийского опыта,' объяснил Юрис Пилнекс, официальный метеоролог города, который подрабатывает как неофициальный 'цветолог' Риги.
+
+Дополнительно поддерживая инициативу 'советского бежевого', Департамент транспорта объявил о планах перекрасить городские автобусы в аналогичные оттенки, обеспечивая пассажирам 'бесшовное бежевое путешествие'. Единственным исключением, как отметил глава департамента Викторс Трамвайейс, будут светофоры, которые останутся универсально окрашенными 'по юридическим причинам', но теперь будут спонсироваться местной компанией по производству бежевой краски.
+
+Парад победы, своего рода, запланирован на следующий месяц, где участники пройдут по булыжным улицам в бежевой одежде, размахивая бежевыми флагами под звуки специально сочиненного 'Бежевого гимна'. Композитор Айварс Смурелис описал гимн как 'звуковое приключение через тауп, расширяющееся в экрю, с подтоном хаки.'
+
+Министерство культуры заключило в смело нейтральном заявлении: 'Советский бежевый станет краеугольным камнем нашего художественного выражения. В конце концов, трудно найти стену, которая уже не носит его с гордостью.'
+
+Как Рига принимает свой новоиспеченный цвет, настроение — насколько оно может показаться непрозрачным — показывает город, готовый праздновать свое монотонное единство. Поймает ли эта революция оттенков по всему Балтийскому региону или исчезнет в забвении, покажет только время и несколько слоев краски.`
+    },
+    date: "Jan 9, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 54,
     slug: "riga-residents-petition-to-make-queueing",
     title: {
@@ -89,7 +164,7 @@ Vai Rīgas rindā stāvēšana pievienosies diska mešanai un niršanai, vēl ir
     readTime: "6 min read",
     imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 53,
