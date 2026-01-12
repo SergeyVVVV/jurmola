@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 58,
+    slug: "latvia-launches-revolutionary-bura-bura-sleeping",
+    title: {
+      en: "Latvia Launches Revolutionary 'Bura Bura' Sleeping Bag for Riga's Ever-Evolving Weather",
+      lv: "Latvija laiž klajā revolucionāro 'Bura Bura' guļammaisu Rīgas mainīgajiem laikapstākļiem",
+      ru: "Латвия запускает революционный спальный мешок 'Бура Бура' для постоянно меняющейся погоды Риги"
+    },
+    excerpt: {
+      en: "To combat the unpredictable Riga weather, a Latvian startup has launched a gadget that defies expectations: the 'Bura Bura' sleeping bag, which conveniently inflates or deflates based on the weather. Critics call it \"the sartorial Swiss Army Knife Latvia never knew it needed.\"",
+      lv: "Lai cīnītos ar neparedzamo Rīgas laiku, Latvijas jaunuzņēmums ir laidis klajā ierīci, kas pārsteidz: 'Bura Bura' guļammaisu, kas ērti piepūšas vai izpūšas atkarībā no laika apstākļiem. Kritiķi to sauc par \"Latvijas garderobes Šveices armijas nazi, par kuru tā nekad nezināja, ka tam ir vajadzīgs.\"",
+      ru: "Чтобы справиться с непредсказуемой погодой Риги, латвийский стартап запустил гаджет, который бросает вызов ожиданиям: спальный мешок 'Бура Бура', который удобно надувается или сдувается в зависимости от погоды. Критики называют его 'модным швейцарским ножом, о котором Латвия даже не подозревала, что он ей нужен'."
+    },
+    fullContent: {
+      en: `RIGA - A Latvian startup, WeatherGuize, unveiled the 'Bura Bura' sleeping bag, an innovative all-weather survival suit tailored for the increasingly capricious climate of Riga. The launch ceremony took place on the unmistakably uneven cobblestones of Dome Square, where company CEO, Kristaps Venters, demonstrated its functionalities amidst the gleaming mood swings of sun, rain, and half-hearted drizzle.
+
+"In Riga, it's like the weather AI has a mood disorder," Venters stated to an enthusiastic and slightly damp crowd. "You leave home feeling like Siberia's right around the corner, but by lunch, you're contemplating if you should have brought a sunhat. Therefore, we've invented the Bura Bura to serve as your reliable co-pilot in meteorological madness."
+
+The Bura Bura, named after the famous gusts of wind known to make umbrellas obsolete, is equipped with temperature-sensitive microfibers that adapt to sudden changes. Within seconds, this transformative outerwear can swell into a marshmallow-style sleeping bag or retract into a chic, breathable raincoat. "It's the toga party toga that actually delivers," joked Venters, wearing one himself, demonstrating how the suit fluffed up efficiently when a gale suddenly blew in from the Gulf of Riga.
+
+Latvian meteorologist, Dace Zemgale, praised the innovative launch, citing a recent study predicting that in the next decade, Riga could experience weather conditions ranging from Mediterranean summers to Scandinavian winters within the same day. "This device offers a practical solution to the chaotic demands on Latvians' wardrobes. Also, it spares us the odd sight of seeing people leaving home dressed like they’re going on a slippery expedition to Everest," said Zemgale, searching the cloudy sky as if trying to decode an imaginary weather map.
+
+The product, initially a Kickstarter sensation, has recorder over 10,000 pre-orders and received accolades from the European Union's Creative Climate Committee for being "the sartorial Swiss Army Knife Latvia never knew it needed." Environmentalists have also applauded the product’s sustainability. "It's made entirely from recycled fishing nets sourced from the Gulf of Riga," Venters highlighted, nodding to a seagull that seemed to be listening with interest. "We like to say it has captured more herring than your average local fisherman.”
+
+In a bold marketing move, WeatherGuize announced they would sponsor the upcoming Riga Ibiza Marathon. All participants will be outfitted in custom Bura Bura suits, ensuring they remain stylishly comfortable from the starting wave through any surprise snowball fights.
+
+Despite these praises, a few skeptics question the wisdom of assuming Riga’s weather can be tamed. Agnis Kalnins, a lifelong resident known locally as the "Walking Barometer" due to his uncanny knack for forecasting the next weather pattern, expressed reservations. "This is cutting-edge, sure, but do we really want to defy nature? Next, they’ll tell me they’re launching an umbrella that doubles as a zipline!"
+
+Innovation, however, seems to have robust support. According to a recent survey by Baltic Trends Magazine, 82% of respondents strongly agree that the Bura Bura could significantly decrease the anxiety caused by impromptu weather changes. "I look forward to feeling smug instead of soggy," said Mirdza Leimane, a proud pre-order customer who planned to wear her Bura Bura on a future trip to the Daugavpils Art Centre, where climate control is notoriously unpredictable.
+
+For now, as Latvians go about their day, they can rest easy knowing that whatever weather woes await, the Bura Bura has got their backs—which, given its soft, cushy design, is literally and figuratively true.`,
+      lv: `RĪGA - Latvijas jaunuzņēmums WeatherGuize ir atklājis 'Bura Bura' guļammaisu, inovatīvu vissezonas izdzīvošanas tērpu, kas pielāgots arvien kaprīzākajam Rīgas klimatam. Atklāšanas ceremonija notika uz neapšaubāmi nevienmērīgajiem Doma laukuma bruģakmeņiem, kur uzņēmuma vadītājs Kristaps Venters demonstrēja tā funkcionalitāti starp saules, lietus un pusmākoņu garastāvokļa maiņām.
+
+"Rīgā tas ir kā laika apstākļu mākslīgais intelekts ar garastāvokļa traucējumiem," Venters sacīja entuziastiskam un nedaudz mitram pūlim. "Jūs izejat no mājas, jūtoties kā Sibīrija būtu tepat aiz stūra, bet pusdienlaikā jau domājat, vai nevajadzēja paņemt līdzi saules cepuri. Tāpēc mēs izgudrojām Bura Bura, lai tas būtu jūsu uzticamais līdzbraucējs meteoroloģiskajā trakumā."
+
+Bura Bura, nosaukts pēc slavenajiem vējiem, kas padara lietussargus nevajadzīgus, ir aprīkots ar temperatūras jutīgiem mikrošķiedriem, kas pielāgojas pēkšņām izmaiņām. Dažu sekunžu laikā šis transformējošais apģērbs var uzpūsties par zefīra stila guļammaisu vai sarauties par šiku, elpojošu lietusmēteli. "Tas ir toga ballītes toga, kas patiešām piegādā," jokoja Venters, pats valkājot vienu, demonstrējot, kā tērps efektīvi uzpūšas, kad pēkšņi no Rīgas līča uzpūšas vējš.
+
+Latvijas meteoroloģe Dace Zemgale slavēja inovatīvo atklājumu, atsaucoties uz nesenu pētījumu, kas prognozē, ka nākamajā desmitgadē Rīga varētu piedzīvot laika apstākļus, kas vienas dienas laikā variē no Vidusjūras vasarām līdz Skandināvijas ziemām. "Šī ierīce piedāvā praktisku risinājumu haotiskajām prasībām Latvijas garderobēs. Tāpat tas pasargā mūs no dīvainā skata, kad cilvēki iziet no mājas, ģērbušies tā, it kā dotos uz slidenu ekspedīciju uz Everestu," sacīja Zemgale, meklējot mākoņainajās debesīs, it kā mēģinot atšifrēt iedomātu laika karti.
+
+Produkts, sākotnēji Kickstarter sensācija, ir saņēmis vairāk nekā 10 000 iepriekšēju pasūtījumu un saņēmis atzinību no Eiropas Savienības Radošās klimata komitejas par to, ka tas ir "Latvijas garderobes Šveices armijas nazis, par kuru tā nekad nezināja, ka tam ir vajadzīgs." Vides aizstāvji arī slavējuši produkta ilgtspējību. "Tas ir pilnībā izgatavots no pārstrādātiem zvejas tīkliem, kas iegūti no Rīgas līča," Venters uzsvēra, pamājot kaijai, kas šķita klausoties ar interesi. "Mēs sakām, ka tas ir noķēris vairāk reņģu nekā vidējais vietējais zvejnieks."
+
+Drosmīgā mārketinga gājienā WeatherGuize paziņoja, ka sponsorēs gaidāmo Rīgas Ibiza maratonu. Visi dalībnieki tiks apgādāti ar pielāgotiem Bura Bura tērpiem, nodrošinot, ka viņi paliek stilīgi ērti no starta viļņa līdz jebkurām pārsteiguma sniega kaujām.
+
+Neskatoties uz šīm uzslavām, daži skeptiķi apšauba gudrību pieņemt, ka Rīgas laiku var pieradināt. Agnis Kalniņš, mūža iedzīvotājs, kas vietēji pazīstams kā "Staigājošais barometrs" savas neparastās spējas prognozēt nākamo laika apstākļu modeli dēļ, izteica šaubas. "Tas ir moderns, protams, bet vai mēs tiešām vēlamies izaicināt dabu? Nākamais, ko viņi man teiks, ir tas, ka viņi laiž klajā lietussargu, kas dubultojas kā troses ceļš!"
+
+Inovācijai tomēr šķiet, ka ir spēcīgs atbalsts. Saskaņā ar nesenu Baltic Trends Magazine aptauju, 82% respondentu stingri piekrīt, ka Bura Bura varētu ievērojami samazināt trauksmi, ko izraisa pēkšņas laika izmaiņas. "Es gaidu, kad varēšu justies pašapmierināts, nevis slapjš," sacīja Mirdza Leimane, lepna iepriekšēja pasūtījuma kliente, kura plānoja valkāt savu Bura Bura nākamajā ceļojumā uz Daugavpils Mākslas centru, kur klimata kontrole ir bēdīgi neprognozējama.
+
+Pašlaik, kamēr latvieši turpina savu dienu, viņi var būt mierīgi, zinot, ka neatkarīgi no tā, kādas laika bēdas gaida, Bura Bura ir viņu mugurā - kas, ņemot vērā tā mīksto, pūkaino dizainu, ir gan burtiski, gan pārnestā nozīmē taisnība.`,
+      ru: `РИГА - Латвийский стартап WeatherGuize представил спальный мешок 'Бура Бура', инновационный костюм для выживания в любую погоду, адаптированный к все более капризному климату Риги. Церемония запуска состоялась на характерно неровной брусчатке Домской площади, где генеральный директор компании Кристапс Вентерс продемонстрировал его функциональность среди блестящих перепадов настроения солнца, дождя и вялого моросящего дождя.
+
+'В Риге погода как будто страдает расстройством настроения', заявил Вентерс восторженной и слегка влажной толпе. 'Вы выходите из дома, чувствуя, что Сибирь совсем рядом, но к обеду уже задумываетесь, не стоило ли взять с собой шляпу от солнца. Поэтому мы изобрели Бура Бура, чтобы он служил вашим надежным со-пилотом в метеорологическом безумии.'
+
+Бура Бура, названный в честь знаменитых порывов ветра, которые делают зонты бесполезными, оснащен микроволокнами, чувствительными к температуре, которые адаптируются к внезапным изменениям. В считанные секунды эта трансформирующаяся верхняя одежда может превратиться в спальный мешок в стиле зефира или сжаться в стильный, дышащий дождевик. 'Это тога для вечеринки, которая действительно работает', пошутил Вентерс, сам надев один из них, демонстрируя, как костюм эффективно раздувается, когда внезапно налетает шквал с Рижского залива.
+
+Латвийский метеоролог Даце Земгале похвалила инновационный запуск, ссылаясь на недавнее исследование, предсказывающее, что в следующем десятилетии Рига может испытать погодные условия от средиземноморского лета до скандинавской зимы в течение одного дня. 'Это устройство предлагает практическое решение хаотичным требованиям к гардеробу латвийцев. Также оно избавляет нас от странного зрелища, когда люди выходят из дома, одетые так, будто отправляются в скользкую экспедицию на Эверест', сказала Земгале, изучая облачное небо, как будто пытаясь расшифровать воображаемую карту погоды.
+
+Продукт, изначально ставший сенсацией на Kickstarter, собрал более 10 000 предварительных заказов и получил похвалы от Комитета по креативному климату Европейского Союза за то, что он является 'модным швейцарским ножом, о котором Латвия даже не подозревала, что он ей нужен'. Экологи также аплодируют устойчивости продукта. 'Он полностью изготовлен из переработанных рыболовных сетей, добытых из Рижского залива', подчеркнул Вентерс, кивая чайке, которая, казалось, слушала с интересом. 'Мы любим говорить, что он поймал больше сельди, чем среднестатистический местный рыбак.'
+
+В смелом маркетинговом ходе WeatherGuize объявили, что будут спонсировать предстоящий Рижский Ибица Марафон. Все участники будут одеты в специальные костюмы Бура Бура, что обеспечит им стильный комфорт от стартовой волны до любых неожиданных снежных боев.
+
+Несмотря на эти похвалы, некоторые скептики ставят под сомнение мудрость предположения, что погода Риги может быть укрощена. Агнис Калнинс, житель с пожизненным стажем, известный местно как 'Ходячий барометр' благодаря своей удивительной способности предсказывать следующую погодную модель, выразил сомнения. 'Это передовая технология, конечно, но действительно ли мы хотим бросить вызов природе? В следующий раз они скажут мне, что запускают зонт, который также служит зиплайном!'
+
+Инновация, однако, кажется, имеет прочную поддержку. Согласно недавнему опросу журнала Baltic Trends Magazine, 82% респондентов твердо согласны с тем, что Бура Бура может значительно снизить тревогу, вызванную внезапными изменениями погоды. 'Я с нетерпением жду, когда смогу чувствовать себя самодовольно, а не мокро', сказала Мирдза Леймане, гордая клиентка, оформившая предварительный заказ, которая планировала надеть свой Бура Бура на будущую поездку в Даугавпилсский художественный центр, где климат-контроль известен своей непредсказуемостью.
+
+На данный момент, пока латвийцы занимаются своими делами, они могут быть спокойны, зная, что какие бы погодные невзгоды их ни ждали, Бура Бура прикрывает их спины — что, учитывая его мягкий, уютный дизайн, буквально и фигурально верно.`
+    },
+    date: "Jan 12, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 57,
     slug: "latvia-to-celebrate-painless-winter-with",
     title: {
@@ -77,7 +152,7 @@ Vai 'Sūdzies-par-zemestaukiem' diena kļūs tikpat mīlēta kā Jāņi vai tiks
     readTime: "7 min read",
     imageUrl: "https://images.unsplash.com/photo-1551847677-dc82daa8537f?w=800&h=600&fit=crop",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 56,
