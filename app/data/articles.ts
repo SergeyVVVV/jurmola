@@ -17,6 +17,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 60,
+    slug: "riga-residents-mistake-meteor-for-new",
+    title: {
+      en: "Riga Residents Mistake Meteor for New Hipster Café, Attempt to Order Lattes",
+      lv: "Rīgas iedzīvotāji sajauc meteorītu ar jaunu hipsteru kafejnīcu, mēģina pasūtīt lattes",
+      ru: "Жители Риги приняли метеор за новое хипстерское кафе и попытались заказать латте"
+    },
+    excerpt: {
+      en: "Local authorities were baffled as dozens of Rīgans congregated at the sight of a recent meteor impact, mistaking it for the latest must-visit hipster establishment of 'organic cosmic experiences.' Attempts to order oat milk lattes led to comical confusion.",
+      lv: "Vietējās varas iestādes bija apmulsušas, kad desmitiem rīdzinieku sapulcējās pie nesenā meteorīta trieciena vietas, sajaucot to ar jaunāko hipsteru iestādi 'organisko kosmisko pieredžu' baudīšanai. Mēģinājumi pasūtīt auzu piena lattes izraisīja komisku apjukumu.",
+      ru: "Местные власти были озадачены, когда десятки рижан собрались на месте недавнего падения метеора, приняв его за новое обязательное к посещению хипстерское заведение с 'органическими космическими впечатлениями'. Попытки заказать латте с овсяным молоком привели к комичной путанице."
+    },
+    fullContent: {
+      en: `Riga, Latvia – In what has become the city’s most curious incident this decade, a meteor crash in Central Riga has been mistaken for a trendy new hipster café, causing widespread hilarity and confusion among city residents. 
+
+As the sizable meteor crash-landed near the Freedom Monument on Tuesday morning, locals were quickly drawn to its ethereal glow and natural appeal, characteristics that have long defined Riga's burgeoning hipster scene. In the following hours, what could normally be a space anomaly investigation, turned into an unexpected pop-up 'cosmic café,' drawing a crowd of neo-bohemians armed with reusable straw kits and sustainable tote bags. 
+
+“I saw the celestial event on Instagram Live and just had to come down to see it in person,” said Māris Galviņš, a local graphic designer sporting a beard that local birds regularly mistake for nesting material. Holding a ceramic coffee cup which he hoped to fill with interstellar-based beverages, he declared, "The ambiance just screamed artisanal!"
+
+Reports soon flooded local news outlets of Rīgans attempting to decipher the meteor’s texture and composition as a new form of latte art, curiously poking the still-warm rock and exclaiming its potential as 'nature’s perfect brewing stone.' 
+
+City council spokesperson Līga Zvaigzne confirmed, “We were initially concerned about radiation, but it turns out the only dangerous thing was the inflamed competition of indie bands rushing to perform at the site. Thankfully, no one wanted to use the crater for barista championships just yet.” 
+
+One enterprising geology student turned part-time DJ, Artūrs Rainis, set up a small sound system nearby, transforming the occasion into an impromptu 'space folk' gathering. “The acoustics are just out of this world!” he shouted over what seemed to be a remix of whale sounds and UFO conspiracy theories. 
+
+However, the appearance of entrepreneurial vendors could not be far behind. Vendors selling 'authentic cosmic scones' and ‘meteor mojitos’ cropped up within hours, raising questions about the municipal licensing for pop-up space bistros. 
+
+Authorities finally stepped in, erecting a temporary barrier around the meteor. “The archaeological society was keenly interested in studying it,” added Ms. Zvaigzne, “but to our embarrassment, someone already mistook their equipment case for an espresso machine.”
+
+This incident has not dissuaded city planners, who are enthusiastic about the environmental, albeit unintended, tourism boost. A proposal is underway to designate the site as 'Latvia’s First Exposure to Space Tourism,' complete with guided tours and possibly an accompanying virtual reality app, for those who wish to experience the majesty of space from the comfort of their favorite beanbag chair.
+
+Critics, however, have railed against what they describe as an over-commercialization of extraterrestrial phenomena. In response, local philosopher, and part-time podcaster, Uģis Spīdums, pondered, “Where does the simplicity end and the galaxy begin? Can we not enjoy a celestial body without wanting to consume it in latte form?”
+
+For now, Riga’s residents are content to reflect star-inspired creativity until the next cosmic event—or at least until their so-claimed intergalactic café loyalty cards expire.`,
+      lv: `Rīga, Latvija – Šajā desmitgadē Rīgā noticis viens no dīvainākajiem incidentiem, kad meteorīta trieciens Centrālajā Rīgā tika sajaukts ar stilīgu jaunu hipsteru kafejnīcu, izraisot plašu jautrību un apjukumu pilsētas iedzīvotāju vidū.
+
+Kad ievērojamais meteorīts otrdienas rītā ietriecās netālu no Brīvības pieminekļa, vietējie iedzīvotāji ātri vien pievērsās tā ēteriskajam spīdumam un dabiskajam pievilcīgumam, īpašībām, kas jau sen raksturo Rīgas augošo hipsteru scēnu. Nākamo stundu laikā, kas parasti būtu kosmosa anomālijas izmeklēšana, pārvērtās par negaidītu pop-up 'kosmisko kafejnīcu', piesaistot neo-bohēmistu pūli ar atkārtoti lietojamu salmiņu komplektiem un ilgtspējīgām auduma somām.
+
+“Es redzēju debesu notikumu Instagram Live un vienkārši vajadzēja nākt un redzēt to klātienē,” sacīja Māris Galviņš, vietējais grafiskais dizaineris ar bārdu, kuru vietējie putni bieži sajauc ar ligzdošanas materiālu. Turot keramikas kafijas krūzi, kuru viņš cerēja piepildīt ar starpzvaigžņu dzērieniem, viņš paziņoja: “Atmosfēra vienkārši kliedza 'amatniecība'!”
+
+Ziņojumi drīz vien pārpludināja vietējos ziņu kanālus par rīdziniekiem, kuri mēģināja atšifrēt meteorīta tekstūru un sastāvu kā jaunu latte mākslas formu, ziņkārīgi bakstot vēl silto akmeni un izsaucot tā potenciālu kā 'dabas ideālo brūvēšanas akmeni'.
+
+Pilsētas domes pārstāve Līga Zvaigzne apstiprināja: “Mēs sākotnēji bijām nobažījušies par radiāciju, bet izrādījās, ka vienīgais bīstamais bija indie grupu sacensības, kas steidzās uzstāties šajā vietā. Par laimi, neviens vēl nevēlējās izmantot krāteri baristu čempionātiem.”
+
+Viens uzņēmīgs ģeoloģijas students, kurš daļēji strādā kā DJ, Artūrs Rainis, uzstādīja nelielu skaņas sistēmu tuvumā, pārvēršot notikumu par improvizētu 'kosmisko folk' pasākumu. “Akustika ir vienkārši ārpus šīs pasaules!” viņš kliedza pāri tam, kas šķita vaļu skaņu un NLO sazvērestības teoriju remikss.
+
+Tomēr uzņēmīgo pārdevēju parādīšanās nebija tālu. Pārdevēji, kas pārdeva 'autentiskus kosmiskos skones' un 'meteorītu mojito', parādījās dažu stundu laikā, radot jautājumus par pašvaldības licencēšanu pop-up kosmosa bistro.
+
+Varas iestādes beidzot iejaucās, uzstādot pagaidu barjeru ap meteorītu. “Arheoloģijas biedrība bija ļoti ieinteresēta to izpētīt,” piebilda Zvaigzne, “bet mūsu apkaunojumam, kāds jau sajauca viņu aprīkojuma kasti ar espresso mašīnu.”
+
+Šis incidents nav atturējis pilsētas plānotājus, kuri ir sajūsmināti par vides, lai arī neparedzēto, tūrisma pieaugumu. Tiek izstrādāts priekšlikums vietu noteikt kā 'Latvijas pirmo kosmosa tūrisma pieredzi', ar gida ekskursijām un iespējams, pavadošo virtuālās realitātes lietotni, tiem, kas vēlas izbaudīt kosmosa majestātiskumu no savas iecienītās pufa krēsla ērtībām.
+
+Kritiķi tomēr ir kritizējuši to, ko viņi raksturo kā ārpuszemes parādību pārkomercializāciju. Atbildot uz to, vietējais filozofs un daļlaika podkāsteris Uģis Spīdums prātoja: “Kur beidzas vienkāršība un sākas galaktika? Vai mēs nevaram baudīt debesu ķermeni, nevēloties to patērēt latte formā?”
+
+Pašlaik Rīgas iedzīvotāji ir apmierināti ar zvaigžņu iedvesmotu radošumu līdz nākamajam kosmiskajam notikumam — vai vismaz līdz viņu tā sauktajām starpgalaktiskajām kafejnīcu lojalitātes kartēm beidzas derīguma termiņš.`,
+      ru: `Рига, Латвия – В самом любопытном инциденте десятилетия в городе, падение метеора в центре Риги было принято за модное новое хипстерское кафе, вызвав всеобщий смех и замешательство среди жителей города.
+
+Когда во вторник утром крупный метеор приземлился рядом с Памятником Свободы, местные жители быстро собрались вокруг его эфирного сияния и естественного обаяния, характеристик, которые давно определяют растущую хипстерскую сцену Риги. В последующие часы, то, что обычно могло бы стать расследованием космического аномалии, превратилось в неожиданное поп-ап 'космическое кафе', привлекая толпу нео-богемцев с многоразовыми соломинками и экологичными сумками.
+
+«Я увидел это небесное событие в Instagram Live и просто должен был прийти и увидеть это лично», — сказал Марис Гальвиньш, местный графический дизайнер с бородой, которую местные птицы регулярно принимают за материал для гнезд. Держа в руках керамическую кофейную чашку, которую он надеялся наполнить межзвездными напитками, он заявил: «Атмосфера просто кричит 'артезанально!'»
+
+Сообщения вскоре заполнили местные новостные издания о том, как рижане пытались расшифровать текстуру и состав метеора как новую форму латте-арта, любопытно тыкая еще теплый камень и восклицая о его потенциале как 'идеального природного камня для заваривания'.
+
+Представитель городского совета Лига Звайгзне подтвердила: «Сначала мы беспокоились о радиации, но оказалось, что единственной опасностью была разгоревшаяся конкуренция инди-групп, спешащих выступить на месте. К счастью, никто пока не захотел использовать кратер для чемпионатов бариста.»
+
+Один предприимчивый студент-геолог, ставший диджеем на полставки, Артурс Райнис, установил небольшую звуковую систему поблизости, превратив событие в импровизированное 'космическое фолк' собрание. «Акустика просто не из этого мира!» — кричал он поверх того, что казалось ремиксом звуков китов и теорий заговора о НЛО.
+
+Однако появление предприимчивых продавцов не заставило себя долго ждать. Продавцы, торгующие 'аутентичными космическими сконами' и 'метеорными мохито', появились в течение нескольких часов, вызывая вопросы о муниципальных лицензиях на поп-ап космические бистро.
+
+Власти наконец вмешались, установив временное ограждение вокруг метеора. «Археологическое общество было очень заинтересовано в его изучении», — добавила госпожа Звайгзне, «но к нашему смущению, кто-то уже принял их оборудование за кофемашину.»
+
+Этот инцидент не разубедил городских планировщиков, которые с энтузиазмом относятся к экологическому, хотя и непреднамеренному, туристическому буму. Ведется работа над предложением обозначить это место как 'Первое столкновение Латвии с космическим туризмом', с экскурсиями и, возможно, сопутствующим приложением виртуальной реальности, для тех, кто хочет испытать величие космоса из комфорта своего любимого кресла-мешка.
+
+Критики, однако, выступают против того, что они описывают как чрезмерную коммерциализацию внеземных явлений. В ответ местный философ и подкастер на полставки, Угис Спидумс, задумался: «Где заканчивается простота и начинается галактика? Неужели мы не можем наслаждаться небесным телом, не желая потреблять его в виде латте?»
+
+Пока что жители Риги довольны тем, что могут отражать звездообразное творчество до следующего космического события — или, по крайней мере, до тех пор, пока не истекут сроки действия их так называемых межгалактических карт лояльности кафе.`
+    },
+    date: "Jan 14, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=800&h=600&fit=crop",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 59,
     slug: "riga-announces-new-anti-pigeon-tourism",
     title: {
@@ -83,7 +170,7 @@ Visas acis ir vērstas uz Rīgu, cerot redzēt, vai pilsēta var šo sasniegumu 
     readTime: "5 min read",
     imageUrl: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 58,
