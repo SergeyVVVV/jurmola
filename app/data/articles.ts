@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 61,
+    slug: "latvia-declares-international-patience-day-after",
+    title: {
+      en: "Latvia Declares 'International Patience Day' After Successfully Queuing for Berliner's Apfelstrudel During Entire Summer Season",
+      lv: "Latvija Paziņo par 'Starptautisko Pacietības Dienu' Pēc Veiksmīgas Rindas Stāvēšanas Berlīnes Apfelstrudelam Visas Vasaras Garumā",
+      ru: "Латвия объявляет 'Международный день терпения' после успешной очереди за берлинским апфельштруделем в течение всего летнего сезона"
+    },
+    excerpt: {
+      en: "In a bold cultural pivot, Latvia has announced the institution of 'International Patience Day' honoring the remarkable queue formed outside a newly opened Berliner Apfelstrudel pop-up in Jurmala. Authorities believe this event marks a historic milestone in national patienceworthiness domestically and abroad.",
+      lv: "Drosmīgā kultūras pavērsienā Latvija ir paziņojusi par 'Starptautiskās Pacietības Dienas' ieviešanu, godinot ievērojamo rindu, kas izveidojās pie nesen atvērtā Berlīnes Apfelstrudel pop-up veikala Jūrmalā. Varas iestādes uzskata, ka šis notikums iezīmē vēsturisku pavērsienu nacionālajā pacietības vērtībā gan mājās, gan ārzemēs.",
+      ru: "В смелом культурном повороте Латвия объявила об учреждении 'Международного дня терпения', чествуя замечательную очередь, образовавшуюся у недавно открывшегося поп-апа с берлинским апфельштруделем в Юрмале. Власти считают, что это событие знаменует собой историческую веху в национальной терпеливости как внутри страны, так и за ее пределами."
+    },
+    fullContent: {
+      en: `RIGA—In an unprecedented nationwide experiment in patience and perseverance, Latvia has formally declared August 32nd as 'International Patience Day' following the colossal success of a four-month-long queue outside a Berliner Apfelstrudel pop-up shop in Jurmala. City officials, culinary enthusiasts, and queueologists alike are hailing this achievement as a new benchmark in collective stamina, with far-reaching cultural implications poised to put Latvia on the global patience map.
+
+According to eyewitness reports, the line began simply as an innocuous gathering of pastry aficionados in late May, eager to get a taste of Berlin’s famed apfelstrudel without leaving the comfort of their Baltic shores. "What started as a humble quest for a flaky delight somehow morphed into an iconic display of discipline," explains Dr. Evija Pudze, Latvia's leading queueologist and head of Riga's newly established Queue Dynamics Institute. "Never before have we seen such dedication outside major political events or supermarket openings during toilet paper shortages."
+
+The pop-up, a joint venture between Berlin-based pastry chef Klaus Mittelschmerz and local entrepreneur Janis Kluso, reported selling apfelstrudel slices at a rate that can only be described as 'optimistically sustainable'—an average of two slices per queue-goer per month. "It wasn't just about the pastries," insisted Kluso, while delicately dusting cinnamon on a fresh batch. "It was about the experience, the camaraderie, the social experiment of communal endurance. Plus, each slice came with a free encouraging smile. That's priceless in today's fast-paced society."
+
+The Ministry of Cultural Experiments and Unexpected Holidays was quick to capitalize on this public spectacle, announcing the celebration of August 32nd, a non-existent day, to commemorate the perseverance exhibited by Latvian citizens. Minister Aija Eglīte stated, "In a world where everything is instant, even coffee, we choose to pioneer for patience. It turns out that waiting while surrounded by the scent of buttery pastry is the new nirvana."
+
+The move has, unsurprisingly, faced skepticism from the speed-fixated neighboring countries like Estonia and Lithuania, who question the practical implications of idolizing such leisurely pursuits. Yet, the newfound holiday has gained traction on social media, fanning Baltic unity flames—though admittedly, very slowly.
+
+"I joined the queue late June and made over thirty new acquaintances by September," says Mara Minskinis, a dedicated apfelstrudel aficionado who reportedly brought three novels and a quick-dry tent. "To be honest, thinking about the untouched strudels kept us all in line—literally and figuratively. Embarking on debates over whether raisins truly belong in pastries really added depth to our character and helped pass the time."
+
+Economists predict a curious surge in previously rare industries like folding chair rentals, local artisanal napkin design, and, oddly enough, watchmaking. The latter has been linked to the need for excessively precise time tracking in queues.
+
+As the aroma of apfelstrudel recedes with the autumnal winds, Latvia stands at the precipice of redefining cultural identity around an unexpected axis of patience. "We have proven once and for all: you can bake a strudel, and you can make the world wait," quipped an impossibly smug Mittelschmerz, packing the last crates of unsold pastry with graceful lethargy.
+
+Whether August 32nd will enter the annals of legitimate holidays or remain an odd footnote in Baltic history remains to be seen. Until then, Latvians worldwide are encouraged to queue altruistically, whether it be for theatre tickets, squat competitions, or, indeed, the next fleeting culinary obsession.`,
+      lv: `RĪGA—Nepieredzētā nacionālā pacietības un izturības eksperimentā Latvija oficiāli pasludinājusi 32. augustu par 'Starptautisko Pacietības Dienu' pēc grandiozajiem panākumiem četrus mēnešus ilgajā rindā pie Berlīnes Apfelstrudel pop-up veikala Jūrmalā. Pilsētas amatpersonas, kulinārijas entuziasti un rindas pētnieki vienprātīgi slavē šo sasniegumu kā jaunu kolektīvās izturības etalonu, ar tālejošām kultūras sekām, kas sola iekļaut Latviju pasaules pacietības kartē.
+
+Saskaņā ar aculiecinieku ziņojumiem, rinda sākās kā nevainīga konditorejas cienītāju pulcēšanās maija beigās, kuri vēlējās nobaudīt Berlīnes slaveno apfelstrudelu, neatstājot Baltijas krastus. "Kas sākās kā pieticīga vēlme pēc kraukšķīga garduma, kaut kā pārvērtās par ikonisku disciplīnas izrādi," skaidro Dr. Evija Pudze, Latvijas vadošā rindas pētniece un Rīgas jaunizveidotā Rindu Dinamikas Institūta vadītāja. "Nekad agrāk neesam redzējuši tādu veltījumu ārpus lieliem politiskiem notikumiem vai veikalu atvēršanas tualetes papīra trūkuma laikā."
+
+Pop-up veikals, kas ir Berlīnes konditora Klausa Mittelschmerza un vietējā uzņēmēja Jāņa Klusā kopuzņēmums, ziņoja par apfelstrudel šķēļu pārdošanu tādā tempā, ko var raksturot tikai kā 'optimistiski ilgtspējīgu'—vidēji divas šķēles uz rindas stāvētāju mēnesī. "Tas nebija tikai par konditorejām," uzstāj Klusais, maigi kaisot kanēli uz svaigas partijas. "Tas bija par pieredzi, draudzību, kopienas izturības sociālo eksperimentu. Turklāt katra šķēle nāca ar bezmaksas uzmundrinošu smaidu. Tas ir nenovērtējams mūsdienu straujajā sabiedrībā."
+
+Kultūras Eksperimentu un Neparasto Svētku Ministrija ātri izmantoja šo publisko izrādi, paziņojot par 32. augusta, neesošas dienas, svinēšanu, lai pieminētu Latvijas pilsoņu izrādīto izturību. Ministre Aija Eglīte paziņoja: "Pasaulē, kur viss ir tūlītējs, pat kafija, mēs izvēlamies būt pacietības pionieri. Izrādās, ka gaidīšana, kad apkārt virmo sviesta konditorejas smarža, ir jaunā nirvāna."
+
+Šis solis, kā jau bija gaidāms, izraisījis skepsi no ātrumu mīlošajām kaimiņvalstīm, piemēram, Igaunijas un Lietuvas, kuras apšauba šādu lēnu nodarbju pielūgsmes praktisko nozīmi. Tomēr jaunais svētku diena ir guvusi popularitāti sociālajos medijos, lēni uzkurinot Baltijas vienotības liesmas.
+
+"Es pievienojos rindai jūnija beigās un līdz septembrim ieguvu vairāk nekā trīsdesmit jaunus paziņas," saka Māra Minskinis, uzticīga apfelstrudel cienītāja, kas, kā ziņots, līdzi paņēmusi trīs romānus un ātri žūstošu telti. "Godīgi sakot, domas par neskartajiem strudeliem mūs visus turēja rindā—gan burtiski, gan pārnestā nozīmē. Debates par to, vai rozīnes patiešām pieder konditorejās, patiešām piešķīra mūsu raksturam dziļumu un palīdzēja īsināt laiku."
+
+Ekonomisti prognozē ziņkārīgu pieaugumu iepriekš retās nozarēs, piemēram, saliekamo krēslu nomā, vietējā amatniecības salvešu dizainā un, dīvainā kārtā, pulksteņu izgatavošanā. Pēdējais ir saistīts ar nepieciešamību pēc ārkārtīgi precīzas laika uzskaites rindās.
+
+Kā apfelstrudel aromāts izzūd ar rudens vējiem, Latvija stāv uz sliekšņa, lai pārvērtētu kultūras identitāti ap negaidītu pacietības asi. "Mēs esam pierādījuši vienreiz un uz visiem laikiem: jūs varat cept strudelu, un jūs varat likt pasaulei gaidīt," ar neiespējamu pašapmierinātību teica Mittelschmerz, ar graciozu lēnprātību iepakojot pēdējās nepārdotās konditorejas kastes.
+
+Vai 32. augusts iekļūs leģitīmo svētku annālēs vai paliks kā dīvains piezīme Baltijas vēsturē, vēl nav zināms. Līdz tam latvieši visā pasaulē tiek aicināti altruistiski stāvēt rindās, vai tas būtu teātra biļetēm, pietupienu sacensībām vai, patiesi, nākamajai īslaicīgajai kulinārijas apsēstībai.`,
+      ru: `РИГА — В беспрецедентном национальном эксперименте по терпению и настойчивости Латвия официально объявила 32 августа 'Международным днем терпения' после колоссального успеха четырехмесячной очереди у поп-апа с берлинским апфельштруделем в Юрмале. Городские власти, кулинарные энтузиасты и очередологи единодушно приветствуют это достижение как новый эталон коллективной выносливости, с далеко идущими культурными последствиями, которые могут поставить Латвию на мировую карту терпения.
+
+Согласно свидетельствам очевидцев, очередь началась как невинное собрание любителей выпечки в конце мая, стремящихся попробовать знаменитый берлинский апфельштрудель, не покидая уютных берегов Балтики. "То, что началось как скромный поиск слоеного удовольствия, каким-то образом превратилось в культовое проявление дисциплины," объясняет доктор Эвия Пудзе, ведущий латвийский очередолог и глава недавно созданного Института динамики очередей в Риге. "Никогда прежде мы не видели такой преданности вне крупных политических событий или открытий супермаркетов во время дефицита туалетной бумаги."
+
+Поп-ап, совместное предприятие берлинского шеф-повара Клауса Миттельшмерца и местного предпринимателя Яниса Клусо, сообщил о продаже кусочков апфельштруделя с такой скоростью, которую можно описать только как 'оптимистично устойчивую' — в среднем два кусочка на одного стоящего в очереди в месяц. "Дело было не только в выпечке," настаивал Клусо, аккуратно посыпая корицей свежую партию. "Это было о переживании, о товариществе, о социальном эксперименте коллективной выносливости. Плюс, каждый кусочек сопровождался бесплатной ободряющей улыбкой. Это бесценно в сегодняшнем быстром обществе."
+
+Министерство культурных экспериментов и неожиданных праздников быстро воспользовалось этим общественным зрелищем, объявив празднование 32 августа, несуществующего дня, в честь терпения, проявленного латвийскими гражданами. Министр Айя Эглите заявила: "В мире, где все мгновенно, даже кофе, мы выбираем быть пионерами терпения. Оказывается, ожидание в окружении аромата масляной выпечки — это новое нирвана."
+
+Этот шаг, неудивительно, вызвал скептицизм у соседних стран, ориентированных на скорость, таких как Эстония и Литва, которые ставят под сомнение практическое значение возвеличивания таких неторопливых занятий. Тем не менее, новый праздник набирает популярность в социальных сетях, раздувая пламя балтийского единства — хотя и очень медленно.
+
+"Я присоединилась к очереди в конце июня и завела более тридцати новых знакомых к сентябрю," говорит Мара Минскинис, преданная поклонница апфельштруделя, которая, как сообщается, принесла с собой три романа и быстро сохнущую палатку. "Честно говоря, мысль о нетронутых штруделях держала нас всех в строю — буквально и фигурально. Участие в дебатах о том, принадлежат ли изюмы в выпечку, действительно добавило глубины нашему характеру и помогло скоротать время."
+
+Экономисты предсказывают любопытный всплеск в ранее редких отраслях, таких как аренда складных стульев, дизайн местных художественных салфеток и, как ни странно, часовое производство. Последнее связано с необходимостью чрезмерно точного отслеживания времени в очередях.
+
+По мере того, как аромат апфельштруделя уходит с осенними ветрами, Латвия стоит на пороге переопределения культурной идентичности вокруг неожиданной оси терпения. "Мы доказали раз и навсегда: вы можете испечь штрудель, и вы можете заставить мир ждать," сказал с невероятной самодовольством Миттельшмерц, упаковывая последние ящики с непроданной выпечкой с грациозной медлительностью.
+
+Будет ли 32 августа записан в анналы легитимных праздников или останется странной сноской в балтийской истории, еще предстоит увидеть. До тех пор латвийцам по всему миру рекомендуется стоять в очереди альтруистично, будь то за билетами в театр, на соревнования по приседаниям или, действительно, за следующим мимолетным кулинарным увлечением.`
+    },
+    date: "Jan 15, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=600&fit=crop",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 60,
     slug: "riga-residents-mistake-meteor-for-new",
     title: {
@@ -101,7 +176,7 @@ Pašlaik Rīgas iedzīvotāji ir apmierināti ar zvaigžņu iedvesmotu radošumu
     readTime: "10 min read",
     imageUrl: "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=800&h=600&fit=crop",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 59,
