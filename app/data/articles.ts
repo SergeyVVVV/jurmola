@@ -17,6 +17,75 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 62,
+    slug: "riga-announces-first-annual-pothole-parade",
+    title: {
+      en: "Riga Announces First Annual 'Pothole Parade': Citizens Encouraged to Celebrate City's Most Enduring Tradition",
+      lv: "Rīga paziņo par pirmo ikgadējo 'Bedru Parādi': Pilsoņi aicināti svinēt pilsētas visizturīgāko tradīciju",
+      ru: "Рига объявляет о первом ежегодном 'Параде Ям': Гражданам предлагается отпраздновать самую стойкую традицию города"
+    },
+    excerpt: {
+      en: "In an unprecedented celebration of infrastructure resilience, Riga City Council has announced the inaugural 'Pothole Parade'. Promising a whimsical blend of celebration and civic pride, the parade will feature floats emulating the city's most notorious landmarks - the holes in its roads.",
+      lv: "Nepieredzētā infrastruktūras izturības svinēšanā Rīgas pilsētas dome ir paziņojusi par pirmo 'Bedru Parādi'. Solot jautru svinību un pilsoniskās lepnuma sajaukumu, parāde piedāvās platformas, kas atdarina pilsētas visbēdīgāk slavenās vietas - bedres tās ceļos.",
+      ru: "В беспрецедентном праздновании устойчивости инфраструктуры Рижский городской совет объявил о первом 'Параде Ям'. Обещая причудливое сочетание праздника и гражданской гордости, парад будет включать платформы, имитирующие самые печально известные достопримечательности города - ямы на его дорогах."
+    },
+    fullContent: {
+      en: `In a display of community spirit and tongue-in-cheek homage to Riga's urban texture, the inaugural 'Pothole Parade' is set to launch this Saturday. The event billed as a 'family-friendly celebration of rugged roadways', is poised to spotlight the Baltic capital’s unique relationship with its notoriously uneven streets.
+
+The parade, which is expected to draw crowds from across the region, will feature floats designed to showcase the imaginative history of Riga's most well-known potholes. Chief organizer, Anita Triša, explained the vision behind the festivity. 'Our potholes are more than just road hazards—they’re historical monuments, challenging drivers and sparking neighborhood anecdotes since time immemorial,' she declared with a gleam of determination in her eye.
+
+Among the anticipated highlights is the float affectionately nicknamed 'The Abyss of Alberta Street', a gaping hole known for swallowing an entire delivery truck last spring. 'That pothole became an instant local celebrity,' recalls Māris Ozols, whose delivery service had an impromptu viral moment when half a ton of mushrooms spilled onto the road, providing a day-long buffet for pigeons. 'We decided to pay tribute to its grand impression.'
+
+Further parade attractions include costumed dancers dressed as traffic cones, minimizing their epochal mission to valiantly warn pedestrians of the cavernous craters below. The culmination of the event will see the grand 'Pothole Pageant', where a carefully selected panel of local mechanics and cyclists will crown the 'Pothole of the Year'.
+
+'It’s about time we stop seeing potholes as a hindrance and start embracing them as aspects of our national identity,' said Aldis Dzelzkalējs, Minister of Roads and Irrational Urban Development, endorsing the parade. 'Latvia has always thrived on imperfection. We are a country that knows how to turn challenges into art.'
+
+Local economic analysts expect the parade to generate significant income for repair shops citywide. 'There will be plenty of light-hearted recognition for these unsung heroes of the asphalt world,' notes Ruta Graudiņa, a leading lecturer in Automotive Anthropology at Riga Stradins University.
+
+Critics of the event, mainly visiting urban planners, have raised eyebrows, suggesting that hosting such an event might distract from more pressing infrastructural concerns. Still, the city remains optimistic. Emilija Balss, from the Touristic Attractions and Bureaucratic Surprises Committee, assured that proceeds from the event's souvenir 'Pothole Passport' (guaranteed entry onto 5 exclusive pothole float rides) would go directly into the municipality’s street repair fund.
+
+As the citizens of Latvia gear up for the first ever 'Pothole Parade', excitement is palpable. Whether attending out of irony, civic pride, or sheer curiosity, locals are ready to embrace the bumpy ride. 'If you can't fix it immediately, you might as well have fun with it in the meantime,' said parade attendee Jānis Jakubāns. 'Plus, where else can you say you’ve seen a pothole receive a crown?' In an adventurous twist on urban planning norms, this satirical celebration marks Riga as a city ready to make potholes a point of connection, one uneven crossroad at a time.`,
+      lv: `Kopienas gara un ironiska cieņas apliecinājuma Rīgas pilsētas tekstūrai izpausmē, pirmā 'Bedru Parāde' tiks atklāta šajā sestdienā. Pasākums, kas tiek reklamēts kā 'ģimenēm draudzīga svinība par robustiem ceļiem', ir paredzēts, lai izceltu Baltijas galvaspilsētas unikālās attiecības ar tās bēdīgi slavenajiem nelīdzenajiem ceļiem.
+
+Parāde, kas sagaida apmeklētājus no visas reģiona, piedāvās platformas, kas izceļ Rīgas vispazīstamāko bedru iztēles vēsturi. Galvenā organizatore Anita Triša skaidroja svinību vīziju. 'Mūsu bedres ir vairāk nekā tikai ceļu šķēršļi - tās ir vēsturiski pieminekļi, kas izaicina autovadītājus un rada apkaimes anekdotes jau kopš neatminamiem laikiem,' viņa paziņoja ar apņēmības mirdzumu acīs.
+
+Starp gaidāmajiem izcēlumiem ir platforma, kas mīļi iesaukta par 'Alberta ielas Bezdibeni', milzīga bedre, kas pagājušajā pavasarī aprija veselu piegādes kravas automašīnu. 'Šī bedre kļuva par tūlītēju vietējo slavenību,' atceras Māris Ozols, kura piegādes dienests piedzīvoja negaidītu vīrusu brīdi, kad pus tonna sēņu izlija uz ceļa, nodrošinot dienas garumā bufeti baložiem. 'Mēs nolēmām godināt tās lielisko iespaidu.'
+
+Turpmākie parādes izklaides elementi ietver kostīmu dejotājus, kas ģērbušies kā ceļa konusi, minimizējot savu episko misiju drosmīgi brīdināt gājējus par zemāk esošajiem milzīgajiem krāteriem. Pasākuma kulminācijā būs lielā 'Bedru Skaistumkonkurss', kur rūpīgi izvēlēta vietējo mehāniķu un velosipēdistu žūrija kronēs 'Gada Bedri'.
+
+'Ir pienācis laiks pārstāt uztvert bedres kā šķērsli un sākt tās pieņemt kā mūsu nacionālās identitātes aspektus,' teica Aldis Dzelzkalējs, Ceļu un Neracionālās Pilsētbūvniecības ministrs, atbalstot parādi. 'Latvija vienmēr ir plaukusi uz nepilnībām. Mēs esam valsts, kas zina, kā pārvērst izaicinājumus mākslā.'
+
+Vietējie ekonomikas analītiķi sagaida, ka parāde radīs ievērojamus ienākumus remontdarbnīcām visā pilsētā. 'Būs daudz vieglprātīgas atzinības šiem neapdziedātajiem asfaltu pasaules varoņiem,' norāda Ruta Graudiņa, vadošā lektore Automobiļu Antropoloģijā Rīgas Stradiņa universitātē.
+
+Pasākuma kritiķi, galvenokārt viesu pilsētplānotāji, ir pacēluši uzacis, norādot, ka šāda pasākuma rīkošana varētu novērst uzmanību no steidzamākām infrastruktūras problēmām. Tomēr pilsēta paliek optimistiska. Emilija Balss no Tūrisma Atrakciju un Birokrātisko Pārsteigumu Komitejas apliecināja, ka ieņēmumi no pasākuma suvenīra 'Bedru Pase' (kas garantē piekļuvi pieciem ekskluzīviem bedru platformu braucieniem) tiks tieši novirzīti pašvaldības ielu remonta fondā.
+
+Kā Latvijas iedzīvotāji gatavojas pirmajai 'Bedru Parādei', satraukums ir jūtams. Neatkarīgi no tā, vai apmeklē ironijas, pilsoniskā lepnuma vai tīras ziņkāres dēļ, vietējie ir gatavi pieņemt nelīdzenu braucienu. 'Ja to nevar uzreiz salabot, tad vismaz var izklaidēties pa to laiku,' teica parādes apmeklētājs Jānis Jakubāns. 'Turklāt, kur vēl var teikt, ka esi redzējis, kā bedre saņem kroni?' Šajā piedzīvojumu pilnajā pavērsienā pilsētplānošanas normās, šī satīriskā svinība iezīmē Rīgu kā pilsētu, kas ir gatava padarīt bedres par savienojuma punktu, vienu nelīdzenu krustojumu vienlaikus.`,
+      ru: `В проявлении духа сообщества и с юмористическим уважением к городской текстуре Риги, первый 'Парад Ям' стартует в эту субботу. Мероприятие, заявленное как 'семейный праздник суровых дорог', призвано подчеркнуть уникальные отношения столицы Балтии с её печально известными неровными улицами.
+
+Парад, который, как ожидается, привлечет толпы со всего региона, будет включать платформы, призванные продемонстрировать воображаемую историю самых известных ям Риги. Главный организатор, Анита Триша, объяснила видение праздника. 'Наши ямы - это больше, чем просто дорожные опасности - это исторические памятники, которые бросают вызов водителям и вызывают анекдоты в районах с незапамятных времен,' заявила она с блеском решимости в глазах.
+
+Среди ожидаемых моментов - платформа, ласково прозванная 'Бездна улицы Альберта', огромная яма, известная тем, что прошлой весной поглотила целый грузовик с доставкой. 'Эта яма мгновенно стала местной знаменитостью,' вспоминает Марис Озолс, чья служба доставки пережила импровизированный вирусный момент, когда полтонны грибов высыпались на дорогу, предоставив дневной буфет для голубей. 'Мы решили отдать дань её грандиозному впечатлению.'
+
+Другие аттракционы парада включают танцоров в костюмах дорожных конусов, минимизирующих свою эпохальную миссию по героическому предупреждению пешеходов о кавернозных кратерах внизу. Кульминацией мероприятия станет грандиозный 'Конкурс Ям', где тщательно отобранная комиссия из местных механиков и велосипедистов коронует 'Яму года'.
+
+'Пора перестать видеть ямы как помеху и начать принимать их как аспекты нашей национальной идентичности,' сказал Алдис Дзелзкалейс, министр дорог и иррационального городского развития, поддерживая парад. 'Латвия всегда процветала на несовершенстве. Мы - страна, которая знает, как превратить вызовы в искусство.'
+
+Местные экономические аналитики ожидают, что парад принесет значительный доход для ремонтных мастерских по всему городу. 'Будет много легкого признания для этих невоспетых героев асфальтового мира,' отмечает Рута Граудиня, ведущий лектор по автомобильной антропологии в Рижском университете Страдиня.
+
+Критики мероприятия, в основном приезжие городские планировщики, подняли брови, предположив, что проведение такого мероприятия может отвлечь от более насущных инфраструктурных проблем. Тем не менее, город остается оптимистичным. Эмилия Балсс из Комитета по туристическим достопримечательностям и бюрократическим сюрпризам заверила, что доходы от сувенирного 'Паспорта Ям' (гарантированного входа на 5 эксклюзивных платформ с ямами) пойдут непосредственно в фонд ремонта улиц муниципалитета.
+
+Когда граждане Латвии готовятся к первому в истории 'Параду Ям', волнение ощутимо. Будь то из иронии, гражданской гордости или чистого любопытства, местные жители готовы принять ухабистую поездку. 'Если не можешь исправить это сразу, то почему бы не повеселиться с этим в то время,' сказал участник парада Янис Якубанс. 'Кроме того, где еще можно сказать, что видел, как яме вручили корону?' В авантюрном повороте к нормам городского планирования, это сатирическое празднование отмечает Ригу как город, готовый сделать ямы точкой соединения, один неровный перекресток за раз.`
+    },
+    date: "Jan 16, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 61,
     slug: "latvia-declares-international-patience-day-after",
     title: {
@@ -89,7 +158,7 @@ Vai 32. augusts iekļūs leģitīmo svētku annālēs vai paliks kā dīvains pi
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=600&fit=crop",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 60,
