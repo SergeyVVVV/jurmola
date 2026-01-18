@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 64,
+    slug: "latvian-city-elects-first-ever-moose",
+    title: {
+      en: "Latvian City Elects First-Ever Moose Mayor: Promises Abundant Tree-Bark Infrastructure",
+      lv: "Latvijas pilsēta ievēl pirmo aļņu mēru: sola bagātīgu koku mizas infrastruktūru",
+      ru: "Латвийский город избрал первого в истории лося-мэра: обещает обильную кору деревьев в инфраструктуре"
+    },
+    excerpt: {
+      en: "In a historic election result that has left many scratching their antlers, the Latvian city of Drozdovka has elected a moose as its new mayor. Amidst a dramatic campaign, Mayor Mārģis the Moose won on a platform promising improved tree-bark access across the city.",
+      lv: "Vēsturiskos vēlēšanu rezultātos, kas daudzus atstājuši ar niezīgām ragiem, Latvijas pilsēta Drozdovka ir ievēlējusi aļņu par savu jauno mēru. Dramatiskās kampaņas laikā mērs Mārģis Aļnis uzvarēja ar platformu, kas sola uzlabotu piekļuvi koku mizai visā pilsētā.",
+      ru: "В историческом результате выборов, который оставил многих в недоумении, латвийский город Дроздовка избрал лося своим новым мэром. В ходе драматичной кампании мэр Маргис Лось победил, обещая улучшить доступ к коре деревьев по всему городу."
+    },
+    fullContent: {
+      en: `In what political analysts are describing as a groundbreaking moment in Baltic governance, the city of Drozdovka has elected Mārģis the Moose as its new mayor. This unprecedented shift comes after years of stagnant human-centric policies and increasing calls for greater representation of all mammalian citizens.
+
+Mārģis, a stately moose from the deep forests surrounding the city, managed to secure 64% of the votes, effectively out-hooving his closest competitor, Juris Vesers, a human and former Komplekts Store manager. Voter turnout was unusually high at 92%, possibly due to the unexpected allure of voting for a charismatic herbivore.
+
+"It's about time we had a leader who truly understands the challenges faced by Drozdovka's often overlooked moose population," said Elga Truska, head of the Citizens for Moose-Minded Development. "Mārģis can deliver the change we need, starting with initiatives like expanding green spaces and ensuring plenty of tree-bark for all. You can always trust a moose on such matters."
+
+Not everyone is as enthusiastic about the new moose-ocratic regime, however. Some residents have expressed concern over the ability of a moose to perform complex political duties. "I worry about our budget meetings," said skeptical local economist Imants Zābers, "especially considering that Mārģis has a particular fondness for eating paper. We might see more shredded documents than actual fiscal policies."
+
+Despite these concerns, the moose mayor has taken an antler-first approach to leadership, already proposing groundbreaking changes in urban planning. Key policies are set to include the creation of 'Moose-Only Zones' in city parks where public loitering rights are revoked for anyone not weighing over 500 kilograms, as well as a proposed swap of the city's municipal car fleet for sustainable, hoof-friendly carriages.
+
+Mārģis also addressed public safety, proposing a radical revamp of Drozdovka's emergency services, which involves replacing traditional police vehicles with patrolling squads of naturally intimidating moose. The mayor assured citizens that these 'Moose Cadets' would work diligently to maintain order at their own steady, gentle pace.
+
+"We anticipate a significant drop in petty crime simply due to the intimidating nature of a herd of disciplined moose patrolling the streets," claimed newly appointed Head of Security, Antons Laucis, himself an advocate for integrating local fauna into governance.
+
+Some local businesses have gone so far as to capitalize on this moose momentum, with enhanced public performances featuring moose-themed concerts and a surge in demand for merchandise emblazoned with Mārģis' likeness. City tourism boards predict a boost in international interest with their latest campaign, 'Drozdovka: Where the Antlers Meet the Asphalt.'
+
+As Mārģis prepares his acceptance speech, translated ably by local zoologists, the mood in Drozdovka is one of cautious optimism and curious expectation. "He may have four legs and a passion for foliage," said long-time resident and café owner Sofija Liepa, "but maybe that's just what we need right now." Only time will tell if Drozdovka's bold political experiment will pave the way for larger systemic changes across Latvia and beyond.`,
+      lv: `Politikas analītiķi šo notikumu raksturo kā revolucionāru brīdi Baltijas pārvaldē, jo Drozdovkas pilsēta ir ievēlējusi Mārģi Aļni par savu jauno mēru. Šī nepieredzētā maiņa nāk pēc gadiem ilgas stagnācijas cilvēku centrētās politikās un pieaugošiem aicinājumiem pēc lielākas pārstāvības visiem zīdītāju iedzīvotājiem.
+
+Mārģis, cēls aļnis no dziļajiem mežiem ap pilsētu, spēja iegūt 64% balsu, efektīvi pārspējot savu tuvāko konkurentu, Juri Veseru, cilvēku un bijušo Komplekts veikala vadītāju. Vēlētāju aktivitāte bija neparasti augsta - 92%, iespējams, pateicoties negaidītajai pievilcībai balsot par harizmātisku zālēdāju.
+
+"Ir pienācis laiks, lai mums būtu līderis, kurš patiesi saprot Drozdovkas bieži aizmirstās aļņu populācijas izaicinājumus," sacīja Elga Truska, Pilsoņu par Aļņu Domāšanu attīstības vadītāja. "Mārģis var nodrošināt pārmaiņas, kas mums nepieciešamas, sākot ar iniciatīvām, piemēram, zaļo zonu paplašināšanu un pietiekamas koku mizas nodrošināšanu visiem. Jūs vienmēr varat uzticēties aļnim šādos jautājumos."
+
+Tomēr ne visi ir tik entuziasma pilni par jauno aļņu-krātisko režīmu. Daži iedzīvotāji ir izteikuši bažas par aļņa spēju veikt sarežģītus politiskus pienākumus. "Es uztraucos par mūsu budžeta sanāksmēm," sacīja skeptiskais vietējais ekonomists Imants Zābers, "īpaši ņemot vērā, ka Mārģim ir īpaša aizraušanās ar papīra ēšanu. Mēs varētu redzēt vairāk sasmalcinātu dokumentu nekā faktisko fiskālo politiku."
+
+Neskatoties uz šīm bažām, aļņu mērs ir pieņēmis vadību ar ragu-pirmo pieeju, jau piedāvājot revolucionāras izmaiņas pilsētplānošanā. Galvenās politikas ietver 'Tikai Aļņu Zonas' izveidi pilsētas parkos, kur sabiedriskās klaiņošanas tiesības tiek atņemtas ikvienam, kas nesver vairāk par 500 kilogramiem, kā arī piedāvājumu apmainīt pilsētas pašvaldības automašīnu floti pret ilgtspējīgām, nagiem draudzīgām karietēm.
+
+Mārģis arī pievērsās sabiedriskajai drošībai, piedāvājot radikālu Drozdovkas ārkārtas dienestu pārveidi, kas ietver tradicionālo policijas transportlīdzekļu aizstāšanu ar patrulējošām dabīgi iebiedējošu aļņu vienībām. Mērs apliecināja iedzīvotājiem, ka šie 'Aļņu Kadeti' strādās cītīgi, lai uzturētu kārtību savā mierīgajā, maigajā tempā.
+
+"Mēs sagaidām būtisku sīko noziegumu samazināšanos vienkārši aļņu disciplinētās ganāmpulka patrulēšanas ielu iebiedējošā rakstura dēļ," apgalvoja jaunieceltais Drošības vadītājs Antons Laucis, pats vietējās faunas integrācijas pārvaldē aizstāvis.
+
+Daži vietējie uzņēmumi ir gājuši tik tālu, ka izmanto šo aļņu impulsu, ar uzlabotiem publiskiem priekšnesumiem, kas ietver aļņu tematikas koncertus un pieprasījuma pieaugumu pēc preču ar Mārģa attēlu. Pilsētas tūrisma padomes prognozē starptautiskas intereses pieaugumu ar savu jaunāko kampaņu 'Drozdovka: Kur Ragi Satiekas ar Asfaltu.'
+
+Kamēr Mārģis gatavo savu pieņemšanas runu, kuru prasmīgi tulko vietējie zoologi, Drozdovkā valda piesardzīgs optimisms un ziņkārīga gaidīšana. "Viņam varbūt ir četras kājas un aizraušanās ar lapotni," sacīja ilggadējā iedzīvotāja un kafejnīcas īpašniece Sofija Liepa, "bet varbūt tieši tas mums šobrīd ir vajadzīgs." Tikai laiks rādīs, vai Drozdovkas drosmīgais politiskais eksperiments pavērs ceļu lielākām sistēmiskām izmaiņām visā Latvijā un ārpus tās.`,
+      ru: `В том, что политические аналитики называют прорывным моментом в балтийском управлении, город Дроздовка избрал Маргиса Лося своим новым мэром. Этот беспрецедентный сдвиг произошел после многих лет застоя в человекоцентричной политике и растущих призывов к большему представительству всех млекопитающих граждан.
+
+Маргис, величественный лось из густых лесов вокруг города, сумел набрать 64% голосов, эффективно обойдя своего ближайшего конкурента, Юриса Весерса, человека и бывшего менеджера магазина Komplekts. Явка избирателей была необычно высокой — 92%, возможно, из-за неожиданной привлекательности голосования за харизматичного травоядного.
+
+"Пора уже, чтобы у нас был лидер, который действительно понимает проблемы, с которыми сталкивается часто игнорируемая популяция лосей Дроздовки", — сказала Элга Труска, глава Граждан за развитие, ориентированное на лосей. "Маргис может обеспечить необходимые изменения, начиная с инициатив по расширению зеленых зон и обеспечению обилия коры деревьев для всех. Лосю всегда можно доверять в таких вопросах."
+
+Однако не все так восторженно относятся к новому лосе-кратическому режиму. Некоторые жители выразили обеспокоенность по поводу способности лося выполнять сложные политические обязанности. "Я беспокоюсь о наших бюджетных заседаниях", — сказал скептически настроенный местный экономист Имантс Заберс, "особенно учитывая, что у Маргиса есть особая склонность к поеданию бумаги. Мы можем увидеть больше измельченных документов, чем реальных фискальных политик."
+
+Несмотря на эти опасения, лось-мэр взялся за лидерство с рогами вперед, уже предлагая революционные изменения в городском планировании. Основные политики включают создание 'Зон только для лосей' в городских парках, где права на пребывание в общественных местах отзываются у всех, кто весит менее 500 килограммов, а также предложенный обмен муниципального автопарка города на устойчивые, дружественные к копытам кареты.
+
+Маргис также затронул вопрос общественной безопасности, предложив радикальную реформу служб экстренной помощи Дроздовки, которая включает замену традиционных полицейских автомобилей патрульными отрядами естественно устрашающих лосей. Мэр заверил граждан, что эти 'Лосиные кадеты' будут усердно работать над поддержанием порядка в своем собственном спокойном, мягком темпе.
+
+"Мы ожидаем значительного снижения мелких преступлений просто из-за устрашающего характера стада дисциплинированных лосей, патрулирующих улицы", — заявил недавно назначенный глава безопасности Антонс Лауцис, сам сторонник интеграции местной фауны в управление.
+
+Некоторые местные предприятия пошли так далеко, что капитализировали этот лосиный импульс, с улучшенными публичными выступлениями, включающими концерты на лосиную тему, и всплеском спроса на товары с изображением Маргиса. Туристические советы города прогнозируют рост международного интереса с их последней кампанией 'Дроздовка: Где рога встречаются с асфальтом.'
+
+Пока Маргис готовит свою вступительную речь, умело переведенную местными зоологами, настроение в Дроздовке — это осторожный оптимизм и любопытное ожидание. "У него может быть четыре ноги и страсть к листве", — сказала давняя жительница и владелица кафе София Лиепа, "но, может быть, именно это нам сейчас и нужно." Только время покажет, станет ли смелый политический эксперимент Дроздовки путем к более крупным системным изменениям по всей Латвии и за ее пределами.`
+    },
+    date: "Jan 18, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=800&h=600&fit=crop",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 63,
     slug: "riga-announces-plans-to-convert-all",
     title: {
@@ -83,7 +158,7 @@ Iniciatīva sola ne tikai samazināt ceļu dusmas, bet arī palielināt spontān
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 62,
