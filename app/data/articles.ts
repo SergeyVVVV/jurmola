@@ -17,6 +17,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 66,
+    slug: "latvian-government-approves-new-national-holiday",
+    title: {
+      en: "Latvian Government Approves New National Holiday: ‘Unending Queue Day’",
+      lv: "Latvijas valdība apstiprina jaunu valsts svētku dienu: 'Beidzamās Rindas Diena'",
+      ru: "Латвийское правительство одобрило новый национальный праздник: 'День бесконечной очереди'"
+    },
+    excerpt: {
+      en: "In a bold move to celebrate one of the nation's most enduring cultural practices, the Latvian government has officially designated every second Friday of November as 'Unending Queue Day'. Citizens are encouraged to form orderly lines in various public places without any particular destination or purpose.",
+      lv: "Drosmīgā solī, lai svinētu vienu no valsts ilgstošākajām kultūras praksēm, Latvijas valdība oficiāli noteikusi katru otro novembra piektdienu par 'Beidzamās Rindas Dienu'. Pilsoņi tiek aicināti veidot kārtīgas rindas dažādās sabiedriskās vietās bez īpaša galamērķa vai mērķa.",
+      ru: "В смелом шаге, чтобы отпраздновать одну из самых стойких культурных практик нации, латвийское правительство официально назначило каждый второй пятницу ноября 'Днем бесконечной очереди'. Гражданам рекомендуется формировать упорядоченные очереди в различных общественных местах без определенной цели или назначения."
+    },
+    fullContent: {
+      en: `Riga—In a pioneering reform to national calendrical practices, the Latvian Parliament has unanimously approved a new celebratory day: 'Unending Queue Day'. This innovative holiday aims to honor the time-honored tradition of queuing that has been a steadfast pillar of Latvian society for generations.
+
+Minister of National Events, Ilze Neizbeidzama, expressed her excitement at a press conference held outside the imposing grey walls of the Ministry of Inexplicable Diligence. "For far too long, our penchant for orderly queues has been unrecognized on the global stage. With 'Unending Queue Day', we can finally celebrate our contributions to the art of patient waiting," she beamed.
+
+The initiative received overwhelming support across the country, particularly in Riga, where citizens already practice queuing as part of their daily lives, even when no actual service is available. An informal survey conducted by the Sociological Institute of Line Enthusiasts (SILE) revealed that 89% of Latvians have queued for at least an hour in the past week without knowing what they were queuing for.
+
+Local resident and self-proclaimed queue enthusiast, Mārtiņš Rinda, commented, "This new holiday is a brilliant opportunity for us to reconnect with our roots. My grandparents used to queue for bread, my parents for bananas, and now I can proudly queue just for the sake of it."
+
+The day has been structured with specific guidelines to ensure authenticity. Citizens are encouraged to start forming lines at sunrise, selecting locations such as supermarkets, bus stops, and even the famed cathedrals. To add a modern twist, the Ministry recommends downloading the official 'Queue & Chill' app to track real-time queue statistics and share inspirational waiting moments with friends.
+
+To mark its inaugural year, the government has arranged for special events where famous local bands will perform queue-themed songs such as 'Line Up, Stand Tall' and 'Waiting Warriors' at special stages where attendees can queue in a looping spiral.
+
+Economists across the country have been debating the potential impact of 'Unending Queue Day'. Some predict a boost in economic productivity as companies offer incentives to staff who claim to have had epiphanies or creative breakthroughs while queuing. However, pessimists like Dr. Nervozs Rinda argue, "It might create a national abundance of patience that could lead to excessive tranquility. We must tread carefully; no nation should be too relaxed."
+
+In a bid to illustrate broader regional camaraderie, the idea of 'Unending Queue Day' has already started to make ripples across the Baltic Sea. Lithuania and Estonia expressed interest, stating that they too have long held themselves to the highest queuing standards. Talks are underway to introduce an international Baltic Queuing Day, further solidifying the Baltic States' unique contributions to world culture.
+
+In the words of Minister Neizbeidzama, "While countries like Japan have cherry blossoms and Brazil has carnival, we Latvians have queues—with our proud lines cascading through time."
+
+As Latvian cities prepare for their newest holiday, anticipation is high. Reports indicate there are already small pre-queue gatherings in certain neighborhoods. Whether the novelty will last remains uncertain, but for now, it appears Latvia is embracing its love of queues with open arms—and standing feet.`,
+      lv: `Rīga—Inovatīvā reformā nacionālajās kalendāra tradīcijās Latvijas Saeima vienbalsīgi apstiprinājusi jaunu svētku dienu: 'Beidzamās Rindas Diena'. Šie inovatīvie svētki mērķē godināt ilggadīgo rindu stāvēšanas tradīciju, kas ir bijusi Latvijas sabiedrības stabils balsts paaudzēm ilgi.
+
+Nacionālo pasākumu ministre Ilze Neizbeidzama pauda savu sajūsmu preses konferencē, kas notika pie iespaidīgajām pelēkajām Neizskaidrojamās Centības ministrijas sienām. "Pārāk ilgi mūsu tieksme uz kārtīgām rindām nav tikusi atzīta pasaules mērogā. Ar 'Beidzamās Rindas Dienu' mēs beidzot varam svinēt savu ieguldījumu pacietīgas gaidīšanas mākslā," viņa staroja.
+
+Iniciatīva saņēma milzīgu atbalstu visā valstī, īpaši Rīgā, kur iedzīvotāji jau ikdienā praktizē rindā stāvēšanu, pat ja nav pieejams nekāds pakalpojums. Neformāla aptauja, ko veica Rindu Entuziastu Socioloģiskais Institūts (RESI), atklāja, ka 89% latviešu pēdējā nedēļā ir stāvējuši rindā vismaz stundu, nezinot, kam tā ir domāta.
+
+Vietējais iedzīvotājs un pašpasludināts rindu entuziasts Mārtiņš Rinda komentēja: "Šie jaunie svētki ir lieliska iespēja mums atkal sazināties ar savām saknēm. Mani vecvecāki stāvēja rindā pēc maizes, mani vecāki pēc banāniem, un tagad es varu lepni stāvēt rindā tikai tāpēc, ka varu."
+
+Diena ir strukturēta ar īpašām vadlīnijām, lai nodrošinātu autentiskumu. Pilsoņi tiek aicināti sākt veidot rindas saullēktā, izvēloties tādas vietas kā lielveikali, autobusu pieturas un pat slavenās katedrāles. Lai pievienotu mūsdienīgu pieskārienu, ministrija iesaka lejupielādēt oficiālo 'Queue & Chill' lietotni, lai izsekotu reāllaika rindas statistikai un dalītos ar iedvesmojošiem gaidīšanas mirkļiem ar draugiem.
+
+Lai atzīmētu pirmo gadu, valdība ir sarīkojusi īpašus pasākumus, kuros slaveni vietējie ansambļi izpildīs rindas tēmas dziesmas, piemēram, 'Line Up, Stand Tall' un 'Waiting Warriors' īpašās skatuvēs, kur apmeklētāji varēs stāvēt rindā spirālveida cilpā.
+
+Ekonomisti visā valstī ir apsprieduši 'Beidzamās Rindas Dienas' iespējamo ietekmi. Daži prognozē ekonomiskās produktivitātes pieaugumu, jo uzņēmumi piedāvā stimulus darbiniekiem, kuri apgalvo, ka rindā stāvot piedzīvojuši atklāsmes vai radošus uzplūdus. Tomēr pesimisti, piemēram, Dr. Nervozs Rinda, apgalvo: "Tas var radīt nacionālo pacietības pārpilnību, kas varētu novest pie pārmērīgas mierīguma. Mums jābūt uzmanīgiem; nevienai nācijai nevajadzētu būt pārāk atslābinātai."
+
+Lai ilustrētu plašāku reģionālo sadraudzību, 'Beidzamās Rindas Dienas' ideja jau sākusi izplatīties pāri Baltijas jūrai. Lietuva un Igaunija izteikušas interesi, norādot, ka arī viņi jau sen ir ievērojuši augstākos rindas stāvēšanas standartus. Notiek sarunas par starptautiskas Baltijas Rindu Dienas ieviešanu, tālāk nostiprinot Baltijas valstu unikālo ieguldījumu pasaules kultūrā.
+
+Ministres Neizbeidzamas vārdiem sakot, "Kamēr tādas valstis kā Japāna lepojas ar ķiršu ziediem un Brazīlija ar karnevālu, mēs, latvieši, lepojamies ar rindām—ar mūsu lepniem rindām, kas plūst cauri laikam."
+
+Kā Latvijas pilsētas gatavojas saviem jaunākajiem svētkiem, gaidas ir augstas. Ziņojumi liecina, ka dažos rajonos jau notiek nelielas pirmsrindu pulcēšanās. Vai šī jaunā ideja izturēs laika pārbaudi, paliek neskaidrs, bet pagaidām šķiet, ka Latvija ar atplestām rokām—un stāvošām kājām—apskauj savu mīlestību pret rindām.`,
+      ru: `Рига — В новаторской реформе национальных календарных практик латвийский парламент единогласно одобрил новый праздничный день: 'День бесконечной очереди'. Этот инновационный праздник призван почтить давнюю традицию стояния в очередях, которая на протяжении поколений была незыблемым столпом латвийского общества.
+
+Министр национальных мероприятий Илзе Неизбеждама выразила свое волнение на пресс-конференции, проведенной у внушительных серых стен Министерства необъяснимого усердия. 'Слишком долго наша склонность к упорядоченным очередям оставалась незамеченной на мировой арене. С 'Днем бесконечной очереди' мы наконец можем отпраздновать наш вклад в искусство терпеливого ожидания', — сияла она.
+
+Инициатива получила огромную поддержку по всей стране, особенно в Риге, где граждане уже практикуют стояние в очередях как часть своей повседневной жизни, даже когда никакой реальной услуги не предоставляется. Неофициальный опрос, проведенный Социологическим институтом любителей очередей (SILE), показал, что 89% латвийцев стояли в очереди как минимум час на прошлой неделе, не зная, зачем они стоят.
+
+Местный житель и самопровозглашенный энтузиаст очередей Мартиньш Ринда прокомментировал: 'Этот новый праздник — блестящая возможность для нас восстановить связь с нашими корнями. Мои бабушка и дедушка стояли в очереди за хлебом, мои родители — за бананами, а теперь я могу гордо стоять в очереди просто ради этого'.
+
+День был структурирован с конкретными рекомендациями для обеспечения аутентичности. Гражданам рекомендуется начинать формировать очереди на рассвете, выбирая такие места, как супермаркеты, автобусные остановки и даже знаменитые соборы. Чтобы добавить современный штрих, Министерство рекомендует скачать официальное приложение 'Queue & Chill' для отслеживания статистики очередей в реальном времени и делиться вдохновляющими моментами ожидания с друзьями.
+
+Чтобы отметить первый год, правительство организовало специальные мероприятия, на которых известные местные группы исполнят песни на тему очередей, такие как 'Line Up, Stand Tall' и 'Waiting Warriors' на специальных сценах, где участники могут стоять в очереди по спирали.
+
+Экономисты по всей стране обсуждают потенциальное влияние 'Дня бесконечной очереди'. Некоторые прогнозируют рост экономической продуктивности, так как компании предлагают стимулы сотрудникам, которые заявляют, что у них были озарения или творческие прорывы во время стояния в очереди. Однако пессимисты, такие как доктор Нервозс Ринда, утверждают: 'Это может создать национальное изобилие терпения, которое может привести к чрезмерной спокойствию. Мы должны быть осторожны; ни одна нация не должна быть слишком расслабленной'.
+
+В попытке продемонстрировать более широкую региональную солидарность идея 'Дня бесконечной очереди' уже начала распространяться по Балтийскому морю. Литва и Эстония выразили интерес, заявив, что они тоже давно придерживаются самых высоких стандартов очередей. Ведутся переговоры о введении международного Балтийского дня очередей, что еще больше укрепит уникальный вклад Балтийских стран в мировую культуру.
+
+Как сказала министр Неизбеждама: 'Пока такие страны, как Япония, имеют сакуру, а Бразилия — карнавал, у нас, латвийцев, есть очереди — с нашими гордыми линиями, каскадными через время'.
+
+Пока латвийские города готовятся к своему новому празднику, ожидания высоки. Сообщается, что в некоторых районах уже проходят небольшие предварительные собрания в очереди. Останется ли новизна — неизвестно, но пока кажется, что Латвия с распростертыми объятиями и стоящими ногами принимает свою любовь к очередям.`
+    },
+    date: "Jan 20, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 65,
     slug: "latvia-declares-itself-world-leader-in",
     title: {
@@ -89,7 +170,7 @@ ISMF, основанная на безснежном горнолыжном ку
     readTime: "10 min read",
     imageUrl: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&h=600&fit=crop",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 64,
