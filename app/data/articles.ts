@@ -17,6 +17,69 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 67,
+    slug: "riga-city-council-launches-initiative-to",
+    title: {
+      en: "Riga City Council Launches Initiative to Legally Redefine 'Traffic Jam' as National Pastime",
+      lv: "Rīgas Domes iniciatīva: Satiksmes sastrēgumu likumīga pārdefinēšana kā nacionālais vaļasprieks",
+      ru: "Рижская городская дума запускает инициативу по юридическому переопределению 'пробки' как национального досуга"
+    },
+    excerpt: {
+      en: "In a bold move to boost national morale, Riga's City Council has proposed to officially redefine 'traffic jam' as a traditional Latvian pastime, citing its cultural significance and weekly participation rates exceeding those of folk dancing festivals.",
+      lv: "Lai veicinātu nacionālo morāli, Rīgas Dome ir ierosinājusi oficiāli pārdefinēt 'satiksmes sastrēgumu' kā tradicionālu latviešu vaļasprieku, norādot uz tā kultūras nozīmīgumu un iknedēļas dalības rādītājiem, kas pārsniedz tautas deju festivālus.",
+      ru: "В смелом шаге по повышению национального духа, Рижская городская дума предложила официально переопределить 'пробку' как традиционное латвийское развлечение, ссылаясь на ее культурное значение и еженедельное участие, превосходящее по численности фестивали народных танцев."
+    },
+    fullContent: {
+      en: `Riga, LATVIA—In a groundbreaking proposal delivered with characteristic and unflinching optimism, the Riga City Council has announced its intention to officially designate the act of sitting in traffic as a national pastime, claiming it ranks among Latvia’s most cherished collective experiences, akin to the beloved mid-winter 'Piparkūkas' baking. The initiative, humorously dubbed 'Stuck in Traffic, Stuck in Tradition,' has been met with mixed reactions from residents and automotive experts alike.
+
+A statement from council spokesperson Aivars Zivtiņš elaborated on the initiative's aims: "We are a nation proud of our unique heritage. Whether it’s meticulously organized Song and Dance Festivals or unexpectedly spontaneous traffic jams on Brīvības iela, what happens on our streets has become a reflective mirror of our vibrant cultural identity." According to the proposal, the council aims to slow down the incessant rush and encourage citizens to enjoy their time behind the wheel as a community-focused meditation experience, accompanied by local radio playing the nation's finest choral arrangements.
+
+Recent studies commissioned by the council have revealed that the average commuter in Riga spends an astonishing 47 minutes each day idling in traffic, a time commitment rivaled only by the grandiose preparation for midsummer’s Līgo celebrations. "If you take a step back, this is quite possibly the biggest social event of the week for many of us," Zivtiņš added. "Stuck in congestion, we are united by a shared purpose—melting in cars during summer, freezing in them come January, all while applauding the eternal play unfolded before our very eyes."
+
+Local resident and self-proclaimed traffic connoisseur Māris Ozols has embraced the concept with delight and a newly acquired appreciation for cityscapes. "Every morning, it's like the Olympics of patience and horn etiquette," remarked Ozols, who is curiously trying to beat his personal best of cheerful greetings to fellow commuters. "It brings us together, you know, one hopeful honk at a time."
+
+Not everyone is quick to embrace the council’s vision. Transport analyst Ilze Strazdiņa wryly noted, "While cultural engagement is important, maybe focusing on dull administrative solutions—like, say, improved public transport or working on road infrastructure—would make commuting less of a dramatic narrative and more of a utility?"
+
+Despite the critique, tickets to the recently announced 'Annual Traffic Fiesta'—where participants compete for 'Longest Idle Time' and 'Most Creative Bumper-to-Bumper Activity'—have sold out within hours. "We didn’t even know people would be this excited about yet another chance to do absolutely nothing!" chuckled Andris Kalniņš, local pastry chef turned event organizer.
+
+Whether the proposal—and the potential accolades it aims to secure for Riga—is in jest or genuinely bureaucratic crescendo remains a fascinating question. But as with any essential Baltic query, time (and traffic) will surely determine whether this novel pastime will move from satire to celebrated tradition. In the meantime, denizens of Riga can rest easy, knowing that every morning commute is a drive down cultural memory lane.`,
+      lv: `Rīga, LATVIJA—Ar drosmīgu priekšlikumu, kas izceļas ar raksturīgu un nelokāmu optimismu, Rīgas Dome ir paziņojusi par savu nodomu oficiāli pasludināt sēdēšanu satiksmē par nacionālo vaļasprieku, apgalvojot, ka tas ir viens no Latvijā visvairāk mīlētajiem kolektīvajiem piedzīvojumiem, līdzīgi kā iemīļotā ziemas vidus 'Piparkūku' cepšana. Iniciatīva, humoristiski nosaukta 'Iestrēdzis satiksmē, iestrēdzis tradīcijā', ir izraisījusi dažādas reakcijas gan no iedzīvotājiem, gan automobiļu ekspertiem.
+
+Domes pārstāvja Aivara Zivtiņa paziņojumā tika izskaidroti iniciatīvas mērķi: "Mēs esam tauta, kas lepojas ar savu unikālo mantojumu. Neatkarīgi no tā, vai tās ir rūpīgi organizētas Dziesmu un deju svētki vai negaidīti spontāni satiksmes sastrēgumi uz Brīvības ielas, tas, kas notiek uz mūsu ielām, ir kļuvis par mūsu dzīvīgās kultūras identitātes spoguli." Saskaņā ar priekšlikumu, dome vēlas palēnināt nemitīgo steigu un mudināt iedzīvotājus izbaudīt laiku pie stūres kā kopienai veltītu meditācijas pieredzi, ko pavada vietējais radio ar valsts izcilākajiem kora aranžējumiem.
+
+Nesenie pētījumi, ko pasūtījusi dome, ir atklājuši, ka vidējais Rīgas iedzīvotājs katru dienu pavada satiksmē pārsteidzošas 47 minūtes, kas ir laika ieguldījums, ko var salīdzināt tikai ar grandiozo sagatavošanos Jāņu svinībām. "Ja paskatās no malas, tas, iespējams, ir lielākais nedēļas sociālais notikums daudziem no mums," piebilda Zivtiņš. "Iestrēguši sastrēgumā, mēs esam vienoti kopīgā mērķī—kūstot mašīnās vasarā, salstot tajās janvārī, vienlaikus aplaudējot mūžīgajai izrādei, kas norisinās mūsu acu priekšā."
+
+Vietējais iedzīvotājs un pašpasludināts satiksmes pazinējs Māris Ozols ar prieku pieņēmis šo koncepciju un jaunu atzinību par pilsētas ainavām. "Katru rītu tas ir kā pacietības un signālu etiķetes olimpiskās spēles," sacīja Ozols, kurš ziņkārīgi cenšas pārspēt savu personīgo rekordu jautros sveicienos citiem autovadītājiem. "Tas mūs vieno, ziniet, viens cerību pilns signāls vienlaikus."
+
+Ne visi ir gatavi pieņemt domes redzējumu. Transporta analītiķe Ilze Strazdiņa ironiski norādīja: "Lai gan kultūras iesaiste ir svarīga, varbūt koncentrēšanās uz garlaicīgiem administratīviem risinājumiem—piemēram, uzlabots sabiedriskais transports vai darbs pie ceļu infrastruktūras—padarītu pārvietošanos mazāk dramatisku stāstu un vairāk par utilitāru funkciju?"
+
+Neskatoties uz kritiku, biļetes uz nesen izziņoto 'Gada Satiksmes Fiesti'—kur dalībnieki sacenšas par 'Garāko gaidīšanas laiku' un 'Radošāko bufera-buferim aktivitāti'—tika izpārdotas dažu stundu laikā. "Mēs pat nezinājām, ka cilvēki būs tik sajūsmināti par vēl vienu iespēju nedarīt pilnīgi neko!" smējās Andris Kalniņš, vietējais konditors, kurš kļuvis par pasākuma organizatoru.
+
+Vai priekšlikums—un potenciālie apbalvojumi, ko tas cenšas nodrošināt Rīgai—ir joks vai patiesi birokrātisks kulminācijas punkts, paliek aizraujošs jautājums. Bet, kā ar jebkuru būtisku Baltijas jautājumu, laiks (un satiksme) noteikti izlems, vai šis jaunais vaļasprieks pārvērtīsies no satīras par svinētu tradīciju. Tikmēr Rīgas iedzīvotāji var būt mierīgi, zinot, ka katrs rīta brauciens ir ceļojums pa kultūras atmiņu joslu.`,
+      ru: `Рига, ЛАТВИЯ — В новаторском предложении, представленном с характерным и непоколебимым оптимизмом, Рижская городская дума объявила о своем намерении официально признать сидение в пробке как национальный досуг, утверждая, что это одно из самых любимых коллективных переживаний Латвии, подобно любимой выпечке 'Пипаркукас' в середине зимы. Инициатива, с юмором названная 'Застрял в пробке, застрял в традиции', встретила смешанные реакции со стороны жителей и автомобильных экспертов.
+
+Заявление представителя думы Айварса Зивтиньша разъяснило цели инициативы: "Мы — нация, гордящаяся своим уникальным наследием. Будь то тщательно организованные Праздники песни и танца или неожиданно спонтанные пробки на улице Бривибас, то, что происходит на наших улицах, стало отражением нашей яркой культурной идентичности." Согласно предложению, дума стремится замедлить неустанную спешку и призвать граждан наслаждаться временем за рулем как опытом медитации, ориентированным на сообщество, в сопровождении местного радио, играющего лучшие хоровые произведения страны.
+
+Недавние исследования, заказанные думой, показали, что средний пассажир в Риге проводит в пробках ошеломляющие 47 минут в день, что сопоставимо только с грандиозной подготовкой к празднованию Лиго в середине лета. "Если взглянуть со стороны, это, возможно, самое крупное социальное событие недели для многих из нас," добавил Зивтиньш. "Застряв в пробке, мы объединены общей целью — таять в машинах летом, замерзать в них в январе, аплодируя вечной пьесе, разыгрываемой перед нашими глазами."
+
+Местный житель и самопровозглашенный знаток пробок Марис Озолс с восторгом воспринял концепцию и с новообретенной признательностью за городские пейзажи. "Каждое утро — это как Олимпиада терпения и этикета сигналов," заметил Озолс, который с любопытством пытается побить свой личный рекорд по числу приветствий другим водителям. "Это объединяет нас, знаете ли, один обнадеживающий сигнал за раз."
+
+Не все спешат принять видение думы. Аналитик транспорта Илзе Страздиня с иронией отметила: "Хотя культурное участие важно, возможно, стоит сосредоточиться на скучных административных решениях — таких как улучшение общественного транспорта или работа над дорожной инфраструктурой — чтобы сделать поездки менее драматическим повествованием и более утилитарными?"
+
+Несмотря на критику, билеты на недавно объявленный 'Ежегодный праздник пробок' — где участники соревнуются за 'Самое долгое время простоя' и 'Самое креативное занятие в пробке' — были распроданы за считанные часы. "Мы даже не знали, что люди будут так взволнованы еще одной возможностью ничего не делать!" — усмехнулся Андрис Калниньш, местный кондитер, ставший организатором мероприятия.
+
+Является ли предложение — и потенциальные награды, которые оно стремится обеспечить для Риги — шуткой или действительно бюрократическим апофеозом, остается интересным вопросом. Но, как и в любом важном балтийском вопросе, время (и пробки) наверняка определят, станет ли этот новый досуг переходом от сатиры к празднуемой традиции. Тем временем жители Риги могут быть спокойны, зная, что каждое утреннее путешествие — это поездка по культурной памяти.`
+    },
+    date: "Jan 21, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 66,
     slug: "latvian-government-approves-new-national-holiday",
     title: {
@@ -95,7 +158,7 @@ Kā Latvijas pilsētas gatavojas saviem jaunākajiem svētkiem, gaidas ir augsta
     readTime: "10 min read",
     imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 65,
