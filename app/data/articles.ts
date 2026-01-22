@@ -17,6 +17,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 68,
+    slug: "riga-mayor-announces-ambitious-plan-to",
+    title: {
+      en: "Riga Mayor Announces Ambitious Plan to Decrease Traffic by Issuing All Residents Horse Licenses",
+      lv: "Rīgas mērs paziņo par ambiciozu plānu samazināt satiksmi, izsniedzot visiem iedzīvotājiem zirgu licences",
+      ru: "Мэр Риги объявляет амбициозный план по снижению трафика, выдавая всем жителям лицензии на лошадей"
+    },
+    excerpt: {
+      en: "In an unprecedented move, Riga's mayor declared the city's intentions to return to its equestrian roots, by granting horse-riding licenses to every resident. Officials claim the initiative could turn Riga into 'the Venice of Horsepower', sparking debates about parking oats and mandatory riding chaps.",
+      lv: "Nepieredzētā solī Rīgas mērs paziņoja par pilsētas nodomiem atgriezties pie savām jāšanas saknēm, piešķirot zirgu jāšanas licences katram iedzīvotājam. Amatpersonas apgalvo, ka šī iniciatīva varētu pārvērst Rīgu par 'Zirgu spēka Venēciju', izraisot diskusijas par auzu stāvvietām un obligātām jāšanas biksēm.",
+      ru: "В беспрецедентном шаге мэр Риги объявил о намерениях города вернуться к своим конным корням, предоставив лицензии на верховую езду каждому жителю. Официальные лица утверждают, что эта инициатива может превратить Ригу в 'Венецию лошадиной силы', вызывая дебаты о парковке овса и обязательных наезднических штанах."
+    },
+    fullContent: {
+      en: `In a bold attempt to combat Riga’s notorious traffic congestion, Mayor Ingridas Dudeskis announced a groundbreaking initiative that promises to whisk the city back to its medieval glory. By issuing every resident a horse-riding license and providing equestrian-friendly infrastructure, the plan aims to swap mechanical horsepower for the real deal.
+
+"We are looking to reinstate a simpler time, a pre-automobile utopia where Riga thrived under the rhythmic clatter of hooves," explained Mayor Dudeskis during a press conference held at the newly dubbed Pavardada Long Horse Stable (formerly known as the City Hall). "By 2025, each citizen will have the right to graze a licensed horse within city limits, effectively turning Riga into the Venice of Horsepower."
+
+While the mayor's office expects the initiative to improve air quality and ease commuting woes, the public has expressed a cocktail of curiosity and confusion. Local horse enthusiast and part-time centaur cosplayer, Māris Gogulis, couldn’t contain his enthusiasm. "At last, I can dress as Buttercup - my horse alter ego - every day and call it responsible urban commuting!"
+
+However, skepticism looms over the logistics of this equine revolution. Urban planner Daina Plauka raised concerns about potential "potholes of the past." "We definitely want to avoid a repeat of 1578 when the Great Old Town Manure Incident required a fleet of gondolas for pedestrian movement," she warned.
+
+To accommodate the influx of horses, the mayor’s office unveiled plans for 'Hay Banks' to replace petrol stations and 'Trough Stops' to complement tram stops. Already, construction has begun on the first multi-story horse park along Lačplēša Street. To address hygiene concerns, Deputy Mayor Andris Zābaks cryptically assured citizens that "the more fragrant scent of progress" would drift across the city.
+
+Social groups have raised eyebrows over the proposed mandatory horse-riding chaps and helmets adorned with Latvian folk symbols. Still, the governing body is committed to preserving tradition. "Riding a horse is not just transportation; it's experiencing Latvia’s cultural heritage with each trot," asserted cultural advisor Ilze Ziedlapsa.
+
+Economists estimate a stable currency boost as Riga positions itself to lead the overlapping markets of tourism, nostalgia, and immediate skepticism. Notably, the latest draft of the municipal budget allocates funds for annual 'hoof-tests' akin to car inspections and subsidies for oats, currently expected to outprice standard petrol within five years.
+
+Meanwhile, the horse population is poised for an unparalleled boom. Local groomers and saddle makers are working overtime to meet the demand, predicting a new era for Riga's mediaeval-renactment tourism industry.
+
+When asked about potential issues with equine rebellion or rogue feral packs, Mayor Dudeskis pointed out the milk industry as an unexpected partner. "To prevent unrest, each horse will receive regular consultations with our top bovine negotiators. Cows know how to keep calm – something we can all learn from."
+
+As the rest of the world watches, Riga seems determined to prove that a gallop backward just might be the necessary step forward, even if it means detours through oat-laden roundabouts. The city remains both hopeful and hoof-full as residents prepare to embrace the saddle in this audacious bid to rein in urban traffic chaos.`,
+      lv: `Drosmīgā mēģinājumā cīnīties ar Rīgas bēdīgi slaveno satiksmes sastrēgumu, mērs Ingrīds Dudeskis paziņoja par revolucionāru iniciatīvu, kas sola atgriezt pilsētu tās viduslaiku krāšņumā. Izsniedzot katram iedzīvotājam zirgu jāšanas licenci un nodrošinot jāšanai draudzīgu infrastruktūru, plāns mērķē nomainīt mehānisko zirgu spēku ar īsto.
+
+"Mēs vēlamies atjaunot vienkāršāku laiku, pirms automobiļu utopiju, kur Rīga plauka zem ritmiskās pakavu klaboņas," skaidroja mērs Dudeskis preses konferencē, kas notika jaunajā Pavardadas Garā Zirga Stallī (agrāk pazīstams kā Rātsnams). "Līdz 2025. gadam katram iedzīvotājam būs tiesības ganīt licencētu zirgu pilsētas robežās, efektīvi pārvēršot Rīgu par Zirgu spēka Venēciju."
+
+Lai gan mēra birojs sagaida, ka iniciatīva uzlabos gaisa kvalitāti un atvieglos pārvietošanos, sabiedrība izrāda ziņkāres un apjukuma kokteili. Vietējais zirgu entuziasts un nepilna laika centaura kostīmu nēsātājs Māris Gogulis nespēja slēpt savu sajūsmu. "Beidzot es varu katru dienu ģērbties kā Buttercup - mans zirga alter ego - un to saukt par atbildīgu pilsētas pārvietošanos!"
+
+Tomēr skepse par loģistiku šajā zirgu revolūcijā ir liela. Pilsētplānotāja Daina Plauka izteica bažas par iespējamām "pagātnes bedrēm". "Mēs noteikti vēlamies izvairīties no 1578. gada, kad Lielais Vecpilsētas Mēslojuma Incidents prasīja gondolu floti gājēju kustībai," viņa brīdināja.
+
+Lai pielāgotos zirgu pieplūdumam, mēra birojs atklāja plānus par 'Siena Bankām', kas aizstās degvielas uzpildes stacijas, un 'Siles Pieturām', kas papildinās tramvaja pieturas. Jau ir sākta pirmās daudzstāvu zirgu stāvvietas būvniecība Lāčplēša ielā. Lai risinātu higiēnas jautājumus, vicemērs Andris Zābaks noslēpumaini apliecināja iedzīvotājiem, ka "progresīvāka smarža" pārklās pilsētu.
+
+Sociālās grupas ir pacēlušas uzacis par ierosinātajām obligātajām jāšanas biksēm un ķiverēm, kas rotātas ar latviešu tautas simboliem. Tomēr valdība ir apņēmusies saglabāt tradīcijas. "Jāšana ar zirgu nav tikai transports; tas ir Latvijas kultūras mantojuma piedzīvojums katrā solī," apgalvoja kultūras padomniece Ilze Ziedlapsa.
+
+Ekonomisti lēš, ka stabila valūtas pieauguma iespēja ir, jo Rīga pozicionē sevi, lai vadītu tūrisma, nostalģijas un tūlītējas skepses pārklājošos tirgus. Ievērojami, ka jaunākais pašvaldības budžeta projekts piešķir līdzekļus ikgadējiem 'pakavu-testiem', līdzīgi kā automašīnu pārbaudēm, un auzu subsīdijām, kas pašlaik tiek prognozētas, lai pārsniegtu standarta degvielas cenas piecu gadu laikā.
+
+Tikmēr zirgu populācija ir gatava nepieredzētam uzplaukumam. Vietējie kopēji un seglu izgatavotāji strādā virsstundas, lai apmierinātu pieprasījumu, prognozējot jaunu ēru Rīgas viduslaiku rekonstrukcijas tūrisma nozarē.
+
+Kad jautāja par iespējamām problēmām ar zirgu sacelšanos vai mežonīgām klaiņojošām grupām, mērs Dudeskis norādīja uz piena nozari kā negaidītu partneri. "Lai novērstu nemierus, katrs zirgs saņems regulāras konsultācijas ar mūsu vadošajiem govju sarunu vedējiem. Govis zina, kā saglabāt mieru - kaut kas, ko mēs visi varam mācīties."
+
+Kamēr pārējā pasaule vēro, Rīga šķiet apņēmīga pierādīt, ka atgriešanās solis atpakaļ varētu būt nepieciešamais solis uz priekšu, pat ja tas nozīmē apvedceļus caur auzu piepildītiem apļiem. Pilsēta paliek cerīga un pilna ar pakaviem, kad iedzīvotāji gatavojas pieņemt seglus šajā drosmīgajā mēģinājumā savaldīt pilsētas satiksmes haosu.`,
+      ru: `В смелой попытке бороться с печально известными пробками в Риге, мэр Ингридас Дудескис объявил о революционной инициативе, обещающей вернуть город к его средневековому великолепию. Выдавая каждому жителю лицензию на верховую езду и предоставляя инфраструктуру, благоприятную для коней, план нацелен на замену механической лошадиной силы на настоящую.
+
+"Мы стремимся вернуть более простое время, утопию доавтомобильной эпохи, когда Рига процветала под ритмичным стуком копыт", объяснил мэр Дудескис на пресс-конференции, проведенной в недавно переименованных Конюшнях Павардада (ранее известные как Ратуша). "К 2025 году каждый гражданин будет иметь право пасти лицензированную лошадь в пределах города, фактически превращая Ригу в Венецию лошадиной силы".
+
+Хотя офис мэра ожидает, что инициатива улучшит качество воздуха и облегчит проблемы с передвижением, общественность выразила коктейль из любопытства и замешательства. Местный энтузиаст лошадей и частичный косплеер-кентавр Марис Гогулис не смог сдержать своего восторга. "Наконец-то я могу каждый день одеваться как Бабочка - моя лошадиная альтер-эго - и называть это ответственным городским передвижением!"
+
+Однако скептицизм нависает над логистикой этой конной революции. Городской планировщик Дайна Плаука выразила обеспокоенность по поводу потенциальных "ям прошлого". "Мы определенно хотим избежать повторения 1578 года, когда Великий инцидент с навозом в Старом городе потребовал флотилии гондол для передвижения пешеходов", предупредила она.
+
+Чтобы приспособиться к наплыву лошадей, офис мэра представил планы по замене автозаправочных станций на 'Банки сена' и дополнению остановок трамваев 'Кормушечными остановками'. Уже началось строительство первой многоэтажной конной парковки на улице Лачплеша. Чтобы решить проблемы с гигиеной, заместитель мэра Андрис Забакс загадочно заверил граждан, что "более ароматный запах прогресса" будет распространяться по городу.
+
+Социальные группы подняли брови по поводу предложенных обязательных наезднических штанов и шлемов, украшенных латвийскими народными символами. Тем не менее, правительство привержено сохранению традиций. "Езда на лошади - это не просто транспорт; это переживание культурного наследия Латвии с каждым шагом", утверждала культурный советник Илзе Зиедлапса.
+
+Экономисты оценивают стабильный рост валюты, поскольку Рига стремится возглавить пересекающиеся рынки туризма, ностальгии и немедленного скептицизма. Примечательно, что последний проект муниципального бюджета выделяет средства на ежегодные 'копытные тесты', аналогичные автомобильным проверкам, и субсидии на овес, который, как ожидается, превзойдет по цене стандартный бензин в течение пяти лет.
+
+Тем временем, лошадиное население готовится к беспрецедентному буму. Местные грумеры и производители седел работают сверхурочно, чтобы удовлетворить спрос, предсказывая новую эру для индустрии средневекового туризма Риги.
+
+Когда мэра Дудескиса спросили о потенциальных проблемах с конным восстанием или бродячими дикими стаями, он указал на молочную промышленность как на неожиданного партнера. "Чтобы предотвратить беспорядки, каждая лошадь будет получать регулярные консультации с нашими лучшими переговорщиками из числа крупного рогатого скота. Коровы знают, как сохранять спокойствие - чему мы все можем научиться".
+
+Пока остальной мир наблюдает, Рига, кажется, полна решимости доказать, что скачок назад может быть необходимым шагом вперед, даже если это означает объезды через овсяные круги. Город остается как полным надежд, так и полным копыт, поскольку жители готовятся принять седло в этой дерзкой попытке обуздать хаос городского трафика.`
+    },
+    date: "Jan 22, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 67,
     slug: "riga-city-council-launches-initiative-to",
     title: {
@@ -77,7 +158,7 @@ Vai priekšlikums—un potenciālie apbalvojumi, ko tas cenšas nodrošināt Rī
     readTime: "9 min read",
     imageUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 66,
