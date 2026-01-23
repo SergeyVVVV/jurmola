@@ -17,6 +17,75 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 69,
+    slug: "riga-to-host-worlds-first-infrared",
+    title: {
+      en: "Riga to Host World’s First Infrared Sauna Olympics; Experts Warn of Swole Snowmen and Superheated Saunas",
+      lv: "Rīga uzņems pasaulē pirmās Infrasarkano Saunu Olimpiskās spēles; Eksperti brīdina par muskuļotiem sniegavīriem un pārkarsušām saunām",
+      ru: "Рига станет местом проведения первых в мире Олимпийских игр по инфракрасной сауне; эксперты предупреждают о накачанных снеговиках и перегретых саунах"
+    },
+    excerpt: {
+      en: "In an unprecedented move, Riga has announced it will host the first-ever Infrared Sauna Olympics next summer. The city anticipates a surge in swole snowmen parading alongside traditional sauna shorts, attracting both athletes and intrigued spectators.",
+      lv: "Nepieredzētā solī Rīga paziņojusi, ka nākamajā vasarā rīkos pirmās Infrasarkano Saunu Olimpiskās spēles. Pilsēta sagaida muskuļotu sniegavīru parādi līdzās tradicionālajiem saunu šortiem, piesaistot gan sportistus, gan ieinteresētus skatītājus.",
+      ru: "В беспрецедентном шаге Рига объявила, что следующим летом она станет местом проведения первых в истории Олимпийских игр по инфракрасной сауне. Город ожидает наплыва накачанных снеговиков, шествующих рядом с традиционными шортами для сауны, привлекая как спортсменов, так и любопытных зрителей."
+    },
+    fullContent: {
+      en: `Riga, Latvia – Stepping boldly into uncharted global waters—or perhaps steamy steam rooms—Riga has been confirmed as the host city for the inaugural Infrared Sauna Olympics, slated for next summer. This groundbreaking event is anticipated to combine the serene, healing atmosphere of traditional earth to sky sauna therapy with the exhilarating competitive spirit of Olympic endeavor.
+
+"We are delighted to introduce a new kind of athletic challenge that reflects our Baltic love for saunas," stated Ivars Skudra, head of the Latvian Sauna Association and lead organizer of the games. "Participants can look forward to events like Extreme Sweating, Emotional Stoicism Under Heat, and, of course, the revered Speedy Towel Wrap."
+
+While the concept of sauna sports might seem novel to outsiders, organizers expect the event to draw not only local enthusiasts but also quirky competitors from sauna-rich countries such as Finland, Russia, and Estonia. "We’re really cranking up the heat on international cooperation,” Skudra added, tightening his terry cloth robe.
+
+The city's tourism board is similarly optimistic, projecting a 300% increase in global sauna tourism. Eager to showcase Riga’s historic charm alongside cutting-edge infrared technology, they plan to provide complimentary birch whisks and an app that allows spectators to vote on categories like 'Most Dramatic Sauna Exit'.
+
+Concerns, however, have been raised by some environmentalists. "With all these high-powered saunas running at full blast, we fear we might see an unusual summer snowfall of swole snowmen," warned Dr. Milda Sprüde, head of the Latvian Climate Anomalies Coalition. Her comments refer to a growing body of evidence suggesting that extreme heat emissions could lead to localized evaporation, potentially causing instances of sweating snowmen—an unforeseen consequence already dubbed ‘Frozen Fumes’ by the local media.
+
+Further challenges present themselves in the realm of participant performance. "Heat stroke is no joke," advises Janis Ozols, Latvia’s leading physiologist specializing in thermoregulation. "The physical toll on these athletes under such conditions could result in massive dehydration, which is why all competitors will be offered mandatory post-event hydration therapy—preferably involving plentiful doses of Latvia’s finest kvass."
+
+Despite these concerns, the anticipation is palpable as hundreds of potential participants—from nimble novices to seasoned sauna veterans—begin their rigorous heat tolerance training regimens. Juris, a 23-year-old hopeful from Jūrmala, has taken to crafting his own personal snow room for recovery. "I call it a sauna sandwich," he explained, "alternating my training between heat rooms and snow baths to build resilience—and to chill out my spirit."
+
+As Riga prepares to turn up the thermal dial on international events, all eyes are set on the ancient city with a new, heated purpose. Whether leading to a spike in global sauna interest or eccentric meteorological phenomena, one thing is clear: the Infrared Sauna Olympics will undoubtedly challenge conventions, bear hot contenders, and ignite local passion in a blaze worthy of Olympic torch standards.`,
+      lv: `Rīga, Latvija – Drosmīgi ieejot nezināmās globālās ūdeņos — vai varbūt tvaika telpās — Rīga ir apstiprināta kā pirmo Infrasarkano Saunu Olimpisko spēļu rīkotājpilsēta, kas plānotas nākamajā vasarā. Šis revolucionārais pasākums sola apvienot tradicionālās zemes līdz debesīm saunu terapijas mierīgo, dziedinošo atmosfēru ar Olimpisko centienu aizraujošo sacensību garu.
+
+"Mēs esam priecīgi ieviest jauna veida sporta izaicinājumu, kas atspoguļo mūsu Baltijas mīlestību pret saunām," sacīja Ivars Skudra, Latvijas Saunu asociācijas vadītājs un spēļu galvenais organizators. "Dalībnieki varēs piedalīties tādos pasākumos kā Ekstrēma svīšana, Emocionālais stoicisms karstumā un, protams, cienījamā Ātrā dvieļa aptīšana."
+
+Lai gan saunu sporta koncepts var šķist jauns ārējiem novērotājiem, organizatori sagaida, ka pasākums piesaistīs ne tikai vietējos entuziastus, bet arī dīvainus konkurentus no saunu bagātām valstīm, piemēram, Somijas, Krievijas un Igaunijas. "Mēs patiešām uzkarsējam starptautisko sadarbību," piebilda Skudra, pievelkot savu frotē halātu.
+
+Pilsētas tūrisma padome ir līdzīgi optimistiska, prognozējot 300% pieaugumu globālajā saunu tūrismā. Vēloties parādīt Rīgas vēsturisko šarmu līdzās modernajām infrasarkanajām tehnoloģijām, viņi plāno nodrošināt bezmaksas bērzu slotas un lietotni, kas ļauj skatītājiem balsot tādās kategorijās kā 'Dramatiskākā saunas izeja'.
+
+Tomēr daži vides aizstāvji ir izteikuši bažas. "Ar visām šīm augstas jaudas saunām, kas darbojas pilnā jaudā, mēs baidāmies, ka varētu ieraudzīt neparastu vasaras snigšanu ar muskuļotiem sniegavīriem," brīdināja Dr. Milda Sprūde, Latvijas Klimata anomāliju koalīcijas vadītāja. Viņas komentāri atsaucas uz pieaugošo pierādījumu kopumu, kas liecina, ka ekstremālas siltuma emisijas varētu izraisīt lokalizētu iztvaikošanu, iespējams, izraisot svīstošu sniegavīru gadījumus — neparedzētu seku, ko vietējie mediji jau nodēvējuši par 'Saldētajiem izgarojumiem'.
+
+Turpmākas problēmas rodas dalībnieku snieguma jomā. "Karstuma dūriens nav joks," brīdina Jānis Ozols, Latvijas vadošais fiziologs, kas specializējas termoregulācijā. "Fiziskais slogs šiem sportistiem šādos apstākļos varētu izraisīt masveida dehidratāciju, tāpēc visiem dalībniekiem tiks piedāvāta obligāta pēcpasākuma hidratācijas terapija — vēlams, ar bagātīgām Latvijas labākā kvasa devām."
+
+Neskatoties uz šīm bažām, gaidas ir jūtamas, jo simtiem potenciālo dalībnieku — no veikliem iesācējiem līdz pieredzējušiem saunu veterāniem — sāk savas intensīvās karstuma tolerances treniņu programmas. Juris, 23 gadus vecs cerīgais no Jūrmalas, ir sācis veidot savu personīgo sniega telpu atveseļošanai. "Es to saucu par saunas sviestmaizi," viņš paskaidroja, "mainot treniņus starp karstuma telpām un sniega vannām, lai stiprinātu izturību — un atvēsinātu savu garu."
+
+Kā Rīga gatavojas paaugstināt termālo skalu starptautiskos pasākumos, visas acis ir vērstas uz seno pilsētu ar jaunu, karstu mērķi. Vai tas izraisīs globālu saunu intereses pieaugumu vai ekscentriskus meteoroloģiskus fenomenus, viena lieta ir skaidra: Infrasarkano Saunu Olimpiskās spēles neapšaubāmi izaicinās konvencijas, radīs karstus pretendentus un aizdedzinās vietējo aizraušanos liesmā, kas ir cienīga Olimpiskās lāpas standartiem.`,
+      ru: `Рига, Латвия – Смело шагая в неизведанные глобальные воды – или, возможно, парные комнаты – Рига была подтверждена как город-хозяин первых в истории Олимпийских игр по инфракрасной сауне, которые запланированы на следующее лето. Это новаторское событие предполагает объединение спокойной, целебной атмосферы традиционной терапии от земли до неба с захватывающим дух соревновательным духом Олимпийских игр.
+
+"Мы рады представить новый вид спортивного вызова, который отражает нашу балтийскую любовь к саунам," заявил Иварс Скудра, глава Латвийской ассоциации саун и главный организатор игр. "Участники могут с нетерпением ждать таких мероприятий, как Экстремальное потоотделение, Эмоциональная стойкость под жарой и, конечно, почитаемое Скоростное обертывание полотенцем."
+
+Хотя концепция спортивных саун может показаться новой для посторонних, организаторы ожидают, что мероприятие привлечет не только местных энтузиастов, но и эксцентричных участников из стран, богатых саунами, таких как Финляндия, Россия и Эстония. "Мы действительно повышаем температуру международного сотрудничества," добавил Скудра, затягивая свой махровый халат.
+
+Туристический совет города также настроен оптимистично, прогнозируя увеличение глобального саунного туризма на 300%. Стремясь продемонстрировать историческое очарование Риги наряду с передовыми инфракрасными технологиями, они планируют предоставить бесплатные березовые веники и приложение, которое позволит зрителям голосовать в таких категориях, как "Самый драматичный выход из сауны".
+
+Однако некоторые экологисты выразили обеспокоенность. "С этими мощными саунами, работающими на полную мощность, мы опасаемся, что можем увидеть необычное летнее выпадение снега в виде накачанных снеговиков," предупредила доктор Мильда Спруде, глава Латвийской коалиции климатических аномалий. Ее комментарии относятся к растущему количеству доказательств, предполагающих, что экстремальные тепловые выбросы могут привести к локализованному испарению, потенциально вызывая случаи потеющих снеговиков – непредвиденное последствие, уже названное местными СМИ "Замороженными парами".
+
+Дополнительные проблемы возникают в области производительности участников. "Тепловой удар – это не шутка," предупреждает Янис Озолс, ведущий латвийский физиолог, специализирующийся на терморегуляции. "Физическая нагрузка на этих спортсменов в таких условиях может привести к массовому обезвоживанию, поэтому всем участникам будет предложена обязательная постсоревновательная гидратационная терапия – предпочтительно с обильными дозами лучшего латвийского кваса."
+
+Несмотря на эти опасения, ожидание ощутимо, так как сотни потенциальных участников – от ловких новичков до опытных ветеранов сауны – начинают свои строгие тренировки по толерантности к жаре. Юрис, 23-летний претендент из Юрмалы, занялся созданием своей личной снежной комнаты для восстановления. "Я называю это сауной-сэндвичем," объяснил он, "чередуя тренировки между жаркими комнатами и снежными ваннами, чтобы развить выносливость – и охладить свой дух."
+
+Пока Рига готовится повысить термический градус международных событий, все взгляды обращены на древний город с новой, горячей целью. Будь то всплеск глобального интереса к саунам или эксцентричные метеорологические явления, одно ясно: Олимпийские игры по инфракрасной сауне несомненно бросят вызов традициям, выведут на арену горячих претендентов и зажгут местную страсть пламенем, достойным олимпийских стандартов факела.`
+    },
+    date: "Jan 23, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "7 min read",
+    imageUrl: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&h=600&fit=crop",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 68,
     slug: "riga-mayor-announces-ambitious-plan-to",
     title: {
@@ -95,7 +164,7 @@ Kamēr pārējā pasaule vēro, Rīga šķiet apņēmīga pierādīt, ka atgrie�
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 67,
