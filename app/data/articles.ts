@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 70,
+    slug: "latvia-establishes-worlds-first-ever-ministry",
+    title: {
+      en: "Latvia Establishes World's First Ever Ministry of Cozy Sweaters",
+      lv: "Latvija izveido pasaulē pirmo Ērto Džemperu Ministriju",
+      ru: "Латвия учреждает первое в мире Министерство уютных свитеров"
+    },
+    excerpt: {
+      en: "In a groundbreaking move warmly received by citizens across the nation, Latvia has become the proud host of the world's first Ministry of Cozy Sweaters. Tasked with ensuring the coziness level of sweaters remains above 85% at all times, the ministry promises revolutionary advancements in comfort governance.",
+      lv: "Pārsteidzošā solī, kas sirsnīgi uzņemts visā valstī, Latvija kļuvusi par lepnu pasaulē pirmās Ērto Džemperu Ministrijas mājvietu. Ministrijas uzdevums ir nodrošināt, lai džemperu ērtības līmenis vienmēr pārsniegtu 85%, solot revolucionārus sasniegumus komforta pārvaldībā.",
+      ru: "В новаторском шаге, тепло принятом гражданами по всей стране, Латвия стала гордым хозяином первого в мире Министерства уютных свитеров. Задача министерства — обеспечивать уровень уюта свитеров выше 85% в любое время, обещая революционные достижения в управлении комфортом."
+    },
+    fullContent: {
+      en: `Riga – In a historic announcement made at Rīga Castle yesterday, Prime Minister Valds Snugglis declared the establishment of the Ministry of Cozy Sweaters, a new governmental body dedicated to the prioritization of sweater-induced comfort levels across Latvia. 
+
+"For too long has the softness of wool and the artistry of Latvian knitting gone unnoticed in the corridors of global fashion," Snugglis stated, wrapped in a particularly snug Aran-knit cardigan. "We anticipate this ministry will usher in a new era of both physical and emotional warmth for our people, and maybe even warmth in discussions at next UN meetings, a place notoriously known for its chilly atmospheres."
+
+The ministry will be headed by seasoned cozy-wear advocate and well-known sweater enthusiast, Linda Woolsyte. She has assured citizens, "Our primary goal is to achieve a national average sweater comfort rating of nothing less than 90%, measured using the newly invented SnuggleMeter™ developed by the National Institute of Cuddles."
+
+The inaugural Cozy Sweater Inspection Team (CSIT), has already begun its rounds, ensuring sweaters sold in Latvian markets meet the newly implemented standards ahead of the winter season. "We caught a few attempts to pass off acrylic blends — absolutely abominable!" exclaimed chief inspector, Aloizs Knittmurnis. "It’s essential our citizens remain enveloped in genuine, warm coziness. We cannot let acrylic betray our natural fiber legacy."
+
+In related activities, educational initiatives will reportedly kick off in schools next week, hoping to secure a new generation of wool whisperers. As students across Latvia prepare for the Cozy Curriculum, seven-year-old Marta Silmalas, grinned shyly when asked about her favorite brand. "I like the ones that Grandma makes," she said, tugging at her homemade jumper. "They are the warmest and coziest."
+
+The nationwide embrace of the ministry has led to an unexpected economic boom as well. The sight of fervent knitting circles popping up in parks, cafés, and even the Trout Museum, where patrons can now weave while admiring the nation's piscine heritage, has been noted. "We've seen a 200% increase in yarn sales just this past week," said Miranda Lainera, owner of 'Wool You Be Mine', Riga’s largest yarn emporium. "People are finally realizing that true happiness can be found between the folds of a Latvian-knit pullover."
+
+International reactions have ranged from eager curiosity to skeptic chuckles, with neighboring Estonia allegedly pondering the creation of a Ministry of Saunas. A spokesperson for the Estonian government was unable to answer detailed queries, due to being "in the сӓsǟугк (sauna)", as per custom.
+
+A prominent voice from the Latvian Foreign Affairs giggled at such developments, stating, "Our sweaters are cross-border negotiators now. Can you really argue with diplomacy swathed in irresistible coziness?"
+
+With the first official Sweater Summit set for December, as snowflakes grace the Baltic coast, Latvians prepare to snug into an era where diplomacy isn’t just about open borders, but buttoned cardigans — warm, comforting, and forever cozy.`,
+      lv: `Rīga – Vakar Rīgas pilī vēsturiskā paziņojumā premjerministrs Valds Snugglis paziņoja par Ērto Džemperu Ministrijas izveidi, jaunu valdības iestādi, kas veltīta džemperu radītā komforta līmeņa prioritizēšanai visā Latvijā.
+
+"Pārāk ilgi vilnas maigums un Latvijas adīšanas māksla ir palikusi nepamanīta globālās modes gaiteņos," sacīja Snugglis, ietērpies īpaši ērtā Aran adītā jakā. "Mēs ceram, ka šī ministrija ievadīs jaunu fiziskās un emocionālās siltuma ēru mūsu tautai, un varbūt pat siltumu diskusijās nākamajās ANO sanāksmēs, vietā, kas bēdīgi slavena ar savu vēso atmosfēru."
+
+Ministriju vadīs pieredzējusi ērtā apģērba aizstāve un labi pazīstama džemperu entuziaste Linda Woolsyte. Viņa ir apliecinājusi pilsoņiem: "Mūsu galvenais mērķis ir sasniegt nacionālo vidējo džemperu komforta vērtējumu, kas nav mazāks par 90%, izmantojot jaunizgudroto SnuggleMeter™, ko izstrādājis Nacionālais Apskāvienu Institūts."
+
+Pirmā Ērto Džemperu Inspekcijas Komanda (CSIT) jau ir sākusi savus apgaitas, pārliecinoties, ka Latvijas tirgos pārdotie džemperi atbilst jaunajiem standartiem pirms ziemas sezonas. "Mēs pieķērām dažus mēģinājumus izdot akrila maisījumus par īstiem — pilnīgi nepieņemami!" izsaucās galvenais inspektors Aloizs Knittmurnis. "Ir būtiski, lai mūsu pilsoņi paliktu ietverti īstā, siltā ērtībā. Mēs nevaram ļaut akrilam nodot mūsu dabisko šķiedru mantojumu."
+
+Saistītās aktivitātēs izglītojošās iniciatīvas, kā ziņots, sāksies skolās nākamnedēļ, cerot nodrošināt jaunu vilnas čukstētāju paaudzi. Kad skolēni visā Latvijā gatavojas Ērtajam Mācību Plānam, septiņus gadus vecā Marta Silmalas kautrīgi pasmaidīja, kad viņai jautāja par viņas iecienītāko zīmolu. "Man patīk tie, ko vecmāmiņa taisa," viņa teica, pavelkot savu paštaisīto džemperi. "Tie ir viswarmākie un ērtākie."
+
+Valsts mēroga ministrijas pieņemšana ir izraisījusi arī negaidītu ekonomisko uzplaukumu. Ir novērots, ka dedzīgas adīšanas grupas parādās parkos, kafejnīcās un pat Foreļu muzejā, kur apmeklētāji tagad var aust, apbrīnojot valsts zivju mantojumu. "Mēs esam redzējuši 200% pieaugumu dzijas pārdošanā tikai šonedēļ," sacīja Miranda Lainera, Rīgas lielākās dzijas veikala 'Wool You Be Mine' īpašniece. "Cilvēki beidzot saprot, ka īsta laime ir atrodama starp Latvijas adītā džempera krokām."
+
+Starptautiskās reakcijas ir svārstījušās no ziņkārīgas interesi līdz skeptiskiem smiekliem, kaimiņvalstij Igaunijai it kā apsverot Saunu Ministrijas izveidi. Igaunijas valdības pārstāvis nespēja atbildēt uz detalizētiem jautājumiem, jo bija "сӓсӓ̄угк (saunā)", kā tas ir ierasts.
+
+Ievērojama balss no Latvijas Ārlietu ministrijas smējās par šādiem notikumiem, norādot: "Mūsu džemperi tagad ir pāri robežām strādājoši sarunu vedēji. Vai tiešām varat strīdēties ar diplomātiju, kas ietverta neatvairāmā ērtībā?"
+
+Ar pirmo oficiālo Džemperu Samitu, kas paredzēts decembrī, kad sniegpārslas rotā Baltijas krastu, latvieši gatavojas iegrimt ērā, kur diplomātija nav tikai par atvērtām robežām, bet arī par aizpogātām jakām — siltām, mierinošām un mūžīgi ērtām.`,
+      ru: `Рига — Вчера в историческом заявлении, сделанном в Рижском замке, премьер-министр Валдс Снагглис объявил об учреждении Министерства уютных свитеров, нового государственного органа, посвященного приоритету уровня комфорта, создаваемого свитерами, по всей Латвии.
+
+"Слишком долго мягкость шерсти и искусство латвийского вязания оставались незамеченными в коридорах мировой моды," заявил Снагглис, закутанный в особенно уютный кардиган с аранами. "Мы ожидаем, что это министерство откроет новую эру как физического, так и эмоционального тепла для нашего народа, а возможно, даже тепла в обсуждениях на следующих заседаниях ООН, месте, печально известном своими холодными атмосферами."
+
+Министерство возглавит опытный защитник уютной одежды и известный энтузиаст свитеров, Линда Вулсайте. Она заверила граждан: "Наша основная цель — достичь национального среднего рейтинга комфорта свитеров не менее 90%, измеряемого с помощью недавно изобретенного SnuggleMeter™, разработанного Национальным институтом объятий."
+
+Первая Инспекционная команда уютных свитеров (CSIT) уже начала свои обходы, чтобы убедиться, что свитера, продаваемые на латвийских рынках, соответствуют новым стандартам перед зимним сезоном. "Мы поймали несколько попыток выдать акриловые смеси — абсолютно отвратительно!" воскликнул главный инспектор, Алоизс Книттмурнис. "Важно, чтобы наши граждане оставались окутанными подлинным, теплым уютом. Мы не можем позволить акрилу предать наше наследие натуральных волокон."
+
+В рамках сопутствующих мероприятий образовательные инициативы, как сообщается, начнутся в школах на следующей неделе, надеясь обеспечить новое поколение шепчущих шерсть. Когда ученики по всей Латвии готовятся к уютной учебной программе, семилетняя Марта Силмалас застенчиво улыбнулась, когда ее спросили о любимом бренде. "Мне нравятся те, которые делает бабушка," сказала она, потянув за свой домашний джемпер. "Они самые теплые и уютные."
+
+Общенациональное принятие министерства привело к неожиданному экономическому буму. Замечено, что в парках, кафе и даже в Музее форели, где посетители теперь могут вязать, любуясь национальным рыбным наследием, появляются горячие вязальные кружки. "Мы наблюдали 200% рост продаж пряжи только на прошлой неделе," сказала Миранда Лайнера, владелица 'Wool You Be Mine', крупнейшего магазина пряжи в Риге. "Люди наконец-то осознают, что истинное счастье можно найти между складками латвийского вязаного пуловера."
+
+Международные реакции варьировались от жадного любопытства до скептических смешков, причем соседняя Эстония якобы размышляет о создании Министерства саун. Представитель эстонского правительства не смог ответить на подробные вопросы, так как находился "в сӓсӓ̄угк (сауне)", как это принято.
+
+Выдающийся голос из латвийского Министерства иностранных дел хихикнул по поводу таких событий, заявив: "Наши свитера теперь трансграничные переговорщики. Разве можно спорить с дипломатией, окутанной неотразимым уютом?"
+
+С первым официальным Саммитом свитеров, запланированным на декабрь, когда снежинки украсят балтийское побережье, латвийцы готовятся войти в эпоху, где дипломатия — это не только открытые границы, но и застегнутые кардиганы — теплые, утешительные и навсегда уютные.`
+    },
+    date: "Jan 24, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 69,
     slug: "riga-to-host-worlds-first-infrared",
     title: {
@@ -83,7 +158,7 @@ Kā Rīga gatavojas paaugstināt termālo skalu starptautiskos pasākumos, visas
     readTime: "7 min read",
     imageUrl: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&h=600&fit=crop",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 68,
