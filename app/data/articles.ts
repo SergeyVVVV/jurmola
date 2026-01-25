@@ -17,6 +17,75 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 71,
+    slug: "riga-to-introduce-paizies-zones-mandatory",
+    title: {
+      en: "Riga to Introduce 'Paizies' Zones: Mandatory Napping Areas for Overworked Pigeons",
+      lv: "Rīgā ieviesīs 'Paizies' zonas: obligātās snaudu vietas pārstrādājušies baložiem",
+      ru: "Рига вводит зоны 'Паизие': обязательные места для сна переутомленных голубей"
+    },
+    excerpt: {
+      en: "In an unprecedented move to support Riga’s working-class pigeons, the city council has announced new 'Paizies' zones. These are specifically designated, irresistibly comfortable napping spots aimed at combatting what officials are calling a 'pigeon burnout crisis'.",
+      lv: "Nepieredzētā solī, lai atbalstītu Rīgas strādnieku klases baložus, pilsētas dome ir paziņojusi par jaunajām 'Paizies' zonām. Tās ir īpaši izveidotas, neizturami ērtas snaudu vietas, kuru mērķis ir cīnīties ar to, ko amatpersonas sauc par 'baložu izdegšanas krīzi'.",
+      ru: "В беспрецедентном шаге по поддержке рижских голубей рабочего класса городской совет объявил о новых зонах 'Паизие'. Это специально отведенные, неотразимо комфортные места для сна, направленные на борьбу с тем, что чиновники называют 'кризисом выгорания голубей'."
+    },
+    fullContent: {
+      en: `In an ambitious effort to tackle the burgeoning issue of avian fatigue, the Riga City Council revealed plans on Monday to introduce 'Paizies' zones—mandatory napping areas for the city's hard-pressed pigeon population. This groundbreaking initiative has been described as the first of its kind in pigeon welfare policies across Europe.
+
+The decision comes after a comprehensive study conducted by the University of Jurmala's Department of Ornithological Affairs, which found that over 65% of urban pigeons are suffering from extreme exhaustion due to relentless touring schedules around Old Town, endless park appearances, and an ever-increasing demand for impromptu fly-past performances at local weddings.
+
+Līga Smilga, the newly appointed Deputy Minister for Avian Well-being, emphasized the serious strain on the city's pigeons. 'Pigeons are more than just cooing companions; they're integral to the cultural fabric of Riga. But their round-the-clock duties have pushed them to the brink. Introducing the 'Paizies' zones will allow them the rest they so desperately need,' she announced at a press conference while casually shooing a tired-looking pigeon off the lectern.
+
+The 'Paizies' zones will be equipped with plush perches, tiny hammocks, and miniature murals of local legends, designed to lull the pigeons into a deep, restorative slumber. Funding for these zones has been secured through a combination of local taxation and a generous grant from the European Union's Pigeon Protection Programme.
+
+Not everyone is delighted with the plan, however. Dita Zīlīte, leader of the grassroots organization People Against Pigeon Pampering (PAPP), voiced her concerns: 'This is a waste of our resources. Since when did pigeons start needing special treatment? Next, they'll be demanding spa days and gourmet breadcrumbs!' Observers noted that Zīlīte's protest was drowned out by approving coos from an audience of steadfast pigeons positioned strategically above the demonstration.
+
+For their part, the pigeons have remained largely silent, although a brief press release was issued from an undisclosed rooftop location. It thanked the council for 'finally recognizing our plight,' and expressed hopes for 'more understanding from our human counterparts.'
+
+Riga residents appear divided. One local shopkeeper, Jānis Vilks, expressed mild support: 'After all, we Latvians love our naps. If it's good enough for us, it's good enough for them, right? Plus, maybe they'll stop congregating outside my storefront to catch a quick power nap on my awning.'
+
+'Paizies' zones are set to be rolled out by early spring next year, ready to coincide with migrating pigeons returning from their winter retreats in southern Europe, who will surely appreciate a comfortable place to rest. As everyone eagerly awaits the effects of this unwonted initiative, Riga's pigeons can rest easier knowing that soon, a soft spot will be theirs to share in every square and park throughout the city.`,
+      lv: `Ambiciozā mēģinājumā risināt pieaugošo putnu noguruma problēmu Rīgas pilsētas dome pirmdien paziņoja par plāniem ieviest 'Paizies' zonas—obligātās snaudu vietas pilsētas pārstrādājušies baložu populācijai. Šī revolucionārā iniciatīva ir aprakstīta kā pirmā šāda veida baložu labklājības politika visā Eiropā.
+
+Lēmums pieņemts pēc visaptveroša pētījuma, ko veica Jūrmalas Universitātes Ornitoloģijas lietu departaments, kurš atklāja, ka vairāk nekā 65% pilsētas baložu cieš no ārkārtēja izsīkuma dēļ nepārtrauktiem tūres grafikiem pa Vecrīgu, bezgalīgām parku uzstāšanās reizēm un arvien pieaugoša pieprasījuma pēc spontāniem lidojumiem vietējās kāzās.
+
+Līga Smilga, jaunieceltā Putnu labklājības ministra vietniece, uzsvēra nopietno slodzi uz pilsētas baložiem. 'Baloži ir vairāk nekā tikai dūdojoši pavadoņi; tie ir neatņemama Rīgas kultūras auduma daļa. Bet viņu diennakts pienākumi ir noveduši viņus līdz izsīkuma robežai. 'Paizies' zonu ieviešana ļaus viņiem iegūt tik ļoti nepieciešamo atpūtu,' viņa paziņoja preses konferencē, viegli aizdzenot nogurušu izskatu balodi no tribīnes.
+
+'Paizies' zonas būs aprīkotas ar mīkstiem peršiem, mazām šūpuļtīkliem un miniatūrām vietējo leģendu freskām, kas paredzētas, lai ieaijātu baložus dziļā, atjaunojošā miegā. Finansējums šīm zonām ir nodrošināts, apvienojot vietējos nodokļus un dāsnu grantu no Eiropas Savienības Baložu aizsardzības programmas.
+
+Tomēr ne visi ir sajūsmā par šo plānu. Dita Zīlīte, bāzes organizācijas Cilvēki pret baložu lutināšanu (PAPP) vadītāja, izteica savas bažas: 'Tas ir mūsu resursu izšķērdējums. Kopš kura laika baložiem ir nepieciešama īpaša attieksme? Nākamais, ko viņi prasīs, būs spa dienas un gardēžu maizes drupačas!' Novērotāji atzīmēja, ka Zīlītes protests tika noslīcināts apstiprinošās dūdošanās no uzticīgu baložu auditorijas, kas stratēģiski novietojās virs demonstrācijas.
+
+Savukārt baloži lielākoties ir palikuši klusi, lai gan tika izdots īss preses paziņojums no nezināmas jumta vietas. Tas pateicās domei par 'beidzot atzīto mūsu ciešanas' un izteica cerības uz 'lielāku sapratni no mūsu cilvēku kolēģiem'.
+
+Rīgas iedzīvotāji šķiet sadalīti. Viens vietējais veikala īpašnieks, Jānis Vilks, izteica vieglu atbalstu: 'Galu galā, mēs latvieši mīlam savas snaudas. Ja tas ir pietiekami labs mums, tad tas ir pietiekami labs arī viņiem, vai ne? Turklāt, varbūt viņi pārstās pulcēties pie mana veikala priekšā, lai uzmest ātru snaudu uz mana nojumes.'
+
+'Paizies' zonas tiks ieviestas līdz nākamā gada agrā pavasarī, lai sakristu ar migrējošiem baložiem, kas atgriežas no ziemas atpūtas dienvidu Eiropā, kuri noteikti novērtēs ērtu vietu atpūtai. Kamēr visi ar nepacietību gaida šīs neparastās iniciatīvas sekas, Rīgas baloži varēs atpūsties mierīgāk, zinot, ka drīz katrā laukumā un parkā visā pilsētā būs viņiem paredzēta mīksta vieta.`,
+      ru: `В амбициозной попытке справиться с растущей проблемой птичьей усталости Рижский городской совет в понедельник объявил о планах введения зон 'Паизие' — обязательных мест для сна для перегруженной популяции голубей города. Эта новаторская инициатива была описана как первая в своем роде в политике благосостояния голубей по всей Европе.
+
+Решение было принято после всестороннего исследования, проведенного кафедрой орнитологических дел Юрмальского университета, которое показало, что более 65% городских голубей страдают от крайней усталости из-за неумолимых графиков туров по Старому городу, бесконечных появлений в парках и постоянно растущего спроса на импровизированные пролеты на местных свадьбах.
+
+Лига Смилга, недавно назначенный заместитель министра по благополучию птиц, подчеркнула серьезное напряжение, испытываемое голубями города. 'Голуби — это больше, чем просто воркующие спутники; они неотъемлемая часть культурной ткани Риги. Но их круглосуточные обязанности довели их до предела. Введение зон 'Паизие' позволит им отдохнуть, в котором они так отчаянно нуждаются,' — заявила она на пресс-конференции, небрежно отгоняя усталого голубя с трибуны.
+
+Зоны 'Паизие' будут оборудованы мягкими жердочками, крошечными гамаками и миниатюрными фресками местных легенд, призванными убаюкать голубей в глубокий восстанавливающий сон. Финансирование этих зон было обеспечено за счет сочетания местного налогообложения и щедрого гранта от Программы защиты голубей Европейского Союза.
+
+Однако не все в восторге от этого плана. Дита Зилите, лидер общественной организации Люди против баловства голубей (PAPP), выразила свои опасения: 'Это пустая трата наших ресурсов. С каких это пор голубям понадобилось особое обращение? Следующим шагом они потребуют спа-дни и гурманские крошки!' Наблюдатели отметили, что протест Зилите был заглушен одобрительными воркованиями аудитории стойких голубей, стратегически расположившихся над демонстрацией.
+
+Со своей стороны, голуби в основном хранили молчание, хотя было выпущено краткое пресс-релиз с нераскрытой крыши. В нем они поблагодарили совет за 'наконец-то признание нашей беды' и выразили надежду на 'большее понимание со стороны наших человеческих собратьев.'
+
+Жители Риги разделились во мнениях. Один местный торговец, Янис Вилкс, выразил умеренную поддержку: 'В конце концов, мы, латыши, любим дремать. Если это хорошо для нас, то почему бы и нет для них, верно? Плюс, может быть, они перестанут собираться у моего магазина, чтобы вздремнуть на моем навесе.'
+
+Зоны 'Паизие' планируется развернуть к началу весны следующего года, чтобы совпасть с возвращением мигрирующих голубей из их зимних убежищ в южной Европе, которые, несомненно, оценят комфортное место для отдыха. Пока все с нетерпением ждут эффектов этой необычной инициативы, рижские голуби могут спать спокойнее, зная, что вскоре у них будет мягкое место, чтобы разделить его на каждой площади и в каждом парке по всему городу.`
+    },
+    date: "Jan 25, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 70,
     slug: "latvia-establishes-worlds-first-ever-ministry",
     title: {
@@ -89,7 +158,7 @@ Ar pirmo oficiālo Džemperu Samitu, kas paredzēts decembrī, kad sniegpārslas
     readTime: "5 min read",
     imageUrl: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 69,
