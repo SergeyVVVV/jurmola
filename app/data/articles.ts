@@ -17,6 +17,75 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 72,
+    slug: "latvian-government-announces-new-national-squirrel",
+    title: {
+      en: "Latvian Government Announces New National Squirrel Census: 'No Squirrel Left Behind!'",
+      lv: "Latvijas valdība izziņo jaunu nacionālo vāveru skaitīšanu: 'Neviena vāvere netiks atstāta aiz muguras!'",
+      ru: "Латвийское правительство объявляет новую национальную перепись белок: 'Ни одна белка не останется без внимания!'"
+    },
+    excerpt: {
+      en: "In an unprecedented move, the Latvian Ministry of Natural Enchantments has launched a nationwide census to catalog every squirrel within the country’s borders. Equipped with tiny clipboards and magnifying glasses, volunteers are ensuring each squirrel's tale is told—sometimes literally.",
+      lv: "Bezprecedenta solī Latvijas Dabas Apburtību ministrija ir uzsākusi valsts mēroga skaitīšanu, lai uzskaitītu katru vāveri valsts robežās. Aprīkoti ar mazām kladītēm un palielināmajiem stikliem, brīvprātīgie nodrošina, ka katras vāveres stāsts tiek izstāstīts—dažreiz burtiski.",
+      ru: "В беспрецедентном шаге Министерство природных очарований Латвии запустило общенациональную перепись для учета каждой белки в пределах границ страны. Вооруженные крошечными планшетами и лупами, волонтеры обеспечивают, чтобы история каждой белки была рассказана — иногда буквально."
+    },
+    fullContent: {
+      en: `In a bold display of governmental foresight and rodent appreciation, the Latvian Ministry of Natural Enchantments (MNE) has unveiled its latest environmental initiative: The Great Latvian Squirrel Census of 2023. Minister Andris Riekstiņš declared at a press conference yesterday, ‘No squirrel shall go uncounted, untold, or uncelebrated!’ 
+
+The census, lovingly dubbed ‘Operation Nutty Endeavor,’ aims to accurately document the squirrel population across Latvia, complete with names, photos, and preferred acorn varieties. With over 10,000 volunteers already enlisted, armed with squirrel-sized clipboards and an uncanny knack for squeak translation, this effort has instantly taken root as Latvia’s quirkiest eco-event of the decade. 
+
+‘We’re not just counting squirrels, we’re understanding them,’ explained lead squirrel statistician, Dr. Inga Kastaņola, whose lifelong passion for rodent demographics finally met its match. ‘It’s important to know which regions prefer hazelnuts over chestnuts, and whether Riga’s park squirrels have a different dialect from their Jurmala cousins.’ 
+
+The first day of the census took a surprise turn when squirrels self-organized into groups by fur color at Riga's Vērmanes Garden, holding what appeared to be mini-town hall meetings. Lead field volunteer, Olga Zālīte, reported, ‘We thought we were counting them, but it seems they started polling themselves. It’s a beautiful lesson in interspecies democracy.’ 
+
+Skeptics, however, question the utility of such an endeavor. A prominent voice of dissent is Raitis Dzenītis, head of We’ve Gone Nuts, a grassroots organization urging the government to focus on more pressing issues like potholes the size of small lakes. ‘I like a good squirrel as much as anyone, but let’s not lose the forest for the trees—or the squirrels within those trees,’ argued Dzenītis at a counter-rally complete with life-sized squirrel costumes protesting the potential misallocation of funds. 
+
+Nevertheless, public reaction has soared to uncharacteristically high levels of approval for government initiatives. Café owner Viktorija Rieksta noted, ‘It’s brought a sense of connection—between humans and nature, but also just among neighbors. We’re all sharing squirrel sightings like football scores.’ 
+
+Adding to the whimsy, the Ministry has also announced a celebratory festival at the conclusion of the census next spring. Tentatively named ‘Latvia’s Squirrel Soirée,’ the event promises to transform the Strelnieki Square into a nut-filled haven, prized for its anticipated acorn scavenger hunt and appearances by Skriem Squirrel, Latvia’s furry educational mascot. 
+
+Despite the absurd beginnings, perhaps the gesture has unearthed something profound: a nation united over the mysteries of their smallest citizens, handling challenges with humor and camaraderie. As Minister Riekstiņš summarized, ‘If Latvia can unite over squirrels, think of what else we can accomplish. Let’s see where this crazy acorn maze leads us.’`,
+      lv: `Drosmīgā valdības tālredzības un grauzēju novērtējuma izpausmē Latvijas Dabas Apburtību ministrija (MDA) ir atklājusi savu jaunāko vides iniciatīvu: Lielā Latvijas Vāveru Skaitīšana 2023. Ministrs Andris Riekstiņš vakar preses konferencē paziņoja: 'Neviena vāvere netiks neskaitīta, neizstāstīta vai nesvinēta!' 
+
+Skaitīšana, mīļi dēvēta par 'Riekstu Piedzīvojumu', mērķē precīzi dokumentēt vāveru populāciju visā Latvijā, iekļaujot vāveru vārdus, fotogrāfijas un iecienītākās zīļu šķirnes. Ar vairāk nekā 10 000 brīvprātīgo, kas jau ir iesaistījušies, aprīkoti ar vāveru izmēra kladītēm un neparastu spēju tulkot čiepstēšanu, šī iniciatīva ir uzreiz kļuvusi par Latvijas desmitgades dīvaināko ekoloģisko notikumu.
+
+'Mēs ne tikai skaitām vāveres, mēs tās saprotam,' skaidroja vadošā vāveru statistiķe, Dr. Inga Kastaņola, kuras mūža aizraušanās ar grauzēju demogrāfiju beidzot ir atradusi savu īsto vietu. 'Ir svarīgi zināt, kuras reģioni dod priekšroku lazdu riekstiem pār kastaņiem un vai Rīgas parku vāverēm ir atšķirīgs dialekts no Jūrmalas radiniekiem.'
+
+Pirmajā skaitīšanas dienā notika pārsteidzošs pavērsiens, kad vāveres pašorganizējās grupās pēc kažoka krāsas Rīgas Vērmanes dārzā, rīkojot to, kas izskatījās pēc mini-pilsētas sapulcēm. Vadošā lauka brīvprātīgā Olga Zālīte ziņoja: 'Mēs domājām, ka mēs tās skaitām, bet izrādās, ka viņas sāka pašas sevi aptaujāt. Tā ir skaista mācība starpsugu demokrātijā.'
+
+Skeptiķi tomēr apšauba šādas iniciatīvas lietderību. Ievērojama pretestības balss ir Raitis Dzenītis, organizācijas 'Mēs esam rieksti' vadītājs, kas aicina valdību koncentrēties uz steidzamākiem jautājumiem, piemēram, bedrēm, kas ir mazu ezeru lielumā. 'Man patīk laba vāvere tikpat kā jebkuram, bet nezaudēsim mežu aiz kokiem—vai vāverēm tajos kokos,' argumentēja Dzenītis pretpasākumā, kurā bija dzīvības lieluma vāveru kostīmi, protestējot pret iespējamu līdzekļu nepareizu izlietojumu.
+
+Neskatoties uz to, sabiedrības reakcija ir sasniegusi neparasti augstu valdības iniciatīvu apstiprinājuma līmeni. Kafejnīcas īpašniece Viktorija Rieksta norādīja: 'Tas ir radījis saiknes sajūtu—starp cilvēkiem un dabu, bet arī vienkārši starp kaimiņiem. Mēs visi dalāmies vāveru novērojumos kā futbola rezultātos.'
+
+Pievienojot šarmu, ministrija ir arī paziņojusi par svētku festivālu pēc skaitīšanas pabeigšanas nākamajā pavasarī. Pagaidām nosaukts par 'Latvijas Vāveru Soirée', pasākums sola pārvērst Strēlnieku laukumu par riekstu piepildītu paradīzi, kas izceļas ar gaidāmo zīļu medību un Skriem Vāveres, Latvijas pūkainā izglītojošā talismana, uzstāšanos.
+
+Neskatoties uz absurdiem sākumiem, iespējams, šis žests ir atklājis kaut ko dziļu: nācija, kas vienota pār savu mazāko pilsoņu noslēpumiem, risinot izaicinājumus ar humoru un draudzību. Kā ministrs Riekstiņš rezumēja: 'Ja Latvija var vienoties pār vāverēm, padomājiet, ko vēl mēs varam sasniegt. Redzēsim, kur šis trakulīgais riekstu labirints mūs aizvedīs.'`,
+      ru: `В смелом проявлении правительственного предвидения и признательности грызунам, Министерство природных очарований Латвии (МПО) представило свою последнюю экологическую инициативу: Великая латвийская перепись белок 2023 года. Министр Андрис Риестиньш заявил на пресс-конференции вчера: 'Ни одна белка не останется неучтенной, нерассказанной или непразднованной!' 
+
+Перепись, с любовью прозванная 'Операция Ореховая Затея', стремится точно задокументировать популяцию белок по всей Латвии, включая имена, фотографии и предпочтительные сорта желудей. С более чем 10 000 волонтеров, уже записавшихся, вооруженных планшетами размером с белку и удивительной способностью переводить писк, это усилие мгновенно стало самым причудливым эко-событием десятилетия в Латвии. 
+
+'Мы не просто считаем белок, мы их понимаем', объяснила ведущий статистик по белкам, доктор Инга Кастаньола, чья пожизненная страсть к демографии грызунов наконец-то встретила своё предназначение. 'Важно знать, какие регионы предпочитают фундук вместо каштанов, и есть ли у белок в парках Риги другой диалект, чем у их юрмальских кузенов.' 
+
+Первый день переписи принял неожиданный поворот, когда белки самоорганизовались в группы по цвету меха в Вермана парке в Риге, проводя то, что казалось мини-городскими собраниями. Ведущий полевой волонтер, Ольга Залите, сообщила: 'Мы думали, что считаем их, но, похоже, они начали опрашивать себя. Это прекрасный урок межвидовой демократии.' 
+
+Скептики, однако, ставят под сомнение полезность такого начинания. Видным голосом несогласия является Райтис Дзениитис, глава организации 'Мы сошли с ума', призывающей правительство сосредоточиться на более насущных проблемах, таких как ямы размером с маленькие озера. 'Я люблю хорошую белку так же, как и любой другой, но давайте не будем терять лес за деревьями — или белками в этих деревьях', утверждал Дзениитис на контр-митинге с костюмами белок в натуральную величину, протестующими против возможного нецелевого использования средств. 
+
+Тем не менее, общественная реакция взлетела до необычно высоких уровней одобрения правительственных инициатив. Владелица кафе Виктория Риеста отметила: 'Это принесло чувство связи — между людьми и природой, но также и просто среди соседей. Мы все делимся наблюдениями за белками, как футбольными счетами.' 
+
+Добавляя к причудливости, Министерство также объявило о праздничном фестивале по завершении переписи следующей весной. Предварительно названный 'Беличий вечер Латвии', мероприятие обещает превратить площадь Стрелниеку в ореховый рай, известный своим ожидаемым охотничьим квестом за желудями и появлением Скриема Белки, пушистого образовательного талисмана Латвии. 
+
+Несмотря на абсурдное начало, возможно, этот жест открыл что-то глубокое: нацию, объединенную тайнами своих самых маленьких граждан, справляющуюся с вызовами с юмором и товариществом. Как резюмировал министр Риестиньш, 'Если Латвия может объединиться вокруг белок, подумайте, чего еще мы можем достичь. Давайте посмотрим, куда нас приведет этот сумасшедший ореховый лабиринт.'`
+    },
+    date: "Jan 26, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 71,
     slug: "riga-to-introduce-paizies-zones-mandatory",
     title: {
@@ -83,7 +152,7 @@ Rīgas iedzīvotāji šķiet sadalīti. Viens vietējais veikala īpašnieks, J�
     readTime: "5 min read",
     imageUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 70,
