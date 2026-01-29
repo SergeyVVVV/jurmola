@@ -17,6 +17,69 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 75,
+    slug: "riga-announces-revolutionary-urban-bee-network",
+    title: {
+      en: "Riga Announces Revolutionary Urban Bee Network to Solve All Transportation Issues",
+      lv: "Rīga paziņo par revolucionāru pilsētas bišu tīklu, lai atrisinātu visas transporta problēmas",
+      ru: "Рига объявляет о революционной городской сети пчел для решения всех транспортных проблем"
+    },
+    excerpt: {
+      en: "In a bold move showcasing Latvian innovation, the city of Riga has launched an Urban Bee Network that promises to revolutionize transportation by deploying 500,000 GPS-equipped bees to carry lightweight parcels across the city. The initiative, celebrated by some as a buzz-worthy solution, is met with raised eyebrows from others who simply 'don't bee-lieve it'.",
+      lv: "Rādītājs uz drosmīgu Latvijas inovāciju, Rīgas pilsēta ir uzsākusi pilsētas bišu tīklu, kas sola revolucionizēt transportu, izvietojot 500 000 GPS aprīkotas bites, lai pārvadātu vieglus sūtījumus visā pilsētā. Iniciatīva, ko daži uzskata par vērtīgu risinājumu, tiek uzņemta ar paceltām uzacīm no citiem, kas vienkārši 'netic tam'.",
+      ru: "В смелом шаге, демонстрирующем латвийские инновации, город Рига запустил Городскую Сеть Пчел, которая обещает революционизировать транспорт, задействовав 500 000 пчел с GPS для доставки легких посылок по всему городу. Инициатива, которую некоторые считают достойной жужжания, встречает поднятые брови у тех, кто просто 'не верит в это'."
+    },
+    fullContent: {
+      en: `In a surprising turn of events that truly encapsulates Latvia's penchant for audacious problem-solving, the city of Riga unveiled its ambitious Urban Bee Network at a press conference held in the heart of its bustling Old Town. The initiative, designed to alleviate the city's perpetual traffic woes, hinges on the mobilization of a fleet of 500,000 bees, each perfected with tiny, cutting-edge GPS units, to deliver small parcels and essential goods throughout the metropolitan area.
+
+Mayor Ivars Ziedonis, enthusiastically promoting the plan, explained, "Riga has always been at the forefront of eco-innovation. With this bee-powered delivery system, we are taking a giant leap forward by ensuring that each citizen receives their afternoon rabarberu raudzēti 'bites-mead' unencumbered by traditional vehicular restrictions. It’s eco-friendly, efficient, and adds a touch of honey-sweet melody to our urban symphony."
+
+The project, developed in partnership with a local tech startup, BeezBay Solutions, and the Latvian Institute of Entomological Mysteries, has reportedly cost the city approximately €12 million in research and development. "We funded a substantial proportion into perfecting the miniaturization of these GPS systems," explained BeezBay CEO, Liena Lapiņa. "It's quite literally the bee's knees of modern technology." When asked if she was worried about bees refusing to work weekends or demanding a minimum nectar wage, Ms. Lapiņa assured, "Our bees are highly motivated by pollen bonuses and the occasional poppy-induced nectar incentive."
+
+However, the initiative has not gone without criticism. Local entomologist, Dr. Vita Lācīte, publicly expressed her concerns regarding the undue stressthat could be placed on the bee populace. "We must be careful not to overburden these creatures in their essential role as pollinators. Riga could face a sticky ecological imbalance if these bees abandon floral duties for parcel deliveries," she cautioned.
+
+Despite these warnings, early trials have shown promising results. Residents across the city's Brasa district reported unprecedented times in receiving their sajūti jebkādas noskaņas subscriptions and oat-based lattes. "I opened my window, and there it was, my morning kaņepju piena latte, right inside my own half-ziplined tulip bouquet. Efficiency and elegance all in one!" exclaimed an astonished Maija Straume.
+
+With the official rollout slated for the following month, only time will tell if Riga’s foray into apian public infrastructure will transform the city's notorious gridlock or simply add buzz to its already vibrant air. But Mayor Ziedonis is hopeful and exuberant: "If it works as planned, who knows—maybe we'll launch a similar initiative to manage snow removal with hyper-enthusiastic squirrels!"
+
+As the antennae of this project rise, Rigans are cautiously optimistic, though keenly aware of the idiom: one cannot fly before learning to be a worker bee, or, in Latvia's case, bustling amidst the linden trees of innovation.`,
+      lv: `Pārsteidzošā notikumu pavērsienā, kas patiesi iemieso Latvijas tieksmi uz drosmīgu problēmu risināšanu, Rīgas pilsēta atklāja savu ambiciozo pilsētas bišu tīklu preses konferencē, kas notika tās rosīgās Vecpilsētas sirdī. Iniciatīva, kas izstrādāta, lai mazinātu pilsētas pastāvīgās satiksmes problēmas, balstās uz 500 000 bišu flotes mobilizāciju, katrai aprīkotai ar mazām, modernām GPS ierīcēm, lai piegādātu nelielus sūtījumus un būtiskas preces visā metropoles teritorijā.
+
+Mērs Ivars Ziedonis, entuziastiski reklamējot plānu, paskaidroja: "Rīga vienmēr ir bijusi ekoinovāciju priekšgalā. Ar šo bišu darbināto piegādes sistēmu mēs speram milzīgu soli uz priekšu, nodrošinot, ka katrs iedzīvotājs saņem savu pēcpusdienas rabarberu raudzēto 'bišu medu' bez tradicionālajiem transportlīdzekļu ierobežojumiem. Tas ir ekoloģiski draudzīgs, efektīvs un pievieno medus saldu melodiju mūsu pilsētas simfonijai."
+
+Projekts, kas izstrādāts sadarbībā ar vietējo tehnoloģiju jaunuzņēmumu BeezBay Solutions un Latvijas Entomoloģisko Mistēriju Institūtu, pilsētai izmaksājis aptuveni 12 miljonus eiro pētniecībā un attīstībā. "Mēs ievērojamu daļu finansējuma ieguldījām šo GPS sistēmu miniaturizācijas pilnveidošanā," skaidroja BeezBay izpilddirektore Liena Lapiņa. "Tas burtiski ir modernās tehnoloģijas 'bišu ceļgals'." Kad viņai jautāja, vai viņa uztraucas par bitēm, kas atsakās strādāt nedēļas nogalēs vai pieprasa minimālo nektāra algu, Lapiņa pārliecināja: "Mūsu bites ir ļoti motivētas ar ziedputekšņu bonusiem un reizēm magoņu izraisītu nektāra stimulu."
+
+Tomēr iniciatīva nav palikusi bez kritikas. Vietējā entomoloģe, Dr. Vita Lācīte, publiski pauda bažas par pārmērīgu stresu, kas varētu tikt uzlikts bišu populācijai. "Mums jābūt uzmanīgiem, lai nepārslogotu šīs radības to būtiskajā lomā kā apputeksnētājiem. Rīga varētu saskarties ar lipīgu ekoloģisko nelīdzsvarotību, ja šīs bites atteiktos no ziedu pienākumiem par labu sūtījumu piegādēm," viņa brīdināja.
+
+Neskatoties uz šiem brīdinājumiem, agrīnie izmēģinājumi ir parādījuši daudzsološus rezultātus. Iedzīvotāji visā pilsētas Brasa rajonā ziņoja par nepieredzētiem laikiem, saņemot savus sajūti jebkādas noskaņas abonementus un auzu lattes. "Es atvēru logu, un tur tas bija, mans rīta kaņepju piena latte, tieši manā paša pusziplainētajā tulpju pušķī. Efektivitāte un elegance vienā!" izsaucās pārsteigtā Maija Straume.
+
+Ar oficiālo ieviešanu, kas plānota nākamajā mēnesī, tikai laiks rādīs, vai Rīgas ieiešana bišu sabiedriskajā infrastruktūrā pārveidos pilsētas bēdīgi slaveno sastrēgumu vai vienkārši pievienos burzmu tās jau tā dzīvīgajam gaisam. Bet mērs Ziedonis ir cerīgs un sajūsmināts: "Ja tas izdosies, kā plānots, kas zina—varbūt mēs uzsāksim līdzīgu iniciatīvu, lai pārvaldītu sniega tīrīšanu ar hiperentuziastiskiem vāverēm!"
+
+Kā šī projekta antenas ceļas, rīdzinieki ir piesardzīgi optimistiski, tomēr labi apzinās teicienu: nevar lidot, pirms iemācās būt darba bite, vai, Latvijas gadījumā, rosoties starp liepu kokiem inovāciju jomā.`,
+      ru: `В неожиданном повороте событий, который действительно воплощает латвийскую склонность к дерзкому решению проблем, город Рига представил свою амбициозную Городскую Сеть Пчел на пресс-конференции, проведенной в самом сердце оживленного Старого города. Инициатива, призванная облегчить вечные транспортные проблемы города, основывается на мобилизации флота из 500 000 пчел, каждая из которых оснащена крошечными, передовыми GPS-устройствами, для доставки небольших посылок и необходимых товаров по всей городской территории.
+
+Мэр Иварс Зиедонис, с энтузиазмом продвигая план, объяснил: "Рига всегда была на переднем крае эко-инноваций. С этой пчело-управляемой системой доставки мы делаем гигантский шаг вперед, обеспечивая, чтобы каждый гражданин получал свой дневной рабарберу раудзети 'медовуху' без ограничений традиционного транспорта. Это экологично, эффективно и добавляет медово-сладкую мелодию в нашу городскую симфонию."
+
+Проект, разработанный в партнерстве с местным технологическим стартапом BeezBay Solutions и Латвийским институтом энтомологических тайн, обошелся городу примерно в 12 миллионов евро на исследования и разработки. "Мы вложили значительную часть средств в совершенствование миниатюризации этих GPS-систем," объяснила генеральный директор BeezBay, Лиена Лапиня. "Это буквально колени пчел в современной технологии." Когда ее спросили, не беспокоит ли ее, что пчелы могут отказаться работать по выходным или требовать минимальной зарплаты в нектаре, г-жа Лапиня заверила: "Наши пчелы высоко мотивированы бонусами в виде пыльцы и случайными стимулами в виде нектара с маком."
+
+Однако инициатива не обошлась без критики. Местный энтомолог, доктор Вита Лаците, публично выразила свои опасения по поводу чрезмерного стресса, который может быть оказан на популяцию пчел. "Мы должны быть осторожны, чтобы не перегружать этих существ в их важной роли опылителей. Рига может столкнуться с липким экологическим дисбалансом, если эти пчелы откажутся от цветочных обязанностей ради доставки посылок," предостерегла она.
+
+Несмотря на эти предупреждения, ранние испытания показали обнадеживающие результаты. Жители района Браса в городе сообщили о беспрецедентных сроках получения своих подписок на sajūti jebkādas noskaņas и овсяных латте. "Я открыла окно, и вот он, мой утренний латте с конопляным молоком, прямо внутри моего собственного полузакрытого букета тюльпанов. Эффективность и элегантность в одном флаконе!" воскликнула изумленная Майя Страуме.
+
+С официальным запуском, запланированным на следующий месяц, только время покажет, изменит ли рижская попытка внедрения пчелиного общественного транспорта печально известные пробки в городе или просто добавит жужжания в его уже яркую атмосферу. Но мэр Зиедонис полон надежд и энтузиазма: "Если это сработает, как планировалось, кто знает — возможно, мы запустим аналогичную инициативу для управления уборкой снега с помощью гипер-энергичных белок!"
+
+По мере того как антенны этого проекта поднимаются, рижане осторожно оптимистичны, хотя и хорошо осведомлены о пословице: нельзя летать, не научившись быть рабочей пчелой, или, в случае Латвии, суетиться среди липовых деревьев инноваций.`
+    },
+    date: "Jan 29, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 74,
     slug: "latvias-newly-formed-ministry-of-cozy",
     title: {
@@ -89,7 +152,7 @@ Kā tauta kopīgi raugās uz 'Čību gadu,' šķiet skaidrāk nekā jebkad agrā
     readTime: "7 min read",
     imageUrl: "https://images.unsplash.com/photo-1551847677-dc82daa8537f?w=800&h=600&fit=crop",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 73,
