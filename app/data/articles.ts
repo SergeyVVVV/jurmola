@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 76,
+    slug: "latvian-capital-to-introduce-mandatory-walk",
+    title: {
+      en: "Latvian Capital to Introduce Mandatory 'Walk Your Snail to Work Day' to Boost Productivity",
+      lv: "Latvijas galvaspilsēta ieviesīs obligātu 'Aizved savu gliemezi uz darbu dienu', lai veicinātu produktivitāti",
+      ru: "Столица Латвии вводит обязательный 'День прогулки с улиткой на работу' для повышения продуктивности"
+    },
+    excerpt: {
+      en: "In an unprecedented move to enhance workplace productivity, the Riga City Council has announced a new policy requiring residents to walk a snail to work at least once a month. City officials believe the slow pace will encourage mindfulness and reduce workplace stress.",
+      lv: "Lai uzlabotu darba vietas produktivitāti, Rīgas pilsētas dome ir paziņojusi par jaunu politiku, kas prasa iedzīvotājiem vismaz reizi mēnesī aizvest gliemezi uz darbu. Pilsētas amatpersonas uzskata, ka lēnais temps veicinās apzinātību un samazinās stresu darba vietā.",
+      ru: "В беспрецедентном шаге по повышению производительности на рабочем месте Рижский городской совет объявил о новой политике, требующей от жителей водить улитку на работу как минимум раз в месяц. Городские власти считают, что медленный темп будет способствовать осознанности и снижению стресса на рабочем месте."
+    },
+    fullContent: {
+      en: `Riga—In what some are calling the latest innovation in workplace productivity, the Riga City Council has unanimously passed a resolution mandating that all working adults participate in a 'Walk Your Snail to Work Day.' The initiative, aimed at fostering mindfulness and reducing stress in the workplace, requires residents to walk a domesticated snail from home to work and back at least once a month.
+
+According to Deputy Mayor Alvis Berzins, the inspiration for this initiative came after a recent Finland-Paraguay-Estonia Well-Being Index Report showed that taking things slowly could improve mental health. "The sluggish pace of the snail is the perfect metaphor for what we want to achieve," said Berzins. "It's time to embrace our inner gastropods and glide through life with a bit more grace and intentionality."
+
+The first official 'Walk Your Snail to Work Day' is scheduled for December 12th, encouraging nearly 400,000 working Rigans to participate. Local pet shops have reported a tenfold increase in snail sales since the announcement. "We're selling snails faster than you can say gastropod," remarked Timma Zvirgzdins, owner of 'Slime Trails,' a trendy snail boutique downtown. "We've even had to import snails from Estonia to meet the rising demand!"
+
+Some workplace experts are praising the move as an innovative approach to combating burnout and increasing employee satisfaction. Latvian workplace psychologist Dr. Osols Jankinis explained, "Snails teach us patience, focus, and determination. Walking a snail can be an exercise in mindfulness and a great precursor to a productive day at the office."
+
+However, the initiative is not without its critics. In a colorful display of placards and megaphones, the group 'Acceleration Alliance of Latvia' staged a protest outside Riga City Hall last week. "We don't have time to watch snails!" exclaimed Liga Spekkins, a spokesperson for the group. "People need to get to work, not arrange a nature walk on company time."
+
+The Riga Public Transport Service, typically opposed to any new policy taking place on rush hour routes, has responded positively. "With snails involved, the usual assumptions about speed and timeliness go out the window," noted transport analyst Valdis Stūrmanis. "More people taking leisurely strolls to work means fewer grumpy commuters glaring at each other on packed trams."
+
+In response to logistical questions, such as how to handle slimy trails in workspaces, street cleaner Marutas Petrivs assured concerned citizens that his team is prepared. "Plan of Action Snail Slime (PASS) is underway," he confirmed proudly, showing off the team's newly acquired industrial desliming equipment.
+
+Despite the mixed reviews, many are curious to see just how effective this initiative will be in improving work-life balance in Riga. City Council plans to release a study by next year evaluating the effect of the 'Walk Your Snail to Work Day' on productivity, employee satisfaction, and Riga's snail population.
+
+For now, residents are encouraged to start befriending their new spiraled companions. As the old Latvian saying goes: 'The early bird catches the worm, but the late snail survives all storms.'`,
+      lv: `Rīga—Daži to sauc par jaunāko inovāciju darba vietas produktivitātē, Rīgas pilsētas dome vienbalsīgi pieņēmusi rezolūciju, kas nosaka, ka visiem strādājošajiem pieaugušajiem jāpiedalās 'Aizved savu gliemezi uz darbu dienā'. Iniciatīva, kuras mērķis ir veicināt apzinātību un samazināt stresu darba vietā, prasa iedzīvotājiem vismaz reizi mēnesī aizvest mājas gliemezi no mājām uz darbu un atpakaļ.
+
+Pēc domes priekšsēdētāja vietnieka Alvja Bērziņa teiktā, šīs iniciatīvas iedvesma radās pēc nesenā Somijas-Paragvajas-Igaunijas labklājības indeksa ziņojuma, kas parādīja, ka lēnāka pieeja var uzlabot garīgo veselību. "Gliemeža lēnais temps ir ideāla metafora tam, ko mēs vēlamies sasniegt," sacīja Bērziņš. "Ir pienācis laiks pieņemt mūsu iekšējos gliemjus un slīdēt cauri dzīvei ar nedaudz vairāk žēlastības un apzinātības."
+
+Pirmā oficiālā 'Aizved savu gliemezi uz darbu diena' ir plānota 12. decembrī, mudinot gandrīz 400 000 strādājošo rīdzinieku piedalīties. Vietējie mājdzīvnieku veikali ziņo par desmitkārtīgu gliemežu pārdošanas pieaugumu kopš paziņojuma. "Mēs pārdodam gliemežus ātrāk, nekā jūs varat pateikt 'gliemji'," atzīmēja Timma Zvirgzdiņa, 'Slime Trails' īpašniece, modernā gliemežu veikalā pilsētas centrā. "Mums pat nācās importēt gliemežus no Igaunijas, lai apmierinātu pieaugošo pieprasījumu!"
+
+Daži darba vietas eksperti slavē šo soli kā inovatīvu pieeju izdegšanas apkarošanai un darbinieku apmierinātības palielināšanai. Latvijas darba vietas psihologs Dr. Osols Jankinis skaidroja: "Gliemeži māca mums pacietību, koncentrēšanos un apņēmību. Gliemeža pastaiga var būt apzinātības vingrinājums un lielisks priekšnoteikums produktīvai dienai birojā."
+
+Tomēr iniciatīva nav bez kritiķiem. Krāsainā plakātu un megafonu demonstrācijā grupa 'Latvijas Paātrinājuma alianse' pagājušajā nedēļā rīkoja protestu pie Rīgas domes. "Mums nav laika vērot gliemežus!" izsaucās Līga Speķiņa, grupas pārstāve. "Cilvēkiem ir jātiek uz darbu, nevis jāorganizē dabas pastaiga darba laikā."
+
+Rīgas sabiedriskā transporta dienests, kas parasti iebilst pret jebkuru jaunu politiku, kas notiek sastrēgumstundās, ir reaģējis pozitīvi. "Ar gliemežiem iesaistīti, parastie pieņēmumi par ātrumu un savlaicīgumu iziet pa logu," atzīmēja transporta analītiķis Valdis Stūrmanis. "Vairāk cilvēku, kas dodas nesteidzīgās pastaigās uz darbu, nozīmē mazāk īgnus pasažierus, kas dusmīgi skatās viens uz otru pārpildītos tramvajos."
+
+Atbildot uz loģistikas jautājumiem, piemēram, kā rīkoties ar gļotainām takām darba vietās, ielu tīrītājs Marutas Petrivs apliecināja satrauktajiem pilsoņiem, ka viņa komanda ir gatava. "Gliemežu gļotu rīcības plāns (PASS) ir izstrādāts," viņš lepni apstiprināja, demonstrējot komandas nesen iegādāto rūpniecisko gļotu tīrīšanas aprīkojumu.
+
+Neskatoties uz dažādajām atsauksmēm, daudzi ir ziņkārīgi redzēt, cik efektīva šī iniciatīva būs darba un dzīves līdzsvara uzlabošanā Rīgā. Pilsētas dome plāno nākamgad publicēt pētījumu, kurā tiks izvērtēta 'Aizved savu gliemezi uz darbu dienas' ietekme uz produktivitāti, darbinieku apmierinātību un Rīgas gliemežu populāciju.
+
+Pašlaik iedzīvotāji tiek aicināti sākt draudzēties ar saviem jaunajiem spirālveida draugiem. Kā saka vecs latviešu teiciens: 'Agrs putns ķer tārpu, bet vēls gliemezis izdzīvo visas vētras.'`,
+      ru: `Рига — В то, что некоторые называют последней инновацией в области производительности на рабочем месте, Рижский городской совет единогласно принял резолюцию, обязывающую всех работающих взрослых участвовать в 'Дне прогулки с улиткой на работу'. Эта инициатива, направленная на развитие осознанности и снижение стресса на рабочем месте, требует от жителей водить домашнюю улитку из дома на работу и обратно как минимум раз в месяц.
+
+По словам заместителя мэра Алвиса Берзиньша, вдохновение для этой инициативы пришло после недавнего отчета Индекса благополучия Финляндии-Парагвая-Эстонии, который показал, что медленный темп может улучшить психическое здоровье. "Медленный темп улитки — это идеальная метафора для того, чего мы хотим достичь," сказал Берзиньш. "Пора принять нашего внутреннего гастропода и скользить по жизни с большей грацией и намеренностью."
+
+Первый официальный 'День прогулки с улиткой на работу' запланирован на 12 декабря, и почти 400,000 работающих рижан поощряются к участию. Местные зоомагазины сообщили о десятикратном увеличении продаж улиток с момента объявления. "Мы продаем улиток быстрее, чем вы успеете сказать 'гастропод'," заметила Тимма Звиргздиня, владелица модного бутика улиток 'Слизистые следы' в центре города. "Мы даже были вынуждены импортировать улиток из Эстонии, чтобы удовлетворить растущий спрос!"
+
+Некоторые эксперты по рабочим местам хвалят этот шаг как инновационный подход к борьбе с выгоранием и повышению удовлетворенности сотрудников. Латвийский психолог по рабочим местам доктор Осольс Янкинис объяснил: "Улитки учат нас терпению, сосредоточенности и решимости. Прогулка с улиткой может быть упражнением в осознанности и отличным предшественником продуктивного дня в офисе."
+
+Однако инициатива не лишена критиков. В красочном проявлении плакатов и мегафонов группа 'Альянс ускорения Латвии' провела протест у здания Рижской ратуши на прошлой неделе. "У нас нет времени смотреть на улиток!" воскликнула Лига Спеккинс, представитель группы. "Людям нужно добираться до работы, а не устраивать прогулки на природе в рабочее время."
+
+Рижская служба общественного транспорта, обычно выступающая против любой новой политики, проводимой на маршрутах в час пик, отреагировала положительно. "С улитками в деле, обычные предположения о скорости и своевременности уходят в окно," отметил аналитик транспорта Валдис Стурманис. "Больше людей, совершающих неспешные прогулки на работу, означает меньше хмурых пассажиров, сверлящих друг друга взглядами в переполненных трамваях."
+
+В ответ на логистические вопросы, такие как как справляться с слизистыми следами в рабочих пространствах, уличный уборщик Марутас Петривс заверил обеспокоенных граждан, что его команда готова. "План действий по удалению слизи улиток (PASS) в процессе," он подтвердил с гордостью, демонстрируя недавно приобретенное командой промышленное оборудование для удаления слизи.
+
+Несмотря на смешанные отзывы, многие любопытны увидеть, насколько эффективной будет эта инициатива в улучшении баланса между работой и личной жизнью в Риге. Городской совет планирует выпустить исследование к следующему году, оценивающее влияние 'Дня прогулки с улиткой на работу' на продуктивность, удовлетворенность сотрудников и популяцию улиток в Риге.
+
+Пока что жителям рекомендуется начать дружить с их новыми спиральными спутниками. Как гласит старая латвийская пословица: 'Ранняя пташка ловит червя, но поздняя улитка переживает все бури.'`
+    },
+    date: "Jan 30, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 75,
     slug: "riga-announces-revolutionary-urban-bee-network",
     title: {
@@ -77,7 +152,7 @@ Kā šī projekta antenas ceļas, rīdzinieki ir piesardzīgi optimistiski, tom�
     readTime: "9 min read",
     imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 74,
