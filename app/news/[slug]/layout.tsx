@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { articles } from '../../data/articles';
+import { getArticleImageAbsoluteUrl } from '../../lib/article-image';
 
 type Props = {
   params: { slug: string }
@@ -27,7 +28,7 @@ export async function generateMetadata(
 
   const baseUrl = 'https://jurmola.vercel.app';
   const articleUrl = `${baseUrl}/news/${article.slug}`;
-  const imageUrl = article.imageUrl;
+  const imageUrl = getArticleImageAbsoluteUrl(article, baseUrl);
 
   return {
     title: `${article.title.en} | Jurmola Telegraphs`,

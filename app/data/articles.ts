@@ -1332,7 +1332,7 @@ Visas acis ir vērstas uz Rīgu, cerot redzēt, vai pilsēta var šo sasniegumu 
     categories: ["opinion"],
     type: "news",
     readTime: "5 min read",
-    imageUrl: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/59/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
     featured: false
   },
@@ -1407,7 +1407,7 @@ Pašlaik, kamēr latvieši turpina savu dienu, viņi var būt mierīgi, zinot, k
     categories: ["business"],
     type: "news",
     readTime: "6 min read",
-    imageUrl: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/58/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
     featured: false
   },
@@ -1470,7 +1470,7 @@ Vai 'Sūdzies-par-zemestaukiem' diena kļūs tikpat mīlēta kā Jāņi vai tiks
     categories: ["politics"],
     type: "news",
     readTime: "7 min read",
-    imageUrl: "https://images.unsplash.com/photo-1551847677-dc82daa8537f?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/57/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
     featured: false
   },
@@ -1545,7 +1545,7 @@ Starptautiskie novērotāji arī ir izteikušies, un kaimiņvalsts lietuvieši, 
     categories: ["opinion"],
     type: "analysis",
     readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/56/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
     featured: false
   },
@@ -1620,7 +1620,7 @@ Kā Rīga pieņem savu jaunizveidoto krāsu, noskaņojums – cik necaurspīdīg
     categories: ["opinion"],
     type: "news",
     readTime: "10 min read",
-    imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/55/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
     featured: false
   },
@@ -1695,7 +1695,7 @@ Vai Rīgas rindā stāvēšana pievienosies diska mešanai un niršanai, vēl ir
     categories: ["opinion"],
     type: "news",
     readTime: "6 min read",
-    imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/54/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
     featured: false
   },
@@ -1776,7 +1776,7 @@ Turpinoties darbam pie šīs revolucionārās iniciatīvas, ministrija pārlieci
     categories: ["culture"],
     type: "news",
     readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/53/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
     featured: false
   },
@@ -1851,7 +1851,7 @@ Priekšlikums tiks izskatīts pilsētas padomē nākamajā mēnesī, kur tiek ga
     categories: ["culture"],
     type: "news",
     readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/52/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
     featured: false
   },
@@ -1932,7 +1932,7 @@ Kā tuneļa ietekme pakāpeniski iesūcas ikdienas dzīvē Rīgā, atbalstītāj
     categories: ["opinion"],
     type: "news",
     readTime: "6 min read",
-    imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/51/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
     featured: false
   },
@@ -2013,7 +2013,7 @@ Kamēr priekšlikums turpina cirkulēt, skaidrs ir atjaunots mērķa sajūta —
     categories: ["politics"],
     type: "news",
     readTime: "10 min read",
-    imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/50/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
     featured: false
   },
@@ -2082,7 +2082,7 @@ Kā pirmajā neatkarības dienā puspiepildīti tramvaji priecīgi dārdēja gar
     categories: ["culture"],
     type: "news",
     readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/49/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
     featured: false
   },
@@ -2157,7 +2157,7 @@ Tā kā valsts gatavojas saskarties ar vēl vienu ledainu sezonu, Projekts Siltu
     categories: ["business"],
     type: "news",
     readTime: "7 min read",
-    imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/48/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
     featured: false
   },
@@ -2226,7 +2226,7 @@ Saskaroties ar tik plašām izmaiņām mūsu kolektīvajā izpratnē par sauli u
     categories: ["culture"],
     type: "news",
     readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/47/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
     featured: false
   },
@@ -2301,7 +2301,7 @@ Kamēr pasaule vēro, tikai laiks rādīs, vai Jūrmala varēs navigēt šajos n
     categories: ["politics"],
     type: "news",
     readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/46/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
     featured: false
   },
@@ -2382,7 +2382,7 @@ Vai Rīga piecelsies (vai, precīzāk, izkāps no gultas), lai pieņemtu šo iza
     categories: ["opinion"],
     type: "news",
     readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/45/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
     featured: false
   },
@@ -2457,7 +2457,7 @@ Vai 'Saulīte' nesīs siltu prieku pāri apbrīnojami pelēkajām Latvijas ainav
     categories: ["opinion"],
     type: "analysis",
     readTime: "9 min read",
-    imageUrl: "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/44/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
     featured: false
   },
@@ -2538,7 +2538,7 @@ Laiks rādīs, vai obligātās pirts pauzes patiesi uzliks Latvijas produktivit�
     categories: ["culture"],
     type: "news",
     readTime: "5 min read",
-    imageUrl: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/43/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
     featured: false
   },
@@ -2619,7 +2619,7 @@ Tiem, kas uztraucas par ziemu un neizbēgamo zupas sasalšanu, plānotāji ir ap
     categories: ["business"],
     type: "news",
     readTime: "10 min read",
-    imageUrl: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/42/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
     featured: false
   },
@@ -2688,7 +2688,7 @@ Kad debesis noskaidrojas pēc parlamentārās vētras, viena lieta ir skaidra: L
     categories: ["opinion"],
     type: "analysis",
     readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/41/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
     featured: false
   },
@@ -2763,7 +2763,7 @@ Kad Latvija dodas šajā ceļā—burtiski—ar savām entuziastiskajām vāveru
     categories: ["opinion"],
     type: "analysis",
     readTime: "9 min read",
-    imageUrl: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/40/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
     featured: false
   },
@@ -2838,7 +2838,7 @@ Kamēr pasaule vēro ar gan apjukumu, gan ziņkāri, viena lieta ir skaidra: Lat
     categories: ["opinion"],
     type: "news",
     readTime: "5 min read",
-    imageUrl: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/39/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
     featured: false
   },
@@ -2907,7 +2907,7 @@ Sākotnējās ielu intervijas atklāj piesardzīgi optimistisku sabiedrību. "Es
     categories: ["opinion"],
     type: "analysis",
     readTime: "7 min read",
-    imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/38/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
     featured: false
   },
@@ -2988,7 +2988,7 @@ Kopumā, latviešiem atgriežoties civilizācijā ar caurduriem un recepšu grā
     categories: ["politics"],
     type: "news",
     readTime: "6 min read",
-    imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/37/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
     featured: false
   },
@@ -3057,7 +3057,7 @@ Kā Latvija uzsāk to, ko tā lepni sauc par ceļojumu uz 'alternatīvo finanšu
     categories: ["politics"],
     type: "news",
     readTime: "9 min read",
-    imageUrl: "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/36/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
     featured: false
   },
@@ -3144,7 +3144,7 @@ Tikai laiks rādīs, vai Rīgas jaunā pieeja veiksmīgi ierobežos velosipēdu 
     categories: ["opinion"],
     type: "news",
     readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/35/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
     featured: false
   },
@@ -3225,7 +3225,7 @@ Patiesi, tikai laiks rādīs, vai tas būs debesīs augsts panākums vai spārno
     categories: ["culture"],
     type: "news",
     readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/34/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
     featured: false
   },
@@ -3306,7 +3306,7 @@ Pašlaik pirmā absolventu grupa — katra saņēma piemiņas govs zvaniņu ar u
     categories: ["opinion"],
     type: "analysis",
     readTime: "5 min read",
-    imageUrl: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/33/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
     featured: false
   },
@@ -3381,7 +3381,7 @@ Kamēr detaļas vēl tiek jautri izstrādātas, ministrs Leduslācis paliek opti
     categories: ["opinion"],
     type: "analysis",
     readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/32/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
     featured: false
   },
@@ -3462,7 +3462,7 @@ Turpmāk, pilsētas dome aicina iedzīvotājus “pieņemt pārmaiņas” un br�
     categories: ["opinion"],
     type: "news",
     readTime: "7 min read",
-    imageUrl: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/31/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
     featured: false
   },
@@ -3543,7 +3543,7 @@ Un tā, pagaidām, Latvijas debesu gidi varbūt vēl nevadīs tūristus pa vēst
     categories: ["business"],
     type: "news",
     readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/30/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
     featured: false
   },
@@ -3618,7 +3618,7 @@ Visas acis tagad ir vērstas uz Latviju, tuvojoties 2025. gadam. Tikai laiks rā
     categories: ["opinion"],
     type: "news",
     readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/29/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
     featured: false
   },
@@ -3705,7 +3705,7 @@ Pilsētā, kas lepojas ar savu daļu trokšņainas šarma, kurš gan varēja par
     categories: ["culture"],
     type: "news",
     readTime: "10 min read",
-    imageUrl: "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/28/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
     featured: false
   },
@@ -3774,7 +3774,7 @@ Pašreizējā testa fāze turpināsies vēl sešus mēnešus, dodot Rīgas iedz�
     categories: ["opinion"],
     type: "analysis",
     readTime: "7 min read",
-    imageUrl: "https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/27/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
     featured: false
   },
@@ -3849,7 +3849,7 @@ Kamēr Latvija lūdz par ziņkārības vadītu tūristu lavīnu, ministrs Zeltma
     categories: ["business"],
     type: "news",
     readTime: "10 min read",
-    imageUrl: "https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/26/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
     featured: false
   },
@@ -3932,7 +3932,7 @@ Pašlaik latvieši ir apmierināti, priecājoties par nemainīgo patiesību, ka 
     categories: ["culture"],
     type: "news",
     readTime: "9 min read",
-    imageUrl: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/25/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
     featured: false
   },
@@ -4013,7 +4013,7 @@ Galu galā, Latvijas kampaņa ir par vairāk nekā tikai ēdiena reformu; tā ir
     categories: ["politics"],
     type: "news",
     readTime: "7 min read",
-    imageUrl: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/24/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
     featured: false
   },
@@ -4088,7 +4088,7 @@ Savā atvadu vārdos ministre Dreimane skumji ieteica Klusuma Stundas praktizēt
     categories: ["opinion"],
     type: "news",
     readTime: "6 min read",
-    imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/23/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
     featured: false
   },
@@ -4157,7 +4157,7 @@ Noslēgumā, vai Brīvības Kilometrs kļūs par satiksmes mazināšanas utopiju
     categories: ["politics"],
     type: "news",
     readTime: "7 min read",
-    imageUrl: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/22/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
     featured: false
   },
@@ -4238,7 +4238,7 @@ Ar ieviešanu, kas plānota sākties 2024. gada pavasarī, Latvija gaida, lai re
     categories: ["culture"],
     type: "news",
     readTime: "5 min read",
-    imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/21/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
     featured: false
   },
@@ -4313,7 +4313,7 @@ Kā entuziastiski autovadītāji neizbēgami dodas ielās ar gaidām, nākamās 
     categories: ["opinion"],
     type: "news",
     readTime: "6 min read",
-    imageUrl: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/20/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
     featured: false
   },
@@ -4382,7 +4382,7 @@ Pašlaik Rīgas Obligātā cepuru diena šķiet ambicioza muļķības pieņemša
     categories: ["politics"],
     type: "news",
     readTime: "9 min read",
-    imageUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/19/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
     featured: false
   },
@@ -4457,7 +4457,7 @@ Latvijai gatavojoties saviem pirmajiem svētkiem, jautājums, kas visiem ir uz l
     categories: ["opinion"],
     type: "news",
     readTime: "5 min read",
-    imageUrl: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/18/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
     featured: false
   },
@@ -4532,7 +4532,7 @@ Rīgas iedzīvotāji tagad gatavojas šim jaunajam laikmetam, kurā miers un klu
     categories: ["opinion"],
     type: "news",
     readTime: "6 min read",
-    imageUrl: "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/17/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
     featured: false
   },
@@ -4612,7 +4612,7 @@ Kad šonedēļ sākas Zzz Festivāls, pasākuma organizatori paliek cerīgi, ka 
     categories: ["opinion"],
     type: "news",
     readTime: "5 min read",
-    imageUrl: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/16/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
     featured: false
   },
@@ -4681,7 +4681,7 @@ Ar Latvijas Universitātes Teorētiskās Absurda institūta doktorantu atbalstu 
     categories: ["culture"],
     type: "news",
     readTime: "6 min read",
-    imageUrl: "https://images.unsplash.com/photo-1551847677-dc82daa8537f?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/15/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
     featured: false
   },
@@ -4762,7 +4762,7 @@ Kamēr valsts gatavojas uzstādīt jaunus rekordus kultūras jaunumu jomā, Latv
     categories: ["opinion"],
     type: "news",
     readTime: "9 min read",
-    imageUrl: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/14/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
     featured: false
   },
@@ -4843,7 +4843,7 @@ Tikai laiks rādīs, vai šī interneta iniciatīva novietos Rīgu globālās te
     categories: ["opinion"],
     type: "news",
     readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/13/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
     featured: false
   },
@@ -4918,7 +4918,7 @@ Ar birokrātiju, kas rosās, lai sagatavotos tam, kas varētu būt kājāmgājē
     categories: ["culture"],
     type: "news",
     readTime: "9 min read",
-    imageUrl: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/12/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
     featured: false
   },
@@ -4999,7 +4999,7 @@ Gaidot iniciatīvas plānoto uzsākšanu 2025. gadā, vietējie un tūristi tiek
     categories: ["opinion"],
     type: "news",
     readTime: "10 min read",
-    imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/11/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
     featured: false
   },
@@ -5101,7 +5101,7 @@ Eksperti ir prognozējuši līdz pat 84% iespējamību lietus svinībām, ar pā
     categories: ["opinion"],
     type: "analysis",
     readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=1200&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/1/800/600",
     author: { en: "By Marina Kovalenko", lv: "Rakstījusi Marina Kovalenko", ru: "Автор: Марина Коваленко" },
     featured: false
   },
@@ -5128,7 +5128,7 @@ Eksperti ir prognozējuši līdz pat 84% iespējamību lietus svinībām, ar pā
     categories: ["culture", "opinion"],
     type: "news",
     readTime: "6 min read",
-    imageUrl: "https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/2/800/600",
     author: { en: "By Dmitri Volkov", lv: "Rakstījis Dmitrijs Volkovs", ru: "Автор: Дмитрий Волков" },
     featured: false
   },
@@ -5155,7 +5155,7 @@ Eksperti ir prognozējuši līdz pat 84% iespējamību lietus svinībām, ar pā
     categories: ["culture", "opinion"],
     type: "news",
     readTime: "5 min read",
-    imageUrl: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/3/800/600",
     author: { en: "By Laura Ozolina", lv: "Rakstījusi Laura Ozoliņa", ru: "Автор: Лаура Озолиня" },
     featured: false
   },
@@ -5182,7 +5182,7 @@ Eksperti ir prognozējuši līdz pat 84% iespējamību lietus svinībām, ar pā
     categories: ["opinion"],
     type: "news",
     readTime: "4 min read",
-    imageUrl: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/4/800/600",
     author: { en: "By Arturs Kalniņš", lv: "Rakstījis Artūrs Kalniņš", ru: "Автор: Артурс Калниньш" },
     featured: false
   },
@@ -5209,7 +5209,7 @@ Eksperti ir prognozējuši līdz pat 84% iespējamību lietus svinībām, ar pā
     categories: ["politics", "opinion"],
     type: "news",
     readTime: "7 min read",
-    imageUrl: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/5/800/600",
     author: { en: "By Igor Petrov", lv: "Rakstījis Igors Petrovs", ru: "Автор: Игорь Петров" },
     featured: false
   },
@@ -5236,7 +5236,7 @@ Eksperti ir prognozējuši līdz pat 84% iespējamību lietus svinībām, ar pā
     categories: ["culture"],
     type: "news",
     readTime: "9 min read",
-    imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/6/800/600",
     author: { en: "By Anna Bērziņa", lv: "Rakstījusi Anna Bērziņa", ru: "Автор: Анна Берзиня" },
     featured: false
   },
@@ -5263,7 +5263,7 @@ Eksperti ir prognozējuši līdz pat 84% iespējamību lietus svinībām, ar pā
     categories: ["business", "culture"],
     type: "news",
     readTime: "5 min read",
-    imageUrl: "https://images.unsplash.com/photo-1593642532744-d377ab507dc8?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/7/800/600",
     author: { en: "By Kristaps Ozoliņš", lv: "Rakstījis Kristaps Ozoliņš", ru: "Автор: Кристапс Озолиньш" },
     featured: false
   },
@@ -5290,7 +5290,7 @@ Eksperti ir prognozējuši līdz pat 84% iespējamību lietus svinībām, ar pā
     categories: ["politics"],
     type: "news",
     readTime: "6 min read",
-    imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&h=600&fit=crop",
+    imageUrl: "https://picsum.photos/seed/8/800/600",
     author: { en: "By Sergejs Ivanovs", lv: "Rakstījis Sergejs Ivanovs", ru: "Автор: Сергей Иванов" },
     featured: false
   },

@@ -1,8 +1,9 @@
 'use client';
 
 import { useParams } from 'next/navigation';
-import { useLanguage, Language } from '../../hooks/useLanguage';
+import { useLanguage } from '../../hooks/useLanguage';
 import { articles } from '../../data/articles';
+import { getArticleImageAbsoluteUrl, getArticleImageUrl, onArticleImageError } from '../../lib/article-image';
 
 // Export articles for layout metadata
 export { articles } from '../../data/articles';
@@ -53,7 +54,7 @@ export default function ArticlePage() {
     "@type": "NewsArticle",
     "headline": article.title[language],
     "description": article.excerpt[language],
-    "image": article.imageUrl,
+    "image": getArticleImageAbsoluteUrl(article, "https://jurmola.vercel.app"),
     "datePublished": new Date(article.date).toISOString(),
     "dateModified": new Date(article.date).toISOString(),
     "author": {
@@ -143,9 +144,10 @@ export default function ArticlePage() {
         {/* Featured Image */}
         <div className="mb-8 rounded-lg overflow-hidden">
           <img 
-            src={article.imageUrl} 
+            src={getArticleImageUrl(article)} 
             alt={article.title[language]}
             className="w-full h-auto"
+            onError={onArticleImageError}
           />
         </div>
 

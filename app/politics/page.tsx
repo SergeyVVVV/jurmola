@@ -1,8 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import { useLanguage, Language } from '../hooks/useLanguage';
-import { articles, Article } from '../data/articles';
+import { useLanguage } from '../hooks/useLanguage';
+import { articles } from '../data/articles';
+import { getArticleImageUrl, onArticleImageError } from '../lib/article-image';
 
 const translations = {
   pageTitle: {
@@ -126,9 +127,10 @@ export default function PoliticsPage() {
             <article key={article.id} className="border-2 border-black p-6 hover:shadow-lg transition">
               <a href={`/news/${article.slug}`} className="block mb-4">
                 <img
-                  src={article.imageUrl}
+                  src={getArticleImageUrl(article)}
                   alt={article.title[language]}
                   className="w-full h-48 object-cover hover:opacity-90 transition-opacity"
+                  onError={onArticleImageError}
                 />
               </a>
               <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">

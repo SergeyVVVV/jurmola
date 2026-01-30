@@ -1,8 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import { useLanguage, Language } from './hooks/useLanguage';
+import { useLanguage } from './hooks/useLanguage';
 import { articles } from './data/articles';
+import { getArticleImageUrl, onArticleImageError } from './lib/article-image';
 
 // Используем централизованные данные и сортируем по дате
 const newsArticles = [...articles].sort((a, b) => {
@@ -143,9 +144,10 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8">
               <a href={`/news/${featuredStory.slug}`} className="bg-gray-200 rounded-lg aspect-video overflow-hidden block">
                 <img 
-                  src={featuredStory.imageUrl} 
+                  src={getArticleImageUrl(featuredStory)} 
                   alt={featuredStory.title['en']}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  onError={onArticleImageError}
                 />
               </a>
               <div>
@@ -179,9 +181,10 @@ export default function Home() {
             <article key={article.id} className="pb-6">
               <a href={`/news/${article.slug}`} className="bg-gray-200 rounded aspect-video overflow-hidden mb-4 block">
                 <img 
-                  src={article.imageUrl} 
+                  src={getArticleImageUrl(article)} 
                   alt={article.title['en']}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  onError={onArticleImageError}
                 />
               </a>
               <span className="text-xs font-semibold text-red-600 uppercase tracking-wide">

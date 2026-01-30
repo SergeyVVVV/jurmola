@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "generate-article": "tsx scripts/generate-article.ts"
+    "generate-article": "tsx scripts/generate-article.ts",
+    "assign-covers": "node scripts/assign-picsum-covers.cjs"
   },
   "dependencies": {
     "next": "16.0.10",

@@ -2,8 +2,9 @@
 
 import { useState } from 'react';
 import { useParams } from 'next/navigation';
-import { useLanguage, Language } from '../../../hooks/useLanguage';
+import { useLanguage } from '../../../hooks/useLanguage';
 import { articles } from '../../../data/articles';
+import { getArticleImageUrl, onArticleImageError } from '../../../lib/article-image';
 
 const translations = {
   pageTitle: {
@@ -81,9 +82,10 @@ export default function NewsCategoryPage() {
           {categoryArticles.map((article) => (
             <article key={article.id} className="border-2 border-black p-6 hover:shadow-lg transition">
               <img
-                src={article.imageUrl}
+                src={getArticleImageUrl(article)}
                 alt={article.title[language]}
                 className="w-full h-48 object-cover mb-4"
+                onError={onArticleImageError}
               />
               <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">
                 <span className="font-semibold uppercase">{article.category[language]}</span>

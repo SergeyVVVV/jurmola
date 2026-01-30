@@ -48,28 +48,6 @@ const authors = [
   { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
 ];
 
-const unsplashTopics = [
-  'photo-1465495976277-4387d4b0b4c6', // Wedding
-  'photo-1513026705753-bc3fffca8bf4', // Monument
-  'photo-1518977676601-b53f82aba655', // Potato
-  'photo-1439066615861-d1af74d74000', // Sea
-  'photo-1501594907352-04cda38ebc29', // River
-  'photo-1456513080510-7bf3a84b82f8', // Library/Books
-  'photo-1593642532744-d377ab507dc8', // Stone/Rock
-  'photo-1526778548025-fa2f459cd5c1', // Map/Geography
-  'photo-1559827260-dc66d52bef19', // Wind/Beach
-  'photo-1506905925346-21bda4d32df4', // Mountains
-  'photo-1472214103451-9374bd1c798e', // Forest
-  'photo-1519681393784-d120267933ba', // Night sky
-  'photo-1551632811-561732d1e306', // Snow
-  'photo-1532274402911-5a369e4c4bb5', // Weather
-  'photo-1470071459604-3b5ec3a7fe05', // Nature
-  'photo-1500534314209-a25ddb2bd429', // Architecture
-  'photo-1541963463532-d68292c34b19', // Books
-  'photo-1551847677-dc82daa8537f', // Coffee
-  'photo-1581091226825-a6a2a5aee158', // Tech
-];
-
 // Generate SEO-friendly slug from title
 function generateSlug(title: string): string {
   return title
@@ -83,19 +61,33 @@ function generateSlug(title: string): string {
     .join('-');
 }
 
-async function generateArticle(): Promise<Article> {
+async function generateArticle(realNewsTopic?: string): Promise<Article> {
   console.log('🤖 Generating new satirical article about Latvia...\n');
 
-  const prompt = `You are a writer for "Jurmola Telegraphs" - a satirical news site similar to The Onion, but focused on Latvia, Jurmala, Riga, and Baltic region humor.
+  let prompt = `You are a writer for "Jurmola Telegraphs" - a satirical news site similar to The Onion, but focused on Latvia, Jurmala, Riga, and Baltic region humor.
 
 Generate a completely NEW and ORIGINAL satirical news article. The article should be:
 - Absurd and humorous, but written in a serious journalistic tone
 - About Latvia, Riga, Jurmala, or Baltic culture/politics/everyday life
 - Creative and unexpected - avoid clichés
 - Well-structured with quotes from fictional sources
-- Include specific details, names, and statistics to make it feel authentic
+- Include specific details, names, and statistics to make it feel authentic`;
 
-Generate the article in English with the following structure:
+  // If real news topic is provided, base the satirical article on it for SEO relevance
+  if (realNewsTopic) {
+    console.log(`📰 Using real news topic as inspiration: ${realNewsTopic}\n`);
+    prompt += `\n\nIMPORTANT: Create a satirical article that is INSPIRED BY and PARODIES the following real news story from Baltic news sources (balticnews.com or baltictimes.com):
+"${realNewsTopic}"
+
+Your satirical article should:
+- Reference or parody elements from the real news story
+- Use similar keywords and topics for SEO relevance
+- Make it absurd and humorous while keeping connection to the original topic
+- Still be completely fictional and satirical (not reporting the real news)
+- Capture the spirit/topic of the real news but with exaggerated, absurd twists`;
+  }
+
+  prompt += `\n\nGenerate the article in English with the following structure:
 
 1. HEADLINE (creative and attention-grabbing)
 2. EXCERPT (2-3 sentences summarizing the absurd premise)
@@ -184,17 +176,27 @@ Format your response as JSON:
   const category = categories[Math.floor(Math.random() * categories.length)];
   const author = authors[Math.floor(Math.random() * authors.length)];
   
-  // Select image that's not already used
-  const usedImages = content.match(/imageUrl:\s*"https:\/\/images\.unsplash\.com\/([^?]+)/g)
-    ?.map(match => match.match(/photo-[a-zA-Z0-9_-]+/)?.[0])
-    .filter(Boolean) || [];
+  // Select image that's not already used - using Picsum Photos with unique ID
+  // Extract all used image URLs to check for duplicates
+  const usedImageUrls = content.match(/imageUrl:\s*"([^"]+)"/g)
+    ?.map(match => {
+      const urlMatch = match.match(/imageUrl:\s*"([^"]+)"/);
+      return urlMatch ? urlMatch[1] : null;
+    })
+    .filter(Boolean) as string[] || [];
   
-  const availableImages = unsplashTopics.filter(id => !usedImages.includes(id));
-  const imageId = availableImages.length > 0
-    ? availableImages[Math.floor(Math.random() * availableImages.length)]
-    : unsplashTopics[Math.floor(Math.random() * unsplashTopics.length)]; // Fallback if all used
+  // Use Picsum Photos with article ID as seed to guarantee uniqueness
+  // Format: https://picsum.photos/seed/{id}/800/600
+  let imageUrl = `https://picsum.photos/seed/${newId}/800/600`;
   
-  console.log(`🖼️  Selected image: ${imageId} (${availableImages.length} available)`);
+  // Double-check for duplicates (shouldn't happen with seed-based approach, but safety check)
+  if (usedImageUrls.includes(imageUrl)) {
+    // If somehow duplicate, use timestamp as additional seed
+    imageUrl = `https://picsum.photos/seed/${newId}-${Date.now()}/800/600`;
+    console.log(`⚠️  Duplicate image detected, using fallback URL`);
+  }
+  
+  console.log(`🖼️  Selected image: ${imageUrl} (unique seed: ${newId})`);
   
   const readTime = `${Math.floor(Math.random() * 6) + 5} min read`;
 
@@ -250,7 +252,7 @@ Format your response as JSON:
     categories: articleCategories,
     type: articleType,
     readTime,
-    imageUrl: `https://images.unsplash.com/${imageId}?w=800&h=600&fit=crop`,
+    imageUrl,
     author,
     featured: false,
   };
@@ -363,9 +365,20 @@ async function main() {
     }
     
     console.log('✅ OpenAI API key found');
+    
+    // Check for real news topic (optional - for SEO-optimized articles)
+    const realNewsTopic = process.env.REAL_NEWS_TOPIC;
+    if (realNewsTopic) {
+      console.log('📰 Real news topic provided - article will be SEO-optimized based on current events');
+    } else {
+      console.log('💡 Tip: Set REAL_NEWS_TOPIC env var to create articles based on trending Baltic news');
+      console.log('   Example: REAL_NEWS_TOPIC="City of Tartu considering bus connections to Riga" npm run generate-article');
+      console.log('   Check https://balticnews.com/ and https://www.baltictimes.com/ for trending topics\n');
+    }
+    
     console.log('⏳ This may take 2-3 minutes...\n');
 
-    const article = await generateArticle();
+    const article = await generateArticle(realNewsTopic);
     await insertArticleIntoCode(article);
     
     console.log('\n✨ Done! Commit and push the changes to publish the new article.');
