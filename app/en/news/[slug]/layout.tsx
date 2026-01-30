@@ -1,17 +1,17 @@
 import type { Metadata } from 'next';
 import { articles } from '../../../data/articles';
 import { getArticleImageAbsoluteUrl } from '../../../lib/article-image';
-import { generateHreflangLinks, type Language } from '../../../lib/i18n-config';
 
 type Props = {
-  params: Promise<{ slug: string; lang: string }>;
+  params: Promise<{ slug: string }>;
   children: React.ReactNode;
 };
+
+const language = 'en';
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await Promise.resolve(params);
   const slug = resolvedParams.slug;
-  const lang = resolvedParams.lang as Language;
   
   const article = articles.find(a => a.slug === slug);
 
@@ -23,30 +23,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const baseUrl = 'https://jurmola.com';
-  const articleUrl = `${baseUrl}/${lang}/news/${article.slug}`;
+  const articleUrl = `${baseUrl}/en/news/${article.slug}`;
   const imageUrl = getArticleImageAbsoluteUrl(article, baseUrl);
-  
-  const hreflangLinks = generateHreflangLinks(`/${lang}/news/${article.slug}`, baseUrl);
 
   return {
-    title: `${article.title[lang]} | Jurmola Telegraphs`,
-    description: article.excerpt[lang],
+    title: `${article.title[language]} | Jurmola Telegraphs`,
+    description: article.excerpt[language],
     keywords: ['Latvia', 'Jurmala', 'satire', 'news', 'Baltic', 'humor', 'Riga'],
     authors: [{ name: 'Jurmola Telegraphs' }],
     alternates: {
       canonical: articleUrl,
-      languages: Object.fromEntries(
-        hreflangLinks
-          .filter(link => link.lang !== 'x-default')
-          .map(link => [link.lang, link.href])
-      ),
+      languages: {
+        'en': `${baseUrl}/en/news/${article.slug}`,
+        'ru': `${baseUrl}/news/${article.slug}`,
+        'lv': `${baseUrl}/lv/news/${article.slug}`,
+      },
     },
     openGraph: {
-      title: article.title[lang],
-      description: article.excerpt[lang],
+      title: article.title[language],
+      description: article.excerpt[language],
       url: articleUrl,
       siteName: 'Jurmola Telegraphs',
-      locale: lang === 'en' ? 'en_US' : lang === 'ru' ? 'ru_RU' : 'lv_LV',
+      locale: 'en_US',
       type: 'article',
       publishedTime: new Date(article.date).toISOString(),
       authors: ['Jurmola Telegraphs'],
@@ -55,14 +53,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           url: imageUrl,
           width: 1200,
           height: 630,
-          alt: article.title[lang],
+          alt: article.title[language],
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: article.title[lang],
-      description: article.excerpt[lang],
+      title: article.title[language],
+      description: article.excerpt[language],
       images: [imageUrl],
       creator: '@JurmolaTelegraphs',
     },

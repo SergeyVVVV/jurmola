@@ -1,41 +1,41 @@
-import { articles } from '../data/articles';
-import { getArticleImageUrl } from '../lib/article-image';
-import { localizedHref } from '../lib/i18n-config';
+import { articles } from '../../data/articles';
+import { getArticleImageUrl } from '../../lib/article-image';
+import { localizedHref } from '../../lib/i18n-config';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 
-const language = 'ru';
+const language = 'lv';
 
 const translations = {
-  pageTitle: "Мнение",
-  pageDescription: "Смелые взгляды на балтийскую жизнь. Горячие мнения, холодные истины и теплые наблюдения обо всем - от памятников до картофеля.",
-  backToHome: "← Назад на главную"
+  pageTitle: "Bizness Jūrmalā",
+  pageDescription: "Ekonomiskā satīra no Baltijas biznesa centra. Tirgus analīze, jaunuzņēmumu stāsti un aizdomīgi veiksmīgi kartupeļu projekti.",
+  backToHome: "← Atpakaļ uz sākumu"
 };
 
 export const metadata: Metadata = {
   title: `${translations.pageTitle} | Jurmola Telegraphs`,
   description: translations.pageDescription,
   alternates: {
-    canonical: 'https://jurmola.com/opinion/',
+    canonical: 'https://jurmola.com/lv/business/',
     languages: {
-      'en': 'https://jurmola.com/en/opinion/',
-      'ru': 'https://jurmola.com/opinion/',
-      'lv': 'https://jurmola.com/lv/opinion/',
+      'en': 'https://jurmola.com/en/business/',
+      'ru': 'https://jurmola.com/business/',
+      'lv': 'https://jurmola.com/lv/business/',
     },
   },
   openGraph: {
     title: `${translations.pageTitle} | Jurmola Telegraphs`,
     description: translations.pageDescription,
-    url: 'https://jurmola.com/opinion/',
+    url: 'https://jurmola.com/lv/business/',
     siteName: 'Jurmola Telegraphs',
-    locale: 'ru_RU',
+    locale: 'lv_LV',
     type: 'website',
   },
 };
 
-export default function OpinionPage() {
-  const opinionArticles = articles
-    .filter(a => a.categories.includes('opinion'))
+export default function BusinessPage() {
+  const businessArticles = articles
+    .filter(a => a.categories.includes('business'))
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   return (
@@ -47,9 +47,9 @@ export default function OpinionPage() {
               {translations.backToHome}
             </Link>
             <div className="flex gap-2">
-              <Link href="/opinion/" className="px-3 py-1 text-sm font-bold underline">RU</Link>
-              <Link href="/en/opinion/" className="px-3 py-1 text-sm">EN</Link>
-              <Link href="/lv/opinion/" className="px-3 py-1 text-sm">LV</Link>
+              <Link href="/business/" className="px-3 py-1 text-sm">RU</Link>
+              <Link href="/en/business/" className="px-3 py-1 text-sm">EN</Link>
+              <Link href="/lv/business/" className="px-3 py-1 text-sm font-bold underline">LV</Link>
             </div>
           </div>
 
@@ -64,7 +64,7 @@ export default function OpinionPage() {
 
       <main className="max-w-7xl mx-auto px-6 py-12">
         <div className="grid md:grid-cols-3 gap-8">
-          {opinionArticles.map((article) => (
+          {businessArticles.map((article) => (
             <article key={article.id} className="pb-6">
               <Link href={localizedHref(`news/${article.slug}`, language)} className="bg-gray-200 rounded aspect-video overflow-hidden mb-4 block">
                 <img 

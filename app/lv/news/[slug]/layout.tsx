@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
-import { articles } from '../../data/articles';
-import { getArticleImageAbsoluteUrl } from '../../lib/article-image';
+import { articles } from '../../../data/articles';
+import { getArticleImageAbsoluteUrl } from '../../../lib/article-image';
 
 type Props = {
   params: Promise<{ slug: string }>;
   children: React.ReactNode;
 };
 
-const language = 'ru';
+const language = 'lv';
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await Promise.resolve(params);
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const baseUrl = 'https://jurmola.com';
-  const articleUrl = `${baseUrl}/news/${article.slug}`;
+  const articleUrl = `${baseUrl}/lv/news/${article.slug}`;
   const imageUrl = getArticleImageAbsoluteUrl(article, baseUrl);
 
   return {
@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: article.excerpt[language],
       url: articleUrl,
       siteName: 'Jurmola Telegraphs',
-      locale: 'ru_RU',
+      locale: 'lv_LV',
       type: 'article',
       publishedTime: new Date(article.date).toISOString(),
       authors: ['Jurmola Telegraphs'],

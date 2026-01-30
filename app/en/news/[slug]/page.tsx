@@ -1,20 +1,20 @@
 import { notFound } from 'next/navigation';
-import { articles } from '../../data/articles';
-import { getArticleImageAbsoluteUrl, getArticleImageUrl } from '../../lib/article-image';
-import { localizedHref } from '../../lib/i18n-config';
+import { articles } from '../../../data/articles';
+import { getArticleImageAbsoluteUrl, getArticleImageUrl } from '../../../lib/article-image';
+import { localizedHref } from '../../../lib/i18n-config';
 import Link from 'next/link';
 
 type Props = {
   params: Promise<{ slug: string }>;
 };
 
-const language = 'ru';
+const language = 'en';
 
 const translations = {
-  backToHome: "← Назад на главную",
+  backToHome: "← Back to Home",
   siteTitle: "Jurmola Telegraphs",
-  share: "Поделиться этой историей",
-  allRightsReserved: "Все права защищены"
+  share: "Share this story",
+  allRightsReserved: "All rights reserved"
 };
 
 export async function generateStaticParams() {
@@ -56,7 +56,7 @@ export default async function ArticlePage({ params }: Props) {
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://jurmola.com/news/${article.slug}`
+      "@id": `https://jurmola.com/en/news/${article.slug}`
     },
     "articleSection": article.category[language],
     "inLanguage": language
@@ -75,8 +75,8 @@ export default async function ArticlePage({ params }: Props) {
             {translations.backToHome}
           </Link>
           <div className="flex gap-3">
-            <Link href={`/news/${slug}`} className="px-2 py-1 cursor-pointer hover:text-black transition font-bold underline text-gray-600">RU</Link>
-            <Link href={`/en/news/${slug}`} className="px-2 py-1 cursor-pointer hover:text-black transition text-gray-600">EN</Link>
+            <Link href={`/news/${slug}`} className="px-2 py-1 cursor-pointer hover:text-black transition text-gray-600">RU</Link>
+            <Link href={`/en/news/${slug}`} className="px-2 py-1 cursor-pointer hover:text-black transition font-bold underline text-gray-600">EN</Link>
             <Link href={`/lv/news/${slug}`} className="px-2 py-1 cursor-pointer hover:text-black transition text-gray-600">LV</Link>
           </div>
         </div>
@@ -171,7 +171,7 @@ export default async function ArticlePage({ params }: Props) {
           <p className="text-sm text-gray-600 mb-4">{translations.share}</p>
           <div className="flex gap-4">
             <a 
-              href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title[language])}&url=${encodeURIComponent(`https://jurmola.com/news/${slug}`)}`}
+              href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title[language])}&url=${encodeURIComponent(`https://jurmola.com/en/news/${slug}`)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded font-semibold text-sm transition cursor-pointer"
@@ -179,7 +179,7 @@ export default async function ArticlePage({ params }: Props) {
               Twitter
             </a>
             <a 
-              href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://jurmola.com/news/${slug}`)}`}
+              href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://jurmola.com/en/news/${slug}`)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded font-semibold text-sm transition cursor-pointer"

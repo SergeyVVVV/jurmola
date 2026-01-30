@@ -15,31 +15,36 @@ const sourceSerif = Source_Serif_4({
 });
 
 export const metadata: Metadata = {
-  title: "Jurmola Telegraphs - Your Jurmala, Your Capital",
-  description: "Many people ask us, so we write in the subtitle: our resource has nothing to do with Laima Vaikule. At all. And it has nothing to do with limes either.",
+  title: "Jurmola Telegraphs - Твоя Юрмала, Твоя Столица",
+  description: "Многие спрашивают нас, поэтому пишем в подзаголовке: наш ресурс не имеет никакого отношения к Лайме Вайкуле. Вообще. И к лаймам тоже.",
   metadataBase: new URL('https://jurmola.com'),
   alternates: {
     canonical: '/',
+    languages: {
+      'en': 'https://jurmola.com/en/',
+      'ru': 'https://jurmola.com/',
+      'lv': 'https://jurmola.com/lv/',
+    },
     types: {
       'application/rss+xml': [
+        { url: '/feed.xml?lang=ru', title: 'Jurmola Telegraphs (Русский)' },
         { url: '/feed.xml?lang=en', title: 'Jurmola Telegraphs (English)' },
         { url: '/feed.xml?lang=lv', title: 'Jurmola Telegraphs (Latviešu)' },
-        { url: '/feed.xml?lang=ru', title: 'Jurmola Telegraphs (Русский)' },
       ],
     },
   },
   openGraph: {
-    title: "Jurmola Telegraphs - Your Jurmala, Your Capital",
-    description: "Many people ask us, so we write in the subtitle: our resource has nothing to do with Laima Vaikule. At all. And it has nothing to do with limes either.",
+    title: "Jurmola Telegraphs - Твоя Юрмала, Твоя Столица",
+    description: "Многие спрашивают нас, поэтому пишем в подзаголовке: наш ресурс не имеет никакого отношения к Лайме Вайкуле. Вообще. И к лаймам тоже.",
     url: "https://jurmola.com",
     siteName: "Jurmola Telegraphs",
-    locale: "en_US",
+    locale: "ru_RU",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jurmola Telegraphs - Your Jurmala, Your Capital",
-    description: "Many people ask us, so we write in the subtitle: our resource has nothing to do with Laima Vaikule. At all. And it has nothing to do with limes either.",
+    title: "Jurmola Telegraphs - Твоя Юрмала, Твоя Столица",
+    description: "Многие спрашивают нас, поэтому пишем в подзаголовке: наш ресурс не имеет никакого отношения к Лайме Вайкуле. Вообще. И к лаймам тоже.",
   },
 };
 
@@ -74,7 +79,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="ru" suppressHydrationWarning>
       <head>
         <script
           type="application/ld+json"

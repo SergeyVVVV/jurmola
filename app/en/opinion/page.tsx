@@ -1,22 +1,22 @@
-import { articles } from '../data/articles';
-import { getArticleImageUrl } from '../lib/article-image';
-import { localizedHref } from '../lib/i18n-config';
+import { articles } from '../../data/articles';
+import { getArticleImageUrl } from '../../lib/article-image';
+import { localizedHref } from '../../lib/i18n-config';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 
-const language = 'ru';
+const language = 'en';
 
 const translations = {
-  pageTitle: "Мнение",
-  pageDescription: "Смелые взгляды на балтийскую жизнь. Горячие мнения, холодные истины и теплые наблюдения обо всем - от памятников до картофеля.",
-  backToHome: "← Назад на главную"
+  pageTitle: "Opinion",
+  pageDescription: "Bold perspectives on Baltic life. Hot takes, cold truths, and lukewarm observations about everything from monuments to potatoes.",
+  backToHome: "← Back to Home"
 };
 
 export const metadata: Metadata = {
   title: `${translations.pageTitle} | Jurmola Telegraphs`,
   description: translations.pageDescription,
   alternates: {
-    canonical: 'https://jurmola.com/opinion/',
+    canonical: 'https://jurmola.com/en/opinion/',
     languages: {
       'en': 'https://jurmola.com/en/opinion/',
       'ru': 'https://jurmola.com/opinion/',
@@ -26,9 +26,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: `${translations.pageTitle} | Jurmola Telegraphs`,
     description: translations.pageDescription,
-    url: 'https://jurmola.com/opinion/',
+    url: 'https://jurmola.com/en/opinion/',
     siteName: 'Jurmola Telegraphs',
-    locale: 'ru_RU',
+    locale: 'en_US',
     type: 'website',
   },
 };
@@ -47,8 +47,8 @@ export default function OpinionPage() {
               {translations.backToHome}
             </Link>
             <div className="flex gap-2">
-              <Link href="/opinion/" className="px-3 py-1 text-sm font-bold underline">RU</Link>
-              <Link href="/en/opinion/" className="px-3 py-1 text-sm">EN</Link>
+              <Link href="/opinion/" className="px-3 py-1 text-sm">RU</Link>
+              <Link href="/en/opinion/" className="px-3 py-1 text-sm font-bold underline">EN</Link>
               <Link href="/lv/opinion/" className="px-3 py-1 text-sm">LV</Link>
             </div>
           </div>

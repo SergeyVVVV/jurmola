@@ -1,63 +1,152 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
-const languages = ['en', 'ru', 'lv'];
-const defaultLanguage = 'en';
+const RUSSIAN_COUNTRIES = ['ru', 'by', 'ua', 'kz', 'am', 'ge', 'md', 'tj', 'uz', 'kg'];
+const COOKIE_NAME = 'preferred-language';
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   const searchParams = request.nextUrl.searchParams;
   
-  // Check if there's a ?lang= parameter (old structure)
-  const langParam = searchParams.get('lang');
-  if (langParam && languages.includes(langParam)) {
-    // Redirect from /?lang=ru to /ru/
-    // Redirect from /news/article-slug?lang=ru to /ru/news/article-slug
-    const newUrl = new URL(`/${langParam}${pathname}`, request.url);
-    return NextResponse.redirect(newUrl, 301);
-  }
-  
-  // Check if pathname already has a language prefix
-  const pathnameHasLanguage = languages.some(
-    (lang) => pathname.startsWith(`/${lang}/`) || pathname === `/${lang}`
-  );
-  
-  if (pathnameHasLanguage) {
-    return NextResponse.next();
-  }
-  
-  // Root path: redirect to default language
-  if (pathname === '/' || pathname === '') {
-    const newUrl = new URL(`/${defaultLanguage}/`, request.url);
-    return NextResponse.redirect(newUrl, 307); // Temporary redirect for root
-  }
-  
-  // Special paths that should not be redirected (Next.js internals, API routes, static files)
+  // Skip static files, API routes, and special Next.js paths
   if (
     pathname.startsWith('/_next') ||
     pathname.startsWith('/api/') ||
     pathname.startsWith('/cover/') ||
     pathname.startsWith('/feed.xml') ||
-    pathname.includes('.') // Static files like .svg, .ico, etc.
+    pathname.includes('.') // Static files
   ) {
     return NextResponse.next();
   }
+
+  // Get existing language preference from cookie
+  const preferredLang = request.cookies.get(COOKIE_NAME)?.value;
   
-  // For any other path without language prefix, redirect to English version
-  // E.g., /news/article-slug -> /en/news/article-slug
-  const newUrl = new URL(`/${defaultLanguage}${pathname}`, request.url);
-  return NextResponse.redirect(newUrl, 301);
+  // Get country from Cloudflare header (for local dev, also check x-test-country)
+  const country = (
+    request.headers.get('CF-IPCountry') || 
+    request.headers.get('x-test-country') ||
+    ''
+  ).toLowerCase();
+
+  // MIGRATION: Redirect old /ru/ URLs to root (301 permanent)
+  if (pathname.startsWith('/ru/') || pathname === '/ru') {
+    const newPath = pathname.replace(/^\/ru/, '') || '/';
+    const newUrl = new URL(newPath, request.url);
+    newUrl.search = searchParams.toString();
+    
+    const response = NextResponse.redirect(newUrl, 301);
+    response.cookies.set(COOKIE_NAME, 'ru', {
+      maxAge: 60 * 60 * 24 * 365, // 1 year
+      path: '/',
+    });
+    return response;
+  }
+
+  // MIGRATION: Handle old ?lang= parameter (301 permanent)
+  const langParam = searchParams.get('lang');
+  if (langParam) {
+    let newPath = pathname;
+    if (langParam === 'ru') {
+      newPath = pathname; // Russian stays on root
+    } else if (langParam === 'en') {
+      newPath = `/en${pathname === '/' ? '' : pathname}`;
+    } else if (langParam === 'lv') {
+      newPath = `/lv${pathname === '/' ? '' : pathname}`;
+    }
+    
+    const newUrl = new URL(newPath || '/', request.url);
+    const response = NextResponse.redirect(newUrl, 301);
+    response.cookies.set(COOKIE_NAME, langParam, {
+      maxAge: 60 * 60 * 24 * 365,
+      path: '/',
+    });
+    return response;
+  }
+
+  // Check if already on a language-specific path
+  const isOnEnglishPath = pathname.startsWith('/en/') || pathname === '/en';
+  const isOnLatvianPath = pathname.startsWith('/lv/') || pathname === '/lv';
+  
+  // If already on a language path, set cookie and continue
+  if (isOnEnglishPath) {
+    const response = NextResponse.next();
+    response.cookies.set(COOKIE_NAME, 'en', {
+      maxAge: 60 * 60 * 24 * 365,
+      path: '/',
+    });
+    return response;
+  }
+  
+  if (isOnLatvianPath) {
+    const response = NextResponse.next();
+    response.cookies.set(COOKIE_NAME, 'lv', {
+      maxAge: 60 * 60 * 24 * 365,
+      path: '/',
+    });
+    return response;
+  }
+
+  // If user is on root path without language prefix
+  // and doesn't have a preference cookie, determine language by geo
+  if (!preferredLang && pathname === '/') {
+    let targetPath = '/'; // Default: Russian (root)
+    let targetLang = 'ru';
+    
+    if (country === 'lv') {
+      targetPath = '/lv/';
+      targetLang = 'lv';
+    } else if (country && !RUSSIAN_COUNTRIES.includes(country)) {
+      // Non-Russian/CIS countries -> English
+      targetPath = '/en/';
+      targetLang = 'en';
+    }
+    
+    // If determined language is not Russian, redirect
+    if (targetPath !== '/') {
+      const response = NextResponse.redirect(new URL(targetPath, request.url));
+      response.cookies.set(COOKIE_NAME, targetLang, {
+        maxAge: 60 * 60 * 24 * 365,
+        path: '/',
+      });
+      return response;
+    }
+    
+    // User should stay on Russian root, set cookie
+    const response = NextResponse.next();
+    response.cookies.set(COOKIE_NAME, 'ru', {
+      maxAge: 60 * 60 * 24 * 365,
+      path: '/',
+    });
+    return response;
+  }
+
+  // If user has a preference cookie and is on root, respect their preference
+  if (preferredLang && pathname === '/') {
+    if (preferredLang === 'en') {
+      return NextResponse.redirect(new URL('/en/', request.url));
+    } else if (preferredLang === 'lv') {
+      return NextResponse.redirect(new URL('/lv/', request.url));
+    }
+    // Russian preference: stay on root
+    return NextResponse.next();
+  }
+
+  // For Russian content on root (no prefix), set cookie if not present
+  if (!isOnEnglishPath && !isOnLatvianPath && !preferredLang) {
+    const response = NextResponse.next();
+    response.cookies.set(COOKIE_NAME, 'ru', {
+      maxAge: 60 * 60 * 24 * 365,
+      path: '/',
+    });
+    return response;
+  }
+
+  return NextResponse.next();
 }
 
 export const config = {
   matcher: [
-    /*
-     * Match all request paths except:
-     * - _next/static (static files)
-     * - _next/image (image optimization files)
-     * - favicon.ico, icon.svg (favicon files)
-     * - public files (images, etc.)
-     */
     '/((?!_next/static|_next/image|favicon.ico|icon.svg|.*\\.svg|.*\\.png|.*\\.jpg|.*\\.jpeg|.*\\.gif|.*\\.webp).*)',
   ],
 };

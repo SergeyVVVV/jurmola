@@ -1,10 +1,10 @@
-import { articles } from './data/articles';
-import { getArticleImageUrl } from './lib/article-image';
-import { localizedHref } from './lib/i18n-config';
+import { articles } from '../data/articles';
+import { getArticleImageUrl } from '../lib/article-image';
+import { localizedHref } from '../lib/i18n-config';
 import Link from 'next/link';
 
-// Russian version on root (Meduza structure)
-const language = 'ru';
+// English version
+const language = 'en';
 
 // Sort articles by date
 const newsArticles = [...articles].sort((a, b) => {
@@ -19,15 +19,15 @@ const newsArticles = [...articles].sort((a, b) => {
 
 const translations = {
   siteTitle: "Jurmola Telegraphs",
-  tagline: "Лучший источник новостей Балтии",
+  tagline: "The Baltic's Finest News Source",
   sections: {
-    politics: "Политика",
-    culture: "Культура",
-    business: "Бизнес",
-    opinion: "Мнение"
+    politics: "Politics",
+    culture: "Culture",
+    business: "Business",
+    opinion: "Opinion"
   },
-  moreStories: "Больше новостей",
-  allRightsReserved: 'Все права защищены'
+  moreStories: "More News",
+  allRightsReserved: 'All rights reserved'
 };
 
 export default function Home() {
@@ -43,13 +43,13 @@ export default function Home() {
           <div className="flex gap-3 items-center">
             <Link
               href="/"
-              className="px-2 py-1 cursor-pointer hover:text-black transition font-bold underline text-gray-600"
+              className="px-2 py-1 cursor-pointer hover:text-black transition text-gray-600"
             >
               RU
             </Link>
             <Link
               href="/en/"
-              className="px-2 py-1 cursor-pointer hover:text-black transition text-gray-600"
+              className="px-2 py-1 cursor-pointer hover:text-black transition font-bold underline text-gray-600"
             >
               EN
             </Link>
@@ -61,7 +61,7 @@ export default function Home() {
             </Link>
             <span className="text-gray-300">|</span>
             <a 
-              href="/feed.xml?lang=ru" 
+              href="/feed.xml?lang=en" 
               className="px-2 py-1 text-orange-600 hover:text-orange-700 font-semibold transition cursor-pointer"
               target="_blank"
               rel="noopener noreferrer"
@@ -193,7 +193,7 @@ export default function Home() {
             <p className="font-serif text-2xl font-bold mb-4">{translations.siteTitle}</p>
             <div className="mb-4">
               <a 
-                href="/feed.xml?lang=ru" 
+                href="/feed.xml?lang=en" 
                 className="inline-block px-4 py-2 text-orange-600 hover:text-orange-700 font-semibold transition cursor-pointer border border-orange-600 hover:border-orange-700 rounded"
                 target="_blank"
                 rel="noopener noreferrer"
