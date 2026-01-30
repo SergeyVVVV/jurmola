@@ -85,7 +85,7 @@ export default function BusinessPage() {
 
       <footer className="border-t-4 border-black mt-16 py-8 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <p className="text-sm text-gray-600">© 2025 Jurmola Telegraphs. {language === 'en' ? 'All rights reserved' : language === 'lv' ? 'Visas tiesības aizsargātas' : 'Все права защищены'}.</p>
+          <p className="text-sm text-gray-600">© 2026 Jurmola Telegraphs. {language === 'en' ? 'All rights reserved' : language === 'lv' ? 'Visas tiesības aizsargātas' : 'Все права защищены'}.</p>
         </div>
       </footer>
     </div>

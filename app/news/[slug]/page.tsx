@@ -257,7 +257,7 @@ export default function ArticlePage() {
               {translations.siteTitle[language]}
             </h3>
           </a>
-          <p className="text-gray-500 mt-4 text-sm">© 2025 Jurmola Telegraphs. All rights reserved.</p>
+          <p className="text-gray-500 mt-4 text-sm">© 2026 Jurmola Telegraphs. All rights reserved.</p>
         </div>
       </footer>
     </div>

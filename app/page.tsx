@@ -223,7 +223,7 @@ export default function Home() {
               </a>
             </div>
             <p className="text-sm text-gray-600">
-              © 2025 Jurmola. {language === 'en' ? 'All rights reserved' : language === 'lv' ? 'Visas tiesības aizsargātas' : 'Все права защищены'}.
+              © 2026 Jurmola. {language === 'en' ? 'All rights reserved' : language === 'lv' ? 'Visas tiesības aizsargātas' : 'Все права защищены'}.
             </p>
           </div>
         </div>
