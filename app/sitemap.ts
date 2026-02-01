@@ -100,9 +100,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   });
 
-  // Yurmola keyword page (Russian only - target keyword "юрмола")
+  // Jurmola keyword page (Russian only - target keyword "юрмола")
   routes.push({
-    url: `${baseUrl}/yurmola/`,
+    url: `${baseUrl}/jurmola/`,
     lastModified: now,
     changeFrequency: 'weekly' as const,
     priority: 0.95, // High priority for target keyword

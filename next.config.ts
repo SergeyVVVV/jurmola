@@ -14,6 +14,18 @@ const nextConfig: NextConfig = {
         destination: '/news/riga-urban-bee-transportation',
         permanent: true, // 301 redirect
       },
+      // Redirect /yurmola to /jurmola (correct spelling matching domain)
+      {
+        source: '/yurmola',
+        destination: '/jurmola',
+        permanent: true, // 301 redirect
+      },
+      // Old Russian prefix redirects (Meduza structure migration)
+      {
+        source: '/ru/:path*',
+        destination: '/:path*',
+        permanent: true, // 301 redirect
+      },
     ];
   },
 };

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Юрмола – Курортная столица Балтии | Jurmola Telegraphs',
     description: 'Все о Юрмоле: новости, события, культура и жизнь курортного города. Сатирический взгляд на Юрмолу от Jurmola Telegraphs.',
-    url: 'https://jurmola.com/yurmola',
+    url: 'https://jurmola.com/jurmola',
     siteName: 'Jurmola Telegraphs',
     locale: 'ru_RU',
     type: 'website',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     ]
   },
   alternates: {
-    canonical: 'https://jurmola.com/yurmola',
+    canonical: 'https://jurmola.com/jurmola',
   }
 };
 
@@ -280,7 +280,7 @@ export default function YurmolaPage() {
               <h3 className="font-bold mb-3">Информация</h3>
               <ul className="space-y-2 text-sm">
                 <li><Link href={localizedHref('about', language)} className="text-gray-600 hover:text-gray-900">О нас</Link></li>
-                <li><Link href={localizedHref('yurmola', language)} className="text-gray-600 hover:text-gray-900">О Юрмоле</Link></li>
+                <li><Link href={localizedHref('jurmola', language)} className="text-gray-600 hover:text-gray-900">О Юрмоле</Link></li>
                 <li><Link href={localizedHref('', language)} className="text-gray-600 hover:text-gray-900">Главная</Link></li>
               </ul>
             </div>
