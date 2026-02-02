@@ -5,6 +5,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import LoadMoreArticles from '../components/LoadMoreArticles';
 
 const language = 'ru';
 
@@ -52,34 +53,13 @@ export default function CulturePage() {
         <p className="text-lg text-gray-700 max-w-3xl mb-8">
           {translations.pageDescription}
         </p>
-        <div className="grid md:grid-cols-3 gap-8">
-          {cultureArticles.map((article) => (
-            <article key={article.id} className="pb-6">
-              <Link href={localizedHref(`news/${article.slug}`, language)} className="bg-gray-200 rounded aspect-video overflow-hidden mb-4 block">
-                <img 
-                  src={getArticleImageUrl(article)} 
-                  alt={article.title[language]}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                />
-              </Link>
-              <span className="text-xs font-semibold text-red-600 uppercase tracking-wide">
-                {article.category[language]}
-              </span>
-              <Link href={localizedHref(`news/${article.slug}`, language)}>
-                <h3 className="text-xl font-bold mt-2 mb-3 leading-tight hover:underline cursor-pointer" 
-                    style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
-                  {article.title[language]}
-                </h3>
-              </Link>
-              <p className="text-sm text-gray-700 leading-relaxed mb-3">
-                {article.excerpt[language]}
-              </p>
-              <div className="text-xs text-gray-500">
-                {article.date} · {article.readTime}
-              </div>
-            </article>
-          ))}
-        </div>
+        
+        <LoadMoreArticles 
+          articles={cultureArticles}
+          language={language}
+          initialCount={18}
+          loadMoreCount={15}
+        />
       </main>
 
       <Footer language={language} />
