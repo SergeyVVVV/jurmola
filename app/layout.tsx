@@ -60,10 +60,7 @@ export default function RootLayout({
     "name": "Jurmola Telegraphs",
     "url": "https://jurmola.com",
     "logo": "https://jurmola.com/icon.svg",
-    "description": "The Baltic's Finest News Source - Satirical news from Latvia, Jurmala, and beyond",
-    "sameAs": [
-      "https://twitter.com/JurmolaTelegraphs"
-    ]
+    "description": "The Baltic's Finest News Source - Satirical news from Latvia, Jurmala, and beyond"
   };
 
   const websiteSchema = {
