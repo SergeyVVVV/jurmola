@@ -18,6 +18,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 79,
+    slug: "riga-mayor-announces-revolutionary-plan-to",
+    title: {
+      en: "Riga Mayor Announces Revolutionary Plan to Combat Potholes by Making Them Official Tourist Attraction",
+      lv: "Rīgas mērs paziņo par revolucionāru plānu cīņā ar bedrēm, padarot tās par oficiālu tūrisma objektu",
+      ru: "Мэр Риги объявляет революционный план борьбы с ямами, превращая их в официальную туристическую достопримечательность"
+    },
+    excerpt: {
+      en: "In a bold new initiative, Riga's Mayor Kaspars Komiskis has unveiled a plan to rebrand the city's potholes as unique 'Urban Crater Parks' to boost tourism and local economy, particularly targeting niche markets in extreme bicycle trekking and creative photography.",
+      lv: "Rīgas mērs Kaspars Komiskis ir atklājis drosmīgu jaunu iniciatīvu, lai pārveidotu pilsētas bedres par unikāliem 'Pilsētas krāteru parkiem', tādējādi veicinot tūrismu un vietējo ekonomiku, īpaši mērķējot uz nišas tirgiem ekstrēmā velobraukšanā un radošajā fotogrāfijā.",
+      ru: "В смелой новой инициативе мэр Риги Каспар Комискис представил план по ребрендингу городских ям как уникальных 'Городских кратерных парков', чтобы стимулировать туризм и местную экономику, особенно нацелившись на нишевые рынки экстремального велосипедного треккинга и креативной фотографии."
+    },
+    fullContent: {
+      en: `In an unexpected turn of events that has left even seasoned urban planners scratching their heads, Riga's Mayor Kaspars Komiskis announced on Wednesday a revolutionary strategy to tackle the city's notorious pothole problem. Instead of fixing them, the city plans to transform these urban craters into celebrated tourist attractions.
+
+Dubbed 'Urban Crater Parks', the initiative aims to highlight the rugged beauty of Riga's bumpy streets, wooing adventurous travelers who are tired of smooth, predictable roads. 'It's time we stopped seeing our potholes as a problem and started recognizing them for the opportunity they are,' Mayor Komiskis declared at a bustling press conference held at the intersection of Merķeļa iela and Brīvības bulvāris, a notorious hotspot for crater-gazing.
+
+Komiskis was confident that this venture could generate significant tourism revenue, citing a study supposedly published by the Latvian Institute of Geological Humor, which claimed that '52% of millennials crave a more jarring travel experience.' 'We've been using the wrong metric all along,' stated Komiskis, adjusting his freshly-purchased Patagonia hat. 'People don't remember another smooth ride, but a near-ejection from a minibus at a road crater leaves a lifetime impression.'
+
+The concept has been warmly received by some sectors, particularly among extreme sports enthusiasts. Viktors Gniedels, founder of the Riga-based cycling club 'Bumpy Ride,' expressed enthusiasm. 'Frankly, the thrilling unpredictability of Riga's roads is why we chose this city for our annual Extreme Trekking Marathon. A flat ride is boring. Our participants come here for the adrenaline of dodging the world's deadliest traffic obstacles while balancing on two wheels.'
+
+To complement this innovative approach, the Riga Tourism Board is developing photographic tours focusing exclusively on the largest and most aesthetically pleasing potholes. Professional photographers and Instagram influencers are reportedly already lining up to capture the next viral shot in front of authentic 'Riga Road Craters.' A tentative guide prepared by the city's young, fashion-forward interns suggests that 'the crippling beauty of the reflections in these watery pits will be an Instagram hit.'
+
+Not everyone is amused. Ania Rudziņa, an accountant who regularly navigates the pockmarked streets, voiced concerns over safety. 'It takes me twice as long to get to work now that I have to circumnavigate these ‘tour sites’. Plus, do we really want to advertise our neglected infrastructure to the world?' she lamented, shaking her head in disbelief.
+
+Despite skepticism, the project appears to be full steam ahead. The government is already planning its first 'International Pothole Appreciation Day,' promising a city-wide scavenger hunt with prizes for solving riddles about crater dimensions and historical data.
+
+In a closing remark that left journalists both amused and perplexed, Mayor Komiskis flashed a wry grin: 'Our roads might be full of holes, but who says our city's future has to be?' With a characteristic wave, he quipped, 'Remember, it's not about filling potholes, but filling our lives with new experiences.'
+
+Whether Riga's vision of turning road disrepair into a global tourist sensation will succeed remains to be seen, but one thing is for sure: the city is paving the way for unique, albeit bumpy, travel adventures.`,
+      lv: `Neparastā notikumu pavērsienā, kas pat pieredzējušiem pilsētplānotājiem licis kasīt galvas, Rīgas mērs Kaspars Komiskis trešdien paziņoja par revolucionāru stratēģiju, lai risinātu pilsētas bēdīgi slaveno bedru problēmu. Tā vietā, lai tās salabotu, pilsēta plāno šos pilsētas krāterus pārvērst par slaveniem tūrisma objektiem.
+
+Nosaukts par 'Pilsētas krāteru parkiem', šī iniciatīva mērķē izcelt Rīgas bedrīgo ielu skarbo skaistumu, pievilinot piedzīvojumu meklētājus, kuri ir noguruši no gludām, paredzamām ceļiem. 'Ir pienācis laiks pārstāt uzskatīt mūsu bedres par problēmu un sākt tās atzīt par iespēju,' paziņoja mērs Komiskis rosīgā preses konferencē, kas notika Merķeļa ielas un Brīvības bulvāra krustojumā, bēdīgi slavenā krāteru vērošanas vietā.
+
+Komiskis bija pārliecināts, ka šis pasākums varētu radīt ievērojamus tūrisma ieņēmumus, atsaucoties uz pētījumu, kas it kā publicēts Latvijas Ģeoloģiskā humora institūtā, kurā apgalvots, ka '52% mileniāļu alkst pēc vairāk satricinošas ceļošanas pieredzes.' 'Mēs visu laiku esam izmantojuši nepareizu mērvienību,' sacīja Komiskis, pielāgojot savu tikko iegādāto Patagonia cepuri. 'Cilvēki neatceras vēl vienu gludu braucienu, bet gandrīz izsviest no mikroautobusa pie ceļa krātera atstāj mūža iespaidu.'
+
+Šo koncepciju sirsnīgi uzņēmuši daži sektori, īpaši ekstrēmo sporta veidu entuziasti. Viktors Gniedels, Rīgā bāzētā velokluba 'Bumpy Ride' dibinātājs, izteica entuziasmu. 'Godīgi sakot, Rīgas ceļu aizraujošā neparedzamība ir iemesls, kāpēc mēs izvēlējāmies šo pilsētu mūsu ikgadējam Ekstrēmā trekinga maratonam. Plakans brauciens ir garlaicīgs. Mūsu dalībnieki nāk šeit pēc adrenalīna, izvairoties no pasaules nāvējošākajiem satiksmes šķēršļiem, balansējot uz diviem riteņiem.'
+
+Lai papildinātu šo inovatīvo pieeju, Rīgas Tūrisma padome izstrādā fototūres, kas koncentrējas tikai uz lielākajām un estētiski pievilcīgākajām bedrēm. Profesionāli fotogrāfi un Instagram ietekmētāji it kā jau stāv rindā, lai uzņemtu nākamo vīrusu foto pie autentiskiem 'Rīgas ceļu krāteriem.' Pilsētas jauno, modes apzinīgo praktikantu sagatavotais provizoriskais ceļvedis iesaka, ka 'atspulgu skaistums šajos ūdeņainajos bedrēs būs Instagram hits.'
+
+Ne visi ir sajūsmā. Ania Rudziņa, grāmatvede, kura regulāri pārvietojas pa bedrēm klātajām ielām, pauda bažas par drošību. 'Tagad man nepieciešams divreiz ilgāks laiks, lai nokļūtu darbā, jo man jāapiet šīs 'tūrisma vietas'. Turklāt, vai mēs tiešām vēlamies reklamēt mūsu novārtā atstāto infrastruktūru pasaulei?' viņa sūkstījās, neticībā kratot galvu.
+
+Neskatoties uz skepsi, projekts šķiet pilnā sparā. Valdība jau plāno pirmo 'Starptautisko bedru novērtēšanas dienu', solot pilsētas mēroga dārgumu medības ar balvām par mīklu risināšanu par krāteru izmēriem un vēsturiskajiem datiem.
+
+Noslēguma piezīmē, kas žurnālistus gan izklaidēja, gan mulsināja, mērs Komiskis uzsmaidīja viltīgi: 'Mūsu ceļi var būt pilni ar bedrēm, bet kurš teica, ka mūsu pilsētas nākotnei tā jābūt?' Ar raksturīgu mājienu viņš piebilda: 'Atcerieties, tas nav par bedru aizpildīšanu, bet gan par mūsu dzīves piepildīšanu ar jauniem piedzīvojumiem.'
+
+Vai Rīgas vīzija par ceļu bojājumu pārvēršanu par globālu tūrisma sensāciju būs veiksmīga, vēl ir jāredz, bet viena lieta ir skaidra: pilsēta bruģē ceļu unikāliem, lai gan bedrīgiem, ceļošanas piedzīvojumiem.`,
+      ru: `В неожиданном повороте событий, который оставил даже опытных городских планировщиков в замешательстве, мэр Риги Каспар Комискис в среду объявил о революционной стратегии решения проблемы печально известных ям города. Вместо того чтобы их ремонтировать, город планирует превратить эти городские кратеры в знаменитые туристические достопримечательности.
+
+Названные 'Городскими кратерными парками', инициатива стремится подчеркнуть суровую красоту ухабистых улиц Риги, привлекая авантюрных путешественников, уставших от гладких, предсказуемых дорог. 'Пора перестать видеть в наших ямах проблему и начать признавать их как возможность,' заявил мэр Комискис на шумной пресс-конференции, состоявшейся на пересечении улицы Меркеля и бульвара Бривибас, известного места для наблюдения за кратерами.
+
+Комискис был уверен, что это предприятие может принести значительный доход от туризма, ссылаясь на исследование, якобы опубликованное Латвийским институтом геологического юмора, в котором утверждается, что '52% миллениалов жаждут более потрясающего опыта путешествий.' 'Мы все это время использовали неправильную метрику,' заявил Комискис, поправляя свою недавно купленную шляпу Patagonia. 'Люди не запоминают еще одну гладкую поездку, но почти вылететь из микроавтобуса на дорожном кратере оставляет впечатление на всю жизнь.'
+
+Концепция была тепло принята некоторыми секторами, особенно среди энтузиастов экстремальных видов спорта. Викторс Гниеделс, основатель рижского велосипедного клуба 'Bumpy Ride', выразил энтузиазм. 'Честно говоря, захватывающая непредсказуемость дорог Риги — вот почему мы выбрали этот город для нашего ежегодного марафона экстремального треккинга. Плоская поездка скучна. Наши участники приезжают сюда за адреналином, уклоняясь от самых опасных дорожных препятствий мира, балансируя на двух колесах.'
+
+В дополнение к этому инновационному подходу, Рижский туристический совет разрабатывает фототуры, сосредоточенные исключительно на самых больших и эстетически привлекательных ямах. Сообщается, что профессиональные фотографы и Instagram-инфлюенсеры уже выстраиваются в очередь, чтобы запечатлеть следующий вирусный снимок на фоне аутентичных 'Рижских дорожных кратеров.' Предварительное руководство, подготовленное молодыми, модными стажерами города, предполагает, что 'потрясающая красота отражений в этих водяных ямах станет хитом Instagram.'
+
+Не все в восторге. Ания Рудзиня, бухгалтер, регулярно передвигающаяся по изрытым улицам, выразила обеспокоенность по поводу безопасности. 'Теперь мне нужно вдвое больше времени, чтобы добраться до работы, поскольку я должна обходить эти 'туристические объекты'. Плюс, действительно ли мы хотим рекламировать нашу запущенную инфраструктуру всему миру?' — сокрушалась она, качая головой в недоумении.
+
+Несмотря на скептицизм, проект, похоже, движется полным ходом. Правительство уже планирует первый 'Международный день признания ям', обещая городской квест с призами за решение загадок о размерах кратеров и исторических данных.
+
+В заключительном замечании, которое оставило журналистов одновременно развеселёнными и озадаченными, мэр Комискис с ухмылкой сказал: 'Наши дороги могут быть полны ям, но кто сказал, что будущее нашего города должно быть таким же?' С характерным взмахом он пошутил: 'Помните, дело не в том, чтобы заполнять ямы, а в том, чтобы наполнять нашу жизнь новыми впечатлениями.'
+
+Удастся ли Риге превратить дорожные разрушения в глобальную туристическую сенсацию, еще предстоит выяснить, но одно можно сказать наверняка: город прокладывает путь для уникальных, хотя и ухабистых, туристических приключений.`
+    },
+    date: "Feb 2, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/79/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 78,
     slug: "riga-institute-announces-breakthrough-discovering-the",
     title: {
@@ -90,7 +165,7 @@ Projekts gatavojas starptautiskai paplašināšanai, un daudzi cer, ka parādīs
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/78/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 77,
