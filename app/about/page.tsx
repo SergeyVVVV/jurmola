@@ -118,31 +118,34 @@ export default function AboutPage() {
           </section>
 
           <section className="mb-10 p-6 bg-blue-50 border-l-4 border-blue-400">
-            <h2 className="text-2xl font-bold mb-4">E-E-A-T и прозрачность</h2>
-            <p className="text-lg leading-relaxed text-gray-700 mb-3">
-              Мы следуем принципам Google E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness):
+            <h2 className="text-2xl font-bold mb-4">Наши принципы</h2>
+            <p className="text-lg leading-relaxed text-gray-700">
+              Мы честно говорим, что используем AI для создания контента. Мы знаем местный контекст Балтии и Латвии. 
+              Мы не скрываем, что это сатира, а не настоящие новости.
             </p>
-            <ul className="list-disc list-inside text-lg leading-relaxed text-gray-700 space-y-2">
-              <li><strong>Experience:</strong> Знание местного контекста Балтии и Латвии</li>
-              <li><strong>Expertise:</strong> Использование современных AI-технологий для создания контента</li>
-              <li><strong>Authoritativeness:</strong> Честность о природе нашего проекта</li>
-              <li><strong>Trustworthiness:</strong> Полная прозрачность о методах создания контента</li>
-            </ul>
+            <p className="text-lg leading-relaxed text-gray-700 mt-4">
+              Прозрачность для нас важнее, чем претензии на серьезность.
+            </p>
           </section>
 
           <section className="mb-10">
             <h2 className="text-2xl font-bold mb-4">Связаться с нами</h2>
             <p className="text-lg leading-relaxed text-gray-700 mb-4">
-              Есть вопросы, предложения или хотите поделиться идеей для сатирической статьи?
-            </p>
-            <p className="text-lg leading-relaxed text-gray-700">
-              Следите за нами в социальных сетях и наслаждайтесь нашим уникальным взглядом на новости Балтии!
+              Есть вопросы, предложения или же вы хотите поделиться идеей для сатирической статьи?{' '}
+              <a 
+                href="https://www.linkedin.com/in/sergey-visotsky/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 underline"
+              >
+                Напишите!
+              </a>
             </p>
           </section>
 
           <div className="mt-12 pt-8 border-t border-gray-300 text-center">
             <p className="text-gray-600 italic text-lg">
-              Помните: мы создаем улыбки, а не новости. 😊
+              Не принимайте это слишком серьезно 😊
             </p>
           </div>
         </article>

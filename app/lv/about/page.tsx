@@ -116,31 +116,34 @@ export default function AboutPage() {
           </section>
 
           <section className="mb-10 p-6 bg-blue-50 border-l-4 border-blue-400">
-            <h2 className="text-2xl font-bold mb-4">E-E-A-T un pārredzamība</h2>
-            <p className="text-lg leading-relaxed text-gray-700 mb-3">
-              Mēs sekojam Google E-E-A-T principiem (Pieredze, Ekspertīze, Autoritāte, Uzticamība):
+            <h2 className="text-2xl font-bold mb-4">Mūsu principi</h2>
+            <p className="text-lg leading-relaxed text-gray-700">
+              Mēs godīgi sakām, ka izmantojam AI satura radīšanai. Mēs pazīstam Baltijas un Latvijas 
+              vietējo kontekstu. Mēs neslēpjam, ka šī ir satīra, nevis īstas ziņas.
             </p>
-            <ul className="list-disc list-inside text-lg leading-relaxed text-gray-700 space-y-2">
-              <li><strong>Pieredze:</strong> Zināšanas par Baltijas un Latvijas vietējo kontekstu</li>
-              <li><strong>Ekspertīze:</strong> Mūsdienu AI tehnoloģiju izmantošana satura radīšanai</li>
-              <li><strong>Autoritāte:</strong> Godīgums par mūsu projekta būtību</li>
-              <li><strong>Uzticamība:</strong> Pilnīga pārredzamība par satura radīšanas metodēm</li>
-            </ul>
+            <p className="text-lg leading-relaxed text-gray-700 mt-4">
+              Pārredzamība mums ir svarīgāka nekā pretenzijas uz nopietni.
+            </p>
           </section>
 
           <section className="mb-10">
             <h2 className="text-2xl font-bold mb-4">Sazinies ar mums</h2>
             <p className="text-lg leading-relaxed text-gray-700 mb-4">
-              Vai tev ir jautājumi, ieteikumi vai vēlies dalīties ar ideju satīriskam rakstam?
-            </p>
-            <p className="text-lg leading-relaxed text-gray-700">
-              Seko mums sociālajos tīklos un baudi mūsu unikālo skatījumu uz Baltijas ziņām!
+              Vai tev ir jautājumi, ieteikumi vai vēlies dalīties ar ideju satīriskam rakstam?{' '}
+              <a 
+                href="https://www.linkedin.com/in/sergey-visotsky/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 underline"
+              >
+                Raksti!
+              </a>
             </p>
           </section>
 
           <div className="mt-12 pt-8 border-t border-gray-300 text-center">
             <p className="text-gray-600 italic text-lg">
-              Atceries: mēs radām smaidu, ne ziņas. 😊
+              Neuztver to pārāk nopietni 😊
             </p>
           </div>
         </article>

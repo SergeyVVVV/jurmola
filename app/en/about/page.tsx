@@ -117,31 +117,34 @@ export default function AboutPage() {
           </section>
 
           <section className="mb-10 p-6 bg-blue-50 border-l-4 border-blue-400">
-            <h2 className="text-2xl font-bold mb-4">E-E-A-T & Transparency</h2>
-            <p className="text-lg leading-relaxed text-gray-700 mb-3">
-              We follow Google's E-E-A-T principles (Experience, Expertise, Authoritativeness, Trustworthiness):
+            <h2 className="text-2xl font-bold mb-4">Our Principles</h2>
+            <p className="text-lg leading-relaxed text-gray-700">
+              We're honest about using AI to create content. We know the local context of the Baltics and Latvia. 
+              We don't hide that this is satire, not real news.
             </p>
-            <ul className="list-disc list-inside text-lg leading-relaxed text-gray-700 space-y-2">
-              <li><strong>Experience:</strong> Knowledge of Baltic and Latvian local context</li>
-              <li><strong>Expertise:</strong> Using modern AI technologies for content creation</li>
-              <li><strong>Authoritativeness:</strong> Honesty about the nature of our project</li>
-              <li><strong>Trustworthiness:</strong> Complete transparency about content creation methods</li>
-            </ul>
+            <p className="text-lg leading-relaxed text-gray-700 mt-4">
+              Transparency matters more to us than pretending to be serious.
+            </p>
           </section>
 
           <section className="mb-10">
             <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
             <p className="text-lg leading-relaxed text-gray-700 mb-4">
-              Have questions, suggestions, or want to share an idea for a satirical article?
-            </p>
-            <p className="text-lg leading-relaxed text-gray-700">
-              Follow us on social media and enjoy our unique take on Baltic news!
+              Have questions, suggestions, or want to share an idea for a satirical article?{' '}
+              <a 
+                href="https://www.linkedin.com/in/sergey-visotsky/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 underline"
+              >
+                Drop us a line!
+              </a>
             </p>
           </section>
 
           <div className="mt-12 pt-8 border-t border-gray-300 text-center">
             <p className="text-gray-600 italic text-lg">
-              Remember: we create smiles, not news. 😊
+              Don't take it too seriously 😊
             </p>
           </div>
         </article>
