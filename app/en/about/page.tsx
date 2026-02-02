@@ -53,9 +53,8 @@ export default function AboutPage() {
           </section>
 
           <section className="mb-10 p-6 bg-yellow-50 border-l-4 border-yellow-400">
-            <h2 className="text-2xl font-bold mb-4 flex items-center">
-              <span className="text-3xl mr-3">⚠️</span>
-              Important Disclaimer
+            <h2 className="text-2xl font-bold mb-4">
+              Please Note:
             </h2>
             <p className="text-lg leading-relaxed text-gray-800 mb-3">
               <strong>All articles on Jurmola Telegraphs are satire</strong> and created with the help of 
