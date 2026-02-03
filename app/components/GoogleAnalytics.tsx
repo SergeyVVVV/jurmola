@@ -1,9 +1,10 @@
 import Script from 'next/script';
 
-const GA_MEASUREMENT_ID = 'G-0442LLMQPJ';
+const GA_MEASUREMENT_ID = 'G-TVKXQMVD6T';
 
 export default function GoogleAnalytics() {
   // Отключаем в development для точности аналитики
+  // Этот компонент рендерится на сервере (Server Component)
   if (process.env.NODE_ENV !== 'production') {
     return null;
   }
