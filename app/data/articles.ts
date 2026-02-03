@@ -18,6 +18,69 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 80,
+    slug: "riga-announces-plan-to-solve-traffic",
+    title: {
+      en: "Riga Announces Plan to Solve Traffic Congestion with Pigeon-Powered Public Transport",
+      lv: "Rīga paziņo par plānu risināt satiksmes sastrēgumus ar baložu darbinātu sabiedrisko transportu",
+      ru: "Рига объявляет план решения проблемы пробок с помощью общественного транспорта на голубиной тяге"
+    },
+    excerpt: {
+      en: "In a groundbreaking move that has puzzled both traffic experts and bird enthusiasts, the city of Riga has unveiled plans to address its notorious traffic congestion by introducing a fleet of pigeon-powered public transport. The initiative, grandly titled 'Beak & Barrel Mobility', promises eco-friendly travel with a touch of avian charm.",
+      lv: "Pārsteidzošā solī, kas mulsinājis gan satiksmes ekspertus, gan putnu entuziastus, Rīgas pilsēta ir atklājusi plānus risināt savus bēdīgi slavenos satiksmes sastrēgumus, ieviešot baložu darbinātu sabiedriskā transporta floti. Iniciatīva, lepni nosaukta par 'Knābja un Mucas Mobilitāti', sola videi draudzīgu ceļošanu ar putnu šarmu.",
+      ru: "В новаторском шаге, который озадачил как экспертов по транспорту, так и любителей птиц, город Рига представил планы по решению своей печально известной проблемы пробок, введя флот общественного транспорта на голубиной тяге. Инициатива, с громким названием 'Клюв и Бочка Мобильность', обещает экологически чистые поездки с ноткой птичьего очарования."
+    },
+    fullContent: {
+      en: `In a bid to remedy the incessant traffic snarls that plague Riga's streets, the city's Transport Department has proposed a revolutionary solution described by Mayor Eugēnijs Kušķis as 'a feathered leap forward in urban mobility'. The initiative, dubbed the Beak & Barrel Mobility project, will see an airborne fleet of lightweight, passenger-carrying contraptions tethered to what is hoped will be Riga's most industrious workforce: the pigeons.
+
+In a press conference that took place amidst a flurry of feathers and curious cooing, Mayor Kušķis elaborated on the plan's innovative approach. 'Riga already offers a scenic backdrop for our beloved pigeons. Why not employ these magnificent creatures towards solving one of our biggest urban challenges? By harnessing their proven ability to navigate complex routes, we could finally see an end to vehicular gridlocks.'
+
+The plans have sparked fluttering debate. The proposal details suggest each transport module would carry a maximum of four passengers and would be pulled by a team of specially trained pigeons along predetermined skies above the city roads. This system, according to Transport Engineer Nolējiens Lidoņš, could reduce ground traffic by over 30% when launched. 'Each pigeon squadron will receive rigorous aviation training that includes precise navigation and synchronized wingbeats. We estimate that our feathered fleet can sustain a cruising speed of 5 km/hr—finally, congestion will be a species of the past,' Lidoņš stated with notable conviction.
+
+However, not everyone shares the same enthusiasm. Local ornithologist Dr. Valdis Dziedātājs warns of potential complications. 'While the idea is certainly groundbreaking, one must consider the pigeons' well-being. We will need to develop nutritional regimes to sustain these aerial commuters, not to mention the ethical implications of avian-led public transport. The humans might enjoy their sky rides, but what about the pigeons?' commented Dr. Dziedātājs, flapping open a book titled ‘Understanding Sky Commutes’.
+
+The broader public response has been as varied as the birds themselves. Residents appear largely divided along those who see a whimsical utopia of flying carriages dappled with sunlight and those privately skeptical over pigeon dropping management. 'I think it's fantastic! I mean, who wouldn't want to commute with the breeze under your wings, literally?' expressed Liga, a starry-eyed arts student, while others predict a potential increase in hat sales due to rooftop pigeon ‘bombardments’.
+
+Despite concerns, the city has already begun test deployments in Old Riga, where results have been mixed but undeniably entertaining for onlookers. 'So far, the testing phase has cascaded quite well with only a few minor mishaps—mostly involving pigeons distracted by bread on the cathedral steps,' reported Test Pilot and avid bread-thrower, Ilze Maizegrauds.
+
+The initiative is slated to launch in earnest this spring, optimistically timed with the annual bird migration season as an army of pigeons restock Riga's skies. Whether or not this flamboyant experiment will take off is yet uncertain, but one thing is clear: in Riga, the horizon is as vast as a flock of opportunity.`,
+      lv: `Lai risinātu nepārtrauktos satiksmes sastrēgumus, kas nomoka Rīgas ielas, pilsētas Transporta departaments ir ierosinājis revolucionāru risinājumu, ko mērs Eugēnijs Kušķis raksturo kā 'spārnotu soli uz priekšu pilsētas mobilitātē'. Iniciatīva, kas nosaukta par Knābja un Mucas Mobilitātes projektu, paredz vieglu, pasažierus pārvadājošu ierīču gaisa floti, kas tiks piesaistīta, cerams, Rīgas visdarbīgākajam darbaspēkam: baložiem.
+
+Preses konferencē, kas notika spalvu virpuļos un ziņkārīgā dūdošanā, mērs Kušķis izklāstīja plāna inovatīvo pieeju. 'Rīga jau piedāvā ainavisku fonu mūsu mīļotajiem baložiem. Kāpēc gan neizmantot šos brīnišķīgos radījumus, lai atrisinātu vienu no mūsu lielākajiem pilsētas izaicinājumiem? Izmantojot viņu pierādīto spēju orientēties sarežģītos maršrutos, mēs beidzot varētu redzēt beigas transportlīdzekļu sastrēgumiem.'
+
+Plāni ir izraisījuši spārnotas debates. Priekšlikuma detaļas liecina, ka katrs transporta modulis pārvadātu maksimāli četrus pasažierus un to vilktu speciāli apmācītu baložu komanda pa iepriekš noteiktiem debesu ceļiem virs pilsētas ceļiem. Šī sistēma, pēc Transporta inženiera Nolējiens Lidoņš domām, varētu samazināt zemes satiksmi par vairāk nekā 30%, kad tā tiks ieviesta. 'Katra baložu eskadra saņems stingru aviācijas apmācību, kas ietver precīzu navigāciju un sinhronizētus spārnu sitienus. Mēs lēšam, ka mūsu spārnotā flote var uzturēt kruīza ātrumu 5 km/h—beidzot sastrēgumi būs pagātnes suga,' Lidoņš paziņoja ar ievērojamu pārliecību.
+
+Tomēr ne visi dalās tajā pašā entuziasmā. Vietējais ornitologs Dr. Valdis Dziedātājs brīdina par iespējamiem sarežģījumiem. 'Lai gan ideja ir noteikti revolucionāra, jāņem vērā baložu labklājība. Mums būs jāizstrādā uztura režīmi, lai uzturētu šos gaisa pasažierus, nemaz nerunājot par ētiskajām sekām, ko rada putnu vadīts sabiedriskais transports. Cilvēki varētu izbaudīt savus debesu braucienus, bet kā būs ar baložiem?' komentēja Dr. Dziedātājs, atverot grāmatu ar nosaukumu 'Debesu Pārvadājumu Izpratne'.
+
+Plašāka sabiedrības reakcija ir bijusi tikpat daudzveidīga kā paši putni. Iedzīvotāji šķiet lielā mērā sadalīti starp tiem, kas redz dīvainu utopiju ar saules apspīdētām lidojošām karietēm, un tiem, kas privāti skeptiski par baložu izkārnījumu pārvaldību. 'Es domāju, ka tas ir fantastiski! Es domāju, kurš gan negribētu pārvietoties ar vēju zem spārniem, burtiski?' izteicās Līga, sapņaina mākslas studente, kamēr citi prognozē iespējamu cepuru pārdošanas pieaugumu jumta baložu 'bombardēšanas' dēļ.
+
+Neskatoties uz bažām, pilsēta jau ir sākusi izmēģinājuma izvietošanas Vecrīgā, kur rezultāti ir bijuši jaukti, bet nenoliedzami izklaidējoši skatītājiem. 'Līdz šim izmēģinājuma fāze ir noritējusi diezgan labi, ar tikai dažiem nelieliem starpgadījumiem—galvenokārt saistītiem ar baložiem, kurus novērsa maize uz katedrāles pakāpieniem,' ziņoja Testa Pilots un dedzīgs maizes metējs, Ilze Maizegrauds.
+
+Iniciatīva ir paredzēta, lai tiktu uzsākta šopavasar, optimistiski saskaņota ar ikgadējo putnu migrācijas sezonu, kad baložu armija atjaunos Rīgas debesis. Vai šis krāšņais eksperiments pacelsies, vēl nav skaidrs, bet viena lieta ir skaidra: Rīgā horizonts ir tikpat plašs kā iespēju bars.`,
+      ru: `В попытке устранить постоянные пробки, которые мучают улицы Риги, городской Департамент транспорта предложил революционное решение, описанное мэром Евгением Кушкисом как 'пернатый скачок вперед в городской мобильности'. Инициатива, получившая название проект 'Клюв и Бочка Мобильность', предполагает воздушный флот легких пассажирских устройств, привязанных к тому, что, как надеются, станет самой трудолюбивой рабочей силой Риги: голубям.
+
+На пресс-конференции, проходившей среди вихря перьев и любопытного воркования, мэр Кушкис подробно рассказал об инновационном подходе плана. 'Рига уже предоставляет живописный фон для наших любимых голубей. Почему бы не использовать этих великолепных существ для решения одной из наших крупнейших городских проблем? Используя их проверенную способность ориентироваться в сложных маршрутах, мы наконец-то можем положить конец автомобильным заторам.'
+
+Планы вызвали бурные дебаты. Согласно предложению, каждый транспортный модуль будет перевозить максимум четырех пассажиров и будет тянуться командой специально обученных голубей по заранее определенным маршрутам над городскими дорогами. Эта система, по словам инженера по транспорту Нолейенса Лидоньша, может сократить наземное движение более чем на 30% после запуска. 'Каждая голубиная эскадрилья пройдет строгую авиационную подготовку, включающую точную навигацию и синхронные взмахи крыльев. Мы предполагаем, что наш пернатый флот сможет поддерживать крейсерскую скорость 5 км/ч — наконец, пробки станут видом из прошлого,' заявил Лидоньш с заметной убежденностью.
+
+Однако не все разделяют тот же энтузиазм. Местный орнитолог доктор Валдис Дзедатайс предупреждает о возможных осложнениях. 'Хотя идея, безусловно, новаторская, нужно учитывать благополучие голубей. Нам придется разработать режимы питания для поддержания этих воздушных пассажиров, не говоря уже об этических аспектах общественного транспорта на голубиной тяге. Люди могут наслаждаться своими небесными поездками, но что насчет голубей?' — прокомментировал доктор Дзедатайс, раскрывая книгу под названием 'Понимание небесных поездок'.
+
+Общественная реакция была столь же разнообразной, как и сами птицы. Жители в основном разделились на тех, кто видит сказочную утопию летающих карет, освещенных солнечными лучами, и тех, кто скептически относится к управлению голубиными 'бомбардировками'. 'Я думаю, это фантастика! Я имею в виду, кто бы не хотел путешествовать с ветерком под крыльями, буквально?' — выразила Лига, студентка-искусствовед с мечтательным взглядом, в то время как другие предсказывают возможное увеличение продаж шляп из-за 'бомбардировок' с крыш.
+
+Несмотря на опасения, город уже начал тестовые запуски в Старой Риге, где результаты были смешанными, но несомненно развлекательными для зрителей. 'Пока что тестовая фаза прошла довольно хорошо, с лишь несколькими незначительными инцидентами — в основном связанными с голубями, отвлекающимися на хлеб на ступенях собора,' сообщила тест-пилот и заядлая бросательница хлеба, Илзе Майзеграудс.
+
+Инициатива планируется к запуску этой весной, оптимистично приуроченная к ежегодному сезону миграции птиц, когда армия голубей пополнит небеса Риги. Будет ли этот яркий эксперимент успешным, пока неясно, но одно можно сказать точно: в Риге горизонт так же широк, как стая возможностей.`
+    },
+    date: "Feb 3, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/80/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 79,
     slug: "riga-mayor-announces-revolutionary-plan-to",
     title: {
@@ -90,7 +153,7 @@ Vai Rīgas vīzija par ceļu bojājumu pārvēršanu par globālu tūrisma sens�
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/79/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 78,
