@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 81,
+    slug: "latvian-parliament-proposes-compulsory-accordion-lessons",
+    title: {
+      en: "Latvian Parliament Proposes Compulsory Accordion Lessons for National Harmony",
+      lv: "Latvijas Parlaments Ierosina Obligātās Akordeona Nodarbības Nacionālajai Harmonijai",
+      ru: "Латвийский парламент предлагает обязательные уроки игры на аккордеоне для национальной гармонии"
+    },
+    excerpt: {
+      en: "In an unprecedented move to foster unity and cultural pride, the Latvian government announced a new bill requiring all citizens to master the accordion. Dubbed as the 'Squeeze Box Integration Scheme', the proposal aims to make Latvia the accordion capital of the world by 2030.",
+      lv: "Nepieredzētā solī, lai veicinātu vienotību un kultūras lepnumu, Latvijas valdība paziņoja par jaunu likumprojektu, kas prasa visiem pilsoņiem apgūt akordeonu. Nosaukts par 'Saspiešanas Kastes Integrācijas Programmu', priekšlikums mērķē padarīt Latviju par akordeona galvaspilsētu pasaulē līdz 2030. gadam.",
+      ru: "В беспрецедентной попытке укрепить единство и культурную гордость правительство Латвии объявило о новом законопроекте, требующем от всех граждан освоить аккордеон. Названная 'Схемой интеграции с аккордеоном', эта инициатива нацелена сделать Латвию столицей аккордеона к 2030 году."
+    },
+    fullContent: {
+      en: `In a bold attempt to promote national harmony and cultural pride, the Latvian government proposed a new law on Thursday mandating compulsory accordion lessons for all citizens, young and old. The initiative, known as the 'Squeeze Box Integration Scheme', is expected to garner widespread attention as it makes its way through the legislative process.
+
+Minister of Cultural Reinvigoration Arvīds Skudra, the mastermind behind the proposal, explained during a press conference that the accordion has long been undervalued as the cultural cornerstone it truly represents. "The accordion is more than just an instrument; it's a symbol of our national resilience. By uniting every Latvian from Jūrmala to Daugavpils in harmonious symphony, we can project our national identity to the world," declared Skudra, while clutching his own accordion adorned with the Latvian flag.
+
+The law stipulates that all citizens aged 8 to 80 must participate in weekly accordion lessons, culminating in the annual All-Latvian Accordion Jamboree, an event designed to showcase the newfound skills of the populace. The government has promised to supply a free 'Beginner's Button Box' to every household to aid in this ambitious endeavor.
+
+Skepticism, however, is rife among some quarters. Rūta Mince, chairwoman of the Society for Silence and Sanity, voiced concerns over the potential noise pollution from the initiative. "While I understand the cultural intent, we must consider the decibel level implications. One hundred accordions playing simultaneously can sound like a tragic maritime collision," Mince remarked, citing a 52% increase in noise complaints after last year’s experimental regional accordion trial in Vidzeme.
+
+Despite the criticism, the proposal has garnered enthusiastic support from Latvia’s burgeoning accordion artisan community. "At last, our squeezers will get the recognition they deserve," exclaimed Māris Blumbergs, a third-generation accordion craftsman. "My grandfather would be so proud to know that our beloved instrument is finally at the heart of national policy."
+
+Economists are keenly observing the scheme's potential impact on Latvia's niche musical instrument market, projected to grow by 300%. International investors are already eyeing Latvia's accordion supply chain, with French tullibardine experts rumored to be negotiating a potential collaboration.
+
+Meanwhile, Estonia has hinted at preparing a similar proposal, determined to not let their southern neighbors claim the Baltic accordion crown without contest. "We are currently in talks to introduce the 'Estonian Concertina Confluence'," shared Paavo Pihlak, Estonia’s Minister of Harmonious Affairs. "Though our focus rests more on button accordions, it's a friendly rivalry," he concluded.
+
+As Latvia tunes up for the legislative debat, anticipation is building for the dramatic impact of thousands of Latvians embarking on their accordion journey. The initiative, though ambitious, promises to be an interesting chapter in the nation's cultural narrative.
+
+"Imagine the global spotlight on us," mused Minister Skudra wistfully. "When I hear Latvians all playing in unison, it will be a serenade to the future of our culture and unity."
+
+Whether or not the Accordion Integration Scheme strikes a chord with the nation remains to be seen, but one thing is assured: Latvia is set to squeeze out any notions of cultural dissonance, one note at a time.`,
+      lv: `Drosmīgā mēģinājumā veicināt nacionālo harmoniju un kultūras lepnumu, Latvijas valdība ceturtdien ierosināja jaunu likumu, kas paredz obligātas akordeona nodarbības visiem pilsoņiem, gan jauniem, gan veciem. Iniciatīva, kas pazīstama kā 'Saspiešanas Kastes Integrācijas Programma', sagaidāms, ka piesaistīs plašu uzmanību, virzoties cauri likumdošanas procesam.
+
+Kultūras Atjaunošanas Ministrs Arvīds Skudra, priekšlikuma autors, preses konferencē skaidroja, ka akordeons jau sen ir nenovērtēts kā kultūras stūrakmens, ko tas patiesībā pārstāv. "Akordeons ir vairāk nekā tikai instruments; tas ir mūsu nacionālās izturības simbols. Apvienojot katru latvieti no Jūrmalas līdz Daugavpilij harmoniskā simfonijā, mēs varam projicēt savu nacionālo identitāti pasaulē," paziņoja Skudra, turot savu akordeonu, kas rotāts ar Latvijas karogu.
+
+Likums nosaka, ka visiem pilsoņiem vecumā no 8 līdz 80 gadiem ir jāpiedalās iknedēļas akordeona nodarbībās, kas kulminē ikgadējā Vislatvijas Akordeona Festivālā, pasākumā, kas paredzēts, lai demonstrētu iedzīvotāju jauniegūtās prasmes. Valdība ir apsolījusi piegādāt bezmaksas 'Iesācēja Pogas Kasti' katrai mājsaimniecībai, lai atbalstītu šo ambiciozo centienu.
+
+Tomēr dažās aprindās valda skepses. Rūta Mince, Sabiedrības par Klusumu un Veselību priekšsēdētāja, pauda bažas par iespējamo trokšņa piesārņojumu no iniciatīvas. "Lai gan es saprotu kultūras nodomu, mums jāapsver decibelu līmeņa sekas. Simts akordeoni, kas spēlē vienlaikus, var izklausīties kā traģiska jūras sadursme," Mince norādīja, atsaucoties uz 52% trokšņu sūdzību pieaugumu pēc pagājušā gada eksperimentālā reģionālā akordeona izmēģinājuma Vidzemē.
+
+Neskatoties uz kritiku, priekšlikums ir ieguvis entuziastisku atbalstu no Latvijas augošās akordeona amatnieku kopienas. "Beidzot mūsu saspiedēji saņems atzinību, ko viņi pelnījuši," izsaucās Māris Blumbergs, trešās paaudzes akordeona meistars. "Mans vectēvs būtu tik lepns, zinot, ka mūsu mīļotais instruments beidzot ir nacionālās politikas centrā."
+
+Ekonomisti rūpīgi vēro shēmas iespējamo ietekmi uz Latvijas nišas mūzikas instrumentu tirgu, kas tiek prognozēts pieaugt par 300%. Starptautiskie investori jau pievērš uzmanību Latvijas akordeona piegādes ķēdei, un tiek baumots, ka franču tulibardīna eksperti apspriež iespējamu sadarbību.
+
+Tikmēr Igaunija ir norādījusi uz līdzīga priekšlikuma sagatavošanu, apņēmības pilna neļaut saviem dienvidu kaimiņiem bez cīņas iegūt Baltijas akordeona kroni. "Mēs pašlaik apspriežam 'Igaunijas Koncertīnas Konfluences' ieviešanu," dalījās Pāvo Pihlaks, Igaunijas Harmonijas Lietu Ministrs. "Lai gan mūsu uzmanība vairāk pievērsta pogu akordeoniem, tā ir draudzīga sāncensība," viņš noslēdza.
+
+Latvijai gatavojoties likumdošanas debatēm, pieaug gaidas par dramatisko ietekmi, ko tūkstošiem latviešu uzsāks savā akordeona ceļojumā. Iniciatīva, lai gan ambicioza, sola būt interesants posms valsts kultūras stāstā.
+
+"Iedomājieties globālo uzmanību uz mums," sapņaini teica ministrs Skudra. "Kad es dzirdu latviešus spēlējam vienotībā, tas būs serenāde mūsu kultūras un vienotības nākotnei."
+
+Vai Akordeona Integrācijas Programma atradīs atsaucību tautā, vēl ir jāredz, bet viena lieta ir droša: Latvija ir gatava izspiest jebkādas kultūras disonanses idejas, pa vienai notij.`,
+      ru: `В смелой попытке продвигать национальную гармонию и культурную гордость правительство Латвии предложило в четверг новый закон, обязывающий всех граждан, как молодых, так и старых, посещать обязательные уроки игры на аккордеоне. Инициатива, известная как 'Схема интеграции с аккордеоном', ожидается, привлечет широкое внимание по мере прохождения через законодательный процесс.
+
+Министр культурного возрождения Арвидс Скудра, вдохновитель предложения, объяснил на пресс-конференции, что аккордеон давно недооценен как культурный краеугольный камень, которым он на самом деле является. "Аккордеон — это больше, чем просто инструмент; это символ нашей национальной стойкости. Объединив каждого латыша от Юрмалы до Даугавпилса в гармоничную симфонию, мы можем продемонстрировать нашу национальную идентичность всему миру," заявил Скудра, держа в руках свой собственный аккордеон, украшенный латвийским флагом.
+
+Закон предусматривает, что все граждане в возрасте от 8 до 80 лет должны участвовать в еженедельных уроках игры на аккордеоне, кульминацией которых станет ежегодный Все-латвийский аккордеонный джембори, мероприятие, призванное продемонстрировать новые навыки населения. Правительство пообещало предоставить бесплатный 'Начальный аккордеон' каждой семье, чтобы помочь в этом амбициозном начинании.
+
+Однако скептицизм процветает в некоторых кругах. Рута Минце, председатель Общества тишины и здравомыслия, выразила обеспокоенность по поводу потенциального шумового загрязнения от этой инициативы. "Хотя я понимаю культурные намерения, мы должны учитывать последствия уровня децибелов. Сто аккордеонов, играющих одновременно, могут звучать как трагическое морское столкновение," отметила Минце, ссылаясь на 52% увеличение жалоб на шум после прошлогоднего экспериментального регионального аккордеонного испытания в Видземе.
+
+Несмотря на критику, предложение получило восторженную поддержку от растущего сообщества латвийских мастеров аккордеонов. "Наконец-то наши аккордеоны получат заслуженное признание," воскликнул Марис Блумбергс, аккордеонный мастер в третьем поколении. "Мой дедушка был бы так горд узнать, что наш любимый инструмент наконец-то находится в центре национальной политики."
+
+Экономисты внимательно наблюдают за потенциальным влиянием схемы на нишевый рынок музыкальных инструментов Латвии, который, по прогнозам, вырастет на 300%. Международные инвесторы уже присматриваются к латвийской цепочке поставок аккордеонов, и, по слухам, французские эксперты по туллибардину ведут переговоры о возможном сотрудничестве.
+
+Тем временем Эстония намекнула на подготовку аналогичного предложения, решив не позволить своим южным соседям завоевать балтийскую корону аккордеона без борьбы. "Мы в настоящее время ведем переговоры о введении 'Эстонского концертина-конфлюенса'," поделился Пааво Пихлак, министр гармоничных дел Эстонии. "Хотя наше внимание больше сосредоточено на кнопочных аккордеонах, это дружеское соперничество," заключил он.
+
+Пока Латвия настраивается на законодательные дебаты, растет ожидание драматического влияния тысяч латышей, начинающих свое путешествие с аккордеоном. Инициатива, хотя и амбициозная, обещает стать интересной главой в культурном повествовании нации.
+
+"Представьте себе мировое внимание к нам," мечтательно произнес министр Скудра. "Когда я услышу, как латыши все играют в унисон, это будет серенада будущему нашей культуры и единства."
+
+Будет ли 'Схема интеграции с аккордеоном' резонировать с нацией, еще предстоит увидеть, но одно можно сказать наверняка: Латвия намерена выжать все представления о культурной дисгармонии, нота за нотой.`
+    },
+    date: "Feb 4, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/81/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 80,
     slug: "riga-announces-plan-to-solve-traffic",
     title: {
@@ -78,7 +159,7 @@ Iniciatīva ir paredzēta, lai tiktu uzsākta šopavasar, optimistiski saskaņot
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/80/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 79,
