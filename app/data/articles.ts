@@ -18,6 +18,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 82,
+    slug: "latvian-government-bans-rain-in-jurmala",
+    title: {
+      en: "Latvian Government Bans Rain in Jurmala to Save Tourism Season",
+      lv: "Latvijas valdība aizliedz lietu Jūrmalā, lai glābtu tūrisma sezonu",
+      ru: "Латвийское правительство запрещает дождь в Юрмале для спасения туристического сезона"
+    },
+    excerpt: {
+      en: "In an unprecedented move, the Latvian government has officially banned rain from falling in Jurmala until the end of summer to ensure the well-being of the local tourism industry. Forecasts are now under strict governmental control with hefty fines for any disobedience by nature.",
+      lv: "Bezprecedenta solī Latvijas valdība oficiāli aizliegusi lietu Jūrmalā līdz vasaras beigām, lai nodrošinātu vietējās tūrisma nozares labklājību. Prognozes tagad ir stingri valdības kontrolē ar smagiem sodiem par jebkādu dabas nepaklausību.",
+      ru: "В беспрецедентном шаге латвийское правительство официально запретило дождь в Юрмале до конца лета, чтобы обеспечить благополучие местной туристической индустрии. Прогнозы теперь находятся под строгим контролем правительства, с крупными штрафами за любое неповиновение со стороны природы."
+    },
+    fullContent: {
+      en: `In what meteorologists are calling a 'bold yet scientifically baffling' maneuver, the Latvian government has issued an official decree banning all forms of precipitation in Jurmala, the nation’s premier seaside resort city, through the end of September. The legislation, hastily titled the 'Sunny Beaches Act,' was introduced last Friday in a special session of the Saeima and passed unanimously by a parliament apparently unfazed by meteorological feasibility. 
+
+"This summer, we must ensure that every Latvian and tourist alike can enjoy golden sands and uninterrupted sunshine," declared Raimonds Ziedonis, the newly appointed Minister of Meteorological Affairs, a position specifically created for the implementation of this policy. "We will leave no cloud unturned in our efforts to boost the local economy and preserve our pristine beach weather."
+
+The legislation demands that any cloud daring to drift over Jurmala without official clearance from the Weather Compliance Department must face an immediate and forceful dispersion. Operations are helmed by the freshly assembled Task Force On Weather Management, led by Brigadier General Valda Lapsa, who assured the public that they are "armed to the teeth with industrial-grade fans and state-of-the-art anti-humidity sprays designed for maximum atmospheric manipulation."
+
+Local business owners have expressed mixed reactions to the unprecedented move. "I am relieved that finally, someone is taking our rainy summer disasters seriously," said Maija Līcīte, owner of Maija’s Majestic Minigolf. "For too long, plans have been spoiled, minigolf courses have been flooded, and local ice-cream sales have plummeted."
+
+Environmental activists, however, have taken quite a different stance, staging a sit-in at Jurmala's main weather station, chanting 'Let it Drizzle, Again!' and demanding a return to naturally occurring climate patterns. "It is time to stand up for our skies," exclaimed Jānis Dabūts, the leader of the activist group 'Cloud Rights of Latvia.' "This isn't just about keeping the beach dry for tourists; it's an invasion of atmospheric freedom, something our cumulus comrades simply cannot tolerate."
+
+Reports indicate that the enforcement efforts are operating with varying levels of success. On Tuesday afternoon, an uncooperative nimbus dared to cast its shadow over Majoru Beach for a record-breaking 12 minutes before hastily retreating, reportedly under threat of widespread aerial dispersal tactics. Witnesses, largely bemused sunbathers, described the confrontation as both 'surprising' and 'a bit underwhelming.'
+
+Meteorologist Dr. Solveiga Ozola attempts to lighten the incredulous mood with her dry wit: "Not to rain on their parade, but clouds have been around for millions of years. Terminating rain might just be a little beyond our legislative reach," she chuckled, before solemnly returning to her clouds-and-kites display at the National Weather Institute.
+
+Meanwhile, regional reaction is cautiously observant. Estonia and Lithuania have announced they will 'monitor Latvia’s success,' considering similar measures 'should tourism demand it.' Finland, on the other hand, cheekily remarked that they are 'long accustomed to utilizing rain as an intrinsic part of their national sauna strategy,' and see no need to meddle with nature.
+
+While the full scope of the 'Sunny Beaches Act' has yet to unfold, for now, Jurmala remains on high alert, keenly awaiting its next encounter with the ever-defiant elements. Only time will tell if the sun keeps shining or if weather gods simply find legal loopholes to keep the rain coming.`,
+      lv: `Meteorologi šo soli dēvē par 'drosmīgu, bet zinātniski mulsinošu', jo Latvijas valdība ir izdevusi oficiālu dekrētu, kas aizliedz jebkādas nokrišņu formas Jūrmalā, valsts galvenajā piejūras kūrortpilsētā, līdz septembra beigām. Likums, steidzīgi nosaukts par 'Saulaino pludmaļu aktu', tika ieviests pagājušajā piektdienā īpašā Saeimas sesijā un vienbalsīgi pieņemts parlamentā, kas acīmredzot nav satraucies par meteoroloģisko iespējamību.
+
+"Šovasar mums jāpārliecinās, ka ikviens latvietis un tūrists var baudīt zelta smiltis un nepārtrauktu sauli," paziņoja Raimonds Ziedonis, jaunieceltais Meteoroloģisko lietu ministrs, amats, kas īpaši izveidots šīs politikas īstenošanai. "Mēs neatstāsim nevienu mākoņu neizpētītu, lai veicinātu vietējo ekonomiku un saglabātu mūsu nevainojamos pludmales laikapstākļus."
+
+Likums pieprasa, lai jebkurš mākonis, kas uzdrošināsies dreifēt pār Jūrmalu bez oficiālas atļaujas no Laika atbilstības departamenta, tiktu nekavējoties un spēcīgi izkliedēts. Operācijas vada nesen izveidotā Laika pārvaldības darba grupa, kuru vada brigādes ģenerāle Valda Lapsa, kura sabiedrībai apliecināja, ka viņi ir "bruņoti līdz zobiem ar rūpniecības līmeņa ventilatoriem un modernākajiem pretmitruma aerosoliem, kas paredzēti maksimālai atmosfēras manipulācijai."
+
+Vietējie uzņēmēji ir izteikuši dažādas reakcijas uz šo bezprecedenta soli. "Es esmu atvieglota, ka beidzot kāds nopietni uztver mūsu lietainās vasaras katastrofas," sacīja Maija Līcīte, Maijas Majestātiskā minigolfa īpašniece. "Pārāk ilgi plāni ir bijuši izjaukti, minigolfa laukumi applūduši, un vietējā saldējuma pārdošana ir kritusies."
+
+Tomēr vides aktīvisti ir ieņēmuši pavisam citu nostāju, rīkojot sēdēšanu Jūrmalas galvenajā meteoroloģiskajā stacijā, skandējot 'Lai līst atkal!' un pieprasot atgriezties pie dabiskajiem klimata modeļiem. "Ir laiks stāvēt par mūsu debesīm," izsaucās Jānis Dabūts, aktīvistu grupas 'Latvijas mākoņu tiesības' vadītājs. "Tas nav tikai par pludmales sausumu tūristiem; tas ir atmosfēras brīvības iebrukums, ko mūsu kumulus draugi vienkārši nevar pieņemt."
+
+Ziņojumi liecina, ka izpildes centieni darbojas ar dažādiem panākumiem. Otrdienas pēcpusdienā nepaklausīgs nimbuss uzdrošinājās mest ēnu pār Majoru pludmali rekordlielas 12 minūtes, pirms steidzīgi atkāpās, it kā draudot ar plašu gaisa izkliedēšanas taktiku. Liecinieki, galvenokārt apmulsuši sauļotāji, aprakstīja konfrontāciju kā gan 'pārsteidzošu', gan 'nedaudz neizteiksmīgu.'
+
+Meteoroloģe Dr. Solveiga Ozola mēģina atvieglot neticamo noskaņu ar savu sauso humoru: "Negribu liet ūdeni uz viņu parādi, bet mākoņi ir bijuši apkārt miljoniem gadu. Lietus izbeigšana varētu būt nedaudz ārpus mūsu likumdošanas sasniedzamības," viņa pasmējās, pirms nopietni atgriezās pie savas mākoņu un pūķu izstādes Nacionālajā meteoroloģijas institūtā.
+
+Tikmēr reģionālā reakcija ir piesardzīgi novērojoša. Igaunija un Lietuva paziņojušas, ka 'vēros Latvijas panākumus', apsverot līdzīgus pasākumus 'ja tūrisms to pieprasīs.' Somija, no otras puses, ar smaidu atzīmēja, ka viņi 'jau sen ir pieraduši izmantot lietu kā neatņemamu daļu no savas nacionālās pirts stratēģijas' un neredz nepieciešamību iejaukties dabā.
+
+Kamēr 'Saulaino pludmaļu akta' pilnais apjoms vēl nav atklājies, pagaidām Jūrmala paliek augstā gatavībā, uzmanīgi gaidot savu nākamo tikšanos ar vienmēr nepakļāvīgajiem elementiem. Tikai laiks rādīs, vai saule turpinās spīdēt vai arī laikapstākļu dievi vienkārši atradīs juridiskus caurumus, lai turpinātu lietus nākšanu.`,
+      ru: `В том, что метеорологи называют 'смелым, но научно необъяснимым' маневром, латвийское правительство издало официальный указ, запрещающий все формы осадков в Юрмале, главном курортном городе страны, до конца сентября. Закон, поспешно названный 'Акт о солнечных пляжах', был представлен в прошлую пятницу на специальной сессии Сейма и единогласно принят парламентом, который, по-видимому, не смутился метеорологической осуществимостью.
+
+'Этим летом мы должны обеспечить, чтобы каждый латвиец и турист могли наслаждаться золотыми песками и непрерывным солнцем,' заявил Раймондс Зиедонис, недавно назначенный министр метеорологических дел, должность, специально созданная для реализации этой политики. 'Мы не оставим ни одного облака без внимания в наших усилиях по стимулированию местной экономики и сохранению нашего безупречного пляжного климата.'
+
+Закон требует, чтобы любое облако, осмелившееся дрейфовать над Юрмалой без официального разрешения от Департамента соблюдения погодных условий, подвергалось немедленному и жесткому рассеиванию. Операции возглавляет недавно созданная Группа по управлению погодой, под руководством бригадного генерала Валды Лапсы, которая заверила общественность, что они 'вооружены до зубов промышленными вентиляторами и современными спреями против влажности, разработанными для максимального манипулирования атмосферой.'
+
+Местные владельцы бизнеса выразили смешанные реакции на беспрецедентный шаг. 'Я рада, что наконец-то кто-то серьезно относится к нашим дождливым летним катастрофам,' сказала Майя Лиците, владелица 'Великолепного мини-гольфа Майи'. 'Слишком долго планы срывались, поля для мини-гольфа затапливало, а местные продажи мороженого падали.'
+
+Однако экологические активисты заняли совершенно другую позицию, устроив сидячую забастовку на главной метеостанции Юрмалы, скандируя 'Пусть снова моросит!' и требуя возвращения к естественным климатическим условиям. 'Пришло время встать на защиту нашего неба,' воскликнул Янис Дабутс, лидер активистской группы 'Права облаков Латвии'. 'Это не просто о том, чтобы держать пляж сухим для туристов; это вторжение в атмосферную свободу, что наши кумулусные товарищи просто не могут терпеть.'
+
+Сообщается, что усилия по обеспечению исполнения закона работают с переменным успехом. Во вторник днем непокорный нимб осмелился бросить свою тень на пляж Майори на рекордные 12 минут, прежде чем поспешно отступить, якобы под угрозой широкомасштабных тактик воздушного рассеивания. Свидетели, в основном озадаченные загорающие, описали столкновение как 'удивительное' и 'немного разочаровывающее.'
+
+Метеоролог доктор Сольвейга Озола пытается разрядить невероятную атмосферу своим сухим юмором: 'Не хочу портить им праздник, но облака существуют миллионы лет. Прекращение дождя может быть немного за пределами наших законодательных возможностей,' она усмехнулась, прежде чем с серьезным видом вернуться к своей экспозиции облаков и воздушных змеев в Национальном метеорологическом институте.
+
+Тем временем региональная реакция осторожно наблюдает. Эстония и Литва объявили, что будут 'наблюдать за успехом Латвии', рассматривая аналогичные меры 'если того потребует туризм'. Финляндия, с другой стороны, с юмором отметила, что они 'давно привыкли использовать дождь как неотъемлемую часть своей национальной стратегии сауны' и не видят необходимости вмешиваться в природу.
+
+Пока полный масштаб 'Акта о солнечных пляжах' еще не раскрылся, Юрмала остается в состоянии повышенной готовности, с нетерпением ожидая следующей встречи с всегда непокорными элементами. Только время покажет, будет ли солнце продолжать светить или погодные боги найдут юридические лазейки, чтобы продолжать приносить дождь.`
+    },
+    date: "Feb 5, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/82/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 81,
     slug: "latvian-parliament-proposes-compulsory-accordion-lessons",
     title: {
@@ -96,7 +171,7 @@ Vai Akordeona Integrācijas Programma atradīs atsaucību tautā, vēl ir jāred
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/81/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 80,
