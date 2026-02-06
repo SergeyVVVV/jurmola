@@ -18,6 +18,75 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 83,
+    slug: "latvia-declares-ji-holiday-every-day",
+    title: {
+      en: "Latvia Declares Jāņi Holiday Every Day to Combat Seasonal Affective Disorder",
+      lv: "Latvija pasludina Jāņus par ikdienas svētkiem, lai cīnītos ar sezonālo afektīvo traucējumu",
+      ru: "Латвия объявляет праздник Яни каждый день для борьбы с сезонным аффективным расстройством"
+    },
+    excerpt: {
+      en: "In an unprecedented move, Latvian authorities have announced that the traditional midsummer celebration, Jāņi, will now be observed daily in an effort to combat Seasonal Affective Disorder (SAD) and boost national happiness levels.",
+      lv: "Bezprecedenta solī Latvijas varas iestādes paziņojušas, ka tradicionālie vasaras saulgriežu svētki, Jāņi, turpmāk tiks svinēti katru dienu, lai cīnītos ar sezonālo afektīvo traucējumu (SAD) un paaugstinātu nacionālo laimes līmeni.",
+      ru: "В беспрецедентном шаге латвийские власти объявили, что традиционный праздник середины лета, Яни, теперь будет отмечаться ежедневно в попытке бороться с сезонным аффективным расстройством (САР) и повышать уровень национального счастья."
+    },
+    fullContent: {
+      en: `In a bold and unprecedented move, the Latvian Ministry of Happiness and Unconventional Health Remedies has declared that the beloved midsummer festival, Jāņi, will be celebrated every day of the year. This decision aims to boost the nation's overall morale and provide a consistent antidote to the notorious Seasonal Affective Disorder (SAD) that spikes during the long Baltic winters.
+
+Minister of Happiness, Līga Saldūmiņa, spearheaded the proposal after a recent study showed that 97% of Latvians experienced intense joy and a sudden appreciation for pickled fish during the Jāņi celebrations. “Why should we limit the nation’s wellbeing to just one day a year?” she asked rhetorically at the press conference in downtown Riga. “Imagine sitting in your living room in January with a flower crown, a fire pit roaring in your living room, and the comforting smell of shashlik blanketing your home.”
+
+The plan involves providing each household with a 'Jāņi Kit' that includes a mini bonfire (complete with safety instructions), an endless loop of traditional folk songs, and enough cheese curd buns to supply local bakeries through 2030. To handle the increased demand, Latvia’s dairy industry has already begun issuing shares on the national stock exchange, with cheese producers reporting unprecedented quadrupled profits within the first week.
+
+Critics, however, argue that making Jāņi a daily occurrence could diminish the unique charm of the festival. “It's like eating rye bread for every meal,” said cultural historian and self-proclaimed iconoclast Kalvis Dīvainis. “Soon it becomes just bread.” Dīvainis predicts a nation-wide burnout by March, leading to a crisis of epic proportions: Latvian society might become immune to happiness.
+
+However, the general public seems overwhelmingly supportive. An online poll conducted by one of Latvia's most popular websites, Draugiem.lv, revealed that 84% of respondents would willingly wear a flower crown every day if it meant more daylight, and possibly more chances to appear in starry, gauzy Instagram posts.
+
+Local economist Māris Nauda emphasized the potential economic benefits. "The consistent demand for Jāņi ring performers and the dawn-to-dusk spangaing advocacy industry are projected to add nearly 3% growth to our GDP," he noted enthusiastically. Indeed, the job adverts for 'Professional Oak Leaf Weaver' and 'Līgo Refrain Specialist' have cluttered job boards, promising career shifts that are sure to offset any negative ramifications of the ongoing digital burnout.
+
+As the rollout begins, logistical challenges are expected, particularly concerning the urban fire department’s ability to handle the nightly bonfires in high-rise apartments. The Minister of Happiness assures citizens that, "Our firefighters are equipped with enough garden hoses and folklorists to innovate through these issues."
+
+In conclusion, while the government’s move has its skeptics, most of Latvia is preparing for the long, joyous road ahead with the enthusiasm of a Līgo song played on repeat. "Every day may bring us rain or snow, but with Jāņi, every night brings joy," Minister Saldūmiņa optimistically declared, setting the stage for Latvia to become the perennial midsummer's dream — at least in spirit.`,
+      lv: `Drosmīgā un bezprecedenta solī Latvijas Laimes un Netipisku Veselības Līdzekļu ministrija ir paziņojusi, ka mīļotie vasaras saulgriežu svētki, Jāņi, tiks svinēti katru gada dienu. Šis lēmums ir vērsts uz tautas morāles paaugstināšanu un pastāvīga pretlīdzekļa nodrošināšanu pret bēdīgi slaveno sezonālo afektīvo traucējumu (SAD), kas pieaug garo Baltijas ziemu laikā.
+
+Laimes ministre Līga Saldūmiņa vadīja priekšlikumu pēc nesena pētījuma, kas parādīja, ka 97% latviešu Jāņu svinību laikā piedzīvo intensīvu prieku un pēkšņu marinētu zivju novērtējumu. “Kāpēc mums vajadzētu ierobežot tautas labklājību tikai vienai dienai gadā?” viņa retoriski jautāja preses konferencē Rīgas centrā. “Iedomājieties, ka janvārī sēžat savā viesistabā ar ziedu vainagu, ugunskurs liesmo jūsu viesistabā, un mājās valda šašlika mierinošā smarža.”
+
+Plāns paredz katrai mājsaimniecībai nodrošināt 'Jāņu Komplektu', kas ietver mini ugunskuru (ar drošības instrukcijām), tradicionālo tautas dziesmu bezgalīgu cilpu un pietiekami daudz biezpiena pīrāgu, lai nodrošinātu vietējās maiznīcas līdz 2030. gadam. Lai tiktu galā ar pieaugošo pieprasījumu, Latvijas piena rūpniecība jau ir sākusi izlaist akcijas nacionālajā biržā, un siera ražotāji ziņo par nepieredzētu peļņas četrkāršošanos pirmajā nedēļā.
+
+Kritiķi tomēr apgalvo, ka Jāņu padarīšana par ikdienas notikumu varētu mazināt svētku unikālo šarmu. “Tas ir kā ēst rudzu maizi katrā ēdienreizē,” teica kultūrvēsturnieks un pašpasludinātais ikonoklasts Kalvis Dīvainis. “Drīz tas kļūst par vienkārši maizi.” Dīvainis prognozē nacionālu izdegšanu līdz martam, kas novedīs pie episkām proporcijām: Latvijas sabiedrība varētu kļūt imūna pret laimi.
+
+Tomēr sabiedrība kopumā šķiet pārliecinoši atbalstoša. Tiešsaistes aptauja, ko veica viens no populārākajiem Latvijas portāliem, Draugiem.lv, atklāja, ka 84% respondentu labprāt katru dienu valkātu ziedu vainagu, ja tas nozīmētu vairāk dienasgaismas un, iespējams, vairāk iespēju parādīties zvaigžņotos, gaisīgajos Instagram ierakstos.
+
+Vietējais ekonomists Māris Nauda uzsvēra potenciālos ekonomiskos ieguvumus. “Pastāvīgais pieprasījums pēc Jāņu gredzenu izpildītājiem un no rītausmas līdz krēslai spangaing aizstāvības nozare ir paredzēta, lai pievienotu gandrīz 3% pieaugumu mūsu IKP,” viņš entuziastiski norādīja. Patiesi, darba sludinājumi par 'Profesionālu ozollapu pinēju' un 'Līgo refrēna speciālistu' ir pārpildījuši darba dēļus, solot karjeras maiņas, kas noteikti kompensēs jebkādas negatīvās digitālās izdegšanas sekas.
+
+Kā sākas ieviešana, tiek gaidīti loģistikas izaicinājumi, īpaši attiecībā uz pilsētas ugunsdzēsības dienesta spēju tikt galā ar nakts ugunskuriem augstceltnēs. Laimes ministre apliecina pilsoņiem, ka, “Mūsu ugunsdzēsēji ir aprīkoti ar pietiekami daudz dārza šļūtenēm un folkloristiem, lai inovētu šos jautājumus.”
+
+Noslēgumā, lai gan valdības solim ir savi skeptiķi, lielākā daļa Latvijas gatavojas garajam, priecīgajam ceļam uz priekšu ar Līgo dziesmas entuziasmu, kas tiek spēlēta atkārtoti. “Katru dienu var atnest lietu vai sniegu, bet ar Jāņiem katra nakts nes prieku,” optimistiski paziņoja ministre Saldūmiņa, nosakot skatuvi, lai Latvija kļūtu par mūžīgu vasaras saulgriežu sapni — vismaz garā.`,
+      ru: `В смелом и беспрецедентном шаге Министерство счастья и нетрадиционных оздоровительных средств Латвии объявило, что любимый праздник середины лета, Яни, будет отмечаться каждый день в году. Это решение направлено на повышение общего морального духа нации и предоставление постоянного антидота против печально известного сезонного аффективного расстройства (САР), которое усиливается в долгие балтийские зимы.
+
+Министр счастья Лига Салдумина возглавила предложение после недавнего исследования, показавшего, что 97% латвийцев испытывают интенсивную радость и внезапную любовь к маринованной рыбе во время празднования Яни. «Почему мы должны ограничивать благополучие нации всего одним днем в году?» — риторически спросила она на пресс-конференции в центре Риги. «Представьте, как вы сидите в своей гостиной в январе с цветочным венком, костер пылает в вашей гостиной, а дом окутывает уютный запах шашлыка.»
+
+План включает в себя предоставление каждой семье 'Яни-набора', который включает в себя мини-костер (с инструкциями по безопасности), бесконечный цикл традиционных народных песен и достаточное количество булочек с творогом, чтобы снабжать местные пекарни до 2030 года. Чтобы справиться с возросшим спросом, молочная промышленность Латвии уже начала выпускать акции на национальной фондовой бирже, а производители сыра сообщают о беспрецедентном четырехкратном увеличении прибыли в первую неделю.
+
+Однако критики утверждают, что ежедневное проведение Яни может уменьшить уникальное очарование фестиваля. «Это как есть ржаной хлеб на каждый прием пищи», — сказал культурный историк и самопровозглашенный иконоборец Калвис Дивайнис. «Скоро это станет просто хлебом». Дивайнис предсказывает, что к марту произойдет общенациональное выгорание, что приведет к кризису эпических масштабов: латвийское общество может стать невосприимчивым к счастью.
+
+Тем не менее, широкая общественность, похоже, поддерживает эту идею. Онлайн-опрос, проведенный одним из самых популярных сайтов Латвии, Draugiem.lv, показал, что 84% респондентов с радостью носили бы цветочный венок каждый день, если бы это означало больше дневного света и, возможно, больше шансов появиться в звездных, воздушных постах в Instagram.
+
+Местный экономист Марис Науда подчеркнул потенциальные экономические выгоды. «Постоянный спрос на исполнителей колец Яни и индустрия адвокации от рассвета до заката, как ожидается, добавят почти 3% роста к нашему ВВП», — отметил он с энтузиазмом. Действительно, объявления о работе для 'Профессионального плетельщика дубовых листьев' и 'Специалиста по рефренам Лиго' заполонили доски объявлений о вакансиях, обещая карьерные изменения, которые наверняка компенсируют любые негативные последствия продолжающегося цифрового выгорания.
+
+По мере начала реализации ожидаются логистические проблемы, особенно в отношении способности городской пожарной службы справляться с ночными кострами в высотных квартирах. Министр счастья заверяет граждан, что «наши пожарные оснащены достаточным количеством садовых шлангов и фольклористов, чтобы справляться с этими проблемами».
+
+В заключение, хотя у этого шага правительства есть свои скептики, большинство Латвии готовится к долгому, радостному пути вперед с энтузиазмом песни Лиго, играющей на повторе. «Каждый день может приносить нам дождь или снег, но с Яни каждую ночь приносит радость», — оптимистично заявила министр Салдумина, задавая тон для того, чтобы Латвия стала вечной мечтой о середине лета — по крайней мере, в духе.`
+    },
+    date: "Feb 6, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/83/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 82,
     slug: "latvian-government-bans-rain-in-jurmala",
     title: {
@@ -90,7 +159,7 @@ Kamēr 'Saulaino pludmaļu akta' pilnais apjoms vēl nav atklājies, pagaidām J
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/82/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 81,
