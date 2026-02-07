@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 84,
+    slug: "riga-to-introduce-new-singing-traffic",
+    title: {
+      en: "Riga to Introduce New 'Singing Traffic Lights' to Boost Pedestrian Morale",
+      lv: "Rīgā ieviesīs jaunas 'Dziedošās luksoforus', lai uzlabotu gājēju garastāvokli",
+      ru: "Рига вводит новые 'поющие светофоры' для поднятия настроения пешеходов"
+    },
+    excerpt: {
+      en: "In an effort to enhance pedestrian satisfaction and promote a sense of camaraderie, Riga has announced a groundbreaking initiative to replace standard traffic beeps with national folk songs. The city government claims the move will foster community spirit and increase safety at crosswalks.",
+      lv: "Lai uzlabotu gājēju apmierinātību un veicinātu kopības sajūtu, Rīga ir paziņojusi par revolucionāru iniciatīvu aizstāt standarta luksoforu signālus ar tautas dziesmām. Pilsētas valdība apgalvo, ka šis solis veicinās kopienas garu un palielinās drošību pie gājēju pārejām.",
+      ru: "В стремлении повысить удовлетворенность пешеходов и укрепить чувство товарищества, Рига объявила о новаторской инициативе заменить стандартные звуковые сигналы светофоров на национальные народные песни. Городские власти утверждают, что этот шаг будет способствовать развитию духа сообщества и повышению безопасности на пешеходных переходах."
+    },
+    fullContent: {
+      en: `In a bold move that’s sure to turn heads and perhaps a few ears, the Riga City Council has voted to replace the monotonous beeping of pedestrian traffic lights with an invigorating array of national folk songs. Starting next month, those waiting to cross the street may find themselves serenaded by the harmonious sounds of 'Pūt, Vējiņi' instead of the usual monotone clicks.
+
+The initiative, dubbed 'Sing for Safety,' was proposed by the city’s Department of Motivational Infrastructure and Unusual Projects (DMIUP), a division known for previously commissioning the flower-shaped bus stops in the city's Old Town.
+
+“Our research showed that the current beeping sound was due for an upgrade,” said Ilze Krievkalne, spokesperson for DMIUP. “Not only does it lack the vibrancy needed to reflect our city's rich cultural heritage, but studies indicate it can increase stress during rush hours. By integrating traditional melodies, we aim to transform the mundane act of crossing the street into a miniature festival of sorts.”
+
+The project, which has a budget of €3.2 million, is anticipated to cover all 467 pedestrian crossings throughout Riga by the end of the year. Each traffic light will have its own playlist curated by local musicians and cultural historians. Popular song choices include time-tested hits like 'Rīga Dimd' and an a cappella version of 'Jāņuvakars.'
+
+While the initiative has received a warm response from the arts community, not everyone is singing its praises. "Imagine being stuck at a red light without your headphones, and suddenly you're in a personal folk concert," grumbled Oskars, a daily commuter and avid playlist curator, as he waited to cross a busy intersection. "I'll start knowing more Latvian folk songs than my grandparents."
+
+Ever eager to address public opinion, the city has included a feedback loop, offering citizens the opportunity to suggest tunes via a specially designed mobile app called 'SongStop.' This app, aside from traffic melodics, promises to enhance local governance by merging music preferences data with future electoral district decisions.
+
+Pedestrians with longer waiting times at traffic lights may experience the entirety of 'Daugav's Black Waters,' a decision Mr. Kalvis Smite, the chairman of the National Commuters Association, calls 'ambitious but acoustically laborious.' "We’re optimistic this endeavor will increase tourism," Smite noted. "Nothing says 'Visit Latvia' like a region where even the crosswalks invite you to sing along."
+
+Critics, however, have aired concerns over potential noise pollution. "When every crossing becomes a choir, do we risk losing the sounds that keep our everyday symphony balanced?" pondered Antra Jansone, local ambient sound enthusiast and folk critic. "It’s akin to drinking too much karstvīns: delightful until it disrupts your inner harmony."
+
+To address environmental concerns, the city government pledged to reassess decibel impact every six months and promised the formation of a 'Harmonious Urban Interaction Task Force'.
+
+As for the drivers themselves? They'll have to contend with potential sing-alongs from passengers as they idle alongside the musical crosswalks, a phenomenon Professor Andris Bērziņš from the University of Latvia predicts will result in 'unprecedented levels of in-car karaoke.'
+
+With implementation roles soon in play, it's clear that Riga’s streets are on a direct path to becoming the most melodically inclined in Europe. In the words of Deputy Mayor Alvis Audzis, "It’s not just a traffic signal; it’s the sound of a brighter, more harmonious future."`,
+      lv: `Drosmīgā solī, kas noteikti piesaistīs uzmanību un varbūt arī dažas ausis, Rīgas domes padome ir nobalsojusi par monotonu gājēju luksoforu signālu aizstāšanu ar uzmundrinošu tautas dziesmu klāstu. Sākot ar nākamo mēnesi, tie, kas gaidīs, lai šķērsotu ielu, var tikt apdziedāti ar harmoniskām 'Pūt, Vējiņi' skaņām, nevis parastajiem monotoniem klikšķiem.
+
+Iniciatīva, kas nosaukta par 'Dziedi drošībai', tika ierosināta pilsētas Motivācijas infrastruktūras un neparasto projektu departamentā (MINPD), nodaļā, kas iepriekš pasūtīja ziedu formas autobusu pieturas pilsētas Vecrīgā.
+
+"Mūsu pētījumi parādīja, ka pašreizējais signāls bija jāatjaunina," sacīja Ilze Krievkalne, MINPD pārstāve. "Tas ne tikai trūkst dzīvīguma, kas nepieciešams, lai atspoguļotu mūsu pilsētas bagāto kultūras mantojumu, bet arī pētījumi liecina, ka tas var palielināt stresu sastrēgumu stundās. Integrējot tradicionālās melodijas, mēs ceram pārvērst ikdienišķo ielas šķērsošanas aktu par sava veida miniatūru festivālu."
+
+Projektam, kura budžets ir 3,2 miljoni eiro, ir paredzēts līdz gada beigām aptvert visas 467 gājēju pārejas Rīgā. Katram luksoforam būs savs atskaņošanas saraksts, kuru izveidos vietējie mūziķi un kultūras vēsturnieki. Populāras dziesmu izvēles ietver laika pārbaudītas dziesmas kā 'Rīga Dimd' un a cappella versiju 'Jāņuvakars'.
+
+Lai gan iniciatīva ir saņēmusi siltu atsaucību no mākslas kopienas, ne visi to slavē. "Iedomājieties, ka esat iestrēdzis pie sarkanās gaismas bez austiņām, un pēkšņi jūs esat personīgā tautas koncertā," sūdzējās Oskars, ikdienas ceļotājs un aizrautīgs atskaņošanas sarakstu veidotājs, gaidot šķērsot aizņemtu krustojumu. "Es sākšu zināt vairāk latviešu tautas dziesmu nekā mani vecvecāki."
+
+Vienmēr gatava uzklausīt sabiedrības viedokli, pilsēta ir iekļāvusi atsauksmju cilpu, piedāvājot iedzīvotājiem iespēju ieteikt melodijas, izmantojot īpaši izstrādātu mobilo lietotni 'DziesmuPietura'. Šī lietotne, papildus satiksmes melodijām, sola uzlabot vietējo pārvaldību, apvienojot mūzikas priekšrocību datus ar nākotnes vēlēšanu apgabalu lēmumiem.
+
+Gājēji ar ilgāku gaidīšanas laiku pie luksoforiem varēs izbaudīt visu 'Daugav's Black Waters', lēmumu, ko Nacionālās ceļotāju asociācijas priekšsēdētājs Kalvis Smite sauc par 'ambiciozu, bet akustiski darbietilpīgu'. "Mēs esam optimistiski, ka šis pasākums palielinās tūrismu," Smite norādīja. "Nekas nesaka 'Apmeklējiet Latviju' kā reģions, kur pat pārejas aicina jūs dziedāt līdzi."
+
+Tomēr kritiķi ir izteikuši bažas par iespējamo trokšņa piesārņojumu. "Kad katra pāreja kļūst par kori, vai mēs riskējam zaudēt skaņas, kas uztur mūsu ikdienas simfoniju līdzsvarā?" prātoja Antra Jansone, vietējā apkārtējās vides skaņu entuziaste un tautas kritiķe. "Tas ir līdzīgi kā dzert pārāk daudz karstvīna: patīkami, līdz tas izjauc jūsu iekšējo harmoniju."
+
+Lai risinātu vides bažas, pilsētas valdība solīja ik pēc sešiem mēnešiem pārskatīt decibelu ietekmi un solīja izveidot 'Harmoniskas pilsētas mijiedarbības darba grupu'.
+
+Kas attiecas uz pašiem autovadītājiem? Viņiem būs jātiek galā ar iespējamiem dziedāšanas līdzi gadījumiem no pasažieriem, kamēr viņi stāv blakus muzikālajām pārejām, parādību, ko Latvijas Universitātes profesors Andris Bērziņš prognozē, ka tas radīs 'nebijušus līmeņus automašīnu karaoke'.
+
+Ar īstenošanas lomu drīzu spēlēšanu ir skaidrs, ka Rīgas ielas ir tiešā ceļā uz kļūšanu par vismelodiskākajām Eiropā. Kā teica vicemērs Alvis Audzis, "Tas nav tikai luksofors; tas ir gaišākas, harmoniskākas nākotnes skaņa."`,
+      ru: `В смелом шаге, который наверняка привлечет внимание и, возможно, слух, Рижский городской совет проголосовал за замену монотонного писка пешеходных светофоров на бодрящий набор национальных народных песен. Начиная со следующего месяца, те, кто ждут перехода через улицу, могут оказаться под звуки гармоничных мелодий 'Pūt, Vējiņi' вместо обычных монотонных щелчков.
+
+Инициатива, получившая название 'Пой ради безопасности', была предложена Департаментом мотивационной инфраструктуры и необычных проектов (ДМИУП), подразделением, известным ранее заказом автобусных остановок в форме цветов в Старом городе.
+
+"Наши исследования показали, что текущий звуковой сигнал нуждается в обновлении," сказала Илзе Криевкалне, пресс-секретарь ДМИУП. "Он не только лишен яркости, необходимой для отражения богатого культурного наследия нашего города, но и, по данным исследований, может увеличивать стресс в часы пик. Внедряя традиционные мелодии, мы стремимся превратить обыденное действие перехода улицы в своего рода мини-фестиваль."
+
+Проект, бюджет которого составляет 3,2 миллиона евро, планируется охватить все 467 пешеходных переходов по всей Риге к концу года. У каждого светофора будет свой плейлист, составленный местными музыкантами и культурными историками. Популярные песни включают проверенные временем хиты, такие как 'Rīga Dimd' и акапельная версия 'Jāņuvakars'.
+
+Хотя инициатива получила теплый отклик от художественного сообщества, не все поют ей дифирамбы. "Представьте, что вы застряли на красном свете без наушников, и вдруг вы находитесь на личном фольклорном концерте," ворчал Оскарс, ежедневный пассажир и заядлый составитель плейлистов, ожидая перехода через оживленный перекресток. "Я начну знать больше латышских народных песен, чем мои бабушки и дедушки."
+
+Всегда стремясь учитывать общественное мнение, город включил механизм обратной связи, предлагая гражданам возможность предлагать мелодии через специально разработанное мобильное приложение под названием 'SongStop'. Это приложение, помимо музыкальных сигналов, обещает улучшить местное управление, сочетая данные о музыкальных предпочтениях с будущими решениями по избирательным округам.
+
+Пешеходы с более длительным временем ожидания на светофорах могут услышать всю 'Чёрную воду Даугавы', решение, которое господин Калвис Смите, председатель Национальной ассоциации пассажиров, называет 'амбициозным, но акустически трудоемким'. "Мы оптимистично настроены, что это начинание увеличит туризм," отметил Смите. "Ничто так не говорит 'Посетите Латвию', как регион, где даже пешеходные переходы приглашают вас подпевать."
+
+Критики, однако, выразили обеспокоенность по поводу потенциального шумового загрязнения. "Когда каждый переход становится хором, не рискуем ли мы потерять звуки, которые поддерживают баланс нашей повседневной симфонии?" задумалась Антра Янсоне, местный энтузиаст окружающих звуков и критик фольклора. "Это похоже на чрезмерное употребление глинтвейна: приятно, пока не нарушает вашу внутреннюю гармонию."
+
+Чтобы решить экологические проблемы, городские власти пообещали пересматривать влияние децибелов каждые шесть месяцев и пообещали создать 'Группу по гармоничному городскому взаимодействию'.
+
+Что касается самих водителей? Им придется мириться с потенциальными подпевками пассажиров, когда они будут стоять рядом с музыкальными пешеходными переходами, явление, которое профессор Андрис Берзиньш из Латвийского университета предсказывает, приведет к 'беспрецедентным уровням караоке в автомобиле'.
+
+Скоро начнется реализация проекта, и ясно, что улицы Риги находятся на прямом пути к тому, чтобы стать самыми мелодичными в Европе. Как сказал заместитель мэра Алвис Аудзис, "Это не просто светофор; это звук более яркого, более гармоничного будущего."`
+    },
+    date: "Feb 7, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/84/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 83,
     slug: "latvia-declares-ji-holiday-every-day",
     title: {
@@ -84,7 +171,7 @@ Noslēgumā, lai gan valdības solim ir savi skeptiķi, lielākā daļa Latvijas
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/83/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 82,
