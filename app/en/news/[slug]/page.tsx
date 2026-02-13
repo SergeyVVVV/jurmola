@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import Image from 'next/image';
 import { articles } from '../../../data/articles';
 import { getArticleImageAbsoluteUrl, getArticleImageUrl } from '../../../lib/article-image';
 import { localizedHref } from '../../../lib/i18n-config';
@@ -92,13 +93,14 @@ export default async function ArticlePage({ params }: Props) {
         </div>
 
         <div className="mb-8 rounded-lg overflow-hidden">
-          <img
+          <Image
             src={getArticleImageUrl(article)}
             alt={article.title[language]}
             width={800}
             height={600}
-            decoding="async"
-            fetchPriority="high"
+            quality={85}
+            priority={article.featured || false}
+            sizes="(max-width: 768px) 100vw, 800px"
             className="w-full h-auto"
           />
         </div>
