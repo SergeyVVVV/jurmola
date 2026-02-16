@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 93,
+    slug: "riga-mayor-proposes-replacing-trams-with",
+    title: {
+      en: "Riga Mayor Proposes Replacing Trams with Horse-Drawn Carriages to Boost Tourism and Nostalgia",
+      lv: "Rīgas mērs piedāvā aizstāt tramvajus ar zirgu pajūgiem, lai veicinātu tūrismu un nostalģiju",
+      ru: "Мэр Риги предлагает заменить трамваи конными экипажами для повышения туризма и ностальгии"
+    },
+    excerpt: {
+      en: "In a bold move reminiscent of the 19th century, Riga's mayor announced plans to phase out electric trams in favor of horse-drawn carriages. Citing tourism potential and the return of nostalgia-driven commuting, the proposal has brought both neigh-sayers and enthusiasts into the streets.",
+      lv: "Pārdrošā solī, kas atgādina 19. gadsimtu, Rīgas mērs paziņoja par plāniem pakāpeniski aizstāt elektriskos tramvajus ar zirgu pajūgiem. Atsaucoties uz tūrisma potenciālu un nostalģijas vadītu pārvietošanos, priekšlikums ir izraisījis gan skeptiķu, gan entuziastu pulcēšanos ielās.",
+      ru: "В смелом шаге, напоминающем XIX век, мэр Риги объявил о планах поэтапного отказа от электрических трамваев в пользу конных экипажей. Ссылаясь на туристический потенциал и возвращение ностальгических поездок, предложение вызвало как недовольство, так и энтузиазм на улицах."
+    },
+    fullContent: {
+      en: `In a nostalgic nod to Riga's romantic past, current Mayor Andris Kalniņš has announced a controversial new proposal to replace the city's electric tram system with traditional horse-drawn carriages. Citing the initiative as both eco-friendly and tourism-boosting, the Mayor unveiled his vision to an assemblage of confused and bemused local officials and curious bystanders in the heart of Old Riga.
+
+"What better way to experience Riga than to travel as our ancestors did, feeling the rhythm of the city's cobblestones under the trustworthy trot of Latvian-bred horses?" Mayor Kalniņš stated, passionately gesturing toward archived photos of a streetcar-free Brīvības iela. "Our tourism industry needs a fresh kick, and what better way than this literal horsepower?"
+
+The proposal has raised eyebrows among residents and urban planners alike. "I’m not sure this is what urban innovation looks like," remarked Ilze Bērziņa, a city transport analyst, shaking her head while dodging a curious pigeon. "Yes, I appreciate the charm of stepping into the past, but ruts and hay aren’t exactly what a modern city needs."
+
+The plan outlines a phased approach, starting with a limited-time pilot project set to take place during the peak tourist summer months. The pilot involves importing over one hundred vintage carriages, sourced from neighboring Estonia where a similar, albeit short-lived, initiative was introduced last year to replace Uber—the 'Un-carriage Joyride' festival, now mostly known for its spectacular traffic jams.
+
+Kalniņš envisions an accompanying series of horse care workshops and traditional carriage driving courses as part of the city's latest revenue strategy. "Think of it as public transportation meets Latvian rural farm life," he elaborated. "It's educational and adds to our unique national identity. Just imagine the selfies!"
+
+Meanwhile, local advocacy group 'Modern Latvia Now' has already launched a counter-campaign, humorously entitled 'Hay in My Latte?' Petitions have started circulating, and a satirical series of memes featuring Riga’s iconic Cat house being remodeled into a stable are flooding local social media.
+
+In support of the mayor's proposal, city councilor Jānis Puķis, himself an avid equestrian, argued, "This is not just about nostalgia; it's about re-establishing our unique cultural trademarks. Just like our grey peas and pearl barley, horse-drawn carriages are an underappreciated part of what it means to be Latvian."
+
+The details of the financing and logistical implications remain fuzzy. City financial officer Anita Sīle remains skeptical, "We will need to explore additional funding avenues, possibly introducing horse manure as a new commodity in the fertilizer market. It’s an unconventional approach, but so was WiFi once."
+
+As debates continue, Mayor Kalniņš remains undeterred. "It is not just about transportation," he asserts, "it is about embarking on a journey through time while reminding everyone that Riga truly trots to its own special beat."
+
+Whether this ambitious endeavor to rehorse the public transport system will forge ahead or will gallop off into a sunset of forgotten proposals remains to be seen. For now, both horse enthusiasts and modern commuters are advised to prepare for a potential new feature of Riga's already eclectic charm—clippity-clop traffic. Delightfully quaint or hilariously impractical? Only time, or maybe a stalled carriage, will tell.`,
+      lv: `Nostalgiskā atsaucē uz Rīgas romantisko pagātni, pašreizējais mērs Andris Kalniņš paziņoja par pretrunīgu jaunu priekšlikumu aizstāt pilsētas elektrisko tramvaju sistēmu ar tradicionāliem zirgu pajūgiem. Atsaucoties uz iniciatīvu kā videi draudzīgu un tūrisma veicināšanas pasākumu, mērs atklāja savu vīziju apmulsušu un izklaidētu vietējo amatpersonu un ziņkārīgo garāmgājēju priekšā Vecrīgas sirdī.
+
+"Kāds gan labāks veids, kā izbaudīt Rīgu, nekā ceļot tā, kā to darīja mūsu senči, sajūtot pilsētas bruģakmeņu ritmu zem uzticamā Latvijas zirgu soļa?" mērs Kalniņš aizrautīgi norādīja uz arhīva fotogrāfijām ar Brīvības ielu bez tramvajiem. "Mūsu tūrisma nozarei nepieciešams jauns impulss, un kāds gan labāks veids par šo burtisko zirgu spēku?"
+
+Priekšlikums ir izraisījis izbrīnu gan iedzīvotāju, gan pilsētplānotāju vidū. "Nezinu, vai šis ir tas, kā izskatās pilsētas inovācija," sacīja pilsētas transporta analītiķe Ilze Bērziņa, kratot galvu, izvairoties no ziņkārīga baloža. "Jā, es novērtēju šarmu, ieejot pagātnē, bet risas un siens nav gluži tas, kas nepieciešams modernai pilsētai."
+
+Plāns paredz pakāpenisku pieeju, sākot ar ierobežota laika pilotprojektu, kas norisināsies tūrisma sezonas vasaras mēnešos. Pilotprojekts ietver vairāk nekā simts vintage pajūgu importēšanu no kaimiņvalsts Igaunijas, kur pagājušajā gadā tika ieviesta līdzīga, lai gan īslaicīga, iniciatīva, aizstājot Uber - 'Ne-pajūgu prieka brauciens' festivālu, kas tagad galvenokārt pazīstams ar iespaidīgiem satiksmes sastrēgumiem.
+
+Kalniņš paredz arī pavadošo zirgu aprūpes darbnīcu un tradicionālo pajūgu vadīšanas kursu sēriju kā daļu no pilsētas jaunākās ieņēmumu stratēģijas. "Domājiet par to kā par sabiedrisko transportu, kas satiekas ar Latvijas lauku saimniecības dzīvi," viņš paskaidroja. "Tas ir izglītojoši un papildina mūsu unikālo nacionālo identitāti. Tikai iedomājieties selfijus!"
+
+Tikmēr vietējā advokātu grupa 'Mūsdienu Latvija Tagad' jau ir uzsākusi pret-kampaņu, humoristiski nosaukta 'Siens manā latte?'. Petīcijas ir sākušas cirkulēt, un satīriskas mēmes, kurās Rīgas ikoniskā Kaķu māja tiek pārbūvēta par stalli, pārpludina vietējos sociālos medijus.
+
+Atbalstot mēra priekšlikumu, pilsētas padomes loceklis Jānis Puķis, pats kaislīgs jātnieks, apgalvoja: "Tas nav tikai par nostalģiju; tas ir par mūsu unikālo kultūras zīmolu atjaunošanu. Tāpat kā mūsu pelēkie zirņi un pērļu mieži, zirgu pajūgi ir nenovērtēta daļa no tā, ko nozīmē būt latvietim."
+
+Finansējuma un loģistikas detaļas joprojām ir neskaidras. Pilsētas finanšu amatpersona Anita Sīle paliek skeptiska: "Mums būs jāizpēta papildu finansējuma avoti, iespējams, ieviešot zirgu mēslus kā jaunu preci mēslojuma tirgū. Tas ir netradicionāls piegājiens, bet tāds bija arī WiFi reiz."
+
+Kamēr debates turpinās, mērs Kalniņš paliek nelokāms. "Tas nav tikai par transportu," viņš uzsver, "tas ir par ceļojumu laikā, vienlaikus atgādinot visiem, ka Rīga patiešām soļo savā īpašajā ritmā."
+
+Vai šis ambiciozais mēģinājums atjaunot sabiedriskā transporta sistēmu ar zirgiem tiks īstenots vai arī aizjās saulrietā kā aizmirsts priekšlikums, vēl ir redzams. Pašlaik gan zirgu entuziastiem, gan mūsdienu pasažieriem ieteicams sagatavoties iespējamai jaunai Rīgas jau tā eklektiskā šarma iezīmei - klipeti-klop satiksmei. Apburoši vecmodīgi vai smieklīgi nepraktiski? Tikai laiks, vai varbūt apstājusies kariete, to parādīs.`,
+      ru: `В ностальгическом приветствии романтическому прошлому Риги, нынешний мэр Андрис Калниньш объявил о спорном новом предложении заменить электрическую трамвайную систему города традиционными конными экипажами. Ссылаясь на инициативу как на экологически чистую и способствующую туризму, мэр представил свое видение собравшимся сбитым с толку и развеселившимся местным чиновникам и любопытным прохожим в сердце Старой Риги.
+
+"Что может быть лучше, чем испытать Ригу, путешествуя, как наши предки, чувствуя ритм городских булыжников под надежным шагом латвийских лошадей?" — заявил мэр Калниньш, страстно указывая на архивные фотографии улицы Бривибас без трамваев. "Нашему туристическому сектору нужен свежий импульс, и что может быть лучше, чем эта буквальная лошадиная сила?"
+
+Предложение вызвало недоумение как среди жителей, так и среди городских планировщиков. "Я не уверена, что это выглядит как городская инновация," — заметила Илзе Берзиня, аналитик городского транспорта, качая головой, уклоняясь от любопытного голубя. "Да, я ценю очарование возвращения в прошлое, но колеи и сено — это не то, что нужно современному городу."
+
+План предусматривает поэтапный подход, начиная с пилотного проекта на ограниченное время, который должен пройти в пиковые летние месяцы для туристов. Пилотный проект включает в себя импорт более ста винтажных экипажей, полученных из соседней Эстонии, где в прошлом году была введена аналогичная, хотя и недолговечная, инициатива по замене Uber — фестиваль 'Un-carriage Joyride', ныне известный в основном своими грандиозными пробками.
+
+Калниньш видит в этом сопровождающую серию мастер-классов по уходу за лошадьми и курсов по вождению традиционных экипажей как часть последней стратегии доходов города. "Думайте об этом как о общественном транспорте, встречающемся с латвийской сельской жизнью," — он пояснил. "Это образовательный проект и добавляет к нашему уникальному национальному самосознанию. Только представьте себе селфи!"
+
+Между тем, местная адвокационная группа 'Современная Латвия Сейчас' уже запустила контркампанию, юмористически названную 'Сено в моем латте?' Петиции начали циркулировать, а сатирическая серия мемов с изображением знаменитого Дома с котами в Риге, превращенного в конюшню, заполонила местные социальные сети.
+
+В поддержку предложения мэра, городской советник Янис Пукис, сам заядлый наездник, заявил: "Это не только о ностальгии; это о восстановлении наших уникальных культурных знаков. Как наши серые горох и перловка, конные экипажи — недооцененная часть того, что значит быть латвийцем."
+
+Детали финансирования и логистические последствия остаются неясными. Финансовый директор города Анита Силе остается скептичной: "Нам нужно будет изучить дополнительные источники финансирования, возможно, введя конский навоз как новый товар на рынке удобрений. Это нестандартный подход, но когда-то таким был и WiFi."
+
+Пока дебаты продолжаются, мэр Калниньш остается непоколебимым. "Это не только о транспорте," — утверждает он, "это о путешествии во времени, напоминая всем, что Рига действительно идет в своем особенном ритме."
+
+Будет ли это амбициозное начинание по возвращению лошадей в систему общественного транспорта продвигаться вперед или исчезнет в закате забытых предложений, еще предстоит увидеть. Пока что и любителям лошадей, и современным пассажирам советуют подготовиться к потенциальной новой особенности уже эклектичного очарования Риги — цокоту копыт в трафике. Прелестно старомодно или уморительно непрактично? Только время, или, возможно, застрявший экипаж, покажет.`
+    },
+    date: "Feb 16, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/93/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 92,
     slug: "riga-residents-start-official-petition-for",
     title: {
@@ -90,7 +171,7 @@ Kamēr Latvijas valdība apsver šo drosmīgo jauno soli birokrātiskajā plāno
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/92/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 91,
