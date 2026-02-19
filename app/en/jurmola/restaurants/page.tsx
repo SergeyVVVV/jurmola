@@ -83,9 +83,9 @@ function RestaurantCard({ name, cuisine, price, description }: { name: string; c
     <div className="p-5 bg-white rounded-lg border border-gray-200 hover:shadow-md transition-shadow duration-200">
       <div className="flex items-start justify-between mb-2">
         <h3 className="text-lg font-bold text-gray-900">{name}</h3>
-        <span className="text-sm font-semibold text-green-700 bg-green-50 px-2 py-0.5 rounded whitespace-nowrap ml-2">{price}</span>
+        <span className="text-sm font-semibold text-gray-700 bg-gray-100 px-2 py-0.5 rounded whitespace-nowrap ml-2">{price}</span>
       </div>
-      <p className="text-sm text-orange-600 font-medium mb-2">{cuisine}</p>
+      <p className="text-sm text-red-600 font-medium mb-2">{cuisine}</p>
       <p className="text-sm text-gray-600 leading-relaxed">{description}</p>
     </div>
   );
@@ -96,30 +96,26 @@ export default function RestaurantsPage() {
     <div className="min-h-screen bg-white">
       <Header language={language} />
 
-      <section className="bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50 py-16">
-        <div className="max-w-4xl mx-auto px-4">
-          <nav className="text-sm text-gray-500 mb-6">
-            <Link href={localizedHref('jurmola', language)} className="hover:text-orange-600 transition-colors">Jurmala City Guide</Link>
-            <span className="mx-2">/</span>
-            <span className="text-gray-900">Restaurants, Bars & Cafes</span>
-          </nav>
-          <p className="text-sm font-medium text-orange-600 mb-3 tracking-wide uppercase">Restaurant Guide 2026</p>
-          <h1 className="text-5xl font-bold mb-6 leading-tight">Best Restaurants, Bars & Cafes in Jurmala</h1>
-          <p className="text-xl text-gray-700 leading-relaxed mb-4">
-            From fine dining with Baltic Sea views to cozy coffee shops and beach bars.
-            Your complete guide to <strong>150+ restaurants and cafes in Jurmala</strong> — where to eat and spend an evening.
-          </p>
-          <p className="text-lg text-gray-500">Most restaurants are located on the pedestrian Jomas Street (Jomas iela).</p>
-        </div>
-      </section>
-
       <main className="max-w-4xl mx-auto px-4 py-12">
+        <nav className="text-sm text-gray-500 mb-4">
+          <Link href={localizedHref('jurmola', language)} className="hover:text-gray-700 transition-colors">Jurmala City Guide</Link>
+          <span className="mx-2">/</span>
+          <span className="text-gray-900">Restaurants, Bars & Cafes</span>
+        </nav>
+        <div className="mb-4">
+          <span className="bg-red-600 text-white px-3 py-1 rounded text-xs font-semibold uppercase tracking-wide">Restaurant Guide 2026</span>
+        </div>
+        <h1 className="text-4xl font-bold mb-6 leading-tight" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
+          Best Restaurants, Bars & Cafes in Jurmala
+        </h1>
+        <p className="text-lg text-gray-700 leading-relaxed mb-4">
+          From fine dining with Baltic Sea views to cozy coffee shops and beach bars.
+          Your complete guide to <strong>150+ restaurants and cafes in Jurmala</strong> — where to eat and spend an evening.
+        </p>
+        <p className="text-gray-500 mb-12">Most restaurants are located on the pedestrian Jomas Street (Jomas iela).</p>
 
         <section className="mb-14">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">&#127860;</span>
-            <h2 className="text-3xl font-bold">Fine Dining & Grill</h2>
-          </div>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Fine Dining & Grill</h2>
           <p className="text-gray-600 mb-6">Jurmala&apos;s best restaurants for special occasions: creative cuisine, tasting menus, and sea views.</p>
           <div className="grid md:grid-cols-2 gap-4">
             {fineDining.map((r) => (
@@ -129,10 +125,7 @@ export default function RestaurantsPage() {
         </section>
 
         <section className="mb-14">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">&#127869;</span>
-            <h2 className="text-3xl font-bold">Casual & International Dining</h2>
-          </div>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Casual & International Dining</h2>
           <p className="text-gray-600 mb-6">European, Italian, Asian, and Latvian cuisine — for a casual lunch or a romantic dinner.</p>
           <div className="grid md:grid-cols-2 gap-4">
             {casualDining.map((r) => (
@@ -142,10 +135,7 @@ export default function RestaurantsPage() {
         </section>
 
         <section className="mb-14">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">&#9749;</span>
-            <h2 className="text-3xl font-bold">Cafes & Coffee Houses</h2>
-          </div>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Cafes & Coffee Houses</h2>
           <p className="text-gray-600 mb-6">The best coffee, French pastries, and Neapolitan pizza — cozy cafes in Jurmala for every mood.</p>
           <div className="grid md:grid-cols-2 gap-4">
             {cafes.map((r) => (
@@ -155,10 +145,7 @@ export default function RestaurantsPage() {
         </section>
 
         <section className="mb-14">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">&#127867;</span>
-            <h2 className="text-3xl font-bold">Bars & Nightlife</h2>
-          </div>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Bars & Nightlife</h2>
           <p className="text-gray-600 mb-6">Beach bars, craft beer, and nightclubs — Jurmala&apos;s evening scene comes alive in summer.</p>
           <div className="grid md:grid-cols-2 gap-4">
             {bars.map((r) => (
@@ -172,14 +159,14 @@ export default function RestaurantsPage() {
             href="https://www.tripadvisor.com/Restaurant_Review-g274964-Jurmala_Riga_Region.html"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-8 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition-colors"
+            className="inline-block px-8 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-colors"
           >
             See all Jurmala restaurants on TripAdvisor &rarr;
           </a>
         </section>
 
-        <section className="mb-14 p-6 bg-gradient-to-r from-orange-50 to-amber-50 rounded-xl border border-orange-200">
-          <h2 className="text-2xl font-bold mb-6">Dining Tips</h2>
+        <section className="mb-14 p-6 bg-gray-50 rounded-lg border border-gray-200">
+          <h2 className="text-2xl font-bold mb-6" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Dining Tips</h2>
           <div className="grid md:grid-cols-2 gap-4">
             {tips.map((tip) => (
               <div key={tip.title} className="p-4 bg-white rounded-lg">
@@ -190,21 +177,21 @@ export default function RestaurantsPage() {
           </div>
         </section>
 
-        <section className="mb-14 p-6 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl border border-blue-200">
-          <h2 className="text-2xl font-bold mb-2">Planning a trip to Jurmala?</h2>
+        <section className="mb-14 bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
+          <h2 className="text-2xl font-bold mb-2" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Planning a trip to Jurmala?</h2>
           <p className="text-gray-600 mb-4">Book your hotel in advance for the best prices and to stay close to your favorite restaurants.</p>
           <a
             href="https://www.booking.com/city/lv/jurmala.html"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-6 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+            className="inline-block px-6 py-2 bg-black text-white font-medium rounded-lg hover:bg-gray-800 transition-colors"
           >
             Find hotels in Jurmala on Booking.com
           </a>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-6">Other Guide Sections</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Other Guide Sections</h2>
           <div className="grid md:grid-cols-2 gap-3">
             {otherGuides.map((guide) => (
               <Link key={guide.href} href={localizedHref(guide.href, language)} className="block p-4 bg-gray-50 rounded-lg border border-gray-200 hover:bg-gray-100 hover:border-gray-300 transition-all">

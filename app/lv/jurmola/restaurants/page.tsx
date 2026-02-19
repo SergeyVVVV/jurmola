@@ -8,7 +8,7 @@ const language = 'lv';
 
 export const metadata: Metadata = {
   title: 'Lab\u0101kie restor\u0101ni J\u016brmal\u0101 \u2013 B\u0101ri, kafejn\u012bcas un restor\u0101ni | Jurmola',
-  description: 'Pilns ce\u013Cvedis par J\u016brmalas restor\u0101niem: no izsmalcin\u0101tas virtuves l\u012Bdz m\u0101j\u012Bg\u0101m kafejn\u012Bc\u0101m un pludmales b\u0101riem. 150+ vietas, lab\u0101k\u0101s vietas uz Jomas ielas, j\u016Bras veltes, latvie\u0161u un starptautisk\u0101 virtuve.',
+  description: 'Pilns ce\u013Cvedis par J\u016brmalas restor\u0101niem: no izsmalcin\u0101tas virtuves l\u012Bdz m\u0101j\u012Bg\u0101m kafejn\u012Bc\u0101m un pludmales b\u0101riem. 150+ vietas, lab\u0101k\u0101s vietas uz Jomas ielas, j\u016bras veltes, latvie\u0161u un starptautisk\u0101 virtuve.',
   keywords: 'j\u016brmala restor\u0101ni, jurmola restor\u0101ni, kafejn\u012Bcas j\u016brmala, b\u0101ri j\u016brmala, kur \u0113st j\u016brmala, jomas iela restor\u0101ni, j\u016brmala \u0113din\u0101\u0161ana, jurmola',
   openGraph: {
     title: 'Lab\u0101kie restor\u0101ni J\u016brmal\u0101 \u2013 B\u0101ri, kafejn\u012Bcas un restor\u0101ni',
@@ -83,9 +83,9 @@ function RestaurantCard({ name, cuisine, price, description }: { name: string; c
     <div className="p-5 bg-white rounded-lg border border-gray-200 hover:shadow-md transition-shadow duration-200">
       <div className="flex items-start justify-between mb-2">
         <h3 className="text-lg font-bold text-gray-900">{name}</h3>
-        <span className="text-sm font-semibold text-green-700 bg-green-50 px-2 py-0.5 rounded whitespace-nowrap ml-2">{price}</span>
+        <span className="text-sm font-semibold text-gray-700 bg-gray-100 px-2 py-0.5 rounded whitespace-nowrap ml-2">{price}</span>
       </div>
-      <p className="text-sm text-orange-600 font-medium mb-2">{cuisine}</p>
+      <p className="text-sm text-red-600 font-medium mb-2">{cuisine}</p>
       <p className="text-sm text-gray-600 leading-relaxed">{description}</p>
     </div>
   );
@@ -96,30 +96,26 @@ export default function RestaurantsPage() {
     <div className="min-h-screen bg-white">
       <Header language={language} />
 
-      <section className="bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50 py-16">
-        <div className="max-w-4xl mx-auto px-4">
-          <nav className="text-sm text-gray-500 mb-6">
-            <Link href={localizedHref('jurmola', language)} className="hover:text-orange-600 transition-colors">J&#363;rmalas ce&#316;vedis</Link>
-            <span className="mx-2">/</span>
-            <span className="text-gray-900">Restor&#257;ni, b&#257;ri un kafejn&#299;cas</span>
-          </nav>
-          <p className="text-sm font-medium text-orange-600 mb-3 tracking-wide uppercase">Restor&#257;nu ce&#316;vedis 2026</p>
-          <h1 className="text-5xl font-bold mb-6 leading-tight">Lab&#257;kie restor&#257;ni, b&#257;ri un kafejn&#299;cas J&#363;rmal&#257;</h1>
-          <p className="text-xl text-gray-700 leading-relaxed mb-4">
-            No izsmalcin&#257;tas virtuves ar skatu uz Baltijas j&#363;ru l&#299;dz m&#257;j&#299;g&#257;m kafejn&#299;c&#257;m un pludmales b&#257;riem.
-            Pilns ce&#316;vedis par <strong>150+ restor&#257;niem un kafejn&#299;c&#257;m J&#363;rmal&#257;</strong> &#8212; kur gar&#353;&#299;gi pa&#275;st un pavad&#299;t vakaru.
-          </p>
-          <p className="text-lg text-gray-500">Liel&#257;k&#257; da&#316;a restor&#257;nu atrodas uz g&#257;j&#275;ju ielas Jomas iela.</p>
-        </div>
-      </section>
-
       <main className="max-w-4xl mx-auto px-4 py-12">
+        <nav className="text-sm text-gray-500 mb-4">
+          <Link href={localizedHref('jurmola', language)} className="hover:text-gray-700 transition-colors">J&#363;rmalas ce&#316;vedis</Link>
+          <span className="mx-2">/</span>
+          <span className="text-gray-900">Restor&#257;ni, b&#257;ri un kafejn&#299;cas</span>
+        </nav>
+        <div className="mb-4">
+          <span className="bg-red-600 text-white px-3 py-1 rounded text-xs font-semibold uppercase tracking-wide">Restor&#257;nu ce&#316;vedis 2026</span>
+        </div>
+        <h1 className="text-4xl font-bold mb-6 leading-tight" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
+          Lab&#257;kie restor&#257;ni, b&#257;ri un kafejn&#299;cas J&#363;rmal&#257;
+        </h1>
+        <p className="text-lg text-gray-700 leading-relaxed mb-4">
+          No izsmalcin&#257;tas virtuves ar skatu uz Baltijas j&#363;ru l&#299;dz m&#257;j&#299;g&#257;m kafejn&#299;c&#257;m un pludmales b&#257;riem.
+          Pilns ce&#316;vedis par <strong>150+ restor&#257;niem un kafejn&#299;c&#257;m J&#363;rmal&#257;</strong> &#8212; kur gar&#353;&#299;gi pa&#275;st un pavad&#299;t vakaru.
+        </p>
+        <p className="text-gray-500 mb-12">Liel&#257;k&#257; da&#316;a restor&#257;nu atrodas uz g&#257;j&#275;ju ielas Jomas iela.</p>
 
         <section className="mb-14">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">&#127860;</span>
-            <h2 className="text-3xl font-bold">Augst&#257; virtuve un grils</h2>
-          </div>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Augst&#257; virtuve un grils</h2>
           <p className="text-gray-600 mb-6">J&#363;rmalas lab&#257;kie restor&#257;ni &#299;pa&#353;iem gad&#299;jumiem: autora virtuve, degust&#257;cijas izv&#275;lnes un skati uz j&#363;ru.</p>
           <div className="grid md:grid-cols-2 gap-4">
             {fineDining.map((r) => (
@@ -129,10 +125,7 @@ export default function RestaurantsPage() {
         </section>
 
         <section className="mb-14">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">&#127869;</span>
-            <h2 className="text-3xl font-bold">Ikdienas un starptautisk&#257; virtuve</h2>
-          </div>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Ikdienas un starptautisk&#257; virtuve</h2>
           <p className="text-gray-600 mb-6">Eiropie&#353;u, it&#257;&#316;u, &#257;zijas un latvie&#353;u virtuve &#8212; ikdienas pusdien&#257;m vai romantisk&#257;m vakari&#326;&#257;m.</p>
           <div className="grid md:grid-cols-2 gap-4">
             {casualDining.map((r) => (
@@ -142,10 +135,7 @@ export default function RestaurantsPage() {
         </section>
 
         <section className="mb-14">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">&#9749;</span>
-            <h2 className="text-3xl font-bold">Kafejn&#299;cas un kafijas m&#257;jas</h2>
-          </div>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Kafejn&#299;cas un kafijas m&#257;jas</h2>
           <p className="text-gray-600 mb-6">Lab&#257;k&#257; kafija, fran&#269;u konditorejas izstr&#257;d&#257;jumi un Neapoles pica &#8212; m&#257;j&#299;gas kafejn&#299;cas J&#363;rmal&#257; katram gad&#299;jumam.</p>
           <div className="grid md:grid-cols-2 gap-4">
             {cafes.map((r) => (
@@ -155,10 +145,7 @@ export default function RestaurantsPage() {
         </section>
 
         <section className="mb-14">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">&#127867;</span>
-            <h2 className="text-3xl font-bold">B&#257;ri un naktsdzīve</h2>
-          </div>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>B&#257;ri un naktsdzīve</h2>
           <p className="text-gray-600 mb-6">Pludmales b&#257;ri, kraft&#257;lus un naktsklubi &#8212; J&#363;rmalas vakara dz&#299;ve vasarā atdzīvojas.</p>
           <div className="grid md:grid-cols-2 gap-4">
             {bars.map((r) => (
@@ -172,14 +159,14 @@ export default function RestaurantsPage() {
             href="https://www.tripadvisor.com/Restaurant_Review-g274964-Jurmala_Riga_Region.html"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-8 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition-colors"
+            className="inline-block px-8 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-colors"
           >
             Skat&#299;t visus J&#363;rmalas restor&#257;nus TripAdvisor &rarr;
           </a>
         </section>
 
-        <section className="mb-14 p-6 bg-gradient-to-r from-orange-50 to-amber-50 rounded-xl border border-orange-200">
-          <h2 className="text-2xl font-bold mb-6">Noderīgi padomi</h2>
+        <section className="mb-14 p-6 bg-gray-50 rounded-lg border border-gray-200">
+          <h2 className="text-2xl font-bold mb-6" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Noderīgi padomi</h2>
           <div className="grid md:grid-cols-2 gap-4">
             {tips.map((tip) => (
               <div key={tip.title} className="p-4 bg-white rounded-lg">
@@ -190,21 +177,21 @@ export default function RestaurantsPage() {
           </div>
         </section>
 
-        <section className="mb-14 p-6 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl border border-blue-200">
-          <h2 className="text-2xl font-bold mb-2">Pl&#257;nojat ce&#316;ojumu uz J&#363;rmalu?</h2>
+        <section className="mb-14 bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
+          <h2 className="text-2xl font-bold mb-2" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Pl&#257;nojat ce&#316;ojumu uz J&#363;rmalu?</h2>
           <p className="text-gray-600 mb-4">Rezerv&#275;jiet viesn&#299;cu iepriek&#353;, lai ieg&#363;tu lab&#257;k&#257;s cenas un b&#363;tu tuv&#257;k saviem iecien&#299;t&#257;kajiem restor&#257;niem.</p>
           <a
             href="https://www.booking.com/city/lv/jurmala.html"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-6 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+            className="inline-block px-6 py-2 bg-black text-white font-medium rounded-lg hover:bg-gray-800 transition-colors"
           >
             Atrast viesn&#299;cas J&#363;rmal&#257; Booking.com
           </a>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-6">Citas ce&#316;ve&#382;a sada&#316;as</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Citas ce&#316;ve&#382;a sada&#316;as</h2>
           <div className="grid md:grid-cols-2 gap-3">
             {otherGuides.map((guide) => (
               <Link key={guide.href} href={localizedHref(guide.href, language)} className="block p-4 bg-gray-50 rounded-lg border border-gray-200 hover:bg-gray-100 hover:border-gray-300 transition-all">
