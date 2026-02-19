@@ -196,7 +196,7 @@ function HotelCard({ hotel }: { hotel: { name: string; stars: number; price: str
       <a
         href={BOOKING_LINK}
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener noreferrer nofollow sponsored"
         className="inline-block text-sm font-medium text-white bg-black hover:bg-gray-800 px-4 py-2 rounded-lg transition-colors"
       >
         Book on Booking.com
@@ -297,7 +297,7 @@ export default function WhereToStayPage() {
           <a
             href={BOOKING_LINK}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow sponsored"
             className="inline-block px-8 py-3 bg-white text-black font-bold rounded-lg hover:bg-gray-100 transition-colors text-lg"
           >
             Browse All Hotels on Booking.com

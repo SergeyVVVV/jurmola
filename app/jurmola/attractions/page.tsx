@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { localizedHref } from '../../lib/i18n-config';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import JurmalaMap from '../../components/JurmalaMapWrapper';
 
 const language = 'ru';
 
@@ -187,6 +188,13 @@ export default function AttractionsPage() {
           и болотных троп Кемери до оживленной улицы Йомас и легендарного концертного зала «Дзинтари».
         </p>
         <p className="text-gray-500 mb-12">15 лучших мест, которые стоит посетить</p>
+
+        {/* Map */}
+        <section className="mb-16">
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Карта достопримечательностей</h2>
+          <p className="text-gray-600 mb-4">Все ключевые места Юрмалы на одной карте. Нажмите на маркер для подробностей.</p>
+          <JurmalaMap language="ru" />
+        </section>
 
         {/* Beaches */}
         <section className="mb-16">

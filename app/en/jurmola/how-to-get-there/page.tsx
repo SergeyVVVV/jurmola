@@ -222,7 +222,7 @@ export default function HowToGetTherePage() {
               for reaching parts of Jurmala that are further from the railway line.
             </p>
             <p className="text-sm text-gray-500">
-              Bus schedules are available at autoosta.lv or 1188.lv.
+              Bus schedules are available at <a href="https://www.autoosta.lv" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-gray-900">autoosta.lv</a> or <a href="https://www.1188.lv" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-gray-900">1188.lv</a>.
             </p>
           </div>
         </section>

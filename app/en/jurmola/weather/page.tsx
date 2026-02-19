@@ -142,17 +142,17 @@ const monthlyData = [
 ];
 
 function getSeasonColor(index: number): string {
-  if (index < 2 || index === 11) return 'bg-gray-50 border-gray-200'; // Winter
-  if (index >= 2 && index < 5) return 'bg-gray-50 border-gray-200'; // Spring
-  if (index >= 5 && index < 8) return 'bg-gray-50 border-gray-200'; // Summer
-  return 'bg-gray-50 border-gray-200'; // Autumn
+  if (index < 2 || index === 11) return 'bg-blue-50/60 border-blue-100'; // Winter
+  if (index >= 2 && index < 5) return 'bg-emerald-50/60 border-emerald-100'; // Spring
+  if (index >= 5 && index < 8) return 'bg-amber-50/60 border-amber-100'; // Summer
+  return 'bg-orange-50/60 border-orange-100'; // Autumn
 }
 
 function getWaterColor(temp: number): string {
-  if (temp <= 5) return 'bg-gray-100 text-gray-700';
-  if (temp <= 12) return 'bg-gray-100 text-gray-700';
-  if (temp <= 17) return 'bg-gray-100 text-gray-700';
-  return 'bg-gray-100 text-gray-700';
+  if (temp <= 9) return 'bg-blue-100/70 text-blue-800';
+  if (temp <= 15) return 'bg-cyan-100/70 text-cyan-800';
+  if (temp <= 19) return 'bg-teal-100/70 text-teal-800';
+  return 'bg-emerald-100/70 text-emerald-800';
 }
 
 export default function WeatherPage() {
@@ -286,7 +286,7 @@ export default function WeatherPage() {
         <section className="mb-12">
           <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Best Time to Visit Jurmala</h2>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
+            <div className="p-6 bg-emerald-50/50 rounded-lg border border-emerald-200">
               <h3 className="text-xl font-bold mb-3">Beach Holiday: July &ndash; August</h3>
               <p className="text-gray-700 leading-relaxed">
                 The ideal time for swimming. Air temperature +21&ndash;22 &deg;C, sea water warms to +19&ndash;20 &deg;C.
@@ -294,21 +294,21 @@ export default function WeatherPage() {
                 The only downside &mdash; peak season means Jurmala can be crowded.
               </p>
             </div>
-            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
+            <div className="p-6 bg-green-50/50 rounded-lg border border-green-200">
               <h3 className="text-xl font-bold mb-3">Shoulder Season: May &ndash; June, September</h3>
               <p className="text-gray-700 leading-relaxed">
                 An excellent choice if you want to avoid crowds. In May and June, nature is in full bloom and days are very long.
                 September is the velvet season with warm days and fewer tourists. Swimming is possible in early September.
               </p>
             </div>
-            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
+            <div className="p-6 bg-amber-50/50 rounded-lg border border-amber-200">
               <h3 className="text-xl font-bold mb-3">Spa &amp; Nature: October &ndash; April</h3>
               <p className="text-gray-700 leading-relaxed">
                 The off-season is ideal for spa holidays: prices are lower and spa hotels operate year-round.
                 Walks along winter beaches and through pine forests, peace and tranquillity. Kemeri mineral springs are accessible any time.
               </p>
             </div>
-            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
+            <div className="p-6 bg-blue-50/50 rounded-lg border border-blue-200">
               <h3 className="text-xl font-bold mb-3">Winter Wonderland: December &ndash; February</h3>
               <p className="text-gray-700 leading-relaxed">
                 Not for beach holidays, but winter Jurmala has its own charm. Snow-covered pines, stormy seas,

@@ -222,7 +222,7 @@ export default function HowToGetTherePage() {
               lai nokļūtu Jūrmalas rajonos, kas atrodas tālāk no dzelzceļa līnijas.
             </p>
             <p className="text-sm text-gray-500">
-              Autobusu sarakstus var apskatīt vietnēs autoosta.lv vai 1188.lv.
+              Autobusu sarakstus var apskatīt vietnēs <a href="https://www.autoosta.lv" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-gray-900">autoosta.lv</a> vai <a href="https://www.1188.lv" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-gray-900">1188.lv</a>.
             </p>
           </div>
         </section>

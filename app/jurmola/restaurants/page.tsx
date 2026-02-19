@@ -158,7 +158,7 @@ export default function RestaurantsPage() {
           <a
             href="https://www.tripadvisor.com/Restaurant_Review-g274964-Jurmala_Riga_Region.html"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="inline-block px-8 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-colors"
           >
             Все рестораны Юрмалы на TripAdvisor &rarr;
@@ -183,7 +183,7 @@ export default function RestaurantsPage() {
           <a
             href="https://www.booking.com/city/lv/jurmala.html"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow sponsored"
             className="inline-block px-6 py-2 bg-black text-white font-medium rounded-lg hover:bg-gray-800 transition-colors"
           >
             Найти отели в Юрмале на Booking.com

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { localizedHref } from '../../../lib/i18n-config';
 import Header from '../../../components/Header';
 import Footer from '../../../components/Footer';
+import JurmalaMap from '../../../components/JurmalaMapWrapper';
 
 const language = 'en';
 
@@ -187,6 +188,13 @@ export default function AttractionsPage() {
           and the bog trails of Kemeri to the bustling Jomas Street and the legendary Dzintari Concert Hall.
         </p>
         <p className="text-gray-500 mb-12">15 best places you should visit</p>
+
+        {/* Map */}
+        <section className="mb-16">
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Attractions Map</h2>
+          <p className="text-gray-600 mb-4">All key places in Jurmala on one map. Click a marker for details.</p>
+          <JurmalaMap language="en" />
+        </section>
 
         {/* Beaches */}
         <section className="mb-16">
