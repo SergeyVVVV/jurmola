@@ -8,7 +8,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/admin/'], // Блокируем служебные директории
+        disallow: ['/api/', '/admin/', '/cover/', '/news/category/'], // Блокируем служебные директории и дублирующийся контент
       },
     ],
     sitemap: `${baseUrl}/sitemap.xml`,

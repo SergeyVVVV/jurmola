@@ -253,48 +253,48 @@ export default function sitemap(): MetadataRoute.Sitemap {
   articles.forEach(article => {
     // Russian (root)
     routes.push({
-      url: `${baseUrl}/news/${article.slug}`,
+      url: `${baseUrl}/news/${article.slug}/`,
       lastModified: new Date(article.date),
       changeFrequency: 'weekly' as const,
       priority: 0.8,
       alternates: {
         languages: {
-          'x-default': `${baseUrl}/news/${article.slug}`,
-          en: `${baseUrl}/en/news/${article.slug}`,
-          ru: `${baseUrl}/news/${article.slug}`,
-          lv: `${baseUrl}/lv/news/${article.slug}`,
+          'x-default': `${baseUrl}/news/${article.slug}/`,
+          en: `${baseUrl}/en/news/${article.slug}/`,
+          ru: `${baseUrl}/news/${article.slug}/`,
+          lv: `${baseUrl}/lv/news/${article.slug}/`,
         },
       },
     });
-    
+
     // English
     routes.push({
-      url: `${baseUrl}/en/news/${article.slug}`,
+      url: `${baseUrl}/en/news/${article.slug}/`,
       lastModified: new Date(article.date),
       changeFrequency: 'weekly' as const,
       priority: 0.8,
       alternates: {
         languages: {
-          'x-default': `${baseUrl}/news/${article.slug}`,
-          en: `${baseUrl}/en/news/${article.slug}`,
-          ru: `${baseUrl}/news/${article.slug}`,
-          lv: `${baseUrl}/lv/news/${article.slug}`,
+          'x-default': `${baseUrl}/news/${article.slug}/`,
+          en: `${baseUrl}/en/news/${article.slug}/`,
+          ru: `${baseUrl}/news/${article.slug}/`,
+          lv: `${baseUrl}/lv/news/${article.slug}/`,
         },
       },
     });
-    
+
     // Latvian
     routes.push({
-      url: `${baseUrl}/lv/news/${article.slug}`,
+      url: `${baseUrl}/lv/news/${article.slug}/`,
       lastModified: new Date(article.date),
       changeFrequency: 'weekly' as const,
       priority: 0.8,
       alternates: {
         languages: {
-          'x-default': `${baseUrl}/news/${article.slug}`,
-          en: `${baseUrl}/en/news/${article.slug}`,
-          ru: `${baseUrl}/news/${article.slug}`,
-          lv: `${baseUrl}/lv/news/${article.slug}`,
+          'x-default': `${baseUrl}/news/${article.slug}/`,
+          en: `${baseUrl}/en/news/${article.slug}/`,
+          ru: `${baseUrl}/news/${article.slug}/`,
+          lv: `${baseUrl}/lv/news/${article.slug}/`,
         },
       },
     });
