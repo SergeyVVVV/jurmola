@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 97,
+    slug: "jrmala-introduces-quiet-hours-for-seagulls",
+    title: {
+      en: "Jūrmala Introduces Quiet Hours for Seagulls After Residents Report ‘Aggressive Motivational Screaming’ at 4:37 A.M.",
+      lv: "Jūrmala ievieš klusuma stundas kaijām pēc tam, kad iedzīvotāji ziņoja par «agresīvu motivējošu kliegšanu» plkst. 4:37",
+      ru: "Юрмала вводит часы тишины для чаек после жалоб жителей на «агрессивное мотивационное крикливание» в 4:37 утра"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have approved Latvia’s first legally enforceable quiet hours for seagulls, following years of complaints from residents who say the birds now begin their daily shouting with the discipline of civil servants. Environmental experts say enforcement may prove difficult, as most of the gull population refuses to register an official domicile.",
+      lv: "Jūrmalas pašvaldības ierēdņi apstiprinājuši Latvijas pirmās tiesiski izpildāmajās klusuma stundas kaijām, pēc gadiem ilgiem iedzīvotāju sūdzībām, kuri apgalvo, ka putni tagad sāk savu ikrīta šļaušanu ar valsts ierēdņu disciplīnu. Vides eksperti brīdina, ka izpilde var būt sarežģīta, jo lielākā daļa kaiju atsakās reģistrēt oficiālu dzīvesvietu.",
+      ru: "Муниципальные власти Юрмалы утвердили первые в Латвии юридически обязательные часы тишины для чаек — после многолетних жалоб жителей, которые жалуются, что птицы теперь начинают ежедневный крик с дисциплиной государственных служащих. Экологи предупреждают, что исполнение может оказаться сложным: большая часть популяции чаек отказывается зарегистрировать официальное место жительства."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move described by local leaders as “balanced, humane, and only slightly symbolic,” the Jūrmala City Council on Tuesday approved a new ordinance establishing quiet hours for seagulls between 11:00 p.m. and 7:00 a.m., with a special enforcement focus on the now-notorious pre-dawn interval of 4:37 to 5:12, when residents say the birds reach what one report called “peak existential volume.”
+
+The measure, officially titled the Coastal Acoustic Civility Pilot Program, passed 12–3 after months of public consultation, 417 written complaints, and one emotional presentation from a Dzintari pensioner who played a 14-minute audio recording of what she said was “not nature, but targeted harassment.”
+
+According to municipal data, complaints involving seagull noise have risen 68% in the past three summers, overtaking leaf blower disputes, unauthorized accordion practice, and the long-running issue of “suspiciously confident hedgehogs” in Majori. The city’s Environmental Order Department said it had identified at least seven high-activity gull corridors stretching between beach kiosks, train platforms, and the outdoor tables of people who “naively believed they could eat a curd pastry in peace.”
+
+Deputy mayor Ilze Priedīte said the ordinance was never intended as anti-bird legislation. “Jūrmala remains fully committed to biodiversity,” she told reporters outside City Hall. “But biodiversity must understand that some residents have blood pressure. We are not banning expression. We are simply asking coastal birds to postpone their strongest opinions until after breakfast.”
+
+Under the rules, municipal wardens will conduct dawn patrols equipped with decibel meters, reflective vests, and laminated cards reading PLEASE DE-ESCALATE. Birds identified as repeat offenders may be subjected to “non-confrontational shoreline redirection,” a phrase city documents define as two interns walking slowly toward them while sighing.
+
+Reaction from residents has been mixed. “At first I thought the screaming was my own conscience,” said Bulduri resident Andris Kalniņš, 43, who lives near a dumpster behind a seasonal café. “Then I opened the curtains and saw eleven gulls standing in a semicircle around a dropped hot dog bun like they were conducting labor negotiations.”
+
+Not everyone supports the policy. Ornithologist and part-time jazz clarinetist Dr. Marta Zālīte of the Baltic Institute for Urban Fauna warned that the city may be misreading ordinary gull behavior. “What humans hear as screaming is often a nuanced territorial statement,” she said. “In one recording supplied to me, a female gull appears to be saying, quite clearly, ‘This fry is mine, and your family line is weak.’ It is rude, yes, but not unlawful in the biological sense.”
+
+Business owners along Jomas Street have also expressed concern that stricter noise governance could disrupt the local ecosystem of tourism, snacks, and mild panic. Café manager Renārs Bērziņš said gulls, while difficult, are part of the resort identity. “German tourists expect authenticity,” he explained. “Pine trees, sea air, and one bird trying to steal a pancake directly from a child. If everything becomes too orderly, they may go to Estonia.”
+
+To test alternatives, the municipality last month ran a limited pilot program involving designated “shouting zones” near less populated dunes. The initiative failed after gulls ignored the signage and one sign was stolen by crows. A subsequent attempt to play calming kannel music at sunrise reportedly had “no measurable effect,” though several residents described the mornings as “more emotionally complicated.”
+
+By Wednesday afternoon, enforcement remained uncertain. City officials admitted no seagull had yet agreed to attend the mandatory stakeholder roundtable, and a draft memorandum left on the beach was immediately pecked apart.
+
+Still, the council insists the ordinance sends an important message. “Jūrmala is a modern European city,” Deputy mayor Priedīte said. “If we can regulate scooter parking, terrace heaters, and spontaneous saxophone, then we can at least begin a conversation with birds.”
+
+At press time, that conversation appeared one-sided, as a large seagull outside the station had reportedly swallowed a parking receipt whole and screamed directly into the Baltic wind.`,
+      lv: `JŪRMALA — Pārvienošanās, ko vietējie vadītāji raksturojuši kā «sabalan­sētu, humānu un tikai nedaudz simbolisku», otrdien Jūrmalas domē apstiprināja jaunu saistošo noteikumu, kas nosaka klusuma stundas kaijām no plkst. 23:00 līdz 7:00, ar īpašu izpildes uzmanību reputablam pirmsrīta posmam no 4:37 līdz 5:12, kad iedzīvotāji saka, ka putni sasniedz to, ko viens ziņojums nodēvēja par «eksistenciālā skaļuma maksimumu». 
+
+Šis pasākums, oficiāli nosaukts par Krasta akustiskās pieklājības pilotprogrammu, tika pieņemts ar 12–3 pēc vairāku mēnešu sabiedriskās apspriešanas, 417 rakstiskām sūdzībām un vienas emocionālas uzstāšanās no Dzintaru pensionāres, kura atskaņoja 14 minūšu garu ierakstu tam, kas viņasprāt «nav daba, bet mērķēta uzmākšanās». 
+
+Pašvaldības datu vērtējumā sūdzības par kaiju troksni pēdējos trīs vasarā pieaugušas par 68%, apsteidzot lapu pūtēju strīdus, neatļautas akordeona mēģināšanas un ilgstošo problēmu ar «aizdomīgi pašpārliecinātajiem ezīšiem» Majoros. Vides kārtības dienests apgalvo, ka atklājis vismaz septiņus aktīvas darbības kaiju koridorus, kas stiepjas starp pludmales kioskiem, dzelzceļa peroniem un āra galdiņiem cilvēkiem, kuri «naivi ticēja, ka biezpiena smalkmaizi var apēst mierā». 
+
+Domes priekšsēdētājas vietniece Ilze Priedīte uzsvēra, ka noteikums nav paredzēts kā pretputnu likumdošana. «Jūrmala paliek pilnībā ieinteresēta bioloģiskajā daudzveidībā,» viņa žurnālistiem pie domes sacīja. «Bet bioloģiskajai daudzveidībai jāsaprot, ka dažu iedzīvotāju asinsspiediens pastāv. Mēs neaizliedzam izpausmi. Mēs vienkārši lūdzam krasta putnus atlikt savas spēcīgākās domas līdz pēc brokastīm.» 
+
+Saskaņā ar noteikumiem pašvaldības inspektori veiks rīta patrulējumus, aprīkoti ar decibelmetriem, atstarojošajām vestēm un laminētām kartītēm ar uzrakstu LŪDZU, NOMIERINĀJIETIES. Putni, kas tiks atzīti par atkārtotiem pārkāpējiem, var tikt pakļauti «nekonfrontējošai krasta novirzīšanai» — termins, ko pilsētas dokumenti definē kā divus praktikantus, kas lēnām iet pretī un nopūšas. 
+
+Iedzīvotāju reakcijas ir jauktas. «Sākumā domāju, ka kliegšana ir mana sirdsapziņa,» sacīja 43 gadus vecais Bulduru iedzīvotājs Andris Kalniņš, kurš dzīvo blakus atkritumu tvertnei sezonālas kafejnīcas aizmugurē. «Tad atvēru aizkarus un ieraudzīju vienpadsmit kaijas stāvam puslokā ap nokritušu desas bulciņu, it kā tās vadītu darba sarunas.» 
+
+Ne visi atbalsta politiku. Ornitoloģe un daļlaika džeza klarineta spēlētāja Dr. Marta Zālīte no Baltijas pilsētfaunas institūta brīdināja, ka dome var nepareizi interpretēt parastu kaiju uzvedību. «To, ko cilvēki dzird kā kliegšanu, bieži vien ir niansēta teritoriāla paziņojuma forma,» viņa teica. «Vienā man piegādātā ierakstā šķiet, ka pieauguša mātīte skaidri saka: ‘Šī cepe ir mana, un jūsu dzimta ir vāja.’ Tas ir rupji, jā, bet bioloģiskā nozīmē ne nelikumīgi.» 
+
+Uzņēmēji Jomas ielas garumā arī izrādījuši bažas, ka stingrāka trokšņu pārvaldība varētu izjaukt vietējo tūrisma, uzkodu un vieglas panikas ekosistēmu. Kafejnīcas vadītājs Renārs Bērziņš sacīja, ka kaijas, lai arī problemātiskas, ir daļa no kūrorta identitātes. «Vācu tūristi gaida autentiskumu,» viņš paskaidroja. «Priežu koki, jūras gaiss un viena putna mēģinājums nozagt pankūku tieši no bērna. Ja viss paliks pārāk kārtīgs, viņi varēs braukt uz Igauniju.» 
+
+Lai pārbaudītu alternatīvas, pašvaldība pagājušajā mēnesī īstenoja ierobežotu pilotprogrammu ar noteiktām «kliegšanas zonām» pie mazāk apdzīvotām kāpām. Iniciatīva izgāzās pēc tam, kad kaijas ignorēja zīmes un viena zīme tika nozagta aržainu vārnu. Vēlāks mēģinājums atskaņot nomierinošu kokles mūziku saullēktā, pēc ziņām, «neatstāja izmērāmu ietekmi», lai gan vairāki iedzīvotāji raksturoja rītus kā «emocionāli sarežģītākus». 
+
+Sākoties trešdienas pēcpusdienai, izpilde joprojām bija neskaidra. Pilsētas amatpersonas atzina, ka neviena kaija vēl nav piekritusi apmeklēt obligāto ieinteresēto pušu apaļā galda diskusiju, un uz pludmalē atstāts memorands tūlīt tika izknābāts gabalos. 
+
+Tomēr dome uzstāj, ka noteikums sūta svarīgu vēstījumu. «Jūrmala ir mūsdienīga Eiropas pilsēta,» sacīja priekšsēdētājas vietniece Priedīte. «Ja mēs spējam reglamentēt skūteru novietošanu, terases sildītājus un spontānos saksofonus, tad vismaz varam sākt sarunu ar putniem.» 
+
+Preses sagatavošanas laikā šī saruna izskatījās viena­pusēja, jo liela kaija pie stacijas, pēc ziņām, bija nokoduši veselu stāvvietas čeku un kliedza tieši Baltijas vējam.`,
+      ru: `ЮРМАЛА — В шаге, который местные лидеры охарактеризовали как «сбалансированный, гуманный и лишь слегка символический», Городской совет Юрмалы во вторник утвердил новый ординанс, устанавливающий часы тишины для чаек с 23:00 до 7:00, с особым акцентом на теперь уже печально известный предрассветный интервал с 4:37 до 5:12, когда, по словам жителей, птицы достигают того, что один из докладов назвал «пиковым экзистенциальным уровнем громкости». 
+
+Мера, официально названная Пилотной программой прибрежной акустической вежливости, прошла с результатом 12–3 после месяцев общественных консультаций, 417 письменных жалоб и одной эмоциональной презентации от пенсионерки из Дзинтари, которая проиграла 14‑минутную аудиозапись того, что, по её словам, «это не природа, а целенаправленное преследование». 
+
+По муниципальным данным, количество жалоб, связанных с шумом чаек, выросло на 68% за последние три лета, обогнав споры из‑за воздуходувок для листьев, несанкционированные занятия на аккордеоне и давнюю проблему «подозрительно самоуверенных ёжиков» в Майори. Департамент экологического порядка города заявил, что выявил как минимум семь коридоров активной деятельности чаек, протянувшихся между пляжными киосками, железнодорожными платформами и уличными столиками тех людей, которые «наивно полагали, что смогут съесть творожный пирожок в тишине». 
+
+Заместитель мэра Илзе Приедите заявила, что ординанс никогда не задумывался как антиптичий. «Юрмала по‑прежнему полностью привержена биологическому разнообразию, — сказала она репортёрам у ратуши. — Но биологическое разнообразие должно понимать, что у некоторых жителей повышенное давление. Мы не запрещаем выражение мнения. Мы всего лишь просим прибрежных птиц отложить свои сильнейшие суждения до завтрака». 
+
+Согласно правилам, муниципальные инспекторы будут проводить утренние патрули, оснащённые шумомерами, светоотражающими жилетами и ламинатными карточками с надписью «ПОЖАЛУЙСТА, ДЕЭСКАЛИРУЙТЕ». Птицам, признанным рецидивистами, может быть применено «мирное перенаправление с берега» — фраза, которую городские документы определяют как двоих стажёров, медленно шагающих к ним с глубокими вздохами. 
+
+Реакция жителей оказалась смешанной. «Сначала я думал, что этот крик — моё собственное совестливое я, — сказал 43‑летний житель Булдури Андрис Калниньш, живущий возле мусорного контейнера за сезонным кафе. — А потом я распахнул шторы и увидел одиннадцать чаек, стоящих полукругом вокруг упавшей булочки от хот‑дога, как будто они ведут переговоры о трудовых условиях». 
+
+Не все поддерживают эту политику. Орнитолог и неполный рабочий день кларнетист‑джазмен доктор Марта Залите из Балтийского института городской фауны предупредила, что город может неверно трактовать обычное поведение чаек. «То, что люди слышат как крик, часто является тонко окрашенным территориальным заявлением, — сказала она. — В одной записи, предоставленной мне, самка чайки, по‑всему видно, говорит очень ясно: „Эта рыбёшка моя, а ваша родословная слаба“. Это грубо, да, но не противозаконно в биологическом смысле». 
+
+Предприниматели вдоль улицы Йомас также выразили обеспокоенность, что ужесточение правил по шуму может нарушить местную экосистему туризма, перекусов и лёгкого панического настроения. Менеджер кафе Ренарс Берзиньш сказал, что чайки, хоть и доставляют неудобства, но являются частью курортной идентичности. «Немецкие туристы ждут аутентичности, — объяснил он. — Сосновые деревья, морской воздух и одна птица, пытающаяся стащить блин прямо у ребёнка. Если всё станет слишком упорядоченно, они поедут в Эстонию». 
+
+Чтобы проверить альтернативы, муниципалитет в прошлом месяце провёл ограничённый пилот с выделенными «зонами крика» возле менее населённых дюн. Инициатива провалилась после того, как чайки проигнорировали указатели, а один знак украли вороны. Последующая попытка включать на рассвете спокойную музыку на каннеле, по сообщениям, не дала «измеримого эффекта», хотя несколько жителей охарактеризовали утро как «эмоционально более сложное». 
+
+К среде днём исполнение оставалось неопределённым. Городские власти признали, что ни одна чайка ещё не согласилась участвовать в обязательном круглом столе заинтересованных сторон, а проект меморандума, оставленный на пляже, тут же был объедён клювами. 
+
+Тем не менее совет настаивает, что ординанс посылает важный сигнал. «Юрмала — современный европейский город, — сказала заммэра Приедите. — Если мы можем регулировать парковку самокатов, обогреватели на террасах и спонтанную саксофонную игру, то по меньшей мере мы можем начать разговор с птицами». 
+
+На момент сдачи материала этот разговор казался односторонним: большая чайка у вокзала, как сообщается, проглотила парковочный талон целиком и взвыла прямо на прибалтийский ветер.`
+    },
+    date: "Mar 16, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/97/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 96,
     slug: "riga-introduces-polite-pothole-program-asking",
     title: {
@@ -94,7 +187,7 @@ Pilsētas amatpersonas apstiprināja, ka, ja pilots izrādīsies veiksmīgs, nā
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/96/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 95,
