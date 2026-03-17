@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 98,
+    slug: "riga-introduces-official-silent-minute-for",
+    title: {
+      en: "Riga Introduces Official Silent Minute For Passengers Who Realized Too Late They Needed The 22nd Trolleybus",
+      lv: "Rīga ievieš oficiālu klusuma minūti pasažieriem, kuri pārāk vēlu saprata, ka viņiem vajadzīgs 22. trolejbuss",
+      ru: "В Риге ввели официальную Минуту Молчания для тех, кто слишком поздно понял, что им нужен 22‑й троллейбус"
+    },
+    excerpt: {
+      en: "City officials in Riga have approved a daily municipal observance honoring residents who watch their correct trolleybus glide away while they stand on the wrong side of the street holding a coffee and several avoidable regrets. Transport authorities say the new ritual is intended to improve civic healing and reduce spontaneous muttering at intersections by up to 14%.",
+      lv: "Rīgas amatpersonas apstiprinājušas ikdienas pašvaldības ceremoniju, kas godinās iedzīvotājus, kuri vēro, kā pareizais trolejbuss aizslīd, kamēr paši stāv uz nepareizās ielas puses, turot kafiju un dažas novēršamas nožēlas. Pārvadājumu iestādes norāda, ka jaunais rituāls paredzēts, lai uzlabotu sabiedrisko sadziedināšanos un samazinātu spontānu murmināšanu pie krustojumiem līdz pat 14%.",
+      ru: "Городские власти Риги утвердили ежедневную муниципальную памятную акцию в честь жителей, которые наблюдают, как их правильный троллейбус уходит, пока они стоят на другой стороне улицы с кофе и несколькими лишними сожалениями. Транспортники говорят, что новый ритуал призван улучшить гражданское исцеление и сократить спонтанные бормотания на перекрёстках до 14%."
+    },
+    fullContent: {
+      en: `RIGA — In what officials are calling a “modest but necessary step toward emotional infrastructure,” the Riga City Council on Tuesday introduced an official Silent Minute for passengers who come to the crushing realization that they needed the 22nd trolleybus only after seeing it depart in the opposite direction.
+
+Beginning next Monday, all major public transport stops in central Riga will observe the minute at 8:17 a.m., a time selected after a six-month study found it to be “psychologically rich in regret.” During the observance, station loudspeakers will fall silent, digital display boards will temporarily replace expected arrival times with the phrase “You Knew, Deep Down,” and nearby kiosks will suspend card payments to encourage reflection.
+
+The initiative, formally titled the Urban Regret Recognition and Transit Closure Program, passed by a vote of 38–19 after intense debate over whether the ritual should also include those who boarded correctly but forgot to press the stop button. A compromise amendment allows those passengers to stand nearby “in quiet solidarity.”
+
+Deputy Chair of Mobility Affairs Ilze Dreimane said the measure addresses a long-ignored wound in civic life. “For years we invested in tracks, road surfaces, and mobile apps,” Dreimane told reporters while standing beside a laminated route map nobody was looking at correctly. “But we failed to invest in the person who sees the number 22, freezes, checks the app, checks the street sign, checks their own soul, and then whispers, ‘Ah.’ This city cannot move forward until we acknowledge that moment.”
+
+Municipal researchers estimate that the average Rigans experiences 11.4 episodes of transit-related delayed comprehension each winter, rising to 17.2 during freezing rain. In one widely cited survey conducted near Stacijas laukums, 63% of respondents admitted they had at some point power-walked confidently in the wrong direction purely to preserve dignity after missing their route.
+
+At a stop on Brīvības iela, local accountant and habitual near-misser Andris Kļaviņš welcomed the policy. “It’s not about the bus,” he said, holding a backpack zipper that had become entangled with his scarf. “It’s about standing there with complete certainty for six minutes, then watching your actual future pass behind you. Previously you just carried that into the office. Now the state is finally sharing the burden.”
+
+Not everyone is convinced. The Latvian Association of Practical Commuters criticized the move as “symbolic overreach,” arguing the city should instead focus on making route maps more intuitive and reducing the number of stops whose names sound like warnings. “A silent minute is fine,” said association board member Gunta Lejniece. “But at some point we must ask why three different vehicles arrive at nearly the same location with destinations that feel personally accusatory.”
+
+Rīgas Satiksme has nonetheless embraced the rollout. Spokesperson Mārtiņš Puriņš said drivers and conductors had already been trained to identify those in the acute phase of realization. “There’s a look,” he explained. “The head tilts, the coffee lowers, and for one second the passenger becomes extremely interested in urban design. Our staff are prepared.”
+
+If the pilot proves successful, city officials say they may expand the concept to other civic grief events, including a weekly bell toll for residents who entered a Narvesen intending to buy one thing and emerged with a sesame pastry, two lottery tickets, and no clear memory of why.
+
+At Tuesday’s unveiling, the first unofficial Silent Minute occurred spontaneously when a cluster of commuters at the Central Station stop watched, in total recognition, the 22nd trolleybus depart across the intersection. No one spoke. One man removed his hat. Then, as if guided by centuries of Baltic restraint, the group collectively opened their weather apps and prepared to be disappointed again.`,
+      lv: `RĪGA — To, ko amatpersonas dēvē par „rotīgu, bet nepieciešamu soli pretim emocionālajai infrastruktūrai”, otrdien Rīgas domes deputāti oficiāli ieviesa Klusuma minūti pasažieriem, kuri drūmi saprot — viņiem vajadzēja 22. trolejbusu — tikai pēc tam, kad tas aizbraucis pretējā virzienā.
+
+Sākot no nākamās pirmdienas, visas lielākās sabiedriskā transporta pieturas centrālajā Rīgā plkst. 8:17 ievēros minūti, laiku izvēloties pēc sešu mēnešu pētījuma, kurā atzinīgi secināts, ka tas ir „psiholoģiski bagāts nožēlai”. Novērošanas laikā pieturas skaļruņi klusēs, digitālās stendas uz laiku aizstās gaidāmo ierašanās laiku ar frāzi „Tu taču zināji, dziļi sirdī”, un tuvējie kioski uz laiku apturēs kartes maksājumus, lai veicinātu pārdomas.
+
+Iniciatīva, formāli nosaukta par Pilsētas nožēlas atzīšanas un satiksmes pārtraukšanas programmu, tika apstiprināta ar 38–19 balsojumu pēc intensīvas diskusijas par to, vai rituālā jāiekļauj arī tie, kuri iekāpa pareizajā trolejbusā, bet aizmirsuši piespiest apstāšanās pogu. Kompromisa grozījums ļauj šiem pasažieriem stāvēt netālu „klusā solidaritātē”.
+
+Mobitātes lietu vietniece Ilze Dreimane sacīja, ka pasākums risina ilgi ignorētu brūci sabiedriskajā dzīvē. „Gadu desmitiem mēs ieguldījām sliedēs, ceļa segumos un mobilajās aplikācijās,” Dreimane sacīja žurnālistiem, stāvot blakus laminētai maršruta kartei, uz kuru neviens neskatījās pareizi. „Taču mēs neieguldījām cilvēkā, kurš ierauga skaitli 22, sastingst, pārbauda aplikāciju, pārbauda ielas zīmi, pārbauda savu dvēseli un pēc tam čukst: ‘Ak.’ Šī pilsēta nevar iet uz priekšu, kamēr mēs neatzīm šā brīža esamību.”
+
+Pašvaldības pētnieki lēš, ka vidējais rīdzinieks ziemā piedzīvo 11,4 epizodes ar pārlieku novēloti sapratni par satiksmi, kas pieaug līdz 17,2 periodos ar sasalstošu lietu. Vienā plaši citētā aptaujā pie Stacijas laukuma 63% respondentu atzina, ka kādreiz pārliecinoši spiezuši soļus nepareizajā virzienā vienīgi, lai saglabātu cieņu pēc maršruta nokavēšanas.
+
+Pieturā Brīvības ielā vietējais grāmatvedis un pastāvīgais gandrīz-pazaudētājs Andris Kļaviņš atbalstīja politiku. „Tas nav par autobusu,” viņš teica, turot mugursomas rāvējslēdzēju, kas bija sapinies ar šalli. „Tas ir par stāvēšanu ar pilnīgu pārliecību sešas minūtes, pēc tam redzot, kā tava īstā nākotne aiziet tev garām. Agrāk tu to nesa uz biroju. Tagad valsts beidzot dala slogu.”
+
+Ne visi ir pārliecināti. Latvijas praktisko braucēju asociācija kritizēja soli kā „simboliski pārspīlētu”, argumentējot, ka pilsētai labāk būtu koncentrēties uz maršrutu karšu intuitīvāku izstrādi un samazināt to pieturu skaitu, kuru nosaukumi skan kā brīdinājumi. „Klusuma minūte ir pieņemama,” sacīja asociācijas valdes locekle Gunta Lejniece. „Bet reiz mums jāuzdod jautājums, kāpēc trīs dažādi transportlīdzekļi gandrīz vienuviet atbrauc ar galapunktiem, kas šķiet personīgi apsūdzīgi.”
+
+Rīgas Satiksme tomēr pieņēmusi jaunievedumu ar atplestām rokām. Pārstāvis Mārtiņš Puriņš sacīja, ka šoferi un konduktori jau apmācīti atpazīt tos, kas atrodas akūtā apgaismības fāzē. „Ir tāda izteiksme,” viņš izskaidroja. „Galva paklanās, kafija noslīd, un uz vienu sekundi pasažieris kļūst ārkārtīgi ieinteresēts pilsētplānošanā. Mūsu darbinieki ir sagatavojušies.”
+
+Ja pilots izrādīsies veiksmīgs, amatpersonas saka, ka var paplašināt koncepciju uz citiem pilsoniskās skumjas notikumiem, tostarp nedēļas zvanu iedzīvotājiem, kas izgāja no Narvesena domādami nopirkt vienu lietu un iznāca ar sezama bulciņu, divām loterijas biļetēm un bez skaidras atmiņas, kāpēc tā bija domāta.
+
+Otrdienas atklāšanā pirmā neoficiālā Klusuma minūte notika spontāni, kad neliela pasažieru grupa Centrālās stacijas pieturā, pilnīgā atpazīšanā, vēroja, kā 22. trolejbuss aizbrauc pāri krustojumam. Neviens nerunāja. Kāds vīrs novilka cepuri. Tad, it kā vadīti gadsimtu Baltijas pieklājības, grupa kolektīvi atvēra savas laika ziņu aplikācijas un sagatavojās vēlreiz vilties.`,
+      ru: `РИГА — В том, что чиновники называют «скромным, но необходимым шагом к эмоциональной инфраструктуре», Рижская городская дума во вторник ввела официальную Минуту Молчания для пассажиров, приходящих к сокрушительному осознанию того, что им нужен был 22‑й троллейбус, только увидев, как он уходит в противоположном направлении.
+
+Начиная со следующего понедельника, на всех крупных остановках общественного транспорта в центре Риги будет соблюдаться эта минута в 8:17 утра — время, выбранное после шестимесячного исследования, показавшего, что оно «психологически богато сожалением». Во время акции громкоговорители на станциях замолкнут, цифровые табло временно заменят ожидаемые времена прибытия фразой «Вы знали, в глубине души», а ближайшие киоски приостановят оплату картой, чтобы способствовать размышлениям.
+
+Инициатива, официально названная «Программой признания городского раскаяния и приостановки движения», была принята голосованием 38–19 после жарких дебатов о том, следует ли в ритуал включать и тех, кто сел в нужный транспорт, но забыл нажать кнопку «стоп». Компромиссная поправка позволяет таким пассажирам стоять поблизости «в тихой солидарности». 
+
+Зампред по делам мобильности Илзе Дреймане заявила, что мера касается давно игнорируемой раны в городской жизни. «Годы мы вкладывались в рельсы, покрытие дорог и мобильные приложения, — сказала Дреймане репортёрам, стоя рядом с ламинированной картой маршрутов, на которую никто не смотрел правильно. — Но мы не инвестировали в человека, который увидел цифру 22, застыл, проверил приложение, посмотрел на указатель, посмотрел в свою душу и затем прошептал: „Ах“. Этот город не сможет двигаться вперёд, пока мы не признаем этот момент». 
+
+Муниципальные исследователи оценили, что средний рижанин переживает 11,4 эпизода задержанного понимания, связанного с транспортом, каждую зиму, и до 17,2 — во время гололёда. В одном широко цитируемом опросе, проведённом у станции Stacijas laukums, 63% респондентов признались, что когда‑то энергично шли в неверном направлении, чтобы сохранить достоинство после упущенного маршрута.
+
+На остановке на Brīvības iela местный бухгалтер и habitual near‑misser Андрис Кļaviņш тепло отнёсся к новой политике. «Дело не в автобусе, — сказал он, пытаясь распутать молнию рюкзака, запутавшуюся в шарфе. — Дело в том, чтобы стоять там с полной уверенностью шесть минут, а потом смотреть, как твоё настоящее уходит за спиной. Раньше ты просто тащил это в офис. Теперь государство наконец разделяет эту ношу». 
+
+Не все в восторге. Латвийская ассоциация практичных пассажиров раскритиковала шаг как «символическое пере­растание полномочий», утверждая, что городу следовало бы вместо этого сделать карты маршрутов более интуитивными и сократить число остановок с названиями, звучащими как предупреждения. «Минута молчания — это хорошо, — сказала член правления ассоциации Гунта Лейниеце. — Но в какой‑то момент мы должны спросить себя, почему три разных транспортных средства прибывают почти в одно и то же место с пунктами назначения, которые кажутся личным обвинением». 
+
+Rīgas Satiksme тем не менее поддержала внедрение. Пресс‑секретарь Мārtiņš Puriņš сказал, что водители и кондукторы уже прошли обучение по распознаванию людей на острой стадии осознания. «Есть такой взгляд, — объяснил он. — Голова наклоняется, кофе опускается, и на секунду пассажир становится чрезвычайно заинтересован в градостроительстве. Наши сотрудники готовы». 
+
+Если пилотный проект окажется успешным, городские власти говорят, что могут распространить концепцию на другие гражданские события горя, включая еженедельный звон колоколов для жителей, которые зашли в Narvesen за одной покупкой и вышли с кунжутной булочкой, двумя лотерейными билетами и без ясного воспоминания, зачем пришли. 
+
+На церемонии во вторник первая неофициальная Минутa Молчания случилась спонтанно, когда группа пассажиров на остановке Центрального вокзала посмотрела, с полным узнаванием, как 22‑й троллейбус уехал через перекрёсток. Никто не заговорил. Один мужчина снял шляпу. Затем, словно ведомые веками прибалтийского сдержанности, коллектив открыл свои погодные приложения и приготовился снова разочароваться.`
+    },
+    date: "Mar 17, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/98/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 97,
     slug: "jrmala-introduces-quiet-hours-for-seagulls",
     title: {
@@ -108,7 +189,7 @@ Preses sagatavošanas laikā šī saruna izskatījās viena­pusēja, jo liela k
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/97/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 96,
