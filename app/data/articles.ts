@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 102,
+    slug: "riga-introduces-dynamic-silence-pricing-residents-102",
+    title: {
+      en: "Riga Introduces Dynamic Silence Pricing, Residents Charged Extra for Peak Quiet Hours",
+      lv: "Rīga ievieš dinamisko klusuma tarifu — iedzīvotājiem jāmaksā papildus par klusuma pīķstundām",
+      ru: "Рига вводит динамическое ценообразование тишины: жителям придётся доплачивать за часы пик спокойствия"
+    },
+    excerpt: {
+      en: "In a move city officials describe as 'long overdue modernization,' Riga has become the first European capital to regulate silence as a premium municipal resource. Under the new system, residents seeking uninterrupted quiet between 22:00 and 06:00 will pay variable rates based on neighborhood demand, tram proximity, and the estimated emotional intensity of nearby renovations.",
+      lv: "Kā pilsētas amatpersonas to raksturo kā 'ilgstoši vajadzīgu modernizāciju', Rīga kļuvusi par pirmo Eiropas galvaspilsētu, kas regulē klusumu kā prestižu pašvaldības resursu. Saskaņā ar jauno sistēmu iedzīvotāji, kuri vēlas nepārtrauktu klusumu no plkst. 22:00 līdz 06:00, maksās mainīgas cenas atbilstoši mikrorajona pieprasījumam, tramvaja tuvumam un tuvumā notiekošo remontu prognozētajai emocionālajai intensitātei.",
+      ru: "В шаге, который городские власти называют «давно назревшей модернизацией», Рига стала первой европейской столицей, где тишина регулируется как муниципальный платный ресурс. По новой системе жители, желающие беспрерывного спокойствия с 22:00 до 06:00, будут платить переменную цену в зависимости от спроса по району, близости трамвая и предполагаемой эмоциональной интенсивности соседних ремонтов."
+    },
+    fullContent: {
+      en: `RIGA — Riga City Council this week approved a pilot program that will allow residents in selected central districts to purchase guaranteed silence through a new digital platform, Klusums.lv, with prices fluctuating in real time according to demand, weather, and the presence of one or more men discussing paving stones beneath an apartment window.
+
+The initiative, officially titled the Urban Acoustic Efficiency and Fair Access Mechanism, was passed late Tuesday after a six-hour committee debate repeatedly interrupted by chair scraping, corridor laughter, and what meeting transcripts describe only as 'sustained drilling of unclear origin.' Officials say the system will bring transparency to a resource that has for too long been distributed unfairly.
+
+'For years, silence in Riga has been enjoyed mainly by people with country houses, superior windows, or relatives in Cesis,' said Deputy Mayor for Smart Development Ilze Vaverte at a press conference held beside a tram turning loop in Grizinkalns. 'This reform finally creates a market-based path to acoustic dignity.'
+
+Under the plan, each household will receive 12 basic quiet minutes per month, renewable quarterly, with additional silence available through subscription tiers. The entry-level package, Klusums Basic, includes muted scooter traffic and one dog bark forgiven per evening. Premium users can access the Gold Stillness plan, which promises up to 90 consecutive seconds without container movement, bottle disposal, or unexplained metallic impact.
+
+According to city data, average nighttime silence in central Riga currently lasts 14 seconds, though that number drops to 6 seconds on Fridays and rises briefly to 22 during televised hockey losses. In the pilot zone — covering parts of Teika, the Quiet Side of Avoti, and one disputed courtyard in Agenskalns — residents will be able to monitor silence futures on a mobile app featuring a color-coded Calm Index.
+
+The app also offers surge alerts. On Wednesday, silence in the Center district peaked at €3.84 per minute after a neighboring building simultaneously began facade repairs, parquet sanding, and what several witnesses described as 'urgent ceremonial hammering.'
+
+Not everyone is convinced. 'I tried to reserve 40 minutes of silence for my afternoon nap, but the app said there was high demand from a podcast editor in the next building and a violin teacher entering exam season,' said local resident Maris Ozolins, 41, standing in his kitchen while someone tested tiles in the apartment above. 'I ended up buying the budget package, so now the city only guarantees that arguments in the stairwell will be emotionally moderate.'
+
+Municipal acoustics consultant Edgars Krumins defended the pricing model, noting that silence is a finite civic asset. 'People think noise just happens naturally, but much of it is highly seasonal and ritualized,' he said. 'May brings motorcycles, June brings wedding fireworks, August brings sidewalk cutting, and from October to March there is the deep national urge to drag furniture for reasons nobody can fully explain.'
+
+In Jurmala, where summer visitors have long demanded exclusive access to birdsong and morally superior wind, local leaders are considering a companion luxury program that would allow villa owners to offset undesirable sound events by sponsoring noise elsewhere. One proposal would redirect bachelor party volume toward an industrial park outside Jelgava through a municipal speaker array.
+
+Economists at the University of Latvia estimate the silence market could contribute €11.2 million annually to the city budget, much of it from professionals aged 29 to 44 who list 'just one normal evening' as a major life goal. Critics, however, warn that creating a tradable quiet economy may deepen inequality.
+
+'We are approaching a situation where affluent residents can accumulate intergenerational calm while ordinary families must rely on inherited earplugs,' said social policy researcher Baiba Svikle. 'Once silence becomes an investment vehicle, it is very difficult to keep it out of pension funds.'
+
+Despite concerns, officials say the rollout has already shown promise. During initial testing in Sarkandaugava, one family reportedly experienced a full three-minute period without moped revving, celebratory shouting, or glass entering a public container. The event has since been designated a municipal heritage occurrence and will be commemorated with a plaque, pending a quieter time for installation.`,
+      lv: `RĪGA — Rīgas dome šonedēļ apstiprināja pilotprogrammu, kas ļaus atsevišķu centru rajonu iedzīvotājiem iegādāties garantētu klusumu caur jaunu digitālu platformu Klusums.lv, kur cenas svārstās reāllaikā atkarībā no pieprasījuma, laika apstākļiem un vienas vai vairāku vīriešu pie dzīvokļa loga apspriestu bruģakmeņu klātbūtnes.
+
+Iniciatīva, oficiāli nosaukta par Pilsētas akustiskās efektivitātes un godīgas piekļuves mehānismu, tika pieņemta vēlu otrdien pēc sešu stundu komitejas debates, kuru vairākkārt pārtrauca krēsla skrāpēšana, koridora smiekli un to, ko protokoli apraksta tikai kā 'nepārtrauktas urbšanas skaņas neskaidras izcelsmes'. Amatpersonas apgalvo, ka sistēma ieviesīs pārredzamību resursā, kas pārāk ilgi ir ticis sadalīts negodīgi.
+
+'Gadu desmitiem klusumu Rīgā ir baudījuši pārsvarā tie, kuriem ir vasarnīcas, īpaši logi vai radi Cēsīs,' preses konferencē pie tramvaja apgriešanās loka Grīziņkalnā sacīja vicespītniece viedas attīstības jautājumos Ilze Vaverte. 'Šī reforma beidzot izveido tirgus principu ceļu uz akustisko cieņu.'
+
+Saskaņā ar plānu katram mājsaimniecībai katru mēnesi tiks piešķirtas 12 pamata klusuma minūtes, atjaunojamas ceturksņa griezumā, un papildu klusums būs pieejams abonēšanas līmeņos. Ievadd pakete Klusums Basic ietver klusāku skūteru satiksmi un vienu suns raukšanu vakarā, kas tiks piedots. Premium lietotāji varēs pieslēgties Gold Stillness plānam, kas sola līdz 90 sekunžu garu nepārtrauktu laiku bez konteineru pārvietošanas, pudžu izmešanas vai neskaidra metāla trieciena.
+
+Pilsētas datu rādītāji liecina, ka centrālās Rīgas vidējais nakts klusums pašlaik ilgst 14 sekundes, lai gan piektdienās šis skaitlis krīt līdz 6 sekundēm un īsi palielinās līdz 22 televīzijā rādīto hokeja zaudējumu laikā. Pilotzonā — aptverot daļas no Teikas, Avotu Klusās puses un vienu strīdīgu pagalmu Āgenskalnā — iedzīvotāji varēs sekot klusuma nākotnes darījumiem mobilajā lietotnē ar krāsu kodētu Miera indeksu.
+
+Lietotne piedāvā arī cenu 'uzliesmojuma' brīdinājumus. Trešdien centrā klusums sasniedza maksimumu 3,84 € par minūti pēc tam, kad blakus esošā ēka vienlaikus sāka fasādes remontu, parketa slīpēšanu un to, ko vairāki aculiecinieki aprakstīja kā 'steidzamu ceremonijas kaltu svilpšanu.'
+
+Ne visi ir pārliecināti. 'Mēģināju rezervēt 40 minūtes klusuma pēcpusdienas diendusa laikā, bet lietotne teica, ka augsts pieprasījums nāk no podkāstu redaktora nākamajā ēkā un vijolnieka, kurš iesoļo eksāmenu sezonā,' saka vietējais iedzīvotājs Māris Ozoliņš, 41 gadu, stāvot virtuvē, kamēr kāds augšējā dzīvoklī pārbauda flīzes. 'Beigās nopirku budžeta komplektu, tāpēc tagad pilsēta tikai garantē, ka strīdi kāpņu telpā būs emocionāli mēreni.'
+
+Pašvaldības akustikas konsultants Edgars Krūmiņš aizstāvēja cenu modeli, norādot, ka klusums ir ierobežots civiskais resurss. 'Cilvēki domā, ka troksnis vienkārši notiek dabiski, bet lielākā daļa no tā ir ļoti sezonāls un rituāls,' viņš sacīja. 'Maijs nes motociklus, jūnijs nes kāzu salūtu, augusts nes ietvju griešanu, un no oktobra līdz martam pastāv dziļa nacionāla tieksme vilkt mēbeles iemeslu dēļ, ko neviens pilnībā nespēj izskaidrot.'
+
+Jūrmalā, kur vasaras viesi jau ilgstoši pieprasa ekskluzīvu piekļuvi putnu dziesmai un morāli pārākajam vējam, vietējie vadītāji apsver pavadprogrammu luksusa klientiem, kas ļautu villas īpašniekiem kompensēt nevēlamus trokšņus, sponsorējot skaņu citur. Vienā no priekšlikumiem būtu paredzēts novirzīt vecpuišu ballīšu apjomu uz industriālo parku pie Jelgavas, izmantojot pašvaldības skaļruņu tīklu.
+
+Latvijas Universitātes ekonomisti lēš, ka klusuma tirgus varētu ik gadu pilsētas budžetā ienesīt 11,2 miljonus eiro, lielā mērā no 29–44 gadus veciem profesionāļiem, kuri par galveno dzīves mērķi norāda 'vienu normālu vakaru'. Kritiķi gan brīdina, ka tirgojamas klusuma ekonomikas izveide var padziļināt nevienlīdzību.
+
+'Mēs tuvojamies situācijai, kur turīgi iedzīvotāji var uzkrāt starppaaudžu mieru, kamēr parastām ģimenēm jāpaļaujas uz mantotām ausu aizbāžņēm,' brīdina sociālās politikas pētniece Baiba Svikle. 'Kad klusums kļūst par investīciju instrumentu, to ir ļoti grūti noturēt ārpus pensiju fondiem.'
+
+Neskatoties uz bažām, amatpersonas saka, ka ieviešana jau rāda solījumu. Sākotnējās pārbaudēs Sarkandaugavā vienai ģimenei it kā izdevās izbaudīt pilnas trīs minutes bez mopēda reibuma, svinīgu saukšanu vai stikla ielaišanas publiskā konteinerā. Šis notikums kopš tā laika pasludināts par pašvaldības mantojuma gadījumu un tiks atzīmēts ar atceres plāksni, gaidot klusāku laiku uzstādīšanai.`,
+      ru: `РИГА — На этой неделе Рижская дума утвердила пилотную программу, которая позволит жителям избранных центральных кварталов приобретать гарантированную тишину через новую цифровую платформу Klusums.lv; цены на ней будут меняться в реальном времени в зависимости от спроса, погоды и наличия одного или нескольких мужчин, обсуждающих брусчатку под окном.
+
+Инициатива, официально названная «Механизмом городской акустической эффективности и справедливого доступа», была принята поздно во вторник после шестичасовых слушаний в комитете, которые не раз прерывались скрипом стула, смехом в коридоре и тем, что в протоколах заседания фигурирует лишь как «продолжительное сверление неясного происхождения». Чиновники утверждают, что система внесёт прозрачность в ресурс, который слишком долго распределялся несправедливо.
+
+«В течение многих лет тишина в Риге доставалась в основном людям с дачами, понастоящему хорошими окнами или родственниками в Цесисе», — заявила заместитель мэра по умному развитию Илзе Ваверте на пресс-конференции, проходившей у трамвайного кольца в Гризинькалнсе. «Эта реформа наконец создаёт рыночный путь к акустическому достоинству». 
+
+По плану каждой квартире положено 12 базовых минут тишины в месяц с возможностью продления по кварталам; дополнительная тишина доступна по подпискам разных уровней. Базовый пакет Klusums Basic включает приглушённое движение самокатов и одно прощаемое лаять собаки за вечер. Премиум-пользователи могут подключить план «Золотая Невозмутимость», обещающий до 90 секунд подряд без передвижения контейнеров, выбрасывания бутылок или необъяснимых металлических ударов.
+
+По городским данным, средняя ночная тишина в центре Риги сейчас длится 14 секунд, хотя в пятницу это число падает до 6 секунд и кратковременно поднимается до 22 секунд при телевизионных поражениях по хоккею. В пилотной зоне — охватывающей части Тейки, Тихую сторону Авотов и один спорный двор в Агенскалнсе — жители смогут отслеживать фьючерсы на тишину в мобильном приложении с цветовой шкалой Индекса Спокойствия.
+
+В приложении также есть оповещения о всплесках цен. В среду тишина в районе Центра подорожала до €3,84 за минуту после того, как соседний дом одновременно начал ремонт фасада, шлифовку паркета и то, что несколько свидетелей описали как «срочное церемониальное забивание молотком».
+
+Не все удовлетворены. «Я пытался зарезервировать 40 минут тишины для дневного сна, но приложение выдало высокий спрос со стороны редактора подкаста в соседнем доме и учителя скрипки, у которого начинается экзаменационный сезон», — пожаловался местный житель Марис Озолиньш, 41 год, стоя на кухне, в то время как в квартире сверху тестировали плитку. «В итоге я купил бюджетный пакет, так что теперь город лишь гарантирует, что ссоры в лестничной клетке будут эмоционально умеренными». 
+
+Муниципальный акустический консультант Эдгарс Круминьш встал на защиту модели ценообразования, отметив, что тишина — это конечный общественный ресурс. «Люди думают, что шум просто возникает сам по себе, но большая часть его носит сезонный и ритуализованный характер», — сказал он. «Май приносит мотоциклы, июнь — свадебные фейерверки, август — резку тротуаров, а с октября по март возникает глубокое национальное стремление перетаскивать мебель по причинам, которые никому полностью не объяснить». 
+
+В Юрмале, где летние гости давно требуют исключительного доступа к пению птиц и морально превосходящему ветру, местные власти рассматривают программу для состоятельных жителей вилл, которая позволила бы компенсировать нежелательные шумовые события спонсированием шума в другом месте. Одна из идей — перенаправлять громкость мальчишников в индустриальный парк под Елгавой через муниципальную систему громкоговорителей.
+
+Экономисты Латвийского университета оценивают, что рынок тишины может приносить городу до €11,2 млн в год, большая часть которых придёт от профессионалов в возрасте 29–44 лет, для которых «просто один нормальный вечер» — важная жизненная цель. Критики, однако, предупреждают, что создание оборотного рынка тишины может усилить неравенство.
+
+«Мы подходим к ситуации, когда состоятельные жители смогут аккумулировать межпоколенческое спокойствие, в то время как обычные семьи будут вынуждены полагаться на унаследованные беруши», — говорит исследователь в области социальной политики Байба Свикле. «Как только тишина станет инвестиционным инструментом, её очень трудно будет не допустить в пенсионные фонды». 
+
+Несмотря на опасения, чиновники говорят, что развертывание уже показало многообещающие результаты. Во время первоначальных испытаний в Саркандаугаве одна семья якобы испытала полные три минуты без рычания мопеда, праздничных криков и звука попадающего в контейнер стекла. Это событие с тех пор объявлено муниципальным наследием и будет увековечено табличкой — после того как удастся подобрать более тихое время для её установки.`
+    },
+    date: "Mar 21, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/102/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 101,
     slug: "riga-introduces-dynamic-silence-pricing-residents",
     title: {
@@ -96,7 +189,7 @@ Vakaram krītot pār Rīgu, aplikācija uz īsu brīdi sabruka spiediena dēļ b
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/101/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 100,
