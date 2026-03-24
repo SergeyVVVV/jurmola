@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 105,
+    slug: "riga-introduces-official-queue-simulator-so",
+    title: {
+      en: "Riga Introduces Official Queue Simulator So Residents Can Practice Waiting Before Actually Waiting",
+      lv: "Rīga ievieš oficiālu rindu simulatoru, lai iedzīvotāji varētu trenēties gaidīt pirms īstās gaidīšanas",
+      ru: "Рига запускает официальный симулятор очередей, чтобы жители могли потренироваться в ожидании до того, как действительно ждать"
+    },
+    excerpt: {
+      en: "In a move city officials say will \"streamline the emotional side of bureaucracy,\" Riga has unveiled a municipal Queue Simulation Center where residents can rehearse standing in line before visiting any real office. Early reviews praise the facility’s realism, including a broken ticket machine, one flickering fluorescent bulb, and a man sighing theatrically every 14 seconds.",
+      lv: "Kā pilsētas amatpersonas saka, lai „sakārtotu birokrātijas emocionālo pusi”, Rīgā atklāts pašvaldības Rindu Simulācijas Centrs, kur iedzīvotāji var mēģināt stāvēt rindā pirms došanās uz īsto iestādi. Agrīni vērtējumi slavē centra reālismu — salūzušu biļešu automātu, vienu mirgojošu neona spuldzi un vīrieti, kas teatrāli nopūšas ik pēc 14 sekundēm.",
+      ru: "В попытке «упорядочить эмоциональную сторону бюрократии», по словам городских чиновников, Рига открыла муниципальный Центр моделирования очередей, где жители могут репетировать стояние в ряд перед визитом в реальное учреждение. Первые отзывы хвалят реализм заведения: сломанный билетный автомат, один мигающий люминесцентный фонарь и мужчина, театрально вздыхающий каждые 14 секунд."
+    },
+    fullContent: {
+      en: `RIGA — Responding to what it called “uncoordinated and amateur-level waiting” across municipal institutions, the Riga City Council on Tuesday opened the capital’s first Queue Simulation Center, a state-funded training facility where citizens can prepare psychologically and physically for the administrative act of standing in line.
+
+Located in a renovated former shoe repair kiosk near Brīvības iela, the center offers residents the opportunity to practice queue-related scenarios before attending actual appointments at migration offices, property departments, and clinics where someone named Ilze tells you your document is “almost correct, but not in the correct way.”
+
+Deputy Chair for Civic Readiness Mārtiņš Lapiņš said the initiative was developed after a 2025 municipal study found that 62% of Riga residents entered public queues “overconfident,” while 31% mistakenly believed moving to another line would improve their situation.
+
+“People think waiting is instinctive, but it is not,” Lapiņš told reporters during a ribbon-cutting ceremony delayed by 47 minutes because no one was sure where the ribbon line began. “A successful queue requires posture, eye discipline, controlled resentment, and an ability to accept that the person in front of you has somehow brought nine folders and a sandwich. We are a European capital. We must wait professionally.”
+
+The center features five immersive modules. In “Passport Office Basic,” participants stand between a pensioner with exact change and a student who only begins searching for documents once called forward. “Advanced Polyclinic” introduces coughing acoustics, chair scarcity, and an LED screen that skips your number twice for reasons that remain deliberately unexplained. The most difficult module, “Construction Permit Extreme,” includes a consultant going on lunch precisely when eye contact is made.
+
+According to city data, the average trainee lasts 18 minutes before checking their phone, 26 minutes before muttering something political, and 41 minutes before asking the room at large whether this is “normal.” Top performers receive a laminated certificate confirming they are “administratively durable.”
+
+Residents have already begun attending in large numbers, though officials noted this was partly because they had to queue outside to enter the queue simulator. “It felt very authentic immediately,” said Agnese Ozola, 34, a graphic designer from Teika who completed the beginner course with a silver rating. “At one point a machine printed ticket number A113, then the screen called B7, then a woman walked in and was somehow served first. I started to tear up. It was exactly like renewing parking permits.”
+
+To ensure realism, the municipality contracted several retired public sector employees to circulate through the facility offering contradictory instructions. One of them, former archives clerk Valentīna Mežale, said her role is to quietly tell visitors they are in the wrong line only after “a spiritually significant amount of time has passed.”
+
+“This is not cruelty,” Mežale explained while rearranging a stack of blank forms into a more discouraging shape. “This is public administration heritage.”
+
+Not everyone supports the program. The Latvian Association of Efficient People condemned the simulator as “a surrender to dysfunction,” while economists at the University of Latvia warned that if queue training becomes too effective, actual waiting times could decrease, depriving thousands of residents of their primary daily opportunity to stare at damp wall paint and rethink life choices.
+
+Still, the city is expanding the concept. A mobile pop-up unit will spend the summer in Jūrmala, where beachgoers can practice forming a passive-aggressive line for overpriced coffee while pretending not to notice a man carrying a speaker the size of a washing machine. Officials are also exploring a premium digital subscription allowing citizens to stand in a virtual queue from home, then receive push notifications saying they have missed their slot.
+
+At press time, the Queue Simulation Center had been temporarily closed after inspectors discovered that the training line had become more efficient than the one at the actual office next door, prompting urgent discussions about whether this violated long-standing administrative traditions.`,
+      lv: `RĪGA — Reaģējot uz to, ko pazīst kā «nesaskaņotu un amatierisku gaidīšanu» pašvaldības iestādēs, Rīgas Dome otrdien atklāja galvaspilsētas pirmo Rindu Simulācijas Centru, valsts finansētu treniņu iestādi, kur pilsoņi var psiholoģiski un fiziski sagatavoties administratīvajam aktam — stāvēt rindā.
+
+Centrs, kas atrodas renovētā bijušā kurpju remonta kioska tuvumā Brīvības ielai, piedāvā iedzīvotājiem iespēju izspēlēt rindu saistītas scenārijus pirms došanās uz patiesām vizītēm migrācijas nodaļās, nekustamā īpašuma departamentā un poliklīnikās, kur kāda Ilze pateiks, ka jūsu dokuments ir «gandrīz pareizs, bet ne pareizajā veidā.»
+
+Deputāta pienākumu izpildītājs civildrošības jomā Mārtiņš Lapiņš sacīja, ka iniciatīva izstrādāta pēc 2025. gada pašvaldības pētījuma, kurā atklājās, ka 62% rīdzinieku publiskajās rindās ierodas «pārlieku pārliecināti», kamēr 31% kļūdaini uzskata, ka pāriešana uz citu rindu uzlabos situāciju.
+
+"Cilvēki domā, ka gaidīšana ir instinktīva, bet tā nav," Lapiņš žurnālistiem teica atklāšanas lentas sagriešanas ceremonijā, kura kavējās 47 minūtes, jo neviens nebija drošs, kur sākas lentes līnija. "Sekmīgai rindai nepieciešama stāja, acu disciplīna, kontrolēta aizvainotība un spēja pieņemt, ka priekšā esošais cilvēks somehow ir atnests deviņas mapes un sendviču. Mēs esam Eiropas galvaspilsēta. Mums jāgaida profesionāli."
+
+Centrā ir pieci imersīvi moduļi. «Pamatpases nodaļa» dalībnieki stāv starp pensijas vecuma kundzi ar tiešu naudu un studentu, kurš dokumentus sāk meklēt tikai tad, kad viņu izsauc. «Poliklīnikas advancētais» modulis iepazīstina ar klepošanas akustiku, krēslu trūkumu un LED ekrānu, kas jūsu numuru izlaiž divreiz, iemeslus apzināti neatklājot. Sarežģītākais modulis «Būvatļaujas ekstrēms» ietver konsultantu, kurš dodas pusdienu pārtraukumā tieši tajā brīdī, kad tiek nodibināta acu kontakta.
+
+Pilsētas datu pēc vidējais treniņa dalībnieks 18 minūtes noturās, pirms ieskatās telefonā, 26 minūtes, pirms iečukst kaut ko politisku, un 41 minūti, pirms visai telpai jautā, vai tas ir «normāli». Labākie saņem laminētu sertifikātu, kas apstiprina, ka viņi ir «administratīvi izturīgi». 
+
+Iedzīvotāji jau masveidā apmeklē centru, lai gan amatpersonas atzina, ka tas daļēji tāpēc, ka ieeja simulatorā prasa stāvēt ārā rindā. "Tūlīt sajutos ļoti autentiski," sacīja 34 gadus vecā grafiskā dizainere no Teikas Agnese Ozola, kura pabeidza iesācēju kursu ar sudraba vērtējumu. "Vienā brīdī automāts izdrukāja biļeti ar numuru A113, pēc tam ekrāns izsauca B7, tad iekāpa sieviete un kādā brīnumainā veidā viņai tika apkalpots vispirms. Es sāku raudāt. Tā bija tieši kā autostāvvietu atļauju atjaunošana."
+
+Lai nodrošinātu reālismu, pašvaldība nolīgusi vairākus pensionētus valsts sektora darbiniekus, lai tie klīstu pa iestādi un sniegtu pretrunīgas instrukcijas. Viens no tiem, bijusī arhīva darbiniece Valentīna Mežale, sacīja, ka viņas loma ir klusi paziņot apmeklētājiem, ka viņi ir nepareizā rindā tikai pēc "garīgi nozīmīga laika perioda".
+
+"Tas nav nežēlīgi," Mežale skaidroja, pārkārtojot tukšu veidlapu kaudzi uz vēl nomācošāku formu. "Tas ir valsts pārvaldes mantojums."
+
+Ne visi atbalsta programmu. Latvijas Efektīvo Cilvēku asociācija nosodīja simulatoru kā «padarīšanos pie dysfunkcijas», savukārt ekonomisti no Latvijas Universitātes brīdināja, ka, ja rindu apmācība kļūs pārāk efektīva, reālie gaidīšanas laiki varētu samazināties, atņemot tūkstošiem iedzīvotāju viņu galveno ikdienas iespēju stāvēt un skatīties uz mitrās sienas krāsas pleķiem, pārdomājot dzīves izvēles.
+
+Tomēr pilsēta paplašina koncepciju. Mobilais pop‑up vienība vasaru pavadīs Jūrmalā, kur pludmales apmeklētāji varēs trenēt pasīvi‑agresīvu rindu patērēt pārmaksātu kafiju, vienlaikus izlikties, ka nepamana vīrieti ar skaļruni, kas līdzinās veļas mašīnai. Amatpersonas arī izpēta premium digitālā abonementa iespēju, kas ļautu pilsoņiem stāvēt virtuālā rindā no mājām un pēc tam saņemt push ziņojumu, ka viņi ir nokavējuši savu vietu.
+
+Raksta sagatavošanas brīdī Rindu Simulācijas Centrs bija pagaidu slēgts pēc inspektoru atklājuma, ka treniņu rinda kļuvusi efektīvāka par īsto rindā blakus esošajā iestādē, kas izraisīja steidzamas diskusijas par to, vai tas pārkāpj ilggadējas administratīvās tradīcijas.`,
+      ru: `РИГА — В ответ на то, что власти назвали «нескоординированным и любительским ожиданием» в муниципальных учреждениях, Рижская городская дума во вторник открыла первый в столице Центр моделирования очередей — финансируемый городом учебный объект, где граждане могут психологически и физически подготовиться к административному акту стояния в очереди.
+
+Расположенный в отреставрированном бывшем ларьке по ремонту обуви рядом с Brīvības iela, центр предлагает жителям возможность отрепетировать сценарии, связанные с очередями, прежде чем идти на реальные приёмы в миграционные службы, отделы недвижимости и поликлиники, где кто‑то по имени Илзе говорит вам, что ваш документ «почти правильный, но не в правильном виде».
+
+Зампред по гражданской готовности Мартиньш Лапиньш заявил, что инициатива была разработана после муниципального исследования 2025 года, которое показало: 62% рижан подходят к общественным очередям «чрезмерно самоуверенно», а 31% ошибочно полагают, что переход в другую линию улучшит их положение.
+
+«Люди думают, что умение ждать — это инстинкт, но это не так», — сказал Лапиньш журналистам во время церемонии перерезания ленточки, задержанной на 47 минут, потому что никто не был уверен, где начинается линия для ленточки. «Успешная очередь требует осанки, дисциплины взгляда, контролируемого возмущения и умения принять, что человек перед вами каким‑то образом принес девять папок и бутерброд. Мы — европейская столица. Мы должны ждать профессионально». 
+
+В центре представлены пять иммерсивных модулей. В «Базовом паспортном отделе» участники стоят между пенсионером с точной суммой и студентом, который начинает искать документы только после того, как его зовут. «Продвинутая поликлиника» вводит в действие акустику кашля, дефицит стульев и LED‑экран, который два раза пропускает ваш номер по причинам, намеренно оставшимся необъяснёнными. Самый тяжёлый модуль, «Экстремальное разрешение на строительство», включает консультанта, который идёт на обед ровно в тот момент, когда вы с ним устанавливаете зрительный контакт.
+
+По городским данным средний стажёр выдерживает 18 минут прежде чем проверить телефон, 26 минут — прежде чем пробормотать что‑то политическое, и 41 минуту — прежде чем спросить у всего зала, «это нормально?». Лучшие показатели отмечаются ламинированным сертификатом, подтверждающим, что человек «административно вынослив».
+
+Жители уже начали массово посещать центр, хотя чиновники отметили, что это отчасти произошло потому, что им пришлось постоять в очереди снаружи, чтобы войти в симулятор очередей. «Это сразу казалось очень аутентичным», — сказала Агнесе Озола, 34 года, графический дизайнер из Тейки, прошедшая базовый курс с серебряной оценкой. «В какой‑то момент автомат напечатал талон A113, потом экран вызвал B7, потом вошла женщина и её почему‑то обслужили первой. Я чуть не расплакалась. Это было точно как продление парковочных разрешений». 
+
+Чтобы обеспечить реализм, муниципалитет нанял нескольких бывших работников госучреждений, которые перемещаются по центру и дают противоречивые инструкции. Одна из них, бывшая архивистка Валентина Межале, сказала, что её задача — тихо сообщить посетителям, что они в неправильной очереди, только после того, как пройдет «духовно значимое количество времени». 
+
+«Это не жестокость», — объясняла Межале, перекладывая стопку пустых форм в более обескураживающую форму. «Это — наследие государственной администрации». 
+
+Не все поддерживают программу. Латвийская ассоциация эффективных людей осудила симулятор как «капитуляцию перед дисфункцией», а экономисты Латвийского университета предупредили, что если обучение очередям станет слишком эффективным, реальное время ожидания может сократиться, лишив тысячи жителей их главной ежедневной возможности уставиться на отсыревшую краску на стене и переосмыслить жизненные выборы.
+
+Тем не менее город расширяет концепцию. Мобильный поп‑ап‑юнит проведёт лето в Юрмале, где отдыхающие смогут отработать пассивно‑агрессивное формирование очереди за дорогой кофе в то время, как делают вид, что не замечают мужчину с колонкой размером со стиральную машину. Чиновники также изучают платную цифровую подписку, позволяющую гражданам стоять в виртуальной очереди из дома, а затем получать push‑уведомления с сообщением, что они пропустили свою очередь.
+
+На момент сдачи материала Центр моделирования очередей временно закрыли после того, как инспекторы обнаружили, что учебная линия стала более эффективной, чем очередь в реальном офисе по соседству, что вызвало срочные обсуждения о том, не нарушает ли это давно установленные административные традиции.`
+    },
+    date: "Mar 24, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/105/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 104,
     slug: "riga-introduces-official-municipal-sigh-to",
     title: {
@@ -96,7 +189,7 @@ Pilsētas amatpersonas saka, ka nākamajā posmā varētu ietvert pilotprogrammu
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/104/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 103,
