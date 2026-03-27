@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 108,
+    slug: "riga-introduces-silent-tram-car-for",
+    title: {
+      en: "Riga Introduces Silent Tram Car for Passengers Who Need to Rehearse Mildly Hostile Conversations Before Visiting Relatives",
+      lv: "Rīga ievieš kluso tramvaja vagonu pasažieriem, kuriem pirms radu apciemojuma jātrenē viegli naidīgas sarunas",
+      ru: "Рига вводит бесшумный трамвайный вагон для пассажиров, которым нужно отрепетировать слегка враждебные разговоры перед визитом к родственникам"
+    },
+    excerpt: {
+      en: "In a move city officials describe as \"long overdue public infrastructure for emotional preparation,\" Riga has unveiled a new silent tram carriage reserved for residents quietly practicing arguments they will never actually have. The pilot program has already reported high demand from passengers traveling toward Purvciems on weekends.",
+      lv: "Kā rīcību, ko pilsētas amatpersonas raksturojušas kā \"ilgstoši gaidītu publisko infrastruktūru emocionālai sagatavošanai\", Rīga atklājusi jaunu kluso tramvaja vagonu, kas paredzēts iedzīvotājiem, kuri klusi trenē diskusijas, kuras patiesībā nekad nenotiks. Pilotprogramma jau ziņo par lielu pieprasījumu no pasažieriem, kuri brīvdienās brauc uz Purvciemu.",
+      ru: "В том, что городские власти называют «давно назревшей инфраструктурой для эмоциональной подготовки», Рига представила новый бесшумный трамвайный вагон, зарезервированный для жителей, тихо репетирующих споры, которых они на самом деле никогда не поведут. Пилотная программа уже отмечает высокий спрос среди пассажиров, едущих в Пурвциемс по выходным."
+    },
+    fullContent: {
+      en: `RIGA — Riga City Transport this week launched a new “Reflective Silence Car” on Tram Route 6, offering commuters a dedicated space to stare out the window and internally rehearse pointed but ultimately non-actionable remarks for upcoming family visits. Officials say the carriage, marked by a dark blue sticker showing a neutral face looking at drizzle, is intended to meet a growing civic need previously served only by kitchens, stairwells, and long walks near canal embankments.
+
+According to the municipal transport authority, the carriage prohibits phone calls, loud conversation, chewing "with intention," and any visible display of having already moved on emotionally. Instead, passengers are encouraged to mutter phrases under their breath such as, “Interesting that this came up now,” “No, of course, I’m not saying anything,” and the increasingly common, “We all remember the parking issue differently.”
+
+Deputy Chair for Urban Mood Planning Elīna Bērziņa said the city developed the concept after a 2024 survey found that 68% of Riga residents mentally reenact conversations on public transport, while 41% prefer doing so while passing Soviet-era apartment blocks because the architecture “supports the necessary level of resignation.” Another 13% said they use tram windows as “a sort of low-cost emotional cinema.”
+
+“We noticed people already doing this informally,” Bērziņa told reporters during the launch event at Centrāltirgus. “They would board, sigh once, put on a scarf regardless of temperature, and spend twelve stops preparing to say, ‘It’s not about the money, it’s about the principle,’ before arriving somewhere and discussing weather instead. We felt government had to step in.”
+
+The carriage’s interior has been specially designed by a consortium of local acoustic engineers and one highly regarded aunt from Ogre. Seats are upholstered in a practical ash-gray fabric selected to evoke “minor endurance.” The heating system operates at a temperature researchers identified as ideal for remembering something rude said in 2017. Above each window, discreet printed prompts help guide emotional focus, including “Was that really a joke?” and “You can leave at any time, but not before tea.”
+
+Commuters welcomed the initiative. “Normally I have to choose between listening to someone’s speakerphone and silently perfecting my opening line about why my cousin should stop calling me ‘our little creative one,’” said passenger Mārtiņš Kļaviņš, 34, adjusting a tote bag containing two pastries and a gift no one asked for. “Now I can do both, in peace, except only one of them.”
+
+A retired school administrator from Mežciems, Skaidrīte Ozola, said the carriage had transformed her Saturdays. “By the time we reached Tallinas iela, I had fully prepared a dignified response to my sister asking why I am still renting,” she said. “Then I arrived and complimented her curtains for forty minutes. But inside, I had won.”
+
+Not all residents are convinced. The consumer rights group Voice of the Commuter has criticized the silent carriage for being “performatively Baltic” and excluding those who process tension through loudly peeling mandarins. Others raised concerns after several passengers reportedly missed their stops while becoming too committed to imagined rebuttals involving inheritance, insulation, and whose turn it was to organize Jāņi in 2022.
+
+Despite criticism, the city plans to expand the program if the pilot succeeds. Officials are already considering a companion bus service where passengers can practice saying “we should really do this more often” with convincing warmth before immediately checking the return schedule.
+
+At press time, Riga City Transport confirmed that the silent carriage had exceeded expectations after one passenger spent the entire route from Ausekļa iela to Jugla crafting a flawless, morally devastating response to a comment about store-bought rasols, then forgot it completely upon disembarking.`,
+      lv: `RĪGA — Rīgas Satiksme šonedēļ uzsāka jaunu "Reflektīvā klusuma vagonu" 6. tramvaja maršrutā, piedāvājot pasažieriem īpašu telpu skatīties ārā pa logu un iekšēji mēģināt izrunāt ironiskas, bet galu galā neizpildāmas piezīmes nākamajiem ģimenes apciemojumiem. Amatpersonas skaidro, ka vagonu, kas ir apzīmēts ar tumši zilu uzlīmi, kurā attēlots neitrāls sejas vaibsts skatoties uz sīkām līstēm, ir paredzēts, lai apmierinātu pieaugošu sabiedrisku vajadzību, ko agrāk nodrošināja tikai virtuves, kāpņu telpas un garas pastaigas gar kanāla krastiem.
+
+Pēc pašvaldības transporta iestādes datiem vagonā aizliegti telefona zvani, skaļa saruna, mērķtiecīga košļāšana un jebkāda redzama rādīšana, ka persona emocionāli jau ir pārvarējusi situāciju. Tā vietā pasažieri tiek aicināti zem elpas mumblot frāzes, piemēram: "Interesanti, ka tas tagad atklājās", "Nē, protams, es neko nesaku" un arvien izplatītāko: "Mēs visi atceramies stāstu par stāvvietu atšķirīgi."
+
+Rīgas vides noskaņas plānošanas vietniece Elīna Bērziņa stāstīja, ka pilsēta izstrādāja koncepciju pēc 2024. gada aptaujas, kurā 68% rīdzinieku atbildēja, ka mentāli atspēlē sarunas sabiedriskajā transportā, bet 41% dod priekšroku to darīt, braucot gar padomju laikos būvētiem dzīvokļu namiem, jo arhitektūra "atbalsta nepieciešamo atteikšanās līmeni". Vēl 13% sacīja, ka izmanto tramvaja logus kā "savu veidu zemu izmaksu emocionālo kino".
+
+"Mēs pamanījām, ka cilvēki to jau dara neformāli," Bērziņa sacīja reportieriem atklāšanas pasākumā Centrāltirgū. "Viņi iekāp, vienreiz nopūšas, uzvelk šalli neatkarīgi no temperatūras un pavada divpadsmit pieturu, gatavojoties pateikt: 'Nav par naudu, tas ir par principu', bet tad ierodas un runā tikai par laiku. Mēs nolēmām, ka valdībai jāiejaucas."
+
+Vagona iekšpuse īpaši izstrādāta vietējo akustisko inženieru konsorcija un vienas ļoti cienījamas māsas no Ogres sadarbībā. Sēdekļi apvilkti praktiskā pelēcīgi pelēkā audumā, izvēlēti, lai radītu sajūtu pēc "nelielas noturības". Apkure darbojas pie temperatūras, ko pētnieki identificējuši kā ideālu, lai atcerētos kaut ko rupju, teikto 2017. gadā. Virs katra loga diskrētas drukātas norādes palīdz virzīt emocionālo fokusēšanos, tostarp "Vai tas tiešām bija joks?" un "Jūs varat izkāpt jebkurā brīdī, bet ne pirms tējas."
+
+Pasažieri uzsvēra iniciatīvas noderīgumu. "Parasti man jāizvēlas starp klausīšanos kāda briesmīgā skaļrunī un klusām atklāsmēm, kā uzsākt frāzi par to, kāpēc mans brālēns nedrīkst mani saukt par 'mūsu mazā radozā'," sacīja pasažieris Mārtiņš Kļaviņš, 34, sakārtojot auduma maisiņu ar divām smalkmaizītēm un dāvanu, ko neviens neprasīja. "Tagad es varu darīt abus mierā, izņemot to, ka tikai viens no tiem īstenībā notiek."
+
+Pensijā esoša skolu administratore no Mežciema, Skaidrīte Ozola, sacīja, ka vagonu ieviešana ir mainījusi viņas sestdienas. "Kad mēs nonācām Tallinas ielā, es biju pilnībā sagatavojusi cienīgu atbildi uz māsas jautājumu, kāpēc es joprojām īrēju," viņa sacīja. "Tad ierados un četrdesmit minūtes slavēju viņas aizkarus. Bet iekšēji es uzvarēju."
+
+Ne visi iedzīvotāji ir pārliecināti. Patērētāju tiesību grupa "Pasažieru balss" kritizēja klusā vagona ideju kā "performatīvi baltisku" un izslēdzošu pret tiem, kuri spriedzi apstrādā skaļi mizojot mandarīnus. Citi pauda bažas pēc ziņojumiem, ka vairāki pasažieri nepamanījuši savas pieturas, jo bija pārāk aizrāvušies ar izdomātiem pretargumentiem par mantojumu, apšuvumu un to, kuram 2022. gadā pienāca kārta rīkot Jāņus.
+
+Neskatoties uz kritiku, pilsēta plāno paplašināt programmu, ja pilots izrādīsies veiksmīgs. Amatpersonas jau apsver pavadošu autobusa pakalpojumu, kur pasažieri var praktizēt teikt "mums to vajadzētu darīt biežāk" ar pārliecinošu siltumu, pirms nekavējoties pārbauda atpakaļceļa sarakstu.
+
+Preses brīdī Rīgas Satiksme apstiprināja, ka klusais vagons ir pārsniedzis cerības, pēc tam, kad viens pasažieris visu maršrutu no Ausekļa ielas līdz Juglai veltīja izsmalcinātas, morāli graujošas atbildes izstrādei par komentāru par veikalā pirktu rasolu, bet izkāpjot to pilnībā aizmirsis.`,
+      ru: `РИГА — «Рижский городской транспорт» на этой неделе запустил новый «вагон рефлексивного молчания» на маршруте трамвая №6, предложив пассажирам специальное пространство, где можно уставиться в окно и про себя репетировать острые, но в итоге неприменимые реплики перед предстоящими семейными визитами. По словам властей, вагон, помеченный тёмно‑синей наклейкой с нейтральным лицом, смотрящим на морось, призван удовлетворить растущую общественную потребность, которую ранее удовлетворяли только кухни, лестничные клетки и долгие прогулки вдоль набережных каналов.
+
+По данным муниципального управления транспорта, в вагоне запрещены телефонные разговоры, громкие беседы, жевание «со смыслом» и любые заметные проявления того, что вы уже эмоционально всё пережили. Вместо этого пассажиров поощряют бормотать про себя фразы вроде: «Интересно, что это всплыло сейчас», «Нет, конечно, я ничего не говорю» и всё более распространённое «Мы все по‑разному помним историю с парковкой».
+
+Заместитель председателя по планированию городского настроения Элина Берзиня сказала, что город разработал концепцию после опроса 2024 года, из которого выяснилось: 68% рижан мысленно проигрывают разговоры в общественном транспорте, а 41% предпочитают делать это, проезжая мимо советских жилых домов, потому что архитектура «поддерживает нужный уровень апатии». Ещё 13% заявили, что используют трамвайные окна как «некий дешёвый эмоциональный кинотеатр».
+
+«Мы заметили, что люди уже делают это неофициально, — рассказала Берзиня репортёрам на презентации у Centrāltirgus. — Они заходили, один раз вздыхали, надевали шарф независимо от погоды и проводили двенадцать остановок, готовясь произнести: «Дело не в деньгах, а в принципе», а потом приезжали и обсуждали погоду. Мы посчитали, что правительству нужно вмешаться».
+
+Интерьер вагона специально разработан консорциумом местных акустических инженеров и одной весьма уважаемой тётей из Огре. Сиденья обиты практичной пепельно‑серой тканью, выбранной так, чтобы вызывать ощущение «малой выдержки». Система отопления поддерживает температуру, которую исследователи назвали идеальной для того, чтобы вспомнить что‑то грубое, сказанное в 2017 году. Над каждым окном размещены сдержанные напоминания, помогающие сосредоточиться: «А это вообще была шутка?» и «Можешь выйти в любой момент, но не до чая».
+
+Пассажиры тепло приняли инициативу. «Обычно мне приходится выбирать между прослушиванием чьей‑то громкой гарнитуры и молчаливой отработкой вступительной реплики о том, почему моему кузену не стоит называть меня „наш творческий“, — сказал 34‑летний Марти́ньш Клявиньш, поправляя сумку, в которой лежали два пирожных и подарок, о котором никто не просил. — Теперь я могу и то, и другое, в покое, хотя по сути — только одно из них».
+
+Пенсионерка и бывшая школьная администратор из Межциемса Скаидрите Озола сказала, что вагон изменил её субботы. «К тому моменту, как мы доехали до улицы Таллинас, я уже полностью приготовила достойный ответ на вопрос сестры, почему я всё ещё снимаю жильё, — рассказала она. — Потом я приехала и сорок минут хвалила её шторы. Но внутри я победила».
+
+Не все жители в восторге. Общественная группа по защите прав потребителей «Голос пассажира» раскритиковала «бесшумный вагон» как «показательно балтийский», и отметила, что он исключает тех, кто снимает напряжение громким очищением мандаринов. Другие выразили обеспокоенность после того, как несколько пассажиров пропустили свои остановки, слишком увлекшись воображаемыми репликами про наследство, утепление и чей это был ход организовывать Jāņi в 2022 году.
+
+Несмотря на критику, город планирует расширить программу, если пилот окажется успешным. Власти уже рассматривают сопутствующий автобусный сервис, где пассажиры смогут отрабатывать фразу «нам правда стоит делать это чаще» с убедительным теплом, а затем сразу же проверять расписание обратного рейса.
+
+По состоянию на момент выхода материала «Рижский городской транспорт» подтвердил, что бесшумный вагон превзошёл ожидания: один пассажир провёл весь путь от Ausekļa iela до Jugla, выстраивая безупречный, морально сокрушительный ответ на замечание о магазинном расолсе, а при выходе полностью его забыл.`
+    },
+    date: "Mar 27, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/108/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 107,
     slug: "riga-introduces-dynamic-silence-pricing-residents-107",
     title: {
@@ -102,7 +183,7 @@ Līdz trešdienas rītam pilots jau bija ģenerējis 12 400 € papildu ieņēmu
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/107/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 106,
