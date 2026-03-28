@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 109,
+    slug: "jrmala-launches-quiet-siren-pilot-program",
+    title: {
+      en: "Jūrmala Launches ‘Quiet Siren’ Pilot Program So Wealthy Residents Can Be Warned of Emergencies Without Ruining Breakfast",
+      lv: "Jūrmala uzsāk “Klusās sirēnas” pilotprojektu, lai turīgos iedzīvotājus brīdinātu par ārkārtas situācijām, netraucējot brokastis",
+      ru: "Юрмала запускает пилотную программу «Тихая сирена», чтобы состоятельных жителей предупреждали об опасности, не портя им завтрак"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala this week unveiled a new silent civil defense system designed to notify residents of danger using subtle lifestyle disruptions rather than loud alarms. The pilot, already active in Dzintari and Bulduri, includes moodier seagulls, delayed oat-milk deliveries, and a municipally approved sense of concern.",
+      lv: "Jūrmalas amatpersonas šonedēļ atklāja jaunu klusās civilās aizsardzības sistēmu, kas paredz iedzīvotāju brīdināšanu par bīstamību, izmantojot smalkus dzīvesstila traucējumus, nevis skaļas sirēnas. Pilotprojekts, kas jau darbojas Dzintaros un Bulduri, ietver noskaņā bēdīgākas kaijas, aizkavētas auzu dzēriena piegādes un pašvaldības apstiprinātu bažas sajūtu.",
+      ru: "Власти Юрмалы на этой неделе представили новую бесшумную систему гражданской обороны, предназначенную оповещать жителей об опасности с помощью тонких нарушений образа жизни вместо громких сирен. Пилотный проект, уже действующий в Дзинтари и Булдури, включает более угрюмых чаек, задержки с доставкой овсяного молока и муниципально утверждённое чувство обеспокоенности."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what city leaders are calling “a major step forward in respectful emergency management,” Jūrmala Municipality on Tuesday introduced the Baltic region’s first Quiet Siren network, a civil protection initiative intended to alert residents to possible threats without exposing them to the “aggressive acoustics” of traditional warning systems.
+
+Under the new protocol, emergencies will no longer be announced by sirens, loudspeaker vehicles, or text messages containing direct verbs. Instead, residents in participating neighborhoods will detect escalating levels of public danger through a carefully calibrated sequence of subtle inconveniences. These include slower cappuccino foam, slightly overcast weather “with administrative intent,” and, at Level 4, the temporary disappearance of decorative driftwood from beach cafés.
+
+“We had to ask ourselves a difficult question,” said Deputy Executive Director for Harmonious Safety Ilze Mežs, standing before a demonstration board labeled EVENTS OF CONCERN. “Can a city truly be secure if its residents are forced to hear a noise that implies urgency? In Jūrmala, we believe preparedness should arrive like a linen curtain moving in a sea breeze — noticeable, but never vulgar.”
+
+The municipality developed the Quiet Siren system after a 2024 survey found that 68% of local homeowners supported emergency readiness in principle, but 74% felt that traditional alarms “introduced an unnecessarily Daugava-adjacent atmosphere” to spa districts. Another 19% said they preferred to learn about danger “organically, from a neighbor with tasteful panic.”
+
+In practice, the system uses a five-tier scale. At Level 1, the city playlist in public areas shifts from “elegant Baltic lounge” to “mildly investigative piano.” At Level 2, delivery times for imported mineral water are increased by 14 minutes. At Level 3, seagulls are fed a special municipal grain blend that encourages them to circle in what one planning document calls “a geometrically persuasive manner.” Should a genuine crisis emerge, Level 5 authorizes the closing of one symbolic rattan furniture showroom, prompting what officials describe as “intuitive awareness among the target population.”
+
+Residents have responded with cautious approval. “Yesterday my pilates instructor arrived three minutes early and said, ‘Something feels procedural,’” said Bulduri resident and interior ceramics consultant Laila Ozoliņa, 43. “By noon the sky had taken on a very official gray. I didn’t know what the threat was, but I absolutely understood I should wear better shoes.”
+
+Not all experts are convinced. Professor Mārtiņš Feldmanis of the Latvian Institute for Practical Statehood warned that indirect signaling may create confusion during actual emergencies. “In tests, many participants interpreted the closure of the rattan showroom as either coastal flooding or a private equity acquisition,” Feldmanis said. “One man evacuated to Sigulda because his flat white lacked emotional structure.”
+
+Still, municipal data indicates promising results. During a recent simulation, 81% of residents in the pilot zone reported becoming “appropriately uneasy” within 22 minutes. Nearly half had already packed a tasteful overnight bag before receiving official clarification from the city’s new low-stress information portal, mierigsapjukums.lv.
+
+Jūrmala Mayor Gatis Tauriņš defended the initiative, insisting it reflects local values. “Other cities may use sirens, flashing lights, or direct statements,” he said. “But Jūrmala is not other cities. We are a place of pine air, property disputes, and dignified ambiguity.”
+
+At press time, the municipality had announced plans to export the Quiet Siren concept to central Riga, where officials believe it may be adapted into a tram delay so spiritually significant that residents immediately understand democracy itself may be at risk.`,
+      lv: `JŪRMALA — To, ko pilsētas vadītāji sauc par «lielu soli uz priekšu cieņpilnā ārkārtas situāciju pārvaldībā», Jūrmalas pašvaldība otrdien prezentēja Baltijas reģiona pirmo Klusās sirēnas tīklu — civilās aizsardzības iniciatīvu, kas domāta, lai iedzīvotājus brīdinātu par iespējamiem draudiem, neradot tradicionālo brīdinājumu sistēmu «agresīvo akustiku». 
+
+Saskaņā ar jauno protokolu ārkārtas situācijas vairs netiks paziņotas ar sirēnām, skaļruņu automašīnām vai īsziņām, kas satur tiešus darbības vārdus. Tā vietā dalībnieku apkaimēs iedzīvotāji bīstamības pieaugumu uztvers caur rūpīgi kalibrētu smalku neērtību secību. Tās ietver lēnāk pienākošu kapučīno putu, nedaudz apmākušos laikapstākļus «ar administratīvu nolūku» un, 4. līmenī, dekoratīvās krastā salasītās koku atlūzas pagaidu pazušanu no pludmales kafejnīcām. 
+
+«Mums nācās sev uzdot grūtu jautājumu,» sacīja Harmoniskas drošības vietnieces izpilddirektores amatā Ilze Mežs, stāvot pie demonstrācijas dēļa, uz kura bija uzraksts NOTIKUMI, KAS RAISA BAŽAS. «Vai pilsēta patiešām var būt droša, ja tās iedzīvotājiem jādzird troksnis, kas norāda uz steidzamību? Jūrmalā mēs uzskatām, ka gatavība ir jāienāk kā linu aizkaram jūras brīzē — pamanāma, bet nekad vulgāra.» 
+
+Pašvaldība izstrādāja Klusās sirēnas sistēmu pēc 2024. gada aptaujas, kurā 68% vietējo māju īpašnieku principā atbalstīja gatavību ārkārtas situācijām, bet 74% uzskatīja, ka tradicionālās sirēnas «ievieš spa rajonos nepamatoti Daugavai piegulošu atmosfēru». Vēl 19% sacīja, ka dod priekšroku briesmju izziņošanai «organiski, no kaimiņa ar gaumīgu paniku». 
+
+Praksē sistēma darbojas piecu līmeņu skalā. 1. līmenī pilsētas atskaņošanas saraksts publiskajās vietās pāriet no «elegantas Baltijas lounge» uz «viegli pētniecisku klavieru» mūziku. 2. līmenī importētā minerālūdens piegādes laiki tiek pagarināti par 14 minūtēm. 3. līmenī kaijas baro ar īpašu pašvaldības graudu maisījumu, kas mudina tās riņķot tādā, kā vienā plānošanas dokumentā rakstīts, «ģeometriski pārliecinošā veidā». Ja rastos īsta krīze, 5. līmenis pilnvaro slēgt vienu simbolisku rotangu mēbeļu salonu, izraisot to, ko amatpersonas raksturo kā «intuīciju par izpratni mērķa iedzīvotāju vidū». 
+
+Iedzīvotāji reaģējuši piesardzīgi apstiprinoši. «Vakar mana pilates instruktore ieradās trīs minūtes agrāk un teica: ‘‘Kaut kas šķiet procedurāls,’’» sacīja Bulduru iedzīvotāja un interjera keramiķe Laila Ozoliņa, 43 gadi. «Līdz pusdienlaikam debesis bija kļuvušas ļoti oficiāli pelēkas. Es nezināju, kāds drauds, bet pilnīgi sapratu, ka man jāvelk labākas kurpes.» 
+
+Ne visi eksperti ir pārliecināti. Profesors Mārtiņš Feldmanis no Latvijas Praktiskās Valstiskuma institūta brīdināja, ka netiešā signalizācija var radīt sajukumu īstu ārkārtas situāciju laikā. «Testos daudzi dalībnieki rotangu salona slēgšanu interpretēja vai nu kā piekrastes plūdus, vai privātā kapitāla pārņemšanu,» sacīja Feldmanis. «Viens vīrietis evakuējās uz Siguldu, jo viņa flat white trūka emocionālas struktūras.» 
+
+Tomēr pašvaldības dati liecina par cerīgiem rezultātiem. Pēdējā simulācijā 81% pilotzonas iedzīvotāju ziņoja, ka 22 minūšu laikā kļuva «atbilstoši nemieriīgi». Gandrīz puse jau bija sapakojusi gaumīgu nakts somu, pirms saņēma oficiālu skaidrojumu no pilsētas jaunā zema stresa informācijas portāla mierigsapjukums.lv. 
+
+Jūrmalas mērs Gatis Tauriņš aizstāvēja iniciatīvu, uzsverot, ka tā atspoguļo vietējās vērtības. «Citas pilsētas var izmantot sirēnas, mirgojošas gaismas vai tiešus paziņojumus,» viņš sacīja. «Bet Jūrmala nav citas pilsētas. Mēs esam priedes gaisa, īpašumu strīdu un cienīgas neskaidrības vieta.» 
+
+Preses izlaiduma brīdī pašvaldība paziņoja par plāniem eksportošanai — Klusās sirēnas koncepciju plānots pielāgot centrālajai Rīgai kā tramvaja kavējumu, kas garīgi tik nozīmīgs, ka iedzīvotāji nekavējoties sapratīs, ka pati demokrātija var būt apdraudēta.`,
+      ru: `ЮРМАЛА — В том, что городские власти называют «существенным шагом вперёд в уважительном управлении чрезвычайными ситуациями», Муниципалитет Юрмалы во вторник представил первую в Балтийском регионе сеть «Тихой сирены», инициативу по гражданской защите, призванную оповещать жителей о возможных угрозах, не подвергая их «агрессивной акустике» традиционных систем оповещения.
+
+Согласно новому протоколу, чрезвычайные ситуации больше не будут объявляться сиренами, громкоговорящими автомобилями или текстовыми сообщениями с прямыми глаголами. Вместо этого жители районов-участников будут ощущать нарастающий уровень общественной опасности через тщательно выверенную последовательность тонких неудобств. Сюда входят более медленная пена капучино, слегка пасмурная погода «с административным намерением» и, на уровне 4, временное исчезновение декоративной коряги из пляжных кафе.
+
+«Нам пришлось задать себе трудный вопрос», — сказала заместитель исполнительного директора по гармоничной безопасности Илзе Мезс, стоя перед демонстрационной доской с надписью «СОБЫТИЯ, ВЫЗЫВАЮЩИЕ БЕСПОКОЙСТВО». «Может ли город по‑настоящему быть в безопасности, если его жители вынуждены слышать звук, подразумевающий срочность? В Юрмале мы считаем, что готовность должна приходить как льняная занавеска, колышущаяся в морском бризе — заметная, но никогда вульгарная».
+
+Муниципалитет разработал систему «Тихая сирена» после опроса 2024 года, который показал, что 68% местных домовладельцев в принципе поддерживают готовность к чрезвычайным ситуациям, но 74% сочли, что традиционные сигналы «вносят ненужную даугавскую окраску в спа‑районы». Ещё 19% заявили, что предпочли бы узнавать об опасности «органически, от соседа с изысканной паникой».
+
+На практике система использует пятиуровневую шкалу. На уровне 1 плейлист города в общественных местах меняется с «элегантного балтийского лаунжа» на «слегка детективное фортепиано». На уровне 2 время доставки импортной минеральной воды увеличивается на 14 минут. На уровне 3 чаек подкармливают специальной муниципальной зерновой смесью, побуждающей их кружиться в том, что один плановый документ называет «геометрически убедительным манером». В случае реального кризиса уровень 5 даёт право закрыть один символический салон ротанговой мебели, что, по словам чиновников, вызывает «интуитивное осознание среди целевой аудитории».
+
+Жители отнеслись к инициативе с осторожным одобрением. «Вчера моя инструктор по пилатесу пришла на три минуты раньше и сказала: „Что‑то кажется процедурным“», — рассказала жительница Булдури и консультант по интерьерной керамике Лайла Озолиня, 43 года. «К полудню небо приобрело очень официальный серый оттенок. Я не знала, в чём угроза, но совершенно понимала, что мне следует надеть лучшую обувь».
+
+Не все эксперты в восторге. Профессор Мартиньш Фельдманис из Латвийского института практической государственности предупредил, что косвенные сигналы могут ввести в заблуждение во время реальных чрезвычайных ситуаций. «В тестах многие участники восприняли закрытие салона ротанговой мебели либо как прибрежное наводнение, либо как приобретение частным капиталом», — сказал Фельдманис. «Один мужчина эвакуировался в Сигулду, потому что его флет уайт лишился эмоциональной структуры».
+
+Тем не менее муниципальные данные показывают многообещающие результаты. В ходе недавней имитации 81% жителей пилотной зоны сообщили, что стали «надлежащим образом тревожными» в течение 22 минут. Почти половина уже собрала изящную сумку для ночёвки до того, как получила официальные разъяснения через новый городской портал низкого стресса mierigsapjukums.lv.
+
+Мэр Юрмалы Гатис Тауриньш защитил инициативу, настаивая, что она отражает местные ценности. «Другие города могут использовать сирены, мигающие огни или прямые заявления», — сказал он. «Но Юрмала — не другие города. Мы место соснового воздуха, имущественных споров и достойной неопределённости».
+
+На момент публикации муниципалитет объявил о планах экспортировать концепцию «Тихой сирены» в центр Риги, где чиновники полагают, что её можно адаптировать в виде задержки трамвая, настолько значимой духовно, что жители немедленно поймут — возможно, под угрозой сама демократия.`
+    },
+    date: "Mar 28, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/109/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 108,
     slug: "riga-introduces-silent-tram-car-for",
     title: {
@@ -96,7 +177,7 @@ Preses brīdī Rīgas Satiksme apstiprināja, ka klusais vagons ir pārsniedzis 
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/108/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 107,
