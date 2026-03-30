@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 111,
+    slug: "riga-introduces-official-11-minute-silence",
+    title: {
+      en: "Riga Introduces Official 11-Minute Silence So Residents Can Mentally Prepare For Tram Door Button Rejection",
+      lv: "Rīga ievieš oficiālu 11 minūšu klusumu, lai iedzīvotāji varētu garīgi sagatavoties tramvaja durvju pogas noraidījumam",
+      ru: "Рига вводит официальную 11-минутную тишину, чтобы жители могли морально подготовиться к игнорированию кнопки открытия дверей трамвая"
+    },
+    excerpt: {
+      en: "In a move city leaders are calling \"an investment in urban emotional resilience,\" Riga Municipality has approved a daily 11-minute silence before peak transit hours to help residents process the possibility that the tram door button will light up but still not open. Officials say the program will reduce public despair by 18% and passive-aggressive scarf tightening by nearly a third.",
+      lv: "Kā ,,investīciju pilsētas emocionālajā noturībā'' dēvē pilsētas vadība, Rīgas dome apstiprinājusi ikdienas 11 minūšu klusuma periodu pirms saspringtākajām satiksmes stundām, lai iedzīvotāji varētu sagremot iespēju, ka tramvaja durvju poga iemirdzas, bet durvis joprojām neatslēdzas. Ierēdņi apgalvo, ka programma samazinās sabiedrisko izmisumu par 18% un pasīvi-agresīvu šaļu ciešākas sasiešanas gadījumus gandrīz par trešdaļu.",
+      ru: "В шаге, который городские власти называют «инвестицией в городскую эмоциональную устойчивость», муниципалитет Риги утвердил ежедневную 11‑минутную тишину перед часами пик, чтобы помочь жителям пережить возможность того, что кнопка двери трамвая загорится, но всё равно не откроется. По словам чиновников, программа снизит общественное отчаяние на 18% и пассивно‑агрессивное затягивание шарфов почти на треть."
+    },
+    fullContent: {
+      en: `RIGA — Beginning next Monday, residents of the capital will be asked to observe an official 11-minute period of silence each weekday at 7:19 a.m., a new municipal initiative designed to psychologically prepare commuters for what transport experts describe as "the deeply Baltic experience" of pressing a tram door button, seeing it illuminate with false promise, and then being ignored by the vehicle entirely.
+
+The measure, formally titled the Urban Readiness and Acceptance Interval, was approved Tuesday evening by the Riga City Council after a 6-hour debate in which members repeatedly cited public health concerns, seasonal hopelessness, and "an unacceptable increase in whispered profanity at stops along Barona iela."
+
+Deputy Chair for Mobility and Inner Fortitude Ilze Bērziņa said the silence is not intended as a protest but as a practical coping mechanism. "For too long, residents have been entering public transport emotionally unarmored," Bērziņa told reporters while standing beside a tram that opened all doors except the one nearest the press podium. "We cannot eliminate disappointment from the Riga transit system. What we can do is standardize its anticipation."
+
+According to a pilot study conducted in January by the Institute for Applied Civic Endurance, commuters who spent at least 11 minutes in reflective quiet before boarding were 24% less likely to mutter 'classic' under their breath and 41% more likely to accept that the driver had made a private moral judgment about them personally. The same study found that button-related discouragement accounts for 63% of wintertime existential fatigue in central Riga, second only to hearing someone on the tram say they "actually prefer Tallinn's vibe."
+
+At the Akmens Bridge stop on Wednesday, reaction among passengers was cautiously numb. Office administrator and Ziepniekkalns resident Kaspars Lūsis, 34, said the policy felt overdue. "Last Thursday I pressed the button three times, and it blinked at me with what I can only describe as administrative contempt," he said. "If the city can give me even a few minutes to rehearse that humiliation in advance, maybe I can arrive at work only moderately damaged."
+
+Not all experts are convinced. Transport historian Maija Broka warned that formalizing tram disappointment may alter delicate cultural balances. "Latvians have traditionally absorbed minor civic betrayal informally, through posture," Broka said. "By scheduling it, the municipality risks making it too efficient, which is frankly un-Latvian."
+
+To support the rollout, the city has issued a 14-page guidance brochure advising residents how to use the silence productively. Suggested activities include staring at wet pavement, remembering one specific injustice from 2016, and practicing the facial expression known by psychologists as Neutral But Not Available. The brochure also reminds participants not to confuse the silence with optimism.
+
+Rīgas Satiksme has embraced the initiative and confirmed that onboard announcements will be updated accordingly. In addition to standard route information, several trams will now include the message: "Dear passengers, door functionality remains a shared philosophical question."
+
+Municipal data analysts estimate the program could save the city up to €42,000 annually by reducing unnecessary button pressing, emergency shrugging, and secondary attempts to board through the accordion joint. If successful, officials say the silence may be extended to cover other urban experiences, including supermarket self-checkouts, bicycle lane negotiations in the Center district, and standing in Jurmala in February trying to remember why anyone owns seaside property.
+
+By late afternoon, city leaders were already praising the initiative as a model of calm governance. As commuters gathered under a low gray sky and silently contemplated being denied entry by a machine they had politely petitioned, several admitted the policy was working exactly as intended: nobody seemed surprised.`,
+      lv: `RĪGA — Sākot no nākamās pirmdienas, galvaspilsētas iedzīvotāji tiks aicināti ievērot oficiālu 11 minūšu klusuma periodu katru darba dienu plkst. 7:19 — jauna pašvaldības iniciatīva, kuras mērķis ir psiholoģiski sagatavot braucējus tam, ko transporta eksperti raksturo kā „dziļi baltiskas pieredzes” momentu: spiežot tramvaja durvju pogu, redzot to iedegamies ar viltus cerību un pēc tam tiktu pilnībā ignorētam no transportlīdzekļa puses.
+
+Šis pasākums, oficiāli nosaukts par Pilsētas gatavības un pieņemšanas intervālu, otrdienas vakarā tika apstiprināts Rīgas domē pēc sešu stundu debates, kuras laikā deputāti atkārtoti minēja sabiedrības veselības apsvērumus, sezonālo bezcerību un „nepieņemamu čukstētu lamuvārdu pieaugumu pieturvietās gar Barona ielu”.
+
+Mobilitātes un iekšējās izturības vietniece Ilze Bērziņa sacīja, ka klusums nav domāts kā protestā, bet gan kā praktisks tiktālšanas mehānisms. „Pārāk ilgi iedzīvotāji iekāpa sabiedriskajā transportā emocionāli neaizsargāti,” Bērziņa sacīja žurnālistiem, stāvot blakus tramvajam, kas atvēra visas durvis izņemot tās, kas bija vistuvāk preses pults. „Mēs nevaram iznīcināt vilšanos Rīgas satiksmē. To, ko varam, ir standartizēt tās gaidīšanu.”
+
+Saskaņā ar janvārī Pielietotās pilsoniskās izturības institūtā veiktu pilotpētījumu, braucēji, kuri vismaz 11 minūtes pirms iekāpšanas pavadīja pārdomās klusumā, par 24% retāk zem elpas murrāja „klasika” un par 41% biežāk pieņēma domu, ka vadītājs ir izdarījis privātu morālu spriedumu tieši par viņiem. Tajā pašā pētījumā konstatēts, ka ar pogu saistītā vilšanās veido 63% no ziemas eksistenciālā noguruma centrālajā Rīgā — otrajā vietā tikai aiz brīža, kad kāds tramvajā paziņo, ka „patiesībā vairāk patīk Tallinas aura”.
+
+Akmens tilta pieturā trešdien pasažieru reakcija bija piesardzīgi nejūtīga. Biroja administrators un Ziepniekkalna iedzīvotājs Kaspars Lūsis, 34, sacīja, ka politika šķiet ilgi gaidīta. „Pagājušajā ceturtdienā es nospiedu pogu trīs reizes, un tā man mirgoja ar to, ko varu aprakstīt tikai kā administratīvu nicinājumu,” viņš teica. „Ja pilsēta var man dot pat dažas minūtes, lai iepriekš izspēlētu šo pazemojumu, varbūt es darbā ieradīšos tikai mēreni bojāts.”
+
+Ne visi eksperti ir pārliecināti. Transporta vēsturniece Maija Broka brīdināja, ka tramvaja vilšanās formalizēšana var mainīt smalkus kultūras balansus. „Latvieši tradicionāli nelielu civisku nodevību uzņem neformāli — caur stāju,” Broka teica. „To ieplānojot, pašvaldība riskē padarīt to pārāk efektīvu, kas, godīgi sakot, nav latviski.”
+
+Lai atbalstītu ieviešanu, pilsēta izdevusi 14 lappušu vadlīniju bukletu, kurā iedzīvotājiem ieteikts, kā produktīvi izmantot klusumu. Ieteiktās nodarbes ietver skatīšanos uz slapju ietvi, atcerēšanos vienas konkrētas netaisnības no 2016. gada un sejas izteiksmes praktizēšanu, ko psihologi sauc par „Neitrāls, bet nepieejams”. Buklets arī atgādina dalībniekiem nejaukt klusumu ar optimismu.
+
+Rīgas Satiksme ir pieņēmusi iniciatīvu un apstiprinājusi, ka kustības sarakstu paziņojumi tramvajos tiks atjaunināti. Papildus standarta maršruta informācijai vairāki tramvaji tagad iekļaus paziņojumu: „Cienījamie pasažieri, durvju darbspēja joprojām ir kopīga filozofiska jautājuma.”
+
+Pašvaldības datu analītiķi lēš, ka programma gada griezumā pilsētai varētu ietaupīt līdz 42 000 €, samazinot lieku pogu spaidīšanu, steidzamu plecu pacelšanu un atkārtotus mēģinājumus iekāpt caur akordeona savienojumu. Ja tā būs veiksmīga, ierēdņi saka, klusumu iespējams paplašināt arī uz citām pilsētas pieredzēm — tostarp veikalu pašapkalpošanās kasēm, velojoslu pārrunām Centra rajonā un stāvēšanu Jūrmalā februārī, mēģinot atcerēties, kāpēc vispār kādam pieder piejūras īpašums.
+
+Vēlāk pēcpusdienā pilsētas vadītāji jau slavēja iniciatīvu kā mierīgas pārvaldības paraugu. Kamēr braucēji sapulcējās zem zema pelēka debesu un klusējot apdomāja, ka ieeja tiks liegta mašīnai, kurai viņi laipni lūguši, daži atzina, ka politika strādā tieši tā, kā plānots: neviens neizskatījās pārsteigts.`,
+      ru: `РИГА — Начиная со следующего понедельника у жителей столицы будут просить соблюдать официальную 11‑минутную тишину каждый будний день в 7:19 утра — новая муниципальная инициатива, предназначенная психологически подготовить пассажиров к тому, что транспортные эксперты описывают как «по‑настоящему балтийский опыт»: нажал кнопку двери трамвая, увидел, как она загорается с ложным обещанием, а тебя всё равно игнорирует сам транспорт.
+
+Мера, формально названная Интервалом городской готовности и принятия, была утверждена во вторник вечером Рижской городской думой после шестичасовых дебатов, в ходе которых депутаты не раз ссылались на проблемы здравоохранения, сезонное безнадежье и «неприемлемый рост шёпотом произносимых бранных слов на остановках вдоль Barona iela». 
+
+Заместитель председателя по мобильности и внутренней стойкости Илзе Берзиня заявила, что тишина не предназначена как протест, а как практический механизм преодоления. «Слишком долго жители заходили в общественный транспорт эмоционально невооружёнными», — сказала Берзиня репортёрам, стоя у трамвая, который открыл все двери, кроме той, что ближе всего к пресс‑подиуму. «Мы не можем устранить разочарование из рижской транспортной системы. То, что мы можем сделать, — стандартизировать его предвкушение.»
+
+По данным пилотного исследования, проведённого в январе Институтом прикладной гражданской выносливости, пассажиры, проводившие как минимум 11 минут в созерцательной тишине перед посадкой, на 24% реже бормотали себе под нос «классика» и на 41% чаще принимали идею о том, что водитель вынес им личный моральный приговор. В том же исследовании отмечалось, что разочарование из‑за кнопки объясняет 63% зимней экзистенциальной усталости в центральной Риге, уступая лишь услышанному в трамвае заявлению «на самом деле мне больше нравится вайб Таллинна». 
+
+На остановке Akmens Bridge в среду реакция пассажиров была осторожно оцепенелой. Офисный администратор и житель Зиепниеккалнса Каспарс Лусис, 34 года, сказал, что политика кажется запоздалой. «В прошлый четверг я нажал кнопку три раза, и она мигнула на меня с тем, что я могу описать лишь как административное презрение», — поделился он. «Если город даст мне хотя бы несколько минут, чтобы заранее отрепетировать это унижение, может быть, я доберусь до работы лишь умеренно повреждённым.»
+
+Не все эксперты убеждены. Историк транспорта Майя Брока предупредила, что формализация трамвайного разочарования может нарушить хрупкий культурный баланс. «Латвийцы традиционно перерабатывали мелкое гражданское предательство неформально, с помощью осанки», — сказала Брока. «Назначая ему время, муниципалитет рискует сделать это слишком эффективным, что, откровенно говоря, не по‑латвийски.»
+
+В поддержку внедрения города выпустил 14‑страничную памятку с рекомендациями, как продуктивно использовать тишину. Среди предложенных занятий — уставиться на влажный асфальт, вспомнить одно конкретное несправедливое событие 2016 года и отработать выражение лица, которое психологи называют «Нейтрально, но недоступно». В брошюре также напоминают участникам не путать тишину с оптимизмом.
+
+Rīgas Satiksme поддержала инициативу и подтвердила, что объявления в салонах будут обновлены соответствующим образом. Помимо стандартной информации о маршруте, в нескольких трамваях теперь будет звучать сообщение: «Уважаемые пассажиры, функциональность дверей остаётся предметом общей философской дискуссии.»
+
+Муниципальные аналитики оценивают, что программа может сэкономить городу до 42 000 € в год за счёт сокращения лишних нажатий кнопок, экстренных пожиманий плечами и вторичных попыток попасть в салон через межвагонный гармошечный проход. В случае успеха, по словам чиновников, тишину могут распространить и на другие городские испытания: самообслуживание на кассах супермаркетов, переговоры о велосипедных дорожках в районе Центра и стояние в Юрмале в феврале, пытаясь вспомнить, зачем вообще кому‑то нужна прибрежная недвижимость.
+
+К вечеру городские руководители уже превозносили инициативу как образец спокойного управления. Пока пассажиры собирались под низким серым небом и молча созерцали мысль, что им откажет в проходе машина, которой они вежливо потыкали, некоторые признались, что политика работает ровно так, как задумано: никто, похоже, не удивлён.`
+    },
+    date: "Mar 30, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/111/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 110,
     slug: "riga-introduces-dynamic-sidewalk-pricing-to",
     title: {
@@ -108,7 +189,7 @@ Preses laika brīdī Rīgas iedzīvotāji uz pēdējo mobilitātes reformu, kā 
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/110/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 109,
