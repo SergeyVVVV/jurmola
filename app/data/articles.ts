@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 115,
+    slug: "riga-introduces-dynamic-sidewalk-pricing-to-115",
+    title: {
+      en: "Riga Introduces Dynamic Sidewalk Pricing To Reduce Loitering Near Pretzel Kiosks",
+      lv: "Rīga ievieš dinamisko trotuāru cenu sistēmu, lai samazinātu kavēšanos pie sāļo kliņģeru kioskiem",
+      ru: "Рига вводит динамическое ценообразование тротуаров, чтобы сократить слоняние у киосков с крендельками"
+    },
+    excerpt: {
+      en: "In a pilot program city officials are calling \"mobility-forward,\" Riga has begun charging pedestrians variable rates to stand still in high-demand public areas, particularly near Old Town pretzel kiosks and scenic puddles. Early results show a 14% increase in purposeful walking and a 63% rise in citizens pretending they were \"just about to leave anyway.\"",
+      lv: "Pilotprogrammā, ko pilsētas amatpersonas dēvē par “mobilitātei orientētu,” Rīga sāka iekasēt mainīgas mikromakas par stāvēšanu augstas pieprasījuma publiskās telpās, īpaši pie Vecrīgas kliņģeru kioskiem un gleznainajām peļķēm. Agrīnie rezultāti rāda 14% pieaugumu mērķtiecīgā gājienā un 63% pieaugumu iedzīvotājos, kuriem izdevīgi izlikties, ka viņi “tāpat jau drīz dosies prom.”",
+      ru: "В пилотной программе, которую городские власти называют «ориентированной на мобильность», Рига начала взимать с пешеходов переменные сборы за стояние в востребованных общественных зонах — особенно у киосков с крендельками в Старом городе и у живописных луж. По ранним данным, целеустремлённые прогулки выросли на 14%, а число граждан, изображающих, что «вот-вот уйдут», — на 63%."
+    },
+    fullContent: {
+      en: `RIGA — In what municipal planners describe as a necessary adaptation to modern urban pressures, the Riga City Council on Tuesday unveiled a new Dynamic Sidewalk Pricing system, under which residents and tourists will be charged micro-fees for occupying premium pedestrian real estate for longer than 11 seconds.
+
+The policy, approved after a four-hour committee meeting and one accidental accordion performance, applies first to several congested areas including Kaļķu iela, the plaza near the Freedom Monument, three especially photogenic cobblestone corners in Old Riga, and the zone immediately surrounding kiosks selling hot pretzels after 9 p.m.
+
+According to the Department of Human Flow Optimization, the initiative uses discreet overhead sensors to detect “stationary intention.” Once a person’s posture suggests they are no longer walking with purpose but instead lingering, considering, re-considering, or waiting for friends who are “two minutes away,” a tariff is automatically applied through the city’s Mobilly app.
+
+“Public space is a shared resource, not a private sauna of indecision,” said Deputy Chair for Smart Mobility Edgars Putniņš, speaking at a press conference where journalists were asked not to form conversational clusters. “For too long, strategic bottlenecks in Riga have been occupied by people checking maps, discussing where to eat, or standing shoulder-to-shoulder in emotionally significant ways. We are not banning loafing. We are simply asking loafers to finally contribute.”
+
+Under the pricing model, the first 11 seconds of standing remain free. After that, rates begin at €0.07 per additional 10 seconds in standard zones, rising to €0.18 near popular cinnamon pastry vendors and €0.26 during sunset hours on bridges where individuals tend to become reflective. Visitors who sigh audibly while gazing at the Daugava may be placed into a premium category.
+
+The city cited a recent study showing that 38% of all pedestrian congestion in central Riga was caused not by movement, but by what researchers termed “socially contagious hesitation,” often triggered when one member of a group says, “Actually, maybe the other place.” Another 22% was attributed to tourists stopping abruptly after noticing a medieval building they had already photographed from three previous angles.
+
+Local reaction has been mixed. “At first I was angry,” said Agnese Bērziņa, 34, who incurred €1.84 in fees on Saturday while waiting for a friend outside a café in Vecrīga. “But then I realized I had in fact been standing there for 19 minutes, lightly blocking everyone, and during that time made no meaningful decisions at all. In a way, the invoice was clarifying.”
+
+Others see economic opportunity. University student and part-time entrepreneur Ričards Ozols has already launched a service called WalkBuddy+, in which clients pay him €4.99 to stroll beside them in circles while they continue their conversation without technically loitering. “We call it compliant lingering,” Ozols said. “It’s very Baltic. You remain emotionally stationary but physically in motion.”
+
+Business owners near the pilot zones have also reported changes. Ilze Skujiņa, who runs a pretzel kiosk near St. Peter’s Church, said lines are moving faster, though customers now consume baked goods with an air of logistical urgency. “Before, people stood around eating and discussing whether one pretzel was enough,” she said. “Now they bite with focus. There is less joy, but greater turnover.”
+
+Not all experts are convinced. Urban sociologist Mārtiņš Veldre warned the policy may disproportionately affect pensioners, smokers, amateur pigeons, and men over 50 who traditionally clasp their hands behind their backs and observe renovations. “These are foundational sidewalk demographics,” Veldre said. “If you price them out, who will provide the city with its atmosphere?”
+
+Still, city officials insist the measure is already working. In the first 48 hours, unauthorized clustering fell by 31%, bottleneck density dropped by 18%, and average citizen velocity increased to what one internal report described as “brisk but not suspicious.”
+
+Encouraged by the pilot, Riga is reportedly considering phase two: surge pricing for indecisive umbrella deployment and a subscription-based curb access plan for people who wish to stare into the middle distance during light snowfall.
+
+At press time, several residents had gathered to protest the policy but were forced to keep marching in a slow rectangle around City Hall to avoid additional charges.`,
+      lv: `RĪGA — To, ko pilsētplānotāji raksturo kā nepieciešamu pielāgošanos mūsdienu urbānajām slodzēm, Rīgas dome otrdien prezentēja jaunu Dinamisko trotuāru cenu sistēmu, saskaņā ar kuru iedzīvotājiem un tūristiem tiks iekasētas mikromaksas par to, ka viņi aizņem premium gājēju telpu ilgāk nekā 11 sekundes.
+
+Politika, kas apstiprināta pēc četrām stundām ilgas komitejas sēdes un viena nejauša akordeona priekšnesuma, vispirms attiecas uz vairākām sastrēgumu zonām, tostarp Kaļķu ielu, laukumu pie Brīvības pieminekļa, trim īpaši fotogēniskām bruģa ieliņas stūrēm Vecrīgā un zonu tieši ap kioskiem, kuros pēc plkst. 21 pārdod karstās sāļās kliņģeres.
+
+Pēc Cilvēku plūsmas optimizācijas departamenta teiktā iniciatīva izmanto diskrētus virs galvām izvietotus sensorus, lai noteiktu “stacionārās nodomas.” Kad personas poza liecina, ka viņš vai viņa vairs negājien ar mērķi, bet drīzāk kavējas, apsver, pārvērtē vai gaida draugus, kuri ir “divas minūtes prom,” tarifs automātiski tiek piemērots caur pilsētas Mobilly lietotni.
+
+“Publiskā telpa ir kopīgs resurss, nevis privāta neskaidrību pirts,” sacīja Viedās mobilitātes vietnieks Edgars Putniņš preses konferencē, kurā žurnālistiem lūdza neveidot sarunu grupiņas. “Pārāk ilgi Rīgas stratēģiskās sastrēgumu vietas ir aizņemtas ar cilvēkiem, kas skatās kartes, apspriež, kur paēst, vai stāv plecu pie pleca emocionāli nozīmīgos brīžos. Mēs nedraudam ar slinkošanu. Mēs vienkārši lūdzam slinkotājus beidzot dot savu artavu.”
+
+Saskaņā ar cenu modeli pirmās 11 sekundes stāvēšanas joprojām ir bez maksas. Pēc tam tarifas sākas no 0,07 € par katrām nākamajām 10 sekundēm standarta zonās, pieaugot līdz 0,18 € pie populārajiem kanēļa pīrāgu tirgotājiem un 0,26 € saulrieta stundās uz tiltiem, kur indivīdi mēdz būt īpaši reflektīvi. Apmeklētāji, kas skaļi nopūšas, skatoties uz Daugavu, var tikt ierindoti premium kategorijā.
+
+Pilsēta atsaucās uz nesenu pētījumu, kas rāda, ka 38% no visiem gājēju sastrēgumiem centrālajā Rīgā izraisīja ne kustība, bet tas, ko pētnieki nosauca par “sociāli lipīgu šaubīšanos,” bieži ierosinātu brīdī, kad kāds grupā saka: “Patiesībā, varbūt tas cits vieta.” Vēl 22% tika piedēvēti tūristiem, kas pēkšņi apstājas pēc tam, kad pamanījuši viduslaiku ēku, kuru jau bija nofotografējuši no trim iepriekšējām perspektīvām.
+
+Vietējā reakcija bijusi jaukta. “Sākumā biju dusmīga,” sacīja 34 gadus vecā Agnese Bērziņa, kura sestdien summai 1,84 € nopelnīja, gaidot draugu ārpus kafejnīcas Vecrīgā. “Bet tad sapratu, ka faktiski stāvēju tur 19 minūtes, viegli bloķējot visus apkārt, un tajā laikā nepieņēmām nevienu jēgpilnu lēmumu. Kādā ziņā rēķins bija skaidrojošs.”
+
+Citi saskata ekonomiskas iespējas. Universitātes students un daļējs uzņēmējs Ričards Ozols jau ir uzsācis servisu WalkBuddy+, kur klienti samaksā viņam 4,99 €, lai viņš riņķotu blakus un soļotu kopā ar viņiem, kamēr klienti turpina sarunu, tehniski nekavējoties neuzkrītot. “Mēs to saucam par atbilstošo kavēšanos,” sacīja Ozols. “Tas ir ļoti baltiski. Emocionāli paliec stacionārs, bet fiziski esi kustībā.”
+
+Uzņēmēji pie pilotzonām arī ziņojuši par pārmaiņām. Ilze Skujiņa, kas vada sāļo kliņģeru kiosku pie Sv. Pētera baznīcas, sacīja, ka rindas kustas ātrāk, lai gan klienti tagad baudā uzkodām ar loģistisku steigu. “Agrāk cilvēki stāvēja apkārt, ēda un apsprieda, vai viena kliņģere ir gana,” viņa teica. “Tagad viņi kož ar fokusu. Prieka ir mazāk, bet apgrozījums lielāks.”
+
+Ne visi eksperti ir pārliecināti. Pilsētas sociologs Mārtiņš Veldre brīdināja, ka politika var neproporcionāli ietekmēt pensionārus, smēķētājus, amatieru baložziniekus un vīriešus pār 50, kuri tradicionāli saliek rokas aiz muguras un vēro remontdarbus. “Tie ir trotuāra pamata demogrāfiskie slāņi,” sacīja Veldre. “Ja jūs viņiem uzliekat cenu, kas viņus atstumj, kas tad nodrošinās pilsētai tās atmosfēru?”
+
+Tomēr pilsētas amatpersonas uzstāj, ka pasākums jau dod rezultātus. Pirmās 48 stundas neautorizētās sapulcēšanās kritās par 31%, sastrēgumu blīvums samazinājās par 18%, un vidējais iedzīvotāju kustības ātrums palielinājās līdz tam, ko viens iekšējs ziņojums raksturoja kā “kupls, bet ne aizdomīgs.”
+
+Iedvesmota no pilotprojekta, Rīga, pēc ziņām, apsver otro fāzi: pieaugošās cenas par neizlēmīgu lietussargu izvietošanu un abonēšanas modeli apmaļu piekļuvei cilvēkiem, kuri vēlas skatīties tālumā vieglā snigšanā.
+
+Preses laika brīdī vairāki iedzīvotāji bija sapulcējušies, lai protestētu pret politiku, bet tika spiesti turpināt soļot lēnā taisnstūrī ap Rātsnamu, lai izvairītos no papildu maksu iekasēšanas.`,
+      ru: `РИГА — В том, что муниципальные планировщики называют необходимой адаптацией к современным городским нагрузкам, Городской совет Риги во вторник представил новую систему «Динамическое ценообразование тротуаров», по которой жителям и туристам будут начисляться микро-платы за занятие премиального пешеходного пространства дольше 11 секунд.
+
+Политика, утверждённая после четырёхчасового заседания комитета и одного случайного концерта на аккордеоне, сначала действует в нескольких перегруженных местах: на Kaļķu iela, на площади у Свободы, на трёх особенно фотогеничных булыжных углах в Старой Риге и в зоне сразу вокруг киосков с горячими крендельками после 21:00.
+
+По данным Департамента оптимизации человеческих потоков, инициатива использует незаметные надголовные сенсоры для определения «намерения оставаться на месте». Как только поза человека начинает указывать, что он больше не идёт с целью, а задерживается, обдумывает, передумывает или ждёт друзей, которые «через две минуты», тариф автоматически списывается через приложение Mobilly.
+
+«Общественное пространство — общий ресурс, а не приватная сауна нерешительности», — заявил заместитель председателя по умной мобильности Эдгарс Путниньш на пресс‑конференции, где журналистов попросили не образовывать разговорных кластеров. «Слишком долго стратегические узкие места в Риге занимали люди, проверяющие карты, советующиеся, где поесть, или стоящие плечом к плечу в эмоционально значимых позах. Мы не запрещаем бездельничать. Мы просто просим бездельников наконец внести вклад». 
+
+По модели ценообразования первые 11 секунд стояния остаются бесплатными. После этого тарифы начинаются от €0.07 за дополнительные 10 секунд в стандартных зонах, повышаются до €0.18 вблизи популярных продавцов коричного печенья и до €0.26 в часы заката на мостах, где люди склонны становиться созерцательными. Посетители, громко вздыхающие при взгляде на Даугаву, могут быть отнесены к премиум‑категории.
+
+Город сослался на недавнее исследование, показывающее, что 38% всех пешеходных заторов в центре Риги вызваны не движением, а тем, что исследователи назвали «социально заразительной нерешительностью», часто запускаемой, когда один из группы говорит: «На самом деле, может, в другое место». Ещё 22% исследователи отнесли к туристам, внезапно останавливающимся после того, как заметили средневековое здание, которое уже сфотографировали с трёх предыдущих ракурсов.
+
+Местная реакция оказалась смешанной. «Сначала я злилась», — сказала Агнесе Бёрзиня, 34 года, которая заплатила €1.84 в субботу, ожидая подругу возле кафе в Vecrīga. «Но потом я поняла, что на самом деле стояла там 19 минут, слегка мешая всем, и за это время не приняла ни одного значимого решения. В некотором смысле счёт был проясняющим». 
+
+Другие увидели экономическую возможность. Студент университета и подработывающий предприниматель Ричардс Озолс уже запустил сервис WalkBuddy+, по которому клиенты платят ему €4.99, чтобы он шел рядом кругами, пока они продолжают разговор, не формально слоняясь на месте. «Мы называем это compliant lingering — послушное слоняние», — сказал Озолс. «Это очень по‑балтийски: вы остаётесь эмоционально на месте, но физически в движении». 
+
+Владельцы бизнеса в пилотных зонах тоже заметили изменения. Илзе Скуйня, которая управляет киоском с крендельками у церкви Святого Петра, сказала, что очереди двигаются быстрее, хотя клиенты теперь поглощают выпечку с оттенком логистической срочности. «Раньше люди стояли, ели и обсуждали, хватит ли одного кренделя», — сказала она. «Теперь кусают сосредоточенно. Радости меньше, но оборот больше». 
+
+Не все эксперты уверены в корректности подхода. Городской социолог Марти?ньш Вельдре (Mārtiņš Veldre) предупредил, что политика может непропорционально затронуть пенсионеров, курильщиков, любителей голубей и мужчин старше 50, которые традиционно сцепляют руки за спиной и наблюдают за ремонтами. «Это — фундаментальная тротуарная демография», — сказал Вельдре. «Если вы их ценой вытесните, кто обеспечит городу его атмосферу?»
+
+Тем не менее городские власти настаивают: мера уже работает. В первые 48 часов несанкционированное скопление упало на 31%, плотность узких мест снизилась на 18%, а средняя скорость граждан увеличилась до того, что один внутренний отчёт охарактеризовал как «живую, но не вызывающую подозрений». 
+
+Воодушевлённая пилотом, Рига якобы рассматривает вторую фазу: тарифы по повышенному спросу за нерешительное раскрытие зонта и подписочную схему доступа к бордюрам для тех, кто желает смотреть в никуда во время лёгкого снегопада. 
+
+К моменту выхода материала несколько жителей собрались, чтобы протестовать против политики, но им пришлось продолжать маршировать медленным прямоугольником вокруг Ратуши, чтобы избежать дополнительных сборов.`
+    },
+    date: "Apr 4, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/115/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 114,
     slug: "riga-introduces-official-municipal-sigh-to-114",
     title: {
@@ -102,7 +201,7 @@ Lai risinātu šo bažu, dome ir atvēlējusi 82 000 € akustiskai verifikācij
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/114/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 113,
