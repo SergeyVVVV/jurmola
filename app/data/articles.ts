@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 116,
+    slug: "riga-introduces-passive-aggressive-silence-zones",
+    title: {
+      en: "Riga Introduces ‘Passive-Aggressive Silence Zones’ To Preserve National Character During Tourist Season",
+      lv: "Rīga ievieš «pasīvi‑agresīvās klusuma zonas», lai saglabātu nacionālo raksturu tūrisma sezonā",
+      ru: "Рига вводит «зоны пассивно‑агрессивного молчания», чтобы сохранить национальный характер в туристический сезон"
+    },
+    excerpt: {
+      en: "Facing another record summer of visitors asking where the \"real old town\" is, Riga officials have unveiled designated Passive-Aggressive Silence Zones across the capital. The initiative aims to protect traditional Baltic emotional spacing while giving residents a safe place to disapprove of strangers without having to speak.",
+      lv: "Saskaroties ar vēl vienu rekordlielu vasaru, kurā tūristi jautā, kur ir «īstā vecpilsēta», Rīgas amatpersonas atklājušas speciālas pasīvi‑agresīvās klusuma zonas visā galvaspilsētā. Iniciatīvas mērķis ir aizsargāt tradicionālo Baltijas emociju distancēšanos un dot iedzīvotājiem drošu vietu, kur nosodīt svešiniekus, pat nerunājot.",
+      ru: "Столкнувшись с очередным рекордным летом туристов, спрашивающих, где «настоящий старый город», власти Риги объявили о создании специальных зон пассивно‑агрессивного молчания по всему городу. Инициатива призвана защитить традиционное балтийское эмоциональное расстояние и дать местным жителям безопасное место, где можно выразить неодобрение чужакам, не произнося ни слова."
+    },
+    fullContent: {
+      en: `RIGA — In a move city leaders are calling “both culturally necessary and acoustically elegant,” the Riga City Council on Tuesday approved the creation of 14 Passive-Aggressive Silence Zones in the capital, offering residents protected public areas in which they may stare into the middle distance, sigh almost imperceptibly, and communicate profound social discomfort without the burden of direct conversation.
+
+The zones, marked by tasteful gray signage and a small icon of a frowning seagull, will be introduced in high-traffic areas including Esplanāde, the Central Market, two tram stops in Purvciems, and a 60-meter corridor near a café in Āgenskalns where, according to municipal data, people have recently been “far too cheerful.”
+
+Deputy Mayor for Atmospheric Affairs Ilze Priedola said the policy was developed after a 147-page report found that unmanaged friendliness had risen 18% since last June, largely due to cruise passengers, digital nomads, and one Canadian travel vlogger who described Riga as “surprisingly smiley.”
+
+“We cannot simply let spontaneous enthusiasm spread through the city unchecked,” Priedola told reporters while standing beside a prototype bench designed to discourage emotional openness. “Latvia has a rich tradition of keeping one’s thoughts private until they become weather. These zones will allow residents to maintain that heritage in a safe, modern environment.”
+
+Under the new rules, speaking above a low murmur inside a Silence Zone may result in a municipal warning, a disapproving leaflet, or, in severe cases, being gently redirected to designated Expressive Areas near the Freedom Monument, where street musicians, visiting Erasmus students, and recently engaged couples may process their feelings without alarming the public.
+
+The initiative also includes specially trained “Mood Wardens,” identifiable by their beige vests and extraordinary ability to make eye contact feel like an administrative penalty. According to the city, wardens will monitor posture, conversation density, and “unlicensed optimism.” A pilot program conducted in February found that residents exposed to a controlled silence environment became 34% more comfortable waiting for public transport while pretending not to see acquaintances.
+
+Not everyone is opposed. Zenta Ozoliņa, 62, a Sarkandaugava resident and former accounting clerk, praised the measure after observing what she called “dangerous levels of vocal brunch energy” in the city center. “The other day I heard two tourists laugh continuously for nearly 40 seconds,” she said. “In public. Near the opera. If there had been a Silence Zone, this could all have been prevented.”
+
+Business owners have expressed cautious support. Artūrs Feldmanis, manager of the café Melnā Dakša, said he initially worried the policy would hurt sales but later realized silence-driven discomfort could increase purchases. “People order more cake when they feel judged,” Feldmanis said. “Last weekend we tested a corner of the terrace where staff only responded with subtle eyebrow movements. Cheesecake revenue went up 22%.”
+
+The city has also released practical guidance for tourists, including a brochure titled So You’ve Entered a Baltic Emotional Reserve. Recommended behaviors include staring thoughtfully at cobblestones, saying “interesting” without enthusiasm, and never asking locals to “recommend a hidden gem.” The brochure warns that attempting small talk with strangers may trigger collective inward retreat within a 15-meter radius.
+
+Cultural historian Mārtiņš Vīksne said the zones reflect a broader civic maturity. “Other cities export identity through monuments and slogans,” he said. “Riga is finally investing in what it does best: highly organized emotional ambiguity.”
+
+If successful, officials say the program may expand to Jurmala by midsummer, where beachgoers could soon enjoy protected coastal stretches in which families are permitted to unfold sandwiches in dignified silence while disapproving of other families’ sandwich choices from a respectful distance.`,
+      lv: `RĪGA — Pilsētas vadītāji šo soli dēvē par «gan kultūriski nepieciešamu, gan akustiski elegantu»: otrdien Rīgas dome apstiprināja 14 pasīvi‑agresīvās klusuma zonas izveidi galvaspilsētā, piedāvājot iedzīvotājiem aizsargātas publiskas vietas, kur var skatīties tālumā, gandrīz nemanāmi nopūsties un paust dziļu sociālu neērtnību bez tiešas sarunas nastas.
+
+Zonas, kas tiks iezīmētas ar pieklājīgi pelēkām norādēm un mazu skumīgas kaijas ikonīti, tiks izvietotas intensīvi apmeklētās vietās, tostarp Esplanādē, Centrālajā tirgū, pie divām tramvaja pieturām Purvciemā un 60 metru koridorā pie kādas kafejnīcas Āgenskalnā, kur, pēc pašvaldības datiem, cilvēki pēdējā laikā bijuši «pārāk dzīvespriecīgi».
+
+Vietniece atmosfēras jautājumos Ilze Priedola sacīja, ka politika izstrādāta pēc 147 lappušu ziņojuma, kurā secināts, ka nepārvaldītā draudzīguma līmenis kopš pagājušā jūnija pieaudzis par 18%, galvenokārt dēļ kruīza pasažieriem, digitālajiem nomadiem un viena Kanādas ceļojumu vlogera, kurš Rīgu nodēvējis par «negaidīti smaidīgu».
+
+"Mēs nevaram ļaut spontānajam entuziasmam izplatīties pa pilsētu nekontrolēti," Priedola paziņoja žurnālistiem, stāvot blakus prototipa solam, kas paredzēts, lai atbaidītu emocionālu atklātību. "Latvijai ir bagāta tradīcija paturēt domas privātas, līdz tās kļūst par laiku. Šīs zonas ļaus iedzīvotājiem saglabāt šo mantojumu drošā, mūsdienīgā vidē."
+
+Saskaņā ar jaunajiem noteikumiem runāšana skaļāk par klusu murmulēšanu klusuma zonā var izraisīt pašvaldības brīdinājumu, nosodošu bukletu vai, smagos gadījumos, maigu novirzīšanu uz īpašām izteiksmības zonām pie Brīvības pieminekļa, kur ielu mūziķi, ieritinājušies Erasmus studenti un nesen saderinājušies pāri varēs apstrādāt savas jūtas, nekaitinot sabiedrību.
+
+Iniciatīva paredz arī īpaši apmācītus "noskaņojuma uzraugus", kurus var atpazīt pēc bēšajām vestēm un izcilas spējas padarīt acu kontaktu par administratīvu sodu. Pilsētas pārstāvji norāda, ka uzraugi vēros stāju, sarunu blīvumu un "neautorizētu optimisma" līmeni. Februārī veiktais pilotprojekts konstatēja, ka iedzīvotāji, kuri pakļauti kontrolētai klusuma videi, par 34% jutās ērtāk gaidot sabiedrisko transportu, izliekoties, ka nepamana paziņas.
+
+Ne visi ir pret. 62 gadus vecā Sarkandaugavas iedzīvotāja un bijusī grāmatvedes amata personā Zenta Ozoliņa slavēja pasākumu pēc tam, kad esot novērojusi to, ko viņa sauca par "bīstami augstu vokālās brančo enerģijas līmeni" pilsētas centrā. "Nesen dzirdēju, kā divi tūristi smējās nepārtraukti gandrīz 40 sekundes," viņa teica. "Publikā. Netālu no operas. Ja būtu bijusi klusuma zona, to visu varēja novērst."
+
+Uzņēmēji izrāda piesardzīgu atbalstu. Kafejnīcas Melnā Dakša vadītājs Artūrs Feldmanis sacīja, ka sākotnēji bažījies, ka politika kaitēs pārdošanai, taču vēlāk sapratis, ka ar klusumu radīta neērtība var palielināt pirkumus. "Cilvēki pasūta vairāk kūku, kad viņus vērtē," sacīja Feldmanis. "Pagājušajā nedēļas nogalē mēs izmēģinājām terases stūri, kur personāls atbildēja tikai ar smalkām uzacis pacelšanas kustībām. Siera kūkas ieņēmumi pieauga par 22%."
+
+Pilsēta ir izdevusi arī praktiskus padomus tūristiem, tostarp bukletu ar nosaukumu Tātad jūs esat iekļuvis Baltijas emocionālajā rezervātā. Ieteicamā uzvedība ietver domīgu skatienu uz bruģi, vārda "interesanti" izteikšanu bez entuziasma un nekad neprasīt vietējiem "ieteikt kādu slēptu dārgumu." Buklets brīdina, ka mēģinājums uzsākt mazu sarunu ar svešiniekiem var izraisīt kolektīvu iekšēju atkāpšanos 15 metru rādiusā.
+
+Kultūras vēsturnieks Mārtiņš Vīksne sacīja, ka zonas atspoguļo plašāku pilsonisko briedumu. "Citas pilsētas eksportē identitāti ar pieminekļiem un saukļiem," viņš teica. "Rīga beidzot investē tajā, kas tai padodas vislabāk: augsti organizētā emocionālajā nenoteiktībā."
+
+Ja programma izrādīsies veiksmīga, amatpersonas norāda, to varētu paplašināt uz Jūrmalu līdz vasaras vidum, kur pludmales apmeklētāji drīzumā varētu baudīt aizsargātas piekrastes joslas, kur ģimenēm atļauts cienīgi atvērt un ēst sendvičus klusumā, kamēr viņi cienīgā attālumā nosoda citu ģimeņu sendviču izvēles.`,
+      ru: `РИГА — В шаге, который городские лидеры называют «и культурно необходимым, и акустически изящным», Рижская городская дума во вторник одобрила создание в столице 14 Зон пассивно‑агрессивного молчания, предоставляющих жителям защищённые общественные пространства, в которых можно смотреть в пустоту, почти не подавать виду, тяжело вздохнуть и передавать глубочайший социальный дискомфорт без бремени прямого разговора.
+
+Зоны, отмеченные со вкусом выполненными серыми табличками и маленьким значком хмурой чайки, появятся в местах с большим трафиком, включая Эспланаде, Центральный рынок, две трамвайные остановки в Пурвциемсе и 60‑метровый коридор возле кафе в Āgenskalns, где, по данным муниципалитета, люди в последнее время ведут себя «чересчур радостно».
+
+Заместитель мэра по атмосферным вопросам Ilze Priedola заявила, что политика была разработана после 147‑страничного доклада, в котором показано, что неконтролируемая дружелюбность выросла на 18% с июня прошлого года, в основном из‑за пассажиров круизных лайнеров, цифровых кочевников и одного канадского тревел‑влогера, который описал Ригу как «неожиданно улыбающуюся».
+
+«Мы не можем просто так позволить спонтанному энтузиазму распространяться по городу бесконтрольно», — сказала Priedola репортёрам, стоя рядом с прототипом скамейки, разработанной, чтобы препятствовать эмоциональной открытости. «Латвия имеет богатую традицию хранить мысли при себе, пока они не станут погодой. Эти зоны позволят жителям сохранить это наследие в безопасной, современной обстановке».
+
+По новым правилам, разговор громче тихого шёпота в Зоне молчания может повлечь муниципальное предупреждение, раздачу неодобрительных буклетов или, в тяжёлых случаях, мягкое перенаправление в обозначенные «Выразительные зоны» рядом с памятником Свободы, где уличные музыканты, приезжие студенты Erasmus и недавно обручённые пары смогут переживать свои чувства, не пугая прохожих.
+
+Инициатива также включает специально обученных «инспекторов настроения», которых можно узнать по бежевым жилетам и по удивительной способности делать зрительный контакт похожим на административное взыскание. По данным города, инспекторы будут контролировать осанку, плотность разговоров и «нелицензированный оптимизм». Пилотная программа, проведённая в феврале, показала, что жители, оказавшиеся в контролируемой среде молчания, стали на 34% комфортнее ждать общественный транспорт, прикидываясь, что не видят знакомых.
+
+Не все были против. Зента Озолиņa, 62 года, жительница Саркандаугавы и бывшая бухгалтерша, похвалила меру после того, как заметила то, что она назвала «опасными уровнями вокальной бранч‑энергии» в центре города. «На днях я слышала, как двое туристов смеялись без перерыва почти 40 секунд, — сказала она. — На публике. Рядом с оперой. Если бы была Зона молчания, всё это можно было бы предотвратить».
+
+Предприниматели выразили осторожную поддержку. Артурс Фельдманис, управляющий кафе Melnā Dakša, сказал, что сначала опасался, что политика повредит продажам, но потом понял, что дискомфорт, вызванный молчанием, может увеличить покупки. «Люди заказывают больше пирожных, когда чувствуют себя осуждёнными», — сказал Фельдманис. «На прошлых выходных мы протестировали уголок террасы, где персонал отвечал только тонкими движениями бровей. Доход от чизкейков вырос на 22%».
+
+Город также выпустил практические рекомендации для туристов, включая брошюру под заголовком «Итак, вы попали в балтийский эмоциональный заповедник». Рекомендуемое поведение включает задумчивый взгляд на брусчатку, произнесение «интересно» без энтузиазма и категорическое нежелание просить местных «порекомендовать скрытую жемчужину». В брошюре предупреждается, что попытка завести светскую беседу с незнакомцами может вызвать коллективное внутреннее отступление в радиусе 15 метров.
+
+Культурный историк Mārtiņš Vīksne сказал, что зоны отражают более широкое гражданское созревание. «Другие города экспортируют идентичность через памятники и слоганы, — сказал он. — Рига наконец инвестирует в то, что у неё получается лучше всего: в высокоорганизованную эмоциональную неоднозначность».
+
+Если программа окажется успешной, чиновники заявляют, что она может расшириться до Юрмалы к середине лета, где пляжники вскоре смогут наслаждаться охраняемыми прибрежными участками, на которых семьям разрешат разворачивать бутерброды в достойном молчании, одновременно с уважительной дистанции осуждая выбор бутербродов у других семей.`
+    },
+    date: "Apr 5, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/116/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 115,
     slug: "riga-introduces-dynamic-sidewalk-pricing-to-115",
     title: {
@@ -114,7 +201,7 @@ Preses laika brīdī vairāki iedzīvotāji bija sapulcējušies, lai protestēt
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/115/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 114,
