@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 122,
+    slug: "riga-introduces-polite-darkness-pilot-program",
+    title: {
+      en: "Riga Introduces ‘Polite Darkness’ Pilot Program, Streetlights to Apologize Before Turning On",
+      lv: "Rīga ievieš pilotprogrammu “Pieklājīgā tumsa” — ielu laternas atvainosies pirms iedegšanās",
+      ru: "Рига запускает пилотный проект «Вежливая тьма»: уличные фонари будут извиняться перед включением"
+    },
+    excerpt: {
+      en: "In an effort to preserve both municipal energy reserves and the emotional atmosphere of November, Riga City Council has approved a pilot scheme under which selected streetlights will softly apologize to residents before illuminating public spaces. Officials say the initiative balances safety, tradition, and the Latvian right to experience at least some preventable melancholy in peace.",
+      lv: "Lai saglabātu gan pašvaldības enerģijas rezerves, gan novembra emocionālo noskaņu, Rīgas dome apstiprinājusi pilotprojektu, kurā izvēlētas laternas klusīti atvainosies iedzīvotājiem pirms izgaismot publiskās vietas. Amatpersonas saka, ka iniciatīva līdzsvaro drošību, tradīcijas un latviešu tiesības vismaz nedaudz novēršami skumstīt mierā.",
+      ru: "В попытке сберечь городские энергетические запасы и сохранить эмоциональную атмосферу ноября Городской совет Риги утвердил пилотный проект, по которому избранные уличные фонари мягко извиняются перед тем, как освещать общественные пространства. По словам чиновников, инициатива уравновешивает безопасность, традиции и латвийское право мирно испытать хотя бы немного предотвратимой меланхолии."
+    },
+    fullContent: {
+      en: `RIGA — In a 34–22 vote late Tuesday evening, Riga City Council approved a six-month “Polite Darkness” pilot program requiring 812 streetlights in the neighborhoods of Āgenskalns, Teika, and the “philosophically complicated” section of the city center around Stabu Street to emit a brief recorded apology before switching on after dusk.
+
+According to the Department of Urban Subtlety, each lamp will begin with a quiet phrase such as “Pardon the interruption,” “We regret the necessity of visibility,” or, in areas with higher pedestrian traffic, “Sorry, but someone could fall.” The recordings will be available in Latvian, Russian, English, and what officials described as “that resigned sigh everyone understands by February.”
+
+Deputy Mayor for Ambient Affairs Elīna Vītola said the plan was developed after years of complaints from residents who felt the city’s lighting policy had become “too sudden, too confident, and insufficiently self-aware.”
+
+“Riga has always had a delicate relationship with illumination,” Vītola told reporters while standing under a prototype lamp on Miera iela that whispered, “Forgive me,” before glowing at roughly 63% brightness. “People need light, of course. But they also need to feel that the light understands what it is taking from them.”
+
+A 147-page municipal assessment found that 61% of residents preferred “muted and morally conflicted” lighting over standard LED installations, while 23% said they would accept brighter streets only if the city admitted, in writing, that winter remains “a bit much.” Another 11% said they were not opposed to darkness as such, but objected to what one respondent called “its increasingly corporate tone.”
+
+The project will cost €2.8 million, including €640,000 for audio development, €410,000 for consultation with acoustic ethnographers, and €73,000 for a now-cancelled attempt to make tram wires hum sympathetically during sleet. City auditors noted that the final figure does not include replacement costs for 94 test speakers stolen during preliminary trials, many of which later appeared for sale online under the listing “Vintage Baltic regret device, barely used.”
+
+Not all residents are convinced. Āgenskalns pensioner Mārtiņš Dreimanis, 72, said the apologetic lighting near his building had only deepened the confusion of ordinary errands. “Yesterday I took out the rubbish, and the lamp said, ‘We are sorry for this development,’” he said. “For one full minute I thought it was about my pension.”
+
+Others welcomed the measure as a rare example of government accurately reflecting public mood. “This is the first infrastructure project that feels emotionally honest,” said freelance ceramicist and part-time mushroom newsletter editor Lelde Svilpe. “Normally the city installs a bench and acts like it has solved existence. Here, at least, the lamp acknowledges complexity.”
+
+Tourism officials are already preparing to market the concept internationally. The Riga Investment and Development Agency announced a winter campaign inviting visitors to “Experience Europe’s most considerate darkness,” with premium guided walks through neighborhoods where lights dimly illuminate cobblestones while expressing measured regret.
+
+In Jūrmala, local leaders have reportedly begun exploring a related initiative in which seaside fog will be issued municipal permits and required to maintain a minimum courtesy distance from expensive knitwear. Meanwhile, officials in Liepāja are testing wind that briefly checks whether residents are “in the right headspace” before becoming unbearable.
+
+Despite criticism from opposition parties, who argue that streetlights should simply function without entering into an emotional relationship with taxpayers, city officials remain optimistic. If successful, the “Polite Darkness” model may expand next year to public stairwells, underpasses, and one especially disappointing Maxima parking lot.
+
+“At the end of the day, this is about dignity,” Vītola said, as a lamp behind her clicked on and murmured, “Unfortunately, here we are.” “If Riga must be visible, it should at least be polite about it.”`,
+      lv: `RĪGA — Otrdienas vakarā, ar 34–22 balsojumu, Rīgas dome apstiprināja sešu mēnešu pilotprogrammu “Pieklājīgā tumsa”, kas pieprasa, lai 812 laternas Āgenskalna, Teikas un savdabīgi "filozofiski komplicētajā" centra daļā ap Stabu ielu izskanētu īss iepriekš ierakstīts atvainošanās teksts pirms tās iedegas pēc saulrieta.
+
+Pilsētas smalkumu departamenta rīcībā katra lampa sāks ar klusu frāzi, piemēram, “Atvainojiet par traucējumu”, “Nožēlojam, ka nepieciešama redzamība” vai, vietās ar lielāku gājēju plūsmu, “Atvainojamies, bet kāds var nokrist.” Ieraksti būs pieejami latviešu, krievu, angļu valodā un tajā, ko amatpersonas aprakstīja kā “to nogurušo nopūtu, ko līdz februārim visi saprot.”
+
+Vietniece mēram ambientāro lietu jautājumos Elīna Vītola sacīja, ka plāns izstrādāts pēc vairāku gadu sūdzībām no iedzīvotājiem, kuri uzskatīja, ka pilsētas apgaismojuma politika kļuvusi “pārāk pēkšņa, pārliecināta un nepietiekami paškritiska.”
+
+“Rīgai vienmēr bijušas smalkas attiecības ar apgaismojumu,” Vītola sacīja žurnālistiem, stāvot zem prototipa lampas Miera ielā, kura čukstēja “Piedodiet man,” pirms iedegās aptuveni 63% spožumā. “Cilvēkiem, protams, vajag gaismu. Bet viņiem arī jāizjūt, ka gaisma saprot, ko tā no viņiem atņem.”
+
+147 lappušu pašvaldības izvērtējums atklāja, ka 61% iedzīvotāju priekšroku deva “klusinātam un morāli konfliktējošam” apgaismojumam salīdzinājumā ar standarta LED risinājumiem, kamēr 23% teica, ka pieņemtu gaišākas ielas tikai tad, ja pilsēta rakstiski atzītu, ka ziema tomēr “ir nedaudz par daudz.” Vēl 11% norādīja, ka tieši tumsā pašā nav iebildumu, bet iebilst pret to, ko viens respondents nosauca par “tās arvien korporatīvāko toni.”
+
+Projekts izmaksās 2,8 miljonus eiro, tostarp 640 000 eiro audio izstrādei, 410 000 eiro konsultācijām ar akustiskajiem etnogrāfiem un 73 000 eiro tagad atceltam mēģinājumam panākt, lai tramvaja vadi slapja sniega laikā žēlotos līdzjūtīgi. Pašvaldības revidenti piebilda, ka galīgā summa neietver nomaiņas izmaksas par 94 testa skaļruņiem, kas tika nozagti priekšizmēģinājumu laikā; daudzi no tiem vēlāk parādījās pārdošanā tiešsaistē ar sludinājumu “vintage Baltijas nožēlas ierīce, gandrīz nelietota.”
+
+Ne visi iedzīvotāji ir pārliecināti. Āgenskalna pensionārs Mārtiņš Dreimanis, 72, sacīja, ka atvainojošais apgaismojums pie viņa nama tikai pastiprinājis ikdienišķu darīšanu mulsumu. “Vakar iznesu atkritumus, un lampa teica: ‘Mēs nožēlojam šo pavērsienu,’” viņš stāstīja. “Veselu minūti domāju, ka tas bija par manu pensiju.”
+
+Citi sveica pasākumu kā retu valdības piemēru, kas precīzi atspoguļo sabiedrības noskaņu. “Tas ir pirmais infrastruktūras projekts, kas jūtas emocionāli godīgs,” sacīja brīvprātīgā keramiķe un daļējas slodzes sēņu jaunumu izdevuma redaktore Lelde Svilpe. “Parasti pilsēta ieliek soliņu un uzduras uzvedībai kā uz eksistences atrisinājumu. Šeit vismaz lampa atzīst sarežģītību.”
+
+Tūrisma speciālisti jau gatavojas starptautiskai mārketingam. Rīgas Investīciju un attīstības aģentūra paziņoja par ziemas kampaņu, aicinot viesus “izbaudīt Eiropas pieklājīgāko tumsu,” ar ekskluzīvām gida pastaigām pa kvartāliem, kur laternas klusi izgaismo bruģi, izsakot mērenu nožēlu.
+
+Jūrmalā vietējās varas iestādes, kā ziņots, sākušas izpētīt saistītu iniciatīvu, kurā piejūras migla saņemtu pašvaldības atļaujas un tiktu prasīts saglabāt minimālu pieklājības distanci no dārgām adījumu drēbēm. Tikmēr Liepājā testē vēju, kas īsi pārbauda, vai iedzīvotāji ir “pareizajā noskaņojumā,” pirms kļūst neciešams.
+
+Neskatoties uz opozīcijas partiju kritiku, kuras apgalvo, ka ielu laternām vienkārši jādarbojas bez emocionālām attiecībām ar nodokļiem maksātājiem, pašvaldības amatpersonas paliek optimistiskas. Ja izmēģinājums izrādīsies veiksmīgs, “Pieklājīgās tumsas” modelis nākamgad var tikt paplašināts uz publiskajām kāpnēm, tuneļiem un vienu īpaši vīlušu Maxima stāvvietu.
+
+“Galu galā, tas viss ir par cieņu,” sacīja Vītola, un aiz viņas lampa klikšķināja un murmināja: “Diemžēl — te mēs esam.”`,
+      ru: `РИГА — Во вторник поздно вечером Городской совет Риги проголосовал 34 против 22 за шестимесячный пилотный проект «Вежливая тьма», по которому 812 фонарей в районах Āgenskalns, Teika и «философски сложном» участке центра города вокруг улицы Stabu будут воспроизводить краткую записанную извинительную фразу перед включением после сумерек.
+
+По данным Департамента городской утончённости, каждый фонарь начнёт с тихой фразы вроде "Извините за беспокойство", "Сожалеем о необходимости освещать" или, в зонах с более оживлённым пешеходным трафиком, "Извините, но кто‑то может упасть". Записи будут доступны на латышском, русском, английском и на том самом покорном вздохе, который, по словам чиновников, "все понимают к февралю".
+
+Заместитель мэра по вопросам атмосферы Элина Витола заявила, что план разработан после лет жалоб жителей, которые посчитали политику освещения города "слишком резкой, слишком самоуверенной и недостаточно самосознающей".
+
+"У Риги всегда были сложные отношения с освещением", — сказала Витола репортёрам, стоя под прототипом фонаря на улице Miera iela, который прошептал "Простите меня" перед тем, как засветиться примерно на 63% своей яркости. "Людям, конечно, нужен свет. Но им также важно чувствовать, что свет понимает, что он у них отнимает." 
+
+147‑страничная муниципальная оценка показала, что 61% жителей предпочитают "приглушённое и морально конфликтное" освещение стандартным светодиодным установкам, тогда как 23% согласились бы на более яркие улицы лишь в том случае, если город письменно признает, что зима остаётся "немного слишком суровой". Ещё 11% заявили, что лично против тьмы как таковой не возражают, но не приемлют, как выразился один респондент, её "всё более корпоративный тон".
+
+Проект обойдётся в €2,8 млн, из которых €640 000 пойдут на разработку аудио, €410 000 — на консультации с акустическими этнографами, и €73 000 — на ныне отменённую попытку заставить трамвайные провода сочувственно гудеть во время мокрого снега. Муниципальные аудиторы отметили, что итоговая сумма не включает замену 94 тестовых динамиков, украденных в ходе предварительных испытаний; многие из них позже появились в сети под объявлением "Винтажное балтийское устройство для раскаяния, почти не использовалось".
+
+Не все жители в восторге. 72‑летний пенсионер из Āgenskalns Мартиньш Дрейманис рассказал, что извиняющееся освещение возле его дома лишь усилило путаницу при обычных делах. "Вчера я вынес мусор, и фонарь сказал: ‘Нам жаль такого развития событий’", — рассказал он. — "Целую минуту я думал, что это про мою пенсию." 
+
+Другие приветствуют меру как редкий пример того, когда власть действительно отражает общественное настроение. "Это первый инфраструктурный проект, который кажется эмоционально честным", — сказала керамист‑фрилансер и по совместительству редактор рассылки о грибах Лелде Свилпе. "Обычно город ставит скамейку и делает вид, будто решил проблему бытия. Здесь хотя бы фонарь признаёт сложность." 
+
+Туристические службы уже готовятся продвигать идею на международном уровне. Агентство по инвестициям и развитию Риги объявило зимнюю кампанию с приглашением "Ощутить самую внимательную тьму Европы" — с премиальными экскурсиями по кварталам, где фонари приглушённо освещают брусчатку и при этом выражают сдержанное сожаление.
+
+В Юрмале местные власти, по сообщениям, начали изучать связанный проект, в рамках которого прибрежный туман будет получать муниципальные разрешения и обязан сохранять минимальную дистанцию вежливости от дорогих вязаных вещей. Тем временем в Лиепае испытывают ветер, который ненадолго проверяет, находятся ли жители "в нужном настроении", прежде чем стать невыносимым.
+
+Несмотря на критику оппозиции, утверждающей, что фонари должны просто работать и не вступать в эмоциональные отношения с налогоплательщиками, городские чиновники остаются оптимистами. В случае успеха модель "Вежливой тьмы" может расшириться в следующем году на лестничные клетки, подземные переходы и на одну особенно разочаровывающую парковку супермаркета Maxima.
+
+"В конце концов, здесь речь о достоинстве", — сказала Витола в тот момент, когда за её спиной фонарь щёлкнул и пробормотал: "К сожалению, вот мы и здесь." "Если Рига должна быть видима, то хотя бы пусть будет вежливой."`
+    },
+    date: "Apr 11, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/122/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 121,
     slug: "riga-introduces-dynamic-silence-pricing-residents-121",
     title: {
@@ -108,7 +201,7 @@ Preses piezīmē, klusums Vecrīgā pēc kļūdainas līgavaiņa balles ielauša
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/121/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 120,
