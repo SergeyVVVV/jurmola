@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 123,
+    slug: "riga-introduces-dynamic-silence-pricing-residents-123",
+    title: {
+      en: "Riga Introduces Dynamic Silence Pricing, Residents to Pay Premium for Audible Nothing After 11 P.M.",
+      lv: "Rīga ievieš dinamisko klusuma tarifu — iedzīvotāji maksās prēmiju par dzirdamu neko pēc plkst. 23:00",
+      ru: "Рига вводит динамическое ценообразование тишины: жители будут платить премию за слышимое ничто после 23:00"
+    },
+    excerpt: {
+      en: "In a pilot program hailed as \"fiscally meditative,\" Riga City Council has approved a variable-rate silence system that charges residents different prices depending on the quality of nighttime quiet in their neighborhood. Officials say the scheme will encourage civic responsibility while finally assigning market value to the city's most endangered natural resource: not hearing a scooter.",
+      lv: "Pilotprogrammā, ko slavē kā „fiski meditējošu”, Rīgas dome apstiprinājusi mainīgas likmes klusuma sistēmu, kas iedzīvotājus iekasēs atšķirīgi atkarībā no nakts klusuma kvalitātes viņu apkaimē. Pārstāvji saka, ka shēma veicinās pilsonisko atbildību un beidzot piešķirs tirgus vērtību pilsētas visvairāk apdraudētajam dabas resursam: nedzirdēšanai skrejriteni.",
+      ru: "В пилотной программе, которую похвалили как «фискально медитативную», Рижская дума утвердила систему переменных тарифов на тишину: жители будут платить разные суммы в зависимости от качества ночного покоя в их районе. По словам чиновников, схема стимулирует гражданскую ответственность и наконец придаёт рыночную стоимость самого уязвимого природного ресурса города — не слышать самокат."
+    },
+    fullContent: {
+      en: `RIGA — In what municipal leaders are calling a "modern, data-driven approach to tranquility," Riga City Council on Tuesday unveiled Dynamic Silence Pricing, a first-of-its-kind urban policy that will bill residents based on the purity, duration, and acoustic texture of quiet hours outside their homes.
+
+Beginning in September, households in the Central District, Āgenskalns, Teika, and selected sections of Purvciems will receive monthly Silence Statements detailing how much uninterrupted nighttime calm they consumed between 23:00 and 06:00. Prices will fluctuate according to demand, weather conditions, nearby construction optimism, and whether a man named Uldis has decided to test his motorcycle on Brīvības iela again.
+
+"For too long, silence has been treated as if it simply belongs to everyone," said Deputy Mayor for Livability and Managed Stillness Lelde Vanaga at a press conference held in a room fitted with state-funded acoustic curtains. "That model is unsustainable. Residents who enjoy premium-quality quiet should contribute proportionally, while those in louder districts can benefit from competitive rates or upgraded buffering options. This is fairness, if you listen carefully."
+
+According to a 146-page feasibility study prepared by the Riga Institute of Civic Acoustics, the average resident currently experiences 17 minutes of "meaningful silence" per night, down from 22 minutes in 2019 and a statistically improbable 41 minutes during a brief power outage in 2022. Researchers classified urban quiet into four categories: Basic Silence, Deep Silence, Forest-Adjacent Silence, and Baltic Executive Silence, described as "the kind of stillness usually available only in expensive saunas or in ministries after 16:30 on Fridays."
+
+Under the new pricing model, Basic Silence will remain affordable at €0.12 per minute. Deep Silence, in which no bottles are heard entering a recycling container within a 300-meter radius, may reach €1.40 per minute during weekends. Households seeking Baltic Executive Silence can subscribe to a premium tier that includes pre-muted tram squeal, reduced gull rhetoric, and one complimentary police patrol instructed to stare disapprovingly at any emerging accordionist.
+
+The city says smart sensors mounted on lampposts will monitor ambient noise and distinguish among common disturbances, including modified exhaust systems, emotional balcony conversations, unexplained drilling, and "a single firework set off by someone who appears to have misunderstood the calendar." Officials insist the devices will not record speech content, only tone, velocity, and whether the argument was "domestic, football-related, or philosophical."
+
+Some residents have expressed concern. "I already pay rent, utilities, and psychologically for living above a bar that calls itself a concept," said 34-year-old Miera iela resident Marta Ozoliņa. "Now I have to budget for hearing nothing? Last night I got six free minutes because it was raining sideways and everyone gave up. Is that the future?"
+
+Others are cautiously optimistic. Retired railway engineer Imants Krūmiņš of Teika said the policy could finally reward neighborhoods that have maintained respectable levels of restraint. "We have worked hard here," he said, standing beside a lilac bush with the posture of a man who has filed many complaints. "If someone in the center wants handcrafted silence with low bass contamination, they should pay city rates like everyone else."
+
+Businesses are already adapting. A startup in Pārdaugava, QuietLab Baltic, has begun offering Silence Arbitrage services, advising clients when to sleep according to favorable overnight pricing windows. Founder Rihards Siets said customers could save up to 18% by postponing deep rest until after 02:15 on weekdays, especially during periods of low festival activity and moderate drizzle.
+
+National officials have so far declined to intervene, though one Ministry of Economics representative privately called the program "the first truly Latvian subscription model," noting that citizens have historically shown a willingness to pay extra for conditions that can almost be mistaken for peace.
+
+At press time, Jurmala had announced a rival initiative under which affluent visitors will be allowed to reserve sections of beach where the wind is legally required to sound tasteful.`,
+      lv: `RĪGA — To, ko pašvaldības vadītāji sauc par „mūsdienīgu, datu vadītu pieeju mieram”, otrdien Rīgas dome prezentēja kā Dinamisko klusuma tarifēšanu, pirmo šāda veida pilsētas politiku, kas iedzīvotājiem rēķinās atbilstoši klusuma tīrībai, ilgumam un akustiskajai tekstūrai aiz viņu mājām.
+
+Sākot no septembra, mājsaimniecības Centra rajonā, Āgenskalnā, Teikā un atlasītās Purvciema daļās saņems ikmēneša Klusuma pārskatus, kuros būs norādīts, cik daudz nepārtraukta nakts miera viņi patērējuši no plkst. 23:00 līdz 06:00. Cenas svārstīsies atkarībā no pieprasījuma, laika apstākļiem, tuvējās būvniecības optimisma un tā, vai kāds vārdā Uldis atkal ir nolēmis pārbaudīt savu motociklu Brīvības ielā.
+
+„Pārāk ilgi klusums ir izturēts kā kaut kas, kas vienkārši pieder visiem,” preses konferencē, kas notika telpā ar valsts finansētiem akustiskajiem aizkariem, sacīja mēra vietniece dzīvojamības un pārvaldītā klusuma jautājumos Lelde Vanaga. „Šis modelis nav ilgtspējīgs. Iedzīvotāji, kuri izbauda premium klases klusumu, vajadzētu samaksāt proporcionāli, kamēr tiem trokšņainākajos rajonos var izmantot konkurētspējīgas likmes vai uzlabotas buferizācijas iespējas. Tā ir taisnīgums, ja uzmanīgi paklausās.”
+
+Saskaņā ar 146 lappušu ilgu izvērtējumu, ko sagatavojis Rīgas Pilsoniskās Akustikas institūts, vidējais iedzīvotājs pašlaik nakts laikā piedzīvo 17 minūtes „jēgpilna klusuma”, kas ir mazāk nekā 22 minūtes 2019. gadā un kardināli mazāk par neticamiem 41 minūti īslaicīgas elektroenerģijas pārrāvuma laikā 2022. gadā. Pētnieki pilsētas klusumu klasificēja četrās kategorijās: Pamata klusums, Dziļais klusums, Mežam piegulošais klusums un Baltijas izpildvaras klusums — „tas klusums, kas parasti pieejams tikai dārgās pirtīs vai ministrijās pēc 16:30 piektdienās.”
+
+Saskaņā ar jauno tarifēšanas modeli Pamata klusums paliks pieejams par €0,12 minūtē. Dziļais klusums, kurš paredz, ka 300 metru rādiusā nav saklausāmas pudeles, kas iekrīt šķirošanas konteinerā, var sasniegt €1,40 minūtē nedēļas nogalēs. Mājsaimniecības, kas vēlas Baltijas izpildvaras klusumu, var abonēt premium līmeni, kas ietver iepriekš noslāpētu tramvaja čīkstoņu, samazinātu kaiju retoriku un vienu bezmaksas policijas patruļu, kura norīkota skatīties nosodoši uz jebkuru parādījušos akordeonistu.
+
+Pilsēta saka, ka uz laternām uzstādītie gudrie sensori monitorēs apkārtējo troksni un spēs atšķirt izplatītus traucējumus, tostarp modificētas izplūdes sistēmas, emocionālas balkonu sarunas, neizskaidrojamu urbumu un „vienu salūtu, kuru palaidis kāds, šķiet, kalendāru neatšķirošs cilvēks.” Ierēdņi uzsver, ka iekārtas nerakstīs runas saturu — tikai toni, ātrumu un to, vai strīds bija „ģimenes rakstura, futbola saistīts vai filozofisks.”
+
+Daži iedzīvotāji izrādīja bažas. „Es jau maksāju īri, komunālos un psiholoģiski par to, ka dzīvoju virs bāra, kas sevi dēvē par konceptu,” sacīja 34 gadus vecā Miera ielas iedzīvotāja Marta Ozoliņa. „Tagad man jāplāno budžets, lai par to maksātu, ka neko nedzirdu? Pagājušajā vakarā man iedeva sešas bezmaksas minūtes, jo lija pa diagonāli un visi padevās. Vai tā ir nākotne?”
+
+Citi ir piesardzīgi optimistiski. Pensionētais dzelzceļa inženieris Imants Krūmiņš no Teikas sacīja, ka politika beidzot varētu atalgot apkaimes, kas uzturējušas cienījamas atturības normas. „Mēs te esam smagi strādājuši,” viņš teica, stāvot blakus ceriņu krūmam ar cilvēka pozu, kurš iesniedzis daudz sūdzību. „Ja kāds centrā grib rokdarbu klusumu ar zemu basu piesārņojumu, viņam jāmaksā pilsētas likmes kā visiem pārējiem.”
+
+Uzņēmumi jau pielāgojas. Startups Pārdaugavā QuietLab Baltic sācis piedāvāt klusuma arbitrāžas pakalpojumus, konsultējot klientus, kad gulēt, ņemot vērā izdevīgus nakts tarifus. Dibinātājs Rihards Siets sacīja, ka klienti var ietaupīt līdz 18% atlikšinot dziļo atpūtu līdz pēc plkst. 02:15 darba dienās, it īpaši zemu svētku aktivitāšu un mērena smidzināšanas periodos.
+
+Valsts amatpersonas pagaidām ir atturējušās iejaukties, lai gan viens Ekonomikas ministrijas pārstāvis privāti programmu nosauca par „pirmo patiesi latvisko abonementa modeli”, norādot, ka pilsoņi vēsturiski ir gatavi piemaksāt par apstākļiem, kas gandrīz vien var tikt sajaukti ar mieru.
+
+Preses laikā Jūrmala paziņoja par konkurējošu iniciatīvu, saskaņā ar kuru turīgiem viesiem tiks atļauts rezervēt pludmales posmus, kur vējam likumiski būs jāskan gaumīgi.`,
+      ru: `РИГА — В том, что муниципальные лидеры называют «современным, основанным на данных подходом к умиротворению», Рижская дума во вторник представила Dynamic Silence Pricing — уникальную городскую политику, по которой жителей будут выставлять счета в зависимости от чистоты, продолжительности и акустической текстуры тишины возле их домов.
+
+Начиная с сентября, домохозяйства в Центральном районе, Āgenskalns, Teika и в отдельных участках Purvciems будут получать ежемесячные «Выписки по тишине», в которых укажут, сколько минут непрерывного ночного покоя они потребили в период с 23:00 до 06:00. Цены будут колебаться в зависимости от спроса, погодных условий, оптимизма ближайших стройплощадок и оттого, решил ли некий мужчина по имени Улдис снова протестировать свой мотоцикл на Brīvības iela.
+
+«Слишком долго тишина считалась чем‑то само собой разумеющимся, будто она принадлежит всем без разбора, — заявила на пресс‑конференции заместитель мэра по благоустроенности и управляемому безмолвию Лелде Ванага в зале, занавешенном на государственные деньги акустическими шторами. — Эта модель несостоятельна. Жители, пользующиеся тишиной премиум‑класса, должны вносить пропорциональный вклад, а те, кто живёт в более шумных районах, могут воспользоваться конкурентными тарифами или улучшенными шумопоглощающими опциями. Это справедливость, если вы внимательно слушаете».
+
+Согласно 146‑страничному технико‑экономическому исследованию, подготовленному Рижским институтом гражданской акустики, средний житель в настоящий момент испытывает 17 минут «существенной тишины» за ночь, тогда как в 2019 году это было 22 минуты, а во время кратковременного отключения электричества в 2022 году — статистически невероятные 41 минута. Исследователи разделили городскую тишину на четыре категории: Базовая тишина, Глубокая тишина, Прилесная тишина и Балтийская исполнительная тишина — «такая степень безмолвия бывает обычно только в дорогих саунах или в министерствах после 16:30 по пятницам».
+
+По новой модели тарифов Базовая тишина останется доступной — €0,12 за минуту. Глубокая тишина, при которой в радиусе 300 метров не слышно, как кто‑то выбрасывает бутылки в контейнер для вторсырья, может подниматься до €1,40 за минуту в выходные. Домохозяйства, желающие Балтийскую исполнительную тишину, смогут подписаться на премиум‑уровень, в который войдут приглушённый скрип трамвая, уменьшенная риторика чайк и одна бесплатная полицейская патрульная — инструктированная неодобрительно смотреть на любого появившегося аккордеониста.
+
+Город утверждает, что «умные» датчики, установленные на фонарных столбах, будут мониторить фоновый шум и различать распространённые помехи, включая переделанные выхлопные системы, эмоциональные разговоры на балконах, необъяснимое сверление и «один фейерверк, запущенный кем‑то, кто, похоже, неправильно понял календарь». Чиновники настаивают, что устройства не будут записывать содержание речи — только тон, скорость и классификацию ссоры как «домашняя, футбольная или философская».
+
+Некоторые жители выразили обеспокоенность. «Я уже плачу аренду, коммунальные и психологическую ставку за то, что живу над баром, который называет себя концептом, — сказала 34‑летняя жительница улицы Miera Марта Озолиня. — Теперь мне ещё нужно планировать бюджет на то, чтобы слышать ничего? Прошлой ночью у меня было шесть бесплатных минут, потому что дождь лил боком и все сдались. Это будущее?»
+
+Другие относятся осторожно оптимистично. Пенсионер, железнодорожный инженер Имантс Круминьш из Teika сказал, что политика наконец вознаградит районы, которые поддерживали достойный уровень сдержанности. «Мы здесь много работали, — сказал он, стоя у сиреневого куста с осанкой человека, подавшего немало жалоб. — Если кто‑то в центре хочет ручной работы тишину с низкочастотным загрязнением в минимуме, пусть платит городские тарифы, как все».
+
+Бизнес уже приспосабливается. Стартап в Pārdaugava QuietLab Baltic начал предлагать услуги по арбитражу тишины, советуя клиентам, когда спать в зависимости от выгодных ночных ценовых окон. Основатель Рихардс Ситс заявил, что клиенты могут экономить до 18%, откладывая глубокий сон до после 02:15 в будние дни, особенно в периоды низкой фестивальной активности и умеренного моросящего дождя.
+
+Национальные чиновники пока воздержались от вмешательства, хотя один представитель министерства экономики в частной беседе назвал программу «первой по‑настоящему латвийской моделью подписки», отметив, что граждане исторически готовы доплачивать за условия, которые почти можно принять за покой.
+
+К моменту закрытия номера Юрмала объявила о конкурирующей инициативе, по которой обеспеченные посетители смогут бронировать участки пляжа, где законодательно будет предписано, чтобы ветер звучал со вкусом.`
+    },
+    date: "Apr 12, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/123/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 122,
     slug: "riga-introduces-polite-darkness-pilot-program",
     title: {
@@ -108,7 +195,7 @@ Neskatoties uz opozīcijas partiju kritiku, kuras apgalvo, ka ielu laternām vie
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/122/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 121,
