@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 125,
+    slug: "riga-introduces-polite-silence-zones-on",
+    title: {
+      en: "Riga Introduces ‘Polite Silence Zones’ on Public Transport After Study Finds 84% of Commuters Prefer Emotional Suffering to Small Talk",
+      lv: "Rīga ievieš 'Pieklājīgā klusuma zonas' sabiedriskajā transportā pēc pētījuma, kas rāda, ka 84% braucēju dod priekšroku emocionālām ciešanām nevis virspusējām sarunām",
+      ru: "Рига вводит «зоны вежливого молчания» в общественном транспорте после исследования, показавшего, что 84% пассажиров предпочитают эмоциональные мучения, а не светскую болтовню"
+    },
+    excerpt: {
+      en: "Riga City Council has approved the creation of designated ‘Polite Silence Zones’ on buses, trams, and trolleybuses, formalizing a long-observed local tradition in which passengers avoid eye contact with near-military discipline. Officials say the program will preserve cultural heritage while reducing the psychological strain caused by unsolicited enthusiasm before noon.",
+      lv: "Rīgas dome apstiprinājusi īpašu 'pieklājīgā klusuma zonu' izveidi autobusos, tramvajos un trolejbusos, formalizējot ilgi novēroto vietējo tradīciju, kurā pasažieri ar gandrīz karavīrisku disciplīnu izvairās no acu kontakta. Amatpersonas uzsver, ka programma saglabās kultūras mantojumu un samazinās psiholoģisko spriedzi, ko līdz pulksten divpadsmitiem rada nevēlēta entuziasma uzliesmojumi.",
+      ru: "Рижская дума одобрила создание обозначенных «зон вежливого молчания» в автобусах, трамваях и троллейбусах, формально закрепив давно наблюдаемую местную традицию избегания зрительного контакта с почти военной дисциплиной. По словам чиновников, программа сохранит культурное наследие и снизит психологическое напряжение от нежелательного энтузиазма до полудня."
+    },
+    fullContent: {
+      en: `RIGA — In what officials are calling “a modest but historically necessary step,” Riga City Council on Tuesday unveiled a new public transport initiative establishing ‘Polite Silence Zones’ across the capital’s buses, trams, and trolleybuses, legally protecting commuters from casual conversation, energetic greetings, and what one document describes as “unlicensed optimism.”
+
+The policy follows a 146-page municipal study conducted over eight months by the Riga Institute for Social Calm, which found that 84% of passengers would rather miss their stop than continue a conversation that began with “Lovely weather today, isn’t it?” A further 67% reported feeling “personally ambushed” by strangers who sit down and immediately begin discussing mushrooms, real estate, or the mayor.
+
+Under the new system, the rear third of every vehicle will be marked with dark blue stickers depicting a neutral face gazing into the middle distance. In these zones, passengers will be expected to maintain accepted standards of urban reserve, including looking out the window even when it is dark, nodding only in emergencies, and keeping all emotional reactions “private, internal, and preferably unresolved.” The rules will apply on all routes, with enhanced enforcement on the 1st tram, where authorities say the atmosphere has become “unpredictably social” since the opening of several specialty coffee shops.
+
+Deputy Chair of Mobility and Quiet Affairs Elīna Zālīte said the measure is not about hostility but about “respecting the delicate ecosystem of Baltic public life.”
+
+“We are not banning communication,” Zālīte told reporters at a press conference held with unusual restraint. “We are simply creating safe conditions in which residents may continue the traditional practice of standing 14 centimeters apart and pretending not to notice each other for 23 consecutive minutes.”
+
+Transport inspectors will receive additional training to identify breaches. Offenses include initiating a conversation before the third stop, laughing at full volume, and asking another passenger whether they know if the bus goes to Ķengarags when the route number clearly suggests otherwise. Repeat violators may be relocated to the Experimental Interaction Carriage, a pilot project on selected routes in which extroverts will be seated together and encouraged to “process their energy harmlessly.”
+
+Reaction among residents has been overwhelmingly supportive. In Purvciems, accountant and daily trolleybus rider Mārtiņš Bērziņš, 41, called the announcement “the most seen I have ever felt by a public institution.”
+
+“Last winter a man in a red scarf asked me where I bought my gloves,” Bērziņš said, visibly steadying himself at the memory. “I answered out of politeness, and suddenly we were discussing thermal linings until Central Station. There was no legal framework to protect me.”
+
+Not everyone is convinced. Ilze Feldmane, owner of the Riga café chain Sun & Cinnamon, warned that the new silence standards could harm the city’s emerging brunch economy.
+
+“If people become too comfortable not speaking, who will say things like ‘Wow, this cardamom bun is insane’ loudly enough to influence the next table?” she asked. “We must think long term.”
+
+City officials insist the policy strikes the right balance between modern mobility and national temperament. To assist foreign visitors, Rīgas Satiksme will introduce multilingual signage explaining that silence should not be interpreted as anger, sadness, or passive aggression, but rather “a premium civic service.”
+
+A six-week pilot on tram routes 5 and 11 reportedly reduced audible sighing by 32% and nearly eliminated spontaneous weather commentary altogether. Encouraged by the results, the council is already studying whether similar protected quiet zones could be extended to pharmacies, supermarket checkout lines, and one especially vulnerable section of the Jurmala train during sandal season.
+
+For now, authorities say they are proud to offer Riga residents something many felt they had already been practicing unofficially for decades: the right to share a confined space with hundreds of fellow citizens in complete mutual discretion.`,
+      lv: `Rīga — To, ko amatpersonas dēvē par 'niecīgu, bet vēsturisku nepieciešamību', otrdien Rīgas dome prezentēja jaunu sabiedriskā transporta iniciatīvu — 'pieklājīgā klusuma zonas', kas visos galvaspilsētas autobusos, tramvajos un trolejbusos juridiski aizsargās pasažierus no ikdienišķām sarunām, enerģiskiem sveicieniem un, kā vienā dokumentā rakstīts, 'neautorizēta optimisma'.
+
+Politika balstīta uz 146 lappušu pašvaldības pētījumu, ko astoņu mēnešu laikā veica Rīgas Sociālā miera institūts; pētījums atklāja, ka 84% pasažieru labprātāk izlaistu savu pieturu, nekā turpinātu sarunu, kas sākusies ar 'Kāds jauks laiks šodien, vai ne?' Turklāt 67% apgalvoja, ka nejauši jūtas 'personiski pārsteigti' cilvēku, kuri apsēžas un uzreiz sāk runāt par sēnēm, nekustamo īpašumu vai mēru.
+
+Saskaņā ar jauno sistēmu katra transportlīdzekļa aizmugurējā trešdaļa tiks iezīmēta ar tumši zilām uzlīmēm, kurās attēlota neitrāla seja, kas raugās tālumā. Šajās zonās pasažieriem jāievēro pilsētiskās atturības pieņemamie standarti, tostarp skatīties ārā pa logu pat tad, kad ir tumšs, pamāt tikai ārkārtas gadījumos un visas emocionālās reakcijas uzturēt 'privātas, iekšējas un vēlams neatrisinātas'. Noteikumi stāsies spēkā visos maršrutos, īpaši stingri tos piemērojot 1. tramvajā, kur varasiestādes apgalvo, ka atmosfēra kopš dažādu specializēto kafijas veikalu atvēršanas kļuvusi 'neprognozējami sociāla'.
+
+Mobilitātes un klusuma lietu vietniece Elīna Zālīte sacīja, ka pasākums nav pret komunikāciju, bet gan par 'delikātās Baltijas sabiedriskā dzīves ekosistēmas respektēšanu'.
+
+'Mēs neaizliedzam saziņu,' Zālīte žurnālistiem teica preses konferencē, kas notika ar neparastu atturību. 'Mēs vienkārši radām drošas apstākļus, kuros iedzīvotāji var turpināt tradicionālo praksi — stāvēt 14 centimetru attālumā un 23 minūtes pēc kārtas atdarināt, ka viens otru nepamanām.'
+
+Transporta inspektori saņems papildu apmācības, lai atpazītu pārkāpumus. Sodi paredzēti par sarunas uzsākšanu pirms trešās pieturas, skaļu smiešanos un jautājumu citam pasažierim, vai autobuss ved uz Ķengaragu, kad maršruta numurs skaidri liecina pretējo. Atkārtoti pārkāpēji var tikt pārvietoti uz Eksperimentālo mijiedarbības vagonu, pilotprojektu izvēlētos maršrutos, kur ekstraverti sēdēs kopā un tiks mudināti 'nekaitīgi apstrādāt savu enerģiju'.
+
+Iedzīvotāju reakcija bijusi pārliecinoši atbalstoša. Purvciemā grāmatvedis un ikdienas trolejbusa lietotājs Mārtiņš Bērziņš, 41 gadu, paziņoja, ka šī ziņa ir 'visredzamākais, kā jebkad esmu juties no publiskas iestādes'.
+
+'Pagājušajā ziemā vīrietis sarkanā šallē man pajautāja, kur pērku cimdus,' Bērziņš teica, redzami atgūstoties no atmiņas. 'Es atbildēju pieklājības pēc, un pēkšņi mēs līdz Centrālajai stacijai diskutējām par termooderēm. Man nebija juridiska regulējuma, kas mani aizsargātu.'
+
+Ne visi ir pārliecināti. Kafejnīcu tīkla Sun & Cinnamon īpašniece Ilze Feldmane brīdināja, ka jaunie klusuma standarti var kaitēt pilsētas augošajai brokastu ekonomikai.
+
+'Ja cilvēki kļūs pārāk ērti nesarunāties, kas tad skaļi pateiks kaut ko līdzīgu `,
+      ru: `РИГА — В том, что чиновники называют «скромным, но исторически необходимым шагом», во вторник Рижская дума представила новую инициативу в общественном транспорте, вводящую «зоны вежливого молчания» на автобусах, трамваях и троллейбусах столицы, юридически защищая пассажиров от ненавязчивых разговоров, энергичных приветствий и того, что в одном документе описано как «оптимизм без лицензии». 
+
+Политика следует за 146-страничным муниципальным исследованием, проведённым в течение восьми месяцев Институтом социального спокойствия Риги, которое показало, что 84% пассажиров предпочли бы пропустить свою остановку, чем продолжать разговор, начавшийся с «Какая сегодня прекрасная погода, правда?» Ещё 67% заявили, что чувствовали себя «лично засадами» со стороны незнакомцев, которые садятся и сразу начинают обсуждать грибы, недвижимость или мэра. 
+
+По новой системе задняя треть каждого транспортного средства будет помечена тёмно-синими стикерами с изображением нейтрального лица, смотрящего в никуда. В этих зонах от пассажиров ожидается соблюдение принятых городских норм сдержанности, включая смотреть в окно даже если темно, кивать только в экстренных случаях и держать все эмоциональные реакции «внутренними, личными и желательно неразрешёнными». Правила будут действовать на всех маршрутах с усиленным контролем на трамвае №1, где власти заявляют, что обстановка стала «непредсказуемо социальной» после открытия нескольких специализированных кофеен. 
+
+Заместитель председателя по мобильности и тихим делам Эліна Заліте сказала, что мера не направлена на враждебность, а на «уважение к деликатной экосистеме балтийской общественной жизни». 
+
+«Мы не запрещаем коммуникацию», — сказала Залите на пресс-конференции, прошедшей с необычной степенью сдержанности. «Мы просто создаём безопасные условия, в которых жители могут продолжать традиционную практику стоять на расстоянии 14 сантиметров друг от друга и делать вид, что не замечают друг друга в течение 23 подряд минут». 
+
+Транспортные инспекторы пройдут дополнительное обучение по выявлению нарушений. Нарушениями считаются: начинать разговор до третьей остановки, громко смеяться и спрашивать у другого пассажира, знает ли он, едет ли автобус до Кенгарага, когда номер маршрута явно это опровергает. Повторные нарушители могут быть перемещены в «Экспериментальный вагон взаимодействия», пилотный проект на избранных маршрутах, где экстраверты будут сидеть вместе и поощряться «перерабатывать свою энергию без вреда». 
+
+Реакция горожан была в подавляющем большинстве поддерживающей. В Пурвциемсе бухгалтер и постоянный пассажир троллейбуса Мārtiņš Bērziņš, 41, назвал объявление «наиболее замечательной заботой со стороны общественного учреждения, которую я когда-либо испытывал». 
+
+«Прошлой зимой мужчина в красном шарфе спросил, где я купил перчатки», — сказал Берзиньш, заметно вздрагивая при воспоминании. «Я ответил из вежливости, и вдруг мы обсуждали термоподкладки до Центрального вокзала. У меня не было правовой защиты». 
+
+Не все разделяют оптимизм. Ильзе Фелдмане, владелица рижской сети кафе Sun & Cinnamon, предупредила, что новые стандарты тишины могут навредить зарождающейся бранч-экономике города. 
+
+«Если люди слишком привыкнут не разговаривать, кто будет громко заявлять: ‚Вау, эта булочка с кардамоном — бомба‘ достаточно громко, чтобы повлиять на столик рядом?» — спросила она. «Надо думать на перспективу». 
+
+Городские власти настаивают, что политика находит правильный баланс между современной мобильностью и национальным темпераментом. Для помощи иностранным гостям Rīgas Satiksme введёт многоязычные знаки, поясняющие, что молчание не следует трактовать как злость, грусть или пассивную агрессию, а как «премиальную гражданскую услугу». 
+
+Шестинедельный пилот на трамвайных маршрутах 5 и 11, как сообщается, снизил слышимые вздохи на 32% и почти полностью искоренил спонтанные комментарии о погоде. Воодушевлённый результатами, совет уже изучает возможность расширения подобно защищённых зон тишины на аптеки, очереди на кассах супермаркетов и на один особенно уязвимый вагон поезда в Юрмале в сезон сандалий. 
+
+Пока что власти говорят, что гордятся тем, что предлагают жителям Риги то, что многие считали уже практикуемым неофициально десятилетиями: право делить замкнутое пространство с сотнями сограждан в полной взаимной деликатности.`
+    },
+    date: "Apr 14, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/125/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 124,
     slug: "jrmala-introduces-premium-silence-zones-for",
     title: {
@@ -102,7 +195,7 @@ Amatpersonas saka, ka ilgtermiņa mērķis ir pozicionēt Jūrmalu kā Baltijas 
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/124/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 123,
