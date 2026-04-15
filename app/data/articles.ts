@@ -18,6 +18,91 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 126,
+    slug: "jrmala-introduces-dynamic-quiet-hours-siren",
+    title: {
+      en: "Jūrmala Introduces ‘Dynamic Quiet Hours’ Siren To Alert Residents It Is Time To Be More Peaceful",
+      lv: "Jūrmala ievieš „dinamiskās klusuma stundas” sirēnu, lai iedzīvotājiem atgādinātu — laiks būt mierīgākiem",
+      ru: "Юрмала вводит сирену «Динамические тихие часы», чтобы оповещать жителей о том, что пора стать спокойнее"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have unveiled a new coastal noise-management system featuring a 118-decibel municipal siren that sounds every evening to remind residents to keep noise down. City leaders say the initiative balances public order with the region’s long-standing commitment to making minor inconveniences dramatically worse before solving them.",
+      lv: "Jūrmalas amatpersonas atklājušas jaunu piekrastes trokšņu pārvaldības sistēmu ar 118 decibelus skanošu pašvaldības sirēnu, kas katru vakaru izskan, lai atgādinātu iedzīvotājiem pazemināt trokšņa līmeni. Pilsētas vadība uzsver, ka iniciatīva sabalansē sabiedrisko kārtību ar reģiona ilgstošo apņemšanos padarīt nelielas neērtības dramatiski sliktākas, pirms tās risināt.",
+      ru: "Чиновники Юрмалы представили новую прибрежную систему управления шумом с муниципальной сиреной мощностью 118 децибел, которая звучит каждый вечер, напоминая жителям соблюдать тишину. Городские власти заявляют, что инициатива уравновешивает общественный порядок с давней приверженностью региона драматизировать мелкие неудобства прежде, чем их решать."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what city officials are calling a “modern, data-driven approach to tranquility,” Jūrmala Municipality this week launched a new noise reduction program centered around a powerful civil-defense-style siren that will sound each evening at 22:00 to inform residents that quiet hours have begun.
+
+The pilot scheme, officially titled Dynamic Acoustic Transition Protocol, was approved by the municipal committee for urban harmony after a 6-hour session in which members reportedly argued over whether birds should be considered “self-employed musicians.” According to the city, the siren can be heard from Majori to Ķemeri under standard atmospheric conditions, and as far as a disappointed fisherman in Roja when humidity is high.
+
+Deputy Executive Director for Seasonal Orderliness Līga Feldmane said the measure is intended to reduce confusion among both locals and tourists, especially during the summer months when visitors arrive in Jūrmala with “deeply unserious relationships to silence.”
+
+“People often claim they did not know when quiet hours began,” Feldmane told reporters while standing beside the newly installed siren tower near Dzintari Concert Hall. “Now there can be no ambiguity. At exactly 22:00, everyone within 14 kilometers will receive a clear, emotionally decisive reminder to lower their voices.”
+
+Municipal data suggest the city received 3,842 noise complaints last summer, 41% of them related to apartment renovations begun at spiritually aggressive hours, and 22% involving Bluetooth speakers on otherwise defenseless beaches. Another 9% concerned a single amateur saxophonist in Bulduri whom the report describes only as “known to authorities.”
+
+To address concerns that the siren itself may be louder than the violations it aims to prevent, city planners emphasized that the sound will last only 11 seconds, followed by a polite recorded message in Latvian, English, Russian, and “firmly disappointed body language.” During holiday weekends, an additional chime will remind people that singing nostalgic songs after midnight is allowed only if all participants are genuinely sad.
+
+Reaction among residents has been mixed. “It’s reassuring,” said pensioner Velta Ozoliņa, 74, who lives near Dubulti and has already filed 19 complaints this year. “Before, I had to open the window and hiss at people individually. This saves energy and lets the municipality hiss on my behalf.”
+
+Others were less enthusiastic. Artūrs Kļaviņš, owner of the beach café Amber Mood, said the first test nearly caused three customers to dive under their tables. “One German tourist asked if this meant sea mines had returned,” he said. “I told him no, this is hospitality reform.”
+
+Tourism officials nevertheless remain optimistic. Jūrmala Tourism Development Board chair Inese Miezīte argued the system could become a signature attraction. “Many European resorts offer sunsets, cocktails, and seaside relaxation,” she said. “Only Jūrmala offers the thrilling experience of being acoustically disciplined by local government.”
+
+The city has already announced phase two of the initiative, which will involve mobile inspectors equipped with decibel meters, clipboards, and what procurement documents describe as “non-escalatory knitted vests.” If the pilot is successful, quieter daytime reminder sirens may also be introduced to notify residents that the beach is calm, the queue at the shop is moving normally, and there is no reason to discuss municipal parking policy at full volume.
+
+At press time, officials confirmed the first week of the program had already reduced unauthorized nighttime noise by 63%, while increasing startled tea spillage by 112%.`,
+      lv: `JŪRMALA — To, ko pilsētas amatpersonas dēvē par “modernu, datu virzītu pieeju klusumam”, šonedēļ Jūrmalas pašvaldība uzsāka jaunu trokšņa samazināšanas programmu, centrā liekot jaudīgu civilās aizsardzības tipa sirēnu, kas katru vakaru plkst. 22:00 izskanēs, lai informētu iedzīvotājus, ka klusuma stundas ir sākušās.
+
+Pilotprojekts, oficiāli nosaukts par Dinamisko akustiskās pārejas protokolu, tika apstiprināts pilsētas harmonijas komitejā pēc sešu stundu sēdes, kurā, kā ziņots, locekļi diskutējuši par to, vai putni jāuzskata par “pašnodarbinātiem mūziķiem”. Pēc pilsētas datiem, sirēnu var dzirdēt no Majoriem līdz Ķemeriem parastajos atmosfēras apstākļos, un pat līdz Rojas apbēdinātajam zvejniekam, kad gaisa mitrums ir augsts.
+
+Izpilddirektora vietniece sezonālās kārtības jautājumos Līga Feldmane sacīja, ka pasākums paredzēts, lai samazinātu neskaidrības gan vietējiem iedzīvotājiem, gan tūristiem, it īpaši vasaras mēnešos, kad viesi Jūrmalā ierodas ar “dziļi neuzlūkošām attiecībām pret klusumu”.
+
+“Cilvēki bieži apgalvoja, ka nezināja, kad sākas klusuma stundas,” Feldmane žurnālistiem teica, stāvot pie jaunuzstādītā sirēnas torņa pie Dzintaru koncertzāles. “Tagad nevar būt nekādu divdomību. Tieši plkst. 22:00 ikviens 14 kilometru rādiusā saņems skaidru, emocionāli pārliecinošu atgādinājumu nolaist balsi.”
+
+Pašvaldības dati liecina, ka pagājušajā vasarā pilsēta saņēmusi 3 842 trokšņa sūdzības, 41% no tām saistītas ar dzīvokļu remontiem, kas sākti garīgi agresīvās stundās, un 22% — ar Bluetooth skaļruņiem uz citādi neaizsargātām pludmalēm. Vēl 9% attiecās uz vienu amatieru saksofonistu Bulduros, kuru ziņojumā apraksta vienīgi kā “varas iestādēm zināmu”.
+
+Lai mazinātu bažas, ka pati sirēna varētu būt skaļāka par pārkāpumiem, kurus tā cenšas novērst, pilsētas plānotāji uzsvēruši, ka skaņa skanēs tikai 11 sekundes, kam sekos pieklājīgs ierakstīts paziņojums latviešu, angļu, krievu valodā un ar “stingri apbēdinātas ķermeņa valodas” vizuālu elementu. Brīvdienu nedēļas nogalēs papildu signāls atgādinās, ka pēc pusnakts nostalgiskas dziesmas dziedāt ir atļauts tikai tad, ja visi dalībnieki ir patiesi bēdīgi.
+
+Iedzīvotāju reakcija bijusi dalīta. “Tas nomierina,” sacīja 74 gadus vecā pensionāre Velta Ozoliņa, kura dzīvo Dubultos un šogad jau iesniegusi 19 sūdzības. “Agrāk man nācās atvērt logu un katram atsevišķi šņākt. Tagad tas taupa spēkus un ļauj pašvaldībai šņākt manā vietā.”
+
+Citi bija mazāk sajūsmināti. Pludmales kafejnīcas Amber Mood īpašnieks Artūrs Kļaviņš teica, ka pirmais tests gandrīz lika trim klientiem ielīst zem galdiem. “Vācu tūrists pajautāja, vai tas nozīmē, ka jūras mīnas ir atgriezušās,” viņš stāstīja. “Es teicu — nē, tā ir viesmīlības reforma.”
+
+Tomēr tūrisma pārstāvji paliek optimistiski. Jūrmalas Tūrisma attīstības padomes priekšsēdētāja Inese Miezīte apgalvoja, ka sistēma var kļūt par atpazīstamības elementu. “Daudzi Eiropas kūrorti piedāvā saulrietus, kokteiļus un piejūras relaksāciju,” viņa sacīja. “Tikmēr tikai Jūrmala piedāvā aizraujošu pieredzi — būt akustiski disciplinētam no vietējās varas puses.”
+
+Pilsēta jau paziņojusi par iniciatīvas otrās fāzes plāniem, kas ietvers mobilos inspektorus ar decibelmetriem, klipbordiem un to, ko iepirkuma dokumenti apraksta kā “nekonfliktējošas adītās vestes”. Ja pilots būs veiksmīgs, var tikt ieviestas arī klusākas dienas atgādinājuma sirēnas, lai paziņotu iedzīvotājiem, ka pludmale ir mierīga, veikalā rinda virzās normāli un nav iemesla apspriest pašvaldības stāvvietu politiku pilnā skaļumā.
+
+Preses izdevuma tapšanas brīdī amatpersonas apstiprināja, ka programmas pirmajā nedēļā neatļauto nakts trokšņu apjoms samazinājies par 63%, vienlaikus pārsteiguma dēļ izlieto tējas daudzums pieaudzis par 112%.`,
+      ru: `Юрмала — В том, что городские чиновники называют «современным, основанным на данных подходом к спокойствию», муниципалитет Юрмалы на этой неделе запустил новую программу по снижению шума, центром которой стала мощная сирена в стиле гражданской обороны, которая будет звучать каждый вечер в 22:00, чтобы уведомлять жителей о начале тихих часов.
+
+Пилотный проект, официально названный Протоколом динамического акустического перехода, был одобрен муниципальным комитетом по городскому гармоничному развитию после шестичасовой сессии, в ходе которой, как сообщают, члены спорили о том, следует ли считать птиц «самозанятыми музыкантами». По данным города, сирену слышно от Майори до Кемери при стандартных атмосферных условиях, а в дни высокой влажности — даже до разочарованного рыбака в Роя.
+
+Заместитель исполнительного директора по сезонному порядку Лига Фельдмане сказала, что мера призвана сократить недопонимание как среди местных жителей, так и среди туристов, особенно летом, когда посетители приезжают в Юрмалу с «крайне несерьёзным отношением к тишине». «Люди часто заявляют, что не знали, когда начинаются тихие часы», — сказала Фельдмане репортёрам, стоя рядом с недавно установленной башней сирены у концертного зала Дзинтари. «Теперь двусмысленности быть не может. Ровно в 22:00 все в радиусе 14 километров получат чёткое, эмоционально решительное напоминание понизить голос».
+
+Муниципальные данные показывают, что прошлым летом город получил 3 842 жалобы на шум, 41% из которых были связаны с ремонтом квартир, начатым в «духовно агрессивные» часы, а 22% — с Bluetooth-колонками на иначе беззащитных пляжах. Ещё 9% касались одного любительского саксофониста в Булдури, которого в отчёте описывают лишь как «известного властям».
+
+Чтобы развеять опасения, что сама сирена может оказаться громче тех нарушений, которые она призвана предотвращать, городские планировщики подчёркивают, что звук будет длиться всего 11 секунд, после чего последует вежливо записанное сообщение на латышском, английском, русском и «категорично разочарованной мимике». В праздничные уикенды дополнительный звонок напомнит людям, что пение ностальгических песен после полуночи разрешено только если все участники искренне грустны.
+
+Реакция жителей оказалась смешанной. «Это успокаивает», — сказала пенсионерка Вельта Озолиня, 74 года, которая живёт рядом с Дубулты и уже подала 19 жалоб в этом году. «Раньше мне приходилось открывать окно и шипеть на людей по одному. Это экономит силы и позволяет муниципалитету шипеть за меня».
+
+Другие были менее восторженны. Артурс Клявиньш, владелец пляжного кафе Amber Mood, рассказал, что первый тест едва не заставил троих клиентов нырнуть под столы. «Один немецкий турист спросил, означает ли это возвращение морских мин», — сказал он. «Я ответил ему, что нет, это реформа гостеприимства».
+
+Тем не менее чиновники по туризму остаются оптимистичными. Председатель Совета по развитию туризма Юрмалы Инесе Миезите утверждает, что система может стать фирменной достопримечательностью. «Многие европейские курорты предлагают закаты, коктейли и отдых у моря», — сказала она. «Только Юрмала предлагает захватывающий опыт акустической дисциплины со стороны местного самоуправления».
+
+Город уже объявил вторую фазу инициативы, которая предполагает мобильных инспекторов с децибелометрами, планшетами и тем, что в документах закупки описывается как «неэскалационные вязаные жилеты». Если пилот окажется успешным, могут также ввести более тихие дневные напоминательные сирены, чтобы уведомлять жителей о том, что пляж спокоен, очередь в магазине движется нормально и нет причин обсуждать муниципальную парковочную политику во весь голос.
+
+На момент выхода статьи чиновники подтвердили, что за первую неделю программы несанкционированный ночной шум сократился на 63%, в то же время количество пролившегося от испуга чая выросло на 112%.`
+    },
+    date: "Apr 15, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/126/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 125,
     slug: "riga-introduces-polite-silence-zones-on",
     title: {
@@ -108,7 +193,7 @@ Ne visi ir pārliecināti. Kafejnīcu tīkla Sun & Cinnamon īpašniece Ilze Fel
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/125/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 124,
