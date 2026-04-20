@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 131,
+    slug: "riga-introduces-quiet-hour-for-aggressive",
+    title: {
+      en: "Riga Introduces Quiet Hour for Aggressive Seagulls, Says Downtown Has Become 'Emotionally Unwalkable'",
+      lv: "Rīga ievieš klusuma stundu agresīvajām kaijām, paziņo, ka centrs kļuvis \"emocionāli neapstaigājams\"",
+      ru: "Рига вводит тихий час для агрессивных чаек, заявляя, что центр города стал «эмоционально непроходимым»"
+    },
+    excerpt: {
+      en: "Municipal officials in Riga have approved a daily 'quiet hour' intended to reduce hostile gull activity in the city center after residents reported being screamed at, followed, and psychologically profiled by birds near canal benches and pastry kiosks. Authorities insist the measure is temporary, though several civil servants admitted the gulls now appear to understand basic zoning law.",
+      lv: "Rīgas pašvaldības amatpersonas ir apstiprinājušas ikdienas \"klusuma stundu\", lai mazinātu naidīgu kaiju aktivitāti pilsētas centrā, pēc tam, kad iedzīvotāji ziņoja, ka pie kanāla soliņiem un konditorejas kioskiem putni viņiem kliedz, seko un psiholoģiski profilē. Varas iestādes apgalvo, ka pasākums ir pagaidu rakstura, lai gan vairāki valsts ierēdņi atzina, ka kaijas tagad, šķiet, saprot pamatzonēšanas likumus.",
+      ru: "Муниципальные власти Риги утвердили ежедневный «тихий час», призванный сократить враждебную активность чаек в центре города после того, как жители пожаловались, что птицы кричали на них, следовали за ними и психологически профайлировали у скамеек на набережных и у киосков с выпечкой. Власти настаивают, что мера временная, хотя несколько чиновников признались, что чайки теперь, похоже, понимают основы зонирования."
+    },
+    fullContent: {
+      en: `RIGA — In a 38-page emergency urban coexistence plan released Tuesday morning, Riga City Council announced the introduction of a daily Quiet Hour for Aggressive Seagulls, a pilot program aimed at restoring what officials described as “minimal emotional safety” in the capital’s central districts.
+
+Beginning next Monday, all public benches within a 2.4-kilometer radius of the Freedom Monument will be designated low-stimulation zones from 13:00 to 14:00, during which residents are encouraged to consume baked goods indoors, avoid direct eye contact with large coastal birds, and refrain from carrying visible smoked fish. Municipal loudspeakers will broadcast calming sea recordings “to remind the gulls of their maritime roots and reduce urban identity confusion.”
+
+The move follows a record summer in bird-related intimidation. According to the Riga Municipal Order Department, the city received 1,842 complaints between May and August concerning “non-physical yet spiritually forceful gull conduct,” a 67% increase from last year. Of those incidents, 413 involved pastry interception, 229 involved prolonged rooftop criticism, and 51 were classified as “coordinated sandwich extraction events.”
+
+“We are no longer dealing with opportunistic scavenging,” said Deputy Executive Director for Public Space Adaptation, Ilze Grinberga, speaking at a press conference beside a map marked with red circles over Kronvalda Park, Origo, and what she called “the entire concept of Miera iela after lunch.” “These birds have become familiar with commuter routines. They wait near tram stops. They distinguish hesitation. In at least three cases, they selected victims carrying artisanal curd buns over industrial ones.”
+
+Residents say the city’s response, while unusual, reflects the scale of the problem. Office worker Martins Ozols, 34, described a recent incident near Bastejkalns as “less an attack than a campaign.”
+
+“I was holding a piradzins in a neutral manner,” Ozols said. “One gull landed in front of me, another on a lamp post behind me, and a third just stared from the railing like it already knew my PIN code. I ended up giving them the whole paper bag and apologizing for my tone.”
+
+Business owners have also adapted. Several Old Riga cafes have begun offering “discreet pastry sleeves,” matte gray wrappers designed not to trigger aerial attention. At one kiosk near the Central Market, staff now ask customers whether they plan to eat immediately, transport the item securely, or “gamble publicly.”
+
+The Latvian Ornithological Society has urged the public not to demonize the species, noting that the gulls are responding to habitat disruption, food availability, and what one researcher delicately termed “a dramatic rise in open-faced confidence among pedestrians.” Field biologist Dr. Uldis Veips said the behavior is concerning but not irrational.
+
+“Urban gulls are extremely intelligent,” Veips explained. “In controlled tests, they identified the sound of a rustling khachapuri bag from 41 meters away and showed a clear preference for targeting tourists who had just said, ‘Oh look, how cute.’ We believe they have also learned that men in linen shirts react slower.”
+
+Not everyone supports the city’s strategy. Opposition councilor Andris Keisters called Quiet Hour “performative weakness” and proposed a more assertive policy based on “mutual respect and firmer hat architecture.” His alternative plan includes wider brims, anti-hover umbrellas, and a digital reporting tool allowing residents to rank gull hostility on a five-point scale from “interested” to “acting like it pays rent.”
+
+Despite criticism, municipal officials remain optimistic. If the pilot succeeds, Riga may expand the program to include evening de-escalation periods near the canal and seasonal conflict mediation around Dziesmu svetki food stalls. For now, city workers have begun installing signs reading PLEASE ENJOY SNACKS RESPONSIBLY.
+
+By late afternoon Tuesday, at least six gulls had been observed sitting directly on the new signs, silent, composed, and according to one witness, “looking like they were reviewing the policy language before exploiting a loophole.”`,
+      lv: `RĪGA — Otrdienas rītā publicētā 38 lappušu ārkārtas pilsētas līdzāspastāvēšanas plānā Rīgas dome paziņoja par ikdienas "Klusuma stundu agresīvajām kaijām" ieviešanu — pilotprogrammu, kuras mērķis ir atjaunot to, ko amatpersonas raksturoja kā „minimālu emocionālo drošību” galvaspilsētas centrālajos rajonos.
+
+Sākot ar nākamo pirmdienu, visi publiskie soli līdz 2,4 kilometru rādiusā ap Brīvības pieminekli tiks noteikti kā zemas stimulācijas zonas no pulksten 13:00 līdz 14:00, kuras laikā iedzīvotāji tiek aicināti konditorejas izstrādājumus ēst iekštelpās, izvairīties no tieša acu kontakta ar lielām piekrastes putnēm un nesniegties pa rokai ar redzami nēsātām kūpinātām zivīm. Pa pašvaldības skaļruņiem tiks atskaņotas nomierinošas jūras ierakstu programmas "lai atgādinātu kaijām par viņu jūras saknēm un mazinātu pilsētas identitātes apjukumu."
+
+Lēmums seko rekordvasarai saistībā ar putnu izdarībām. Pēc Rīgas Pašvaldības kārtības nodaļas datiem pilsēta no maija līdz augustam saņēma 1 842 sūdzības par "nefizisku, tomēr garīgi spēcīgu kaiju rīcību", kas ir par 67% vairāk nekā pagājušajā gadā. No šiem gadījumiem 413 bija saistīti ar konditorejas izstrādājumu pārtveršanu, 229 ar ilgstošu jumta kritiku un 51 tika klasificēts kā "koordinētas sendviču izņemšanas operācijas."
+
+"Vairs nerunājam par oportunistisku plēsoņu meklēšanu," sacīja publiskās telpas adaptācijas vietniece Ilze Grinberga preses konferencē blakus kartei ar sarkanām aplīmēm pār Kronvalda parku, Origo un to, ko viņa nosauca par "visu Miera ielas koncepciju pēc pusdienām." "Šīs putnas ir iepazinušās ar sabiedriskā transporta rutīnām. Tās gaida pie tramvaja pieturām. Tās atpazīst vilcināšanos. Vismaz trijos gadījumos tās izvēlējās upurus, kuri nesa amatnieciski darinātus biezpiena pīrādziņus, nevis rūpnieciskos."
+
+Iedzīvotāji saka, ka pilsētas atbilde, lai arī neparasta, atspoguļo problēmas apmērus. Biroja darbinieks Mārtiņš Ozols, 34, nesen Bastejkalna tuvumā piedzīvoja to, ko aprakstīja kā "drīzāk kampaņu nekā uzbrukumu."
+
+"Es turēju piradzinu pilnīgi neitrālā veidā," sacīja Ozols. "Viena kaija nosēdās man priekšā, otra uz laternas aiz muguras, un trešā vienkārši skatījās no balustrādes kā jau zinātu manu PIN kodu. Beigu beigās es iedevu tām visu papīra maisiņu un atvainojos par savu toni."
+
+Uzņēmēji arī ir pielāgojušies. Vairāki Vecrīgas kafejnīcas ir sākušas piedāvāt "diskrētas konditorejas ietilpjas" — matēti pelēkus iepakojumus, kas nav paredzēti, lai pievērstu gaisa uzmanību. Vienā kioska pie Centrāltirgus darbinieki tagad jautā klientiem, vai viņi plāno ēst uzreiz, droši transportēt izstrādājumu vai "riskēt publiski."
+
+Latvijas Ornitoloģijas biedrība aicinājusi sabiedrību nepadarīt sugu par velnu, norādot, ka kaijas reaģē uz dzīvesvietas izmaiņām, pieejamo barību un to, ko viens pētnieks diplomātiski nosauca par "dramatisku atklāto uzkodu pārliecības pieaugumu starp gājējiem." Lauku biologs Dr. Uldis Veips sacīja, ka uzvedība ir satraucoša, bet ne neracionāla.
+
+"Pilsētas kaijas ir ārkārtīgi inteliģentas," skaidroja Veips. "Kontrolētos testos tās no 41 metra attāluma atpazina hačapurija maiņas krakšķi un skaidri priekšroku deva tūristiem, kuri tikko bija teikuši: 'Ak, paskat, cik mīļi.' Mēs uzskatām, ka tās arī ir iemācījušās, ka vīrieši linu kreklos reaģē lēnāk." 
+
+Ne visi atbalsta pilsētas stratēģiju. opozīcijas deputāts Andris Keisters sauca Klusuma stundu par "izrādīšanās vājum" un ierosināja agresīvāku politiku, kas balstīta uz "savstarpēju cieņu un stingrāku cepuru arhitektūru." Viņa alternatīvā programma paredz plašākas cepuru maliņas, "pretpeldēšanas" lietussargus un digitālu ziņošanas rīku, kas ļautu iedzīvotājiem novērtēt kaiju naidīgumu piecu punktu skalā no "interesējas" līdz "rīkojas tā, it kā maksātu īri." 
+
+Neskatoties uz kritiku, pašvaldības amatpersonas paliek optimistiskas. Ja pilots izrādīsies sekmīgs, Rīga var paplašināt programmu, iekļaujot vakara deeskalācijas stundas pie kanāla un sezonālu konflikta mediāciju ap Dziesmu svētku ēdināšanas punktiem. Tikmēr pilsētas darbinieki ir sākuši uzstādīt zīmes ar uzrakstu PLEASE ENJOY SNACKS RESPONSIBLY.
+
+Otrdienas vēlā pēcpusdienā vismaz sešas kaijas tika novērotas sēžam tieši uz jaunajām zīmēm — klusas, ierāmas, un, pēc viena aculiecinieka teiktā, "izskatoties tā, it kā tās pārskatītu politikas formulējumus, pirms izmanto kādu caurumu."`,
+      ru: `РИГА — В 38-страничном экстренном плане городского сосуществования, опубликованном во вторник утром, Рижская городская дума объявила о введении ежедневного «Тихого часа для агрессивных чаек» — пилотной программы, направленной на восстановление того, что чиновники назвали «минимальной эмоциональной безопасностью» в центральных районах столицы.
+
+Начиная со следующего понедельника, все общественные скамейки в радиусе 2,4 километра от памятника Свободы будут объявлены зонами с низким уровнем стимуляции с 13:00 до 14:00, в течение которых жителей призывают употреблять выпечку в помещениях, избегать прямого зрительного контакта с крупными прибрежными птицами и воздерживаться от демонстрации копчёной рыбы. По муниципальным громкоговорителям будут транслироваться успокаивающие записи моря «чтобы напомнить чайкам об их морских корнях и снизить городскую идентификационную путаницу».
+
+Решение последовало за рекордным летом в части птичьего запугивания. По данным Отдела муниципального порядка Риги, город получил 1 842 жалобы с мая по август, касающиеся «нефизического, но духовно настойчивого поведения чаек», что на 67% больше, чем в прошлом году. Из этих инцидентов 413 были связаны с перехватом выпечки, 229 — с продолжительной критикой с крыш, а 51 классифицировали как «координированные операции по изъятию бутербродов».
+
+«Речь уже не о оппортунистическом падальничестве», — сказала заместитель исполнительного директора по адаптации общественного пространства Илзе Гринберга на пресс‑конференции рядом с картой, на которой красными кружками были отмечены парк Кронвальда, Origo и, по её словам, «вся концепция улицы Миера после обеда». «Эти птицы привыкли к рутинe пассажиров. Они поджидают у трамвайных остановок. Они распознают сомнения. По крайней мере в трёх случаях они предпочли жертв с ремесленными творожными булочками вместо промышленных.»
+
+Жители говорят, что ответ города, хоть и необычен, отражает масштаб проблемы. Офисный работник Мартиньш Озолс, 34 года, описал недавний инцидент у Бастейкалнса как «скорее кампанию, чем нападение».
+
+«Я держал пирадзин нейтрально», — рассказал Озолс. «Одна чайка села передо мной, другая — на фонарный столб позади, а третья просто уставилась с перил, будто уже знала мой пин‑код. В итоге я отдал им весь бумажный пакет и извинился за тон.»
+
+Бизнес тоже приспосабливается. Несколько кафе Старой Риги начали предлагать «скромные рукава для выпечки» — матовые серые обёртки, призванные не привлекать воздушное внимание. В одном киоске у Центрального рынка персонал теперь спрашивает у покупателей, собираются ли они съесть товар сразу, транспортировать его надёжно или «рискнуть публично».
+
+Латвийское орнитологическое общество призвало не демонизировать вид, отметив, что чайки реагируют на разрушение среды обитания, доступность пищи и то, что один исследователь деликатно назвал «резким ростом открытой самоуверенности среди прохожих». Полевой биолог доктор Улдис Вейпс сказал, что поведение тревожит, но не иррационально.
+
+«Городские чайки чрезвычайно умны», — объяснил Вейпс. «В контролируемых испытаниях они распознавали звук шуршащего пакета хачапури с 41 метра и явно предпочитали атаковать туристов, которые только что сказали: „О, как мило“. Мы полагаем, что они также научились тому, что мужчины в льняных рубашках реагируют медленнее.»
+
+Не все поддерживают городскую стратегию. Оппозиционный советник Андрис Кейстерс назвал Тихий час «показной слабостью» и предложил более решительную политику на основе «взаимного уважения и более твёрдой архитектуры шляп». Его альтернативный план включает более широкие поля, зонты против зависания и цифровой инструмент для жалоб, позволяющий жителям оценивать враждебность чаек по пятибалльной шкале от «заинтересована» до «ведёт себя так, будто платит аренду».
+
+Несмотря на критику, муниципальные чиновники сохраняют оптимизм. Если пилотный проект увенчается успехом, Рига может расширить программу, включив вечерние периоды деэскалации у канала и сезонное урегулирование конфликтов у палаток с едой во время Dziesmu svētki. Пока городские службы начали устанавливать знаки с надписью PLEASE ENJOY SNACKS RESPONSIBLY.
+
+К вечеру во вторник по меньшей мере шесть чаек были замечены сидящими прямо на новых знаках — молчаливые, собранные и, по словам одного свидетеля, «выглядели так, будто сначала изучают формулировки политики, а потом пользуются лазейкой».`
+    },
+    date: "Apr 20, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/131/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 130,
     slug: "riga-introduces-polite-potholes-that-apologize-130",
     title: {
@@ -108,7 +201,7 @@ Pie preses laika amatpersonas apstiprināja, ka programmas nākamajā posmā tik
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/130/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 129,
