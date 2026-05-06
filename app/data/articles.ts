@@ -18,6 +18,111 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 146,
+    slug: "jrmala-introduces-silent-thunder-festival-so",
+    title: {
+      en: "Jūrmala Introduces Silent Thunder Festival So Residents Can Be Disturbed in More Elegant Way",
+      lv: "Jūrmala ievieš „Klusā pērkona” festivālu, lai iedzīvotājus traucētu elegantāk",
+      ru: "Юрмала запускает фестиваль «Тихий гром», чтобы беспокоить жителей более элегантно"
+    },
+    excerpt: {
+      en: "Facing another summer of complaints from both tourists seeking excitement and residents seeking legal grounds to glare at people, Jūrmala officials have unveiled the region’s first Silent Thunder Festival. The event promises all the pageantry of a major Baltic music weekend, except the music will be transmitted exclusively through municipally approved headphones and passive-aggressive eye contact.",
+      lv: "Saskaroties ar vēl vienu vasaru, kad tūristi alkst pēc izklaides, bet iedzīvotāji meklē juridisku pamatu, lai kādu sažņaugtu ar skatienu, Jūrmalas pārvalde paziņojusi par reģiona pirmo „Klusā pērkona” festivālu. Pasākums solās piedāvāt visu lielā Baltijas mūzikas nedēļas pompu — izņemot to, ka mūzika tiks pārraidīta tikai caur komunāli apstiprinātām austiņām un papildināta ar pasīvi-agresīvu acu kontaktu.",
+      ru: "Столкнувшись с очередным летом жалоб от туристов, ищущих развлечений, и жителей, ищущих законные причины уставиться на людей, власти Юрмалы представили первый в регионе фестиваль «Тихий гром». Мероприятие обещает всю помпезность крупного балтийского музыкального уикенда, за исключением того, что музыка будет передаваться исключительно через муниципально утверждённые наушники и приправлена пассивно‑агрессивным зрительным контактом."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what city leaders are calling a breakthrough in sustainable annoyance, the Jūrmala City Council on Tuesday announced the launch of Silent Thunder, a three-day beachfront festival designed to preserve the town’s trademark tranquility while still allowing visitors to behave as if something culturally significant is happening nearby.
+
+Scheduled for the second weekend of July between Dzintari Concert Hall and “where the nicer bicycles start,” the festival will feature six stages, 42 performers, two mindfulness zones, and an officially designated area for standing still and saying, “It was better before.” All performances will be experienced through wireless headphones calibrated to one of three settings: “Polite Applause,” “Private Regret,” and “Baltic Techno for People With Mortgage Opinions.”
+
+Deputy Mayor for Seasonal Atmosphere Inese Bērziņa said the city had spent years trying to resolve the annual conflict between tourists demanding nightlife and permanent residents demanding the sea itself be quieter after 21:00.
+
+“We asked ourselves: can Jūrmala host a major music event without anyone ever having to hear anything they did not personally authorize?” Bērziņa told reporters while standing in front of a presentation board titled ELEGANT DISTURBANCE 2030. “This way, younger guests can dance until 2 a.m., and older residents can still call the municipal police because the vibes seem excessive.”
+
+According to planning documents, Silent Thunder is expected to attract 18,000 attendees, 11,200 of whom will post videos online containing no audible music and captions such as ‘craziest night ever.’ Organizers say this will position Jūrmala as a leader in “premium invisible entertainment,” a growing sector already piloted in Scandinavian airports and several art museums in Riga.
+
+Festival director Mārtiņš Ločmelis said the event would include headline acts from Latvia, Lithuania, and Estonia, though he declined to name them because “the names sound more prestigious if discovered accidentally.” He confirmed, however, that one DJ set will consist entirely of remixed train announcements from the Riga–Dubulti line, while a sunset performance piece called Dune Drop will invite audience members to nod respectfully toward the Gulf of Riga for 47 minutes.
+
+Not all residents are convinced. Longtime Majori resident and retired dentist Aivars Kļaviņš, 74, said he was initially alarmed by the concept until he learned there would be no audible bass.
+
+“If I cannot hear it, then I can oppose it on principle, which is the preferred Jūrmala method,” Kļaviņš said. “My only concern is that people smiling silently in groups may create the impression that this is a resort town.”
+
+Local businesses have responded enthusiastically. The café-bakery Melnā Kaija announced a limited-edition Silent Thunder pastry described as “a croissant with the emotional architecture of a nightclub.” Meanwhile, a nearby wellness spa will offer post-festival recovery packages for attendees suffering from “intense neck movement in a socially restrained environment.”
+
+To maintain order, city authorities will deploy 63 municipal staff, including a newly trained Vibe Compliance Unit tasked with identifying dangerous levels of visible enthusiasm. Any attendee dancing too broadly without first checking the facial expressions of surrounding residents may be redirected to a lower-energy corridor near Bulduri.
+
+Officials have also released behavioral guidance. Visitors are encouraged to sway, not jump; laugh softly into the sea breeze; and avoid using the phrase “Let’s go crazy” within 300 meters of a detached wooden villa.
+
+Despite some skepticism, early ticket sales have been strong, particularly among Riga office workers eager to experience rebellion in a format compatible with linen clothing. By Tuesday afternoon, VIP packages had already sold out. The package includes noise-canceling headphones, cucumber water, priority access to a contemplative dance platform, and a lanyard identifying the wearer as someone who “supports culture, but selectively.”
+
+At a press conference closing the announcement, Bērziņa said Silent Thunder reflects the city’s long-term strategy to modernize without ever appearing fully comfortable about it.
+
+“Jūrmala has always excelled at offering excitement in a way that suggests mild disapproval,” she said. “This festival simply brings that heritage into the future.”`,
+      lv: `JŪRMALA — To, ko pilsētas vadība sauc par pavērsienu ilgtspējīgā traucējumā, otrdien Jūrmalas domē paziņoja par „Klusā pērkona” atklāšanu — trīs dienu pludmales festivālu, kas radīts, lai saglabātu pilsētas raksturīgo mieru, vienlaikus ļaujot viesiem uzvesties tā, it kā kaut kas kultūras ziņā nozīmīgs tepat notiktu.
+
+Festivāls, kas ieplānots jūlija otrajā nedēļas nogalē starp Dzintaru koncertzāli un „tur, kur sākas tās jaukākās velosipēda takas”, piedāvās sešas skatuves, 42 izpildītājus, divas apzinātības zonas un oficiāli noteiktu vietu stāvēšanai un frāzes „Agrāk bija labāk” izteikšanai. Visas performances baudīs caur bezvadu austiņām, kas nokalibrētas vienā no trim režīmiem: „Pieklājīgs aplausi”, „Privāta nožēla” un „Baltijas tehno cilvēkiem ar hipotekāriem viedokļiem”.
+
+Pilsētas vicemēre sezonālās noskaņas jautājumos Inese Bērziņa sacīja, ka pilsēta gadu garumā mēģinājusi atrisināt ikgadējo konfliktu starp tūristiem, kuri pieprasa naktsdzīvi, un pastāvīgajiem iedzīvotājiem, kuri pēc pulksten 21:00 grib, lai pat jūra runā klusāk.
+
+„Mēs uzdevām sev jautājumu: vai Jūrmala var rīkot lielu mūzikas pasākumu, neļaujot nevienam dzirdēt kaut ko tādu, ko viņš nav personīgi autorizējis?” Bērziņa žurnālistiem teica, stāvot pie prezentācijas dēļa ar uzrakstu ELEGANTS TRAUCĒJUMS 2030. „Tādā veidā jaunāki viesi var dejot līdz pulksten 2:00, bet vecāki iedzīvotāji joprojām var izsaukt pašvaldības policiju, jo vibes šķiet pārspīlētas.”
+
+Plānošanas dokumenti norāda, ka „Klusais pērkons” sagaidāms 18 000 apmeklētāju, no kuriem 11 200 publicēs videoklipus ar nedzirdamu mūziku un parakstiem, piemēram, „trakākā nakts ever”. Organizatori apgalvo, ka tas nostādīs Jūrmalu kā „premium neredzamās izklaides” līderi — nozares, kas jau tiek izmēģināta Skandināvijas lidostās un vairākās mākslas muzejos Rīgā.
+
+Festivāla direktors Mārtiņš Ločmelis teica, ka pasākumā būs viesu mākslinieki no Latvijas, Lietuvas un Igaunijas, kaut arī viņš atteicās tos vārdīt, jo „vārdi skan prestižāk, ja tie atklājas nejauši”. Viņš gan apstiprināja, ka viens DJ sets sastāvēs pilnībā no remiksētiem vilciena paziņojumiem no Rīga–Dubulti līnijas, savukārt saulrieta performanču fragments Dune Drop aicinās skatītājus 47 minūtes cieņpilni pamāt Rīgas līcim.
+
+Ne visi iedzīvotāji ir pārliecināti. Ilggadējais Majoru iedzīvotājs un pensijā aizgājis zobārsts Aivars Kļaviņš, 74 gadi, sacīja, ka sākotnēji viņu koncepts šokējis, līdz uzzināja, ka bass nebūs dzirdams.
+
+„Ja es to nevaru dzirdēt, tad varu tam principiāli iebilst — tā ir Jūrmalas iecienītā metode,” Kļaviņš teica. „Vienīgais, kas mani nedaudz satrauc, ir tas, ka cilvēki klusām smaidot grupās var radīt iespaidu, ka šī ir kūrortpilsēta.”
+
+Vietējie uzņēmumi atbildējuši entuziasma pilni. Kafejnīca-konditoreja Melnā Kaija paziņoja par ierobežota izdevuma „Klusā pērkona” konditoreju — kroissantu, ko apraksta kā „kroissantu ar naktskluba emocionālo arhitektūru”. Tikmēr blakus esošais spa piedāvās pēcfestivāla atveseļošanās pakas apmeklētājiem, kuri cieš no „intensīvām kakla kustībām sociāli ierobežotā vidē”.
+
+Lai uzturētu kārtību, pilsētas iestādes izvietos 63 pašvaldības darbiniekus, tostarp nesen apmācītu Noskaņas atbilstības vienību, kuras uzdevums būs konstatēt bīstami redzamu entuziasma līmeni. Ikviens apmeklētājs, kurš dejo pārāk plaši, neapstiprinot to ar apkārtējo iedzīvotāju sejas izteiksmēm, var tikt novirzīts uz zemas enerģijas koridoru Bulduru tuvumā.
+
+Iestādes arī izplatījušas uzvedības vadlīnijas. Viesi ir aicināti šūpoties, nevis lekt; smieties klusi jūras vēsmā; un izvairīties no frāzes „Aizejam trakot” 300 metru rādiusā ap atsevišķu koka villu.
+
+Neskatoties uz skeptiķiem, biļešu pārdošana sākumā bijusi stipra, īpaši Rīgas biroja darbinieku vidū, kuri alkst piedzīvot dumpiniecību formātā, kas sader ar lina apģērbu. Līdz otrdienas pēcpusdienai VIP pakas jau bija izpārdotas. Komplektā ietilpst trokšņu slāpējošas austiņas, gurķu ūdens, prioritāra piekļuve kontemplatīvās dejas platformai un aukla, kas norāda, ka valkātājs „atbalsta kultūru, bet selektīvi”.
+
+Noslēdzot paziņojumu preses konferencē, Bērziņa sacīja, ka „Klusais pērkons” atspoguļo pilsētas ilgtermiņa stratēģiju modernizēties, neizskatoties par to pilnīgi mierīgiem.
+
+„Jūrmala vienmēr izcēlusies ar to, ka piedāvā aizrautību tādā veidā, kas liek noprast maigu neapmierinātību,” viņa sacīja. „Šis festivāls vienkārši nes šo mantojumu nākotnē.”`,
+      ru: `ЮРМАЛА — То, что городские власти называют прорывом в области устойчивого раздражения, Городской совет Юрмалы во вторник объявил о запуске «Тихого грома», трёхдневного пляжного фестиваля, созданного для сохранения фирменного спокойствия города и в то же время позволяющего посетителям вести себя так, будто рядом происходит нечто культурно значимое.
+
+Запланированный на второй уикенд июля между Концертным залом Дзинтари и «тем местом, где начинаются более приличные велосипеды», фестиваль предложит шесть сцен, 42 исполнителя, две зоны осознанности и официально выделенную площадку для стояния на месте с возможностью произнести: «Раньше было лучше». Все выступления будут транслироваться через беспроводные наушники, настроенные на один из трёх режимов: «Вежливые аплодисменты», «Личное сожаление» и «Балтийское техно для людей с мнением об ипотеке».
+
+Заместитель мэра по сезонной атмосфере Инесе Бērзиня (Inese Bērziņa) заявила, что город годами пытался разрешить ежегодный конфликт между туристами, требующими ночной жизни, и постоянными жителями, требующими, чтобы само море было тише после 21:00.
+
+«Мы спросили себя: может ли Юрмала провести крупное музыкальное событие, чтобы никто никогда не слышал ничего, чего он лично не санкционировал?» — сказала Бērзиня журналистам, стоя перед презентационной доской с надписью «ИЗЫСКАННОЕ БЕСПОКОЙСТВО 2030». «Так молодые гости смогут танцевать до двух часов ночи, а пожилые жители всё ещё смогут звонить в муниципальную полицию, потому что атмосфера кажется чрезмерной.»
+
+По планам организаторов, «Тихий гром» привлечёт 18 000 посетителей, из которых 11 200 запостят в интернете видео без слышимой музыки с подписями вроде «самая сумасшедшая ночь в жизни». Организаторы утверждают, что это поставит Юрмалу в авангард «премиальных невидимых развлечений» — растущего сектора, который уже опробуют в скандинавских аэропортах и нескольких музеях Риги.
+
+Директор фестиваля Мārтиņš Лочмелис (Mārtiņš Ločmelis) сказал, что в шоу примут участие хэдлайнеры из Латвии, Литвы и Эстонии, хотя он отказался называть имена, потому что «названия звучат престижнее, если обнаружены случайно». Он, однако, подтвердил, что один диджей‑сет будет состоять полностью из ремиксов объявлений поездов линии Рига—Дубулти, а выступление на закате под названием «Падение дюны» предлагает зрителям уважительно кивать в сторону Рижского залива в течение 47 минут.
+
+Не все жители разделяют энтузиазм. Долгожитель района Майори и пенсионер‑стоматолог Айварс Кļавиньш (Aivars Kļaviņš), 74 года, сказал, что поначалу был встревожен концепцией, пока не узнал, что слышимого баса не будет.
+
+«Если я не могу это услышать, значит я могу возражать по принципу, а это предпочитаемый метод Юрмалы», — сказал Кļавиньш. «Единственное, что меня беспокоит — люди, молча улыбающиеся группами; это может создать впечатление, что это курортный город.»
+
+Местный бизнес отнёсся к идее с энтузиазмом. Кафе‑пекарня «Melnā Kaija» объявила лимитированную выпечку «Тихого грома», описанную как «круассан с эмоциональной архитектурой ночного клуба». Тем временем ближайший велнес‑спа предложит восстанавливающие пакеты для посетителей, страдающих от «интенсивного движения шеи в социально сдержанной среде».
+
+Для поддержания порядка власти развернут 63 муниципальных сотрудника, включая недавно подготовленное Подразделение по соблюдению атмосферы (Vibe Compliance Unit), задачей которого станет выявление опасных уровней видимого энтузиазма. Любого посетителя, танцующего слишком широко, не проверив предварительно выражения лиц окружающих жителей, могут перенаправить в коридор с пониженной энергией рядом с Булдури.
+
+Также опубликованы рекомендации по поведению. Посетителям предлагают покачиваться, но не прыгать; мягко смеяться в морской бриз; и избегать фразы «Давай сойдем с ума» в пределах 300 метров от отдельно стоящей деревянной виллы.
+
+Несмотря на скептицизм некоторых жителей, ранняя продажа билетов идёт успешно, особенно среди рижских офисных работников, желающих испытать бунт в формате, совместимом с леном. Ко вторнику днём VIP‑пакеты уже распроданы. Пакет включает шумоподавляющие наушники, огуречную воду, приоритетный доступ к платформе для созерцательных танцев и шнурок, который сообщает, что его владелец «поддерживает культуру, но избирательно».
+
+На пресс‑конференции по закрытию объявления Бērзиня сказала, что «Тихий гром» отражает долгосрочную стратегию города — модернизироваться, при этом никогда полностью не выглядя в своей тарелке.
+
+«Юрмала всегда умела предлагать волнение так, что в нём чувствуется лёгкое неодобрение», — сказала она. «Этот фестиваль просто переносит это наследие в будущее.»`
+    },
+    date: "May 6, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/146/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 145,
     slug: "riga-introduces-polite-silence-zones-on-145",
     title: {
@@ -96,7 +201,7 @@ Rīgas Satiksme уже начала обучение 126 «стюардов мо
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/145/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 144,
