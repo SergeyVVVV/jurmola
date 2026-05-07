@@ -18,6 +18,111 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 147,
+    slug: "riga-introduces-polite-pothole-program-says",
+    title: {
+      en: "Riga Introduces ‘Polite Pothole’ Program, Says Residents Will Now Receive 48 Hours’ Notice Before Suspension Damage",
+      lv: "Rīga ievieš „Pieklājīgo bedru” programmu — iedzīvotāji tagad saņems 48 stundu brīdinājumu pirms piekares bojājumiem",
+      ru: "Рига запускает программу «Вежливая яма»: жители теперь будут получать уведомления за 48 часов до повреждения подвески"
+    },
+    excerpt: {
+      en: "In a move city officials are calling ‘a new era of respectful infrastructure,’ Riga has launched the Polite Pothole Program, under which major road cavities will notify drivers before becoming structurally meaningful. The municipality says the initiative balances fiscal reality, civic dignity, and Latvia’s long-standing cultural preference for quiet suffering with paperwork.",
+      lv: "Kā pilsētas amatpersonas to dēvē par „jaunu cienīgas infrastruktūras ēru”, Rīga ir uzsākusi Pieklājīgo bedru programmu, kuras ietvaros lielākas ielu izciļņi brīdinās vadītājus pirms tam kļūstot par reālu struktūrdraudējumu. Pašvaldība apgalvo, ka iniciatīva līdzsvaro fiskālo realitāti, pilsonisko cieņu un Latvijas ilgstošo kultūras izvēli klusā ciešanā, papildinātu ar dokumentāciju.",
+      ru: "В шаге, который чиновники называют «новой эрой уважительной инфраструктуры», Рига запустила программу «Вежливая яма», по которой крупные дорожные впадины будут предупреждать водителей прежде чем стать конструктивно значимыми. Муниципалитет заявляет, что инициатива уравновешивает финансовую реальность, гражданское достоинство и давнюю латвийскую культурную склонность к тихим страданиям с бумажной волокитой."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Council on Tuesday unveiled its long-awaited Polite Pothole Program, a municipal pilot project designed to make the capital’s deteriorating road surface feel ‘less abrupt’ for residents by introducing a formal notification system before potholes deepen to vehicle-threatening levels.
+
+Under the new scheme, potholes exceeding 11 centimeters in depth or demonstrating ‘clear personal ambition’ will be added to a digital registry and assigned one of three warning categories: Courtesy Dip, Administrative Crater, or Family-Altering Event. Residents living within 200 meters of an affected street will receive an SMS, email, or, in historic districts, a lightly apologetic paper card.
+
+Deputy Transport Committee Chair Ilze Riekstiņa said the program reflects Riga’s commitment to modern urban governance without making irresponsible promises about actual road repair.
+
+‘For too long, residents have had to discover major pavement developments in a chaotic, self-directed manner,’ Riekstiņa told reporters while standing beside a coned-off cavity on Brīvības Street that had been fitted with a small municipal plaque. ‘Now a family can plan. If your axle will be emotionally tested on Thursday, you deserve to know that by Tuesday.’
+
+According to city figures, Riga currently contains 14,208 documented potholes, 63% of which officials classify as ‘psychologically familiar’ and therefore not urgent. A further 19% were found to have become locally respected landmarks, with one sink-like depression in Ķengarags reportedly being used by three generations of one family as a seasonal reference point.
+
+The system was developed in cooperation with the Latvian Institute of Practical Acceptance, which spent eight months studying how residents respond to road degradation. Researchers concluded that while most drivers do not expect smooth streets, they do appreciate ‘clear communication and a chance to remove soup from the front seat beforehand.’
+
+‘Latvians are extremely resilient, but there is a threshold,’ said institute director Dr. Mārtiņš Pļavnieks. ‘If a pothole arrives without notice, people feel the state has taken them for granted. If it arrives with a municipal code, dimensions, and a PDF attachment, it becomes governance.’
+
+City engineers say the pilot has already shown promise. In Purvciems, residents were notified last week that a road depression near a grocery store would transition from Courtesy Dip to Administrative Crater by Friday afternoon. By Thursday evening, local drivers had adjusted routes, secured loose groceries, and in one case postponed a grandmother’s transport until the hole’s geometry could be better understood.
+
+Not all residents are convinced. Rīga taxi driver Andris Znotiņš said he appreciated the effort but remained confused about whether a pothole marked ‘likely to widen after precipitation’ counted as a recommendation or a threat.
+
+‘I got a text at 06:14 saying, ‘Dear resident, surface instability on your usual route has entered an active phase,’’ Znotiņš said. ‘That is useful, yes. But I would also accept asphalt.’
+
+Opposition council members criticized the initiative as symbolic, though several admitted it was the most organized relationship they had ever had with municipal infrastructure. One independent lawmaker proposed adding a loyalty program under which drivers who encounter ten registered potholes could apply for discounted wheel alignment.
+
+In Jurmala, officials are said to be monitoring the program closely for possible adaptation to summer tourism. A spokesperson confirmed the resort city is considering a ‘Premium Sand Drift Alert’ service for visiting SUV owners from Riga.
+
+Meanwhile, the first official Polite Pothole sign was installed Wednesday morning near Central Station. By noon, residents had placed flowers around it, and by evening a small queue had formed of people taking photographs beside what one social media post described as ‘the first hole in Latvia to acknowledge me as a citizen.’
+
+At press time, the municipality announced Phase Two of the project would include bilingual notifications and, for especially deep road failures, a brief moment of silence.`,
+      lv: `RĪGA — Rīgas dome otrdien atklāja ilgi gaidīto Pieklājīgo bedru programmu, pašvaldības pilotprojektu, kas paredz galvaspilsētas arvien izteiktāk sabrukušo brauktuvi padarīt iedzīvotājiem „mazāk pēkšņu”, ieviešot formālu brīdināšanas sistēmu pirms bedre padziļinās līdz transportam draudošam līmenim.
+
+Saskaņā ar jauno shēmu bedres, kuru dziļums pārsniedz 11 centimetrus vai kuras parāda „acīmredzamu personisko ambīciju”, tiks iekļautas digitālā reģistrā un tām tiks piešķirta viena no trim brīdinājuma kategorijām: Laipnais iegruvums, Administratīvais krāteris vai Ģimenes mainošs notikums. Iedzīvotāji, kas dzīvo 200 metru rādiusā no skartās ielas, saņems īsziņu, e-pastu vai vēsturiskajos rajonos — viegli atvainojošu papīra kartiņu.
+
+Transporta komitejas priekšsēdētājas vietniece Ilze Riekstiņa sacīja, ka programma atspoguļo Rīgas apņemšanos uz mūsdienīgu pilsētas pārvaldību, vienlaikus nesola bezatbildīgus solījumus par faktisko ielu remontu.
+
+„Pārāk ilgi iedzīvotāji lielas brauktuves pārmaiņas ir atklājuši haotiskā, pašorganizētā veidā,” Riekstiņa sacīja žurnālistiem, stāvot blakus uz konusiem atzīmētai bedrei Brīvības ielā, kurai bija piestiprināta neliela pašvaldības plāksnīte. „Tagad ģimene var plānot. Ja tava ass tiks emocionāli pārbaudīta ceturtdien, tev ir tiesības to uzzināt līdz otrdienai.”
+
+Pilsētas skaitļi liecina, ka Rīgā šobrīd ir dokumentētas 14 208 bedres, no kurām 63% amatpersonas klasificē kā „psiholoģiski pazīstamas” un tādēļ nekurentas. Vēl 19% konstatētas kā vietēji cienāmi orientieri — viena ieplaka Ķengaragā, ziņo, kalpojusi par sezonālu atskaites punktu trim viena ģimenes paaudzēm.
+
+Sistēmu izstrādāja sadarbībā ar Latvijas Praktiskās Pieņemšanas institūtu, kas astoņus mēnešus pētīja, kā iedzīvotāji reaģē uz ceļu degradāciju. Pētnieki nonāca pie secinājuma, ka, lai arī vairums vadītāju necer gludus ceļus, viņi novērtē „skaidru komunikāciju un iespēju iepriekš izņemt zupu no priekšējā sēdekļa”.
+
+„Latvieši ir ārkārtīgi izturīgi, bet pastāv slieksnis,” sacīja institūta direktors Dr. Mārtiņš Pļavnieks. „Ja bedre ierodas bez brīdinājuma, cilvēki jūt, ka valsts tos ir ņēmusi par pašsaprotamiem. Ja tā ierodas ar pašvaldības kodu, izmēriem un PDF pielikumu, tā kļūst par pārvaldību.”
+
+Pilsētas inženieri apgalvo, ka pilots jau rāda cerību. Purvciemā iedzīvotāji pagājušajā nedēļā tika informēti, ka ceļa ieplaka pie pārtikas veikala līdz piektdienas pēcpusdienai pāries no Laipnā iegruvuma uz Administratīvo krāteri. Ceturtdienas vakarā vietējie autovadītāji bija mainījuši maršrutus, nostiprinājuši vaļīgās iepirkumu somas, un vienā gadījumā atcēluši vecmāmiņas nogādāšanu, kamēr bedre ģeometrija netika labāk saprasta.
+
+Ne visi iedzīvotāji ir pārliecināti. Rīgas taksometra vadītājs Andris Znotiņš sacīja, ka novērtē pūliņus, bet paliek neskaidrībā, vai bedre, kas marķēta ar „visticamāk izplēsīsies pēc nokrišņiem”, ir ieteikums vai drauds.
+
+„Man pulksten 06:14 pienāca īsziņa: 'Cienījamais iedzīvotāj, virsmas nestabilitāte jūsu ierastajā maršrutā ir pārgājusi aktīvā fāzē',” Znotiņš teica. „Tas ir noderīgi, jā. Bet es arī piekristu asfaltam.”
+
+Pretējās domas domes deputāti kritizēja iniciatīvu kā simbolisku, lai gan vairāki atzina, ka tā ir visorganizētākā attiecība, kāda viņiem jebkad bijusi ar pašvaldības infrastruktūru. Viens neatkarīgais deputāts ierosināja pievienot lojalitātes programmu, kurā vadītāji, kas saskaras ar desmit reģistrētām bedrēm, varētu pieteikties uz atlaidi riteņu taisnošanai.
+
+Jūrmalā amatpersonas tiek teikts, rūpīgi uzrauga programmu, lai iespējami pielāgotu to vasaras tūrismam. Pilsētas pārstāvis apstiprināja, ka kūrortpilsēta apsver „Premium smilšu pārvietošanās brīdinājuma” pakalpojumu Rīgas apmeklējošo apvidus auto īpašniekiem.
+
+Tikmēr pirmais oficiālais Pieklājīgās bedres ceļazīme trešdienas rītā tika uzstādīta netālu no Centrālās stacijas. Līdz pusdienlaikam iedzīvotāji ap to bija nolikuši ziedus, bet vakarā veidojās neliela rinda cilvēku, kas fotografējās pie tā, ko viens sociālais ieraksts nosauca par „pirmo bedri Latvijā, kas mani atzīst par pilsoni”.
+
+Preses izlaiduma brīdī pašvaldība paziņoja, ka projekta otrā fāze ietvers divvalodu paziņojumus un, īpaši dziļu ceļu bojājumu gadījumos, īsu klusuma brīdi.`,
+      ru: `РИГА — Совет города Риги во вторник представил долгожданную пилотную программу «Вежливая яма», муниципальный проект, призванный сделать ухудшающееся покрытие столичных дорог «менее резким» для жителей путём введения формальной системы оповещений до тех пор, пока ямы не станут опасными для автомобилей.
+
+В рамках новой схемы ямы глубже 11 сантиметров или демонстрирующие «ясные личностные амбиции» будут вноситься в цифровой реестр и получать одну из трёх категорий предупреждения: «Учтивое углубление», «Административный кратер» или «Событие, меняющее семейный уклад». Жители, проживающие в радиусе 200 метров от затронутой улицы, будут получать SMS, электронное письмо или, в исторических районах, слегка извиняющуюся бумажную открытку.
+
+Заместитель председателя транспортного комитета Илзе Риекстиня сказала, что программа отражает приверженность Риги современному управлению городом, не давая безответственных обещаний по поводу реального ремонта дорог.
+
+«Слишком долго жителям приходилось обнаруживать крупные изменения в покрытии в хаотичной, самонаправляемой манере, — сказала Риекстиня репортёрам, стоя рядом с огороженной конусами впадиной на улице Бривибас, возле которой установили небольшую муниципальную табличку. — Теперь семья может спланировать. Если в четверг ваша ось будет подвергнута эмоциональному испытанию, вы заслуживаете знать об этом к вторнику». 
+
+По городским данным, в Риге в настоящее время задокументировано 14 208 ям, 63 % из которых чиновники классифицируют как «психологически знакомые» и поэтому не срочные. Ещё 19 % признаны местными уважаемыми ориентирами:, сообщается, одна воронкообразная впадина в Кенгарагсе использовалась тремя поколениями одной семьи в качестве сезонной точки отсчёта.
+
+Систему разрабатывали совместно с Латвийским институтом практического принятия, который восемь месяцев изучал, как жители реагируют на деградацию дорог. Исследователи пришли к выводу, что хотя большинство водителей не ожидает идеально ровных улиц, они ценят «чёткую коммуникацию и возможность заранее убрать суп с переднего сиденья». 
+
+«Латвийцы чрезвычайно устойчивы, но есть порог, — сказал директор института д-р Мартиньш Плявникс. — Если яма появляется без предупреждения, люди чувствуют, что государство их не ценит. Если она приходит с муниципальным кодом, размерами и вложением в PDF, это уже управление». 
+
+Городские инженеры говорят, что пилот уже показал перспективность. В Пурвциемсе жителей на прошлой неделе уведомили, что дорожная впадина возле продуктового магазина к пятничному дню перейдёт из статуса «Учтивое углубление» в «Административный кратер». К вечеру четверга местные водители скорректировали маршруты, закрепили слабо лежащие пакеты с продуктами и в одном случае отложили поездку бабушки, пока форма и геометрия ямы не станут яснее.
+
+Не все жители в восторге. Рижский таксист Андрис Знотиņш сказал, что ценит усилия, но остаётся в замешательстве: считается ли яма с пометкой «вероятно расширится после осадков» рекомендацией или угрозой.
+
+«Мне в 06:14 пришло сообщение: ‚Уважаемый житель, нестабильность покрытия на вашем обычном маршруте вошла в активную фазу‘, — рассказал Знотиņш. — Это полезно, да. Но я бы тоже не отказался от асфальта». 
+
+Депутаты оппозиции критиковали инициативу как символичную, хотя несколько из них признали, что это самые организованные отношения, которые они когда-либо имели с муниципальной инфраструктурой. Один независимый депутат предложил ввести программу лояльности: водители, столкнувшиеся с десятью зарегистрированными ямами, могли бы претендовать на скидку при развал‑схождении.
+
+В Юрмале, по словам официальных лиц, внимательно следят за программой на предмет возможной адаптации к летнему туризму. Представитель курорта подтвердил, что город рассматривает сервис «Премиальное оповещение о песчаных наносах» для приезжих владельцев внедорожников из Риги.
+
+Тем временем первый официальный знак «Вежливая яма» установили в среду утром возле Центрального вокзала. К полудню жители положили вокруг него цветы, а к вечеру выстроилась небольшая очередь из людей, желающих сфотографироваться рядом с тем, что в одном посте в соцсетях назвали «первой ямой в Латвии, которая признала меня гражданином». 
+
+На момент сдачи материала муниципалитет объявил, что вторая фаза проекта будет включать двуязычные уведомления и, для особенно глубоких дорожных провалов, короткий момент молчания.`
+    },
+    date: "May 7, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/147/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 146,
     slug: "jrmala-introduces-silent-thunder-festival-so",
     title: {
@@ -120,7 +225,7 @@ Noslēdzot paziņojumu preses konferencē, Bērziņa sacīja, ka „Klusais pēr
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/146/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 145,
