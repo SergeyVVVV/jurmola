@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 148,
+    slug: "riga-introduces-municipal-silence-tax-after",
+    title: {
+      en: "Riga Introduces Municipal Silence Tax After Residents Found Enjoying Sea Breeze Without Permit",
+      lv: "Rīga ievieš pašvaldības klusuma nodokli pēc tam, kad iedzīvotāji atklāti baudījuši jūras vēju bez atļaujas",
+      ru: "Рига вводит муниципальный налог на тишину после того, как жители наслаждались морским бризом без разрешения"
+    },
+    excerpt: {
+      en: "City officials in Riga have unveiled a new “Acoustic Equity and Coastal Atmosphere Contribution” aimed at residents who have been informally benefiting from naturally occurring peace and sea air. Authorities say the measure will help ensure that tranquility is distributed fairly, rather than being hoarded by people standing near open windows.",
+      lv: "Rīgas amatpersonas paziņojušas par jaunu „Akustiskās Līdztiesības un Piekrastes Atmosfēras Iemaksu”, vērstu uz iedzīvotājiem, kuri neformāli ir guvuši labumu no dabiskas miera un jūras gaisa. Pārvalde uzsver, ka mērs nodrošinās, ka klusums tiek sadalīts taisnīgi, nevis krāts cilvēku, kas stāv pie vaļējiem logiem.",
+      ru: "Городские власти Риги представили новый «Взнос за акустическое равенство и прибрежную атмосферу», направленный на жителей, которые неформально извлекали выгоду из естественного спокойствия и морского воздуха. По их словам, мера призвана обеспечить справедливое распределение тишины, а не то, чтобы она аккумулировалась у людей, стоящих у открытых окон."
+    },
+    fullContent: {
+      en: `RIGA — In what municipal leaders are calling a long-overdue modernization of urban resource management, the Riga City Council on Tuesday approved a pilot tax on “unregistered atmospheric enjoyment,” targeting residents who have allegedly been receiving measurable psychological benefit from silence, sea breeze, and late-evening gull ambience without contributing to the city budget.
+
+The new fee, formally titled the Acoustic Equity and Coastal Atmosphere Contribution (AECAC), will begin in June in select neighborhoods, including Ķīpsala, Mežaparks, and several apartment blocks in Purvciems where inspectors say “suspiciously calm courtyards” have gone unmonetized for years.
+
+Under the plan, households found experiencing more than seven consecutive minutes of restorative quiet between 21:00 and 23:00 will be charged 1.45 euros per interval. Additional surcharges apply for detectable sea breeze entering through windows tilted “in an emotionally affirmative direction.”
+
+Deputy Chair for Environmental Balance and Lifestyle Compliance, Ilze Brante, said the tax is not punitive but corrective.
+
+“For too long, serenity has functioned as a shadow economy,” Brante told reporters while standing beside a chart labeled PUBLIC CALM LEAKAGE 2019–2025. “One resident opens a balcony door in Āgenskalns, takes in cool air, hears a distant tram and perhaps one culturally enriching crow, and suddenly receives eight to ten minutes of privately accumulated well-being. Meanwhile, another person in the center is paying for three electric scooters, a saxophonist, and active road resurfacing. This is not equitable.”
+
+The city says it will monitor compliance using upgraded “sound justice kiosks,” formerly parking meters, equipped with moisture sensors, decibel readers, and what procurement documents describe as “subjective facial-release recognition.” According to an internal report, trial units correctly identified “unauthorized relief” in 84 percent of test subjects, including one retired geography teacher who admitted she had “probably enjoyed the rain smell too much.”
+
+Residents have reacted with cautious confusion. “I thought the strange clicking box outside my building was counting bicycles,” said Imants Auziņš, 41, a graphic designer from Mežaparks who has already received two warning slips for “excessive twilight composure.” “But then it printed a receipt saying I owed 3.80 because I leaned on the windowsill and exhaled like a man whose life briefly made sense.”
+
+Business groups have welcomed the policy. The Latvian Association of Managed Experiences said the tax could create incentives for residents to seek tranquility through approved commercial channels. “If people want peace, they should access it responsibly, for example by purchasing a 14-euro artisan herbal infusion in a certified quiet café,” said association board member Renāte Spriņģe. “Unregulated calm undermines local entrepreneurship.”
+
+Not everyone is convinced. Urban policy researcher Mārtiņš Keisters of the Baltic Institute for Administrative Creativity warned that the city may struggle to define where ordinary waiting ends and taxable contemplation begins. “The draft guidance lists ‘staring across the Daugava with detectable inner adjustment’ as a payable event,” he said. “Legally, that is ambitious.”
+
+To address concerns, the council clarified that certain exemptions will apply. Children under seven, pensioners during light drizzle, and passengers on regional trains experiencing accidental sunset views will not be charged during the first year. Jurmala residents, however, may be placed under a separate premium regime due to what one budget memo calls “historically disproportionate access to soft wind.”
+
+By Wednesday afternoon, officials reported strong early compliance after several hundred Riga residents responded to the announcement by deliberately making noise in their own apartments to stay below the taxable calm threshold. In Zolitūde, one family was observed running a blender continuously while watching a panel discussion on municipal law.
+
+City leaders say the revenue will fund new public initiatives, including a pilot program to broadcast moderate construction sounds into affluent areas so that “shared urban texture” can be experienced by all.
+
+At press time, inspectors in Vecmīlgrāvis were investigating a courtyard where three neighbors had allegedly sat on a bench in complete silence for nearly 19 minutes, suggesting a possible case of organized atmosphere evasion.`,
+      lv: `RĪGA — To, ko pašvaldības vadītāji sauc par ilgi gaidītu pilsētas resursu pārvaldības modernizāciju, otrdien Rīgas dome apstiprināja pilotprojektu nodoklim par „nereģistrētu atmosfēras baudījumu”, vēršoties pret iedzīvotājiem, kuriem, kā apgalvots, bez maksas ir bijis izmērāms psiholoģisks ieguvums no klusuma, jūras brīzes un vēlā vakara žagatu atmosfēras.
+
+Jaunā maksa, oficiāli dēvēta par Akustiskās Līdztiesības un Piekrastes Atmosfēras Iemaksu (AECAC), sāksies jūnijā izvēlētās apkaimēs, tostarp Ķīpsalā, Mežaparkā un vairākos Purvciema daudzdzīvokļu namos, kur inspektori norāda, ka „aizdomīgi klusas pagalmas” gadiem ilgi nav tikušas monetizētas.
+
+Saskaņā ar plānu mājsaimniecībām, pie kurām starp plkst. 21:00 un 23:00 tiks konstatētas vairāk nekā septiņas secīgas atjaunojošas klusuma minūtes, tiks iekasēti 1,45 eiro par intervālu. Papildu piemaksas tiks piemērotas par pamanāmu jūras brīzi, kas ieplūst caur logiem, kas ir pavērsti „emocionāli apstiprinošā virzienā”.
+
+Vides līdzsvara un dzīvesveida atbilstības vietniece Ilze Brante sacīja, ka nodoklis nav sods, bet korekcija.
+
+„Pārāk ilgi mierīgums ir darbojies kā ēnu ekonomika,” Brante sacīja reportieriem, stāvot blakus diagrammai ar uzrakstu PUBLISKĀ KLUSUMA NUTEKŠANA 2019–2025. „Viena persona atver balkona durvis Āgenskalnā, ievelk vēsu gaisu, dzird tālu tramvaju un, iespējams, vienu kulturāli bagātinošu kraukli, un pēkšņi saņem astoņas līdz desmit minūtes privāti uzkrāta labbūtības. Tikmēr kāds centrā maksā par trim elektriskajiem skrejriteņiem, saksofonistu un aktīvu ceļu pārbūvi. Tas nav taisnīgi.”
+
+Pilsēta ziņo, ka pārkāpumu uzraudzībai izmantos modernizētus „skaņas taisnīguma kioskus”, agrāk stāvvietu maksas aparātus, aprīkotus ar mitruma sensoriem, decibelu mērītājiem un ar iepirkuma dokumentiem aprakstīto „subjektīvo sejas-atbrīvošanās atpazīšanu”. Iekšējā ziņojumā teikts, ka izmēģinājuma vienības 84 procentos testa subjektu pareizi identificēja „neautorizētu atvieglojumu”, tostarp vienu pensionētu ģeogrāfijas skolotāju, kura atzinās, ka viņa, iespējams, „pārāk izbaudījusi lietus smaržu”.
+
+Iedzīvotāji reaģēja ar piesardzīgu apjukumu. „Es domāju, ka tas dīvainais klikšķošo kaste pie nama skaitīja velosipēdus,” sacīja Imants Auziņš, 41, Mežaparka grafiskais dizainers, kuram jau izsniegtas divas brīdinājuma zīmes par „pārmērīgu krēslu-mailes composure” (pārtulkots humoristiski kā „vakara klusuma pārliecība”). „Bet tad tas izdrukāja kvīti, kurā teikts, ka esmu parādā 3,80 eiro, jo atbalstījos uz palodzes un izelpoju kā vīrietis, kura dzīvei īslaicīgi bija jēga.”
+
+Uzņēmēju grupas jauno politiku sveica. Latvijas Pārvaldīto Pieredžu Asociācija norādīja, ka nodoklis varētu radīt stimulu iedzīvotājiem meklēt klusumu caur apmierinātām komerciālām kanālēm. „Ja cilvēki grib mieru, viņiem tas jāizmanto atbildīgi, piemēram, iegādājoties 14 eiro amatnieku ārstniecības augu infūziju sertificētā klusā kafejnīcā,” sacīja asociācijas valdes locekle Renāte Spriņģe. „Neregulēts klusums grauj vietējo uzņēmējdarbību.”
+
+Ne visi ir pārliecināti. Pilsētpolitikas pētnieks Mārtiņš Keisters no Baltijas Administratīvās Radošuma institūta brīdināja, ka domei var rasties grūtības definēt, kur parasts gaidīšanas stāvoklis beidzas un nodokļojama pārdomāšana sākas. „Projektā iekļauts punkts par „stāvēšanu pāri Daugavai ar pamanāmu iekšēju pielāgošanos” kā maksājamu notikumu,” viņš sacīja. „Juridiski tas ir ambiciozi.”
+
+Lai atbildētu uz bažām, dome precizēja, ka tiks piemērotas noteiktas atlaides. Bērni līdz septiņu gadu vecumam, pensionāri vieglas smidzināšanas laikā un reģionālo vilcienu pasažieri, kuri nejauši paceļ acis uz saulrietu, pirmajā gadā netiks apmaksāti. Jūrmalas iedzīvotājiem gan var tikt piemērots atsevišķs piemaksu režīms, jo viena budžeta piezīme runā par „vēsturiski nesamērīgu pieeju maigiem vējiem”.
+
+Trešdienas pēcpusdienā amatpersonas ziņoja par spēcīgu agrīnu atbilstību pēc tam, kad vairāki simti rīdzinieku uz paziņojumu atbildēja, apzināti radot troksni savos dzīvokļos, lai saglabātos zem nodokļojamā klusuma sliekšņa. Zolitūdē viena ģimene tika novērota nepārtraukti darbinām blenderi, kamēr skatījās paneļdiskusiju par pašvaldību tiesībām.
+
+Pilsētas vadība saka, ka ieņēmumi finansēs jaunus publiskus iniciatīvas projektus, tostarp pilotprogrammu mērenu būvdarbu skaņu translācijai pārtikušās apkaimēs, lai „kopīgā pilsētas tekstūra” būtu pieejama visiem.
+
+Preses noslēgumā inspektori Vecmīlgrāvī izmeklēja pagalmu, kurā trīs kaimiņi, kā apgalvojums, bija sēdējuši uz soliņa pilnīgā klusumā gandrīz 19 minūtes, liecinot par iespējamu organizētu atmosfēras izvairīšanos.`,
+      ru: `РИГА — В рамках того, что муниципальные лидеры называют давно назревшей модернизацией управления городскими ресурсами, Рижская дума во вторник одобрила пилотный сбор за «незарегистрированное атмосферное наслаждение», нацеленный на жителей, которые, по утверждению властей, получали измеримую психологическую выгоду от тишины, морского бриза и поздневечернего амбиента чаек, не внося вклад в городской бюджет.
+
+Новый взнос, официально названный «Взносом за акустическое равенство и прибрежную атмосферу» (ВААПА), начнёт действовать в июне в отдельных районах, включая Ķīpsala, Mežaparks и несколько многоквартирных домов в Purvciems, где инспекторы отмечают «подозрительно спокойные дворы», не монетизировавшиеся годами.
+
+По плану, домохозяйства, уличённые в получении более семи последовательных минут восстанавливающей тишины в период с 21:00 до 23:00, будут облагаться платой в 1,45 евро за интервал. Дополнительные надбавки применяются за ощутимый морской бриз, проникающий через приоткрытые окна, наклонённые «в эмоционально подтверждающем направлении». 
+
+Заместитель председателя по экологическому балансу и соблюдению образа жизни Илзе Бранте заявила, что налог не карательный, а корректирующий.
+
+«Слишком долго безмятежность функционировала как теневой сектор экономики», — сказала Бранте репортёрам, стоя рядом с диаграммой с надписью UТЕЧКА ОБЩЕЙ ТИШИНЫ 2019–2025. «Один житель открывает балконную дверь в Āgenskalns, вдыхает прохладный воздух, слышит дальний трамвай и, может быть, одну культурно обогащающую ворону, и внезапно получает восемь–десять минут частно накопленного благополучия. Между тем другой человек в центре платит за три электросамоката, саксофониста и активный ремонт дорог. Это несправедливо». 
+
+Город заявляет, что будет следить за соблюдением с помощью модернизированных «киосков звуковой справедливости», ранее паркоматов, оборудованных датчиками влажности, счётчиками децибел и тем, что в документации по закупкам описано как «распознавание субъективного расслабления по лицу». По внутреннему отчёту, опытные образцы корректно выявили «неавторизованное облегчение» у 84 процентов тестируемых, в том числе у одной преподавательницы географии на пенсии, которая призналась, что «возможно, слишком сильно наслаждалась запахом дождя». 
+
+Жители отреагировали с осторожным недоумением. «Я думал, что эта странная щёлкающая коробка у моего дома считает велосипеды», — сказал Имантс Аузиньш, 41 год, графический дизайнер из Mežaparks, который уже получил два предупреждения за «чрезмерное сумеречное спокойствие». «Но затем она напечатала квитанцию, где было написано, что я должен 3,80 евро, потому что опёрся на подоконник и выдохнул, как человек, чья жизнь на короткое время обрела смысл». 
+
+Бизнес-сообщества приветствовали политику. Латвийская ассоциация управляемых впечатлений заявила, что налог может создать стимулы для жителей искать умиротворение через одобренные коммерческие каналы. «Если люди хотят покоя, им следует получать его ответственно, например, приобретя 14-евровый ремесленный травяной настой в сертифицированном тихом кафе», — сказала член правления ассоциации Ренате Спринге. «Нерегулируемая тишина подрывает местное предпринимательство». 
+
+Не все убеждены. Исследователь городской политики Мартиньш Кейстерс из Балтийского института административного креатива предупредил, что городу может быть трудно определить, где обычное ожидание кончается и где начинается облагаемое созерцание. «В проекте руководства перечислено ‚смотреть через Даугаву с заметной внутренней перестройкой‘ как платное событие», — сказал он. «Юридически это амбициозно». 
+
+Чтобы снять часть опасений, дума уточнила, что будут действовать определённые исключения. Дети до семи лет, пенсионеры во время лёгкого моросящего дождя и пассажиры региональных поездов, случайно увидевшие закат, не будут облагаться платой в первый год. Жители Юрмалы, однако, могут попасть под отдельный премиальный режим из‑за того, что в одном бюджетном меморандуме названо «исторически непропорциональным доступом к мягкому ветру». 
+
+К среде днём чиновники сообщили о массовом раннем соблюдении после того, как несколько сотен рижан отреагировали на объявление, целенаправленно создавая шум в собственных квартирах, чтобы оставаться ниже облагаемого порога спокойствия. В Золитуде одну семью наблюдали за тем, как они непрерывно включали блендер, одновременно смотря дискуссию по муниципальному праву. 
+
+Руководство города говорит, что вырученные средства пойдут на новые общественные инициативы, включая пилотную программу по трансляции умеренных звуков строительства в состоятельные районы, чтобы «общая городская текстура» была доступна всем. 
+
+На момент сдачи материала инспекторы в Vecmīlgrāvis расследовали двор, где три соседа якобы просидели на скамейке в полной тишине почти 19 минут, что наводит на мысль о возможном случае организованного уклонения от взноса за атмосферу.`
+    },
+    date: "May 8, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/148/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 147,
     slug: "riga-introduces-polite-pothole-program-says",
     title: {
@@ -120,7 +219,7 @@ Preses izlaiduma brīdī pašvaldība paziņoja, ka projekta otrā fāze ietvers
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/147/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 146,
