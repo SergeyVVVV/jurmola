@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 149,
+    slug: "riga-introduces-official-municipal-silence-hour",
+    title: {
+      en: "Riga Introduces Official Municipal Silence Hour After Residents Complain City’s Sighing Has Become Too Loud",
+      lv: "Rīga ievieš oficiālu pašvaldības Klusuma stundu pēc iedzīvotāju sūdzībām, ka pilsētas nopūtas kļuvušas pārāk skaļas",
+      ru: "Рига вводит официальный муниципальный «час тишины» после жалоб жителей на то, что город вздыхает слишком громко"
+    },
+    excerpt: {
+      en: "Following years of public frustration over what officials describe as “collective atmospheric exasperation,” Riga City Council has approved a daily municipal Silence Hour to reduce the volume of synchronized sighing heard across the capital. Authorities say the measure is intended to restore calm, improve bird confidence, and prevent further structural fatigue in Soviet-era balconies.",
+      lv: "Pēc ilgstošas sabiedrības neapmierinātības ar to, ko amatpersonas raksturo kā “kolektīvu atmosfērisku izmisumu”, Rīgas dome apstiprinājusi ikdienas pašvaldības Klusuma stundu, lai samazinātu sinhronizēto nopūtu skaļumu visā galvaspilsētā. Pārvalde uzskata, ka pasākums atjaunos mieru, uzlabos putnu pašapziņu un novērsīs tālāku padomju laika balkonu strukturālo nogurumu.",
+      ru: "После многолетнего общественного недовольства тем, что чиновники называют «коллективным атмосферным раздражением», Рижская дума утвердила ежедневный муниципальный час тишины, чтобы снизить громкость синхронных вздохов, слышимых по всей столице. По словам властей, мера призвана восстановить спокойствие, поднять уверенность птиц и предотвратить дальнейшее усталостное разрушение советских балконов."
+    },
+    fullContent: {
+      en: `RIGA — In a 38–17 vote late Tuesday evening, Riga City Council approved the country’s first officially regulated municipal Silence Hour, a daily 7:00 to 8:00 p.m. period during which residents are asked to refrain from heavy sighing, muttering “nu jā,” or standing at kitchen windows and exhaling dramatically at the state of things.
+
+The new ordinance, formally titled the Urban Acoustic Relief and Measured Resignation Plan, comes after a six-month pilot study found that the average evening sigh in central Riga had increased in both duration and emotional density since last November. According to a report prepared by the Department of Civic Atmosphere, residents of Purvciems alone generated an estimated 14,200 liters of disappointed air per night, with particularly concentrated releases occurring near trolleybus stops, apartment courtyards, and the dairy aisle of Rimi.
+
+“We are not trying to suppress anyone’s feelings,” Deputy Mayor Ilze Dreimane told reporters while unfolding a chart labeled Seasonal Burden Index. “But there comes a point when a city must ask whether every setback requires a full-chested communal exhale. We have tourists. We have seagulls. We have old windows.”
+
+Officials say the decision was partly motivated by infrastructure concerns. Engineers from Riga Technical University recently concluded that repeated synchronized sighing in dense residential blocks may be contributing to “low-frequency morale vibrations,” a phenomenon now suspected in the loosening of 312 balcony railings and the mysterious tilting of a bus shelter in Āgenskalns.
+
+At a press conference, municipal acoustics consultant Andris Vēveris demonstrated the difference between acceptable disappointment and prohibited theatrical despair. A brief nose exhale was deemed permissible. A long, seated breath accompanied by forehead rubbing will now require registration if performed by more than three adults in the same room.
+
+“There must be boundaries,” Vēveris said. “A disappointed chuckle is part of healthy democratic life. But if six men in identical jackets stare at sleet in silence and then sigh in descending order, that is no longer private expression. That is an event.”
+
+To enforce the policy, the city will deploy 24 volunteer Quiet Wardens in reflective beige vests bearing the slogan ‘Less Air, More Hope.’ During Silence Hour, wardens will patrol key exasperation zones including Central Station, the State Revenue Service lobby, and a parking lot in Teika that residents describe as “psychologically Baltic.” First-time violators will receive a polite laminated warning card. Repeat offenders may be assigned to a municipal Optimism Workshop, where they will be asked to identify three things that are “not, objectively speaking, the worst.”
+
+Reaction among residents has been mixed. Jurmala pensioner and part-time accordion repairman Modris Bērziņš called the move “an insult to our cultural heritage.” Speaking outside a Maxima in Zolitūde, Bērziņš argued that sighing is “one of the few remaining affordable forms of participation in public life.”
+
+Others welcomed the change. “I support it,” said 29-year-old office administrator Santa Ozoliņa, who lives near Brīvības Street. “Last Thursday the entire building sighed at once because the elevator stopped between floors. My fern bent sideways. Something had to be done.”
+
+Local businesses are already adapting. Several cafés in the city center have introduced sound-dampening curtains and special low-impact conversation menus, while one Old Riga bar has begun serving a cocktail called The Contained Reaction, presented with tonic water, dill, and a coaster reminding patrons to process internally.
+
+Despite criticism, city officials insist the measure is temporary and will be reviewed before the first major autumn rains, when atmospheric pessimism traditionally reaches annual peak levels. If successful, the program may expand to include controlled eyebrow-raising and a permit system for meaningful pauses at family gatherings.
+
+For now, residents are being encouraged to redirect emotional overflow into quieter alternatives such as journaling, passive gardening, or staring into the middle distance without involving the diaphragm. As church bells rang across the capital on Wednesday, much of Riga appeared willing to comply, pausing only briefly before expressing its concerns in the customary way: by saying nothing at all, but with unmistakable force.`,
+      lv: `RĪGA — Ar 38–17 balsojumu otrdienas vakarā Rīgas dome apstiprināja valsts pirmo oficiāli regulēto pašvaldības Klusuma stundu — ikdienas laika posmu no pulksten 19:00 līdz 20:00, kad iedzīvotāji tiek aicināti atturēties no skaļām nopūtām, mutēšanas “nu jā” vai stāvēšanas pie virtuves logiem un dramatiskas izelpas par stāvokli apkārt.
+
+Jaunais saistošais akts, formāli nosaukts par "Pilsētas akustiskās relaksācijas un mērotās rezignācijas plānu", nāk pēc sešu mēnešu pilotpētījuma, kurā konstatēts, ka vidējā vakara nopūta centrālajā Rīgā kopš pagājušā novembra palielinājusies gan pēc ilguma, gan emocionālās blīvuma. Pilsoniskās atmosfēras departamenta sagatavotajā ziņojumā teikts, ka tikai Purvciema iedzīvotāji naktī rada aptuveni 14 200 litru vīlušā gaisa, īpaši koncentrētas izplūdes notiek pie trolejbusa pieturām, daudzdzīvokļu pagalmiem un Rimi piena preču alejā.
+
+"Mēs necenšamies apspiest nevienu jūtu," reportieriem sacīja Rīgas vicemēre Ilze Dreimane, izklāstot grafiku ar nosaukumu "Sezonālās slodzes indekss". "Bet pienāk brīdis, kad pilsētai jāuzdod jautājums — vai katrs satricinājums prasa pilnu kopīgu izelpu? Mums ir tūristi. Mums ir kaijas. Mums ir veci logi."
+
+Amatpersonas norāda, ka lēmumu daļēji motivējuši infrastruktūras apsvērumi. Rīgas Tehniskās universitātes inženieri nesen konstatēja, ka atkārtotas sinhronizētas nopūtas blīvos dzīvojamajos blokos var veicināt "zemfrekvences morāles vibrācijas", fenomenu, ko tagad aizdomās tur par 312 balkona margu atslābšanu un autobusa nojumes nosvēršanos Āgenskalnā.
+
+Preses konferencē pašvaldības akustikas konsultants Andris Vēveris demonstrēja atšķirību starp pieļaujamu vīlušanos un aizliegto teatrālo izmisumu. Īsa izelpa caur degunu tiek atzīta par pieļaujamu. Gara, sēžot veikta ieelpa, kam seko pieres beršana, tagad prasīs reģistrāciju, ja to veiks vairāk nekā trīs pilngadīgas personas vienā telpā.
+
+"Jābūt robežām," teica Vēveris. "Vīlušs ķiķinājums ir daļa no veselīgas demokrātiskas dzīves. Bet ja seši vīri identiskos jaciņos klusējot skatās uz sarmu un pēc tam nopūšas dilstošā secībā, tas vairs nav privāts izteiksmes veids. Tas ir notikums."
+
+Lai īstenotu politiku, pilsēta izvietos 24 brīvprātīgos Klusuma sargus atstarojošos bēša krāsas vesteņos ar devīzi "Mazāk gaisa, vairāk cerības." Klusuma stundas laikā sargi patrulēs galvenajās izmisuma zonās, tostarp Centrālajā stacijā, Valsts ieņēmumu dienesta foajē un stāvlaukumā Teikā, ko iedzīvotāji raksturo kā "psiholoģiski Baltisku." Pirmoreiz pārkāpēji saņems laipnu laminētu brīdinājuma karti. Atkārtotus pārkāpējus var nosūtīt uz pašvaldības Optimisma darbnīcu, kur viņiem lūgs nosaukt trīs lietas, kas, "objektīvi runājot, nav pats sliktākais."
+
+Reakcija iedzīvotāju vidū ir jaukta. Jūrmalas pensionārs un pusslodzes akordeona remontētājs Modris Bērziņš šo soli nodēvēja par "uzbrukumu mūsu kultūras mantojuma aizsardzībai." Stāvot pie Maxima Zolitūdē, Bērziņš apgalvoja, ka nopūta ir "viena no retajām pieejamajām līdzdalības formām sabiedriskajā dzīvē."
+
+Citi sveica izmaiņas. "Es atbalstu," sacīja 29 gadus vecā biroja administratore Santa Ozoliņa, kura dzīvo pie Brīvības ielas. "Pagājušajā ceturtdienā visa ēka vienlaikus nopūtās, jo lifts apstājās starp stāviem. Mana paparde saliecās uz sāniem. Jāizdara kaut kas."
+
+Vietējie uzņēmumi jau pielāgojas. Vairāki kafejnīcu centri centrā ieviesuši skaņas slāpējošas aizkarus un īpašas zemas ietekmes sarunu ēdienkartes, kamēr viens Vecrīgas bārs sācis pasniegt kokteili "Kontrolētā reakcija", kas tiek piedāvāts ar toniku, dilles zariņu un paliktni, kas atgādina apmeklētājiem izsūkt emocijas iekšēji.
+
+Neskatoties uz kritiku, pilsētas amatpersonas uzsver, ka pasākums ir pagaidu rakstura un tiks pārskatīts pirms pirmajām lielajām rudens lietavām, kad atmosfēriskā pesimisma tradīcijas rod gada maksimumu. Ja programma būs veiksmīga, to varēs paplašināt, iekļaujot kontrolētu uzacu paceļšanu un atļauju sistēmu nozīmīgām pauzēm ģimenes sanākšanās laikā.
+
+Līdz tam iedzīvotājiem tiek ieteikts emocionālo pārplūdi novirzīt klusākos alternatīvos veidos, piemēram, žurnālistikā (domāts žurnālvēstures rakstīšana), pasīvā dārzniecībā vai skatīšanās vidējā attālumā, neiesaistot diafragmu. Kad trešdien pa galvaspilsētu skanēja baznīcu zvani, šķita, ka Rīga lielākoties gatava ievērot noteikumus, uz brīdi apstājoties, pirms izteikt savas bažas ierastajā veidā: neko neteicot vispār, taču ar neapšaubāmu spēku.`,
+      ru: `РИГА — На заседании в поздний вторник вечером Рижская дума проголосовала за ввод в стране первого официально регулируемого муниципального «Часа тишины»: 38 голосов «за» против 17 «против». Ежедневный интервал с 19:00 до 20:00, в течение которого жителям предлагают воздерживаться от тяжёлых вздохов, бормотания «nu jā» и стояния у кухонных окон с драматическим выдохом по поводу происходящего.
+
+Новый ордонанс, официально озаглавленный «План городского акустического облегчения и взвешенной отставки», подготовлен после шестимесячного пилотного исследования, которое показало, что средний вечерний вздох в центральной Риге с прошлого ноября увеличился и по продолжительности, и по эмоциональной насыщенности. По данным отчёта Департамента гражданской атмосферы, одни только жители Пурвциема производят, по оценкам, 14 200 литров разочарованного воздуха за ночь, при этом особенно концентрированные выдохи фиксировались возле остановок троллейбусов, во дворах жилых домов и в молочном отсеке супермаркета Rimi.
+
+«Мы не пытаемся подавлять чьи‑то чувства», — сказала журналистам вице-мэр Илзе Дреймане, разворачивая график под названием "Индекс сезонной нагрузки". «Но наступает момент, когда город должен задать себе вопрос: действительно ли каждая неудача требует коллективного выдоха в полные лёгкие. У нас есть туристы. У нас есть чайки. У нас есть старые окна». 
+
+Чиновники отмечают, что решение было отчасти мотивировано инфраструктурными соображениями. Инженеры Рижского технического университета недавно пришли к выводу, что повторяющиеся синхронные вздохи в плотной жилой застройке могут способствовать «низкочастотным вибрациям морального состояния», явлению, которое теперь подозревают в ослаблении 312 перил балконов и загадочном наклоне остановочного павильона в Āgenskalns.
+
+На пресс‑конференции муниципальный акустический консультант Андрис Веверис продемонстрировал разницу между допустимым разочарованием и запрещённым театральным отчаянием. Короткий носовой выдох признан допустимым. Долгий, сидячий вдох с потиранием лба теперь потребует регистрации, если его выполняют более трёх взрослых в одной комнате.
+
+«Должны быть границы», — сказал Веверис. «Прискорбный смешок — часть здоровой демократической жизни. Но если шесть мужчин в одинаковых куртках молча смотрят на дождь со снегом, а затем вздыхают по нисходящей, это уже не частное выражение. Это — событие». 
+
+Для контроля за исполнением политики город выставит 24 добровольца — Стражей тишины — в светоотражающих бежевых жилетах с лозунгом «Меньше воздуха, больше надежды». В час тишины стражи будут патрулировать ключевые зоны раздражения, включая Центральный вокзал, вестибюль Государственной налоговой службы и парковку в Тейке, которую местные жители описывают как «психологически балтийскую». Нарушителям в первый раз будут вручать вежливую ламинированную карточку‑предупреждение. Повторные нарушители могут быть направлены на муниципальную Мастерскую оптимизма, где их попросят назвать три вещи, которые «объективно говоря не являются худшими». 
+
+Реакция жителей разделилась. Юрмальский пенсионер и подрабатывающий ремонтник аккордеонов Модрис Берьзиньш назвал шаг «оскорблением нашего культурного наследия». Выступая у магазина Maxima в Золитуде, Берьзиньш заметил, что вздох — «одна из немногих остающихся доступных форм участия в общественной жизни». 
+
+Другие одобрили перемены. «Я поддерживаю это», — сказала 29‑летняя офис‑администратор Санта Озолиня, живущая недалеко от улицы Бривибас. «В прошлый четверг весь подъезд одновременно вздохнул, потому что лифт застрял между этажами. Моя папоротник согнулась вбок. Нужно было что‑то делать». 
+
+Местный бизнес уже адаптируется. Несколько кафе в центре города ввели звукоизолирующие шторы и специальные меню для разговоров с низким эмоциональным воздействием, а один бар в Старой Риге стал подавать коктейль под названием "Сдержанная реакция" — с тоником, укропом и подставкой под стакан с напоминанием о том, чтобы перерабатывать эмоции внутри себя. 
+
+Несмотря на критику, городские власти настаивают, что мера носит временный характер и будет пересмотрена до первых серьёзных осенних дождей, когда атмосферный пессимизм традиционно достигает годового пика. В случае успеха программа может быть расширена, включив контролируемое вскидывание бровей и систему разрешений на осмысленные паузы в семейных собраниях. 
+
+Пока жителей призывают перенаправлять эмоциональный переполнение в более тихие альтернативы — ведение дневника, пассивное садоводство или созерцание в никуда без задействования диафрагмы. Когда в среду по всей столице прозвонили церковные колокола, большая часть Риги, казалось, была готова подчиниться: на мгновение пауза, а затем выразить свои переживания по‑обычному — молча, но с неоспоримой силой.`
+    },
+    date: "May 9, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/149/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 148,
     slug: "riga-introduces-municipal-silence-tax-after",
     title: {
@@ -114,7 +207,7 @@ Preses noslēgumā inspektori Vecmīlgrāvī izmeklēja pagalmu, kurā trīs kai
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/148/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 147,
