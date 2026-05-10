@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 150,
+    slug: "riga-introduces-official-meaningful-sigh-tax",
+    title: {
+      en: "Riga Introduces Official ‘Meaningful Sigh’ Tax to Monetize Resident Dissatisfaction",
+      lv: "Rīga ievieš oficiālu „nozīmīgas nopūtas” nodokli, lai monetizētu iedzīvotāju neapmierinātību",
+      ru: "Рига вводит официальный налог на «значимый вздох», чтобы монетизировать недовольство жителей"
+    },
+    excerpt: {
+      en: "In a move city officials say will finally align municipal revenue with public mood, Riga has approved a new levy on audible sighing in civic spaces. Authorities estimate the capital has been losing millions annually to unregistered expressions of disappointment, particularly at tram stops, supermarket self-checkouts, and during discussions of parking.",
+      lv: "Kā solījuši pilsētas amatpersonas, lai beidzot saskaņotu pašvaldības ieņēmumus ar sabiedrības noskaņojumu, Rīga apstiprinājusi jaunu nodevu par skaļi izteiktām nopūtām publiskajās vietās. Pārvaldes aprēķina, ka galvaspilsēta ik gadu zaudē miljonus neregistrētu vilšanās izpausmju dēļ, īpaši tramvaju pieturās, veikalu pašapkalpošanās kasēs un sarunās par stāvvietām.",
+      ru: "В попытке, как заявляют городские чиновники, наконец привести муниципальные доходы в соответствие с общественным настроением, Рига утвердила новый сбор за слышимое вздыхание в общественных местах. По оценкам властей, столица ежегодно теряла миллионы из‑за незарегистрированных проявлений разочарования, особенно на трамвайных остановках, в самообслуживании супермаркетов и во время обсуждения парковки."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Council voted late Tuesday to adopt what it is calling the Emotional Output Recovery Mechanism, a municipal program that will place a small tax on “prolonged, culturally significant sighing” performed within city limits. Beginning 1 September, residents will be charged €0.07 for every meaningful sigh exceeding 1.8 seconds, with a reduced winter rate available for pensioners and anyone carrying a Maxima bag in visible resignation.
+
+Deputy Mayor for Civic Atmosphere Ieva Klavina described the measure as “long overdue modernization.” Speaking at a press conference held beside a malfunctioning parking meter for symbolic reasons, Klavina said Riga had tolerated an untaxed gray economy of dissatisfaction for decades.
+
+“We are not taxing emotions,” Klavina said. “We are simply asking residents to contribute fairly when those emotions become public infrastructure. A sigh at home is private. A sigh on a platform in front of 46 other people becomes, in effect, a municipal event.”
+
+According to a 118-page assessment prepared by the Riga Institute for Social Weather, the average resident produces 14.3 meaningful sighs on weekdays and 22.1 on Mondays following long weekends in Saulkrasti. Of those, nearly 61% are classified as “administrative,” typically triggered by online forms, queue systems, or the phrase “temporary technical difficulties.” Another 23% are “seasonal existential,” peaking in November, while 9% are linked specifically to hearing that “Jurmala is only 25 minutes away” from someone who has not traveled there on a Friday.
+
+City planners estimate the tax could generate €8.4 million annually, money that will be earmarked for practical improvements including louder tram speakers, a pilot project to straighten one decorative cobblestone street, and the digitization of a single office in the Land Register by 2027.
+
+To enforce the new policy, municipal wardens will carry calibrated acoustic lanyards capable of distinguishing between a taxable sigh, a non-taxable nose exhale, and what regulations describe as “the low, historical breath released upon opening a heating bill.” First-time offenders will receive educational pamphlets. Repeat offenders may be asked to download the MyRigaMood app, which allows users to pre-declare frustration and purchase discounted monthly sigh passes.
+
+Reaction across the capital has been mixed but energetic. Outside the Central Station underpass, accountant Martins Ozols, 42, said he objected to the tax in principle but admitted it reflected local reality. “If they are honest, they should tax eyebrow raises too,” Ozols said. “That is where the real volume is. One eyebrow in Riga can contain three paragraphs.”
+
+In Jurmala, officials expressed concern that summer visitors may attempt to evade the fee by relocating their dissatisfaction to the seaside. “We cannot become a sanctuary jurisdiction for unlicensed sighing,” said Jurmala tourism coordinator Elina Vevere. “Last August we already had an unsustainable increase in passive-aggressive gazes near Dzintari Concert Hall.”
+
+Business groups have also begun adapting. Several cafes in the Quiet Centre now offer “Sigh-Free Hours,” while a co-working space in Teika has introduced private booths where freelancers can exhale heavily without municipal monitoring. Meanwhile, the Latvian Chamber of Small Retailers warned that corner shops may struggle to distinguish between sighs of despair and sighs made after seeing the price of blueberries in February.
+
+Despite criticism, officials remain optimistic. “Riga has always been a city of resilience, introspection, and acoustically measurable disappointment,” Klavina said. “The question was never whether people would sigh. The question was whether we could finally invoice it.”
+
+At press time, council members were reportedly studying a separate proposal to place QR codes on strategically scenic benches, allowing residents to pay in advance for sitting silently and looking as though they have been let down by history.`,
+      lv: `Rīga — Rīgas domes sēdē vēl vēlu otrdien tika pieņemts tas, ko pilsētas pārvalde dēvē par Emocionālās Izlādes Atgūšanas Mehānismu, pašvaldības programmu, kas paredz mazu nodokli par „pagarinātu, kultūrāli nozīmīgu nopūtu”, kas izteikta pilsētas teritorijā. No 1. septembra iedzīvotājiem tiks piemērots 0,07 € maksājums par katru nozīmīgu nopūtu, kas pārsniedz 1,8 sekundes, ar samazinātu ziemas tarifu pensionāriem un ikvienam, kurš nesaļķījamā veidā nes Maxima maisiņu vaļsirdīgā rezignācijā.
+
+Domes vietniece sabiedriskās atmosfēras jautājumos Ieva Klaviņa pasludināja šo pasākumu par „sen vajadzīgu modernizāciju”. Preses konferencē, kas simbolisku iemeslu dēļ notika pie bojāta stāvvietas automāta, Klaviņa sacīja, ka Rīga gadu desmitiem ir pacietusi nenodokļotu pelēko vilšanās ekonomiku.
+
+"Mēs neapliksim emocijas ar nodokli," sacīja Klaviņa. "Mēs vienkārši lūdzam iedzīvotājus godīgi līdzfinansēt, kad šīs emocijas kļūst par sabiedrisko infrastruktūru. Nopūta mājās ir privāta. Nopūta uz perona priekšā 46 citiem cilvēkiem kļūst, faktiski, par pašvaldības pasākumu."
+
+Saskaņā ar 118 lappušu novērtējumu, ko sagatavojis Rīgas Sociālā Laika Institūts, vidējais iedzīvotājs darba dienās izdod 14,3 nozīmīgas nopūtas, bet pirmdienās pēc garajiem Saulkrastu brīvdienu nedēļas nogales — 22,1. No tām gandrīz 61% tiek klasificētas kā „administratīvās”, parasti izsauktas tiešsaistes formu, rindu sistēmu vai frāzes „pagaidām tehniskas grūtības” dēļ. Vēl 23% ir „sezonāli eksistenciālas”, to maksimums novembrī, bet 9% saistīti īpaši ar frāzi „Jūrmala ir tikai 25 minūšu attālumā” no cilvēka, kas piektdien tur nekad nav bijis.
+
+Pilsētplānotāji prognozē, ka nodoklis varētu ģenerēt 8,4 miljonus eiro gadā — līdzekļus, kas tiks atvēlēti praktiskiem uzlabojumiem, tostarp skaļākiem tramvaju skaļruņiem, pilotprojektam vienas dekoratīvās bruģa ielas iztaisnošanai un vienas nodaļas digitalizācijai Zemesgrāmatā līdz 2027. gadam.
+
+Lai īstenotu jauno politiku, pašvaldības inspektori nēsās kalibrētas akustiskās lentes, kas spēj atšķirt apliekamu nopūtu, neapliekamu deguna izelpu un to, ko noteikumi apraksta kā „zemo, vēsturisko elpu, kas izdalās, atverot apkures rēķinu”. Pirmreizējiem pārkāpējiem tiks izsniegtas izglītojošas brošūras. Atkārtotājiem var tikt lūgts lejupielādēt MyRigaMood lietotni, kas ļauj lietotājiem iepriekš deklarēt frustrāciju un iegādāties atlaidi mēneša nopūtas abonementiem.
+
+Reakcijas galvaspilsētā bijušas dažādas, taču enerģiskas. Pie Centrālās stacijas pārejas grāmatvedis Mārtiņš Ozols, 42 gadi, sacīja, ka principā iebilst pret nodokli, tomēr atzina, ka tas atspoguļo vietējo realitāti. "Ja viņi būtu godīgi, viņiem vajadzētu impozēt arī uzacu pacelšanu," sacīja Ozols. "Tur ir īstā intensitāte. Viens uzacs Rīgā var saturēt trīs rindkopas."
+
+Jūrmalā amatpersonas izteica bažas, ka vasaras apmeklētāji var mēģināt izvairīties no nodevas, pārvietojot savu neapmierinātību piejūras zonā. "Mēs nevaram kļūt par patvēruma jurisdikciju nereģistrētām nopūtām," brīdināja Jūrmalas tūrisma koordinatore Elīna Vevere. "Jau pagājušā augustā novērojām neudrūmu pieaugumu pasīvi-agresīvos skatienos pie Dzintaru koncertzāles."
+
+Biznesa grupas arī sāk pielāgoties. Vairāki kafejnīcu Klusā centra rajonā tagad piedāvā "Stundas bez nopūtām", kamēr kopstrādes telpa Teikā ieviesusi privātas kabīnes, kurās frīlanceri var dziļi izelpot bez pašvaldības uzraudzības. Tikmēr Latvijas mazāko mazumtirgotāju kamera brīdināja, ka stūra bodēm var būt grūti atšķirt izmisuma nopūtas no nopūtām, kas izsauktas pēc mellenes cenas redzēšanas februārī.
+
+Neskatoties uz kritiku, amatpersonas paliek optimistiskas. "Rīga vienmēr ir bijusi izturības, pašrefleksijas un akustiski izmērāmas vilšanās pilsēta," sacīja Klaviņa. "Jautājums nekad nebija, vai cilvēki nopūtīsies. Jautājums bija, vai mēs beidzot varēsim tam izrakstīt rēķinu."
+
+Preses izsludināšanas laikā domes deputāti, pēc ziņām, izskatīja atsevišķu priekšlikumu izvietot QR kodus stratēģiski skatu vietām pievilcīgās soliņos, ļaujot iedzīvotājiem iepriekš samaksāt par sēdēšanu klusumā un izskatīšanos, it kā viņus būtu viltojusi vēsture.`,
+      ru: `РИГА — Во вторник поздно вечером Рижская городская дума проголосовала за принятие того, что назвали «Механизм восстановления эмоциональных выбросов», муниципальной программы, которая введёт небольшой сбор за «продолжительные, культурно значимые вздохи», совершённые в пределах города. С 1 сентября жителям будут начислять по €0,07 за каждый значимый вздох, превышающий 1,8 секунды, с пониженной зимней ставкой для пенсионеров и для тех, у кого в руках видимая сумка сети Maxima, исполненная покорного отчаяния.
+
+Заместитель мэра по городской атмосфере Иева Клавина охарактеризовала меру как «давно назревшую модернизацию». На пресс‑конференции, проходившей рядом с неисправным паркоматом — по символическим причинам, — Клавина заявила, что Рига десятилетиями терпела незадекларированную серую экономику недовольства.
+
+«Мы не облагаем налогом эмоции», — сказала Клавина. — «Мы просто просим жителей вносить справедливый вклад, когда эти эмоции становятся общественной инфраструктурой. Вздох дома — частное дело. Вздох на платформе перед 46 другими людьми становится, по сути, муниципальным событием». 
+
+Согласно 118‑страничной оценке, подготовленной Рижским институтом социальной погоды, средний житель делает 14,3 значимых вздоха в будние дни и 22,1 — по понедельникам после длинных выходных в Саулкрасти. Почти 61% из них классифицируются как «административные», обычно вызванные онлайн‑формами, очередями или фразой «временные технические трудности». Ещё 23% — «сезонно‑экзистенциальные», пик которых приходится на ноябрь, а 9% непосредственно связаны с тем, когда вам говорят, что «Юрмала всего в 25 минутах», и это делает вас раздражённым, хотя вы в неё не ездили в пятницу.
+
+Городские планировщики оценивают, что сбор может приносить €8,4 млн в год, деньги будут направлены на практические улучшения, включая более громкие динамики у трамваев, пилотный проект по выправлению одной декоративной брусчатой улицы и оцифровку одного офиса в реестре недвижимости к 2027 году.
+
+Для исполнения новой политики муниципальные инспекторы будут носить калиброванные акустические шнурки, способные отличать облагаемый вздох, не облагаемый выдох из носа и то, что в регламентах описывается как «низкое, историческое дыхание, выпускаемое при получении квитанции за отопление». Нарушителям при первом нарушении вручат просветительские брошюры. Повторно нарушающим предложат скачать приложение MyRigaMood, которое позволяет заранее заявлять о фрустрации и покупать скидочные месячные пропуски на вздохи.
+
+Реакция по столице разделилась, но была энергичной. У тоннеля Центрального вокзала бухгалтер Мартиньш Озолс, 42 года, сказал, что по принципу он против налога, но признал, что это отражает местную реальность. «Если уж быть честными, им следует облагать также поднятие бровей», — сказал Озолс. — «Именно там настоящий объём. Одна бровь в Риге может вместить три абзаца». 
+
+В Юрмале чиновники выразили обеспокоенность тем, что летние гости могут попытаться обойти сбор, переместив своё недовольство на пляж. «Мы не можем стать юрисдикцией‑убежищем для нелицензированных вздохов», — сказала координатор по туризму Юрмалы Элина Веверe. — «В прошлом августе у нас уже был неустойчивый рост пассивно‑агрессивных взглядов возле концертного зала Дзинтари». 
+
+Бизнес‑круги тоже начали адаптироваться. Несколько кафе в Тихом центре теперь предлагают «Часы без вздохов», а коворкинг в Тейке ввёл частные кабинки, где фрилансеры могут глубоко выдохнуть без муниципального мониторинга. Между тем Латвийская палата мелких розничных продавцов предупредила, что ларькам будет трудно отличать вздохи отчаяния от вздохов после того, как увидят цену на чернику в феврале.
+
+Несмотря на критику, чиновники полны оптимизма. «Рига всегда была городом стойкости, интроспекции и акустически измеримого разочарования», — сказала Клавина. — «Вопрос никогда не стоял в том, будут ли люди вздыхать. Вопрос был в том, сможем ли мы наконец это фактурировать». 
+
+На момент отправки материала члены думы, по сообщениям, изучали отдельное предложение разместить QR‑коды на стратегически живописных скамейках, позволяющих жителям заранее оплатить право сидеть в тишине и смотреть так, будто их подвела сама история.`
+    },
+    date: "May 10, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/150/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 149,
     slug: "riga-introduces-official-municipal-silence-hour",
     title: {
@@ -108,7 +195,7 @@ Līdz tam iedzīvotājiem tiek ieteikts emocionālo pārplūdi novirzīt klusāk
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/149/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 148,
