@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 152,
+    slug: "riga-introduces-silent-tram-car-for-152",
+    title: {
+      en: "Riga Introduces Silent Tram Car for Passengers Who Need to Rehearse Mildly Disappointed Sigh Before Work",
+      lv: "Rīga ievieš klusējošu tramvaja vagonu pasažieriem, kuriem pirms darba jāiztrenē viegla, vīlusies nopūta",
+      ru: "Рига вводит тихий вагон для пассажиров, которым нужно репетировать слегка разочарованный вздох перед работой"
+    },
+    excerpt: {
+      en: "Rīgas Satiksme this week unveiled a new 'Reflective Commuter Car' on the No. 6 tram line, designed specifically for passengers who wish to prepare emotionally for the day in complete silence. Officials say the pilot program addresses a long-overlooked public need: the right to stare out the window at grey apartment blocks and privately conclude that things are \"fine, I suppose.\"",
+      lv: "Rīgas Satiksme šonedēļ atklāja jaunu „Apdomīgā pasažiera” vagonu 6. tramvaja līnijā, īpaši paredzētu pasažieriem, kuri vēlas emocionāli sagatavoties dienai pilnīgā klusumā. Pārstāvji apgalvo, ka pilotprojekts risina ilgi nepamanītu sabiedrisko vajadzību: tiesības skatīties pa logu uz pelēkajiem dzīvojamo māju bloku un privāti secināt, ka „nu labi, laikam jau viss kārtībā.”",
+      ru: "Rīgas Satiksme на этой неделе представила новый «Вагон для созерцательных пассажиров» на трамвайном маршруте №6, рассчитанный специально на тех, кто хочет эмоционально подготовиться к дню в полной тишине. По словам чиновников, пилотная программа закрывает давно игнорированную общественную потребность: право смотреть в окно на серые многоквартирные дома и про себя делать вывод «ну, наверное, всё в порядке»."
+    },
+    fullContent: {
+      en: `RIGA — In a move transport officials are calling both innovative and 'obviously necessary in this climate,' Rīgas Satiksme on Tuesday introduced Latvia’s first officially designated silent tram car, where commuters are prohibited from phone calls, loud conversations, cheerful laughter, and 'excessively optimistic podcast listening without headphones.'
+
+The new carriage, attached to selected morning trams between Jugla and Imanta, is intended to provide a controlled environment for what city planners describe as 'pre-professional emotional calibration.' According to internal planning documents, the average Riga commuter requires between 11 and 14 uninterrupted minutes each morning to gaze through a lightly fogged window, remember at least one unresolved household problem, and produce a sigh quiet enough not to draw attention but deep enough to communicate civic realism.
+
+'For years we focused only on speed, reliability, and whether the tram physically arrives,' said Rīgas Satiksme mobility strategy coordinator Elīna Grāvere, standing beside a sign that reads SILENCE HELPS NOBODY, BUT IT HELPS A LITTLE. 'But transport is also about atmosphere. We asked passengers what they wanted most during the morning commute, and 63 percent said, "No one talking to me," while another 21 percent simply looked away and adjusted their scarf, which we counted as support.'
+
+The silent car includes several carefully tested features. Seats are upholstered in a muted wool blend called Wet November. Window glass has been slightly desaturated to ensure the outside world appears 'appropriately manageable, but not inviting.' A low ambient speaker emits nearly inaudible sounds of distant seagulls, central heating pipes, and a neighbor moving furniture for unclear reasons.
+
+Commuters entering the carriage are greeted by a digital notice reminding them that acceptable facial expressions include stoic reflection, faint concern, and brief resentment toward weather. Smiling is permitted only if immediately withdrawn.
+
+'I used it this morning and arrived at the office already 78 percent emotionally pre-disappointed, which saved valuable company time,' said Ilmārs Kļaviņš, 41, an insurance claims processor from Purvciems. 'Usually I have to do that at my desk while pretending to open Excel. Now I can complete the transition before crossing the Daugava.'
+
+Not all passengers are convinced. University student Katrīna Vīksna said she accidentally entered the carriage while listening to upbeat music and was asked by three pensioners and one man with a thermos to 'take that energy elsewhere.' 'It felt organized,' she said. 'One woman didn’t even look at me. She just shook her head once, and somehow I understood everything.'
+
+The initiative was developed in consultation with behavioral researchers from the Baltic Institute for Public Temperament, whose recent report found that unstructured tram chatter before 8:30 a.m. increases the likelihood of passive-aggressive kitchen interactions later in the day by 34 percent. The same study concluded that commuters exposed to unsolicited enthusiasm on public transport are significantly more likely to spend lunch discussing relocation to some hypothetical farmhouse near Cēsis.
+
+City officials say early results are promising. During a three-day pilot, the silent carriage recorded a 92 percent reduction in audible conversation, a 47 percent increase in meaningful window staring, and only two incidents involving forbidden humming. One passenger was removed after whispering 'big plans today' to himself in a tone inspectors described as 'socially destabilizing.'
+
+Encouraged by the response, Riga is now considering additional mood-specific transport options, including a Friday evening tram for people carrying tulips and regret, and a special express bus to Jurmala where all passengers may openly judge summer architecture without fear of retaliation.
+
+By Wednesday morning, however, the silent tram faced its first serious challenge when a tourist entered Car No. 2, looked around at the bowed heads and grim serenity, and loudly asked whether everyone was 'going to a funeral.' Witnesses reported that 19 passengers turned toward him in perfect unison, creating what transport police later classified as 'the most Latvian possible answer.'`,
+      lv: `RĪGA — Pārvadājumu amatpersonu sauktā par gan inovatīvu, gan „acīmredzami nepieciešamu šajā klimātā” iniciatīvu, Rīgas Satiksme otrdien ieviesa Latvijas pirmo oficiāli noteikto klusējošo tramvaja vagonu, kurā pasažieriem ir aizliegts runāt pa telefonu, skaļi sarunāties, skanīgi smieties un „pārmērīgi optimistiski klausīties podcastus bez austiņām.”
+
+Jaunais vagons, piesaistīts izvēlētiem rīta reisiem starp Juglu un Imantu, paredzēts nodrošināt kontrolētu vidi tam, ko pilsētplānotāji dēvē par „pirmsdarba emocionālo kalibrēšanu.” Saskaņā ar iekšējiem plānošanas dokumentiem vidusmēra rīdziniekam katru rītu ir nepieciešamas no 11 līdz 14 nepārtrauktām minūtēm, lai paskatītos caur viegli nosalušu logu, atcerētos vismaz vienu neatrisinātu mājasdarbu problēmu un izdvestu nopūtu, kas ir pietiekami klusa, lai nepievērstu uzmanību, bet pietiekami dziļa, lai nodotu pilsonisko reālismu.
+
+„Gadu gadiem bijām koncentrējušies tikai uz ātrumu, uzticamību un to, vai tramvajs vispār pienāk,” sacīja Rīgas Satiksmes mobilitātes stratēģijas koordinatore Elīna Grāvere, nostājusies blakus zīmei, kurā rakstīts KLUSUMS NEPALĪDZ NEVIENAM, BET NEDAUDZ PALĪDZ. „Bet transports ir arī atmosfēra. Mēs jautājām pasažieriem, ko viņi visvairāk vēlas rīta reisā, un 63 procenti teica: ‘Neviens man nerunā,’ kamēr vēl 21 procents vienkārši aizgrieza skatienu un pāris reizes sakārtoja šalli — to mēs ieskaitījām kā atbalstu.”
+
+Klusajā vagonā iekļautas vairākas rūpīgi izmēģinātas funkcijas. Sēdvietas ir apvilktas ar piesardzīgu vilnas maisījumu ar nosaukumu „Mitrais novembris”. Logu stikls ir nedaudz tonēts, lai ārpasaule izskatītos „piemēroti pārvaldāma, bet nevilinoša.” Zema līmeņa vides skaļrunis izstaro gandrīz nedzirdamas skaņas — tālēkas kaijas, centrālās apkures cauruļu kņadzi un kaimiņa mēbeļu pārvietošanu neizskaidrojamu iemeslu dēļ.
+
+Ienākot vagonā, pasažierus sagaida digitāls paziņojums, kas atgādina, ka pieņemamās sejas izteiksmes ietver stoiisku pārdomu, vieglu satraukumu un īslaicīgu neapmierinātību ar laikapstākļiem. Smaidīt drīkst tikai tad, ja smaids tūlīt tiek atsaukts.
+
+„Es to izmantoju šorīt un ierados birojā jau 78 procentus emocionāli iepriekš vīlies, kas uzņēmumam ietaupīja vērtīgu laiku,” sacīja 41 gadu vecais Ilmārs Kļaviņš, apdrošināšanas prasījumu speciālists no Purvciema. „Parasti man tas jāizdara pie sava galda, liekot priekšā, ka atveru Excel. Tagad varu pabeigt pāreju pirms Daugavas šķērsošanas.”
+
+Ne visi pasažieri ir pārliecināti. Universitātes studente Katrīna Vīksna stāstīja, ka kļūdas pēc iemaldījās vagonā, klausoties optimistisku mūziku, un trīs pensionāri un viens vīrietis ar termosi viņai lūdza „aiznest šo enerģiju citur.” „Tas šķita organizēti,” viņa teica. „Viena sieviete pat nepaskatījās uz mani. Viņa tikai reizi paraustīja galvu, un es it kā sapratu visu.”
+
+Iniciatīvu izstrādāja sadarbībā ar pētniekiem no Baltijas Publiskā Temperamenta institūta, kura jaunākais ziņojums konstatēja, ka neregulētas sarunas tramvajā pirms pulksten 8:30 palielina pasīv-agrēsīvu virtuves konfrontāciju iespējamību vēlāk dienā par 34 procentiem. Tajā pašā pētījumā secināts, ka pasažieri, kuri publiskajā transportā pakļauti nevēlātai entuziasma devai, būtiski biežāk pusdienās apspriež pārcelšanos uz kādu hipotētisku viensētu pie Cēsiem.
+
+Pilsētas amatpersonas apgalvo, ka sākotnējie rezultāti ir daudzsološi. Trīs dienu pilotā klusais vagons reģistrēja 92 procentu samazinājumu dzirdamās sarunās, 47 procentu pieaugumu nozīmīgā loga skatīšanās rādītājos un tikai divus incidentus saistībā ar aizliegtu humošanu. Viens pasažieris tika izraidīts pēc tam, kad sev čukstus teicis „lieli plāni šodien” toni, ko inspektori raksturoja kā „sociāli destabilizējošu.”
+
+Iedvesmojoties no reakcijas, Rīga tagad apsver papildu noskaņojumam specifiskus transporta risinājumus, tostarp piektdienas vakara tramvaju cilvēkiem ar tulpēm un nožēlu, un speciālu ekspresbusu uz Jūrmalu, kur visi pasažieri var atklāti tiesāt vasaras arhitektūru bez bažām par atriebību.
+
+Trešdienas rītā klusais tramvajs tomēr sastapās ar pirmo nopietno izaicinājumu, kad tūristis iekāpa 2. vagonā, apskatījās uz noliektajām galvām un nopietno mieru un skaļi pajautāja, vai visi dodas uz bēru. Aculiecinieki ziņoja, ka 19 pasažieri pagriezās pret viņu ideālā vienbalsībā, radot to, ko transporta policija vēlāk klasificēja kā „vislatviskāko iespējamo atbildi.”`,
+      ru: `РИГА — В шаге, который транспортные чиновники называют и инновационным, и «очевидно необходимым в нынешних обстоятельствах», Rīgas Satiksme во вторник запустила в Латвии первый официально выделенный тихий трамвайный вагон, где пассажирам запрещено разговаривать по телефону, громко беседовать, радостно смеяться и «чрезмерно оптимистично слушать подкасты без наушников». 
+
+Новый вагон, прицепленный к выбранным утренним трамваям на участке между Юглой и Имантой, предназначен для создания контролируемой среды для того, что городские планировщики описывают как «предпрофессиональную эмоциональную калибровку». Согласно внутренним плановым документам, среднему рижскому пассажиру требуется от 11 до 14 непрерывных минут каждое утро, чтобы посмотреть через слегка запотевшее окно, вспомнить как минимум одну нерешённую бытовую проблему и издать вздох, достаточно тихий, чтобы не привлечь внимания, но достаточно глубокий, чтобы передать гражданский реализм. 
+
+«Годы мы обращали внимание только на скорость, надёжность и на то, доезжает ли вообще трамвай», — сказала координатор стратегии мобильности Rīgas Satiksme Элина Гравере, стоя рядом с табличкой, на которой написано «Тишина никому не помогает, но немного — да». «Но транспорт — это ещё и атмосфера. Мы спросили у пассажиров, чего они хотят больше всего в утренней поездке, и 63 процента сказали: «Никто со мной не разговаривает», а ещё 21 процент просто отвернулся и поправил шарф, что мы тоже зачли как поддержку». 
+
+В тихом вагоне реализованы несколько тщательно опробованных решений. Сиденья обиты приглушённой шерстяной тканью под названием «Мокрый ноябрь». Стекла окон слегка десатурированы, чтобы внешний мир выглядел «достаточно управляемым, но не притягательным». Низкоуровневый фоновой динамик издаёт почти не слышимые звуки далеких чаек, труб центрального отопления и соседа, переставляющего мебель по непонятным причинам. 
+
+Входящих в вагон встречает электронное объявление, напоминающее, что допустимые выражения лица включают стойкое созерцание, лёгкую обеспокоенность и краткое раздражение на погоду. Улыбка разрешена только если немедленно отзывается. 
+
+«Я ездил сегодня утром — пришёл в офис уже на 78 процентов эмоционально предварительно разочарованным, что сэкономило ценные рабочие часы», — сказал 41‑летний Илмарс Клявиньш, обработчик страховых случаев из Пурвциемса. «Обычно мне приходится делать это за рабочим столом, притворяясь, что открываю Excel. Теперь я могу завершить переход до пересечения Даугавы». 
+
+Не все пассажиры в восторге. Студентка Катрина Виксна рассказала, что случайно зашла в вагон под бодрую музыку и ей трое пенсионеров и один мужчина с термосом вежливо попросили «убрать эту энергию в другое место». «Это выглядело организованно», — сказала она. «Одна женщина даже не посмотрела на меня. Она просто один раз покачала головой, и я как‑то всё поняла». 
+
+Инициатива разрабатывалась в консультации с поведенческими исследователями из Балтийского института общественного темперамента, чей недавний отчёт показал, что неструктурированные разговоры в трамвае до 8:30 утра увеличивают вероятность пассивно‑агрессивных кухонных разборок позже в тот же день на 34 процента. То же исследование пришло к выводу, что пассажиры, подвергшиеся нежелательному энтузиазму в общественном транспорте, значительно чаще обедами обсуждают переезд в какую‑нибудь гипотетическую усадьбу рядом с Цесисом. 
+
+Городские власти заявляют, что первые результаты обнадеживают. В течение трёхдневного пилота тихий вагон зафиксировал снижение слышимых разговоров на 92 процента, рост «осмысленного уставливания в окно» на 47 процентов и лишь два инцидента, связанных с запрещённым напеванием. Один пассажир был выведен после того, как прошептал себе «большие планы на сегодня» тоном, который инспекторы охарактеризовали как «социально дестабилизирующий». 
+
+Воодушевлённая откликом, Рига теперь рассматривает дополнительные варианты транспорта с настроением, включая пятничный вечерний трамвай для людей с тюльпанами и сожалениями, а также специальный экспресс‑автобус в Юрмалу, где всем пассажирам разрешено открыто осуждать курортную архитектуру без опасения мести. 
+
+К утру среды, однако, у тихого вагона возникло первое серьёзное испытание: турист зашёл в вагон №2, оглядел поникшие головы и суровую безмолвную торжественность и громко спросил, не все ли они «идут на похороны?». Свидетели сообщили, что 19 пассажиров повернулись к нему в совершенном унисоне, что транспортная полиция позднее охарактеризовала как «наиболее по‑латвийски возможный ответ».`
+    },
+    date: "May 12, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/152/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 151,
     slug: "riga-apartment-building-forms-homeowners-association",
     title: {
@@ -90,7 +177,7 @@ Pie raksta nodošanas izdevniecībai loaferis joprojām atradās uz starpstāva,
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/151/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 150,
