@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 153,
+    slug: "riga-introduces-polite-pothole-program-asks",
+    title: {
+      en: "Riga Introduces ‘Polite Pothole’ Program, Asks Road Craters To Merge If Their Presence Is Inconvenient",
+      lv: "Rīga ievieš «Pieklājīgās bedres» programmu, aicina ceļa krāterus saplūst, ja to klātbūtne sagādā neērtības",
+      ru: "Рига запускает программу «Вежливая яма» и просит дорожные кратеры «перестроиться», если их присутствие неудобно"
+    },
+    excerpt: {
+      en: "Facing another spring in which several neighborhoods became technically theoretical, Riga officials have unveiled a new urban mobility plan centered on “cooperative asphalt depressions.” The city says potholes will now be expected to follow basic etiquette, including signaling before widening and avoiding eye contact with cyclists.",
+      lv: "Saskaroties ar vēl vienu pavasari, kurā vairākas apkaimes kļuva tehniski teorētiskas, Rīgas amatpersonas atklājušas jaunu pilsētas mobilitātes plānu, kura centrā ir “sadarbojošās asfalta depresijas”. Pilsēta paziņo, ka bedrēm tagad jāievēro pamata etiķete — tostarp signālizēt pirms paplašināšanās un izvairīties no acu kontakta ar velosipēdistiem.",
+      ru: "Столкнувшись с ещё одной весной, в которой несколько кварталов стали технически теоретическими, власти Риги представили новый план городской мобильности, сосредоточенный на «кооперативных асфальтовых впадинах». Город заявляет, что от теперь ям ожидают элементарного этикета: сигнализировать перед расширением и избегать зрительного контакта с велосипедистами."
+    },
+    fullContent: {
+      en: `RIGA — In a move city leaders are calling “a practical compromise between geology and budgeting,” the Riga City Council on Tuesday launched its long-awaited Polite Pothole Program, a municipal initiative intended to regulate the behavior of the capital’s expanding road cavities through signage, public dialogue, and what officials described as “gentle administrative pressure.”
+
+At a press conference held in a section of Brīvības iela recently reclassified from “street” to “textured basin,” Deputy Mayor for Seasonal Realities Mārtiņš Klavins said the city had accepted that potholes were no longer a temporary nuisance but “a permanent participant in civic life.”
+
+“For years we approached potholes as adversaries,” Klavins said, standing beside a crater large enough to contain a modest Midsummer bonfire. “But modern Europe teaches us coexistence. If a pothole must exist, the least it can do is behave professionally.”
+
+Under the new guidelines, potholes are asked to maintain predictable edges, refrain from sudden emotional expansion during thaw cycles, and whenever possible merge with neighboring holes to reduce administrative duplication. New blue roadside signs installed in Teika, Purvciems, and parts of Āgenskalns depict a sinking sedan beneath the message: THANK YOU FOR YOUR PATIENCE — THIS DEPRESSION IS MUNICIPALLY AWARE.
+
+According to a 48-page report from the city’s Department of Transport, Moisture, and Interpretive Surfaces, Riga currently contains 11,842 active potholes, 3,100 “aspirational depressions,” and 27 sites where residents have already begun assigning unofficial names. The largest, located near a trolleybus stop in Pļavnieki, is known locally as “Little Gulf of Riga” and reportedly has its own microclimate.
+
+Commuters expressed cautious support for the initiative. “Honestly, communication helps,” said office administrator Elīna Dāle, who said she had lost two hubcaps and “most of the lower philosophy” of her Volkswagen this winter. “Before, you would turn onto a street and suddenly be in an argument with the earth. If the pothole can at least indicate its intentions, that’s respectful.”
+
+The city has also introduced a pilot mediation service, allowing drivers and road damage to settle disputes without litigation. In one demonstration session attended by reporters, a municipal facilitator encouraged both parties to use “I” statements. A Toyota owner from Imanta said he felt “unseen and abruptly lowered,” while the pothole, represented by a laminated diagram and a licensed geotechnical ombudsman, maintained that repeated salting, neglect, and “hostile tire energy” had contributed to its outburst.
+
+Not everyone is convinced. Opposition council member Inga Zarina criticized the plan as “symbolic nonsense” and proposed filling roads with asphalt instead of empathy. Her remarks were immediately challenged by budget committee chair Oskars Veldre, who noted that asphalt was “expensive, finite, and unlike policy branding, not eligible for several innovation grants.”
+
+Business groups, however, have already adapted. A Jurmala wellness startup has announced weekend excursions to what it calls “urban mineral immersion sites,” where stressed professionals can stand beside major Riga potholes and “confront the instability within.” Meanwhile, souvenir kiosks in Old Town have begun selling miniature reflective vests labeled ROAD SURFACE COORDINATOR.
+
+By late afternoon, city workers ceremonially placed the first “courtesy cone” beside a crater in central Riga while a children’s choir sang a subdued arrangement of a transport safety anthem. Within minutes, the cone had sunk from view. Officials called the event a success and said the pothole had “engaged constructively with municipal materials.”`,
+      lv: `RĪGA — Solī, ko pilsētas vadītāji dēvē par “praktisku kompromisu starp ģeoloģiju un budžetu”, Rīgas dome otrdien uzsāka ilgi gaidīto Pieklājīgās bedres programmu — pašvaldības iniciatīvu, kas paredz regulēt galvaspilsētas paplašinājošo ceļu dobumu uzvedību, izmantojot ceļazīmes, sabiedrisku dialogu un to, ko amatpersonas nosauca par “maigu administratīvo spiedienu”.
+
+Preses konferencē, kas notika Brīvības ielas posmā, kas nesen tika pārdēvēts no “ielas” par “teksturētu baseinu”, sezonālo realitāšu vietnieks Mārtiņš Klavins sacīja, ka pilsēta ir pieņēmusi — bedres vairs nav pagaidu neērtība, bet “pastāvīgs pilsētiskās dzīves dalībnieks”.
+
+“Gadu desmitiem mēs piegājām bedrēm kā pretiniekiem,” sacīja Klavins, stāvot blakus krāterim, kurā varētu ierīkot mērenu Jāņu ugunskuru. “Taču mūsdienu Eiropa māca līdzāspastāvēšanu. Ja bedre tomēr eksistē, vismaz tai jāuzvedas profesionāli.”
+
+Saskaņā ar jaunajām vadlīnijām bedres tiek aicinātas uzturēt paredzamas malas, atturēties no pēkšņas emocionālas paplašināšanās atkušanas ciklu laikā un, kad iespējams, saplūst ar kaimiņu bedrēm, lai samazinātu administratīvo dublēšanos. Jaunas zilas ceļa zīmes, kas uzstādītas Teikā, Purvciemā un daļā Āgenskalna, attēlo grimstošu sedanu zem uzraksta: PALDIES PAR PACIĒŠANU — ŠĪ DEPRESIJA IR ZINĀMA KOMUNĀLAJĀM INSTANCĒM.
+
+Saskaņā ar 48 lappušu ziņojumu no Pilsētas Transporta, Mitruma un Interpretatīvo Virsmu departamenta, Rīgā pašlaik ir 11 842 aktīvas bedres, 3 100 “ambiciozas depresijas” un 27 vietas, kur iedzīvotāji jau sākuši piešķirt neoficiālus nosaukumus. Lielākā, kas atrodas pie trolejbusa pieturas Pļavniekos, vietēji tiek dēvēta par “Mazā Rīgas līča” un, kā ziņots, tai pat ir sava mikroklimata josla.
+
+Braucēji izrādīja piesardzīgu atbalstu iniciatīvai. “Godīgi sakot, komunikācija palīdz,” sacīja biroja administratore Elīna Dāle, kura stāstīja, ka šajā ziemā zaudējusi divus ratu diskus un “lielāko daļu sava Volkswagen apakšējās filozofijas”. “Iepriekš tu nogriezies uz ielas un pēkšņi esi zemes pārpratuma priekšā. Ja bedrei vismaz ir iespēja norādīt savas nodomas, tas ir cieņpilni.”
+
+Pilsēta ieviesusi arī pilotpakalpojumu — mediācijas servisu, kas ļauj autovadītājiem un ceļu bojājumiem risināt strīdus bez tiesvedības. Vienā demonstrācijas sesijā, kurā piedalījās žurnālisti, pašvaldības facilitators iedrošināja abas puses lietot “es” paziņojumus. Imantas iedzīvotāja Toyota īpašnieks sacīja, ka jūtas “neskatīts un pēkšņi pazemināts”, kamēr bedre, kuru pārstāvēja laminēta shēma un licencēts ģeotehniskais ombuts, apgalvoja, ka atkārtota sāļošana, nolaidība un “naidīga riepas enerģija” veicinājušas tās eksploziju.
+
+Ne visi ir pārliecināti. opozīcijas domes deputāte Inga Zarina kritizēja plānu kā “simbolisku muļķību” un ierosināja ielas aizbērt ar asfaltu, nevis empātiju. Viņas izteikumus nekavējoties apstrīdēja budžeta komitejas priekšsēdētājs Oskars Veldre, kurš norādīja, ka asfaltam ir “dārga, ierobežota rakstura daba un, atšķirībā no politikas brendinga, tas nav piemērots vairāku inovāciju grantu saņemšanai.”
+
+Taču uzņēmēju grupas jau ir pielāgojušās. Jūrmalas labsajūtas jaunuzņēmums paziņojis par nedēļas nogales ekskursijām uz tā dēvētajām “urbānajām minerālo iegremdēšanās vietām”, kur stresā esoši profesionāļi var nostāties blakus lielākajām Rīgas bedrēm un “konfrontēt iekšējo nestabilitāti”. Tikmēr suvenīru kioski Vecrīgā sākuši tirgot miniatūras atstarojošās vestes ar uzrakstu CEĻA VIRSMAS KOORDINATORS.
+
+Vēlā pēcpusdienā pilsētas strādnieki svinīgi novietoja pirmo “pieklājības konusu” blakus krāterim centrā Rīgā, kamēr bērnu koris nodziedāja pieticīgu transporta drošības himnas aranžējumu. Minūšu laikā konuss bija noslīdējis no redzesloka. Amatpersonas notikumu nodēvēja par veiksmīgu un pavēstīja, ka bedre “konstruktīvi iejaukusies pašvaldības materiālos.”`,
+      ru: `РИГА — В шаге, который городские руководители называют «практическим компромиссом между геологией и бюджетированием», Рижская городская дума во вторник запустила долгожданную Программу «Вежливая яма», муниципальную инициативу, призванную регулировать поведение растущих дорожных впадин столицы с помощью знаков, общественного диалога и того, что чиновники охарактеризовали как «мягкое административное давление».
+
+На брифинге, прошедшем на участке Brīvības iela, недавно переквалифицированном из «улицы» в «текстурированный бассейн», заместитель мэра по сезонным реалиям Mārtiņš Klavins заявил, что город принял факт: ямы уже не временное неудобство, а «постоянный участник гражданской жизни».
+
+«Годы мы относились к ямам как к противникам, — сказал Klavins, стоя рядом с кратером, достаточным по размеру для скромного костра на Иванов день. — Но современная Европа учит сосуществованию. Если яма уж должна существовать, то как минимум она может вести себя профессионально». 
+
+Согласно новым правилам, от ям просят поддерживать предсказуемые края, воздерживаться от внезапного эмоционального расширения во время оттепелей и, когда возможно, сливаться с соседними впадинами, чтобы сократить административное дублирование. Новые синие дорожные знаки, установленные в Тейке, Пурвциемсе и частях Āgenskalns, изображают тонущий седан и сопровождаются надписью: «СПАСИБО ЗА ТЕРПЕНИЕ — ЭТА ВПАДИНА ГОРОДСКИ ОСОЗНАННА». 
+
+По данным 48-страничного отчёта Городского департамента транспорта, влажности и интерпретирующих поверхностей, в Риге на данный момент насчитывается 11 842 активные ямы, 3 100 «стремящихся впадин» и 27 мест, где жители уже начали давать неофициальные имена. Самая большая, расположенная возле троллейбусной остановки в Pļavnieki, в местечковом обращении известна как «Малый залив Риги» и, по сообщениям, имеет собственный микроклимат.
+
+Коммутирующие выразили осторожную поддержку инициативе. «Честно говоря, общение помогает», — сказала офисный администратор Elīna Dāle, которая этой зимой лишилась двух колпаков и «большей части нижней философии» своего Volkswagen. «Раньше съезжаешь на улицу и внезапно оказываешься в споре с землёй. Если яма хотя бы может обозначить свои намерения, это проявление уважения». 
+
+Город также ввёл пилотную службу медиации, позволяющую водителям и дорожным повреждениям урегулировать споры без судебных разбирательств. В одной демонстрационной сессии, на которой присутствовали репортёры, муниципальный фасилитатор призвал обе стороны использовать «я»-высказывания. Владелец Toyota из Имантай сказал, что чувствовал себя «незамеченным и внезапно пониженным», в то время как яма, представленная ламинированной схемой и лицензированным геотехническим омбудсменом, утверждала, что к её вспышке привели повторное посыпание солью, пренебрежение и «враждебная энергия покрышек». 
+
+Не все убеждены. Член оппозиции в думе Inga Zarina раскритиковала план как «символическую чепуху» и предложила заделать дороги асфальтом вместо эмпатии. Её замечания незамедлительно оспорил председатель бюджетного комитета Oskars Veldre, отметивший, что асфальт «дорог, конечен и, в отличие от политического брендинга, не подлежит получению нескольких грантов на инновации». 
+
+Бизнес-сообщества, впрочем, уже адаптировались. Юрмальский велнес-стартап объявил о выходных экскурсиях к так называемым «городским минеральным зонам погружения», где напряжённые профессионалы могут постоять рядом с крупными рижскими ямами и «противостоять нестабильности внутри». Между тем сувенирные киоски в Старом городе начали продавать миниатюрные световозвращающие жилеты с надписью «КООРДИНАТОР ДОРОЖНОГО ПОКРЫТИЯ». 
+
+К концу дня городские рабочие торжественно установили первый «конический знак вежливости» рядом с кратером в центре Риги, пока детский хор исполнял приглушённую аранжировку гимна транспортной безопасности. Через несколько минут конус провалился из виду. Чиновники назвали событие успешным и заявили, что яма «конструктивно взаимодействовала с муниципальными материалами».`
+    },
+    date: "May 13, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/153/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 152,
     slug: "riga-introduces-silent-tram-car-for-152",
     title: {
@@ -102,7 +183,7 @@ Trešdienas rītā klusais tramvajs tomēr sastapās ar pirmo nopietno izaicinā
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/152/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 151,
