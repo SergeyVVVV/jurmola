@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 155,
+    slug: "riga-introduces-passive-aggressive-silence-zones-155",
+    title: {
+      en: "Riga Introduces ‘Passive-Aggressive Silence Zones’ on Public Transport to Preserve National Heritage",
+      lv: "Rīga ievieš 'pasīvi-agresīvās klusuma zonas' sabiedriskajā transportā, lai saglabātu nacionālo mantojumu",
+      ru: "Рига вводит «зоны пассивно‑агрессивного молчания» в общественном транспорте для сохранения национального наследия"
+    },
+    excerpt: {
+      en: "In a move officials say will protect Latvia’s most endangered cultural practice, Riga has begun designating special areas on buses and trams where riders may continue not speaking to each other with greater dignity. Transport authorities insist the policy is not anti-social, but rather a “strategic investment in emotionally precise silence.”",
+      lv: "Kā amatpersonas apgalvo, lai aizsargātu Latvijas visapdraudētāko kultūras praksi, Rīga sākusi izdalīt īpašas zonas autobusos un tramvajos, kur pasažieri var turpināt nerunāt savā starpā ar lielāku cienīgumu. Satiksmes iestādes uzsver, ka politika nav antisociāla, bet gan „stratēģiska ieguldījuma emocionāli precīzā klusumā”.",
+      ru: "В попытке, которую чиновники называют защитой самой уязвимой культурной практики Латвии, Рига начала выделять специальные места в автобусах и трамваях, где пассажиры могут продолжать не разговаривать друг с другом с большим достоинством. Транспортные власти уверяют, что политика не антисоциальна, а представляет собой «стратегическую инвестицию в эмоционально точное молчание»."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Council on Tuesday unveiled a new pilot program establishing “Passive-Aggressive Silence Zones” on selected public transport routes, a measure intended to safeguard what municipal planners describe as “an essential but increasingly diluted component of urban Latvian identity.”
+
+Under the initiative, the rear third of 14 trolleybuses, 9 trams, and one unusually confident minibus on route 22 will be reserved for commuters wishing to express mild irritation, moral superiority, and weather-related disappointment without uttering a word. Blue window stickers featuring a frowning hedgehog and the phrase Klusē ar jēgu (“Be silent with purpose”) were installed overnight.
+
+According to the Department of Civic Atmosphere, the program emerged after a year-long study found that spontaneous sighing on public transport had fallen 18% since 2021, while unregulated cheerful conversation — largely attributed to exchange students, podcast listeners, and one Canadian man living in Ķengarags — had risen to “socially destabilizing levels.”
+
+“We are not banning speech,” said Deputy Mobility Chairwoman Ilze Brante at a press conference held in front of a tram no one boarded for symbolic reasons. “People may still ask whether this seat is taken, or quietly say ‘sorry’ when physically necessary. But there must remain protected spaces where a resident can stare through a fogged window and communicate, through posture alone, that society has once again failed them.”
+
+To enforce the policy, Riga Satiksme has trained 37 new Silence Stewards, identified by navy vests and the ability to detect unnecessary enthusiasm from up to 11 meters away. In severe cases, stewards may issue a Level 2 Warning, requiring offenders to stand near the accordion joint of the tram and reflect on their choices while listening to an audio loop of November wind in Purvciems.
+
+Commuters offered mixed but restrained reactions. “I think it’s good,” said office administrator Mārtiņš Ozols, 42, speaking almost inaudibly on the number 6 tram while continuing not to make eye contact. “Lately people have been smiling in the mornings. I don’t want to say society is collapsing, but if nobody looks quietly betrayed before 8:30, what are taxes even for?”
+
+Others worry the zones may create regional inequality. “In Jurmala, we already have natural silence zoning,” said real estate consultant and part-time gong practitioner Evita Sproģe. “People avoid each other there for free. Riga is now monetizing a lifestyle that coastal municipalities have cultivated for decades.”
+
+The policy has drawn international attention from urbanists across the Baltics. A delegation from Tallinn reportedly requested technical specifications for the sigh-calibration system, while Vilnius officials remain skeptical, arguing that Lithuania’s transport culture favors “more direct forms of disappointment.” Meanwhile, Estonia’s Ministry of Culture has quietly added “well-timed exhalation near tram doors” to a draft heritage registry.
+
+City researchers insist the benefits are measurable. During early trials on the 3rd bus route, average eye contact dropped by 63%, unsolicited small talk fell to near-zero, and one passenger successfully conveyed “This route used to be better before EU funding” using only a scarf adjustment and two blinks.
+
+Not all residents are convinced. University student Elīna Bukša said she was accidentally seated in a Silence Zone after laughing at a message from a friend. “Three women looked at me like I had personally privatized the Daugava,” she said. “I apologized, but somehow that made it worse.”
+
+Despite criticism, officials say the program may expand if successful. Future phases include “Reserved Reflective Glare Compartments” at Central Station and a digital app allowing riders to pre-book a window seat from which to judge drizzle.
+
+As evening commuters shuffled home under a low grey sky, one newly designated tram car remained almost perfectly still, save for the occasional coat rustle and a single monumental sigh. City leaders later called the scene “a promising sign that Riga can still move forward by refusing, collectively, to comment on it.”`,
+      lv: `RĪGA — Rīgas dome otrdien atklāja jaunu pilotprogrammu, ar kuru noteiktas „pasīvi-agresīvās klusuma zonas” izvēlētajos sabiedriskā transporta maršrutos — pasākums, kura mērķis ir aizsargāt to, ko pilsētplānotāji raksturo kā „būtisku, taču arvien izplūdušāku urbānās latviskās identitātes sastāvdaļu”.
+
+Saskaņā ar iniciatīvu 14 trolejbusa aizmugurējā trešdaļa, 9 tramvaja vagoni un viens neparasti pārliecināts mikroautobuss maršrutā 22 tiks rezervēti pasažieriem, kuri vēlas izrādīt maigus neapmierinātības, morālās pārākuma un laikapstākļu saistītas vilšanās elementus, neizrunājot ne vārda. Naktī tika uzlīmētas zilas logu uzlīmes ar skumīgu ezīti un frāzi Klusē ar jēgu.
+
+Pilsētas Civiskās atmosfēras departamenta pārstāvji stāsta, ka programma radušās pēc gada ilga pētījuma, kurā atklājās, ka spontāna nopūta sabiedriskajā transportā kopš 2021. gada samazinājusies par 18%, kamēr neregulētas priecīgas sarunas — galvenokārt saistāmas ar apmaiņas studentiem, podkāstu klausītājiem un vienu Kanādas pilsoni, kas dzīvo Ķengaragā — bija pieaugušas līdz „sociāli destabilizējošam līmenim”.
+
+„Mēs nerīkojam runas aizliegumu,” preses konferencē, kas notika pie tramvaja, kurā simbolisku iemeslu dēļ neviens neiekāpa, teica Mobilitātes vietniece Ilze Brante. „Cilvēki joprojām var jautāt, vai šī sēdvieta ir brīva, vai klusi pateikt 'piedod', ja tas fizioloģiski nepieciešams. Bet jābūt aizsargātām telpām, kur iedzīvotājs var skatīties caur tvaikainu logu un tikai ar stāju pateikt, ka sabiedrība atkal viņu ir pievīlusi.”
+
+Lai īstenotu politiku, Rīgas Satiksme apmācījusi 37 jaunus Klusuma sargus, kurus var atpazīt pēc tumši zilām vestēm un spējām no 11 metru attāluma noteikt nevajadzīgu entuziasmu. Smagos gadījumos sargi var izsniegt 2. līmeņa brīdinājumu, kas pārkāpējiem uzliek pienākumu stāvēt pie tramvaja akordeona savienojuma un pārdomāt savas izvēles, klausoties audio cilpu ar novembra vēju Purvciemā.
+
+Pasažieri reaģēja dažādi, taču atturīgi. „Man šķiet, ka tas ir labi,” teica biroja administrators Mārtiņš Ozols, 42, runājot gandrīz nepamanāmi 6. tramvajā un turpinot neuztvert acu kontaktu. „Šajos rītos cilvēki pēdējā laikā ir sākuši smaidīt. Es negribu teikt, ka sabiedrība brūk, bet ja neviens klusībā neizskatās apvainots līdz 8:30, kam tad vispār domāti nodokļi?”
+
+Citi bažījas, ka zonas var radīt reģionālu nevienlīdzību. „Jūrmalā mums jau ir dabiskas klusuma zonas,” sacīja nekustamā īpašuma konsultante un daļējas gongu praktes piekopēja Evita Sproģe. „Cilvēki tur viens otru izvairās bez maksas. Rīga tagad komercializē dzīvesveidu, ko piekrastes pašvaldības gadu desmitiem ir kultivējušas.”
+
+Politika pievērsa starptautisku uzmanību no Baltijas reģiona urbanistiem. Tiek ziņots, ka delegācija no Tallinas pieprasījusi tehniskās specifikācijas nopūtas kalibrācijas sistēmai, kamēr Viļņas amatpersonas paliek skeptiskas, apgalvojot, ka Lietuvas transporta kultūra dod priekšroku „tiešākām vilšanās izrādēm”. Tikmēr Igaunijas Kultūras ministrija klusībā pievienojusi „laicīgi izpūstu izelpu pie tramvaja durvīm” savam kultūras mantojuma projektam.
+
+Pilsētas pētnieki uzsver, ka ieguvumi ir mērojami. Agrīnos izmēģinājumos 3. autobusa maršrutā vidējais acu kontakts samazinājās par 63%, nevēlamas sarunas krita gandrīz līdz nullei, un viens pasažieris veiksmīgi nodeva vēstījumu „Šim maršrutam agrāk bija labāk — pirms ES finansējuma” tikai ar šalles saudzīgu piespēli un divām mirkšķināšanām.
+
+Ne visi iedzīvotāji ir pārliecināti. Universitātes studente Elīna Bukša stāstīja, ka nejauši atradusies Klusuma zonā pēc tam, kad pasmējusies par drauga ziņu. „Trīs sievietes paskatījās uz mani tā, it kā es būtu personīgi privatizējusi Daugavu,” viņa sacīja. „Es atvainojos, bet tas kaut kā padarīja situāciju vēl sliktāku.”
+
+Neskatoties uz kritiku, amatpersonas norāda, ka programma var tikt paplašināta, ja tā būs veiksmīga. Nākamajos posmos paredzētas „Rezervētās atspoguļojošās apžilbuma kupejas” Centrālajā stacijā un digitāla lietotne, kas ļaus pasažieriem iepriekš rezervēt loga vietu, no kuras ar lielu pārliecību spriest par smidzinošu lietu.
+
+Kad vakara pasažieri lēni virzījās uz mājām zem zema pelēcīga debesu, viens nesen noteikts tramvaja vagons palika gandrīz pilnīgā mierā, izņemot reizi pa reizei mēteli, kas satrīcējās, un vienu monumentālu nopūtu. Pilsētas vadītāji vēlāk nosauca šo ainu par „cerīgu zīmi, ka Rīga joprojām var virzīties uz priekšu, kolektīvi atsakoties to komentēt”.`,
+      ru: `РИГА — Во вторник Рижский городской совет представил новый пилотный проект по созданию «зон пассивно‑агрессивного молчания» на отдельных маршрутах общественного транспорта — меру, призванную защитить то, что муниципальные планировщики называют «существенным, но всё более размывающимся компонентом городской латвийской идентичности». 
+
+В рамках инициативы заднюю треть 14 троллейбусов, 9 трамваев и одного необычайно самоуверенного микроавтобуса на маршруте 22 зарезервируют для поездок тех, кто хочет выражать лёгкое раздражение, моральное превосходство и разочарование погодой, не произнеся ни слова. Ночью были наклеены синие наклейки на окна с хмурящимся ёжиком и надписью Klusē ar jēgu («Молчи с смыслом»). 
+
+По данным Отдела гражданской атмосферы, программа появилась после годичного исследования, которое показало, что спонтанные вздохи в общественном транспорте сократились на 18% с 2021 года, тогда как не регулируемые весёлые разговоры — в основном приписываемые обменным студентам, слушателям подкастов и одному канадцу, живущему в Кенгарагсе — выросли до «социально дестабилизирующих уровней». 
+
+«Мы не запрещаем речь», — заявила на пресс‑конференции заместитель председателя по мобильности Илзе Бранте, стоя перед трамваем, в который по символическим причинам никто не заходил. «Люди по‑прежнему могут спросить, занято ли место, или тихо сказать «извините», когда это физически необходимо. Но должны оставаться защищённые пространства, где житель может смотреть в запотевшее окно и через одну лишь позу дать понять, что общество снова его подвело». 
+
+Для обеспечения соблюдения политики компания Riga Satiksme обучила 37 новых Инспекторов Молчания, которых легко узнать по тёмно‑синим жилетам и способности обнаруживать излишний энтузиазм на расстоянии до 11 метров. В особо тяжёлых случаях инспекторы могут вынести Предупреждение уровня 2, требующее от нарушителей встать возле гармошки трамвая и поразмыслить о своих жизненных выборах под зацикленную запись ноября в Пурвциемсе — «шум ветра ноября в Пурвциемсе». 
+
+Пассажиры отреагировали сдержанно, но в целом положительно. «Я думаю, это хорошо», — почти неслышно сказал 42‑летний офисный администратор Мартиньш Озолс в трамвае №6, продолжая не смотреть в глаза. «В последнее время люди по утрам улыбаются. Я не хочу говорить, что общество рушится, но если до 8:30 никто не будет выглядеть тихо преданным, для чего тогда вообще нужны налоги?» 
+
+Другие опасаются, что зоны создадут региональное неравенство. «В Юрмале у нас уже есть есте zoning молчания», — сказала риелтор и полу‑практикующая гонгистка Эвита Спроге. «Там люди избегают друг друга бесплатно. Рига теперь монетизирует образ жизни, который прибрежные муниципалитеты культивировали десятилетиями». 
+
+Политика привлекла международное внимание урбанистов по всему Балтийскому региону. Делегация из Таллинна, по слухам, запросила технические спецификации для системы калибровки вздохов, тогда как чиновники Вильнюса остаются скептичны и утверждают, что транспортная культура Литвы предпочитает «более прямые формы разочарования». Между тем Министерство культуры Эстонии тихо добавило «уместный выдох у дверей трамвая» в предварительный реестр наследия. 
+
+Городские исследователи уверяют, что выгоды измеримы. В ходе ранних испытаний на автобусном маршруте №3 средний уровень зрительного контакта снизился на 63%, нежелательная светская болтовня свелась почти к нулю, а один пассажир успешно передал мысль «На этом маршруте раньше было лучше до фондов ЕС» лишь с помощью поправки шарфа и двух морганий. 
+
+Не все жители убеждены. Студентка университета Элина Букша рассказала, что случайно оказалась в Зоне Молчания после того, как рассмеялась над сообщением от подруги. «Три женщины посмотрели на меня так, будто я лично приватизировала Даугаву», — сказала она. «Я извинилась, но почему‑то это только всё усугубило». 
+
+Несмотря на критику, чиновники говорят, что программа может расшириться в случае успеха. Будущие этапы включают «Отсеки для созерцательного взгляда» на Центральном вокзале и цифровое приложение, позволяющее пассажирам заранее забронировать окно, из которого удобно осуждать морось. 
+
+Под вечер, когда домой бренчали вялые потоки пассажиров под низким серым небом, один из новых трамвайных вагонов оставался почти совершенно неподвижным, за исключением редкого шуршания пальто и одного монументального вздоха. Городские руководители позже назвали эту сцену «многообещающим признаком того, что Рига всё ещё может двигаться вперёд, коллективно отказываясь комментировать это».`
+    },
+    date: "May 15, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/155/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 154,
     slug: "jrmala-introduces-strategic-seagull-dialogue-after",
     title: {
@@ -108,7 +201,7 @@ Vakaram pienākot pie pludmales, pilsētas darbinieki uzstādīja jaunu zīmi pi
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/154/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 153,
