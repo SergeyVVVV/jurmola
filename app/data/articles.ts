@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 158,
+    slug: "riga-introduces-polite-potholes-program-promises",
+    title: {
+      en: "Riga Introduces ‘Polite Potholes’ Program, Promises Road Craters Will Now Apologize Before Damaging Suspension",
+      lv: "Rīga ievieš 'Pieklājīgo bedru' programmu, sola, ka ceļa krāteri pirms nodarīt bojājumu amortizācijai atvainosies",
+      ru: "Рига запускает программу «Вежливые ямы»: обещают, что дорожные кратеры теперь будут извиняться перед тем, как повредить подвеску"
+    },
+    excerpt: {
+      en: "In a move city officials say reflects both fiscal realism and Baltic emotional restraint, Riga has unveiled a pilot program requiring major potholes to display short, courteous messages before impacting vehicles. The municipality says the initiative will improve driver morale by 14% while preserving the capital’s beloved tradition of low-speed existential reflection.",
+      lv: "Pāreja, kuru pilsētas amatpersonas sauc gan par fiskālu realizmu, gan par Baltijas emocionālu atturību, Rīgā palaista pilotprogramma, kas prasa, lai lielākās bedres pirms ietekmēt transportlīdzekļus izvietotu īsus, pieklājīgus paziņojumus. Pašvaldība apgalvo, ka iniciatīva uzlabos vadītāju morāli par 14% un saglabās galvaspilsētas iemīļoto zemo ātrumu eksistenciālās pārdomas tradīciju.",
+      ru: "В шаге, который, по словам городских чиновников, отражает одновременно фискальный реализм и балтийскую эмоциональную сдержанность, Рига представила пилотную программу, обязывающую крупные ямы размещать короткие вежливые послания перед тем, как повлиять на транспорт. Муниципалитет заявляет, что инициатива повысит мораль водителей на 14% и при этом сохранит любимую столичную традицию медитативных раздумий на малой скорости."
+    },
+    fullContent: {
+      en: `RIGA — After years of public complaints, emergency repairs, feasibility studies, counter-studies, and one commemorative photo exhibition titled Asphalt and Memory, Riga City Council on Tuesday announced a new urban mobility initiative under which the city’s largest potholes will be upgraded into what officials are calling “polite road depressions.”
+
+Beginning this autumn, 312 high-priority potholes across the capital will be fitted with small weatherproof plaques bearing brief apology messages in Latvian, Russian, and English, including “Sorry for the inconvenience,” “This was not personal,” and, in school zones, “Please continue carefully and with dignity.”
+
+Deputy Chair of Transport Affairs Mārtiņš Bērziņš said the city had accepted that fully eliminating potholes would be “an unnecessarily confrontational approach to geography.”
+
+“We asked ourselves whether roads must always be smooth, or whether they can also be emotionally intelligent,” Bērziņš told reporters beside a crater on Brīvības Street that has now been designated a Level II Courtesy Site. “Riga is a European capital. Our infrastructure should reflect not only functionality, but manners.”
+
+According to a 67-page municipal briefing, the program emerged after a public survey found that 81% of drivers were less upset by vehicle damage when they felt “seen by the road.” Another 46% said they would accept losing a hubcap if the pothole’s tone was “professional, not sarcastic.”
+
+The first pilot plaques have already been installed in Teika, Purvciems, and along a stretch of Maskavas Street where officials described road conditions as “historically expressive.” In addition to apology signage, several premium potholes will feature QR codes linking to a short explanation of how frost, bureaucracy, procurement disputes, and “complex national character factors” contributed to their formation.
+
+Local resident and Audi owner Ingus Siliņš said he was initially skeptical after his front axle suffered what mechanics later classified as “a philosophical event.” But after encountering a newly upgraded pothole near VEF Bridge, his views softened.
+
+“It said, ‘Thank you for your patience during this transitional impact,’” Siliņš recalled. “Honestly, I still had to call roadside assistance, but the language was respectful. It felt municipal.”
+
+Not everyone is convinced. Urban planner Elīna Krauze criticized the initiative as “the final triumph of branding over asphalt,” warning that Riga risks normalizing infrastructural decline through typography. “A pothole with a plaque is still a pothole,” she said. “Though I admit the serif font does suggest accountability.”
+
+City officials insist the program is evidence-based. A six-week behavioral trial on Ģertrūdes Street found that drivers encountering apologized-for potholes honked 23% less and used significantly more resigned facial expressions than those hitting unmanaged craters. Insurance claims remained unchanged, but customer satisfaction with the idea of the city improved slightly among respondents who had not driven there.
+
+The initiative has already attracted interest from other municipalities. Jurmala representatives reportedly inquired whether a beachfront version could be developed for uneven wooden walkways, while Liepāja has proposed a wind-powered model in which apologies are whispered directly into cyclists’ ears.
+
+At press time, Riga officials confirmed the next phase of the program will test “interactive sinkholes” capable of thanking residents for their taxes immediately before swallowing a wheel.`,
+      lv: `RĪGA — Pēc gadu ilgiem publiskiem sūdzību viļņiem, avārijas remontiem, pētījumiem par iespējamību, pretpētījumiem un vienas piemiņas fotoizstādes «Asfalts un Atmiņa», Rīgas dome otrdien paziņoja par jaunu pilsētas mobilitātes iniciatīvu, saskaņā ar kuru pilsētas lielākās bedres tiks pārveidotas par to, ko amatpersonas dēvē par «pieklājīgām ceļa ieplakām.»
+
+Šī rudens sākumā 312 prioritāras bedres visā galvaspilsētā tiks aprīkotas ar nelielām laika apstākļiem noturīgām plāksnītēm ar īsiem atvainošanās paziņojumiem latviešu, krievu un angļu valodā, tostarp «Atvainojamies par sagādātajām neērtībām», «Tas nebija personiski», un skolēnu zonas posmos — «Lūdzu, turpiniet uzmanīgi un ar cieņu.»
+
+Transporta lietu vietnieks Mārtiņš Bērziņš sacīja, ka pilsēta ir pieņēmusi, ka bedru pilnīga iznīcināšana būtu «nevajadzīgi konfrontējoša pieeja ģeogrāfijai.»
+
+„Mēs sev jautājām, vai ceļiem vienmēr jābūt gludiem, vai arī tiem var būt emocionāla inteliģence,” Bērziņš žurnālistiem teica pie krātera Brīvības ielā, kuram tagad piešķirts II līmeņa pieklājības vietas statuss. „Rīga ir Eiropas galvaspilsēta. Mūsu infrastruktūrai jāatspoguļo ne tikai funkcionalitāte, bet arī manieres.”
+
+Saskaņā ar 67 lappušu pašvaldības informatīvo ziņojumu, programma radās pēc sabiedriskās aptaujas, kurā 81% vadītāju sašutums par transportlīdzekļu bojājumiem bija mazāks, kad viņi jutās «redzēti no ceļa». Vēl 46% norādīja, ka pieņemtu riteņu rumbas vāciņa zudumu, ja bedres tonis būtu «profesionāls, ne sarkastisks.»
+
+Pirmās pilotplāksnītes jau uzstādītas Teikā, Purvciemā un gar Maskavas ielas posmu, ko amatpersonas raksturoja kā «vēsturiski ekspresīvu». Papildus atvainošanās uzrakstiem vairākām «premium» bedrēm būs QR kodi, kas vedīs pie īsa paskaidrojuma par to, kā sals, birokrātija, iepirkumu strīdi un «kompleksi nacionāla rakstura faktori» veicinājuši to veidošanos.
+
+Vietējais iedzīvotājs un Audi īpašnieks Ingus Siliņš sacīja, ka sākotnēji bija skeptisks pēc tam, kad viņa priekšējā ass ciest to, ko mehāniķi vēlāk klasificēja kā «filozofisku notikumu». Taču, sastopot jaunizveidotu bedri pie VEF tilta, viņa attieksme mazinājās.
+
+„Tur bija rakstīts: ‘Paldies par pacietību šī pārejas trieciena laikā’,” Siliņš atcerējās. „Godīgi sakot, man tomēr nācās zvanīt uz ceļa palīdzību, bet valoda bija respektabla. Tas šķita pašvaldnieciski.”
+
+Ne visi ir pārliecināti. Pilsētplānotāja Elīna Krauze kritizēja iniciatīvu kā «zīmola galīgo triumfu pār asfaltu», brīdinot, ka Rīga riskē normalizēt infrastruktūras degradāciju, paļaujoties uz tipogrāfiju. „Bedre ar plāksnīti joprojām ir bedre,” viņa teica. „Lai gan jāatzīst — serifu fonts tomēr liek domāt par atbildību.”
+
+Pilsētas amatpersonas apgalvo, ka programma ir uz pierādījumiem balstīta. Sešu nedēļu uzvedības izmēģinājums Ģertrūdes ielā konstatēja, ka vadītāji, kuri sastop apologizētās bedres, signalizēja par 23% retāk un demonstrēja ievērojami rezignētākas sejas izteiksmes nekā tie, kas trāpīja neuzraudzītām grambām. Apdrošināšanas prasības palika nemainīgas, taču idejas par pilsētu apmierinātība nedaudz pieauga starp respondentiem, kuri tur nebija braukuši.
+
+Iniciatīva jau piesaistījusi citu pašvaldību interesi. Jūrmalas pārstāvji, kā ziņots, vaicājuši, vai pludmales versija nebūtu izstrādājama nevienmērīgām koka laipām, kamēr Liepāja iesūtījusi priekšlikumu vēja darbināmam modelim, kurā atvainošanās tiek čukstēta tieši riteņbraucēju ausīs.
+
+Preses slēgšanas brīdī Rīgas amatpersonas apstiprināja, ka nākamajā posmā tiks testētas «interaktīvas ieplakas», spējīgas pateikties iedzīvotājiem par viņu nodokļiem uzreiz pirms riteņa norīšanas.`,
+      ru: `РИГА — После лет жалоб граждан, экстренных ремонтов, технико-экономических обоснований, контр-исследований и одной памятной фотовыставки под названием «Асфальт и память», вице-совет Риги во вторник анонсировал новую городскую инициативу в области мобильности, по которой крупнейшие городские ямы будут модернизированы в то, что чиновники называют «вежливыми дорожными впадинами».
+
+Начиная с этой осени, 312 приоритетных ям по всему городу будут оснащены небольшими влагостойкими табличками с короткими извинительными посланиями на латышском, русском и английском языках, включающими «Извините за неудобства», «Это было не лично» и, в зонах около школ, «Пожалуйста, продолжайте осторожно и с достоинством».
+
+Зампред по транспортным вопросам Mārtiņš Bērziņš заявил, что город признал, что полное искоренение ям было бы «чересчур конфронтационным подходом к географии».
+
+«Мы спросили себя, должны ли дороги всегда быть ровными, или они могут быть ещё и эмоционально интеллигентными», — сказал Бērziņš репортёрам у кратера на улице Brīvības, который теперь отмечен как участок вежливости II уровня. «Рига — европейская столица. Наша инфраструктура должна отражать не только функциональность, но и манеры».
+
+Согласно 67-страничному муниципальному брифингу, программа возникла после общественного опроса, показавшего, что 81% водителей испытывают меньше огорчения от повреждений автомобиля, когда чувствуют, что дорога их «заметила». Ещё 46% заявили, что согласились бы потерять колпак колеса, если бы тон ямы был «профессиональным, а не саркастическим».
+
+Первые пилотные таблички уже установлены в Тейке, Пурвциемсе и на участке улицы Maskavas, где чиновники описали состояние дороги как «исторически выразительное». В дополнение к извинительным надписям несколько премиум-ям будут снабжены QR-кодами, ведущими к краткому объяснению того, как мороз, бюрократия, споры по закупкам и «сложные факторы национального характера» способствовали их появлению.
+
+Местный житель и владелец Audi Ингус Силиньш сказал, что сначала был скептически настроен после того, как его передняя ось пережила то, что механики позже классифицировали как «философское событие». Но после столкновения с недавно модернизированной ямой у моста VEF его отношение смягчилось.
+
+«На ней было написано: „Спасибо за терпение в ходе этого переходного воздействия“», — вспомнил Силиньш. «Честно говоря, мне всё равно пришлось вызывать помощь на дороге, но формулировка была уважительной. Это ощущалось муниципально».
+
+Не все убеждены. Градостроитель Элина Краузе раскритиковала инициативу как «окончательную победу брендинга над асфальтом», предостерегая, что Рига рискует нормализовать упадок инфраструктуры с помощью типографики. «Яма с табличкой — всё ещё яма», — сказала она. «Хотя признаю, что засечковый шрифт внушает чувство ответственности».
+
+Городские власти настаивают, что программа основана на данных. Шестинедельный поведенческий эксперимент на улице Гертрудес показал, что водители, наталкивавшиеся на ямы с извинениями, сигналили на 23% реже и демонстрировали значительно больше покорных лиц, чем те, кто попадал в неуправляемые кратеры. Количество страховых случаев не изменилось, но удовлетворённость идеей города немного выросла среди респондентов, которые туда не ездили.
+
+Инициатива уже вызвала интерес у других муниципалитетов. Представители Юрмалы, по сообщениям, поинтересовались, можно ли разработать прибрежную версию для неровных деревянных настилов, тогда как Лиепая предложила ветровую модель, в которой извинения шепчутся прямо в ухо велосипедистам.
+
+На момент выхода материала рижские чиновники подтвердили, что следующая фаза программы испытает «интерактивные провалы», способные поблагодарить жителей за их налоги непосредственно перед тем, как поглотить колесо.`
+    },
+    date: "May 18, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/158/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 157,
     slug: "riga-introduces-polite-silence-zones-on-157",
     title: {
@@ -96,7 +189,7 @@ Ja pilotprojekts būs veiksmīgs, Klusuma zonas var tikt paplašinātas uz valst
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/157/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 156,
