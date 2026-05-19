@@ -18,6 +18,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 159,
+    slug: "riga-introduces-silence-tax-after-residents",
+    title: {
+      en: "Riga Introduces Silence Tax After Residents Continue Making Unlicensed Eye Contact on Public Transport",
+      lv: "Rīga ievieš Klusuma nodokli pēc tam, kad iedzīvotāji turpināja veidot neautorizētu acu kontaktu sabiedriskajā transportā",
+      ru: "Рига вводит «налог на тишину» после того, как жители продолжают устанавливать нелицензированный зрительный контакт в общественном транспорте"
+    },
+    excerpt: {
+      en: "In an effort to preserve what officials call \"the traditional acoustic identity of the capital,\" Riga City Council has approved a new Silence Tax targeting passengers who create unauthorized moments of social intimacy on buses, trams, and trolleybuses. The measure comes after inspectors reported a sharp rise in eye contact, apologetic smiling, and one recorded instance of two strangers acknowledging the weather without municipal clearance.",
+      lv: "Centieni saglabāt to, ko amatpersonas dēvē par \"galvaspilsētas tradicionālo akustisko identitāti\", - Rīgas dome ir apstiprinājusi jaunu Klusuma nodokli, kas vērsts pret pasažieriem, kuri autobusos, tramvajos un trolejbustos rada neatļautus sociālus intimitātes mirkļus. Lēmums seko inspektoru ziņojumiem par strauju acu kontakta, nožēlojoša smaidīša un vienu reģistrētu gadījumu, kad divi svešinieki bez pašvaldības atļaujas atzina laika apstākļus.",
+      ru: "В стремлении сохранить то, что чиновники называют «традиционной акустической идентичностью столицы», Рижская городская дума одобрила новый «налог на тишину», направленный против пассажиров, создающих несанкционированные моменты социальной близости в автобусах, трамваях и троллейбусах. Мера появилась после того, как инспекторы зафиксировали резкий рост зрительного контакта, извинительных улыбок и одного зарегистрированного случая, когда два незнакомца обсудили погоду без муниципального разрешения."
+    },
+    fullContent: {
+      en: `RIGA — In a 38–19 vote late Tuesday evening, Riga City Council approved a controversial new Silence Tax aimed at regulating what transport authorities describe as "noncompliant interpersonal quietness" across the capital’s public transit network. Beginning 1 November, passengers who maintain eye contact for longer than 1.7 seconds, offer a seat with visible warmth, or mutually recognize the absurdity of a delayed trolleybus may be subject to an on-the-spot fee of €2.50.
+
+Municipal officials insist the policy is not punitive, but protective. "Riga has a centuries-old urban tradition of respectful distance, facial neutrality, and emotionally encrypted travel," said Deputy Committee Chair for Civic Atmosphere Ilze Rūmniece at a press briefing held beside a malfunctioning e-ticket validator for symbolic reasons. "We are not banning human connection. We are simply asking that it be planned in advance, properly documented, and, where possible, conducted outside peak hours."
+
+The new tax follows a six-month pilot study on routes 3, 11, and 22, where undercover inspectors observed what one internal report called "a measurable decline in dignified social frost." According to the study, 14% of morning commuters accidentally made eye contact in April, up from 9% the previous year. Meanwhile, spontaneous half-smiles increased by 22%, with the largest spike occurring during an unseasonably warm Wednesday in Teika.
+
+Particular concern centered on Tram No. 5, where, in June, two passengers reportedly exchanged a brief but unmistakable expression of shared inconvenience after the onboard announcement mispronounced "Daugavgrīva." The interaction lasted 2.3 seconds and caused what officials described as "localized softness." "Frankly, the city was not ready," said Rīgas Satiksme behavioral compliance coordinator Mārtiņš Vaivods. "One woman later said she felt ‘seen.’ There is currently no infrastructure for that."
+
+To enforce the measure, specially trained Silence Wardens will patrol vehicles wearing dark blue vests and carrying calibrated gaze timers imported from Finland. First-time offenders will receive a printed warning folded into the shape of mild disappointment. Repeat violators may be required to attend a four-hour municipal seminar titled Keeping It Internal: A Practical Guide to Baltic Composure.
+
+Reaction among residents has been mixed. "I understand the need for order," said office administrator Sanita Ozoliņa, 34, while waiting for a bus that had allegedly been three minutes away since 8:12 a.m. "But sometimes an old lady looks at you, and suddenly you’re participating in society. It happens very fast." Others were more supportive. Pensioner Andris Krūze, 71, praised the policy as "long overdue." "In my day," he said, "if someone looked at you on the trolleybus, it meant either marriage or espionage. At least the rules were clear."
+
+Business groups have already identified new opportunities. Several Riga startups are developing subscription-based Emotional Buffering apps that notify users when they are becoming too approachable in public. One company, NordMute, has unveiled an AI-powered scarf that tightens gently whenever its wearer appears on the verge of a meaningful exchange.
+
+Despite criticism from civil liberties advocates and at least one confused tourist from Spain, city leaders remain optimistic. Officials estimate the Silence Tax could generate €1.8 million annually, funds that will be reinvested into transport modernization, new informational signage, and a pilot program allowing passengers to sigh audibly in designated sections.
+
+As of Wednesday morning, compliance appeared uneven. On a nearly empty trolleybus near Āgenskalns, one passenger stared determinedly out the window, another studied their shoes, and a third briefly nodded at the driver before immediately looking ashamed. Authorities called the scene "encouraging" and said Riga was finally taking the difficult but necessary steps toward becoming a more emotionally sustainable capital.`,
+      lv: `RĪGA — Vēlā otrdienas vakarā, ar balsojumu 38 pret 19, Rīgas dome apstiprināja pretrunīgi vērtēto jauno Klusuma nodokli, kas paredzēts regulēt to, ko satiksmes iestādes raksturo kā "neatbilstošu starppersonu klusumu" pa visu galvaspilsētas sabiedriskā transporta tīklu. No 1. novembra pasažieri, kuri uztur acu kontaktu ilgāk par 1,7 sekundēm, piedāvā sēdvietu ar redzamu siltumu vai savstarpēji atzīst aizkavējušā trolejbusa absurditāti, var tikt sodīti uz vietas ar 2,50 € maksu.
+
+Pašvaldības ierēdņi uzsver, ka politika nav sodījoša, bet aizsargājoša. "Rīgai ir gadsimtiem sena pilsētas tradīcija – cieņpilna distance, sejas neitralitāte un emocionāli kodēta ceļošana," preses brīfingā blakus simboliskos nolūkos nefunkcionējošam e-biļešu validētājam sacīja Pilsoniskās atmosfēras komitejas vietniece Ilze Rūmniece. "Mēs neaizliedzam cilvēku saikni. Mēs tikai lūdzam, lai tā tiktu plānota iepriekš, pienācīgi dokumentēta un, ja iespējams, veikta ārpus pēcpiekļu stundām."
+
+Jaunais nodoklis seko sešu mēnešu pilotpētījumam maršrutos 3., 11. un 22., kur slepenie inspektori novēroja to, ko viens iekšējais ziņojums nosauca par "mērāmu cienīgas sociālās sals samazinājumu." Pētījumā norādīts, ka aprīlī 14% rīta braucēju nejauši uzturēja acu kontaktu, salīdzinot ar 9% pagājušajā gadā. Spontānie pussmaidieni pieauga par 22%, un lielākais pieaugums reģistrēts neierasti siltā trešdienā Teikā.
+
+Īpašas bažas radīja 5. tramvajs, kur jūnijā divi pasažieri, pēc ziņām, apmainījās ar īsu, bet nepārprotamu kopīga neērtuma izteiksmi pēc tam, kad izsaukums transportā nepareizi izrunāja "Daugavgrīva". Saskarsme ilga 2,3 sekundes un izraisīja to, ko amatpersonas raksturoja kā "lokālu maigumu." "Godīgi sakot, pilsēta nebija gatava," sacīja "Rīgas Satiksmes" uzvedības atbilstības koordinators Mārtiņš Vaivods. "Viena sieviete vēlāk teica, ka jutās 'redzēta'. Šobrīd tam nav izveidotas infrastruktūras."
+
+Lai ieviestu jauno pasākumu, īpaši apmācīti Klusuma uzraugi patrulēs transportlīdzekļos, ģērbušies tumši zilos vestēs un nēsādami kalibrētus skatiena taimerus, ievestus no Somijas. Pirmreizējie pārkāpēji saņems izdrukātu brīdinājumu, salocītu maigā vilšanās formā. Atkārtoti pārkāpēji var tikt aicināti apmeklēt četru stundu pašvaldības semināru ar nosaukumu "Saglabāt to iekšienē: praktisks ceļvedis baltiskajai mierībai."
+
+Iedzīvotāju reakcija bijusi jaukta. "Es saprotu kārtības nepieciešamību," sacīja biroja administratore Sanita Ozoliņa, 34, gaidot autobusu, kas it kā bija trīs minūtes attālumā kopš pulksten 8:12. "Bet reizēm veca sieviete paskatās uz tevi, un tu pēkšņi piedalies sabiedrībā. Tas notiek ļoti ātri." Citi izrādījās atbalstošāki. Pensionārs Andris Krūze, 71, šo politiku nosauca par "ilgi gaidītu." "Manos laikos," viņš teica, "ja kāds paskatījās uz tevi trolejbusā, tas nozīmēja vai nu laulības, vai spiegošanu. Vismaz noteikumi bija skaidri."
+
+Uzņēmēju aprindas jau saskatījušas jaunas iespējas. Vairāki Rīgas startapi izstrādā abonementa bāzes Emocionālās buferēšanas lietotnes, kas paziņos lietotājam, kad viņš sabiedrībā kļūst pārāk pieejams. Viena kompānija, "NordMute", prezentējusi mākslīgā intelekta darbinātu šalli, kas viegli pievelkas, kad tās nēsātājs šķiet uz nozīmīgas apmaiņas robežas.
+
+Neskatoties uz kritiku no civiltiesību aizstāvjiem un vismaz viena apjukuša tūrista no Spānijas, pilsētas vadība paliek optimistiska. Amatpersonas lēš, ka Klusuma nodoklis varētu gada griezumā ienest 1,8 miljonus eiro, līdzekļus, kas tiks reinvestēti transporta modernizācijā, jauno informatīvo norāžu izveidē un pilotprogrammā, kas ļaus pasažieriem skaļi nopūsties noteiktās zonās.
+
+Trešdienas rītā ievērošana šķita nevienmērīga. Gandrīz tukšā trolejbusā pie Āgenskalna viens pasažieris apņēmīgi skatījās pa logu, cits studēja savas kurpes, bet trešais īsi pamāja vadītājam, pēc tam uzreiz izskatījās apkaunots. Varas iestādes aicināja ainu par "iedvesmojošu" un paziņoja, ka Rīga beidzot sper grūtus, bet nepieciešamus soļus, lai kļūtu par emocionāli ilgtspējīgāku galvaspilsētu.`,
+      ru: `РИГА — В голосовании 38 против 19 поздним вечером во вторник Рижская городская дума одобрила спорный новый «налог на тишину», направленный на регулирование того, что транспортные власти описывают как «несанкционированную межличностную тишину» по всей сети общественного транспорта столицы. Начиная с 1 ноября, пассажиры, поддерживающие зрительный контакт дольше 1,7 секунды, предлагающие место с заметным участием тепло, или взаимно признающие абсурдность задержавшегося троллейбуса, могут быть оштрафованы на месте на €2,50.
+
+Муниципальные чиновники настаивают, что политика не является карательной, а защитной. «Рига имеет многовековую городскую традицию уважительного расстояния, нейтральности лица и эмоционального шифрования поездок», — сказала заместитель председателя комитета по гражданской атмосфере Илзе Румниеце на брифинге, проходившем рядом с неисправным валидатором электронных билетов — по символическим причинам. «Мы не запрещаем человеческую связь. Мы просто просим, чтобы она была спланирована заранее, должным образом задокументирована и, по возможности, осуществлялась вне часы пик». 
+
+Новый налог следует за шестимесячным пилотным исследованием на маршрутах 3, 11 и 22, где инсайдерские наблюдатели зафиксировали то, что один внутренний отчёт назвал «измеримым сокращением достойного социального холодка». По данным исследования, 14% утренних пассажиров случайно устанавливали зрительный контакт в апреле, по сравнению с 9% в прошлом году. Между тем спонтанные полуулыбки выросли на 22%, причём самый большой всплеск произошёл в особенно тёплую среду в Тейке.
+
+Особую озабоченность вызвал трамвай №5, где в июне двое пассажиров, как сообщается, обменялись коротким, но недвусмысленным выражением совместного неудобства после того, как объявление в салоне неправильно произнесло «Daugavgrīva». Взаимодействие длилось 2,3 секунды и вызвало то, что официальные лица охарактеризовали как «локальную мягкость». «Честно говоря, город к этому не был готов», — сказал координатор по поведенческому соблюдению Rīgas Satiksme Мārtinš Vaivods. «Одна женщина позже сказала, что почувствовала себя ‘увиденной’. Для этого пока нет инфраструктуры». 
+
+Для контроля меру будут обеспечивать специально обученные стражи тишины, которые будут патрулировать транспорт в тёмно‑синих жилетах и нести калиброванные таймеры взгляда, импортированные из Финляндии. Нарушителям, задержанным впервые, будут вручать распечатанное предупреждение, сложенное в форму лёгкого разочарования. Повторные нарушители могут быть обязаны посетить четырёхчасовой муниципальный семинар под названием «Держите это внутри: практическое руководство по балтийскому спокойствию». 
+
+Реакция среди жителей оказалась смешанной. «Я понимаю необходимость порядка», — сказала офисный администратор Санита Озолина, 34 года, ожидая автобус, который якобы находился в трёх минутах отъезда с 8:12 утра. «Но иногда бабушка на вас посмотрит — и вдруг вы участвуете в обществе. Это происходит очень быстро». Другие выразили поддержку. Пенсионер Андрис Крузе, 71 год, похвалил политику как «давно назревшую». «В моё время, — сказал он, — если кто-то посмотрел на тебя в троллейбусе, это означало либо брак, либо шпионаж. По крайней мере правила были ясны». 
+
+Бизнес‑круги уже выявили новые возможности. Несколько рижских стартапов разрабатывают приложения по подписке для «эмоционального буферирования», которые уведомляют пользователя, когда он становится слишком доступным в обществе. Одна компания, NordMute, представила шарф с искусственным интеллектом, который слегка затягивается всякий раз, когда его владелец оказывается на грани значимого обмена мнениями. 
+
+Несмотря на критику со стороны защитников гражданских свобод и по меньшей мере одного озадаченного туриста из Испании, городские власти остаются оптимистичными. По оценкам официальных лиц, «налог на тишину» может приносить €1,8 млн в год; эти средства будут реинвестированы в модернизацию транспорта, новые информационные указатели и пилотную программу, позволяющую пассажирам громко вздыхать в специально отведённых секциях. 
+
+По состоянию на утро среды соблюдение правил выглядело неоднородным. В почти пустом троллейбусе возле Агенскалнса один пассажир упрямо смотрел в окно, другой изучал свои ботинки, а третий кратко кивнул водителю, прежде чем сразу же застыдиться. Власти назвали сцену «обнадёживающей» и заявили, что Рига наконец делает трудные, но необходимые шаги к тому, чтобы стать более эмоционально устойчивой столицей.`
+    },
+    date: "May 19, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/159/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 158,
     slug: "riga-introduces-polite-potholes-program-promises",
     title: {
@@ -108,7 +183,7 @@ Preses slēgšanas brīdī Rīgas amatpersonas apstiprināja, ka nākamajā posm
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/158/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 157,
