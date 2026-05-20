@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 160,
+    slug: "jrmala-introduces-therapeutic-queueing-program-after",
+    title: {
+      en: "Jūrmala Introduces ‘Therapeutic Queueing’ Program After Residents Report Missing Soviet-Era Line Culture",
+      lv: "Jūrmala ievieš 'terapeitiskās rindas' programmu pēc iedzīvotāju sūdzībām par padomju laika rindu kultūras trūkumu",
+      ru: "Юрмала запускает программу «терапевтического стояния в очередях» после жалоб жителей на нехватку культуры очередей советской эпохи"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have launched a pilot program allowing residents to stand in carefully managed public queues for emotional grounding, social stability, and “light administrative nostalgia.” The initiative follows a local survey showing that 38% of residents felt modern life had become “too efficient to trust.”",
+      lv: "Jūrmalas pašvaldības amatpersonas uzsākušas pilotprojektu, kas ļauj iedzīvotājiem stāvēt rūpīgi vadītās publiskās rindās emocionālai nostiprināšanai, sociālajai stabilitātei un 'vieglai administratīvai nostalģijai.' Iniciatīva seko vietējam pētījumam, kurā 38% iedzīvotāju atzina, ka mūsdienu dzīve kļuvusi 'pārāk efektīva, lai tai uzticētos.'",
+      ru: "Муниципальные власти Юрмалы запустили пилотную программу, позволяющую жителям выстраиваться в тщательно управляемые общественные очереди для эмоциональной стабилизации, общественной устойчивости и «лёгкой административной ностальгии». Инициатива последовала за местным опросом, показавшим, что 38% жителей считают, что современная жизнь стала «слишком эффективной, чтобы ей доверять»."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders are calling “both culturally restorative and logistically decorative,” the Jūrmala municipal council this week unveiled a new wellness initiative centered on an experience many Latvians thought they had permanently escaped: waiting in line for no clear reason.
+
+The program, officially titled Guided Civic Queueing and Mild Anticipation, opened Monday near Dzintari Concert Hall, where 67 residents voluntarily assembled behind a velvet rope at 8:30 a.m. despite there being no service window, no paperwork, and, according to organizers, “no meaningful outcome whatsoever.” By noon, the line had curved gracefully around a public bench and reached a kiosk selling mineral water and identical beige pastries.
+
+Deputy Executive Director for Social Cohesion Ilze Mežmala said the city was responding to an alarming rise in what experts have termed “unstructured personal freedom.”
+
+“People were telling us they woke up on Saturday, made coffee, and experienced a disturbing sensation that nothing was preventing them from proceeding directly with their day,” Mežmala said at a press conference, standing beside a sign that read NOW SERVING NOBODY. “For many residents over 45, this produced anxiety. They missed the emotional clarity of standing among strangers while vaguely suspecting the supply would run out.”
+
+The municipality commissioned the Baltic Institute for Applied Routine to study the issue earlier this year. Researchers surveyed 1,200 residents across Jūrmala, Riga, and two highly organized villages near Talsi. The findings revealed that 38% of respondents found contemporary convenience “morally suspicious,” while 52% said digital appointment systems lacked “the proper human element of collective resignation.” Another 14% said they simply enjoyed hearing someone ahead of them mutter, “This won’t end well.”
+
+Under the new pilot scheme, participants can choose from several queue formats, including Pharmacy Without Urgency, Municipal Counter With Missing Stamp, and the premium heritage package, Bananas Rumored By 11:00. Each line is staffed by trained facilitators, known as Anticipation Coordinators, who periodically emerge from a side door to announce that the situation is “still being clarified.”
+
+Local resident Andris Bērziņš, 61, said the experience gave him a sense of peace he had not felt since 1988. “At first I thought, this is ridiculous, I have absolutely no task here,” he said, adjusting his windbreaker after two hours in place. “Then the woman in front of me asked whether I was also waiting for the form. I said yes, even though no form exists. In that moment, I felt society return.”
+
+Not all residents are convinced. A younger group of critics has argued that queueing should remain spontaneous and inconvenient rather than curated by the state. “You cannot commercialize authentic disappointment,” said Marta Ozola, 27, a Riga-based designer who accidentally joined the line believing it led to coffee. “By the third switchback, I could tell this frustration had been professionally designed.”
+
+Officials insist the pilot has already exceeded expectations. On Tuesday, one participant burst into tears after being redirected to a second, shorter line “for verification purposes.” The city classified the response as a successful emotional breakthrough.
+
+A small gift shop has also been opened near the exit, selling commemorative ticket numbers, enamel pins reading ALMOST MY TURN, and a €14 candle scented like wet coat, linoleum, and distant bureaucracy.
+
+With attendance growing, Jūrmala is now considering a winter expansion featuring Outdoor Queueing by the Sea, where residents will be allowed to stand in silence under a gray sky waiting for an office to open that never will. “This is not about the past,” Mežmala said. “It is about giving people a structured, dignified place to feel mildly powerless together.”`,
+      lv: `JŪRMALA — Pārvietojoties virzienā, ko pilsētas vadītāji sauc par 'gan kultūras atjaunojošu, gan loģistiski dekoratīvu,' Jūrmalas pašvaldības dome šonedēļ prezentēja jaunu labsajūtas iniciatīvu, kas balstīta uz pieredzi, no kuras daudzi latvieši domāja, ka jau ir pastāvīgi izvairījušies: stāvēšanu rindā bez skaidra iemesla.
+
+Programma, oficiāli nosaukta 'Vadīta pilsoniskā rindā stāvēšana un viegla gaidīšana,' pirmdien tika atklāta pie Dzintaru koncertzāles, kur 8:30 no rīta brīvprātīgi aiz samta auklas salikās 67 iedzīvotāji, lai gan nebija nevienas kasiera loga, nevienas veidlapas un, pēc organizatoru teiktā, 'pilnīgi bez jebkāda jēgpilna iznākuma.' Līdz pusdienlaikam rinda glīti apvijās ap soli un sasniedza kiosku, kur tirgoja minerālūdeni un identiskas bēšas smalkmaizītes.
+
+Sociālās kohēzijas vietniece izpilddirektore Ilze Mežmala preses konferencē stāstīja, ka pilsēta reaģē uz satraucošu pieaugumu tam, ko eksperti dēvējuši par 'nestructurētu personisko brīvību.' Viņa stāvēja blakus zīmei ar uzrakstu ŠOBRĪD NEAPKALPO NEVIENU.
+
+'Žmones mums stāstīja, ka sestdien pamodās, pagatavoja kafiju un piedzīvoja traucējošu sajūtu, ka nekas neaptur viņus no turpināšanas ar savu dienu,' sacīja Mežmala. 'Daudziem iedzīvotājiem virs 45 šī sajūta radīja trauksmi. Viņi trūkst emocionālās skaidrības, stāvot starp svešiniekiem un vāji nojaušot, ka prece varētu beigties.'
+
+Pašvaldība šā gada sākumā uzdeva Baltijas pielietotās rutīnas institūtam izpētīt šo jautājumu. Pētnieki aptaujāja 1 200 iedzīvotāju Jūrmalā, Rīgā un divos ļoti organizētos ciemos pie Talsiem. Atklājumi parādīja, ka 38% respondentu uzskatīja mūsdienu ērtības par 'morāli aizdomīgām,' kamēr 52% teica, ka digitālajām pieraksta sistēmām trūkst 'pienācīgā cilvēka elementa — kolektīvās padevības.' Vēl 14% atzina, ka vienkārši izbauda, dzirdot, kā kāds priekšā čukst: 'No tā nekas labs nesanāks.'
+
+Saskaņā ar jauno pilotprogrammu dalībnieki var izvēlēties no vairākām rindu formām, tostarp 'Aptieka bez steigas,' 'Pašvaldības letes ar pazudušu zīmogu' un premium mantojuma paketes 'Baumo par banāniem līdz 11:00.' Katrā rindā strādā apmācīti vadītāji, ko sauc par Gaidīšanas koordinatoriem, kuri ik pa laikam iznāk no sānu durvīm un paziņo, ka situācija 'joprojām tiek precizēta.'
+
+Vietējais iedzīvotājs Andris Bērziņš, 61 gads, sacīja, ka pieredze viņam deva miera sajūtu, kādu viņš nav jutis kopš 1988. 'Sākumā domāju, tas ir smieklīgi, man te pilnīgi nav nekā jādara,' viņš sacīja, pielabojot vējjaku pēc divām stundām stāvēšanas. 'Tad sieviete priekšā vaicāja, vai es arī gaidu to veidlapu. Es teicu jā, lai gan nekādas veidlapas nav. Tajā brīdī es sajutu sabiedrības atgriešanos.'
+
+Ne visi iedzīvotāji ir pārliecināti. Jaunāka kritiķu grupa apgalvo, ka rindā stāvēšanai jāpaliek spontānai un neērtai, nevis valsts kurētai. 'Autentisku vilšanos nevar komercializēt,' sacīja Marta Ozola, 27, rīdziniece dizainere, kura nejauši iestājās rindā, domādama, ka tā ved uz kafiju. 'Trešajā līkumā es jau varēju pateikt, ka šī frustācija ir profesionāli dizainēta.'
+
+Amatpersonas uzsver, ka pilots jau pārsniedz cerības. Otrdien viens dalībnieks saplosījās asarās pēc pāradresēšanas uz otro, īsāku rindu 'verifikācijas nolūkos.' Pilsēta šo reakciju klasificēja kā veiksmīgu emocionālu izlaušanos.
+
+Netālu no izejas ir atvērts arī neliels suvenīru veikals, kur pārdod atmiņas biļešu numurus, emaljētas piespraudes ar uzrakstu 'DRĪZ MANA KĀRTA' un 14 € svecīti, kas smaržo pēc slapja mēteļa, linoleja un tālas birokrātijas.
+
+Ar apmeklējuma pieaugumu Jūrmala tagad apsver ziemas paplašinājumu ar Āra rindām pie jūras, kur iedzīvotājiem tiks atļauts stāvēt klusumā zem pelēka debesu gaidās, ka atvērsies birojs, kas nekad neatvērsies. 'Tas nav par pagātni,' sacīja Mežmala. 'Tas ir par to, lai cilvēkiem būtu strukturēta, cienīga vieta, kur kopā justies viegli bezpalīdzīgiem.'`,
+      ru: `ЮРМАЛА — В шаге, который городские власти называют «и культурно восстанавливающим, и логистически декоративным», муниципальный совет Юрмалы на этой неделе представил новую велнес-инициативу, сосредоточенную на опыте, от которого многие латвийцы думали, что навсегда избавились: стоянии в очереди без ясной причины.
+
+Программа, официально названная «Руководимое гражданское ожидание и лёгкое предвкушение», открылась в понедельник рядом с концертным залом Дзинтари, где 67 жителей добровольно выстроились за бархатной верёвкой в 8:30 утра, несмотря на отсутствие окошка для обслуживания, отсутствия бумажек и, по словам организаторов, «никакого осмысленного результата». К полудню очередь грациозно обогнула общественную скамью и дошла до киоска, продающего минеральную воду и одинаковые бежевые булочки.
+
+Заместитель исполнительного директора по социальной сплочённости Илзе Межмала заявила, что город реагирует на тревожный рост того, что эксперты именуют «неструктурированной личной свободой».
+
+«Люди говорили нам, что просыпаются в субботу, делают кофе и испытывают тревожное ощущение, что ничто не мешает им продолжать день без промедления», — сказала Межмала на пресс‑конференции, стоя рядом со знаком СЕЙЧАС ОБСЛУЖИВАЮТ НИКОГО. «Для многих жителей старше 45 это вызывало тревогу. Им не хватало эмоциональной ясности, которую даёт стояние среди незнакомцев с расплывчатым подозрением, что запас скоро кончится». 
+
+Муниципалитет поручил Балтийскому институту прикладного распорядка изучить проблему в начале этого года. Исследователи опросили 1200 жителей Юрмалы, Риги и двух крайне организованных деревень в окрестностях Талси. Результаты показали, что 38% респондентов считают современное удобство «морально подозрительным», в то время как 52% заявили, что цифровые системы записи лишены «надлежащего человеческого элемента коллективного смирения». Ещё 14% признались, что им просто нравится слышать, как кто‑то впереди бормочет: «Это плохо кончится». 
+
+В рамках нового пилотного проекта участники могут выбирать из нескольких форматов очередей, включая «Аптеку без спешки», «Муниципальную стойку с отсутствующим штампом» и премиум‑наследный пакет «Бананы, о которых говорят к 11:00». Каждая очередь обслуживается обученными фасилитаторами, называемыми координаторами ожидания, которые периодически появляются из боковой двери и объявляют, что ситуация «всё ещё уточняется». 
+
+Местный житель Андрис Берзиньш, 61 год, сказал, что опыт дал ему чувство покоя, которого он не испытывал с 1988 года. «Сначала я думал: это смешно, у меня здесь совершенно нет дела», — сказал он, поправляя ветровку после двух часов на месте. «Потом женщина передо мной спросила, не жду ли я тоже форму. Я сказал «да», хотя никакой формы не существует. В тот момент я почувствовал возвращение общества». 
+
+Не все жители убеждены. Молодая группа критиков утверждает, что стояние в очереди должно оставаться спонтанным и неудобным, а не курируемым государством. «Нельзя коммерциализировать аутентичное разочарование», — сказала Марта Озола, 27 лет, рижская дизайнер, которая случайно встала в очередь, полагая, что она ведёт к кофе. «К третьему повороту я поняла, что это разочарование было профессионально спроектировано». 
+
+Чиновники настаивают, что пилот уже превзошёл ожидания. Во вторник один участник разрыдался после того, как его перенаправили во вторую, более короткую очередь «для проверки». Город классифицировал эту реакцию как успешный эмоциональный прорыв. 
+
+Рядом с выходом открылся небольшой сувенирный магазин, где продают памятные талончики, эмалированные значки с надписью ПОЧТИ МОЯ ОЧЕРЕДЬ и свечу за 14 евро с ароматом сырого пальто, линолеума и далёкой бюрократии. 
+
+С ростом посещаемости Юрмала теперь рассматривает зимнее расширение с форматом «Очередь на открытом воздухе у моря», где жителям будет разрешено стоять в молчании под серым небом в ожидании открытия офиса, которого так и не случится. «Речь не о прошлом», — сказала Межмала. «Речь о том, чтобы дать людям структурированное, достойное место, где вместе можно почувствовать себя слегка бессильными».`
+    },
+    date: "May 20, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/160/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 159,
     slug: "riga-introduces-silence-tax-after-residents",
     title: {
@@ -90,7 +177,7 @@ Trešdienas rītā ievērošana šķita nevienmērīga. Gandrīz tukšā trolejb
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/159/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 158,
