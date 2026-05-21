@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 161,
+    slug: "jrmala-introduces-silent-beach-hours-so",
+    title: {
+      en: "Jūrmala Introduces ‘Silent Beach Hours’ So Pine Trees Can Finish Their Thoughts",
+      lv: "Jūrmala ievieš “klusās pludmales stundas”, lai priedes varētu pabeigt domas",
+      ru: "Юрмала вводит «безмолвные часы на пляже», чтобы сосны могли закончить свои мысли"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have approved a pilot program requiring beachgoers to observe two daily hours of complete silence along a 4.7-kilometer stretch of coastline. The initiative, city leaders say, is necessary to reduce \"cognitive pressure\" on the area’s historic pine trees, which have reportedly endured decades of overheard conversations about parking, weather, and smoked fish prices.",
+      lv: "Jūrmalas pašvaldības amatpersonas apstiprinājušas pilotprojektu, kas prasa pludmales apmeklētājiem divas reizes dienā ievērot pilnīgu klusumu 4,7 kilometru garā piekrastes posmā. Pilsētas vadība skaidro, ka iniciatīva nepieciešama, lai samazinātu “kognitīvo spiedienu” uz rajona vēsturiskajām priedēm, kuras, kā ziņots, desmitiem gadu izturējušas pārmērīgu sarunu klausīšanos par stāvvietām, laiku un kūpināto sārņu cenām.",
+      ru: "Муниципальные власти Юрмалы утвердили пилотную программу, обязывающую отдыхающих соблюдать по два часа абсолютной тишины вдоль 4,7‑километрового участка побережья. По словам городских руководителей, инициатива необходима, чтобы снизить «когнитивное давление» на исторические сосны, которые, как сообщается, десятилетиями улавливали разговоры о парковке, погоде и ценах на вяленую рыбу."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move described by planners as "both ecologically responsible and emotionally overdue," the Jūrmala City Council on Tuesday launched a new coastal policy mandating silent beach hours between 11:00 and 12:00, and again from 16:00 to 17:00, so that the city’s pine trees can, according to official documents, "regulate internal sap dialogue without unnecessary human interruption."
+
+The measure applies to the popular stretch between Dzintari and Bulduri, where signs erected overnight instruct residents and tourists to avoid speaking, humming, enthusiastic sandal-shaking, and "speculative comments about cloud formations." Whispering is technically permitted, but only if done "in a tone one would use when apologizing to a cardigan."
+
+Deputy Chair for Coastal Calm Ilze Vītola said the city had no choice after a municipal-commissioned survey found that 63% of Jūrmala’s pines displayed what arborists termed "advanced conversational fatigue." The report cited chronic exposure to statements such as "Is this water warmer than last week?" and "I told you we should have brought a second towel," repeated over multiple summers.
+
+"These trees have stood here through empires, occupations, privatization, and three distinct waves of smoothie culture," Vītola told reporters while unveiling a bench designated for nonverbal contemplation. "At some point, they deserve ten minutes—frankly, two full hours—without listening to a man from Riga explain cryptocurrency to his nephew."
+
+According to the municipality, acoustic monitoring conducted last July recorded an average of 8,400 unnecessary beach remarks per day, peaking on Saturdays when families arrived equipped with portable speakers and unresolved interpersonal topics. One microphone near Majori reportedly captured the phrase "Maybe the sun is stronger because of Scandinavia" 17 times in a single afternoon.
+
+Not everyone is convinced. Beach vendor Armands Krūmiņš, who sells smoked sprats, mineral water, and what he calls "economically modest sunglasses," said enforcement may prove difficult. "People come here specifically to announce things," he said. "They see the sea and immediately need to say, ‘Ah, the sea.’ If you take that away, some of them may have nothing left."
+
+Still, early trials suggest surprising public compliance. During a limited test last weekend, municipal inspectors issued 42 warnings, mostly for reflexive weather analysis, and one fine to a man from Olaine who spent four consecutive minutes saying "interesting" at different volumes while looking at driftwood. Children adapted fastest, officials noted, while adults aged 34 to 58 struggled to refrain from narrating sandwich logistics.
+
+The program has also attracted academic interest. Dr. Marta Ozoliņa, a semiotics researcher at the University of Latvia who specializes in landscape interpretation and passive-aggressive silence, called the initiative "an important step in post-anthropocentric municipal listening." She said preliminary observation indicates the pines are already responding positively. "Their needles appear less judgmental," Ozoliņa said. "Several trunks have resumed what we can cautiously describe as upright morale."
+
+To aid the transition, the city has published a 19-page guidance pamphlet titled Enjoying the Coastline Without Adding to It, recommending visitors communicate through meaningful nods, resigned sighs, and brief eye contact with the horizon. Lifeguards have been retrained to signal danger using flags, expressive posture, and in one case, a bassoon.
+
+Mayor Gatis Lācis defended the policy against criticism that it addresses a problem no one had previously identified. "That is exactly the sort of noisy thinking we are trying to move beyond," he said. He confirmed the council is already considering additional quiet protections for dunes, several emotionally private seagulls, and a bench in Melluži that has "heard enough."
+
+By Tuesday evening, residents walking the shore described the atmosphere as unfamiliar but deeply Baltic. "It felt natural," said local pensioner Maija Dreimane, standing silently beside the water for several minutes before submitting a written comment. "For the first time in years, I could hear the wind, the waves, and my husband trying very hard not to explain where he parked."`,
+      lv: `JŪRMALA — Pārvērtējumu plānotāji saukuši par “gan ekoloģiski atbildīgu, gan emocionāli nokavētu”, Jūrmalas domes sēdē otrdien stājās spēkā jauna piekrastes politika, kas nosaka klusās pludmales stundas no pulksten 11:00 līdz 12:00 un atkal no 16:00 līdz 17:00, lai pilsētas priedes, saskaņā ar oficiāliem dokumentiem, varētu “regulēt iekšējo sulu dialogu bez liekām cilvēku pārtraukšanām.”
+
+Šis pasākums attiecas uz populāro posmu starp Dzintariem un Bulduriem, kur nakts laikā uzstādītās zīmes norāda iedzīvotājiem un tūristiem izvairīties no runāšanas, humma, entuziastiskas sandales kratīšanas un “spekulatīviem komentāriem par mākoņu veidojumiem.” Čukstēšana tehniski atļauta, taču tikai “tonī, kādā cilvēks atvainotos kardiganam.”
+
+Krustojumu nolīgtais Kustīguma vietas vietniece Ilze Vītola sacīja, ka pilsētai nebija izvēles pēc pašvaldības uzdotās aptaujas, kurā konstatēts, ka 63% Jūrmalas priedēm arboristu valodā izpaužas “izteikts sarunu nogurums.” Ziņojums minēja hronisku pakļaušanos izteikumiem, piemēram, “Vai šis ūdens ir siltāks nekā pagājušajā nedēļā?” un “Es taču teicu, ka vajadzēja ņemt otru dvieli,” kuri atkārtojās vairākas vasaras.
+
+“Šīs priedes stāvējušas šeit cauri impērijām, okupācijām, privatizācijai un trim atšķirīgām smūtiju modēm,” Vītola sacīja žurnālistiem, atklājot soliņu nerunāšanai domāt. “Kādā brīdī viņas ir pelnījušas desmit minūtes — patiesībā divas pilnas stundas — bez kāda rīdzinieka paskaidrojuma krustbērnam par kriptovalūtām.”
+
+Pašvaldība norādīja, ka akustiskā uzraudzība pagājušā jūlijā reģistrēja vidēji 8 400 lieku pludmales piezīmju dienā, ar virsotni sestdienās, kad ģimenes ierodās ar pārnēsājamajiem skaļruņiem un neatrisinātiem starppersonu tematiem. Viens mikrofons pie Majoru zonas, kā ziņots, vienā pēcpusdienā 17 reižu ierakstījis frāzi “Varbūt saule ir spēcīgāka tāpēc, ka Skandināvija.”
+
+Ne visi ir pārliecināti. Pludmales tirgotājs Armands Krūmiņš, kurš tirgo kūpinātas sārņas, minerālūdeni un to, ko viņš sauc par “ekonomiski piesardzīgām saulesbrillēm,” sacīja, ka izpilde var izrādīties sarežģīta. “Cilvēki nāk šeit tieši, lai paziņotu lietas,” viņš teica. “Viņi ierauga jūru un nekavējoties jāpasaka: ‘Ak, jūra.’ Ja to atsēji, daļai no viņiem var vairs nekas neatlikt.”
+
+Tomēr agrīnie testi liecina par pārsteidzošu sabiedrības paklausību. Pagājušajā nedēļas nogalē ierobežotā izmēģinājumā pašvaldības inspektori izdeva 42 brīdinājumus galvenokārt par refleksīvu laika apstākļu analīzi, un vienu sodu vīrietim no Olaines, kurš četras minūtes pēc kārtas dažādos skaļumos, skatoties uz atgāztiem koka gabaliem, atkārtoja vārdu “interesanti.” Bērni pielāgojās ātrāk, ierēdņi piebilda, kamēr pieaugušie vecumā no 34 līdz 58 gadiem cīnījās, lai neizstāstītu sviestmaižu loģistiku.
+
+Programma izraisījusi arī akadēmisku interesi. Dr. Marta Ozoliņa, semiotikas pētniece Latvijas Universitātē, kas specializējas ainavu interpretācijā un pasīvi-agresīvā klusēšanā, sauca iniciatīvu par “svarīgu soli postantropocentriskā pašvaldības klausīšanās virzienā.” Viņa sacīja, ka iepriekšējie novērojumi liecina, ka priedes jau reaģē pozitīvi. “Izskatās, ka to skujas kļuvušas mazāk nosodošas,” Ozoliņa teica. “Vairāki stumbri atsākuši to, ko piesardzīgi varam dēvēt par taisnu morāli.”
+
+Lai atvieglotu pāreju, pilsēta izdevusi 19 lapaspušu informatīvu bukletu “Baudīt krasta līniju, nerunājot to papildus,” kurā apmeklētājiem ieteikts sazināties ar nozīmīgiem galvas mājieniem, rezignētiem nopūtieniem un īsiem skatieniem pret horizonta pusi. Glābēji pārmācīti signalizēt bīstamību, izmantojot karogus, izteiksmīgu pozu un vienā gadījumā — fagotu.
+
+Mērs Gatis Lācis aizstāvēja politiku pret kritiku, ka tā risina problēmu, ko neviens iepriekš nebija identificējis. “Tieši tāda trokšņainā domāšana ir tas, ko mēs cenšamies pārvarēt,” viņš sacīja. Viņš apstiprināja, ka dome jau apsver papildu klusuma aizsardzību kāpām, vairākām emocionāli privātām kaijām un soliņam Mellužos, kas “ir pietiekami daudz dzirdējis.”
+
+Otrdienas vakarā iedzīvotāji, kas staigāja pa krastu, raksturoja atmosfēru kā nepierastu, bet dziļi baltisku. “Tas šķita dabiski,” sacīja vietējā pensionāre Maija Dreimane, stāvot klusēdama pie ūdens vairākas minūtes pirms rakstveida komentāra iesniegšanas. “Pirmoreiz gados es varēju dzirdēt vēju, viļņus un manu vīru, kurš ļoti centās nevienam nepaskaidrot, kur nolika mašīnu.”`,
+      ru: `ЮРМАЛА — В шаге, который планировщики назвали «и экологически ответственным, и эмоционально запоздавшим», Городской совет Юрмалы во вторник запустил новую прибрежную политику, обязывающую соблюдать безмолвные часы с 11:00 до 12:00 и снова с 16:00 до 17:00, чтобы сосны города, согласно официальным документам, могли «регулировать внутренний соковый диалог без ненужных человеческих вмешательств». 
+
+Мера распространяется на популярный участок между Дзинтари и Булдури, где за одну ночь появились знаки с указанием жителям и туристам воздерживаться от разговоров, напевов, энергичного потряхивания сандалий и «спекулятивных комментариев о формах облаков». Шёпот технически разрешён, но только «в тоне, который используют, извиняясь перед кардиганом». 
+
+Заместитель председателя по прибрежному спокойствию Илзе Витола заявила, что у города не было выбора после того, как по заказу муниципалитета был проведён опрос, показавший, что 63% сосен Юрмалы демонстрируют то, что арбористы назвали «выраженным разговорным истощением». В отчёте указывалось хроническое воздействие фраз типа «Вода теплее, чем на прошлой неделе?» и «Я же говорил, что надо было взять второе полотенце», повторяющихся на протяжении нескольких сезонов. 
+
+«Эти деревья стояли здесь через империи, оккупации, приватизацию и три волны культуры смузи», — сказала Витола репортёрам, представляя скамейку, предназначенную для невербального созерцания. «В какой‑то момент им полагается десять минут — если уж на то пошло, два целых часа — без того, чтобы слушать, как мужчина из Риги объясняет племяннику криптовалюту». 
+
+По данным муниципалитета, акустический мониторинг, проведённый в июле прошлого года, зафиксировал в среднем 8 400 ненужных замечаний на пляже в сутки, достигая пика по субботам, когда семьи приезжали с портативными колонками и неразрешёнными межличностными темами. Один микрофон возле Майори якобы записал фразу «Может, солнце сильнее из‑за Скандинавии» 17 раз за один день. 
+
+Не все в восторге. Продавец на пляже Армандс Круминьш, который торгует шпротами, минеральной водой и тем, что он называет «экономически скромными солнцезащитными очками», сказал, что обеспечить исполнение правил будет трудно. «Люди приходят сюда специально, чтобы что‑то провозгласить, — сказал он. — Они видят море и сразу должны сказать: „А, море“. Если это отнять, у некоторых может ничего не остаться». 
+
+Тем не менее ранние испытания показывают удивительное соблюдение правил. В ходе ограниченного теста в прошлые выходные муниципальные инспекторы вынесли 42 предупреждения, в основном за рефлексный анализ погоды, и выписали один штраф мужчине из Олайне, который четыре минуты подряд говорил «интересно» с разной громкостью, глядя на бревно. Дети приспособились быстрее всех, отметили чиновники, тогда как взрослые в возрасте 34–58 лет изо всех сил сдерживались от повествований о логистике бутербродов. 
+
+Программа также привлекла внимание академиков. Доктор Марта Озолина, исследователь семиотики в Латвийском университете, специализирующаяся на интерпретации ландшафтов и пассивно‑агрессивном молчании, назвала инициативу «важным шагом к постантропоцентричному муниципальному выслушиванию». По её предварительным наблюдениям, сосны уже реагируют положительно. «Их хвойные иголки выглядят менее осуждающими, — сказала Озолина. — Несколько стволов вновь демонстрируют то, что мы с осторожностью могли бы назвать приподнятым моральным духом». 
+
+Чтобы помочь переходу, город опубликовал 19‑страничную брошюру под названием «Как наслаждаться побережьем, не нагружая его», в которой посетителям советуют контактировать при помощи содержательных кивков, resigned вздохов и краткого взгляда в сторону горизонта. Спасатели прошли переподготовку, чтобы сигнализировать об опасности при помощи флагов, выразительной позы и в одном случае — фагота. 
+
+Мэр Гатис Лачис защищал политику от критики молнии в том, что она решает проблему, о которой раньше никто не задумывался. «Это как раз тот шумный образ мыслей, от которого мы пытаемся отойти», — сказал он. Он подтвердил, что совет уже рассматривает дополнительные меры тишины для дюн, нескольких эмоционально закрытых чаек и скамейки в Меллужи, которая «услышала достаточно». 
+
+К вечеру вторника жители, гулявшие по берегу, описывали атмосферу как непривычную, но глубоко балтийскую. «Это ощущалось естественно», — сказала местная пенсионерка Майя Дреймане, несколько минут молча простоявшая у воды и затем оставившая письменный комментарий. «Впервые за годы я услышала ветер, волны и моего мужа, который изо всех сил старался не объяснять, где он припарковался».`
+    },
+    date: "May 21, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/161/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 160,
     slug: "jrmala-introduces-therapeutic-queueing-program-after",
     title: {
@@ -102,7 +189,7 @@ Ar apmeklējuma pieaugumu Jūrmala tagad apsver ziemas paplašinājumu ar Āra r
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/160/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 159,
