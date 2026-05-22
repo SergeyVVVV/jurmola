@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 162,
+    slug: "riga-introduces-official-17-minute-pause",
+    title: {
+      en: "Riga Introduces Official 17-Minute Pause So Residents Can Stare Into Middle Distance Before Answering Any Question",
+      lv: "Rīga ievieš oficiālu 17 minūšu pauzi, lai iedzīvotāji varētu skatīties tālumā pirms atbildēšanas uz jebkuru jautājumu",
+      ru: "Рига вводит официальную 17‑минутную паузу, чтобы жители могли уставиться в даль перед ответом на любой вопрос"
+    },
+    excerpt: {
+      en: "In a move city officials say will \"protect cultural continuity and reduce reckless enthusiasm,\" Riga has approved a municipal protocol requiring all adults to pause for 17 minutes before responding to direct questions. Authorities insist the measure merely formalizes a practice already observed at bus stops, family dinners, and small renovation meetings across Latvia.",
+      lv: "Pilsētas amatpersonas saka, ka šis solis \"aizsargās kultūras nepārtrauktību un samazinās neapdomīgu entuziasmu\" — Rīga ir apstiprinājusi pašvaldības protokolu, kas paredz, ka visi pieaugušie pirms tiešas atbildes uz jautājumiem drīkst veikt 17 minūšu pauzi. Varas pārstāvji uzsver, ka šāds pasākums tikai formalizē praksi, kas jau vērojama pieturās, ģimenes vakariņās un mazās remontu sapulcēs visā Latvijā.",
+      ru: "В инициативе, которую городские чиновники называют способом «сохранить культурную преемственность и снизить безрассудный энтузиазм», Рига утвердила муниципальный протокол, требующий от всех взрослых делать 17‑минутную паузу перед ответом на прямые вопросы. Власти настаивают, что мера лишь формализует практику, уже наблюдаемую на трамвайных платформах, семейных ужинах и небольших ремонтных совещаниях по всей Латвии."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Council on Tuesday voted 38–19 to adopt what it is calling the Reflective Response Framework, a citywide communication standard mandating a 17-minute contemplative pause before any resident may answer questions including, but not limited to, “How are you?”, “Do you want anything from the shop?”, and “Could you move your car?”
+
+The policy, which takes effect on 1 September, was drafted by the Department of Civic Tempo after a 214-page study found that nearly 72% of Riga residents already engage in “significant atmospheric processing” before giving even basic replies. Researchers cited evidence gathered from tram platforms, office kitchens, and one hair salon in Ķengarags where a customer reportedly took until sunset to answer whether she wanted layers.
+
+Deputy Mayor for Administrative Stillness Ilze Vītoliņa said the law is intended to preserve a communication style increasingly threatened by foreign efficiency, messaging apps, and “certain southern European habits.”
+
+“We are not slowing society down,” Vītoliņa told reporters after standing silently at the podium for several moments that attendees initially assumed were technical difficulties. “We are recognizing an existing national asset. A rushed answer can lead to clarity, and clarity has never been one of our strategic goals.”
+
+Under the new framework, residents asked a question in public must lower their gaze slightly, inhale as if preparing to discuss roof insulation, and remain in thoughtful suspension for exactly 17 minutes. A shorter eight-minute version will be permitted for practical emergencies, such as determining whether a guest should remove shoes. Questions involving mushroom locations remain exempt and may still be ignored entirely.
+
+To support implementation, the city has allocated €2.8 million for 11,000 laminated Pause Cards featuring approved municipal phrases including “I am considering,” “Let us not jump to conclusions,” and the widely applicable “Hmm.” Public service announcements will begin airing next week on regional radio, consisting mostly of wind, a kettle, and one man eventually saying, “Maybe.”
+
+Reaction among residents was broadly positive, if difficult to measure in real time. Outside Origo shopping center, accountant Mārtiņš Briedis, 44, was asked whether he supported the policy. After 17 minutes and 11 seconds, he replied, “It depends,” then added that the old system had become unsustainable.
+
+“Before, people expected immediate answers,” Briedis said. “My cousin from Ireland asked if I wanted to go paddleboarding. By the time I had fully considered how much wind there might be and whether anyone there would behave in a loud manner, he had already bought tickets. This is not a civilized way to organize a society.”
+
+Businesses are also preparing for the transition. Several Riga cafés have announced new “consultation pastries” designed to be consumed during mandatory silence, while the startup KlusumsTech unveiled a smartwatch that vibrates gently when a citizen has completed 14 minutes of pondering and may begin assembling a cautious opinion.
+
+Not everyone is convinced. The Latvian Association of Call Center Operators warned that the policy could push average customer service interactions beyond the lifespan of some appliances. Yet even critics concede the law may improve public discourse. A pilot program in Pārdaugava reduced unnecessary arguments by 63%, largely because participants forgot what they were angry about.
+
+In Jurmala, where beach conversations already unfold at what officials describe as “glacial prestige speed,” authorities said the change would be barely noticeable. One local man interviewed while examining the sea declined to comment, then was later confirmed by neighbors to have strongly agreed.
+
+City leaders say success will be evaluated after six months, though no one expects findings before 2028. Until then, residents are being urged to remain calm, measured, and only moderately available. Asked whether the pause could eventually be extended to 25 minutes, Vītoliņa nodded gravely and said the municipality would first need some time to think about it.`,
+      lv: `RĪGA — Rīgas dome otrdien ar balsu vairākumu 38–19 pieņēma to, ko tā sauc par "Pārdomātu atbilžu ietvaru" — pilsētas mēroga komunikācijas standartu, kas nosaka 17 minūšu pārdomu pauzi pirms jebkuras iedzīvotāja atbildes uz jautājumiem, tostarp, bet ne tikai: „Kā Tev klājas?”, „Vai vajag kaut ko no veikala?” un „Vai Tu vari pavilkt mašīnu?”.
+
+Jaunā kārtība, kas stāsies spēkā 1. septembrī, izstrādāta Pilsoniskā ritma departamentā pēc 214 lappušu pētījuma, kurā secināts, ka gandrīz 72% rīdzinieku jau tagad sniedz "būtisku atmosfērisku apstrādi" pirms pat elementārām atbildēm. Pētnieki atsaucās uz pierādījumiem, savāktiem tramvaja platformās, biroju virtuvēs un vienā frizētavā Ķengaragā, kur, kā ziņots, kliente līdz pat saulrietam domāja, vai vēlas slāņainu griezumu.
+
+Administratīvā klusuma vicemēre Ilze Vītoliņa sacīja, ka likums domāts, lai saglabātu komunikācijas stilu, ko arvien vairāk apdraud ārzemju efektivitāte, ziņojumapmaiņas lietotnes un "noteiktas Dienvideiropas paražas".
+
+"Mēs nesamazinām sabiedrības tempu," Vītoliņa teica žurnālistiem, pēc tam dažas akūtas sekundes klusējot pie pjedestāla, ko klātesošie sākotnēji uzskatīja par tehniskām ķibelēm. "Mēs atzīstam esošu nacionālo vērtību. Steidzīga atbilde var novest pie skaidrības, un skaidrība nekad nav bijusi viens no mūsu stratēģiskajiem mērķiem."
+
+Saskaņā ar jauno ietvaru cilvēkiem, uz kuriem publiski uzdot jautājumu, jānoliec skatiena nedaudz, jāuzvelk elpa tā, it kā gatavotos apspriest jumta siltināšanu, un jāpaliek pārdomu stāvoklī tieši 17 minūtes. Praktiskos ārkārtas gadījumos — piemēram, lai noteiktu, vai viesim jānovelk kurpes — atļauta īsāka astoņu minūšu versija. Jautājumi par sēņu atrašanās vietām paliek atbrīvoti un tos joprojām drīkst pilnībā ignorēt.
+
+Lai atbalstītu ieviešanu, pilsēta atvēlējusi 2,8 miljonus eiro 11 000 laminētu "Pauzes karšu" izgatavošanai ar pašvaldības apstiprinātām frāzēm, tostarp "Es apsveru", "Neķersimies pie secinājumiem" un plaši lietojamo "Hmmm." Sabiedriskā informēšana nākamnedēļ sāks skanēt reģionālajās radiostacijās, pārsvarā sastāvēs no vēja, tējkannas un viena vīrieša, kurš pēc brīža tomēr izsaka "Varbūt."
+
+Iedzīvotāju reakcija lielākoties bijusi pozitīva, kaut to grūti izmērīt reāllaikā. Pie Origo centra grāmatvedis Mārtiņš Briedis, 44, tika aptaujāts, vai atbalsta jauno politiku. Pēc 17 minūtēm un 11 sekundēm viņš atbildēja: "Tas atkarīgs," un piebilda, ka vecā sistēma ir kļuvusi neudržaama.
+
+"Agrāk cilvēki gaidīja tūlītējas atbildes," sacīja Briedis. "Mans brālēns no Īrijas jautāja, vai gribu doties airēt ar sup dēli. Līdzko es pilnībā izvērtēju, cik liels varētu būt vējš un vai tur kāds neuzvedīsies skaļi, viņš jau bija nopircis biļetes. Tā nav civilizēta sabiedrības organizēšanas metode."
+
+Uzņēmēji arī gatavojas pārejai. Vairāki Rīgas kafejnīcu īpašnieki paziņojuši par jaunajiem "konsultāciju konditorejas izstrādājumiem", paredzētiem obligātās klusēšanas laikā patēriņam, kamēr startaps KlusumsTech prezentēja viedpulksteni, kas viegli vibrē, kad iedzīvotājs ir pabeidzis 14 minūtes pārdomu un drīkst sākt lobīt uzmanīgu viedokli.
+
+Ne visi ir pārliecināti. Latvijas Tālruņa centru operatoru asociācija brīdināja, ka politika var pagarināt vidējo klientu apkalpošanas sarunu laiku līdz līmenim, kas pārsniedz dažu ierīču kalpošanas ilgumu. Tomēr pat kritiķi atzīst, ka likums var uzlabot publisko diskursu. Pārdaugavas pilotprojekts samazināja liekas strīdus par 63%, galvenokārt tāpēc, ka dalībnieki aizmirsuši, par ko vispār dusmojušies.
+
+Jūrmalā, kur pludmales sarunas jau tā noris tādā, kā amatpersonas aprakstīja, "ledaina prestiža ātrumā", varas pārstāvji sacīja, ka izmaiņas būs gandrīz nemanāmas. Viens vietējais vīrietis, kurš tika intervēts, vērojot jūru, atteicās komentēt, bet vēlāk kaimiņi apstiprināja, ka viņš ļoti piekritis.
+
+Pilsētas vadība norāda, ka panākumus izvērtēs pēc sešiem mēnešiem, lai gan neviens negaida rezultātus pirms 2028. gada. Līdz tam iedzīvotāji tiek aicināti saglabāt mieru, mērenību un būt tikai mēreni pieejamiem. Uz jautājumu, vai pauzi pēc tam varētu pagarināt līdz 25 minūtēm, Vītoliņa smagi piebilda un sacīja, ka pašvaldībai vispirms būs jāpadomā par to.`,
+      ru: `РИГА — Вице‑городская дума Риги во вторник проголосовала 38 против 19 за принятие того, что чиновники называют «Рамкой рефлексивного ответа», общегородского стандарта общения, обязывающего делать 17‑минутную созерцательную паузу перед любым ответом на вопросы, включая, но не ограничиваясь: «Как дела?», «Что тебе принести из магазина?» и «Можешь переставить машину?». 
+
+Политика, вступающая в силу 1 сентября, была разработана Департаментом гражданского темпа после 214‑страничного исследования, в котором выяснилось, что почти 72% рижан уже практикуют «существенную атмосферную обработку» перед тем, как дать даже самый простой ответ. Исследователи ссылались на данные, собранные на трамвайных платформах, в офисных кухнях и в одной парикмахерской в Кенгарагсе, где клиентка, по сообщениям, думала до захода солнца, прежде чем ответить, хочет ли она каскадную стрижку. 
+
+Вице‑мэр по административной тишине Илзе Витолиня заявила, что закон призван сохранить стиль общения, который все сильнее угрожают иностранная эффективность, мессенджеры и «некоторые южноевропейские привычки». 
+
+«Мы не замедляем общество», — сказала Витолиня репортёрам, после чего несколько секунд стояла молча у трибуны — время, которое присутствующие сначала приняли за технические неполадки. — «Мы признаём существующий национальный ресурс. Поспешный ответ может привести к ясности, а ясность никогда не была одной из наших стратегических целей». 
+
+По новой рамке, при любом вопросе в общественном месте житель должен слегка опустить взгляд, вдохнуть так, будто собирается обсуждать утепление крыши, и оставаться в вдумчивом подвешенном состоянии ровно 17 минут. Сокращённый вариант на восемь минут будет разрешён для практических чрезвычайных ситуаций, например, когда нужно решить, снимать ли гостю обувь. Вопросы о местонахождении грибов остаются освобождёнными и по‑прежнему могут игнорироваться полностью. 
+
+Для поддержки реализации города выделил 2,8 млн евро на 11 000 ламинированных карточек «Пауза» с утверждёнными муниципальными фразами, включая «Я обдумываю», «Не будем спешить с выводами» и универсальное «Хмм». Сообщения общественного сервиса начнут транслироваться на региональном радио на следующей неделе и будут в основном состоять из ветра, свистящего чайника и одного мужчины, который в конце концов произносит: «Может быть». 
+
+Реакция жителей в целом была положительной, хотя в реальном времени её сложно было измерить. У торгового центра Origo бухгалтер Мартиньш Бриедис, 44 года, был спрошен, поддерживает ли он политику. Через 17 минут и 11 секунд он ответил: «Зависит», добавив, что прежняя система стала неустойчивой. 
+
+«Раньше люди ожидали немедленных ответов», — сказал Бриедис. — «Мой двоюродный из Ирландии спросил, не хочу ли я пойти на паддлборд. Пока я досконально обдумывал, сколько может быть ветра и не будет ли там кто‑то вести себя шумно, он уже купил билеты. Так общество не строится цивилизованно». 
+
+Бизнес тоже готовится к переходу. Несколько рижских кафе объявили о внедрении «консультационной выпечки», которую предлагают употреблять во время обязательного молчания, а стартап KlusumsTech представил смарт‑часы, которые мягко вибрируют, когда гражданин отмедитировал 14 минут и может начинать формировать осторожное мнение. 
+
+Не все убеждены. Латвийская ассоциация операторов кол‑центров предупредила, что политика может растянуть среднее время взаимодействия с клиентом за пределы срока службы некоторых бытовых приборов. Тем не менее даже критики признают, что закон может улучшить общественный диалог. Пилотная программа в Пардзаугаве сократила ненужные споры на 63%, в основном потому, что участники забывали, из‑за чего были рассержены. 
+
+В Юрмале, где пляжные разговоры и так разворачиваются с тем, что чиновники описывают как «ледниково‑престижный темп», власти заявили, что изменения будут едва заметны. Один местный житель, опрошенный во время осмотра моря, отказался комментировать, а позже соседи подтвердили, что он был категорически согласен. 
+
+Городские лидеры говорят, что успех будет оцениваться через шесть месяцев, хотя никто не ожидает выводов раньше 2028 года. До тех пор жителей призывают оставаться спокойными, взвешенными и только умеренно доступными. На вопрос, не намерены ли продлить паузу до 25 минут, Витолиня серьёзно кивнула и сказала, что муниципалитету сначала нужно немного времени всё обдумать.`
+    },
+    date: "May 22, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/162/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 161,
     slug: "jrmala-introduces-silent-beach-hours-so",
     title: {
@@ -102,7 +195,7 @@ Otrdienas vakarā iedzīvotāji, kas staigāja pa krastu, raksturoja atmosfēru 
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/161/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 160,
