@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 164,
+    slug: "riga-introduces-silent-tram-car-for-164",
+    title: {
+      en: "Riga Introduces Silent Tram Car for Residents Who Need to Stare Out Window and Reevaluate Entire Life",
+      lv: "Rīga Pārbauda Kluso Tramvaju Iedzīvotājiem, Kuriem Jāstāv Pie Loga Un Jāpārdomā Visa Dzīve",
+      ru: "Рига вводит тихий вагон трамвая для жителей, которым нужно уставиться в окно и переосмыслить всю жизнь"
+    },
+    excerpt: {
+      en: "RIGA — In a move city officials are calling a major investment in public emotional infrastructure, Rīgas Satiksme has unveiled a new \"Reflective Silence\" tram car designed specifically for passengers who wish to gaze at grey apartment blocks and privately become a slightly different person by the next stop. The pilot program has already been praised by commuters, who say it finally acknowledges the central role of quiet suffering in urban mobility.",
+      lv: "RĪGA — Pilsētas amatpersonu nosaukts par lielu ieguldījumu sabiedriskajā emocionālajā infrastruktūrā, Rīgas Satiksme atklājusi jaunu «Reflektīvā klusuma» tramvaju, īpaši paredzētu pasažieriem, kuri grib skatīties uz pelēcīgajiem dzīvojamo namu blokiem un privāti kļūt par nedaudz citu cilvēku līdz nākamajai pieturai. Pilotprogrammu jau slavē ikdienas braucēji, kuri saka, ka tā beidzot atzīst klusā ciešanas centrālo lomu pilsētas mobilitātē.",
+      ru: "РИГА — В попытке, которую городские чиновники называют крупной инвестицией в общественную эмоциональную инфраструктуру, Rīgas Satiksme представила новый трамвайный вагон «Размышляющее молчание», специально предназначенный для пассажиров, желающих уткнуться взглядом в серые панельки и к следующей остановке внутренне превратиться в чуть иную версию себя. Пилотная программа уже получила одобрение у ездоков, которые говорят, что наконец-то признан центральный вклад тихого страдания в городскую мобильность."
+    },
+    fullContent: {
+      en: `RIGA — Municipal transport operator Rīgas Satiksme on Tuesday introduced a specially designated silent tram car on the No. 6 line, offering passengers a protected environment in which to look out the window, think about one regrettable text from 2017, and experience what the city’s Urban Mood Department described as “a healthy amount of Baltic interiority.”
+
+The new carriage, marked with a pale blue sticker showing a person staring into middle distance, began service at 7:14 a.m. from Ausekļa iela and was immediately filled to 92% capacity by residents in dark coats holding reusable bags and a level of emotional complexity previously unsupported by municipal infrastructure.
+
+According to city officials, the project was developed after a 14-month commuter study found that 63% of Riga residents already behave as though they are in a silent tram car, while another 21% would prefer even less interaction than the current norm allows. Researchers also identified three peak windows for “deep civic reflection”: 7:00–8:40 a.m., 4:50–6:15 p.m., and any rainy Sunday after receiving a message beginning with “hey, long time.”
+
+“This is not about banning conversation,” said Rīgas Satiksme spokesperson Lelde Mūrniece, speaking softly at a press conference in which journalists were asked to nod instead of ask follow-up questions. “This is about recognizing that public transport in Riga is not merely a means of travel. It is also where many citizens process family history, weather fatigue, housing costs, and whether moving to Cēsis would finally solve anything.”
+
+Inside the carriage, several new rules are displayed in Latvian, Russian, and English. Passengers are asked to keep all speech below the volume of “disappointed exhale,” avoid phone calls unless informing a relative they will arrive “in like ten minutes,” and refrain from playing upbeat content that could interfere with another rider’s moderately significant personal revelation.
+
+The city has also installed specially calibrated fog-resistant windows to improve melancholy viewing quality during autumn months. A low-frequency speaker system emits barely perceptible ambient tram hum, even when the vehicle is fully stopped, to preserve continuity during moments of existential breakthrough.
+
+Commuters on the inaugural run described the atmosphere as “excellent,” “deeply familiar,” and “better than therapy, but with more validating rattling.”
+
+“I got on near Centrāltirgus and by the National Library I had completely restructured my opinion about my university years,” said passenger Artis Ziediņš, 34, who credited the experience with helping him remember a former classmate’s surname and then feel strangely competitive with him. “Normally someone nearby is discussing kitchen renovations or listening to a podcast about crypto. Here, I was finally able to have the exact kind of disproportionate emotional response our climate was designed for.”
+
+Not all riders were immediately comfortable with the new arrangement. Tourist Eva Schneider of Bremen said she initially thought the carriage had been reserved for diplomats or the recently widowed. “I smiled at someone and he looked even further out the window,” she said. “Later I realized that was the system working.”
+
+The project has drawn interest from other Baltic municipalities. Officials in Tallinn reportedly asked whether the concept could be expanded into a fully silent ferry deck, while Vilnius has proposed a “lightly judgmental trolleybus section” for passengers who want quiet but still wish others would button their coats properly.
+
+Riga City Council members say the trial will run through November, after which the program may be expanded to buses and select waiting rooms at public institutions. Early discussions are also underway for a premium “Enhanced Reflection” carriage featuring slightly cleaner glass and a rotating digital display of phrases such as “You did what you could” and “It probably wasn’t personal.”
+
+At press time, transport planners confirmed they were studying a companion initiative for summer in Jūrmala: a designated train car for passengers who want to carry an inflatable flamingo to the beach without being forced to defend the decision.`,
+      lv: `RĪGA — Pašvaldības transporta operators Rīgas Satiksme otrdien ieviesa īpaši atzīmētu klusā tramvaja vagoniņu 6. maršrutā, piedāvājot pasažieriem aizsargātu vidi, kur paskatīties ārā pa logu, padomāt par vienu nožēlojamu īsziņu no 2017. gada un piedzīvot to, ko Pilsētas noskaņojuma nodaļa raksturoja kā «veselīgu Baltijas iekšīguma devu». 
+
+Jaunais vagoniņš, atzīmēts ar bāli zilu uzlīmi, kurā attēlots cilvēks, kas skatās tālumā, sāka kursēt plkst. 7:14 no Ausekļa ielas un tūlīt aizpildījās 92% apmērā ar iedzīvotājiem tumšos mēteļos, kas tur atkārtoti lietojamas somas, un ar emocionālo sarežģītību, ko līdz šim pašvaldības infrastruktūra nebija paredzējusi.
+
+Pilsētas amatpersonu teiktajā, projektu izstrādāja pēc 14 mēnešu ilga pasažieru pētījuma, kurā noskaidrojās, ka 63% rīdzinieku jau uzvedas tā, it kā atrastos klusajā tramvajā, bet vēl 21% vēlētos pat mazāku mijiedarbību nekā pašreizējā norma atļauj. Pētnieki arī identificēja trīs pīķa logus «darbīgai pilsoniskai pārdomāšanai»: 7:00–8:40, 16:50–18:15 un jebkura lietaina svētdiena pēc ziņas, kas sākas ar «hej, sen redzēts».
+
+"Šeit nav runa par sarunu aizliegumu," klusi sacīja Rīgas Satiksmes pārstāve Lelde Mūrniece preses konferencē, kurā žurnālistiem lūdza māj ar galvu, nevis uzdot papildu jautājumus. "Šeit ir runa par to, ka sabiedriskais transports Rīgā nav vienkārši pārvietošanās līdzeklis. Tas ir arī vieta, kur daudzi pilsoņi šķetināt ģimenes vēsturi, laika apstākļu nogurumu, dzīvojamo izmaksu smagumu un apsvērt, vai pārcelšanās uz Cēsīm beidzot kaut ko atrisinātu."
+
+Vagoniņa iekšpusē vairākos valodu variantos — latviešu, krievu un angļu — ir izvietotas jaunas noteikumu zīmes. Pasažieri tiek aicināti runāt klusāk par «sarūgtinātas izelpas» skaļumu, izvairīties no telefona zvaniem, izņemot brīžus, kad jāiedzina radiniekam ziņa, ka ieradīsies "nu, kā pēc desmit minūtēm", un atturēties no jautra satura atskaņošanas, kas varētu traucēt cita braucēja mēreni svarīgo personisko atziņu.
+
+Pilsēta arī uzstādījusi speciāli kalibrētus, pret miglu noturīgus logus, lai uzlabotu skumjuma baudījumu kvalitāti rudenī. Zemu frekvenču skaļruņu sistēma izstaro knapi pamanāmu tramvaja zemfrekvences murmuli, pat kad transports pilnībā apstājies, lai saglabātu kontinuitāti eksistenciāla atklāsmes brīžos.
+
+Iekāpjošie pirmajā reiss raksturoja atmosfēru kā "izcili", "dziļi pazīstamu" un "labāku par terapiju, tikai ar vairāk apstiprinoša šķindēšanas".
+
+"Iekāpu pie Centrāltirgus un pie Nacionālās bibliotēkas biju pilnībā pārstrukturējis savu viedokli par universitātes gadiem," sacīja 34 gadus vecais pasažieris Artis Ziediņš, kurš pierakstīja pieredzi kā palīdzēju atcerēties bijušā kursabiedra uzvārdu un pēc tam sajūtot dīvainu konkurences garu pret viņu. "Parasti kāds blakus runā par virtuves remontiem vai klausās podkāstu par kriptovalūtām. Šeit es beidzot varēju piedzīvot tieši to nesamērīgo emocionālo reakciju, priekš kā mūsu klimats ir radīts."
+
+Ne visi pasažieri uzreiz jutās ērti ar jauno kārtību. Turiste Eva Šneidera no Brēmenes teica, ka sākumā domājusi — vagoniņš rezervēts diplomātiem vai nesen atraitotajiem. "Es kādam pasmaidīju, un viņš paskatījās vēl tālāk ārā pa logu," viņa stāstīja. "Vēlāk sapratu — tas bija sistēmas darbs."
+
+Projekts izraisījis interesi citās Baltijas pašvaldībās. Paredzams, ka Tallinas amatpersonas vaicājušas, vai koncepciju varētu paplašināt uz pilnīgi klusā prāmja klāja, kamēr Viļņa piedāvājusi "vieglā nosodoša trolejbusa sadaļu" pasažieriem, kuri vēlas klusumu, bet tomēr grib, lai citi pienācīgi aizpogā mēteli.
+
+Rīgas domes pārstāvji saka, ka izmēģinājums turpināsies līdz novembrim, pēc tam programmu varētu paplašināt uz autobusiem un izvēlētām gaiteņu zālēm publiskās iestādēs. Tiek apsvērts arī premium variants "Paplašinātā pārdomā" vagoniņš ar nedaudz tīrākiem logiem un rotējošu digitālu displeju ar frāzēm, piemēram, "Tu izdarīji, ko varēji" un "Visticamāk, tas nebija personīgi."
+
+Preses noslēgumā transporta plānotāji apstiprināja, ka izskata pavadprojektu vasarai Jūrmalā: īpaši norādītu vilciena vagoniņu pasažieriem, kuri grib līdzi ņemt piepūšamo flamingo uz pludmali, nebezotēsies aizstāvēt šo izvēli.`,
+      ru: `РИГА — Муниципальный перевозчик Rīgas Satiksme во вторник представил специально выделенный тихий вагон на маршруте №6, предлагающий пассажирам защищённое пространство, где можно смотреть в окно, думать о том одном неудачном сообщении 2017 года и переживать то, что Департамент городского настроения города охарактеризовал как «здоровую дозу балтийской интровертности». 
+
+Новый вагон, отмеченный бледно-голубой наклейкой с изображением человека, уставившегося в никуда, вышел на линию в 7:14 с Ausekļa iela и сразу же заполнился на 92% жителями в тёмных пальто с многоразовыми сумками и уровнем эмоциональной сложности, ранее не поддерживаемым муниципальной инфраструктурой. 
+
+По словам городских чиновников, проект был разработан после 14‑месячного исследования пассажиров, показавшего, что 63% рижан уже ведут себя так, словно находятся в спокойном вагоне, а ещё 21% предпочли бы ещё меньше взаимодействия, чем допускает текущая норма. Исследователи также выделили три пиковых окна для «глубокой гражданской рефлексии»: 7:00–8:40, 16:50–18:15 и любое дождливое воскресенье после сообщения, начинающегося словами «привет, давно не виделись». 
+
+«Речь не о запрете разговоров», — мягко заявила пресс‑секретарь Rīgas Satiksme Лелде Мурньеце на пресс‑конференции, где журналистам просили кивать вместо того, чтобы задавать уточняющие вопросы. «Речь о признании того, что общественный транспорт в Риге — это не просто средство передвижения. Это место, где многие жители перерабатывают семейную историю, усталость от погоды, стоимость жилья и вопрос, не решило бы переезд в Цесис наконец ничего». 
+
+Внутри вагона вывешены новые правила на латышском, русском и английском языках. Пассажиров просят держать весь разговор тише, чем «разочарованный выдох», избегать звонков, если только вы не сообщаете родственнику, что прибудете «ну типа через десять минут», и воздерживаться от воспроизведения бодрого контента, который мог бы помешать чужому умеренно значительному личному откровению. 
+
+В городе также установили специально калиброванные противотуманные окна, чтобы улучшить качество меланхоличного просмотра в осенние месяцы. Низкочастотная акустическая система излучает едва различимый фоновый гул трамвая, даже когда транспорт полностью остановлен, чтобы сохранить непрерывность в моменты экзистенциальных озарений. 
+
+Пассажиры на первом рейсе описывали атмосферу как «отличную», «глубоко знакомую» и «лучше, чем терапия, но с более подтверждающим дребезжанием». 
+
+«Я зашёл возле Centrāltirgus, а к Национальной библиотеке я уже полностью пересмотрел своё отношение к университетским годам», — сказал 34‑летний пассажир Артис Зединьш, который приписал опыту то, что смог вспомнить фамилию бывшего однокурсника и тут же почувствовал необъяснимую конкуренцию с ним. «Обычно кто‑то рядом обсуждает ремонт кухни или слушает подкаст про крипту. Здесь я наконец получил тот самый несоразмерный эмоциональный отклик, для которого, похоже, и задумана наша климатическая среда». 
+
+Не все пассажиры сразу привыкли к новой организации. Туристка Ева Шнайдер из Бремена сказала, что сначала подумала, будто вагон зарезервирован для дипломатов или недавно овдовевших. «Я улыбнулась кому‑то, а он посмотрел ещё дальше в окно», — рассказала она. «Позже я поняла: это система работает». 
+
+Проект привлёк интерес других балтийских муниципалитетов. По слухам, власти Таллина поинтересовались, можно ли концепцию распространить на полностью тихую палубу парома, а Вильнюс предложил «слегка осуждающий секцион трамвая» для тех, кто хочет тишины, но при этом тайно желает, чтобы другие застёгивали пальто как следует. 
+
+Члены городского совета Риги заявили, что эксперимент продлится до ноября, после чего программу могут расширить на автобусы и отдельные залы ожидания в государственных учреждениях. Ведутся предварительные обсуждения и премиального вагона «Усиленное Размышление» с чуть чище стеклом и вращающимся цифровым табло с фразами вроде «Ты сделал всё, что мог» и «Наверное, это не было лично». 
+
+К моменту выхода в печать транспортные планировщики подтвердили, что изучают компаньонскую инициативу на лето в Юрмале: отдельный вагон поезда для пассажиров, которые хотят взять с собой на пляж надувного фламинго, не вынуждая себя защищать за такое решение.`
+    },
+    date: "May 24, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/164/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 163,
     slug: "jrmala-introduces-quiet-siren-to-warn-163",
     title: {
@@ -114,7 +207,7 @@ Ceturtdienas demonstrācijā sirēnu aktivizēja uz 90 sekundēm. Lielākā daļ
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/163/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 162,
