@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 165,
+    slug: "jrmala-introduces-silent-applause-zone-after-165",
+    title: {
+      en: "Jūrmala Introduces Silent Applause Zone After Residents Complain Clapping Too Similar to Construction Season",
+      lv: "Jūrmala ievieš „klusās aplausu zonas” pēc iedzīvotāju sūdzībām, ka plaukšķināšana pārāk līdzinās būvsezonai",
+      ru: "Юрмала вводит зону «тихих аплодисментов» после жалоб жителей, что хлопки слишком похожи на сезон ремонтов"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have unveiled Latvia’s first municipally regulated Silent Applause Zone, requiring all public appreciation to be expressed through soft nodding, restrained eyebrow lifts, or discreet sandal tapping. City leaders say the measure will preserve the town’s signature atmosphere of pine-scented tranquility while reducing confusion among retirees who have spent the past decade filing noise complaints against standing ovations.",
+      lv: "Jūrmalas pašvaldība atklājusi Latvijas pirmo municipāli regulēto klusās aplausu zonu — pateicību pieļauj tikai maiga galvas mājiena, atturīga uzacis pacelšana vai diskrēta čībiņu saskrāpēšana.",
+      ru: "Власти Юрмалы объявили первую в Латвии муниципально регулируемую зону «тихих аплодисментов», где вся публичная благодарность должна выражаться мягким кивком, сдержанным подтягиванием бровей или аккуратным постукиванием босоножек. По словам городских руководителей, мера сохранит фирменную атмосферу соснового спокойствия курорта и сократит путаницу среди пенсионеров, которые последние десять лет подают жалобы на шум, принимая овации стоя за строительные работы."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move described by local authorities as “a necessary modernization of gratitude,” the Jūrmala City Council this week approved a pilot program creating designated Silent Applause Zones along Dzintari Concert Hall, Jomas Street, and several high-sensitivity residential lanes where spontaneous clapping has reportedly been mistaken for seasonal renovation work.
+
+The new regulations, which take effect on June 1, establish a tiered system of audience response based on decibel level and emotional urgency. Under the guidelines, residents and visitors may express approval through methods including brief eyelid closure, a single meaningful inhalation, two-finger acknowledgment, or what the city’s cultural department has termed “contained palm adjacency,” in which hands are brought together symbolically without making contact.
+
+“We are not banning joy,” said Deputy Chair for Civic Harmony Ilze Vītola at a press conference held behind an acoustic windbreak near the beach. “We are simply asking joy to behave in a way that is compatible with Jūrmala’s architectural heritage, spa clientele, and migratory bird patterns.”
+
+According to a 48-page municipal report, traditional clapping increased 17% last summer following a series of outdoor jazz performances, graduation ceremonies, and an unusually emotional puppet festival. During the same period, the city received 312 formal complaints from residents who believed neighboring properties had resumed illegal terrace extension works.
+
+“One night I heard rhythmic impacts for nearly six minutes,” said Majori resident and retired dermatologist Aina Celmiņa, 74. “I put on my orthopedic sandals, called the hotline, and prepared to document fresh concrete. It turned out to be a cello encore. This cannot continue in a civilized resort town.”
+
+To support the transition, the municipality has launched a public education campaign titled “Feel Deeply, React Minimally.” Posters now displayed at train stations and cafés demonstrate approved appreciation gestures, with clear illustrations separating “polite nostril flare” from “aggressive snorting,” which remains punishable under existing disorder statutes.
+
+Business owners have expressed cautious support. Dzintari Concert Hall manager Mārtiņš Pētersons said performers were initially skeptical but have begun adapting. “At first, several visiting musicians thought they had failed catastrophically,” he said. “Now we provide an interpretation sheet backstage. Three synchronized nods means ‘excellent.’ Looking at your shoes while exhaling means ‘technically impressive but too long.’”
+
+The city has also authorized trained Applause Marshals to patrol major events wearing beige linen vests and carrying felt paddles. Their role will be to de-escalate unauthorized enthusiasm before it spreads. First-time offenders will receive a warning and a brochure. Repeat offenders may be relocated to a designated Expressive Corridor near the Lielupe parking area, where moderate clapping is permitted between 14:00 and 16:00, weather allowing.
+
+Not everyone is convinced. A small but energetic advocacy group, Free Hands Latvia, gathered outside the council building on Tuesday to stage what organizers called a “full-volume democratic ovation.” The protest lasted 11 seconds before participants were politely absorbed into nearby shrubbery by event stewards.
+
+Cultural sociologist Dr. Edgars Rubenis of the Baltic Institute for Social Atmosphere said the policy reflects broader regional values. “In much of Europe, applause is a simple response,” he explained. “In Latvia, especially in resort municipalities, it is also a land-use issue, a memory of Soviet-era radiators, and a personal boundary.”
+
+Despite criticism, city leaders remain optimistic. If successful, the pilot may be expanded to wedding receptions, poetry readings, and family reunions deemed acoustically vulnerable. Officials are already studying whether similar rules could be applied to laughter above shoulder level.
+
+By Thursday afternoon, reactions in central Jūrmala appeared muted but positive. Outside a small chamber concert, attendees emerged into the pine air, blinked respectfully at one another, and dispersed in near-total silence — the highest form of praise currently available.`,
+      lv: `JŪRMALA — Pāreju, ko vietējās varas iestādes raksturojušas kā “pateicības nepieciešamo modernizāciju”, šonedēļ Jūrmalas dome apstiprināja pilotprogrammu, kas izveido vietas ar noteiktu klusās aplausu režīmu gar Dzintaru koncertzāli, Jomas ielu un vairākām augstas jutības dzīvojamajām ielām, kur spontāna plaukšķināšana, kā ziņots, reizēm tiek sajaukta ar sezonālajiem remontdarbiem.
+
+Jaunie noteikumi, kas stāsies spēkā 1. jūnijā, nosaka pakāpotu auditorijas reakciju sistēmu, balstītu uz decibelu līmeni un emocionālo steidzamību. Saskaņā ar vadlīnijām iedzīvotāji un apmeklētāji drīkst izrādīt atzinību, izmantojot tādas metodes kā īslaicīga plakstiņu aizvēršana, viens nozīmīgs ieelpas vilciens, divpirkstu atzinība vai tas, ko pilsētas kultūras nodaļa nosaukusi par “ierobežotu plaukstu tuvināšanu”, kad rokas simboliski tiek pietuvinātas bez pieskāriena.
+
+“Mēs neaizliedzam prieku,” preses konferencē, kas notika aiz akustiskā vēju slāpētāja pie pludmales, sacīja Pilsoniskās saskaņas vietniece Ilze Vītola. “Mēs vienkārši lūdzam prieku uzvesties tā, lai tas būtu savietojams ar Jūrmalas arhitektūras mantojumu, kūrorta klientūru un migrējošo putnu gaitām.”
+
+Saskaņā ar 48 lappušu pašvaldības ziņojumu tradicionālais plaukšķinājums pagājušā vasarā pieauga par 17% pēc virknes āra džezsēriju, izlaidumu ceremoniju un neparasti emocionāla leļļu festivāla. Tajā pašā periodā pilsēta saņēmusi 312 formālas sūdzības no iedzīvotājiem, kuri uzskatīja, ka kaimiņu īpašumos atkal atsākušies nelikumīgi terases pagarinājumi.
+
+“Vienu nakti es dzirdēju ritmiskas triecienu sērijas gandrīz sešas minūtes,” sacīja Majoru iedzīvotāja un pensionēta dermatoloģe Aina Celmiņa, 74. “Es uzvilku ortopēdiskās čības, sazvanīju informatīvo līniju un gatavojos dokumentēt svaigu betonu. Izrādījās — čella atkāpšanās. Tā vairs nevar turpināties civilizētā kūrortpilsētā.”
+
+Lai atbalstītu pāreju, pašvaldība uzsākusi sabiedrības izglītošanas kampaņu ar nosaukumu “Jūti stipri, reaģē saudzīgi.” Plakāti, kas tagad izvietoti stacijās un kafejnīcās, demonstrē atļautās atzinības žestus ar skaidrām ilustrācijām, kur atsevišķi parādīts “pieklājīgas nāsis paplašināšanās” un “agresīva smēķēšana” atšķirība — pēdējais joprojām sodāms saskaņā ar esošajiem sabiedriskās kārtības likumiem.
+
+Uzņēmēji izrāda piesardzīgu atbalstu. Dzintaru koncertzāles vadītājs Mārtiņš Pētersons sacīja, ka izpildītāji sākotnēji bija skeptiski, taču sākuši pielāgoties. “Sākumā daži viesmākslinieki domāja, ka viņi ir katastrofāli izgāzušies,” viņš teica. “Tagad mēs aizkulisēs dodam interpretācijas lapu. Trīs sinhronizētas mājienu nozīmē ‘izcili’. Skatīties uz kurpēm un izelpot nozīmē ‘tehniski iespaidīgi, bet pārāk gari.’ ”
+
+Pilsēta ir arī pilnvarojusi apmācītus aplausu maršalus patrulēt lielos pasākumos, ģērbtiem bēšos lina vestēs un nēsājot filca plakānus. Viņu uzdevums būs deeskalēt neatļotu entuziasmu, pirms tas izplatās. Pirmā pārkāpuma gadījumā tiks izteikta brīdinājuma un izsniegts buklets. Atkārtoti pārkāpēji var tikt pārvietoti uz speciālu Izteiksmības Koridoru pie Lielupes stāvlaukuma, kur mērena plaukšķināšana atļauta no pulksten 14:00 līdz 16:00, ja ļauj laika apstākļi.
+
+Ne visi ir pārliecināti. Neliela, taču enerģiska advokātu grupa “Free Hands Latvia” otrdien sapulcējās pie domes ēkas, lai rīkotu to, ko organizatori sauca par “pilna apjoma demokrātisku ovāciju.” Protests ilga 11 sekundes, pirms dalībnieki tika pieklājīgi ieslēgti tuvējā krūmā ar pasākuma prižiņiem.
+
+Kultūras sociologs Dr. Edgars Rubenis no Baltijas Sociālās Atmosfēras institūta sacīja, ka politika atspoguļo plašākas reģionālās vērtības. “Lielākajā daļā Eiropas aplausi ir vienkārša reakcija,” viņš paskaidroja. “Latvijā, īpaši kūrortpilsētās, tas ir arī zemes izmantošanas jautājums, atmiņa par padomju radiātoriem un personiskās robežas.”
+
+Neskatoties uz kritikām, pilsētas vadība paliek optimistiska. Ja pilots izrādīsies veiksmīgs, to varēs paplašināt uz kāzu pieņemšanām, dzejas lasījumiem un ģimenes salidojumiem, kurus atzīs par akustiski ievainojamiem. Iestādes jau pētot, vai līdzīgi noteikumi varētu attiekties arī uz smiekliem, kas pārsniedz plecu līmeni.
+
+Ceturtdienas pēcpusdienā reakcijas centrālajā Jūrmalā šķita nomierinātas, bet pozitīvas. Pēc neliela kamermūzikas koncerta apmeklētāji iznāca priedes piepildītajā gaisā, pieklājīgi aizmirka viens uz otru un izklīda gandrīz pilnīgā klusumā — augstākajā šobrīd pieejamajā atzinības formā.`,
+      ru: `ЮРМАЛА — В шаге, который местные власти описали как «необходимую модернизацию благодарности», Городской совет Юрмалы на этой неделе одобрил пилотную программу по созданию обозначенных зон «тихих аплодисментов» вдоль концертного зала Дзинтари, на улице Йомас и в нескольких жилых переулках с повышенной чувствительностью, где спонтанные аплодисменты, по сведениям, неоднократно принимали за сезонные ремонтные работы.
+
+Новые правила, вступающие в силу 1 июня, устанавливают многоуровневую систему реакции публики, основанную на уровне децибелов и эмоциональной срочности. Согласно инструкциям, жители и гости могут выражать одобрение методами, включая кратковременное закрытие века, один выразительный вдох, приветствие двумя пальцами или то, что культурное управление города называет «контролируемым приближением ладоней» — когда руки символически подносятся друг к другу, но не соприкасаются.
+
+«Мы не запрещаем радость, — заявила заместитель председателя по гражданской гармонии Илзе Витола на пресс‑конференции, проходившей за акустическим ветрозащитным экраном рядом с пляжем. — Мы просто просим радость вести себя так, чтобы это было совместимо с архитектурным наследием Юрмалы, клиентурой спа‑курортов и путями миграции птиц». 
+
+Согласно 48‑страничному муниципальному докладу, традиционные хлопки выросли на 17% прошлым летом после ряда уличных джазовых выступлений, вручений дипломов и необычайно трогательного фестиваля кукол. За тот же период город получил 312 официальных жалоб от жителей, которые посчитали, что соседние участки возобновили незаконные работы по расширению террас.
+
+«Однажды ночью я слышала ритмичные удары почти шесть минут, — рассказала жительница Майори и пенсионер‑дерматолог Айна Целминя, 74 года. — Я надела свои ортопедические сандалии, позвонила на горячую линию и приготовилась фиксировать свежий бетон. Оказалось — это был бис для виолончели. Так в цивилизованном курортном городе продолжаться не может». 
+
+Чтобы облегчить переход, муниципалитет запустил просветительскую кампанию под лозунгом «Чувствуй глубоко, реагируй минимально». Плакаты, теперь размещённые на вокзалах и в кафе, демонстрируют допустимые жесты признания с чёткими иллюстрациями, отделяющими «вежливое расширение ноздрей» от «агрессивного фыркания», которое по‑прежнему карается в соответствии с действующими нормами о нарушении порядка.
+
+Предприниматели отнеслись к инициативе с осторожной поддержкой. Директор концертного зала Дзинтари Мартиньш Петерсонс сказал, что музыканты сначала были скептичны, но начали приспосабливаться. «Сначала несколько приглашённых музыкантов подумали, что провалились катастрофически, — сказал он. — Сейчас у нас есть расшифровка жестов за кулисами. Три синхронных кивка означают «отлично». Взгляд в ботинки с выдохом — «технически впечатляет, но слишком долго»». 
+
+Город также уполномочил обученных маршалов аплодисментов патрулировать крупных мероприятий в бежевых льняных жилетах с фетровыми лопатками. Их роль — деэскалировать несанкционированный энтузиазм, пока тот не распространился. Правонарушителям при первом нарушении будет вынесено предупреждение и выдана брошюра. Повторные нарушители могут быть перемещены в выделенный Выразительный Коридор у парковки Лиелупе, где умеренные хлопки разрешены с 14:00 до 16:00, если позволит погода.
+
+Не все в восторге. Небольшая, но энергичная группа активистов «Свободные Руки Латвии» собралась во вторник у здания совета, чтобы устроить то, что организаторы назвали «громогласной демократической овацией». Протест длился 11 секунд, после чего участники были вежливо «поглощены» ближайшими кустами сотрудниками мероприятия.
+
+Культурный социолог доктор Эдгарс Рубенис из Балтийского института социальной атмосферы заявил, что политика отражает более широкие региональные ценности. «В большей части Европы аплодисменты — это простая реакция, — пояснил он. — В Латвии, особенно в курортных муниципалитетах, это ещё и вопрос землепользования, воспоминание о советских радиаторах и личная граница». 
+
+Несмотря на критику, городские власти настроены оптимистично. Если пилот окажется успешным, его могут расширить на свадебные приёмы, чтения поэзии и семейные воссоединения, признанные акустически уязвимыми. Чиновники уже изучают, можно ли применить похожие правила к смеху выше уровня плеч.
+
+К четвергу днём реакция в центре Юрмалы выглядела сдержанно, но позитивно. После камерного концерта слушатели вышли в сосновый воздух, вежливо поморгали друг другу и разошлись почти в полной тишине — высшей форме похвалы, доступной в настоящий момент.`
+    },
+    date: "May 25, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/165/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 164,
     slug: "riga-introduces-silent-tram-car-for-164",
     title: {
@@ -108,7 +201,7 @@ Preses noslēgumā transporta plānotāji apstiprināja, ka izskata pavadprojekt
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/164/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 163,
