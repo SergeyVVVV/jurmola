@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 166,
+    slug: "riga-introduces-mandatory-thoughtful-pause-at",
+    title: {
+      en: "Riga Introduces ‘Mandatory Thoughtful Pause’ at Crosswalks to Preserve National Character",
+      lv: "Rīga ievieš „obligāto pārdomu pauzi” pārejās, lai saglabātu nacionālo raksturu",
+      ru: "Рига вводит «обязательную задумчивую паузу» на переходах, чтобы сохранить национальный характер"
+    },
+    excerpt: {
+      en: "In a pilot program announced Tuesday, Riga City Council will require pedestrians to stop for three to five seconds at selected crosswalks and stare thoughtfully into the middle distance before crossing. Officials say the measure will reduce hurried optimism and protect the city’s cultural rhythm from “unlicensed efficiency.”",
+      lv: "Otrdien izsludinātā pilotprogramma paredz, ka Rīgas dome pieprasīs gājējiem apstāties uz trīs līdz piecām sekundēm izvēlētajās pārejās un pirms šķērsošanas domīgi ieskatīties tālumā. Amatpersonas apgalvo, ka pasākums samazinās steidzīgu optimisma uzplūdus un pasargās pilsētas kultūras ritmu no „neautorizētas efektivitātes”.",
+      ru: "В пилотной программе, объявленной во вторник, Рижская дума потребует от пешеходов останавливаться на 3–5 секунд на выбранных переходах и задумчиво смотреть в даль перед тем, как перейти улицу. По словам чиновников, мера снизит поспешный оптимизм и защитит культурный ритм города от «нелицензированной эффективности»."
+    },
+    fullContent: {
+      en: `RIGA — In what municipal planners are calling a “modest but essential intervention against accidental briskness,” Riga City Council has approved a new pilot program requiring pedestrians at 14 central crosswalks to perform a brief reflective pause before entering the street.
+
+Beginning next Monday, residents crossing Brīvības iela, Barona iela, and several intersections in the Quiet Centre will be expected to stop at the curb, inhale once, gaze at an indeterminate point somewhere above tram height, and consider at least one unresolved matter from their personal or national life. The recommended pause, according to city guidelines, is 3.8 seconds in summer and up to 6 seconds during sleet.
+
+Deputy Chair for Mobility and Public Mood Ilze Dreimane told reporters the initiative emerged after a municipal study found that Riga’s average pedestrian had become “11% too decisive” compared with pre-pandemic levels.
+
+“We are not banning crossing,” Dreimane said, standing beside a newly installed sign depicting a silhouette frowning at traffic. “We are simply restoring the traditional Latvian interval of mild uncertainty between intention and action. If people begin moving through the city as if they know exactly what they want, then frankly we have imported a foreign urban spirit.”
+
+The city’s 47-page implementation document, entitled Sustainable Hesitation 2030, argues that thoughtful delays will improve safety while strengthening intangible heritage. Among the projected benefits are a 23% reduction in collisions with right-turning delivery vans, a 14% increase in “visible introspection,” and a measurable calming effect on nearby apartment façades.
+
+At major crossings, traffic lights will now include a new grey phase between red and green, described by engineers as “emotionally amber.” During this interval, a soft recorded voice will say, in Latvian, Russian, and English, “Perhaps. But not immediately.”
+
+Public reaction has been mixed but unusually composed. Office worker Renārs Kļaviņš, 34, tested the system near Esplanāde on Tuesday and said it felt natural. “At first I thought, this is ridiculous,” he said. “Then I stood there, remembered a conversation from 2017, felt a seasonal disappointment, and by then it was safe to cross. So in a way, it worked perfectly.”
+
+Not all residents are convinced. Several cyclists complained that pedestrians already pause unpredictably, and that formalizing the practice may create “bureaucratic melancholy.” Jurmala resident and frequent Riga visitor Zane Līdaka said she supports the idea in principle but worries city people will overperform it. “There is a risk of theatrical pondering,” she said. “You don’t want flashy reflection. It should be understated, almost administrative.”
+
+Local businesses have begun adapting. A kiosk near the National Theatre is now selling “Pause-Friendly Coffee” in narrower cups designed to cool exactly within one reflective cycle. Meanwhile, a startup in Āgenskalns has released a mobile app called Nesteidzies, which generates personalized thoughts for users who arrive at the curb unprepared. Premium subscribers can choose categories such as Family Logistics, Historic Resentment, and Low-Grade Roof Anxiety.
+
+Professor Mārtiņš Eglītis, an urban sociologist at the University of Latvia, said the policy could become a model for other Baltic capitals. “Vilnius has speed, Tallinn has apps, but Riga may have found its true competitive advantage,” he said. “Managed hesitation is one of the few resources we still produce domestically.”
+
+City officials say the program will be evaluated after six months using pedestrian flow data, near-miss reports, and an experimental “atmospheric sincerity index.” If successful, the pause may be expanded to supermarket entrances, pharmacy queues, and certain emotionally complex revolving doors.
+
+For now, inspectors will issue only warnings to first-time violators, though repeat offenders may be directed to a municipal seminar on composure. Standing at the corner of Elizabetes and Tērbatas, Dreimane dismissed criticism that the city was overreaching.
+
+“Riga has always understood that movement is serious,” she said, as three pedestrians stared quietly into drizzle. “The goal is not to stop people from getting somewhere. The goal is to ensure they arrive there in an appropriately Baltic manner.”`,
+      lv: `RĪGA — To, ko pilsētplānotāji dēvē par „piemēru, bet būtisku iejaukšanos pret nejaušu sparīgumu”, Rīgas dome apstiprinājusi jaunu pilotprogrammu, kas prasīs, lai gājēji 14 centrālajās pārejās pirms ieiešanas brauktuves veic īsu pārdomu pauzi.
+
+Nākamajā pirmdienā iedzīvotāji, šķērsojot Brīvības ielu, Barona ielu un vairākus krustojumus Klusajā centrā, tiek gaidīti pie apmales, lai ieelpotu vienu reizi, ieskatītos neitrālā punktā kādā tramvaja augstumā vai virs tā un apsvērtu vismaz vienu neatrisinātu jautājumu no sava personīgā vai nacionālā dzīves lauka. Pilsētas vadlīnijās ieteicamā pauze vasarā ir 3,8 sekundes, bet slapjdraņķī — līdz sešām sekundēm.
+
+Mobility un sabiedriskās noskaņas vietniece Ilze Dreimane žurnālistiem teica, ka iniciatīva radusies pēc pašvaldības pētījuma, kurā atklāts, ka vidējais rīdzinieka gājējs kļuvis „par 11% pārāk lemtspējīgs” salīdzinājumā ar pirms-pandēmijas laikiem.
+
+"Mēs neaizliedzam šķērsot ielu," sacīja Dreimane, stāvot blakus tikko uzstādītai zīmei, kurā attēlots siluets, kas sarauc pieri uz satiksmi. "Mēs vienkārši atjaunojam tradicionālo latviešu intervālu vieglas neskaidrības starp nodomu un rīcību. Ja cilvēki pilsētā sāks pārvietoties tā, it kā pilnīgi zinātu, ko vēlas, tad atklāti sakot — mēs esam ieimportējuši svešu urbāno garu."
+
+Pilsētas 47 lappušu ieviešanas dokuments, nosaukts "Ilgtspējīgā vilcināšanās 2030", apgalvo, ka pārdomātas aizkaves uzlabos drošību, vienlaikus stiprinot nemateriālo mantojumu. Starp plānotajām priekšrocībām ir 23% kritums sadursmēs ar labo pagriezienu piegādes furgoniem, 14% pieaugums „redzamā introspekcijā” un mērāma nomierinoša ietekme uz tuvumā esošajiem daudzdzīvokļu māju fasādēm.
+
+Lielākajās šķērsošanas vietās luksoforiem tagad būs jauna pelēka fāze starp sarkano un zaļo, ko inženieri raksturo kā „emocionāli dzintara krāsas”. Šīs fāzes laikā maiga ierakstīta balss latviešu, krievu un angļu valodā atskaņos: "Varbūt. Bet ne tūlīt."
+
+Sabiedrības reakcija bijusi sajaukta, taču neparasti sakārtota. Biroja darbinieks Renārs Kļaviņš, 34 gadi, otrdien pie Esplanādes pārbaudīja sistēmu un teica, ka tas šķita dabiski. "Sākumā iedomājos — tas ir absurdi," viņš sacīja. "Tad es tur stāvēju, atcerējos sarunu no 2017. gada, izjutu sezonālu vilšanos, un līdz tam brīdim bija droši šķērsot. Tātad kaut kādā veidā tas darbojās perfekti."
+
+Ne visi iedzīvotāji ir pārliecināti. Vairāki riteņbraucēji sūdzējušies, ka gājēji jau tagad apstājas neprognozējami, un prakse nostiprināta oficiāli var radīt "birokrātisku melanholiju." Jūrmalas iedzīvotāja un bieža Rīgas viesu Zane Līdaka sacīja, ka principā atbalsta ideju, bet bažījas, ka pilsētnieki to pārsniegs. "Pastāv teātrālas pārdomāšanas risks," viņa teica. "Negribas krāšņu refleksiju. Tai jābūt pieticīgai, gandrīz administratīvai."
+
+Vietējie uzņēmumi sāk pielāgoties. Kiosks pie Nacionālā teātra tagad tirgo "pauzei draudzīgu kafiju" šaurākās krūzītēs, kas paredzētas atdzist tieši viena pārdomu cikla laikā. Tikmēr startaps Āgenskalnā ir izlaidis mobilo lietotni Nesteidzies, kas ģenerē personalizētas domas lietotājiem, kuri pie apmales ierodas nesagatavoti. Premium abonenti var izvēlēties kategorijas kā Ģimenes loģistika, Vēsturiskais aizvainojums un Zema līmeņa jumta trauksme.
+
+Prof. Mārtiņš Eglītis, Rīgas Universitātes pilsētu sociologs, sacīja, ka politika var kļūt par modeli citām Baltijas galvaspilsētām. "Viļņa ir par ātrumu, Tallina par lietotnēm, bet Rīga, iespējams, atradusi savu īsto konkurences priekšrocību," viņš teica. "Pārvaldīta vilcināšanās ir viens no retajiem resursiem, ko mēs vēl ražojam vietēji."
+
+Pilsētas amatpersonas saka, ka programma tiks izvērtēta pēc sešiem mēnešiem, izmantojot gājēju plūsmas datus, gandrīz-incidentu ziņojumus un eksperimentālu "atmosfēras sirsnības indeksu". Ja tā būs sekmīga, pauzi varēs paplašināt uz veikalu ieejām, aptieku rindām un dažām emocionāli sarežģītām vērpstelpām.
+
+Pašlaik inspektori pirmreizēja pārkāpēja gadījumā izteiks tikai brīdinājumu, bet recidīvisti var tikt iesūtīti uz pašvaldības semināru par savaldību. Stāvot Elizabetes un Tērbatas stūrī, Dreimane noraidīja kritiku, ka pilsēta iejaucas pārlieku plaši.
+
+"Rīga vienmēr sapratusi, ka kustība ir nopietna," viņa sacīja, kamēr trīs gājēji klusi skatījās smidzinā. "Mērķis nav liegt cilvēkiem nokļūt kaut kur. Mērķis ir nodrošināt, ka viņi tur ierodas piemēroti baltiski."`,
+      ru: `РИГА — В том, что муниципальные планировщики называют «скромным, но необходимым вмешательством против случайной расторопности», Рижская дума утвердила новый пилотный проект, требующий от пешеходов на 14 центральных переходах совершать короткую рефлексивную паузу перед выходом на проезжую часть.
+
+Начиная со следующего понедельника, от жителей, переходящих Brīvības iela, Barona iela и несколько перекрёстков в Тихом центре, будут ожидать остановки на бордюре, однократного вдоха, взгляда в неопределённую точку где-то выше уровня трамвайной крыши и обдумывания как минимум одного нерешённого вопроса из их личной или национальной жизни. По рекомендациям городских руководств, длительность паузы составляет 3,8 секунды летом и до 6 секунд при слякоти.
+
+Заместитель председателя по мобильности и общественному настрою Илзе Дреймане рассказала репортёрам, что инициатива возникла после муниципального исследования, в котором выяснилось: средний рижский пешеход стал «на 11% слишком решительным» по сравнению с допандемийным уровнем.
+
+«Мы не запрещаем переходить улицу», — сказала Дреймане, стоя рядом с недавно установленным знаком с силуэтом, хмурящимся на поток машин. «Мы просто восстанавливаем традиционный латвийский интервал лёгкой неуверенности между намерением и действием. Если люди начнут передвигаться по городу так, будто точно знают, чего хотят, то, честно говоря, мы импортируем чужой городской дух». 
+
+47-страничный документ по реализации политики под названием «Устойчивая нерешительность 2030» утверждает, что задумчивые задержки улучшат безопасность и одновременно укрепят нематериальное наследие. Среди прогнозируемых выгод — снижение числа столкновений с поворачивающими направо фургончиками доставки на 23%, рост «видимой интроспекции» на 14% и измеримый успокаивающий эффект на близлежащие фасады жилых домов.
+
+На крупных переходах светофоры теперь будут включать новую серую фазу между красным и зелёным, которую инженеры описывают как «эмоционально янтарную». В этот интервал мягким записанным голосом на латышском, русском и английском будет звучать фраза: «Возможно. Но не сразу». 
+
+Общественная реакция оказалась смешанной, но необычно сдержанной. Служащий Ренарс Клявиньш, 34 года, испытал систему у Эспланады во вторник и сказал, что это ощущалось естественно. «Сначала я думал: это смешно», — сказал он. «Но потом я постоял, вспомнил разговор 2017 года, ощутил сезонное разочарование, и к тому моменту было безопасно переходить. Так что, в некотором смысле, это сработало идеально». 
+
+Не все жители убеждены. Несколько велосипедистов пожаловались, что пешеходы и так останавливаются непредсказуемо, и формализация практики может породить «бюрократическую меланхолию». Жительница Юрмалы и частая гостья Риги Зане Лидака сказала, что в принципе поддерживает идею, но переживает, что городские люди будут переигрывать её. «Есть риск театрального раздумья», — заметила она. «Нам не нужна броская рефлексия. Она должна быть сдержанной, почти административной». 
+
+Местный бизнес уже принял адаптационные меры. Киоск у Национального театра теперь продаёт «кофе для паузы» в более узких стаканчиках, которые остывают ровно за один цикл размышления. Тем временем стартап в Агенскалнсе выпустил мобильное приложение Nesteidzies, которое генерирует персонализированные мысли для пользователей, оказавшихся на бордюре неподготовленными. Премиум-подписчики могут выбирать категории вроде «Семейная логистика», «Историческая обида» и «Низкоуровневая крыша-тревога». 
+
+Профессор Мартиньш Эглитис, городской социолог из Латвийского университета, заявил, что политика может стать моделью для других балтийских столиц. «Вильнюс отличается скоростью, Таллинн — приложениями, но возможно у Риги появилось настоящее конкурентное преимущество», — сказал он. «Управляемая нерешительность — один из немногих ресурсов, который мы всё ещё производим в стране». 
+
+Городские чиновники говорят, что программа будет оценена через шесть месяцев с использованием данных о потоках пешеходов, отчётов о почти-столкновениях и экспериментального «индекса атмосферной искренности». В случае успеха паузу могут расширить до входов в супермаркеты, очередей в аптеках и некоторых эмоционально сложных вращающихся дверей. 
+
+Пока инспекторы будут выносить предупреждения только первичным нарушителям, но рецидивистов могут направлять на муниципальный семинар по невозмутимости. Стоя на углу улиц Elizabetes и Tērbatas, Дреймане отвергла критику о чрезмерном вмешательстве города. 
+
+«Рига всегда понимала, что движение — это серьёзно», — сказала она, пока трое пешеходов тихо смотрели в моросящий дождь. «Цель не в том, чтобы помешать людям куда-то добираться. Цель — чтобы они прибывали туда соответствующим образом — по-балтийски».`
+    },
+    date: "May 27, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/166/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 165,
     slug: "jrmala-introduces-silent-applause-zone-after-165",
     title: {
@@ -108,7 +207,7 @@ Ceturtdienas pēcpusdienā reakcijas centrālajā Jūrmalā šķita nomierināta
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/165/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 164,
