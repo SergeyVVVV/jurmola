@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 167,
+    slug: "jrmala-introduces-silence-tax-after-residents",
+    title: {
+      en: "Jūrmala Introduces Silence Tax After Residents Complain Sea Is ‘Using Public Space Without Permit’",
+      lv: "Jūrmala ievieš klusuma nodokli pēc iedzīvotāju sūdzībām, ka jūra “izmanto publisko telpu bez atļaujas”",
+      ru: "Юрмала вводит налог на тишину после жалоб жителей, что море «использует общественное пространство без разрешения»"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have approved a pilot fee on extended periods of silence, arguing that the city’s most valuable natural resource has been enjoyed informally for too long. Under the new system, residents and visitors lingering quietly near the shore for more than 11 minutes may be charged a modest seasonal tariff.",
+      lv: "Jūrmalas pašvaldības amatpersonas ir apstiprinājušas pilotmaksu par ilgstošu klusumu, norādot, ka pilsētas vērtīgākais dabas resurss pārāk ilgi ticis baudīts neformāli. Saskaņā ar jauno sistēmu iedzīvotāji un viesi, kas klusējot piekrastē izklīst vairāk nekā 11 minūtes, var tikt iekasēta neliela sezonālā tarifa maksa.",
+      ru: "Муниципальные чиновники Юрмалы одобрили пилотный сбор за продолжительные периоды тишины, заявив, что самый ценный природный ресурс города слишком долго эксплуатировался неформально. По новой системе жители и гости, которые тихо задерживаются у берега дольше 11 минут, могут быть обязаны заплатить умеренный сезонный тариф."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders described as “fiscally innovative and emotionally coastal,” the Jūrmala City Development Committee on Tuesday approved Latvia’s first Silence Tax, a municipal fee aimed at regulating what officials call “unmonetized tranquility” along the beachfront.
+
+Beginning 1 June, anyone sitting, standing, or staring meaningfully at the Gulf of Riga in near-total silence for longer than 11 consecutive minutes will be required to purchase a Tier 1 Stillness Permit, priced at €3.50 on weekdays and €5 on weekends. The permit rises to €12 for what the municipality classifies as “deep reflective silence,” identified by folded hands, distant gaze, and no visible mobile phone use.
+
+Deputy Executive Director for Seasonal Orderliness Ilze Grunte said the measure was necessary after an internal audit found that over 68% of Jūrmala’s premium calm was being “consumed recreationally” without documentation. “People come here, they sit on benches, they look at the pine trees, and then they just continue being peaceful,” Grunte told reporters at a press briefing held beside a sign reading ENJOY RESPONSIBLY. “At no stage is the city formally acknowledged for hosting this silence. This is not sustainable governance.”
+
+According to a 47-page explanatory memorandum, the municipality estimates the sea breeze, low gull density, and reputational softness of evening light generated approximately 2.4 million unregistered moments of calm last summer, representing a projected budgetary loss of €418,000. The report further notes that 31% of visitors arrived “already emotionally improved,” meaning Jūrmala was receiving no credit for psychological uplift achieved on public sand.
+
+Enforcement will be carried out by a newly formed Coastal Acoustics Unit, whose officers have been trained to distinguish taxable silence from ordinary waiting. Patrol staff will carry handheld decibel monitors and laminated charts showing acceptable levels of introspection. People reading quiet poetry may be exempt, though only if the poem is submitted in advance through the e-Pakalpojumi portal.
+
+Not all residents oppose the plan. Retired dentist and Dzintari resident Māris Eglītis said he had long suspected others were enjoying too much atmosphere for free. “Every morning I see people just standing there with coffee, listening to nothing,” he said. “In any organized society, that should at least be registered. I pay road tax, property tax, and television tax. Why should serenity remain in the shadows?”
+
+Others were less enthusiastic. University student Līva Ozoliņa, who frequently takes the train from Riga to sit quietly by the water after exams, called the policy “aggressively Latvian in the wrong direction.” After learning that crying softly into a scarf may fall under the Premium Seasonal Package if accompanied by sunset viewing, she said she would likely relocate her emotional processing to Salaspils. “It has fewer amenities, but apparently still some freedom,” she said.
+
+Local businesses are already adapting. Several cafés on Jomas Street have begun offering pre-validated silence vouchers with the purchase of herbal tea and one small napoleon slice. One wellness hotel has advertised a ‘Tax-Deductible Inner Peace Weekend’ including breakfast, spa access, and up to 90 licensed minutes of gazing.
+
+Tourism analysts say the measure could either damage Jūrmala’s image or strengthen it by making the city appear even more exclusive. “Luxury in Northern Europe is increasingly about access to controlled absence,” said Baltic leisure economist Toms Aumeisters. “If they package stillness correctly, Germans will absolutely pay for it.”
+
+By Wednesday afternoon, confusion had already spread among visitors after several beachgoers received warning slips for “unpermitted horizon engagement.” One couple from Jelgava insisted they were not being tranquil, merely disappointed.
+
+Municipal leaders have defended the rollout and hinted at further reforms, including a possible pilot scheme to meter nostalgic walking in pine forests during August. Asked whether the city worried about taxing one of the few remaining free experiences in modern life, Grunte said the question was overly emotional.
+
+“We are not taxing silence,” she clarified. “We are simply creating a fair framework in which silence can contribute.”`,
+      lv: `JŪRMALA — Pārvērtējumā, ko pilsētas vadība nosauca par "fiskāli inovatīvu un emocionāli piejūras", Jūrmalas pilsētas attīstības komiteja otrdien apstiprināja Latvijas pirmo Klusuma nodokli, pašvaldības maksu, kuras mērķis ir regulēt to, ko amatpersonas sauc par "nemonetizēto klusumu" pludmales zonā.
+
+Sākot ar 1. jūniju, ikvienam, kas sēž, stāv vai nozīmīgi skatās uz Rīgas jūras līci gandrīz pilnīgā klusumā vairāk nekā 11 minūtes pēc kārtas, būs jānopērk 1. pakāpes Klusuma atļauja, kuras cena darba dienās ir 3,50 € un brīvdienās 5 €. Atļauja paaugstinās līdz 12 € par to, ko pašvaldība klasificē kā "dziļo pārdomu klusumu", ko atpazīst saliktas rokas, tāls skatījums un redzama mobilo telefonu neesamība.
+
+Sezonālās kārtības vietnieces Ilzes Gruntes teikto pasākums bija nepieciešams pēc iekšējā audita, kurš atklāja, ka vairāk nekā 68% Jūrmalas "premium klusuma" tiek "patērēts rekreācijai" bez dokumentācijas. "Cilvēki nāk šurp, sēž uz soliņiem, skatās uz priedēm un pēc tam turpina būt mierīgi," Grunte sacīja preses brīfingā pie zīmes BAUDI ATBILDĪGI. "Nekādā brīdī pilsēta nav formāli atzīta par šī klusuma uzņemšanu. Tas nav ilgtspējīgs pārvaldības princips."
+
+47 lappušu skaidrojošajā memorandā pašvaldība lēš, ka jūras vējiņš, zema kaiju blīvuma indekss un vakara gaismas reputācijas maigums pagājušajā vasarā radīja aptuveni 2,4 miljonus nereģistrētu klusuma mirkļu, kas iezīmē prognozētu budžeta zaudējumu 418 000 €. Ziņojumā arī norādīts, ka 31% apmeklētāju ieradās jau "emocionāli uzlaboti", kas nozīmē, ka Jūrmala nesaņēma kredītu par psiholoģisko uzlabošanos, kas sasniegta uz publiskā smilšu laukuma.
+
+Uzraudzību veiks nesen izveidotā Piekrastes akustikas vienība, kuras darbinieki ir apmācīti atšķirt apliekamo klusumu no parastās gaidīšanas. Patruļpersonālam būs rokas decibela mērītāji un laminētas tabulas ar pieņemamajiem introspekcijas līmeņiem. Cilvēki, kas lasa klusu dzeju, var būt atbrīvoti, taču tikai tad, ja dzejolis iepriekš iesniegts caur e-Pakalpojumi portālu.
+
+Ne visi iedzīvotāji iebilst pret plānu. Pensionētais zobārsts un Dzintaru iedzīvotājs Māris Eglītis sacīja, ka jau sen aizdomājies, ka citi pārāk daudz atmosfēras bauda bez maksas. "Katru rītu es redzu cilvēkus stāvam tur ar kafiju, klausoties nekurieni," viņš sacīja. "Katrā organizētā sabiedrībā tas vismaz būtu jāreģistrē. Es maksāju ceļa nodokli, īpašuma nodokli un televīzijas nodevu. Kāpēc miers drīkst palikt ēnās?"
+
+Citi bija mazāk entuziastiski. Universitātes studente Līva Ozoliņa, kura pēc eksāmeniem bieži brauc ar vilcienu no Rīgas, lai klusumā apsēstos pie ūdens, nodēvēja politiku par "agresīvi latvisku nepareizā virzienā". Uzzinot, ka maigi raudāšana šalles iekšienē var iekļauties Premium sezonas paketē, ja tai pievienota saulrieta vērošana, viņa sacīja, ka, visticamāk, pārcels savas emocionālās apstrādes uz Salaspili. "Tur ir mazāk ērtību, bet acīmredzot joprojām kāda brīvība," viņa teica.
+
+Vietējie uzņēmumi jau pielāgojas. Vairākas kafejnīcas Jomas ielā sākušas piedāvāt iepriekš validētas klusuma biļetes kopā ar zāļu tēju un vienu nelielu Napoleona šķēli. Viens veselības viesnīcas komplekss ir reklamējis "Nodokļos atskaitāmu iekšējā miera nedēļas nogali", kurā iekļauta brokastu, spa piekļuve un līdz 90 licencētām skatīšanās minūtēm.
+
+Tūrisma analītiķi saka, ka pasākums varētu vai nu bojāt Jūrmalas tēlu, vai arī to nostiprināt, padarot pilsētu vēl ekskluzīvāku. "Luksuss Ziemeļeiropā arvien vairāk nozīmē piekļuvi kontrolētai neesamībai," sacīja Baltijas brīvā laika ekonomists Toms Aumeisters. "Ja viņi pareizi iepakos klusumu, vācieši par to noteikti maksās."
+
+Trešdienas pēcpusdienā starp apmeklētājiem jau izplatījās neskaidrība, pēc tam, kad vairākiem pludmales apmeklētājiem tika izsniegtas brīdinājuma lapas par "neatļautu horizonta iesaistīšanos". Viens pāris no Jelgavas uzstāja, ka viņi nemaz nav mierīgi — vienkārši vīlušies.
+
+Pašvaldības vadība aizstāv ieviešanu un norāda uz iespējamiem turpmākiem reformu soļiem, tostarp pilotprojektu, lai augustā metriem noteiktu nostalģiskas pastaigas priežu mežos. Uz jautājumu, vai pilsēta nebaidās aplikti ar nodokli vienu no retajām brīvajām pieredzēm mūsdienu dzīvē, Grunte atbildēja, ka jautājums ir pārāk emocionāls.
+
+"Mēs neapliksim klusumu ar nodokli," viņa precizēja. "Mēs vienkārši veidojam godīgu ietvaru, kurā klusums var dot savu ieguldījumu."`,
+      ru: `ЮРМАЛА — В шаге, который городские власти охарактеризовали как «финансово инновационный и эмоционально прибрежный», Комитет развития города Юрмала во вторник утвердил первый в Латвии Налог на тишину — муниципальный сбор, направленный на регулирование того, что чиновники называют «немонетизированной умиротворённостью» вдоль пляжа.
+
+Начиная с 1 июня, любой, кто сидит, стоит или задумчиво смотрит на Рижский залив почти в полной тишине более 11 подряд минут, будет обязан приобрести Разрешение на неподвижность первого уровня, цена которого составляет €3,50 в будни и €5 в выходные. Разрешение повышается до €12 за то, что муниципалитет классифицирует как «глубокая рефлексивная тишина», которую определяют по сложенным рукам, отстранённому взгляду и отсутствию видимого пользования мобильным телефоном.
+
+Заместитель исполнительного директора по сезонному порядку Илзе Грунте заявила, что мера необходима после внутреннего аудита, показавшего, что свыше 68% премиального спокойствия Юрмалы «потреблялось в рекреационных целях» без документации. «Люди приходят сюда, сидят на скамейках, смотрят на сосны и просто продолжают быть спокойными», — сказала Грунте на брифинге у вывески «НАСЛАЖДАЙТЕСЬ ОТВЕТСТВЕННО». «Ни на одном этапе городу официально не дают признание за то, что он предоставляет эту тишину. Это нестабильное управление». 
+
+Согласно 47-страничному пояснительному меморандуму, муниципалитет оценивает, что морской бриз, низкая плотность чаек и репутационная мягкость вечернего света породили примерно 2,4 миллиона незарегистрированных моментов спокойствия прошлым летом, что представляет собой прогнозируемую бюджетную потерю в €418 000. В отчёте также отмечается, что 31% посетителей приезжали «уже эмоционально улучшенными», то есть Юрмала не получала никакого кредита за психологическое улучшение, достигнутое на общественном песке.
+
+Надзор будет осуществлять недавно созданное Прибрежное акустическое подразделение, офицеры которого обучены отличать облагаемую тишину от обычного ожидания. У патрульных будут переносные шумомеры и ламинированные таблицы с допустимыми уровнями интроспекции. Люди, читающие тихую поэзию, могут получить исключение, но только если стихотворение заранее подано через портал e‑Pakalpojumi.
+
+Не все жители против плана. Пенсионер‑стоматолог и житель Дзинтари Марис Эглитис сказал, что давно подозревал: другие слишком долго бесплатно пользуются атмосферой. «Каждое утро я вижу людей, которые просто стоят с кофе и слушают ничего», — заявил он. «В любом организованном обществе это как минимум должно фиксироваться. Я плачу дорожный налог, налог на имущество и телевизионный сбор. Почему же спокойствие должно оставаться в тени?»
+
+Другие встретили инициативу менее восторженно. Студентка Лива Озолиня, которая часто ездит из Риги, чтобы посидеть у воды в тишине после экзаменов, назвала политику «агрессивно латвийской в не том направлении». Узнав, что тихий плач в шарф можно отнести к Премиальному сезонному пакету, если он сопровождается наблюдением заката, она сказала, что, вероятно, перенесёт эмоциональную переработку в Саласпилс. «Там меньше удобств, но, видимо, всё ещё есть некоторый простор», — сказала она.
+
+Местный бизнес уже адаптируется. Несколько кафе на улице Йомас начали предлагать предварительно верифицированные ваучеры на тишину при покупке травяного чая и маленького «наполеона». Один велнес‑отель рекламирует «выходные с вычетом налога на внутренний покой», включающие завтрак, доступ в спа и до 90 лицензированных минут пристального созерцания.
+
+Аналитики туризма говорят, что мера может либо повредить имиджу Юрмалы, либо укрепить его, сделав город ещё более эксклюзивным. «Роскошь в Северной Европе всё чаще связана с доступом к контролируемому отсутствию», — сказал балтийский экономист в сфере досуга Томс Аумейстерс. «Если они правильно упакуют неподвижность, немцы обязательно за неё заплатят». 
+
+К среде днём конфуз уже распространился среди посетителей: несколько отдыхающих получили предупреждения за «незарегистрированное взаимодействие с горизонтом». Одна пара из Елгавы настаивала, что они вовсе не были спокойны, а просто разочарованы.
+
+Городские лидеры защищают запуск и намекают на дальнейшие реформы, включая возможный пилот по учёту ностальгических прогулок по сосновым лесам в августе. На вопрос, не боится ли город облагать налогом один из немногих оставшихся бесплатных опытов в современной жизни, Грунте ответила, что вопрос слишком эмоционален.
+
+«Мы не облагаем тишину налогом», — прояснила она. «Мы просто создаём справедливую рамку, в которой тишина может вносить вклад».`
+    },
+    date: "May 28, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/167/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 166,
     slug: "riga-introduces-mandatory-thoughtful-pause-at",
     title: {
@@ -114,7 +207,7 @@ Pašlaik inspektori pirmreizēja pārkāpēja gadījumā izteiks tikai brīdinā
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/166/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 165,
