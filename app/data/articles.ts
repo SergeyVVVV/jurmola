@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 168,
+    slug: "riga-introduces-official-municipal-sigh-to-168",
+    title: {
+      en: "Riga Introduces Official Municipal Sigh To Streamline Public Complaints",
+      lv: "Rīga ievieš oficiālu pašvaldības nopūtu, lai sakārtotu publiskās sūdzības",
+      ru: "Рига вводит официально муниципальный вздох, чтобы упростить жалобы граждан"
+    },
+    excerpt: {
+      en: "In a move city officials say will modernize communication between residents and government, Riga has approved a standardized sigh for use at tram stops, apartment meetings, and passive-aggressive kitchen conversations. Authorities insist the measure will reduce confusion and help preserve Latvia’s cultural heritage in a more efficient format.",
+      lv: "Kā solot modernizēt saziņu starp iedzīvotājiem un varu, Rīga ir apstiprinājusi standartizētu nopūtu lietošanai tramvaja pieturās, dzīvokļu sapulcēs un pasīvi-agresīvās virtuves sarunās. Pārstāvji uzsver, ka tas samazināšot neskaidrības un efektīvāk saglabāšot Latvijas kultūras mantojumu.",
+      ru: "В шаге, который городские власти называют модернизацией коммуникации между жителями и правительством, Рига утвердила стандартизированный вздох для использования на трамвайных остановках, собраниях домовладельцев и пассивно‑агрессивных кухонных разговорах. Чиновники настаивают, что мера сократит путаницу и поможет сохранить культурное наследие Латвии в более эффективном формате."
+    },
+    fullContent: {
+      en: `RIGA — After a six-month pilot program in Purvciems and two emotionally complicated hearings at City Hall, Riga Municipality on Tuesday unveiled the country’s first officially recognized public sigh, a calibrated exhalation intended to replace what authorities describe as "inefficient, overlapping, and stylistically inconsistent expressions of civic disappointment."
+
+The new sound, formally registered as Municipal Sigh No. 4B, was developed by a joint task force from the Riga Department of Civic Harmony, the Latvian Language Agency, and a retired choir conductor from Cesis who was said to possess "excellent diaphragm ethics." According to internal documents, the sigh is designed for everyday use in response to tram delays, rising heating bills, construction that has no obvious purpose, and neighbors beginning renovation work at exactly 07:58 on a Saturday.
+
+"For too long, residents have been forced to improvise," said Baiba Feldmane, deputy director of public emotional infrastructure, standing before a projected waveform of the approved sigh. "One person does a short nose-exhale, another adds a click of the tongue, and suddenly an entire apartment association meeting collapses into ambiguity. We are creating standards. Europe expects this from us."
+
+The approved sigh lasts 2.4 seconds and begins with a restrained inhale, followed by a descending release somewhere between resignation and administrative fatigue. It may optionally conclude with a near-whispered "nu ja," though this feature remains in beta testing after younger residents used it ironically in 63% of trial cases.
+
+City officials say the reform could save as many as 11,000 collective hours per year by reducing the need for follow-up phrases such as "well, what can you do," "this is Latvia," and "of course." Signage demonstrating proper sigh posture will be installed at tram shelters, post offices, and selected Maxima stores by mid-November. A mobile app, SighRiga, will allow users to compare their personal disappointment profile against municipal benchmarks.
+
+Not all residents are convinced. Outside the Central Station underpass, 58-year-old accountant Andris Krumins said he supported the idea in principle but worried that the city had chosen a sigh too optimistic for current conditions.
+
+"It has too much lift in the middle," Krumins said, after performing what he called a more authentic Soviet-block variant. "This one suggests maybe something will improve. That is not the message I have been sending since 1997."
+
+Others praised the move as long overdue. Jurmala school administrator Ilze Vevere said the standardized sigh would be particularly useful during parent meetings and regional train cancellations. "At the moment, everyone is using their own emotional dialect," she said. "One mother gives a theatrical beach-town sigh, another has that very dry Zemgale style. We need interoperability."
+
+The policy has also sparked academic interest. Researchers at the University of Latvia’s newly established Institute of Applied Melancholy found that Latvians under 30 increasingly replace traditional sighing with short laughter followed by staring into the distance, a hybrid form experts warn could erode national coherence by 2035.
+
+Opposition lawmakers have criticized the initiative’s 2.8 million euro budget, especially after it emerged that 740,000 euros had been allocated to a consulting contract titled "Breath of the Nation." City leaders defended the expense, noting that much of the funding would support public workshops, an educational puppet series for children, and a ceremonial sigh archive to be housed in a renovated warehouse on Andrejsala.
+
+By Tuesday evening, confusion remained over enforcement. While officials denied rumors of random sigh inspections, a municipal spokesman confirmed that "grossly noncompliant exhalations" in formal settings may be referred for guidance.
+
+At a bus stop on Brivibas Street, several residents tested the new standard in silence as an electronic display announced their bus would arrive in 19 minutes, then 21, then briefly disappear altogether. After a moment, the group produced a nearly flawless 4B in unison.
+
+Witnesses described it as the most coordinated thing the city has achieved all year.`,
+      lv: `RĪGA — Pēc sešu mēnešu pilotprogrammas Purvciemā un divām emocionāli komplicētām uzklausīšanām Rātsnamā Rīgas pašvaldība otrdien atklāja valsts pirmo oficiāli atzīto publisko nopūtu — kalibrētu izelpu, kas paredzēta, lai aizstātu to, ko amatpersonas raksturo kā “neefektīvas, pārklājošas un stilistiski nekonsekventas pilsoniskās vilšanās izpausmes”.
+
+Jaunā skaņa, formāli reģistrēta kā Pašvaldības nopūta Nr. 4B, izstrādāta kopīgā darba grupā no Rīgas Sabiedriskās harmonijas departamenta, Latvijas Valodas aģentūras un pensionēta kora diriģenta no Cēsīm, kuram teikts, ka piemīt „izcila diafragmas ētika.” Iekšējos dokumentos norādīts, ka nopūta domāta ikdienas lietošanai tramvaja kavējumu, pieaugošu apkures rēķinu, būvniecības bez acīmredzama mērķa un kaimiņu, kas sāk remontu precīzi 07:58 sestdienā, gadījumos.
+
+„Pārāk ilgi iedzīvotājiem nācies improvizēt,” sacīja Baiba Feldmane, sabiedriskās emocionālās infrastruktūras vietniece, stāvot pie projektētas apstiprinātās nopūtas viļņformas. „Viena persona izdara īsu elpas izgrūdienu caur degunu, cita pieliek mēles klikšķi, un pēkšņi visa dzīvokļu biedrības sapulce sabrūk neviendabībā. Mēs izveidojam standartus. Eiropa to no mums gaida.”
+
+Apstiprinātā nopūta ilgst 2,4 sekundes un sākas ar ierobežotu ieelpu, kam seko krītoša izelpa kaut kur starp bezcerību un administratīvo nogurumu. Tā pēc izvēles var noslēgties ar gandrīz čukstētu „nu jā”, lai gan šī funkcija joprojām ir beta testēšanā, jo jaunāki iedzīvotāji to ironiski izmantoja 63% izmēģinājumu gadījumu.
+
+Pilsētas pārstāvji apgalvo, ka reforma varētu ietaupīt līdz pat 11 000 kolektīvo stundu gadā, samazinot sekojošo frāžu nepieciešamību, piemēram, „nu ko tad lai dara”, „tas taču ir Latvijā” un „protams.” Norādes, kas demonstrēs pareizu nopūtas pozu, tiks uzstādītas tramvaju pieturās, pasta nodaļās un izvēlētajos Maxima veikalos līdz novembra vidum. Mobila lietotne SighRiga ļaus lietotājiem salīdzināt savu personīgo vilšanās profilu ar pašvaldības rādītājiem.
+
+Ne visi iedzīvotāji ir pārliecināti. Pie Centrālās stacijas pārejas 58 gadus vecais grāmatvedis Andris Krumiņš sacīja, ka principā atbalsta ideju, taču bažījās, ka pilsēta izvēlējusies par optimistisku nopūtu esošajiem apstākļiem.
+
+„Tai ir pārāk daudz pacēluma vidū,” sacīja Krumiņš, pēc tam izpildot to, ko viņš sauca par autentiskāku padomju bloka varianti. „Šī liek domāt, ka varbūt kaut kas uzlabosies. Tā nav vēstījums, ko es sūtu kopš 1997. gada.”
+
+Citi slavēja soli kā sen nepieciešamu. Jūrmalas skolas administratore Ilze Vevere sacīja, ka standartizētā nopūta būšot īpaši noderīga vecāku sapulcēs un reģionālo vilcienu atcelšanas brīžos. „Pašlaik katrs lieto savu emocionālo dialektu,” viņa teica. „Viena māte dod teatrālu kūrortpilsētas nopūtu, cita — ļoti sausu Zemgales stilu. Mums nepieciešama savietojamība.”
+
+Politika ir izsaukusi arī akadēmisku interesi. Latvijas Universitātes nesen izveidotais Pielietotās melanholijas institūts secināja, ka jaunie latvieši līdz 30 gadu vecumam arvien biežāk tradicionālo nopūtu aizstāj ar īsu smieklu, kam seko skatīšanās tālumā — hibrīda forma, par kuru eksperti brīdina, ka tā varētu erodēt nacionālo kohēziju līdz 2035. gadam.
+
+Oppozīcijas politiķi kritizējuši iniciatīvas 2,8 miljonu eiro budžetu, īpaši pēc tam, kad izrādījās, ka 740 000 eiro atvēlēti konsultāciju līgumam ar nosaukumu „Tautas elpa.” Pilsētas vadītāji aizstāvēja izdevumus, norādot, ka lielu daļu līdzekļu ieguldīs sabiedriskajos darbnīcu pasākumos, izglītojošā leļļu seriālā bērniem un ceremoniju nopūtu arhīvā, kurš tiks izvietots atjaunotā noliktavā Andrejostā/Andrejsalā.
+
+Otrdienas vakarā vēl valdīja neskaidrība par uzraudzību. Kamēr amatpersonas noliedza baumas par nejaušām nopūtu pārbaudēm, pašvaldības pārstāvis apstiprināja, ka „acīmredzami neatbilstošas izelpas” formālās situācijās var tikt nosūtītas uz konsultācijām.
+
+Pieturā Brīvības ielā vairāki iedzīvotāji klusi izmēģināja jauno normu, kamēr elektroniskais displejs paziņoja, ka autobuss pienāks pēc 19 minūtēm, pēc tam pēc 21 minūtes, un tad īslaicīgi pazuda pavisam. Pēc brīža grupa vienbalsīgi izpildīja gandrīz nevainojamu 4B.
+
+Acu liecinieki to nosauca par viskoordinētāko lietu, ko pilsēta šogad paveikusi.`,
+      ru: `РИГА — После шестимесячного пилота в Пурвциемсе и двух эмоционально сложных слушаний в мэрии муниципалитет Риги во вторник представил первый в стране официально признанный общественный вздох, калиброванный выдох, призванный заменить то, что власти описывают как «неэффективные, перекрывающиеся и стилистически несогласованные выражения гражданского разочарования». 
+
+Новый звук, формально зарегистрированный как Муниципальный Вздох № 4B, был разработан совместной рабочей группой Департамента общественной гармонии Риги, Латвийского агентства языка и отставного хормейстера из Цесиса, у которого, как говорили, «превосходная диафрагмальная этика». Согласно внутренним документам, вздох предназначен для повседневного использования в ответ на задержки трамваев, рост счета за отопление, строительство без очевидной цели и соседей, начинающих ремонт ровно в 07:58 в субботу. 
+
+«Слишком долго жители были вынуждены импровизировать, — заявила Байба Фельдмане, заместитель директора по общественной эмоциональной инфраструктуре, стоя перед проецированной волной утверждённого вздоха. — Один человек делает короткий носовой выдох, другой добавляет щёлк языком, и внезапно всё собрание товарищества собственников переходит в состояние двусмысленности. Мы создаём стандарты. Европа этого от нас ожидает». 
+
+Утверждённый вздох длится 2,4 секунды и начинается с сдержанного вдоха, за которым следует нисходящий выпуск между покорностью и административной усталостью. По желанию он может завершаться почти шёпотом «ну да», хотя эта функция всё ещё в бета‑тестировании после того, как молодые жители использовали её иронично в 63% пробных случаев. 
+
+Городские чиновники заявляют, что реформа может сэкономить до 11 000 коллективных часов в год, сократив потребность в последующих фразах вроде «ну что поделать», «это Латвия» и «разумеется». Информационные таблички с демонстрацией правильной позы для вздоха будут установлены на трамвайных павильонах, в почтовых отделениях и выбранных магазинах Maxima к середине ноября. Мобильное приложение SighRiga позволит пользователям сравнивать свой личный профиль разочарования с муниципальными эталонами. 
+
+Не все жители убеждены. Возле перехода под Центральным вокзалом 58‑летний бухгалтер Андрис Круминьш сказал, что в принципе поддерживает идею, но переживает, что город выбрал слишком оптимистичный вздох для текущих условий. 
+
+«В нём слишком много подъёма в середине, — сказал Круминьш, исполнив то, что он назвал более аутентичным вариантом советского блока. — Этот как будто намекает, что может что‑то улучшиться. Это не то послание, которое я посылаю с 1997 года». 
+
+Другие приветствовали шаг как давно назревший. Администратор школы в Юрмале Илзе Вевере сказала, что стандартизованный вздох будет особенно полезен на родительских собраниях и при отменах региональных поездов. «Сейчас у всех свой эмоциональный диалект, — сказала она. — Одна мать даёт театральный курортный вздох, другая — тот самый сухой земгальский стиль. Нам нужна интероперабельность». 
+
+Политика также вызвала интерес академиков. Исследователи недавно созданного Института прикладной меланхолии Латвийского университета обнаружили, что латвийцы младше 30 всё чаще заменяют традиционное вздыхание коротким смехом с последующим взглядом в пустоту, гибридной формой, которую эксперты предупреждают может подорвать национальную согласованность к 2035 году. 
+
+Оппозиционные законодатели раскритиковали бюджет инициативы в 2,8 миллиона евро, особенно после того, как выяснилось, что 740 000 евро было выделено на консультационный контракт под названием «Дыхание нации». Городские руководители оправдывали расходы, отмечая, что большая часть средств пойдёт на общественные мастер‑классы, образовательный кукольный сериал для детей и церемониальный архив вздохов, который будет размещён в отреставрированном складе на Андреялсале. 
+
+К вечеру вторника оставалась путаница относительно контроля за соблюдением. В то время как чиновники опровергали слухи о случайных инспекциях вздохов, муниципальный представитель подтвердил, что «грубо несоответствующие выдохи» в официальных ситуациях могут направляться на переобучение. 
+
+На автобусной остановке на улице Бривибас несколько жителей молча протестировали новый стандарт, пока электронное табло объявляло, что их автобус прибудет через 19 минут, затем 21, затем на мгновение исчезало вовсе. Через мгновение группа синхронно издала практически безупречный 4B. 
+
+Очевидцы описали это как самое скоординированное действие, которого город добился за весь год.`
+    },
+    date: "May 29, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/168/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 167,
     slug: "jrmala-introduces-silence-tax-after-residents",
     title: {
@@ -108,7 +207,7 @@ Pašvaldības vadība aizstāv ieviešanu un norāda uz iespējamiem turpmākiem
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/167/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 166,
