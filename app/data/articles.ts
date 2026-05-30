@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 169,
+    slug: "jrmala-introduces-silent-applause-tax-after",
+    title: {
+      en: "Jūrmala Introduces ‘Silent Applause Tax’ After Residents Complain Clapping Is Becoming Too Seasonal",
+      lv: "Jūrmala ievieš 'klusās aplausu nodevu' pēc iedzīvotāju sūdzībām, ka plaukšķināšana kļūst pārāk sezonāla",
+      ru: "Юрмала вводит «налог на молчаливые аплодисменты» после жалоб жителей, что хлопки становятся слишком сезонными"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have approved a new municipal fee on enthusiastic public applause, arguing that unregulated clapping creates unnecessary echoes, social pressure, and a \"festival-like atmosphere\" outside approved months. The measure, already praised by several cultural boards, will apply to concerts, school ceremonies, and any spontaneous ovation exceeding 11 seconds.",
+      lv: "Jūrmalas amatpersonas apstiprinājušas jaunu pašvaldības maksu par entuziasma pilniem publiskiem aplausiem, norādot, ka neregulēta plaukšķināšana rada liekas atbalsis, sociālo spiedienu un «svētku atmosfēru» ārpus apstiprinātajiem mēnešiem. Pasākums, ko jau slavē vairāki kultūras padomes, tiks piemērots koncertiem, skolu ceremonijām un jebkurai spontānai ovācijai, kas pārsniedz 11 sekundes.",
+      ru: "Власти Юрмалы одобрили новый муниципальный сбор на чрезмерно восторженные публичные аплодисменты, аргументируя это тем, что неограниченное хлопание создаёт лишние эхо, социальное давление и «праздничную атмосферу» вне разрешённых месяцев. Мера, уже получившая похвалу нескольких культурных советов, будет применяться к концертам, школьным церемониям и любой спонтанной овации, длящейся более 11 секунд."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders described as "calm, balanced, and acoustically responsible," the Jūrmala City Council voted Tuesday to introduce Latvia’s first Silent Applause Tax, a municipal charge aimed at discouraging what officials called "impulsive and acoustically aggressive appreciation."
+
+Beginning 1 September, residents and visitors will be permitted up to three modest claps per cultural event free of charge. Any applause lasting longer than 11 seconds, involving above-shoulder arm movement, or spreading into rhythmic participation will trigger a variable fee ranging from €1.40 to €18.50, depending on venue size, humidity, and whether the applause appears sincere.
+
+Deputy Chair for Civic Stillness Elīna Veldre said the policy was a necessary response to years of mounting public frustration. "Jūrmala is a city of wellness, sea air, and carefully managed emotional expression," Veldre told reporters beside a diagram labeled APPLAUSE DISPERSION ZONES 2026. "For too long, residents have been exposed to sudden praise without warning. In several cases, people had just sat down with kefir."
+
+The new tax follows a 74-page municipal study, conducted over two winters and one emotionally difficult choir season, which found that applause in Jūrmala peaks dangerously in late spring before falling to "socially manageable" levels by November. Researchers concluded that unlicensed clapping near Dzintari Concert Hall could travel as far as 430 meters under favorable coastal conditions, startling cyclists and causing at least 19 dachshunds to abandon their normal walking tempo.
+
+Under the regulations, venues must install Applause Assessment Personnel, informally known as clap inspectors, who will monitor audience enthusiasm using decibel tablets and a new five-level response scale ranging from "polite acknowledgment" to "theater-adjacent loss of control." Pensioners attending organ recitals may apply for a reduced tariff, while foreign tourists will be offered a prepaid Wristband of Appreciation valid for one standing ovation and two murmurs of cultural respect.
+
+Not everyone is opposed. Local resident and retired dentist Māris Znotiņš said the city was finally addressing a problem decent people had whispered about for years. "Last July I attended a jazz evening, and the applause after the saxophone solo went on so long I forgot whether I had enjoyed it," Znotiņš said. "By the end, I was clapping only because others were clapping. That is not freedom."
+
+Cultural workers, however, remain divided. Pianist Renāte Skuja warned the tax could alter the fragile economics of regional performance. "In Latvia, applause is already a limited natural resource," she said. "If audiences must calculate each clap, we may be forced to return to nodding, which historically has favored accordionists."
+
+Business groups in central Jūrmala have welcomed the change. A coalition of spa hotels and premium blanket retailers argued that quieter evenings would reinforce the city’s luxury brand. "People come here for restorative silence," said hotel manager Gints Aumeisters. "If they want uncontrolled gratitude, there is always Riga."
+
+To assist the transition, the municipality will launch a public education campaign titled Feel Deeply, React Minimally, featuring informational posters at railway stations and beaches. One sample poster advises residents to "consider inner applause" and to "let admiration remain a private municipal matter."
+
+Officials say enforcement will begin gently, with first-time offenders receiving a warning and a brochure on low-impact appreciation. Repeat violators may be required to attend a four-hour workshop on non-verbal approval or perform 16 hours of community service at silent reading festivals.
+
+Asked whether the policy might be challenged in court, Veldre remained confident. "We are not banning joy," she said. "We are simply asking it to arrive in an orderly way, preferably with prior notice."`,
+      lv: `JŪRMALA — Pilsētas vadītāji šo soli raksturojuši kā «mierīgu, līdzsvarotu un akustiski atbildīgu» — otrdien Jūrmalas domes deputāti nolēma ieviest Latvijas pirmo Klusās aplausu nodevu, pašvaldības maksu, kuras mērķis ir atturēt to, ko amatpersonas dēvēja par «impulsīvu un akustiski agresīvu novērtējumu».
+
+No 1. septembra iedzīvotājiem un viesiem katrā kultūras pasākumā bez maksas tiks atļauti līdz trīs pieticīgiem plaukšķiem. Jebkuri aplausi, kas ilgst vairāk nekā 11 sekundes, ietver roku kustību virs plecu līmeņa vai pāraug ritmiskā līdzdalībā, izraisīs mainīgu maksu no 1,40 EUR līdz 18,50 EUR, atkarībā no norises vietas lieluma, mitruma līmeņa un tā, vai aplausi šķiet sirsnīgi.
+
+Civiskās klusēšanas vietniece Elīna Veldre sacīja, ka politika bija nepieciešama atbilde gadiem pieaugošai sabiedrības frustrācijai. «Jūrmala ir labsajūtas pilsēta, jūras gaiss un rūpīgi vadīta emocionālā izpausme,» Veldre teica žurnālistiem blakus zīmējumam ar uzrakstu APLAUSU IZKLAIDES ZONAS 2026. «Pārāk ilgi iedzīvotāji bija pakļauti pēkšņai uzslavai bez brīdinājuma. Vairākkārt cilvēki tikko apsēdušies ar kefīru.»
+
+Jaunā nodeva seko 74 lappušu pašvaldības pētījumam, kas veikts divu ziemu un vienas emocionāli smagas koru sezonas garumā, un kurā secināts, ka aplausi Jūrmalā bīstami pieaug vēlā pavasarī, pirms līdz novembrim nokrītas līdz «sociāli pārvaldāmam» līmenim. Pētnieki atklāja, ka neatļauta plaukšķināšana pie Dzintaru koncertzāles labvēlīgos piekrastes apstākļos var sasniegt līdz pat 430 metru attālumu, izbrīnot velosipēdistus un liekot vismaz 19 takšiem pamest savu ierasto staigāšanas tempu.
+
+Saskaņā ar noteikumiem norises vietām būs jāievieš Aplausu novērtēšanas personāls, neformāli saukts par plaukšķu inspektoriem, kuri auditorijas entuziasmu uzraudzīs, izmantojot decibelu planšetes un jaunu piecu līmeņu reakcijas skalu no «pieklājīgas atzīšanas» līdz «teātrim līdzīgai kontroles zaudēšanai». Pensionāriem, kas apmeklē ērģeļu koncertus, varēs pieteikties samazinātai likmei, bet ārvalstu tūristiem tiks piedāvāta iepriekš apmaksāta Pateicības aproce, derīga vienai stāvošai ovācijai un diviem kultūras cieņas murminājumiem.
+
+Ne visi ir pret. Vietējais iedzīvotājs un pensionētais zobārsts Māris Znotiņš sacīja, ka pilsēta beidzot risina problēmu, par kuru cienījami cilvēki gadiem klusībā runājuši. «Pagājušā jūlijā biju uz džeza vakaru, un aplausi pēc saksofona sola ilga tik ilgi, ka aizmirsu, vai man vispār tas patika,» Znotiņš teica. «Līdz beigām es plaukšķināju tikai tāpēc, ka citi plaukšķināja. Tā nav brīvība.»
+
+Tomēr kultūras darbinieku vidū viedokļi dalās. Pianiste Renāte Skuja brīdināja, ka nodeva var mainīt reģionālā izpildījuma trauslo ekonomiku. «Latvijā aplausi jau tagad ir ierobežots dabas resurss,» viņa sacīja. «Ja auditorijai būs jārēķina katrs plaukšķis, var nākties atgriezties pie galvas mājiena, kas vēsturiskā skatījumā labvēlīgāk atstājies akordeonistiem.»
+
+Uzņēmēju grupas centrālajā Jūrmalā jauninājumu uzņēmušas ar atbalstu. SPA viesnīcu un premium segu tirgotāju koalīcija apgalvoja, ka klusākas vakari nostiprinās pilsētas luksusa zīmolu. «Cilvēki nāk šeit pēc atjaunojoša klusuma,» sacīja viesnīcas vadītājs Gints Aumeisters. «Ja vēlas nekontrolētu pateicību, vienmēr var doties uz Rīgu.»
+
+Lai atvieglotu pāreju, pašvaldība uzsāks sabiedrības informēšanas kampaņu ar nosaukumu «Jūti dziļi, reaģē minimāli», izvietojot informatīvus plakātus stacijās un pludmalēs. Viens no etiķetes paraugiem iedzīvotājiem iesaka «izskatīt iekšējo aplausu» un «ļaut apbrīnai palikt par privātu pašvaldības lietu».
+
+Amatpersonas saka, ka uzraudzība sāksies maigi: pirmreizējie pārkāpēji saņems brīdinājumu un bukletu par zema ietekmes novērtējumu. Atkārtoti pārkāpēji var tikt aicināti apmeklēt četru stundu darbnīcu par neverbālu apstiprinājumu vai veikt 16 stundas sabiedrisko darbu klusuma lasīšanas svētkos.
+
+Kad tika vaicāts, vai politiku varētu apstrīdēt tiesā, Veldre palika pārliecināta. «Mēs neaizliedzam prieku,» viņa sacīja. «Mēs vienkārši lūdzam tam ierasties kārtībā, vēlams ar iepriekšēju paziņojumu.»`,
+      ru: `ЮРМАЛА — В шаге, который городские руководители описали как «спокойный, взвешенный и акустически ответственный», Городской совет Юрмалы во вторник проголосовал за введение в Латвии первого «налога на молчаливые аплодисменты» — муниципального сбора, направленного на то, чтобы отпугнуть то, что чиновники назвали «импульсивным и акустически агрессивным выражением признательности». 
+
+С 1 сентября жителям и гостям будет позволено до трёх скромных хлопков на культурном мероприятии бесплатно. Любые аплодисменты, длящиеся дольше 11 секунд, сопровождаемые движением руки выше плеча или перерастающие в ритмичное участие, вызовут переменный сбор в диапазоне от €1.40 до €18.50 в зависимости от размера площадки, влажности и того, насколько аплодисменты кажутся искренними. 
+
+Заместитель председателя по гражданскому спокойствию Elīna Veldre заявила, что политика стала необходимым ответом на годы нарастающего общественного раздражения. «Юрмала — город оздоровления, морского воздуха и аккуратно регулируемого эмоционального выражения», — сказала Велдре репортёрам рядом со схемой с подписью «ЗОНЫ РАСПРОСТРАНЕНИЯ АПЛОДИСМЕНТОВ — 2026». «Слишком долго жители подвергались внезапной похвале без предупреждения. В нескольких случаях люди только что уселись с кефиром». 
+
+Новый налог стал следствием 74-страничного муниципального исследования, проведённого за две зимы и один эмоционально тяжёлый сезон хоровых выступлений, которое показало, что аплодисменты в Юрмале опасно достигают пика в конце весны, а к ноябрю спадают до «социально управляемого» уровня. Исследователи пришли к выводу, что несанкционированные хлопки рядом с концертным залом Дзинтари при благоприятных прибрежных условиях могут распространяться на расстояние до 430 метров, пугая велосипедистов и заставляя по крайней мере 19 такс отказываться от обычного темпа прогулки. 
+
+Согласно правилам, в заведениях должны быть установлены отделы оценки аплодисментов, в просторечии известные как инспекторы хлопков, которые будут контролировать энтузиазм публики с помощью децибел‑планшетов и новой пятибалльной шкалы реакции от «вежливого признания» до «театрально близкой потери контроля». Пенсионеры, посещающие органные рециталы, смогут претендовать на льготный тариф, а иностранным туристам предложат предоплаченную «браслет‑признательность», действующую на одну стоячую овацию и два культурных шепота уважения. 
+
+Не все против нововведения. Местный житель и пенсионер‑стоматолог Māris Znotiņš сказал, что город наконец занялся проблемой, о которой порядочные люди шепотом говорили годами. «В июле прошлого года я посетил джазовый вечер, и аплодисменты после соло на саксофоне длились так долго, что я забыл — понравилось ли мне вообще», — поделился Знотиньш. «К концу я хлопал только потому, что другие хлопали. Это не свобода». 
+
+Культурные деятели, однако, остаются разделёнными. Пианистка Renāte Skuja предупредила, что налог может изменить хрупкую экономику региональных выступлений. «В Латвии аплодисменты уже являются ограничённым природным ресурсом», — сказала она. «Если аудитории придётся считать каждый хлопок, нам, возможно, придётся вернуться к кивкам, что исторически благоприятствовало аккордеонистам». 
+
+Деловые круги в центральной Юрмале приветствовали изменение. Коалиция спа‑отелей и продавцов премиальных одеял заявила, что более тихие вечера укрепят статус города как места роскоши. «Люди приезжают сюда за восстановительным молчанием», — сказал управляющий отелем Gints Aumeisters. «Если кто‑то хочет неконтролируемой благодарности, всегда есть Рига». 
+
+Чтобы облегчить переход, муниципалитет запустит просветительскую кампанию под названием «Чувствуйте глубоко, реагируйте минимально», с информационными плакатами на вокзалах и пляжах. Один из образцов плаката советует «обратиться к внутренним аплодисментам» и «позволить восхищению оставаться частным муниципальным делом». 
+
+Чиновники говорят, что правоприменение начнётся мягко: нарушителям впервые будет вынесено предупреждение и выдана брошюра о низкоинтенсивном выражении признательности. Повторные нарушители могут быть обязаны посетить четырёхчасовой семинар по невербальному одобрению или отработать 16 часов общественных работ на фестивалях тихого чтения. 
+
+На вопрос, не будет ли политика обжалована в суде, Велдре оставалась уверенной. «Мы не запрещаем радость», — сказала она. «Мы просто просим её приходить упорядоченно, желательно с предварительным уведомлением».`
+    },
+    date: "May 30, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/169/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 168,
     slug: "riga-introduces-official-municipal-sigh-to-168",
     title: {
@@ -114,7 +201,7 @@ Acu liecinieki to nosauca par viskoordinētāko lietu, ko pilsēta šogad paveik
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/168/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 167,
