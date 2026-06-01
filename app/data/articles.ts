@@ -18,6 +18,117 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 171,
+    slug: "riga-introduces-strategic-puddle-preservation-zones",
+    title: {
+      en: "Riga Introduces ‘Strategic Puddle Preservation Zones’ After Residents Report Feeling Emotionally Safer Near Them",
+      lv: "Rīga ievieš 'Stratēģiskās peļķu saglabāšanas zonas' pēc tam, kad iedzīvotāji ziņo, ka pie tām jūtas emocionāli drošāk",
+      ru: "Рига вводит «стратегические зоны сохранения луж» после того, как жители стали чувствовать себя рядом с ними эмоционально безопаснее"
+    },
+    excerpt: {
+      en: "Municipal officials in Riga have announced a new urban resilience initiative that will protect several large puddles from drainage, citing their role in civic identity, traffic moderation, and seasonal reflection-based morale. The move follows a city survey in which 62% of respondents said a familiar puddle on their route to work made them feel “strangely accompanied.”",
+      lv: "Rīgas pašvaldības amatpersonas paziņojušas par jaunu pilsētas noturības iniciatīvu, kas aizsargās vairākas lielas peļķes no aizsūknēšanas, norādot uz to lomu pilsoniskajā identitātē, satiksmes nomierināšanā un sezonālajā atspoguļošanās iedvesmā. Šis solis seko pilsētas aptaujai, kurā 62% respondentu teica, ka pazīstama peļķe viņu darba maršrutā liek justies \"dīvaini līdzgaitnieciski.\"",
+      ru: "Городские власти Риги объявили новую инициативу по устойчивости, которая защитит несколько больших луж от осушения, ссылаясь на их роль в городском самосознании, сдерживании трафика и сезонном повышении настроения через отражения. Решение последовало за городским опросом, в котором 62% респондентов сказали, что знакомая лужа на пути на работу заставляет их чувствовать себя «странно сопровождаемыми»."
+    },
+    fullContent: {
+      en: `RIGA — In a policy shift city planners are calling “both climate-adaptive and spiritually honest,” Riga’s municipal government on Tuesday unveiled its new Strategic Puddle Preservation Program, formally designating 14 recurring street puddles as protected urban features.
+
+Under the plan, several long-standing water accumulations in Čiekurkalns, Teika, Purvciems and one “historically persistent” depression near Barona iela will no longer be categorized as drainage failures. Instead, they will be listed in official planning documents as low-altitude seasonal reservoirs with heritage value.
+
+Deputy Chair of Urban Surface Affairs Ilze Žagare said the city was merely recognizing what residents had understood for years.
+
+“These puddles are not random,” Žagare told reporters while standing beside a particularly wide specimen near a trolleybus stop in Sarkandaugava. “They return every autumn with remarkable consistency. Some have outlasted cafés, coalitions, and three different paving strategies. At a certain point, continuity becomes culture.”
+
+According to a 48-page municipal impact assessment, the puddles provide measurable public benefits. These include reduced speeding, because drivers instinctively slow down before entering “the unknown brown mirror”; improved pedestrian reflexes; and “temporary skyline enhancement,” as church towers and Soviet-era apartment blocks appear doubled in the water during overcast mornings.
+
+The report also found that 62% of surveyed residents felt emotionally safer near a familiar puddle, while 14% said they had used one as an informal landmark when giving directions, saying things such as, “turn left after the huge one that looks deeper than your future.” A further 9% reported seeing at least one important life decision reflected in a puddle, though the city clarified this category was “methodologically difficult.”
+
+Not all residents are convinced. Office administrator and daily commuter Mārtiņš Cīrulis said his relationship with the puddle outside his building on Dzelzavas iela was “complex.”
+
+“In 2019 it ruined my shoes, in 2021 it absorbed half a bicycle, and this February I’m almost certain it altered the route of a small dog,” Cīrulis said. “But if they drained it now, yes, I admit I would feel something had been taken from me.”
+
+To support the rollout, the city will install discreet brass plaques beside selected puddles, listing their average diameter, first documented appearance, and recommended viewing hours. One site in Āgenskalns, known locally as The Inland Sea, will receive a small wooden platform so tourists can observe tram reflections without standing directly in slush.
+
+The initiative has already attracted interest from the Investment and Development Agency of Latvia, which believes puddle tourism could help diversify winter travel. Agency representative Sandra Feldmane said foreign visitors increasingly seek “authentic Northern experiences that cannot be simulated in a wellness complex.”
+
+“In Scandinavia, everything is curated. In Riga, the water meets you unexpectedly and asks moral questions,” Feldmane said. “That is our competitive advantage.”
+
+Opposition lawmakers have criticized the program’s €312,000 budget, particularly a pilot sensor project that will monitor puddle depth, salinity, and “reflective dignity.” But city engineers insist the technology is necessary to determine which puddles may qualify for UNESCO’s tentative list of intangible navigational obstacles.
+
+At a press conference, Mayor Vilnis Bērziņš rejected accusations that the city was simply rebranding neglected infrastructure.
+
+“If a thing inconveniences the public for more than ten consecutive years, it is no longer neglect,” the mayor said. “It is an institution.”
+
+By evening, residents had already begun laying flowers near a newly protected puddle outside a supermarket in Ziepniekkalns after rumors spread that it might be filled with gravel by a subcontractor unfamiliar with the city’s values. Municipal police later confirmed the puddle was safe, stable, and expected to expand slightly by Thursday.`,
+      lv: `RĪGA — Politikas pavērsmē, ko pilsētplānotāji sauc par "gan klimatam adaptējošu, gan garīgi godīgu", Rīgas pašvaldība otrdien prezentēja savu jauno Stratēģisko peļķu saglabāšanas programmu, formāli iezīmējot 14 ikgadēji veidojošās ielas peļķes kā aizsargājamas pilsētvides iezīmes.
+
+Saskaņā ar plānu vairākas ilgi pastāvošas ūdens uzkrāšanās Čiekurkalnā, Teikā, Purvciemā un vienā "vēsturiski noturīgā" ieplakā pie Barona ielas vairs netiks klasificētas kā kanalizācijas vai novadcelšanas kļūmes. Tā vietā tās oficiālajos plānošanas dokumentos tiks iekļautas kā zemas augstienes sezonālie rezervuāri ar mantojuma vērtību.
+
+Pilsētas virsmas jautājumu priekšsēdētājas vietniece Ilze Žagare žurnālistiem stāstīja, ka pilsēta vienkārši atzīst to, ko iedzīvotāji sapratuši jau gadiem.
+
+"Šīs peļķes nav nejaušas," Žagare sacīja, stāvot blakus īpaši plašai paraugpeļķei pie trolejbusa pieturas Sarkandaugavā. "Tās atgriežas katru rudeni ar ievērojamu konsekvenci. Dažas ir pārdzīvojušas kafejnīcas, koalīcijas un trīs dažādas bruģēšanas stratēģijas. Noteiktā brīdī kontinuitāte pārtop par kultūru."
+
+Saskaņā ar 48 lappušu pašvaldības ietekmes novērtējumu peļķes sniedz izmērāmas sabiedriskas priekšrocības. Tās ietver ātruma samazināšanos, jo vadītāji instinktīvi palēninās pirms iekļūšanas "nezināmajā brūnajā spogulī"; uzlabotas gājēju refleksu spējas; un "pagaidu panorāmas uzlabojumu", kad baznīcu torņi un padomju laikmeta daudzdzīvokļu nami apmākušos rītos ūdenī parādās divkāršoti.
+
+Ziņojums arī atklāja, ka 62% aptaujāto iedzīvotāju pie pazīstamas peļķes jutušies emocionāli drošāk, savukārt 14% atzina, ka peļķi lietojuši kā neformālu orientieri norādēs, sakot lietas kā: "nogriezies pa kreisi aiz tās milzu, kas izskatās dziļāka nekā tava nākotne." Vēl 9% ziņoja, ka vismaz vienā peļķē esot ieraudzījuši atspoguļotu kādu svarīgu dzīves lēmumu, lai gan pilsēta precizēja, ka šī kategorija ir "metodoloģiski sarežģīta."
+
+Ne visi iedzīvotāji ir pārliecināti. Biroja administratore un ikdienas braucējs Mārtiņš Cīrulis sacīja, ka viņa attiecības ar peļķi pie nama Dzelzavas ielā ir "komplicētas."
+
+"2019. gadā tā sabojāja manas kurpes, 2021. gadā tajā pazuda puse velosipēda, un šī gada februārī esmu gandrīz pārliecināts, ka tā izmainīja maza suņa maršrutu," teica Cīrulis. "Bet ja to tūlīt nolaistu, jā, es piekrītu — es justos tā, it kā man būtu kaut kas atņemts."
+
+Lai atbalstītu ieviešanu, pilsēta pie izvēlētajām peļķēm izvietos diskrētas misiņa plāksnītes ar norādi par vidējo diametru, pirmo dokumentēto parādīšanās reizi un ieteicamajiem novērošanas stundām. Vienai vietai Āgenskalnā, ko vietējie sauc par Iekšzemes jūru, tiks uzbūvēta neliela koka platforma, lai tūristi varētu vērot tramvaja atspulgu, nevis stāvēt tieši purvainē.
+
+Iniciatīve jau piesaistījusi Latvijas Investīciju un attīstības aģentūras interesi, kas uzskata, ka peļķu tūrisms var palīdzēt dažādot ziemas ceļošanas piedāvājumu. Aģentūras pārstāve Sandra Feldmane sacīja, ka ārvalstu viesi aizvien vairāk meklē "autentiskas ziemeļnieciskas pieredzes, ko nav iespējams simulēt spa kompleksā."
+
+"Skandināvijā viss ir kurēts. Rīgā ūdens jūs sastop negaidīti un uzdod morālus jautājumus," sacīja Feldmane. "Tā ir mūsu konkurences priekšrocība."
+
+Opozīcijas politiķi kritizējuši programas 312 000 € budžetu, īpaši pilotprojektu ar sensoriem, kas monitorēs peļķu dziļumu, sāļumu un "spoguļojošo cieņu." Taču pilsētas inženieri uzstāj, ka tehnoloģija nepieciešama, lai noteiktu, kuras peļķes varētu pretendēt uz UNESCO provizoriskā nemateriālo navigācijas šķēršļu saraksta iekļaušanu.
+
+Preses konferencē mērs Vilnis Bērziņš noraidīja apsūdzības, ka pilsēta vienkārši pārfrāzē aizmirstu infrastruktūru.
+
+"Ja lieta traucē sabiedrībai vairāk nekā desmit gadus pēc kārtas, tā vairs nav nolaidība," teica mērs. "Tā ir institūcija."
+
+Vakarpusē iedzīvotāji jau sāka nolikt ziedus pie jaunizsludinātas aizsargājamās peļķes pie lielveikala Ziepniekkalnā pēc baumām, ka to varētu aizbērt ar granti apakšuzņēmējs, kas nav pazīstams ar pilsētas vērtībām. Pašvaldības policija vēlāk apstiprināja, ka peļķe ir droša, stabila un, visticamāk, līdz ceturtdienai nedaudz paplašināsies.`,
+      ru: `РИГА — В политике, которую городские планировщики называют «одновременно климатически адаптивной и духовно честной», муниципалитет Риги во вторник представил новую Программу стратегического сохранения луж, официально обозначив 14 регулярно появляющихся городских луж как охраняемые элементы городской среды.
+
+В соответствии с планом несколько давних скоплений воды в Čiekurkalns, Teika, Purvciems и одна «исторически устойчиво» провалившаяся низина возле Barona iela больше не будут классифицироваться как сбои в дренажной системе. Вместо этого они будут внесены в официальные градостроительные документы как низкорасположенные сезонные резервуары с наследственной ценностью.
+
+Зампредседателя по делам городской поверхности Илзе Жагаре заявила, что город просто признаёт то, что жители понимали годами.
+
+«Эти лужи не случайны», — сказала Жагаре репортёрам, стоя рядом с особенно широким экземпляром у троллейбусной остановки в Sarkandaugava. «Они возвращаются каждую осень с поразительной постоянностью. Некоторые пережили кафе, коалиции и три разные стратегии мощения. В какой-то момент непрерывность становится культурой». 
+
+Согласно 48‑страничной муниципальной оценке воздействия, лужи приносят измеримые общественные выгоды. Среди них — снижение скорости движения, потому что водители инстинктивно притормаживают перед вхождением в «неизвестное коричневое зеркало»; улучшение пешеходных рефлексов; и «временное обогащение горизонта», когда башни церквей и советские многоквартирные дома выглядят удвоенными в воде в пасмурные утренние часы.
+
+В отчёте также отмечено, что 62% опрошенных жителей чувствовали себя эмоционально безопаснее рядом со знакомой лужей, в то время как 14% говорили, что использовали лужу как неофициальный ориентир при даче указаний, говоря что‑то вроде: «поверните налево после огромной, что кажется глубже вашего будущего». Ещё 9% сообщили, что видели в луже отражение хотя бы одного важного жизненного решения, хотя город уточнил, что эта категория «методологически сложна». 
+
+Не все жители в восторге. Офисный администратор и ежедневный пассажир Мартиньш Цирулис назвал свои отношения с лужей возле его дома на Dzelzavas iela «сложными».
+
+«В 2019 году она испортила мои туфли, в 2021‑м поглотила половину велосипеда, а в феврале я почти уверен, что она изменила маршрут маленькой собаки», — сказал Цирулис. «Но если бы её сейчас осушили, да, признаю, я почувствовал бы, что у меня что‑то отняли». 
+
+В поддержку внедрения программа предусматривает установку незаметных латунных табличек рядом с выбранными лужами, на которых будут указаны их средний диаметр, первая задокументированная фиксация и рекомендуемые часы наблюдения. Одному участку в Āgenskalns, известному местным как «Внутреннее море», достанется небольшая деревянная платформа, чтобы туристы могли наблюдать отражения трамваев, не стоя прямо в слякоти.
+
+Инициатива уже привлекла внимание Инвестиционного и развивающего агентства Латвии, которое считает, что туризм вокруг луж может помочь диверсифицировать зимние поездки. Представитель агентства Сандра Фельдмане сказала, что иностранные посетители всё чаще ищут «аутентичный северный опыт, который нельзя симулировать в спа‑комплексе». 
+
+«В Скандинавии всё курируется. В Риге вода встречает вас неожиданно и задаёт моральные вопросы», — сказала Фельдмане. «Это наше конкурентное преимущество». 
+
+Оппозиционные депутаты раскритиковали бюджет программы в 312 000 евро, особенно пилотный проект с датчиками, которые будут отслеживать глубину луж, солёность и «достоинство отражения». Но городские инженеры настаивают, что технология необходима, чтобы определить, какие лужи могут претендовать на предварительный список ЮНЕСКО по нематериальным навигационным препятствиям.
+
+На пресс‑конференции мэр Вилнис Бёрзиньш отверг обвинения в том, что город просто переименовывает заброшенную инфраструктуру.
+
+«Если вещь доставляет неудобства населению более десяти лет подряд, это уже не пренебрежение», — сказал мэр. «Это — институт». 
+
+К вечеру жители уже начали нести цветы к новой защищённой луже у супермаркета в Ziepniekkalns после слухов, что её может засыпать щебнем субподрядчик, незнакомый с ценностями города. Муниципальная полиция позже подтвердила, что лужа в безопасности, стабильна и, как ожидается, слегка увеличится к четвергу.`
+    },
+    date: "Jun 1, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/171/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 170,
     slug: "riga-introduces-passive-aggressive-silence-zones-170",
     title: {
@@ -108,7 +219,7 @@ Vēlā pēcpusdienā jau bija redzami pirmie panākumu simptomi. Trolejbusā pie
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/170/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 169,
