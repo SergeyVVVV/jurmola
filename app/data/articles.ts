@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 172,
+    slug: "riga-introduces-official-municipal-silence-hour-172",
+    title: {
+      en: "Riga Introduces Official Municipal Silence Hour To Help Residents Finish Passive-Aggressive WhatsApp Messages",
+      lv: "Rīga ievieš oficiālu pašvaldības klusuma stundu, lai palīdzētu iedzīvotājiem pabeigt pasīvi‑agresīvus WhatsApp ziņojumus",
+      ru: "Рига вводит официальный муниципальный Час тишины, чтобы жители успевали дописать пассивно‑агрессивные сообщения в WhatsApp"
+    },
+    excerpt: {
+      en: "In a move city officials are calling 'emotionally infrastructural,' Riga has approved a daily 19-minute silence period to allow residents to compose properly restrained complaints in family and building-management group chats. Authorities say the measure addresses a growing public-health crisis caused by hurried sarcasm, unclear punctuation, and premature use of the thumbs-up emoji.",
+      lv: "Kā pašvaldības ierēdņi to dēvē par 'emocionāli infrastruktūru', Rīga apstiprinājusi ikdienas 19 minūšu klusuma periodu, lai ļautu iedzīvotājiem sakārtot pienācīgi ierobežotas sūdzības ģimenes un nama apsaimniekošanas grupu čatos. Varas iestādes apgalvo, ka šis pasākums novērš pieaugošu sabiedrības veselības krīzi, ko rada steidzīgs sarkasms, neskaidra pieturzīmju lietošana un pāragra īkšķa (thumbs‑up) emocijzīmes izmantošana.",
+      ru: "В шаге, который городские власти называют «эмоционально‑инфраструктурным», Рига утвердила ежедневный 19‑минутный период тишины, чтобы жители могли составить должным образом сдержанные жалобы в семейных и домовых группах. По словам чиновников, мера призвана справиться с растущим кризисом общественного здоровья, вызванным поспешным сарказмом, неясной пунктуацией и преждевременным использованием эмодзи «палец вверх»."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Council on Tuesday voted 38–17 to establish an official municipal Silence Hour, a mandatory 19-minute period each evening during which residents are encouraged to stop drilling, leaf-blowing, clapping from balconies, and loudly pretending not to hear their neighbors in stairwells. The policy, which takes effect next month, is intended to give citizens a protected window to complete delicate passive-aggressive messages in WhatsApp groups devoted to apartment maintenance, inherited berry plots, and whether anyone recognizes a parked Opel.
+
+Despite its name, the Silence Hour will last 19 minutes, a duration the council’s Social Harmony and Minor Resentment Committee described as 'culturally realistic.' According to an explanatory memorandum, 19 minutes is 'long enough to type, delete, and retype \`Interesting that some people think hallway shoes dry themselves,\` but not so long that anyone is forced into direct self-reflection.'
+
+Deputy Mayor for Civic Tone Elīna Kārkliņa said the ordinance emerged after municipal analysts observed a sharp increase in reckless messaging between 18:40 and 21:10, particularly in neighborhoods with shared courtyards and at least one elderly resident who has appointed herself head of curtains oversight.
+
+'People were sending emotionally undercooked texts,' Kārkliņa told reporters outside City Hall, where a prototype silence siren emitted a disappointed sigh instead of a tone. 'We found that 62% of disputes about bicycle storage, recycling etiquette, and suspicious mushroom buckets begin with messages written too quickly after hearing a noise. This is not who Riga wants to be.'
+
+Under the new rules, loud domestic activities will be paused daily at 20:07. Public transit will continue operating, though trolleybus drivers have been instructed to ring their bells 'with introspection.' Restaurants may remain open but must replace background jazz with what the ordinance terms 'administratively neutral stillness.' In Jurmala, where many residents spend summer evenings staring at the sea and evaluating other people’s knitwear, local officials are reportedly considering a pilot extension to 27 minutes.
+
+The city based the measure on a six-month trial in Teika and Āgenskalns, where volunteers were given state-approved silence and access to a punctuation support hotline. Researchers from the Latvian Institute for Contemporary Social Fatigue found that after four weeks, the average building chat message became 31% more precise and 44% colder in a way participants described as 'finally respectful.' The use of the phrase 'just saying' fell by nearly half.
+
+Not all residents are convinced. 'This is government overreach,' said Imants Ozoliņš, 54, who was interrupted while carrying a washing machine through a stairwell at 20:08 during the pilot program. 'In this country, if I want to hammer something for no clear reason while my upstairs neighbor drafts a message beginning with \`Dear all,\` that is my constitutional rhythm.'
+
+Others praised the initiative. Purvciems resident and amateur chat archivist Santa Mežule said the Silence Hour had transformed her building’s internal diplomacy. 'Before, people would write, \`Can whoever left cabbage water in the elevator please think about others.\` Now they take time. They attach photos. They cite dates. One man even used bullet points. It was chilling.'
+
+To support implementation, the municipality will distribute a digital template pack featuring approved phrases such as 'Perhaps we have different understandings of basic decency' and 'Let us not make this a bigger issue than the odor already has.' A premium version for homeowners’ associations includes a semicolon tutorial.
+
+The Ministry of Culture has welcomed the policy as a modern expression of Baltic restraint, while economists estimate it could save up to €2.3 million annually by reducing emergency locksmith calls triggered by revenge key-snapping. Meanwhile, officials in Tallinn and Vilnius are said to be watching closely, though a Lithuanian spokesperson clarified that Vilnius residents prefer to draft their grievances while walking briskly in excellent coats.
+
+At press time, Riga authorities confirmed they were already studying a second reform: a municipal Early Morning Window for composing texts that begin, 'No criticism, but...' and end, as always, with 'Have a peaceful evening.'`,
+      lv: `RĪGA — Rīgas dome otrdien ar balsojumu 38–17 nolēma izveidot oficiālu pašvaldības Klusuma stundu — obligātu 19 minūšu periodu katru vakaru, kurā iedzīvotāji tiek aicināti atturēties no urbšanas, lapu pūšanas, plaukšķināšanas no balkoniem un skaļas pozēšanas, it kā nemaz nedzirdētu kaimiņus kāpņutelpā. Politika, kas stāsies spēkā nākamajā mēnesī, paredz dot pilsētniekiem aizsargātu logu, lai pabeigtu delikātus pasīvi‑agresīvus ziņojumus WhatsApp grupās par dzīvokļu uzturēšanu, mantotām ogu saliņām un to, vai kāds atpazīst parkotu Opel.
+
+Neskatoties uz nosaukumu, Klusuma stunda ilgs 19 minūtes — laiku, ko domes Sociālās harmonijas un nelielās nepatikas komiteja aprakstījusi kā "kulturāli reālistisku." Saskaņā ar skaidrojošo memorandu, 19 minūtes ir "pietiekami ilgi, lai uzrakstītu, izdzēstu un pārrakstītu 'Interesanti, ka daži domā, ka koridora kurpes pašas izžūst', bet ne tik ilgi, lai kāds tiktu piespiests doties tiešā pašrefleksijā."
+
+Pilsoniskā tona vicemēre Elīna Kārkliņa sacīja, ka rīkojums radies pēc tam, kad pašvaldības analītiķi fiksējuši asu steidzamu ziņu pieaugumu laikā no plkst. 18:40 līdz 21:10, īpaši kvartālos ar koplietojamiem pagalmiem un vismaz vienu sirmgalvi, kas sevi iecēlusi par aizkaru uzraudzības priekšnieci.
+
+"Cilvēki sūtīja emocionāli nepārstrādātas īsziņas," Kārkliņa sacīja žurnālistiem pie Rātsnama, kur prototipa klusuma sirēna izlaida vīlušas nopūtas, nevis skaņu signālu. "Mēs konstatējām, ka 62% strīdu par velo novietošanu, pārstrādes etiķeti un aizdomīgiem sēņu spainīšiem sākas ar ziņām, kas uzrakstītas pārāk ātri pēc dzirdēta trokšņa. Tā nav Rīga, kādu mēs vēlamies redzēt."
+
+Saskaņā ar jaunajiem noteikumiem ikdienas skaļas mājas darbi tiks pārtraukti pulksten 20:07. Sabiedriskais transports turpinās kursēt, lai gan trolejbusu vadītājiem iesniegti norādījumi zvanus skanēt "ar pārliecību un pārdomām." Restorāniem būs atļauts strādāt, taču fonā vairs nedrīkst spēlēt džezu — tas ir jānomaina pret to, ko rīkojums sauc par "administratīvi neitrālu klusumu." Jūrmalā, kur daudzi iedzīvotāji vasaras vakarus pavada raugoties uz jūru un vērtējot citu cilvēku adījumus, pašvaldības amatpersonas, pēc ziņām, apsver pilotpaplašinājumu līdz 27 minūtēm.
+
+Pilsēta balstīja pasākumu uz sešu mēnešu izmēģinājumu Teikā un Āgenskalnā, kur brīvprātīgajiem nodrošināja valsts apstiprinātu klusumu un piekļuvi pieturzīmju atbalsta tālrunim. Latvijas Laikmetīgā Sociālā Noguruma Institūta pētnieki secināja, ka pēc četrām nedēļām vidējā nama čata ziņa kļuvusi par 31% precīzāka un par 44% aukstākā manierē, ko dalībnieki aprakstīja kā "beidzot cieņpilnu." Frāzes "tikai saku" lietojums samazinājās gandrīz uz pusi.
+
+Ne visi iedzīvotāji ir pārliecināti. "Tas ir valdības iejaukšanās pārmērīgā mērogā," sacīja 54 gadus vecais Imants Ozoliņš, kuru pārtrauca, nēsājot veļasmašīnu cauri kāpņutelpai plkst. 20:08 izmēģinājuma laikā. "Šajā valstī, ja gribu kaut ko āmurēt bez skaidra iemesla, kamēr mans augšējo stāvu kaimiņš rāda sānskatu un sastāda ziņu, kas sākas ar 'Cienījamie visi,' — tas ir mans konstitucionālais ritms."
+
+Citi slavēja iniciatīvu. Purvciema iedzīvotāja un amatieru čatu arhivētāja Santa Mežule teica, ka Klusuma stunda mainījusi viņas nama iekšējo diplomātiju. "Agrāk cilvēki rakstītu: 'Vai tas, kurš atstāja kāpostu ūdeni liftā, varbūt padomā par citiem.' Tagad viņi iztērē laiku. Pievieno fotogrāfijas. Norāda datumus. Vienam vīram pat bija bultu punktiņi. Tas bija biedējoši."
+
+Lai atbalstītu ieviešanu, pašvaldība izplatīs digitālu veidņu komplektu ar apstiprinātām frāzēm kā "Iespējams, mums ir atšķirīga izpratne par pamatpieklājību" un "Nedzelšmēsim šo par lielāku problēmu, nekā tā jau ir smakas ziņā." Premium versija mājas īpašnieku biedrībām ietvers arī semikola apmācību.
+
+Kultūras ministrija ir sveikusi šādu politiku kā mūsdienīgu Baltijas atturības izpausmi, savukārt ekonomisti lēš, ka tā varētu ietaupīt līdz 2,3 miljonu eiro gadā, samazinot avārijas slēdzēju izsaukumus, ko izraisa atriebības nolūkos nolauztas atslēgas. Tikmēr Tallinas un Viļņas amatpersonas, pēc ziņām, uzmanīgi vēro notiekošo, lai gan Lietuvas pārstāvis paskaidrojis, ka Viļņas iedzīvotāji dod priekšroku sūdzību izstrādei, strauji soļojot izcilos mēteļos.
+
+Preses iesniegšanas brīdī Rīgas varas iestādes apstiprināja, ka jau pēta otro reformu: pašvaldības "Agrā rīta loga" ieviešanu ziņojumiem, kas sākas ar "Nekritizēju, bet..." un beidzas, kā vienmēr, ar "Lai mierpilns vakars."`,
+      ru: `РИГА — Во вторник Рижская городская дума проголосовала 38 голосами «за» и 17 «против» за установление официального муниципального Часа тишины, обязательного 19‑минутного периода каждый вечер, в течение которого жителей призывают перестать сверлить, убирать листья воздуходувками, аплодировать с балконов и громко притворяться, что не слышат соседей в лестничных клетках. Политика, которая вступит в силу в следующем месяце, предназначена дать гражданам защищённое окно для завершения деликатных пассивно‑агрессивных сообщений в группах WhatsApp, посвящённых содержанию дома, унаследованным ягодным участкам и тому, узнаёт ли кто‑нибудь припаркованный Opel.
+
+Несмотря на название, Час тишины будет длиться 19 минут — продолжительность, которую Комитет по социальной гармонии и мелким обидам городского совета охарактеризовал как «культурно реалистичную». Согласно пояснительной записке, 19 минут — это «достаточно, чтобы набрать, удалить и набрать заново „Интересно, что некоторые люди думают, что тапочки в подъезде сами себя высушивают“, но не настолько долго, чтобы кто‑то был вынужден к прямой саморефлексии». 
+
+Заместитель мэра по гражданскому тону Элина Карклиня заявила, что постановление появилось после того, как муниципальные аналитики зафиксировали резкий рост необдуманных сообщений в период с 18:40 до 21:10, особенно в районах с общими дворами и хотя бы одним пожилым жителем, который назначил себя начальником по надзору за шторами.
+
+«Люди отправляли эмоционально недопечённые тексты», — сказала Карклиня репортёрам у Ратуши, где прототип сирены тишины издал разочарованный вздох вместо сигнала. «Мы обнаружили, что 62% споров о хранении велосипедов, этикете сортировки мусора и подозрительных ведрах для грибов начинаются с сообщений, написанных слишком быстро после того, как кто‑то услышал шум. Это не то, кем Рига хочет быть». 
+
+По новым правилам громкие домашние занятия будут приостанавливаться ежедневно в 20:07. Общественный транспорт продолжит работу, хотя водителям троллейбусов велено звонить в звонки «с интроспекцией». Рестораны могут оставаться открытыми, но фон‑джаз им придётся заменить тем, что в постановлении названо «административно нейтральным безмолвием». В Юрмале, где многие жители проводят летние вечера, глядя на море и оценивая чужую вязаную одежду, местные власти, по сообщениям, рассматривают пилотное продление до 27 минут.
+
+Город основал меру на шестимесячном эксперименте в Тейке и Агенскалнсе, где волонтёрам предоставляли утверждённую государством тишину и доступ к горячей линии по поддержке пунктуации. Исследователи из Латвийского института современного социального переутомления обнаружили, что спустя четыре недели среднее сообщение в группах дома стало на 31% точнее и на 44% холоднее — так участники описывали это как «наконец‑то уважительно». Употребление фразы «просто говорю» сократилось почти вдвое.
+
+Не все жители в восторге. «Это чрезмерное вмешательство государства», — сказал Имантс Озолиньш, 54 года, которого прервали, пока он проносил стиральную машину по лестнице в 20:08 во время пилота. «В этой стране, если я хочу забить гвоздь без видимой причины, пока мой сосед сверху составляет сообщение, начинающееся с „Уважаемые все,“, — это мой конституционный ритм». 
+
+Другие приветствовали инициативу. Жительница Пурвциемса и любительница архивов чатов Санта Межуле сказала, что Час тишины преобразил внутреннюю дипломатию её дома. «Раньше люди писали: „Не мог бы тот, кто оставил воду от капусты в лифте, подумать об остальных“. Теперь они берут время. Прикладывают фото. Ссылаются на даты. Один мужчина даже использовал маркированный список. Это было жутко». 
+
+В поддержку внедрения муниципалитет раздаст цифровой набор шаблонов с утверждёнными фразами, такими как «Возможно, у нас разные представления о базовых нормах приличия» и «Давайте не будем делать из этого проблему больше, чем уже есть из‑за запаха». Премиальная версия для товариществ владельцев включает урок по использованию точки с запятой.
+
+Министерство культуры приветствовало политику как современное выражение балтийской сдержанности, а экономисты оценивают, что это может экономить до €2,3 млн в год за счёт сокращения вызовов аварийных слесарей, вызванных мстительным переламыванием ключей. Тем временем официальные лица в Таллине и Вильнюсе, как сообщается, внимательно наблюдают, хотя литовский представитель уточнил, что жители Вильнюса предпочитают составлять свои жалобы во время энергичной прогулки в отличных пальто.
+
+К моменту замыкания номера власти Риги подтвердили, что уже изучают вторую реформу: муниципальное Раннее утреннее окно для составления текстов, начинающихся «Без критики, но...», и заканчивающихся, как всегда, «Желаю спокойного вечера».`
+    },
+    date: "Jun 2, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/172/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 171,
     slug: "riga-introduces-strategic-puddle-preservation-zones",
     title: {
@@ -126,7 +213,7 @@ Vakarpusē iedzīvotāji jau sāka nolikt ziedus pie jaunizsludinātas aizsargā
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/171/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 170,
