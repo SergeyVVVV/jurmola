@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 173,
+    slug: "jrmala-introduces-silence-tax-after-officials",
+    title: {
+      en: "Jūrmala Introduces ‘Silence Tax’ After Officials Confirm Excessive Loud Relaxation Scaring Off Seagulls",
+      lv: "Jūrmala ievieš „klusuma nodokli”, pēc tam, kad amatpersonas apstiprināja, ka pārlieku skaļa atpūta biedē kaijas",
+      ru: "Юрмала вводит «налог на тишину» после того, как чиновники подтвердили: слишком громкое расслабление пугает чаек"
+    },
+    excerpt: {
+      en: "Municipal authorities in Jūrmala have approved a seasonal Silence Tax aimed at residents and tourists found relaxing too loudly near the coast. Officials say the measure is necessary after a pilot study linked aggressive sighing, theatrical sunset appreciation, and amplified mindfulness to a sharp decline in local seagull confidence.",
+      lv: "Jūrmalas pašvaldība apstiprinājusi sezonālu klusuma nodokli, kas vērsts uz iedzīvotājiem un tūristiem, kuri piekrastē atpūšas pārāk skaļi. Amatpersonas saka, ka pasākums nepieciešams pēc pilotpētījuma, kurā agresīva nopūta, teātrisks saulrieta apliecinājums un pastiprināta apzinātība tika saistīti ar krasu vietējo kaiju pašpārliecinātības kritumu.",
+      ru: "Муниципальные власти Юрмалы утвердили сезонный «налог на тишину», направленный на жителей и туристов, уличённых в чрезмерно громком отдыхе у побережья. По словам чиновников, мера необходима после пилотного исследования, связавшего агрессивное вздыхание, театральное восхищение закатом и усиленные практики осознанности с резким падением «уверенности» местных чаек."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a unanimous late-evening vote interrupted only by a respectful pause for the sound of premium wind moving through pine trees, the Jūrmala City Council this week approved a new Silence Tax targeting what it described as “acoustically self-indulgent leisure.” Beginning June 15, beachgoers, spa guests, and summer residents may now face fines of up to €47 for loud forms of relaxation, including prolonged contented exhaling, unnecessarily crisp linen shaking, and “group serenity events” exceeding six participants.
+
+The measure follows a 78-page municipal report titled Coastal Quietude 2030, which concluded that the city’s famous atmosphere of expensive calm had been compromised by visitors performing rest “in a visible and emotionally amplified manner.” According to the study, incidents of audible unwinding rose 32% over the past three summers, with the sharpest increase recorded near Dzintari Concert Hall and in a 400-meter radius around artisanal ice cream vendors.
+
+“Jūrmala has always offered a refined silence,” said Deputy Mayor Ilze Priedīte, speaking from a press conference conducted at a volume several journalists later described as “morally superior.” “But recently we have seen cases of people reclining with intent, opening books too energetically, and uttering phrases like ‘finally’ at decibel levels more appropriate for hockey arenas. This is not the Baltic restraint our city was built on.”
+
+Under the new rules, municipal Quietness Inspectors in sand-colored vests will patrol the beach with handheld “serenity meters” calibrated by acoustics specialists from Riga Technical University. The devices are reportedly capable of detecting dangerous spikes in leisure output, particularly between 16:00 and 19:30, when sunset photography and mineral water optimism are known to peak.
+
+Tourists judged to be resting responsibly will receive a green wristband marked “Passive Enough.” Those who violate the standard may be required to attend a 90-minute corrective seminar, The History of Modest Enjoyment in the Baltics, held in a dim room above the former information center.
+
+Not all residents oppose the policy. Longtime Majori homeowner and retired dentist Arvīds Lapsa, 71, said he had noticed a decline in beach discipline. “Last August I heard a woman near me laugh after tasting a cherry pastry,” Lapsa recalled. “Not a polite nasal acknowledgment, but a full laugh. Then her husband said, ‘This is what life is about.’ Frankly, I didn’t sleep properly for three nights.”
+
+Business owners, however, fear the tax may complicate the city’s summer economy. Spa manager Renāte Feldmane said her clients increasingly expect immersive wellness experiences. “You cannot sell a €190 sea-salt breathing ritual and then punish guests for sounding transformed,” she said. “Some of them have flown in from Frankfurt specifically to release emotional pressure in a tasteful robe.”
+
+Municipal data suggests enforcement may be extensive. During a trial weekend in May, inspectors issued 213 warnings, 48 formal citations, and one immediate intervention after a bachelor party attempted synchronized hammocking with portable flute accompaniment. In the most serious incident, a man from Cēsis was fined €32 for whispering “we should move here” five times in under a minute.
+
+At Bulduri Beach on Thursday, reaction was mixed. Several visitors lowered their picnic conversations to a legally acceptable murmur, while others practiced neutral facial expressions in case of inspection. One Estonian tourist, asked whether the rules seemed excessive, nodded almost imperceptibly and replied, “For Jūrmala, this is still quite emotional.”
+
+Council officials say the Silence Tax will remain in force through September and may be expanded next year to include passive-aggressive sandal noises and overconfident cycling along forest paths. In a statement released Friday morning, the city encouraged all visitors to “enjoy themselves responsibly, discreetly, and if possible, internally.”`,
+      lv: `JŪRMALA — Vienbalsīgā vēlās vakara balsojumā, kuru pārtrauca vien cieņas pauze, lai uzklausītu kvalitatīvā vēja šalku priedēs, Jūrmalas domes šonedēļ apstiprināja jaunu „klusuma nodokli”, kas vērsts uz to, ko tā raksturoja kā „akustiski pašapmierinošu atpūtu”. No 15. jūnija pludmales apmeklētāji, spa viesi un vasaras iedzīvotāji var tikt sodīti ar naudassodu līdz €47 par skaļām atpūtas izpausmēm, tostarp ilgstošu apmierinātu izelpošanu, nevajadzīgi asu lina drēbju kratīšanu un «grupu miera pasākumiem» ar vairāk nekā sešiem dalībniekiem.
+
+Šis pasākums seko 78 lappušu pašvaldības ziņojumam ar nosaukumu Piekrastes klusums 2030, kurā secināts, ka pilsētas slavenā dārgo mieru atmosfēra ir cietusi no apmeklētājiem, kas atpūšas „redzami un emocionāli pastiprināti”. Pētījuma dati rāda, ka skaļas atslābšanas incidenti pēdējo trīs vasaru laikā pieauguši par 32%, un visstraujākais pieaugums reģistrēts pie Dzintaru koncertzāles un 400 metru rādiusā ap meistaru saldējuma tirgotājiem.
+
+„Jūrmala vienmēr ir piedāvājusi izsmalcinātu klusumu,” sacīja domes priekšsēdētājas vietniece Ilze Priedīte, runājot preses konferencē toni, ko vairāki žurnālisti vēlāk raksturoja kā „morāli pārāku”. „Bet pēdējā laikā esam novērojuši cilvēkus, kas apzināti atgūlas, grāmatas pavērš pārāk enerģiski un izsaka frāzes kā ‘beidzot’ decibelos, kas vairāk atbilst hokeja arēnām. Tas nav tā Baltijas atturība, uz kuras mūsu pilsēta celta.”
+
+Saskaņā ar jaunajiem noteikumiem pašvaldības klusuma inspektori smilškrāsas vestēs patrulēs pludmalē ar rokā turamiem „miera mērinstrumentiem”, ko kalibrējuši akustikas speciālisti no Rīgas Tehniskās universitātes. Ierīces, pēc ziņotāja teiktā, spēj konstatēt bīstamus atpūtas skaļuma pārspriegumus, īpaši laikā no plkst. 16:00 līdz 19:30, kad zināmi saulrieta fotosesiju un minerālūdens optimismu maksimumi.
+
+Tūristi, kuri tiks atzīti par atbildīgiem atpūtniekiem, saņems zaļu aproci ar uzrakstu „Pietiekami pasīvs”. Tie, kas pārkāps normu, var tikt iekļauti 90 minūšu korektīvā seminārā „Pieticīgās baudīšanas vēsture Baltijā”, kas notiks tumšā telpā virs bijušā informācijas centra.
+
+Ne visi iedzīvotāji ir pret politiku. Ilggadējs Majoru mājas īpašnieks un pensionēts zobārsts Arvīds Lapsa, 71 gadu vecs, sacīja, ka pamanījis pludmales disciplīnas pavājināšanos. „Pagājušā augusta vakarā es dzirdēju sievieti blakus manai vietai pasmieties pēc ķiršu pīrādziņa pagaršošanas,” Lapsa atcerējās. „Ne pieklājīgs deguna pieķiķinājums, bet īsts smiekls. Tad viņas vīrs teica: 'Tā ir dzīve.' Godīgi sakot, trīs naktis nemaz kārtīgi negulēju.”
+
+Taču uzņēmēji baidās, ka nodoklis var sarežģīt vasaras ekonomiku. Spa vadītāja Renāte Feldmane sacīja, ka viņas klienti arvien vairāk sagaida imersīvas labsajūtas pieredzes. „Jūs nevarat pārdot €190 vēja sāls elpošanas rituālu un pēc tam sodīt viesus par to, ka viņi skan transformējušies,” viņa teica. „Daži no viņiem pat ir atlidojuši no Frankfurtes īpaši, lai skaisti halātā atbrīvotu emocionālo spriedzi.”
+
+Pašvaldības dati liecina, ka uzraudzība var būt plaša. Maija izmēģinājuma nedēļas nogalē inspektori izdeva 213 brīdinājumus, 48 formālas naudas soda lēmumus un vienu tūlītēju iejaukšanos pēc tam, kad līgavainības ballīte mēģināja sinhronizētu šūpošanos hamakos ar pārnēsājamas flautas pavadījumu. Smagākajā gadījumā vīrietis no Cēsīm tika sodīts ar €32 par to, ka zemā balsī piecus reižu teica „mums te būtu jāpārvācas” mazāk nekā minūtes laikā.
+
+Bulduru pludmalē ceturtdien reakcija bija jaukta. Daži apmeklētāji sarunu piknikā samazināja līdz likumam atbilstošam murmulim, kamēr citi trenēja neitrālas sejas izteiksmes iespējamas pārbaudes gadījumam. Viens igauņu tūristu, vaicāts, vai noteikumi neliekas pārmērīgi, gandrīz nemanāmi pamāja ar galvu un atbildēja: „Jūrmalai tas joprojām ir diezgan emocionāli.”
+
+Domes amatpersonas ziņo, ka klusuma nodoklis būs spēkā līdz septembrim un nākamgad var tikt paplašināts, iekļaujot arī pasīvi-agresīvas sandales soļu skaņas un pārlieku pārliecinātu riteņbraukšanu pa meža takām. Piektdienas rītā izdotajā paziņojumā pilsēta aicināja visus viesus „baudīt atbildīgi, diskrēti un, ja iespējams, iekšēji.”`,
+      ru: `ЮРМАЛА — Единогласно, на позднем вечернем заседании, прерванном лишь уважительной паузой для звука премиального ветра в соснах, Городской совет Юрмалы на этой неделе одобрил новый «налог на тишину», нацеленный на то, что он описал как «акустически самодовольное времяпрепровождение». Начиная с 15 июня, загорающие на пляже, гости спа и дачники могут получить штраф до €47 за громкие формы расслабления, включая продолжительное удовлетворённое выдыхание, неоправданно хрустящее встряхивание белья и «групповые мероприятия по умиротворению» на более чем шесть человек.
+
+Мера последовала за 78-страничным муниципальным отчётом под названием «Прибрежная тишина 2030», в котором делается вывод, что фирменная атмосфера «дорогостоящей спокойности» города была скомпрометирована посетителями, демонстрирующими отдых «видимо и эмоционально усиленно». По данным исследования, случаи слышимого расслабления выросли на 32% за последние три лета, причём самый резкий подъём зафиксирован в районе концертного зала Дзинтари и в радиусе 400 метров вокруг мастерских по продаже мороженого.
+
+«Юрмала всегда предлагала утончённую тишину», — заявила заместитель мэра Ilze Priedīte на пресс‑конференции, проходившей на громкости, которую несколько журналистов позже охарактеризовали как «морально превосходящую». «Но в последнее время мы наблюдаем случаи преднамеренного откидывания, слишком энергичного перелистывания книг и произнесения фраз вроде «наконец-то» на уровнях децибел, более подходящих для хоккейных арен. Это не та балтийская сдержанность, на которой строился наш город». 
+
+По новым правилам муниципальные инспекторы тишины в песочно‑бежевых жилетах будут патрулировать пляж с портативными «измерителями безмятежности», откалиброванными акустиками из Рижского технического университета. Сообщается, что приборы способны обнаруживать опасные всплески уровня отдыха, особенно в период с 16:00 до 19:30, когда пиками известны фотографии на закате и оптимизм после минеральной воды.
+
+Туристы, признанные ответственными в отдыхе, получат зелёный браслет с надписью «Достаточно пассивен». Те, кто нарушит стандарт, могут быть обязаны посетить 90‑минутный корректирующий семинар «История скромного наслаждения в Прибалтике», который проходит в затемнённой комнате над бывшим информационным центром.
+
+Не все жители выступают против политики. Долгожитель из Майори и пенсионер‑стоматолог Арвīds Lapsa, 71 год, рассказал, что заметил снижение дисциплины на пляже. «В прошлом августе я слышал, как женщина рядом со мной рассмеялась после того, как попробовала вишнёвую булочку, — вспоминал Lapsa. — Не вежливое носовое «ах», а настоящий смех. А затем её муж сказал: «Вот ради этого и стоит жить». Честно говоря, я три ночи толком не спал». 
+
+Однако предприниматели опасаются, что налог осложнит летнюю экономику города. Менеджер спа Renāte Feldmane сказала, что её клиенты всё чаще ожидают погружённых велнес‑опытов. «Нельзя продавать ритуал дыхания с морской солью за €190, а затем наказывать гостей за звуковое преображение», — сказала она. «Некоторые прилетели специально из Франкфурта, чтобы снять эмоциональное напряжение в изящном халате». 
+
+Муниципальные данные указывают на то, что применение правил может быть обширным. Во время пробного уик‑энда в мае инспекторы выдали 213 предупреждений, 48 официальных протоколов и одно немедленное вмешательство после того, как на мальчишнике попытались синхронно раскачивать гамаки под аккомпанемент портативной флейты. В самом серьёзном инциденте мужчина из Cēsis был оштрафован на €32 за то, что пять раз за минуту прошептал «нам стоит сюда переехать». 
+
+На пляже Булдури в четверг реакция была смешанной. Некоторые посетители приглушили разговоры до юридически приемлемого шёпота, другие практиковали нейтральные выражения лица на случай проверки. Одна эстонская туристка, которой задали вопрос, не кажется ли правило чрезмерным, почти незаметно кивнула и ответила: «Для Юрмалы это всё ещё довольно эмоционально». 
+
+Чиновники Совета заявляют, что «налог на тишину» будет действовать до сентября и, возможно, расширится в следующем году, включая пассивно‑агрессивный стук сандалей и чересчур самонадеянное катание на велосипедах по лесным дорожкам. В заявлении, опубликованном в пятницу утром, город призвал всех посетителей «наслаждаться ответственно, сдержанно и, если возможно, внутренне».`
+    },
+    date: "Jun 3, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/173/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 172,
     slug: "riga-introduces-official-municipal-silence-hour-172",
     title: {
@@ -102,7 +183,7 @@ Preses iesniegšanas brīdī Rīgas varas iestādes apstiprināja, ka jau pēta 
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/172/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 171,
