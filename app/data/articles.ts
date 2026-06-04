@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 174,
+    slug: "riga-introduces-polite-silence-zone-on",
+    title: {
+      en: "Riga Introduces ‘Polite Silence Zone’ on Public Transport, Reports 84% Drop in Unnecessary Smiling",
+      lv: "Rīga ievieš „Pieklājīgās klusuma zonas” sabiedriskajā transportā, ziņo par 84% kritumu nevajadzīgā smaidīšanā",
+      ru: "Рига вводит «Зону вежливого молчания» в общественном транспорте, сообщает о 84% сокращении ненужных улыбок"
+    },
+    excerpt: {
+      en: "In a pilot program officials are calling a major victory for urban dignity, Riga has designated several tram and trolleybus routes as official Polite Silence Zones. Early data suggests commuters have embraced the initiative, with measurable declines in cheerful small talk, eye contact, and emotionally ambitious nodding.",
+      lv: "Pilotprojektā, ko amatpersonas sauc par lielu uzvaru pilsētas cieņas vārdā, Rīga oficiāli noteikusi vairākas tramvaja un trolejbusa līnijas kā Pieklājīgās klusuma zonas. Sākotnējie dati liecina, ka pasažieri iniciatīvu ir pieņēmuši — būtiski samazinājusies priecīga čalošana, acu kontakts un emocionāli ambiciozs galvas mājieni.",
+      ru: "В пилотной программе, которую чиновники называют большой победой городской достоинственности, в Риге обозначили несколько трамвайных и троллейбусных маршрутов как официальные Зоны вежливого молчания. Первые данные показывают, что пассажиры восприняли инициативу: заметно сократились бодрые светские разговоры, зрительный контакт и эмоционально амбициозные кивки."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Transport Authority on Tuesday unveiled the first results of its long-awaited Polite Silence Zone initiative, a municipal program designed to preserve what officials described as “the historic acoustic integrity of Latvian commuting.” Introduced in January on tram routes 5 and 11, as well as selected trolleybus services connecting the centre to Purvciems and Teika, the policy formally discourages loud phone calls, unsolicited conversation, and “Western-style enthusiasm before 10:00 a.m.”
+
+According to a 47-page report presented to the City Development Committee, the pilot has already produced an 84% reduction in unnecessary smiling, a 63% decline in audible personal anecdotes, and a 91% increase in passengers staring with administrative seriousness at the middle distance. Officials hailed the figures as proof that Riga remains capable of innovation without sacrificing discomfort.
+
+“This is not about repression,” said transport policy coordinator Ilze Krumiņa, standing beside a new blue-and-grey sign depicting two commuters avoiding one another responsibly. “This is about respect. In cities across Europe, people are forced to hear entire podcast opinions, relationship updates, and enthusiastic brunch plans. We asked a simple question: what if nobody had to know anything about anyone, ever?”
+
+Under the system, passengers entering designated vehicles are encouraged to maintain a “socially elegant hush,” defined in the municipal guidelines as “silence, unless a shoe becomes trapped in a door or a swan enters the cabin.” The guidelines also prohibit aggressive sighing directed at tourists, though passive sighing remains protected as part of Latvia’s intangible cultural heritage.
+
+Commuters interviewed by Jurmola Telegraphs broadly supported the measure. “Before this, a man sat next to me and tried to explain cryptocurrency,” said office worker Mārtiņš Ozols, 34, while waiting for Tram 11 near Grīziņkalns. “Now we just sit there in mutual restraint like adults. It has restored my faith in the state.”
+
+Not all residents are convinced. A small but vocal opposition movement, Speak If Necessary, staged a six-person demonstration outside Riga City Hall on Monday, during which participants exchanged greetings at a clearly regulated volume. Protest organizer and amateur improv teacher Beāte Zīle called the program “an attack on spontaneous civic warmth,” though witnesses noted the protest began 14 minutes late because nobody wanted to be first to speak.
+
+Tourism industry representatives have also expressed concern that the rules may confuse foreign visitors unfamiliar with Baltic emotional zoning. “A British tourist smiled at three people on a trolleybus and nearly created an incident,” said Old Riga guide Edgars Veldre. “We need clearer multilingual signage, perhaps with examples. For instance: acceptable — whispering ‘excuse me’; unacceptable — describing your weekend in Cēsis to strangers.”
+
+To improve compliance, Rīgas Satiksme has launched a public awareness campaign titled Let Others Commute In Peace, featuring posters of expressionless riders beneath slogans such as YOUR INNER LIFE IS ENOUGH and NOT EVERY THOUGHT IS INFRASTRUCTURE. The city is also testing a premium Quiet+ carriage on the Jurmala line, where in exchange for an extra €1.50 passengers may enjoy upholstered seating, muted lighting, and staff trained to gently intervene if anyone says, “Lovely weather today.”
+
+Mayor Vilnis Apsītis praised the initiative as a model of practical governance. “For too long, silence has been treated as the absence of something,” he said. “In Latvia, silence is a service.”
+
+Following the successful trial, officials confirmed they are considering expanding the concept to municipal elevators, pharmacy queues, and one particularly vulnerable section of the Central Market fish pavilion. A final decision is expected this autumn, assuming nobody feels the need to discuss it out loud.`,
+      lv: `RĪGA — Rīgas Satiksmes pārvalde otrdien publiskoja pirmos gaidītos Pieklājīgās klusuma zonas iniciatīvas rezultātus, pašvaldības programmu, kuras mērķis ir saglabāt to, ko amatpersonas raksturoja kā “latviešu ikdienas braucienu vēsturisko akustisko integritāti.” Janvārī ieviesta 5. un 11. tramvaja maršrutos, kā arī atsevišķos trolejbusa reisos, kas savieno centru ar Purvciemu un Teiku, politika formāli aizliedz skaļas telefonsarunas, neprasītas sarunas un “rietumnieciskas eiforijas izpausmes pirms pulksten 10:00.”
+
+Saskaņā ar 47 lappušu ziņojumu, kas iesniegts Pilsētas attīstības komisijai, pilots jau radījis 84% samazinājumu nevajadzīgā smaidīšanā, 63% kritumu dzirdamajās personiskajās anekdotēs un 91% pieaugumu pasažieru skatienos, kas ar administratīvu nopietnību raugās tālumā. Amatpersonas šos skaitļus nodēvēja par pierādījumu, ka Rīga joprojām spēj uzņemties inovācijas, nezaudējot diskomfortu.
+
+“Šī nav apspiešana,” sacīja satiksmes politikas koordinatore Ilze Krumiņa, stāvot blakus jaunai zili‑pelēkai zīmei, kurā attēloti divi pasažieri, kas atbildīgi izvairās viens no otra. “Tā ir cieņa. Pilsētās visā Eiropā cilvēki tiek spiesti klausīties veselas podkāstu viedokļu sērijas, attiecību atjauninājumus un aizrautīgas brangča plāna prezentācijas. Mēs uzdevām vienkāršu jautājumu: kas notiktu, ja nevienam nekad nevajadzētu neko zināt par nevienu?”
+
+Sistēmas ietvaros pasažieri, iekāpjot norādītajos transportlīdzekļos, tiek aicināti ievērot “sociāli elegantu klusumu,” ko pašvaldības vadlīnijās definē kā “klusumu, izņemot gadījumus, kad kurpe iestrēgst durvīs vai gulbis iekļūst salonā.” Vadlīnijas arī aizliedz agresīvu nopūtu vēršanu pret tūristiem, lai gan pasīvā noelšana joprojām tiek aizsargāta kā daļa no Latvijas nemateriālā kultūras mantojuma.
+
+Pasažieri, ar kuriem intervija veica Jūrmalas Telegrafi, lielumā atbalstīja pasākumu. “Agrāk blakus man sēdēja cilvēks un mēģināja izskaidrot kriptovalūtu,” sacīja biroja darbinieks Mārtiņš Ozols, 34 gadi, gaidot 11. tramvaju pie Grīziņkalna. “Tagad mēs vienkārši sēžam tur abpusējā atturībā kā pieaugušie. Tas atjaunoja manu ticību valstij.”
+
+Ne visi iedzīvotāji ir pārliecināti. Neliela, bet skaļa opozīcijas kustība “Runā, ja nepieciešams” pirmdien rīkoja sešu cilvēku demonstrāciju pie Rīgas domes, kuras laikā dalībnieki apmainījās ar apsveikumiem skaidri regulētā skaļumā. Protesta organizētāja un amatieru improvizācijas skolotāja Beāte Zīle nosauca programmu par “uzbrukumu spontānai pilsoniskai siltumam,” lai gan aculiecinieki piebilda, ka protests sākās par 14 minūtēm vēlu, jo neviens negribēja būt pirmais, kurš runā.
+
+Tūrisma nozares pārstāvji arī izteikuši bažas, ka noteikumi var apmulsināt ārzemju viesus, kas nav pieraduši pie Baltijas emocionālās zonas. “Kāds britu tūristis smaidīja trim cilvēkiem trolejbusā un gandrīz izraisīja incidentu,” sacīja Vecrīgas gids Edgars Veldre. “Mums vajadzīgas skaidrākas daudzvalodu norādes, iespējams ar piemēriem. Piemēram: pieņemami — čukstēt ‘atvainojiet’; nepieņemami — svešiniekiem stāstīt par savu nedēļas nogali Cēsīs.”
+
+Lai palielinātu atbilstību, Rīgas Satiksme uzsākusi sabiedrības informēšanas kampaņu “Ļauj citiem ceļot mierā,” kurā afišās attēloti bezizteiksmes braucēji ar saukļiem: TAVA IEKŠĒJĀ DZĪVE IR PIETIEKAMA un NEKATRA DOMA NAV INFRASTRUKTŪRA. Pilsēta arī testē premium Kluss+ vagonu Jūrmalas līnijā, kur par papildus 1,50 € pasažieri var baudīt polsterētas sēdvietas, nomierinātu apgaismojumu un personālu, kas apmācīts maigi iejaukties, ja kāds saka: “Skaists laiks šodien.”
+
+Mērs Vilnis Apsītis slavēja iniciatīvu kā praktiskas pārvaldības modeli. “Pārāk ilgi klusums tika uztverts kā kaut kā trūkums,” viņš sacīja. “Latvijā klusums ir pakalpojums.”
+
+Pēc veiksmīgā pilotprojekta amatpersonas apstiprināja, ka apsver koncepcijas paplašināšanu uz pašvaldības liftiem, aptieku rindām un vienu īpaši jūtīgu Centrāltirgus zivju paviljona daļu. Galīgais lēmums gaidāms šoruden, ja vien kādam neuznāks vajadzība to apspriest skaļi.`,
+      ru: `РИГА — Во вторник Рижское управление транспорта представило первые результаты долгожданной инициативы «Зона вежливого молчания» — муниципальной программы, призванной сохранить, как заявляют чиновники, «историческую акустическую целостность латвийских поездок на работу». Введённая в январе на трамвайных маршрутах 5 и 11, а также на отдельных троллейбусных линиях, связывающих центр с Пурвциемсом и Тейкой, политика официально не поощряет громкие телефонные разговоры, нежелательные беседы и «западный энтузиазм до 10:00 утра». 
+
+Согласно 47-страничному докладу, представленному Комитету по развитию города, пилот уже привёл к сокращению ненужных улыбок на 84%, падению слышимых личных анекдотов на 63% и увеличению числа пассажиров, уставившихся в середину вагона с административной серьёзностью, на 91%. Чиновники приветствовали эти цифры как доказательство того, что Рига способна к инновациям, не жертвуя неудобством. 
+
+«Речь не о репрессиях», — сказала координатор транспортной политики Илзе Крумина, стоя рядом с новым сине‑серым знаком, на котором изображены двое пассажиров, ответственно избегающие друг друга. «Речь о уважении. В городах по всей Европе людей заставляют слышать целые подкаст‑мнения, обновления о романтических отношениях и восторженные планы на бранч. Мы задали простой вопрос: что если никому никогда не нужно будет ничего о ком‑то знать?» 
+
+По системе пассажиров, заходящих в обозначенные транспортные средства, призывают соблюдать «социально изящную тишину», что в муниципальных руководящих указаниях определено как «тишина, если только обувь не застрянет в двери или в салон не залетит лебедь». В руководстве также запрещено агрессивное тяжёлое вздыхание, адресованное туристам, хотя пассивное вздыхание остаётся защищённым как часть нематериального культурного наследия Латвии. 
+
+Пассажиры, опрошенные «Jurmola Telegraphs», в целом поддержали меру. «Раньше рядом со мной сел мужчина и попытался объяснить криптовалюту», — рассказал офисный работник Мартиньш Озолс, 34 года, ожидая трамвай 11 возле Гризинкалнса. «Теперь мы просто сидим там в взаимном воздержании, как взрослые. Это восстановило мою веру в государство». 
+
+Не все жители убеждены. Небольшое, но громкое движение оппозиции «Говори по необходимости» провело шестичеловеческую демонстрацию у Рижской ратуши в понедельник, в ходе которой участники обменивались приветствиями на явно отрегулированной громкости. Организатор протеста и любительница импровизации Беате Зиле назвала программу «атакой на спонтанное общественное тепло», хотя очевидцы отметили, что митинг начался с опозданием на 14 минут, потому что никто не хотел быть первым, кто заговорит. 
+
+Представители туристической отрасли также выразили беспокойство, что правила могут ввести в заблуждение иностранных гостей, незнакомых с прибалтийским зональным распределением эмоций. «Британский турист улыбнулся трем людям в троллейбусе и чуть не спровоцировал инцидент», — сказал гид по Старой Риге Эдгарс Велдре. «Нам нужны более чёткие многоязычные указатели, возможно, с примерами. Например: допустимо — шепнуть «извините»; недопустимо — описывать своё выходные в Цесис незнакомцам». 
+
+Чтобы повысить соблюдение, Rīgas Satiksme запустила информационную кампанию под названием "Дайте другим ездить в покое", на плакатах которой — безмятежные пассажиры под лозунгами вроде «ВАША ВНУТРЕННЯЯ ЖИЗНЬ — ЭТО УЖЕ ДОСТАТОЧНО» и «НЕ КАЖДАЯ МЫСЛЬ — ЭТО ИНФРАСТРУКТУРА». Город также испытывает премиум‑вагон Quiet+ на линии Юрмала, где за доплату в €1,50 пассажиры могут наслаждаться мягкими сиденьями, приглушённым освещением и персоналом, обученным мягко вмешиваться, если кто‑нибудь скажет: «Какая прекрасная сегодня погода». 
+
+Мэр Вилнис Апситис похвалил инициативу как образец практичного управления. «Слишком долго тишину рассматривали как отсутствие чего‑то», — сказал он. «В Латвии тишина — это услуга». 
+
+После успешного пробного периода чиновники подтвердили, что рассматривают расширение концепции на муниципальные лифты, очереди в аптеках и одну особенно уязвимую секцию рыбного павильона Центрального рынка. Окончательное решение ожидается этой осенью, при условии, что никто не почувствует необходимости обсудить его вслух.`
+    },
+    date: "Jun 4, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/174/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 173,
     slug: "jrmala-introduces-silence-tax-after-officials",
     title: {
@@ -96,7 +177,7 @@ Domes amatpersonas ziņo, ka klusuma nodoklis būs spēkā līdz septembrim un n
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/173/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 172,
