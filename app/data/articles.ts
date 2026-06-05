@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 175,
+    slug: "riga-introduces-quiet-queue-lanes-after",
+    title: {
+      en: "Riga Introduces ‘Quiet Queue Lanes’ After Study Finds Latvians More Comfortable Waiting Than Reaching Counter",
+      lv: "Rīga ievieš «klusās rindu joslas» pēc pētījuma, kas rāda, ka latviešiem ērtāk ir gaidīt nekā stāties pie letes",
+      ru: "Рига вводит «тихие полосы очереди» после исследования, показавшего, что латвийцам комфортнее ждать, чем подходить к прилавку"
+    },
+    excerpt: {
+      en: "Municipal officials in Riga have unveiled a pilot program creating designated ‘quiet queue lanes’ in supermarkets, pharmacies, and government offices, following a new study showing residents experience mild panic when unexpectedly becoming next in line. City leaders say the initiative will preserve cultural stability by allowing citizens additional time to prepare a modest nod, locate documents, and rehearse one practical question.",
+      lv: "Rīgas pašvaldības amatpersonas ir atklājušas pilotprojektu, kurā izveidotas speciālas «klusās rindu joslas» veikalos, aptiekās un valsts iestādēs, pēc jaunā pētījuma, kas rāda, ka iedzīvotāji izjūt vieglu paniku, kad negaidīti kļūst par nākamo rindā. Pilsētas vadība saka, ka iniciatīva saglabās kultūras stabilitāti, ļaujot pilsoņiem papildu laiku sagatavot pieklājīgu galvas noliecienu, atrast dokumentus un izkopt vienu praktisku jautājumu.",
+      ru: "Городские власти Риги представили пилотный проект по созданию специальных «тихих полос очереди» в супермаркетах, аптеках и госучреждениях после нового исследования, показавшего, что у жителей возникает лёгкая паника, когда они внезапно становятся следующими у прилавка. Городские чиновники говорят, что инициатива сохранит культурную стабильность, давая людям дополнительное время подготовить скромный кивок, найти документы и отрепетировать один практический вопрос."
+    },
+    fullContent: {
+      en: `RIGA — In what officials are calling a major investment in social calm, the Riga City Council on Tuesday approved the first phase of a new urban infrastructure project establishing designated “quiet queue lanes” at selected public service points across the capital. The system, developed in partnership with transport planners, behavioral researchers, and one retired woman from Purvciems described by the city as “extremely experienced in waiting,” is intended to address what a municipal report calls “premature counter exposure.”
+
+The 84-page report, commissioned last autumn after several documented incidents of residents being waved forward before emotionally preparing themselves, found that 71% of Riga inhabitants feel “most centered” when they are third or fourth in line, while only 9% report confidence upon suddenly becoming first. Another 63% admitted they routinely spend the final moments in a queue pretending to search their wallet in order to “soften the transition.”
+
+“We are not solving a problem so much as respecting a rhythm,” said Deputy Mayor Ilze Priedīte at a press conference held, appropriately, 17 minutes behind schedule. “For generations, people in Latvia have understood the queue not merely as a logistical arrangement, but as a contemplative civic space. The dangerous part is the last meter.”
+
+Under the pilot program, participating locations will feature a standard lane and a “quiet queue lane,” where movement slows by an average of 28%. Floor markings will include preparation zones labeled BREATHE, DOCUMENTS, and SMALL NOD. In some municipal service centers, a yellow warning light will flash before a resident becomes next, while a low chime modeled on the sound of a distant trolleybus will provide what planners call “psychological cushioning.”
+
+At a Maxima in Teika, shoppers expressed cautious approval. “I don’t mind buying kefir,” said accountant Andris Ozols, 42, while holding a basket containing dark bread, one cucumber, and an item he refused to identify. “What I mind is the cashier looking at me too early. Then suddenly I no longer remember if I came for sour cream or existential maintenance.”
+
+Pharmacist Līga Bērziņa said the trial had already reduced front-of-line confusion. “Usually the person arrives at the counter, sighs, checks every pocket, apologizes for no obvious reason, and only then begins to exist,” she said. “Now they have a protected moment to become retail-ready.”
+
+Not everyone is convinced. The Latvian Association of Impatient Fathers criticized the initiative as “a bureaucratic celebration of standing around,” though its official statement was released 43 minutes late after members allowed three other people to go ahead first. Meanwhile, economists at the Bank of Latvia estimated that formalizing the nation’s existing queue habits would have “no measurable effect whatsoever,” noting that average service speeds in the country are already calibrated around silence, weather-resistant footwear, and low-intensity resignation.
+
+The city has allocated €2.3 million for the first six months of the project, including €480,000 for signage, €210,000 for queue acoustics, and €19,000 for a consultant who determined that instructions should not contain more than seven words, “or people will feel addressed.” If successful, the model may expand to intercity bus stations, museum cloakrooms, and one experimental “emotionally gradual” passport office at Riga Airport.
+
+Sociologist Māris Ķeveris of the Baltic Institute for Everyday Systems said the policy reflects a mature understanding of national temperament. “In warmer cultures, people run toward the counter,” he explained. “Here, the counter must arrive spiritually first.”
+
+By late afternoon, the first quiet queue lane had opened at a municipal office in Āgenskalns. Witnesses reported residents entering with visible relief, advancing in gentle increments, and reaching the clerk with what one observer described as “the highest level of preparedness ever recorded in Riga.” A second observer called it excessive, but admitted he stayed in the lane anyway because it felt safer.`,
+      lv: `RĪGA — To, ko amatpersonas dēvē par būtisku ieguldījumu sociālajā miera stāvoklī, otrdien Rīgas dome apstiprināja jaunā pilsētas infrastruktūras projekta pirmo posmu, kas paredz norādītās «klusās rindu joslas» izvēlētajos publiskā apkalpošanas punktos visā galvaspilsētā. Sistēmu, kas izstrādāta sadarbībā ar transporta plānotājiem, uzvedības pētniekiem un vienu pensionētu Purvciema kundzi, ko pilsēta raksturo kā «ārkārtīgi pieredzējušu gaidīšanā», paredzēts izmantot, lai risinātu to, ko pašvaldības ziņojums dēvē par «priekšlaicīgu nonākšanu pie letes».
+
+84 lappušu ziņojums, kas tika pasūtīts pagājušajā rudenī pēc vairākiem dokumentētiem gadījumiem, kad iedzīvotājiem tika pamodināta virzīšanās uz priekšu, pirms viņi emocionāli paspēja sagatavoties, secināja, ka 71% rīdzinieku izjūt sevi «viscentrētāk», kad viņi atrodas trešajā vai ceturtajā vietā rindā, savukārt tikai 9% ziņo par pārliecību, pēkšņi kļūstot par pirmo. Vēl 63% atzina, ka viņi parasti rindas pēdējās minūtēs izspēlē paralēlu maku meklēšanu, lai «mīkstinātu pāreju». 
+
+«Mēs tik daudz nevis risinām problēmu, cik cienām ritmu,» preses konferencē, kas, adekvāti, sākās 17 minūtes aiz grafika, sacīja domes priekšsēdētājas vietniece Ilze Priedīte. «Gadu desmitiem Latvijas iedzīvotāji nav uztvēruši rindu vien kā loģistisku kārtību, bet gan kā kontemplatīvu pilsonisko telpu. Bīstamā daļa ir pēdējais metrs.»
+
+Saskaņā ar pilotprogrammu piedalīgajās vietās būs standarta josla un «klusā rindu josla», kur kustība vidēji palēnināsies par 28%. Grīdas marķējumi ietvers sagatavošanās zonas ar uzrakstiem IEELPO, DOKUMENTI un MAZA GALVAS NOLIECE. Dažos pašvaldības pakalpojumu centros pirms iedzīvotāja kļūšanas par nākamo mirgos dzeltena brīdinājuma gaisma, bet zema, toņa signāls, kas modelēts pēc tāla trolejbusa skaņas, nodrošinās to, ko plānotāji dēvē par «psiholoģisku buferi».
+
+Teikas «Maxima» pircēji izrādīja piesardzīgu atbalstu. «Man nav pretenziju pret kefīra pirkšanu,» sacīja grāmatvedis Andris Ozols, 42, turēdams grozu ar tumšo maizi, vienu gurķi un vienu lietu, kuru viņš atteicās nosaukt. «Tas, kas man traucē, ir, ja kasieris skatās uz mani pārāk agri. Tad pēkšņi es vairs neatceros, vai atnācu pēc skābā krējuma vai eksistenciālas apkopešanas.»
+
+Aptiekas darbiniece Līga Bērziņa sacīja, ka izmēģinājums jau samazinājis sajukumu pie letes. «Parasti cilvēks pienāk pie letes, nopūšas, pārbauda visas kabatas, atvainojas bez redzama iemesla un tikai tad sāk pastāvēt,» viņa teica. «Tagad viņiem ir aizsargāts brīdis, lai kļūtu mazumtirdzniecībai gatavi.»
+
+Ne visi ir pārliecināti. Latvijas Nepacietīgo Tēvu asociācija kritizēja iniciatīvu kā «birokrātisku dāvināšanos stāvēšanai», kaut tās oficiālais paziņojums tika izdots 43 minūtes vēlāk, jo biedri ļāva trīs citiem cilvēkiem iet priekšā. Tikmēr Latvijas Bankas ekonomisti lēsa, ka valsts esošo rindu paradumu formalizēšanai «nebūs nekādas mērojamas ietekmes», norādot, ka vidējie apkalpošanas ātrumi valstī jau tiek kalibrēti ap klusumu, laikapstākļiem noturīgiem apaviem un zema intensitātes pārsitienam.
+
+Pilsēta pirmajiem projekta sešiem mēnešiem atvēlējusi 2,3 miljonus eiro, tostarp 480 000 eiro nozīmēm un norādēm, 210 000 eiro rindu akustikai un 19 000 eiro konsultantam, kurš noteica, ka instrukcijās nedrīkst būt vairāk nekā septiņas vārdi, «citādi cilvēki jutīsies uzrunāti». Ja izmēģinājums būs veiksmīgs, modelis var tikt paplašināts uz starppilsētu autobusu stacijām, muzeju garderobēm un vienu eksperimentālu «emocionāli pakāpenisku» pasu nodaļu Rīgas lidostā.
+
+Sociologs Māris Ķeveris no Baltijas ikdienas sistēmu institūta sacīja, ka politika atspoguļo briedu nacionālā temperamentu izpratnē. «Siltākās kultūrās cilvēki skrien uz letes,» viņš paskaidroja. «Te letes jānonāk garīgi vispirms.»
+
+Vēlāk pēcpusdienā pirmā klusā rindu josla tika atklāta pašvaldības iestādē Āgenskalnā. Aculiecinieki ziņoja, ka iedzīvotāji ienāca ar redzamu atvieglojumu, virzījās maigos soļos un sasniedza ierēdni ar to, ko viens novērotājs raksturoja kā «augstāko gatavības līmeni, kāds jebkad reģistrēts Rīgā». Otrs novērotājs to nosauca par pārmērīgu, bet atzina, ka tomēr palika joslā, jo tas jutās drošāk.`,
+      ru: `РИГА — В том, что чиновники называют крупной инвестицией в общественное спокойствие, Рижская дума во вторник одобрила первый этап нового городского проекта инфраструктуры, предполагающего организацию специальных «тихих полос очереди» в ряде пунктов обслуживания по всей столице. Система, разработанная совместно с транспортными планировщиками, поведенческими исследователями и одной пенсионеркой из Пурвциемса, которую город описал как «чрезвычайно опытную в ожидании», призвана решать то, что муниципальный отчёт называет «преждевременным выступлением к прилавку».
+
+84-страничный отчёт, заказанный прошлой осенью после нескольких задокументированных случаев, когда людей пригласили вперёд до того, как они морально подготовились, показал, что 71% жителей Риги чувствуют себя «наиболее в своей тарелке», когда они третьи или четвёртые в очереди, тогда как только 9% уверены в себе, внезапно оказавшись первыми. Ещё 63% признались, что в заключительные секунды в очереди они рутинно делают вид, что ищут кошелёк, чтобы «смягчить переход». 
+
+«Мы не столько решаем проблему, сколько уважаем ритм», — сказала заместитель мэра Илзе Придīте на пресс‑конференции, которая, кстати, началась с опозданием на 17 минут. «Поколениями люди в Латвии воспринимали очередь не просто как логистическую конструкцию, а как созерцательное гражданское пространство. Опасное место — последние метр‑два». 
+
+В рамках пилота в участвующих точках будет оформлена обычная полоса и «тихая полоса очереди», где движение замедляется в среднем на 28%. На полу появятся зоны подготовки с надписями ДЫШИ, ДОКУМЕНТЫ и МАЛЕНЬКИЙ КИВОК. В некоторых муниципальных центрах перед тем, как человек станет следующим, будет мигать жёлтый предупредительный свет, а тихий сигнал, имитирующий звук далёкого троллейбуса, обеспечит то, что планировщики называют «психологической подушкой». 
+
+В «Максиме» в Тейке покупатели выразили осторожное одобрение. «Мне не сложно купить кефир», — сказал бухгалтер Андрис Озолс, 42 года, держа корзину с чёрным хлебом, огурцом и предметом, который он отказался называть. «Меня смущает, когда кассир смотрит на меня слишком рано. Тогда вдруг я уже не помню, пришёл ли я за сметаной или за экзистенциальным обслуживанием». 
+
+Фармацевт Лīga Бērziņa сказала, что эксперимент уже сократил путаницу у прилавка. «Обычно человек подойдёт, вздохнёт, проверит каждый карман, извинится ни за что и лишь потом начнёт существовать», — отметила она. «Теперь у него есть защищённый момент, чтобы стать готовым к розничной продаже». 
+
+Не все остались в восторге. Латвийская ассоциация нетерпеливых отцов раскритиковала инициативу как «бюрократическое празднование простоя», хотя её официальное заявление вышло с опозданием в 43 минуты, поскольку члены позволили пройти вперёд ещё трём людям. Тем временем экономисты Банка Латвии оценили, что формализация существующих национальных очередных привычек не окажет «никакого измеримого эффекта», отметив, что средняя скорость обслуживания в стране уже откалибрована на тишину, погодоустойчивую обувь и низкоинтенсивное примирение. 
+
+Город выделил 2,3 млн евро на первые шесть месяцев проекта, включая 480 000 евро на вывески, 210 000 евро на акустику очередей и 19 000 евро на консультанта, который определил, что инструкции не должны содержать более семи слов, «иначе люди почувствуют себя адресованными». В случае успеха модель может распространиться на междугородние автовокзалы, гардеробы музеев и один экспериментальный «эмоционально постепенный» паспортный стол в аэропорту Риги. 
+
+Социолог Мāрис Ķeveris из Балтийского института повседневных систем сказал, что политика отражает зрелое понимание национального темперамента. «В тёплых культурах люди бегут к прилавку», — пояснил он. «Здесь прилавок должен прийти сначала духовно». 
+
+К вечеру первая тихая полоса очереди открылась в муниципальном офисе в Āgenskalns. Свидетели сообщали, что жители входили с видимым облегчением, продвигались мягкими шагами и подходили к клерку с тем, что один наблюдатель охарактеризовал как «высочайший уровень готовности, когда‑либо зафиксированный в Риге». Второй наблюдатель назвал это излишним, но признал, что всё равно остался в полосе, потому что там было спокойнее.`
+    },
+    date: "Jun 5, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/175/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 174,
     slug: "riga-introduces-polite-silence-zone-on",
     title: {
@@ -96,7 +177,7 @@ Pēc veiksmīgā pilotprojekta amatpersonas apstiprināja, ka apsver koncepcijas
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/174/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 173,
