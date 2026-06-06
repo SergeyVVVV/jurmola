@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 176,
+    slug: "riga-introduces-polite-pothole-pilot-program",
+    title: {
+      en: "Riga Introduces ‘Polite Pothole’ Pilot Program, Promises Road Damage Will Now Acknowledge Drivers Before Swallowing Tires",
+      lv: "Rīga ievieš 'Pieklājīgās bedres' pilotprogrammu; sola, ka ceļa bojājumi tagad pabrīdinās vadītājus pirms norij riepas",
+      ru: "Рига запускает пилотную программу «Вежливая яма»: дорожные провалы теперь будут здороваться с водителями перед тем, как проглотить шину"
+    },
+    excerpt: {
+      en: "In an effort to modernize municipal services without repairing anything expensive, Riga City Council has unveiled a new smart-infrastructure initiative requiring major potholes to greet motorists with a brief apology. Officials say the program reflects European values, digital innovation, and the Latvian preference for suffering quietly but with administrative order.",
+      lv: "Lai modernizētu pašvaldības pakalpojumus, neremontējot neko dārgu, Rīgas dome atklāj jaunu viedo infrastruktūras iniciatīvu — lielākajām bedrēm būs jāapsveicina autovadītāji ar nelielu atvainošanās frāzi. Ierēdņi saka, ka programma atspoguļo Eiropas vērtības, digitālo inovāciju un latviešu priekšroku ciest klusi, bet ar administratīru kārtību.",
+      ru: "Стремясь модернизировать муниципальные услуги, не ремонтируя ничего дорогостоящего, Рижская городская дума представила новую инициативу «умной» инфраструктуры: крупным ямам предписывается кратко извиняться перед водителями. Чиновники заявляют, что программа отражает европейские ценности, цифровые инновации и латвийскую склонность терпеть молча, но с административным порядком."
+    },
+    fullContent: {
+      en: `RIGA — In a move city leaders described as “both technologically ambitious and emotionally mature,” Riga City Council on Tuesday launched a pilot program equipping 37 of the capital’s most active potholes with motion sensors and pre-recorded courtesy messages.
+
+Under the initiative, officially titled Respectful Surface Irregularities 2030, selected potholes on Brīvības iela, Maskavas iela, and one especially charismatic crater near the Central Station will now issue short verbal acknowledgements to approaching drivers, including: “Sorry for the inconvenience,” “Thank you for your patience,” and, during peak hours, “This is also difficult for me.”
+
+Deputy Chair for Mobility and Seasonal Resignation, Ilze Priedīte, said the program was developed after internal polling showed 82% of Riga residents no longer expected roads to improve, but 64% said they would appreciate “some sign the city understands what is happening to their suspension.”
+
+“We asked ourselves: must infrastructure only function physically?” Priedīte said while standing beside a waist-deep cavity marked with an EU co-financing plaque. “Or can it also function relationally? A pothole cannot always be closed. But it can listen. It can validate. It can say, ‘I see you.’ This is the direction of modern governance.”
+
+The city has allocated €418,000 for the first phase of the project, with most of the funding going toward weatherproof speakers, bilingual apology software, and a consulting contract with a design studio in Āgenskalns specializing in “trauma-sensitive urban interfaces.” According to procurement documents, one pothole near Teika was upgraded to premium status and now offers personalized greetings based on vehicle size.
+
+Commuters expressed cautious support. “I hit the same hole every morning at 8:12,” said accountant and Škoda owner Mārtiņš Ozols, waiting for roadside assistance outside a pharmacy in Purvciems. “Today it said, ‘Mārtiņ, again? We need to stop meeting like this.’ Honestly, I felt respected. The tire is gone, but the mood was better.”
+
+Others questioned the city’s priorities. Local resident and mother of two, Evita Lāce, said she initially believed the talking road damage was a prank by art students. “Then one of them wished my son success on his math olympiad,” she said. “So either the municipality has gone insane, or this is the most attentive public service we’ve ever had.”
+
+Officials insist the pilot is already producing measurable results. Data from the Riga Digital Development Department shows driver anger has decreased by 17% on streets where potholes use the formal pronoun of address, while social media complaints have become “more nuanced” and “slightly less all-caps.” The city is now testing adaptive responses for deeper winter conditions, including a feature where potholes blame freeze-thaw cycles, Soviet drainage inheritance, and coalition politics in varying proportions.
+
+Not all experts are convinced. Transport analyst Dr. Edgars Vītols of the Baltic Institute for Practical Disappointment warned that humanizing road defects could weaken pressure for actual repairs. “There is a danger citizens will begin forming emotional attachments,” he said. “We’ve already seen this with one pothole in Sarkandaugava that residents have named Dainis and decorated at Jāņi.”
+
+Still, city leaders remain optimistic. If the program succeeds, Riga plans to expand the concept to other municipal failures, including empathetic ticket machines, self-aware construction detours, and a tram announcement system that honestly admits when no one knows why it has stopped.
+
+At press time, officials confirmed one premium pothole in the centre had been temporarily deactivated after becoming “too intimate” with BMW drivers and promising it would “always be there for them,” which, residents noted, was the first reliable commitment any part of the transport network had made all year.`,
+      lv: `RĪGA — Solī, ko pilsētas vadītāji aprakstīja kā “gan tehnoloģiski ambiciozu, gan emocionāli nobriedušu”, Rīgas dome otrdien uzsāka pilotprogrammu, aprīkojot 37 no galvaspilsētas visaktīvākajām bedrēm ar kustības sensoriem un iepriekš ierakstītām pieklājības ziņām.
+
+Saskaņā ar iniciatīvu, kuras oficiālais nosaukums ir Cieņpilnās virsmas neregularitātes 2030, atlasītās bedres Brīvības ielā, Maskavas ielā un viena īpaši harizmātiska krātera pie Centrālās stacijas tagad izsaka īsus verbālus atzinumus tuvojošajiem autovadītājiem, tostarp: “Piedodiet par sagādātajām neērtībām,” “Paldies par pacietību,” un, pīķa stundās, “Tas arī man ir grūti.”
+
+Mobilitātes un sezonālās atkāpšanās vietniece Ilze Priedīte sacīja, ka programmu izstrādāja pēc iekšējiem aptaujas datiem, kas parādīja — 82% rīdzinieku vairs necer, ka ceļi uzlabosies, bet 64% teica, ka novērtētu “kādu zīmi, ka pilsēta saprot, kas notiek ar viņu piekari.”
+
+“Mēs sev jautājām: vai infrastruktūrai jāfunkcionē tikai fiziski?” Priedīte sacīja, stāvot pie vidukļa dziļuma iegruvuma, kas atzīmēts ar ES līdzfinansējuma plāksnīti. “Vai tā nevar darboties arī relacionāli? Bedre nevar vienmēr tikt aizlāpīta. Bet tā var klausīties. Tā var validēt. Tā var pateikt: ‘Es tevi redzu.’ Tas ir mūsdienīgas pārvaldības virziens.”
+
+Pilsēta pirmajam projekta posmam piešķīrusi 418 000 €, lielāko daļu līdzekļu novirzot laikapstākļu izturīgiem skaļruņiem, divvalodu atvainošanās programmatūrai un konsultāciju līgumam ar Āgenskalna dizaina studiju, kas specializējas “traumu jutīgās pilsētas saskarnēs.” Iepirkumu dokumentos norādīts, ka viena bedre Teikas pusē tika paaugstināta līdz premium statusam un tagad piedāvā personalizētus sveicienus atkarībā no transportlīdzekļa izmēra.
+
+Kāpjēji izteica piesardzīgu atbalstu. “Es katru rītu pulksten 8:12 trāpīju tajā pašā bedrē,” sacīja grāmatvedis un Škoda īpašnieks Mārtiņš Ozols, gaidot ceļabiedru palīdzību pie aptiekas Purvciemā. “Šodien tā teica: ‘Mārtiņ, atkal? Mums jāpārtrauc tik bieži tikties šādi.’ Godīgi sakot, es jutos cienīts. Riepa ir pazudusi, bet noskaņojums bija labāks.”
+
+Citi vērsās pret pilsētas prioritātēm. Vietējā iedzīvotāja un divu bērnu mamma Evita Lāce sacīja, ka sākumā domāja — runājošā bedres ir mākslas studentu joks. “Tad viena no tām vēlēja manam dēlam veiksmi matemātikas olimpiādē,” viņa teica. “Tātad vai nu pašvaldība ir sajukusi prātā, vai arī tas ir visuzmanīgākais publiskais pakalpojums, kāds mums jebkad bijis.”
+
+Ierēdņi uzstāj, ka pilots jau sniedz izmērāmus rezultātus. Rīgas Digitālās attīstības departamenta dati rāda, ka vadītāju dusmas samazinājušās par 17% uz ielām, kur bedres lieto formālo “jūs”, savukārt sūdzības sociālajos tīklos kļuvušas “niansētākas” un “mazliet mazāk VISIEM BURTIEM.” Pilsēta tagad testē adaptīvas atbildes dziļākām ziemas vajadzībām, tai skaitā funkciju, kur bedrēs dažādās proporcijās tiek vainoti sasalšanas–atsalšanas cikli, padomju notekūdeņu mantojums un koalīcijas politika.
+
+Ne visi eksperti ir pārliecināti. Transporta analītiķis Dr. Edgars Vītols no Baltijas Praktiskās Viltus Institūta brīdināja, ka ceļa defektu humanizācija var vājināt spiedienu pēc reāliem remontiem. “Pastāv risks, ka pilsoņi sāks veidot emocionālas pieķeršanās,” viņš sacīja. “Mēs to jau redzam ar vienu bedri Sarkandaugavā, ko iedzīvotāji nosaukuši par Daini un rotājuši Jāņos.”
+
+Tomēr pilsētas vadītāji paliek optimistiski. Ja programma izdosies, Rīga plāno šo koncepciju paplašināt arī uz citiem pašvaldības neveiksmju aspektiem — empātiskiem biļešu automātiem, pašapzinīgām būvdarbu apbrauktuvēm un tramvaja paziņojumu sistēmu, kas godīgi atzīst, kad neviens nezina, kāpēc tas apstājies.
+
+Preses brīdī ierēdņi apstiprināja, ka viena premium centralizētā bedre pagaidām tika deaktivizēta pēc tam, kad tā kļuva “pārāk intīma” ar BMW vadītājiem un solīja, ka “vienmēr būs viņiem blakus,” kas, iedzīvotāji piebilda, bija pirmais uzticamais solījums, ko jebkura transporta tīkla daļa gada laikā bija izteikusi.`,
+      ru: `РИГА — В шаге, который городские власти охарактеризовали как «и технологически амбициозный, и эмоционально зрелый», Рижская городская дума во вторник запустила пилотную программу, оснастив 37 из самых активных в столице ям датчиками движения и заранее записанными вежливыми сообщениями.
+
+В рамках инициативы, официальное название которой — «Уважительные неровности поверхности — 2030», выбранные ямы на Brīvības iela, Maskavas iela и одна особенно харизматичная воронка около Центрального вокзала теперь будут выдавать краткие вербальные подтверждения водителям, приближающимся к ним: «Извините за неудобства», «Спасибо за терпение» и, в часы пик, «Мне это тоже нелегко». 
+
+Заместитель председателя по мобильности и сезонным отставкам Илзе Приедите сказала, что программа была разработана после внутренних опросов, показавших, что 82% рижан больше не ожидают улучшений дорог, но 64% заявили, что им бы «понравился какой‑нибудь знак, что город понимает, что происходит с их подвеской». 
+
+«Мы спросили себя: должна ли инфраструктура функционировать только физически?» — сказала Приедите, стоя рядом с ямой по пояс, помеченной табличкой о софинансировании ЕС. «Или она может функционировать реляционно? Яму не всегда удастся заделать. Но она может слушать. Она может подтверждать. Она может сказать: „Я тебя вижу.“ Это направление современной власти». 
+
+Город выделил €418 000 на первый этап проекта, большая часть средств пошла на влагозащищённые динамики, двуязычное программное обеспечение извинений и консалтинговый контракт с дизайн‑студией в Āgenskalns, специализирующейся на «чувствительных к травмам городских интерфейсах». Согласно документам по закупкам, одна яма в районе Teika получила премиум‑статус и теперь предлагает персонализированные приветствия в зависимости от размера транспортного средства.
+
+Пассажиры отнеслись с осторожной поддержкой. «Я попадаю в одну и ту же яму каждое утро в 8:12», — сказал бухгалтер и владелец Škoda Мārtiņš Ozols, ожидая помощи на обочине возле аптеки в Purvciems. «Сегодня она сказала: «Mārtiņ, опять? Нам пора перестать встречаться вот так». Честно говоря, я почувствовал себя уважаемым. Шина пропала, но настроение стало лучше». 
+
+Другие усомнились в приоритетах города. Местная жительница и мать двоих детей Эвита Лаче сначала подумала, что говорящая дорожная поломка — розыгрыш студентов‑художников. «Потом одна из них пожелала моему сыну удачи на математической олимпиаде», — сказала она. «Так что либо муниципалитет сошёл с ума, либо это самая внимательная государственная услуга, какая у нас когда‑либо была». 
+
+Чиновники настаивают, что пилот уже даёт измеримые результаты. Данные Департамента цифрового развития Риги показывают, что злость водителей уменьшилась на 17% на улицах, где ямы используют формальное обращение на «Вы», а жалобы в социальных сетях стали «более нюансированными» и «чуть менее написанными CAPS LOCK’ом». Город сейчас тестирует адаптивные ответы для более суровой зимы, включая функцию, при которой ямы в переменных пропорциях винят циклы заморозки‑оттаивания, наследие советской дренажной системы и коалиционную политику. 
+
+Не все эксперты убеждены. Транспортный аналитик д-р Эдгарс Витолс из Балтийского института практического разочарования предупредил, что очеловечивание дорожных дефектов может ослабить давление в пользу реального ремонта. «Существует риск, что граждане начнут формировать эмоциональные привязанности», — сказал он. «Мы уже видели это с одной ямой в Sarkandaugava, которую жители нарекли Дайнис и украшали на Jāņi». 
+
+Тем не менее городские власти остаются оптимистичными. Если программа окажется успешной, Рига планирует расширить концепт на другие муниципальные провалы, включая сочувствующие билетные автоматы, самосознающие объездные указатели стройплощадок и систему объявлений в трамваях, которая честно признается, когда никто не знает, почему он встал. 
+
+На момент подготовки материала чиновники подтвердили, что одна яма премиум‑класса в центре была временно деактивирована после того, как стала «слишком интимной» с водителями BMW и пообещала «всегда быть для них рядом», что, по мнению жителей, было первым надёжным обязательством со стороны транспортной сети за весь год.`
+    },
+    date: "Jun 6, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/176/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 175,
     slug: "riga-introduces-quiet-queue-lanes-after",
     title: {
@@ -96,7 +183,7 @@ Vēlāk pēcpusdienā pirmā klusā rindu josla tika atklāta pašvaldības iest
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/175/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 174,
