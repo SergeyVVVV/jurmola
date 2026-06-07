@@ -18,6 +18,109 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 177,
+    slug: "riga-introduces-official-14-minute-pause",
+    title: {
+      en: "Riga Introduces Official 14-Minute Pause So Residents Can Stare Silently at Daugava and Feel Something",
+      lv: "Rīga ievieš oficiālu 14 minūšu pauzi, lai iedzīvotāji klusējot varētu skatīties uz Daugavu un kaut ko sajust",
+      ru: "Рига вводит официальную 14‑минутную паузу, чтобы жители могли молча уставиться на Даугаву и что‑то почувствовать"
+    },
+    excerpt: {
+      en: "In a pilot program announced Tuesday, Riga City Council has approved a mandatory daily 14-minute municipal pause during which residents are encouraged to stop working, face the Daugava, and experience a brief but state-recognized emotional complexity. Officials say the measure will improve productivity, cultural cohesion, and the city’s competitiveness with Helsinki, which currently offers only informal melancholy.",
+      lv: "Otrdien izziņotajā pilotprogrammā Rīgas dome apstiprināja obligātu ikdienas 14 minūšu pašvaldības pauzi, kuras laikā iedzīvotājiem tiek ieteikts pārtraukt darbu, pavērsties Daugavai un izjust īslaicīgu, taču valsts atzītu emocionālu sarežģītību. Pārstāvji apgalvo, ka pasākums uzlabos produktivitāti, kultūras saliedētību un pilsētas konkurētspēju pret Helsinkiem, kas šobrīd piedāvā tikai neformālu melanholiju.",
+      ru: "В пилотной программе, объявленной во вторник, Городской совет Риги утвердил обязательную ежедневную 14‑минутную муниципальную паузу, во время которой жителям рекомендуется прекратить работу, повернуться к Даугаве и пережить краткую, но официально признанную эмоциональную сложность. По словам чиновников, мера повысит продуктивность, культурную сплочённость и конкурентоспособность города с Хельсинки, где пока что предлагают лишь неформальную меланхолию."
+    },
+    fullContent: {
+      en: `RIGA — In what planners are calling "an evidence-adjacent investment in urban emotional infrastructure," Riga City Council has voted 38–19 to establish a daily citywide reflective interval known as the Daugava Pause, requiring offices, schools, municipal counters, and at least one-third of cafés to temporarily suspend activity at 15:14 each afternoon so residents can stand still and look in the general direction of the river.
+
+The initiative, which begins next month in the Central District and parts of Āgenskalns, is intended to formalize a behavior many Riga residents already perform spontaneously between November and April, usually while wearing a coat they no longer believe in. According to the 67-page policy document, the pause will give citizens "a structured opportunity to process weather, history, tram delays, and the mild but persistent suspicion that summer was better in 2011."
+
+Deputy Mayor for Civic Atmosphere Ilze Krumiņa said the city had no choice but to act after an internal survey found that 82% of office workers were already taking unofficial windowside silences lasting up to 11 minutes per day, often without proper municipal guidance.
+
+"People were reflecting inconsistently," Krumiņa told reporters beside a folding easel showing a chart labeled PUBLIC FEELING, with a single arrow pointing sideways. "Some gazed at the river. Some at wet pavement. One department in Teika was merely sighing into a microwave. We understood that if Riga wanted to remain a modern Northern European capital, emotional ambiguity had to be standardized."
+
+Under the new rules, participating workplaces will dim overhead lighting, silence desktop notifications, and play a low municipal tone described by contractors as "somewhere between a ferry horn and an unresolved cello thought." Residents not within visual range of the Daugava may use approved substitutes, including canal water, a photograph of the river printed at no less than A4 size, or, in extreme cases, a large gray parking lot.
+
+The city said the 14-minute duration was selected after consultations with sociologists, transit planners, and a man in Sarkandaugava who had "seen a lot." Anything under 10 minutes was found insufficient to produce meaningful contemplation, while anything over 16 caused participants to begin forming opinions about national railway policy.
+
+Not everyone is convinced. Small business owners in the Old Town have complained the pause will create confusion among tourists, many of whom already believe Latvians are engaged in a permanent cultural intermission.
+
+"Yesterday a British couple asked if we were closed or simply being Baltic," said café manager Artūrs Mežulis, whose establishment has been testing the program for two weeks. "I told them both. Sales of napoleon cake dropped 6%, but sales of black coffee rose 19%, so in a way the sadness monetized itself."
+
+Education officials have welcomed the policy, saying children have responded positively to a pilot version called Quiet Looking Time. At Riga Secondary School No. 34, students were instructed to stand by the window and contemplate the water cycle, the passage of time, and whether their classmate Miks was actually funny or just tall. Teachers reported a 27% decline in random shouting and a 41% increase in essays containing the phrase "in a broader sense."
+
+Meanwhile, Jurmala leaders have accused Riga of copying coastal introspection without acknowledging prior art. Jurmala City spokesperson Santa Ozoliņa noted that seaside residents have been pausing dramatically near water for generations, often with scarves.
+
+"Riga is trying to scale what Jurmala perfected organically," Ozoliņa said. "You cannot bureaucratize yearning. Although if they apply for the EU pilot funding, we would review the documents."
+
+By evening, the first public reaction appeared cautiously supportive. Near the Stone Bridge, accountant Mārtiņš Svilāns stood facing the river with 43 others and described the experience as "efficiently unresolved."
+
+"Normally I postpone these feelings until the tram home," he said. "It is nice that the municipality now values them enough to schedule them."
+
+City officials say that if the Daugava Pause succeeds, Riga may expand the concept in 2027 with a seasonal Late Autumn Corridor, in which residents move slowly through fallen leaves while receiving tax reminders in a tasteful serif font.`,
+      lv: `RĪGA — To, ko plānotāji dēvē par 'pierādījumiem klāt stāvošu investīciju pilsētvides emocionālajā infrastruktūrā', Rīgas dome nobalsoja 38 pret 19 par ikdienas pilsētas mēroga reflektīvu intervālu, kas tiks saukts par Daugavas pauzi, prasot birojiem, skolām, pašvaldības klientu daļām un vismaz trešdaļai kafejnīcu īslaicīgi pārtraukt darbību katru dienu plkst. 15:14, lai iedzīvotāji varētu nekustīgi pastāvēt un skatīties aptuveni uz upes pusi.
+
+Iniciatīva, kas sākas nākamajā mēnesī Centrālajā rajonā un Āgenskalna daļās, paredz formalizēt uzvedību, ko daudzi rīdzinieki jau spontāni īsteno no novembra līdz aprīlim, parasti valkājot mēteli, kuram vairs netic. Saskaņā ar 67 lappušu politikas dokumentu pauze sniegs pilsoņiem 'strukturētu iespēju apstrādāt laika apstākļus, vēsturi, tramvaju kavēšanos un vieglu, bet pastāvīgu aizdomu, ka vasara 2011. gadā bija labāka.'
+
+Rīcības vicemēre sabiedriskās atmosfēras jautājumos Ilze Krumiņa žurnālistiem stāstīja pie salokāma stenda ar diagrammu, kurai bija uzraksts 'SABIEDRĪBAS JŪTAS' un viena bultiņa, kas rādīja uz sāniem: 'Cilvēki reflektēja nekonsekventi. Daži skatījās uz upi. Daži uz slapjo ielu. Vienā nodaļā Teikā vienkārši stūdēja elpu mikroviļņu krāsnī. Mēs sapratām, ka, ja Rīga vēlas palikt par mūsdienīgu Ziemeļeiropas galvaspilsētu, emocionālajai daudznozīmībai jābūt standartizētai.'
+
+Saskaņā ar jaunajiem noteikumiem dalībnieku darba vietas nedaudz samazinās apgaismojumu, izslēgs darbvirsmas paziņojumus un atskaņos zemu pašvaldības toni, ko izpildītāji raksturojuši kā 'kaut kur starp prāmja ragu un neatrisinātas čella domas skaņu.' Iedzīvotāji, kuri neatrodas redzamībā pret Daugavu, varēs izmantot apstiprinātus aizstājējus, tostarp kanāla ūdeni, upes fotogrāfiju drukātā izmērā ne mazāk kā A4 formāts vai, krašākos gadījumos, lielu pelēku autostāvvietu.
+
+Pilsēta norādīja, ka 14 minūšu ilgums tika izvēlēts pēc konsultācijām ar sociologiem, satiksmes plānotājiem un vīru no Sarkandaugavas, kurš 'bija redzējis daudz.' Viss zem 10 minūtēm atzīts par nepietiekamu jēgpilnai pārdomai, bet viss virs 16 minūtēm lika dalībniekiem sākt izteikt viedokļus par valsts dzelzceļa politiku.
+
+Ne visi ir pārliecināti. Vecpilsētas mazie uzņēmēji sūrojas, ka pauze radīs neskaidrību tūristu vidū, kuri jau tāpat bieži domā, ka latvieši dzīvo pastāvīgā kultūras starpbrīdī.
+
+'Vakar britu pāris jautāja, vai mēs esam ciet vai vienkārši baltiski,' sacīja kafejnīcas vadītājs Artūrs Mežulis, kura iestāde divas nedēļas testē programmu. 'Es viņiem teicu abus. Napoleona kūkas pārdošana nokritās par 6%, bet melnās kafijas pārdošana pieauga par 19%, tādējādi skumjas pa retam arī monetizējās.'
+
+Izglītības iestāžu pārstāvji ir uzņēmuši politiku atzinīgi, norādot, ka bērni pozitīvi reaģējuši uz pilotversiju, ko dēvē par Kluso skatīšanās laiku. Rīgas 34. vidusskolā skolēniem lika stāvēt pie loga un pārdomāt ūdens apriti, laika plūdumu un to, vai viņu klasesbiedrs Miks tiešām ir smieklīgs vai tikai garš. Skolotāji ziņoja par 27% kritumu nejaušu kliedzienu skaitā un 41% pieaugumu esejās, kurās iekļauts izteiciens 'plašākā nozīmē.'
+
+Tikmēr Jūrmalas vadība apsūdzējusi Rīgu par piejūras introspekcijas kopēšanu, neatzīstot priekšā izgudrotās prakses. Jūrmalas pilsētas pārstāve Santa Ozoliņa atzīmēja, ka piejūras iedzīvotāji gadu desmitiem dramatiskā klusēšanā pie ūdens pauzējuši ar šallēm.
+
+'Rīga mēģina mērogot to, ko Jūrmala organiskā ceļā izkopusi,' sacīja Ozoliņa. 'Ilgas nevar birokrātizēt. Lai gan, ja viņi pieteiksies ES pilotprojektu finansējumam, mēs izskatīsim dokumentus.'
+
+Vakarā pirmā publiskā reakcija šķita piesardzīgi atbalstoša. Pie Akmens tilta grāmatvedis Mārtiņš Svilāns stāvēja, seju pavērstām pret upi, kopā ar 43 citiem un raksturoja pieredzi kā 'efektīvi neatrisinātu.'
+
+'Parasti es šīs izjūtas atlieku līdz tramvajam mājup,' viņš teica. 'Patīkami, ka pašvaldība tagad tās vērtē tik augstu, lai tās pieliktu grafikai.'
+
+Pilsētas amatpersonas norāda, ka, ja Daugavas pauze izrādīsies veiksmīga, 2027. gadā Rīga varētu paplašināt koncepciju ar sezonālu Vēlā rudens koridoru, kurā iedzīvotāji lēnām soļotu cauri nokritušajām lapām, saņemot nodokļu atgādinājumus gaumīgā serifu burtveidā.`,
+      ru: `РИГА — В том, что планировщики называют «инвестиция, с натяжкой опирающаяся на доказательства, в городскую эмоциональную инфраструктуру», Городской совет Риги проголосовал 38–19 за установление ежедневного городского рефлексивного интервала, известного как Пауза Даугавы, согласно которому офисы, школы, муниципальные окна обслуживания и как минимум треть кафе должны временно приостановить деятельность в 15:14 каждый день, чтобы жители могли встать и посмотреть в общем направлении реки.
+
+Инициатива, которая начнётся в следующем месяце в Центральном районе и частично в Āgenskalns, призвана формализовать поведение, которое многие рижане уже совершают спонтанно с ноября по апрель, обычно в пальто, в которое они уже перестали верить. Согласно 67‑страничному документу по политике, пауза даст гражданам «структурированную возможность переработать погоду, историю, задержки трамваев и лёгкое, но стойкое подозрение, что лето было лучше в 2011 году». 
+
+Заместитель мэра по гражданской атмосфере Ilze Krumiņa заявила, что город не имел выбора, кроме как вмешаться, после того как внутренний опрос показал, что 82% офисных работников уже устраивали неофициальные молчаливые окна у подоконника продолжительностью до 11 минут в день, часто без надлежащего муниципального руководства.
+
+«Люди рефлексировали непоследовательно», — сказала Krumiņa репортёрам рядом со складной мольбертом, на котором был график с надписью PUBLIC FEELING и одной стрелкой, указывающей вбок. «Кто‑то смотрел на реку. Кто‑то — на мокрый тротуар. Один отдел в Тейке просто вздыхают в микроволновку. Мы поняли, что если Рига хочет оставаться современной североевропейской столицей, эмоциональная неоднозначность должна быть стандартизирована». 
+
+В соответствии с новыми правилами, участвующие рабочие места будут приглушать верхнее освещение, отключать уведомления на десктопах и проигрывать низкий муниципальный тон, который подрядчики описали как «где‑то между гудком парома и нерешённой мыслью виолончели». Жители, которые не видят Даугаву, могут использовать одобренные замены, включая воду из канала, фотографию реки размером не меньше A4 или, в крайних случаях, большую серую парковку.
+
+Город заявил, что продолжительность в 14 минут была выбрана после консультаций с социологами, планировщиками транспорта и мужчиной из Sarkandaugava, «многое повидавшим». Всё, что меньше 10 минут, признали недостаточным для значимого созерцания, тогда как всё, что больше 16, заставляло участников начинать формулировать мнения по поводу национальной железнодорожной политики.
+
+Не все в восторге. Владельцы малого бизнеса в Старом городе жалуются, что пауза создаст путаницу среди туристов, многие из которых уже считают, что латыши участвуют в постоянной культурной антрактации.
+
+«Вчера одна британская пара спросила, закрыты ли мы или мы просто по‑балтийски», — сказал управляющий кафе Artūrs Mežulis, заведение которого тестировало программу две недели. «Я ответил — и то, и другое. Продажи торта «наполеон» упали на 6%, но продажи чёрного кофе выросли на 19%, так что в некотором смысле печаль монетизировалась». 
+
+Представители сферы образования приветствовали политику, заявив, что дети положительно отреагировали на пилотную версию под названием Время Тихого Созерцания. В Рижской средней школе №34 учащимся поручили встать у окна и созерцать круговорот воды, течение времени и вопрос, действительно ли их одноклассник Miks смешной или просто высокий. Учителя отметили 27% снижение случайных выкриков и 41% рост эссе, содержащих фразу «в более широком смысле». 
+
+Между тем лидеры Юрмалы обвинили Ригу в копировании прибрежной интроспекции без признания предшествующего опыта. Пресс‑секретарь города Jurmala Santa Ozoliņa отметила, что прибрежные жители веками драматично замирали у воды, нередко в шарфах.
+
+«Рига пытается масштабировать то, что Юрмала довела до совершенства органически», — сказала Ozoliņa. «Бюрократизировать тоску нельзя. Хотя если они подадут заявку на пилотное финансирование ЕС, мы рассмотрим документы». 
+
+К вечеру первая общественная реакция выглядела осторожно поддерживающей. Возле Каменного моста бухгалтер Mārtiņš Svilāns стоял лицом к реке вместе с 43 другими и описал переживание как «эффективно нерешённое».
+
+«Обычно я откладываю эти чувства до трамвая домой», — сказал он. «Приятно, что теперь муниципалитет ценит их настолько, чтобы записать в расписание». 
+
+Городские власти говорят, что если Пауза Даугавы окажется успешной, в 2027 году Рига может расширить концепцию сезонным Коридором Поздней Осени, во время которого жители медленно будут идти по опавшим листьям, получая напоминания о налогах в изящном шрифте с засечками.`
+    },
+    date: "Jun 7, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/177/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 176,
     slug: "riga-introduces-polite-pothole-pilot-program",
     title: {
@@ -102,7 +205,7 @@ Preses brīdī ierēdņi apstiprināja, ka viena premium centralizētā bedre pa
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/176/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 175,
