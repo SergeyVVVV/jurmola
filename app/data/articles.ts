@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 178,
+    slug: "riga-introduces-polite-pothole-pilot-program-178",
+    title: {
+      en: "Riga Introduces ‘Polite Pothole’ Pilot Program, Asking Drivers To Confirm Before Suspension Damage",
+      lv: "Rīga ievieš pilotprogrammu „Pieklājīgā bedre”, lūdzot vadītājus apstiprināt pirms balstiekārtas bojājuma",
+      ru: "Рига запускает пилотную программу «Вежливая яма», прося водителей подтвердить перед повреждением подвески"
+    },
+    excerpt: {
+      en: "In a move city officials say will modernize road etiquette, Riga has begun installing motion-sensitive speakers inside major potholes that politely warn motorists before impacting their vehicles. The pilot program, launched in Purvciems and parts of Čiekurkalns, is intended to make winter infrastructure feel \"more transparent, humane, and digitally aligned.\"",
+      lv: "Lai, pēc pilsētas amatpersonu teiktā, modernizētu ceļu etiķeti, Rīgā sāktas kustības jutīgas skaņas instalācijas lielākajās bedrēs, kas pieklājīgi brīdina autovadītājus pirms ietekmē to transportlīdzekļus. Pilotprojekts, kas palaists Purvciemā un daļā Čiekurkalna, paredz padarīt ziemas infrastruktūru „caurspīdīgāku, cilvēciskāku un digitāli saskaņotāku.”",
+      ru: "В стремлении, по словам городских чиновников, модернизировать дорожный этикет, Рига начала устанавливать в крупных ямах датчики движения и динамики, которые вежливо предупреждают водителей до удара по автомобилю. Пилотный проект, запущенный в Purvciems и частях Čiekurkalns, призван сделать зимнюю инфраструктуру «более прозрачной, человечной и цифрово ориентированной»."
+    },
+    fullContent: {
+      en: `RIGA — Riga City Council on Tuesday unveiled the capital’s new “Polite Pothole” initiative, a municipal pilot program under which several of the city’s deepest road cavities now issue verbal warnings to approaching cars moments before swallowing part of the front axle.
+
+The project, funded through a mix of municipal innovation grants and what officials described as “leftover smart-city money nobody could quite return,” has so far equipped 37 potholes with compact weatherproof speakers, pressure sensors, and prerecorded courtesy messages in Latvian, Russian, English, and, in one case near the Central Station, passive-aggressive silence.
+
+According to the Department of Street Atmosphere and Surface Expectations, the potholes are not being repaired because the city wanted first to explore “communication-based infrastructure.” Drivers approaching one of the enhanced cavities may now hear messages such as, “Good evening. Please prepare emotionally,” “Attention: a meaningful dip is ahead,” and “The municipality appreciates your continued participation.”
+
+Deputy Transport Committee chairwoman Ilze Bērziņa said the system reflects a broader shift in public administration away from “old-fashioned conflict between citizen and crater.”
+
+“For too long, potholes have just happened to people,” Bērziņa told reporters while standing beside a waist-deep opening on Dzelzavas Street draped with a small EU flag. “We asked ourselves: what if the pothole could show respect? What if the road acknowledged your presence before rearranging your wheel alignment?”
+
+Initial data collected during the first 10 days of the trial indicate that overall suspension damage has remained unchanged, but driver satisfaction has risen by 63 percent among those who described the warning voice as “calm,” “maternal,” or “less shocking than the impact itself.” A smaller but statistically significant group said they now feel “seen by the municipality for the first time.”
+
+Not all residents are convinced. Teika resident and Audi owner Mārtiņš Ozols said he appreciated the courtesy but questioned the city’s long-term priorities after his vehicle struck a pothole near VEF and was told, in flawless English, “Thank you for choosing Riga.”
+
+“I won’t lie, it was elegant,” Ozols said, waiting for a tow truck. “The hole had better customer service than my bank. But I still lost two hubcaps and, I think, trust.”
+
+The city’s contracted audio designer, former radio presenter and ambient poet Kaspars Lācis, said each pothole voice was selected to reflect neighborhood character. In Āgenskalns, for example, potholes speak in a warm intellectual tone, while in the center they are “slightly hurried, cosmopolitan, and under parking pressure.” One experimental pothole in Sarkandaugava emits only a long disappointed exhale.
+
+Municipal planners say the next phase may include premium features. A subscription-based mobile app, Bedre+, would allow drivers to rate potholes, receive loyalty points after repeated encounters, and unlock personalized warnings such as “Welcome back, Jānis” or “Based on your driving history, this is on you too.”
+
+Officials in Jūrmala have already expressed interest in adapting the system for seasonal use, particularly in areas where visitors from Riga expect smooth streets simply because there are pine trees nearby. A spokesman for the resort city confirmed that local planners are testing “luxury potholes” that apologize in a softer voice and mention sea air.
+
+At press time, the Ministry of Transport had praised Riga’s innovation while reminding citizens that under current law, any pothole deeper than 18 centimeters must still be classified either as a road defect or, if located near a tram line, “part of the historical experience.”`,
+      lv: `RĪGA — Rīgas domē otrdien atklāja galvaspilsētas jauno iniciatīvu „Pieklājīgā bedre”, pašvaldības pilotprogrammu, saskaņā ar kuru vairākas no pilsētas dziļākajām ceļa iedobēm tagad dažas sekundes pirms priekšējās ass daļēji norijšanas verbāli brīdina piebraucošos auto.
+
+Projekts, finansēts no pašvaldības inovāciju grantiem un tā dēvētajiem „palikušajiem viedpilsētas līdzekļiem, kurus neviens īsti nevarēja atgriezt”, līdz šim aprīkojis 37 bedres ar kompaktām laikapstākļiem noturīgām skaļruņu kastēm, spiediena sensoriem un iepriekš ierakstītām pieklājības ziņām latviešu, krievu, angļu valodā un, vienā gadījumā pie Centrālās stacijas, ar pasīv‑agresīvu klusumu.
+
+Saskaņā ar „Ielu atmosfēras un seguma gaidīšanas departamentu”, bedres netiek labotas, jo pilsēta vispirms vēlējās izpētīt „uz komunikāciju balstītu infrastruktūru”. Vadītāji, kas tuvina kādai no uzlabotajām iedobēm, tagad var dzirdēt ziņojumus, piemēram: „Labvakar. Lūdzu, sagatavojieties emocionāli,” „Uzmanību: nozīmīgs iegrimis priekšā” un „Pašvaldība novērtē jūsu turpmāko līdzdalību.”
+
+Transporta komitejas priekšsēdētājas vietniece Ilze Bērziņa žurnālistiem pie stāvus līdz viduklim atverētas bedrītes Dzelzavas ielā, apkarinātas ar mazu ES karodziņu, sacīja, ka sistēma atspoguļo plašāku pārvaldes pāreju prom no „vecmodīgas cīņas starp pilsoni un krāteri.”
+
+„Pārāk ilgi bedres vienkārši gadījās cilvēkiem,” Bērziņa teica. „Mēs pajautājām: kas būtu, ja bedre spētu izrādīt cieņu? Kas būtu, ja ceļš atzītu jūsu klātbūtni pirms pārkārto jūsu riteņu izlīdzinājumu?”
+
+Sākotnējie dati, kas iegūti pirmajās 10 eksperimenta dienās, liecina, ka kopējie balstiekārtas bojājumi nav mainījušies, taču vadītāju apmierinātība pieauga par 63 procentiem to starpā, kuri brīdinošo balsi raksturoja kā „mierīgu”, „mātes cienīgu” vai „mazāk satricinošu par pašu triecienu”. Mazāka, bet statistiski nozīmīga grupa sacīja, ka tagad „pirmo reizi jūtas redzēta no pašvaldības puses.”
+
+Ne visi iedzīvotāji ir pārliecināti. Teikas iedzīvotājs un Audi īpašnieks Mārtiņš Ozols sacīja, ka novērtē pieklājību, bet apšaubīja pilsētas ilgtermiņa prioritātes pēc tam, kad viņa auto trāpīja bedrē pie VEF un tam perfekti angliski pavēstīja: „Thank you for choosing Riga.”
+
+„Neglābsimies, tas bija eleganti,” Ozols teica, gaidot evakuatoru. „Bedrei bija labāka klientu apkalpošana nekā manai bankai. Bet es tomēr pazaudēju divus ratu vāciņus un, šķiet, arī uzticību.”
+
+Pilsētas pasūtītais skaņas dizaineris, bijušais radio vadītājs un ambientais dzejnieks Kaspars Lācis sacīja, ka katras bedres balss izvēlēta, lai atspoguļotu apkārtnes raksturu. Piemēram, Āgenskalna bedres runā siltā intelektuālā tonī, kamēr centrā tās ir „nedaudz steidzīgas, kosmopolītiskas un pakļautas stāvvietu spiedienam.” Viens eksperimentāls bedre Sarkandaugavā izdod tikai garu vīlušos izelpu.
+
+Pilsētas plānotāji norāda, ka nākamā fāze var iekļaut premium funkcijas. Abonementam balstīta mobilā lietotne Bedre+ ļautu vadītājiem vērtēt bedres, saņemt lojalitātes punktus pēc atkārtotām saskarsmēm un atbloķēt personalizētus brīdinājumus, piemēram, „Laipni atgriezies, Jāni” vai „Pamatojoties uz tavu braukšanas vēsturi, arī tas ir tavs nopelns.”
+
+Jūrmalas amatpersonas jau paudušas interesi pielāgot sistēmu sezonālai lietošanai, īpaši vietās, kur Rīgas viesi sagaida gludus ceļus tikai tāpēc, ka apkārt ir priedes. Atpūtas pilsētas pārstāvis apstiprināja, ka vietējie plānotāji testē „luksusa bedres”, kas atvainojas maigākā balsī un piemin jūras gaisu.
+
+Preses brīdī Satiksmes ministrija slavēja Rīgas inovāciju, vienlaikus atgādinot iedzīvotājiem, ka saskaņā ar spēkā esošo likumu jebkura bedre, kas dziļāka par 18 centimetriem, joprojām ir jāklasificē vai nu kā ceļa defekts, vai — ja atrodas tramvaja līnijas tuvumā — „daļa no vēsturiskās pieredzes.”`,
+      ru: `РИГА — Рижская дума во вторник представила столичную инициативу «Вежливая яма», муниципальную пилотную программу, в рамках которой несколько самых глубоких дорожных впадин города теперь за пару мгновений до проглатывания части переднего моста вслух предупреждают приближающиеся автомобили.
+
+Проект, финансируемый за счёт смешения муниципальных грантов на инновации и того, что чиновники описали как «остатки смарт‑сити денег, которые никто толком не умел вернуть», пока оснастил 37 ям компактными влагозащищёнными динамиками, датчиками давления и заранее записанными вежливыми сообщениями на латышском, русском, английском и, в одном случае возле Центрального вокзала, пассивно‑агрессивным молчанием.
+
+По данным Департамента уличной атмосферы и ожиданий дорожного покрытия, ямы не ремонтируются, потому что город сначала хотел исследовать «инфраструктуру, основанную на коммуникации». Водители, подъезжающие к одной из «улучшенных» впадин, теперь могут услышать такие сообщения, как «Добрый вечер. Пожалуйста, приготовьтесь эмоционально», «Внимание: впереди значительное понижение» и «Муниципалитет ценит ваше продолжающееся участие». 
+
+Зампредседателя Транспортного комитета Илзе Берзиня заявила, что система отражает более широкий сдвиг в публичной администрации прочь от «старомодного конфликта между гражданином и кратером». 
+
+«Слишком долго ямы просто случались с людьми», — сказала Берзиня журналистам, стоя рядом с провалом по пояс на улице Дзельзавас, украшенным маленьким флагом ЕС. «Мы спросили себя: а что если яма сможет проявить уважение? Что если дорога признает ваше присутствие до того, как переставит развал‑схождение ваших колёс?»
+
+Первые данные, собранные за первые 10 дней испытания, показывают, что общие повреждения подвески остались без изменений, но удовлетворённость водителей выросла на 63 процента среди тех, кто описал голос‑предупреждение как «спокойный», «материнский» или «менее шокирующий, чем само столкновение». Меньшая, но статистически значимая группа заявила, что теперь чувствует себя «видимой муниципалитетом впервые». 
+
+Не все жители убедились. Житель Тейки и владелец Audi Мартиньш Озолс сказал, что он оценил вежливость, но усомнился в долгосрочных приоритетах города после того, как его автомобиль врезался в яму возле VEF и ему на безупречном английском было сказано: «Thank you for choosing Riga». 
+
+«Не буду врать, это было элегантно», — сказал Озолс в ожидании эвакуатора. «У ямы был лучший сервис, чем у моего банка. Но я всё равно лишился двух колпаков и, думаю, доверия». 
+
+Аудиодизайнер, с которым город заключил контракт — бывший радиоведущий и поэт эмбиента Каспарс Лачис — сказал, что голос каждой ямы подбирался так, чтобы отражать характер района. В Агенскалнсе, например, ямы говорят тёплым интеллектуальным тоном, в центре они «слегка поспешные, космополитичные и под парковочным давлением». Одна экспериментальная яма в Саркандаугаве испускает лишь долгий разочарованный выдох. 
+
+Муниципальные планировщики говорят, что следующий этап может включать премиум‑функции. Подписное мобильное приложение Bedre+ позволит водителям оценивать ямы, получать баллы лояльности за повторные встречи и разблокировать персонализированные предупреждения вроде «С возвращением, Янис» или «Судя по вашей водительской истории, это и ваша вина тоже». 
+
+Чиновники Юрмалы уже выразили интерес к адаптации системы для сезонного использования, особенно в районах, где посетители из Риги ожидают ровных улиц только потому, что рядом сосны. Представитель курортного города подтвердил, что местные планировщики тестируют «люксовые ямы», которые извиняются мягким голосом и упоминают морской воздух. 
+
+На момент подготовки материала Министерство транспорта похвалило рижскую инновацию, напомнив при этом гражданам, что по действующему закону любая яма глубже 18 сантиметров всё ещё должна классифицироваться либо как дефект дорожного покрытия, либо, если расположена рядом с трамвайной линией, «как часть исторического опыта».`
+    },
+    date: "Jun 8, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/178/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 177,
     slug: "riga-introduces-official-14-minute-pause",
     title: {
@@ -118,7 +211,7 @@ Pilsētas amatpersonas norāda, ka, ja Daugavas pauze izrādīsies veiksmīga, 2
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/177/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 176,
