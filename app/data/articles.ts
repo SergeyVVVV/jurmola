@@ -18,6 +18,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 179,
+    slug: "riga-introduces-dynamic-silence-pricing-residents-179",
+    title: {
+      en: "Riga Introduces Dynamic Silence Pricing, Residents Charged Extra for Audible Opinions After 10 P.M.",
+      lv: "Rīga ievieš dinamisku klusuma cenu sistēmu — iedzīvotājiem pēc 22:00 par dzirdamiem viedokļiem jāmaksā papildus",
+      ru: "Рига вводит «динамическое ценообразование тишины»: жителям начисляют доплату за слышимые мнения после 22:00"
+    },
+    excerpt: {
+      en: "In a move officials say will align the capital with \"modern Northern European quietness standards,\" Riga has begun testing a Dynamic Silence Pricing system in several central districts. Under the pilot program, residents who express opinions above 38 decibels after 10 p.m. may receive a municipal invoice adjusted to inflation, neighborhood prestige, and emotional intensity.",
+      lv: "Lai, pēc amatpersonu teiktā, galvaspilsētu saskaņotu ar “mūsdienu Ziemeļeiropas klusuma standartiem”, Rīga sāka izmēģināt Dinamiskā Klusuma Cenu sistēmu vairākos centrālajos rajonos. Saskaņā ar pilotprogrammu iedzīvotājiem, kuri pēc pulksten 22:00 paudīs viedokļus virs 38 decibeliem, var tikt izrakstīts pašvaldības rēķins, kas tiks koriģēts pēc inflācijas, mikrorajona prestiža un emocionālās intensitātes.",
+      ru: "В попытке привести столицу в соответствие с «современными североевропейскими стандартами тишины» Рига начала тестирование системы «динамического ценообразования тишины» в нескольких центральных районах. По пилоту жители, выражающие мнение громче 38 децибелов после 22:00, могут получить муниципальный счёт, адаптированный к инфляции, престижу района и эмоциональной интенсивности."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Council this week unveiled a pilot program that urban planners are calling "an innovative approach to civic acoustics" and critics are calling "a subscription model for being alive." Beginning Monday, residents in Centrs, Āgenskalns, and the portion of Mežaparks considered visually expensive will be subject to Dynamic Silence Pricing, a new municipal policy that monetizes night-time sound according to volume, tone, and what officials describe as "avoidable personal conviction."
+
+Under the system, microphones mounted discreetly inside decorative birdhouses will detect speech exceeding 38 decibels between 22:00 and 06:00. Charges begin at €1.40 for a whispered complaint about public transport and rise to €12.50 for what the city classifies as "full-bodied kitchen debate." Singing old Prāta Vētra songs near an open window incurs a seasonal multiplier. The highest tariff, currently €27.99, applies to statements beginning with the phrase, "I’m not political, but—"
+
+Deputy Chair for Urban Stillness Lelde Zariņa said the policy was introduced after a municipal study found that 63% of Riga residents could distinguish their neighbors’ opinions on parking reform through pre-war walls, while 41% had learned intimate details of at least one divorce without consent. "A European capital cannot continue operating on spontaneous shouting," Zariņa told reporters while standing beside a chart labeled SILENCE 2030. "We are not banning speech. We are simply asking residents to consider whether every thought needs to become infrastructure."
+
+The city says invoices will be delivered monthly through the existing e-services portal, where residents can review audio waveforms and challenge fees by submitting proof that they were merely sighing. Early examples published by the council include a €4.80 charge to a man in Āgenskalns for saying "this meeting could have been an email" at 22:14, and a discounted warning issued to a grandmother in Centrs whose prolonged "ai, ai, ai" was ruled culturally significant.
+
+To ensure fairness, the municipality has partnered with the Institute of Applied Sonics at the University of Latvia. Researcher Dr. Mārtiņš Bērziņš said the system uses artificial intelligence trained on 11,000 hours of Baltic domestic ambience, including kettle boiling, slipper friction, distant tram grief, and "the specific acoustic panic caused by dropping a pickle jar at night." According to Bērziņš, the software can already distinguish between recreational laughter, apologetic laughter, and the dangerous pre-argument silence heard in 78% of apartment kitchens.
+
+Not all residents are convinced. "Last night I received an automated notice for excessive muttering," said Centrs resident Inga Lejniece, 34, who claims she was only assembling IKEA shelves in a spiritually overwhelmed state. "The report said my tone suggested escalating dissatisfaction with Scandinavian screws. How is that a billable event?"
+
+Business groups, however, have welcomed the change. A coalition of high-end property developers called the pilot "a bold step toward premium quiet," predicting it could raise apartment values by as much as 9% in buildings where neighbors currently discuss mushroom yields after midnight. Several Riga cafés have also announced Quiet Hour happy specials, encouraging patrons to relocate their arguments to designated commercial zones.
+
+The city has promised exemptions for infants, medically necessary coughing, and quiet weeping on name days. Jurmala officials are reportedly monitoring the program closely, though one spokesperson clarified that any local version would need separate rules for sea wind, distant concert bass, and passive-aggressive bicycle bells.
+
+If successful, Dynamic Silence Pricing could be expanded citywide by autumn, with a future premium package allowing residents to pre-purchase three emotionally charged statements per month without penalty. At press time, Riga had already raised €18,700 during the first six hours of testing, mostly from one apartment block holding an annual residents’ association meeting.`,
+      lv: `RĪGA — Rīgas dome šonedēļ atklāja pilotprogrammu, ko pilsētplānotāji sauc par “inovatīvu pieeju civiskajai akustikai”, bet kritiķi — par “abonementu par to, ka esi dzīvs”. Sākot ar pirmdienu, iedzīvotāji Centrs, Āgenskalns un vizuāli dārgākā Mežaparka daļa nonāks Dinamiskā Klusuma Cenu sistēmas darbības zonā — jaunā pašvaldības politikā, kas monetizē nakts skaņas atbilstoši skaļumam, tonim un tam, ko amatpersonas apraksta kā “izvairāmo personisko pārliecību”.
+
+Sistēmas ietvaros diskrēti uzstādīti mikrofoni dekoratīvajās putnu būrītēs starp pulksten 22:00 un 06:00 reģistrēs runu, kas pārsniedz 38 decibelus. Maksājumi sākas no €1,40 par izteiktu čukstētu sūdzību par sabiedrisko transportu un pieaug līdz €12,50 par to, ko pilsēta klasificē kā “pilnvērtīgu virtuves debatēšanu”. Vecas Prāta Vētras dziesmas dziedāšana pie vaļēja loga aktivizē sezonālu reizinātāju. Augstākā tarifa likme, pašlaik €27,99, attiecas uz izteikumiem, kas sākas ar frāzi „Es neesmu politisks, bet—”.
+
+Pilsētas klusuma vietniece Lelde Zariņa sacīja, ka politika ieviesta pēc tam, kad pašvaldības pētījums konstatējis, ka 63% Rīgas iedzīvotāju spēj identificēt kaimiņu uzskatus par stāvvietu reformu caur pirmskara sienām, bet 41% bez piekrišanas ieguvuši intīmas ziņas par vismaz vienu šķiršanos. “Eiropas galvaspilsēta nevar turpināt darboties uz spontānas kliegšanas bāzes,” Zariņa sacīja žurnālistiem, stāvot blakus diagrammai ar nosaukumu KLUSUMS 2030. “Mēs nerobežojam runu. Mēs vienkārši lūdzam iedzīvotājus apdomāt, vai katrai domai tiešām jātop par infrastruktūru.”
+
+Pilsēta ziņo, ka rēķini tiks piegādāti reizi mēnesī esošajā e-pakalpojumu portālā, kur iedzīvotāji varēs pārskatīt audio viļņformas un apstrīdēt nodevas, iesniedzot pierādījumu, ka viņi vienkārši smacēja. Domes publicētie agrīnie piemēri iekļauj €4,80 sodu vīrietim Āgenskalnā par frāzi “šis sapulces varēja būt e-pasts” pulksten 22:14, kā arī atlaisti brīdinājumu vecmāmiņai Centrā, kuras ilgstošais “ai, ai, ai” tika atzīts par kultūrvēsturiski nozīmīgu.
+
+Lai nodrošinātu taisnīgumu, pašvaldība sadarbojas ar Lietišķās Sonikas institūtu Latvijas Universitātē. Pētnieks Dr. Mārtiņš Bērziņš stāstīja, ka sistēma izmanto mākslīgo intelektu, apmācītu uz 11 000 stundām Baltijas mājas akustikas, ieskaitot tējkannas vārīšanos, čībiņu berzi, tālas tramvaja bēdas un “to konkrēto akustisko paniku, kas rodas, naktī izmetot gurķu burku”. Pēc Bērziņa teiktā programmatūra jau spēj atšķirt izklaidētu smieklu, piedodošu smieklu un bīstamo pirms-diskusijas klusumu, kas dzirdams 78% dzīvokļu virtuvēs.
+
+Ne visi iedzīvotāji ir pārliecināti. “Vakar naktī saņēmu automātisku paziņojumu par pārmērīgu murmulēšanu,” sacīja centra iedzīvotāja Inga Lejniece, 34, kura apgalvo, ka tajā brīdī tikai salika IKEA plauktus garīgi pārņemta stāvoklī. “Ziņojumā teikts, ka mans tonis liecinājis par pieaugošu neapmierinātību ar skandināvu skrūvēm. Kā tas var būt uzskaitāms notikums?”
+
+Savukārt biznesa aprindas izmaiņas ir uzņēmušas ar sveicieniem. Augstas klases nekustamo īpašumu izstrādātāju koalīcija pilotprojektu nosaucusi par “drosmīgu soli pretī premium klusumam”, prognozējot, ka tas varētu palielināt dzīvokļu vērtību līdz pat 9% ēkās, kur kaimiņi pašlaik pēc pusnakts apspriež sēņu ražas. Vairāki Rīgas kafejnīcas arī izsludinājušas “Klusuma stundu” īpašos piedāvājumus, aicinot klientus pārcelt strīdus uz noteiktām komerciālajām zonām.
+
+Pilsēta sola atvieglojumus jaundzimušajiem, medicīniski nepieciešamai klepošanai un klusiem raudājumiem vārda dienu reizēs. Jūrmalas amatpersonas ziņo, ka programmu rūpīgi vēro, lai gan viens preses pārstāvis paskaidroja, ka jebkurai vietējai versijai būs jāparedz atsevišķi noteikumi jūras vējam, tālu koncertu basam un pasīvi-agresīvām velosipēdu zvaniņām.
+
+Ja pilots izrādīsies veiksmīgs, Dinamiskā Klusuma Cenu sistēma var tikt paplašināta visā pilsētā līdz rudenim, ar nākotnes premium paketi, kas ļautu iedzīvotājiem iepriekš iegādāties trīs emocionāli uzlādētus izteikumus mēnesī bez soda. Rakstīšanas brīdī Rīga pirmajās sešās testēšanas stundās jau bija iekasējusi €18 700, galvenokārt no viena daudzdzīvokļu nama, kur notika ikgadējā namīpašnieku sapulce.`,
+      ru: `РИГА — На этой неделе Рижская городская дума представила пилотную программу, которую градостроители называют «инновационным подходом к городской акустике», а критики — «моделью подписки за то, что ты жив». С понедельника жители Центра, Āgenskalns и той части Mežaparks, которую считают визуально дорогой, подпадают под действие «динамического ценообразования тишины» — новой муниципальной политики, которая монетизирует ночные звуки по громкости, тону и тому, что чиновники описывают как «излишняя личная убеждённость».
+
+По системе микрофоны, незаметно установленные внутри декоративных скворечников, будут фиксировать речь свыше 38 децибелов в период с 22:00 до 06:00. Плата начинается от 1,40 € за прошептанную жалобу на общественный транспорт и растёт до 12,50 € за то, что город классифицирует как «пышную кухонную полемику». Пение старых песен Prāta Vētra у открытого окна подпадает под сезонный множитель. Самый высокий тариф, в настоящий момент 27,99 €, применяется к высказываниям, начинающимся с фразы «Я не политик, но…».
+
+Заместитель председателя по городскому спокойствию Лелде Зариņa заявила, что политика была введена после муниципального исследования, показавшего, что 63% рижан могли различить мнения соседей о реформе парковки через предвоенные стены, а 41% узнали интимные подробности по крайней мере одного развода без согласия участников. «Европейская столица не может дальше работать на спонтанных криках», — сказала Зариņa репортёрам, стоя рядом с графиком под названием SILENCE 2030. «Мы не запрещаем речь. Мы просто просим жителей задуматься, должно ли каждая мысль становиться инфраструктурой». 
+
+Город сообщает, что счета будут приходить ежемесячно через существующий портал электронных услуг, где жители смогут просматривать аудиоволны и оспаривать начисления, предоставив доказательства того, что они всего лишь вздыхали. Ранние примеры, опубликованные советом, включают счёт на 4,80 € мужчине в Āgenskalns за фразу «это собрание могло быть электронным письмом» в 22:14 и предупреждение со скидкой для бабушки в Центре, чьё продолжительное «ай, ай, ай» было признано культурно значимым.
+
+Для обеспечения справедливости муниципалитет сотрудничает с Институтом прикладной соники Латвийского университета. Исследователь д-р Мārtiņš Bērziņš заявил, что система использует искусственный интеллект, обученный на 11 000 часах балтийского бытового фона, включая кипящий чайник, скольжение тапочек, далёкое трамвайное горе и «специфическую акустическую панику от падения банки с огурцами ночью». По словам Bērziņša, софт уже умеет отличать развлекательный смех от извиняющегося смеха и опасную тишину перед ссорой, слышимую в 78% кухонь в многоквартирных домах.
+
+Не все жители в восторге. «Прошлой ночью я получила автоматическое уведомление за чрезмерное бормотание», — рассказала жительница Центра Инга Лейнiece, 34 года, утверждающая, что в тот момент просто собирала полки IKEA в состоянии духовного переполнения. «В отчёте сказано, что по тону я проявляла нарастающее недовольство скандинавскими винтами. Как это может быть платным событием?»
+
+Бизнес-сообщество, однако, поприветствовало перемены. Коалиция элитных застройщиков назвала пилот «смелым шагом к премиальной тишине», предсказывая, что он может поднять стоимость квартир до 9% в домах, где соседи обычно обсуждают урожай грибов после полуночи. Несколько рижских кафе также объявили «Акцию тихих часов», поощряя посетителей переносить ссоры в отведённые коммерческие зоны.
+
+Город пообещал освобождения для младенцев, медицински необходимого кашля и тихих рыданий в день имени. Представители Юрмалы, как сообщается, внимательно следят за программой, хотя один из их спикеров уточнил, что любая местная версия потребует отдельных правил для морского ветра, далёкого баса концерта и пассивно-агрессивных велосипедных звонков.
+
+Если испытание пройдёт успешно, «динамическое ценообразование тишины» может быть расширено на весь город к осени, с будущим премиальным пакетом, позволяющим заранее приобрести три эмоционально заряженных высказывания в месяц без штрафа. На момент сдачи материала Рига уже собрала 18 700 € за первые шесть часов тестирования, в основном с одного многоквартирного дома, где в это время проходило ежегодное собрание товарищества жильцов.`
+    },
+    date: "Jun 9, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/179/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 178,
     slug: "riga-introduces-polite-pothole-pilot-program-178",
     title: {
@@ -108,7 +183,7 @@ Preses brīdī Satiksmes ministrija slavēja Rīgas inovāciju, vienlaikus atgā
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/178/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 177,
