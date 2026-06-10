@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 180,
+    slug: "riga-introduces-polite-silence-hours-on",
+    title: {
+      en: "Riga Introduces ‘Polite Silence Hours’ on Public Transport, Fines Tourists for Excessive Cheerfulness",
+      lv: "Rīga ievieš 'Pieklājīgās klusuma stundas' sabiedriskajā transportā, tūristus sodīs par pārmērīgu priecīgumu",
+      ru: "Рига вводит «Часы вежливого молчания» в общественном транспорте, туристов штрафуют за чрезмерную веселость"
+    },
+    excerpt: {
+      en: "In a move city officials say will preserve Latvia’s intangible cultural heritage, Riga has approved mandatory ‘Polite Silence Hours’ on buses, trams, and trolleybuses between 7:00 and 10:00 each morning. Authorities insist the measure is not anti-social, but rather ‘pro-contemplation,’ after commuter complaints about loud phone calls, aggressive laughter, and one British stag party attempting to sing on a Number 1 tram.",
+      lv: "Kā pilsētas amatpersonas apgalvo, lai saglabātu Latvijas nemateriālo kultūras mantojumu, Rīga ir apstiprinājusi obligātās 'Pieklājīgās klusuma stundas' autobusos, tramvajos un trolejbusos katru rītu no plkst. 7:00 līdz 10:00. Varas iestādes uzsver, ka pasākums nav antisociāls, bet gan par pārdomu veicināšanu, reaģējot uz sūdzībām par skaļām telefona sarunām, agresīvu smiešanos un vienu britu līgavainības ballīti, kas mēģināja dziedāt 1. tramvajā.",
+      ru: "В попытке, как заявляют городские власти, сохранить нематериальное культурное наследие Латвии, Рига утвердила обязательные «Часы вежливого молчания» в автобусах, трамваях и троллейбусах с 7:00 до 10:00 каждое утро. Власти настаивают, что мера не антисоциальна, а служит «в пользу созерцания», после жалоб пассажиров на громкие телефонные разговоры, агрессивный смех и одну британскую мальчишник‑группу, пытавшуюся петь в трамвае маршрута №1."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Council on Tuesday narrowly approved a new municipal ordinance establishing mandatory ‘Polite Silence Hours’ across the capital’s public transport network, introducing fines for behaviors deemed disruptive to the traditional commuter atmosphere of mild existential fatigue.
+
+Under the new rules, passengers on buses, trams, and trolleybuses between 7:00 and 10:00 a.m. will be expected to maintain what transport authorities are calling a ‘culturally appropriate level of emotional volume.’ Violations include speaking on speakerphone, eating anything audibly crunchy, initiating eye contact lasting longer than two seconds, and displaying what one official described as ‘performative enthusiasm before noon.’
+
+The ordinance was proposed after a six-month pilot program on routes 3, 11, and 22 found that average commuter discomfort rose by 43% when exposed to unregulated optimism. According to the city’s Department of Civic Atmosphere, incidents peaked in July, when cruise ship passengers from Germany and the United Kingdom reportedly entered public transport with ‘vacation-grade vocal energy’ and repeatedly asked residents whether the Central Market was ‘super cute.’
+
+‘We are not banning joy,’ said Deputy Chair of Mobility and Atmospheric Order Ilze Vīksna, speaking at a press conference conducted in a room so acoustically dead that several journalists briefly assumed it had not begun. ‘We are simply ensuring that joy occurs in designated zones, such as midsummer bonfires, hockey victories, or private kitchens after receiving unexpectedly affordable dill.’
+
+Beginning next month, fare inspectors will be joined by newly trained Silence Compliance Stewards wearing ash-grey vests and carrying decibel meters calibrated specifically to detect what officials call ‘Nordic-adjacent disturbance patterns.’ First-time offenders will receive a warning card printed with the phrase, ‘Please Reflect.’ Repeat violators may be fined up to €35, though tourists who say ‘Oops, sorry, we didn’t know’ in a visibly cheerful tone can face penalties of up to €70.
+
+Rīgas Satiksme spokesperson Mārtiņš Sprūdžs said the policy responds to years of rider feedback. ‘Passengers told us they wanted cleaner vehicles, more reliable timetables, and fewer spontaneous podcast recordings near the rear doors,’ he said. ‘We could address one of those things immediately.’
+
+Some residents have welcomed the measure. Ziepniekkalns accountant Baiba Kaktiņa, 41, said she supports stricter standards after hearing a group of Erasmus students debate brunch for 18 uninterrupted minutes on the tram. ‘I am not against foreigners,’ she explained, staring into middle distance. ‘I am against hearing the word “bottomless” at 8:14 in the morning.’
+
+Others worry the rules may be difficult to enforce. Civil liberties advocate and part-time saxophone repairman Edgars Līcis called the ordinance ‘a slippery slope toward state-managed facial expressions.’ He noted that the draft appendix includes an ambiguous chart distinguishing ‘acceptable silent smiling’ from ‘destabilizing grinning.’
+
+City officials have rejected accusations of overreach and say early educational campaigns are already working. Posters now appearing at major stops advise riders to ‘Board Calmly,’ ‘Process Internally,’ and ‘Respect Shared Quiet as You Would Fresh Snow.’ At the Central Station underpass, volunteers handed out free herbal tea and a brochure titled Understanding Reservedness: A Practical Guide for Southern Europeans.
+
+The policy’s final phase, scheduled for autumn, will test a premium ‘Deep Quiet’ carriage on selected routes to Mežciems, where passengers may pay an additional €1.20 for guaranteed silence and legally protected sighing.
+
+By Tuesday evening, public reaction appeared cautiously subdued. A small crowd gathered outside City Hall to register its discontent, but dispersed after organizers agreed that chanting would send the wrong message.`,
+      lv: `RĪGA — Rīgas domes koalīcija otrdien šaurā vairākumā apstiprināja jaunu pilsētas saistošo noteikumu, kas nosaka obligātās 'Pieklājīgās klusuma stundas' visā galvaspilsētas sabiedriskā transporta tīklā, ieviešot naudas sodus par uzvedību, kuru uzskata par traucējošu tradicionālajai pasažieru atmosfērai — maigai eksistenciālai nogurumam.
+
+Saskaņā ar jaunajiem noteikumiem pasažieri autobusos, tramvajos un trolejbusos no plkst. 7:00 līdz 10:00 tiks aicināti uzturēt to, ko transporta iestādes dēvē par 'kulturāli atbilstošu emocionālā skaļuma līmeni'. Pārkāpumi ietver runāšanu brīvroku režīmā (speakerphone), jebkādas skaļi kraukšķoša ēdiena ēšanu, acu kontakta uzsākšanu, kas ilgst vairāk nekā divas sekundes, un to, ko viens ierēdnis raksturoja kā 'performatīvu entuziasmu pirms pusdienām'.
+
+Noteikumu priekšlikums radās pēc sešu mēnešu pilotprojekta maršrutos 3., 11. un 22., kas konstatēja, ka vidējais pasažieru diskomforts pieauga par 43%, pakļaujoties neregulētam optimismam. Pilsētas Pilsoniskās atmosfēras departaments ziņo, ka incidents sasniedza kulmināciju jūlijā, kad kruīza kuģu pasažieri no Vācijas un Lielbritānijas ieradās sabiedriskajā transportā ar 'atvaļinājuma līmeņa vokālo enerģiju' un vairākkārt jautāja iedzīvotājiem, vai Centrāltirgus nav 'tāds ļoti jauks'.
+
+"Mēs neaizliedzam prieku," sacīja Mobilitātes un atmosfēras kārtības priekšsēdētājas vietniece Ilze Vīksna preses konferencē, kas notika telpā tik akustiski tukšā, ka vairāki žurnālisti uz brīdi pieļāva, ka tā nav sākusies. "Mēs vienkārši nodrošinām, ka prieks notiek noteiktās zonās — piemēram, Jāņu ugunskuros, hokeja uzvarās vai privātām virtuvēm pēc negaidīti lētām dillēm."
+
+No nākamā mēneša biļešu kontrolierus papildinās jaunapmācīti klusuma uzraugi, tērpti pelēkpelēkos vestēs un nēsājot skaļuma mērītājus, kas kalibrēti īpaši, lai uztvertu to, ko ierēdņi dēvē par 'ziemeļvalstīm līdzīgiem traucējumu modeļiem'. Pirmreizējie pārkāpēji saņems brīdinājuma kartīti ar uzrakstu 'Lūdzu — pārdomājiet'. Atkārtoti pārkāpēji var tikt sodīti līdz 35 €, lai gan tūristi, kuri skaidri taustāmi priecīgā tonī saka 'Ups, piedodiet, mēs nezinājām', var saskarties ar sodu līdz 70 €.
+
+Rīgas Satiksmes pārstāvis Mārtiņš Sprūdžs sacīja, ka politika ir atbilde uz gadiem ilgušām pasažieru atsauksmēm. "Pasažieri mums teica, ka viņi grib tīrākus transportlīdzekļus, uzticamākus laikus un mazāk spontānu podkāstu ierakstu pie aizmugurējām durvīm," viņš sacīja. "Mēs varējām risināt vienu no šīm lietām nekavējoties."
+
+Daļa iedzīvotāju uzņem šo mēru ar pateicību. Ziepniekkalna grāmatvede Baiba Kaktiņa, 41 gadu veca, sacīja, ka atbalsta stingrākus standartus pēc tam, kad tramvajā dzirdēja grupu Erasmus studentu debatēt par branču nepārtrauktas 18 minūtes. "Es neesmu pret ārzemniekiem," viņa paskaidroja, skatoties tālumā. "Es esmu pret vārda 'bottomless' dzirdēšanu plkst. 8:14." 
+
+Citi baidās, ka noteikumu izpilde varētu būt sarežģīta. Pilsoņu brīvību aizstāvis un daļlaika saksofona remonta meistars Edgars Līcis sauca saistošos noteikumus par "slidenu nogāzi uz valsts pārvaldītām sejas izteiksmēm." Viņš norādīja, ka pielikuma melnrakstā iekļauts divdomīgs grafiks, kas atšķir 'pieņemamu klusu smaidīšanu' no 'destabilizējošas platās smaidošanas'.
+
+Pilsētas amatpersonas ir noraidījušas pārmetumus par pārmērīgu iejaukšanos un apgalvo, ka agrīnas izglītošanas kampaņas jau darbojas. Plakāti, kas tagad parādās lielajos pieturpunktos, aicina pasažierus 'Iekāp mierīgi', 'Apstrādā iekšēji' un 'Cieni kopīgo klusumu tāpat kā svaigu sniegu'. Centrālās stacijas zemgājienā brīvprātīgie dalīja bezmaksas ārstniecisko tēju un bukletu ar nosaukumu "Rezervētības izpratne: praktisks ceļvedis Dienvideiropiešiem."
+
+Politikas noslēdzošā fāze, kas paredzēta rudenī, izmēģinās premium 'Dziļās klusuma' vagonu atsevišķos maršrutos uz Mežciemu, kur pasažieri par papildu 1,20 € varēs iegādāties garantētu klusumu un likumīgi aizsargātu nopūtu.
+
+Otrdienas vakarā sabiedrības reakcija šķita piesardzīgi nomierināta. Neliela pūļa grupa sapulcējās pie Rātsnama, lai reģistrētu savu neapmierinātību, taču izklīda pēc tam, kad organizatori vienojās, ka skandēšana sūtīs nepareizu vēstījumu.`,
+      ru: `РИГА — Во вторник Рижская городская дума с небольшим перевесом голосов одобрила новый муниципальный указ, вводящий обязательные «Часы вежливого молчания» по всей сети общественного транспорта столицы и устанавливающий штрафы за поведение, считающееся нарушающим традиционную пассажирскую атмосферу лёгкой экзистенциальной усталости.
+
+Согласно новым правилам, пассажиры автобусов, трамваев и троллейбусов с 7:00 до 10:00 утра должны поддерживать то, что транспортные власти называют «культурно приемлемым уровнем эмоциональной громкости». Нарушениями считаются разговоры на громкой связи, поедание чего‑то с слышным хрустом, установление зрительного контакта дольше двух секунд и демонстрация того, что один чиновник охарактеризовал как «показушный энтузиазм до полудня».
+
+Указ был предложен после шестимесячного пилотного проекта на маршрутах 3, 11 и 22, который показал, что средний дискомфорт у пассажиров возрастает на 43% при столкновении с нерегулируемым оптимизмом. По данным Городского департамента гражданской атмосферы, пик инцидентов пришёлся на июль, когда пассажиры круизных лайнеров из Германии и Великобритании, как сообщается, заходили в транспорт с «голосовой энергией отпускного уровня» и неоднократно спрашивали у местных жителей, не слишком ли «супер‑милый» Центральный рынок.
+
+«Мы не запрещаем радость», — сказала заместитель председателя по мобильности и атмосферному порядку Илзе Вīксна, выступая на пресс‑конференции, проходившей в комнате с такой акустической мёртвостью, что несколько журналистов на минуту решили, будто она ещё не началась. «Мы просто гарантируем, что радость проявляется в отведённых зонах, таких как июньские костры, хоккейные победы или частные кухни после неожиданно дешёвого укропа».
+
+Со следующего месяца к контролёрам билетов присоединятся недавно обученные стюарды соблюдения тишины в пепельно‑серых жилетах, вооружённые децибелометрами, откалиброванными специально для обнаружения того, что чиновники называют «паттернами нарушений, близкими к нордическим». Первые нарушители будут получать предупредительную карточку с надписью «Пожалуйста, подумайте». Повторные правонарушители могут быть оштрафованы до 35 евро, а туристы, которые скажут «Ой, извините, мы не знали» заметно радостным тоном, рискуют штрафом до 70 евро.
+
+Представитель Rīgas Satiksme Mārtinš Sprūdžs заявил, что политика отвечает на многолетние жалобы пассажиров. «Пассажиры говорили нам, что хотят чище машины, более надёжные расписания и меньше спонтанных записей подкастов у задних дверей», — сказал он. «Мы могли бы сразу заняться хотя бы одной из этих проблем».
+
+Некоторые жители одобрили меру. Бухгалтер из Зиепниеккалнса Байба Кактина, 41 год, сказала, что поддерживает ужесточение стандартов после того, как на трамвае группа студентов по программе Erasmus обсуждала бранч в течение 18 минут без перерыва. «Я не против иностранцев», — объяснила она, глядя в пустоту. «Я против того, чтобы слышать слово „безлимитный“ в 8:14 утра».
+
+Другие опасаются, что правила будет трудно исполнить. Защитник гражданских свобод и подработывающий чинкой саксофонов Эдгарс Личис назвал указ «скользкой горкой к государственному регулированию мимики». Он отметил, что в приложении к проекту содержится двусмысленная таблица, разделяющая «допустимую молчаливую улыбку» и «дестабилизирующую ухмылку».
+
+Городские власти отвергают обвинения в превышении полномочий и говорят, что ранние просветительские кампании уже дают результат. На плакатах, появившихся на крупных остановках, теперь советуют «Заходите спокойно», «Перерабатывайте внутренне» и «Уважайте общую тишину, как свежий снег». В подземном переходе Центрального вокзала волонтёры раздавали бесплатный травяной чай и брошюру под заголовком «Понимание сдержанности: практическое руководство для южных европейцев».
+
+Заключительная фаза политики, запланированная на осень, предполагает испытание премиального вагона «Глубокая тишина» на выбранных маршрутах до Межциемса, где пассажиры смогут доплатить 1,20 евро за гарантированное молчание и юридически защищённое право вздохнуть.
+
+К вечеру вторника общественная реакция выглядела осторожно сдержанной. Небольшая толпа собралась у Ратуши, чтобы выразить недовольство, но разошлась после того, как организаторы согласились, что скандирование послал бы не то сообщение.`
+    },
+    date: "Jun 10, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/180/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 179,
     slug: "riga-introduces-dynamic-silence-pricing-residents-179",
     title: {
@@ -90,7 +177,7 @@ Ja pilots izrādīsies veiksmīgs, Dinamiskā Klusuma Cenu sistēma var tikt pap
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/179/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 178,
