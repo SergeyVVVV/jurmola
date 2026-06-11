@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 181,
+    slug: "riga-introduces-quiet-hour-for-passive",
+    title: {
+      en: "Riga Introduces Quiet Hour for Passive-Aggressive Sighing After Residents Complain City Has Become 'Too Direct'",
+      lv: "Rīga ievieš klusuma stundu pasīvi-agresīvām nopūtām pēc iedzīvotāju sūdzībām, ka pilsēta kļuvusi 'pārāk tieša'",
+      ru: "Рига вводит «тихий час» для пассивно-агрессивных вздохов после жалоб жителей, что город стал «слишком прямым»"
+    },
+    excerpt: {
+      en: "Municipal officials in Riga have approved a daily 18-minute \"reflective exhalation window\" during which residents may express disappointment exclusively through sighs, eyebrow movements, and meaningful pauses. City leaders say the measure is intended to preserve traditional Latvian communication styles amid rising levels of alarming frankness.",
+      lv: "Pašvaldības amatpersonas Rīgā apstiprinājušas ikdienas 18 minūšu 'refleksīvā izelpas loga', kurā iedzīvotāji var izteikt vilšanos tikai ar nopūtām, uzacu kustībām un nozīmīgām pauzēm. Pilsētas vadība norāda, ka mērs domāts, lai saglabātu tradicionālos latviešu komunikācijas stilus pieaugošā satraucošā tiešuma apstākļos.",
+      ru: "Муниципальные чиновники Риги утвердили ежедневное 18-минутное «окно для рефлексивного выдоха», в течение которого жители могут выражать разочарование исключительно вздохами, движениями бровей и многозначительными паузами. Городские власти заявляют, что мера направлена на сохранение традиционных латвийских стилей общения на фоне растущей тревожной откровенности."
+    },
+    fullContent: {
+      en: `RIGA — In a move hailed by cultural preservationists and several apartment-building committees, the Riga City Council on Tuesday approved a pilot program establishing an official Quiet Hour for Passive-Aggressive Sighing, citing growing concern that the capital’s residents have become "unacceptably explicit" in their criticism.
+
+Beginning next Monday, citizens in central Riga, Āgenskalns, Teika, and selected portions of Purvciems will be encouraged to observe the new civic interval from 17:42 to 18:00, during which disapproval must be conveyed nonverbally. The measure allows for controlled sighing, subtle head shaking, muttering "nu jā" under one’s breath, and standing by a window with a look suggesting that society has made several avoidable mistakes.
+
+According to a 46-page report commissioned by the Department of Urban Atmosphere, direct verbal complaints in Riga have increased by 23% since 2021, while classic forms of Baltic emotional ventilation — including long silences, tea-stirring with unnecessary force, and folding reusable shopping bags in a pointed manner — have declined sharply.
+
+"We are not banning honesty," said Deputy Mayor Ilze Grāve at a press conference delivered in a tone of careful disappointment. "We are simply restoring a healthier ecosystem of restrained dissatisfaction. For centuries, people in this region communicated deep moral judgment through posture alone. We cannot lose that."
+
+To support implementation, the city has published a 12-page guidance booklet, Understanding the Public Sigh: A Citizen’s Handbook. The document distinguishes between the commuter sigh, the queue sigh, the winter-road-maintenance sigh, and the advanced intergenerational sigh typically deployed when a younger relative announces a creative career plan. Each category is assigned a decibel range and recommended facial setting.
+
+Municipal enforcement will initially be educational rather than punitive. During the pilot phase, first-time violators who voice criticism too directly may receive a yellow courtesy notice reminding them to "process socially." Repeat offenders could be ordered to attend a three-hour workshop in Mežaparks, where trained facilitators demonstrate acceptable alternatives to saying exactly what one means.
+
+Reaction across the capital has been mixed but emotionally contained. Outside Riga Central Market, pensioner Maija Ozoliņa, 71, said the policy was "long overdue," before looking into the middle distance for several seconds. "These young people just say things now," she said finally. "If the soup is bad, they say the soup is bad. Where is the suspense? Where is the dignity?"
+
+Not everyone is convinced. Artūrs Feldmanis, 29, a product designer from Pārdaugava, warned the city was romanticizing unproductive communication. "Last year my landlord spent four months expressing that the heating system was broken by inhaling sharply whenever I entered the stairwell," Feldmanis said. "At some point, words are useful."
+
+Still, early data from a small municipal trial in Jugla suggest measurable benefits. Researchers observed a 14% reduction in tram-based arguments, a 31% rise in meaningful glances exchanged in pharmacies, and one statistically unusual afternoon in which an entire café managed to disapprove of a laptop user without anybody speaking. Economists at the Bank of Latvia declined to comment on whether this could affect GDP, though one analyst was seen rubbing his forehead near a spreadsheet.
+
+In Jurmala, officials are already considering a seasonal adaptation for summer tourists, many of whom arrive untrained in local methods of ambient reproach. A proposal under review would create designated Sigh Zones near Dzintari Concert Hall, where visitors could receive instruction before attempting to complain about parking in public.
+
+By Tuesday evening, the first signs of success were already visible. As drizzle settled over Brīvības iela and traffic slowed for reasons nobody could fully explain, residents across the city could be seen pausing, exhaling through their noses, and looking at one another with the quiet solidarity of people who would prefer not to discuss it further.`,
+      lv: `RĪGA — Kustībā, ko slavē kultūras saglabāšanas entuziasti un vairākas daudzdzīvokļu māju komisijas, Rīgas dome otrdien apstiprināja pilotprogrammu, ar kuru tiek izveidota oficiāla klusuma stunda pasīvi-agresīvām nopūtām, atsaucoties uz pieaugošām bažām, ka galvaspilsētas iedzīvotāji kļuvuši 'nepiedodami tieši' savās kritiskajās piezīmēs.
+
+Sākot ar nākamo pirmdienu, iedzīvotāji centrālajā Rīgā, Āgenskalnā, Teikā un atlasītās Purvciema daļās tiek aicināti ievērot jauno pilsonisko intervālu no 17:42 līdz 18:00, kurā neapmierinātību jāizsaka tikai neverbāli. Mērs atļauj kontrolētas nopūtas, smalku galvas kratīšanu, mutisku 'nu jā' zem elpas un stāvēšanu pie loga ar skatienu, kas vēsta – sabiedrība ir pieļāvusi vairākas liekas kļūdas.
+
+Saskaņā ar 46 lappušu ziņojumu, ko pasūtījis Pilsētas atmosfēras departaments, tiešas verbālas pretenzijas Rīgā kopš 2021. gada pieaugušas par 23%, kamēr klasiskās Baltijas emocionālās ventilācijas formas — ilgstošas klusēšanas, tējas maisīšana ar lieku spēku un atkārtoti lietojamo iepirkumu maisiņu krokošana demonstratīvā manierē — būtiski samazinājušās.
+
+'Mēs neaizliedzam godīgumu,' sacīja vietniece Ilze Grāve preses konferencē tonī, kurā skanēja rūpīgi izteikta vilšanās. 'Mēs vienkārši atjaunojam veselīgāku apspiestas neapmierinātības ekosistēmu. Gadsimtiem ilgi cilvēki šajā reģionā dziļu morālu spriedumu izteica tikai ar stāju. To zaudēt nedrīkstam.'
+
+Lai atbalstītu īstenošanu, pilsēta publicējusi 12 lappušu rokasgrāmatu 'Sabiedriskās nopūtas izpratne: pilsoņa ceļvedis'. Dokuments atšķir pasažiera nopūtu, rindas nopūtu, ziemas ceļu uzturēšanas nopūtu un attīstīto starpgenerāciju nopūtu, kas parasti tiek izmantota, kad jaunāks radinieks paziņo par radošu karjeras plānu. Katrai kategorijai piešķirts decibelu diapazons un ieteicamā sejas izteiksme.
+
+Pašvaldības izpilde sākotnēji būs izglītojoša, ne sodrīcīga. Pilotfāzē pirmreizēji pārkāpēji, kuri kritiku izsaka pārāk tieši, var saņemt dzeltenu pieklājības piezīmi, atgādinot 'sociāli to apstrādāt'. Atkārtoti pārkāpēji var tikt norādīti apmeklēt trīs stundu darbnīcu Mežaparkā, kur apmācīti fasilitatori demonstrēs pieņemamas alternatīvas tiešai to, ko domā.
+
+Reakcijas visā galvaspilsētā bijušas jauktas, bet emocionāli kontrolētas. Pie Rīgas Centrāltirgus pensionāre Maija Ozoliņa, 71, sacīja, ka politika ir 'ilgi gaidīta', pēc tam vairākas sekundes paskatoties tālumā. 'Šie jaunie cilvēki tagad vienkārši saka lietas,' viņa beidzot piebilda. 'Ja zupa ir slikta, viņi saka, ka zupa ir slikta. Kur ir spriedze? Kur ir cieņa?'
+
+Ne visi ir pārliecināti. Pārdaugavas produktu dizainers Artūrs Feldmanis, 29, brīdināja, ka pilsēta romantizē neracionālu komunikāciju. 'Pagājušajā gadā mans saimnieks četrus mēnešus izteica, ka apkures sistēma ir salūzusi, strauji ieelpojot katru reizi, kad ienācu kāpņu telpā,' sacīja Feldmanis. 'Kādā brīdī vārdi ir lietderīgi.'
+
+Tomēr agrīnie dati no neliela pašvaldības izmēģinājuma Juglā rāda taustāmus ieguvumus. Pētnieki novērojuši strīdu skaita samazinājumu tramvajos par 14%, nozīmīgu skatienu apmaiņas pieaugumu aptiekās par 31% un vienu statistiski neparastu pēcpusdienu, kurā viss kafejnīcas apmeklētāju loks spēja izrādīt neapmierinātību pret klēpjdatora lietotāju, neviens nerunājot. Latvijas Bankas ekonomisti atteicās komentēt, vai tas varētu ietekmēt IKP, lai gan viens analītiķis bija redzēts beržam pieri pie izklājlapas.
+
+Jūrmalā amatpersonas jau apsver sezonālu pielāgojumu vasaras tūristiem, no kuriem daudzi ierodas neapmācīti vietējās apkārtējās pārestības metodēs. Iesniegtais priekšlikums paredzētu izveidot norādītas nopūtu zonas pie Dzintaru koncertzāles, kur apmeklētāji varētu saņemt instrukciju pirms mēģinājuma sabiedriskā veidā sūdzēties par stāvvietu.
+
+Otrdienas vakarā pirmie panākumu simptomi jau bija redzami. Kad Rīgā pār Brīvības ielu sāka līt smalks lietus un satiksme palēninājās iemeslu dēļ, ko neviens līdz galam nespēja izskaidrot, iedzīvotāji visā pilsētā bija manāmi apstājušies, izpūtuši caur degunu un skatījušies viens uz otru ar klusu solidaritāti cilvēkiem, kuri labprātāk par to tālāk nerunātu.`,
+      ru: `РИГА — В шаге, который приветствовали защитники культурного наследия и несколько домовых комитетов, Рижская городская дума во вторник одобрила пилотный проект об учреждении официального «Тихого часа для пассивно-агрессивных вздохов», сославшись на нарастающую озабоченность тем, что жители столицы стали «недопустимо откровенны» в своих упреках.
+
+Начиная со следующего понедельника, граждан в центральной Риге, Āgenskalns (Агенскалнс), Teika (Тейка) и в избранных частях Purvciems (Пурвциемс) призовут соблюдать новый гражданский интервал с 17:42 до 18:00, в течение которого неодобрение должно передаваться невербально. Мера допускает контролируемые вздохи, едва заметные покачивания головы, бормотание «ну да» себе под нос и стояние у окна с видом, говорящим о том, что общество совершило несколько излишних ошибок.
+
+Согласно 46-страничному докладу, заказанному Департаментом городской атмосферы, прямые вербальные жалобы в Риге увеличились на 23% с 2021 года, тогда как классические формы балтийской эмоциональной вентиляции — в том числе долгие молчания, энергичное помешивание чая и демонстративное складывание многоразовых сумок — резко сократились.
+
+«Мы не запрещаем честность», — сказала заместитель мэра Илзе Граве на пресс‑конференции, произнесённой в тоне осторожного огорчения. «Мы просто восстанавливаем более здоровую экосистему сдержанного неудовлетворения. Веками люди в этом регионе выражали глубинные моральные суждения только осанкой. Мы не можем этого потерять». 
+
+Чтобы поддержать реализацию, город опубликовал 12‑страничный буклет «Понимание общественного вздоха: руководство для граждан». В документе различают вздохи пассажира, вздохи в очереди, вздохи из‑за плохой уборки зимних дорог и продвинутый межпоколенческий вздох, обычно применяемый, когда младший родственник объявляет о творческой карьере. Каждой категории приписан диапазон децибел и рекомендуемая «мимическая установка». 
+
+Муниципальное принуждение на начальном этапе будет скорее воспитательным, чем карательным. В пилотной фазе первыми нарушителями, которые выразят критику слишком прямо, могут вручать жёлтое вежливое предупреждение с напоминанием «проработать это в социальной плоскости». Повторно нарушающих могут направить на трёхчасовой семинар в Межапарке, где обученные фасилитаторы демонстрируют приемлемые альтернативы прямому выражению своих мыслей.
+
+Реакция по всей столице смешанная, но эмоционально сдержанная. У Рижского центрального рынка пенсионерка Майя Озолиня, 71 год, сказала, что политика «давно назрела», после чего несколько секунд уставилась в даль. «Эти молодые просто сейчас говорят вещи», — наконец произнесла она. «Если суп плохой, они говорят, что суп плохой. Где интрига? Где достоинство?»
+
+Не все убеждены. Артурс Фельдманис, 29 лет, продуктовый дизайнер из Pārdaugava (Пардаугава), предупредил, что город романтизирует непродуктивное общение. «В прошлом году мой домовладелец четыре месяца выражал, что отопление не работает, резко вдыхая, когда я заходил в подъезд», — рассказал Фельдманис. «В какой‑то момент слова полезны». 
+
+Тем не менее ранние данные небольшого муниципального испытания в Югле показывают заметные преимущества. Исследователи зафиксировали снижение числа трамвайных ссор на 14%, рост числа многозначительных взглядов в аптеках на 31% и один статистически необычный полдень, когда целое кафе умудрилось выразить неодобрение пользователю ноутбука, не произнеся ни слова. Экономисты Банка Латвии отказались комментировать, может ли это повлиять на ВВП, хотя одного аналитика видели, когда он тер лоб возле таблицы.
+
+В Юрмале чиновники уже рассматривают сезонную адаптацию для летних туристов, многие из которых приезжают не обученными местным методам фонового упрёка. Подготовленная на рассмотрение инициатива предусматривает создание выделенных «зон вздохов» возле концертного зала Дзинтари, где посетителям можно будет дать инструктаж перед попыткой пожаловаться на парковку.
+
+К вечеру вторника первые признаки успеха уже были заметны. Когда на улице Бривибас пошёл мелкий моросящий дождь и движение замедлилось по причинам, которые никто не мог толком объяснить, жители по всему городу останавливались, выдыхали через нос и смотрели друг на друга с той тихой солидарностью людей, которые предпочли бы не обсуждать это дальше.`
+    },
+    date: "Jun 11, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/181/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 180,
     slug: "riga-introduces-polite-silence-hours-on",
     title: {
@@ -102,7 +189,7 @@ Otrdienas vakarā sabiedrības reakcija šķita piesardzīgi nomierināta. Nelie
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/180/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 179,
