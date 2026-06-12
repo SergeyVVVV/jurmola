@@ -18,6 +18,109 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 182,
+    slug: "jrmala-introduces-silence-tax-after-residents-182",
+    title: {
+      en: "Jūrmala Introduces ‘Silence Tax’ After Residents Complain Tourists Are Laughing Too Loudly Near Pine Trees",
+      lv: "Jūrmala ievieš 'klusuma maksu' pēc iedzīvotāju sūdzībām, ka tūristi pie priedēm smejas pārāk skaļi",
+      ru: "Юрмала вводит «налог на тишину» после жалоб жителей, что туристы слишком громко смеются у сосен"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have approved a seasonal Silence Tax aimed at preserving what they call the city’s “acoustic dune heritage.” Visitors whose conversations exceed approved seaside softness levels may now be charged up to €14.50, with repeat offenders required to sit quietly on a bench and reflect on spruce.",
+      lv: "Jūrmalas amatpersonas apstiprinājušas sezonālu klusuma maksu, kas paredzēta tam, ko tās dēvē par pilsētas “akustisko kāpu mantojumu” saglabāšanai. Apmeklētājiem, kuru sarunu skaļums pārsniedz apstiprinātos piejūras maiguma standartus, tagad var tikt uzlikta maksa līdz €14,50, bet recidīvistiem jāapsēžas uz soliņa un klusumā pārdomāt priedi.",
+      ru: "Чиновники Юрмалы утвердили сезонный «налог на тишину», призванный сохранить то, что они называют «акустическим наследием дюн». Посетителям, чьи разговоры превышают допустимый уровень прибрежной мягкости, теперь могут выписывать штраф до €14,50, а повторных нарушителей обяжут молча посидеть на скамейке и поразмышлять об елях."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move municipal leaders described as “long overdue and spiritually obvious,” the Jūrmala City Council on Tuesday voted 11–4 to introduce Latvia’s first Silence Tax, a targeted fee for tourists found speaking, laughing, or reacting too energetically within designated Quiet Coastal Preservation Zones.
+
+The policy, which will take effect on 1 June, applies to visitors in central Jūrmala, Dzintari beach approaches, and several pine-adjacent pedestrian corridors where local residents have reported “sustained outbreaks of audible enjoyment” during previous summers. According to the new regulations, any non-resident producing more than 47 decibels of “recreational noise” between 10:00 and 19:00 may be subject to an on-the-spot payment ranging from €3 for “sharp sandals-based exclamations” to €14.50 for “continuous group laughter with no clear medical basis.”
+
+Vice Mayor for Environmental Calmness Inga Liepiņa said the tax was not anti-tourism, but rather “pro-dignity.”
+
+“We welcome guests,” Liepiņa told reporters while standing beside a laminated map of approved whispering routes. “But Jūrmala was not built to withstand thirty-seven people from inland regions simultaneously saying ‘wow’ at a sunset. Our pines absorb only so much.”
+
+The measure follows a 126-page summer report from the Municipal Institute of Atmospheric and Social Stillness, which found that average tourist conversation in Majori had become 18% brighter in tone since 2021. Researchers also concluded that one loud bachelor party near Bulduri last July caused two pensioners to abandon an entire evening of passive shoreline observation.
+
+To enforce the new rules, the city has recruited 42 seasonal Acoustic Inspectors, equipped with decibel meters, beige windbreakers, and discretionary authority to determine whether a person’s laughter is “cultural,” “nervous,” or “frankly excessive.” A pilot version of the program was quietly tested over the Easter holiday, resulting in 63 warnings, 14 fines, and one educational seminar delivered to a family from Jelgava after their child asked, “Can we get ice cream?” at what officials later described as “a trampling volume.”
+
+Not all residents believe the policy goes far enough. Ilmārs Graudums, 68, a retired dental technician from Melluži, said city leaders had ignored the most serious threat.
+
+“Rolling suitcase wheels,” Graudums said, staring into the middle distance. “That is the real invasion. You hear them on the boards, tuk-tuk-tuk, like someone dragging modernity over birch roots. Tax that first.”
+
+Business owners, however, are concerned about implementation. Café manager Elza Kļaviņa, whose outdoor terrace serves sea buckthorn éclairs and legally moderate cappuccinos, said she supported preserving tranquility but worried about confusion among foreign visitors.
+
+“How do I explain to Germans that they may discuss pastries, but only in a horizontal emotional register?” Kļaviņa asked. “They appreciate rules, yes, but they also like complete rules.”
+
+The city has attempted to address such concerns through multilingual signage. New notices posted near beach entrances instruct tourists to “Experience Joy Internally,” “Please Respect the Historic Quiet,” and, in one disputed Lithuanian translation, “Do Not Emotion the Air.”
+
+Regional economists estimate the Silence Tax could generate up to €280,000 over the summer season, funds the council says will be reinvested into dune stabilization, bench varnishing, and a new municipal app that allows residents to report “acoustic incidents” by selecting from categories including Cackling, Unnecessary Calling, and Public Surprise.
+
+At Riga Central Station, reaction among travelers was mixed. A group of Estonian day-trippers interviewed while waiting for the afternoon train to Dubulti expressed cautious optimism.
+
+“We already planned to say very little,” said visitor Mart Saar, after a long pause. “So for us, this is mostly a discount.”
+
+Late Wednesday, municipal officials confirmed they are also studying a winter pilot program that would fine snow walkers whose boots produce “aggressive crunching.”`,
+      lv: `JŪRMALA — Pārvērtējumā, ko pašvaldības vadītāji raksturoja kā “ilgstoši nepieciešamu un garīgi acīmredzamu”, Jūrmalas domes deputāti otrdien ar balsu attiecību 11–4 nobalsoja par Latvijas pirmās klusuma maksas ieviešanu — mērķtiecīgu nodevu tūristiem, kuri norādītajās Klusuma piekrastes saglabāšanas zonās tiek pieķerti runājam, smejamies vai reaģējam pārāk enerģiski.
+
+Polise, kas stāsies spēkā 1. jūnijā, attieksies uz apmeklētājiem centrālajā Jūrmalā, pie Dzintaru pludmales pieejām un vairākos priedes tuvumā esošos gājēju koridoros, kur vietējie iedzīvotāji iepriekšējās vasarās ziņojuši par “ilgstošiem dzirdamiem prieka uzplaiksnījumiem”. Saskaņā ar jaunajiem noteikumiem jebkurš nepastāvīgais iedzīvotājs, kas no pulksten 10:00 līdz 19:00 rada vairāk nekā 47 decibelus “atpūtas trokšņa”, var tikt saukts pie vietas samaksāt no €3 par “asu sandales izsaucienu” līdz €14,50 par “nepārtrauktu grupas smiešanos bez skaidri redzama medicīniska iemesla”.
+
+Vides klusuma vicemēre Inga Liepiņa sacīja, ka maksa nav pret tūrisma attieksmi, bet gan “par cieņu.”
+
+“Mēs uzņemam viesus,” Liepiņa žurnālistiem teica, stāvot blakus laminētai kartei ar apstiprinātajiem čukstēšanas maršrutiem. “Bet Jūrmala nebija domāta izturēt trīsdesmit septiņiem iekšzemes viesiem vienlaikus sakot ‘wow’ saulrietā. Mūsu priedes absorbē tikai tik daudz.”
+
+Šis mērs seko 126 lappušu vasaras ziņojumam no Pašvaldības atmosfēras un sociālā klusuma institūta, kurā konstatēts, ka vidējā tūristu saruna Majoros kopš 2021. gada kļuvusi par 18% gaišāka toņa ziņā. Pētījuma autori arī secināja, ka viena skaļa puišu ballīte pie Bulduri pagājušā jūlijā piespieda divus pensionārus atteikties no visa vakara, kas bija paredzēts par piekrastes pasīvu vērošanu.
+
+Lai uzraudzītu jaunos noteikumus, pilsēta pieņēma darbā 42 sezonārus akustikas inspektorus, aprīkotus ar decibelmetriem, bēšām vējjakām un diskrecionāru pilnvaru noteikt, vai personas smiekli ir “kultūras”, “nervozitātes” vai “tiešām pārmērīgi”. Programmas pilotversija klusi tika izmēģināta Lieldienu brīvdienās, kas noslēdzās ar 63 brīdinājumiem, 14 naudassodiem un vienu izglītojošu semināru ģimenei no Jelgavas pēc tam, kad viņu bērns jautāja “Vai varam dabūt saldējumu?” skaļumā, ko amatpersonas vēlāk raksturoja kā “bradāšanas līmeni.”
+
+Ne visi iedzīvotāji uzskata, ka politika iet gana tālu. 68 gadus vecais pensijā esošais zobu tehniķis no Mellužiem Ilmārs Graudums sacīja, ka pilsētas vadība ignorējusi visnopietnāko draudu.
+
+“Ripojošu koferu riteņi,” Graudums teica, skatoties tālumā. “Tas ir īstais iebrukums. Tu dzirdi tos uz dēļiem, tuk-tuk-tuk, it kā kāds vilktu modernitāti pāri bērzu saknēm. Nodokli tam pirmajam.”
+
+Uzņēmēji gan bažījas par īstenošanu. Kafejnīcas pārziniece Elza Kļaviņa, kuras āra terasē pasniedz smiltsērkšķu eklērus un likumīgi mērenus kapučīno, sacīja, ka atbalsta mierizlīgumu, bet bažījas par ārzemju apmeklētāju apjukumu.
+
+“Kā man vāciešiem izskaidrot, ka viņi drīkst apspriest konditorejas izstrādājumus, bet tikai horizontālā emocionālā reģistrā?” Kļaviņa vaicāja. “Viņi novērtē noteikumus, jā, bet viņiem arī patīk pilnīgi skaidri noteikumi.”
+
+Pilsēta mēģinājusi risināt šādas bažas, uzstādot daudzvalodu norādes. Jaunos paziņojumus pie pludmales ieejām lasāmi: “Izbaudi prieku sevī,” “Lūdzu, cieniet vēsturisko klusumu,” un vienā apstrīdētā lietuviešu tulkojumā — “Neemocionējiet gaisu.”
+
+Reģionālie ekonomisti lēš, ka klusuma maksa vasaras sezonā varētu ienest līdz €280 000, līdzekļus, kurus dome plāno reinvestēt kāpu nostiprināšanā, soliņu lakošanā un jaunā pašvaldības lietotnē, kas ļaus iedzīvotājiem ziņot par “akustiskiem incidentiem” izvēloties kategorijas, tostarp ķiķināšana, nevajadzīga saukšana un publiska pārsteigšanās.
+
+Rīgas centrālajā stacijā ceļotāju reakcija bija jaukta. Igaunu dienas ceļotāju grupa, kas tika intervēta, gaidot pēcpusdienas vilcienu uz Dubultiem, izrādīja piesardzīgu optimisms.
+
+“Mēs jau plānojām teikt ārkārtīgi maz,” pēc gara pauzes teica apmeklētājs Marts Saar. “Tātad mums tas vairāk ir atlaide.”
+
+Vēlā trešdienā pašvaldības amatpersonas apstiprināja, ka arī izskata ziemas pilotprogrammu, kas sodītu sniega gājējus par to zābaku radīto “agresīvo kraukšķēšanu.”`,
+      ru: `ЮРМАЛА — В шаге от того, что муниципальные власти назвали «давно назревшим и духовно очевидным», вице-представление: во вторник Городской совет Юрмалы проголосовал 11–4 за введение первого в Латвии «налога на тишину» — целевого сбора для туристов, уличённых в разговорах, смехе или слишком бурной реакции в специально отведённых зонах сохранения покоя при побережье.
+
+Политика, которая вступит в силу 1 июня, распространяется на центр Юрмалы, подходы к пляжу Дзинтари и несколько пешеходных коридоров у сосен, где местные жители в прошлые лета сообщали о «стойких вспышках слышимого удовольствия». Согласно новым правилам, любой негражданин, создающий более 47 децибелов «рекреационного шума» в период с 10:00 до 19:00, может быть оштрафован на месте суммой от €3 за «резкие восклицания, вызванные шлёпанцами» до €14,50 за «непрерывный групповой смех без очевидных медицинских оснований».
+
+Вице-мэр по экологическому спокойствию Инга Лиепиня сказала, что налог не против туризма, а «за достоинство». «Мы приветствуем гостей, — заявила Лиепиня репортёрам, стоя у ламинированной карты одобренных маршрутов шёпота. — Но Юрмала не была построена, чтобы выдерживать тридцать семь человек из внутренних регионов, одновременно говорящих „вау“ на закате. Наши сосны впитывают не всё». 
+
+Мера последовала за 126-страничным летним отчётом Муниципального института атмосферного и социального безмолвия, в котором говорится, что средний тон разговоров туристов в Майори с 2021 года стал ярче на 18%. Исследователи также пришли к выводу, что одна громкая мальчишник-безобразие возле Булдури в июле прошлого года заставило двух пенсионеров отказаться от целого вечера пассивного наблюдения за берегом.
+
+Для обеспечения исполнения новых правил город нанял 42 сезонных акустических инспектора, снабжённых децибелометрами, бежевыми ветровками и дискреционными полномочиями определять, является ли чей‑то смех «культурным», «нервным» или «откровенно чрезмерным». Пилотную версию программы тихо испытали на пасхальные праздники, что привело к 63 предупреждениям, 14 штрафам и одному образовательному семинару для семьи из Елгавы после того, как их ребёнок спросил: «Можно нам мороженого?» на, по описанию чиновников, «топтательной громкости».
+
+Не все жители считают, что мера идёт достаточно далеко. Ильмарс Граудумс, 68 лет, пенсионер и бывший зуботехник из Меллужи, сказал, что городские власти проигнорировали самую серьёзную угрозу. «Катящиеся колёса чемоданов, — промолвил Граудумс, уставившись вдаль. — Вот настоящее вторжение. Слышишь их по доскам — тук‑тук‑тук, как будто кто‑то тащит современность по берёзовым корням. Обложите налогом это в первую очередь». 
+
+Однако владельцы бизнеса беспокоятся о воплощении идеи. Менеджер кафе Элза Клявина, чья уличная терраса подаёт облепиховые эклеры и легально умеренные капучино, поддержала сохранение тишины, но выразила опасение о путанице среди иностранных гостей. «Как мне объяснить немцам, что они могут обсуждать выпечку, но только в горизонтальном эмоциональном регистре?» — спросила Клявина. «Они ценят правила, да, но им нравятся исчерпывающие правила». 
+
+Город попытался ответить на такие опасения с помощью многоязычных указателей. Новые таблички у входов на пляж призывают туристов «переживать радость внутри», «пожалуйста, уважайте историческую тишину» и, в одном спорном переводе на литовский, «не эмоционируйте воздух».
+
+Региональные экономисты оценивают, что «налог на тишину» может принести до €280 000 за летний сезон — средства, которые совет намерен вновь инвестировать в стабилизацию дюн, лакировку скамеек и новое муниципальное приложение, позволяющее жителям сообщать об «акустических инцидентах», выбирая категории вроде Предикативный Хохот, Ненужные Вызовы и Общественное Удивление.
+
+На Рижском центральном вокзале реакция путешественников была смешанной. Группа эстонских однодневных туристов, опрошенная в ожидании дневного поезда до Дубулты, выразила осторожный оптимизм. «Мы уже планировали говорить очень мало, — сказал посетитель Март Саар после долгой паузы. — Так что для нас это в основном скидка». 
+
+Поздно в среду муниципальные чиновники подтвердили, что также изучают зимний пилотный проект, предусматривающий штрафы для прогуливающихся по снегу, чьи сапоги производят «агрессивный скрип».`
+    },
+    date: "Jun 12, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/182/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 181,
     slug: "riga-introduces-quiet-hour-for-passive",
     title: {
@@ -102,7 +205,7 @@ Otrdienas vakarā pirmie panākumu simptomi jau bija redzami. Kad Rīgā pār Br
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/181/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 180,
