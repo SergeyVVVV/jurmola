@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 183,
+    slug: "riga-introduces-silent-tram-car-for-183",
+    title: {
+      en: "Riga Introduces Silent Tram Car for Passengers Who Need 17 Minutes to Secretly Hate Everyone",
+      lv: "Rīga ievieš klusējošu tramvaja vagonu pasažieriem, kuriem nepieciešamas 17 minūtes slepenai ienīšanai pret visiem",
+      ru: "Рига запускает вагон молчания для пассажиров, которым нужно 17 минут, чтобы тайно возненавидеть всех"
+    },
+    excerpt: {
+      en: "Municipal officials this week unveiled a new “Reflective Mobility Carriage” on Tram No. 6, designed for residents who wish to commute in total silence while privately developing complex grievances against strangers. The pilot program has already been praised as “the most emotionally accurate public transport initiative in modern Latvian history.”",
+      lv: "Pašvaldības amatpersonas šonedēļ atklāja jaunu «Reflektīvās mobilitātes vagonu» 6. tramvajā, paredzētu iedzīvotājiem, kuri vēlas braukt pilnīgā klusumā, kamēr privāti attīsta sarežģītas sūdzības pret svešiniekiem. Pilotprojektu jau slavē kā «emocionāli precīzāko sabiedriskā transporta iniciatīvu mūsdienu Latvijas vēsturē».",
+      ru: "На этой неделе муниципальные власти представили новый «Рефлексивный вагон мобильности» на трамвае №6, рассчитанный на тех жителей, которые хотят ехать в полной тишине, одновременно выстраивая в уме сложные обиды на незнакомцев. Пилотную программу уже назвали «самой эмоционально точной инициативой общественного транспорта в современной истории Латвии»."
+    },
+    fullContent: {
+      en: `RIGA — In a move city planners say finally aligns public transport with “the psychological needs of the average resident,” Riga Satiksme on Tuesday introduced a new silent tram carriage where speaking, eye contact, and visibly cheerful behavior are strongly discouraged.
+
+The new carriage, officially titled the Reflective Mobility Unit but already known by passengers as “the Resentment Wagon,” began operating this week on Tram No. 6 between Ausekļa iela and Jugla. According to municipal documents, the carriage is intended for commuters who require “a protected civic environment in which to stare out the window, revisit minor humiliations from 2014, and become irritated by a person merely standing incorrectly.”
+
+“We noticed that many passengers were already attempting to create this atmosphere informally,” said Riga Deputy Transport Integration Director Ilze Pabrika, speaking beside the tram while several journalists instinctively lowered their voices. “People would enter, sigh once, choose a seat with excellent judgment, and spend the journey in silent moral disagreement with at least four other people. We asked ourselves: why not support this with infrastructure?”
+
+Under the new rules, passengers entering the carriage must place phones on vibration mode, avoid conversations longer than two words, and keep all emotional reactions within what officials call “the Baltic acceptable range.” A small illuminated sign above the door reminds riders: NO LOUD LAUGHTER, NO FACETIME, NO EXPLAINING PODCASTS TO OTHERS.
+
+Transport authorities say the pilot is based on a six-month observational study involving 1,200 commuters, 38 ticket inspectors, and one sociology doctoral student from the University of Latvia who spent February measuring “non-verbal disapproval density” across the network. The study found that 72% of passengers preferred silence, 19% preferred “silence but with occasional tragic accordion,” and 9% said they would support talking only if it concerned discounted cottage cheese.
+
+For many riders, the concept has already felt overdue. “This is the first time the city has recognized my right not to participate,” said office administrator Mārtiņš Ozols, 41, while carefully not looking at anyone. “Usually I must share a carriage with students discussing crypto or tourists experiencing architecture out loud. Here, I can finally sit in peace and judge a man’s backpack as if it were a policy failure.”
+
+Not everyone is convinced. Elīna Vītola, a 23-year-old exchange student from Spain, said she entered the carriage by mistake and initially assumed “something very serious had happened.” After receiving five simultaneous glances for unwrapping a cereal bar, she said she exited at the next stop. “It was like being in a library, except every book was angry,” she told reporters.
+
+Officials insist the carriage is not anti-social, only “socially precise.” To maintain the proper atmosphere, tram staff have received training in de-escalation and subtle eyebrow signaling. In severe cases, conductors may relocate disruptive passengers to a standard carriage, where they are free to discuss real estate prices, ask whether anyone knows why the heating is strange, or play TikTok videos at full volume as nature intended.
+
+The city has already reported promising early results. Since Monday, passenger satisfaction on Tram No. 6 has risen 14%, petty internal monologues have become more organized, and one rider reportedly completed an entire 22-minute commute fueled solely by dignified irritation.
+
+Encouraged by the response, Riga Satiksme is considering future expansions, including a special bus section for people carrying suspiciously fragrant smoked fish and a trial platform at the Central Station where residents can stand in silence before deciding they actually prefer to walk. Municipal leaders called the project a modest but historic step toward a more efficient, emotionally realistic capital.`,
+      lv: `RĪGA — Pilsētas plānotāji sacījuši, ka beidzot sabiedrisko transportu pielāgojuši «vidējā iedzīvotāja psiholoģiskajām vajadzībām», un otrdien Rīgas Satiksme ieviesa jaunu klusējošu tramvaja vagonu, kur runāšana, acu kontakti un redzami priecīga uzvedība tiek stingri atturēti.
+
+Jaunajam vagonam oficiālais nosaukums ir Reflektīvās mobilitātes vienība, bet pasažieri to jau dēvē par «Riebuma vagonu»; tas šonedēļ sāka kursēt 6. tramvajā maršrutā no Ausekļa ielas līdz Juglai. Pašvaldības dokumentos norādīts, ka vagonu paredzēts izmantot tiem braucējiem, kuriem vajadzīga «aizsargāta civiskā vide, lai skatītos ārā pa logu, pārdomātu 2014. gada nelielās pazemojuma epizodes un uzbudinātos par to, ka kāds stāv nepareizi». 
+
+«Pamanījām, ka daudzi pasažieri šo atmosfēru jau mēģināja veidot neformāli,» sacīja Rīgas Satiksmes transporta integrācijas vietniece Ilze Pabrika, runājot pie tramvaja, kamēr vairāki žurnālisti instinktīvi nolaida balsi. «Cilvēki ieiet, vienreiz nopūšas, izvēlas vietu ar izcilu spriedumu un pavadā ceļu klusā morāliskā domstarpībā ar vismaz četriem citiem. Mēs pajautājām: kāpēc gan to neatbalstīt ar infrastruktūru?»
+
+Saskaņā ar jaunajiem noteikumiem pasažieri, kas iekāpj vagonā, telefoniem jāieslēdz vibrācija, jāvairās no sarunām, kas ilgākas par diviem vārdiem, un visi emocionālie izpausmes jāierobežo tā sauktajā «Baltijas pieņemamības diapazonā». Mazs izgaismots uzraksts virs durvīm atgādina: NEKĀDA SKAĻA SMIEŠANA, NEKĀDA FACETIME, NEKĀDA PODKĀSTU SKAIDROŠANA CITIEM.
+
+Transporta iestādes norāda, ka pilots balstīts uz sešu mēnešu novērošanas pētījumu, kurā iesaistīti 1 200 pasažieri, 38 biļešu kontrolieri un viens socioloģijas doktorants no Latvijas Universitātes, kurš februārī visā tīklā mērīja «neverbālās neapmierinātības blīvumu». Pētījums konstatēja, ka 72% pasažieru dod priekšroku klusumam, 19% priekšroku dod «klusumam ar retu traģisku akordeonu», un 9% teica, ka atbalstīs sarunas tikai tad, ja tēma būs atlaide biezpienam.
+
+Daudziem braucējiem koncepts šķiet ilgi gaidīts. «Šī ir pirmā reize, kad pilsēta atzīst manu tiesību nepiedalīties,» sacīja biroja administrators Mārtiņš Ozols, 41 gadu vecs, rūpīgi neuzlūkojot nevienu. «Parasti man jādalās vagonā ar studentiem, kas apspriež kriptovalūtu, vai tūristiem, kas skaļi izjūt arhitektūru. Šeit es beidzot varu sēdēt mierā un spriest par cilvēka mugursomu tā, it kā tā būtu politikas neveiksme.»
+
+Ne visi ir pārliecināti. 23 gadus vecā apmaiņas studente no Spānijas Elīna Vītola stāstīja, ka vagonā iekļuva kļūdas pēc un sākotnēji domāja, ka «ir noticis kas ļoti smags». Pēc piecām vienlaicīgām skatienu piegādēm par to, ka viņa atvēra graudu batoniņu, viņa izkāpa nākamajā pieturā. «Tas bija kā bibliotēkā, tikai katra grāmata bija nikna,» viņa sacīja žurnālistiem.
+
+Amatpersonas uzsver, ka vagonis nav antisociāls, bet gan «sociāli precīzs». Lai uzturētu pareizo atmosfēru, tramvaja personāls saņēmis apmācību eskalācijas mazināšanā un smalkās uzacu signālu lietošanā. Smagos gadījumos konduktori drīkst pārvietot traucējošos pasažierus uz standarta vagonu, kur viņiem brīvi atļauts apspriest nekustamā īpašuma cenas, vaicāt, vai kādam nav riebīga apkure, vai pilnā skaļumā rādīt TikTok video — kā to prasa daba.
+
+Pilsēta jau ziņo par iepriecinošiem agrīniem rezultātiem. Kopš pirmdienas apmierinātība ar 6. tramvaju pieaugusi par 14%, sīkie iekšējie monologi kļuvuši organizētāki, un viens pasažieris, pēc ziņām, veica visu 22 minūšu braucienu, ko finansēja vienīgi cieņpilns saskarsmes neapmierinājums.
+
+Iedvesmojoties no atsauksmēm, Rīgas Satiksme apsver turpmākas paplašināšanas iespējas, tostarp speciālu autobusa nodalījumu cilvēkiem, kas nēsā aizdomīgi smaržojošu kūpinātu zivju, un izmēģinājuma platformu Centrālajā stacijā, kur iedzīvotāji var nostāvēt klusumā pirms izlemt, ka tomēr dod priekšroku kājām. Pašvaldības vadītāji projektu nodēvēja par pieticīgu, tomēr vēsturisku soli ceļā uz efektīvāku, emocionāli reālistiskāku galvaspilsētu.`,
+      ru: `РИГА — В шаге, который, по словам городских планировщиков, наконец согласует общественный транспорт с «психологическими потребностями среднего жителя», Riga Satiksme во вторник представила новый тихий трамвайный вагон, где разговоры, зрительный контакт и явная жизнерадостность категорически не поощряются.
+
+Новый вагон, официально именуемый Рефлексивным подразделением мобильности, но уже известный пассажирам как «Вагон обиды», начал работу на этой неделе на трамвае №6 между Ausekļa iela и Jugla. Согласно муниципальным документам, вагон предназначен для тех пассажиров, которым нужно «защищённое гражданское пространство, чтобы смотреть в окно, пережить заново мелкие унижения 2014 года и раздражаться из‑за того, что кто‑то стоит неправильно». 
+
+«Мы заметили, что многие пассажиры уже пытаются создавать такую атмосферу неофициально», — сказала заместитель директора по интеграции транспорта Риги Илзе Пабрика, говоря рядом с трамваем, в то время как несколько журналистов инстинктивно понизили голос. «Люди заходили, один раз вздыхали, выбирали место с отличным чутьём и проводили поездку в молчаливом моральном несогласии как минимум с четырьмя другими людьми. Мы спросили себя: почему бы не поддержать это инфраструктурно?»
+
+По новым правилам, входящие в вагон пассажиры должны ставить телефоны на виброзвонок, избегать разговоров дольше двух слов и держать все эмоциональные реакции в том, что чиновники называют «балтийским допустимым диапазоном». Маленькая подсвеченная табличка над дверью напоминает пассажирам: НИКАКИХ ГРОМКИХ СМЕХОВ, НИ FACETIME, НИ ОБЪЯСНЕНИЙ ПОДКАСТОВ ДРУГИМ.
+
+Транспортные власти утверждают, что пилот основан на шестимесячном наблюдательном исследовании с участием 1 200 пассажиров, 38 контролёров билетов и одного социологического докторанта из Латвийского университета, который в феврале измерял «плотность невербального неодобрения» по всей сети. Исследование показало, что 72% пассажиров предпочитают молчание, 19% — «молчание, но с периодической трагичной гармошкой», и 9% заявили, что согласны на разговоры только если речь идёт о твороге со скидкой.
+
+Для многих пассажиров задумка показалась давно назревшей. «Это впервые, когда город признал моё право не участвовать», — сказал офисный администратор Мартиньш Озолс, 41 год, тщательно ни на кого не глядя. «Обычно мне приходится делить вагон со студентами, обсуждающими крипту, или с туристами, вслух переживающими архитектуру. Здесь я наконец могу спокойно сидеть и смотреть на чей‑то рюкзак так, будто это провал политической стратегии». 
+
+Не все в восторге. Элина Витола, 23‑летняя студентка по обмену из Испании, рассказала, что зашла в вагон по ошибке и сначала подумала, что «случилось что‑то очень серьёзное». Получив одновременно пять укоризненных взглядов за то, что разворачивает батончик мюсли, она вышла на следующей остановке. «Было как в библиотеке, только каждая книга была зла», — сказала она репортёрам.
+
+Чиновники настаивают, что вагон вовсе не антисоциальный, а лишь «социально точный». Чтобы поддерживать нужную атмосферу, трамвайный персонал прошёл обучение по деэскалации и по тонким сигналам бровями. В серьёзных случаях кондукторы могут пересадить нарушителей в стандартный вагон, где им позволено обсуждать цены на недвижимость, спрашивать, почему странно работает отопление, или включать ролики из TikTok на полную громкость — как того требует сама природа.
+
+Город уже отчитался о многообещающих первых результатах. С понедельника удовлетворённость пассажиров на трамвае №6 выросла на 14%, мелкие внутренние монологи стали более организованными, а один пассажир, по сообщениям, прошёл всю 22‑минутную поездку, подпитываясь исключительно достоинственным раздражением.
+
+Воодушевлённые откликом, Riga Satiksme рассматривает дальнейшее расширение: в том числе специальный автобусный отсек для людей с подозрительно благоухающей копчёной рыбой и пилотную платформу на Центральном вокзале, где жители смогут постоять в тишине, прежде чем решить, что им всё же удобнее идти пешком. Муниципальные лидеры назвали проект скромным, но историческим шагом на пути к более эффективной, эмоционально реалистичной столице.`
+    },
+    date: "Jun 13, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/183/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 182,
     slug: "jrmala-introduces-silence-tax-after-residents-182",
     title: {
@@ -118,7 +199,7 @@ Vēlā trešdienā pašvaldības amatpersonas apstiprināja, ka arī izskata zie
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/182/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 181,
