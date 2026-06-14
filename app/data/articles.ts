@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 184,
+    slug: "riga-introduces-passive-aggressive-silence-zones-184",
+    title: {
+      en: "Riga Introduces ‘Passive-Aggressive Silence Zones’ on Public Transport to Preserve National Character",
+      lv: "Rīga ievieš «Pasīvi‑agresīvās klusuma zonas» sabiedriskajā transportā, lai saglabātu nacionālo raksturu",
+      ru: "Рига вводит «зоны пассивно-агрессивной тишины» в общественном транспорте, чтобы сохранить национальный характер"
+    },
+    excerpt: {
+      en: "In a move city officials say will protect Latvia’s cultural heritage, Riga has begun testing designated ‘Passive-Aggressive Silence Zones’ on buses, trams, and trolleybuses. The pilot program encourages passengers to communicate exclusively through sighing, pointed window-staring, and subtle bag repositioning.",
+      lv: "Pilsētas amatpersonas apgalvo, ka tas aizsargās Latvijas kultūras mantojumu — Rīga sāka izmēģināt īpašas «Pasīvi‑agresīvās klusuma zonas» autobusos, tramvajos un trolejbuss. Pilota programma mudina pasažierus sazināties tikai ar nopūtām, mērķtiecīgu skatienu logā un nelielu somas pārvietošanu.",
+      ru: "В попытке, которую городские власти называют защитой культурного наследия Латвии, Рига начала тестирование специальных «зон пассивно-агрессивной тишины» в автобусах, трамваях и троллейбусах. Пилотная программа поощряет пассажиров общаться исключительно через вздохи, выразительное уставление в окно и тонкие перестановки сумок."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Council this week unveiled a pilot program establishing ‘Passive-Aggressive Silence Zones’ across 14 public transport routes, a measure officials describe as ‘a long-overdue investment in emotional infrastructure.’ Beginning Monday, selected sections of buses and trams will be reserved for passengers willing to express dissatisfaction in the traditional urban Latvian manner: wordlessly, indirectly, and with great personal discipline.
+
+The initiative, formally titled the Reserved Interpersonal Distance and Nonverbal Harmony Plan, was approved Tuesday after a six-hour committee meeting in which, according to minutes, ‘no one openly objected, which was interpreted as overwhelming support.’ Bright gray signage has already appeared on route 6 trams and the 22nd bus to the airport, instructing riders to ‘Maintain a respectful silence unless muttering is absolutely necessary.’
+
+Deputy Chair for Mobility and Quiet Affairs Ilze Vītoliņa said the city had been forced to act after a surge in ‘unstructured friendliness’ on public transport. ‘We are not against conversation in principle,’ Vītoliņa explained at a press conference held in a room with intentionally uncomfortable chairs. ‘But in recent years we have observed troubling behavior, including spontaneous smiling, full-volume telephone calls, and one documented case of two strangers discussing the weather without prior emotional authorization.’
+
+Under the new guidelines, passengers in Silence Zones may still communicate using approved methods, including prolonged coat-folding, dramatic exhalation, looking meaningfully at the stop request button, and standing too close to the door 11 minutes before their stop. To assist compliance, the municipal transport company Rīgas Satiksme has distributed a 28-page etiquette booklet featuring diagrams of acceptable eyebrow movements and a chart distinguishing a neutral sigh from an accusatory one.
+
+‘It’s about clarity,’ said Rīgas Satiksme spokesperson Mārtiņš Dreimanis, noting that confusion over social boundaries had cost the company ‘untold morale.’ ‘For years, passengers have lacked a clear framework for expressing “You are occupying more than your psychologically justified share of the seat” without verbal conflict. Now they have one.’
+
+Early response from commuters has been cautiously approving. ‘Honestly, it feels natural,’ said Purvciems resident Andra Zepa, 43, while staring firmly at a teenager’s backpack. ‘Before, I had to guess whether a sigh would be understood. Now there is signage. It gives confidence.’
+
+Not everyone is convinced. The Association for Open Civic Warmth, a little-known NGO based in Āgenskalns, issued a statement warning that the policy may deepen existing divides between outgoing residents and those ‘already functioning at optimal levels of reservedness.’ The group’s chair, Kaspars Miezītis, said forcing all passengers into structured emotional minimalism risked marginalizing ‘the nation’s estimated 14 extroverts.’
+
+Still, city data suggests the program is having measurable effects. In the first 48 hours of the pilot, officials reported a 37% reduction in audible conversations, a 62% increase in disapproving glances, and one tram journey from Teika to the Central Market completed in what inspectors called ‘perfect mutual disappointment.’ Researchers from the University of Latvia have also begun monitoring whether reduced speaking leads to lower stress levels or merely reallocates stress into more advanced forms of internal criticism.
+
+Jūrmala authorities are reportedly considering a summer version of the policy for beach trains, where families would be permitted to complain about sand, weather, and other families only through theatrical towel-shaking. Estonia has already expressed interest in observing the pilot ‘from a respectful distance,’ while Lithuania has asked whether the zones can be adapted for intercity buses with louder grandmothers.
+
+At Riga Central Station on Thursday, passengers boarding a crowded tram appeared largely supportive, with several nodding grimly before returning to their individual, private grievances. As one municipal monitor noted while documenting a textbook case of hostile scarf adjustment, ‘At last, people feel seen, provided no one actually looks at them.’`,
+      lv: `RĪGA — Rīgas dome šonedēļ atklāja pilotprogrammu, kuras ietvaros 14 sabiedriskā transporta maršrutos tiek izveidotas «Pasīvi‑agresīvās klusuma zonas», pasākumu, ko amatpersonas raksturojušas kā «ilgi gaidītu ieguldījumu emocionālajā infrastruktūrā». No pirmdienas atlasītās autobusu un tramvaju vagona daļas būs rezervētas pasažieriem, kuri gatavi izteikt neapmierinātību tradicionālā pilsētas latviešu manierē: bez vārdiem, netieši un ar lielu personisko disciplīnu.
+
+Iniciatīva, oficiāli saukta par «Rezervētās starppersonu distances un neverbālās harmonijas plānu», tika apstiprināta otrdien pēc sešu stundu komitejas sēdes, kuras protokolā, pēc viņu teiktā, «neviens atklāti neiebilda, ko interpretēja kā graujošu atbalstu». Uz spilgti pelēkām zīmēm jau parādījušās 6. tramvajā un 22. autobusā uz lidostu, norādot pasažieriem: «Saglabājiet cieņpilnu klusumu, ja vien murmināšana nav absolūti nepieciešama.»
+
+Mobility and Quiet Affairs vietniece Ilze Vītoliņa sacīja, ka pilsētai nācās rīkoties pēc «nestrukturētas draudzības» uzliesmojuma sabiedriskajā transportā. «Mēs pamatā neesam pret sarunām,» Vītoliņa paskaidroja preses konferencē, kas notika telpā ar apzināti neērtām krēsliem. «Bet pēdējos gados esam novērojuši satraucošu uzvedību, tostarp spontānu smaidīšanu, tālruņu sarunas pilnā skaļumā un vienu dokumentētu gadījumu, kad divi svešinieki runāja par laiku bez iepriekšējas emocionālas atļaujas.»
+
+Saskaņā ar jaunajiem norādījumiem klusuma zonu pasažieri joprojām drīkst komunicēt, izmantojot apstiprinātas metodes, tostarp ilgstošu mēteļu pārlocīšanu, dramatisku izelpu, nozīmīgu skatienu uz pieturas paziņošanas pogu un stāvēšanu pārāk tuvu durvīm 11 minūtes pirms viņu pieturas. Lai atvieglotu ievērošanu, pašvaldības transporta uzņēmums Rīgas Satiksme izplatījis 28 lappušu etiķetes bukletu ar diagrammām par pieņemamām uzacu kustībām un tabulu, kas atšķir neitrālu nopūtu no apsūdzīgas.
+
+«Tas ir par skaidrību,» sacīja Rīgas Satiksmes pārstāvis Mārtiņš Dreimanis, norādot, ka neskaidrība par sociālajām robežām uzņēmumam izmaksājusi «neaprēķināmu morāli». «Gadu garumā pasažieriem nav bijis skaidra ietvara, kā bez verbāliem konfliktiem pateikt «Jūs aizņemat vairāk nekā jūsu psiholoģiski pamatotā sēdvietas daļa». Tagad viņiem tāda ir.»
+
+Agrīnā reakcija no ikdienas pasažieriem bijusi piesardzīgi apstiprinoša. «Godīgi sakot, tas šķiet dabiski,» sacīja Purvciema iedzīvotāja Andra Zepa, 43, stingri skatoties uz pusaudža mugursomu. «Agrāk man bija jāmin, vai nopūta tiks saprasta. Tagad ir zīmes. Tas dod pārliecību.»
+
+Ne visi ir pārliecināti. Maz pazīstamā NVO «Atklātā pilsoniskā siltuma asociācija», kas bāzējas Āgenskalnā, izdeva paziņojumu, brīdinot, ka politika var padziļināt esošās plaisas starp atklātajiem iedzīvotājiem un tiem, kuri «jau funkcionē optimālā rezervētības līmenī». Grupas priekšsēdētājs Kaspars Miezītis teica, ka visu pasažieru piespiešana strukturētā emocionālā minimālismā riskē marginalizēt «valsts aptuvenos 14 ekstravertus». 
+
+Tomēr pilsētas dati liecina, ka programma dod izmērāmas sekas. Pirmajās 48 pilotprogrammas stundās amatpersonas ziņoja par 37% sarunu skaļuma samazinājumu, 62% palielinājumu neapmierinātiem skatieniem un vienu tramvaja braucienu no Teikas līdz Centrāltirgum, kas inspektoru vērtējumā bija «pilnīgs savstarpējas vilšanās teikums». Latvijas Universitātes pētnieki arī ir sākuši uzraudzīt, vai runas samazināšanās noved pie zemāka stresa līmeņa vai vienkārši pārvieto stresu uz attīstītākām iekšējās kritikas formām.
+
+Jūrmalas amatpersonas, kā ziņots, apsver vasaras versiju šai politikai pludmales vilcienos, kur ģimenēm būtu atļauts sūdzēties par smiltīm, laiku un citām ģimenēm tikai ar teatrālu dvieļu kratīšanu. Igaunija jau izrādījusi interesi vērot pilotu «no cienoša attāluma», kamēr Lietuva jautājusi, vai zonas var pielāgot starppilsētu autobusiem ar skaļākām vecmāmiņām.
+
+Ceturtdien Rīgas Centrālajā stacijā pasažieri, kuri kāpa pārpildītā tramvajā, šķita lielākoties atbalstoši, vairāki nopietni pamāja ar galvām, pirms atgriezties pie savām individuālajām, privātajām neapmierinātībām. Kā viens pašvaldības novērotājs pierakstīja, dokumentējot klasiska naidīga šalles pielāgošanas gadījumu: «Beidzot cilvēki jūtas redzēti, ja vien neviens patiesībā uz viņiem neskatās.»`,
+      ru: `РИГА — На этой неделе Рижская дума представила пилотную программу по созданию «зон пассивно-агрессивной тишины» на 14 маршрутах общественного транспорта — меру, которую чиновники описывают как «давно назревшее вложение в эмоциональную инфраструктуру». Начиная с понедельника, выбранные секции автобусов и трамваев будут зарезервированы для пассажиров, готовых выражать недовольство в традиционной городской латвийской манере: без слов, опосредованно и с большим личным самообладанием.
+
+Инициатива, формально именуемая Планом резервирования межличностной дистанции и невербальной гармонии, была утверждена во вторник после шестичасового заседания комитета, на котором, согласно протоколу, «никто открыто не возражал, что было истолковано как всеобъемлющая поддержка». Яркие серые указатели уже появились в трамваях маршрута 6 и в автобусе №22 до аэропорта с надписью: «Соблюдайте уважительную тишину, если только бормотание абсолютно необходимо.»
+
+Заместитель председателя по вопросам мобильности и тихого порядка Илзе Вītoliņa заявила, что город был вынужден действовать после всплеска «неструктурированной дружелюбности» в общественном транспорте. «Мы не против разговоров в принципе», — объяснила Вītoliņa на пресс-конференции, проходившей в комнате со специально неудобными стульями. «Но в последние годы мы наблюдали тревожные проявления: спонтанные улыбки, телефонные звонки на полную громкость и один документированный случай, когда двое незнакомцев обсуждали погоду без предварительного эмоционального разрешения.»
+
+Согласно новым правилам, пассажиры в Зонах тишины всё ещё могут общаться одобренными методами, включая долгую складывающуюся пальто-процедуру, драматический выдох, значимый взгляд на кнопку вызова остановки и стояние слишком близко к двери за 11 минут до своей остановки. Для облегчения соблюдения правил муниципальная транспортная компания Rīgas Satiksme раздала 28-страничный буклет этикета с диаграммами приемлемых движений бровями и таблицей, отличающей нейтральный вздох от обвинительного.
+
+«Речь о ясности», — сказал пресс-секретарь Rīgas Satiksme Mārtiņš Dreimanis, отмечая, что путаница в социальных границах стоила компании «неподдающегося подсчёту падения морального духа». «Годы шли, а у пассажиров не было чёткого инструмента, чтобы выразить „Вы занимаете больше, чем ваша психологически оправданная доля сиденья“ без вербального конфликта. Теперь он есть.»
+
+Ранняя реакция пассажиров была сдержанно одобрительной. «Честно говоря, это ощущается естественно», — сказала 43-летняя жительница Пурвциемса Андра Зепа, твёрдо уставившись на рюкзак подростка. «Раньше мне приходилось гадать, поймут ли вздох. Теперь есть указатели. Это вселяет уверенность.»
+
+Не все разделяют оптимизм. Ассоциация открытого гражданского тепла, малоизвестная НКО из Агенскалнса, выпустила заявление, предупреждающее, что политика может углубить существующие разрывы между общительными жителями и теми, кто «уже функционирует на оптимальном уровне сдержанности». Председатель группы Каспарс Миезītis заявил, что принуждение всех пассажиров к структурированному эмоциональному минимализму рискует маргинализировать «по оценкам нации, 14 экстравертов». 
+
+Тем не менее городские данные указывают на измеримый эффект программы. За первые 48 часов пилота чиновники зафиксировали снижение слышимых разговоров на 37%, рост неодобрительных взглядов на 62% и одну трамвайную поездку из Тейки до Центрального рынка, завершившуюся, по словам инспекторов, «идеальным взаимным разочарованием». Исследователи Латвийского университета также начали наблюдать, приведёт ли сокращение разговоров к снижению уровня стресса или же стресс просто перераспределится в более изощрённые формы внутренней критики.
+
+Власти Юрмалы, как сообщается, рассматривают летнюю версию политики для пляжных поездов, где семьям будет разрешено жаловаться на песок, погоду и другие семьи только посредством театрального взмахивания полотенцами. Эстония уже выразила интерес к наблюдению за пилотным проектом «с уважительного расстояния», а Литва поинтересовалась, можно ли адаптировать зоны для междугородних автобусов с более громкими бабушками.
+
+В четверг на Рижском центральном вокзале пассажиры, садившиеся в переполненный трамвай, в целом казались поддерживающими, несколько человек мрачно кивнули, прежде чем вернуться к своим индивидуальным, частным недовольствам. Как отметил один муниципальный наблюдатель, документируя образцовый случай враждебной поправки шарфа: «Наконец-то люди чувствуют себя замеченными, если только никто на самом деле на них не смотрит.»`
+    },
+    date: "Jun 14, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/184/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 183,
     slug: "riga-introduces-silent-tram-car-for-183",
     title: {
@@ -96,7 +177,7 @@ Iedvesmojoties no atsauksmēm, Rīgas Satiksme apsver turpmākas paplašināšan
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/183/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 182,
