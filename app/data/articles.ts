@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 185,
+    slug: "riga-introduces-polite-silence-tax-after",
+    title: {
+      en: "Riga Introduces ‘Polite Silence Tax’ After Residents Found Nodding Through 14,000 Unnecessary Conversations",
+      lv: "Rīga ievieš „laipnā klusuma nodokli”, pēc tam, kad iedzīvotāji piekoda cauri 14 000 nevajadzīgām sarunām",
+      ru: "Рига вводит «налог за вежливое молчание» после того, как выяснилось, что жители кивали в ходе 14 000 ненужных разговоров"
+    },
+    excerpt: {
+      en: "City officials in Riga have approved a pilot program taxing citizens for prolonged participation in conversations they clearly do not want to be having. The measure, described as both a revenue source and a public-health intervention, targets the national habit of enduring social discomfort with extraordinary discipline.",
+      lv: "Rīgas pilsētas amatpersonas apstiprinājušas pilotprogrammu, kas aplikšot iedzīvotājus ar nodokli par ilgstošu piedalīšanos sarunās, kurās viņi acīmredzami nevēlas atrasties. Pasākumu, kuru raksturo gan kā ienākumu avotu, gan sabiedrības veselības iejaukšanos, vērš pret nacionālo ieradumu izturēt sociālo diskomfortu ar izcili disciplinētu pacietību.",
+      ru: "Городские власти Риги утвердили пилотную программу, обязывающую граждан платить налог за длительное участие в разговорах, которые им явно не нужны. Мера, описываемая как источник дохода и как вмешательство в общественное здравоохранение, нацелена на национальную привычку с исключительной дисциплиной терпеть социальный дискомфорт."
+    },
+    fullContent: {
+      en: `RIGA — In a move municipal leaders are calling “fiscally innovative and emotionally honest,” the Riga City Council on Tuesday approved the country’s first Polite Silence Tax, a fee applied to residents who remain trapped in unwanted small talk for longer than four minutes without making a credible attempt to leave.
+
+The tax, set at €0.37 per minute after the legally tolerated threshold, will initially be tested in Central Market queue lines, apartment stairwells, school concerts, and all social interactions occurring within three meters of a coat rack. Officials say the goal is to reduce the economic burden of conversations composed almost entirely of sighing, throat-clearing, and mutually understood regret.
+
+According to a 48-page report from the Riga Institute for Social Weather and Municipal Fatigue, the average resident spends 6.4 hours per month listening to stories they did not request, most commonly involving sauna renovations, mushroom yields, blood pressure, and whether winters were “more serious before Brussels.” Researchers estimate this leads to 14,000 hours of lost productivity annually, though they admit nearly half were measured during one name-day gathering in Purvciems.
+
+“We are not punishing politeness,” Deputy Mayor Ilze Rudzīte told reporters while standing beside a chart labeled ‘Nodding as Hidden Infrastructure.’ “We are recognizing that silence has value. For too long, residents have subsidized avoidable conversation with their own life force.”
+
+Under the pilot program, enforcement officers known as Conversational Assessors will monitor public spaces for signs of involuntary engagement, including fixed smiles, repeated glances toward exits, and the phrase “well, anyway” used more than twice without escape. Citizens who successfully terminate an unnecessary exchange by citing pickled cucumbers, parking zones, or a grandmother’s prescription deadline may qualify for exemptions.
+
+Not everyone supports the measure. Outside a kiosk near Barona Street, 62-year-old retiree and self-described community storyteller Arvīds Krūmiņš said the policy discriminates against “people with complete and important background information.” Krūmiņš, who had already spent 11 minutes explaining a tram delay he witnessed in 1998, warned that Riga risked “becoming Scandinavian in the wrong way.”
+
+But many residents expressed relief. “Last year I lost an entire Saturday to a neighbor describing laminate flooring densities,” said Agnese Bērziņa, 34, an accountant from Teika. “If there had been a financial deterrent, maybe he would have stopped at oak imitation instead of moving into subfloor theology.”
+
+Businesses are already adapting. Several cafes in the center have installed green-yellow-red table lamps indicating customers’ conversational capacity, while a startup in Āgenskalns has launched a smartwatch app that automatically emits the phrase “I should let you continue your day” when the wearer’s pulse suggests social exhaustion. In Jurmala, municipal planners are reportedly considering a seasonal beach surcharge on monologues beginning with “I’m not usually one to complain, but the sand…”
+
+The Finance Ministry, observing the pilot closely, predicts the tax could generate up to €2.8 million in its first year, much of it from family events in Mārupe and post-performance lobbies at amateur choir competitions. Still, some experts warn of loopholes. Linguist Dr. Mārtiņš Zaļkalns noted that Latvians may simply replace spoken small talk with longer, more meaningful eyebrow movements.
+
+By late afternoon, the city had already issued 173 warnings, 49 fines, and one ceremonial pardon to a woman on trolleybus No. 15 who endured a 23-minute explanation of pellet heating with “heroic neutrality.”
+
+If the pilot succeeds, officials say it could expand nationwide by autumn. For now, Riga residents are encouraged to speak only when necessary, leave decisively, and remember that under the new rules, a well-timed nod may soon become a taxable luxury.`,
+      lv: `RĪGA — Pārvērtējumā, ko pašvaldības vadītāji dēvē par „fiskāli inovatīvu un emocionāli godīgu”, Rīgas dome otrdien apstiprināja valsts pirmo Laipnā klusuma nodokli — maksu, kas tiks piemērota iedzīvotājiem, kuri vairāk nekā četras minūtes pārlaida nevēlamā mazsarakstē, neveicot ticamu mēģinājumu to pamest.
+
+Nodoklis, noteikts €0,37 (lokāli: €0,37) par minūti pēc likumā tolerētā sliekšņa, sākotnēji tiks testēts Centrāltirgus rindās, dzīvokļu kāpņu telpās, skolu koncertos un visās sociālajās mijiedarbībās, kas notiek trīs metru attālumā no mēteļu pakaramā. Amatpersonas norāda, ka mērķis ir samazināt sarunu ekonomisko nastu, kuras sastāv gandrīz pilnībā no nopūtām, rīkles attīrīšanas un abpusēji sapratama nožēlas.
+
+Saskaņā ar 48 lappušu ziņojumu no Rīgas Sociālā laika un pašvaldību noguruma institūta, vidējais iedzīvotājs mēnesī pavada 6,4 stundas, klausoties stāstos, ko nav pasūtījis — visbiežāk par pirtiņu remontiem, sēņu ražību, asinsspiedienu un to, vai ziemas „agrāk pirms Briseles bija nopietnākas.” Pētnieki lēš, ka tas gadā rada 14 000 stundas zaudētās produktivitātes, lai gan viņi atzīst, ka gandrīz puse tika izmērīta vienā vārda dienas sanāksmē Purvciemā.
+
+„Mēs nesodām pieklājību,” vietniece Ilze Rudzīte žurnālistiem teica, stāvēdama blakus diagrammai ar nosaukumu „Piekāpšanās kā slēpta infrastruktūra.” „Mēs atzīstam, ka klusumam ir vērtība. Pārāk ilgi iedzīvotāji ir subsīdējuši izvairāmas sarunas ar savu pašu dzīvības spēku.”
+
+Saskaņā ar pilotprogrammu izpildes darbinieki, dēvēti par Sarunu vērtētājiem, monitorēs publiskās vietas, meklējot nebrīvprātīgas iesaistes pazīmes, tostarp iesaldētus smaidus, atkārtotas skatīšanās uz izejām un frāzi „nu, bet” izmantotu vairāk nekā divas reizes bez izkļūšanas. Iedzīvotāji, kuri veiksmīgi pārtrauc nevajadzīgu sarunu, minot marinētus gurķus, stāvvietu zonas vai vecmāmiņas recepšu termiņu, var pretendēt uz atbrīvojumiem.
+
+Ne visi atbalsta šo mēru. Pie kioska pie Barona ielas 62 gadus vecais pensionārs un pašpasludinātais kopienas stāstītājs Arvīds Krūmiņš sacīja, ka politika diskriminē „cilvēkus ar pilnīgu un svarīgu foninformāciju.” Krūmiņš, kurš jau bija pavadījis 11 minūtes, izskaidrojot 1998. gada tramvaja aizkavēšanos, brīdināja, ka Rīga riskē „pārvērsties par skandināviem nepareizā veidā.”
+
+Taču daudzi iedzīvotāji izteica atvieglojumu. „Pagājušajā gadā es pazaudēju visu sestdienu, kamēr kaimiņš aprakstīja lamināta blīvumus,” sacīja Agnese Bērziņa, 34, grāmatvede no Teikas. „Ja būtu bijis finansiāls atturētājs, iespējams, viņš būtu apstājies pie ozola imitācijas, nevis pārgājis uz apakšgrīdas teoloģiju.”
+
+Uzņēmēji jau pielāgojas. Vairāki centram tuvumā esoši kafejnīcu galdi ir aprīkoti ar zaļi–dzelti–sarkanām galda lampām, kas norāda klientu sarunu kapacitāti, kamēr Āgenskalna jaunuzņēmums izstrādājis viedpulksteņa lietotni, kas automātiski izsaka frāzi „man vajadzētu ļaut jums turpināt dienu”, kad nēsātāja pulsācija liecina par sociālu izsīkumu. Jūrmalā pašvaldības plānotāji tiekot apspriež iespēju sezonālu pludmales piemaksu monologiem, kas sākas ar „parasti neesmu tas, kas sūdzas, bet smiltis…”.
+
+Finanšu ministrija, rūpīgi vērojot pilotprojektu, prognozē, ka nodoklis pirmajā gadā varētu ģenerēt līdz €2,8 miljoniem, lielākā daļa no tā — ģimenes pasākumiem Mārupē un pēckoncertu foajē amatieru koru sacensībās. Tomēr daži eksperti brīdina par cilpām. Lingvists Dr. Mārtiņš Zaļkalns norādīja, ka latvieši var vienkārši aizstāt runāto mazsaraksti ar garākām, jēgpilnākām uzacu kustībām.
+
+Vēlā pēcpusdienā pilsēta jau bija izsniegusi 173 brīdinājumus, 49 naudas sodus un vienu ceremonālu piedošanu sievietei trolejbusā Nr. 15, kura pacietīgi izturēja 23 minūšu ilgu granulu apkures skaidrojumu ar „heroisku neitralitāti”.
+
+Ja pilots izrādīsies veiksmīgs, amatpersonas saka, ka tas rudenī var tikt paplašināts visā valstī. Pašlaik rīdziniekiem ieteicams runāt tikai tad, kad tas nepieciešams, doties prom izlēmīgi un atcerēties, ka saskaņā ar jaunajiem noteikumiem labi laicīgs galvas mājiens drīz var kļūt par aplikājamu greznību.`,
+      ru: `РИГА — В шаге, который муниципальные лидеры называют «финансово новаторским и эмоционально честным», Рижская городская дума во вторник утвердила первый в стране «налог за вежливое молчание» — сбор, взимаемый с жителей, оказавшихся в нежелательной светской беседе дольше четырёх минут без убедительной попытки уйти.
+
+Налог, установленный в размере €0,37 за минуту сверх законно допустимого порога, сначала будет опробован в очередях Центрального рынка, в подъездах многоквартирных домов, на школьных концертах и во всех социальных взаимодействиях, происходящих в радиусе трёх метров от вешалки для пальто. Чиновники заявляют, что цель — сократить экономическую нагрузку от разговоров, состоящих почти целиком из вздохов, прочищаний горла и взаимного сожаления.
+
+По данным 48‑страничного доклада Рижского института социального климата и муниципальной усталости, средний житель тратит 6,4 часа в месяц на рассказы, которых он не просил, чаще всего — о ремонте сауны, урожайности грибов, давлении и о том, были ли зимы «серьёзнее до Брюсселя». Исследователи оценивают, что это ведёт к 14 000 потерянных часов продуктивности в год, хотя признают, что почти половина измерялась на одном именинах в Пурвциемсе.
+
+«Мы не наказываем вежливость», — сказала журналистам заместитель мэра Илзе Рудзīте, стоя рядом с диаграммой под заголовком «Кивание как скрытая инфраструктура». — «Мы признаём, что у молчания есть ценность. Слишком долго жители субсидировали излишние разговоры собственной жизненной энергией». 
+
+В рамках пилота должностные лица, называемые «оценщиками разговоров», будут мониторить общественные пространства на предмет признаков невольного вовлечения: заученных улыбок, повторных взглядов в сторону выхода и фразы «ну да, в общем», произнесённой более двух раз без возможности отойти. Граждане, успешно завершившие ненужный обмен, сославшись на маринованные огурцы, парковочные зоны или срок рецепта у бабушки, могут претендовать на освобождение от налога.
+
+Не все поддерживают меру. Возле киоска на улице Барона 62‑летний пенсионер и самопровозглашённый местный рассказчик Арвидс Круминьш заявил, что политика дискриминирует «людей с полной и важной сопутствующей информацией». Круминьш, который уже потратил 11 минут на объяснение задержки трамвая, свидетелем которой он был в 1998 году, предупредил, что Рига рискует «стать скандинавской в неправильном смысле». 
+
+Но многие жители выдохнули с облегчением. «В прошлом году я потеряла целую субботу из‑за соседа, описывавшего плотности ламината», — рассказала 34‑летняя бухгалтер Агнесе Берзина из Тейки. — «Если бы существовал финансовый сдерживающий фактор, может быть, он остановился бы на имитации дуба, вместо того чтобы скатываться в теологию подложки пола». 
+
+Бизнес уже адаптируется. Несколько кафе в центре установили на столах лампы зелёного‑жёлтого‑красного цветов, показывающие разговорную ёмкость клиентов, а стартап в Āgenskalns запустил приложение для смарт‑часов, которое автоматически произносит фразу «Вам лучше продолжить свой день», когда пульс владельца указывает на социальное истощение. В Юрмале муниципальные планировщики, по сообщениям, рассматривают сезонную пляжную надбавку на монологи, начинающиеся со слов «Я обычно не жалуюсь, но песок…».
+
+Министерство финансов, внимательно следя за пилотом, прогнозирует, что налог может принести до €2,8 млн в первый год, большая часть — с семейных мероприятий в Мāрупе и фойе после выступлений на любительских хоровых конкурсах. Тем не менее некоторые эксперты предупреждают о лазейках. Лингвист др. Мартиньш Залькалнс отметил, что латвийцы могут просто заменить устную болтовню на более долгие и содержательные движения бровями.
+
+К позднему вечеру город уже выписал 173 предупреждения, 49 штрафов и одну торжественную помилование женщине в троллейбусе №15, пережившей 23‑минутное объяснение обогрева пеллетами с «героической нейтральностью». 
+
+Если пилот окажется успешным, чиновники говорят, что к осени программа может расшириться на всю страну. Пока рижан призывают говорить только по необходимости, уходить решительно и помнить: по новым правилам вовремя поставленное кивание скоро может стать налогооблагаемой роскошью.`
+    },
+    date: "Jun 15, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/185/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 184,
     slug: "riga-introduces-passive-aggressive-silence-zones-184",
     title: {
@@ -96,7 +183,7 @@ Ceturtdien Rīgas Centrālajā stacijā pasažieri, kuri kāpa pārpildītā tra
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/184/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 183,
