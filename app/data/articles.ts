@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 186,
+    slug: "jrmala-introduces-polite-sand-pilot-program",
+    title: {
+      en: "Jūrmala Introduces ‘Polite Sand’ Pilot Program After Residents Complain Beach Is Approaching Them Too Aggressively",
+      lv: "Jūrmala ievieš 'Pieklājīgo smilšu' pilotprogrammu pēc iedzīvotāju sūdzībām, ka pludmale viņiem tuvojas pārāk agresīvi",
+      ru: "Юрмала запускает пилотную программу «Вежливый песок» после жалоб жителей, что пляж подходит к ним слишком агрессивно"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have unveiled a landmark coastal initiative aimed at retraining beach sand to behave in a more respectful and predictable manner. The decision follows a record summer of complaints from residents who say the sand has been entering shoes, towels, and emotional boundaries without consent.",
+      lv: "Jūrmalas pašvaldības amatpersonas atklājušas nozīmīgu piekrastes iniciatīvu, kuras mērķis ir pārmācīt pludmales smiltis uzvesties ar vairāk cieņas un paredzamības. Lēmums seko rekordvasarai sūdzību ziņā no iedzīvotājiem, kuri saka, ka smiltis ieplūdušas kurpēs, dvieļos un emocionālajās robežās bez piekrišanas.",
+      ru: "Муниципальные власти Юрмалы представили знаковую прибрежную инициативу, направленную на «перенавчание» пляжного песка вести себя более уважительно и предсказуемо. Решение последовало после рекордного лета жалоб от жителей, которые утверждают, что песок попадал в обувь, на полотенца и в их эмоциональные границы без согласия."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what city leaders are calling "a necessary modernization of the coastline," Jūrmala Municipality on Tuesday began the first phase of its Polite Sand Pilot Program, a €2.8 million effort to reduce uninvited granular contact between the city’s beaches and the public.
+
+Under the program, a 1.4-kilometer stretch of shoreline between Dzintari and Bulduri has been equipped with low-impact behavioral signage, wind discouragement fencing, and a team of municipal "sediment mediators" trained to de-escalate confrontations between beachgoers and what internal documents describe as "overfamiliar sand masses."
+
+"For too long, residents have accepted a culture in which sand simply appears wherever it wants," said Deputy Coastal Adjustment Director Elīna Priedola at a press conference held on a platform carefully swept every eleven minutes. "In bags, in sandwiches, in cars, in apartments three tram connections from the sea. This is not freedom. This is drift-based intimidation."
+
+The city says it logged 18,442 sand-related complaints between May and August last year, a 37% increase over the previous season. Among the reported incidents were one pensioner finding beach sediment inside a zipped thermos, a Lithuanian tourist claiming the sand had "followed him energetically," and a Riga family discovering enough grains in their hatchback to unofficially classify it as a dune.
+
+To address the problem, specially designed signs have now been posted every 50 meters along the beach with clear bilingual instructions such as "Please Remain in Your Assigned Area" and "Observe Personal Space." In more difficult sections, gentle audio reminders play from hidden speakers in Latvian, Russian, and what the municipality describes as "firm but non-hostile wind sounds."
+
+Project consultant Mārtiņš Zālītis, a behavioral geographer from a private think tank in Ādaži, said the initiative is based on successful Scandinavian models of coastal etiquette. "People think sand cannot learn, but this is outdated 20th-century thinking," he said, while pointing to a laminated chart showing reduced ankle accumulation in test groups. "In our March simulations, compliant sand entered 62% fewer trouser cuffs after being exposed to boundary-oriented messaging."
+
+Not everyone is convinced. Local resident and year-round sea walker Ilze Mežmale said the municipality is ignoring the deeper issue. "The problem is not the sand," she said. "The problem is that every year people arrive dressed like they are negotiating with a sofa. Naturally the beach responds."
+
+Still, many residents welcomed the move. Café owner Guntars Ozoliņš, whose seasonal terrace faces the sea, said previous summers had become unsustainable. "By July, customers were ordering cappuccinos and receiving tiramisu by accident," he said. "There must be limits. I support any reform that keeps the coastline in a democratic relationship with desserts."
+
+The pilot also includes a new Sand Feedback Hotline, where callers can report particles displaying pushy, clingy, or passive-aggressive behavior. Since opening Monday morning, the line has received 611 calls, including 49 marked urgent and one from a man whispering, "It’s in the olives now."
+
+If the program proves successful, Jūrmala plans to expand it next year with a Respectful Pebbles strategy and a public awareness campaign reminding visitors not to escalate tensions by shaking towels "in a provocative manner."
+
+At sunset on Tuesday, several beachgoers observed that the sand did appear calmer, though some cautioned it may simply have been pretending. By evening, municipal crews confirmed the pilot’s first measurable success: a toddler managed to leave the beach with only 14% of the coastline attached to him, well below the regional average.`,
+      lv: `JŪRMALA — To, ko pilsētas vadība sauc par 'nepieciešamu piekrastes modernizāciju', otrdien Jūrmalas pašvaldība uzsāka Pieklājīgo smilšu pilotprogrammas pirmo posmu — 2,8 miljonu eiro projektu, kura mērķis ir samazināt neaicinātas graudainas saskares starp pilsētas pludmalēm un sabiedrību.
+
+Saskaņā ar programmu 1,4 kilometru garā krasta posmā starp Dzintariem un Bulduriem uzstādītas maigas uzvedības norādes, vēja atbaidīšanas žogi un izveidota pašvaldības 'smilšu mediāciju' komanda, apmācīta deeskalēt konfliktus starp atpūtniekiem un to, ko iekšējie dokumenti apraksta kā 'pārāk pazīstamas smilšu masas'.
+
+'Pārāk ilgi iedzīvotāji pieņēma kultūru, kurā smiltis vienkārši parādās, kur vien tām gribas,' preses konferencē, kas notika uz platformas, kas tika rūpīgi sūkāta ik pēc vienpadsmit minūtēm, sacīja Jūras piekrastes pielāgošanas direktora vietniece Elīna Priedola. 'Somās, sendvičos, mašīnās, dzīvokļos trīs tramvaju pieturas no jūras. Tas nav brīvība. Tā ir pārvietošanās izraisīta iebiedēšana.'
+
+Pilsēta ziņo, ka pagājušajā gadā no maija līdz augustam saņemti 18 442 ar smiltīm saistīti sūdzību, kas ir par 37% vairāk nekā iepriekšējā sezonā. Starp ziņotajiem incidentiem bija pensionārs, kurš atradis pludmales nogulumu aiztaisītā termosā, lietuviešu tūrists, kurš apgalvoja, ka smiltis 'viņam enerģētiski sekoja', un Rīgas ģimene, kas atrada tik daudz graudiņu savā hečbekā, ka varēja to neformāli klasificēt kā kāpu.
+
+Lai risinātu problēmu, ik pēc 50 metriem gar pludmali tagad izvietotas īpaši izstrādātas zīmes ar skaidrām divvalodu instrukcijām, piemēram, 'Lūdzam palikt savā piešķirtajā zonā' un 'Ievērojiet personīgo telpu'. Sarežģītākos posmos no slēptiem skaļruņiem skan maigus atgādinājumus latviešu, krievu valodā un, kā pašvaldība to raksturo, 'stingras, bet neagresīvas vēja skaņas'.
+
+Projektu konsultēja uzvedības ģeogrāfs Mārtiņš Zālītis no privāta domnīcas Ādažos, kurš sacīja, ka iniciatīva balstīta uz veiksmīgiem Skandināvijas piekrastes etiķetes modeļiem. 'Cilvēki domā, ka smiltis nevar iemācīties, bet tas ir novecojis 20. gadsimta domāšanas veids,' viņš teica, norādot uz laminētu shēmu, kas rāda samazinātu uzkrāšanos pie potītēm testgrupās. 'Mūsu marta simulācijās paklausīgās smiltis pēc robežorientētas ziņojumu iedarbības 62% retāk iekļuva biksu aprocēs.'
+
+Ne visi ir pārliecināti. Vietējā iedzīvotāja un visu gadu jūrmalā pastaigājošā Ilze Mežmale sacīja, ka pašvaldība ignorē dziļāku problēmu. 'Problēma nav smiltīs,' viņa teica. 'Problēma ir tā, ka katru gadu cilvēki ierodas ģērbti tā, it kā sarunātos ar dīvānu. Protams, pludmale uz to reaģē.'
+
+Tomēr daudzi iedzīvotāji šo soli atbalstīja. Kafejnīcas īpašnieks Guntars Ozoliņš, kura sezonālā terase vērsta pret jūru, sacīja, ka iepriekšējās vasaras kļuvušas neizturamas. 'Jūlijā klienti pasūtīja kapučīno un nejauši saņēma tiramisu,' viņš teica. 'Jābūt robežām. Es atbalstu jebkādas reformas, kas uztur piekrasti demokrātiskās attiecībās ar desertiem.'
+
+Pilotā iekļauts arī jauns Smilšu Atsauksmju tālrunis, kur zvanu autori var ziņot par graudiņiem, kas izrāda uzbāzīgu, pieķerošu vai pasīvi-agresīvu uzvedību. Kopš pirmdienas rīta atvēršanas līnija saņēmusi 611 zvanu, tostarp 49 atzīmētus kā steidzamus un viens no vīrieša, kas čukstēja: 'Tagad tas ir olīvās.'
+
+Ja programma izrādīsies veiksmīga, Jūrmala plāno nākamgad paplašināt to ar Cieņpilnu oļu stratēģiju un sabiedrības informēšanas kampaņu, kas atgādinās apmeklētājiem neeskalēt spriedzi, kratot dvieļus 'provokatīvā veidā'.
+
+Otrdienas saulrietā vairāki pludmales apmeklētāji pamanīja, ka smiltis šķiet klusākas, lai gan daži brīdināja, ka tās varētu vienkārši tēlot. Vakaram pienākot, pašvaldības brigādes apstiprināja pilotprojekta pirmo izmērāmo panākumu: vienam mazulim izdevās atstāt pludmali, pie viņa pielipis tikai 14% no krasta, kas ir krietni zem reģionālā vidējā.`,
+      ru: `Юрмала — В том, что городские власти называют «необходимой модернизацией береговой линии», муниципалитет Юрмалы во вторник приступил к первой фазе пилотной программы «Вежливый песок» — проекта стоимостью €2,8 млн, направленного на сокращение нежелательных гранулированных контактов между городскими пляжами и публикой.
+
+В рамках программы 1,4-километровый участок побережья между Дзинтари и Булдури оборудовали ненавязчивыми указателями поведенческой этики, ветрозащитными ограждениями и командой муниципальных «медиаторов седиментов», обученных разнимать конфликты между отдыхающими и тем, что во внутренних документах описывается как «чересчур фамильярные массы песка».
+
+«Слишком долго жители мирились с культурой, в которой песок просто появляется там, где хочет», — заявила заместитель директора по прибрежной адаптации Элина Приедола на пресс-конференции, которая проходила на платформе, тщательно подметаемой каждые одиннадцать минут. «В сумках, в бутербродах, в машинах, в квартирах в трёх трамвайных пересадках от моря. Это не свобода. Это запугивание посредством наносов». 
+
+По данным города, между маем и августом прошлого года было зарегистрировано 18 442 жалобы, связанных с песком — на 37% больше, чем в предыдущий сезон. Среди зафиксированных инцидентов: пенсионер, обнаруживший пляжный осадок внутри застёгнутого термоса; литовский турист, заявивший, что песок «энергетически его преследует»; и семья из Риги, обнаружившая в своём хэтчбеке столько песчинок, что его можно было бы неофициально классифицировать как дюну.
+
+Чтобы решить проблему, вдоль пляжа каждые 50 метров установили специальные знаки с понятными двуязычными инструкциями вроде «Пожалуйста, оставайтесь в отведённой зоне» и «Соблюдайте личное пространство». В более сложных участках из скрытых динамиков доносятся мягкие аудио-напоминания на латышском, русском и том, что муниципалитет называет «решительными, но не враждебными звуками ветра».
+
+Консультант проекта Мартиньш Залитис, поведенческий географ из частного аналитического центра в Адажи, сказал, что инициатива основана на успешных скандинавских моделях прибрежного этикета. «Люди думают, что песок не может учиться, но это отжившее представление XX века», — сказал он, указывая на ламинированную таблицу, показывающую сокращение накоплений у щиколоток в тестовых группах. «В наших мартовских симуляциях послушный песок попадал в манжеты штанов на 62% реже после воздействия сообщений, ориентированных на границы». 
+
+Не все разделяют оптимизм. Местная жительница и круглогодичная «морская гуляка» Илзе Межмале заявила, что муниципалитет игнорирует более глубокую проблему. «Дело не в песке, — сказала она. — Дело в том, что каждый год люди приезжают одетые так, словно ведут переговоры с диваном. Пляж, разумеется, отвечает взаимностью». 
+
+Тем не менее многие жители приветствовали инициативу. Владелец кафе Гунтарс Озолиньш, чья сезонная терраса выходит на море, сказал, что прошлые лета стали неустойчивыми. «К июлю клиенты заказывали капучино, а по ошибке получали тирамису, — рассказал он. — Должны быть пределы. Я поддерживаю любые реформы, которые сохраняют демократические отношения побережья с десертами». 
+
+Пилот также включает новую «горячую линию обратной связи по песку», куда можно сообщать о частицах с навязчивым, приставучим или пассивно-агрессивным поведением. С момента открытия в понедельник утром линия получила 611 звонков, из них 49 помечены как срочные, а один поступил от мужчины, шептавшего: «Оно теперь в оливках». 
+
+Если программа окажется успешной, Юрмала планирует расширить её в следующем году стратегией «Уважительные гальки» и общественной кампанией, напоминающей посетителям не эскалировать напряжение, встряхивая полотенца «провокационным образом». 
+
+На закате во вторник несколько отдыхающих заметили, что песок действительно выглядел спокойнее, хотя некоторые предупредили, что он может просто притворяться. К вечеру муниципальные бригады подтвердили первое измеримое достижение пилота: малышу удалось уйти с пляжа, прихватив с собой всего 14% побережья, что значительно ниже регионального среднего.`
+    },
+    date: "Jun 16, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/186/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 185,
     slug: "riga-introduces-polite-silence-tax-after",
     title: {
@@ -102,7 +189,7 @@ Ja pilots izrādīsies veiksmīgs, amatpersonas saka, ka tas rudenī var tikt pa
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/185/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 184,
