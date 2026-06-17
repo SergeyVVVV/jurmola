@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 187,
+    slug: "riga-introduces-official-silent-hour-so",
+    title: {
+      en: "Riga Introduces Official Silent Hour So Residents Can Complain About Noise More Efficiently",
+      lv: "Rīga ievieš oficiālu Kluso stundu, lai iedzīvotāji efektīvāk varētu sūdzēties par trokšņiem",
+      ru: "Рига вводит официальный Час тишины, чтобы жители могли эффективнее жаловаться на шум"
+    },
+    excerpt: {
+      en: "In a move city officials say will \"streamline the emotional life of the capital,\" Riga has approved a daily Silent Hour during which all unnecessary sound must cease so that residents can focus exclusively on filing noise complaints. The policy has already been praised by apartment associations, pensioners with strong window opinions, and one tram driver who called it \"the closest we have ever come to national unity.\"",
+      lv: "Kā pilsētas amatpersonas apgalvo, lai „racionalizētu galvaspilsētas emocionālo dzīvi”, Rīga ir apstiprinājusi ikdienas Kluso stundu, kuras laikā jābeidzas visiem nevajadzīgajiem skaņas avotiem, lai iedzīvotāji varētu vērsties ar trokšņu sūdzībām bez traucējumiem. Politiku jau slavē māju apsaimniekotāji, pensionāri ar stipriem loga viedokļiem un viens tramvaja šoferis, kurš to nosauca par „tuvošāko, ko jebkad esam piedzīvojuši nacionālajai vienotībai”.",
+      ru: "В попытке, как утверждают городские власти, «упорядочить эмоциональную жизнь столицы», Рига утвердила ежедневный Официальный Час тишины, в течение которого все лишние звуки должны прекратиться, чтобы жители могли сосредоточиться исключительно на подаче жалоб на шум. Политику уже приветствовали товарищества собственников, пенсионеры с крепкими окнами-ощущениями и один водитель трамвая, назвавший это «ближайшим, к чему мы когда-либо подходили в плане национального единства»."
+    },
+    fullContent: {
+      en: `RIGA — Beginning next Monday, the city of Riga will observe an official Silent Hour every day from 18:00 to 19:00, during which drilling, vacuuming, scooter acceleration, expressive accordion practice, and "aggressive balcony laughter" will be prohibited across the capital. According to the Riga City Council, the initiative is designed not merely to reduce noise, but to create a calm, acoustically neutral environment in which residents may more clearly identify, document, and emotionally process the sounds that have wronged them.
+
+The measure, formally titled the Municipal Acoustic Reflection Window, passed late Tuesday after a four-hour council debate repeatedly interrupted by someone moving chairs upstairs.
+
+"For too long, complaints have been submitted in conditions of chaotic background interference," said Deputy Housing and Civic Vibration Committee chair Ilze Veidemane, speaking at a press conference in a room so quiet journalists could hear a council intern unwrap a cheese pastry three floors below. "If we want high-quality complaints, we must give people the silence they need to remember every footstep in exact sequence. This is about dignity, precision, and stronger PDF attachments."
+
+Under the new rules, residents are encouraged to spend the hour productively by standing near radiators, listening through walls, and organizing evidence. The city has launched a companion mobile app, Klusums+, which allows users to log suspicious creaks, classify neighbor activity by probable footwear, and upload annotated recordings labeled with categories such as 'Dragging Something Again,' 'Late Blender Event,' and 'Child With Indoor Ball.'
+
+Municipal data suggest the program responds to a real public need. In 2025, Riga’s Noise and Related Feelings Department received 84,213 complaints, 61% of which concerned sounds that had already stopped by the time authorities were contacted. An additional 14% involved residents reporting that they were "certain something disrespectful had occurred" but could not provide timestamps.
+
+In Purvciems, local resident and veteran complainant Guntars Ozoliņš, 67, welcomed the announcement while carefully rotating a dining chair to demonstrate a flooring issue from 2019. "People say we in Latvia do not express ourselves," he said. "That is false. We express ourselves by memorizing disturbances and discussing them at building meetings for eleven years. Now the municipality finally respects our tradition."
+
+Not everyone is convinced. A coalition of musicians, toddlers, and one highly energetic dachshund has raised concerns that the law may unfairly target natural urban sounds. "My son is three," said Teika resident Līga Krastiņa. "He does not understand civic silence. He only understands spoons, radiators, and the deep moral necessity of dropping blocks at maximum force. I cannot explain to him that democracy now has office hours."
+
+Businesses are already adapting. Several Riga cafés announced new Silent Hour menus featuring noiseless beet soup, ethically subdued pastries, and what one Old Town bistro described as "a contemplative gray pea experience." Meanwhile, hardware stores reported increased sales of felt pads, soft-slipper sets, and something marketed simply as 'apology cake.'
+
+Jūrmala officials have expressed interest in a seasonal version of the policy, though early drafts reportedly include exemptions for seagulls, champagne corks, and the mysterious 02:14 sound made every summer by a person dragging a plastic chair toward existential disappointment.
+
+City leaders insist the initiative could become a model for the Baltics. If successful, the Silent Hour may be expanded into a Silent Weekend, during which residents will be permitted to communicate only through stern nods, curtain movement, and formally witnessed sighing.
+
+At press time, the first 312 complaints about the Silent Hour itself had already been submitted, many citing the unbearable ticking of other people finally having time to listen.`,
+      lv: `RĪGA — Sākot ar nākamo pirmdienu, Rīgas pilsēta katru dienu ieviesīs oficiālu Kluso stundu no plkst. 18:00 līdz 19:00, kuras laikā visā galvaspilsētā būs aizliegts urbt, putekļsūkt, paātrināt skūterus, intensīvi mēģināt akordeonu un nodarboties ar „agresīvu balkona smieklošanos”. Rīgas dome norāda, ka iniciatīva paredzēta ne tikai trokšņa samazināšanai, bet arī mierīgas, akustiski neitrālas vides radīšanai, kurā iedzīvotāji var skaidrāk identificēt, dokumentēt un emocionāli apstrādāt viņiem nodarītos skaņu pārkāpumus.
+
+Šis pasākums, formāli nosaukts „Pašvaldības akustiskā pārdomu logs”, tika pieņemts otrdien vēlu pēc četru stundu domes debates, kuru atkārtoti pārtrauca kāda persona, kas augšstāvos pārbīdīja krēslus.
+
+„Pārāk ilgi sūdzības ir iesniegtas haotiskas fonu traucējumu apstākļos,” sacīja Mājokļu un pilsoniskās vibrācijas komitejas priekšsēdētājas vietniece Ilze Veidemane preses konferencē telpā, tik klusu, ka žurnālisti varēja dzirdēt, kā domes praktikante trīs stāvus zemāk atver siermaizīti. „Ja vēlamies kvalitatīvas sūdzības, mums jādod cilvēkiem klusums, kas viņiem nepieciešams, lai atcerētos katru soļa skaņu precīzā secībā. Šī ir cieņas, precizitātes un spēcīgāku PDF pielikumu jautājums.”
+
+Saskaņā ar jaunajiem noteikumiem iedzīvotāji tiek aicināti stundu pavadīt lietderīgi — stāvot radiatoru tuvumā, klausoties caur sienām un kārtojot pierādījumus. Pilsēta ir izstrādājusi arī pavadošo mobilo lietotni Klusums+, kas ļauj lietotājiem reģistrēt aizdomīgas šķindoņas, klasificēt kaimiņu aktivitātes pēc iespējamiem apavu tipiem un augšupielādēt anotētus ierakstus ar kategorijām, piemēram, „Atkal vilk kaut ko”, „Vēla blendera epizode” un „Bērns ar iekštelpu bumbu”.
+
+Pašvaldības dati liecina, ka programma atbilst reālai sabiedriskai vajadzībai. 2025. gadā Rīgas Trokšņu un saistīto jūtu departaments saņēma 84 213 sūdzības, no kurām 61% attiecās uz skaņām, kas jau bija apstājušās brīdī, kad varas iestādes tika informētas. Papildu 14% veidoja iedzīvotāju ziņojumi, ka viņi „ir pārliecināti, ka kaut kas necieņpilns noticis”, taču nevarēja sniegt laika zīmogus.
+
+Purvciemā vietējais iedzīvotājs un iemīļots sūdzētājs Guntars Ozoliņš, 67, ar apmierinātību uzņēma paziņojumu, uzmanīgi rotējot ēdamgalda krēslu, lai demonstrētu 2019. gada grīdas problēmu. „Cilvēki saka, ka mēs Latvijā neizsakāmies,” viņš sacīja. „Tas nav patiess. Mēs izsakāmies, memorējot traucējumus un apspriežot tos māju sapulcēs vienpadsmit gadus. Tagad pašvaldība beidzot respektē mūsu tradīciju.”
+
+Ne visi ir pārliecināti. Mūziķu, mazuļu un viena ļoti enerģiska dahšunda koalīcija ir izteikusi bažas, ka likums var negodīgi skart dabiskas pilsētas skaņas. „Mans dēls ir trīs gadus vecs,” sacīja Teikas iedzīvotāja Līga Krastiņa. „Viņš nesaprot pilsonisko klusumu. Viņš saprot tikai karotes, radiatorus un dziļu morālu nepieciešamību mest klučus ar maksimālu spēku. Es nevaru viņam paskaidrot, ka demokrātijai tagad ir darba laiks.”
+
+Uzņēmumi jau pielāgojas. Vairāki Rīgas kafejnīcu īpašnieki paziņoja par jauniem Klusās stundas ēdienkartes piedāvājumiem, kuros iekļauta bezskaņas biešu zupa, ētiski nomierinātas bulciņas un, kā viens Vecrīgas bistro to aprakstīja, „kontemplatīva pelēko zirņu pieredze”. Tikmēr būvniecības preču veikali ziņoja par filca paliktņu, mīksto čību komplektu un produkta, marķēta vienkārši kā „atvainošanās kūka”, pārdošanas pieaugumu.
+
+Jūrmalas amatpersonas izrādījušas interesi par sezonālu politikas versiju, lai gan agrīnie melnraksti acīmredzot paredz atbrīvojumus kaijām, šampanieša korķiem un noslēpumainajai 02:14 skaņai, ko katru vasaru rada kāds, velkot plastmasas krēslu uz eksistenciālo vīlušanos.
+
+Pilsētas vadība uzsver, ka iniciatīva var kļūt par paraugu Baltijā. Ja tā būs veiksmīga, Klusā stunda var tikt paplašināta līdz Klusajam nedēļas nogalei, kuras laikā iedzīvotājiem būs atļauts sazināties tikai ar stingru mājienu, aizkaru kustību un formāli liecinātu nopūtu starpniecību.
+
+Preses iesniegšanas brīdī par pašu Kluso stundu jau bija saņemti pirmie 312 sūdzību iesniegumi, daudzi norādot uz nepanesamo citu cilvēku tikt-taku, kuriem beidzot ir laiks klausīties.`,
+      ru: `РИГА — Начиная со следующего понедельника, город Рига будет официально отмечать ежедневный Час тишины с 18:00 до 19:00, в течение которого сверление, пылесос, разгон самоката, экспрессивная игра на аккордеоне и «агрессивный смех с балкона» будут запрещены по всей столице. По данным Рижской думы, инициатива направлена не просто на снижение шума, а на создание спокойной, акустически нейтральной среды, в которой жители смогут яснее идентифицировать, документировать и эмоционально перерабатывать звуки, которые их обидели.
+
+Мера, формально названная Муниципальным окном акустического размышления, была принята поздно во вторник после четырехчасовых дебатов в совете, которые несколько раз прерывались кем-то, переставлявшим стулья этажом выше.
+
+«Слишком долго жалобы подавались в условиях хаотических фоновых помех», — сказала заместитель председателя Комитета по жилищным вопросам и гражданским вибрациям Илзе Вейдемане, выступая на пресс-конференции в комнате, настолько тихой, что журналисты могли слышать, как стажёр совета разворачивает слойку с сыром на три этажа ниже. «Если мы хотим качественные жалобы, мы должны дать людям тишину, которая им нужна, чтобы вспомнить каждый шаг в точной последовательности. Речь идёт о достоинстве, точности и более прочных PDF-вложенияx.»
+
+В соответствии с новыми правилами жителей призывают проводить этот час продуктивно: стоять у радиаторов, прислушиваться сквозь стены и приводить доказательства в порядок. Город запустил сопутствующее мобильное приложение Klusums+, которое позволяет пользователям фиксировать подозрительные скрипы, классифицировать соседскую активность по предполагаемой обуви и загружать аннотированные записи с метками вроде «Опять что-то тащат», «Позднее блендерное событие» и «Ребёнок с мячом в квартире». 
+
+Муниципальные данные свидетельствуют, что программа отвечает реальной общественной потребности. В 2025 году Отдел по вопросам шума и связанных с ним чувств Риги принял 84 213 жалоб, 61% из которых касались звуков, которые уже прекратились к моменту обращения в органы. Ещё 14% были жалобами, в которых жители сообщали, что «убеждены, что произошло что-то неуважительное», но не могли предоставить отметки времени.
+
+В Пурвциемсе местный житель и ветеран жалоб Гунтарс Озолиньш, 67 лет, поприветствовал объявление, аккуратно вращая обеденный стул, чтобы продемонстрировать проблему с полом с 2019 года. «Люди говорят, что мы в Латвии не умеем выражаться», — сказал он. «Это неверно. Мы выражаемся, запоминая нарушения и обсуждая их на собраниях дома в течение одиннадцати лет. Теперь муниципалитет наконец уважает нашу традицию.»
+
+Не все в восторге. Коалиция музыкантов, малышей и одной крайне энергичной таксы выразила обеспокоенность, что закон может несправедливо атаковать естественные городские звуки. «Моему сыну три года», — сказала жительница Тейки Лига Крастиня. «Он не понимает гражданской тишины. Он понимает только ложки, радиаторы и глубинную нравственную необходимость с размаху ронять кубики. Я не могу объяснить ему, что у демократии теперь есть рабочие часы.»
+
+Бизнес уже адаптируется. Несколько рижских кафе объявили новые меню Часа тишины с бесшумным свекольником, этически сдержанными выпечками и тем, что одно бистро в Старом городе назвало «созерцательным серым гороховым опытом». Между тем хозяйственные магазины сообщили о росте продаж войлочных накладок, наборов мягких тапочек и некоего товара под названием «торт-извинение». 
+
+Чиновники Юрмалы выразили интерес к сезонной версии политики, хотя ранние проекты, по сообщениям, включают исключения для чайок, пробок от шампанского и загадочного звука в 02:14 каждое лето, который создаёт кто-то, таща пластиковый стул к экзистенциальному разочарованию.
+
+Городские власти настаивают, что инициатива может стать образцом для Балтийских стран. В случае успеха Час тишины может быть расширен до Тихого уик-энда, в течение которого жителям будет разрешено общаться только посредством строгих кивков, шевеления штор и формально засвидетельствованных вздохов.
+
+На момент сдачи в печать первые 312 жалоб на сам Час тишины уже были поданы, многие ссылаясь на невыносимое тиканье людей, у которых наконец появилось время послушать.`
+    },
+    date: "Jun 17, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/187/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 186,
     slug: "jrmala-introduces-polite-sand-pilot-program",
     title: {
@@ -102,7 +189,7 @@ Otrdienas saulrietā vairāki pludmales apmeklētāji pamanīja, ka smiltis šķ
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/186/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 185,
