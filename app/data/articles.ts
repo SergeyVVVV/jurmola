@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 188,
+    slug: "jrmala-introduces-silent-beach-siren-to",
+    title: {
+      en: "Jūrmala Introduces Silent Beach Siren To Warn Tourists They Are Relaxing Incorrectly",
+      lv: "Jūrmala ievieš kluso pludmales sirēnu, lai brīdinātu tūristus — jūs atpūšaties nepareizi",
+      ru: "Юрмала вводит «беззвучную пляжную сирену», чтобы предупреждать туристов, что они отдыхают неправильно"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have unveiled a new public safety system designed to alert beachgoers when their posture, snack choices, or emotional tone fall outside accepted standards of Baltic seaside restraint. The device, described as a 'silent siren,' emits no sound but has already caused widespread panic through implication alone.",
+      lv: "Jūrmala ieviesusi jaunu sabiedriskās drošības sistēmu, kas paredzēta, lai brīdinātu pludmales apmeklētājus, ja viņu poza, uzkodu izvēle vai emocionālais tonis neatbilst pieņemtiem Baltijas piekrastes savaldīguma standartiem. Ierīci, ko dēvē par \"klusās sirēnas\", neskan, taču tā jau izraisījusi plašu paniku tikai ar savu norādi.",
+      ru: "Власти Юрмалы представили новую систему общественной безопасности, призванную сигнализировать пляжникам, когда их осанка, выбор закусок или эмоциональный тон выходят за рамки принятой балтийской сдержанности. Устройство, описываемое как «беззвучная сирена», не издаёт звука, но уже вызвало масштабную панику одной лишь аллюзией."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders are calling 'preventive, elegant, and spiritually corrective,' Jūrmala municipality on Tuesday launched a pilot program featuring what officials describe as the country’s first Silent Beach Siren, a warning system intended to notify residents and visitors when they are enjoying the coast in a manner considered 'excessive, performative, or vaguely Mediterranean.'
+
+The sleek, matte-gray installation, placed between Dzintari and Majori near a kiosk selling €9 berry waters, resembles a conventional emergency siren except that it produces no audible signal. Instead, according to municipal documents, it 'creates an atmosphere of administrative disappointment within a 300-meter radius.' Beachgoers are expected to detect the warning instinctively and adjust their behavior accordingly.
+
+'Not every threat announces itself with noise,' said Deputy Director of Coastal Harmony Ilze Vītola at the unveiling ceremony, held in front of six journalists, one confused German cyclist, and a man in linen who appeared to be there voluntarily. 'Sometimes danger is a family from inland speaking too joyfully near a dune. Sometimes it is a Bluetooth speaker. Sometimes it is white sandals after 7 p.m. We wanted a tool equal to these realities.'
+
+The municipality says the system uses a combination of thermal imaging, posture analytics, and what one procurement file refers to only as 'regional intuition.' Among the behaviors flagged during the testing phase were clapping after sunset, eating watermelon with visible enthusiasm, lying face-down 'like in a southern country,' and referring to the Baltic Sea as 'cute.'
+
+According to internal data from a three-week trial, the siren successfully reduced 'unregulated smiling' by 41 percent and cut spontaneous group laughter near the shoreline from 18 incidents per day to just 3. However, false positives remain a concern. In one case, a retired accountant from Ogre was asked by nearby beach staff to 'calm the atmosphere' after he nodded too rhythmically to distant music. In another, a Swedish tourist received a Level 2 advisory for wearing a straw hat with a ribbon that officials said created 'expectations.'
+
+Local residents have largely welcomed the measure. 'Before this, you had no idea whether someone two towels away might open prosecco at 2 in the afternoon,' said Majori resident and amateur cloud observer Mārtiņš Krasts, 58. 'Now there is structure. You can finally sit in peace and suspect others with confidence.'
+
+Business owners are already adapting. Several cafés along Jomas Street have introduced Compliance Menus featuring neutral-colored snacks, non-sparkling beverages, and what one establishment calls a 'low-arousal beet wrap.' A beach equipment rental shop reported increased demand for modest towels in pine, fog, and administrative beige.
+
+Not everyone is convinced. Opposition councillor Sandra Ķirse criticized the program as expensive and vague, noting that the city spent €428,000 on the pilot, including €74,000 for a consultancy report titled Measuring Vibes in a Northern Democracy. 'We support orderly leisure,' Ķirse said, 'but the state should not be in the business of silently implying that my aunt is reclining too triumphantly.'
+
+Despite criticism, officials say expansion is likely. If the pilot succeeds, smaller silent sirens may be installed at train platforms, outdoor cafés, and one particularly expressive section of Riga Central Market.
+
+By late afternoon Tuesday, the siren had prompted dozens of subtle corrections across the beach. One man put on a cardigan. A child lowered a kite. Two Estonians, without looking up, moved their picnic 15 meters inland.
+
+Municipal leaders declared the first day a success after no one appeared visibly happy for more than seven consecutive seconds.`,
+      lv: `JŪRMALA — Pilsētas vadītāji to dēvē par "preventīvu, elegantu un garīgi koriģējošu" — otrdien Jūrmalas pašvaldība uzsāka pilotprojektu, kurā oficiāli prezentēja valsts pirmo Kluso pludmales sirēnu, brīdināšanas sistēmu, kas paredzēta, lai informētu iedzīvotājus un viesus, kad viņi pie jūras izturas uzskatāmi par "pārmērīgi, performatīvi vai vagtāli Vidusjūras cienīgi".
+
+Gludā, matēti pelēkā konstrukcija, uzstādīta starp Dzintariem un Majoriem pie kioska, kur tirgo ogu ūdeni par 9 €, vizuāli atgādina parasto ārkārtas sirēnu, tikai tā neizdala nekādu skaņu. Tā vietā, pēc pašvaldības dokumentiem, tā "rada administratīvās vilšanās noskaņu 300 metru rādiusā." Pludmales apmeklētājiem tiek pieņemts, ka brīdinājumu viņi instinktīvi sajustu un attiecīgi koriģētu savu uzvedību.
+
+"Ne visas briesmas paziņo par sevi ar troksni," atklāšanas ceremonijā sacīja Jūras harmonijas vietniece Ilze Vītola, pasākuma laikā klātesot sešiem žurnālistiem, vienam apmaldījušamies vācu riteņbraucējam un vīram lina drēbēs, kurš šķita brīvprātīgi ieradies. "Dažreiz briesmas ir iekšzemes ģimene, kas pie kāpas runā pārāk priecīgi. Dažreiz tas ir Bluetooth skaļrunis. Dažreiz tās ir baltas sandales pēc pulksten 19:00. Mēs vēlējāmies rīku, kas atbilst šīm realitātēm."
+
+Pašvaldība apgalvo, ka sistēma izmanto termiskās attēlveidošanas, pozu analītikas un tāda iepirkuma lietā minētā "reģionālā intuīcija" kombināciju. Testēšanas fāzē atzīmētās uzvedības bija plaukšķināšana pēc saulrieta, arbūzu ēšana redzami entuziastiskā manierē, gulēšana uz vēdera "kā dienvidu zemēs" un Baltijas jūras saukšana par "mīlīgu".
+
+Saskaņā ar trīs nedēļu iekšējiem datiem, sirēna veiksmīgi samazinājusi "nereglamentētu smaidīšanu" par 41 procentu un samazinājusi spontāno grupas smieklu skaitu pie krasta no 18 reižu dienā līdz tikai 3. Tomēr viltus pozitīvi joprojām rada bažas. Vienā gadījumā pensionētu grāmatvedi no Ogres tuvākie pludmales darbinieki lūdza "nomierināt atmosfēru", jo viņš pārāk ritmiski piecirta galvu tālas mūzikas taktī. Citā — zviedru tūristam piešķīra 2. līmeņa konsultāciju par salmu cepuri ar lenti, kas, pēc amatpersonu teiktā, radīja "gaidas".
+
+Vietējie iedzīvotāji lielākoties ir atbalstījuši pasākumu. "Pirms tam nevarēja zināt, vai kāds divu dvieļu attālumā nenoplēš prosecco pulksten divos pēcpusdienā," sacīja Majoru iedzīvotājs un amatieru mākoņu vērotājs Mārtiņš Krasts, 58 gadi. "Tagad ir struktūra. Beidzot vari sēdēt mierā un aizdomāties par citiem ar pārliecību."
+
+Uzņēmēji jau pielāgojas. Vairāki kafejnīcu īpašnieki Jomas ielā ieviesuši "Atbilstības ēdienkartes", kurās ir neitrālu krāsu uzkodas, negāzēti dzērieni un tas, ko viens iestādes nosauc par "zema uzbudinājuma biešu ruļli." Pludmales inventāra nomas veikals ziņoja par pieaugošu pieprasījumu pēc pieticīgiem dvieļiem priedes, miglas un administratīvās bēšas toņos.
+
+Ne visi ir pārliecināti. opozīcijas deputāte Sandra Ķirse kritizēja programmu kā dārgu un neskaidru, norādot, ka pilsēta pilotprojektā iztērējusi 428 000 €, tostarp 74 000 € konsultāciju ziņojumam ar nosaukumu "Noskaņu mērīšana ziemeļu demokrātijā." "Mēs atbalstām kārtīgu atpūtu," sacīja Ķirse, "bet valsts nedrīkst klusumā norādīt, ka mana tante guļ pārāk triumfāli."
+
+Neskatoties uz kritiku, amatpersonas saka, ka paplašināšana, visticamāk, ir gaidāma. Ja pilots izrādīsies veiksmīgs, mazākas klusās sirēnas varētu uzstādīt dzelzceļa platformās, āra kafejnīcās un vienā īpaši ekspresīvā Rīgas Centrālās tirgus stendā.
+
+Otrdienas vēlā pēcpusdienā sirēna bija izraisījusi vairākas smalkas korekcijas pa visu pludmali. Viens vīrs uzvilka džemperi. Bērns nolaida pūķi. Divi igauņi, nepaceļot skatienu, pārvietoja savu pikniku 15 metrus uz iekšzemi.
+
+Pašvaldības vadītāji pirmo dienu pasludināja par veiksmi, jo neviens nedeva acīmredzamu prieka izpausmi vairāk nekā septiņas sekundes pēc kārtas.`,
+      ru: `Юрмала — В инициативе, которую городские руководители назвали «профилактической, элегантной и духовно корректирующей», муниципалитет Юрмалы во вторник запустил пилотный проект с тем, что чиновники описывают как первую в стране Беззвучную пляжную сирену — систему предупреждения, предназначенную уведомлять жителей и гостей, когда те наслаждаются побережьем «чрезмерно, показушно или расплывчато по‑средиземноморски».
+
+Элегантная установка матово‑серого цвета, размещённая между Дзинтари и Майори рядом с ларьком, где продают ягодную воду за €9, похожа на обычную аварийную сирену, за исключением того, что она не производит слышимого сигнала. Вместо этого, согласно муниципальным документам, она «создаёт атмосферу административного разочарования в радиусе 300 метров». Ожидается, что купающиеся почувствуют предупреждение интуитивно и скорректируют своё поведение соответствующим образом.
+
+«Не всякая угроза объявляет о себе шумом», — сказала на церемонии открытия заместитель директора отдела прибрежной гармонии Илзе Витола, присутствовавшей перед шестью журналистами, одним озадаченным немецким велосипедистом и мужчиной в льняной рубашке, который, похоже, пришёл по собственной воле. «Иногда опасность — это семья из глубинки, говорящая слишком радостно у дюны. Иногда — это Bluetooth‑колонка. Иногда — белые сандалии после 19:00. Нам нужен был инструмент, равный этим реалиям.»
+
+Муниципалитет утверждает, что система использует комбинацию тепловизионной съёмки, аналитики осанки и того, что один файл по закупкам называет просто «региональная интуиция». Среди поведения, отмеченного в ходе испытаний, были аплодисменты после заката, поедание арбуза с явным восторгом, лёжа лицом вниз «как в южной стране» и называть Балтийское море «милым».
+
+Согласно внутренним данным трёхнедельного теста, сирена успешно сократила «неконтролируемую улыбку» на 41% и уменьшила спонтанный групповой смех у кромки воды со 18 случаев в день до всего трёх. Однако ложные срабатывания остаются проблемой. В одном случае пенсионеру‑бухгалтеру из Огре сотрудники пляжа попросили «успокоить атмосферу» после того, как он слишком ритмично кивал в такт далёкой музыке. В другом случае шведский турист получил предупреждение уровня 2 за соломенную шляпу с лентой, которую чиновники сочли создающей «ожидания».
+
+Местные жители в целом приветствовали меру. «Раньше ты даже не знал, откроют ли кто‑то prosecco в два часа дня, находясь в двух полотенцах от тебя», — сказал житель Майори и любитель наблюдать облака Мартиньш Крастс, 58 лет. «Теперь есть структура. Можно наконец сидеть в покое и подозревать других с уверенностью.»
+
+Бизнес уже подстраивается. Несколько кафе на улице Йомас ввели «Меню соответствия», в которое вошли закуски нейтральных оттенков, негазированные напитки и то, что одно заведение называет «низкоактивным свекольным роллом». Прокат пляжного инвентаря сообщил о повышенном спросе на скромные полотенца цветов сосны, тумана и административного бежевого.
+
+Не все убеждены. Оппозиционная советница Сандра Кирсе раскритиковала программу как дорогую и размывчатую, отметив, что город потратил €428 000 на пилот, включая €74 000 на консалтинговый отчёт под названием «Измерение вайба в северной демократии». «Мы поддерживаем порядок в отдыхе», — сказала Кирсе, — «но государство не должно заниматься безмолвным намёком, что моя тётя лежит слишком торжественно.»
+
+Несмотря на критику, чиновники говорят, что расширение вероятно. Если пилот оправдает себя, меньшие беззвучные сирены могут быть установлены на платформах поездов, у уличных кафе и в одной особенно экспрессивной секции Рижского центрального рынка.
+
+К позднему вторнику сирена побудила десятки тонких корректировок по всему пляжу. Один мужчина надел кардиган. Ребёнок опустил воздушного змея. Двое эстонцев, не поднимая головы, перенесли свой пикник на 15 метров вглубь.
+
+Муниципальные лидеры объявили первый день успешным после того, как никто не выглядел явно счастливым более семи секунд подряд.`
+    },
+    date: "Jun 18, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/188/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 187,
     slug: "riga-introduces-official-silent-hour-so",
     title: {
@@ -102,7 +189,7 @@ Preses iesniegšanas brīdī par pašu Kluso stundu jau bija saņemti pirmie 312
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/187/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 186,
