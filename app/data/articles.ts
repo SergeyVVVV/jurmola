@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 189,
+    slug: "jrmala-residents-approve-18-month-pilot",
+    title: {
+      en: "Jūrmala Residents Approve 18-Month Pilot Program To Communicate Exclusively Through Meaningful Sighs",
+      lv: "Jūrmalas iedzīvotāji apstiprina 18 mēnešu pilotprojektu, lai sazinātos tikai ar jēgpilnām nopūtām",
+      ru: "Жители Юрмалы одобрили 18‑месячный пилотный проект по общению исключительно посредством содержательных вздохов"
+    },
+    excerpt: {
+      en: "City officials in Jūrmala have launched a municipal pilot program encouraging residents to replace ordinary conversation with a standardized system of sighs, pauses, and distant gazes toward the Gulf of Riga. Authorities say the initiative will reduce unnecessary speaking by 63% while preserving the region’s cultural commitment to emotional restraint.",
+      lv: "Jūrmalas pašvaldība uzsāk pilotprojektu, mudinot iedzīvotājus aizstāt parastu sarunu ar standartizētu nopūtu, paužu un tālu skatienu uz Rīgas jūras līci sistēmu. Varas iestādes apgalvo, ka iniciatīva samazinās lieku runāšanu par 63% un saglabās reģiona kultūras apņemšanos emocionālai atturībai.",
+      ru: "Городские власти Юрмалы запустили муниципальный пилотный проект, призывающий жителей заменить обычные разговоры стандартизированной системой вздохов, пауз и созерцательных взглядов в сторону Рижского залива. По словам чиновников, инициатива сократит ненужную разговорную активность на 63% и при этом сохранит региональную приверженность эмоциональной сдержанности."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what local leaders are calling a major step toward “more efficient and spiritually accurate communication,” the Jūrmala City Council voted Tuesday to begin an 18-month pilot program under which residents are encouraged to conduct all non-essential interaction through meaningful sighs.
+
+The program, officially titled the Coastal Nonverbal Exchange Initiative, was approved 11–4 after a three-hour council debate consisting mainly of throat-clearing, curtain-adjusting, and one exceptionally eloquent stare out the window by Deputy Mayor Ieva Ozoliņa. Beginning in September, participating neighborhoods in Majori, Dubulti, and Bulduri will receive laminated sigh charts explaining the approved tones for everyday use, including “polite disappointment,” “quiet endurance,” “mildly judgmental acknowledgment,” and “I saw what your nephew did with the parking permit.”
+
+According to a 47-page municipal briefing prepared by the Department of Civic Atmosphere, the average Jūrmala resident currently wastes up to 14 minutes per day on spoken phrases that could be replaced by a single breath through the nose. Officials estimate the reform will lower conversational clutter by 63%, shorten bakery queues by 22%, and improve regional authenticity metrics ahead of the autumn cultural tourism season.
+
+“We are not banning speech,” said project coordinator and semiotics consultant Edgars Rijnieks, standing beside a poster depicting seven approved seaside expressions. “We are simply asking people to ask themselves whether a sentence is really necessary when a long exhale while looking at a pine tree may contain the same information, but with greater dignity.”
+
+To prepare residents, the city has partnered with the Jūrmala Open-Air Pedagogical Institute to offer free workshops in advanced sigh placement, municipal shrugging, and synchronized silence for couples. One of the most popular classes, ‘From Exasperation to Nuance: Intermediate Baltic Breathwork,’ reportedly filled all 36 seats within hours, forcing organizers to add an overflow session in a colder room for realism.
+
+At the Melluži Market on Wednesday, reaction to the policy appeared cautiously approving. Fish vendor Tamāra Jeļisejeva demonstrated what she described as “a standard herring-related sigh,” explaining that it can mean either “fresh today,” “don’t touch with your fingers,” or “prices have changed because life is difficult.” She added that older residents have been using a similar system for decades without needing state support.
+
+Not everyone is convinced. Some business owners warn the initiative may create confusion in sectors where sighs already carry multiple meanings. “At my café, one sigh can mean the coffee is late, the weather is offensive, or someone from Riga has ordered a deconstructed rye bread experience,” said owner Mārtiņš Kalniņš. “Without proper calibration, we risk total ambiguity.”
+
+To address these concerns, the municipality has created a mobile app, SighR, allowing users to log breath length, head angle, and seasonal context in order to interpret exchanges with up to 81% confidence. The app will also issue alerts if a resident accidentally produces a Lithuanian-style audible puff in formal settings.
+
+The Ministry of Smart Regional Development, which granted €218,000 for the pilot, said Jūrmala was selected because it already possesses “ideal infrastructure for reflective nonverbalism,” including benches facing water, a historically strong curtain culture, and a population statistically comfortable with extended pauses.
+
+If the program succeeds, officials say it could be expanded to public transport and eventually inter-municipal diplomacy. Early discussion has reportedly begun with representatives in Saulkrasti, though talks stalled after both sides spent 40 minutes expressing procedural reservations through increasingly sophisticated silence.
+
+As evening fell along Jomas Street, several residents appeared to test the new system, exchanging layered sighs over coffee and glazed pastries while saying almost nothing at all. Observers described the atmosphere as orderly, emotionally rich, and only slightly more legible than before.`,
+      lv: `JŪRMALA — To, ko vietējie vadītāji sauc par nozīmīgu soli uz “efektīvāku un garīgi precīzāku komunikāciju”, Jūrmalas dome otrdien nobalsoja par 18 mēnešu pilotprojekta uzsākšanu, saskaņā ar kuru iedzīvotāji tiek aicināti visus nebūtiskos kontaktus veikt ar jēgpilnām nopūtām.
+
+Programma, oficiāli nosaukta par Piekrastes Neverbālās Apmaiņas Iniciatīvu, tika apstiprināta ar 11–4 pēc trim stundām ilgas domes debatēs, kas sastāvēja galvenokārt no rīkles tīrīšanas, aizkaru sakārtošanas un viena īpaši izteiksmīga skatiena pa logu no vietnieces pilsētas mēra Ievas Ozoliņas. Sākot ar septembri, Majoru, Dubultu un Bulduru apkaimes, kas piedalīsies projektā, saņems laminētas nopūtu diagrammas, kas izskaidro apstiprinātos toņus ikdienas lietošanai, tostarp „pieklājīga vīšanās”, „klusā izturēšanās”, „maigi nosodoša atzinība” un „es redzēju, ko tavs brāļadēls izdarīja ar stāvvietas atļauju”.
+
+Saskaņā ar 47 lappušu pašvaldības informāciju, ko sagatavoja Pilsoniskās atmosfēras departaments, vidējais jūrmalnieks pašlaik izšķiež līdz 14 minūtēm dienā uz izrunātām frāzēm, ko varētu aizstāt ar vienu ieelpu caur degunu. Iestādes lēš, ka reformā sarunu trokšņus izdosies samazināt par 63%, samazināt maiznīcu rindas par 22% un uzlabot reģiona autentiskuma rādītājus pirms rudens kultūras tūrisma sezonas.
+
+„Mēs nerakstām runāšanas aizliegumus,” teica projekta koordinators un semiotikas konsultants Edgars Rijnieks, stāvot blakus plakātam ar septiņām apstiprinātām piejūras izteiksmēm. „Mēs vienkārši lūdzam cilvēkus sev pajautāt, vai teikums tiešām ir nepieciešams, ja ilga izelpā, raugoties uz priedi, var saturēt to pašu informāciju, bet ar lielāku cieņu.”
+
+Lai sagatavotu iedzīvotājus, pilsēta ir sadarbojusies ar Jūrmalas Brīvā lauka Pedagoģisko institūtu, piedāvājot bezmaksas darbnīcas par nopūtas pareizu izvietojumu, pašvaldības plecu pacelšanu un sinhronizētu klusumu pāriem. Viena no populārākajām nodarbībām, „No izmisuma līdz niansēm: starpnieku Baltijas elpošanas prakse”, pēc ziņām aizpildīja visus 36 krēslus dažu stundu laikā, piespiežot rīkotājus pievienot pārpildes sesiju aukstākā telpā, lai nodrošinātu realitāti.
+
+Mellužu tirgū trešdien reakcija uz politiku šķita piesardzīgi atbalstoša. Zivju tirgotāja Tamāra Jeļisejeva demonstrēja to, ko viņa raksturoja kā „standarta siļķes saistītu nopūtu”, skaidrojot, ka tā var nozīmēt gan „šodien svaiga”, gan „neķer ar pirkstiem”, gan „cenas mainījušās, jo dzīve ir grūta”. Viņa piebilda, ka vecāki iedzīvotāji līdzīgu sistēmu izmanto jau gadu desmitiem bez valsts atbalsta.
+
+Ne visi ir pārliecināti. Daži uzņēmēji brīdina, ka iniciatīva var radīt neskaidrības nozarēs, kur nopūtām jau tagad ir vairākkārtējas nozīmes. „Manā kafejnīcā viena nopūta var nozīmēt, ka kafija kavējas, ka laika apstākļi ir aizvainojoši, vai ka kāds no Rīgas pasūtījis dekonstrukcijas pieredzi ar rudzu maizi,” teica īpašnieks Mārtiņš Kalniņš. „Bez pareizas kalibrēšanas mēs riskējam ar pilnīgu divdomību.”
+
+Lai risinātu šīs bažas, pašvaldība izveidojusi mobilo lietotni SighR, kas ļauj lietotājiem reģistrēt elpas ilgumu, galvas leņķi un sezonālo kontekstu, lai interpretētu apmaiņas ar līdz pat 81% pārliecību. Lietotne arī izsūtīs brīdinājumus, ja iedzīvotājs kļūdas pēc formālā situācijā izdosies ar skaļi dzirdamu lietuviešu stilā pūtienu.
+
+Gudrās reģionālās attīstības ministrija, kas pilotprojektam piešķīra €218 000, sacīja, ka Jūrmala tika izvēlēta, jo tai jau ir „ideāla infrastruktūra reflektīvam neverbālismam”, tostarp soliņi, kas vērsti pret ūdeni, vēsturiski spēcīga aizkaru kultūra un iedzīvotāju sastāvs, kurš statistiski jūtas ērti ar pagarinātām pauzēm.
+
+Ja programma izdotos, amatpersonas saka, to varētu paplašināt sabiedriskajā transportā un beigu beigās arī starppilsētu diplomātijā. Agrīnas sarunas, pēc ziņām, jau notikušas ar Saulkrastu pārstāvjiem, lai gan sarunas aizkavējās pēc tam, kad abas puses 40 minūtes izteica procedurālas iebildes caur arvien rafinētāku klusumu.
+
+Kad vakars noslīdēja pār Jomas ielu, vairāki iedzīvotāji, šķiet, testēja jauno sistēmu, apmainoties ar daudzslāņainām nopūtām pie kafijas un glazētām bulciņām, teikdami gandrīz neko. Novērotāji raksturoja gaisotni kā kārtīgu, emocionāli bagātu un tikai nedaudz salasāmāku nekā iepriekš.`,
+      ru: `ЮРМАЛА — В том, что местные руководители называют крупным шагом к «более эффективному и духовно верному общению», Городской совет Юрмалы во вторник проголосовал за запуск 18‑месячного пилотного проекта, в рамках которого жителям предлагается вести все несущественные взаимодействия посредством содержательных вздохов.
+
+Программа, официально именуемая Инициативой прибрежного невербального обмена, была одобрена 11 голосами «за» и 4 «против» после трёхчасовых дебатов совета, которые в основном состояли из прочищения горла, поправления занавесок и одного исключительно выразительного взгляда в окно заместителя мэра Ieva Ozoliņa. Начиная с сентября, в участвующих районах Майори, Дубулти и Булдури раздадут ламинированные таблицы вздохов с пояснениями одобренных тонов для повседневного использования, включая «вежливое разочарование», «тихое терпение», «слегка осуждающее признание» и «я видел(а), что твой племянник сделал с парковочным талоном». 
+
+Согласно 47‑страничному муниципальному докладу, подготовленному Департаментом гражданской атмосферы, средний житель Юрмалы сейчас тратит до 14 минут в день на устные фразы, которые можно заменить одним вдохом через нос. По оценкам чиновников, реформа снизит разговорный шум на 63%, сократит очереди в булочных на 22% и улучшит показатели «региональной аутентичности» перед осенним сезоном культурного туризма.
+
+«Мы не запрещаем речь», — сказал координатор проекта и консультант по семиотике Edgars Rijnieks, стоя рядом с плакатом, изображающим семь одобренных прибрежных выражений. «Мы лишь предлагаем людям задуматься, действительно ли нужно предложение, если долгий выдох в сторону сосны может содержать ту же информацию — но с большим достоинством». 
+
+Чтобы подготовить жителей, город сотрудничает с Открытым педагогическим институтом Юрмалы и предлагает бесплатные мастер‑классы по продвинутому размещению вздохов, муниципальному пожатию плеч и синхронизированному молчанию для пар. Один из самых популярных курсов, «От раздражения к нюансу: средний уровень балтийского дыхания», reportedly заполнил все 36 мест в течение нескольких часов, вынудив организаторов добавить дополнительную сессию в более холодном помещении для реалистичности.
+
+На рынке Меллужи в среду реакция на политику выглядела осторожно одобряющей. Продавщица рыбы Tamāra Jeļisejeva продемонстрировала то, что она назвала «стандартным сельдевым вздохом», объяснив, что он может означать либо «свежая сегодня», либо «не трогайте пальцами», либо «цены изменились, потому что жизнь тяжела». Она добавила, что пожилые жители используют схожую систему десятилетиями и без государственной поддержки.
+
+Не все убеждены. Некоторые предприниматели предупреждают, что инициатива может породить путаницу в отраслях, где вздохи уже несут множественные значения. «В моём кафе один и тот же вздох может означать, что кофе опаздывает, погода оскорбительна, или кто‑то из Риги заказал деконструированный ржаной хлеб», — сказал владелец Mārtiņš Kalniņš. «Без надлежащей калибровки мы рискуем полной неоднозначностью». 
+
+Чтобы ответить на эти опасения, муниципалитет создал мобильное приложение SighR, позволяющее пользователям фиксировать длину дыхания, угол наклона головы и сезонный контекст, чтобы интерпретировать обмены с уверенностью до 81%. Приложение также будет выдавать предупреждения, если житель случайно произведёт литовский по стилю слышимый выдох в формальной обстановке.
+
+Министерство умного регионального развития, выделившее на пилотный проект €218 000, заявило, что Юрмала была выбрана потому, что уже обладает «идеальной инфраструктурой для рефлексивного невербализма», включая скамейки, обращённые к воде, исторически сильную занавесочную культуру и население, статистически комфортно относящееся к продолжительным паузам.
+
+Если программа окажется успешной, по словам чиновников, её можно будет распространить на общественный транспорт и в конечном итоге на межмуниципальную дипломатию. Сообщается, что ранние переговоры уже начались с представителями Saulkrasti, хотя разговоры зашли в тупик после того, как обе стороны потратили 40 минут на выражение процедурных возражений посредством всё более изощрённого молчания.
+
+С наступлением вечера вдоль улицы Йомас несколько жителей, по-видимому, испытывали новую систему, обмениваясь многоуровневыми вздохами за кофе и глазированными булочками и при этом почти не говоря. Наблюдатели описали атмосферу как упорядоченную, эмоционально богатую и лишь слегка более понятную, чем прежде.`
+    },
+    date: "Jun 19, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/189/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 188,
     slug: "jrmala-introduces-silent-beach-siren-to",
     title: {
@@ -102,7 +189,7 @@ Pašvaldības vadītāji pirmo dienu pasludināja par veiksmi, jo neviens nedeva
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/188/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 187,
