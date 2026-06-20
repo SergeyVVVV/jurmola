@@ -18,6 +18,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 190,
+    slug: "jrmala-introduces-strategic-seagull-silence-corridor",
+    title: {
+      en: "Jūrmala Introduces ‘Strategic Seagull Silence Corridor’ To Protect Morning Espresso Experience",
+      lv: "Jūrmala ievieš 'Stratēģisko kaiju klusuma koridoru', lai aizsargātu rīta espresso baudījumu",
+      ru: "Юрмала вводит «Стратегический коридор тишины для чаек», чтобы защитить утренний эспрессо"
+    },
+    excerpt: {
+      en: "City officials in Jūrmala this week unveiled a 1.8-kilometer coastal “silence corridor” designed to reduce aggressive seagull screaming during peak café hours. The program, funded through a combination of tourism grants and unexplained municipal confidence, aims to preserve what leaders are calling “Latvia’s fragile seaside dignity.”",
+      lv: "Jūrmalas pilsētas amatpersonas šonedēļ atklāja 1,8 kilometru garu piekrastes “klusuma koridoru”, kas izveidots, lai samazinātu agresīvo kaiju kliedzienus kafejnīcu pīķa stundās. Programmu, kas finansēta no tūrisma grantiem un neizskaidrojamās pašvaldības pārliecības, mērķis ir saglabāt to, ko vadība sauc par “Latvijas trauslo piejūras cieņu.”",
+      ru: "Городские чиновники Юрмалы на этой неделе открыли 1,8‑километровый прибрежный «коридор тишины», предназначенный для уменьшения агрессивных криков чаек в часы пик работы кафе. Программа, финансируемая за счёт туристических грантов и необъяснимой муниципальной уверенности, направлена на сохранение того, что руководители называют «хрупким прибрежным достоинством Латвии»."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move described by critics as “deeply unnecessary” and by officials as “the future of Baltic urban management,” the Jūrmala City Council has approved a pilot project establishing a Strategic Seagull Silence Corridor along the central beach area between Dzintari and Majori. Beginning next Monday, specially trained municipal staff will attempt to redirect loud seagulls away from outdoor cafés between 8:00 and 11:30 a.m., the period the city has classified as “high-risk espresso exposure.”
+
+According to a 47-page report commissioned by the Department of Seasonal Atmosphere, the average Jūrmala café customer loses 18.6 seconds of emotional composure each time a seagull emits what researchers categorized as a “full-throated fish alarm” within seven meters of a cappuccino. The report, based on 1,200 beachside observations and one emotionally unstable focus group from Riga, concluded that repeated exposure contributes to “foam collapse, pastry guarding behavior, and premature sighing.”
+
+“Tourists do not come to Jūrmala to feel hunted by maritime poultry,” Deputy Mayor Elīna Dreimane said at a press briefing held beside a decorative dune fence. “They come for pine air, elegant boredom, and the chance to pay €7.50 for coffee while pretending the wind is part of the experience. We have a duty to protect that.”
+
+Under the initiative, twelve seasonal employees known officially as Acoustic Shoreline Mediators will patrol the corridor carrying reflective paddles, portable speakers, and small bags of ethically ambiguous sprats. Their task is not to harm the birds, officials stressed, but to encourage “voluntary relocation toward less premium screaming zones.” A map released by the city identifies these zones near a parking lot, an underperforming waffle kiosk, and a section of beach “already spiritually accepted as chaotic.”
+
+Local business owners have welcomed the policy. “Last July, a seagull landed directly on a customer’s chair and stared at him until he gave up half a napoleon cake,” said café manager Rihards Pļaviņš, whose establishment, Amber Mood Terrace, participated in the pilot observations. “The man was from Switzerland. He said he respected the bird’s confidence, but he did not return. We cannot build a sustainable hospitality sector on that.”
+
+Not everyone is convinced. Ornithologist Dr. Maija Skujiņa of the Baltic Institute for Practical Bird Realities warned that gulls are highly adaptive and may simply become quieter in ways humans find even more disturbing. “A screaming seagull at least announces itself,” she said. “A silent seagull with intent is a different governance problem entirely.”
+
+The Latvian Association for Sensible Tax Spending also questioned the project’s €286,000 budget, which includes €34,000 for a sound branding consultant and €19,000 for “calm-colored uniforms inspired by Nordic restraint.” Council representatives defended the figure, noting that the corridor would be evaluated using measurable indicators such as decibel reduction, croissant retention rates, and the percentage of brunches completed without upward flinching.
+
+By Thursday afternoon, reaction among residents remained mixed. Some praised the city for finally addressing what one local called “the feathered privatization of public peace.” Others wondered whether Jūrmala had simply run out of normal problems. Still, by sunset, café terraces were full, the gulls had shifted several meters east, and one municipal mediator reported “tentative progress, followed by direct eye contact.”
+
+If the trial succeeds, officials say the model could expand to other municipalities, including a possible Riga program to separate pigeons from architecture students. For now, Jūrmala remains committed to proving that even on the Baltic coast, silence is possible, provided enough people in matching jackets are paid to negotiate with birds.`,
+      lv: `JŪRMALA — Kritiski sauktu par “dziļi nevajadzīgu” un amatpersonu nosaukts par “Baltijas pilsētu pārvaldības nākotni”, Jūrmalas pilsētas dome apstiprinājusi pilotprojektu, kas izveido Stratēģisko kaiju klusuma koridoru centrālās pludmales posmā starp Dzintariem un Majoriem. Sākot no nākamās pirmdienas, īpaši apmācīti pašvaldības darbinieki mēģinās novirzīt skaļās kaijas prom no āra kafejnīcām no plkst. 8.00 līdz 11.30 — laika perioda, ko pilsēta klasificējusi kā “augsta riska espresso iedarbību.”
+
+Saskaņā ar 47 lappušu ziņojumu, ko pasūtījusi Sezonālās atmosfēras nodaļa, vidējais Jūrmalas kafejnīcas apmeklētājs zaudē 18,6 sekundes emocionālā līdzsvara katru reizi, kad kaija septiņu metru attālumā no kapučīno izdala to, ko pētnieki nosaukuši par “pilnrīkles zivju trauksmi”. Ziņojums, balstīts uz 1 200 novērojumiem pludmales malā un vienu emocionāli nestabilu fokusgrupu no Rīgas, secināja, ka atkārtota iedarbība veicina “putas sabrukumu, konditorejas izstrādājumu sargāšanas uzvedību un priekšlaicīgu nopūtu.”
+
+“Tūristi nebrauc uz Jūrmalu, lai justos, it kā viņus vajātu jūras putni,” preses brīfingā pie dekoratīvās kāpas žoga sacīja vietniece mēra amatā Elīna Dreimane. “Viņi brauc pēc priežu gaisa, elegantas garlaicības un iespējas samaksāt 7,50 € par kafiju, kamēr izlikties, ka vējš ir daļa no pieredzes. Mums ir pienākums to aizsargāt.”
+
+Saskaņā ar iniciatīvu divpadsmit sezonas darbinieki, kuri oficiāli zināmi kā Akustiskie krasta mediatori, patrulēs koridorā, nēsājot atstarojošas lāpstiņas, pārnēsājamus skaļruņus un maziņus maisiņus ar ētiski diskutablas brētliņām. Amatpersonas uzsvēra, ka viņu uzdevums nav nodarīt pāri putniem, bet gan mudināt uz “brīvprātīgu pārvietošanos uz mazāk prestižām kliegšanas zonām.” Pilsētas izziņotā karte identificē šīs zonas pie stāvvietas, pie sliktāk strādājoša vafeļu kioska un pie pludmales posma, “ko garīgi jau pieņēmuši kā haotisku.”
+
+Vietējie uzņēmēji pret politiku izturējušies atbalstoši. “Pagājušā jūlijā kaija nosēdās tieši uz klienta krēsla un skatījās uz viņu, līdz viņš atteicās no puses Napoleona kūkas,” stāstīja kafejnīcas Amber Mood Terrace pārzinis Rihards Pļaviņš, kura iestāde piedalījās pilotnovērojumos. “Cilvēks bija no Šveices. Viņš sacīja, ka cienot putna pašpārliecinātību, taču vairs neatgriezās. Uz tā nevar būvēt ilgtspējīgu viesmīlības sektoru.”
+
+Tomēr ne visi ir pārliecināti. Ornitoloģe Dr. Maija Skujiņa no Baltijas Institūta par Praktiskām Putnu Realitātēm brīdināja, ka kaijas ļoti labi pielāgojas un var vienkārši kļūt klusākas tādā veidā, ko cilvēki uzskata par vēl traucējošāku. “Kliedzoša kaija vismaz paziņo par sevi,” viņa teica. “Klusa kaija ar nodomu ir pavisam cita pārvaldības problēma.”
+
+Latvijas Asociācija par Saprātīgu Nodokļu Izlietojumu arī apšaubīja projekta 286 000 € budžetu, kurā 34 000 € paredzēti skaņas zīmola konsultantam un 19 000 € — “nomierinošu krāsu formas tērpiem, iedvesmotiem no Ziemeļu atturības.” Domes pārstāvji aizstāvēja summu, norādot, ka koridors tiks vērtēts, izmantojot mērķrādītājus, piemēram, decibelu samazinājumu, kruasānu nezaudēšanas rādītājus un brokastu pabeigšanas procentu bez acu paceļošanas uz augšu.
+
+Ceturtdienas pēcpusdienā iedzīvotāju reakcija joprojām bija dalīta. Daži slavēja pilsētu par to, ka beidzot risina to, ko viens vietējais nosauca par “spalvoto sabiedriskā miera privatizāciju.” Citi brīnījās, vai Jūrmalai vienkārši nav palikušas parastas problēmas. Taču saulrietā kafejnīcu terases bija pilnas, kaijas bija pārvietojušās dažus metrus uz austrumiem, un viens pašvaldības mediators ziņoja par “piesardzīgiem panākumiem, kam sekoja tiešs acu kontakts.”
+
+Ja izmēģinājums izrādīsies veiksmīgs, amatpersonas saka, ka modeli varētu paplašināt uz citām pašvaldībām, tostarp iespējama Rīgas programma, kas atdalītu baložus no arhitektūras studentiem. Šobrīd Jūrmala paliek apņēmīga pierādīt, ka pat Baltijas piekrastē klusums ir iespējams, ja pietiek cilvēku vienādās jakās, kuriem maksā, lai sarunātos ar putniem.`,
+      ru: `ЮРМАЛА — В шаге, который критики назвали «крайне ненужным», а чиновники — «будущим балтийского городского менеджмента», Городской совет Юрмалы утвердил пилотный проект по созданию Стратегического коридора тишины для чаек вдоль центральной пляжной зоны между Дзинтари и Майори. Начиная со следующего понедельника, специально обученный муниципальный персонал попытается перенаправлять громких чаек от летних террас кафе с 8:00 до 11:30 утра — периода, который власти классифицировали как «зону повышенного риска для эспрессо‑опыта». 
+
+Согласно 47‑страничному отчёту, заказанному Департаментом сезонной атмосферы, средний посетитель кафе в Юрмале теряет 18,6 секунды эмоционального самообладания каждый раз, когда чайка издаёт то, что исследователи охарактеризовали как «полноголосый рыбный сигнал тревоги», в пределах семи метров от капучино. Отчёт, основанный на 1 200 наблюдениях у пляжа и одной эмоционально неустойчивой фокус‑группе из Риги, пришёл к выводу, что повторное воздействие приводит к «коллапсу пенки, охранительному поведению относительно выпечки и преждевременному вздыханию». 
+
+«Туристы не приезжают в Юрмалу, чтобы чувствовать себя объектом охоты морской птицы», — заявила заместитель мэра Элина Дреймане на брифинге у декоративного забора из дюн. «Они приезжают ради соснового воздуха, изящной скуки и возможности заплатить €7,50 за кофе, притворяясь, что ветер — это часть впечатления. Мы обязаны это защищать». 
+
+В рамках инициативы двенадцать сезонных сотрудников, официально именуемых акустическими прибрежными медиаторами, будут патрулировать коридор с светоотражающими лопатками, портативными динамиками и небольшими мешочками этически неоднозначных шпрот. Чиновники подчёркивают, что их задача не навредить птицам, а поощрять «добровольное переселение в менее престижные зоны для крика». Карта, опубликованная городом, обозначает такие зоны рядом с парковкой, недорабатывающим киоском с вафлями и участком пляжа, «уже духовно признанным как хаотичный». 
+
+Местные предприниматели приветствовали политику. «В прошлом июле чайка села прямо на стул клиента и смотрела на него, пока он не отдал половину тортика «наполеон», — рассказал управляющий кафе Рихардс Плявиньш, заведение которого, терраса Amber Mood, участвовало в пилотных наблюдениях. — Мужчина был из Швейцарии. Сказал, что уважает уверенность птицы, но не вернулся. На этом нельзя строить устойчивый сектор гостеприимства». 
+
+Не все в восторге. Орнитолог доктор Майя Скуйина из Балтийского института практических птичьих реалий предупредила, что чайки крайне адаптивны и могут просто стать тише способами, которые людям покажутся ещё более тревожными. «Кричащая чайка по крайней мере заявляет о себе, — сказала она. — Молчащая чайка с намерением — это уже совершенно иная управленческая проблема». 
+
+Латвийская ассоциация разумного расходования налогов также усомнилась в бюджете проекта в €286,000, в который входит €34,000 на консультанта по звуковому брендингу и €19,000 на «спокойно окрашенные формы, вдохновлённые нордическим сдержанностью». Представители совета парировали, что коридор будет оцениваться по измеряемым показателям, таким как снижение децибелов, коэффициент удержания круассана и процент бранчей, завершённых без рефлекторного вздрагивания. 
+
+К четвергу днём реакция жителей оставалась смешанной. Одни похвалили город за то, что он наконец занялся тем, что один местный назвал «пернатой приватизацией общественного покоя». Другие задались вопросом, не иссякли ли у Юрмалы обычные проблемы. Тем не менее к закату террасы кафе были полны, чайки сместились на несколько метров к востоку, а один муниципальный медиатор сообщил о «неуверенном прогрессе, за которым последовал прямой зрительный контакт». 
+
+Если испытание окажется успешным, чиновники заявляют, что модель может быть расширена на другие муниципалитеты, включая возможную программу Риги по отделению голубей от студентов архитектуры. Пока же Юрмала остаётся приверженной идее доказать, что даже на Балтийском побережье тишина возможна — при условии, что достаточно людей в одинаковых куртках будут получать деньги за переговоры с птицами.`
+    },
+    date: "Jun 20, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/190/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 189,
     slug: "jrmala-residents-approve-18-month-pilot",
     title: {
@@ -102,7 +177,7 @@ Kad vakars noslīdēja pār Jomas ielu, vairāki iedzīvotāji, šķiet, testēj
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/189/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 188,
