@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 191,
+    slug: "jrmala-introduces-quiet-sand-hours-after",
+    title: {
+      en: "Jūrmala Introduces Quiet Sand Hours After Residents Complain Beach Too Granular",
+      lv: "Jūrmala ievieš klusās smilšu stundas pēc iedzīvotāju sūdzībām, ka pludmale pārāk graudaina",
+      ru: "Юрмала вводит «Часы тихого песка» после жалоб жителей: пляж слишком зернистый"
+    },
+    excerpt: {
+      en: "Following a record number of seasonal complaints about \"aggressive crunching\" and \"unregulated underfoot texture,\" Jūrmala officials have approved the Baltics’ first municipal Quiet Sand Hours. The measure will require all beachgoers to step more respectfully between 14:00 and 16:00, when the dunes are said to be \"emotionally available for silence.\"",
+      lv: "Pēc rekordlielā sezonas sūdzību skaita par “agresīvu kraukšķēšanu” un “nereglamentētu apakšpēdas tekstūru” Jūrmala ir apstiprinājusi Baltijas pirmās pašvaldības Klusās Smilšu Stundas. Pasākums paredzēs, ka visi pludmales apmeklētāji starp pulksten 14:00 un 16:00 soļos izteikti respektabli, jo kāpas tiek uzskatītas par “emocionāli atvērtām klusumam.”",
+      ru: "После рекордного числа сезонных жалоб на «агрессивный хруст» и «неконтролируемую текстуру под ногами» власти Юрмалы утвердили первые в Балтике муниципальные «Часы тихого песка». Мера обяжет всех отдыхающих ступать более уважительно с 14:00 до 16:00, когда дюны, по словам чиновников, «эмоционально готовы к тишине»."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders described as "long overdue in any mature seaside democracy," the Jūrmala City Council voted late Thursday to establish daily Quiet Sand Hours along a 3.7-kilometer section of central beach, citing growing concern from residents that summer tourism has made the coast "needlessly loud at the foot level."
+
+The new regulation, which takes effect next week, prohibits what the city ordinance calls "high-impact walking, arrogant shuffling, unnecessary heel-first entry, and any sandal behavior likely to produce provocative scraping." During the designated hours of 14:00 to 16:00, visitors will be encouraged to move in a "flatter, more introspective manner," or remain still and think about the sea without involving it.
+
+Deputy Executive Director for Seasonal Harmony Ilze Kaktiņa said the city had no choice after receiving 842 formal grievances in June alone, many of them from long-term residents of Dzintari and Bulduri who claimed the acoustic profile of the beach had changed dramatically since the easing of remote work rules in Riga.
+
+"People used to come here to rest, perhaps to read, perhaps to sigh discreetly into the horizon," Kaktiņa told reporters while standing beside a laminated map of approved low-noise shoreline corridors. "Now we have men from Teika arriving with competitive flip-flops and treating the coast like a corridor in a shopping center. The sand has no legal protection from this mindset."
+
+Under the pilot program, municipal Beach Moderation Stewards in pale beige vests will patrol the shore with decibel meters calibrated specifically for crunch, drag, and dry squeak. Repeat offenders will first receive a verbal warning, then be asked to attend a 45-minute corrective workshop titled "Walking With the Dune, Not Against It." Fines may reach €70 in aggravated cases, including running, theatrical towel snapping, and the transport of sunflower seeds in "quantities suggestive of social escalation."
+
+The policy has sharply divided visitors. Riga resident and father of two, Mārtiņš Feldbergs, said he supported the initiative in principle but questioned its practicality. "My son is six. He doesn’t walk quietly on any known surface," Feldbergs said while attempting to remove an inflatable shark from a pine branch. "If the city wants silence, maybe don’t build a beach next to families."
+
+Others were more enthusiastic. Retired music teacher Velta Beinerte, 71, called the measure "the first truly civilized thing to happen since they banned Bluetooth speakers from the shell collection exhibit." Beinerte said she had personally documented rising sand aggression for years in a series of notebooks categorized by footwear type. "Slides are the worst," she said. "They slap the Earth as if offended by it."
+
+Business owners remain cautious. The Association of Small Seasonal Vendors warned that Quiet Sand Hours could hurt afternoon sales of corn, kvass, and smoked fish cones, particularly among customers accustomed to pacing while deciding whether they are hungry enough for herring. "Impulse purchasing depends on movement," said association chair Oskars Līdaks. "A stationary tourist is a reflective tourist, and a reflective tourist buys one cucumber and shares it."
+
+Still, city data suggests the public may adapt. According to a municipal trial conducted on a closed section of beach near Majori earlier this month, controlled stepping reduced perceived shoreline irritation by 63%, while reported gull alarm fell by 18%. The same study found that beach satisfaction rose significantly among residents over 58 and among people described by surveyors as "already holding a folded cardigan."
+
+Mayor Rita Sprūdža defended the policy Friday morning, insisting Jūrmala must remain competitive as a premium destination for "Baltic calm." She did not rule out expanding the program to include Whisper Waves or a permit system for emotionally intense volleyball.
+
+"We are not against tourism," Sprūdža said. "We simply believe every grain of sand deserves a chance to go unheard."
+
+By sunset, reactions remained mixed, though noticeably subdued. Several beachgoers complied by standing motionless and gazing at the Gulf of Riga with the solemn expression typically associated with train delays, inheritance disputes, or paying €9 for soup in a renovated fishermen’s shed.`,
+      lv: `JŪRMALA — Pārvērtējumā, ko pilsētas vadība raksturoja kā “sen nepieciešamu jebkurā nobriedušā piejūras demokrātijā,” Jūrmalas pašvaldības dome ceturtdien vēlu vakarā nobalsoja par ikdienas Klusajām Smilšu Stundām 3,7 kilometru garā centrālās pludmales posmā, atsaucoties uz pieaugošu iedzīvotāju bažām, ka vasaras tūrisms padarījis krastu “nevajadzīgi trokšņainu kāju līmenī.”
+
+Jaunais noteikums, kas stāsies spēkā nākamnedēļ, aizliedz to, ko pilsētas saistošie noteikumi dēvē par “spēcīgu trieciensoļošanu, augstprātīgu šķabināšanu, lieku ieiešanu uz papēža un jebkādu šļūču/šļūpenes uzvedību, kas var radīt provokatīvu rīvēšanos.” Noteiktajās stundās no 14:00 līdz 16:00 apmeklētājiem tiks ieteikts pārvietoties “plakanākā, introspektīvākā manierē,” vai palikt nekustīgi un domāt par jūru, to neiesaistot.
+
+Sezonālās Harmonijas vietniece izpilddirektore Ilze Kaktiņa sacīja, ka pilsētai nebija izvēles pēc tam, kad vien tikai jūnijā saņemti 842 formāli sūdzību iesniegumi, daudzi no tiem no Dzintaru un Bulduru ilgtermiņa iedzīvotājiem, kuri apgalvojuši, ka pludmales akustiskais profils ir dramatiski mainījies kopš attālinātā darba ierobežojumu atvieglošanas Rīgā.
+
+“Cilvēki agrāk nāca šeit atpūsties, varbūt lasīt, varbūt diskrēti nopūsties horizontā,” Kaktiņa žurnālistiem teica, stāvot blakus laminētai kartei ar apstiprinātajiem zema trokšņa krasta koridoriem. “Tagad mums ierodas vīri no Teikas ar konkurējošām šļūcenēm un izturas pret krastu kā pret tirdzniecības centra gaiteni. Smiltīm no šādas domāšanas nav juridiskas aizsardzības.”
+
+Pilotprogrammā pašvaldības Pludmales Moderēšanas sargi bālā bēšā vestē patrulēs pa krastu ar decibelmetriem, kas īpaši kalibrēti kraukšķēšanai, stumšanai un sausai čīkstēšanai. Atkārtoti pārkāpēji vispirms saņems mutisku brīdinājumu, pēc tam tiks aicināti apmeklēt 45 minūšu korektīvo darbnīcu “Staigājot kopā ar kāpu, ne pret to.” Smagas vainas gadījumā naudassodi var sasniegt 70 €, piemēram, par skrējienu, teatrālu dvieļu plivināšanu un saulespuķu sēklu pārvadāšanu “apjomos, kas liecinātu par sociālu eskalāciju.”
+
+Politika ir strikti sadalījusi apmeklētājus. Rīdzinieks un divu bērnu tēvs Mārtiņš Feldbergs sacīja, ka principā atbalsta iniciatīvu, bet apšauba tās praktiskumu. “Manam dēlam ir seši. Viņš neklusi nostaigā uz neviena zināma virsmas,” Feldbergs sacīja, mēģinot atbrīvot pie priedes uzmatītu piepūšamu haizivi. “Ja pilsēta grib klusumu, varbūt nevajag būvēt pludmali blakus ģimenēm.”
+
+Citi bija entuziastiskāki. Pensionēta mūzikas skolotāja Velta Beinerte, 71 gadu, nodēvēja šo pasākumu par “pirmo patiesi civilizēto lietu kopš aizliedza Bluetooth skaļruņus gliemežvāku kolekcijas izstādē.” Beinerte sacīja, ka personīgi jau gadiem dokumentējusi pieaugošo smilšu agresiju sērijā piezīmju grāmatiņu, kas kategorizētas pēc apavu tipa. “Viskareivākās ir šļūcenes,” viņa teica. “Tās plaukšķina Zemi kā aizvainotas.”
+
+Uzņēmēji izturas piesardzīgi. Mazā sezonālo tirgotāju asociācija brīdināja, ka Klusās Smilšu Stundas varētu kaitēt pēcpusdienas pārdošanai — kukurūzai, kvasam un kūpinātu zivju konusiem — īpaši klientu vidū, kuri ir pieraduši pastaigāties, izvēloties, vai viņi ir gana izsalkuši siļķei. “Impulsīvi pirkumi ir atkarīgi no kustības,” sacīja asociācijas priekšsēdētājs Oskars Līdaks. “Stāvošs tūristi — pārdomājošs tūristi, un pārdomājošs tūristi nopērk vienu gurķi un to dala.”
+
+Tomēr pilsētas dati liecina, ka sabiedrība var pielāgoties. Saskaņā ar pašvaldības izmēģinājumu slēgtā pludmales posmā pie Majoriem šī mēneša sākumā kontrolēta soļošana samazināja uztverto krasta kairinājumu par 63%, kamēr ziņotā kaiju trauksme kritās par 18%. Tajā pašā pētījumā tika konstatēts, ka pludmales apmierinātība būtiski pieauga iedzīvotāju vecumā virs 58 gadiem un starp cilvēkiem, kurus aptaujātāji raksturoja kā “jau turot rokā salocītu kardiganu.”
+
+Mēre Rita Sprūdža piektdienas rītā aizstāvēja politiku, uzsverot, ka Jūrmala jāuztur konkurētspējīga kā premium galamērķis “Baltijas mieram.” Viņa neatmeta iespēju paplašināt programmu, iekļaujot Čukstošo viļņu zonu vai atļauju sistēmu emocionāli intensīvam volejbolam.
+
+“Mēs neesam pret tūrismu,” sacīja Sprūdža. “Mēs vienkārši uzskatām, ka katram smilšu graudam ir tiesības palikt nedzirdētam.”
+
+Lai noslēgtu dienu, atsaucības joprojām bija jauktas, kaut pastarpināti nomierinātas. Daži pludmales apmeklētāji pakļāvās, stāvēdami nekustīgi un skatoties uz Rīgas jūras līci ar to nopietno izteiksmi, kas parasti saistās ar vilcienu kavēšanos, mantojuma strīdiem vai 9 € samaksāšanu par zupu renovētā zvejnieku bļodiņā.`,
+      ru: `ЮРМАЛА — В шаге, который городские власти назвали «давно назревшим в любой зрелой прибрежной демократии», Совет города Юрмала в четверг поздно вечером проголосовал за введение ежедневных «Часов тихого песка» на участке центрального пляжа длиной 3,7 километра, сославшись на растущую обеспокоенность жителей тем, что летний туризм сделал побережье «ненужно громким на уровне ступни». 
+
+Новое постановление, которое вступает в силу на следующей неделе, запрещает то, что в городском регламенте называется «шагами с большой нагрузкой, высокомерным шарканьем, ненужным наступлением на пятку и любым поведением в сандалиях, способным вызвать провокационное скребение». В обозначенные часы с 14:00 до 16:00 посетителей будут поощрять передвигаться «более плоским, вдумчивым шагом» или оставаться неподвижными и думать о море, не вовлекая его. 
+
+Заместитель исполнительного директора по сезонной гармонии Ilze Kaktiņa заявила, что у города не было выбора после получения 842 официальных жалоб только в июне, многие из которых поступили от давних жителей Дзинтари и Булдури, утверждавших, что акустический профиль пляжа резко изменился после смягчения правил удалённой работы в Риге. 
+
+«Раньше люди приходили сюда отдохнуть, может быть почитать, может быть тихо вздохнуть в сторону горизонта», — сказала Kaktiņa репортёрам, стоя рядом с ламинированной картой одобренных тихих прибрежных коридоров. «Теперь к нам приезжают мужчины из Teika в соревновательных шлёпанцах и относятся к побережью как к коридору в торговом центре. У песка нет правовой защиты от такого мышления». 
+
+В рамках пилотной программы муниципальные смотрители модерации пляжа в бледно‑бежевых жилетах будут патрулировать берег с децибеломерами, откалиброванными специально на хруст, скольжение и сухой скрип. Повторные нарушители сначала получат словесное предупреждение, затем их попросят посетить 45‑минутный корректирующий семинар под названием «Идти с дюной, а не против неё». Штрафы в особо тяжёлых случаях могут достигать €70, включая бег, театральное щёлканье полотенцем и транспортировку семечек в «количествах, наводящих на мысли о социальной эскалации». 
+
+Политика резко разделила посетителей. Житель Риги и отец двоих детей Mārtiņš Feldbergs сказал, что в принципе поддерживает инициативу, но усомнился в её практичности. «Моему сыну шесть. Он не ходит тихо ни по какой известной поверхности», — сказал Feldbergs, пытаясь снять надувную акулу с сосновой ветки. «Если город хочет тишины, может, не стоит строить пляж рядом с семьями». 
+
+Другие восприняли нововведение с энтузиазмом. 71‑летняя музыкальная педагог Velta Beinerte назвала меру «первым по‑настоящему цивилизованным событием со времени запрета Bluetooth‑колонок в экспозиции ракушек». Beinerte сказала, что годами лично документировала растущую агрессивность песка в серии тетрадей, каталогизированных по типу обуви. «Шлёпанцы — наихудшие», — добавила она. «Они хлопают по Земле, как будто оскорблены ею». 
+
+Владельцы бизнеса остаются осторожными. Ассоциация мелких сезонных торговцев предупредила, что «Часы тихого песка» могут навредить дневным продажам кукурузы, кваса и рожков с копчёной рыбой, особенно у клиентов, привыкших ходить взад‑вперёд, решая, достаточно ли голодны ради селёдки. «Импульсивные покупки зависят от движения», — сказал председатель ассоциации Oskars Līdaks. «Неподвижный турист — размышляющий турист, а размышляющий турист купит один огурец и поделится им». 
+
+Тем не менее городские данные говорят о возможной адаптации населения. По муниципальному эксперименту, проведённому на закрытом участке пляжа недалеко от Majori в начале этого месяца, контролируемые шаги снизили воспринимаемое раздражение береговой линии на 63%, а зарегистрированная тревога чаек упала на 18%. То же исследование показало, что удовлетворённость пляжем значительно выросла среди жителей старше 58 лет и среди людей, которых опросники описали как «уже держащих сложенный кардиган». 
+
+Мэр Rita Sprūdža в пятницу утром защитила политику, настаивая, что Юрмала должна оставаться конкурентоспособной как премиальное направление для «балтийского спокойствия». Она не исключила расширения программы, включая «Шёпот волн» или систему разрешений для эмоционально насыщенного волейбола. 
+
+«Мы не против туризма», — сказала Sprūdža. «Мы просто считаем, что каждая песчинка заслуживает шанса остаться неуслышанной». 
+
+К закату реакции оставались смешанными, но заметно приглушёнными. Несколько отдыхающих подчинились, встали неподвижно и уставились на Рижский залив с тем серьёзным выражением, которое обычно сопутствует задержкам поездов, спорам о наследстве или оплате 9 € за суп в отреставрированной рыбацкой хижине.`
+    },
+    date: "Jun 21, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/191/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 190,
     slug: "jrmala-introduces-strategic-seagull-silence-corridor",
     title: {
@@ -90,7 +183,7 @@ Ja izmēģinājums izrādīsies veiksmīgs, amatpersonas saka, ka modeli varētu
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/190/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 189,
