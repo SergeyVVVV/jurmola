@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 192,
+    slug: "jrmala-introduces-quiet-sirens-to-warn",
+    title: {
+      en: "Jūrmala Introduces ‘Quiet Sirens’ To Warn Wealthy Residents Without Disturbing Afternoon Mineral Water",
+      lv: "Jūrmala ievieš 'klusās sirēnas', lai brīdinātu turīgos iedzīvotājus, netraucējot pēcpusdienas minerālūdens baudīšanu",
+      ru: "Юрмала вводит «тихие сирены», чтобы предупреждать богатых жителей, не тревожа их послеобеденную минеральную воду"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala this week unveiled a new emergency alert system designed to notify residents of coastal flooding, fire, and suspiciously energetic tourists while preserving the city’s legally protected atmosphere of tasteful inconvenience. The sirens, described as \"audibly discreet,\" are expected to save lives without forcing anyone to sit upright too suddenly.",
+      lv: "Jūrmala — Šonedēļ pilsētas amatpersonas atklāja jaunu ārkārtas brīdinājumu sistēmu, kas paredzēta, lai informētu iedzīvotājus par piekrastes applūšanu, ugunsgrēkiem un aizdomīgi enerģiskiem tūristiem, vienlaikus saglabājot pilsētas likumiski aizsargāto smalkās neērtības atmosfēru. Sirēnas, raksturotas kā “auditoriķi diskrētas”, paredzēts glābt dzīvības, neļaujot nevienam pārāk pēkšņi sasēsties taisni.",
+      ru: "Чиновники Юрмалы на этой неделе представили новую систему экстренного оповещения, призванную предупреждать жителей о прибрежных подтоплениях, пожарах и подозрительно энергичных туристах, сохраняя при этом юридически защищённую атмосферу изысканного неудобства. Сирены, описываемые как «на слух — сдержанные», должны спасать жизни, не заставляя никого слишком резко подниматься с кресла."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what municipal leaders are calling a major leap forward in “heritage-sensitive emergency communication,” the Jūrmala City Council on Tuesday presented a pilot network of so-called Quiet Sirens, an alert system engineered to warn residents of danger in a tone roughly equivalent to a distant cello recital behind triple-glazed windows.
+
+The project, officially titled the Civil Serenity Notification Initiative, was approved after years of complaints that traditional sirens were “too alarming in both message and texture.” According to city documents, previous emergency signals had caused 14 incidents of spilled sea buckthorn tea, three emotional support dachshunds to flee into decorative hydrangea beds, and one notable misunderstanding in which a visiting businessman from Zurich assumed Latvia had finally nationalized brunch.
+
+“We are not against safety,” said Deputy Mayor Ilze Dreifelde, speaking to reporters outside the Dzintari Concert Hall while technicians demonstrated several alert tones, including ‘gentle concern,’ ‘firm but respectful urgency,’ and ‘low-pressure evacuation.’ “But Jūrmala is a health resort city. People come here to recover, to reflect, and to stare at pine trees in cashmere. If the warning itself becomes the emergency, then what exactly are we preserving?”
+
+Under the new system, residents facing imminent danger will receive a curated sequence of signals. Coastal flooding will be indicated by a soft marimba phrase repeated every 45 seconds. Fire alerts will feature a baritone voice calmly saying, “This may affect parquet.” In the event of severe storms, hidden speakers embedded in bicycle racks and sculptural driftwood installations will emit what one procurement document describes as “a diplomatically assertive humming.”
+
+The city says the system was developed in consultation with acoustic designers from Liepāja, two wellness architects from Estonia, and a former diplomat who now specializes in “non-traumatic public information environments.” Total cost for the pilot phase was €2.8 million, including €410,000 for sonic testing inside restored wooden villas with varying curtain density.
+
+Not everyone is convinced. State Fire and Rescue Service regional coordinator Māris Vītols said his office had initially requested a siren that people could hear from more than one veranda away. “In an ideal emergency alert, the population becomes aware of the emergency,” Vītols said. “At present, this system seems optimized for informing a crystal glass that weather conditions are changing.”
+
+Still, city officials point to encouraging early results from a closed trial conducted last month among 62 volunteer residents in Bulduri and Majori. According to municipal data, 87% described the alerts as “emotionally acceptable,” 73% said they would “consider responding,” and 11% reported they had mistaken the evacuation cue for an invitation to a chamber music fundraiser.
+
+Among supporters is local resident and retired shipping magnate Andris Kraulis, 71, who said the previous test sirens had been “needlessly proletarian.” Standing on the terrace of his renovated villa, Kraulis praised the revised model for showing restraint. “If the sea wishes to enter my property, I do not see why this information must arrive screaming,” he said.
+
+The municipality has already begun planning a winter version of the service, including special alerts for black ice, roof snow, and “sidewalk conditions requiring a more deliberate fur boot.” Officials also confirmed they are developing a premium smartphone tier for residents who prefer emergency notifications delivered as a tasteful push message accompanied by a sepia aerial photograph of the affected neighborhood.
+
+As of Wednesday afternoon, the pilot program had been activated twice: once due to elevated Gulf of Riga wave conditions, and once because a peacock escaped from a private garden near Lielupe. In both cases, the city reported a successful outcome, noting that while no one immediately evacuated, several residents later acknowledged they had sensed that something, in a refined way, was wrong.`,
+      lv: `JŪRMALA — To, ko pilsētas vadītāji sauc par lielu soli uz priekšu “mantojuma jutīgā ārkārtas komunikācijā,” Jūrmalas dome otrdien prezentēja pilotprojektu — tā saukto Kluso sirēnu tīklu, brīdinājumu sistēmu, izstrādātu, lai brīdinātu iedzīvotājus par briesmām toni, kas aptuveni atbilst tālumā skanošam čella koncertam aiz divkārši stiklotiem logiem.
+
+Projekts, oficiāli nosaukts par Pilsoniskās mierīguma paziņošanas iniciatīvu, tika apstiprināts pēc gadu ilgiem sūdzību rakstiem, ka tradicionālās sirēnas ir “pārāk satraucošas gan ziņojumā, gan tekstūrā.” Pilsētas dokumentos minēts, ka iepriekšējie ārkārtas signāli izraisījuši 14 incidentus ar izlietu pīlādžu tēju, trīs emocionālās atbalsta takšus, kuri aizbēguši uz dekoratīvajiem hortenziju dobēm, un vienu ievērojamu pārpratumu, kad apmeklējošais uzņēmējs no Cīrihes pieņēma, ka Latvija beidzot nacionalizējusi brunčus.
+
+“Mēs neesam pret drošību,” sacīja domes priekšsēdētājas vietniece Ilze Dreifelde, uzrunājot reportierus pie Dzintaru koncertzāles, kamēr tehniķi demonstrēja vairākus brīdinājumu toņus, tajā skaitā “maiga rūpe,” “stingra, bet cieņpilna steidzamība” un “zema spiediena evakuācija.” “Bet Jūrmala ir veselības kūrorts. Cilvēki nāk šeit atpūsties, domāt un skatīties uz priedēm kašmira apģērbā. Ja pats brīdinājums kļūst par ārkārtas situāciju, ko tad īsti mēs saglabājam?”
+
+Saskaņā ar jauno sistēmu iedzīvotāji, kuriem draud tieša briesma, saņems izkopotu signālu virkni. Piekrastes applūšanu norādīs maiga marimbas frāze, kas tiks atkārtota ik pēc 45 sekundēm. Ugunsgrēku brīdinājumi ietvers baritona balsi, kas klusi pateiks: “Tas var ietekmēt parketu.” Smagu vētru gadījumā slēptie skaļruņi, iebūvēti velosipēdu stendos un skulpturālos izskalojumu koka instalācijās, izdos to, ko viens iepirkuma dokuments raksturo kā “diplomātiski uzstājīgu hum.”
+
+Pilsēta uzsver, ka sistēma izstrādāta sadarbībā ar akustikas dizaineriem no Liepājas, diviem labklājības arhitektiem no Igaunijas un bijušu diplomātu, kurš tagad specializējas “netraumējošās publiskās informācijas vidēs.” Pilotfāzes kopējās izmaksas bija 2,8 miljoni eiro, tostarp 410 000 € par skaņu testiem atjaunotās koka villās ar dažādu aizkaru blīvumu.
+
+Ne visi ir pārliecināti. Valsts ugunsdzēsības un glābšanas dienesta reģionālais koordinators Māris Vītols sacīja, ka viņa birojs sākotnēji bija pieprasījis sirēnu, kuru cilvēki varētu dzirdēt no vairāk nekā vienas verandas attāluma. “Ideālā ārkārtas brīdinājumā iedzīvotāji kļūst apzināti par ārkārtas situāciju,” teica Vītols. “Šobrīd šī sistēma šķiet optimizēta, lai informētu kristāla glāzi, ka laika apstākļi mainās.”
+
+Tomēr pilsētas amatpersonas norāda uz iepriecinošiem agrīniem rezultātiem no slēgtā testa, kas pagājušajā mēnesī veikts ar 62 brīvprātīgajiem Bulduru un Majoru iedzīvotājiem. Pēc pašvaldības datiem 87% aprakstīja brīdinājumus kā “emocionāli pieņemamus,” 73% sacīja, ka “apsvērtu reaģēšanu,” un 11% ziņoja, ka evakuācijas signālu bija sajaukuši ar ielūgumu uz kamermūzikas labdarības vakaru.
+
+Atbalstītāju vidū ir vietējais iedzīvotājs un pensionējies kuģniecības magnāts Andris Kraulis, 71 gadu, kurš sacīja, ka iepriekšējās testu sirēnas bijušas “nevajadzīgi proletāriska.” Stāvot uz atjaunotās villas terases, Kraulis slavēja pārdoto modeli par atturību. “Ja jūra vēlas iekļūt manā īpašumā, es neredzu, kāpēc šai informācijai būtu jāierodas kliedzot,” viņš teica.
+
+Pašvaldība jau plāno arī ziemas versiju pakalpojumam, tostarp īpašus brīdinājumus par melno ledu, sniegu uz jumtiem un “ietves apstākļiem, kas prasa apdomīgāku kažokādu zābaku.” Amatpersonas arī apstiprināja, ka izstrādā premium viedtālruņa līmeni iedzīvotājiem, kuri dod priekšroku ārkārtas paziņojumiem kā gaumīgiem push paziņojumiem, kam līdzi nāk sepijas krāsas aerofoto attēls ar skartajiem rajoniem.
+
+Līdz trešdienas pēcpusdienai pilotprogrammu aktivizēja divreiz: reizi sakarā ar paaugstinātu Rīgas jūras līča viļņu stāvokli, un reizi tāpēc, ka peacocks izbēga no privātā dārza pie Lielupes. Abos gadījumos pilsēta ziņoja par veiksmīgu iznākumu, norādot, ka, lai arī neviens tūlītēji neatkāpa, vairāki iedzīvotāji vēlāk atzina, ka viņi smalkā veidā sajutuši — kaut kas nav kārtībā.`,
+      ru: `ЮРМАЛА — В том, что муниципальные власти называют важным шагом вперёд в «чувствительной к наследию системе экстренной коммуникации», Городской совет Юрмалы во вторник представил пилотную сеть так называемых Тихих сирен — систему оповещения, спроектированную так, чтобы предупреждать жителей об опасности тоном, примерно сопоставимым с далёким виолончельным концертом за тройным стеклопакетом.
+
+Проект, официально названный «Инициатива уведомления о гражданском спокойствии», был утверждён после многолетних жалоб на то, что традиционные сирены «слишком шокируют и по содержанию, и по фактуре звука». По городским документам, предыдущие сигналы вызвали 14 случаев расплёскивания облепихового чая, три эмоционально поддерживающие таксы убежали в декоративные гортензиевые клумбы и одно заметное недоразумение, когда приезжий бизнесмен из Цюриха подумал, что Латвия наконец национализировала бранч.
+
+«Мы не против безопасности», — заявила заместитель мэра Ильзе Дрейфельде журналистам у концертного зала Дзинтари, пока техники демонстрировали несколько вариантов звукового оповещения, включая «мягкую озабоченность», «твёрдую, но уважительную срочность» и «эвакуацию в стиле пониженного давления». «Но Юрмала — курортный город. Люди приезжают сюда восстанавливаться, размышлять и смотреть на сосны в кашемировых пальто. Если само предупреждение становится чрезвычайной ситуацией, то что мы тогда собственно сохраняем?»
+
+В рамках новой системы жители, которым грозит немедленная опасность, будут получать курированную последовательность сигналов. Прибрежное подтопление будет обозначаться мягкой маримбовой фразой, повторяющейся каждые 45 секунд. Сигналы при пожаре будут сопровождаться баритоном, спокойно произносящим: «Это может повлиять на паркет». В случае сильных штормов скрытые динамики, встроенные в велопарковки и скульптурные инсталляции из морской коряги, будут издавать то, что один из документов по закупкам описывает как «дипломатично настойчивое гудение».
+
+Город говорит, что систему разрабатывали с участием акустических дизайнеров из Лиепаи, двух архитекторов велнеса из Эстонии и бывшего дипломата, который теперь специализируется на «нетравмирующих общественных информационных средах». Общая стоимость пилотного этапа составила €2,8 млн, включая €410 000 на звуковые испытания внутри восстановленных деревянных вилл с разной плотностью занавесей.
+
+Не все убеждены. Региональный координатор Государственной службы пожарно-спасательных работ Марис Витолс сказал, что его ведомство изначально просило сирену, которую люди могли бы услышать с расстояния больше, чем одна веранда. «В идеальном экстренном оповещении население узнаёт о чрезвычайной ситуации», — сказал Витолс. «На данный момент эта система, похоже, оптимизирована для того, чтобы известить хрустальный бокал о том, что погодные условия меняются». 
+
+Тем не менее городские власти приводят обнадеживающие первые результаты закрытого испытания, проведённого в прошлом месяце среди 62 добровольцев в Бульдури и Майори. По муниципальным данным, 87% описали оповещения как «эмоционально приемлемые», 73% сказали, что «рассмотрят возможность реагирования», а 11% заявили, что приняли сигнал к эвакуации за приглашение на камерный музыкальный благотворительный вечер.
+
+Среди сторонников новшества — местный житель и отставной судовладельческий магнат Андрис Краулис, 71 год, который заявил, что предыдущие пробные сирены были «чрезмерно пролетарскими». Стоя на террасе своей отреставрированной виллы, Краулис похвалил новую модель за сдержанность. «Если море пожелает зайти на мою территорию, я не вижу, почему эта весть должна кричать», — сказал он.
+
+Муниципалитет уже планирует зимнюю версию сервиса, включая специальные оповещения о чёрном льду, снеге на кровлях и «состоянии тротуаров, требующем более вдумчивой пары меховых сапог». Чиновники также подтвердили, что разрабатывают премиум‑уровень для смартфонов для жителей, которые предпочитают получать экстренные уведомления как стильные push‑сообщения с сепийной аэрофотографией затронутого района.
+
+По состоянию на среду днём пилотная программа была активирована дважды: один раз из‑за повышенного волнения в бухте Рижского залива и один раз потому, что павлин убежал из частного сада возле Лиелупе. В обоих случаях город сообщил об успешном исходе, отметив, что, хотя никто не эвакуировался немедленно, несколько жителей впоследствии признались, что почувствовали: что‑то, в утончённой манере, пошло не так.`
+    },
+    date: "Jun 22, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/192/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 191,
     slug: "jrmala-introduces-quiet-sand-hours-after",
     title: {
@@ -108,7 +189,7 @@ Lai noslēgtu dienu, atsaucības joprojām bija jauktas, kaut pastarpināti nomi
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/191/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 190,
