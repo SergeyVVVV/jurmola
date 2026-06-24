@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 194,
+    slug: "jrmala-introduces-quiet-thunder-siren-to",
+    title: {
+      en: "Jūrmala Introduces ‘Quiet Thunder’ Siren to Warn Residents of Incoming Tourists Without Disturbing Pine Trees",
+      lv: "Jūrmala ievieš 'Kluso pērkonu' — sirēnu, kas brīdina iedzīvotājus par tuvojošiem tūristiem, netraucējot priedēm",
+      ru: "Юрмала вводит сирену «Тихий гром», чтобы предупреждать жителей о прибытии туристов, не тревожа сосны"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala this week unveiled a new low-volume civil alert system designed to notify residents when large numbers of day-trippers are approaching the beach. The experimental siren, described by engineers as ‘emotionally urgent but acoustically respectful,’ is already being hailed as a breakthrough in Baltic passive-aggression technology.",
+      lv: "Šonedēļ Jūrmalas pašvaldības amatpersonas atklāja jaunu zema skaļuma civilās brīdināšanas sistēmu, kas paredzēta, lai informētu iedzīvotājus, kad uz pludmali tuvojas liels dienas apmeklētāju pulks. Eksperimentālā sirēna, ko inženieri apraksta kā 'emocionāli steidzīgu, bet akustiski cienījamu', jau tiek slavēta par atskaites punktu Baltijas pasīvās agresijas tehnoloģijā.",
+      ru: "В этом week муниципальные чиновники Юрмалы представили новую малогромкую гражданскую систему оповещения, призванную сообщать жителям о приближении множества однодневных приезжих к пляжу. Экспериментальную сирену, которую инженеры охарактеризовали как «эмоционально настоятельную, но акустически уважительную», уже называют прорывом в балтийских технологиях пассивной агрессии."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a press conference held Tuesday beside a bicycle rack no one was emotionally prepared to use, Jūrmala City Council introduced what it called the Baltic region’s first ‘ecologically considerate tourist warning system,’ a network of nearly silent sirens intended to alert residents to incoming waves of weekend visitors from Riga without alarming local wildlife, fragile pine bark, or people trying to appear relaxed on terraces.
+
+The device, officially named the Dzintaru Civil Leisure Integrity Signal Platform, emits what engineers describe as ‘a firm atmospheric suggestion’ rather than a traditional alarm. At full capacity, the siren produces a 14-decibel velvet hum, roughly equivalent to a cardigan being folded in another room.
+
+‘For years, residents told us they wanted earlier warning when the electric trains from Riga begin discharging sandals onto the city,’ said Deputy Mayor for Seasonal Stability Inga Lapiņa, standing in front of a demonstration unit disguised as tasteful driftwood. ‘But they also made it clear that loud noise is spiritually coastal and therefore unacceptable. This solution honors both concerns.’
+
+According to municipal data, Jūrmala receives up to 18,000 additional visitors on hot Saturdays, a number city analysts say can be detected by a measurable increase in linen hat density and the sudden appearance of three men selling smoked fish from one folding table. Under the new system, sensors installed near Majori Station monitor train arrivals, sunscreen aerosol concentration, and the average speed at which families begin walking four abreast.
+
+When thresholds are met, the sirens activate across neighborhoods including Bulduri, Dzintari, and parts of Dubulti considered ‘psychologically vulnerable to queue formation.’ Residents then receive a sequence of increasingly specific warnings through a companion app called Mans Miers (‘My Peace’), ranging from ‘Yellow Advisory: First Cooler Boxes Spotted’ to ‘Red Event: Someone Has Started Asking If There’s a Quieter Beach Nearby.’
+
+City acoustics consultant and former vibraphone lecturer Mārtiņš Zeps said the challenge was to create a signal audible only to those who already suspected tourists were coming. ‘The true Jūrmala ear is highly trained,’ Zeps explained. ‘It can detect a family from Purvciems unwrapping cucumbers at 300 meters. We designed the siren to work with that intuition, not replace it.’
+
+Reaction among residents has been cautiously approving. ‘Yesterday I heard almost nothing, and immediately I knew the promenade would become impossible within 40 minutes,’ said local homeowner Baiba Graudiņa, 62, while moving her hydrangeas farther behind a hedge. ‘That kind of public service makes you feel seen.’
+
+Not everyone is convinced. A coalition of Riga day-trippers has criticized the program as discriminatory, arguing that all Latvians have a constitutional right to become slightly sunburned in Jūrmala while carrying a watermelon they regret purchasing. ‘We are not a threat,’ said Imants, 34, interviewed while dragging an inflatable flamingo through Lielupe Station. ‘We are simply many.’
+
+Officials rejected accusations of exclusion and emphasized that the system is purely informational. ‘This is not about keeping anyone out,’ said Lapiņa. ‘It is about giving residents enough time to buy the last decent pastry, hide their preferred parking spot with a chair, and emotionally process the phrase “Let’s just pop to the sea.”’
+
+Early trial results appear promising. During a pilot test over the Midsummer weekend, the silent warning network gave locals an average of 27 minutes to complete protective measures, including relocating bicycles, lowering eye contact, and securing café tables with one unread book and a scarf.
+
+Following the successful rollout, officials say they are already developing winter adaptations for Riga, where a similar system could gently alert residents when an artisanal market, urban sauna initiative, or spontaneous poetry event is about to occupy an otherwise useful public square.`,
+      lv: `JŪRMALA — Preses konferencē otrdien, pie velosipēdu statīva, kuru neviens emocionāli nebija gatavs lietot, Jūrmalas domes pārstāvji prezentēja to, ko nosauca par reģiona pirmo 'ekoloģiski saudzīgo tūristu brīdināšanas sistēmu' — gandrīz klusu sirēnu tīklu, kas paredzēts, lai iedzīvotājus informētu par tuvojošajām piektdienas un sestdienas apmeklētāju vilnēm no Rīgas, neizbijot vietējo faunu, trauslo priedes mizu vai terasēs mēģinošos izskatīties atslābinātus cilvēkus.
+
+Ierīcei oficiāli dots nosaukums 'Dzintaru Civilās Atpūtas Integritātes Signālu Platforma'; inženieri to raksturo kā 'stingru atmosfēras ieteikumu', nevis tradicionālu trauksmi. Pilnā jaudā sirēna rada 14 decibelus lielu samta dūdoņu — aptuveni tik, cik skaļi citā telpā tiek salocīts kardigans.
+
+'Gadus ilgi iedzīvotāji mums stāstīja, ka grib agrāku brīdinājumu, kad elektrovilcieni no Rīgas sāk pilsētā izlaist sandales,' sacīja Sezonālās stabilitātes vietniece Inga Lapiņa, stāvot pie demonstrācijas ierīces, kas maskēta par gaumīgu izskalota koka gabalu. 'Bet viņi arī skaidri pateica, ka skaļas skaņas ir garīgi piejūras un tāpēc nepieņemamas. Šis risinājums godā abas bažas.'
+
+Pēc pašvaldības datiem Jūrmala karstās sestdienās saņem līdz pat 18 000 papildu apmeklētāju — skaitli, ko pilsētas analītiķi konstatē ar izmērāmu lina cepuru blīvuma pieaugumu un pēkšņu triju vīru parādīšanos, kas no viena salokāma galdiņa tirgo kūpinātu zivi. Jaunās sistēmas ietvaros pie Majori stacijas uzstādītie sensori uzrauga vilcienu ierašanās, saules aizsarglīdzekļu aerosola koncentrāciju un vidējo ātrumu, ar kādu ģimenes sāk soļot četros blakus.
+
+Kad sliekšņi tiek sasniegti, sirēnas aktivizējas tādos rajonos kā Bulduri, Dzintari un Dubulti — īpaši tajās daļās, kur 'psiholoģiski ir pastiprināta jūtība pret rindu veidošanos'. Iedzīvotāji saņem secīgu arvien konkrētāku brīdinājumu virkni caur pavadošo lietotni Mans Miers ("My Peace"), sākot no 'Dzeltenais padoms: pamanītas pirmās aukstumkastes' līdz 'Sarkans notikums: Kāds sācis jautāt, vai tuvumā nav klusāka pludmale'.
+
+Pilsētas akustikas konsultants un bijušais vibrafona pasniedzējs Mārtiņš Zeps skaidroja, ka izaicinājums bija izveidot signālu, ko dzird tikai tie, kuri jau tāpat nojauš, ka tūristi tuvojas. 'Īstā jūrmalnieku auss ir ļoti apmācīta,' teica Zeps. 'Tā spēj pamanīt ģimeni no Purvciema, kas 300 metru attālumā atver gurķi. Mēs sirēnu projektējām tā, lai tā strādātu ar šo intuīciju, nevis to aizstātu.'
+
+Iedzīvotāju reakcija ir piesardzīgi atbalstoša. 'Vakar man praktiski nebija ko dzirdēt, un es tūlīt sapratu, ka promenāde kļūs neciešama 40 minūšu laikā,' sacīja vietējā mājas īpašniece Baiba Graudiņa, 62 gadi, pārstiepjot savas hortenzijas aiz dzīvžoga. 'Tāda veida sabiedriskais serviss liek justies pamanītam.'
+
+Ne visi ir pārliecināti. Rīgas dienas viesu koalīcija kritizējusi programmu kā diskriminējošu, apgalvojot, ka visiem Latvijas iedzīvotājiem ir konstitucionālas tiesības nedaudz apdegt saulē Jūrmalā, nēsājot arbūzu, ko viņi nožēlo, ka nopirka. 'Mēs neesam drauds,' sacīja Imants, 34, intervijā, vilkdams pie Lielupes stacijas uzpūšamu flamingu. 'Mēs vienkārši esam daudz.'
+
+Amatpersonas noraidīja izslēgšanas apsūdzības un uzsvēra, ka sistēma ir pilnīgi informatīva. 'Nav runa par to, lai kādu aizliegtu,' sacīja Lapiņa. 'Ir runa par to, lai iedzīvotājiem dotu pietiekami daudz laika nopirkt pēdējo cienījamo smalkmaizi, aizsegt savu iecienīto stāvvietu ar krēslu un emocionāli apstrādāt frāzi "nu ātri ielēksim līdz jūrai".'
+
+Sākotnējie izmēģinājuma rezultāti šķiet solīdi. Midsummer nedēļas nogalē klusā brīdinājumu tīkla pilots iedzīvotājiem deva vidēji 27 minūtes, lai veiktu aizsardzības pasākumus, tostarp pārkārtotu velosipēdus, samazinātu acu kontaktu un nodrošinātu kafejnīcas galdiņus ar vienu nelasītu grāmatu un šalli.
+
+Pēc sekmīgas ieviešanas amatpersonas paziņo, ka jau strādā pie ziemas adaptācijām Rīgai, kur līdzīga sistēma varētu maigi brīdināt iedzīvotājus, kad amatniecības tirdziņš, pilsētas pirts iniciatīva vai spontāna dzejas lasījuma akcija gatavojas ieņemt citādi noderīgu publisku laukumu.`,
+      ru: `ЮРМАЛА — На пресс‑конференции во вторник возле велопарковки, к использованию которой никто эмоционально не был готов, Городской совет Юрмалы представил то, что назвал первой в Балтийском регионе «экологически внимательной системой предупреждения туристов» — сеть почти бесшумных сирен, призванных оповещать жителей о волнах уикенд‑посетителей из Риги, не пугая местную фауну, хрупкую кору сосен и людей, пытающихся выглядеть расслабленными на террасах.
+
+Устройство, официально получившее название «Платформа сигнала гражданской целостности отдыха Dzintaru», излучает то, что инженеры описывают как «твёрдое атмосферное предложение», а не традиционную тревогу. На полной мощности сирена производит 14‑децибельный бархатный гул, примерно эквивалентный тому, как в другой комнате складывают кардиган.
+
+«Годами жители говорили нам, что хотят более раннего предупреждения, когда электрички из Риги начинают высаживать в городе сандалии», — сказала заместитель мэра по сезонной стабильности Инга Лапиня, стоя перед демонстрационным агрегатом, замаскированным под со вкусом подобранное плавниковое дерево. «Но они также ясно дали понять, что громкие звуки — духовно прибрежны и потому неприемлемы. Это решение уважает оба беспокойства.»
+
+Согласно муниципальным данным, в жаркие субботы в Юрмалу приезжает до 18 000 дополнительных посетителей — число, по словам городских аналитиков, заметное по измеримому увеличению плотности льняных шляп и внезапному появлению троих мужчин, продающих копчёную рыбу с одного складного столика. В рамках новой системы датчики возле станции Майори отслеживают прибытия поездов, концентрацию аэрозолей солнцезащитного крема и среднюю скорость, с которой семьи начинают идти в ряд по четыре.
+
+Когда пороги превышаются, сирены активируются по районам, включая Булдури, Дзинтари и участки Дубулты, признанные «психологически уязвимыми к образованию очередей». Жители затем получают через сопутствующее приложение Mans Miers («Мой покой») последовательность всё более конкретных предупреждений — от «Жёлтое уведомление: замечены первые холодильные ящики» до «Красное событие: кто‑то начал спрашивать, нет ли поблизости более тихого пляжа».
+
+Городской акустический консультант и бывший преподаватель вибрафона Мартиньш Зепс сказал, что задача заключалась в создании сигнала, слышимого только теми, кто и без того подозревает о приближении туристов. «Истинное юрмальское ухо очень натренировано, — объяснил Зепс. — Оно может обнаружить семью из Пурвциемса, разворачивающую огурцы, на расстоянии 300 метров. Мы сделали сирену так, чтобы она работала вместе с этой интуицией, а не заменяла её.»
+
+Реакция жителей была сдержанно одобрительной. «Вчера я почти ничего не услышала, и сразу поняла, что через 40 минут на набережной станет невозможно», — сказала 62‑летняя домовладелица Байба Граудиня, отодвигая свои гортензии подальше за изгородь. «Такая общественная услуга заставляет тебя чувствовать себя замеченной.»
+
+Не все убеждены. Коалиция однодневных гостей из Риги раскритиковала программу как дискриминационную, утверждая, что у всех латвийцев есть конституционное право слегка обгореть в Юрмале, таща арбуз, о покупке которого они потом жалеют. «Мы не угроза, — сказал Имантс, 34 года, интервьюируемый в тот момент, когда тащил надувного фламинго через станцию Лиелупе. — Мы просто множество.»
+
+Чиновники отвергли обвинения в исключении и подчеркнули, что система носит сугубо информационный характер. «Речь не о том, чтобы кого‑то не впускать, — сказала Лапиня. — Речь о том, чтобы дать жителям достаточно времени купить последнюю приличную выпечку, занять любимое парковочное место стулом и эмоционально переварить фразу «Давайте просто заглянем на море».»
+
+Ранние результаты испытаний выглядят обнадеживающими. В ходе пилотного теста в праздник летнего солнцестояния сеть тихого оповещения дала местным в среднем 27 минут на выполнение защитных мер, включая перестановку велосипедов, снижение зрительного контакта и закрепление столиков в кафе одной непрочитанной книгой и шарфом.
+
+После успешного запуска чиновники говорят, что уже разрабатывают зимние адаптации для Риги, где похожая система могла бы мягко оповещать жителей о том, что к занятию полезной площади приближаются ремесленный рынок, городская сауна или спонтанный поэтический перформанс.`
+    },
+    date: "Jun 24, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/194/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 193,
     slug: "riga-introduces-passive-aggressive-silence-zones-193",
     title: {
@@ -102,7 +189,7 @@ Otrdienas vakarā satiksmes pārvalde apstiprināja, ka pilots jau pārsniedzis 
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/193/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 192,
