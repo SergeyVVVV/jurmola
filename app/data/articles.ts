@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 196,
+    slug: "jrmala-residents-launch-emergency-whatsapp-group",
+    title: {
+      en: "Jūrmala Residents Launch Emergency WhatsApp Group After Sea Breeze Arrives 11 Minutes Colder Than Expected",
+      lv: "Jūrmalas iedzīvotāji izveido ārkārtas WhatsApp grupu pēc tam, kad jūras vēsma atnāca par 11 minūtēm aukstāka nekā gaidīts",
+      ru: "Жители Юрмалы создали экстренную группу в WhatsApp после того, как морской бриз пришёл на 11 минут холоднее, чем ожидалось"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala confirmed Thursday that an unseasonably judgmental gust off the Gulf of Riga triggered widespread concern in several affluent neighborhoods after arriving notably colder than the forecast had implied. A new inter-dune communication protocol has since been activated to prevent future panic and unnecessary cardigan deployment.",
+      lv: "Jūrmalas pašvaldības amatpersonas apstiprināja ceturtdien, ka neierasti nosodošs brāziens no Rīgas jūras līča izraisīja plašu satraukumu vairākos turīgos mikrorajonos, ierodoties ievērojami aukstāk nekā prognozēts. Ir aktivizēts jauns starp-kāpu saziņas protokols, lai novērstu nākotnes paniku un lieku džemperu uzvilkšanu.",
+      ru: "Муниципальные власти Юрмалы в четверг подтвердили, что не по сезону придирчивый порыв с Рижского залива вызвал широкое беспокойство в нескольких благополучных районах после того, как пришёл заметно холоднее, чем прогноз обещал. С тех пор был активирован новый междюнный протокол коммуникации, чтобы предотвратить будущую панику и ненужное надевание кардиганов."
+    },
+    fullContent: {
+      en: `JŪRMALA — A coastal weather event described by local authorities as “brief but emotionally significant” sent residents of Jūrmala into a state of organized alert on Thursday after the afternoon sea breeze reached Dzintari and Majori approximately 11 minutes earlier and 2.4 degrees colder than many had prepared for.
+
+The gust, which began moving inland at 14:37 according to municipal sensors near the Blue Flag beach, prompted the immediate creation of a 126-member WhatsApp group titled “Wind Situation Official.” Within nine minutes, the chat had produced 347 messages, 18 voice notes, three low-resolution photos of pine trees “behaving unpredictably,” and one poll asking whether the breeze “felt municipal” or “more of a state-level issue.”
+
+Witnesses say the first signs of disruption appeared outside a café on Jomas Street, where at least seven people reached for the same communal blanket basket at once, causing what one barista described as “a completely Baltic stampede, in the sense that nobody touched anybody and all apologized while moving very quickly.”
+
+“It was supposed to be a gentle evening air, not this direct criticism,” said local resident and pilates instructor Baiba Lejniece, still wrapped in a beige shawl as she reviewed radar screenshots on her phone. “I had mentally prepared for a soft 19-degree flirtation. Instead, it was 16.6 and strangely personal.”
+
+Jūrmala City Council convened a short emergency briefing at 15:20, during which Civil Preparedness Coordinator Ingus Sviklis urged calm and reminded residents that “layering remains Latvia’s first line of defense.” He also confirmed the rollout of a three-stage response system for future coastal cooling incidents.
+
+Under the new protocol, Level One “Noticeable Freshness” requires residents to post one verified sleeve-length update per household. Level Two “Sharp Horizontal Doubt” authorizes the closing of lightweight linen shirts and the redistribution of emergency scarves from municipal kiosks. Level Three, activated only once before during the Midsummer of 2017, includes beachwide tea reinforcement and supervised relocation of tourists from open piers to emotionally safer boardwalk zones.
+
+Data from the Latvian Environment, Geology and Meteorology Centre showed that while the actual wind speed peaked at just 6.8 meters per second, the perceived intensity rose dramatically in neighborhoods where outdoor dining reservations had already been photographed for social media. Analysts later estimated that 63 percent of the panic was generated not by atmospheric conditions themselves, but by a chain of forwarded messages claiming the breeze had “that September feeling.”
+
+In Bulduri, retired engineer and amateur flag observer Aivars Krūmiņš said the warning signs had been obvious. “At 14:11 the birches turned their pale side toward us, and two Estonians on bicycles zipped their jackets at the same time,” he said. “You don’t ignore a synchronized zipper event on the Baltic coast.”
+
+Tourism representatives moved quickly to contain reputational damage, stressing that Jūrmala remains fully open and internationally capable of hosting weather in a dignified manner. “This was not a failure of seaside hospitality,” said resort association spokesperson Elīna Veidemane. “The breeze was outside, where weather normally is. We ask visitors not to confuse responsiveness with weakness.”
+
+By early evening, conditions had stabilized, and many residents cautiously resumed their routines, though several were seen standing in doorways testing the air with narrowed eyes. The WhatsApp group remained active late into the night, eventually splintering into two factions over whether 17 degrees after 6 p.m. should be categorized as “refreshing” or “an attack.”
+
+At press time, officials were monitoring a separate developing situation near Melluži, where sunlight had reportedly become “too golden too early,” raising fears that the entire town may once again be forced to discuss autumn before it is socially acceptable.`,
+      lv: `JŪRMALA — Krasta laika apstāklis, ko vietējās varas iestādes raksturoja kā „īslaicīgu, bet emocionāli nozīmīgu”, ceturtdien lika Jūrmalas iedzīvotājiem pārslēgties organizētā trauksmes režīmā pēc tam, kad pēcpusdienas jūras vēsma sasniedza Dzintarus un Majorus aptuveni par 11 minūtēm ātrāk un par 2,4 grādiem aukstāk, nekā daudzi bija sagatavojušies.
+
+Brāziens, kas pēc pašvaldības sensoru datiem pie Zilā Karoga pludmales sāka virzīties uz iekšzemi pulksten 14:37, izraisīja tūlītēju 126 cilvēku WhatsApp grupas izveidi ar nosaukumu „Vēja situācijas oficiālais”. Devītajā minūtē čatā bija jau 347 ziņas, 18 balss ziņojumi, trīs zemas izšķirtspējas foto ar priedēm „uzvedoties neprognozējami” un viens jautājums aptaujā, vai vēsma „jūtas pašvaldiska” vai „drīzāk valsts līmeņa jautājums”.
+
+Acu liecinieki stāsta, ka pirmās traucējumu pazīmes parādījās pie kafejnīcas Jomas ielā, kur vismaz septiņi cilvēki vienlaikus sniedzās pēc tā paša kopīgā sedziņu groza, radot to, ko viens bārists aprakstīja kā „pilnīgi Baltijas stampede — jēdzienā, ka neviens nevienu nepieskārās, un visi atvainojās, kustoties ļoti ātri”.
+
+„Tam vajadzēja būt maigai vakara gaidīšanai, nevis šādai tiešai kritikai,” sacīja vietējā iedzīvotāja un pilatesa instruktorė Baiba Lejniece, vēl aptinusies bēša lakatiņā, kamēr uz tālruņa pārskatīja radara ekrānuzņēmumus. „Es mentāli biju gatavojusies vieglai 19 grādu flirtācijai. Tā vietā bija 16,6 un kaut kā personiska.”
+
+Jūrmalas dome 15:20 sasauca īsu ārkārtas briefing, kurā Civilās sagatavotības koordinators Ingus Sviklis aicināja saglabāt mieru un atgādināja, ka „slāņošana joprojām ir Latvijas pirmā aizsardzības līnija”. Viņš arī apstiprināja trīs pakāpju reaģēšanas sistēmas ieviešanu nākotnes krasta atvēsināšanās incidentu gadījumos.
+
+Saskaņā ar jauno protokolu, I Līmenis „Pamanāma svaiguma” prasa no katras mājsaimniecības ievietot vienu verificētu ziņu par piedurkņu garumu. II Līmenis „Asas horizontālās šaubas” pilnvaro aiztaisīt vieglos lina kreklus un pārdalīt avārijas lakatus no pašvaldības kioskiem. III Līmenis, kas tika aktivizēts tikai reizē — 2017. gada Jāņu laikā, ietver visu pludmali aptverošu tējas pastiprināšanu un tūristu uzraudzītu pārkārtošanu no atklātajiem mola izvedumiem uz emocionāli drošākām laipu zonām.
+
+Latvijas Vides, ģeoloģijas un meteoroloģijas centra dati parādīja, ka, lai gan reālais vēja ātrums sasniedza tikai 6,8 metrus sekundē, uztvertā intensitāte dramatiski pieauga rajonos, kur āra ēdināšanas rezervācijas jau bija nofotografētas sociālajiem tīklam. Analītiķi vēlāk novērtēja, ka 63 procenti panikas netika radīti pašu atmosfēras apstākļu dēļ, bet gan pārsūtītu ziņojumu ķēdes dēļ, kurās apgalvots, ka vēsmai ir „tas septembra vēstījums”.
+
+Buldurī pensionētais inženieris un amatieru karogu novērotājs Aivars Krūmiņš sacīja, ka brīdinājuma zīmes bija acīmredzamas. „14:11 bērzi pagrieza savu gaišo pusi pret mums, un divi igauņi uz velosipēdiem vienlaikus aiztaisīja jakas,” viņš teica. „Baltijas krastā sinhronu rāvējslēdzēju notikumu nedrīkst ignorēt.”
+
+Tūrisma pārstāvji steidzās mazināt reputācijas kaitējumu, uzsverot, ka Jūrmala joprojām ir pilnībā atvērta un starptautiski spējīga cienīgi uzņemt laiku. „Tā nebija jūras piekrastes viesmīlības kļūme,” sacīja kūrorta asociācijas pārstāve Elīna Veidemane. „Vēsma bija ārpusē, tur, kur parasti ir laika apstākļi. Mēs lūdzam apmeklētājus nesajaukt atsaucību ar vājumu.”
+
+Vakarpusē apstākļi stabilizējās, un daudzi iedzīvotāji uzmanīgi atsāka ierasto ritmu, lai gan vairākus vēl redzēja stāvam pie durvīm, pārbaudot gaisu ar sarauktām acīm. WhatsApp grupa palika aktīva vēl vēlu naktī, līdz beidzot sašķēlās divās frakcijās par to, vai 17 grādi pēc pulksten 18 jāuzskata par „atsvaidzinošu” vai par „uzbrukumu”.
+
+Ziņu iesniegšanas brīdī amatpersonas uzraudzīja atsevišķi attīstāmu situāciju pie Mellužiem, kur saules gaisma, kā ziņots, kļuvusi „par zeltainu pārāk agri”, radot bažas, ka visa pilsēta varētu atkal būt spiesta apspriest rudeni pirms tas sociāli pieņemami.`,
+      ru: `ЮРМАЛА — Прибрежное погодное явление, которое местные власти описали как «короткое, но эмоционально значимое», привело жителей Юрмалы в состояние организованной насторожённости в четверг, после того как послеобеденный морской бриз добрался до Дзинтари и Майори примерно на 11 минут раньше и на 2,4 градуса холоднее, чем многие были к этому готовы.
+
+Порыв, который начал двигаться вглубь суши в 14:37 по данным муниципальных датчиков у пляжа с «Голубым флагом», стал поводом для немедленного создания 126-участниковой группы в WhatsApp под названием «Официальная ситуация с ветром». В течение девяти минут в чате появилось 347 сообщений, 18 голосовых заметок, три фотографии сосен низкого разрешения «ведущих себя непредсказуемо» и один опрос о том, казался ли бриз «муниципальным» или «скорее вопросом государственного уровня». 
+
+Очевидцы сообщают, что первые признаки нарушения спокойствия появились у кафе на улице Джомас, где как минимум семь человек одновременно потянулись к одной корзине с общими пледами, вызвав то, что один бариста описал как «абсолютно балтийскую панихиду в том смысле, что никто никого не тронул, все извинились и при этом двигались очень быстро». 
+
+«Это должно было быть лёгкое вечернее дуновение, а не прямая критика», — сказала местная жительница и инструктор по пилатесу Байба Лейниеце, всё ещё укутавшаяся в бежевый шаль и просматривающая скриншоты радара на телефоне. «Я мысленно готовилась к мягкому флирту при 19 градусах. Вместо этого было 16,6 и это было странно лично». 
+
+Городской совет Юрмалы провёл короткое экстренное брифинг в 15:20, во время которого координатор гражданской готовности Ингус Свиклис призвал к спокойствию и напомнил жителям, что «многослойность по‑прежнему остаётся первой линией обороны Латвии». Он также подтвердил внедрение трёхступенчатой системы реагирования на будущие прибрежные похолодания. 
+
+Согласно новому протоколу, Уровень первый «Заметная свежесть» требует от домохозяйства опубликовать одно проверенное сообщение о длине рукава. Уровень второй «Резкое горизонтальное сомнение» разрешает застёгивать лёгкие льняные рубашки и перераспределять экстренные шарфы из муниципальных киосков. Третий уровень, который активировался только однажды во время Ивана 2017 года, включает массовое усиление чаепития на пляже и сопровождаемую эвакуацию туристов с открытых пирсов в эмоционально более безопасные зоны набережной. 
+
+Данные Латвийского центра окружающей среды, геологии и метеорологии показали, что хотя фактическая скорость ветра достигла всего 6,8 метров в секунду, воспринимаемая интенсивность резко выросла в районах, где бронь столиков на открытом воздухе уже была сфотографирована для социальных сетей. Аналитики позже посчитали, что 63 процента паники было вызвано не самими атмосферными условиями, а цепочкой пересланных сообщений, утверждавших, что в бризе было «то самое сентябрьское ощущение». 
+
+В Булдурах пенсионер-инженер и любитель наблюдения за флагами Айварс Круминьш сказал, что предупредительные знаки были очевидны. «В 14:11 берёзы повернули к нам свою бледную сторону, и двое эстонцев на велосипедах одновременно застегнули куртки», — сообщил он. «Нельзя игнорировать синхронное событие с молнией на Балтийском побережье». 
+
+Туристические представители оперативно приняли меры по минимизации репутационного ущерба, подчеркнув, что Юрмала остаётся полностью открытой и международно способной принимать погоду с достоинством. «Это не было провалом прибрежного гостеприимства», — сказала представитель ассоциации курорта Элина Вейдемане. «Бриз был снаружи, там, где обычно и бывает погода. Просим посетителей не путать отзывчивость с проявлением слабости». 
+
+К раннему вечеру ситуация стабилизировалась, и многие жители осторожно вернулись к своим делам, хотя нескольких видели стоящими в дверных проёмах и тестирующими воздух прищурив глаза. WhatsApp-группа оставалась активной допоздна, в конечном счёте расколовшись на два фракции из‑за спора о том, следует ли 17 градусов после 18:00 классифицировать как «освежающее» или как «атаку». 
+
+На момент выхода материала официальные лица отслеживали отдельную развивающуюся ситуацию рядом с Меллужи, где, по сообщениям, солнце стало «слишком золотым слишком рано», что вызвало опасения, что всему городу вновь придётся обсуждать осень раньше, чем это социально приемлемо.`
+    },
+    date: "Jun 26, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/196/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 195,
     slug: "jrmala-introduces-silent-applause-zones-after",
     title: {
@@ -90,7 +177,7 @@ Amatpersonas norāda, ka programma tiks izvērtēta septembrī, izmantojot tādu
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/195/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 194,
