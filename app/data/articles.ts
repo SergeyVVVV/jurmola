@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 197,
+    slug: "jrmala-introduces-quiet-surge-pricing-after",
+    title: {
+      en: "Jūrmala Introduces ‘Quiet Surge Pricing’ After Residents Complain Seagulls Are Too Loud During Premium Sunset Hours",
+      lv: "Jūrmala ievieš 'klusuma uzcenojumu' pēc tam, kad iedzīvotāji sūdzējās, ka kaijas pārāk skaļas premium saulrieta stundās",
+      ru: "Юрмала вводит «тихий надбавочный тариф» после жалоб жителей на слишком громких чаек в часы премиального заката"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have approved a dynamic coastal noise-management scheme that charges seagulls, beach cafés, and emotionally expressive tourists higher rates for sound produced between 8:14 and 9:03 p.m. The city says the plan will preserve the traditional dignity of the Baltic sunset while generating enough revenue to repaint three benches and a morally significant stretch of boardwalk.",
+      lv: "Jūrmalas pašvaldības amatpersonas apstiprinājušas dinamisku piekrastes trokšņu pārvaldības shēmu, kas iekasē maksu no kaijām, pludmales kafejnīcām un emocionāli izteiksmīgiem tūristiem par skaņu, kas radīta no pulksten 20:14 līdz 21:03. Pilsēta apgalvo, ka plāns saglabās Baltijas saulrieta tradicionālo cienīgumu, vienlaikus ģenerējot pietiekami līdzekļu, lai pārbūvētu trīs soliņus un morāli nozīmīgu promenādes posmu.",
+      ru: "Муниципальные власти Юрмалы утвердили динамическую схему управления прибрежным шумом, по которой чайки, пляжные кафе и эмоционально выразительные туристы будут платить повышенные ставки за звуки, издаваемые между 20:14 и 21:03. Город заявляет, что план сохранит традиционное достоинство балтийского заката и одновременно принесёт достаточно средств, чтобы перекрасить три скамейки и морально значимый участок набережной."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what city leaders are calling a “balanced and future-oriented approach to acoustic luxury,” Jūrmala this week became the first municipality in the Baltics to introduce quiet surge pricing, a pilot program aimed at reducing noise along the beachfront during what officials describe as “premium contemplative hours.”
+
+The measure, approved late Tuesday by the Jūrmala City Council in a 9–4 vote with one abstention “due to ongoing inner conflict,” assigns variable sound tariffs to common sources of evening disruption, including seagull calls, champagne corks, Bluetooth speakers, and prolonged laughter from visitors who “appear to be from central Riga and have recently been paid.”
+
+Under the new framework, natural and human-made noises exceeding 37 decibels between 8:14 p.m. and 9:03 p.m. will be billed according to a real-time formula based on sunset color quality, sand density, and the number of visible linen garments. Seagulls, classified in the budget as “semi-domestic opportunists,” will incur a standard charge of €1.20 per squawk during amber-sky conditions, rising to €2.80 if the bird is standing on a designer towel at the time of vocalization.
+
+Deputy Mayor for Seasonal Harmony Ilze Sproģe said the city had no choice after years of complaints from residents who felt the beach had become “acoustically over-accessible.”
+
+“People come to Jūrmala not merely to hear the sea,” Sproģe told reporters at a press conference held beside a very apologetic gull deterrent flag. “They come to hear themselves having a refined thought near the sea. That experience has been repeatedly interrupted by aggressive bird commentary, loose glassware, and men explaining investment property too loudly.”
+
+The municipality has allocated €428,000 for enforcement, including the installation of 64 Scandinavian-designed sound meters disguised as driftwood and a new Coastal Civility Unit equipped with beige windbreakers, tablet devices, and what the city contract describes as “non-confrontational authority.” Officers will issue digital invoices on-site to offenders, with discounts available for pensioners, musicians playing minor-key accordion, and any child able to identify at least three native dune grasses.
+
+Reaction from local businesses has been mixed. Dzintari Beach Café owner Mārtiņš Veinbergs said he supports the spirit of the policy but worries about implementation. “On paper it’s elegant,” he said, lowering his voice as a server set down cutlery with visible guilt. “But now every cappuccino foam accident counts as an event. Yesterday a woman gasped at a cloud in a way that triggered peak pricing. We can’t run hospitality like this.”
+
+Not all residents are opposed. Longtime Majori resident and retired chemistry teacher Velta Ozoliņa, 74, praised the initiative after what she called “the catastrophic summer of 2022,” when a group of bachelor party guests allegedly shouted “Baltic Ibiza” seven times in under two minutes.
+
+“I remember the exact moment the atmosphere changed,” Ozoliņa said. “A gull screamed, someone opened prosecco, and a drone flew past carrying a small flag. Since then, I no longer trust sunsets that arrive without regulation.”
+
+Environmental groups have cautiously welcomed parts of the plan, though some experts questioned the legal basis for fining wildlife. Ornithologist Dr. Kaspars Līdaks noted that seagulls are unlikely to comply voluntarily. “The herring gull has shown little respect for administrative boundaries,” he said. “Historically it responds poorly to paperwork and often escalates when observed.”
+
+To address that concern, city officials confirmed they are testing a mediation program in which selected gulls will be offered unsalted sprats in exchange for reduced evening commentary. Early results have been inconclusive, with one pilot bird reportedly taking the fish and immediately screaming into a microphone.
+
+Despite skepticism, the council remains optimistic. If successful, Jūrmala plans to expand quiet surge pricing next year to include pine forests, spa corridors, and one especially tense supermarket parking lot near Dubulti station.
+
+By Thursday evening, the first invoices had already been issued: two to a wedding photographer, one to a saxophonist, and 14 to a single seagull known to beach staff only as Andris. Municipal data showed a 23% increase in perceived elegance within the first night of enforcement, though officials acknowledged this figure was self-reported by people already wearing white trousers.`,
+      lv: `JŪRMALA — To, ko pilsētas vadītāji dēvē par "sabalansētu un nākotnei orientētu pieeju akustiskajam greznībai", šonedēļ Jūrmala kļuvusi par pirmo pašvaldību Baltijā, kas ievieš klusuma uzcenojumu — pilotprogrammu, kuras mērķis ir samazināt troksni pie pludmales laikā, ko amatpersonas dēvē par "premium pārdomu stundām".
+
+Šo pasākumu otrdienas vakarā Jūrmalas domes sēdē apstiprināja ar 9–4 balsīm, vienam deputātam atturoties "ilgstošu iekšēju konfliktu dēļ". Tas piešķir mainīgus skaņas tarifus parastajiem vakara traucētājiem, tostarp kaiju saucieniem, šampanieša korķiem, Bluetooth skaļruņiem un ilgstošai smiešanai no apmeklētājiem, kuri "izskatās pēc centrālās Rīgas iedzīvotājiem un tikko saņēmuši algas".
+
+Saskaņā ar jauno sistēmu dabiskās un cilvēku radītās skaņas, kas pārsniedz 37 decibelus laikā no 20:14 līdz 21:03, tiks iekasētas pēc reālā laika formulas, ņemot vērā saulrieta krāsu kvalitāti, smilšu blīvumu un redzamo lina apģērbu skaitu. Kaijas, kas budžetā klasificētas kā "pusmājas oportunisti", parasti tiks sodītas ar 1,20 € par saucienu dzintara toņa debesu apstākļos, bet maksa pieaugs līdz 2,80 €, ja putns tajā brīdī stāv uz dizaineru dvieļa.
+
+Sezonālās harmonijas vietniece Ilze Sproģe sacīja, ka pilsētai nebija citas izvēles pēc gadiem ilgušām sūdzībām no iedzīvotājiem, kuri jutās, ka pludmale kļuvusi "akustiski pārlieku pieejama".
+
+"Cilvēki nāk uz Jūrmalu ne tikai lai dzirdētu jūru," Sproģe teica žurnālistiem preses konferencē, kas notika blakus ļoti atvainojošam kaiju atbaidīšanas karogam. "Viņi nāk, lai pie jūras nodzirdētu paši sevi domājam smalku domu. Šo pieredzi atkārtoti pārtrauca agresīvi putnu komentāri, brīvi trauki un vīrieši, kas pārāk skaļi izskaidro investīciju īpašumus."
+
+Pašvaldība tam paredzējusi 428 000 € izpildei, tostarp 64 skandināviska dizaina trokšņu mērītājus, maskētus kā izskalota koka gabali, un jaunu Piekrastes Labiuzvedības vienību, kas aprīkota ar bēšiem vēja sargiem, planšetēm un to, ko pilsētas līgums raksturo kā "nekonfrontējošu autoritāti". Ierēdņi uz vietas izrakstīs digitālas rēķinus pārkāpējiem, ar atlaidēm pensionāriem, mūziķiem, kas spēlē mazās toņkārtas akordeonu, un jebkuram bērnam, kurš spēj identificēt vismaz trīs aizaugušas kāpu zāles sugas.
+
+Reakcija no vietējiem uzņēmējiem bija dažāda. Dzintaru pludmales kafejnīcas īpašnieks Mārtiņš Veinbergs sacīja, ka atbalsta politikas garu, taču bažījoties par ieviešanu. "Papīrā tas izklausās eleganti," viņš teica, nolaizīdams balsi, kamēr viesmīlis ar redzamu vainas izteiksmi nolika galda piederumus. "Bet tagad katrs kapučīno putas nejaušs incidents tiek skaitīts kā notikums. Vakar sieviete ierāvās par mākoni tādā veidā, ka tas aktivizēja maksimālo cenu. Tā mēs nevaram vadīt viesmīlību."
+
+Ne visi iedzīvotāji iebilst. Ilggadējā Maģoru iedzīvotāja un pensionētā ķīmijas skolotāja Velta Ozoliņa, 74, slavēja iniciatīvu pēc tā, ko viņa nosauca par "katastrofālo 2022. gada vasaru", kad kāda izlaiduma viesu grupa esot septiņas reizes mazāk nekā divu minūšu laikā saukusi "Baltic Ibiza".
+
+"Es atceros tieši to mirkli, kad atmosfēra mainījās," sacīja Ozoliņa. "Kaija kliedza, kāds atvēra prosecco, un pāri aizlidinājās drons ar mazu karodziņu. Kopš tā laika es vairs neuzticos saulrietiem, kas ierodas bez regulējuma."
+
+Vides organizācijas daļēji sveica plānu, kaut arī daži eksperti apšaubīja juridisko pamatu soda piemērošanai savvaļas dzīvniekiem. Ornitologs Dr. Kaspars Līdaks atzīmēja, ka kaijas visticamāk brīvprātīgi nesadarbosies. "Rojas kaija ir mazāk ieinteresēta administratīvajās robežās," viņš teica. "Vēsturiski tā slikti reaģē uz papīriem un bieži eskalē novērojot."
+
+Lai risinātu šo problēmu, pilsētas amatpersonas apstiprināja, ka testē mediācijas programmu, kurā atlasītām kaijām piedāvās nesālītus siļķu gabaliņus apmaiņā pret samazinātu vakara komentāru līmeni. Agrīnie rezultāti ir pretrunīgi — vienam pilotputnam ziņots, ka tas zivtiņu paņēma un uzreiz iesaucās mikrofonā.
+
+Neskatoties uz skepsi, dome paliek optimistiska. Ja pilots izrādīsies veiksmīgs, Jūrmala plāno nākamgad paplašināt klusuma uzcenojumu uz priežu mežiem, SPA koridoriem un vienu īpaši saspringtu supermarketu stāvlaukumu pie Dubultu stacijas.
+
+Ceturtdienas vakarā pirmie rēķini jau bija izrakstīti: divi kāzu fotogrāfam, viens saksofonistam un 14 — vienai vienīgai kaijai, kuru pludmales personāls pazīst tikai kā Andri. Pašvaldības dati rādīja 23% pieaugumu uztvertajā elegancē pirmajā darba naktī, lai gan amatpersonas atzina, ka šis skaitlis bija pašdeklarēts no cilvēkiem, kas jau nēsāja baltas bikses.`,
+      ru: `ЮРМАЛА — То, что городские власти называют «сбалансированным и ориентированным в будущее подходом к акустической роскоши», на этой неделе Юрмала стала первым муниципалитетом в Прибалтике, который ввёл так называемую тихую надбавочную тарификацию — пилотную программу, направленную на сокращение шума на береговой линии в то, что чиновники описывают как «премиальные часы для созерцания». 
+
+Мера, одобренная поздно во вторник Городским советом Юрмалы голосами 9–4 при одной голосовавшей воздержавшейся «ввиду продолжающегося внутреннего конфликта», вводит переменные тарифы на звуки от обычных вечерних нарушителей спокойствия, включая крики чаек, хлопки шампанских пробок, Bluetooth-колонки и затяжной смех посетителей, «похоже, из центральной Риги и недавно получивших зарплату». 
+
+В рамках новой системы природные и антропогенные звуки, превышающие 37 децибел в период с 20:14 до 21:03, будут тарифицироваться по формуле в реальном времени, основанной на качестве цвета заката, плотности песка и числе видимых льняных изделий одежды. Чайки, классифицируемые в бюджете как «полудомашние оппортунисты», будут облагаться стандартным сбором в €1.20 за крик при янтарном небе, который вырастет до €2.80, если птица в момент вокализации стоит на дизайнерском полотенце. 
+
+Заместитель мэра по сезонной гармонии Илзе Спроге заявила, что город не имел выбора после лет жалоб жителей, которые считали, что пляж стал «акустически чрезмерно доступным». 
+
+«Люди приезжают в Юрмалу не только чтобы услышать море», — сказала Спроге на пресс‑конференции у весьма виновато выглядевшего флага-отпугивателя чаек. «Они приезжают, чтобы услышать собственную изящную мысль у моря. Это переживание неоднократно прерывалось агрессивными птичьими комментариями, разбитой посудой и мужчинами, слишком громко объясняющими инвестиционную недвижимость». 
+
+Муниципалитет выделил €428,000 на обеспечение соблюдения правил, включая установку 64 скандинавски разработанных шумомеров, замаскированных под коряги, и создание нового Подразделения прибрежной вежливости, экипированного бежевыми ветрозащитами, планшетами и тем, что в городском контракте описано как «неконфликтная власть». Офицеры будут выписывать цифровые счета прямо на месте нарушителям, с доступными скидками для пенсионеров, музыкантов, играющих на аккордеоне в миноре, и любого ребёнка, который сможет назвать по крайней мере три местные дюнные травы. 
+
+Реакция местного бизнеса оказалась смешанной. Владелец пляжного кафе «Дзинтари» Мартиньш Вейнбергс сказал, что поддерживает дух политики, но беспокоится о реализации. «На бумаге это элегантно», — сказал он, понижая голос, в тот момент как официант ставил столовые приборы с явной виноватой миной. «Но теперь каждая случайность с пеной капучино считается событием. Вчера женщина ахнула на облако так, что это вызвало пиковую тарификацию. Так гостеприимство не устроишь». 
+
+Не все жители настроены против. Долгожительница Майори и пенсионер‑учитель химии Вельта Озолиня, 74 года, похвалила инициативу после того, что она назвала «катастрофическим летом 2022 года», когда группа гостей мальчишника якобы крикнула «Балтийская Ибица» семь раз менее чем за две минуты. 
+
+«Я помню точный момент, когда изменилась атмосфера», — сказала Озолиня. «Чайка закричала, кто‑то открыл просекко, и пролетел дрон с маленьким флажком. С тех пор я не доверяю закатам, которые приходят без регламентации». 
+
+Экологические организации с осторожностью приветствовали отдельные положения плана, хотя некоторые эксперты усомнились в юридической базе для штрафования дикой природы. Орнитолог доктор Каспарс Лидакс отметил, что чайки вряд ли будут добровольно подчиняться. «Сельдёвая чайка мало уважает административные границы», — сказал он. «Исторически она плохо реагирует на бумажную волокиту и часто эскалирует поведение при наблюдении». 
+
+Чтобы учесть эту проблему, городские чиновники подтвердили, что тестируют программу медиации, в рамках которой выбранным чайкам будут предлагать несолёные шпроты в обмен на сокращение вечерних комментариев. Ранние результаты оказались неубедительными: одна пилотная птица, как сообщается, взяла рыбу и тут же закричала в микрофон. 
+
+Несмотря на скепсис, совет остаётся оптимистичным. В случае успеха Юрмала планирует в следующем году расширить действие тихой надбавочной тарификации на сосновые боры, спа‑коридоры и особенно напряжённую парковку супермаркета у станции Дубулти. 
+
+К вечеру четверга первые счета уже были выставлены: два — свадебному фотографу, один — саксофонисту и 14 — одной чайке, известной персоналу пляжа только как Андрис. Муниципальные данные показали 23% рост воспринимаемой элегантности в первую ночь применения мер, хотя чиновники признали, что этот показатель был самооценён людьми, уже носившими белые брюки.`
+    },
+    date: "Jun 27, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/197/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 196,
     slug: "jrmala-residents-launch-emergency-whatsapp-group",
     title: {
@@ -102,7 +201,7 @@ Ziņu iesniegšanas brīdī amatpersonas uzraudzīja atsevišķi attīstāmu sit
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/196/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 195,
