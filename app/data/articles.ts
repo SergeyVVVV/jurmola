@@ -18,6 +18,103 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 198,
+    slug: "jrmala-introduces-passive-seagull-tax-after",
+    title: {
+      en: "Jūrmala Introduces ‘Passive Seagull Tax’ After Birds Found Owning Majority of Outdoor Café Seating",
+      lv: "Jūrmala ievieš 'pasīvo kaiju nodokli' pēc tam, kad putni pārņēmuši lielāko daļu āra kafejnīcu sēdvietu",
+      ru: "Юрмала вводит «налог на пассивных чаек» после того, как птицы завладели большей частью уличных кафе-стульев"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have unveiled a new seasonal tax aimed at seagulls who, according to a recent audit, occupy 63% of premium terrace seating without purchasing so much as a mineral water. City leaders say the measure is necessary to restore balance between human diners and increasingly confident coastal birds.",
+      lv: "Jūrmalas pašvaldības amatpersonas ieviesušas jaunu sezonālu nodevu, vērstu pret kaijām, kuras, pēc nesen veiktā audita, aizņem 63% no premium terases sēdvietām, pat nepasūtot tik daudz kā minerālūdeni. Pilsētas vadība saka, ka mērs ir nepieciešams, lai atjaunotu līdzsvaru starp cilvēku pusdienotājiem un arvien pašpārliecinātākajiem piekrastes putniem.",
+      ru: "Муниципальные чиновники Юрмалы объявили о новом сезонном налоге, адресованном чайкам, которые, по результатам недавнего аудита, занимают 63% премиальных террасных мест и ни разу не купили даже минеральной воды. Городские власти считают меру необходимой для восстановления баланса между людскими обедами и всё более самоуверенными прибрежными птицами."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what officials are calling a “modest and overdue correction to the local hospitality market,” the Jūrmala City Council voted Tuesday to introduce a Passive Seagull Tax, a municipal fee levied against what it describes as “non-paying avian entities deriving measurable lifestyle benefit from private-sector seating infrastructure.”
+
+The measure follows a six-week study conducted by the Department of Seasonal Order, which found that seagulls had established de facto control over 63% of first-row outdoor café chairs along Jomas Street and the Dzintari promenade between 11:00 a.m. and 4:30 p.m. The report, based on 2,700 observation hours and 418 documented incidents of aggressive staring, concluded that many birds were “using posture, wing width, and implied ownership” to discourage paying customers from sitting down.
+
+“This is not a war on wildlife,” Deputy Mayor Ilze Skujiņa told reporters while standing beside a laminated chart labeled ‘Chair Capture Dynamics.’ “This is about fairness. If a family from Sigulda wants to enjoy a €9 pistachio napoleon in peace, they should not have to negotiate table access with a gull named by staff as ‘The Chairman.’”
+
+Under the new rules, cafés will be permitted to issue symbolic invoices to seagulls occupying a seat for longer than seven minutes without consuming a registered product. If payment is not received within 30 days, the debt will be transferred to what the city described as “the general migratory account.” While officials acknowledged that enforcement remains technically difficult, they insisted the tax has a strong deterrent function.
+
+“We do not expect immediate cash compliance,” said municipal economist Mārtiņš Veldre, who helped design the policy. “But taxation is also about sending a message. Historically, once an animal understands paperwork exists, behavior changes.”
+
+Local business owners have largely welcomed the announcement. At Café Banga, manager Evija Lapiņa said the birds had become “strategically bold” this summer, often arriving in groups of three: one to distract customers, one to seize pastry, and one to stand motionless on a chair “like a regional landlord.”
+
+“We had a German tourist place his linen hat on a free seat for two minutes,” Lapiņa said. “A gull moved it to the ground and took the place. Honestly, the confidence was almost inspiring.”
+
+Not everyone supports the tax. The Baltic Ornithological Mediation Forum issued a statement arguing that the birds are being scapegoated for broader structural problems, including overdesigned terraces, underprotected anchovy supplies, and what it called “the continued visual provocation of open-faced sandwiches.”
+
+Senior gull behavior researcher Dr. Rūdolfs Bērziņš noted that Jūrmala’s seagulls have adapted rapidly to modern leisure culture. “They understand timing, eye contact, and weekend pricing,” he said. “Several specimens appear to recognize when a customer has ordered fries but is emotionally too polite to defend them.”
+
+To ease implementation, the city will begin a pilot program next week in which beach wardens place miniature QR codes on selected chair backs. Officials stressed that the codes are mostly ceremonial, though one councillor said early mock-ups had already “introduced a welcome atmosphere of accountability.”
+
+As of Wednesday morning, the first recorded response from the seagull population appeared to be a coordinated theft of six smoked sprats, one child’s waffle, and a receipt printer cable from a kiosk near Majori station.
+
+City leaders described the incident as regrettable but encouraging.
+
+“When stakeholders react this quickly,” Deputy Mayor Skujiņa said, “it means the policy discussion has begun.”`,
+      lv: `JŪRMALA — To, ko amatpersonas sauc par «pieklājīgu un ilgi gaidītu korekciju vietējā viesmīlības tirgū», Jūrmalas domes sēdē otrdien nolēma ieviest Pasīvo kaiju nodokli — pašvaldības maksu, kas tiek piemērota, kā to raksturo, «nemaksājošām putnu būtībām, kas gūst mērojamu dzīvesstila labumu no privātā sektora sēdvietu infrastruktūras». 
+
+Mērs seko sešu nedēļu pētījumam, ko veica Sezonālās kārtības departaments, kurā konstatēts, ka kaijas de facto kontrolē 63% no pirmās rindas āra kafejnīcu krēsliem gar Jomas ielu un Dzintaru promenādi laikā no plkst. 11:00 līdz 16:30. Ziņojums, balstīts uz 2 700 novērošanas stundām un 418 dokumentētiem agresīvu skatienu gadījumiem, secināja, ka daudzi putni «izmanto pozu, spārnu platumu un norādītu īpašumtiesību signālus», lai atturētu maksājošos klientus no apsēšanās. 
+
+«Tas nav karš pret savvaļu,» vietniece Ilze Skujiņa sacīja žurnālistiem, stāvot blakus laminētam grafikam, marķētam kā 'Krēsla sagrābšanas dinamika'. «Tā ir par taisnīgumu. Ja ģimene no Siguldas vēlas mierīgi izbaudīt 9 € pistāciju napoleonu, tai nevajadzētu jābūt spiesta sarunāt piekļuvi galdam ar kaiju, ko personāls nosaucis par 'Priekšsēdētāju'.» 
+
+Saskaņā ar jaunajiem noteikumiem kafejnīcām tiks atļauts izsniegt simboliskus rēķinus kaijām, kas aizņem sēdvietu ilgāk par septiņām minūtēm, nepatērējot reģistrējamu produktu. Ja samaksa netiks saņemta 30 dienu laikā, parāds tiks pārskaitīts uz to, ko pilsēta raksturo kā «kopējo migrācijas kontu». Lai gan amatpersonas atzina, ka izpilde tehniski sagādā grūtības, tās uzsvēra, ka nodoklim ir spēcīga atturējoša funkcija. 
+
+«Mēs negaidām tūlītēju skaidras naudas paklausību,» teica pašvaldības ekonomists Mārtiņš Veldre, kurš palīdzēja politiku izstrādāt. «Bet nodokļošana arī ir vēstījuma sūtīšana. Vēsturiski, tiklīdz dzīvnieks saprot, ka pastāv dokumenti, uzvedība mainās.» 
+
+Vietējie uzņēmēji galvenokārt sveica paziņojumu. Kafejnīcas Banga vadītāja Evija Lapiņa sacīja, ka šovasar putni kļuvuši «stratēģiski drosmīgi», bieži ierodoties trijatā: viena — lai novērstu klientu uzmanību, otra — lai ieņemtu kārumu, un trešā — lai stāvētu nekustīgi uz krēsla «kā reģionālais saimnieks». 
+
+«Mums viens vācu tūrists uz divām minūtēm novietoja lina cepuri uz brīvas vietas,» Lapiņa stāstīja. «Kaija to nogāza uz zemes un ieņēma vietu. Godīgi sakot, pašpārliecinātība bija gandrīz iedvesmojoša.» 
+
+Ne visi atbalsta nodokli. Baltijas Ornitoloģiskās Starpniecības forums izdeva paziņojumu, apgalvojot, ka putni tiek padarīti grēkāži plašākām strukturālām problēmām, tostarp pārdizainētām terasēm, nepietiekami aizsargātiem anšovu krājumiem un to, ko forums nosauca par «turpināto vizuālo provocēšanu ar atklātajām sviestmaizēm». 
+
+Kaiju uzvedības vadošais pētnieks Dr. Rūdolfs Bērziņš norādīja, ka Jūrmalas kaijas ātri pielāgojušās mūsdienu atpūtas kultūrai. «Viņi saprot laiku, acu kontaktu un nedēļas nogales cenu politiku,» viņš sacīja. «Daži paraugi šķiet pat atpazīst, kad klients ir pasūtījis frī kartupeļus, bet emocionāli pārāk pieklājīgs, lai tos aizstāvētu.» 
+
+Lai atvieglotu ieviešanu, pilsēta nākamnedēļ uzsāks pilotprogrammu, kurā pludmales uzraugi uz noteiktu krēslu atzveltnēm izvietos miniatūras QR kodus. Amatpersonas uzsvēra, ka kodi ir lielākoties ceremonāli, lai gan viens domnieks sacīja, ka agrīnās maketes jau «ieviesušas patīkamu atbildības atmosfēru». 
+
+Trešdienas rītā pirmajai reģistrētajai atbildei no kaiju populācijas šķita koordinēta sešu kūpinātu brētliņu, vienas bērna vafelītes un čeku printera vada zādzība no kioska pie Majoru stacijas. 
+
+Pilsētas vadība notikumu raksturoja kā nožēlojamu, bet iedrošinošu. «Kad ieinteresētās puses reaģē tik ātri,» vietniece Skujiņa teica, «tas nozīmē, ka politikas diskusija ir sākusies.»`,
+      ru: `ЮРМАЛА — В том, что чиновники называют «скромной и давно назревшей коррекцией местного рынка гостеприимства», Городской совет Юрмалы во вторник проголосовал за введение Налога на пассивных чаек — муниципального сбора, взимаемого с того, что описано как «неплатящие пернатые субъекты, извлекающие ощутимую жизненную выгоду из инфраструктуры сидячих мест частного сектора». 
+
+Мера последовала за шестинедельным исследованием, проведённым Департаментом сезонного порядка, которое показало, что чайки фактически контролируют 63% стульев первого ряда на открытых кафе вдоль Jomas Street и променадa Дзинтари в период с 11:00 до 16:30. Отчёт, основанный на 2700 часах наблюдений и 418 задокументированных случаях агрессивного пристального взгляда, заключил, что многие птицы «используют осанку, размах крыльев и подразумеваемое право собственности», чтобы отвадить платящих клиентов от сидений. 
+
+«Это не война с дикой природой», — заявила депутат мэрии Илзе Скуйня, стоя рядом с ламинированной диаграммой под заголовком «Динамика захвата стульев». — «Речь о справедливости. Если семья из Сигулды хочет спокойно насладиться наполеоном с фисташками за 9 €, им не следует вести переговоры о доступе к столу с чайкой, которую персонал называет „Председатель“.» 
+
+По новым правилам кафе будут вправе выставлять символические счета чайкам, занимающим место более семи минут без приобретения зарегистрированного продукта. Если оплата не поступит в течение 30 дней, долг будет переведён на тот, что город описал как „общий миграционный счёт“. Хотя чиновники признали, что принуждение к оплате технически затруднительно, они настаивают, что налог обладает сильным сдерживающим эффектом. 
+
+«Мы не ожидаем мгновенного наличного соответствия», — сказал муниципальный экономист Мартиньш Вельдре, помогавший разрабатывать политику. — «Но налогообложение также посылает сигнал. Исторически, как только животное понимает, что существует бумажная волокита, поведение меняется». 
+
+Местные предприниматели в основном приветствовали объявление. В кафе Banga менеджер Эвия Лапиня рассказала, что этим летом птицы стали «стратегически смелыми», часто появляясь группами по трое: одна отвлекает клиентов, вторая захватывает выпечку, а третья неподвижно сидит на стуле «как региональный феодал». 
+
+«Один немецкий турист положил льняную шляпу на свободное место на две минуты», — сказала Лапиня. — «Чайка сдвинула её на землю и заняла место. Честно говоря, уверенность была почти вдохновляющей». 
+
+Не все поддерживают налог. Балтийский Орнитологический Форум Медиации выпустил заявление, в котором утверждает, что птицы делают козлами отпущения за более широкие структурные проблемы, включая чрезмерно навороченные террасы, слабо защищённые запасы анчоусов и то, что они называют «постоянной визуальной провокацией открытых бутербродов». 
+
+Ведущий исследователь поведения чаек доктор Рудольфс Берзиньш отметил, что юрмальские чайки быстро адаптировались к современной культуре отдыха. «Они понимают тайминг, зрительный контакт и уикенд-ценообразование», — сказал он. — «Некоторые экземпляры, по-видимому, распознают, когда клиент заказал картошку фри, но эмоционально слишком вежлив, чтобы её защищать». 
+
+Чтобы облегчить внедрение, город на следующей неделе начнёт пилотную программу, в рамках которой береговые смотрители будут размещать миниатюрные QR-коды на спинках выбранных стульев. Чиновники подчёркивают, что коды в основном церемониальные, хотя один депутат сказал, что ранние макеты уже «внесли желанную атмосферу подотчётности». 
+
+К утру среды первая задокументированная реакция популяции чаек, как оказалось, выразилась в скоординированной краже шести копчёных шпрот, одной детской вафли и кабеля принтера чеков из киоска возле станции Majori. 
+
+Городские лидеры охарактеризовали инцидент как прискорбный, но обнадёживающий. 
+
+«Когда заинтересованные стороны реагируют так быстро», — сказала депутат мэрии Скуйня, — «это значит, что дискуссия о политике началась».`
+    },
+    date: "Jun 28, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/198/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 197,
     slug: "jrmala-introduces-quiet-surge-pricing-after",
     title: {
@@ -114,7 +211,7 @@ Ceturtdienas vakarā pirmie rēķini jau bija izrakstīti: divi kāzu fotogrāfa
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/197/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 196,
