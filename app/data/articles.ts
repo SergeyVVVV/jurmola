@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 199,
+    slug: "riga-introduces-official-municipal-silence-hours",
+    title: {
+      en: "Riga Introduces Official Municipal Silence Hours After Residents Complain City’s Thoughts Have Become Too Loud",
+      lv: "Rīga ievieš oficiālās pašvaldības klusuma stundas pēc tam, kad iedzīvotāji sūdzējušies, ka pilsētas domas kļuvušas pārāk skaļas",
+      ru: "Рига вводит официальные муниципальные часы тишины после жалоб жителей на то, что мысли города стали слишком громкими"
+    },
+    excerpt: {
+      en: "In a 38–12 vote on Thursday, Riga City Council approved the country’s first \"municipal silence hours,\" during which unnecessary speculation, loud internal monologues, and emotionally aggressive sighing will be prohibited between 14:00 and 16:00. Officials say the policy is a practical response to mounting public frustration that the capital has become \"psychologically overcast.\"",
+      lv: "Ceturtdien ar balsojumu 38–12 Rīgas domē apstiprinātas valsts pirmās 'pašvaldības klusuma stundas', kuru laikā no plkst. 14:00 līdz 16:00 būs aizliegta nevajadzīga spekulēšana, skaļa iekšējo monologu izrunāšana un emocionāli agresīvas nopūtas. Iestādes saka, ka politika ir praktiska atbilde uz pieaugošo sabiedrības neapmierinātību, ka galvaspilsēta kļuvusi 'psiholoģiski apmākusies.'",
+      ru: "На голосовании 38–12 в четверг Рижская городская дума утвердила первые в стране «муниципальные часы тишины», в течение которых будут запрещены излишние предположения, громкие внутренние монологи и эмоционально агрессивные вздохи с 14:00 до 16:00. По словам чиновников, мера — практичный ответ на растущее общественное недовольство тем, что столица стала «психологически пасмурной»."
+    },
+    fullContent: {
+      en: `RIGA — After years of complaints about traffic, construction, and the increasingly confrontational tone of café laptop typing, Riga officials have identified what they now believe is the city’s most serious noise problem: thinking.
+
+At an emergency session held in a conference room described by attendees as “tense but acoustically respectful,” the Riga City Council voted this week to establish daily municipal silence hours, a legally defined two-hour period during which residents are asked to keep their reflections “brief, local, and non-disruptive.” The new regulation, which takes effect on 1 September, applies to all six districts of the capital and carries fines of up to €70 for “sustained speculative activity audible in shared civic atmosphere.”
+
+Deputy Housing and Inner Weather Committee chairwoman Ilze Priedīte said the measure followed a pilot program in Āgenskalns, where volunteer residents agreed to reduce visible overthinking for three consecutive weekends.
+
+“The results were immediate,” Priedīte told reporters while standing beside a laminated diagram of acceptable facial stillness. “Street tension dropped by 18 percent, tram passengers stopped preemptively resenting each other, and one man on Nometņu Street reportedly sat on a bench for 43 minutes without revisiting a conversation from 2017. Frankly, that is the kind of progress European funding was invented for.”
+
+According to a 64-page impact assessment commissioned by the municipality and prepared by the Baltic Institute for Civic Quiet, central Riga currently produces an estimated 11.4 million unnecessary thoughts per business day, with spikes occurring on rainy Mondays and during any mention of parking reform. The report found that the noisiest forms of cognition include mentally composing superior emails, imagining how one would reorganize the entire country if asked, and silently judging tourists for wearing beige in weather that is “obviously not beige weather.”
+
+Under the new rules, residents will still be allowed a limited amount of administrative thinking, including grocery list maintenance, tram-stop recognition, and short-form disappointment. However, more advanced mental activity — such as hypothetical dacha renovations, post-argument legal analyses, and silent outrage at e-scooters parked diagonally — must be postponed until after 16:00 or taken to specially designated Reflection Zones near the edge of Mežaparks.
+
+Reaction across the capital has been mixed. Outside Riga Central Market, 52-year-old fish vendor Māris Lapsa said he welcomed the change. “By 15:00 every day, I can hear people internally collapsing from three stalls away,” he said, rearranging smoked bream with what witnesses described as restorative precision. “You don’t notice it at first, but after a while the whole pavilion feels like someone is loudly remembering a tax mistake.”
+
+Others remain skeptical. Elīna Ozola, a graphic designer from Teika, questioned how the city plans to enforce the policy. “What are they going to do, send inspectors to my apartment because I’m reimagining a minor exchange at Rimi?” she asked. “Also, 14:00 to 16:00 is exactly when I do my best catastrophic forecasting.”
+
+Municipal police insist enforcement will be “measured and humane.” Spokesman Renārs Vītols said officers have completed a three-day training course in detecting illegal contemplation, including modules on narrowed-eye duration, forehead compression, and the difference between ordinary Baltic reserve and “premeditated psychic disturbance.” Initial enforcement will focus on warnings, though repeat offenders may be ordered to attend a weekend seminar in Sigulda titled Living More Blankly.
+
+Jūrmala has already expressed interest in adopting a seaside version of the policy next summer, with proposed restrictions on dramatic horizon-staring during peak tourist hours. Officials there say beachgoers have recently become too intense, particularly near Dzintari, where one lifeguard reported “several families contemplating generational sadness directly into the Gulf of Riga.”
+
+By Thursday evening, the first signs of adaptation were already visible in the capital. Office workers exiting buildings on Krišjāņa Barona iela appeared uncertain but noticeably quieter, many clutching coffees while making a sincere effort to think only municipally approved thoughts such as “bread,” “tram,” and “later.” City leaders called the rollout encouraging, though warned that autumn could still be difficult, especially once the leaves begin triggering opinions.`,
+      lv: `RĪGA — Pēc gadu ilgiem sūdzībām par satiksmi, būvniecību un arvien konfrontējošāko kafijas vietu klaviatūru rakstīšanas toni Rīgas amatpersonas identifikējušas to, ko tagad uzskata par pilsētas nopietnāko trokšņa problēmu: domāšanu.
+
+Steidzamā sēdē, kas notika konferenču telpā, ko klātesošie raksturoja kā 'saspringtu, bet akustiski pieklājīgu,' Rīgas dome šonedēļ nobalsoja par ikdienas pašvaldības klusuma stundu izveidi — likumiski definētu divu stundu periodu, kurā iedzīvotāji tiek aicināti turēt savas pārdomas 'īsas, lokālas un netraucējošas.' Jaunais noteikums, kas stājas spēkā 1. septembrī, attiecas uz visiem sešiem galvaspilsētas rajoniem un paredz naudassodus līdz 70 € par 'ilgstošu spekulatīvu darbību, kas dzirdama kopīgajā civiltelpā.'
+
+Īres un iekšējā laika komitejas vietniece Ilze Priedīte sacīja, ka mērs sekoja pilotprogrammai Āgenskalnā, kur brīvprātīgie iedzīvotāji piekrita samazināt ārēji pamanāmu pārdomāšanu trīs nedēļas nogales pēc kārtas.
+
+"Rezultāti bija tūlītēji," Priedīte žurnālistiem stāstīja, stāvot blakus laminētai pieņemamās sejas nekustības diagrammai. "Ielu sasprindzinājums samazinājās par 18 procentiem, tramvaja pasažieri pārstāja viens otru preventīvi nepatikt, un viens vīrietis Nometņu ielā, pēc ziņām, sēdēja uz soliņa 43 minūtes, neatgriežoties pie sarunas no 2017. gada. Godīgi sakot, tieši šādam progresam Eiropas finansējums ir domāts."
+
+Pēc pašvaldības pasūtījuma un Baltijas Pilsoniskās Klusuma institūta sagatavotā 64 lappušu ietekmes novērtējuma centrālā Rīga pašlaik rada aptuveni 11,4 miljonus nevajadzīgu domu katrā darba dienā, ar pīķiem lietainās pirmdienās un jebkuras pieminēšanas par stāvvietu reformu laikā. Ziņojums konstatēja, ka skaļākās kognitīvās formas ietver garīgi sastādīt pārāk labas e-pasta vēstules, iztēloties, kā pārkārtotu visu valsti, ja to jautātu, un klusībā tiesāt tūristus par to, ka viņi ģērbjas bēšā laikā, kas 'acīmredzami nav bēšs laiks.'
+
+Saskaņā ar jaunajiem noteikumiem iedzīvotājiem joprojām būs atļauta ierobežota administratīva domāšana, tostarp iepirkumu saraksta uzturēšana, tramvaja pieturas atpazīšana un īsa vilšanās. Tomēr sarežģītāka mentālā darbība — piemēram, hipotētiskas dāčas renovācijas, pēc-strīda juridiskas analīzes un klusais niknums par e-skrejriteņiem, kas novietoti pa diagonāli — būs jāatliek līdz pēc plkst. 16:00 vai jānovieto īpaši noteiktajās Pārdomu zonās pie Mežaparka malas.
+
+Reakcijas galvaspilsētā ir dažādas. Pie Rīgas Centrālās tirgus 52 gadus vecais zivju tirgotājs Māris Lapsa sacīja, ka izmaiņas sveicina. "Līdz 15:00 katru dienu es dzirdu, kā cilvēki iekšēji sagrūst no trim letes attāluma," viņš teica, kārtojot kūpinātu karūsu ar liecinieku aprakstīto atjaunojošu precizitāti. "Sākumā to nepamana, bet pēc brīža viss paviljons šķiet tāds, it kā kāds skaļi atcerētos nodokļu kļūdu."
+
+Citi paliek skeptiski. Teikas grafiskā dizainere Elīna Ozola apšaubīja, kā pilsēta plāno īstenot policiju. "Ko viņi darīs — sūtīs inspektorus uz manu dzīvokli, jo es pārdzīvoju nelielu apmaiņu Rimi?" viņa jautāja. "Un arī — no 14:00 līdz 16:00 man vislabāk izdodas katastrofisku scenāriju prognozēšana."
+
+Pašvaldības policija uzstāj, ka izpilde būs 'mērķēta un cilvēcīga.' Pārstāvis Renārs Vītols sacīja, ka inspektori pabeiguši trīs dienu apmācību kursu nelegālas pārdomāšanas atklāšanā, tostarp moduļos par acu šauruma ilgumu, pieres saspiestību un atšķirību starp ierasto Baltijas rezervi un 'apzinātu psihisku traucējumu.' Sākotnējā izpilde koncentrēsies uz brīdinājumiem, lai gan atkārtotāji var tikt uzskatīti par obligātiem apmeklēt nedēļas nogales semināru Siguldā ar nosaukumu 'Dzīvot bezdomīgāk.'
+
+Jūrmala jau izteikusi interesi nākam vasarā pieņemt jūras versiju ar ierosinājumiem ierobežot dramatisku horizonta skatīšanos tūristu plūsmu stundās. Amatpersonas tur saka, ka pludmales apmeklētāji nesen kļuvuši pārāk intensīvi, īpaši Dzintaros, kur viens glābējs ziņoja par "vairākām ģimenēm, kas tieši Rīgas jūras līcī pārdomā ģenerāciju skumjas." 
+
+Ceturtdienas vakarā galvaspilsētā jau bija redzami pirmie pielāgošanās signāli. Biroja darbinieki, iznākot no ēkām Krišjāņa Barona ielā, izskatījās nedroši, bet pamanāmi klusāki — daudzi turēja kafijas krūzes un nopietni centās domāt tikai pašvaldības apstiprinātas domas, piemēram 'maize,' 'tramvajs' un 'vēlāk.' Pilsētas vadība nodēvēja ieviešanu par iedrošinošu, tomēr brīdināja, ka rudens vēl var būt grūts, it īpaši, tiklīdz lapas sāks rosīt viedokļus.`,
+      ru: `РИГА — После лет жалоб на пробки, стройки и всё более конфронтационный тон печатания по клавишам в кафе рижские чиновники определили, что теперь считают самой серьёзной шумовой проблемой города: мышление.
+
+На экстренном заседании, проведённом в конференц-зале, который участники описали как «напряжённый, но акустически уважительный», на этой неделе Рижская городская дума проголосовала за установление ежедневных муниципальных часов тишины — юридически определённого двухчасового периода, в который от жителей просят держать свои размышления «краткими, локальными и не нарушающими покоя». Новое постановление, вступающее в силу 1 сентября, распространяется на все шесть округов столицы и предусматривает штрафы до €70 за «продолжительную спекулятивную активность, слышимую в общем городском пространстве». 
+
+Заместитель председателя Комитета по жилищному хозяйству и внутренней погоде Илзе Приедите заявила, что мера последовала за пилотным проектом в Āgenskalns, где добровольцы согласились сократить видимое чрезмерное обдумывание на три подряд уикенда.
+
+«Результаты были немедленными», — сказала Приедите репортёрам, стоя рядом с ламинированной схемой допустимой неподвижности лица. «Уличная напряжённость упала на 18 процентов, пассажиры трамваев перестали заранее испытывать неприязнь друг к другу, а один мужчина на улице Nometņu, по сообщениям, просидел на скамейке 43 минуты, не возвращаясь мыслями к разговору 2017 года. Честно говоря, ради такого прогресса и придумывались европейские гранты». 
+
+Согласно 64-страничной оценке воздействия, заказанной муниципалитетом и подготовленной Балтийским институтом городского покоя, центральная Рига сейчас производит примерно 11,4 миллиона излишних мыслей в каждый рабочий день, с пиками в дождливые понедельники и при любом упоминании реформы парковки. В отчёте указано, что самыми шумными формами когниции являются мысленное сочинение превосходящих писем, воображение о том, как перестроить всю страну, и молчаливые осуждения туристов за ношение бежевого в погоде, которая «очевидно не бежевская». 
+
+По новым правилам жителям по-прежнему разрешается ограниченное административное мышление, включая ведение списка покупок, узнавание трамвайной остановки и короткое разочарование. Однако более продвинутую умственную деятельность — такую как гипотетические дачные ремонты, юридические разборы после ссоры и молчаливое возмущение электросамокатами, припаркованными по диагонали — нужно отложить до 16:00 или перенести в специально обозначенные Зоны Размышлений у края Mežaparks. 
+
+Реакция по всей столице оказалась смешанной. У Рижского центрального рынка 52-летний продавец рыбы Māris Lapsa сказал, что он приветствует перемены. «К 15:00 я слышу, как люди внутренне рушатся с расстояния трёх прилавков», — сказал он, перекладывая копчёного леща с, как свидетели описали, восстанавливающей точностью. «Сначала этого не замечаешь, но через некоторое время весь павильон начинает казаться местом, где кто-то громко вспоминает налоговую ошибку». 
+
+Другие настроены скептически. Графический дизайнер из Teika Элина Озола усомнилась, как город собирается обеспечивать соблюдение правил. «Что они будут делать — присылать инспекторов в мою квартиру потому что я заново представляю себе незначительный спор в Rimi?» — спросила она. «К тому же 14:00–16:00 — это как раз то время, когда у меня получается лучше всего заниматься катастрофическим прогнозированием». 
+
+Муниципальная полиция настаивает, что соблюдение будет «взвешенным и гуманным». Представитель Ренārs Vītols сообщил, что офицеры прошли трёхдневный курс по обнаружению незаконного созерцания, включающий модули по длительности прищура, сжатию лба и различию между обычной балтийской сдержанностью и «преднамеренным психическим нарушением». Первоначально enforcement будет сосредоточено на предупреждениях, хотя повторным нарушителям могут приказать посетить уикенд-семинар в Сигулде под названием «Жить более пусто». 
+
+Юрмала уже выразила интерес к принятию прибрежной версии политики следующим летом с предложенными ограничениями на драматическое пристально смотрение на горизонт в часы пик туристов. Тамошние чиновники говорят, что пляжники в последнее время стали слишком интенсивными, особенно возле Dzintari, где один спасатель сообщил о «нескольких семьях, размышляющих о поколенческой печали прямо в Рижский залив». 
+
+К вечеру четверга первые признаки адаптации уже были заметны в столице. Офисные работники, выходившие из зданий на Krišjāņa Barona iela, выглядели растерянными, но заметно тише, многие прижимали кофейные стаканчики и искренне старались думать только муниципально одобренные мысли, такие как «хлеб», «трамвай» и «потом». Городские руководители назвали запуск обнадеживающим, но предупредили, что осень всё ещё может быть тяжёлой, особенно когда листья начнут провоцировать суждения.`
+    },
+    date: "Jun 29, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/199/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 198,
     slug: "jrmala-introduces-passive-seagull-tax-after",
     title: {
@@ -112,7 +199,7 @@ Pilsētas vadība notikumu raksturoja kā nožēlojamu, bet iedrošinošu. «Kad
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/198/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 197,
