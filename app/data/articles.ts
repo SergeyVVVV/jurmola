@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 200,
+    slug: "riga-introduces-polite-silence-zones-after-200",
+    title: {
+      en: "Riga Introduces ‘Polite Silence Zones’ After Study Finds Residents Wasting Up To 14 Hours A Week Preparing To Say Hello",
+      lv: "Rīga ievieš Pieklājīgās klusuma zonas pēc pētījuma, kas atklāj, ka iedzīvotāji tērē līdz 14 stundām nedēļā, gatavojoties pateikt sveicienu",
+      ru: "Рига вводит «Зоны вежливого молчания» после исследования, показавшего, что жители тратят до 14 часов в неделю на подготовку к приветствию"
+    },
+    excerpt: {
+      en: "City officials in Riga have unveiled a network of designated ‘Polite Silence Zones’ where residents may avoid greeting neighbors without social consequences. The move follows a municipal study concluding that nearly a quarter of urban stress comes from brief, unnecessary facial expressions performed in stairwells.",
+      lv: "Rīgas pilsētas amatpersonas atklājušas tīklu ar oficiālām Pieklājīgajām klusuma zonām, kur iedzīvotāji var izvairīties no sveicināšanās ar kaimiņiem bez sociālām sekām. Šis solis seko pašvaldības pētījumam, kas konstatēja, ka gandrīz ceturtdaļa pilsētas stresa rodas no īsiem, liekiem sejas izteiksmes žestiem kāpņu telpās.",
+      ru: "Городские чиновники Риги объявили о создании сети официальных «Зон вежливого молчания», где жители могут избегать приветствий соседей без социальных последствий. Решение последовало за муниципальным исследованием, показавшим, что почти четверть городского стресса приходится на краткие, лишние мимические упражнения в подъездах."
+    },
+    fullContent: {
+      en: `RIGA — In what city leaders are calling a bold modernization of Baltic social life, the Riga City Council on Tuesday approved the creation of 37 officially marked ‘Polite Silence Zones’ in apartment building entrances, trolleybus stops, supermarket self-checkout areas, and several emotionally complicated sections of Mežaparks.
+
+The policy follows an 18-month study by the Riga Institute for Applied Public Reservedness, which found that the average resident spends 13.8 hours per week preparing to either greet someone they vaguely know or successfully avoid doing so. Researchers measured indicators including shoulder tension, key-fumbling, elevator hesitation, and what they termed “pre-hello breath collection.”
+
+‘For years, our city has demanded too much from people between the hours of 7:10 and 8:40 in the morning,’ said Deputy Mayor Ilze Stalbe at a press conference delivered in a voice so restrained that several journalists later described it as “reassuringly difficult to interpret.” Standing before a prototype blue-and-white sign reading SILENCE PERMITTED — CIVILITY ASSUMED, Stalbe said the program would allow residents to stand next to neighbors in complete quietness while legally conveying mutual respect.
+
+‘This is not rudeness,’ she clarified. ‘This is administrative empathy.’
+
+Under the new rules, anyone entering a designated zone may choose from three officially recognized interaction modes: downward nod, distant acknowledgment, or full neutral passage. The city has also released a 26-page guidance booklet, When We See Each Other, Nothing Is Wrong, to help residents identify the difference between hostile silence and municipal silence.
+
+The initiative has received strong support from apartment associations, particularly in Purvciems and Teika, where survey data showed that 61% of residents had at some point abandoned taking out the trash after hearing another person already in the stairwell. Another 22% reported pretending to search for something in a bag until a neighbor finished unlocking a bicycle.
+
+‘It changes everything,’ said 42-year-old accountant Mārtiņš Bērziņš, speaking outside his building on Tallinas iela, where a trial Silence Zone was installed in February. ‘Before, if I saw my upstairs neighbor, we both had to quickly decide: are we close enough for “labdien,” too familiar for “sveiki,” or too tired for society? Now we just look at the sign and continue being decent adults separately.’
+
+Not all residents are convinced. Critics argue that the policy could damage traditional Latvian ambiguity, replacing organically uncomfortable encounters with overly standardized discomfort. ‘Our concern is bureaucratization,’ said cultural anthropologist Dr. Una Vītola of the University of Latvia. ‘For centuries, people in this region have relied on instinct, weather, and corridor acoustics to determine acknowledgment levels. Once the state begins codifying silence, where does it end?’
+
+City planners insist the system remains flexible. In Jurmala, a pilot version will include seasonal exceptions allowing tiny smiles from May through August, especially if both parties are carrying smoked fish or have recently complained about parking. Meanwhile, Riga public transport authorities are testing audio announcements reminding passengers that eye contact is optional and should not be attempted near the rear doors.
+
+Early figures suggest the reform is already having an impact. Since the pilot began, reported stairwell delays have dropped by 34%, while incidents of “forced small talk concerning weather that all participants could already observe directly” fell by 71%.
+
+At the close of Tuesday’s press conference, officials unveiled the next phase of the city’s civility agenda: Quiet Bench Corridors along the Daugava, where elderly men may sit for up to six hours without being asked what they are thinking. The proposal passed unanimously after council members agreed it reflected the deepest values of the capital: order, dignity, and leaving people alone correctly.`,
+      lv: `RĪGA — To, ko pilsētas vadība dēvē par drosmīgu Baltijas sociālās dzīves modernizāciju, otrdien Rīgas Dome apstiprināja 37 oficiāli marķētu Pieklājīgo klusuma zonu izveidi dzīvokļu ēku ieejās, trolejbusu pieturvietās, lielveikalu pašapkalpošanās kasēs un vairākās emocionāli sarežģītās Mežaparka vietās.
+
+Politika seko 18 mēnešu pētījumam, ko veica Rīgas Lietišķās publiskās atturības institūts; tas atklāja, ka vidējais iedzīvotājs pavada 13,8 stundas nedēļā, gatavojoties vai nu sveicināt kādu, ko vāji pazīst, vai veiksmīgi to izvairīties. Pētnieki mērīja rādītājus, tostarp plecu sasprindzinājumu, atslēgu žonglēšanu, liftā šaubīšanos un to, ko viņi nosauca par sveiciena elpas sakopošanu.
+
+«Gadu desmitiem mūsu pilsēta prasīja pārāk daudz no cilvēkiem no rīta stundām 7:10 līdz 8:40,» preses konferencē sacīja vicemēre Ilze Stalbe, runājot tonī tik savākti, ka vairāki žurnālisti vēlāk to aprakstīja kā nomierinoši grūti interpretējamu. Stāvot pie prototipa zilbaltas zīmes ar uzrakstu KLUSĒŠANA ATĻAUTA — PIEKLĀJĪBA PIEŅEMTA, Stalbe norādīja, ka programma ļaus iedzīvotājiem stāvēt blakus kaimiņiem pilnīgā klusumā, tiesiski nododot savstarpēju cieņu.
+
+«Tas nav rupjums,» viņa precizēja. «Tā ir administratīvā empātija.»
+
+Saskaņā ar jaunajiem noteikumiem ikviens, kurš iekļūst norādītajā zonā, var izvēlēties no trim oficiāli atzītiem mijiedarbības režīmiem: galvas noliekums uz leju, attāla atzinība vai pilnīgi neitrāla garām eja. Pilsēta arī publicējusi 26 lappušu vadlīniju bukletu Kad mēs redzamies — viss ir kārtībā, lai palīdzētu iedzīvotājiem atšķirt naidpilno klusumu no pašvaldības klusuma.
+
+Iniciatīvu aktīvi atbalsta namu pārvaldnieku apvienības, īpaši Purvciemā un Teikā, kur aptauju dati rādīja, ka 61% iedzīvotāju kādā brīdī bija atteikušies iznest atkritumus, pēc tam dzirdot kādu jau kāpņu telpā. Vēl 22% ziņoja, ka izliekas meklējam kaut ko somā, līdz kaimiņš pabeidz atslēgt velosipēdu.
+
+«Tas maina visu,» sacīja 42 gadus vecais grāmatvedis Mārtiņš Bērziņš, runājot pie sava nama Tallinas ielā, kur februārī tika uzstādīta izmēģinājuma klusuma zona. «Agrāk, ja ieraudzīju augšstāvā dzīvojošo kaimiņu, mums abiem bija ātri jāizlemj: vai esam gana tuvi ‘labdien’, par pazīstami ‘sveiki’ vai pārāk noguruši sabiedrībai? Tagad mēs vienkārši paskatāmies uz zīmi un turpinām būt pieklājīgi pieaugušie atsevišķi.»
+
+Ne visi iedzīvotāji ir pārliecināti. Kritiķi apgalvo, ka politika var graut tradicionālo latviešu divdomību, aizstājot organiski neērtes saskarsmes ar pārāk standartizētu diskomfortu. «Mūsu bažas ir birokratizācija,» sacīja kultūras antropoloģe Dr. Una Vītola no Latvijas Universitātes. «Gadsimtiem šī reģiona cilvēki ir paļāvušies uz instinktu, laika apstākļiem un koridora akustiku, lai noteiktu atzinības līmeni. Kad valsts sāk kodificēt klusumu, kur tas beigsies?»
+
+Pilsētas plānotāji apgalvo, ka sistēma paliks elastīga. Jūrmalā pilotversija ietvers sezonālas izņēmumu iespējas — no maija līdz augustam atļautas nelielas smaida atļaujas, it īpaši, ja abas puses nēsā kūpinātu zivi vai nesen sūdzējušās par stāvvietu. Tikmēr Rīgas sabiedriskā transporta pārvalde testē audio paziņojumus, kas atgādina pasažieriem, ka acu kontakts ir izvēles iespēja un to nevajadzētu mēģināt pie aizmugurējām durvīm.
+
+Sākotnējie dati liecina, ka reforma jau ietekmē ikdienu. Kopš izmēģinājuma sākuma ziņotie kāpņu telpu aizkavējumi ir samazinājušies par 34%, savukārt gadījumi ar spiesto nelielo sarunu par laikapstākļiem, ko visi dalībnieki jau varēja tieši novērot, ir kritušies par 71%.
+
+Preses konferences noslēgumā amatpersonas atklāja nākamo civilitātes programmas posmu — Kluso soliņu koridorus gar Daugavu, kur vecāka gadagājuma kungi varēs sēdēt līdz sešām stundām, netiekot jautātiem, par ko viņi domā. Priekšlikums tika pieņemts vienbalsīgi pēc tam, kad domes locekļi vienojās, ka tas atspoguļo galvaspilsētas dziļākās vērtības: kārtību, cieņu un cilvēku pareizu atstāšanu vienatnē.`,
+      ru: `РИГА — В том, что городские власти называют смелой модернизацией балтийской социальной жизни, Рижская дума во вторник утвердила создание 37 официально отмеченных «Зон вежливого молчания» в подъездах многоквартирных домов, на остановках троллейбусов, в зонах самообслуживания супермаркетов и в нескольких эмоционально сложных участках Мезапарка (Mežaparks).
+
+Политика появилась после 18-месячного исследования Рижского института прикладной общественной сдержанности, которое выявило, что средний житель тратит 13,8 часа в неделю на подготовку либо к тому, чтобы поздороваться с кем-то смутно знакомым, либо к тому, чтобы успешно этого избежать. Исследователи измеряли такие индикаторы, как напряжение в плечах, неуклювые поиски ключей, колебание у лифта и то, что они назвали «накоплением дыхания перед приветствием».
+
+«Много лет наш город требовал слишком многого от людей в промежутке с 7:10 до 8:40 утра», — заявила на пресс‑конференции заместитель мэра Илзе Сталбе голосом настолько сдержанным, что несколько журналистов позднее описали его как «утешительно трудный для интерпретации». Стоя перед прототипом синего и белого знака с надписью ТИШИНА РАЗРЕШЕНА — ВЕЖЛИВОСТЬ ПРЕДПОЛАГАЕТСЯ, Сталбе сказала, что программа позволит жителям стоять рядом с соседями в полной тишине, при этом юридически выражая взаимное уважение.
+
+«Это не грубость», — уточнила она. «Это административная эмпатия.»
+
+Согласно новым правилам, каждый, входящий в обозначенную зону, может выбрать один из трёх официально признанных режимов взаимодействия: склон головы вниз, отдалённое признание присутствия или полный нейтральный проход. Город также выпустил 26‑страничный буклет‑руководство Когда мы видим друг друга — ничего не происходит, чтобы помочь жителям отличать враждебное молчание от муниципального молчания.
+
+Инициативу горячо поддержали жилищные ассоциации, особенно в Пурвциемсе (Purvciems) и Тейке (Teika), где опрос показал, что 61% жителей когда‑либо отказывались выносить мусор, услышав в подъезде другого человека. Ещё 22% признались, что притворялись, будто ищут что‑то в сумке, пока сосед заканчивает отпирание велосипеда.
+
+«Это меняет всё», — сказал 42‑летний бухгалтер Мартиньш Берзиньш (Mārtiņš Bērziņš), выступая у своего дома на улице Tallinas iela, где в феврале была установлена экспериментальная Зона молчания. «Раньше, если я видел соседа сверху, нам обоим нужно было быстро решить: достаточно ли мы близки для “labdien”, слишком знакомы для “sveiki” или слишком усталы для общества? Теперь мы просто смотрим на знак и продолжаем быть порядочными взрослыми по отдельности.»
+
+Не все жители убеждены. Критики утверждают, что политика может повредить традиционной латвийской двусмысленности, заменив органично неудобные встречи излишне стандартизированным дискомфортом. «Нас беспокоит бюрократизация», — сказала культурный антрополог доктор Уна Витола (Dr. Una Vītola) из Латвийского университета. «Столетиями люди в этом регионе полагались на инстинкт, погоду и акустику коридоров, чтобы определить уровень признания. Как только государство начинает кодифицировать молчание, где конец?»
+
+Городские планировщики настаивают, что система остаётся гибкой. В Юрмале пилотная версия будет включать сезонные исключения, разрешающие крошечные улыбки с мая по август, особенно если обе стороны несут копчёную рыбу или недавно жаловались на парковку. Между тем рижские транспортные власти тестируют звуковые объявления, напоминающие пассажирам, что зрительный контакт — по желанию и его не стоит пытаться у задних дверей.
+
+Ранние данные указывают на то, что реформа уже даёт эффект. С момента начала пилота зарегистрированные задержки в подъездах сократились на 34%, в то время как случаи «вынужденных разговорчиков о погоде, которую все участники и так могли наблюдать непосредственно», упали на 71%.
+
+В завершение вторничной пресс‑конференции чиновники представили следующий этап программы по вежливости города: Тихие скамейные коридоры вдоль Даугавы, где пожилые мужчины смогут сидеть до шести часов, не спрашивая их, о чём они думают. Предложение было принято единогласно после того, как депутаты согласились, что оно отражает глубочайшие ценности столицы: порядок, достоинство и умение правильно оставлять людей в покое.`
+    },
+    date: "Jun 30, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/200/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 199,
     slug: "riga-introduces-official-municipal-silence-hours",
     title: {
@@ -102,7 +189,7 @@ Ceturtdienas vakarā galvaspilsētā jau bija redzami pirmie pielāgošanās sig
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/199/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 198,
