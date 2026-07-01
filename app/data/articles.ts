@@ -18,6 +18,91 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 201,
+    slug: "jrmala-introduces-quiet-sirens-to-preserve",
+    title: {
+      en: "Jūrmala Introduces ‘Quiet Sirens’ To Preserve Resort Atmosphere During Emergencies",
+      lv: "Jūrmala ievieš 'klusas sirēnas', lai saglabātu kūrorta atmosfēru ārkārtas situācijās",
+      ru: "Юрмала вводит «тихие сирены», чтобы сохранить курортную атмосферу во время чрезвычайных ситуаций"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have unveiled a new emergency response initiative designed to maintain the city’s trademark tranquility even during fires, floods, and mild civic panic. Under the program, ambulances and fire engines will alert residents through tasteful cello tones and polite LED messages rather than disruptive sirens.",
+      lv: "Jūrmalas amatpersonas atklājušas jaunu avārijas reaģēšanas iniciatīvu, kas paredzēta, lai saglabātu pilsētas raksturīgo mieru pat ugunsgrēku, plūdu un vieglas publiskas panikas laikā. Programmas ietvaros ātrās palīdzības un ugunsdzēsēju mašīnas brīdinās iedzīvotājus ar gaumīgām čella skaņām un pieklājīgām LED ziņām, nevis traucējošām sirēnām.",
+      ru: "Власти Юрмалы представили новую инициативу по реагированию на ЧС, цель которой — сохранять фирменное спокойствие города даже при пожарах, наводнениях и лёгкой гражданской панике. В рамках программы машины скорой помощи и пожарные автомобили будут предупреждать жителей не резкими сиренами, а изысканными звуками виолончели и вежливыми LED‑сообщениями."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what city leaders are calling a major step toward “sustainable calm,” Jūrmala municipality this week launched a fleet of emergency vehicles equipped with what officials describe as “low-anxiety notification technology,” replacing traditional sirens with soft classical music, amber mood lighting, and pre-recorded phrases such as “if convenient, please clear the lane.”
+
+The program, formally titled the Acoustic Harmony Civil Response Pilot, was approved after years of complaints from residents, spa operators, and one especially vocal dachshund owners’ association that emergency sirens were “out of character” for a city whose brand relies heavily on pine air, wellness packages, and the idea that nothing urgent has happened since 1938.
+
+Mayor Rita Ozoliņa introduced the initiative Tuesday outside Dzintari Concert Hall, where a fire engine demonstrated its new “coastal discretion mode” by approaching at 22 kilometers per hour while playing a restrained cello arrangement of a warning signal composed by a music lecturer from Liepāja.
+
+“An emergency is already a stressful event,” Ozoliņa told reporters. “There is no need to make it emotionally Baltic on top of that. We asked ourselves: can a ladder truck arrive with dignity? We believe the answer is yes.”
+
+According to municipal procurement documents, the 2.8 million euro modernization includes six ambulances fitted with interior aromatherapy modules, three fire engines capable of projecting the words ACTIVE BURN SITUATION in a warm serif font, and one rescue SUV that communicates urgency through a slightly faster version of normal windshield wiper movement.
+
+The city says trials conducted last winter showed promising results. In 81 percent of test scenarios, pedestrians eventually noticed the incoming vehicle. In 64 percent of cases, they described the experience as “pleasant but somewhat unclear.” Researchers also found that hotel guests were 73 percent less likely to leave negative reviews when awakened by bassoon tones rather than a conventional siren.
+
+Not everyone is convinced. Paramedic Edgars Vanags said response teams remain divided after several live demonstrations ended with beachgoers assuming the approaching ambulance was part of a cultural festival. In one incident near Bulduri, a man suffering chest pain reportedly waved away medics because he believed the vehicle was advertising a chamber music brunch.
+
+“You can’t really communicate ‘possible spinal trauma’ with oboe,” Vanags said, standing beside an ambulance whose side panel displayed the message THANK YOU FOR STAYING COMPOSED. “Yesterday we had to ask three cyclists and a woman carrying smoked fish to move. They said they thought we were rehearsing.”
+
+Still, tourism officials have praised the reform as a model for balancing public safety with brand identity. Ilze Sondore, director of the Jūrmala Association of Hospitality and Inner Quiet, said the old sirens created “an unnecessarily municipal feeling” that clashed with premium room rates.
+
+“When visitors pay 240 euros a night for restorative stillness, they do not want to hear the same sound used in industrial catastrophe films,” Sondore said. “Now, if there is a structural emergency, they can continue enjoying breakfast with only a faint awareness that something unfortunate is occurring nearby.”
+
+The city has already begun developing phase two of the plan, which would allow residents to choose their preferred emergency alert style through a mobile app. Proposed options include Minimalist Piano, Whispered Concern, and Traditional Baltic Silence, in which no warning is issued at all but authorities later nod gravely.
+
+By Thursday afternoon, officials declared the rollout a success after a small kitchen fire in Majori was resolved with what witnesses described as “excellent acoustics” and “almost no sense of alarm whatsoever.”`,
+      lv: `JŪRMALA — To, ko pilsētas vadība sauc par lielu soli pretī „ilgtspējīgajam mieram”, šonedēļ Jūrmalas pašvaldība palaida ekspluatācijā armiju ar avārijas transportlīdzekļiem, kas aprīkoti ar, kā amatpersonas to raksturo, „zema trauksmes līmeņa paziņošanas tehnoloģiju”, aizstājot tradicionālās sirēnas ar maigām klasiskās mūzikas skaņām, dzintaraini noskaņojošu apgaismojumu un iepriekš ierakstītām frāzēm, piemēram, „ja iespējams, lūdzu, atbrīvojiet joslu.”
+
+Programma, oficiāli nosaukta par Akustiskās Harmonijas Civilo Reakciju pilotprojektu, tika apstiprināta pēc gadiem ilgiem sūdzību vilņiem no iedzīvotājiem, spa operatoriem un īpaši skaļas takšu īpašnieku biedrības, kas apgalvoja, ka avārijas sirēnas ir „ne raksturīgas” pilsētai, kuras tēls lielā mērā balstās uz priežu gaisu, veselības paketēm un ideju, ka kopš 1938. gada nekas steidzams nav noticis.
+
+Mēre Rita Ozoliņa otrdien pie Dzintaru koncertzāles prezentēja iniciatīvu, kur ugunsdzēsēju mašīna demonstrēja jauno „piekrastes diskrecijas režīmu”, piebraucot ar 22 kilometriem stundā un spēlējot atturētu čella aranžējumu brīdinājuma signālam, kuru sarakstījis Liepājas mūzikas lektors.
+
+„Avārija jau tāpat ir stresains notikums,” Ozoliņa sacīja žurnālistiem. „Nav vajadzības to padarīt arī emocionāli baltisku. Mēs sev pajautājām: vai kāpņu mašīna var atbraukt ar cieņu? Mēs uzskatām, ka jā.”
+
+Pēc pašvaldības iepirkumu dokumentiem 2,8 miljonu eiro modernizācija ietver sešas ātrās palīdzības automašīnas ar interjera aromterapijas moduļiem, trīs ugunsdzēsēju mašīnas, kas spēj projicēt vārdus AKTĪVA DEGŠANAS SITUĀCIJA siltā serif rakstā, un vienu glābšanas apvidus auto, kas steidzamību nodod ar nedaudz ātrāku nekā parasti logu tīrītāju kustību.
+
+Pilsēta ziņo, ka pagājušā ziemā veiktie testi rādījuši daudzsološu rezultātu. 81 procentā testa scenāriju gājēji beigu beigās pamanīja tuvojošos transportlīdzekli. 64 procentos gadījumu viņi pieredzi aprakstīja kā „patīkamu, bet mazliet neskaidru.” Pētījuma autori arī atklāja, ka viesnīcu viesi par 73 procentiem retāk atstāja negatīvas atsauksmes, kad viņus mostināja fagota toņi, nevis parasta sirēna.
+
+Ne visi ir pārliecināti. Neatliekamās medicīniskās palīdzības mediķis Edgars Vanags sacīja, ka reaģēšanas komandas joprojām ir dalītas pēc vairākiem dzīvajiem demonstrējumiem, kuri beidzās ar to, ka pludmales apmeklētāji uzskatīja, ka tuvojošā ātrā palīdzība ir daļa no kultūras festivāla. Vienā incidentā pie Bulduri vīrietis, kam sāpēja krūtis, acīmredzot atvairīja mediķus, jo domāja, ka mašīna reklamē kamerzāles mūzikas branču.
+
+„Ar oboju nevar īsti nodot ziņu 'iespējams mugurkaula traums',`,
+      ru: `ЮРМАЛА — В том, что городские руководители называют крупным шагом к «устойчивому спокойствию», муниципалитет Юрмалы на этой неделе запустил парк аварийных машин, оснащённых тем, что чиновники описывают как «технологию уведомления с низким уровнем тревожности», заменив традиционные сирены мягкой классической музыкой, янтарной атмосферной подсветкой и заранее записанными фразами вроде «если удобно, пожалуйста, расчистите проезд». 
+
+Программа, официально названная Пилотным проектом «Акустическая гармония гражданского реагирования», была утверждена после многолетних жалоб жителей, владельцев спа и особенно громкого союза заводчиков такс, которые заявляли, что аварийные сирены «не соответствуют образу» города, чей бренд в значительной степени строится на сосновом воздухе, велнес‑пакетах и представлении о том, что ничего срочного не происходило с 1938 года. 
+
+Мэр Рита Озолиня представила инициативу во вторник у Концертного зала Дзинтари, где пожарная машина продемонстрировала новый «режим прибрежной сдержанности», подъехав со скоростью 22 километра в час и исполняя сдержанную виолончельную аранжировку сигнала тревоги, сочинённого преподавателем музыки из Лиепаи. 
+
+«Чрезвычайная ситуация и так уже стрессовая ситуация, — сказала Озолиня репортёрам. — Нет нужды делать её ещё и „эмоционально балтийской“ сверху. Мы спросили себя: может ли лестничный автомобиль прибыть с достоинством? Мы считаем, что да». 
+
+Согласно муниципальным документам о закупках, модернизация стоимостью 2,8 миллиона евро включает шесть машин скорой помощи с внутренними модулями ароматерапии, три пожарных автомобиля, способных проецировать надпись «ACTIVE BURN SITUATION» тёплым шрифтом с засечками, и один спасательный внедорожник, который сообщает о срочности слегка ускоренным движением обычных стеклоочистителей. 
+
+По данным города, испытания, проведённые прошлой зимой, показали обнадёживающие результаты. В 81 проценте тестовых сценариев пешеходы в конце концов заметили приближающееся транспортное средство. В 64 процентах случаев они описывали опыт как «приятный, но несколько неясный». Исследователи также обнаружили, что гостиничные гости на 73 процента реже оставляли негативные отзывы, когда их будили фаготные тона вместо обычной сирены. 
+
+Не все убеждены. Парамедик Эдгарс Ванагс сказал, что команды по‑прежнему разделены после нескольких живых демонстраций, которые заканчивались тем, что отдыхающие на пляже принимали подъезжающую скорую за часть культурного фестиваля. В одном инциденте рядом с Булдури мужчина с болями в груди якобы отмахнулся от медиков, потому что подумал, что машина реклами­рует камерный музыкальный бранч. 
+
+«На гобое вы всерьёз не донесёте „возможную травму позвоночника“, — сказал Ванагс, стоя рядом со скорой, на боковой панели которой была надпись «СПАСИБО, ЧТО СОХРАНЯЕТЕ СПОКОЙСТВИЕ». — Вчера нам пришлось попросить трёх велосипедистов и женщину с копчёной рыбой уступить путь. Они сказали, что думали, мы репетируем». 
+
+Тем не менее представители туротрасли похвалили реформу как модель сочетания общественной безопасности и идентичности бренда. Илзе Сондоре, директор Ассоциации гостеприимства и внутреннего спокойствия Юрмалы, заявила, что старые сирены создавали «чрезмерно муниципальное ощущение», которое конфликтовало с премиальными тарифами на номера. 
+
+«Когда гости платят 240 евро за ночь за восстанавливающее безмолвие, они не хотят слышать тот же звук, который используют в фильмах про промышленные катастрофы, — сказала Сондоре. — Теперь, если случится структурная чрезвычайная ситуация, они могут продолжать завтракать, едва осознавая, что где‑то рядом происходит что‑то неприятное». 
+
+Город уже начал разработку второй фазы плана, которая позволит жителям выбирать предпочитаемый стиль оповещения через мобильное приложение. Предлагаемые варианты включают «Минималистичное фортепиано», «Шепотом: беспокойство» и «Традиционное балтийское молчание», при котором предупреждение вообще не выдаётся, а власти позже серьёзно кивают. 
+
+К четвергу днём чиновники объявили развёртывание успешным после того, как небольшой кухонный пожар в Майори был устранён при, как свидетельствовали очевидцы, «отличной акустике» и «почти полном отсутствии какого‑либо чувства тревоги».`
+    },
+    date: "Jul 1, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/201/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 200,
     slug: "riga-introduces-polite-silence-zones-after-200",
     title: {
@@ -102,7 +187,7 @@ Preses konferences noslēgumā amatpersonas atklāja nākamo civilitātes progra
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/200/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 199,
