@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 202,
+    slug: "riga-introduces-official-municipal-sigh-to-202",
+    title: {
+      en: "Riga Introduces Official Municipal Sigh To Improve Public Transport Morale",
+      lv: "Rīga ievieš oficiālu pašvaldības nopūtu, lai uzlabotu sabiedriskā transporta morāli",
+      ru: "Рига вводит официальный муниципальный вздох для поднятия духа в общественном транспорте"
+    },
+    excerpt: {
+      en: "In a move city officials say will modernize emotional infrastructure, Riga has approved a standardized sigh for use while waiting for trams, buses, and trolleybuses. The pilot program aims to reduce chaotic personal exasperation and replace it with a unified civic sound by autumn.",
+      lv: "Kā pilsētas amatpersonas saka, lai modernizētu emocionālo infrastruktūru, Rīga apstiprinājusi standartizētu nopūtu tramvaju, autobusu un trolejbusu gaidīšanas laikā. Pilotprogramma mērķē samazināt haotisku personīgo izmisumu un līdz rudenim aizstāt to ar vienotu pilsonisku skaņu.",
+      ru: "В попытке, как утверждают городские чиновники, модернизировать эмоциональную инфраструктуру, Рига утвердила стандартизированный вздох для использования в ожидании трамваев, автобусов и троллейбусов. Пилотная программа призвана осенью сократить хаотичное личное раздражение и заменить его единым гражданским звуком."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Council on Tuesday unveiled what it called "Latvia’s first coordinated emotional mobility policy," approving a new official municipal sigh to be used by residents experiencing routine disappointment on public transport platforms.
+
+Under the program, commuters waiting more than six minutes for any tram, bus, or trolleybus will be encouraged to produce a soft, state-approved exhalation lasting 1.8 seconds, descending in tone near the end "to reflect both realism and modest hope." The initiative, developed jointly by the Department of Transport, the Culture Committee, and a consultant from Cesis described only as a "breath dramaturge," will begin next month at 47 stops across Riga.
+
+Deputy Mayor for Practical Atmosphere Ilze Karklina said the city could no longer ignore the fragmented and inefficient manner in which residents were expressing dissatisfaction.
+
+"At present, one person mutters, another checks the app with contempt, a third simply looks at the horizon as if betrayed by modernity," Karklina told reporters while standing beside a demonstration shelter near Barona Street. "This is not a European capital approach. We need consistency. We need audible standards. Most importantly, we need a sigh that says, ‘I am disappointed, but I still validated my e-talons.’"
+
+The approved sound, designated RSM-2 under municipal guidelines, was selected after six weeks of field testing involving 1,200 commuters in Purvciems, Agenskalns, and Teika. According to official data, the sigh outperformed competing expressions such as the short nasal scoff, the dramatic coat adjustment, and what researchers called the "silent Baltic interior collapse." In blind acoustic trials, 68% of participants described RSM-2 as "credible," while 21% said it reminded them of November.
+
+The city has allocated €184,000 for educational signage, public workshops, and two instructional videos featuring actors demonstrating incorrect and correct forms of urban resignation. At one stop in Imanta, passengers will be able to press a blue button to hear model sighs delivered in Latvian, Russian, and "neutral multilingual commuter." The Latvian National Symphony has also been invited to record an orchestral version for use during major service disruptions.
+
+Not everyone is convinced. "This is bureaucracy entering a sacred area of private suffering," said Janis Seilis, 43, an accountant from Kengarags who commutes daily by tram 15. "My sigh belongs to me. It was shaped by winter, roadworks, and three separate timetable reforms. I don’t want some office in the center telling me where to place the emotional stress."
+
+Others welcomed the reform. University student Elina Grunte said standardized sighing could make the capital feel more orderly. "Right now, everybody is disappointed differently," she said. "A city cannot function like that. If we can agree on midsummer cheese and passive aggression, we can agree on one sigh."
+
+Transport psychologists involved in the project argue the benefits may extend beyond punctuality perception. Dr. Maris Upmalis of the Baltic Institute for Applied Endurance said synchronized exasperation creates social trust. "When strangers sigh together, they form a temporary municipality," he explained. "For 1.8 seconds, they are no longer isolated citizens. They are Riga."
+
+Officials say the next phase may include a regulated eyebrow raise for encounters with ticket inspectors and a low-volume civic murmur for use when the minibus smells faintly of dill and radiator dust.
+
+By evening, several commuters at Central Station had already begun practicing. Some were too early, some too theatrical, and one elderly man delivered what witnesses described as "a nearly professional sigh with pre-independence depth." City leaders called the response promising, adding that if the pilot succeeds, Riga could eventually apply for EU funding to harmonize disappointment across the wider Baltics.`,
+      lv: `RĪGA — Rīgas dome otrdien atklāja to, ko nosaukusi par "Latvijas pirmo koordinēto emocionālās mobilitātes politiku", apstiprinot jaunu oficiālu pašvaldības nopūtu, ko iedzīvotājiem ieteikts lietot pierastā viedokļu vilšanās brīžos sabiedriskā transporta pieturvietās.
+
+Saskaņā ar programmu pasažieri, kas gaida vairāk nekā sešas minūtes jebkuram tramvajam, autobusam vai trolejbusam, tiks aicināti izpūst maigu, valsts apstiprinātu izelpu 1,8 sekundes garumā, nobeigumā nolaidot toni "lai atspoguļotu gan reālismu, gan pieticīgas cerības". Iniciatīvu, ko kopīgi izstrādājuši Satiksmes departaments, Kultūras komiteja un no Cēsīm piesaistīts konsultants, kuru aprakstīja vien kā "elpas dramaturgu", nākamajā mēnesī izmēģinās 47 pieturvietās visā Rīgā.
+
+Praktiskās atmosfēras lietu domes priekšsēdētāja vietniece Ilze Karkliņa sacīja, ka pilsēta vairs nevar ignorēt fragmentēto un neefektīvo iedzīvotāju neapmierinātības izpausmju veidu.
+
+"Pašlaik viens cilvēks murmina, cits ar nicinājumu pārbauda aplikāciju, trešais vienkārši raugās pie horizonta kā nodeigts mūsdienām," Karkliņa sacīja žurnālistiem, stāvot pie demonstrācijas nojumes pie Barona ielas. "Tas nav Eiropas galvaspilsētas piegājiens. Mums vajadzīga konsekvence. Mums vajadzīgi dzirdami standarti. Svarīgākais — mums vajadzīga nopūta, kas saka: 'Es esmu vīlies, bet es tomēr apstiprināju savu e-talonu.'"
+
+Apstiprināto skaņu, kas saskaņā ar pašvaldības vadlīnijām ieguvusi nosaukumu RSM-2, izvēlējās pēc sešu nedēļu lauka testiem, kuros piedalījās 1 200 pasažieri Purvciemā, Āgenskalnā un Teikā. Oficiālie dati liecina, ka nopūta pārspēja konkurējošas izpausmes, piemēram, īsu deguna niknu smīnu, dramatisku mēteļa pielabošanu un to, ko pētnieki nosauca par "kluso Baltijas iekšējo sabrukumu." Aklajos akustiskajos testos 68% dalībnieku RSM-2 raksturoja kā "ticamu", bet 21% sacīja, ka tā viņiem atgādina novembri.
+
+Pilsēta ir atvēlējusi 184 000 € izglītojošiem plakātiem, publiskajām darbnīcām un diviem instruktāžvideo ar aktieriem, kuri demonstrē nepareizas un pareizas pilsētiskas atteikšanās formas. Vienā pieturā Imantā pasažieri varēs nospiest zilu pogu, lai dzirdētu paraugnopūtas latviešu, krievu un "neitrālā daudzvalodu pasažiera" izpildījumā. Arī Latvijas Nacionālo simfonisko orķestri aicināts ierakstīt orķestrālu versiju izmantošanai lielu satiksmes traucējumu gadījumos.
+
+Ne visi ir pārliecināti. "Šī ir birokrātija, kas ienāk svētajā privātās ciešanas teritorijā," sacīja Jānis Seilis, 43 gadus vecs grāmatvedis no Ķengaraga, kurš ikdienā brauc ar 15. tramvaju. "Mana nopūta pieder man. To veidoja ziema, ceļu remonti un trīs atsevišķas sarakstu reformas. Es negribu, lai kāda kanceleja centrā man liek, kur likt emocionālo spriedzi."
+
+Citi reformu sveica. Universitātes studente Elīna Grunte sacīja, ka standartizēta nopūšana varētu padarīt galvaspilsētu kārtīgāku. "Šobrīd visi ir vīlušies katrs citādi," viņa sacīja. "Pilsēta nevar tā funkcionēt. Ja mēs varam vienoties par Jāņu sieru un pasīvo agresiju, mēs varam vienoties arī par vienu nopūtu."
+
+Projektā iesaistītie transporta psihologi apgalvo, ka ieguvumi varētu pārsniegt tikai punktualitātes uztveri. Dr. Māris Upmalis no Baltijas pielietojamās izturības institūta sacīja, ka sinhronizēta izmisuma izpausme rada sociālo uzticību. "Kad svešinieki nopūšas kopā, viņi veido pagaidu pašvaldību," viņš skaidroja. "Uz 1,8 sekundēm viņi vairs nav izolēti pilsoņi. Viņi ir Rīga."
+
+Amatpersonas norāda, ka nākamajā posmā varētu iekļaut regulētu uzacu pacelšanu tikšanās ar biļešu kontrolieriem gadījumos un klusu pilsonisku murmināšanu, ko lietot, kad mikroautobuss nedaudz smaržo pēc dillēm un radiatora putekļiem.
+
+Vakarā vairāki pasažieri pie Centrālās stacijas jau sāka vingrināties. Daži bija par agru, daži pārāk teatrāli, un viens gados vecs vīrs sniedza to, ko liecinieki raksturoja kā "gandrīz profesionālu nopūtu ar pirmsneatkarības dziļumu." Pilsētas vadība nosauca reakciju par daudzsološu, piebilstot, ka, ja pilots izrādīsies veiksmīgs, Rīga varētu vēlāk pieteikties ES finansējumam, lai vienmērotu vīšanās izpausmes plašākā Baltijas reģionā.`,
+      ru: `РИГА — Городской совет Риги во вторник представил то, что назвал «первой в Латвии скоординированной политикой эмоциональной мобильности», утвердив новый официальный муниципальный вздох, который жители должны использовать при переживании рутинного разочарования на платформах общественного транспорта.
+
+В рамках программы пассажиров, ожидающих более шести минут любой трамвай, автобус или троллейбус, призывают испускать мягкий, одобренный государством выдох продолжительностью 1,8 секунды с понижением тона ближе к концу «чтобы отразить и реализм, и скромную надежду». Инициатива, разработанная совместно Департаментом транспорта, Комитетом по культуре и консультантом из Цесиса, называемым только «драматургом дыхания», стартует в следующем месяце на 47 остановках по всей Риге.
+
+Заместитель мэра по практической атмосфере Илзе Карклина заявила, что город больше не может игнорировать фрагментарный и неэффективный способ, которым жители выражают недовольство.
+
+«В настоящий момент кто‑то бормочет, кто‑то с презрением проверяет приложение, третий просто смотрит в горизонт, будто его предала современность», — сказала Карклина журналистам, стоя рядом с демонстрационной остановкой у улицы Барона. «Это не по‑европейски для столицы. Нам нужна последовательность. Нам нужны слышимые стандарты. И, что важнее всего, нам нужен вздох, который говорит: „Я разочарован, но я всё же прокомпостировал свой e‑talons.“»
+
+Утверждённый звук, обозначенный как RSM‑2 в муниципальных правилах, был выбран после шести недель полевых испытаний с участием 1 200 пассажиров в Purvciems, Agenskalns и Teika. По официальным данным, вздох превзошёл конкурирующие выражения недовольства, такие как короткое носовое фыркание, эффектная поправка пальто и то, что исследователи назвали «немым балтийским внутренним коллапсом». В слепых акустических испытаниях 68% участников охарактеризовали RSM‑2 как «правдоподобный», а 21% сказали, что он напоминает им ноябрь.
+
+Город выделил 184 000 евро на обучающие таблички, публичные мастер‑классы и два инструктивных видеоролика с актёрами, демонстрирующими неправильные и правильные формы городской апатии. На одной из остановок в Иманте пассажиры смогут нажать синюю кнопку и услышать образцовые вздохи на латышском, русском и в «нейтральном многоязычном варианте пассажира». Латвийскому национальному симфоническому оркестру также предложено записать оркестровую версию для использования при крупных сбоях в движении.
+
+Не все убеждены в необходимости новшества. «Это бюрократия, вторгающаяся в сакральную сферу частного страдания», — сказал Янис Сейлис, 43 года, бухгалтер из Кенгарагса, который ежедневно ездит трамваем №15. «Мой вздох — это моё. Он сформировался зимой, дорожными работами и тремя отдельными реформами расписания. Я не хочу, чтобы какой‑то офис в центре указывал мне, где размещать эмоциональную нагрузку.»
+
+Другие приветствовали реформу. Студентка Элина Грунте заявила, что стандартизированное вздыхание может сделать столицу более упорядоченной. «Сейчас все разочарованы по‑разному, — сказала она. — Город не может так функционировать. Если мы можем договориться о кусочке сырной традиции и пассивной агрессии, мы можем договориться и об одном вздохе.»
+
+Психологи транспорта, задействованные в проекте, утверждают, что польза может выходить за рамки восприятия пунктуальности. Доктор Марис Упмалис из Балтийского института прикладной выносливости сказал, что синхронное раздражение создаёт социальное доверие. «Когда незнакомцы вздыхают вместе, они образуют временный муниципалитет, — объяснил он. — На 1,8 секунды они перестают быть изолированными гражданами. Они — Рига.»
+
+Чиновники сообщают, что следующий этап может включать регламентированное поднятие брови при встречах с контролёрами билетов и тихий гражданский ропот для использования, когда микроавтобус слегка пахнет укропом и пылью радиаторов.
+
+К вечеру на Центральном вокзале несколько пассажиров уже начали практиковаться. Кто‑то приходил слишком рано, кто‑то был чересчур театрален, а один пожилой мужчина выдал, как свидетели описали, «почти профессиональный вздох с глубиной времён до обретения независимости». Городские руководители назвали отклик обнадёживающим и добавили, что если пилот удастся, Рига в конечном итоге может подать заявку на финансирование ЕС для гармонизации разочарования по всему балтийскому региону.`
+    },
+    date: "Jul 2, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/202/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 201,
     slug: "jrmala-introduces-quiet-sirens-to-preserve",
     title: {
@@ -100,7 +187,7 @@ Ne visi ir pārliecināti. Neatliekamās medicīniskās palīdzības mediķis Ed
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/201/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 200,
