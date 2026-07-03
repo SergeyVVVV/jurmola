@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 203,
+    slug: "jrmala-introduces-quiet-siren-to-warn-203",
+    title: {
+      en: "Jūrmala Introduces ‘Quiet Siren’ To Warn Residents Of Incoming Tourists Without Disturbing Pine Trees",
+      lv: "Jūrmala ievieš ‘Kluso sirēnu’, lai brīdinātu iedzīvotājus par tuvojošiem tūristiem, netraucējot priedēm",
+      ru: "Юрмала вводит «Тихую сирену», чтобы предупреждать жителей о приближении туристов, не тревожа сосны"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala this week unveiled a new municipal warning system designed to alert residents when large groups of weekend visitors are approaching from Riga, while preserving the town’s internationally recognized atmosphere of tasteful murmuring. The so-called ‘Quiet Siren’ emits what experts describe as a firm but respectful sigh, followed by a distant spoon stirring tea in a porcelain cup.",
+      lv: "Šonedēļ Jūrmalas pašvaldība atklāja jaunu brīdināšanas sistēmu, kas paredzēta, lai iedzīvotājus informētu par lielām nedēļas nogales apmeklētāju grupām, kas tuvojas no Rīgas, saglabājot pilsētas starptautiski atzīto gaumīgās čukstēšanas atmosfēru. Tā saucamā “Klusa sirēna” emitirē, kā eksperti raksturo, stingru, taču cienīgu nopūtu, kam seko tāla karotes maisīšana tējas krūzē no porcelāna.",
+      ru: "Власти Юрмалы на этой неделе представили новую муниципальную систему оповещения, призванную предупреждать жителей о приближении больших групп выходных гостей из Риги, при этом сохраняя общепризнанную атмосферу изысканного ропота. Так называемая «Тихая сирена» издаёт, по словам экспертов, твёрдый, но уважительный вздох, за которым следует отдалённый звук ложки, мешающей чай в фарфоровой чашке."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders are calling ‘the future of coastal preparedness,’ Jūrmala Municipality on Tuesday launched a pilot emergency notification system intended to inform locals of incoming tourist waves without violating the resort town’s long-standing commitment to tranquil inconvenience.
+
+The system, officially named the Seasonal Acoustic Moderation and Visitor Awareness Network, or SAMVAN, consists of 14 cedar-toned speaker columns installed discreetly along the route from Lielupe to Dubulti. Rather than producing a conventional alarm, the devices emit a sequence of culturally calibrated sounds: a bicycle bell heard through fog, a passive-aggressive exhale, and, in severe cases, a man softly saying, ‘It may take 40 minutes to find parking.’
+
+Mayor Rita Ozoliņa presented the project beside a dune access point near Dzintari Concert Hall, where several residents gathered to hear a demonstration and then immediately asked for it to be slightly softer.
+
+‘For years our people have been caught unprepared,’ Ozoliņa told reporters. ‘Families were sitting peacefully on verandas, halfway through cold beet soup, when suddenly eight SUVs with paddleboards appeared and somebody asked where the “authentic local spot” was. We knew we needed an early warning system, but one that reflects Jūrmala’s values: elegance, caution, and disapproval at a manageable volume.’
+
+According to municipal figures, Jūrmala receives up to 23,000 day visitors on sunny Saturdays between May and August, 71 percent of whom are statistically likely to say they ‘almost bought property here once.’ City planners say the Quiet Siren allows residents an average of 18 minutes to complete critical protective actions, including moving wicker furniture indoors, hiding decent chanterelle patches from social media, and pretending not to know any available table at any restaurant.
+
+The project cost €842,000, of which €610,000 came from an EU regional resilience grant under the category ‘Adaptive Soundscapes for Climate, Mobility, and Seasonal Emotional Stress.’ A further €90,000 was reportedly spent on a consulting study determining whether the alert should sound more Scandinavian or more ‘Baltic but aspirational.’
+
+Lead acoustic engineer Mārtiņš Bērziņš said the final design emerged after 11 months of testing. ‘We tried gull noises, but residents found them too direct. We tried whispered Russian, but it caused property values to fluctuate. In the end, we discovered that the most effective warning was the sound of someone opening a linen menu and asking whether oat flat whites are included in the room rate,’ Bērziņš said.
+
+Reaction among residents has been broadly positive. ‘I heard it this morning and knew instantly: Riga was on the move,’ said longtime Majori resident Ilze Kalniņa, clutching a cardigan with the composure of someone who has seen three eras of beach umbrellas. ‘It gave me enough time to relocate my tomatoes and become emotionally unavailable.’
+
+Not everyone is convinced. Environmental groups have raised concerns that the siren’s low-frequency politeness may confuse hedgehogs, while some business owners worry the alerts could deter the very visitors who sustain the local economy by purchasing one smoked fish, two coffees, and a lifetime of resentment about parking fees.
+
+Still, officials say the pilot has already shown results. During a trial over the weekend, the system reportedly reduced spontaneous resident eye-rolling by 34 percent and cut unplanned conversations with bachelor parties from Riga to just six incidents, down from a seasonal average of 19.
+
+Municipality representatives confirmed that if the program succeeds, similar systems could be introduced elsewhere in Latvia, including a ‘Soft Brace’ in Sigulda for autumn leaf tourists and a ‘Dignified Cough’ in central Riga to indicate the approach of electric scooter convoys.
+
+As evening fell over the beach, the Quiet Siren issued one final warning — a tasteful, nearly apologetic clink of ice in a stemmed glass. Within minutes, locals had drawn their curtains, turned slightly inward, and prepared for another beautiful summer day.`,
+      lv: `JŪRMALA — Solī, ko pilsētas vadība dēvē par “piekrastes gatavības nākotni”, Jūrmala šodien, otrdien, sāka pilotprojektu — ārkārtas brīdināšanas sistēmu, kas domāta, lai iedzīvotājus informētu par tuvojošām tūristu vilnēm, nekārojot pārkāpt kūrortpilsētas ilglaicīgo apņemšanos saglabāt klusu neērtību.
+
+Sistēma, oficiāli nosaukta par Sezonālo Akustisko Moderāciju un Viesu Apziņas Tīklu (SAMVAN), sastāv no 14 ciedra tonī krāsotiem skaļruņu stabiem, kas diskrēti uzstādīti gar maršrutu no Lielupes līdz Dubultiem. Tā vietā, lai ģenerētu parastu trauksmi, ierīces izdala virkni kulturāli kalibrētu skaņu: velosipēda zvans, kas skan caur miglu, pasīvi agresīva izelpa un, smagākos gadījumos, vīrieša klusa frāze: “Var aizņemt apmēram 40 minūtes, lai atrastu stāvvietu.”
+
+Mēre Rita Ozoliņa projektu prezentēja pie kāpnes uz kāpu pie Dzintaru koncertzāles, kur pulcējās vairāki iedzīvotāji, lai dzirdētu demonstrāciju un pēc tam uzreiz lūdza — vai to nevarētu darīt nedaudz klusinātāku.
+
+“Gadu desmitiem mūsu ļaudis tika noķerti negaidot,” Ozoliņa sacīja žurnālistiem. “Ģimenes mierīgi sēdēja verandās, pusi izēdušas auksto biešu zupu, kad pēkšņi parādījās astoņi džipi ar supdēļiem un kāds jautāja, kur ir tas ‘autentiskais vietējais spots’. Mēs sapratām, ka vajadzīgs agrīnas brīdināšanas mehānisms, taču tāds, kas atspoguļo Jūrmalas vērtības: eleganci, piesardzību un nosodījumu pieņemamā skaļumā.”
+
+Pēc pašvaldības datiem saulainās sestdienās no maija līdz augustam Jūrmala var uzņemt līdz 23 000 dienas apmeklētāju, no kuriem 71 procentam statistiski ir tendence teikt “es gandrīz reizēm te saliku pirkumu”. Pilsētplānotāji apgalvo, ka Klusā sirēna iedzīvotājiem nodrošina vidēji 18 minūtes, lai veiktu kritiskas aizsardzības darbības: ievietotu iekštelpās pītas mēbeles, paslēptu cienījamas gaileņu vietas no sociālajiem tīkliem un izliktos, ka nezin, kur restorānā ir kāds brīvs galdiņš.
+
+Projekts izmaksāja 842 000 eiro, no kuriem 610 000 eiro nāca no ES reģionālā noturības granta kategorijā “Pielāgojamās skaņas ainavas klimata, mobilitātes un sezonālā emocionālā stresa mazināšanai.” Vēl aptuveni 90 000 eiro tika iztērēti konsultāciju pētījumam, kas izvērtēja, vai brīdinājumam jāskan vairāk skandināviski vai drīzāk “baltiski, bet ambiciozi”.
+
+Vadošais akustikas inženieris Mārtiņš Bērziņš teica, ka galīgais dizains izveidojies pēc 11 mēnešiem testu. “Mēģinājām kaiju trokšņus, bet iedzīvotāji tos atzina par pārāk tiešiem. Mēģinājām čukstošu krievu valodu, bet tas izraisīja nekustamā īpašuma vērtību svārstības. Beigās atklājām, ka visefektīvākais brīdinājums ir kāda, kas atver lina ēdienkarti un saudzīgi jautā, vai auzu flat white ir iekļauts numura cenā,” sacīja Bērziņš.
+
+Iedzīvotāju atsaucība bijusi lielākoties pozitīva. “Es to dzirdēju šorīt un uzreiz sapratu: Rīga ir kustībā,” teica ilggadējā Majoru iedzīvotāja Ilze Kalniņa, cieši satverot kardigānu ar tiem mierīgajiem žestiem, kādus pielieto cilvēks, kurš redzējis trīs pludmales saulessargu laikmetus. “Tas man deva pietiekami daudz laika pārnest tomātus un kļūt emocionāli nepieejamai.”
+
+Ne visi ir pārliecināti. Vides organizācijas izteikušas bažas, ka sirēnas zemo frekvenču pieklājība var apjukt ezīšus, savukārt daži uzņēmēji bažījas, ka brīdinājumi var atturēt tieši tos apmeklētājus, kuri uztur vietējo ekonomiku — nopērkot vienu kūpinātu zivi, divas kafijas un mūžīgu neapmierinātību par stāvvietas maksām.
+
+Tomēr amatpersonas saka, ka pilots jau pierādījis efektu. Testēšanas laikā nedēļas nogalē sistēma samazināja spontānās iedzīvotāju acu rullēšanas par 34 procentiem un sarunāšanos ar neplānotām rīdzinieku vienībām parasti samazināja līdz sešiem incidentiem, salīdzinot ar sezonālo vidējo rādītāju 19.
+
+Pašvaldības pārstāvji apstiprināja, ka, ja programma būs veiksmīga, līdzīgas sistēmas varētu ieviest citur Latvijā, tajā skaitā “Mīksto balstu” Siguldā rudens lapu tūristiem un “Cieņpilno klepu” Rīgas centrā, lai signalizētu par elektrisko skūteru konvoju tuvošanos.
+
+Vakaram krītot pār pludmali, Klusā sirēna izdeva vēl vienu pēdējo brīdinājumu — gaumīgu, gandrīz atvainojošu ledu skandināšanu glāzē ar kāju. Minūšu laikā vietējie aizvilka aizkarus, nedaudz iegrima sevī un sagatavojās vēl vienai skaistai vasaras dienai.`,
+      ru: `Юрмала — В шаге, который городские власти называют «будущим прибрежной готовности», муниципалитет Юрмалы во вторник запустил пилотную систему экстренного оповещения, цель которой — информировать местных жителей о надвигающихся туристических волнах, не нарушая давнюю приверженность курортного города спокойному неудобству.
+
+Система, официально названная Сезонная сеть акустической умеренности и информирования посетителей, или SAMVAN, состоит из 14 колонн-динамиков кедрового оттенка, незаметно установленных вдоль маршрута от Лиелупе до Дубулти. Вместо обычной сирены устройства издают последовательность культурно откалиброванных звуков: звон велосипедного звонка, слышимый сквозь туман, пассивно-агрессивный выдох и, в серьёзных случаях, тихую реплику мужчины: «Поиск парковки может занять 40 минут.»
+
+Мэр Рита Озолиня представила проект у выхода на дюну рядом с концертным залом Дзинтари, где несколько жителей собрались послушать демонстрацию и тут же попросили сделать её чуть тише.
+
+«Много лет наши люди оставались неподготовленными, — сказала Озолиня репортёрам. — Семьи мирно сидели на веранде, уже наполовину доев холодный свекольный суп, когда вдруг появились восемь внедорожников с паддлбордами, и кто-то спросил, где здесь “аутентичное местное место”. Мы поняли, что нам нужна система раннего оповещения, но такая, которая отражает ценности Юрмалы: изящество, осторожность и неодобрение в управляемом звуковом диапазоне.»
+
+По данным муниципалитета, в ясные субботы с мая по август Юрмалу посещает до 23 000 однодневных гостей, причём 71 процент из них, по статистике, с вероятностью скажет: «я как-то почти купил здесь недвижимость». Городские планировщики утверждают, что «Тихая сирена» даёт жителям в среднем 18 минут на выполнение критических защитных действий, включая перенос ротанговой мебели в дом, скрытие хороших мест с лисичками от соцсетей и притворство, что вы не знаете ни одного свободного столика ни в одном ресторане.
+
+Проект обошёлся в €842 000, из которых €610 000 были выделены из регионального гранта ЕС в категории «Адаптивные звуковые ландшафты для климата, мобильности и сезонного эмоционального стресса». Ещё €90 000, как сообщается, потратили на консалтинговое исследование, определявшее, должен ли сигнал звучать более по-скандинавски или более «балтийски, но стремительно». 
+
+Ведущий акустический инженер Мартиньш Берзиньш сказал, что окончательный дизайн появился после 11 месяцев тестирования. «Мы пробовали крики чаек, но жители нашли их слишком прямолинейными. Пробовали шептаную русскую речь, но это вызвало колебания цен на недвижимость. В конце концов мы обнаружили, что самым эффективным предупреждением является звук того, как кто‑то открывает льняное меню и спрашивает, включены ли овсяные флэт-уайты в стоимость номера», — сказал Берзиньш.
+
+Реакция среди жителей в целом положительная. «Я услышала это сегодня утром и сразу поняла: Рига в движении», — сказала давняя жительница Майори Илзе Калниня, сжимая кардиган с невозмутимостью человека, видевшего три эпохи пляжных зонтов. «У меня было достаточно времени пересадить помидоры и стать эмоционально недоступной.»
+
+Не все убеждены. Экологические организации выразили обеспокоенность, что низкочастотная вежливость сирены может сбить с толку ежей, а некоторые предприниматели опасаются, что оповещения отпугнут тех самых посетителей, которые питают местную экономику, покупая одну копчёную рыбу, два кофе и пожизненное негодование по поводу платы за парковку.
+
+Тем не менее чиновники говорят, что пилот уже показал результаты. Во время испытания в выходные система, как сообщается, сократила спонтанное закатывание глаз местными жителями на 34 процента и уменьшила число незапланированных разговоров с мальчишниками из Риги до шести случаев, по сравнению с сезонным средним в 19.
+
+Представители муниципалитета подтвердили, что если программа окажется успешной, аналогичные системы могут появиться и в других местах Латвии, в том числе «Мягкая опора» в Сигулде для туристов за осенними листьями и «Достойный кашель» в центре Риги, обозначающий приближение конвоев электросамокатов.
+
+Когда над пляжем опустился вечер, «Тихая сирена» издала последнее предупреждение — вкусный, почти извиняющийся звон льда в бокале на тонкой ножке. Через несколько минут местные жители задернули шторы, немного отвернулись внутрь себя и приготовились к ещё одному прекрасному летнему дню.`
+    },
+    date: "Jul 3, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/203/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 202,
     slug: "riga-introduces-official-municipal-sigh-to-202",
     title: {
@@ -102,7 +195,7 @@ Vakarā vairāki pasažieri pie Centrālās stacijas jau sāka vingrināties. Da
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/202/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 201,
