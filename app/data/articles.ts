@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 204,
+    slug: "riga-introduces-strategic-silence-hour-to",
+    title: {
+      en: "Riga Introduces ‘Strategic Silence Hour’ To Help Residents Prepare For Conversations With Neighbors",
+      lv: "Rīga ievieš „Stratēģisko klusuma stundu”, lai palīdzētu iedzīvotājiem sagatavoties sarunām ar kaimiņiem",
+      ru: "Рига вводит «Стратегический час тишины», чтобы помочь жителям подготовиться к разговорам с соседями"
+    },
+    excerpt: {
+      en: "In a move officials say will strengthen social resilience, Riga Municipality has approved a daily citywide Strategic Silence Hour from 18:00 to 19:00, during which residents are encouraged to stand near windows and mentally rehearse possible small talk. Authorities say the program will reduce awkward stairwell encounters by 34% and improve national readiness for unexpected eye contact.",
+      lv: "Kā solot stiprināt sociālo noturību, Rīgas dome ir apstiprinājusi ikdienas pilsētas mēroga Stratēģisko klusuma stundu no plkst. 18:00 līdz 19:00, kuras laikā iedzīvotāji tiek aicināti stāvēt pie logiem un mentāli atkārtot iespējamo small talk. Varasiestādes norāda, ka programma samazinās neērtas kāpņu telpas sastapšanās par 34% un uzlabos valsts gatavību negaidītai acu saskarei.",
+      ru: "В попытке, как заявляют чиновники, укрепить социальную устойчивость, муниципалитет Риги утвердил ежедневный городской «Стратегический час тишины» с 18:00 до 19:00, в течение которого жителям рекомендуется стоять у окна и мысленно репетировать возможный светский разговор. По словам властей, программа сократит неловкие встречи в подъездах на 34% и повысит национальную готовность к неожиданному зрительному контакту."
+    },
+    fullContent: {
+      en: `RIGA — In what city leaders are calling a “modest but historically necessary reform,” Riga Municipality on Tuesday unveiled Strategic Silence Hour, a pilot program requiring no actual silence but strongly recommending that residents spend one hour each evening preparing themselves emotionally for casual human interaction.
+
+According to the 47-page policy document, the initiative was developed after a municipal study found that 82% of Riga residents had recently experienced “avoidable conversational distress” after meeting a neighbor in a corridor, courtyard, or Rimi self-checkout area. Another 61% admitted they had chosen to walk an extra block rather than determine whether a passing acquaintance required a nod, a smile, or the more demanding verbal unit known as “Labvakar.”
+
+Deputy Chair for Civic Atmosphere Ilze Straume said the city could no longer ignore what she described as a “low-intensity social emergency.”
+
+“We are not forcing anyone to speak,” Straume told reporters at a press conference held in a room where chairs had been placed a respectful distance apart. “This is about preparedness. A resident who has spent 15 minutes staring thoughtfully into the middle distance is far more likely to survive an unplanned exchange about weather, parking permits, or whether the building association has once again misplaced the basement key.”
+
+Under the program, citizens are advised to stand by a kitchen window, hold a mug they do not intend to drink from, and silently review four approved opening phrases, including “Still cold for April,” “They say roadworks will continue,” and the advanced-level “Interesting what they are doing with that tram line.” For more experienced participants, the city has also released a downloadable worksheet titled Neutral Reactions to Information You Did Not Ask For.
+
+The measure will first be tested in Central District, Āgenskalns, and selected parts of Purvciems judged to have “elevated hallway complexity.” In Jurmala, where social encounters tend to occur while carrying beach chairs, discussing pine pollen, or pretending not to recognize a local businessman in a linen shirt, officials are considering a coastal adaptation known as Reflective Shoreline Pause.
+
+Sociologist Dr. Mārtiņš Veinbergs of the Baltic Institute for Everyday Tension said the policy reflects a maturing understanding of regional communication patterns. “In many countries, speech is seen as spontaneous,” Veinbergs said. “Here, it is more like winter tire installation. One prepares carefully, evaluates conditions, and hopes to avoid unnecessary risk.”
+
+Residents have responded with cautious approval. Zanda Ozoliņa, 39, of Teika, said the policy might have prevented a recent incident in which she accidentally entered a six-minute conversation with her upstairs neighbor after both parties reached the mailboxes at the same time.
+
+“It began with a simple greeting,” Ozoliņa recalled. “Then somehow we were discussing mushroom yields, her nephew’s dentistry studies, and whether the old trolleybus route had moral value. I got home exhausted. If I’d had a preparation hour, I believe I could have limited it to a dignified exchange about drafts in the stairwell.”
+
+Not everyone is convinced. Opposition councillor Andris Lācis criticized the measure as symbolic, arguing that real reform would require clearer national standards for when a person may pretend to be looking for keys. “People need practical tools,” he said. “At present, too many residents are improvising.”
+
+Still, early municipal projections remain optimistic. Officials estimate Strategic Silence Hour could reduce conversational overruns by 22%, shorten average courtyard interactions to 43 seconds, and save up to 11,000 collective hours annually otherwise lost to polite listening.
+
+By Tuesday evening, many residents had already begun unofficial participation, with apartment blocks across the city showing dozens of figures standing motionless behind curtains, calmly preparing for a future in which someone might say, with almost no warning, “Beautiful sunset tonight.”`,
+      lv: `RĪGA — To, ko pilsētas vadība sauc par „mērenu, taču vēsturiski nepieciešamu reformu”, otrdien Rīgas dome prezentēja kā Stratēģisko klusuma stundu — pilotprojektu, kas patiesībā nepieprasa nekādu klusumu, taču stingri iesaka iedzīvotājiem katru vakaru veltīt vienu stundu emocionālai sagatavošanai ikdienišķai cilvēku mijiedarbībai.
+
+Saskaņā ar 47 lappušu politikas dokumentu iniciatīvu izstrādāja pēc tam, kad pašvaldības pētījums konstatēja, ka 82% rīdzinieku nesen piedzīvojuši „izvairāmas sarunu ciešanas”, sastopot kaimiņu koridorā, pagalmā vai Rimi pašapkalpošanās zonā. Vēl 61% atzina, ka izvēlējās noiet papildu kvartālu, nevis lemt, vai garāmgājējam nepieciešams tikai mājiens, smaids vai prasīgāka verbālā vienība, ko sauc par „Labvakar.”
+
+Civiskās atmosfēras vietniece Ilze Straume sacīja, ka pilsēta vairs nevar ignorēt to, ko viņa raksturoja kā „zemas intensitātes sociālo ārkārtas situāciju.”
+
+"Mēs nevienu nespiest runāt," Straume teica žurnālistiem preses konferencē, kas notika telpā, kur krēsli bija izvietoti ar cienīgu distanci. "Tas ir par gatavību. Iedzīvotājs, kurš 15 minūtes domīgi skatās tālumā, ir daudz lielākas izredzes izdzīvot neplānotu sarunu par laiku, autostāvvietu atļaujām vai to, vai namu pārvalde atkal nav pazaudējusi pagraba atslēgu."
+
+Saskaņā ar programmu pilsoņiem ieteicams stāvēt pie virtuves loga, turēt krūzi, no kuras neplāno dzert, un klusējot atkārtot četras apstiprinātas iepazīšanās frāzes, tostarp „Joprojām auksti aprīlim”, „Saka, ka ceļu remonti turpinās” un augstākas pakāpes „Interesanti, ko viņi dara ar to tramvaja līniju.” Pieredzējušākiem dalībniekiem pilsēta publisko arī lejupielādējamu darba lapu ar nosaukumu Neitrālas reakcijas uz informāciju, ko nevaicājāt.
+
+Pasākumu vispirms izmēģinās Centra rajonā, Āgenskalnā un atlasītās Purvciema daļās, kur konstatēta „paaugstināta koridora sarežģītība.” Jūrmalā, kur sociālie kontaktu brīži mēdz notikt, nēsājot pludmales krēslus, runājot par priežu ziedputekšņiem vai izlikties, ka neatzīst vietējo uzņēmēju ar lina kreklu, amatpersonas apsver piekrastes pielāgojumu, ko sauc par Reflektīvo piekrastes pauzi.
+
+Sociologs Dr. Mārtiņš Veinbergs no Baltijas ikdienas spriedzes institūta sacīja, ka politika atspoguļo nobriedušu izpratni par reģiona komunikācijas modeļiem. „Daudzās valstīs runas tiek uzskatītas par spontānām,” teica Veinbergs. „Šeit tas vairāk līdzinās ziemas riepu uzlikšanai. Cilvēks rūpīgi gatavojas, izvērtē apstākļus un cer izvairīties no nevajadzīga riska.”
+
+Iedzīvotāji reaģējuši ar piesardzīgu piekrišanu. Teikas iedzīvotāja Zanda Ozoliņa, 39, sacīja, ka politika varēja novērst nesenu incidentu, kurā viņa nejauši iesaistījās sešas minūtes ilgā sarunā ar augšstāva kaimiņieni, kad abi aizgāja pie pastkastītēm vienlaikus.
+
+"Tas sāka ar vienkāršu sveicienu," Ozoliņa atcerējās. "Tad kaut kā saruna aizgāja par sēņu ražu, viņas brāļa zobārstniecības studijām un par to, vai vecajai trolejbusu maršrutam ir kāda morāla vērtība. Es mājās nonācu izsmelta. Ja man būtu bijusi sagatavošanās stunda, es uzskatu, ka būtu varējusi to ierobežot līdz cienīgam apmaiņas brīdim par aukstajiem vējiem kāpņu telpā."
+
+Ne visi ir pārliecināti. Opozīcijas deputāts Andris Lācis kritizēja pasākumu kā simbolisku, apgalvojot, ka īstai reformai būtu vajadzīgi skaidrāki nacionālie standarti par to, kad cilvēks drīkst izrādīties, ka meklē atslēgas. "Cilvēkiem vajag praktiskus rīkus," viņš sacīja. "Pašlaik pārāk daudzi iedzīvotāji improvizē."
+
+Tomēr pašvaldības agrīnās prognozes paliek optimistiskas. Amatpersonas lēš, ka Stratēģiskā klusuma stunda var samazināt sarunu pāraugšanas par 22%, saīsināt vidējo pagalma mijiedarbību līdz 43 sekundēm un glābt līdz 11 000 kopīgām stundām gadā, kas citādi tiktu zaudētas laipnai klausīšanās.
+
+Līdz otrdienas vakaram daudzi iedzīvotāji jau bija sākuši neoficiāli piedalīties: daudzdzīvokļu namu logos bija redzami desmitiem figūru, kas stāvēja bez kustības aiz aizkariem, mierīgi gatavojoties nākotnei, kurā kāds gandrīz bez brīdinājuma varētu teikt: „Skaists saulriets šovakar.”`,
+      ru: `РИГА — В том, что городские власти называют «скромной, но исторически необходимой реформой», муниципалитет Риги во вторник представил «Стратегический час тишины» — пилотную программу, которая на деле не требует реальной тишины, но настоятельно рекомендует жителям уделять по одному часу каждый вечер эмоциональной подготовке к случайному человеческому общению.
+
+Согласно 47-страничному документу политики, инициатива была разработана после муниципального исследования, показавшего, что 82% жителей Риги недавно испытывали «избежимую разговорную дистрессию» после встречи с соседом в коридоре, дворе или у кассы самообслуживания Rimi. Ещё 61% признались, что предпочли пройти лишний квартал, вместо того чтобы решать, требует ли мимолётный знакомый кивания, улыбки или более требовательной вербальной единицы, известной как «Labvakar».
+
+Заместитель председателя по гражданской атмосфере Илзе Страуме заявила, что город больше не может игнорировать то, что она описала как «социальную чрезвычайную ситуацию низкой интенсивности».
+
+«Мы никого не заставляем говорить», — сказала Страуме журналистам на пресс‑конференции, проходившей в зале, где стулья стояли на уважительном расстоянии друг от друга. — «Речь идёт о подготовке. Житель, который провёл 15 минут, задумчиво глядя в никуда, гораздо более вероятно выдержит незапланированный обмен мнениями о погоде, парковочных разрешениях или о том, не потеряла ли снова правление дома ключ от подвала». 
+
+В рамках программы гражданам советуют встать у кухонного окна, взять в руки кружку, из которой не собираются пить, и молча повторить четыре одобренные фразы для начала разговора, включая «Всё ещё холодно для апреля», «Говорят, дорожные работы будут продолжаться» и продвинутую «Интересно, что они делают с той трамвайной линией». Для более опытных участников город также выпустил загружаемый рабочий лист под названием «Нейтральные реакции на информацию, которую вы не просили». 
+
+Мера будет сначала опробована в Центральном районе, Āgenskalns и в отдельных районах Purvciems, признанных имеющими «повышенную сложность подъездов». В Юрмале, где социальные столкновения чаще происходят во время переноски пляжных кресел, обсуждения пыльцы сосны или при преднамеренном непризнании местного бизнесмена в льняной рубашке, чиновники рассматривают прибрежную адаптацию, известную как «Размышлительная прибрежная пауза». 
+
+Социолог д-р Мārtiņš Veinbergs из Балтийского института повседневной напряжённости сказал, что политика отражает созревшее понимание региональных коммуникационных паттернов. «Во многих странах речь считается спонтанной, — сказал Вейнбергс. — Здесь же это больше похоже на установку зимней резины. Готовятся тщательно, оценивают условия и надеются избежать ненужного риска». 
+
+Жители отнеслись к инициативе с осторожным одобрением. Занда Озолиня, 39 лет, из Тейки, сказала, что политика, возможно, предотвратила бы недавний инцидент, в котором она случайно вступила в шестиминутный разговор с соседом с верхнего этажа, когда оба подошли к почтовым ящикам одновременно. 
+
+«Всё началось с простого приветствия», — вспомнила Озолиня. — «Потом как‑то мы обсуждали урожай грибов, стоматологические занятия её племянника и имела ли моральную ценность старая троллейбусная ветка. Я вернулась домой выжатой. Если бы у меня был час подготовки, я, думаю, смогла бы ограничиться достойным обменом мнениями о сквозняках в подъезде». 
+
+Не все убеждены. Оппозиционный депутат Андрис Лачис раскритиковал меру как символическую, утверждая, что настоящая реформа потребовала бы более ясных национальных стандартов относительно того, когда человек может притвориться, что ищет ключи. «Людям нужны практические инструменты, — сказал он. — В настоящее время слишком многие жители импровизируют». 
+
+Тем не менее первые муниципальные прогнозы остаются оптимистичными. По оценкам чиновников, «Стратегический час тишины» может сократить превышение времени разговоров на 22%, сократить среднюю длительность дворовых взаимодействий до 43 секунд и сэкономить до 11 000 коллективных часов в год, иначе потерянных на вежливое слушание. 
+
+К вечеру вторника многие жители уже начали неофициально участвовать: по всему городу в окнах многоквартирных домов стали появляться десятки фигур, неподвижно стоящих за занавесками и спокойно готовящихся к будущему, в котором кто‑то может, почти без предупреждения, сказать: «Красивый закат сегодня».`
+    },
+    date: "Jul 4, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/204/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 203,
     slug: "jrmala-introduces-quiet-siren-to-warn-203",
     title: {
@@ -108,7 +201,7 @@ Vakaram krītot pār pludmali, Klusā sirēna izdeva vēl vienu pēdējo brīdin
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/203/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 202,
