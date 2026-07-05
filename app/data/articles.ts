@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 205,
+    slug: "riga-introduces-passive-aggressive-silence-zones-205",
+    title: {
+      en: "Riga Introduces ‘Passive-Aggressive Silence Zones’ on Public Transport to Preserve National Heritage",
+      lv: "Rīga ievieš 'pasīvi agresīvās klusuma zonas' sabiedriskajā transportā, lai saglabātu nacionālo mantojumu",
+      ru: "Рига вводит «зоны пассивно-агрессивного молчания» в общественном транспорте для сохранения национального наследия"
+    },
+    excerpt: {
+      en: "In what officials are calling a major victory for cultural preservation, Riga has designated special “Passive-Aggressive Silence Zones” on trams, trolleybuses, and selected regional buses. The initiative aims to protect the traditional Baltic practice of expressing mild disapproval through extended quietness, pointed window-staring, and one loud sigh every four stops.",
+      lv: "Amatpersonas to sauc par lielu uzvaru kultūras saglabāšanā — Rīga ir izveidojusi īpašas “pasīvi agresīvās klusuma zonas” tramvajos, trolejbusos un atlasītos reģionālajos autobusos. Iniciatīvas mērķis ir pasargāt tradicionālo Baltijas praksi izteikt maigu neapmierinātību caur ilgstošu klusumu, mērķtiecīgu skatienu pa logu un vienu skaļu nopūtu ik pēc četriem pieturpunktiem.",
+      ru: "В том, что чиновники называют крупной победой в области сохранения культуры, Рига выделила специальные «зоны пассивно-агрессивного молчания» в трамваях, троллейбусах и на отдельных областных автобусах. Инициатива призвана защитить традиционную балтийскую практику выражать лёгкое неодобрение посредством продолжительного молчания, целенаправленного смотрения в окно и одного громкого вздоха каждые четыре остановки."
+    },
+    fullContent: {
+      en: `RIGA — Beginning Monday, passengers on Riga’s public transport network will be able to travel in newly marked “Passive-Aggressive Silence Zones,” a municipal program designed to safeguard what city leaders describe as “one of Latvia’s most vulnerable yet enduring forms of social communication.”
+
+The pilot scheme, approved by the Riga City Council in a 38–17 vote after three hours of restrained muttering, applies to the middle section of 27 trams, 14 trolleybuses, and one emotionally difficult minibus to Ķengarags. Inside the zones, riders are asked to avoid loud conversations, cheerful greetings, and “needless expressions of optimism,” while preserving accepted native behaviors such as clutching a tote bag defensively, staring at passing kiosks with private disappointment, and audibly exhaling when someone boards with a backpack.
+
+Deputy Chair for Mobility and Cultural Memory Ilze Priedīte said the policy is not about limiting personal freedom, but about ensuring future generations experience authentic urban discomfort in a controlled setting.
+
+“For years we have watched imported habits threaten our local traditions,” Priedīte said at a press conference held beside a route 6 tram where no one made eye contact. “People are smiling on buses now. Some are even discussing weekend plans in full sentences. If we do nothing, by 2030 Riga risks becoming emotionally legible.”
+
+According to a 47-page report commissioned by the municipality and prepared by the Institute for Applied Reservedness, unstructured silence in public spaces has declined by 18% in central Riga since 2019, while unnecessary friendliness has risen sharply near renovated cafés and anywhere selling pistachio croissants. The same report found that 63% of residents over 45 could distinguish between seven categories of disapproving silence, compared with just 22% of respondents aged 18 to 24.
+
+“That is a catastrophic collapse in transmission,” warned lead researcher Dr. Mārtiņš Svilāns. “Young people still understand basic silence, of course. But nuanced forms — like the silence meaning ‘I saw you sit before the elderly woman but I’m too culturally exhausted to intervene’ — are disappearing.”
+
+To standardize practice, new signage will indicate acceptable conduct with pictograms showing a frowning commuter, crossed arms, and a phone set permanently to headphones mode. A silver-level violation, such as laughing above a conversational murmur, may result in a warning from the driver. Gold-level breaches — including FaceTiming in Russian beachwear or asking strangers if this seat is free when several clearly are — could lead to relocation to the “Expressive Carriage,” a prototype section currently being tested on weekend services to Jūrmala.
+
+Reaction among passengers has been cautiously approving, though not in a way that invited follow-up questions. “It’s good,” said 58-year-old accountant Andris Ozoliņš, after a long pause. “Sometimes a person wants to ride 23 minutes in complete psychological weather. Not everybody needs to hear that someone’s nephew is learning paddle tennis.”
+
+Not all residents support the measure. Exchange student Clara Meunier of Lyon said she accidentally entered a Silence Zone on tram 11 and spent six stops believing she had committed an unforgivable crime. “A man looked at me, then at my reusable coffee cup, then out the window as if history had failed him,” she said. “I have never felt so specifically unwelcome.”
+
+Despite criticism, city officials say the program could expand if successful. Early proposals include “Ceremonial Queue Tension Corridors” at supermarkets and a protected heritage district in central Riga where residents can continue pretending not to recognize acquaintances from 30 meters away.
+
+At publication time, Tallinn had already praised the initiative as “interesting, but a bit loud,” while Vilnius announced plans for its own transport reform centered on strategic eyebrow movement.`,
+      lv: `RĪGA — No pirmdienas Rīgas sabiedriskā transporta pasažieri varēs ceļot pa jaunām marķētām “pasīvi agresīvām klusuma zonām” — pašvaldības programmu, kas izstrādāta, lai sargātu to, ko pilsētas vadītāji raksturo kā “vienu no Latvijas visneaizsargātākajām, tomēr noturīgākajām sociālās komunikācijas formām.”
+
+Pārbaudes shēma, ko Rīgas dome apstiprināja ar 38–17 balsojumu pēc trim stundu ilgām piesardzīgām murmināšanām, attiecas uz 27 tramvaju, 14 trolejbusu un viena uz Ķengaragu kursējoša emocionāli sarežģīta mikroautobusa vidusdaļām. Zonu iekšienē pasažieriem lūgts izvairīties no skaļām sarunām, priecīgām sveicināšanām un “nevajadzīgiem optimisma izpaudumiem”, vienlaikus saglabājot pieņemamu vietējo uzvedību, piemēram, aizsargājoši satvert auduma maisiņu, ar privātu vilšanos skatīties uz garāmbraucošajiem kioskiem un skaļi izelpot, kad kāds iekāpj ar mugursomu.
+
+Mobilitātes un kultūras atmiņas vietniece Ilze Priedīte skaidroja, ka politikas mērķis nav ierobežot personisko brīvību, bet gan nodrošināt, ka nākamās paaudzes var pieredzēt autentisku pilsētas neērtsajūtu kontrolētā vidē.
+
+„Gadu gaitā mēs esam vērojuši, kā ievestas paražas apdraud mūsu vietējās tradīcijas,” Priedīte sacīja preses konferencē blakus 6. maršruta tramvajam, kur neviens neskatījās viens otram acīs. „Cilvēki tagad autobusos smaida. Daži pat pilnās teikumos apspriež nedēļas nogales plānus. Ja mēs neko nedarīsim, līdz 2030. gadam Rīga riskē kļūt emocionāli salasāma.”
+
+Pēc pašvaldības pasūtītā 47 lappušu ziņojuma, ko sagatavoja Pielietotās atturības institūts, neformēts klusums publiskajās vietās centrālajā Rīgā kopš 2019. gada ir samazinājies par 18%, savukārt nevajadzīga draudzīguma izpausmes ievērojami pieaugušas pie renovētiem kafejnīcu logiem un visur, kur pārdod pistāciju kruasānus. Tajā pašā ziņojumā konstatēts, ka 63% iedzīvotāju vecumā virs 45 gadiem spēj atšķirt septiņas neapmierinātas klusuma kategorijas, salīdzinot ar tikai 22% 18–24 gadus veco respondentu.
+
+„Tas ir katastrofāls pārmantošanas sabrukums,” brīdināja vadošais pētnieks Dr. Mārtiņš Svilāns. „Jaunie tomēr saprot pamata klusumu, protams. Bet niansētākas formas — piemēram, klusums, kas nozīmē 'es redzēju, ka tu apsēdies pirms vecākas sievietes, bet es esmu pārāk kultūras noguris, lai iejauktos' — pazūd.”
+
+Lai standartizētu praksi, jaunas zīmes norādīs pieņemamu uzvedību ar piktogrammām, kur redzams nolādēts pasažieris, sakrustotas rokas un telefons pastāvīgi iestatīts uz austiņu režīmu. Sudraba līmeņa pārkāpums, piemēram, smiekli virs sarunu murmulējuma, var izraisīt vadītāja brīdinājumu. Zelta līmeņa pārkāpumi — tostarp FaceTime zvans krievu pludmales kostīmā vai svešinieka jautāšana, vai šis sēdeklis ir brīvs, kad skaidri redzams, ka vairāki ir — var novest pie pārvietošanas uz „Ekspresīvo vagonu”, prototipa sadaļu, kas pašlaik tiek izmēģināta nedēļas nogales reisos uz Jūrmalu.
+
+Pasažieru reakcijas bijušas piesardzīgi atbalstošas, kaut arī ne tādā veidā, kas mudinātu uz papildjautājumiem. „Tas ir labi,” pēc gariem klusuma brīžiem teica 58 gadus vecais grāmatvedis Andris Ozoliņš. „Reizēm cilvēks grib nobraukt 23 minūtes pilnīgā psiholoģiskā laikapstākļā. Ne katram ir jādzird, ka kāda brālēns mācas spēlēt paddle tenisu.”
+
+Ne visi iedzīvotāji atbalsta šo pasākumu. Apmaiņas studente Klāra Mēnijē no Lionas stāstīja, ka viņa nejauši iekļuvusi Klusuma zonā 11. tramvajā un sešas pieturas domājusi, ka ir izdarījusi neattaisnojamu noziegumu. „Vīrietis paskatījās uz mani, tad uz manu atkārtoti lietojamo kafijas krūzi, tad ārā pa logu tā, it kā vēsture būtu viņu pievīlusi,” viņa sacīja. „Esmu nekad nejutusies tik specifiski nevēlama.”
+
+Neskatoties uz kritiku, pilsētas amatpersonas saka, ka programma var tikt paplašināta, ja tā izrādīsies veiksmīga. Agrīnie priekšlikumi ietver „ceremoniālos rindas spriedzes koridorus” lielveikalos un aizsargātu mantojuma rajonu Rīgas centrā, kur iedzīvotāji var turpināt tēlot, ka nepazīst paziņas no 30 metru attāluma.
+
+Raksta publicēšanas brīdī Tallina jau bija atzinusi iniciatīvu par „interesantu, bet nedaudz skaļu”, savukārt Viļņa paziņoja plānus savā transporta reformā koncentrēties uz stratēģisku uzacu kustību.`,
+      ru: `РИГА — С понедельника пассажиры рижского общественного транспорта смогут ездить по недавно обозначенным «зонам пассивно-агрессивного молчания», муниципальной программе, разработанной для защиты того, что городские власти описывают как «одну из самых уязвимых, но стойких форм социального общения Латвии». 
+
+Пилотная схема, одобренная Рижской городской думой голосами 38–17 после трёх часов сдержанного бормотания, распространяется на средние секции 27 трамваев, 14 троллейбусов и одного эмоционально тяжёлого микроавтобуса до Ķengarags. Внутри зон пассажирам просят избегать громких разговоров, радостных приветствий и «лишних проявлений оптимизма», одновременно сохраняя принятые местные привычки, такие как цепко держать сумку-тоут, пялиться на проезжающие киоски с личным разочарованием и громко выдыхать, когда в салон садится человек с рюкзаком. 
+
+Заместитель председателя по мобильности и культурной памяти Илзе Приедите (Ilze Priedīte) заявила, что политика не направлена на ограничение личной свободы, а на то, чтобы будущие поколения могли в контролируемых условиях испытать аутентичный городской дискомфорт. 
+
+«Годы мы наблюдали, как привнесённые извне привычки угрожают нашим локальным традициям», — сказала Приедите на пресс‑конференции у трамвая маршрута 6, где никто не смотрел собеседнику в глаза. «Люди теперь улыбаются в автобусах. Некоторые даже обсуждают планы на выходные полными предложениями. Если мы ничего не сделаем, к 2030 году Рига рискует стать эмоционально читаемой». 
+
+Согласно 47-страничному докладу, заказанному муниципалитетом и подготовленному Институтом прикладной сдержанности, неструктурированное молчание в общественных местах сократилось в центральной Риге на 18% с 2019 года, в то время как необоснованная дружелюбность резко выросла возле отремонтированных кафе и везде, где продают фисташковые круассаны. В том же докладе говорится, что 63% жителей старше 45 лет способны различать семь категорий неодобрительного молчания, тогда как среди опрошенных в возрасте от 18 до 24 лет таких всего 22%. 
+
+«Это катастрофический провал в передаче традиций», — предупредил ведущий исследователь д-р Мартиньш Свиланс (Dr. Mārtiņš Svilāns). «Молодые люди, конечно, по‑прежнему понимают базовое молчание. Но тонкие формы — например молчание, означающее „я видел(а), что ты сел раньше пожилой женщины, но я слишком культурно истощён(а), чтобы вмешаться“ — исчезают». 
+
+Чтобы стандартизировать практику, новые таблички будут указывать приемлемое поведение с помощью пиктограмм, изображающих хмурого пассажира, скрещённые руки и телефон, постоянно находящийся в режиме наушников. Нарушение серебряного уровня, например смех громче обычного разговора, может повлечь предупреждение от водителя. Золотые нарушения — включая звонки по FaceTime в пляжной одежде в российском стиле или вопросы незнакомцам «это место свободно?», когда ясно, что свободных мест предостаточно — могут привести к переселению в «Экспрессивный вагон», прототип которого в настоящее время тестируют на выходных рейсах до Юрмалы (Jūrmala). 
+
+Реакция пассажиров была сдержанно одобрительной, но так, чтобы не вызывать лишних вопросов. «Хорошо», — сказал 58‑летний бухгалтер Андрис Озолиньш после долгой паузы. «Иногда человек хочет проехать 23 минуты в полной психологической погоде. Не всем нужно слышать, что чей‑то племянник осваивает паддл‑теннис». 
+
+Не все жители поддержали меру. Стажёрка по обмену Клара Мёнье из Лиона рассказала, что случайно вошла в зону молчания в трамвае №11 и провела шесть остановок в убеждении, что совершила непростительный поступок. «Мужчина посмотрел на меня, затем на мою многоразовую кружку для кофе, затем в окно, как будто история его подводит», — сказала она. «Я никогда не чувствовала себя настолько конкретно нежелательной». 
+
+Несмотря на критику, городские власти заявляют, что программу можно расширить в случае успеха. Среди ранних предложений — «церемониальные коридоры напряжённой очереди» в супермаркетах и охраняемый район наследия в центре Риги, где жители смогут продолжать делать вид, что не узнают знакомых с 30 метров. 
+
+На момент выхода материала Таллин уже похвалил инициативу как «интересную, но чуть громкую», в то время как Вильнюс объявил о планах собственной транспортной реформы, сосредоточенной на стратегических движениях бровей.`
+    },
+    date: "Jul 5, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/205/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 204,
     slug: "riga-introduces-strategic-silence-hour-to",
     title: {
@@ -108,7 +195,7 @@ Līdz otrdienas vakaram daudzi iedzīvotāji jau bija sākuši neoficiāli pieda
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/204/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 203,
