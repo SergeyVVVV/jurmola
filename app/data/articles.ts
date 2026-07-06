@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 206,
+    slug: "riga-introduces-official-municipal-sigh-to-206",
+    title: {
+      en: "Riga Introduces Official Municipal Sigh to Replace Outdated Bus Announcements",
+      lv: "Rīga ievieš oficiālu pašvaldības nopūtu, lai aizstātu novecojušos pieturu paziņojumus",
+      ru: "Рига вводит официальный муниципальный вздох вместо устаревших автобусных объявлений"
+    },
+    excerpt: {
+      en: "In a move city officials say reflects “the authentic emotional frequency of public transport,” Riga has begun replacing automated stop announcements with a single professionally recorded municipal sigh. Authorities insist the pilot program will improve commuter morale by acknowledging, rather than solving, daily inconvenience.",
+      lv: "Kā pilsētas amatpersonas saka — lai atspoguļotu „sabiedriskā transporta autentisko emocionālo frekvenci” — Rīga sākusi aizvietot automātiskos pieturu paziņojumus ar vienu profesionāli ierakstītu pašvaldības nopūtu. Varas iestādes apgalvo, ka pilotprojekts uzlabos pasažieru morāli, atzīstot ikdienas neērtības, nevis tās risinot.",
+      ru: "В стремлении отразить «аутентическую эмоциональную частоту общественного транспорта» власти Риги начали заменять автоматические объявления остановок одним профессионально записанным муниципальным вздохом. Чиновники уверяют, что пилотный проект повысит мораль пассажиров, признавая, а не устраняя ежедневные неудобства."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Transport Authority on Tuesday unveiled a new initiative to modernize public transit communication by replacing spoken stop announcements on selected buses and trams with what officials are calling the Official Municipal Sigh, a three-second exhalation intended to communicate “location, mood, and civic realism” more efficiently than language.
+
+The pilot program, introduced on routes 3, 11, and 54 as well as the tram line serving Central Market, follows an 18-month feasibility study conducted by the Institute for Applied Regional Atmosphere, a small but fully funded policy center located above a dental clinic in Teika. According to the 74-page report, 63% of passengers already identify their stop primarily through “intuition, dampness, and the angle at which another passenger suddenly stands up.”
+
+“Traditional announcements create the false expectation that the city is prepared to explain itself,” said transport authority spokesperson Elīna Vāvere during a press conference held beside a bus whose heating was either fully operational or entirely symbolic. “The sigh is multilingual, inclusive, and deeply familiar to everyone who has tried to cross Riga by 8:40 in the morning.”
+
+The recording was performed by Juris Beķeris, a 52-year-old former theater actor selected after an open audition drew 412 candidates from across Latvia, including one retired school principal from Cēsis described by judges as “technically excellent but too hopeful.” Beķeris’ final sigh was chosen for its “moderate disappointment, municipal depth, and faint undertone of wet wool.”
+
+Passengers have reported mixed but unusually emotional reactions. “At first I thought the driver had seen the roadworks ahead,” said office administrator Linda Ozoliņa, waiting for the number 11 near Grīziņkalns. “But after the third stop, I realized the sound was the announcement. Honestly, it felt more accurate than the old system. I didn’t know where I was, but for the first time I felt understood.”
+
+Under the new protocol, shorter sighs indicate neighborhood stops, while a longer, slightly nasal variation signals major interchanges or areas where passengers are encouraged to reconsider previous life decisions. During transfers to rail services, the sigh is followed by a soft chime and what documents describe as “a respectful pause for acceptance.”
+
+Municipal data suggests the program may already be delivering results. In the first week of testing, complaints about inaudible announcements fell by 100%, largely because there were no words to mishear. Passenger confusion rose 14%, but satisfaction in post-journey surveys increased by 22%, especially among respondents over 40 who described the new system as “finally honest.”
+
+The idea has drawn international interest. Delegations from Vilnius and Tallinn are expected in Riga later this month to observe the system in operation, though Tallinn officials have privately expressed concern that their residents may find the sigh “too emotionally extroverted.”
+
+Not everyone is convinced. The Latvian Association for Clear Information issued a statement warning that public infrastructure should remain “comprehensible, even in the Baltics.” Meanwhile, opposition councillor Mārtiņš Feldmanis called the rollout “another example of symbolic governance,” before conceding that he had accidentally missed his stop and “could not entirely blame the concept.”
+
+City leaders say the trial will continue through November, with possible future expansions including a municipal shrug for train delays and a low, resigned hum for parking policy updates. If approved, officials say Riga could become the first European capital to standardize emotional ambiguity as a transit language.
+
+As evening commuters boarded a rain-flecked tram near the Daugava, the new audio system released its now-signature breath into the carriage. No one smiled, exactly. But several passengers nodded, as if to say the city, at last, had found the correct tone.`,
+      lv: `RĪGA — Rīgas pilsētas transporta pārvalde otrdien atklāja jaunu iniciatīvu sabiedriskā transporta komunikācijas modernizēšanai, aizstājot runātos pieturu paziņojumus izvēlētajos autobusos un tramvajos ar to, ko amatpersonas dēvē par Oficiālo pašvaldības nopūtu — trīs sekunžu izelpu, kas paredzēta, lai efektīvāk nekā valoda nodotu «vietu, noskaņojumu un pilsonisko reālismu». 
+
+Pilotprogramma, kas ieviesta maršrutos 3, 11 un 54, kā arī tramvaja līnijā, kas apkalpo Centrāltirgu, seko 18 mēnešus ilgai dzīvotspējas izpētei, ko veica Pielietotās reģionālās atmosfēras institūts — mazs, bet pilnībā finansēts politikas centrs Teikā, virs zobārstniecības klīnikas. Saskaņā ar 74 lappušu ziņojumu 63% pasažieru jau tagad savu pieturu nosaka galvenokārt pēc „intuīcijas, drēgnuma un leņķa, kādā cits pasažieris pēkšņi pieceļas”.
+
+"Tradicionālie paziņojumi rada nepareizu cerību, ka pilsēta ir gatava sevi izskaidrot," preses konferencē pie autobusa, kura apkure bija vai nu pilnībā darboties spējīga, vai pilnīgi simboliska, sacīja pārvaldes pārstāve Elīna Vāvere. "Nopūta ir daudzvalodīga, iekļaujoša un dziļi pazīstama katram, kurš mēģinājis šķērsot Rīgu līdz plkst. 8:40." 
+
+Ierakstu veica 52 gadus vecais bijušais teātra aktieris Juris Beķeris, kuru atlasīja pēc atklātas atlases, kurā piedalījās 412 pretendenti no visas Latvijas, tostarp viens pensijā aizgājis Cēsu skolas direktors, ko žūrija raksturoja kā "tehniski izcilu, bet pārāk cerīgu." Beķeŗa galīgā nopūta tika izvēlēta par "mērenu vilšanos, pašvaldības dziļumu un vieglu mitras vilnas apakštoni." 
+
+Pasažieri ziņo par jauktām, taču neparasti emocionālām reakcijām. "Sākumā domāju, ka šoferis pamanījis priekšā esošos ceļa remontdarbus," sacīja ofisa administratore Linda Ozoliņa, gaidot 11. trolejbusu pie Grīziņkalna. "Bet pēc trešās pieturas sapratu, ka tā ir paziņojuma skaņa. Godīgi sakot, tas šķita precīzāk nekā vecā sistēma. Es nezināju, kur atrodos, bet pirmoreiz jutos saprasta."
+
+Saskaņā ar jauno protokolu īsākas nopūtas nozīmē vietējās kvartāla pieturas, kamēr garāka, nedaudz degunīga variācija signalizē par lielākām pārsēšanās vietām vai apgabaliem, kuros pasažieri tiek iedrošināti pārdomāt iepriekšējās dzīves izvēles. Pārejot uz dzelzceļa pakalpojumiem, nopūtai seko klusa zvaniņa skaņa un tas, ko dokumenti apraksta kā "cieņpilnu pauzi pieņemšanai." 
+
+Pašvaldības dati liecina, ka programma, iespējams, jau sniedz rezultātus. Pirmajā testēšanas nedēļā sūdzības par nesaprotamiem paziņojumiem saruka par 100%, lielākoties tāpēc, ka nebija vārdu, ko nepareizi sadzirdēt. Pasažieru apjukums pieauga par 14%, bet apmierinātība pēc brauciena aptaujās palielinājās par 22%, it īpaši respondentu virs 40 gadu vecuma vidū, kuri jauno sistēmu raksturoja kā "beidzot godīgu." 
+
+Ideja izraisījusi starptautisku interesi. Later šomēnes no Viļņas un Tallinas gaidāmas delegācijas, lai vērotu sistēmas darbību Rīgā, lai gan Tallinas amatpersonas privāti izteikušas bažas, ka viņu iedzīvotāji nopūtu varētu uzskatīt par "pārāk emocionāli ekstravertētu." 
+
+Ne visi ir pārliecināti. "Latvijas Asociācija par Skaidru Informāciju" izdeva paziņojumu, brīdinot, ka publiskajai infrastruktūrai jāpaliek "saprotamai, pat Baltijā." Tikmēr opozīcijas deputāts Mārtiņš Feldmanis jauninājumu nodēvēja par "vēl vienu simboliskas pārvaldības piemēru", pirms atzina, ka nejauši nokavējis savu pieturu un "nevar pilnībā vainot koncepciju." 
+
+Pilsētas vadība saka, ka izmēģinājums turpināsies līdz novembrim, ar iespējamiem turpmākiem paplašinājumiem, tostarp pašvaldības plecu pakratīšanu vilcienu kavējumu gadījumos un zemu, samierinātu murmulīti par stāvvietu politikas atjauninājumiem. Ja tas tiks apstiprināts, amatpersonas apgalvo, Rīga varētu kļūt par pirmo Eiropas galvaspilsētu, kas standartizē emocionālo divnozīmību kā satiksmes valodu. 
+
+Vakara pasažieri kāpa lietus pilinātu tramvaju pie Daugavas, un jaunā audio sistēma izlaida savu nu jau paraksturojošo ieelpu vagonā. Neviens gluži nesmaidīja. Taču vairāki pasažieri pamāja ar galvu, it kā sakot, ka pilsēta beidzot atradusi pareizo toni.`,
+      ru: `РИГА — Во вторник Управление транспорта города Риги представило новую инициативу по модернизации коммуникации в общественном транспорте: на выбранных автобусах и трамваях устные объявления остановок заменят тем, что чиновники называют "Официальным муниципальным вздохом" — трёхсекундным выдохом, призванным эффективнее, чем слово, передавать "местоположение, настроение и гражданский реализм".
+
+Пилотный проект, запущенный на маршрутах 3, 11 и 54, а также на трамвайной линии, обслуживающей Центральный рынок, стал результатом 18-месячного исследования осуществимости, проведённого Институтом прикладной региональной атмосферы — небольшим, но полностью финансируемым аналитическим центром, расположенным над стоматологической клиникой в Тейке. Согласно 74-страничному докладу, 63% пассажиров уже определяют свою остановку главным образом по "интуиции, влажности и углу, под которым внезапно встаёт другой пассажир".
+
+"Традиционные объявления создают ложное ожидание, что город готов себя объяснять", — заявила пресс-секретарь управления транспорта Элина Вавере на пресс-конференции у автобуса, чьё отопление было либо полностью исправно, либо чисто символическое. "Вздох многоязычен, инклюзивен и глубоко знаком всем, кто пытался пересечь Ригу к 8:40 утра."
+
+Запись выполнил Юрис Бекерис, 52-летний бывший театральный актёр, выбранный после открытого прослушивания, на которое пришли 412 кандидатов со всей Латвии, включая одного отставного директора школы из Цесиса, которого судьи описали как «технически превосходного, но слишком надеющегося». Финальный вариант вздоха Бекериса был выбран за "умеренное разочарование, муниципальную глубину и лёгкий оттенок мокрой шерсти".
+
+Реакции пассажиров оказались смешанными, но необычайно эмоциональными. "Сначала я подумала, что водитель увидел дорожные работы вперёдии," — сказала офисный администратор Линда Озолиня, ожидая номер 11 возле Гризинькалнса. "Но к третьей остановке я поняла, что это и есть объявление. Честно говоря, это казалось точнее старой системы. Я не знала, где нахожусь, но впервые почувствовала, что меня понимают."
+
+По новому протоколу короткие вздохи обозначают районные остановки, тогда как более длинная, слегка носовая вариация сигнализирует о крупных пересадках или зонах, где пассажирам рекомендуется пересмотреть прежние жизненные решения. При пересадках на железнодорожные сервисы за вздохом следует мягкий звонок и то, что документы описывают как "уважительную паузу для принятия".
+
+Муниципальные данные свидетельствуют, что программа уже даёт результаты. За первую неделю тестирования жалобы на неразборчивые объявления упали на 100% — в основном потому, что слов попросту не было, чтобы их неправильно понять. Недоумение пассажиров выросло на 14%, но удовлетворённость по итогам поездки в опросах увеличилась на 22%, особенно среди респондентов старше 40 лет, которые охарактеризовали новую систему как "наконец-то честную".
+
+Идея вызвала международный интерес. Делегации из Вильнюса и Таллина ожидаются в Риге позже в этом месяце, чтобы понаблюдать за системой в действии, хотя представители Таллина в частном порядке выразили опасение, что их жители сочтут вздох "слишком эмоционально экспансивным".
+
+Не все убеждены. Латвийская Ассоциация за ясную информацию выпустила заявление, предупредив, что общественная инфраструктура должна оставаться "понятной, даже в Прибалтике". Тем временем оппозиционный советник Мартиньш Фельдманис назвал внедрение "ещё одним примером символического управления", прежде чем признался, что случайно пропустил свою остановку и "не мог полностью винить концепцию".
+
+Городские власти заявляют, что испытания продолжатся до ноября, с возможными будущими расширениями, включающими муниципальную пожимку плечами при задержках поездов и низкое, смиренное гудение при обновлениях парковочной политики. В случае одобрения, по словам чиновников, Рига может стать первой европейской столицей, стандартизировавшей эмоциональную неоднозначность как язык транспорта.
+
+Когда вечерние пассажиры садились в дождем припорошенный трамвай у Даугавы, новая аудиосистема выпустила свой теперь уже фирменный вздох в вагон. Никто не улыбнулся в полном смысле слова. Но несколько человек кивнули — как бы говоря, что город, наконец, нашёл правильный тон.`
+    },
+    date: "Jul 6, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/206/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 205,
     slug: "riga-introduces-passive-aggressive-silence-zones-205",
     title: {
@@ -102,7 +189,7 @@ Raksta publicēšanas brīdī Tallina jau bija atzinusi iniciatīvu par „inter
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/205/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 204,
