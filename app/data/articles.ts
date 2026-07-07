@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 207,
+    slug: "riga-introduces-silent-tram-car-for-207",
+    title: {
+      en: "Riga Introduces Silent Tram Car for Passengers Who Need to Rehearse Arguments Before Getting Home",
+      lv: "Rīga ievieš klusā tramvaja vagonu pasažieriem, kuriem jāizrēķina strīdi pirms nokļūšanas mājās",
+      ru: "Рига вводит безмолвный вагон трамвая для пассажиров, которым нужно репетировать ссоры по пути домой"
+    },
+    excerpt: {
+      en: "Rīgas Satiksme this week unveiled a new “Reflective Carriage” on the No. 6 tram line, designed for commuters who require a controlled environment to mentally replay minor humiliations and prepare highly specific domestic disagreements. Officials say the pilot program addresses a long-neglected public need in the capital’s transport ecosystem.",
+      lv: "Rīgas Satiksme šonedēļ atklāja jaunu “Pārdomu vagonu” 6. tramvajā — paredzētu braucējiem, kuriem nepieciešama kontrolēta vide, lai prātā atkārtoti izspēlētu nelielas pazemošanas un sagatavotos īpaši specifiskiem mājas konfliktem. Iestādes apgalvo, ka pilots risina Rīgas satiksmes ekosistēmā ilgi ignorētu vajadzību.",
+      ru: "Rīgas Satiksme на этой неделе представила новый «Вагон Размышлений» на трамвайном маршруте №6 — для тех, кто требует контролируемой обстановки, чтобы мысленно пережить мелкие унижения и подготовить сверхконкретные домашние разборки. Чиновники говорят, что пилотная программа отвечает долго игнорировавшейся общественной потребности в транспортной экосистеме столицы."
+    },
+    fullContent: {
+      en: `RIGA — In what municipal planners are calling “a major step forward for emotionally efficient public transport,” Rīgas Satiksme on Tuesday launched Latvia’s first silent tram car specifically reserved for passengers wishing to privately rehearse future arguments, revise old ones, or practice saying “it’s not about the dishes” in at least seven different tones.
+
+The new carriage, marked with a pale blue sticker reading KLUSUMA ZONA, ARGUMENTIEM, was attached this week to selected evening trams running from the city centre toward Purvciems, Imanta, and Teika — districts officials identified as having “elevated levels of unresolved conversational residue.” Inside, passengers are asked to remain silent, avoid eye contact, and stare meaningfully out the window as if constructing a flawless opening statement beginning with, “I just think it’s interesting that…”
+
+According to a 38-page city mobility report, 41% of tram passengers between 17:30 and 19:00 are not listening to podcasts at all, but instead mentally reconstructing social encounters from as far back as 2016. Another 23% are believed to be preparing to mention a receipt, comment on a tone, or gently introduce the phrase “we need to be more intentional about this.”
+
+“We kept noticing the same behavior patterns,” said Rīgas Satiksme spokesperson Elīna Vītoliņa, speaking beside a line of journalists who had all fallen silent after entering the demonstration carriage. “People would board perfectly calm near Barona iela and by the National Library they were mouthing entire monologues to the glass. One man spent fourteen stops practicing how to casually ask why his family had once again purchased the wrong sour cream. The city decided this was a transport issue.”
+
+To preserve the atmosphere, the silent car includes softened lighting, anti-reflective windows for improved dramatic gazing, and a discreet digital display cycling through useful sentence stems such as “I’m not attacking you, but…” and “Let’s be honest for one second.” During testing, one prototype was removed after commuters reported that the phrase suggestions made their arguments “too powerful.”
+
+Passengers interviewed on the inaugural route welcomed the innovation. “Usually I have to do all this on the regular tram while someone nearby is eating a warm pīrādziņš and another person is conducting speakerphone diplomacy with Jelgava,” said office administrator Marta Lāce, 34, who said she used the journey from Centrāltirgus to Zemitāni to prepare “a calm but unforgettable conversation” about a decorative cushion bought without consultation. “Here, I can really focus on the pause after ‘fine.’ That’s where the message lives.”
+
+Others praised the service for reducing spillover into public life. “Before this, people were arriving home under-rehearsed and improvising,” said family therapist and transport consultant Dr. Juris Plūme, who advised the city on the pilot. “That creates rambling, weak transitions, and accidental forgiveness. A structured commute gives residents time to establish chronology, identify supporting evidence, and decide whether to bring up Christmas 2022.”
+
+Not everyone is convinced. The consumer watchdog group Pasažieris ar Viedokli warned that the carriage may disproportionately benefit experienced arguers while intimidating beginners. “We would like clear municipal guidelines for first-time users,” said board member Inga Beķere. “At minimum, there should be signage explaining the difference between a clarifying question and a trap.”
+
+City officials say they are already measuring success. In the first two days of operation, adjacent tram cars reported a 63% decrease in audible sighing, while several households in Āgenskalns noted that disputes now began “with stronger structure and more relevant examples.” If the pilot continues to perform well, Riga may expand the concept to buses and eventually introduce a premium morning carriage for commuters who need to practice saying ‘no worries’ after receiving an obviously unreasonable email.
+
+At press time, a second experimental tram car was being considered for residents of Jūrmala who need twenty uninterrupted minutes to decide whether their neighbor’s new terrace light is merely tasteless or a formal declaration of war.`,
+      lv: `RĪGA — To, ko pilsētas plānotāji sauc par “ievērojamu soli uz priekšu emocionāli efektīvā sabiedriskajā transportā,” Rīgas Satiksme otrdien palaida Latvijā pirmo klusā tramvaja vagonu, kas īpaši rezervēts pasažieriem, kuri vēlas privāti izspēlēt nākotnes strīdus, pārrakstīt vecos vai trenēt frāzi «tas nav par traukiem» vismaz septiņos dažādos toņos.
+
+Jaunajam vagonam, kas marķēts ar bālzilu uzlīmi KLUSUMA ZONA — STRĪDIEM, šonedēļ pieslēdza dažiem vakara kursiem no centra uz Purvciemu, Imantu un Teiku — rajoniem, kurus amatpersonas identificēja kā vietas ar “paaugstinātu neatrisināto sarunu atliekņu līmeni.” Iekšā pasažieriem lūgts klusēt, izvairīties no acu kontakta un nozīmīgi skatīties pa logu, it kā būtu jāuztaisa nevainojams ievadteksts, kas sākas ar: «Es tikai domāju, ka ir interesanti, ka…»
+
+Saskaņā ar 38 lappušu pilsētas mobilitātes ziņojumu 41% tramvaja pasažieru no pulksten 17:30 līdz 19:00 vispār nelasa podkāstus, bet gan prātā rekonstruē sociālos sastapšanās mirkļus, kas meklējami pat 2016. gada līmenī. Vēl aptuveni 23% tiek uzskatīti par to personu grupu, kas gatavojas pieminēt kvīti, piezīmēt piezīmi par toņiem vai maigi ieviest frāzi «mums jābūt mērķtiecīgākiem šajā jautājumā.»
+
+"Mēs pastāvīgi pamanījām tās pašas uzvedības modeļus," sacīja Rīgas Satiksmes pārstāve Elīna Vītoliņa, runājot pie žurnālistu rindas, kuri visi bija iekāpuši demonstrācijas vagonā un iekļāvušies klusumā. "Cilvēki iekāpa pilnīgi mierīgi pie Brīvības ielas, bet pie Nacionālās bibliotēkas sāka lūpās ārīt veselas monologu rindas. Kāds vīrietis četrpadsmit pieturas trenēja, kā nemanāmi pajautāt, kāpēc viņu ģimene atkal bija nopirkusi nepareizo skābo krējumu. Pilsēta nolēma, ka tas ir transports jautājums."
+
+Lai saglabātu atmosfēru, klusajā vagonā ir mīkstināta apgaismojuma sistēma, pretatspīduma logi dramatiskiem skatieniem un diskrēts digitālais displejs, kas ritina noderīgas teikumu sākumu rindas, piemēram, «Es tev neuzbrūku, bet…» un «Būsim godīgi uz sekundi.» Testēšanas laikā viens prototips tika noņemts pēc tam, kad reisos sūdzējās, ka frāžu ierosinājumi padarīja viņu argumentus "pārāk spēcīgus."
+
+Pasažieri, kas tika intervēti pirmajā maršrutā, jaunievedumu uzņēma labvēlīgi. "Parasti man visu to jāizdara parastajā tramvajā, kamēr kāds blakus ēd siltu pīrādziņu, un kāds cits vada skaļruņa diplomātiju ar Jelgavu," sacīja biroja administrators Marta Lāce, 34 gadus veca, kura teica, ka ceļojumu no Centrāltirgus līdz Zemitāniem izmanto, lai sagatavotu "mierīgu, bet neaizmirstamu sarunu" par dekoratīvu spilvenu, kas nopirkts bez apspriešanas. "Šeit es varu patiešām koncentrēties uz pauzi pēc "labi." Tur slēpjas vēstījums."
+
+Citi slavēja pakalpojumu par pārplūdes mazināšanu sabiedriskajā dzīvē. "Agrāk cilvēki atgriezās mājās nepietiekami izmēģinājuši un improvizēja," sacīja ģimenes terapeits un transporta konsultants Dr. Juris Plūme, kurš pilsētai konsultēja pilotprojektu. "Tas radīja vārdu plūdus, vājus pārejas un nejaušu piedošanu. Strukturēts brauciens dod iedzīvotājiem laiku noteikt hronoloģiju, identificēt atbalstošus piemērus un izlemt, vai jāpiemin Ziemassvētki 2022. gadā."
+
+Ne visi ir pārliecināti. Patērētāju uzraugs Pasažieris ar Viedokli brīdināja, ka vagons var proporcionāli vairāk palīdzēt pieredzējušiem strīdniekiem, vienlaikus biedējot iesācējus. "Mēs vēlētos skaidras pašvaldības vadlīnijas pirmreizējiem lietotājiem," sacīja valdes locekle Inga Beķere. "Vismaz jābūt norādei, kas skaidro atšķirību starp precizējošu jautājumu un slazdu."
+
+Pilsētas amatpersonas apgalvo, ka jau mēra panākumus. Pirmajās divās ekspluatācijas dienās blakusesošie vagoni ziņoja par 63% samazinājumu klausāmajā nopūšanos skaitā, kamēr vairākas mājsaimniecības Āgenskalnā pamanījušas, ka strīdi tagad sākas "ar stingrāku struktūru un relevantsākiem piemēriem." Ja pilots turpinās labi darboties, Rīga varētu paplašināt koncepciju uz autobusiem un galu galā ieviest rīta premium vagonu braucējiem, kuriem nepieciešams trenēt frāzi «nav problēmu» pēc acīmredzami nepieņemama e‑pasta saņemšanas.
+
+Zoombie laikā otrs eksperimentāls tramvaja vagons tika apsvērts Jūrmalas iedzīvotājiem, kuriem nepieciešamas divdesmit netraucētas minūtes, lai izlemtu, vai kaimiņa jaunā terases lampa ir vienkārši gaumīga trūkums vai formāla kara pieteikšana.`,
+      ru: `РИГА — В том, что муниципальные планировщики называют «важным шагом вперёд для эмоционально эффективного общественного транспорта», Rīgas Satiksme во вторник запустила в Латвии первый безмолвный трамвайный вагон, специально зарезервированный для пассажиров, желающих приватно репетировать будущие аргументы, пересматривать старые или отрабатывать фразу «дело не в посуде» как минимум в семи разных интонациях.
+
+Новый вагон, отмеченный бледно-голубой наклейкой с надписью "ЗОНА ТИШИНЫ, ДЛЯ СПОРОВ", на этой неделе прицепили к выбранным вечерним трамваям, идущим из центра в сторону Purvciems, Imanta и Teika — районов, которые чиновники назвали «с повышенным уровнем неубранной разговорной грязи». Внутри от пассажиров просят сохранять молчание, избегать зрительного контакта и выразительно смотреть в окно, как будто они выстраивают безупречное вступление, начинающееся со слов: «Мне просто интересно, что…».
+
+По данным 38-страничного городского отчёта по мобильности, 41% трамвайных пассажиров в период с 17:30 до 19:00 вовсе не слушают подкасты, а мысленно воссоздают социальные сцены вплоть до 2016 года. Ещё 23% предположительно готовятся упомянуть чек, прокомментировать тон речи или деликатно ввести фразу «нам нужно быть более осознанными в этом».
+
+«Мы всё время замечали одинаковые паттерны поведения», — сказала пресс-секретарь Rīgas Satiksme Элина Витолиня, выступая рядом с рядом журналистов, которые сразу же замолчали, зайдя в демонстрационный вагон. «Люди садились совершенно спокойно возле Barona iela, а у Национальной библиотеки уже шевелили губами целыми монологами в стекло. Один мужчина четырнадцать остановок отрабатывал, как невзначай спросить, почему в их семье снова купили не ту сметану. Город решил: это проблема транспорта».
+
+Чтобы сохранить атмосферу, в тихом вагоне сделали приглушённое освещение, антибликовые окна для более драматичного взгляда в пустоту и незаметный цифровой дисплей, прокручивающий полезные заготовки фраз вроде «Я не нападаю на тебя, но…» и «Давай на секунду будем честными». В ходе тестирования один прототип убрали, потому что пассажиры пожаловались: подсказки фраз делали их аргументы «слишком мощными».
+
+Пассажиры, опрошенные в день открытия маршрута, одобрили нововведение. «Обычно мне приходится делать всё это в обычном трамвае, пока кто‑то рядом ест тёплый pīrādziņš (маленький латвийский пирожок), а ещё один человек ведёт конференц‑звонок по громкой связи с Елгавой», — сказала офисный администратор Марта Лāце, 34 года, добавив, что она использует поездку от Centrāltirgus до Zemitāni, чтобы подготовить «спокойный, но незабываемый разговор» о декоративной подушке, купленной без совета. «Здесь я действительно могу сосредоточиться на паузе после «ладно». Именно там живет смысл».
+
+Другие похвалили сервис за уменьшение выливания конфликтов в публичную сферу. «Раньше люди возвращались домой недорепетированными и импровизировали», — сказал семейный терапевт и консультант по транспорту доктор Юрис Плюме, который советовал городу по пилотному проекту. «Это приводило к бессвязным, слабо структурированным переходам и случайному прощению. Упорядоченная поездка даёт жителям время выстроить хронологию, выделить подтверждающие примеры и решить, стоит ли упоминать Рождество 2022 года».
+
+Не все убеждены. Потребительская контрольная группа Pasažieris ar Viedokli предупредила, что вагон может непропорционально помочь опытным спорщикам и запугать новичков. «Мы хотели бы видеть ясные муниципальные инструкции для новичков», — сказала член правления Инга Бекере. «Как минимум, должна быть табличка, объясняющая разницу между уточняющим вопросом и ловушкой».
+
+Городские власти говорят, что уже измеряют успех. В первые два дня работы соседние вагоны зафиксировали снижение слышимых вздохов на 63%, а несколько домохозяйств в Āgenskalns отметили, что теперь ссоры начинаются «с более чёткой структуры и более релевантных примеров». Если пилот будет показывать хорошие результаты, Рига может распространить идею на автобусы и в конце концов ввести премиум‑утренний вагон для пассажиров, которым нужно потренироваться говорить «без проблем» после получения откровенно необоснованного электронного письма.
+
+К моменту отправки материала обсуждался второй экспериментальный вагон для жителей Юрмалы, которым нужно двадцать минут без помех, чтобы решить, является ли новая террасная лампа соседа просто безвкусной или формальным объявлением войны.`
+    },
+    date: "Jul 7, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/207/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 206,
     slug: "riga-introduces-official-municipal-sigh-to-206",
     title: {
@@ -102,7 +183,7 @@ Vakara pasažieri kāpa lietus pilinātu tramvaju pie Daugavas, un jaunā audio 
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/206/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 205,
