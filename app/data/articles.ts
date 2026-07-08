@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 208,
+    slug: "riga-introduces-polite-traffic-jam-pilot",
+    title: {
+      en: "Riga Introduces ‘Polite Traffic Jam’ Pilot, Drivers Required To Alternate Honking In Both Official Languages",
+      lv: "Rīga ievieš «Laipnā sastrēguma» pilotprojektu — vadītājiem jāizsauc skaņas signāls pa kārtai abās oficiālajās valodās",
+      ru: "Рига запускает пилот «Вежливая пробка»: водителям предписано чередовать сигналы на обоих официальных языках"
+    },
+    excerpt: {
+      en: "In an effort to preserve civic harmony during morning congestion, Riga officials have launched a pilot program requiring motorists stuck in traffic to honk courteously in either Latvian or Russian according to a rotating schedule. City planners say the measure will reduce aggressive driving while better reflecting the capital’s multicultural gridlock heritage.",
+      lv: "Lai saglabātu pilsonisko harmoniju rīta sastrēgumu laikā, Rīgas amatpersonas uzsākušas pilotprojektu, kas autovadītājiem, kas iestrēguši satiksmē, nosaka pieklājīgi izdot skaņas signālus latviešu vai krievu valodā saskaņā ar rotācijas grafiku. Pilsētas plānotāji apgalvo, ka tas samazinās agresīvu braukšanu un labāk atspoguļos galvaspilsētas daudzkultūru sastrēgumu mantojumu.",
+      ru: "В попытке сохранить гражданскую гармонию в утренних заторах власти Риги запустили пилотный проект, по которому водители, застрявшие в пробке, обязаны вежливо сигналить либо по-латышски, либо по-русски в соответствии с чередующимся графиком. По словам городских планировщиков, мера снизит агрессивность вождения и лучше отразит мульткультурное наследие столичного стояния в пробках."
+    },
+    fullContent: {
+      en: `RIGA — Commuters entering the capital on Monday were met with new blue-and-white road signs reading “COURTEOUS CONGESTION ZONE” and “HONK RESPONSIBLY / TAURI MĒRĶTIECĪGI,” part of a municipal pilot project city leaders describe as “a major step toward more inclusive immobility.”
+
+The program, formally titled the Polite Traffic Jam Adaptation and Social Cohesion Initiative, was approved late last month by the Riga City Council’s Committee for Mobility, Culture, and Events That Nobody Asked For. It applies to five of the city’s worst bottlenecks, including the Stone Bridge approach, the Jugla interchange, and the area near the Akropole roundabout where, according to city data, one in four drivers has at some point “stared into the middle distance and reconsidered every life choice since 2009.”
+
+Under the new rules, drivers delayed for more than six minutes must signal frustration through a standardized sequence of civic-approved gestures. A short honk in Latvian is permitted on even-numbered minutes, while Russian-language honking is reserved for odd-numbered minutes. Extended horn use remains legal only in cases of “immediate existential despair” or if a driver spots a tram moving faster than surrounding traffic and wishes to express admiration.
+
+Deputy Mayor Ieva Krūmiņa, unveiling the initiative beside a digital display board showing estimated delays in both minutes and emotional stages, said the pilot was based on months of acoustic testing and focus groups with residents aged 23 to 71.
+
+“We found that people do not object to traffic itself,” Krūmiņa said. “What they object to is unstructured irritation. Riga deserves frustration with standards. If Paris can have café etiquette, then surely we can have congestion etiquette.”
+
+The city’s Department of Transport Harmony said specially trained “jam stewards” will monitor compliance from reflective vests stationed at intersections. The stewards have been instructed to distinguish between hostile honking, ceremonial honking, and the widely misunderstood category of “passive-aggressive bonnet tapping.” First-time offenders will receive a warning and a brochure explaining proper tonal respect. Repeat offenders may be ordered to attend a three-hour seminar titled Waiting Together: Shared Values at 4 Kilometers Per Hour.
+
+Some residents have embraced the change. “It feels more organized now,” said Purvciems accountant Maksims Vorobjovs, who spent 47 minutes on Tuesday moving the length of what he estimated to be “one ambitious moose.” “Before, everyone was angry in their own way. Now we are angry as a city. There is something beautiful about that.”
+
+Others were less convinced. Elīna Bērziņa, a mother of two from Āgenskalns, said the language schedule had introduced unnecessary planning into an already miserable routine. “Yesterday I missed my chance to honk in Latvian because I was checking whether my mirror was folded in,” she said. “Then I had to wait a full minute to be irritated again. No family has that kind of time.”
+
+Researchers at the University of Latvia’s Institute for Applied Everyday Problems have already published preliminary findings claiming the pilot reduced random shouting by 18 percent while increasing “communal resignation” by 34 percent. Lead researcher Dr. Artūrs Zelmenis called the results promising.
+
+“When irritation is ritualized, it becomes culture,” Zelmenis said. “In many ways, this is the most European Riga has ever been.”
+
+If successful, the city plans to expand the concept this autumn by introducing designated lanes for drivers who wish to sigh dramatically, as well as a smartphone app that translates windshield gestures into approved municipal language. Officials are also considering whether pedestrians should be allowed one government-certified eye roll per red light.
+
+By late afternoon, traffic remained largely unchanged, with average speeds across central Riga hovering at 8.6 kilometers per hour. Still, city leaders insisted the project was not about moving cars more quickly.
+
+“It is about moving society forward,” Krūmiņa said, as three buses, a delivery van, and a silver Volvo remained perfectly still behind her for nearly nine minutes.`,
+      lv: `RĪGA — Pilsētā pirmdien iebraucēji sagaidīja jaunas zilo‑balto ceļazīmju rindas ar uzrakstiem “COURTEOUS CONGESTION ZONE” un “HONK RESPONSIBLY / TAURI MĒRĶTIECĪGI”, kas ir daļa no pašvaldības pilotprojekta, ko pilsētas līderi raksturojuši kā “lielu soli pretim iekļaujošākai nekustībai”.
+
+Programma, formāli saukta par Laipnā sastrēguma pielāgošanās un sociālās saliedētības iniciatīvu, pagājušā mēneša beigās tika apstiprināta Rīgas domes Pārvietošanās, kultūras un notikumu, par kuriem neviens neprasīja, komitejā. Tā attiecas uz pieciem pilsētas sliktākajiem sastrēgumu šaurumiem, tostarp pieeju pie Akmens tilta, Juglas mezglu un rajonu ap Akropoli, kur, pēc pilsētas datiem, viens no četriem vadītājiem kādā brīdī “skatījies tālumā un pārdomājis visas dzīves izvēles kopš 2009. gada”.
+
+Saskaņā ar jaunajām noteikumu vadlīnijām vadītāji, kuri kavējas ilgāk par sešām minūtēm, ir jāizsaka neapmierinātība, izmantojot standartizētu, civiltiesībām apstiprinātu žestu secību. Īss signāls latviešu “valodā” ir atļauts pāra minūtēs, kamēr krievu valodas skaņas signāls rezervēts nepāra minūtēm. Ilgstoša ragiņa lietošana paliek legāla tikai “tūlītējas eksistenciālas izmisuma” gadījumos vai ja vadītājs ieraudzīs tramvaju, kas kustas ātrāk nekā apkārtējā satiksme, un vēlēsies paust apbrīnu.
+
+Domes priekšsēdētājas vietniece Ieva Krūmiņa, prezentējot iniciatīvu pie digitālā displeja, kas rādīja paredzamos kavējumus gan minūtēs, gan emocionālajos posmos, sacīja, ka pilots balstīts uz mēnešiem ilgiem akustiskiem testiem un fokusa grupām ar iedzīvotājiem vecumā no 23 līdz 71 gada.
+
+“Mēs atklājām, ka cilvēki nepiebilst satiksmei pašai par sevi,” sacīja Krūmiņa. “Cilvēkus kairina neorganizēta neapmierinātība. Rīga ir pelnījusi frustrāciju ar standartiem. Ja Parīzei var būt kafejnīcu etiķete, tad noteikti mēs varam griezties pie sastrēgumu etiķetes.”
+
+Pilsētas Transporta harmonijas departaments paziņoja, ka īpaši apmācīti “sastrēgumu uzraugi” novēros noteikumu ievērošanu no atstarojošajām vestēm apgādātiem stacijpunktiem pie krustojumiem. Uzraugiem uzdots atšķirt naidīgu signālu, ceremoniju signālu un plaši nesaprasto kategoriju “pasīvi‑agresīva motora pārsega tapsēšana”. Pirmreizēji pārkāpēji saņems brīdinājumu un bukletu par pareizu toņu cieņu. Atkārtotājiem var tikt uzdots apmeklēt triju stundu semināru “Gaidot kopā: kopīgās vērtības pie 4 kilometriem stundā”.
+
+Daļa iedzīvotāju izmaiņas ir pieņēmusi ar entuziasmu. “Tagad ir organizētāk,” sacīja Purvciema grāmatvedis Maksims Vorobjovs, kurš otrdien 47 minūtes pārvietojās pāri tam, kas viņaprāt bija “viens ambiciozs alnis”. “Agrāk katrs dusmojās pa savam. Tagad mēs dusmojamies kā pilsēta. Tajā ir kas skaists.”
+
+Citi gan bija mazāk pārliecināti. Āgenskalna divu bērnu māte Elīna Bērziņa sacīja, ka valodu grafiks ieviesis lieku plānošanu jau tā nelaimīgajā rutīnā. “Vakar es palaidu garām iespēju signālēt latviski, jo pārbaudīju, vai mans spogulis ir salocīts,” viņa teica. “Tad man nācās gaidīt veselu minūti, lai atkal būtu ieriebusies. Nevienai ģimenei nav tāda laika.”
+
+Latvijas Universitātes Lietišķo ikdienas problēmu institūta pētnieki jau publicējuši sākotnējus secinājumus, kas apgalvo, ka pilots samazinājis nejaušu kliegšanu par 18 procentiem, vienlaikus palielinot “kopējo rezignāciju” par 34 procentiem. Vadošais pētnieks Dr. Artūrs Zelmenis nodēvēja rezultātus par daudzsološa.
+
+“Kad neapmierinātība tiek ritualizēta, tā kļūst par kultūru,” sacīja Zelmenis. “Dažos aspektos šī ir vis Eiropiskākā Rīga, kāda jebkad bijusi.”
+
+Ja pilots izrādīsies veiksmīgs, pilsēta plāno rudenī paplašināt konceptu, ieviešot īpašas joslas autovadītājiem, kuri vēlas dramatiskā nopūtiena, kā arī viedtālruņu lietotni, kas tulko priekšējā stikla žestus apstiprinātajā pašvaldības valodā. Iestādes arī apsver, vai gājējiem drīkstētu piešķirt vienu valdības‑sertificētu acu ritinājumu pie katra sarkanā signāla.
+
+Vēlāk pēcpusdienā satiksme palika būtībā nemainīga — vidējais ātrums centrālajā Rīgā plīvoja ap 8,6 kilometriem stundā. Tomēr pilsētas vadītāji uzsvēra, ka projekts nav domāts, lai ātrāk pārvietotu automašīnas.
+
+“Tas ir par sabiedrības virzīšanu uz priekšu,” sacīja Krūmiņa, kamēr trīs autobusi, viens piegādes furgons un sudrabots Volvo aiz viņas gandrīz deviņas minūtes sastinga pilnīgā nekustībā.`,
+      ru: `РИГА — В понедельник въезжающих в столицу встретили новые сине-белые дорожные знаки с надписями «ЗОНА ВЕЖЛИВОЙ ПРОБКИ» и «HONK RESPONSIBLY / TAURI MĒRĶTIECĪGI», часть муниципального пилотного проекта, который городские власти описывают как «важный шаг к более инклюзивной неподвижности». 
+
+Программа, официально названная Инициативой адаптации вежливой пробки и общественного сплочения, была одобрена в конце прошлого месяца Комитетом Рижской думы по мобильности, культуре и событиям, которые никто не просил. Она распространяется на пять худших заторов города, включая подъезд к Каменному мосту, развязку Югла и район около кольца у «Акрополя», где, по данным города, каждый четвертый водитель когда-то «уставился в пустоту и пересмотрел все свои жизненные решения с 2009 года». 
+
+По новым правилам водители, задержанные более чем на шесть минут, должны выражать раздражение через стандартизированную последовательность одобренных городом жестов. Короткий сигнал по-латышски разрешён в чётные минуты, тогда как сигналы на русском языке отведены нечетным минутам. Продлённые гудки остаются законными только в случаях «непосредственного экзистенциального отчаяния» или если водитель заметил трамвай, движущийся быстрее окружающего движения, и решил выразить восхищение. 
+
+Заместитель мэра Иева Крумина, представляя инициативу возле цифрового табло, показывающего оценочные задержки как в минутах, так и в эмоциональных стадиях, сказала, что пилот основан на месяцах акустических тестов и фокус-групп с жителями в возрасте от 23 до 71 года. 
+
+«Мы выяснили, что люди не возражают против самой пробки, — сказала Крумина. — Их беспокоит неструктурированное раздражение. Рига заслуживает стандарты для фрустрации. Если в Париже есть правила поведения в кафе, то конечно у нас может быть этикет в пробках». 
+
+Департамент транспортной гармонии города сообщил, что специально обученные «стюарды пробки» будут следить за соблюдением правил из светоотражающих жилетов, размещённых на перекрёстках. Стюардам поручено различать враждебные гудки, церемониальные гудки и широко неправильно понимаемую категорию «пассивно-агрессивного постукивания по капоту». Первым нарушителям будут выдавать предупреждение и брошюру, объясняющую надлежащий тональный этикет. Повторные нарушители могут быть обязаны посетить трёхчасовой семинар «Ожидая вместе: общие ценности на 4 километрах в час». 
+
+Некоторые жители тепло приняли нововведение. «Теперь как-то организованнее», — сказал бухгалтер из Пурвциемса Максим Воробьёв, который во вторник 47 минут ехал, по его оценке, «на длину одного амбициозного лося». «Раньше все злились по-своему. Теперь мы злимся как город. В этом есть что-то прекрасное». 
+
+Другие были менее воодушевлены. Элина Берзина, мать двоих детей из Агенскалнса, пожаловалась, что языковой график добавил ненужного планирования в и без того жалкую рутину. «Вчера я пропустила свою возможность сигналить по-латышски, потому что проверяла, не сложено ли у меня зеркало, — сказала она. — Пришлось ждать целую минуту, чтобы снова раздосадоваться. Ни одна семья не обладает таким количеством времени». 
+
+Исследователи Института прикладных бытовых проблем Латвийского университета уже опубликовали предварительные результаты, утверждающие, что пилот сократил случайные крики на 18 процентов и увеличил «коммунальное смирение» на 34 процента. Ведущий исследователь доктор Артурс Зелменис назвал результаты многообещающими. 
+
+«Когда раздражение ритуализируется, оно становится культурой, — сказал Зелменис. — Во многих отношениях это самая европейская Рига за всю её историю». 
+
+Если эксперимент удастся, город планирует этой осенью расширить концепцию, введя выделенные полосы для водителей, желающих драматично вздохнуть, а также мобильное приложение, переводящее жесты на лобовом стекле в одобренный муниципальный язык. Чиновники также рассматривают возможность разрешить пешеходам один правительственно сертифицированный закат глаз на каждую красную фазу светофора. 
+
+К вечеру движение оставалось в основном без изменений: средняя скорость по центру Риги колебалась около 8,6 километра в час. Тем не менее городские власти настаивали, что проект не о том, чтобы двигать машины быстрее. 
+
+«Речь о продвижении общества вперёд», — сказала Крумина, в то время как за её спиной в течение почти девяти минут совершенно неподвижно стояли три автобуса, фургон доставки и серебристый Volvo.`
+    },
+    date: "Jul 8, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/208/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 207,
     slug: "riga-introduces-silent-tram-car-for-207",
     title: {
@@ -96,7 +195,7 @@ Zoombie laikā otrs eksperimentāls tramvaja vagons tika apsvērts Jūrmalas ied
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/207/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 206,
