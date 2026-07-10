@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 209,
+    slug: "jrmala-introduces-silent-applause-tax-after-209",
+    title: {
+      en: "Jūrmala Introduces Silent Applause Tax After Residents Complain Clapping Is ‘Basically Riga Noise’",
+      lv: "Jūrmala ievieš «klusā plaukšķu» nodokli pēc iedzīvotāju sūdzībām, ka plaukšķi «praktiski ir Rīgas troksnis»",
+      ru: "Юрмала вводит налог на «беззвучные аплодисменты» после жалоб жителей, что хлопанье — «в сущности рижский шум»"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have approved a new municipal tax on applause exceeding 12 decibels, arguing that excessive appreciation has begun to resemble urban behavior. The measure, praised by local wellness boards and three retired cellists, is expected to restore the city’s traditional acoustic balance of pine wind, distant seagulls, and passive disapproval.",
+      lv: "Jūrmala pašvaldība apstiprinājusi jaunu pašvaldības nodevu par plaukšķiem, kas pārsniedz 12 decibelus, apgalvojot, ka pārmērīga atzinība sākusi atgādināt pilsētas uzvedību. Pasākumu, ko slavē vietējās labsajūtas padomes un trīs pensionēti čellisti, sagaida atjaunot pilsētas tradicionālo akustisko līdzsvaru – priedes vēju, tālas kaijas un pasīvu neapmierinātību.",
+      ru: "Чиновники Юрмалы утвердили новый муниципальный сбор на аплодисменты свыше 12 децибел, заявляя, что чрезмерная демонстрация признательности начала походить на городское поведение. Мера, получившая одобрение местных советов по благополучию и трёх отставных виолончелистов, должна восстановить традиционный акустический баланс города: шум сосен, далекие чайки и пассивное неодобрение."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders are calling “a necessary correction to the emotional volume of public life,” the Jūrmala City Council on Tuesday approved Latvia’s first Silent Applause Tax, a municipal fee targeting residents and visitors who clap too enthusiastically at concerts, poetry readings, school recitals, and “other avoidable displays of audible encouragement.”
+
+Under the new rules, applause registering above 12 decibels will incur a surcharge of €1.50 per pair of hands, with repeat offenders subject to mandatory retraining in “coastal appreciation techniques,” including nodding, narrowed eyes, and the prolonged exhale through the nose traditionally associated with Baltic approval.
+
+The proposal was introduced after a summer survey found that 68% of year-round Jūrmala residents could no longer distinguish between a chamber music festival and “someone from Riga enjoying themselves in public.” The issue intensified in August, when a standing ovation at the Dzintari Concert Hall allegedly caused several nearby villa owners to believe roadworks had resumed.
+
+“We are not against culture,” said Deputy Mayor Ilze Prieduma at a press conference delivered in nearly perfect silence. “We are against culture behaving like a bachelor party. Jūrmala has always offered a more refined reaction to art — ideally one that can be mistaken for mild neck discomfort.”
+
+To enforce the tax, the municipality has deployed 47 new Acoustic Moderation Inspectors equipped with calibrated microphones, linen jackets, and the authority to issue on-the-spot fines. Pilot inspections during a weekend piano competition resulted in 113 warnings, 26 citations, and one temporary confiscation of a German tourist’s “celebratory palms,” later returned after he agreed to applaud only internally.
+
+Cultural institutions have begun adapting quickly. The New Wave Heritage Association, which has not hosted anything officially called New Wave in years but remains structurally tense about it, announced that all future events will include designated Reflection Intervals in place of applause. Audience members will be encouraged to express admiration by lowering their gaze and whispering “hm” at varying degrees of sincerity.
+
+Local business owners have also embraced the shift. At the café Miera Biskvīts, staff now offer complimentary “applause alternatives” with every herbal tea, including small cards reading “adequate,” “technically impressive,” and “I noticed what you attempted.” Owner Andris Feldmanis said sales of fingerless linen gloves have tripled since the policy was announced.
+
+“People still want to support performers,” Feldmanis explained. “They just want to do it in a way that doesn’t alarm the hydrangeas.”
+
+Not everyone is convinced. Viesturs Ozols, principal percussionist of the Jūrmala Municipal Light Orchestra, warned that suppressing applause could have long-term consequences for artists. “Last Friday I finished a 14-minute marimba solo and the audience gave me a respectful shoulder adjustment,” he said. “I went home thinking I had died.”
+
+Still, early municipal data suggests the program is already working. Since the trial began in Majori and Bulduri, ambient serenity has risen by 23%, while incidents of spontaneous whooping have fallen to their lowest level since records began in 1998. Real estate agents report renewed interest from buyers seeking “performance-adjacent quiet,” especially among executives from Riga hoping to own property near culture without ever hearing it react.
+
+The city has hinted that further reforms may follow, including a permit system for laughter after 9 p.m. and a pilot scheme replacing fireworks with a spreadsheet showing where fireworks would have occurred.
+
+As Tuesday’s council meeting concluded, members marked the historic vote with a rare burst of restrained acknowledgment, collectively placing their hands near each other and pausing for several seconds. One spectator later described the moment as “the most moving thing Jūrmala has ever almost expressed.”`,
+      lv: `JŪRMALA — Pilsētas vadītāji to dēvē par «nepieciešamu korekciju publiskās dzīves emocionālajam skaļumam»: otrdien Jūrmalas domē apstiprināta Latvijas pirmā Klusā plaukšķu nodeva, pašvaldības maksa, kas vērsta pret iedzīvotājiem un viesiem, kuri pārāk entuziastiski plaukšķina koncertos, dzejas lasījumos, skolu uzvedumos un «citās izvairāmajās skaļās iedrošināšanas demonstrācijās».
+
+Saskaņā ar jaunajiem noteikumiem plaukšķiem, kas reģistrēti virs 12 decibeliem, tiks piemērota piemaksa 1,50 € par plaukstu pāri; atkārtoti pārkāpēji tiks pakļauti obligātai pārapmācībai «piekrastes atzinības tehnikās», kas ietver galvas mājienu, sašaurinātas acis un tradicionālo ilgo izelpu caur degunu, kas Baltijā izpaužas kā atzinības zīme.
+
+Sākotnējais priekšlikums tika iesniegts pēc vasaras aptaujas, kurā noskaidrojās, ka 68% visu gadu dzīvojošo jūrmalnieku vairs nespēj atšķirt kamer­mūzikas festivālu no «kāda rīdzinieka, kas sabiedrībā labi pavada laiku». Situācija saasinājās augustā, kad kāda stāvoša ovācija Dzintaru koncertzālē, pēc tuvumā esošo villu īpašnieku stāstītā, lika domāt, ka atsākušies ceļa remontdarbi.
+
+«Mēs neesam pret kultūru,» preses konferencē, kas notika gandrīz pilnīgā klusumā, sacīja domes priekšsēdētājas vietniece Ilze Prieduma. «Mēs esam pret kultūru, kas uzvedas kā līgavainības ballīte. Jūrmala vienmēr piedāvājusi smalkāku reagēšanu uz mākslu — ideālā gadījumā tādu, ko varētu sajaukt ar vieglu kakla neērtību.»
+
+Lai īstenotu nodevu, pašvaldība iesaistījusi 47 jaunus akustiskās moderēšanas inspektorus, aprīkotus ar kalibrētām mikrofonām, lina žaketēm un pilnvarām izrakstīt soda naudas uz vietas. Pilotinspekcijas nedēļas nogalē notikušajā klavieru konkursā beidzās ar 113 brīdinājumiem, 26 protokoliem un vienu pagaidu «vācu tūrista svinīgo plaukstu» konfiskāciju, kas vēlāk atdota pēc tam, kad viņš piekrita plaukšķināt tikai iekšēji.
+
+Kultūras iestādes ātri pielāgojas. New Wave mantojuma asociācija, kas jau gadus ilgi nekas oficiāli ar nosaukumu New Wave nav rīkojusi, taču par to joprojām struktūrāli satraucas, paziņoja, ka visi nākamie pasākumi iekļaus noteiktas Pārdomu pauzes, kas aizstās aplausus. Auditorijas locekļus aicinās izrādīt atzinību, nolaidot skatienu un čukstēt «hm» dažādos sirsnības toņos.
+
+Vietējie uzņēmēji arī atsaucīgi pieņēmuši izmaiņas. Kafejnīcā Miera Biskvīts personāls pie katras zāļu tējas tagad piedāvā bezmaksas «aplausu alternatīvas», tostarp mazas kartiņas ar uzrakstiem «piemēroti», «tehniski iespaidīgi» un «pamanīju, ko tu mēģināji». Īpašnieks Andris Feldmanis stāstīja, ka kopš politikas ieviešanas pārdošana bezpirkstu lina cimdu veikusi trīskāršu lēcienu.
+
+«Cilvēki joprojām grib atbalstīt izpildītājus,» skaidroja Feldmanis. «Viņi tikai grib to darīt tā, lai hortenzijas neizrautos.»
+
+Ne visi ir pārliecināti. Viesturs Ozols, Jūrmalas pašvaldības vieglās orķestra galvenais sitaminstrumentālists, brīdināja, ka aplaužu apspiešanai varētu būt ilgtermiņa sekas māksliniekiem. «Pagājušajā piektdienā es nospēlēju 14 minūšu marimbas solo, un publika man pieklājīgi pielaboja plecu,» viņš sacīja. «Es aizgāju mājās domādams, ka esmu nomiris.»
+
+Tomēr agrīnie pašvaldības dati liecina, ka programma jau darbojas. Kopš pilotprojekta sākuma Majoros un Bulduri apkārtējais miers pieaudzis par 23%, savukārt spontāno izsaukumu skaits sasniedzis zemāko līmeni kopš uzskaites uzsākšanas 1998. gadā. Nekustamā īpašuma aģenti ziņo par atjaunotu pircēju interesi pēc «izpildījumiem pieskaņota klusuma», īpaši no Rīgas vadītājiem, kas cer iegūt īpašumu pie kultūras, to nekad nedzirdot reaģējam.
+
+Pilsēta norādījusi, ka varētu sekot papildu reformas, tostarp atļauju sistēma smiekliem pēc plkst. 21:00 un pilotprojekts, kur uguņošana tiks aizstāta ar izklājlapu, kas parāda, kur uguņošana būtu notikusi.
+
+Kad otrdienas domes sēde beidzās, deputāti vēsturisko balsojumu atzīmēja ar retu, ierobežotu atzinības izpausmi, kolektīvi novietojot rokas tuvu viena otrai un uz dažām sekundēm apstājoties. Viens skatītājs vēlāk raksturoja brīdi kā «visjaukāko lietu, ko Jūrmala jebkad gandrīz izteikusi».`,
+      ru: `ЮРМАЛА — В шаге, который городские власти называют «необходимой корректировкой эмоциональной громкости общественной жизни», Городской совет Юрмалы во вторник утвердил первый в Латвии Налог на беззвучные аплодисменты — муниципальный сбор, направленный на жителей и посетителей, которые хлопают слишком восторженно на концертах, поэтических чтениях, школьных выступлениях и «других легкоизбежных демонстрациях слышимой поддержки». 
+
+По новым правилам аплодисменты, регистрируемые свыше 12 децибел, будут облагаться доплатой в размере 1,50 € с каждой пары рук, а повторные нарушители будут обязаны проходить переобучение «прибрежным техникам признательности», включающим кивки, прищур и протяжный выдох через нос, традиционно ассоциируемый с балтийским одобрением. 
+
+Предложение было выдвинуто после летнего опроса, в котором выяснилось, что 68% постоянных жителей Юрмалы больше не в силах отличить фестиваль камерной музыки от «кого-то из Риги, который развлекается на публике». Проблема обострилась в августе, когда стоячая овация в Концертном зале Дзинтари якобы заставила нескольких владельцев соседних вилл подумать, что возобновились дорожные работы. 
+
+«Мы не против культуры», — сказала заместитель мэра Илзе Приедума на пресс‑конференции, прошедшей при почти идеальной тишине. «Мы против того, чтобы культура вела себя как мальчишник. Юрмала всегда предлагала более утончённую реакцию на искусство — такую, которую при желании можно принять за лёгкий дискомфорт в шее». 
+
+Для принуждения к соблюдению сбора муниципалитет ввёл 47 новых инспекторов акустической модерации, оснащённых калиброванными микрофонами, льняными пиджаками и полномочиями выписывать штрафы на месте. Пилотные проверки во время уикенд‑конкурса пианистов привели к 113 предупреждениям, 26 штрафам и одному временному изъятию «праздничных ладоней» у немецкого туриста; ладони были возвращены после того, как он согласился аплодировать только про себя. 
+
+Культурные институты быстро адаптируются. Ассоциация наследия «Новой волны», которая уже много лет официально ничего «Новой волной» не проводит, но остаётся структурно напряжённой на эту тему, объявила, что все будущие мероприятия будут включать специальные интервалы для размышлений вместо аплодисментов. Зрителям предложат выражать восхищение опущенным взглядом и шёпотом «хм» с разной степенью искренности. 
+
+Местные предприниматели тоже поддержали перемены. В кафе Miera Biskvīts персонал теперь предлагает бесплатные «альтернативы аплодисментам» к каждому травяному чаю, включая маленькие карточки с надписями «достаточно», «технически впечатляет» и «я заметил вашу попытку». Владелец Андрис Фельдманис рассказал, что продажи льняных перчаток без пальцев утроились с момента объявления политики. 
+
+«Люди по‑прежнему хотят поддерживать исполнителей, — пояснил Фельдманис. — Они просто хотят делать это так, чтобы не пугать гортензии». 
+
+Не все согласны. Виестурс Озолс, ведущий ударник Юрмальского муниципального лёгкого оркестра, предупредил, что подавление аплодисментов может иметь долгосрочные последствия для артистов. «В прошлую пятницу я отыграл 14‑минутное соло на маримбе, и публика ответила мне уважительным поправлением плеча, — рассказал он. — Я пошёл домой, думая, что умер». 
+
+Тем не менее ранние муниципальные данные говорят о том, что программа уже работает. С момента начала пробных мероприятий в Майори и Булдури общая умиротворённость выросла на 23%, тогда как число спонтанных возгласов упало до самого низкого уровня с начала учёта в 1998 году. Риелторы отмечают возобновившийся интерес покупателей, ищущих «тишину рядом с представлениями», особенно среди руководителей из Риги, которые надеются владеть недвижимостью рядом с культурой, но так, чтобы та никогда не реагировала. 
+
+Город намекнул, что возможны дальнейшие реформы, включая систему разрешений на смех после 21:00 и пилотный проект по замене фейерверков на электронную таблицу, показывающую, где они бы могли произойти. 
+
+Когда заседание совета во вторник подошло к концу, его участники отметили историческое голосование редким взрывом сдержанного признания, одновременно поднеся руки друг к другу и задержав паузу на несколько секунд. Один из зрителей позже описал момент как «самое трогательное, что Юрмала когда‑либо почти выразила».`
+    },
+    date: "Jul 10, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/209/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 208,
     slug: "riga-introduces-polite-traffic-jam-pilot",
     title: {
@@ -114,7 +207,7 @@ Vēlāk pēcpusdienā satiksme palika būtībā nemainīga — vidējais ātrums
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/208/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 207,
