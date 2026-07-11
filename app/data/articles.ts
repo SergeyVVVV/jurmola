@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 210,
+    slug: "jrmala-introduces-silent-applause-zones-to",
+    title: {
+      en: "Jūrmala Introduces Silent Applause Zones To Protect Delicate Resort Atmosphere From Excessive Enthusiasm",
+      lv: "Jūrmala ievieš klusās aplausu zonas, lai delikāto kūrorta atmosfēru pasargātu no pārmērīgas sajūsmas",
+      ru: "Юрмала вводит зоны «тихих аплодисментов», чтобы защитить хрупкую курортную атмосферу от чрезмерного восторга"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have unveiled a new municipal initiative requiring all visible excitement on central promenades to be expressed through muted hand-waving, respectful nodding, or internally managed satisfaction. The policy, city leaders say, will preserve the resort’s historic balance of pine air, passive judgment, and low-volume strolling.",
+      lv: "Jūrmalas amatpersonas atklājušas jaunu pašvaldības iniciatīvu: visu pamanāmo satraukumu centrālajos promenādēs tagad lūgts izteikt tikai ar klusu roku plasīšanu, cieņpilnu galvas mājienu vai iekšēji kontrolētu apmierinātību. Pēc pilsētas vadības teiktā šī politika saglabās kūrorta vēsturisko priežu gaisu, pasīvo spriedumu un klusajām pastaigām raksturīgo līdzsvaru.",
+      ru: "Власти Юрмалы объявили новую муниципальную инициативу: все видимые проявления восторга на центральных променадных зонах должны выражаться через приглушённое помахивание руками, уважительное кивание или внутренне управляемое удовлетворение. По словам городских руководителей, политика сохранит исторический баланс курорта — соснового воздуха, пассивного осуждения и прогулок в низком звуковом диапазоне."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what officials are calling a “measured step toward sustainable emotional management,” the Jūrmala City Council on Tuesday approved the creation of Latvia’s first Silent Applause Zones, a network of specially marked public areas where clapping, cheering, gasping, and “overly vigorous delight” will be restricted during the summer season.
+
+The program, which will begin this weekend along Jomas Street, Dzintari Concert Hall perimeter, and selected beach access points between Majori and Bulduri, is intended to protect what the municipality describes as the resort city’s “acoustically fragile atmosphere.” According to the new rules, residents and tourists may still express approval, but only through controlled alternatives such as “small wrist-based fluttering,” one soft exhale through the nose, or a discreet statement of acknowledgement, including the phrase, “That was, in its way, acceptable.”
+
+Deputy Executive Director for Seasonal Harmony Liene Ozoliņa said the city had no choice after a pilot study found that spontaneous applause from out-of-town visitors caused “severe aesthetic ripples” in several high-sensitivity leisure corridors.
+
+“Jūrmala is not against joy,” Ozoliņa told reporters while standing beside a newly installed blue sign depicting two hands politely hovering near each other. “We are simply asking people to enjoy themselves in a manner compatible with dune stability, older sunglasses, and the overall emotional humidity of the resort.”
+
+Municipal data shows that during the 2025 holiday weekend, average applause intensity near Dzintari rose by 38%, with one recorded standing ovation briefly reaching the noise profile of “a medium-sized trolleybus misunderstanding.” Officials say that while no injuries were reported, at least 14 residents described feeling “suddenly observed,” and one local dachshund allegedly refused to continue its evening route for three days.
+
+To enforce the measure, the city has trained 27 Seasonal Civility Stewards, each equipped with linen armbands, decibel readers, and laminated cards showing approved celebration techniques. First-time violators will receive a verbal reminder and a complimentary brochure titled Enjoying Things Without Escalation. Repeat offenders may be directed to designated Release Areas near the railway station, where louder reactions will be permitted between 16:00 and 18:30 under supervision.
+
+Not everyone is convinced. Lithuanian tourist and amateur saxophone enthusiast Mantas Žemaitis, 34, said he was confused after attempting to applaud a children’s choir and being gently surrounded by three stewards demonstrating “municipally compliant appreciation.”
+
+“I thought maybe there had been a fire drill, but then one woman made eye contact with me and performed what I can only describe as an administrative jazz-hand,” Žemaitis said. “I support Baltic cooperation, but if my nephew sings a solo, I need at least one full clap.”
+
+Some locals, however, praised the change. Majori resident and retired dentist Ilmārs Priedītis said unregulated enthusiasm has been creeping into the city for years.
+
+“It started with open laughter,” Priedītis said. “Then came audible birthday toasts. Last July I heard a group from Riga say ‘wow’ at normal volume while looking at the sea. If we allow this, by 2028 people will be enjoying sunsets spontaneously.”
+
+Business owners have also begun adapting. Several cafés on Jomas Street now offer “Low-Impact Congratulations Menus” for birthdays and anniversaries, featuring silent tiramisu, subdued espresso flights, and cakes pre-sliced to avoid the theatrical pause that often invites applause.
+
+The Latvian Association of Resort Acoustics, a body founded Monday afternoon in response to the policy debate, released a statement supporting the city’s “cautious refusal to let public feeling become coastal.”
+
+As workers painted pale beige circles marking the first official zones Tuesday evening, tourists stopped to photograph the signs in respectful silence. Most then continued walking as instructed: slowly, tastefully, and with no sudden proof that they were having a particularly good time.`,
+      lv: `JŪRMALA — To, ko amatpersonas dēvē par “sabalansētu soli ilgtspējīgā emocionālajā pārvaldībā”, Jūrmalas dome otrdien apstiprināja Latvijas pirmo Kluso aplausu zonu izveidi — īpaši iezīmētu publisko vietu tīklu, kur vasaras sezonā tiks ierobežota plaukšķināšana, ovācijas, aizelšanās un “pārāk intensīva sajūsma”.
+
+Programma, kas šīs nedēļas nogalē sāksies gar Jomas ielu, ap Dzintaru koncertzāles perimetru un izvēlētajām pludmales pieejām Majoru un Bulduru posmā, ir domāta, lai pasargātu to, ko pašvaldība raksturo kā kūrorta “akustiski trauslo atmosfēru”. Pēc jaunajiem noteikumiem iedzīvotāji un tūristi joprojām drīkst izrādīt atzinību, taču tikai ar kontrolētiem alternatīviem — piemēram, “nelielu plaukstu vieglu vicinājumu ap rokas locītavu”, vienu maigu izelpu caur degunu vai diskrētu atzinības izteikumu, piemēram: “Tas bija, savā ziņā, pieņemami.”
+
+Sezonālās harmonijas izpilddirektores vietniece Liene Ozoliņa sacīja, ka pilsētai nebija citas izvēles pēc pilotpētījuma, kurā konstatēts, ka spontānie aplausi no ārpilsētas viesiem izraisījuši “nopietnas estētiskas ripples” vairākos augstas jutības atpūtas koridoros.
+
+“Jūrmala nav pret prieku,” Ozoliņa žurnālistiem sacīja, stāvot blakus jaunai zilai zīmei ar attēlu — divām rokām, kas pieklājīgi virinās viena otras tuvumā. “Mēs vienkārši lūdzam cilvēkus izklaidēties tādā veidā, kas saskan ar kāpu stabilitāti, novecojošajām saulesbrillēm un vispārējo kūrorta emocionālo mitrumu.”
+
+Pašvaldības dati rāda, ka 2025. gada svētku nedēļas nogalē vidējā aplausu intensitāte pie Dzintariem pieauga par 38%, un vienu reģistrētu stāvovāciju īslaicīgi raksturoja trokšņa profils, ko amatpersonas nosauca par “vidēja izmēra trolejbusa pārpratumu”. Lai gan nav ziņots par traumām, vismaz 14 iedzīvotāji aprakstīja sajūtu, ka jūtas “pēkšņi novēroti”, un, kā apgalvots, viens vietējais taksis trīs dienas atteicās turpināt vakara maršrutu.
+
+Lai īstenotu šo pasākumu, pilsēta apmācījusi 27 Sezonas pieklājības uzraugus, katram aprīkotiem ar lina aprocēm, decibelmetriem un laminētām kartiņām, kurās attēlotas apstiprinātas svinēšanas tehnikas. Pirmreizēji pārkāpēji saņems mutisku atgādinājumu un bezmaksas bukletu “Izbaudīt bez eskalācijas”. Atkārti pārkāpēji var tikt novirzīti uz īpašajām Atbrīvošanās zonām pie dzelzceļa stacijas, kur skaļākas reakcijas būs pieļaujamas uzraudzībā no plkst. 16:00 līdz 18:30.
+
+Ne visi ir pārliecināti. Lietuviešu tūristu un amatieru saksofonistu entuziasts Mantas Žemaitis (34) teica, ka bija apjucis, mēģinot aplausiem sveikt bērnu kori, kad viņu maigā veidā apjozuši trīs uzraugi, demonstrējot “pašvaldībai atbilstošu atzinību”.
+
+“Domāju, varbūt bija ugunsgrēka trauksme, bet tad viena sieviete satikās ar manu skatienu un izpildīja to, ko varu nosaukt tikai par administratīvo džeza žestu,” Žemaitis sacīja. “Es atbalstu Baltijas sadarbību, bet ja mans brāļadēls dzied solo, man vajag vismaz vienu pilnu plaukšķi.”
+
+Daži vietējie tomēr slavēja izmaiņas. Majoru iedzīvotājs un pensionētais zobārsts Ilmārs Priedītis sacīja, ka neregulēta entuziasma invāzija pilsētā tuvojas jau gadiem.
+
+“Tas sāka ar atklātu smiešanos,” Priedītis teica. “Pēc tam parādījās dzirdami dzimšanas dienas tosti. Pēdējā jūlijā es dzirdēju grupu no Rīgas, kas ar normālu skaļumu teica ‘oho’ un skatījās uz jūru. Ja to atļausim, līdz 2028. gadam cilvēki sāks spontāni izbaudīt saulrietus.”
+
+Uzņēmēji arī sākuši pielāgoties. Vairāki kafejnīci Jomas ielā tagad piedāvā “zemu ietekmi atstarojošas apsveikumu ēdienkartes” dzimšanas dienām un jubilejām, kurās iekļauts klusais tiramisu, atturīgi espresso degustācijas izbraucieni un kūkas iepriekš sagrieztas, lai izvairītos no teatrālas pauzes, kas bieži aicina aplausus.
+
+Latvijas kūrortu akustikas asociācija, institūcija, kas pirmdien pēcpusdienā izveidota kā reakcija uz politikas diskusiju, izplatīja paziņojumu, atbalstot pilsētas “piesardzīgo atteikšanos ļaut publiskajām jūtām pārvērsties par piekrastes fenomenu”.
+
+Kad darbinieki otrdienas vakarā uzzīmēja pirmās oficiālās zonas maigi bēšos apļos, tūristi apstājās fotografēt zīmes pieklājīgā klusumā. Vairums pēc tam turpināja iet, kā norādīts: lēnām, gaumīgi un bez pēkšņiem pierādījumiem, ka viņiem ir īpaši labi.`,
+      ru: `ЮРМАЛА — В том, что чиновники называют «взвешенным шагом к устойчивому управлению эмоциями», Городской совет Юрмалы во вторник одобрил создание первых в Латвии Зон Тихих Аплодисментов — сети специально помеченных общественных пространств, где хлопки, крики, возгласы и «чрезмерно энергичный восторг» будут ограничены на летний сезон.
+
+Программа, которая стартует в эти выходные вдоль улицы Йомас, по периметру концертного зала Дзинтари и на отобранных выходах к пляжу между Майори и Булдурами, призвана защитить то, что муниципалитет описывает как «акустически хрупкую атмосферу курортного города». Согласно новым правилам, жители и туристы всё ещё могут выражать одобрение, но только через контролируемые альтернативы, такие как «небольшое покачивание запястьями», один тихий выдох носом или сдержанное слово признания, включая фразу: «Это было, в своем роде, приемлемо.»
+
+Заместитель исполнительного директора по сезонной гармонии Лиене Озолиня сказала, что у города не было выбора после того, как пилотное исследование обнаружило, что спонтанные аплодисменты приезжих вызывают «серьёзные эстетические рябления» в нескольких коридорах отдыха с высокой чувствительностью.
+
+«Юрмала не против радости», — сказала Озолиня репортёрам, стоя рядом с недавно установленным голубым знаком, на котором изображены две руки, вежливо зависшие рядом друг с другом. «Мы просто просим людей наслаждаться в манере, совместимой со стабильностью дюн, старыми солнечными очками и общей эмоциональной влажностью курорта.»
+
+Муниципальные данные показывают, что в праздничный уик-энд 2025 года средняя интенсивность аплодисментов около Дзинтари выросла на 38%, при этом один зафиксированный овационный подъём кратковременно достиг шумового профиля, описанного как «недоразумение среднего троллейбуса». Чиновники говорят, что хотя травм не было, по крайней мере 14 жителей заявили, что почувствовали себя «внезапно замеченными», а одна местная такса якобы отказалась продолжать вечернюю прогулку в течение трёх дней.
+
+Для контроля за соблюдением мер город подготовил 27 Сезонных Смотрителей Вежливости, каждый из которых оснащён льняными повязками на руке, шумомером и ламинированными карточками с одобренными техниками празднования. Нарушителям в первый раз делают устное напоминание и вручают бесплатную брошюру под названием «Наслаждаться без эскалации». Повторные нарушители могут быть направлены в специальные зоны для высвобождения эмоций у железнодорожного вокзала, где под присмотром разрешены более громкие реакции с 16:00 до 18:30.
+
+Не все в восторге от нововведения. Литовский турист и любитель саксофона-любитель Мантас Жемайтис, 34 года, сказал, что был озадачен, когда попытался аплодировать детскому хору и его мягко окружили трое смотрителей, демонстрируя «муниципально соответствующее выражение признательности». 
+
+«Я подумал, может быть, это была пожарная тревога, но затем одна женщина встретилась со мной глазами и исполнила то, что я могу описать только как административный джаз-хенд», — сказал Жемайтис. — «Я за балтийское сотрудничество, но если мой племянник поёт соло, мне хотя бы один настоящий хлопок нужен.»
+
+Некоторые местные жители, однако, похвалили перемены. Житель Майори и на пенсии дантист Илмарс Приедитис сказал, что нерегулируемый энтузиазм подкрадывался в город годами.
+
+«Всё началось с открытого смеха, — сказал Приедитис. — Потом появились слышимые тосты на день рождения. В прошлом июле я услышал группу из Риги, которая просто сказала „воу“ в нормальном голосе, глядя на море. Если мы это позволим, к 2028 году люди начнут спонтанно наслаждаться закатами.»
+
+Предприниматели тоже начали адаптироваться. Несколько кафе на улице Йомас теперь предлагают «Меню низкоинтенсивных поздравлений» для дней рождений и юбилеев, в котором — безмолвное тирамису, приглушённые дегустации эспрессо и торты, заранее нарезанные, чтобы избежать театральной паузы, часто провоцирующей аплодисменты.
+
+Латвийская ассоциация курортной акустики, учреждённая в понедельник днём в ответ на обсуждение политики, выпустила заявление в поддержку «взвешенного отказа позволять общественным чувствам становиться прибрежными». 
+
+Во вторник вечером рабочие расписывали бледно-бежевые кружки, отмечая первые официальные зоны; туристы останавливались, чтобы сфотографировать знаки в уважительной тишине. Большинство затем продолжили прогулку по инструкции: медленно, со вкусом и без внезапных доказательств того, что им особенно приятно.`
+    },
+    date: "Jul 11, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/210/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 209,
     slug: "jrmala-introduces-silent-applause-tax-after-209",
     title: {
@@ -108,7 +207,7 @@ Kad otrdienas domes sēde beidzās, deputāti vēsturisko balsojumu atzīmēja a
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/209/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 208,
