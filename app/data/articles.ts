@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 212,
+    slug: "riga-introduces-polite-queue-lanes-after",
+    title: {
+      en: "Riga Introduces ‘Polite Queue Lanes’ After Residents Complain They Have Nothing Left to Silently Judge",
+      lv: "Rīga ievieš 'Pieklājīgās rindu joslas' pēc tam, kad iedzīvotāji sūdzējās — vairs neesot par ko klusībā spriest",
+      ru: "Рига вводит «полосы вежливых очередей» после жалоб жителей, что им больше не на что молча осуждать"
+    },
+    excerpt: {
+      en: "City officials in Riga have unveiled a pilot program of designated queue lanes intended to preserve one of Latvia’s most cherished social activities: standing quietly while disapproving of strangers. The initiative follows months of concern that self-checkout machines and online booking systems were eroding the nation’s ability to communicate entirely through sighs.",
+      lv: "Rīgas pilsētas vadība paziņojusi par pilotprojektu ar īpaši iezīmētām rindu joslām, lai saglabātu vienu no Latvijas visdārgākajām sabiedriskajām nodarbēm: stāvēt klusējot un izrādīt neapmierinātību par svešiniekiem. Iniciatīva seko mēnešiem ilgiem satraukumiem, ka pašapkalpošanās kasiņas un tiešsaistes pierakstu sistēmas grauj tautas spēju sazināties tikai ar nopūtām.",
+      ru: "Городские власти Риги представили пилотную программу выделенных полос для очередей, призванную сохранить одно из самых священных общественных занятий Латвии: стоять тихо и выражать неодобрение незнакомцам. Инициатива последовала за месяцами обеспокоенности тем, что автоматы самообслуживания и онлайн-бронирование разрушают способность нации общаться исключительно через вздохи."
+    },
+    fullContent: {
+      en: `RIGA — In what municipal leaders are calling a “necessary investment in cultural continuity,” the Riga City Council on Tuesday opened the capital’s first Polite Queue Lanes, a network of specially marked standing areas outside pharmacies, bakeries, parcel terminals, and one particularly emotional Narvesen near the Central Station.
+
+The project, funded through a €2.8 million grant from the Ministry of Culture and an unclaimed coat-check surplus, aims to formalize and protect orderly waiting as a shared civic ritual. According to a 73-page policy paper titled Stillness, Resentment, and Nationhood, the average Riga resident previously spent 41 minutes per day in meaningful, low-intensity line-based contemplation. That figure fell to 11 minutes after the spread of mobile apps, ticketing kiosks, and “reckless appointment culture.”
+
+“We are not anti-technology,” said Deputy Mayor Ilze Strautmane at the ribbon-cutting ceremony, where attendees formed a commemorative queue that stretched to a florist and did not move for 19 minutes out of respect. “But if a citizen can collect a prescription without evaluating the footwear choices of six strangers, then what exactly are we preserving for future generations?”
+
+The new lanes are divided into categories to reflect local preferences. Blue lanes are for Standard Silence, yellow for Passive Urgency, green for Pensioner Priority Drift, and a special maroon lane outside selected municipal offices is reserved for people carrying one document too few. Signage reminds users to maintain proper queue posture, avoid eye contact beyond 1.5 seconds, and express dissatisfaction only through approved methods, including nasal exhalation, shoulder tightening, and brief murmurs of ‘nu jā.’
+
+At a pilot location in Āgenskalns, residents appeared cautiously supportive. “I tried online banking once, and nobody even saw me be correct,” said 62-year-old accountant Andris Ozols, who joined the queue outside a bakery despite having already bought bread. “Here, I can stand, think about the weather, and let a younger person feel vague social pressure. It’s healthier.”
+
+Small businesses have also embraced the initiative. Baiba Krūmiņa, owner of the confectionery Medus Stūrītis, said sales of poppy-seed buns rose 14 percent after customers began arriving early to secure favorable queue positions. “Some people are not even buying pastries,” she admitted. “They just want the window spot where they can observe queue violations and report them to friends later.”
+
+To support the rollout, the city has trained 48 Queue Stewards, identifiable by reflective vests and an expression of restrained disappointment. Their duties include measuring line symmetry, mediating incidents of premature inching, and issuing informational leaflets to tourists who mistake the lanes for outdoor museum exhibits.
+
+Not all feedback has been positive. The Latvian Association for Digital Efficiency called the project “a nostalgic bottleneck in fluorescent paint,” noting that public services should be streamlined, not ritualized. In response, Culture Ministry adviser Mārtiņš Pļaviņš argued that efficiency is not always the highest social good. “If you remove all waiting, you also remove several key opportunities for collective identity, speculative diagnosis of other people’s purchases, and noticing that your neighbor’s son has started dressing strangely.”
+
+Jūrmala officials are already considering a seasonal adaptation for summer visitors, featuring premium beachside queue zones where people can stand in orderly formation for iced coffee they do not truly want. Meanwhile, early data from Riga suggest the pilot is working: complaints about social atomization are down 22 percent, while reports of satisfying but unspoken moral superiority have nearly doubled.
+
+The city plans to expand the scheme this autumn to include ceremonial winter coat-check lines at cultural venues. Officials say the final phase will be a permanent queue monument in central Riga, where residents and tourists alike will be invited to wait patiently for no clear reason, as a tribute to the national character.`,
+      lv: `RĪGA — To, ko pašvaldības vadītāji dēvē par 'nepieciešamām investīcijām kultūras nepārtrauktībā', otrdien Rīgas domes atklāšanā iepazīstināja ar galvaspilsētas pirmajām Pieklājīgajām rindu joslām — īpaši iezīmētām stāvēšanas zonām ārpus aptiekām, maiznīcām, pakomātiem un viena īpaši emocionāla Narvesen pie Centrālās stacijas.
+
+Projekts, finansēts ar 2,8 miljonu eiro grantu no Kultūras ministrijas un vienu neatgūtu garderobes pārpalikumu, mērķē formalizēt un aizsargāt raitu gaidīšanu kā kopīgu civisku rituālu. Saskaņā ar 73 lappušu politikas dokumentu 'Klusēšana, aizvainojums un tautiskums' vidējais rīdzinieks agrāk pavadīja 41 minūti dienā jēgpilnā, zemas intensitātes rindā balstītā apcerē. Tā kā mobilās lietotnes, biļešu kioski un 'neapdomīgā pierakstu kultūra' izplatījās, šis skaitlis saruka līdz 11 minūtēm.
+
+'Mēs neesam pret tehnoloģijām,' sacīja vietniece mēra amatā Ilze Strautmane lentas pārgriešanas ceremonijā, kur dalībnieki veidoja piemiņas rindu, kas stiepās līdz floristam un, cieņas dēļ, netika pārvietota 19 minūtes. 'Bet ja pilsonis var saņemt recepti, neizvērtējot sešu svešinieku apavu izvēli, tad ko gan tieši mēs saglabājam nākamajām paaudzēm?'
+
+Jaunās joslas iedalītas kategorijās, lai atspoguļotu vietējās preferences. Zilās joslas paredzētas Standarta klusēšanai, dzeltenās — Pasīvai steidzīgai sajūtai, zaļās — Pensionāru prioritātes plūdumam, bet īpaša bordo josla pie noteiktiem pašvaldību birojiem rezervēta cilvēkiem, kuriem par maz ir viens dokuments. Norādes atgādina uzturēt pareizu rindu pozu, izvairīties no acu kontakta ilgāk par 1,5 sekundēm un izteikt neapmierinātību tikai atļautajās formās, tostarp ar deguna izelpu, plecu saspringumu un īsu nopukstēšanu 'nu jā'.
+
+Pie pilotobjekta Āgenskalnā iedzīvotāji šķita piesardzīgi atbalstoši. 'Reiz izmēģināju internetbanku, un neviens pat neredzēja, kā es biju pareizs,' teica 62 gadus vecais grāmatvedis Andris Ozols, kurš pievienojās rindai pie maiznīcas, kaut gan maizi jau bija nopircis. 'Te es varu stāvēt, domāt par laiku un ļaut jaunākam cilvēkam sajust neskaidru sociālu spiedienu. Tas ir veselīgāk.'
+
+Arī mazie uzņēmumi ir pieņēmuši iniciatīvu. Konditorejas 'Medus Stūrītis' īpašniece Baiba Krūmiņa teica, ka ķirbju pīrāgu pārdošana palielinājās par 14 procentiem pēc tam, kad klienti sāka ierasties agri, lai nodrošinātu izdevīgas rindas vietas. 'Daži cilvēki pat nepērk saldumus,' viņa atzina. 'Viņi vienkārši grib loga vietu, no kuras var vērot rindu pārkāpumus un vēlāk par tiem paziņot draugiem.'
+
+Lai atbalstītu izvēršanu, pilsēta apmācījusi 48 Rindu Sargus, kurus var atpazīt pēc atstarojošajām vestēm un kontrolētas vilšanās izteiksmes. Viņu pienākumos ietilpst rindas simetrijas mērīšana, starpgadījumu ar priekšlaicīgu virzīšanos uz priekšu mediācija un informatīvu lapiņu izsniegšana tūristiem, kas joslas sajauc ar āra muzeja ekspozīciju.
+
+Ne viss atbalsts bijis pozitīvs. Latvijas Digitālās Efektivitātes asociācija projektu nosauca par 'nostalgisku sastrēgumu fluorescējošā krāsā', norādot, ka publiskie pakalpojumi būtu jāefektivizē, nevis jāritualizē. Uz to Kultūras ministrijas padomdevējs Mārtiņš Pļaviņš atbildēja, ka efektivitāte ne vienmēr ir augstākā sabiedrības vērtība. 'Ja jūs izņemtu visu gaidīšanu, jūs arī atņemtu vairākas svarīgas iespējas kolektīvai identitātei, spekulācijām par citu cilvēku pirkumiem un pamanīt, ka kaimiņa dēls sācis ģērbties dīvaini.'
+
+Jūrmalas amatpersonas jau apsver sezonālu adaptāciju vasaras apmeklētājiem — premium pludmales rindas zonas, kur cilvēki var stāvēt kārtīgā veidojumā, lai saņemtu ledus kafiju, ko patiesībā īsti nevēlas. Tikmēr agrīnie dati no Rīgas liecina, ka pilots darbojas: sūdzības par sociālo atomizāciju samazinājušās par 22 procentiem, savukārt ziņojumu skaits par apmierinošu, bet neizteiktu morāles pārākumu gandrīz divkāršojies.
+
+Pilsēta plāno paplašināt shēmu šoruden, iekļaujot ceremonialās ziemas garderobes rindas kultūras vietās. Amatpersonas norāda, ka noslēguma fāze būs pastāvīgs rindu piemineklis Rīgas centrā, kur iedzīvotāji un tūristi tiks aicināti pacietīgi gaidīt bez skaidra iemesla kā godinājumu nacionālajam raksturam.`,
+      ru: `РИГА — В том, что муниципальные руководители называют «необходимым вложением в культурную преемственность», Городская дума Риги во вторник открыла первые в столице Полосы вежливых очередей — сеть специально отмеченных стоянок у аптек, булочных, посылочных терминалов и одного особенно эмоционального Narvesen возле Центрального вокзала.
+
+Проект, финансируемый грантом в €2,8 млн от Министерства культуры и неиспользованным профицитом гардероба, направлен на формализацию и защиту упорядоченного ожидания как общего гражданского ритуала. Согласно 73-страничному документу под названием Stillness, Resentment, and Nationhood, средний житель Риги раньше проводил 41 минуту в день в содержательной, низкоинтенсивной созерцательной практике очередной медитации. Эта цифра упала до 11 минут после распространения мобильных приложений, киосков с билетами и «безрассудной культуры записи на приём». 
+
+«Мы не против технологий», — сказала заместительница мэра Ilze Strautmane на церемонии перерезания ленточки, где присутствующие выстроились в памятную очередь, которая тянулась до цветочного и не двигалась 19 минут из уважения. «Но если гражданин может получить рецепт, не оценивая обувь шести незнакомцев, то что именно мы сохраняем для будущих поколений?»
+
+Новые полосы разделены по категориям в соответствии с местными предпочтениями. Синие полосы — для стандартной тишины, жёлтые — для пассивной срочности, зелёные — для приоритетного плавного продвижения пенсионеров, а особая бордовая полоса у избранных муниципальных офисов зарезервирована для людей, у которых не хватает одного документа. Знаки напоминают пользователям сохранять правильную позу в очереди, избегать зрительного контакта дольше 1,5 секунд и выражать недовольство только одобренными способами, включая носовые выдохи, напряжение плеч и краткие бормотания «nu jā».
+
+На пилотной локации в Āgenskalns жители выразили сдержанную поддержку. «Я однажды попробовал интернет-банкинг, и никто даже не видел, как я был прав», — сказал 62-летний бухгалтер Andris Ozols, который встал в очередь у булочной, хотя уже купил хлеб. «Здесь я могу постоять, подумать о погоде и дать молодому человеку почувствовать смутное социальное давление. Это полезнее.»
+
+Малый бизнес тоже поддержал инициативу. Baiba Krūmiņa, владелица кондитерской Medus Stūrītis, рассказала, что продажи булочек с маком выросли на 14 процентов после того, как покупатели начали приходить заранее, чтобы занять выгодные места в очереди. «Некоторые люди даже не покупают выпечку, — призналась она. — Им просто нужно место у окна, откуда они могут наблюдать за нарушениями очередного этикета и потом сообщать о них друзьям.»
+
+Для поддержки реализации города обучили 48 Смотрителей очередей, которых можно узнать по светоотражающим жилетам и выражению сдержанного разочарования. В их обязанности входит измерение симметрии линий, посредничество при случаях преждевременного подтягивания и выдача информационных листовок туристам, которые принимают полосы за уличные музейные экспозиции.
+
+Не все отзывы были положительными. Латвийская ассоциация цифровой эффективности назвала проект «ностальгическим затором в люминесцентной краске», отметив, что государственные услуги следует упрощать, а не ритуализировать. В ответ советник министра культуры Mārtiņš Pļaviņš заявил, что эффективность — не всегда высшее общественное благо. «Если убрать всё ожидание, вы также уберёте несколько ключевых возможностей для коллективной идентичности, спекулятивной диагностики чужих покупок и для того, чтобы заметить, что сын соседа стал одеваться странно», — сказал он.
+
+Власти Юрмалы уже рассматривают сезонную адаптацию для летних посетителей с премиальными прибрежными зонами очередей, где люди смогут стоять в упорядоченных формациях ради холодного кофе, который им на самом деле не нужен. Тем временем первые данные из Риги говорят о том, что пилот работает: жалобы на социальную атомизацию снизились на 22 процента, а сообщения о удовлетворительном, но невысказанном моральном превосходстве почти удвоились.
+
+Город планирует расширить схему этой осенью, включив церемониальные очереди для сдачи пальто в культурных заведениях на зиму. По словам чиновников, финальная фаза — это постоянный монумент очереди в центре Риги, где жителей и туристов пригласят терпеливо ждать без ясной причины, в знак признания национального характера.`
+    },
+    date: "Jul 13, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/212/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 211,
     slug: "jrmala-introduces-passive-aggressive-beach-flags",
     title: {
@@ -96,7 +177,7 @@ Jūrmalas varasiestādes ziņo, ka programma paliks spēkā līdz augustam, pēc
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/211/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 210,
