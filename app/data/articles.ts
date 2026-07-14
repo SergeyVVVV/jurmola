@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 213,
+    slug: "jrmala-introduces-passive-aggressive-silence-zones-213",
+    title: {
+      en: "Jūrmala Introduces ‘Passive-Aggressive Silence Zones’ to Preserve Traditional Baltic Communication",
+      lv: "Jūrmala ievieš 'pasīvi-agresīvās klusēšanas zonas', lai saglabātu tradicionālo Baltijas komunikāciju",
+      ru: "Юрмала вводит «зоны пассивно‑агрессивного молчания» для сохранения традиционного балтийского общения"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have unveiled a network of designated public areas where residents may express disapproval exclusively through meaningful pauses, narrowed eyes, and the careful repositioning of tote bags. The city says the initiative will protect an essential part of regional identity while reducing unnecessary direct conversation by up to 68 percent.",
+      lv: "Jūrmalas pašvaldība atklājījus tīklu ar publiskām vietām, kur iedzīvotāji drīkst izrādīt neapmierinātību tikai ar nozīmīgām pauzēm, sašaurinātu skatienu un rūpīgu auduma somu pārlikšanu. Pilsēta apgalvo, ka iniciatīva saglabās būtisku reģiona identitātes daļu, vienlaikus samazinot lieku tiešu sarunu līdz pat 68 procentiem.",
+      ru: "Чиновники Юрмалы открыли сеть специально отмеченных общественных мест, где жители могут выражать недовольство исключительно осмысленными паузами, прищуренными глазами и аккуратным переставлением сумок‑шопперов. Город говорит, что инициатива сохранит важную часть региональной идентичности и сократит ненужные прямые разговоры до 68 процентов."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what municipal leaders are calling a “major investment in intangible cultural infrastructure,” the Jūrmala City Council on Tuesday approved the creation of 14 Passive-Aggressive Silence Zones across the resort town, formalizing a communication style long practiced informally at bus stops, grocery queues, and beach parking lots.
+
+The zones, marked by discreet beige signage reading PLEASE CONVEY DISPLEASURE NONVERBALLY, will be installed in high-tension public areas including Dzintari Station, the entrance to a popular organic bakery in Majori, and a narrow section of beach where, according to city planning documents, “someone always spreads a blanket much too close to everyone else despite the existence of the entire Gulf of Riga.”
+
+Deputy Mayor Ilze Vītoliņa said the policy is designed to preserve a uniquely Baltic social ritual threatened by global trends toward openness and verbal clarity.
+
+“We are not against feelings,” Vītoliņa told reporters at a press conference that featured several long pauses and one audible sigh. “We simply believe feelings should be communicated the way nature intended: through posture, atmospheric tension, and a sentence beginning with, ‘Well, if that is how you want to do it.’”
+
+According to a 47-page feasibility study commissioned by the city and conducted by the Institute for Applied Reservedness, the average Jūrmala resident currently experiences 11.3 moments per day in which they wish to comment on another person’s behavior but would strongly prefer not to start an actual conversation. Researchers found that 82 percent of these moments could be resolved through silence alone, while 14 percent required the addition of a handbag adjustment, and 4 percent escalated to a softly murmured “interesting.”
+
+The report also warned that, without intervention, younger residents exposed to foreign podcasts and coworking spaces may begin “stating their preferences directly,” a development experts described as culturally destabilizing.
+
+At Dzintari Station, where one of the first zones will be piloted, commuters reacted with restrained approval. “This is overdue,” said 58-year-old accountant and year-round scarf wearer Maija Ozoliņa, after staring at a teenager playing music on speakerphone for approximately 40 seconds. “Before, there was confusion. Was I just waiting for the train, or was I condemning him as a concept? Now there will be rules.”
+
+Under the new guidelines, residents inside a Silence Zone may deploy one of four approved expressions of public disapproval: the Controlled Exhale, the Sideways Glance of Administrative Fatigue, the Tiny Head Shake, and the Enhanced Window Stare, reserved for advanced practitioners and municipal staff. Overt confrontation remains discouraged except in emergencies, defined by the council as “someone heating fish in a shared office microwave” or “a person from Riga explaining saunas incorrectly.”
+
+To enforce the system, the city has budgeted €312,000 for training, signage, and the development of a mobile app that allows users to rate the emotional density of individual zones in real time. Early beta testers reported the app was “useful, but somehow judging me.”
+
+Not everyone supports the measure. Civil liberties group Open Faces Latvia argued that the policy may disproportionately impact extroverts, exchange students, and people who smile in February. “There is a fine line between cultural preservation and emotional zoning,” said the group’s chair, Mārtiņš Feldmanis. “Also, one of our interns entered the pilot area in Bulduri and came out apologizing for things he had not done.”
+
+Still, city officials insist the rollout will strengthen civic harmony ahead of the busy summer season. If successful, neighboring municipalities may adopt similar programs, with Saulkrasti reportedly considering a companion initiative called Seasonal Eye-Roll Corridors.
+
+As workers began measuring a beachfront silence perimeter Tuesday afternoon, a small crowd gathered nearby, watching quietly and making no comment whatsoever. By local standards, it was regarded as overwhelming public enthusiasm.`,
+      lv: `JŪRMALA — To, ko pašvaldības līderi sauc par “lielu ieguldījumu nemateriālajā kultūras infrastruktūrā”, Jūrmalas pilsētas dome otrdien apstiprināja 14 pasīvi-agresīvo klusēšanas zonu izveidi kūrortpilsētā, formalizējot komunikācijas stilu, kas ilgi tika praktizēts neformāli pie autobusu pieturām, veikalos rindās un pludmales stāvvietās.
+
+Zonas, kuras iezīmēs diskretas bēšas norādes ar uzrakstu LŪDZAM IZRĀDĪT NEAPMIERINĀTĪBU NEVERBĀLI, tiks uzstādītas sprieguma vietās, tostarp pie Dzirnavu (Dzintaru) stacijas, pie ieejas populārā bioloģiskā maiznīcā Majoros un šaurā pludmales posmā, kur, pēc pilsētas plānošanas dokumentiem, “vienmēr kāds klāj dvieli pārāk tuvu citiem, neskatoties uz visu Rīgas jūras līci.”
+
+Deputāte Ilze Vītoliņa sacīja, ka politikas mērķis ir saglabāt unikālu baltisku sociālo rituālu, ko apdraud pasaules tendences uz atklātību un vārdu skaidrību.
+
+“Mēs neesam pret sajūtām,” Vītoliņa žurnālistiem norādīja preses konferencē, kurā bijušas vairākas garas pauzes un viens skaļš nopūtiens. “Mēs vienkārši uzskatām, ka sajūtām jābūt izpaustām tā, kā daba to paredzējusi: ar stāju, atmosfērisku spriedzi un teikumu, kas sākas ar ‘Nu, ja tā tu gribi darīt.’”
+
+Pēc pilsētas pasūtītā un Pielietotās atturības institūta veikta 47 lapu izpētes ziņojuma pašreizējais vidējais jūrmalnieks dienā piedzīvo 11,3 brīžus, kad viņš vēlētos komentēt cita cilvēka uzvedību, bet spēcīgi priekšroku dod, lai nesāktu tiešu sarunu. Pētnieki secināja, ka 82 procentus no šiem brīžiem var atrisināt tikai ar klusumu, kamēr 14 procentiem nepieciešama somiņas (tote bag) pārlikšana, un 4 procenti eskalējas līdz klusi mumulētam “interesanti”.
+
+Ziņojums arī brīdināja, ka bez iejaukšanās jaunāki iedzīvotāji, kuri tiek pakļauti ārvalstu podkāstiem un kopdarba telpām, var sākt “tieši izteikt savas vēlmes” — attīstību, ko eksperti raksturoja kā kultūrradikāli destabilizējošu.
+
+Pie Dzintaru stacijas, kur viena no pirmajām zonām tiks izmēģināta, pasažieri reaģēja ar ierobežotu piekrišanu. “Tas ir sen pienācis,” sacīja 58 gadus vecā grāmatvede un visu gadu šalli nēsājošā Maija Ozoliņa, pēc aptuveni 40 sekundes ilga skatiena uz pusaudzi, kas klausījās mūziku skaļrunī. “Agrāk bija mulsums. Vai es tikai gaidu vilcienu, vai arī nosodu viņu kā fenomenu? Tagad būs noteikumi.”
+
+Saskaņā ar jaunajiem norādījumiem klusēšanas zonas ietvaros iedzīvotāji varēs izmantot vienu no četriem apstiprinātiem publiskās neapmierinātības izteikšanas veidiem: Kontrolēta izelpa, Šķērsenisks skatījums ar administratīvā noguruma elementu, Smalka galvas kratīšana un Intensificētais „skats pa logu”, rezervēts pieredzējušiem praktiķiem un pašvaldības darbiniekiem. Atklāta konfrontācija joprojām tiek ierobežota, izņemot ārkārtas situācijas, ko dome definējusi kā “kādu, kas silda zivis koplietotā biroja mikroviļņu krāsnī” vai “cilvēku no Rīgas, kas nepareizi izskaidro pirti.”
+
+Lai sistēmu īstenotu, pilsēta budžetējusi 312 000 eiro apmērā mācībām, zīmju izgatavošanai un mobilās lietotnes izstrādei, kas ļaus lietotājiem reāllaikā vērtēt atsevišķo zonu emocionālo blīvumu. Agrīnie beta testa dalībnieki ziņoja, ka lietotne ir “noderīga, bet kaut kā mani tiesā.”
+
+Ne visi atbalsta šo pasākumu. Pilsonisko brīvību grupa “Atvērtās Sejas Latvija” apgalvoja, ka politika var nelabvēlīgi ietekmēt ekstravertus, apmaiņas studentus un cilvēkus, kas smaida februārī. “Ir plāna līnija starp kultūras saglabāšanu un emocionālo zonēšanu,” sacīja grupas vadītājs Mārtiņš Feldmanis. “Arī viens no mūsu praktikantiem iegāja pilotzonā Buldūros un iznāca atvainojoties par lietām, ko nebija darījis.”
+
+Tomēr pašvaldības pārstāvji uzsver, ka ieviešana stiprinās pilsonisko harmoniju pirms noslogātās vasaras sezonas. Ja tas izrādīsies veiksmīgi, iespējams, līdzīgas programmas adoptēs arī kaimiņu pašvaldības, un tiek ziņots, ka Saulkrasti apsver palīginiatīvu ar nosaukumu Sezonālie acu „rullēšanas” koridori.
+
+Kad darbinieki otrdien pēcpusdienā sāka mērīt klusuma perimetru pie jūras, neliela ļaužu grupiņa sapulcējās netālu, skatījās klusu un nemaz nekomentēja. Pēc vietējiem standartiem tas tika uzskatīts par pārliecinošu sabiedrības entuziasmu.`,
+      ru: `ЮРМАЛА — В том, что муниципальные лидеры называют «существенным вложением в нематериальную культурную инфраструктуру», Городской совет Юрмалы во вторник одобрил создание 14 зон пассивно‑агрессивного молчания по курортному городу, формализовав стиль коммуникации, который давно практиковался неофициально на автобусных остановках, в очередях в магазине и на парковках у пляжа.
+
+Зоны, отмеченные сдержанными бежевыми табличками с надписью «ПОЖАЛУЙСТА, ВЫРАЖАЙТЕ НЕДОВОЛЬСТВО БЕЗ СЛОВ», будут установлены в общественных местах с высокой напряжённостью, включая станцию Дзинтари, вход в популярную органическую пекарню в Майори и узкий участок пляжа, где, согласно документам городского планирования, «кто‑то всегда расстилает одеяло слишком близко к другим, несмотря на существование всего Рижского залива». 
+
+Заместитель мэра Илзе Витолиня сказала, что политика направлена на сохранение уникального балтийского общественного ритуала, на который угрожающе влияют мировые тенденции в сторону открытости и вербальной ясности.
+
+«Мы не против чувств», — сказала Витолиня репортёрам на пресс‑конференции, в ходе которой было сделано несколько долгих пауз и один слышимый вздох. «Мы просто считаем, что чувства следует выражать так, как задумала природа: через осанку, атмосферное напряжение и фразу, начинающуюся словами „Ну, если вы хотите так сделать“». 
+
+Согласно 47‑страничному исследованию выполнимости, заказанному городом и проведённому Институтом прикладной сдержанности, средний житель Юрмалы в настоящее время испытывает 11,3 момента в день, когда он хотел бы прокомментировать поведение другого человека, но настоятельно предпочёл бы не начинать реальный разговор. Исследователи обнаружили, что 82 процента этих моментов можно разрешить только молчанием, в то время как 14 процентов требовали дополнительного движения сумочкой, а 4 процента эскалировали до едва слышного «интересно». 
+
+В отчёте также предупреждалось, что без вмешательства молодые жители, подверженные влиянию иностранных подкастов и коворкингов, могут начать «выражать свои предпочтения напрямую», что эксперты описали как культурно дестабилизирующее явление.
+
+На станции Дзинтари, где одна из первых зон будет опробована, пассажиры отреагировали со сдержанным одобрением. «Это давно назрело», — сказала 58‑летняя бухгалтер и постоянная шарфоносительница Майя Озолиня, уставившись на подростка, включившего музыку из портативной колонки примерно на 40 секунд. «Раньше была путаница. Я просто ждала поезд или уже осуждала его как явление? Теперь будут правила». 
+
+Согласно новым правилам, находящиеся в Зоне молчания жители могут использовать одно из четырёх одобренных выражений общественного недовольства: Контролируемый выдох, Косой взгляд административной усталости, Маленькое покачивание головы и Усиленный взгляд в окно — последний зарезервирован для продвинутых практиков и муниципальных служащих. Открытое противостояние по‑прежнему не поощряется, кроме чрезвычайных ситуаций, которые совет определил как «кто‑то разогревает рыбу в общей офисной микроволновке» или «человек из Риги, неправильно объясняющий сауны». 
+
+Для обеспечения соблюдения системы город выделил 312 000 евро на обучение, таблички и разработку мобильного приложения, позволяющего пользователям в реальном времени оценивать эмоциональную плотность отдельных зон. Ранние бета‑тестеры сообщили, что приложение «полезно, но как‑то осуждает меня». 
+
+Не все поддерживают меру. Группа по правам граждан Open Faces Latvia утверждает, что политика может непропорционально затронуть экстравертов, студентов по обмену и людей, улыбающихся в феврале. «Существует тонкая грань между сохранением культуры и эмоциональным зонированием», — сказал председатель группы Мартиньш Фельдманис. «Кроме того, один из наших стажёров вошёл в пилотную зону в Булдури и вышел, извиняясь за вещи, которых он не делал». 
+
+Тем не менее городские чиновники настаивают, что запуск укрепит гражданскую гармонию перед насыщенным летним сезоном. В случае успеха соседние муниципалитеты могут принять аналогичные программы, причём Саулкрасты, по сообщениям, рассматривают сопутствующую инициативу под названием Сезонные коридоры закатывания глаз. 
+
+Во вторник днём рабочие начали измерять прибрежный периметр молчания, и рядом собралась небольшая толпа, которая тихо наблюдала и вовсе ничего не говорила. По местным меркам это считалось бурным общественным энтузиазмом.`
+    },
+    date: "Jul 14, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/213/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 212,
     slug: "riga-introduces-polite-queue-lanes-after",
     title: {
@@ -96,7 +189,7 @@ Pilsēta plāno paplašināt shēmu šoruden, iekļaujot ceremonialās ziemas ga
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/212/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 211,
