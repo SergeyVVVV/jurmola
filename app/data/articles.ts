@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 214,
+    slug: "riga-introduces-polite-potholes-that-apologize-214",
+    title: {
+      en: "Riga Introduces ‘Polite Potholes’ That Apologize to Drivers Before Damaging Suspension",
+      lv: "Rīga ievieš „Pieklājīgās bedres”, kas pirms amortizācijas sabojāšanas atvainojas autovadītājiem",
+      ru: "Рига вводит «вежливые ямы», которые извиняются перед водителем до повреждения подвески"
+    },
+    excerpt: {
+      en: "In a pilot project officials are calling ‘human-centered infrastructure,’ Riga has begun installing sensor-equipped potholes that issue courteous verbal warnings moments before swallowing a tire. City leaders say the initiative reflects Latvia’s commitment to digital innovation while accepting that certain roads are, in a philosophical sense, permanent.",
+      lv: "Pilotprojektā, ko amatpersonas dēvē par „uz cilvēku orientētu infrastruktūru”, Rīga sāka uzstādīt sensoru aprīkotas bedres, kas brīdi pirms riepas norīšanas izsaka laipnu mutisku brīdinājumu. Pilsētas vadība norāda, ka iniciatīva atspoguļo Latvijas apņemšanos digitālajās inovācijās, vienlaikus pieņemot, ka dažas ielas filozofiskā nozīmē ir pastāvīgas.",
+      ru: "В пилотном проекте, который чиновники называют «инфраструктурой, ориентированной на человека», в Риге начали устанавливать оснащённые датчиками ямы, которые за несколько мгновений до того, как поглотить шину, вежливо голосом предупреждают водителя. Городские лидеры говорят, что инициатива отражает приверженность Латвии цифровым инновациям и одновременно признаёт, что некоторые дороги в философском смысле — постоянны."
+    },
+    fullContent: {
+      en: `RIGA — In what municipal leaders described Tuesday as “a realistic compromise between budget discipline and public dignity,” the Riga City Council has unveiled the capital’s first network of so-called Polite Potholes: street cavities fitted with motion sensors, compact speakers, and a multilingual apology system designed to warn motorists immediately before impact.
+
+The pilot program, launched along Brivibas Street, Maskavas Street, and one especially contemplative section of Čaka Street, is part of Riga’s new Smart Mobility and Emotional Resilience Strategy for 2026–2028. According to the city’s Department of Transport, 37 potholes have already been upgraded to deliver phrases such as “Terribly sorry,” “This is not ideal for either of us,” and, for premium intersections, “The municipality acknowledges your frustration.”
+
+Vice Mayor Andris Sile, standing beside a medium-sized crater adorned with a ceremonial ribbon, said the city had to “rethink what service means in the 21st century.”
+
+“Previous administrations focused narrowly on filling holes,” Sile told reporters as a passing Volkswagen emitted a metallic cough. “We are asking a broader question: can urban damage be more respectful? We believe the answer is yes.”
+
+The system was developed by Riga-based startup BedreTech in partnership with former public radio voice actor Uldis Dreimanis, whose calm baritone now issues most of the standard warnings. Motorists can choose between three voice settings via a mobile app: Formal Latvian, Encouraging Russian, and Passive-Aggressive English for tourists who rented a car despite several warnings.
+
+BedreTech founder Elina Krumina said field testing showed a measurable reduction in emotional shock. “When drivers hear ‘Please prepare for a significant but meaningful jolt,’ they report feeling seen,” she said. “In one trial, 62 percent of participants described the experience as ‘still awful, but professionally handled.’”
+
+Not all residents are convinced. Purvciems delivery driver Janis Zvirbulis said the apology offered little comfort after his van disappeared “up to the mood of the axle.”
+
+“It said, ‘We regret any inconvenience to your chassis,’” Zvirbulis recalled. “I appreciate the manners. But manners are not a wheel alignment.”
+
+The city maintains the project is cost-effective. Internal figures show each Polite Pothole unit costs €4,800 to install, compared with an estimated €11,200 required to fully repair the road section around it. Officials stressed that the audio-based approach also aligns with sustainability goals by preserving the pothole “as an existing urban feature” rather than introducing carbon-intensive asphalt.
+
+Urban sociologist Dr. Maija Lapsa of the University of Latvia called the initiative “deeply Baltic.”
+
+“We have always preferred endurance, understatement, and weather-appropriate disappointment,” Lapsa said. “A hole that acknowledges your suffering without promising improvement is, in many ways, our most honest public servant.”
+
+Tourism authorities have already expressed cautious optimism. Riga Investment and Tourism Agency representative Martins Vevers noted that several cruise passengers had mistaken the apologizing street defects for an art installation about post-Soviet bureaucracy and “responded very positively.” A guided walking route, The Crater of European Values, is reportedly under consideration for summer.
+
+Meanwhile, city engineers confirmed a second phase may include potholes capable of small talk during traffic jams and one flagship sinkhole near the Central Station that will simply whisper, “You knew this shortcut was ambitious.”
+
+At press time, officials celebrated the successful rollout after a ceremonial city bus struck three upgraded potholes in succession and received what witnesses described as “the most courteous structural damage in municipal history.”`,
+      lv: `RĪGA — To, ko pilsētas vadītāji otrdien raksturoja kā „reālistisku kompromisu starp budžeta disciplīnu un sabiedrisko cieņu”, Rīgas dome atklāja galvaspilsētas pirmo tā saukto Pieklājīgo bedru tīklu: ielu izdobumus, kas aprīkoti ar kustības sensoriem, kompaktajiem skaļruņiem un daudzvalodu atvainošanās sistēmu, paredzētu, lai brīdinātu autovadītājus tieši pirms sadursmes.
+
+Pilotprogramma, kas uzsākta Brīvības ielā, Maskavas ielā un vienā īpaši meditācijas cienīgā Čaka ielas posmā, ir daļa no Rīgas jaunās viedās mobilitātes un emocionālās noturības stratēģijas 2026.–2028. gadam. Pēc pilsētas Satiksmes departamenta datiem 37 bedres jau ir uzlabotas, lai izteiktu frāzes kā „Ļoti atvainojamies,” „Tas nav ideāli nevienam no mums,” un, prēmium krustojumiem, „Pašvaldība apzinās jūsu neapmierinātību.”
+
+Vicemērs Andris Sile, stāvot blakus vidēja izmēra krāterim, rotātam ar svinīgu lenti, sacīja, ka pilsētai jā„pārdomā, ko nozīmē pakalpojums 21. gadsimtā.”
+
+„Iepriekšējās administrācijas šaurā veidā koncentrējās uz bedru aizlāpīšanu,” Sile sacīja žurnālistiem, kad garāmbraucošs Volkswagen izdeva metālisku klepu. „Mēs uzdodam plašāku jautājumu: vai pilsētas bojājumi var būt cieņpilnāki? Mēs uzskatām, ka var.”
+
+Sistēmu izstrādāja Rīgas startaps BedreTech sadarbībā ar bijušo sabiedriskā radio balsi Uldi Dreimani, kura kluss baritons tagad izsaka lielāko daļu standarta brīdinājumu. Autovadītāji caur mobilo lietotni var izvēlēties starp trim balss režīmiem: formāla latviešu valoda, iedrošinoša krievu valoda un pasīvi-agresīva angļu valoda tūristiem, kas auto nomāja, neskatoties uz vairākiem brīdinājumiem.
+
+BedreTech dibinātāja Elina Krumina sacīja, ka lauka testi uzrādīja izmērāmu emocionālā šoka samazinājumu. „Kad vadītāji dzird ‘Lūdzu sagatavojieties ievērojamam, bet jēgpilnam triecienam’, viņi ziņo, ka jūtas pamanīti,” viņa teica. „Vienā izmēģinājumā 62 procenti dalībnieku aprakstīja pieredzi kā ‘joprojām šausmīgu, bet profesionāli nokārtotu.’”
+
+Ne visi iedzīvotāji ir pārliecināti. Purvciema piegādes vadītājs Jānis Zvirbulis sacīja, ka atvainošanās sniedza maz mierinājuma pēc tam, kad viņa furgons „pazuda līdz asij.”
+
+„Tā teica: ‘Mēs nožēlojam jebkādas neērtības jūsu šasijai,’” Zvirbulis atcerējās. „Cenšos novērtēt manieres. Bet manieres nav riteņu salīdzināšana.”
+
+Pilsēta uzsver, ka projekts ir izmaksu ziņā efektīvs. Iekšējie aprēķini rāda, ka viena Pieklājīgās bedres vienība maksā 4 800 € uzstādīšanai, salīdzinot ar aptuveni 11 200 €, kas būtu nepieciešami, lai pilnībā salabotu apkārtējo ceļa posmu. Amatpersonas izcēla arī, ka audio risinājums saskan ar ilgtspējas mērķiem, saglabājot bedri „kā esošu pilsētas elementu” vietā, lai ieviestu oglekli intensīvu asfaltu.
+
+Pilsētas socioloģe Maija Lapsa no Latvijas Universitātes nosauca iniciatīvu par „dziļi baltisku.”
+
+„Mēs vienmēr esam priekšroku devuši izturībai, nepārmērīgai pieticībai un laikapstākļiem atbilstošai vilšanās izjūtai,” Lapsa sacīja. „Bedre, kas atzīst jūsu ciešanas, nesolot uzlabojumus, ir daudzos veidos mūsu visgodīgākais sabiedriskais ierēdnis.”
+
+Tūrisma pārvaldes jau izteikušas piesardzīgu optimismu. Rīgas Investīciju un tūrisma aģentūras pārstāvis Mārtiņš Vēvers norādīja, ka vairāki kruīza pasažieri atzinuši atvainojošos ielas defektus par mākslas instalāciju par pēcpadomju birokrātiju un „reaģējuši ļoti pozitīvi.” Vasarai tiek apsvērta gida pastaigu maršruta izveide — „Eiropas vērtību krāteris.”
+
+Tikmēr pilsētas inženieri apstiprināja, ka otrajā posmā var tikt iekļautas bedres, kas spēj uzsākt nelielu čalošanu sastrēgumu laikā, un viena akcentēta iegrimuma bedre pie Centrālās stacijas, kas vienkārši čukstēs: „Jūs taču zinājāt, ka šis īsceļš ir ambiciozs.”
+
+Preses laikā amatpersonas svinēja veiksmīgu ieviešanu pēc tam, kad ceremonālais pilsētas autobuss pēc kārtas saslīdēja trīs uzlabotās bedres un saņēma to, ko liecinieki raksturoja kā „žēlīgi pieklājīgāko konstrukcijas bojājumu pašvaldības vēsturē.”`,
+      ru: `РИГА — В том, что городские власти во вторник назвали «реалистичным компромиссом между бюджетной дисциплиной и общественным достоинством», Рижская городская дума представила первую в столице сеть так называемых «Вежливых ям»: дорожных провалов, оборудованных датчиками движения, компактными динамиками и многоязычной системой извинений, предназначенной предупреждать автомобилистов непосредственно перед ударом.
+
+Пилотная программа, запущенная на улицах Бривибас, Маскавас и на одном особенно созерцательном участке улицы Чака, является частью новой стратегии Риги «Умная мобильность и эмоциональная устойчивость на 2026–2028 годы». По данным городского департамента транспорта, 37 ям уже модернизированы для произнесения фраз вроде «Крайне извиняемся», «Это ничуть не идеально ни для вас, ни для нас» и, для премиальных перекрёстков, «Муниципалитет признаёт ваше раздражение».
+
+Вице-мэр Андрис Силе, стоявший рядом со средней по размеру воронкой, украшенной церемониальной ленточкой, сказал, что городу пришлось «переосмыслить, что значит сервис в XXI веке». «Предыдущие администрации узко фокусировались на засыпании ям, — сказал Силе репортёрам, когда проезжающий Volkswagen издал металлическое покашливание. — Мы задаём более широкий вопрос: может ли городское повреждение быть более уважительным? Мы считаем, что да». 
+
+Систему разработал рижский стартап BedreTech в партнёрстве с бывшим диктором общественного радио Улдисом Дрейманисом, чей спокойный баритон теперь произносит большинство стандартных предупреждений. Водители могут выбирать между тремя голосовыми настройками через мобильное приложение: формальный латышский, поддерживающий русский и пассивно-агрессивный английский для туристов, взявших в аренду автомобиль вопреки многочисленным предупреждениям.
+
+Основательница BedreTech Элина Крумина сказала, что полевые испытания показали измеримое снижение эмоционального шока. «Когда водители слышат „Пожалуйста, приготовьтесь к значительному, но осмысленному толчку“, они сообщают, что чувствуют себя замеченными, — сказала она. — В одном испытании 62 процента участников описали опыт как „всё ещё ужасно, но профессионально обработано“». 
+
+Не все жители впечатлены. Курьер из Пурвциема Янис Звирбулис сказал, что извинение мало утешило, когда его фургон исчез «в зависимости от настроения оси». «Оно сказало: „Мы сожалеем о любых неудобствах, причинённых вашему шасси“, — вспоминал Звирбулис. — Я ценю манеры. Но манеры — это не регулировка развала и схождения». 
+
+Город настаивает, что проект экономически оправдан. Внутренние данные показывают, что установка одного блока «Вежливая яма» обходится в €4 800, по сравнению с примерно €11 200, необходимых для полного ремонта участка дороги вокруг неё. Чиновники подчёркивают, что звуковой подход также соответствует целям устойчивого развития, позволяя сохранить яму «как существующий городской элемент», вместо того чтобы укладывать углеродоёмкий асфальт.
+
+Городской социолог доктор Майя Лапса из Латвийского университета назвала инициативу «глубоко балтийской». «Мы всегда предпочитали выносливость, сдержанность и погодо-адекватное разочарование, — сказала Лапса. — Яма, которая признаёт ваше страдание, не обещая улучшений, во многом наш самый честный государственный служащий». 
+
+Туристические власти уже выразили осторожный оптимизм. Представитель Рижского агентства по инвестициям и туризму Мартинс Веверс отметил, что несколько пассажиров круизных лайнеров приняли извиняющиеся дорожные дефекты за арт-инсталляцию о постсоветской бюрократии и «отреагировали очень положительно». Якобы рассматривается пешеходный маршрут с гидом под названием «Воронка европейских ценностей» на лето.
+
+Тем временем городские инженеры подтвердили, что второй этап может включать ямы, способные поддержать светскую беседу в пробках, и одну флагманскую провалину у Центрального вокзала, которая просто прошепчет: «Вы знали, что этот короткий путь был слишком амбициозен». 
+
+На момент сдачи материала чиновники праздновали успешный запуск после того, как церемониальный городской автобус подряд врезался в три модернизированные ямы и получил то, что свидетели описали как «самое вежливое структурное повреждение в муниципальной истории».`
+    },
+    date: "Jul 15, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/214/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 213,
     slug: "jrmala-introduces-passive-aggressive-silence-zones-213",
     title: {
@@ -108,7 +207,7 @@ Kad darbinieki otrdien pēcpusdienā sāka mērīt klusuma perimetru pie jūras,
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/213/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 212,
