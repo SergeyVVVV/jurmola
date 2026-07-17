@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 216,
+    slug: "jrmala-introduces-silent-applause-zones-after-216",
+    title: {
+      en: "Jūrmala Introduces Silent Applause Zones After Residents Complain Seagulls Are Becoming Too Confident",
+      lv: "Jūrmala ievieš klusās aplaudēšanas zonas pēc iedzīvotāju sūdzībām, ka kaijas kļūst pārāk pašpārliecinātas",
+      ru: "Юрмала вводит зоны тихих аплодисментов после жалоб жителей, что чайки стали слишком самоуверенными"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have unveiled a new coastal policy requiring all public applause to be performed silently in designated \"respectful enthusiasm zones.\" The move follows municipal findings that repeated clapping near the beach has led to a measurable rise in seagull boldness, pastry theft, and what experts are calling \"unearned maritime self-esteem.\"",
+      lv: "Jūrmalas amatpersonas atklājušas jaunu piejūras politiku, kas prasa visu publisko aplaudēšanu izpildīt klusumā īpaši noteiktās \"cieņpilnas entuziasma zonās\". Solis sekoja pašvaldības atziņām, ka atkārtota plaukstu dauzīšana pie pludmales ir izraisījusi mērāmu kaiju drosmes pieaugumu, konditorejas izstrādājumu zādzības un to, ko eksperti sauc par \"nenopelnītu jūras pašlepnumu.\"",
+      ru: "Власти Юрмалы объявили новую прибрежную политику: все публичные аплодисменты теперь должны выполняться беззвучно в специально отведённых «зонах уважительного энтузиазма». Решение принято после муниципального исследования, показавшего, что повторные хлопки у пляжа привели к заметному росту самоуверенности чаек, воровству выпечки и тому, что эксперты называют «незаслуженным морским самомнением»."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a policy described by local leaders as "preventive, humane, and rhythmically responsible," the Jūrmala City Council on Tuesday approved the Baltic coast’s first network of Silent Applause Zones, where residents and visitors will be encouraged to celebrate performances, speeches, and successful parking attempts by fluttering their fingers in the air rather than clapping.
+
+The decision follows a 67-page municipal report linking conventional applause to escalating behavioral problems among the city’s seagull population. According to the study, conducted jointly by the Department of Environmental Orderliness and the Dzintari Concert Hall’s Audience Experience Task Force, seagulls exposed to sustained clapping were 43% more likely to approach humans with "entrepreneurial intent," 28% more likely to seize laminated baked goods, and "visibly smug" in 81% of observed cases.
+
+"At first we thought the gulls were reacting to food," said Ilze Grunte, deputy chair of the city’s Committee for Seasonal Calm. "But then we noticed incidents spiking after jazz concerts, graduation ceremonies, and one accordion festival where people applauded continuously for six minutes. By Sunday, several birds were strutting along Jomas Street like mid-level managers. One stole a curd snack from a German cyclist while maintaining direct eye contact. That is not natural confidence. That is social conditioning."
+
+Under the new system, bright blue signs marked with a tasteful hand icon will be installed across high-risk celebration areas, including Dzintari Beach, Majori station, and a 200-meter stretch near a kiosk where gull-related dairy losses have been especially severe. In these zones, physical clapping is not banned outright, but residents are asked to limit themselves to what the city guide describes as "modest palm contact of no more than three culturally necessary taps." Louder displays of enthusiasm must be redirected into silent hand-waving, solemn nodding, or the traditional Baltic exhale through the nose.
+
+The measure has drawn mixed reactions from the public. "Personally, I support anything that humiliates seagulls," said pensioner and year-round Jūrmala resident Mārtiņš Feldmanis, 72, while carefully shielding a cinnamon bun inside a reusable pharmacy bag. "Last summer one landed on my bench and looked at me as if I owed it rent. If silent applause restores the old boundaries, then fine. We had boundaries in 1986 and the birds knew it."
+
+Not everyone is convinced. Street violinist Karīna Ozola worried the gesture-only policy could hurt morale among performers. "I can handle indifference," she said after a lunchtime set near Horn’s Garden. "That’s our cultural foundation. But when twenty people wiggle their fingers at you in total silence, you feel less like an artist and more like a hostage negotiator."
+
+Still, municipal researchers insist the policy is grounded in evidence. Acoustic ecologist Dr. Rūdolfs Beķeris of the Baltic Institute for Human-Bird Boundary Studies said seagulls have likely begun interpreting applause as "ambient validation." In controlled trials, gulls exposed to recordings of cheering approached picnic blankets 19 seconds faster than those played neutral sounds such as train announcements from Tukums or a man quietly saying, "No, that’s too expensive," in a Riga café.
+
+City officials have allocated €148,000 for the pilot program, including signage, educational brochures, and a small enforcement team known internally as the Discreet Encouragement Unit. Members will not issue fines initially, but will offer on-the-spot coaching to tourists who clap too enthusiastically at sunsets.
+
+Mayor Rita Sproģe called the plan a model of practical coastal governance. "People said Jūrmala could not lead Europe," she told reporters. "Yet once again we are proving that local democracy works best when it addresses the exact problem nobody realized was developing until it was too late."
+
+By Tuesday evening, the first Silent Applause Zone was already in use following an amateur choir performance near the beach. Witnesses reported the audience raised their hands politely, wiggled their fingers in dignified silence, and for the first time in months, three nearby seagulls appeared briefly unsure of themselves.`,
+      lv: `JŪRMALA — Politikai, ko vietējie līderi raksturojuši kā "profilaktisku, humānu un rītmiski atbildīgu," Jūrmala otrdien apstiprināja Baltijas piekrastes pirmo Klusās aplaudēšanas zonu tīklu, kur iedzīvotājiem un viesiem tiks ieteikts izteikt atzinību par priekšnesumiem, uzrunām un sekmīgu novietojumu pie stāvvietas, vicinot pirkstus gaisā, nevis plaukstu plaukšķinot.
+
+Lēmums seko 67 lappušu pašvaldības ziņojumam, kurā tradicionālās aplaudēšanas sasaistes ar pieaugošām uzvedības problēmām pilsētas kaiju populācijā. Pētījums, ko kopīgi veica Vides kārtības departaments un Dzintaru koncertzāles Auditorijas pieredzes darba grupa, konstatēja, ka kaijas, kuras bijušas pakļautas ilgstošām aplausu salīdzināšanām, par 43% biežāk piegāja cilvēkiem ar "uzņēmējdarbības nodomu," par 28% biežāk pārņēma laminētus konditorejas izstrādājumus, un 81% novēroto gadījumu bija "redzami pašapmierinātas."
+
+"Sākumā domājām, ka kaijas reaģē uz ēdienu," sacīja Ilze Grunte, pilsētas Sezonālās mierības komitejas vietniecė. "Bet tad pamanījām incidentu pieaugumu pēc džezkoncertiem, izlaidumiem un vienas akordeona svētku reizes, kur cilvēki aplaudēja nepārtraukti sešas minūtes. Svētdien vairākas putnas staigāja pa Jomas ielu kā vidējā līmeņa vadītāji. Viena nozaga biezpiena uzkodu no vācu riteņbraucēja, saglabājot tiešu acu kontaktu. Tas nav dabisks pašpārliecinājums. Tā ir sociālā kondicionēšana." 
+
+Saskaņā ar jauno sistēmu spilgti zilas zīmes ar gaumīgu rokas ikonu tiks uzstādītas paaugstinātas riska svinību vietās, tostarp Dzintaru pludmalē, Majoru stacijā un 200 metru posmā pie kioska, kur kaiju izraisītie piena produktu zaudējumi bijuši īpaši smagi. Šajās zonās fiziskā plaukstu plaukšķināšana nav pilnībā aizliegta, tomēr iedzīvotājiem lūgts ierobežoties līdz tam, ko pilsētas ceļvedis raksturo kā "lietderīgu plaukstu kontakta minimumu — ne vairāk kā trīs kultūrvēsturiski nepieciešami pieskārieni." Skaļākas aizrautības izpausmes jānovirza klusā roku vicināšanā, svinīgā galvas mājā vai tradicionālajā baltiskajā izelpas caur degunu.
+
+Pasākums izsaucis dažādas reakcijas sabiedrībā. "Personīgi es atbalstu visu, kas pazemo kaijas," sacīja pensionārs un visu gadu Jūrmalā dzīvojošais Mārtiņš Feldmanis, 72, rūpīgi sargājot kanēļmaizīti atkārtoti lietojamā aptiekas maisiņā. "Pagājušovasar viena nolaidās uz manas soliņa un skatījās uz mani tā, it kā es to būtu parādā ar īri. Ja klusā aplaudēšana atjauno vecās robežas, tad labi. 1986. gadā mums bija robežas un putni to zināja."
+
+Ne visi ir pārliecināti. Ielu vijolniece Karīna Ozola bažījās, ka tikai žestu politika varētu kaitēt izpildītāju garam. "Vienaldzību es varu izturēt," viņa sacīja pēc pusdienlaika koncerta pie Hornu dārza. "Tā ir mūsu kultūras pamats. Bet kad divdesmit cilvēki pilnīgā klusumā vicina pirkstus tavā virzienā, tu jūties mazāk kā mākslinieks un vairāk kā ķīlnieku izlīguma vadītājs." 
+
+Tomēr pašvaldības pētnieki uzstāj, ka politika balstīta pierādījumos. Akustiskās ekoloģijas eksperts Dr. Rūdolfs Beķeris no Baltijas Cilvēka-putna robežu pētījumu institūta sacīja, ka kaijas, visticamāk, sākušas interpretēt aplausus kā "vides apstiprinājumu." Kontrolētās mēģinājumos kaijas, kurām demonstrēja uzmundrinājuma ierakstus, piegāja piknika segu tuvumā par 19 sekundēm ātrāk nekā tās, kurām atskaņoja neitrālus trokšņus, piemēram, vilciena paziņojumus no Tukuma vai vīrieti Rīgas kafejnīcā, klusām saka: "Nē, tas ir par dārgu." 
+
+Pilsētas amatpersonas pilotprogrammai atvēlējušas 148 000 eiro, ieskaitot zīmju izgatavošanu, izglītojošus bukletus un nelielu izpildes vienību, kura iekšēji dēvēta par Diskrēto mudināšanas vienību. Sākotnēji tās locekļi sodus nepiemēros, bet piedāvās uz vietas norādījumus tūristiem, kuri pārāk entuziastiski aplaudē saulrietus.
+
+Mēre Rita Sproģe plānu nosauca par praktiskas piekrastes pārvaldības modeli. "Daudzi teica, ka Jūrmala nevarēs vadīt Eiropu," viņa teica žurnālistiem. "Tomēr atkal pierādām, ka vietējā demokrātija darbojas vislabāk, kad tā risina tieši to problēmu, ko neviens neapjauta, kamēr nebija par vēlu."
+
+Otrdienas vakarā pēc amatieru kora uzstāšanās pie pludmales pirmā Klusās aplaudēšanas zona jau bija nodarbināta. Aculiecinieki ziņoja, ka publika pieklājīgi pacēla rokas, cienīgi vicināja pirkstus klusumā, un pirmo reizi mēnešos trīs netālu esošās kaijas uz īsu brīdi izskatījās izbrīnīti nedrošas par sevi.`,
+      ru: `ЮРМАЛА — В политике, которую местные руководители охарактеризовали как «профилактическую, гумандную и ритмически ответственную», Городской совет Юрмалы во вторник одобрил первую на Балтийском побережье сеть Зон тихих аплодисментов, где жителям и гостям рекомендуется отмечать выступления, речи и удачную парковку не хлопая руками, а «порхаючи» пальцами в воздухе.
+
+Решение последовало за 67-страничным муниципальным отчётом, связывающим обычные аплодисменты с нарастанием проблем в поведении местной популяции чаек. Согласно исследованию, проведённому совместно Департаментом экологической порядка и Рабочей группой по опыту зрителей концертного зала Дзинтари, чайки, подвергавшиеся продолжительным хлопкам, на 43% чаще подходили к людям с «предприимчивыми намерениями», на 28% чаще хватали выпечку в упаковке, а в 81% наблюдаемых случаев выглядели «заметно самодовольными».
+
+«Сначала мы думали, что чайки реагируют на еду», — сказала Илзе Грунте, заместитель председателя городского Комитета по сезонному спокойствию. «Но потом мы заметили всплески инцидентов после джазовых концертов, выпускных церемоний и одного фестиваля баянистов, где люди аплодировали непрерывно шесть минут. К воскресенью несколько птиц расхаживали по улице Йомас как менеджеры среднего звена. Одна стащила творожную закуску у немецкого велосипедиста, глядя ему прямо в глаза. Это не естественная уверенность. Это социальная дрессировка». 
+
+В рамках новой системы на участках с высоким риском празднований будут установлены ярко-синие знаки с изящным значком ладони, в том числе на пляже Дзинтари, у станции Майори и на 200-метровом участке рядом с киоском, где потери молочных продуктов из‑за чаек особенно велики. В этих зонах физические хлопки не запрещаются полностью, но жителей просят ограничиваться тем, что городской гид называет «скромным контактом ладоней не более трёх культурно необходимых похлопываний». Более громкие проявления энтузиазма следует перенаправлять в беззвучное помахивание рукой, торжественное кивание или традиционный балтийский выдох через нос.
+
+Мера вызвала смешанную реакцию у публики. «Лично я поддерживаю всё, что унижает чаек», — сказал пенсионер и круглогодичный житель Юрмалы Мартиньш Фельдманис, 72 года, аккуратно пряча булочку с корицей в многоразовой аптечной сумке. «Прошлым летом одна села ко мне на скамейку и посмотрела так, будто я ей должен арендную плату. Если тихие аплодисменты восстановят прежние границы — отлично. В 1986 году у нас были границы, и птицы это знали». 
+
+Не все убеждены. Уличная скрипачка Карина Озола переживала, что политика «жестов без звука» может подорвать мораль исполнителей. «Я могу вынести безразличие», — сказала она после обеденного сета у Сада Хорна. «Это наша культурная основа. Но когда двадцать человек в полной тишине шевелят пальцами в твою сторону, чувствуешь себя не столько артистом, сколько переговорщиком по освобождению заложников». 
+
+Тем не менее муниципальные исследователи настаивают, что политика основана на доказательствах. Акустический эколог доктор Рудольфс Бекерис из Балтийского института по изучению границ между человеком и птицей заявил, что чайки, по-видимому, начали воспринимать аплодисменты как «фоновое подтверждение». В контролируемых испытаниях чайки, которым проигрывали записи аплодисков, подходили к пикниковым пледам на 19 секунд быстрее, чем те, кому включали нейтральные звуки, например объявления поездов из Тукумса или мужчину, тихо говорящего в рижском кафе: «Нет, это слишком дорого». 
+
+Городские власти выделили 148 000 евро на пилотную программу, включая знаки, информационные брошюры и небольшую команду по обеспечению соблюдения, внутренняя кличка которой — Отдел ненавязчивого поощрения. Сотрудники вначале не будут выписывать штрафы, но будут предлагать на месте инструктаж туристам, которые слишком страстно хлопают на закате. 
+
+Мэр Рита Спроге назвала план образцом практического прибрежного управления. «Говорили, что Юрмала не сможет вести за собой Европу», — сказала она репортёрам. «И всё же мы снова доказываем, что местная демократия работает лучше всего, когда решает ту самую проблему, о которой никто не подозревал, пока не стало слишком поздно». 
+
+К вечеру вторника первая Зона тихих аплодисментов уже была применена после выступления любительского хора у пляжа. Свидетели сообщили, что публика вежливо подняла руки, достоинственно пошевелила пальцами в тишине и впервые за месяцы три ближайшие чайки на короткое время выглядели немного неуверенно.`
+    },
+    date: "Jul 17, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/216/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 215,
     slug: "jrmala-introduces-quiet-sirens-to-warn-215",
     title: {
@@ -108,7 +189,7 @@ Vakara gaitā amatpersonas pasludināja ieviešanu par veiksmīgu, norādot, ka 
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/215/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 214,
