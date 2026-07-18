@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 217,
+    slug: "riga-introduces-official-municipal-silence-hour-217",
+    title: {
+      en: "Riga Introduces Official Municipal Silence Hour To Help Residents Hear What Tram 6 Has Been Trying To Say",
+      lv: "Rīga ievieš oficiālu pašvaldības Klusuma stundu, lai iedzīvotāji beidzot dzirdētu, ko tramvajs Nr.6 mēģina pateikt",
+      ru: "Рига вводит официальный муниципальный «Час тишины», чтобы помочь жителям услышать то, что трамвай №6 пытается сказать"
+    },
+    excerpt: {
+      en: "After years of complaints that the city had become \"too emotionally loud,\" Riga officials have approved a daily municipal Silence Hour during which traffic will pause, construction will stop, and citizens will be encouraged to stand very still and listen. Authorities say the measure is intended to improve public mindfulness and finally determine whether Tram 6 has been issuing warnings.",
+      lv: "Pēc gadu ilgiem sūdzībām, ka pilsēta kļuvusi \"pārāk emocionāli skaļa\", Rīgas amatpersonas apstiprinājušas ikdienas pašvaldības Klusuma stundu, kurā satiksme apstāsies, būvdarbi tiks pārtraukti, un iedzīvotāji tiks aicināti stāvēt ļoti mierīgi un klausīties. Varas iestādes apgalvo, ka pasākums domāts, lai uzlabotu sabiedrības apziņošanos un beidzot noskaidrotu, vai tramvajs Nr.6 izplata brīdinājumus.",
+      ru: "После лет жалоб на то, что город стал «слишком эмоционально громким», чиновники Риги одобрили ежедневный муниципальный Час тишины, в течение которого движение будет приостановлено, строительство — остановлено, а граждан призовут стоять совершенно неподвижно и слушать. Власти говорят, что мера направлена на повышение общественной осознанности и, наконец, на выяснение, не посылает ли трамвай №6 предупредительных сигналов."
+    },
+    fullContent: {
+      en: `RIGA — In a 38–19 vote on Thursday, Riga City Council approved the creation of a daily municipal Silence Hour, a citywide pause between 15:00 and 16:00 intended to "restore acoustic dignity" to the capital and allow residents to hear "subtle but potentially urgent messages embedded in the urban environment," according to the 74-page policy document.
+
+Beginning in September, private vehicles in central Riga will be required to pull over, café blenders will be fitted with felt covers, and all apartment renovations involving drilling, sanding, tile-cutting, or shouting "Andris, hold it straight" will be prohibited for exactly one hour. Exceptions will be granted to emergency services, crying infants, and gulls "acting under maritime necessity."
+
+Deputy Mayor for Atmospheric Affairs Elīna Priedīte said the policy emerged after a municipal pilot project conducted in Āgenskalns found that 63% of residents had never heard the Daugava River in their adult lives, while 41% admitted they were "no longer certain" whether the sound at intersections was a tram bell or "the city itself asking for help."
+
+"For too long, Riga has been layered under preventable noise: scooters, leaf blowers, accordion buskers, and men discussing parquet prices on speakerphone," Priedīte told reporters while placing a finger dramatically to her lips. "Silence is also infrastructure. We maintain roads, bridges, and emotional restraint. Why not maintain the possibility of hearing a birch tree think?"
+
+The initiative has gained particular support in neighborhoods along the Number 6 tram route, where residents claim the vehicle has been producing an increasingly conversational metallic screech for several winters. Local librarian Maija Ozoliņa, 56, said she first suspected intentional communication in February.
+
+"At first I thought it was the usual tram scream," Ozoliņa said. "But then, during a power outage, it sounded distinctly like, 'Turn back while you still can.' I don’t want to cause panic. I’m only saying the tram has a tone of institutional fatigue."
+
+Rīgas Satiksme, the city’s public transport operator, denied that any of its trams were sentient, though spokesperson Uldis Keisters acknowledged that several older units were "philosophically active" in cold weather. "We have no evidence Tram 6 is trying to say anything," he said. "However, if it is, we assure the public that all messages will be validated, translated from steel, and routed through proper administrative channels."
+
+Businesses are already adapting. The popular Old Town café Melnā Kaija has announced a special Silence Hour menu featuring pre-stirred coffee, emotionally neutral pastries, and a soup described as "quiet in both texture and ambition." In Jurmala, several wellness entrepreneurs have attempted to trademark the concept under names including Baltic Hush™, Amber Pause™, and Premium State-Sanctioned Stillness.
+
+Not everyone is convinced. The Latvian Association of Domestic Handymen warned the measure could delay crucial home improvement schedules during the nation’s peak "drilling season." Meanwhile, a coalition of retired uncles from Purvciems has objected to the implied criminalization of afternoon balcony commentary.
+
+Despite criticism, the council remains optimistic. A follow-up acoustic census will measure changes in urban sound, including bench creaking, distant church bells, and the low-frequency sigh emitted by residents upon opening utility bills. If successful, officials say Riga may expand the policy to include seasonal Quiet Weekends and a pilot Whisper District near the Central Market.
+
+By Thursday evening, dozens of residents had already begun practicing, standing in courtyards and along tram stops in total stillness. After several minutes, one man near Barona Street reportedly lowered his newspaper and said he could hear the city clearly for the first time in years.
+
+"It was mostly pigeons," he said. "But underneath that, definitely something mechanical begging for release."`,
+      lv: `RĪGA — Ceturtdien, ar balsojumu 38 pret 19, Rīgas domes deputāti apstiprināja ikdienas pašvaldības Klusuma stundu — pilsētas mēroga pauzi no pulksten 15:00 līdz 16:00, kuras mērķis ir "atjaunot galvaspilsētas akustisko cieņu" un ļaut iedzīvotājiem sadzirdēt "smalkas, bet potenciāli steidzamas ziņas, iepītas pilsētas vidē," teikts 74 lappušu politikas dokumentā.
+
+Sākot no septembra, privātajiem transportlīdzekļiem Rīgas centrā būs obligāti jāapstājas ceļa malā, kafejnīcu blenderiem tiks uzlikti filca pārvalci, un visi dzīvokļu remonti, kas ietver urbšanu, slīpēšanu, flīžu griešanu vai saukšanu "Andri, turi taisni", būs aizliegti tieši vienu stundu. Izņēmumus piešķirs ārkārtas dienestiem, raudošiem zīdaiņiem un kaijām, "rīkojoties jūras nepieciešamības vārdā."
+
+Mēra vietniece atmosfēras jautājumos Elīna Priedīte sacīja, ka politikas ideja radusies pēc pašvaldības pilotprojekta Āgenskalnā, kurā atklājās, ka 63% iedzīvotāju savā pieaugušā dzīvē nekad nav dzirdējuši Daugavu, bet 41% atzina, ka "vairs nav pārliecināti", vai skaņa krustojumos ir tramvaja zvans vai "pilsēta pati lūdz palīdzību." 
+
+"Pārāk ilgi Rīga ir pakļauta novēršamai skaļuma slāņošanai: skūteriem, lapu pūtējiem, akordeona ielu mūziķiem un vīriešiem, kas pa brīvroku tālruni runā par parketa cenām," Priedīte sacīja reportieriem, dramatiski pieskaroties lūpām ar pirkstu. "Klusums ir arī infrastruktūra. Mēs uzturam ceļus, tiltus un emocionālu atturību. Kāpēc gan neuzturēt iespēju dzirdēt, kā bērzs domā?"
+
+Iniciatīvu īpaši atbalsta rajoni gar tramvaja Nr.6 maršrutu, kur iedzīvotāji apgalvo, ka transportlīdzeklis jau vairākas ziemas rada arvien sarunīgāku metālisku žēlošanos. Vietējā bibliotekāre Maija Ozoliņa, 56 gadus veca, sacīja, ka pirmo reizi par iespējamu nodomu saprata februārī.
+
+"Sākumā domāju, ka tas ir ierastais tramvaja kliedziens," Ozoliņa teica. "Bet elektroapgādes pārrāvuma laikā tas skanēja skaidri kā: 'Atgriezies, kamēr vēl vari.' Negribu radīt paniku. Es tikai saku, ka tramvajam ir institucionālas noguruma tonis."
+
+Rīgas Satiksme noliedza, ka kāds no tās tramvajiem būtu apziņas pilns, lai gan preses pārstāvis Uldis Keisters atzina, ka dažas vecākas vienības aukstumā ir "filozofiski aktīvas." "Mums nav pierādījumu, ka tramvajs Nr.6 censtos kaut ko teikt," viņš sacīja. "Tomēr, ja tā būtu, mēs publikai apliecinām, ka visas ziņas tiks verificētas, 'tulkotas no tērauda' un nogādātas caur pareizajiem administratīvajiem kanāliem."
+
+Uzņēmumi jau pielāgojas. Populārā Vecrīgas kafejnīca "Melnā Kaija" paziņojusi par īpašu Klusuma stundas ēdienkarti ar iepriekš sajauktu kafiju, emocionāli neitrāliem konditorejas izstrādājumiem un zupu, kuru apraksta kā "klusu gan tekstūrā, gan ambīcijās." Jūrmalā vairāki labsajūtas uzņēmēji mēģinājuši reģistrēt koncepciju kā zīmolus Baltic Hush™, Amber Pause™ un Premium State-Sanctioned Stillness.
+
+Ne visi ir pārliecināti. Latvijas Mājas meistaru asociācija brīdināja, ka pasākums varētu aizkavēt būtiskus mājas uzlabojumu darbus valsts tradicionālajā "urbšanas sezonā." Tikmēr Purvciema pensionēto onkuļu koalīcija iebilda pret it kā paredzēto pēcpusdienas balkona komentāru kriminalizāciju.
+
+Neskatoties uz kritiku, dome paliek optimistiska. Nākamais akustiskais tautas skaitījums mērīs izmaiņas pilsētas skanējumā, tostarp sola čīkstēšanu, tālos baznīcu zvanus un zemfrekvenču nopūtu, ko iedzīvotāji izdveš, atverot komunālo rēķinus. Ja projekts būs veiksmīgs, amatpersonas saka, Rīga varētu paplašināt politiku, iekļaujot sezonālas Klusas nedēļas nogales un pilotprojektu "Čukstu kvartāls" pie Centrāltirgus.
+
+Līdz ceturtdienas vakaram desmiti iedzīvotāju jau bija sākuši praktizēt, stāvot pagalmos un tramvaja pieturvietās pilnīgā nemanāmībā. Pēc dažām minūtēm kāds vīrietis netālu no Barona ielas nolaidis avīzi un teicis, ka pirmoreiz gados skaidri dzird pilsētu.
+
+"Tur bija galvenokārt baloži," viņš sacījis. "Bet zem tam — noteikti kaut kas mehānisks, kas lūdzas atbrīvojumu."`,
+      ru: `РИГА — В четверг городская дума Риги проголосовала за учреждение ежедневного муниципального Часа тишины — 38 голосов «за», 19 «против». Это городская пауза с 15:00 до 16:00, призванная «восстановить акустическое достоинство» столицы и дать жителям возможность услышать «тонкие, но потенциально срочные послания, скрытые в городской среде», говорится в 74‑страничном документе.
+
+Начиная с сентября, частные автомобили в центре Риги будут обязаны съезжать на обочину, блендеры в кафе облекут в войлочные чехлы, а все квартирные ремонты с бурением, шлифовкой, резкой плитки или криками «Андрис, держи ровно» будут запрещены ровно на один час. Исключения сделаны для экстренных служб, плачущих младенцев и чаек, «действующих в условиях морской необходимости».
+
+Заместитель мэра по атмосферным делам Элиния Прийедите (Elīna Priedīte) заявила, что политика родилась после муниципального пилотного проекта в Āgenskalns, где выяснили: 63% жителей во взрослом возрасте никогда не слышали Даугаву, а 41% признался, что «уже не уверен», звон ли на перекрёстках — это трамвайный колокольчик или «сам город, просящий о помощи».
+
+«Слишком долго Рига была покрыта предотвратимым шумом: самокатами, воздуходувками, баянистами и мужчинами, обсуждающими цены на паркет по громкой связи», — сказала Прийедите репортёрам, драматично прикасаясь пальцем к губам. «Тишина — тоже инфраструктура. Мы содержим дороги, мосты и эмоциональное сдерживание. Почему бы не поддерживать возможность услышать, как думает берёза?»
+
+Инициатива особенно поддержана в районах вдоль маршрута трамвая №6, где жители утверждают, что транспорт производит всё более разговорный металлический визг уже несколько зим подряд. Местная библиотекарь Майя Озолиня (Maija Ozoliņa), 56 лет, сказала, что впервые подозрела намеренную коммуникацию в феврале.
+
+«Сначала я думала, что это обычный трамвайный визг, — сказала Озолиня. — Но потом, во время отключения электричества, он отчётливо прозвучал как „Возвращайтесь, пока ещё можете“. Я не хочу сеять панику. Я лишь говорю, что у трамвая тон институциональной усталости.»
+
+Городской перевозчик Rīgas Satiksme опроверг идею о разумности своих трамваев, хотя пресс‑секретарь Улдис Кейстерс (Uldis Keisters) признал, что несколько старых вагонов «философски активны» в холодную погоду. «У нас нет доказательств того, что трамвай №6 пытается что‑то сказать, — сказал он. — Однако если это так, мы заверяем общественность, что все сообщения будут проверены, переведены со стали и направлены по надлежащим административным каналам.»
+
+Бизнес уже адаптируется. Популярное старогородское кафе «Melnā Kaija» объявило специальное меню Часа тишины с заранее размешенным кофе, выпечкой без эмоций и супом, описанным как «тихий и по текстуре, и по амбициям». В Юрмале несколько предпринимателей в сфере велнеса попытались зарегистрировать товарные знаки: «Балтийское Тишание™», «Янтарная Пауза™» и «Премиальная Государственно Утверждённая Неподвижность™».
+
+Не все убеждены. Латвийская ассоциация домашних мастеров предупредила, что мера может задержать важные сроки ремонта в пик «сезона бурения». Тем временем коалиция пенсионных дядь из Пурвциемса возражает против подразумеваемой криминализации дневных балконных комментариев.
+
+Несмотря на критику, совет остаётся оптимистичен. Последующая акустическая перепись должна измерить изменения в городском звуке — скрип скамеек, отдалённые церковные колокола и низкочастотный вздох жителей при открытии коммунальных квитанций. В случае успеха власти говорят, что Рига может расширить политику на сезонные Тихие выходные и пилотный Район шёпота возле Центрального рынка.
+
+К вечеру четверга десятки жителей уже приступили к практике: стояли во дворах и на трамвайных остановках в полной неподвижности. Через несколько минут один мужчина у улицы Барона якобы опустил газету и сказал, что впервые за годы ясно слышит город.
+
+«В основном это были голуби, — сказал он. — Но под ними явно что‑то механическое, умоляющее об освобождении.»`
+    },
+    date: "Jul 18, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/217/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 216,
     slug: "jrmala-introduces-silent-applause-zones-after-216",
     title: {
@@ -96,7 +189,7 @@ Otrdienas vakarā pēc amatieru kora uzstāšanās pie pludmales pirmā Klusās 
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/216/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 215,
