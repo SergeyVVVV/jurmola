@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 218,
+    slug: "riga-apartment-association-installs-passive-aggressive-218",
+    title: {
+      en: "Riga Apartment Association Installs Passive-Aggressive Motion Sensors To Detect Residents ‘Returning Home Too Cheerfully’",
+      lv: "Rīgas daudzdzīvokļu biedrība uzstāda pasīvi‑agresīvus kustības sensorus, lai atklātu iedzīvotājus, kas „atgriežas mājās pārāk priecīgi”",
+      ru: "Товарищество собственников в Риге устанавливает пассивно‑агрессивные датчики движения, чтобы обнаруживать жильцов, «слишком радостно возвращающихся домой»"
+    },
+    excerpt: {
+      en: "A residential building in central Riga has become the first in Latvia to introduce a hallway monitoring system designed to identify and gently correct displays of excessive optimism. Officials say the sensors will preserve the building’s traditional emotional climate and reduce ‘unnecessary smiling after 21:00.’",
+      lv: "Centrā viena dzīvojamā ēka Rīgā kļuvusi par pirmo Latvijā, kas ieviesusi koridora novērošanas sistēmu ar mērķi identificēt un saudzīgi koriģēt pārmērīgas optimismu izpausmes. Pārstāvji apgalvo, ka sensori saglabās nama tradicionālo emocionālo klimatu un samazinās „lieku smaidu pēc plkst. 21:00.”",
+      ru: "В жилом доме в центре Риги впервые в Латвии внедрили систему контроля подъезда, предназначенную выявлять и мягко корректировать проявления чрезмерного оптимизма. По словам чиновников, датчики сохранят традиционный эмоциональный климат дома и сократят «ненужные улыбки после 21:00»."
+    },
+    fullContent: {
+      en: `RIGA — Residents of a pre-war apartment building on Bruņinieku Street say they are adjusting to a new era of communal living after their building association voted 17–4 to install what it calls an “emotional equilibrium corridor system,” a network of motion sensors, light meters, and directional microphones intended to detect when tenants arrive home “inappropriately uplifted.”
+
+The pilot project, launched this week in the stairwell between the second and fourth floors, was approved after a months-long dispute over what several residents described in formal complaints as “energetically disruptive keys jingling” and “suspiciously buoyant greetings in the entrance area.”
+
+According to documents distributed at the building’s annual association meeting, the new system uses a proprietary scale to measure heel impact, coat-removal tempo, and the tonal brightness of phrases such as “Good evening” and “How are you.” If the software determines a resident’s mood exceeds the building’s acceptable threshold, the hallway lights automatically dim and a recorded voice reminds them, in calm but disappointed Latvian, that “this is still Riga in February.”
+
+“This is not about punishment,” said building association chairwoman Maija Eglīte, 63, speaking beside a laminated notice titled Guidelines for Sustainable Mood Levels in Shared Spaces. “It is about harmony. We cannot have one person returning from salsa class at 22:15 with visible momentum while others are taking out recycling in a perfectly normal spiritual condition.”
+
+Eglīte said the decision followed one especially difficult incident in November, when a third-floor tenant allegedly entered the building carrying tulips, humming, and using the phrase “What a lovely evening” within hearing distance of two pensioners and a sleeping dachshund. The event, she said, caused “a serious mismatch in corridor expectations.”
+
+Data from the first 72 hours of the trial appear promising. The system flagged 11 possible joy events, including three “overly crisp” boot removals, four greetings with traces of sincere enthusiasm, and one case in which a resident was believed to have laughed softly while searching for mailbox keys. The person involved received a written reminder and, according to association records, later apologized by standing silently near the radiator for several minutes.
+
+Some residents have welcomed the measure. “Before this, you never knew what would happen on the stairs,” said second-floor tenant and amateur mushroom classifier Aldis Krūmiņš, 54. “Maybe somebody had been to Sigulda for the day and came back refreshed. Maybe they had purchased a decorative pillow. We need predictability in a shared environment.”
+
+Others remain skeptical. “The sensor marked me as ‘emotionally vertical’ just because I had good posture,” said university lecturer Elīna Sproģe, 31, who has appealed two separate warnings. “Then it played accordion music associated with municipal disappointment. I don’t think that is legally defined anywhere.”
+
+Municipal officials confirmed they are monitoring the pilot closely. A spokesperson for Riga’s Department of Housing Microclimates said the city is interested in low-cost technologies that promote “socially responsible emotional moderation,” especially in older buildings where thin walls can allow confidence to travel between floors.
+
+By Thursday evening, the association had already proposed expanding the program to include mailbox-area sigh analysis and a weekend subcommittee to review whether audible optimism should require prior written notice. As workers adjusted a sensor above the entrance, one resident entered carrying a birthday cake and was immediately surrounded by three neighbors asking, in procedural tones, who exactly the celebration was for.
+
+At press time, the building association was considering a winter subsidy to help residents maintain appropriately muted facial expressions during the first unexpected sunny day in March.`,
+      lv: `RĪGA — Bruņinieku ielas pirmskara daudzdzīvokļu nama iedzīvotāji saka, ka pielāgojas jaunai kopdzīves ērai, pēc tam, kad nama biedrība ar 17–4 balsīm nolēma uzstādīt to, ko sauc par «emocionālās līdzsvara koridora sistēmu» — kustības sensoru, apgaismojuma mērītāju un virziena mikrofons tīklu, kas paredzēts, lai konstatētu, kad īrnieki atgriežas mājās «nepiemēroti pacilāti». 
+
+Šis pilotprojekts, kas šonedēļ sāka darboties kāpņu telpā starp otro un ceturto stāvu, tika apstiprināts pēc daudzu mēnešu strīda par to, ko vairāki iedzīvotāji formālās sūdzībās raksturoja kā «enerģētiski traucējošu atslēgu čabināšanu» un «aizdomīgi pacilātus sveicienus ieejas zonā». 
+
+Saskaņā ar dokumentiem, kas izplatīti nama biedrības ikgadējā sapulcē, jaunā sistēma izmanto patentētu skalu, lai mērītu kulnas trieciena intensitāti, mēteļa novilkšanas tempu un tādu frāžu kā «Labvakar» un «Kā Tev klājas» tonālo spožumu. Ja programmatūra nosaka, ka iedzīvotāja noskaņa pārsniedz nama pieļaujamo slieksni, koridora gaismas automātiski aptumšojas un ierakstīta balss, mierīga, taču vīlusies latviešu balsī, atgādina: «tas taču vēl ir Rīga februārī.» 
+
+„Tas nav sods,” sacīja nama biedrības priekšsēdētāja Maija Eglīte, 63, stāvot blakus laminētam paziņojumam ar nosaukumu «Vadlīnijas par ilgtspējīgiem noskaņojuma līmeņiem kopīgajās telpās». „Tas ir par harmoniju. Mēs nevaram pieļaut, ka kāds pēc salsas nodarbības pulksten 22:15 atgriežas ar redzamu impulsu, kamēr citi normālā garīgā stāvoklī iznes šķirojamos atkritumus.” 
+
+Eglīte sacīja, ka lēmums sekoja vienam īpaši sarežģītam incidentam novembrī, kad trešā stāva īrnieks, kā apgalvots, ienācis ēkā nēsādams tulpes, dungojuši melodiju un lietojis frāzi «Cik jauks vakars» divu pensionāru un guļoša takša dzirdes tuvumā. Notikums, viņas teiktajā, izraisīja „nopietnu gaidu neatbilstību koridorā.” 
+
+Dati no pirmajām 72 pilotprogrammas stundām šķiet cerīgi. Sistēma fiksēja 11 iespējamus priekpilnus notikumus, tai skaitā trīs „pārāk kraukšķīgas” zābaku novilkšanas, četrus sveicienus ar īsta entuziasma pazīmēm un vienu gadījumu, kurā, domājams, iedzīvotājs klusi pasmējies, meklējot pastkastītes atslēgas. Iesaistītā persona saņēma rakstisku atgādinājumu un, pēc biedrības ierakstiem, vēlāk atvainojās, stāvot klusi pie radiatora dažas minūtes. 
+
+Daļa iedzīvotāju šo pasākumu ir atzinīgi novērtējuši. „Pirms tam nekad nezināji, kas notiks kāpnēs,” teica otrā stāva iemītnieks un amatieru sēņu klasifikators Aldis Krūmiņš, 54. „Varbūt kāds bija bijis Siguldā uz dienu un atgriezies atjaunots. Varbūt bija nopircis dekoratīvu spilvenu. Kopīgā vidē mums vajadzīga paredzamība.” 
+
+Citi paliek skeptiski. „Sensors mani atzīmēja par ‘emocionāli vertikālu’ tikai tāpēc, ka man bija laba stāja,” sacīja universitātes lektore Elīna Sproģe, 31, kura ir pārsūdzējusi divus atsevišķus brīdinājumus. „Tad tas atskaņoja akordeona mūziku, ko asociē ar pašvaldības vilšanos. Es domāju, ka tas nevienur likumiski nav definēts.” 
+
+Pašvaldības ierēdņi apstiprināja, ka uzmanīgi seko pilotam. Rīgas Mājokļu mikroklimatu departamenta pārstāvis sacīja, ka pilsēta interesējas par lētām tehnoloģijām, kas veicina „sociāli atbildīgu emociju moderāciju,” īpaši vecākos ēku fondos, kur plānās sienas ļauj pārliecībai pārvietoties starp stāviem. 
+
+Ceturtdienas vakarā biedrība jau bija ierosinājusi programmas paplašināšanu, iekļaujot pastkastīšu zonas nopūtu analīzi un izveidojot nedēļas nogales apakškomiteju, kas izskatītu, vai dzirdams optimisms būtu jāpaziņo iepriekš rakstiski. Kamēr strādnieki regulēja sensoru virs ieejas, viens iedzīvotājs ienāca ar dzimšanas dienas torti un tūlīt vien tika apņemts no trim kaimiņiem, kuri procedurālās intonācijās vaicāja, kam īsti tiek svinēts. 
+
+Līdz laikraksta slēgšanai nama biedrība apsvēra ziemas subsīdiju, lai palīdzētu iedzīvotājiem uzturēt atbilstoši norimtas sejas izteiksmes pirmajā negaidīti saulainajā martā.`,
+      ru: `РИГА — Жильцы довоенного многоквартирного дома на улице Bruņinieku говорят, что привыкать к новой эпохе совместного проживания им предстоит постепенно: товарищество собственников проголосовало 17–4 за установку так называемой «системы поддержания эмоционального равновесия в коридоре» — сети датчиков движения, измерителей освещённости и направленных микрофонов, предназначенной выявлять, когда жильцы возвращаются домой «неуместно приподнятыми». 
+
+Пилотный проект, запущенный на этой неделе в лестничном пролёте между вторым и четвёртым этажами, был одобрен после многомесячного спора вокруг того, что несколько жителей в официальных жалобах описывали как «энергетически нарушающий звон ключей» и «подозрительно оживлённые приветствия в подъезде». 
+
+Согласно документам, разданным на ежегодном собрании товарищества, новая система использует фирменную шкалу для измерения силы удара каблука, темпа съёма пальто и тоновой «яркости» фраз вроде «Добрый вечер» и «Как дела». Если программное обеспечение определяет, что настроение жильца превышает допустимый для дома порог, свет в коридоре автоматически приглушается, а запись на спокойном, но разочарованном латышском напоминает, что «всё-таки это Рига в феврале» (в переводе). 
+
+«Речь не о наказании», — сказала председатель товарищества Майя Эглите, 63 года, стоя рядом с ламинированным объявлением под заголовком «Руководство по поддержанию устойчивого уровня настроения в общих помещениях». «Речь о гармонии. Мы не можем допускать, чтобы кто‑то возвращался с сальса‑занятия в 22:15 с видимой инерцией, в то время как другие выносят вторсырьё в совершенно нормальном духовном состоянии». 
+
+По словам Эглите, решение было принято после особенно тяжёлого инцидента в ноябре, когда, по предположению, одна из жительниц третьего этажа вошла в дом с тюльпанами, напевая и произнеся фразу «Какой прекрасный вечер» в слышимости двух пенсионеров и спящей таксы. Это, по её словам, вызвало «серьёзное несоответствие коридорных ожиданий». 
+
+Данные за первые 72 часа испытательного периода выглядят обнадёживающе. Система зафиксировала 11 возможных случаев радости, включая три «чересчур чётких» съёма ботинок, четыре приветствия с признаками искреннего энтузиазма и один случай, когда, как полагают, жильец тихо засмеялся в поисках ключей от почтового ящика. Участнику инцидента вручили письменное напоминание, а, согласно записям товарищества, позже он извинился, молча простояв несколько минут у радиатора. 
+
+Некоторые жильцы приветствовали инициативу. «Раньше никогда не знал, что произойдёт на лестнице», — сказал житель второго этажа и любитель, классифицирующий грибы, Алдис Круминьш, 54 года. «Может, кто‑то съездил на день в Сигулду и вернулся обновлённым. Может, купил декоративную подушку. В общем пространстве нам нужна предсказуемость». 
+
+Другие остаются скептичны. «Датчик отметил меня как „эмоционально вертикальную“ только потому, что у меня была правильная осанка», — заявила преподаватель университета Элина Спроге, 31 год, оспаривающая уже два предупреждения. «Потом он включил аккордеонную музыку, ассоциирующуюся с муниципальным разочарованием. Не думаю, что это где‑то юридически определено». 
+
+Муниципальные чиновники подтвердили, что внимательно наблюдают за пилотом. Представитель Департамента жилищных микроклиматов Риги заявил, что город интересуют недорогие технологии, способствующие «социально ответственному умеренному выражению эмоций», особенно в старых домах, где тонкие стены позволяют уверенности распространяться между этажами. 
+
+К четвергу товарищество уже предложило расширить программу, включив в неё анализ вздохов в зоне почтовых ящиков и создание рабочей подгруппы по выходным для рассмотрения вопроса, должно ли звуковое проявление оптимизма требовать предварительного письменного уведомления. Пока рабочие регулировали датчик над входом, один из жильцов вошёл с праздничным тортом и тут же оказался окружён тремя соседями, которые в процедурных тонах уточняли, в честь кого именно празднование. 
+
+На момент выхода статьи товарищество рассматривало возможность введения зимней субсидии, чтобы помочь жильцам выдержать должным образом приглушённые выражения лица в первый неожиданный солнечный день марта.`
+    },
+    date: "Jul 19, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/218/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 217,
     slug: "riga-introduces-official-municipal-silence-hour-217",
     title: {
@@ -108,7 +195,7 @@ Līdz ceturtdienas vakaram desmiti iedzīvotāju jau bija sākuši praktizēt, s
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/217/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 216,
