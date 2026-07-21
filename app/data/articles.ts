@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 220,
+    slug: "jrmala-introduces-silent-beach-siren-to-220",
+    title: {
+      en: "Jūrmala Introduces Silent Beach Siren to Warn Residents of Excessive Relaxation",
+      lv: "Jūrmala ievieš klusējošu pludmales sirēnu, lai brīdinātu iedzīvotājus par pārmērīgu atslābumu",
+      ru: "Юрмала вводит бесшумную пляжную сирену, чтобы предупреждать жителей об избыточном расслаблении"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala this week unveiled a new public safety system designed to alert beachgoers when their level of relaxation approaches what authorities call 'structurally Latvian unacceptable limits.' The device, described as a silent siren, emits no sound but causes nearby adults to suddenly feel they have forgotten an important obligation.",
+      lv: "Jūrmalas domes pārstāvji šonedēļ atklāja jaunu sabiedriskās drošības sistēmu, kas paredzēta, lai brīdinātu pludmales apmeklētājus, kad viņu atslābumam tuvojas, kā varas iestādes to dēvē, «strukturāli latviski nepieņemamās robežas». Ierīce, dēvēta par klusējošu sirēnu, nerada nekādu skaņu, bet liek tuvumā esošajiem pieaugušajiem pēkšņi just, ka viņi ir aizmirsuši kādu svarīgu pienākumu.",
+      ru: "Муниципальные власти Юрмалы на этой неделе представили новую систему общественной безопасности, призванную сигнализировать отдыхающим на пляже, когда их уровень расслабления приближается к тому, что чиновники называют «структурно, по‑латвийски неприемлемыми пределами». Устройство, описываемое как бесшумная сирена, не издаёт звука, но заставляет взрослых рядом внезапно почувствовать, что они забыли о важном деле."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders say will preserve public order during the peak summer season, Jūrmala Municipality has installed the country’s first silent beach siren, an emergency warning mechanism intended to notify residents when sunbathing, light swimming, or casual sitting has gone on long enough to become suspicious.
+
+The pilot program began Monday on Majori Beach, where a white metal column resembling either minimalist Scandinavian art or a moderately expensive parking meter was erected between a waffle kiosk and a changing cabin. According to officials, the siren activates automatically when municipal sensors detect 'dangerous stillness,' defined as any uninterrupted period of visible contentment lasting more than 17 minutes.
+
+'We are not against enjoyment,' said Acting Deputy Chair for Seasonal Discipline Ilze Grīnberga at a press briefing held under a cloud that arrived precisely on schedule. 'But enjoyment must remain proportionate, registered internally, and preferably accompanied by at least a small concern about weather, transport, or mushrooms. Without that, we risk social imbalance.'
+
+Though the siren makes no audible noise, authorities say its effect is immediate. Within seconds of activation, nearby beachgoers reportedly begin checking their phones, sitting up abruptly, or staring into the middle distance with the unmistakable expression of someone who may have left buckwheat on the stove in 2009.
+
+The system was developed by Riga-based civic technology firm SIA Modrība Labs under a €428,000 innovation grant originally earmarked for 'smart coastal resilience.' Company founder Andris Vītols said the device uses a blend of humidity readings, posture recognition, and archival cultural data.
+
+'We trained the algorithm on 63,000 photographs of Baltic people almost enjoying themselves,' Vītols explained. 'The model can distinguish between acceptable seaside relief and the kind of deep, Mediterranean-style relaxation that our infrastructure is not yet designed to support.'
+
+Municipal testing conducted over three weekends found the siren reduced 'reckless leisure incidents' by 41%. One report noted that a family from Jelgava had nearly completed a second consecutive hour on a blanket before all four members simultaneously remembered they should probably be doing something practical. The family then packed up in six minutes, argued quietly about parking, and drove home in emotional safety.
+
+Reaction from residents has been cautiously supportive. 'At first I didn’t understand what was happening,' said 34-year-old accountant and habitual beach visitor Liene Ozoliņa. 'I was lying there, fully calm, and suddenly I felt a powerful need to stand up, put on linen trousers, and mention property taxes. Honestly, it was reassuring.'
+
+Not all are convinced. Retired chemistry teacher Aivars Priedītis criticized the program as excessive government intrusion. 'In Soviet times, relaxation was managed informally,' he said. 'You didn’t need a machine. One aunt on the beach would look at you with concern and that was enough.'
+
+Despite some skepticism, the municipality plans to expand the system to Dzintari and Bulduri by August. Officials are also considering a winter version for indoor saunas, where prolonged serenity has reportedly risen 12% since last year.
+
+If the Jūrmala trial proves successful, Riga may adopt a citywide adaptation for parks, café terraces, and selected sections of the Daugava embankment. Early drafts of the capital’s proposal include mobile silent sirens mounted on trams, allowing officials to intervene whenever passengers appear too emotionally settled while looking out the window.
+
+At sunset on Tuesday, as the new device stood motionless against the sea, several tourists from Germany asked whether it was an art installation. Local authorities declined to answer directly, but confirmed that anyone who relaxed enough to ask a second time would be gently corrected.`,
+      lv: `JŪRMALA — Solī, ko pilsētas vadība sauc par nepieciešamu sabiedriskās kārtības saglabāšanai vasaras sezonas virsotnē, Jūrmalas pašvaldība uzstādījusi valsts pirmo klusējošo pludmales sirēnu — avārijas brīdinājuma mehānismu, kas paredzēts, lai informētu iedzīvotājus, kad sauļošanās, viegla peldēšanās vai vienkārša sēdēšana ir ilgi turpinājusies līdz aizdomīgām robežām.
+
+Pirmā testa programma sākās pirmdien Majoru pludmalē, kur starp vafelīšu kiosku un ģērbtuvju kabīni uzstādīts balts metāla stabs, kas atgādina vai nu minimālistisku skandināvu mākslu, vai mēreni dārgu autostāvvietas maksas stabu. Pēc amatpersonu teiktā, sirēna aktivizējas automātiski, kad pašvaldības sensori konstatē «bīstamu klusumu», ko definē kā jebkuru nepārtrauktu redzama apmierinājuma periodu, kas ilgāks par 17 minūtēm.
+
+«Mēs neesam pret baudīšanu,» preses brīfingā sacīja sezonālās disciplīnas pagaidu vietniece Ilze Grīnberga, kas uzstājās zem mākoņa, kas ieradās precīzi pēc grafika. «Bet baudīšanai jāpaliek proporcionālai, jāreģistrējas iekšēji un, vēlams, tam jābūt ar vismaz nelielu uztraukumu par laika apstākļiem, transportu vai sēnēm. Bez tā pastāv risks sociālajai nelīdzsvarotībai.»
+
+Lai gan sirēna nerada dzirdamu skaņu, varas iestādes apgalvo, ka tās iedarbība ir tūlītēja. Dažu sekunžu laikā pēc aktivizēšanas tuvumā esošie pludmales apmeklētāji, kā ziņots, sāk pārbaudīt telefonus, pēkšņi pieceļas vai skatās tālumā ar to neizprotamās izpausmes izteiksmi, kas liek domāt, ka kāds varbūt 2009. gadā ir atstājis griķus uz plīts.
+
+Sistēmu izstrādāja Rīgā bāzēta pilsoniskās tehnoloģijas firma SIA Modrība Labs, izmantojot inovāciju grantu 428 000 eiro apmērā, kas sākotnēji bija paredzēts «viedajai piekrastes noturībai». Uzņēmuma dibinātājs Andris Vītols sacīja, ka ierīce izmanto mitruma mērījumus, stājas atpazīšanu un arhīviskus kultūras datus.
+
+«Mēs apmācījām algoritmu ar 63 000 fotogrāfiju par baltiešiem, kuri gandrīz izbaudīja atpūtu,» skaidroja Vītols. «Modelis spēj atšķirt pieļaujamu jūras piekrastes atvieglojumu no tāda dziļa, Vidusjūras tipa atslābuma, ko mūsu infrastruktūra vēl nav gatava uzņemt.»
+
+Pašvaldības testa periodā, kas notika trīs nedēļas nogalēs, konstatēts, ka sirēna samazinājusi «bezrūpīgo atpūtas incidentu» skaitu par 41%. Vienā ziņojumā minēts, ka ģimene no Jelgavas bija gandrīz pabeigusi otro stundu zem segas, kad visi četri locekļi vienlaikus atcerējās, ka droši vien vajadzētu darīt kaut ko praktisku. Ģimene pēc tam savāca mantas sešu minūšu laikā, klusītiņām apsprieda stāvvietu un droši devās mājup.
+
+Iedzīvotāju reakcija ir piesardzīgi atbalstoša. «Sākumā es nesapratu, kas notiek,» teica 34 gadus vecā grāmatvede un ierasta pludmales apmeklētāja Liene Ozoliņa. «Es guļēju pilnīgā mierā, un pēkšņi sajutu spēcīgu nepieciešamību pieceļoties uzvilkt lina bikses un pieminēt nekustamā īpašuma nodokli. Godīgi sakot, tas nomierināja.»
+
+Ne visi ir pārliecināti. Pensionētais ķīmijas skolotājs Aivars Priedītis kritizēja programmu kā pārmērīgu valdības iejaukšanos. «Padomju laikos atslābums tika risināts neformāli,» viņš sacīja. «Tev nevajadzēja mašīnu. Viena tante pludmalē tev uzmest aci ar rūpēm — un tas bija pietiekami.»
+
+Neskatoties uz dažiem skepses brāķiem, pašvaldība plāno paplašināt sistēmu uz Dzintariem un Bulduriem līdz augustam. Amatpersonas arī apsver ziemas versiju iekštelpu pirtīm, kur ilgstošas mierīguma epizodes, kā ziņots, kopš pagājušā gada ir pieaugušas par 12%.
+
+Ja Jūrmalas izmēģinājums izgūs panākumus, Rīga varētu pieņemt pilsētai piemērotu versiju parkiem, kafejnīcu terasēm un noteiktām Daugavas krastmalas daļām. Galvaspilsētas priekšlikuma agrīnajos skičos iekļautas arī mobilās klusējošās sirēnas, kas uzstādītas tramvajos, ļaujot amatpersonām iejaukties, kad pasažieri izskatās pārāk emocionāli noslāņojušies, skatoties pa logu.
+
+Otrdienas saulrietā, kamēr jaunā ierīce stāvēja nekustīgi pret jūru, vairāki tūristi no Vācijas vaicāja, vai tas nav mākslas objekts. Vietējās varas iestādes tieši neatbildēja, taču apstiprināja, ka ikviens, kurš atslābs tik ļoti, lai uzdotu šo jautājumu vēlreiz, tiks maigi izlabots.`,
+      ru: `ЮРМАЛА — В попытке, как заявляют городские руководители, сохранить общественный порядок в разгар летнего сезона, муниципалитет Юрмалы установил первую в стране бесшумную пляжную сирену — аварийный механизм оповещения, предназначенный сообщать жителям, когда загорание, лёгкое купание или размеренное сидение идут слишком долго и становятся подозрительными.
+
+Пилотная программа стартовала в понедельник на пляже Майори, где между киоском с вафлями и кабиной для переодевания установили белый металлический столб, напоминающий то ли минималистичное скандинавское произведение искусства, то ли умеренно дорогой паркомат. По словам чиновников, сирена включается автоматически, когда муниципальные датчики фиксируют «опасную неподвижность» — любое непрерывное состояние видимого удовлетворения продолжительностью более 17 минут.
+
+«Мы не против удовольствия», — сказала исполняющая обязанности заместителя председателя по сезонной дисциплине Илзе Гринберга на брифинге, который прошёл под облаком, пришедшим точно по расписанию. «Но удовольствие должно оставаться пропорциональным, фиксироваться внутренне и, по возможности, сопровождаться хотя бы малейшей тревогой о погоде, транспорте или грибах. Без этого мы рискуем социальной неустойчивостью.»
+
+Хотя сирена не издаёт слышимого шума, власти уверяют, что её воздействие мгновенно. Через несколько секунд после активации отдыхающие рядом, по сообщению очевидцев, начинают проверять телефоны, резко садятся или уставляются в никуда с тем самым выражением человека, который, возможно, оставил гречку на плите в 2009 году.
+
+Система была разработана рижской гражданско‑технологической фирмой SIA Modrība Labs в рамках гранта на инновации в размере €428 000, изначально выделенного на «умную прибрежную устойчивость». Основатель компании Андрис Витолс рассказал, что устройство использует сочетание показаний влажности, распознавания поз и архивных культурных данных.
+
+«Мы обучили алгоритм на 63 000 фотографий балтийцев, почти получающих удовольствие», — объяснил Витолс. «Модель умеет отличать приемлемое морское облегчение от того самого глубокого, средиземноморского по характеру расслабления, которое наша инфраструктура ещё не готова поддерживать.»
+
+Муниципальные испытания, проведённые в течение трёх уик‑эндов, показали, что сирена сократила «инциденты безрассудного досуга» на 41%. В одном из отчётов отмечается, что семья из Елгавы почти провела второй подряд час на пледе, когда все четверо одновременно вспомнили, что, вероятно, им стоит заняться чем‑то практичным. Семья собрала вещи за шесть минут, тихо поспорила из‑за парковки и уехала домой в эмоциональной безопасности.
+
+Реакция жителей оказалась сдержанно поддерживающей. «Сначала я не поняла, что происходит», — сказала 34‑летняя бухгалтер и постоянная посетительница пляжа Лиене Озолиня. «Лежала себе спокойно, и вдруг меня охватила непреодолимая потребность встать, надеть льняные брюки и упомянуть налоги на имущество. Честно говоря, это успокаивало.»
+
+Не все убеждены. Пенсионер и учитель химии Айварс Прийдитис раскритиковал программу как чрезмерное вмешательство государства. «В советские времена расслабление регулировалось неофициально», — сказал он. «Машина не нужна была. Одна тётка на пляже посмотрит на тебя с тревогой — и этого хватало.»
+
+Несмотря на некоторый скепсис, муниципалитет планирует расширить систему до Дзинтари и Булдуру к августу. Чиновники также рассматривают зимнюю версию для закрытых саун, где длительная безмятежность, по сообщениям, выросла на 12% по сравнению с прошлым годом.
+
+Если опыт в Юрмале окажется удачным, Рига может принять городскую адаптацию для парков, кафе‑террас и отдельных участков набережной Даугавы. В ранних проектах столицы предусматриваются мобильные бесшумные сирены, устанавливаемые на трамваях, чтобы чиновники могли вмешиваться всякий раз, когда пассажиры выглядят слишком эмоционально умиротворёнными, глядя в окно.
+
+Вечером во вторник, когда новое устройство стояло неподвижно на фоне моря, несколько туристов из Германии поинтересовались, не является ли это арт‑инсталляцией. Местные власти не дали прямого ответа, но подтвердили, что тех, кто расслабится настолько, чтобы спросить во второй раз, мягко поправят.`
+    },
+    date: "Jul 21, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/220/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 219,
     slug: "jrmala-introduces-silent-applause-tax-after-219",
     title: {
@@ -108,7 +201,7 @@ Pašvaldības analītiķi vēlāk nakti nodēvēja par pilnīgu panākumu, atzī
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/219/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 218,
