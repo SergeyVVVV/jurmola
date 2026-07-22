@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 221,
+    slug: "jrmala-introduces-quiet-siren-to-warn-221",
+    title: {
+      en: "Jūrmala Introduces ‘Quiet Siren’ to Warn Residents of Mild Inconveniences",
+      lv: "Jūrmala ievieš „kluso sirēnu”, lai brīdinātu iedzīvotājus par nelielām neērtībām",
+      ru: "Юрмала вводит «тихую сирену» для оповещения жителей о мелких неудобствах"
+    },
+    excerpt: {
+      en: "City officials in Jūrmala have unveiled a new public safety system designed to alert residents to low-grade disruptions such as slightly delayed trains, suspiciously warm kefir, and the arrival of distant relatives without prior notice. The ‘quiet siren,’ officials say, reflects local values by sounding almost imperceptibly and expecting citizens to infer the rest.",
+      lv: "Jūrmalas pilsētas amatpersonas atklājušas jaunu sabiedrības drošības sistēmu, kas paredz brīdināt iedzīvotājus par zemas pakāpes traucējumiem — piemēram, nedaudz aizkavējušiem vilcieniem, aizdomīgi siltu kefīru un tālu radinieku ierašanos bez iepriekšējas brīdināšanas. „Klusa sirēna”, pēc amatpersonu teiktā, atspoguļo vietējās vērtības, skanot gandrīz neuztverami un gaidot, ka pilsoņi paši pārējo secinās.",
+      ru: "Городские власти Юрмалы представили новую систему общественной безопасности, призванную предупреждать жителей о незначительных помехах — слегка задержанных поездах, подозрительно тёплом кефире и внезапном появлении дальних родственников без предупреждения. «Тихая сирена», по словам чиновников, отражает местные ценности: звучит почти неразличимо и ждёт, что граждане сами додумают остальное."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a ceremony described by organizers as “restrained but emotionally significant,” Jūrmala municipal officials on মঙ্গলবার introduced the country’s first Quiet Siren Network, a civil preparedness initiative intended to notify residents of minor but spiritually exhausting disturbances before they escalate into full conversations.
+
+Installed atop libraries, dental clinics, and one very apologetic-looking Maxima supermarket, the new sirens emit what the city calls “a dignified tone of concern” at a volume roughly comparable to a cardigan being folded in the next room. According to the municipality, the system will be activated during events including 11-minute train delays, sand that is “too decisive,” coffee priced above €4.80, and sightings of a man from Riga using the phrase “hidden gem” within Jūrmala city limits.
+
+“The problem with traditional warning systems is that they assume people want to be warned,” said Deputy Executive Director for Environmental Calmness Ilze Dreimane, speaking beside a demonstration siren that many attendees only realized had gone off after seeing a small flag lowered by 3 centimeters. “In Jūrmala, we prefer a model of preparedness based on intuition, passive disappointment, and checking a neighborhood Facebook group 17 times per hour.”
+
+The €2.3 million pilot program, co-financed through a Baltic Regional Resilience and Soft Acoustics grant, has been under development since 2022 after a municipal task force concluded that residents were consistently “under-informed about manageable nuisances, yet somehow still annoyed by them.” The 184-page report identified a critical gap between official alerts and the types of events that actually dominate local emotional bandwidth.
+
+Among the incidents now covered by the system are unannounced roadworks near Dubulti, seagulls showing “excessive confidence,” weather forecasts described as “optimistically coastal,” and the annual phenomenon in which one café replaces all normal chairs with artisanal stools no human body can fully understand.
+
+Early response from residents has been mixed but quietly intense. “At first I thought I was simply becoming aware of a problem on my own,” said Majori resident and amateur curtain observer Velta Ozoliņa, 68. “Then I learned the siren had been active for six minutes due to a queue forming at the pastry kiosk. Honestly, it helped me feel seen.”
+
+Others remain skeptical. “How am I supposed to distinguish the siren from my own baseline unease?” asked bicycle repairman Mārtiņš Šulcs, who said he accidentally evacuated his shed after what turned out to be “just a normal sea-adjacent feeling.” “If there’s a warning for every minor inconvenience, eventually people will start ignoring the major ones, like guests asking to split a bill using bank transfer notes.”
+
+To address concerns, the city has released a color-coded preparedness chart. A pale beige alert advises residents to sigh and continue as normal. Light gray means put on a jacket “just in case.” Taupe signals an event of moderate consequence, such as a cultural festival introducing a cashless bracelet system. The highest level, coastal plum, is reserved for situations involving three or more SUVs searching for parking within 50 meters of the beach.
+
+Officials say the system may eventually be expanded to Riga, where planners have reportedly requested a louder urban model capable of warning entire districts about brunch concepts, scooter concentrations, and men explaining natural wine. A spokesperson for the Ministry of the Interior confirmed that national adoption is possible if the Jūrmala trial demonstrates “measurable reductions in pointless surprise.”
+
+At press time, the Quiet Siren had been triggered twice during the launch event itself: once for a speaker using the phrase “synergy of community awareness,” and once after a tray of smoked sprats was placed in direct sunlight, prompting what authorities classified as a preventable civic discomfort.`,
+      lv: `JŪRMALA — Svētku ceremonijā, ko rīkotāji raksturoja kā «atturīgu, bet emocionāli nozīmīgu», Jūrmalas pašvaldības amatpersonas otrdien oficiāli paziņoja par valsts pirmā Klusā sirēnu tīkla ieviešanu — civilās gatavības iniciatīvu, kas domāta, lai iedzīvotājus informētu par niecīgiem, taču garīgi izsmeļošiem traucējumiem, pirms tie pāraug pilnos sarunās.
+
+Jaunās sirēnas, kas uzstādītas bibliotēku, zobārstniecības klīniku un vienas ļoti nožēlojoši izskatīgas Maxima veikala jumtiem, izstaro to, ko pilsēta dēvē par «cienīgu bažu toni», skaļumā, kas aptuveni atbilst džempera salocīšanai blakus istabā. Pēc pašvaldības teiktā, sistēma tiks aktivizēta situācijās, piemēram, ja vilcienis kavējas 11 minūtes, ja smiltis ir «pārāk noteiktas», ja kafija maksā vairāk par 4,80 €, vai ja Jūrmalas robežās tiek pamanīts rīdzinieks, izmantojot frāzi «slēpta pērle».
+
+«Tradicionālo brīdinājumu sistēmu problēma ir tā — tās pieņem, ka cilvēki vēlas tikt brīdināti,» sacīja Vides miera izpilddirektores vietniece Ilze Dreimane, runājot blakus demonstrācijas sirēnai, kuru daudzi klātesošie pamanīja tikai pēc tam, kad redzēja nelielu karodziņu nolaistu par trīs centimetriem. «Jūrmalā mēs dodat priekšroku gatavības modelim, kas balstīts uz intuīciju, pasīvu vīšanos un apkārtnes Facebook grupas pārbaudīšanu 17 reizes stundā.»
+
+2,3 miljonu eiro pilotprogrammu, ko līdzfinansē Baltijas reģionālās noturības un maigās akustikas grants, izstrādā kopš 2022. gada, pēc tam, kad pašvaldības darba grupa secināja, ka iedzīvotāji pastāvīgi ir «pārāk maz informēti par risināmiem sīkumiem, tomēr kaut kā tomēr no tiem niknās». 184 lappušu ziņojums identificēja kritisku plaisu starp oficiālajiem brīdinājumiem un to notikumu tipiem, kas patiesībā dominē vietējā emocionālā kapacitātē.
+
+Tagad sistēma aptver tādus incidentus kā neplānoti ceļubūves darbi pie Dubultiem, kaijas, kuras izrāda «pārāk lielu pārliecību», laika prognozes, ko raksturo kā «optimistiski piejūras», un ikgadējo fenomenu, kad kāda kafejnīca aizstāj visus parastos krēslus ar amatnieciskām krēsliem, ko neviens cilvēka ķermenis pilnībā nesaprot.
+
+Sākotnējā iedzīvotāju reakcija bijusi jaukta, bet klusi intensīva. «Sākumā domāju, ka vienkārši pati kļūstu par problēmu apzinīgu,» sacīja Majoru iedzīvotāja un amatieru aizkaru vērotāja Velta Ozoliņa, 68 gadus veca. «Tad uzzināju, ka sirēna bija skanējusi sešas minūtes rindas dēļ pie konditorejas kioska. Godīgi sakot — tas lika man justies pamanītai.»
+
+Citi paliek skeptiski. «Kā man vajadzētu atšķirt sirēnu no sava paša ikdienas nedrošuma?» vaicāja riteņremonta meistars Mārtiņš Šulcs, kurš pēc tam, kad izrādījās, ka tas bijis «vienkārši normāls piejūras noskaņojums», gadās evakuēt savu šķūnīti. «Ja par katru sīkumu būs brīdinājums, kādu dienu cilvēki sāks ignorēt lielās lietas, piemēram, viesus, kas lūdz dalīt rēķinu, sūtot pārskaitījuma uzdevumus.»
+
+Lai risinātu bažas, pilsēta publicējusi krāsu kodētu gatavības shēmu. Bāls bēšs brīdinājums iesaka iedzīvotājiem nopūsties un turpināt kā parasti. Gaiši pelēks nozīmē «uzvelc jaku, tikai gadījumam». Taupe signalizē par mērenu nozīmīgumu — piemēram, kultūras festivālu, kur tiek ieviesta bezskaidras naudas aproce. Augstākais līmenis, ko dēvē par «piekrastes plūmi», rezervēts situācijām, kad trīs vai vairāk apvidus auto meklē stāvvietu 50 metru rādiusā ap pludmali.
+
+Amatpersonas saka, ka sistēma iespējams tiks paplašināta arī Rīgā, kur plānotāji, kā ziņots, lūguši skaļāku pilsētas modeli, spējīgu brīdināt veselas apkaimes par branča konceptiem, skūteru koncentrācijām un vīriešiem, kas skaidro dabisko vīnu. Iekšlietu ministrijas pārstāvis apstiprināja, ka nacionāla ieviešana ir iespējama, ja Jūrmalas izmēģinājums demonstrēs «taustāmu samazinājumu bezjēdzīgās pārsteigšanās».
+
+Preses brīdī Klusā sirēna bija bijusi aktivizēta divreiz pašā atklāšanas pasākumā: reizi — runātājam, kurš lietoja frāzi «kopienas apziņas sinerģija», un reizi — pēc tam, kad uz tiešas saules tika novietota bandele kūpinātu šprošu, izraisot to, ko varas iestādes klasificēja kā novēršamu pilsonisku neērtumu.`,
+      ru: `ЮРМАЛА — На церемонии, которую организаторы описали как «сдержанную, но эмоционально значимую», муниципальные власти Юрмалы во вторник представили первую в стране Сеть Тихих Сирен — инициативу гражданской готовности, призванную оповещать жителей о мелких, но духовно утомительных нарушениях, прежде чем они перерастут в полноценные разговоры.
+
+Установленные на крышах библиотек, стоматологий и одного особенно виновато выглядевшего супермаркета Maxima, новые сирены издают то, что город называет «достойным тоном беспокойства» на громкости примерно сопоставимой со складыванием кардигана в соседней комнате. По данным муниципалитета, система будет срабатывать при таких событиях, как 11-минутные задержки поездов, «слишком решительный» песок, кофе дороже €4,80 и появление в пределах Юрмалы человека из Риги, употребившего фразу «скрытая жемчужина». 
+
+«Проблема традиционных систем оповещения в том, что они предполагают: люди хотят, чтобы их предупреждали», — сказала заместитель исполнительного директора по экологическому спокойствию Илзе Дреймане, выступая у демонстрационной сирены, о срабатывании которой многие присутствующие узнали только после того, как небольшой флаг опустился на 3 сантиметра. «В Юрмале мы предпочитаем модель готовности, основанную на интуиции, пассивном разочаровании и проверке соседской группы в Facebook 17 раз в час.»
+
+Пилотная программа стоимостью €2,3 млн, софинансируемая в рамках гранта «Прибалтийская региональная устойчивость и мягкая акустика», разрабатывается с 2022 года после того, как муниципальная рабочая группа пришла к выводу, что жители систематически «недостаточно информированы о контролируемых неудобствах, но при этом всё равно ими раздражены». 184-страничный отчёт выявил критический разрыв между официальными предупреждениями и теми событиями, которые на деле доминируют в локальной эмоциональной полосе пропускания.
+
+В число инцидентов, теперь покрываемых системой, вошли незапланированные дорожные работы возле Дубулты, чайки с «чрезмерной уверенностью», прогнозы погоды, описываемые как «оптимистично прибрежные», и ежегодное явление, когда одно кафе заменяет все обычные стулья на авторские табуреты, которые человеческому телу полностью не понятны.
+
+Ранняя реакция жителей оказалась смешанной, но тихо интенсивной. «Сначала я думала, что просто сама вдруг осознала проблему», — сказала жительница Маяри и любительница наблюдать за шторами Вельта Озолиня, 68 лет. «Потом я узнала, что сирена работала шесть минут из‑за очереди у киоска с выпечкой. Честно говоря, это помогло мне почувствовать себя замеченной.»
+
+Другие настроены скептически. «Как мне отличить сирену от собственного фонового беспокойства?» — спросил веломеханик Мартиньш Шулц, который случайно эвакуировал свой сарай после того, как это оказалось «обычным морским настроением». «Если будет предупреждение на каждое мелкое неудобство, люди в конце концов начнут игнорировать серьёзные вещи, например гостей, которые просят разделить счёт, используя банковские реквизиты.»
+
+Чтобы успокоить сомневающихся, в городе опубликовали цветовую шкалу готовности. Бледно‑бежевый уровень советует воздохнуть и продолжать обычные дела. Светло‑серый значит надеть куртку «на всякий случай». Тауп сигнализирует о событии средней важности, например культурном фестивале с безналичными браслетами. Наивысший уровень, «прибрежная слива», зарезервирован для ситуаций, когда три и более внедорожника ищут парковку в радиусе 50 метров от пляжа.
+
+Чиновники заявляют, что систему в будущем могут расширить до Риги, где планировщики, по сообщениям, запросили громкую городскую модель, способную предупреждать целые районы о концепциях бранча, скоплениях самокатов и мужчинах, объясняющих натуральное вино. Представитель Министерства внутренних дел подтвердил, что национальное внедрение возможно, если юрмальский пилот покажет «измеримое сокращение бессмысленных сюрпризов». 
+
+На момент сдачи материала Тихая Сирена сработала дважды прямо во время презентации: один раз — из‑за оратора, употребившего фразу «синергия общественной осведомлённости», и ещё раз — после того, как поднос с копчёными шпротами был поставлен под прямые лучи солнца, что власти классифицировали как предотвратимое гражданское недовольство.`
+    },
+    date: "Jul 22, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/221/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 220,
     slug: "jrmala-introduces-silent-beach-siren-to-220",
     title: {
@@ -108,7 +189,7 @@ Otrdienas saulrietā, kamēr jaunā ierīce stāvēja nekustīgi pret jūru, vai
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/220/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 219,
