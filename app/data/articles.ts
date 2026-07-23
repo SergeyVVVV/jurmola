@@ -18,6 +18,94 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 222,
+    slug: "riga-introduces-official-14-minute-pause-222",
+    title: {
+      en: "Riga Introduces Official 14-Minute Pause To Complain About Weather, Declares It Critical Cultural Infrastructure",
+      lv: "Rīga ievieš oficiālu 14 minūšu pauzi, lai sūdzētos par laiku, pasludina to par kritisku kultūras infrastruktūru",
+      ru: "Рига вводит официальную 14‑минутную паузу для жалоб на погоду и объявляет её критической культурной инфраструктурой"
+    },
+    excerpt: {
+      en: "In a unanimous late-night vote, Riga City Council has approved a daily municipally protected interval during which residents are encouraged to stop working, stare at the sky, and express dissatisfaction with current atmospheric conditions. Officials say the measure will preserve a centuries-old Baltic practice threatened by mobile apps that identify weather too accurately.",
+      lv: "Vienbalsīgā vēlā nakts balsojumā Rīgas dome apstiprināja ikdienas municipālu aizsargājamu laika posmu, kurā iedzīvotāji tiek aicināti pārtraukt darbus, ieraut acu skatu debesīs un izteikt neapmierinātību par atmosfēras stāvokli. Ierēdņi saka, ka mērs pasargās gadsimtiem vecu Baltijas praksi, ko apdraud mobilo lietotņu pārāk precīza laika noteikšana.",
+      ru: "Единодушным поздним голосованием Рижская городская дума утвердила ежедневный муниципально защищённый интервал, в течение которого жителей призывают прекратить работу, уставиться в небо и выразить недовольство нынешними атмосферными условиями. По словам чиновников, мера сохранит многовековую балтийскую практику, которую подрывают мобильные приложения, слишком точно определяющие погоду."
+    },
+    fullContent: {
+      en: `RIGA — Beginning next Monday, residents of the capital will observe a new officially recognized civic tradition: the 14-minute Daily Atmospheric Reflection Interval, a city-mandated pause intended to protect what authorities describe as 'the fragile social ecosystem of weather-based complaining.' The measure passed 58–2 after council members concluded that informal grumbling, once the backbone of urban cohesion, had become dangerously inconsistent.
+
+Under the ordinance, offices, schools, dental clinics, courier depots, and at least one mysteriously open flower kiosk in Purvciems must suspend normal operations at 11:47 a.m. sharp. During that time, citizens are expected to gather near windows, on tram platforms, or under the narrow overhangs of Soviet-era apartment blocks and make one to three disapproving remarks about wind, humidity, sleet, sunlight that 'feels suspicious,' or the general betrayal of seasonal expectations.
+
+'If this city loses the ability to say, "It was warmer yesterday" without verifying any facts, then frankly we are no longer Riga,' said Deputy Mayor for Intangible Heritage and Parking Confusion Ilze Dreimane at a press conference held outdoors in conditions she called 'unnecessarily damp for the date.' Standing beside a laminated chart titled Traditional Levels of Sighing, Dreimane said studies commissioned by the municipality found that casual complaints about weather account for 63% of spontaneous conversations among strangers and 81% of all meaningful interactions at trolleybus stops.
+
+The report, prepared by the Baltic Institute for Everyday Endurance, surveyed 2,400 residents across Riga, Jūrmala, Jelgava, and one man in Salaspils who insisted the fog was 'politically motivated.' Researchers warned that smartphone weather applications have undermined authentic dissatisfaction by allowing citizens to know in advance what they will be miserable about.
+
+'Prediction has removed the artistry,' said lead sociologist Dr. Mārtiņš Kļava. 'Previously, a resident could leave home in thin shoes, get hit by sideways rain, and generate a sincere, community-building complaint. Now they receive a notification saying 7°C, feels like 3°C, and merely nod. This is a major loss.'
+
+Businesses are already adapting. Several Riga cafés announced special Complaint Interval menus featuring lukewarm coffee, symbolic cloudberry tarts, and a discount for customers who mutter, 'This isn’t proper summer.' At the Origo shopping center, management has installed designated Reflection Corners where passersby can look at the gray horizon and compare current wind quality with that of 2006.
+
+Not all residents are opposed. Jūrmala pensioner Velta Ozoliņa, wrapped in a beach towel over a winter coat 'just in case,' welcomed the initiative. 'My grandson kept trying to discuss cryptocurrency with me,' Ozoliņa said. 'Now we can return to respectable topics like whether this breeze is from the sea or from disappointment.'
+
+Still, critics have questioned enforcement. The city confirmed that municipal monitors will not issue fines for insufficient negativity during the pilot phase, though repeat optimism may trigger an educational seminar in Ogre. Council opposition member Kaspars Meņģelis called the policy 'performative,' noting that most Latvians already complain about weather continuously and at no cost to taxpayers.
+
+By Thursday morning, however, early compliance appeared strong. Construction crews in Āgenskalns paused to condemn a patch of sunlight as 'temporary and arrogant,' while office workers in Skanste reportedly completed the full cycle of Baltic meteorological commentary: hope, regret, historical comparison, and resignation in under nine minutes.
+
+City officials say if the program succeeds, they may expand it next year to include a protected evening interval for quietly mentioning mushroom conditions to neighbors. For now, Riga leaders are urging calm and civic participation.
+
+'We are not forcing anyone to be unhappy,' Dreimane clarified as a gust overturned her notes into a puddle. 'We are simply giving residents a structured opportunity to be themselves.'`,
+      lv: `RĪGA — Nākamās pirmdienas sākot, galvaspilsētas iedzīvotāji ieviesīs jaunu oficiāli atzītu pilsonisko tradīciju: 14 minūšu Ikdienas Atmosfēras Pārdomu Intervālu, pilsētas noteiktu pauzi, kuras mērķis ir aizsargāt to, ko amatpersonas raksturo kā „trauslo laikapstākļos balstīto sūdzību sociālo ekosistēmu”. Lēmums pieņemts ar balsīm 58–2, jo deputāti secināja, ka neformālas žēlošanās, kas reiz bija urbānas kohēzijas mugurkauls, kļuvušas bīstami neregulāras.
+
+Saskaņā ar rīkojumu birojiem, skolām, zobārstniecības klīnikām, kurjeru noliktavām un vismaz vienam noslēpumaini atvērtam ziedu kioskam Purvciemā jāaptur ierastā darbība precīzi plkst. 11:47. Šajā laikā iedzīvotājiem tiek sagaidīts sapulcēties pie logiem, tramvaju peronos vai padomju laika dzīvokļu šaurajiem nojumiem un izteikt vienu līdz trīs neapmierinātas piezīmes par vēju, mitrumu, slapjo sniegu, „aizdomīgi” jūtamu saules gaismu vai par sezonālo cerību vispārēju nodevību.
+
+"Ja šī pilsēta zaudēs spēju teikt: 'Vakar bija siltāk,' nepārbaudot nekādas lietas, tad, godīgi sakot, tā vairs nav Rīga," preses konferencē ārtelpā, ko viņa nosauca par "nevajadzīgi mitru šai dienai", sacīja nemateriālā mantojuma un autostāvvietu sajukuma lietu vicemēre Ilze Dreimane. Stāvot blakus laminētai diagrammai ar nosaukumu "Tradicionālās nopūtas līmeņi", Dreimane teica, ka domei pasūtītie pētījumi liecina — nejaušas sūdzības par laiku veido 63% no spontānajām sarunām svešinieku starpā un 81% no nozīmīgajām mijiedarbībām pie trolejbusa pieturām.
+
+Ziņojumu, ko sagatavoja Baltijas institūts ikdienas izturībai, veica 2400 iedzīvotāju aptauju Rīgā, Jūrmalā, Jelgavā un pie viena kunga Salaspilī, kurš uzstāja, ka migla ir "politiski motivēta." Pētnieki brīdināja, ka viedtālruņu laika prognožu lietotnes ir erodējušas autentisko neapmierinātību, ļaujot cilvēkiem iepriekš zināt, par ko viņi drīzāk skumdīsies.
+
+"Prognozēšana ir atņēmusi mākslu," sacīja vadošais sociologs Dr. Mārtiņš Kļava. "Agrāk iedzīvotājs varēja iziet no mājas plānās kurpēs, tikt skarts no sāniska lietus un radīt sirsnīgu, kopienu vienojošu sūdzību. Tagad viņam pienāk paziņojums: 7°C, sajūtās kā 3°C, un viņš vienkārši pamāj ar galvu. Tas ir liels zaudējums."
+
+Uzņēmumi jau pielāgojas. Vairāki Rīgas kafejnīcu tīkli paziņojuši īpašas 'Sūdzību Intervāla' ēdienkartes ar remdenu kafiju, simboliskām mākoņuogu tartēm un atlaidi klientiem, kas paklusām piemurmā: "Tas nav īsta vasara." Tirdzniecības centrā Origo vadība uzstādījusi īpašus 'Pārdomu stūrus', kur garāmgājēji var skatīties uz pelēcīgo horizontu un salīdzināt pašreizējā vēja kvalitāti ar 2006. gadu.
+
+Ne visi iedzīvotāji bija pret. Jūrmalas pensionāre Velta Ozoliņa, ietinusies pludmales dvielī pār ziemas mēteļa "tikai drošības pēc", sveica iniciatīvu. "Mans mazbērns visu laiku mēģināja ar mani runāt par kriptovalūtām," sacīja Ozoliņa. "Tagad varam atgriezties pie cienījamiem tematiem, piemēram, vai šī vieglā brīze nāk no jūras vai no vilšanās."
+
+Tomēr kritiķi apšaubījuši izpildi. Pilsēta apstiprinājusi, ka pilotfāzē municipālie uzraugi nesūtīs sodus par nepietiekamu negatīvismu, lai gan atkārtots optimisms var novest pie izglītojoša semināra apmeklēšanas Ogrē. Domes opozīcijas deputāts Kaspars Meņģelis nodēvēja politiku par "performatīvu", norādot, ka lielākā daļa latviešu jau nepārtraukti sūdzas par laiku un tas nodokļu maksātājiem nekas nemaksā.
+
+Taču līdz ceturtdienas rītam sākotnējā pakļaušanās izskatījās spēcīga. Būvnieku brigādes Āgenskalnā pārtrauca darbus, lai nosodītu saules staru pleķīti kā "pagaidu un augstprātīgu", kamēr biroja darbinieki Skanstē, pēc ziņām, veica pilnu Baltijas meteoroloģiskā komentāra ciklu: cerība, nožēla, vēsturiska salīdzināšana un padevība — visu to zem deviņām minūtēm.
+
+Pilsētas amatpersonas saka, ka, ja programma izdosies, nākamgad to var paplašināt, iekļaujot aizsargātu vakara intervālu klusai sēņu apstākļu apspriedei ar kaimiņiem. Pašlaik Rīgas vadība aicina uz mieru un pilsonisku līdzdalību.
+
+"Mēs neviens neuzliekam par pienākumu būt nelaimīgiem," Dreimane precizēja brīdī, kad vējš apgāza viņas piezīmes peļķē. "Mēs vienkārši dodam iedzīvotājiem strukturētu iespēju būt pašiem."
+`,
+      ru: `РИГА — С началом следующего понедельника у жителей столицы появится новая официально признанная гражданская традиция: 14‑минутный Ежедневный Интервал Атмосферного Размышления — городская пауза, призванная защитить то, что власти описывают как «хрупкую социальную экосистему жалоб на погоду». Положение было принято 58 голосами против 2 после того, как депутаты пришли к выводу, что неформальное ворчание, когда‑то служившее основой городского единства, стало опасно непоследовательным.
+
+Согласно постановлению, офисы, школы, стоматологические клиники, курьерские склады и, по крайней мере, один таинственно работающий цветочный киоск в Purvciems должны в точности в 11:47 приостанавливать обычную деятельность. В это время от граждан ожидается, что они соберутся у окон, на трамвайных платформах или под узкими навесами советских жилых домов и сделают от одной до трёх неодобрительных реплик о ветре, влажности, мокром снеге, свете солнца, «который как‑то подозрительно ощущается», либо о общем предательстве сезонных ожиданий.
+
+«Если этот город утратит способность сказать: „Вчера было теплее“, не проверяя никаких фактов, то, честно говоря, это уже не Рига», — заявила заммэра по нематериальному наследию и путанице с парковками Ilze Dreimane на пресс‑конференции, прошедшей на открытом воздухе в условиях, которые она назвала «чрезмерно влажными для даты». Стоя рядом с ламинированной таблицей под заголовком «Традиционные уровни вздохов», Dreimane сообщила, что исследования, заказанные муниципалитетом, показали: случайные жалобы на погоду составляют 63% спонтанных разговоров между незнакомцами и 81% всех содержательных взаимодействий на троллейбусных остановках.
+
+Отчёт, подготовленный «Балтийским институтом повседневной выносливости», опросил 2400 жителей Риги, Юрмалы, Елгавы и одного человека в Саласпилсе, который настаивал, что туман был «политически мотивирован». Исследователи предостерегли, что приложения погоды на смартфонах подорвали подлинное недовольство, позволяя гражданам заранее знать, по какому поводу они будут несчастны.
+
+«Прогноз лишил нас искусства», — сказал ведущий социолог Dr. Mārtiņš Kļava. «Раньше человек мог выйти из дома в лёгкой обуви, попасть под боковой дождь и породить искреннюю, объединяющую жалобу. Теперь он получает уведомление: 7°C, ощущается как 3°C, и просто кивает. Это большая потеря». 
+
+Бизнес уже адаптируется. Несколько рижских кафе объявили специальные «меню для интервала жалоб», где будут тёпловатый кофе, символические тарталетки с морошкой и скидка для посетителей, которые пробормочут: «Это не настоящее лето». В торговом центре Origo руководство оборудовало специальные «уголки для размышлений», где прохожие могут посмотреть на серый горизонт и сравнить текущее качество ветра с ветром 2006 года.
+
+Не все жители выступили против. Юрмальская пенсионерка Velta Ozoliņa, завернувшаяся в пляжное полотенце поверх зимнего пальто «на всякий случай», приветствовала инициативу. «Мой внук всё пытался со мной обсуждать криптовалюту», — сказала Ozoliņa. «Теперь мы можем вернуться к респектабельным темам вроде того, веет ли этот бриз от моря или от разочарования». 
+
+Критики, тем не менее, усомнились в механизмах исполнения. Город подтвердил, что муниципальные наблюдатели не будут выписывать штрафы за недостаток негативизма в пилотный период, хотя повторный оптимизм может повлечь за собой просветительский семинар в Огре. Член оппозиции в совете Kaspars Meņģelis назвал политику «показной», отметив, что большинство латвийцев уже постоянно жалуются на погоду и это никого не обременяет.
+
+К утру четверга, однако, раннее соблюдение выглядело сильным. Строительные бригады в Āgenskalns приостановились, чтобы осудить пятно солнечного света как «временное и наглое», а офисные работники в Skanste, по сообщениям, прошли полный цикл балтийского метеорологического комментирования: надежда, сожаление, историческое сравнение и покорность — менее чем за девять минут.
+
+Городские власти заявляют, что если программа окажется успешной, в следующем году её могут расширить, включив защищённый вечерний интервал для тихого обсуждения «грибных условий» с соседями. А пока рижское руководство призывает к спокойствию и гражданскому участию.
+
+«Мы никого не принуждаем быть несчастными», — уточнила Dreimane в тот момент, когда порыв ветра опрокинул её заметки в лужу. «Мы просто даём жителям структурированную возможность быть самими собой».`
+    },
+    date: "Jul 23, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/222/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 221,
     slug: "jrmala-introduces-quiet-siren-to-warn-221",
     title: {
@@ -96,7 +184,7 @@ Preses brīdī Klusā sirēna bija bijusi aktivizēta divreiz pašā atklāšana
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/221/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 220,
