@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 223,
+    slug: "riga-introduces-quiet-siren-to-warn",
+    title: {
+      en: "Riga Introduces Quiet Siren to Warn Residents of Mild Administrative Inconvenience",
+      lv: "Rīga ievieš Kluso sirēnu, lai brīdinātu iedzīvotājus par maigām administratīvām neērtībām",
+      ru: "Рига вводит Тихую сирену, чтобы предупреждать жителей о мелких административных неудобствах"
+    },
+    excerpt: {
+      en: "City officials on Tuesday unveiled a new “low-emotion alert system” designed to notify Riga residents of paperwork-related disruptions without causing unnecessary optimism or panic. The siren, described as “firm but apologetic,” will reportedly sound whenever a form is moved to another department for reasons no one can fully explain.",
+      lv: "Otrdien pilsētas amatpersonas prezentēja jaunu \"zemu emociju brīdinājumu sistēmu\", kas paredzēta, lai informētu rīdziniekus par papīru jautājumu traucējumiem, nekļūstot nevajadzīgi optimistiskiem vai panikas pilniem. Sirēna, raksturota kā \"stingra, bet atvainojoša\", ieskanēsies katru reizi, kad kāda veidlapa tiks pārvietota uz citu nodaļu iemeslu dēļ, ko neviens īsti nevar izskaidrot.",
+      ru: "Городские власти во вторник представили новую «систему оповещения с пониженной эмоциональностью», призванную уведомлять жителей Риги о бумажно‑административных сбоях без лишнего оптимизма или паники. Сирена, описываемая как «решительная, но извиняющаяся», будет, по сообщениям, звучать каждый раз, когда форму переводят в другой отдел по причинам, которые никто толком не может объяснить."
+    },
+    fullContent: {
+      en: `RIGA — In a move municipal leaders are calling a major step forward in transparent ambiguity, Riga City Council has introduced the country’s first Quiet Siren, an urban warning system intended specifically for “non-catastrophic bureaucratic developments.” The device emits a soft 47-decibel hum, roughly equivalent to a kettle reconsidering itself, and will be used to inform residents of events such as revised parking zone maps, delayed permit signatures, and the sudden discovery that a previously accepted document now requires “one additional supporting perspective.”
+
+At a press conference held in a conference room booked under the incorrect date, Deputy Executive Director for Civic Flow Management Aivars Pļaviņš said the city had identified a gap between emergency alerts and the everyday administrative disappointments that shape life in the capital.
+
+“Until now, citizens had no formal acoustic signal for hearing that their application has been forwarded to another person named Ilze,” Pļaviņš said, standing beside the matte-gray prototype. “This system respects the emotional reality of Riga. Not every disruption is a disaster. Some are simply ongoing.”
+
+According to internal procurement documents, the project cost €418,600, although a footnote clarifies that this figure does not include “interpretive consultation,” “tone moderation workshops,” or the ceremonial cable-cutting, which had to be rescheduled after the scissors permit was reviewed by three separate units. The siren itself was developed by acoustic designers from Cēsis in cooperation with two former choir conductors and a retired tram announcer described in city materials as “widely trusted by aunties.”
+
+Field tests began in Purvciems in February, where residents were exposed to several alert tones corresponding to different grades of municipal friction. The most common, Signal Beige, indicates that a deadline still exists but has become philosophical. A slightly longer tone, Bureaucratic Amber, means a resident must bring a document they already brought, but this time “with more intention.”
+
+Local resident and accounting lecturer Baiba Krūmiņa, 54, said the pilot program accurately reflected her interactions with local institutions. “I heard the sound and immediately knew my property boundary clarification had entered a less visible stage,” she said. “It was honestly comforting. Before, you had to infer these things from an email signed only ‘Kind regards.’”
+
+Not everyone is convinced. Opposition council member Mārtiņš Eglītis criticized the rollout as symbolic governance at its most refined. “The administration has spent nearly half a million euros creating a noise that tells people they are being gently ignored,” he said. “Next they will launch a scented envelope to announce tax recalculations.”
+
+Still, the city says early data is promising. In neighborhoods where the siren was tested, public confusion became “more organized,” while complaints submitted in all caps fell by 13 percent. Officials also reported a 22 percent increase in residents correctly identifying that their issue was not resolved, merely acknowledged in a spatial sense.
+
+Jūrmala has already expressed interest in adapting the technology for seasonal use. A spokesperson confirmed the resort town is exploring a seaside version that would warn homeowners when summer bicycle traffic reaches “decorative hostility” and when a café bill has entered what officials called “the amber zone of sprat pricing.”
+
+The Quiet Siren is expected to go citywide by autumn, pending final approval from the Committee for Public Calm, the Infrastructure Sounding Board, and one office that officials admitted they were “not entirely sure controls this, but it is better not to ask suddenly.” In the meantime, residents are encouraged to familiarize themselves with the alert tones via a downloadable audio guide, though as of Tuesday afternoon, the file had been temporarily unavailable due to a minor issue with confirmation of its existence.`,
+      lv: `RĪGA — Pilsētas vadība, ko sauc par nozīmīgu soli uz priekšu caurspīdīgas neskaidrības virzienā, Rīgas dome ir ieviesusi valsts pirmo Kluso sirēnu — pilsētas brīdinājumu sistēmu, paredzētu īpaši "nekatastrofālām birokrātiskām attīstībām." Ierīce izstaro maigu 47 decibelu humu, aptuveni līdzvērtīgu tējkannai, kas pārdomā sevi, un tiks izmantota, lai informētu iedzīvotājus par tādām norisēm kā pārstrādātas autostāvvietu zonu kartes, aizkavētas atļauju parakstīšanas un pēkšņi konstatēts, ka iepriekš pieņemts dokuments tagad prasa "vienu papildus atbalstošu perspektīvu." 
+
+Preses konferencē, kas notika konferenču telpā, rezervētā nepareizajā datumā, Pilsoniskā plūsmas vadības vietnieks — izpilddirektors Aivars Pļaviņš sacīja, ka pilsēta ir identificējusi plaisu starp ārkārtas brīdinājumiem un ikdienas administratīvajām vilšanās reizēm, kas veido dzīvi galvaspilsētā. 
+
+"Līdz šim pilsoņiem nebija formāla akustiska signāla tam, ka viņu iesniegums ir nosūtīts citai personai vārdā Ilze," Pļaviņš sacīja, stāvot blakus matēti pelēkajam prototipam. "Šī sistēma respektē Rīgas emocionālo realitāti. Ne katrs traucējums ir katastrofa. Daži vienkārši turpināsies." 
+
+Iekšējās iepirkumu dokumentos minēts, ka projekts izmaksājis 418 600 eiro, lai gan piezīmē skaidrots, ka šī summa neietver "interpretatīvo konsultāciju", "tónu moderācijas darbnīcas" vai svinīgo kabeļa pārgriešanu, kas nācās pārvietot, jo šķēru atļauju pārskatīja trīs atsevišķas vienības. Pašu sirēnu izstrādāja akustiskie dizaineri no Cēsīm sadarbībā ar diviem bijušiem koru diriģentiem un pensijā esošu tramvaja sludinātāju, ko pilsētas materiālos raksturo kā "tantēm plaši uzticamu." 
+
+Laukuma testi sākās Purvciemā februārī, kur iedzīvotāji tika pakļauti vairākiem brīdinājuma tonācijām, kas atbilst dažādiem pašvaldības berzes līmeņiem. Visbiežākais, signāls "Bēšais", norāda, ka termiņš joprojām pastāv, taču kļuvis filozofisks. Nedaudz ilgāks tonis — "Birokrātiskais Dzintars" — nozīmē, ka iedzīvotājam jāatnes dokuments, ko viņš jau ir atnesis, bet šoreiz "ar lielāku nodomu." 
+
+Vietējā iedzīvotāja un grāmatvedības lektore Baiba Krūmiņa, 54, sacīja, ka pilotprogramma precīzi atspoguļo viņas mijiedarbību ar vietējām institūcijām. "Es dzirdēju skaņu un uzreiz sapratu, ka mana īpašuma robežu precizēšana ir iekļuvusi mazāk redzamā posmā," viņa teica. "Tas godīgi sakot bija nomierinoši. Agrāk par šādām lietām nācās spriest no e-pasta, kas parakstīts tikai ar 'Ar cieņu.'" 
+
+Ne visi ir pārliecināti. Opozīcijas domes deputāts Mārtiņš Eglītis kritizēja ieviešanu kā simbolisku pārvaldību tās izsmalcinātākajā formā. "Administrācija ir iztērējusi gandrīz pusmiljonu eiro, lai radītu troksni, kas cilvēkiem saka, ka viņus maigi ignorē," viņš teica. "Nākamais viņi palaidīs aromatizētu aploksni, lai paziņotu par nodokļu pārrēķināšanu." 
+
+Tomēr pilsēta apgalvo, ka pirmie dati ir cerību raisoši. Paaudzēs, kur sirēna tika testēta, publiskā sajukuma kļuva "organizētāka", savukārt sūdzības, iesniegtas ar lielajiem burtiem, samazinājās par 13 procentiem. Amatpersonas arī ziņoja par 22 procentu pieaugumu iedzīvotāju skaitā, kas pareizi atpazinuši, ka viņu jautājums nav atrisināts — tas vienkārši ir telpiski atzīts. 
+
+Jūrmala jau izrādījusi interesi pielāgot tehnoloģiju sezonālai lietošanai. Pilsētas pārstāvis apstiprināja, ka kūrortpilsēta izskata piejūras versiju, kas brīdinātu māju īpašniekus, kad vasaras velosatiksme sasniedz "dekoratīvās naidīguma" līmeni un kad kafejnīcas rēķins iekļuvis tā dēvētajā "dzintara reņģu cenu zonā." 
+
+Kluso sirēnu plānots izplatīt visā pilsētā līdz rudenim, pēc Galīgās sabiedriskās miera komitejas, Infrastruktūras skaņu padomes un vienas biroja, par kura kontroli amatpersonas atzina, ka "nav pilnīgi pārliecinātas, bet labāk to pēkšņi neaizjautāt", galīgās atļaujas. Tikmēr iedzīvotāji tiek aicināti iepazīties ar brīdinājumu tonācijām, izmantojot lejupielādējamu audio ceļvedi, lai gan otrdienas pēcpusdienā fails bija īslaicīgi nepieejams nelielas problēmas dēļ ar tā eksistences apstiprināšanu.`,
+      ru: `РИГА — В шаге, который муниципальные руководители называют крупным шагом вперёд в области прозрачной неопределённости, Рижская городская дума представила первую в стране Тихую сирену — городскую систему оповещения, предназначенную специально для «некатастрофических бюрократических событий». Устройство издаёт мягкий гул в 47 децибел, примерно равный чайнику, который вдруг передумал, и будет использоваться для информирования жителей о таких событиях, как пересмотренные карты парковочных зон, задержанные подписи под разрешениями и внезапное обнаружение, что ранее принятый документ теперь требует «ещё одной подтверждающей перспективы».
+
+На пресс‑конференции, проведённой в зале, забронированном на неправильную дату, заместитель исполнительного директора по управлению гражданскими потоками Aivars Pļaviņš заявил, что город выявил разрыв между экстренными оповещениями и повседневными административными разочарованиями, формирующими жизнь в столице.
+
+«До сих пор у граждан не было формального акустического сигнала для того, чтобы услышать: их заявление передали другому человеку по имени Илзе», — сказал Pļaviņš, стоя рядом с матово‑серым прототипом. «Эта система уважает эмоциональную реальность Риги. Не каждое нарушение — катастрофа. Некоторые просто продолжаются». 
+
+Согласно внутренним документам о закупке, проект обошёлся в 418 600 евро, хотя сноска разъясняет, что в эту сумму не включены «интерпретационные консультации», «мастер‑классы по модерации тона» и церемониальное перерезание кабеля, которое пришлось перенести после того, как разрешение на ножницы было рассмотрено тремя отдельными подразделениями. Сама сирена была разработана акустическими дизайнерами из Cēsis в сотрудничестве с двумя бывшими дирижёрами хоров и пенсионером‑радиоголосом трамвая, в городских материалах описываемым как «широко пользующийся доверием тётушек». 
+
+Полевые испытания начались в Пурвциемсе в феврале, где жители слушали несколько тонов оповещений, соответствующих разным степеням муниципального трения. Самый распространённый, «Сигнал Бежевый», означает, что крайний срок ещё существует, но стал философским. Немногим более продолжительный тон, «Бюрократический Янтарь», означает, что жителю нужно принести документ, который он уже приносил, но на этот раз «с большим намерением». 
+
+Местная жительница и преподаватель бухгалтерии Байба Крумиņa, 54 года, сказала, что пилотная программа точно отражает её взаимодействия с местными учреждениями. «Я услышала звук и сразу поняла: уточнение границ моей собственности перешло в менее заметную стадию», — сказала она. «Честно говоря, это было утешительно. Раньше приходилось догадываться об этом по письму, подписанному лишь «С уважением».» 
+
+Не все убеждены. Член оппозиции в думе Мārtiņš Eglītis раскритиковал ввод как символическое управление в максимально утончённой форме. «Администрация потратила почти полмиллиона евро на создание шума, который говорит людям, что их мягко игнорируют», — сказал он. «Дальше они запустят ароматный конверт, чтобы уведомлять о перерасчётах налогов». 
+
+Тем не менее город сообщает, что первые данные обнадёживают. В районах, где сирена тестировалась, общественное замешательство стало «более организованным», а жалобы, подаваемые капсом, сократились на 13 процентов. Чиновники также отметили рост на 22 процента числа жителей, правильно определяющих, что их проблема не решена, а лишь признана в пространственном смысле. 
+
+Юрмала уже выразила интерес к адаптации технологии для сезонного использования. Представитель курортного города подтвердил, что рассматривается прибрежная версия, которая будет предупреждать домовладельцев, когда летний велосипедный трафик достигает «декоративной враждебности», и когда счёт в кафе попадает в то, что чиновники называют «янтарной зоной цен на шпроты». 
+
+Ожидается, что Тихая сирена заработает по всему городу к осени, после окончательного одобрения Комитетом общественного спокойствия, Консультативным советом по звуковой инфраструктуре и одним офисом, о контроле над которым чиновники признали, что «не совсем уверены, но лучше не спрашивать внезапно». Тем временем жителям рекомендуется ознакомиться с тоновыми сигналами через скачиваемое аудиоруководство, хотя по состоянию на вторник днём файл временно был недоступен из‑за незначительной проблемы с подтверждением его существования.`
+    },
+    date: "Jul 24, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/223/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 222,
     slug: "riga-introduces-official-14-minute-pause-222",
     title: {
@@ -103,7 +184,7 @@ Pilsētas amatpersonas saka, ka, ja programma izdosies, nākamgad to var paplaš
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/222/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 221,
