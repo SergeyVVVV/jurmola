@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 224,
+    slug: "jrmala-residents-approve-42-million-plan",
+    title: {
+      en: "Jūrmala Residents Approve €4.2 Million Plan To Relocate Annoying Seagulls To Riga City Council Meetings",
+      lv: "Jūrmalas iedzīvotāji apstiprina 4,2 miljonu eiro plānu pārvietot kaitinošās kaijas uz Rīgas domes sēdēm",
+      ru: "Жители Юрмалы утвердили план за €4,2 млн по переселению надоедливых чаек на заседания Рижской думы"
+    },
+    excerpt: {
+      en: "After years of beachgoers losing pastries, dignity, and occasionally prescription sunglasses to increasingly organized seagulls, Jūrmala officials have unveiled a pilot relocation program. The birds, described in municipal documents as 'highly vocal stakeholders with no regard for personal space,' will now be redirected to a setting considered more appropriate for their temperament: Riga politics.",
+      lv: "Pēc gadiem, kad pludmales apmeklētāji zaudēja konditorejas izstrādājumus, cieņu un reizēm arī recepšu saulesbrilles arvien organizētākām kaijām, Jūrmalas pašvaldība izziņojusi pilotprogrammu pārvietošanai. Putni, pašvaldības dokumentos aprakstīti kā 'ļoti skaļi ieinteresētie dalībnieki bez cieņas pret personisko telpu', tagad tiks virzīti uz vidi, ko uzskata par piemērotāku viņu temperaments: Rīgas politiku.",
+      ru: "После лет, в течение которых отдыхающие теряли выпечку, достоинство и иногда рецептурные солнцезащитные очки из‑за всё более организованных чаек, юрмальская администрация представила пилотную программу переселения. Птиц в муниципальных документах описывают как «в высшей степени разговорчивых заинтересованных сторон, не считающих нужным уважать личное пространство» — их теперь направят в место, считавшееся более подходящим для их темперамента: в рижскую политику."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what experts are calling the most ambitious interspecies governance initiative in Latvian municipal history, Jūrmala City Council on Tuesday approved a €4.2 million plan to capture, retrain, and permanently relocate approximately 1,800 aggressive seagulls from the city’s beaches to Riga City Council meetings.
+
+The program, officially titled the Coastal Avian Civic Integration and Redistribution Mechanism, passed by a 12–3 vote after a 90-minute debate interrupted repeatedly by both human shouting and a gull entering through an open window and stealing a councillor’s cheese bun.
+
+According to city documents, the relocation effort is intended to address a sharp increase in 'hostile snack extraction incidents' along Majori and Dzintari beaches, where reported seagull confrontations rose 37% last summer. One municipal report noted that a single bird identified by locals as 'White Sergei' was linked to 14 separate pastry thefts, two ice cream ambushes, and one 'psychologically devastating' extraction of a smoked sprat sandwich from a visiting Lithuanian economist.
+
+'People come to Jūrmala for rest, sea air, and the illusion that they can eat a curd pastry outdoors in peace,' said Deputy Mayor Ilze Vancāne, presenting the plan at a press conference beside a diagram labeled Seagull-to-Council Compatibility Matrix. 'Unfortunately, our seagulls have evolved beyond simple scavenging. They now display confidence, timing, and a willingness to scream over others for no strategic reason. Frankly, they are overqualified for the beach and underutilized in public administration.'
+
+Under the initiative, the gulls will be gradually lured into humane transport units using rye bread, cold fries, and the sound of a tourist opening a paper bag. Once moved to Riga, they will undergo a six-week acclimatization program at a repurposed conference facility in Ķīpsala, where they will be exposed to microphones, procedural delays, and the smell of stale coffee before attending live council sessions.
+
+Project coordinator Mārtiņš Feldbergs said early trials have been encouraging. 'We introduced twelve test gulls to a mock budget committee last month,' he said. 'Within eleven minutes, three had occupied the radiator, two were fighting over a laminated agenda, and one emitted a long, accusatory cry every time someone said “infrastructure.” Independent observers were unable to distinguish them from several existing participants.'
+
+The proposal has received cautious support from some Riga officials, who described the birds as 'unlikely to worsen the atmosphere.' An anonymous city administrator confirmed that chamber maintenance staff had already been instructed not to make eye contact with any large gull wearing a visitor badge.
+
+Not everyone is convinced. Ornithologist Dr. Rūdolfs Mežulis warned that the move could have unintended consequences if the seagulls adapt too well. 'These are highly intelligent coastal opportunists,' he said. 'If they learn procurement vocabulary and seating procedure, you may not be able to remove them. By autumn, one could be chairing the transport committee simply by arriving early and appearing combative.'
+
+Jūrmala residents, however, largely welcomed the decision. 'Last August one stole a whole khachapuri out of my hand and then looked offended by the quality,' said local pensioner Valentīna Ozola. 'If it wants to shout indoors under fluorescent lighting instead, that is growth.'
+
+Officials expect the first transfer of 300 gulls to take place before the end of July, just ahead of peak tourism season. If successful, the city may expand the program to include crows, queue-cutters, and one accordion player described in public complaints as 'emotionally unavoidable.'
+
+At press time, a group of seagulls had gathered outside Jūrmala City Hall, where witnesses said they appeared calm, focused, and fully aware of where the sandwiches were kept.`,
+      lv: `JŪRMALA — To, ko eksperti dēvē par ambiciozāko starpsugu pārvaldības iniciatīvu Latvijas pašvaldību vēsturē, Jūrmalas dome otrdien apstiprināja 4,2 miljonu eiro plānu apmēram 1 800 agresīvu kaiju notveršanai, pārizglītošanai un pastāvīgai pārvietošanai no pilsētas pludmalēm uz Rīgas domes sēdēm.
+
+Programma, oficiāli nosaukta Piekrastes putnu pilsoniskās integrācijas un pārdales mehānisms, tika atbalstīta ar 12–3 balsīm pēc 90 minūšu debatēm, kuras vairākas reizes pārtrauca gan cilvēku klaigas, gan kaija, kas iekļuva caur atvērtu logu un nozaga domnieka siera bulciņu.
+
+Saskaņā ar pilsētas dokumentiem, pārvietošanas pasākums paredzēts, lai risinātu strauju "naidīgu uzkodu iegūšanas incidentu" pieaugumu pie Majoriem un Dzintariem, kur pagājušajā vasarā reģistrēto kaiju konfrontāciju skaits pieauga par 37%. Viens pašvaldības ziņojums norādīja, ka viena putna, ko vietējie identificēja kā "Baltais Sergejs", rēķinā bija 14 atsevišķas konditorejas izstrādājumu zagšanas, divi saldējuma uzbrukumi un viena "psiholoģiski graujoša" kūpinātas sprotes sviestmaizes atrautība no viesojoša Lietuvas ekonoma.
+
+"Cilvēki nāk uz Jūrmalu atpūsties, uzelpot jūras gaisu un uzturēt ilūziju, ka var ārā mierīgi apēst biezpiena pīrādziņu," sacīja vietniece Ilze Vancāne, prezentējot plānu pie diagrammas ar nosaukumu Kaijas-uz-Domes saderības matrica. "Diemžēl mūsu kaijas ir attīstījušās tālāk par vienkāršu barošanos. Tās tagad demonstrē pārliecību, taktiku un gatavību kliegt pār citiem bez jebkāda stratēģiska iemesla. Godīgi sakot, tās ir pārkvalificētas pludmalei un nepietiekami izmantotas publiskajā pārvaldē."
+
+Saskaņā ar iniciatīvu kaijas tiks pakāpeniski pievilinātas humānos transporta moduļos, izmantojot rudzu maizi, aukstas frī un tūrista papīra maisiņa atvēršanas skaņu. Pēc pārvietošanas uz Rīgu tās izies sešu nedēļu aklimatizācijas programmu pārveidotā konferenču centrā Ķīpsalā, kur tās tiks pakļautas mikrofonu trokšņiem, procedūru aizkavēm un nosēdušas kafijas smakai, pirms piedalīties dzīvajās domes sēdēs.
+
+Projektu koordinators Mārtiņš Feldbergs sacīja, ka agrīnie testi ir iedrošinoši. "Pagājušajā mēnesī mēs iepazīstinājām divpadsmit testkaijas ar viltotu budžeta komisiju," viņš teica. "Vienu aiz vienpadsmit minūtēs trīs bija iekarojušas radiatoru, divas cīnījās par laminētu darba kārtību, un viena izlaida garu, apsūdzīgu kliedzienu katru reizi, kad kāds teica 'infrastruktūra'. Neatkarīgi novērotāji nespēja tās atšķirt no vairākiem esošiem dalībniekiem."
+
+Priekšlikumu piesardzīgi atbalstīja daži Rīgas ierēdņi, kuri komentēja, ka putni, visticamāk, nepasliktinās atmosfēru. Anonīms pilsētas administrators apstiprināja, ka zāles tehniskajam personālam jau bija dota pavēle neskatīties acīs nevienai lielai kaijai, kas nēsā apmeklētāja žetonu.
+
+Ne visi ir pārliecināti. Ornitologs Dr. Rūdolfs Mežulis brīdināja, ka pārvietojums var radīt neparedzētas sekas, ja kaijas pārāk labi pielāgosies. "Tās ir ļoti inteliģentas piekrastes oportunistes," viņš teica. "Ja tās apgūs iepirkumu leksiku un sēdvietu procedūras, jūs, iespējams, tās nevarēsiet atgūt. Rudenī viena var sākt vadīt transporta komisiju vienkārši ierodoties agrāk un izskatoties konflikti gatava."
+
+Jūrmalas iedzīvotāji tomēr plaši atbalstīja lēmumu. "Pagājušā augustā viena manā rokā nozaga pilnu hačapuri un pēc tam izskatījās aizvainota par tās kvalitāti," sacīja vietējā pensionāre Valentīna Ozola. "Ja tā labprātāk grib iekšā kliegt zem fluorescējošās gaismas, tas ir izaugsmes posms."
+
+Ierēdņi sagaida, ka pirmais 300 kaiju pārvākšanas vilnis notiks līdz jūlija beigām, tieši pirms tūrisma sezonas kulminācijas. Ja programma būs veiksmīga, pilsēta varētu paplašināt iniciatīvu, iekļaujot vārnas, teju-rindas pārkāpējus un vienu akordeonistu, ko publiskajās sūdzībās aprakstījuši kā "emocionāli neizbēgamu".
+
+Preses brīdī pie Jūrmalas domes bija sapulcējies kaiju bars; liecinieki sacīja, ka tās izskatījās mierīgas, koncentrētas un pilnībā apzinājās, kur glabājas sendviči.`,
+      ru: `ЮРМАЛА — В том, что эксперты называют самой амбициозной межвидовой инициативой управления в истории латвийских муниципалитетов, Городской совет Юрмалы во вторник утвердил план на €4,2 млн по поимке, перевоспитанию и постоянному переселению примерно 1 800 агрессивных чаек с городских пляжей на заседания Рижской городской думы.
+
+Программа, официально названная Прибрежным механизмом гражданской интеграции и перераспределения пернатых, прошла голосование 12–3 после 90‑минутных дебатов, которые неоднократно прерывались как человеческими перебранками, так и пролетевшей в окно чайкой, укравшей у члена совета сырную булочку.
+
+Согласно муниципальным документам, усилия по переселению призваны решить резкий рост «инцидентов враждебного извлечения закусок» на пляжах Майори и Дзинтари, где прошлым летом число столкновений с чайками выросло на 37%. Один муниципальный отчёт отмечал, что одна птица, опознанная местными как «Белый Сергей», была причастна к 14 отдельным кражам выпечки, двум засадам на мороженое и одному «психологически разрушительному» выхватыванию бутерброда со шпротами у приезжего литовского экономиста.
+
+«Люди приезжают в Юрмалу отдохнуть, вдохнуть морской воздух и питать иллюзию, что смогут в спокойствии съесть творожную булочку на свежем воздухе», — сказала заместитель мэра Илзе Ванцāне, представляя план на пресс‑конференции рядом с диаграммой, помеченной как Матрица совместимости «чайка—совет». «К сожалению, наши чайки эволюционировали дальше простого обжорства. Теперь они демонстрируют уверенность, чувство тайминга и готовность перекричать других без какой‑либо стратегической необходимости. Честно говоря, они слишком квалифицированы для пляжа и недостаточно использованы в государственном управлении». 
+
+В рамках инициативы чаек будут постепенно заманивать в гуманитарные транспортные контейнеры ржаным хлебом, остывшей картошкой фри и звуком туриста, открывающего бумажный пакет. После перевозки в Ригу они пройдут шестинедельную программу акклиматизации в переоборудованном конференц‑центре на Кипсале, где их будут знакомить с микрофонами, процедурными задержками и запахом залежавшегося кофе перед тем, как допустить к живым заседаниям горсовета.
+
+Координатор проекта Мартиньш Фелдбергс рассказал, что ранние испытания вселяют оптимизм. «Мы ввели двенадцать испытательных чаек в имитационный бюджетный комитет в прошлом месяце, — сказал он. — Через одиннадцать минут три уже разместились на радиаторе, двое сцепились из‑за ламинированной повестки дня, а один издавал длинный обвинительный крик каждый раз, когда кто‑то произносил слово «инфраструктура». Независимые наблюдатели не смогли отличить их от нескольких уже присутствующих участников». 
+
+Предложение получило осторожную поддержку некоторых рижских чиновников, которые охарактеризовали птиц как «вряд ли способных ухудшить атмосферу». Анонимный городской администратор подтвердил, что службе по обслуживанию зала уже велено не устанавливать зрительный контакт с любой крупной чаекой, носящей бейдж посетителя.
+
+Не все убеждены в безопасности предприятия. Орнитолог доктор Рудольфс Межулис предупредил, что решение может иметь непредвиденные последствия, если чайки адаптируются слишком успешно. «Это очень умные прибрежные оппортунисты, — сказал он. — Если они освоят лексику госзакупок и процедуру рассадки, вы возможно уже не сможете их выгнать. К осени кто‑нибудь из них вполне может возглавить транспортный комитет просто потому, что пришёл раньше всех и выглядит агрессивно». 
+
+Жители Юрмалы, однако, в основном приветствовали решение. «В прошлом августе одна чайка выхватила у меня из рук целый хачапури, а потом ещё и выглядела обиженной на качество, — рассказала местная пенсионерка Валентина Озола. — Если ей теперь хочется кричать в помещении под люминесцентным освещением — это прогресс». 
+
+Чиновники ожидают, что первая перевозка 300 чаек состоится до конца июля, непосредственно перед пиковым туристическим сезоном. В случае успеха город может расширить программу, включив в неё ворон, нарушителей очередей и одного аккордеониста, которого в общественных жалобах называли «эмоционально неизбежным». 
+
+На момент выхода материала группа чаек собралась у здания Городской ратуши Юрмалы; свидетели сообщили, что птицы выглядели спокойными, сосредоточенными и полностью осведомлёнными о том, где хранятся бутерброды.`
+    },
+    date: "Jul 25, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/224/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 223,
     slug: "riga-introduces-quiet-siren-to-warn",
     title: {
@@ -96,7 +183,7 @@ Kluso sirēnu plānots izplatīt visā pilsētā līdz rudenim, pēc Galīgās s
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/223/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 222,
