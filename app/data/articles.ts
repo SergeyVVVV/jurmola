@@ -18,6 +18,121 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 225,
+    slug: "riga-introduces-official-silent-hour-so-225",
+    title: {
+      en: "Riga Introduces Official Silent Hour So Residents Can Passive-Aggressively Judge Tourists More Efficiently",
+      lv: "Rīga ievieš oficiālu Klusuma stundu, lai iedzīvotāji varētu pasīvi‑agresīvi tiesāt tūristus efektīvāk",
+      ru: "Рига вводит официальный «Час тишины», чтобы жители могли более эффективно пассивно‑агрессивно осуждать туристов"
+    },
+    excerpt: {
+      en: "In a move city officials describe as 'administrative mindfulness,' Riga has approved a daily Silent Hour during which all unnecessary speech in the city center will be discouraged. Authorities say the measure will preserve historic ambiance, reduce chaotic friendliness, and allow locals to concentrate on disapproving of inappropriate footwear.",
+      lv: "Pilsētas amatpersonas to raksturo kā 'administratīvo apzinātību' — Rīga ir apstiprinājusi ikdienas Klusuma stundu, kuras laikā pilsētas centrā ieteiks atturēties no visa nevajadzīgā runāšanas. Varas iestādes apgalvo, ka mērs saglabās vēsturisko noskaņu, mazinās haotisko draudzīgumu un ļaus vietējiem koncentrēties uz neatbilstošu apavu nosodīšanu.",
+      ru: "В жесте, который городские чиновники называют «административной осознанностью», Рига утвердила ежедневный Час тишины, в течение которого в центре города вся лишняя говорильня будет не приветствоваться. По словам властей, мера сохранит исторический антураж, сократит хаотичную дружелюбность и позволит местным сосредоточиться на неодобрении неподходящей обуви."
+    },
+    fullContent: {
+      en: `RIGA — Beginning next Monday, Riga’s Old Town and adjacent central districts will observe a legally recognized Silent Hour from 14:00 to 15:00, during which residents, shopkeepers, and municipal employees will be encouraged to communicate only through sighing, eyebrow movement, and brief references to weather conditions.
+
+The initiative, passed late Tuesday by the Riga City Council in a 34–19 vote, is officially part of the new Urban Acoustic Heritage Plan, a 78-page policy document that argues the city’s “traditional emotional frequencies” have been endangered by loud café laughter, bachelor parties from Scandinavia, and “people from larger countries asking if everything is always this calm.”
+
+Deputy Chair for Cultural Atmosphere Ilze Priedīte told reporters the policy is not anti-tourist, but rather “pro-correct volume.”
+
+“We welcome visitors,” Priedīte said from a podium outside City Hall, pausing meaningfully before continuing. “But many arrive with the mistaken belief that joy must be announced. In Riga, joy is generally understood privately, or at most through one nod and a warmer soup.”
+
+Under the rules, speaking during Silent Hour will not be illegal, but it will trigger what officials are calling a Social Adjustment Response. In practice, this means nearby municipal volunteers — identifiable by beige scarves and an expression of inherited disappointment — may issue a formal glance, followed if necessary by a brochure titled So You Have Chosen To Be Noticeable.
+
+A pilot version of the program was tested in April on Kaļķu iela, where city data suggests unstructured noise fell by 62 percent, while “meaningful silence” increased by 41 percent. Officials also reported a 17 percent rise in efficient side-eye and a measurable improvement in queue dignity at three bakeries and one passport office.
+
+Some businesses were initially skeptical. Gints Upmanis, owner of the café Pelēkais Mākonis, said he worried Silent Hour would reduce sales, especially among cruise passengers who enjoy ordering things loudly and incorrectly.
+
+“But actually, it has helped,” Upmanis said. “Now they point at pastries in total confusion, and locals feel more comfortable radiating subtle superiority. We sold 28 percent more rye buns during the pilot, mostly because nobody wanted to risk pronouncing them.”
+
+Not all residents are convinced the measure goes far enough. Jurmala school administrator and amateur civic theorist Maija Ozoliņa said the concept should be expanded seasonally to beach areas.
+
+“In summer, you can hear inflatable flamingos being discussed from 400 meters away,” Ozoliņa said. “That is not a Baltic sound. A Baltic sound is distant wind, one train, and somebody quietly re-evaluating their life near a pine tree.”
+
+Foreign visitors interviewed Wednesday appeared cautiously supportive. Lars Henning, a tourist from Hamburg, said he found the idea “slightly frightening but organized,” adding that his group had accidentally violated the spirit of the law during a beer tasting in Vecrīga.
+
+“We were laughing in a way that now seems colonial,” Henning admitted.
+
+To help residents adapt, the municipality has released an informational chart with approved alternatives to conversation. These include a soft exhale to indicate agreement, looking at a church spire to express skepticism, and checking one’s watch to communicate that another person has become culturally expensive.
+
+The Ministry of Regional Development is reportedly studying whether similar measures could be introduced in other Latvian cities, though analysts warn Daugavpils may require a bilingual version and Liepāja could resist on account of wind already handling most public communication.
+
+As of Thursday evening, Riga officials described the rollout as a success. In a final statement, the council urged citizens to remember that silence is not emptiness, but infrastructure.
+
+At 14:07 during a press demonstration of the new policy, the entire square outside St. Peter’s Church reportedly fell still except for one gull, which was immediately identified by locals as probably not from Riga.`,
+      lv: `RĪGA — Sākot no nākamās pirmdienas, Rīgas Vecpilsēta un ar to blakus esošie centrālie kvartāli oficiāli ieviesīs Klusuma stundu no plkst. 14:00 līdz 15:00, kuras laikā iedzīvotājiem, tirgotājiem un pašvaldības darbiniekiem tiks ieteikts sazināties tikai ar nopūtām, uzacu kustībām un īsi atsaucoties uz laika apstākļiem.
+
+Iniciatīvu otrdienas vakarā ar balsojumu 34 pret 19 pieņēma Rīgas dome, tā oficiāli ietverta jaunajā 'Pilsētas akustiskā mantojuma plānā' — 78 lappušu politikas dokumentā, kas apgalvo, ka pilsētas 'tradicionālās emocionālās frekvences' ir apdraudētas no skaļiem kafejnīcu smiekliem, skandināvu puišu ballītēm un 'cilvēkiem no lielākām valstīm, kuri jautā, vai te vienmēr ir tik mierīgi'.
+
+Kultūras atmosfēras priekšsēdētājas vietniece Ilze Priedīte žurnālistiem sacīja, ka politika nav pret tūristiem, bet drīzāk 'par pareizu skaļuma līmeni'. Viņa stāvēja pie Rātsnama podija, nozīmīgi apstājās pirms turpināšanas un teica: 'Mēs sveicam viesus. Bet daudzi ierodas ar maldīgu pārliecību, ka prieks ir jāsludina. Rīgā prieks parasti tiek saprasts privāti, vai vislabāk — ar vienu galvas mājienu un siltāku zupu.'
+
+Saskaņā ar noteikumiem runāšana Klusuma stundā nebūs pretlikumīga, taču tā izraisīs to, ko amatpersonas dēvē par Sociālās pielāgošanās reakciju. Praktiski tas nozīmē, ka tuvumā esoši pašvaldības brīvprātīgie — atpazīstami pēc bēšām šallēm un iedzimtas vilšanās izteiksmes — varēs piešķirt formālu skatienu, kam, ja nepieciešams, sekos buklets ar nosaukumu 'Tātad jūs esat izvēlējies būt pamanāms'.
+
+Programmas pilotprojekts aprīlī tika izmēģināts Kaļķu ielā, kur pilsētas dati liecina, ka nesakārtotais troksnis samazinājās par 62 procentiem, bet 'jēgpilnais klusums' pieauga par 41 procentu. Amatpersonas arī ziņoja par 17 procentu pieaugumu efektīvā sānskatā un taustāmu rindas cienības uzlabošanos trijās maiznīcās un vienā pases nodaļā.
+
+Dažas uzņēmējas sākumā bija skeptiskas. Kafejnīcas 'Pelēkais Mākonis' īpašnieks Gints Upmanis sacīja, ka bažījās — Klusuma stunda samazinās pārdošanu, it īpaši krastmalas kruīza pasažieru vidū, kuriem patīk pasūtīt skaļi un nepareizi.
+
+'Bet patiesībā tas palīdzēja,' sacīja Upmanis. 'Tagad viņi norāda uz konditorejas izstrādājumiem pilnīgā apjukumā, un vietējiem ir ērtāk izstarot smalku pārākuma sajūtu. Pilotprojekta laikā mēs pārdevām par 28 procentiem vairāk rudzu bulciņu — galvenokārt tāpēc, ka neviens negribēja riskēt tās izrunāt.'
+
+Ne visi iedzīvotāji ir pārliecināti, ka pasākums iet pietiekami tālu. Jūrmalas skolas administrators un amatieris pilsoniskajā teorijā Maija Ozoliņa sacīja, ka konceptu vajadzētu sezonāli paplašināt arī pludmales zonās.
+
+'Vasarā var dzirdēt, kā piepūšamie flamingo tiek apspriesti pat no 400 metru attāluma,' teica Ozoliņa. 'Tas nav Baltijas skaņas elements. Baltijas skaņa ir tāls vējš, viens vilciens un kāds klusumā pārskata savu dzīvi pie priedes.'
+
+Ārzemju viesi, kuri trešdien tika intervēti, izrādījās piesardzīgi atbalstoši. Lars Henning no Hamburgas sacīja, ka ideja šķiet 'nedaudz biedējoša, bet organizēta', piebilstot, ka viņa grupa netīšām pārkāpa likuma garu alus degustācijā Vecrīgā.
+
+'Mēs smējāmies tā, kas tagad šķiet koloniāla,' atzina Henning.
+
+Lai palīdzētu iedzīvotājiem pielāgoties, pašvaldība izdevusi informatīvu shēmu ar apstiprinātām sarunu alternatīvām. Tajās ietilpst maigā izelpa piekrišanas izrādīšanai, skatīšanās uz baznīcas torni, lai paustu skepsi, un paskatīšanās pulkstenī, lai nodotu, ka otra persona ir kļuvusi kultūras ziņā dārga.
+
+Reģionālās attīstības ministrija izskata iespēju līdzīgus pasākumus ieviest arī citās Latvijas pilsētās, lai gan analītiķi brīdina, ka Daugavpilij varētu būt nepieciešama divvalodīga versija, bet Liepāja, iespējams, pretojas — jo vējš jau pārņem lielāko daļu sabiedriskās komunikācijas.
+
+Ceturtdienas vakarā Rīgas amatpersonas izvēršanu nodēvēja par panākumu. Gala paziņojumā dome aicināja iedzīvotājus atcerēties, ka klusums nav tukšums, bet infrastruktūra.
+
+Preses demonstrācijas laikā plkst. 14:07 visa laukuma apkārt Sv. Pētera baznīcai it kā iemirsa klusumā, izņemot vienu kaiju, kuru vietējie tūlīt identificēja kā, visticamāk, ne no Rīgas.`,
+      ru: `РИГА — Начиная со следующего понедельника, Старый город Риги и прилегающие центральные районы будут официально отмечать юридически признанный Час тишины с 14:00 до 15:00, в течение которого жителям, владельцам магазинов и муниципальным служащим рекомендовано общаться только с помощью вздохов, движений бровями и коротких ссылок на погодные условия.
+
+Инициатива, одобренная поздно во вторник Рижской городской думой голосами 34 против 19, официально входит в новый «План по сохранению городского акустического наследия», 78‑страничный документ, в котором утверждается, что «традиционные эмоциональные частоты» города оказались под угрозой из‑за громкого смеха в кафе, мальчишников из Скандинавии и «людей из больших стран, спрашивающих, всегда ли здесь так спокойно». 
+
+Заместитель председателя по культурной атмосфере Илзе Прийдите заявила репортёрам, что политика не антироссийская и даже не антитуристическая, а скорее «за правильную громкость». 
+
+«Мы рады гостям», — сказала Прийдите с трибуны у Ратуши, сделав выразительную паузу перед продолжением. «Но многие приезжают с ошибочным убеждением, что радость нужно объявлять. В Риге радость, как правило, понимается приватно или максимум через кивок и порцию тёплого супа». 
+
+По правилам, говорить в Час тишины не будет незаконно, но это активирует то, что чиновники называют «социально‑корректирующей реакцией». На практике это означает, что рядом появятся муниципальные волонтёры — их можно узнать по бежевым шарфам и выражению унаследованного разочарования — которые могут бросить формальный взгляд, а при необходимости вручить брошюру под названием «Итак, вы выбрали быть заметным». 
+
+Пилотную версию программы апробировали в апреле на улице Kaļķu iela: по данным города, неструктурный шум там упал на 62 процента, а «осмысленная тишина» выросла на 41 процент. Чиновники также зафиксировали 17‑процентный рост «эффективного косого взгляда» и заметное улучшение достоинства в очередях у трёх пекарен и одного паспортного стола. 
+
+Некоторые бизнесы поначалу сомневались. Гинтс Упманис, владелец кафе Pelēkais Mākonis, говорил, что боится, будто Час тишины снизит продажи, особенно среди пассажиров круизных лайнеров, которые любят заказывать громко и неправильно. 
+
+«Но на самом деле это помогло», — сказал Упманис. «Теперь они указывают на выпечку в полном замешательстве, а местным удобнее транслировать тонкое превосходство. Во время пилота мы продали на 28 процентов больше ржаных булочек, в основном потому что никто не хотел рисковать произнести их название». 
+
+Не все жители убеждены, что мера идёт достаточно далеко. Администратор школы в Юрмале и любитель гражданской теории Майя Озолиня заявила, что концепцию следует сезонно распространять и на пляжи. 
+
+«Летом слышно, как обсуждают надувных фламинго за 400 метров», — сказала Озолиня. «Это не балтийский звук. Балтийский звук — это далекий ветер, один поезд и кто‑то тихо переоценивающий свою жизнь возле сосны». 
+
+Иностранные посетители, опрошенные в среду, выглядели осторожно поддерживающими. Ларс Хеннинг, турист из Гамбурга, сказал, что считает идею «слегка пугающей, но организованной», добавив, что его группа случайно нарушила дух закона во время дегустации пива в Вецригe. 
+
+«Мы смеялись так, что теперь это кажется колониальным», — признал Хеннинг. 
+
+Чтобы помочь жителям адаптироваться, муниципалитет выпустил информационную памятку с одобренными альтернативами разговору. Сюда входят мягкий выдох для выражения согласия, взгляд на шпиль церкви, чтобы подчеркнуть скептицизм, и проверка часов, чтобы дать понять, что другой человек стал культурно дорогим. 
+
+Министерство регионального развития, как сообщается, изучает возможность введения аналогичных мер в других латвийских городах, хотя аналитики предупреждают, что Даугавпилсу может потребоваться двуязычная версия, а Лиепайя может воспротивиться — мол, ветер там уже справляется с большей частью общественной коммуникации. 
+
+К вечеру четверга рижские чиновники охарактеризовали запуск как успешный. В заключительном заявлении дума призвала граждан помнить: тишина — это не пустота, а инфраструктура. 
+
+В 14:07 во время пресс‑показательного мероприятия новой политики вся площадь у церкви Святого Петра, по сообщениям, притихла, за исключением одной чайки, которую местные немедленно опознали как вероятно не рижскую.`
+    },
+    date: "Jul 26, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/225/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 224,
     slug: "jrmala-residents-approve-42-million-plan",
     title: {
@@ -102,7 +217,7 @@ Preses brīdī pie Jūrmalas domes bija sapulcējies kaiju bars; liecinieki sac�
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/224/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 223,
