@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 226,
+    slug: "jrmala-introduces-quiet-siren-to-warn-226",
+    title: {
+      en: "Jūrmala Introduces ‘Quiet Siren’ to Warn Residents of Tourists Without Disturbing Their Afternoon Nap",
+      lv: "Jūrmala ievieš 'klusā sirēna', lai brīdinātu iedzīvotājus par tūristiem, netraucējot pēcpusdienas siestu",
+      ru: "Юрмала вводит «тихую сирену», чтобы предупреждать жителей о туристах, не нарушая их дневного сна"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala this week unveiled a new municipal safety system designed to alert residents when large groups of day-trippers from Riga are approaching the beach. The so-called “quiet siren” emits what authorities describe as “a firm atmospheric suggestion” rather than a sound, preserving the city’s traditional acoustic environment of distant seagulls, pine trees, and passive-aggressive bicycle bells.",
+      lv: "Jūrmalas amatpersonas šonedēļ atklāja jaunu pašvaldības drošības sistēmu, kas paredzēta, lai brīdinātu iedzīvotājus, kad pieplūst lielas dienas ceļotāju grupas no Rīgas. Tā saucamā “klusā sirēna” izstaro to, ko var saukt par “izteiktu atmosfēras ieteikumu”, nevis skaņu, saglabājot pilsētas tradicionālo skaņu vidi — tālus kaijas saucienus, priedes un pasīvi agresīvas velosipēdu zvaniņu kladzināšanas.",
+      ru: "Власти Юрмалы на этой неделе представили новую муниципальную систему безопасности, предназначенную оповещать жителей о приближении больших групп однодневных отдыхающих из Риги к пляжу. Так называемая «тихая сирена» испускает, по словам чиновников, «твердое атмосферное предложение», а не звук, сохраняя традиционную акустическую среду города из отдалённых чаек, сосен и пассивно-агрессивных звоночков велосипедов."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders are calling a milestone in Baltic urban innovation, Jūrmala Municipality on Tuesday launched the country’s first “quiet siren,” a coastal alert mechanism intended to notify locals of incoming tourist density without producing any actual noise.
+
+The device, installed near Dzintari Concert Hall and at six additional points along the beach, does not ring, flash, vibrate, or otherwise communicate in a detectable way. Instead, according to the municipality, it “creates a subtle but administratively valid feeling” that visitors from Riga are approximately 12 minutes away.
+
+Deputy Executive Director for Seasonal Calm Affairs Ilze Vītoliņa said the technology was necessary to preserve Jūrmala’s cultural identity while addressing repeated complaints from permanent residents who reported being “suddenly surrounded by inflatable flamingos” with no formal warning.
+
+“People move to Jūrmala for peace, pines, and the right to disapprove silently,” Vītoliņa told reporters, standing beside a beige metal post labeled ONLY IN CASE OF VIBES. “Traditional sirens are too loud, too alarming, and frankly too expressive for our municipality. This system gives residents enough time to gather their linen items, hide the good chairs, and begin lightly judging the footwear coming off the train.”
+
+City procurement documents show the project cost €842,000, including feasibility studies, a ceremonial ribbon, and a 96-page environmental review confirming that the non-sound emitted by the siren would not interfere with migratory birds, meditation classes, or upscale terrace brunches. The system was developed by coastal technology firm Amber Silence Solutions, whose previous contracts include a wind chime reduction program in Saulkrasti and a pilot “mute fountain” in Sigulda that successfully suggested water without using any.
+
+According to internal testing conducted over the May holiday period, the quiet siren was 83% effective among lifelong Jūrmala residents, many of whom reported “just knowing” when the first electric scooters carrying confused office workers had crossed the Lielupe bridge. Among newer residents from central Riga, effectiveness fell to 41%, largely because they “mistook the warning for vague personal dissatisfaction,” the report stated.
+
+Local resident and hereditary veranda owner Mārtiņš Bērziņš, 68, praised the system after participating in a municipal drill last weekend. “I felt something at around 10:17,” he said. “Not fear, exactly. More a pressure behind the eyes, like when someone nearby says ‘craft beer map’ too loudly. I looked toward Majori and, sure enough, there they were — men in matching linen shirts asking where the authentic places are.”
+
+Not everyone is convinced. Opposition council member Renāte Sakse criticized the rollout as an expensive placebo, arguing that the city could have achieved similar results through “existing indicators,” such as hearing the phrase ‘We should really get a place here’ spoken from a convertible with Riga plates.
+
+Still, tourism analysts say the quiet siren may become a model for other Baltic destinations struggling to balance visitor inflow with local emotional weather. A spokesperson for Pärnu confirmed Estonian officials are monitoring the program closely, while a delegation from Palanga reportedly requested technical drawings and a sample of the atmosphere.
+
+By late Tuesday afternoon, the municipality declared the launch a success after residents in Bulduri, Melluži, and Dubulti all independently closed their garden gates within the same seven-minute interval. At press time, officials were already considering a winter version of the system that would warn homeowners when an acquaintance is about to invite them to a New Year’s sauna located “just 40 minutes outside the city,” which in Latvian conditions can mean anything from 58 minutes to spiritual disappearance.`,
+      lv: `JŪRMALA — Pilsētas vadītāji to sauc par jaunu posmu Baltijas pilsētu inovāciju vēsturē — Jūrmala otrdien oficiāli palaida valsts pirmo “klusās sirēnas” sistēmu, piejūras brīdinājuma mehānismu, kura mērķis ir informēt vietējos iedzīvotājus par tuvojošos tūristu koncentrāciju, neradot nekādu parastu troksni.
+
+ Ierīce, uzstādīta pie Dzintaru koncertzāles un vēl sešos punktos gar pludmali, nerunā, nespīd, ne vibrē un citādi nedod uztveramu signālu. Tā vietā, kā paziņojusi pašvaldība, tā “rada smalku, bet administratīvi derīgu sajūtu”, kas liecina, ka ierindas apmeklētāji no Rīgas ir aptuveni 12 minūšu attālumā.
+
+ Sezonālās mierības lietu vietniece izpilddirektorei Ilze Vītoliņa sacīja, ka tehnoloģija bija nepieciešama, lai saglabātu Jūrmalas kultūras identitāti, vienlaikus risinot pastāvīgās sūdzības no ilgdzīvotājiem, kuri ziņoja, ka “pēkšņi tiek apjozti ar piepūšamajiem flamingiem” bez jebkāda oficiāla brīdinājuma.
+
+ “Cilvēki nāk uz Jūrmalu meklēt mieru, priedes un tiesības klusējot nepiekrīt,” Vītoliņa sacīja žurnālistiem, stāvot blakus bēšam metāla stabam ar uzrakstu "TIKAI VIBRĀCIJAS GADĪJUMĀ". “Tradicionālās sirēnas ir pārāk skaļas, pārāk biedējošas un, godīgi sakot, pārāk ekspresīvas mūsu pašvaldībai. Šī sistēma dod iedzīvotājiem pietiekami daudz laika, lai savāktu lina izstrādājumus, paslēptu labos krēslus un sāktu viegli spriest par no dzelzceļa izkāpjušo apavu izvēli.”
+
+ Pašvaldības iepirkumu dokumenti liecina, ka projekts izmaksāja 842 000 eiro, iekļaujot pamatīgus atmērījumus, svinīgās lentas un 96 lappušu vides pārskatu, kas apstiprina, ka sirēnas izraisītā bezskaņa netraucēs migrējošās putnas, meditācijas nodarbības vai elitārus terases brokastu pasākumus. Sistēmu izstrādāja piejūras tehnoloģiju uzņēmums Dzintara Klusuma Risinājumi, kuram iepriekšējie līgumi iekļāva vēja zvaniņu samazināšanas programmu Saulkrastos un pilotprojektu “klusā strūklaka” Siguldā, kas veiksmīgi ieteica ūdeni, nerodot to ar skaņu.
+
+ Pēc iekšējām pārbaudēm maija svētku periodā klusā sirēna bijusi 83% efektīva starp mūža jūrmalniekiem, no kuriem daudzi ziņoja, ka vienkārši “sajutuši”, kad pirmie elektriskie skrejriteņi ar apjukušiem biroja darbiniekiem bija pārbraukuši Lielupes tiltu. Jaunāko iedzīvotāju vidū no centrālās Rīgas efektivitāte kritās līdz 41%, galvenokārt tāpēc, ka viņi “sajauca brīdinājumu ar nenoteiktu personisko neapmierinātību,” ziņojumā teikts.
+
+ Vietējais iedzīvotājs un mantotās verandas īpašnieks Mārtiņš Bērziņš, 68 gadi, slavēja sistēmu pēc dalības pašvaldības mācībās pagājušajā nedēļas nogalē. “Kā ap 10:17 es kaut ko sajutu,” viņš teica. “Ne pilnīgi bailes. Drīzāk spiediens aiz acīm, it kā kāds blakus pārāk skaļi pateiktu 'amatnieciskā alus karte'. Es paskatījos uz Majoru pusi un, protams, tur viņi bija — vīri vienādu lina kreklu komplektos, vaicādami, kur ir īstās vietas.”
+
+ Ne visi ir pārliecināti. Opozīcijas domes deputāte Renāte Sakse kritizēja ieviešanu kā dārgu placebo, apgalvojot, ka pilsēta varēja panākt līdzīgus rezultātus ar “esošajiem indikatoriem”, piemēram, paklausot frāzi “Mums te tiešām vajadzētu kādu vietiņu”, kas izskan no kabrioleta ar Rīgas numura zīmēm.
+
+ Tomēr tūrisma analītiķi saka, ka klusā sirēna var kļūt par paraugu citām Baltijas atpūtas vietām, kas cenšas sabalansēt apmeklētāju pieplūdumu ar vietējo emocionālo laika prognozi. Pērnavas pārstāvis apstiprināja, ka Igaunijas amatpersonas programmu cieši vēro, kamēr delegācija no Palangas, pēc ziņām, pieprasījusi tehniskos rasējumus un paraugu atmosfēras.
+
+ Otrdienas vēlajās pēcpusdienas stundās pašvaldība pasludināja palaišanu par sekmīgu, jo iedzīvotāji Buldurī, Mellužos un Dubultos visa sešu līdz septiņu minūšu intervāla laikā neatkarīgi viens no otra aizslēdza savas dārza vārtiņus. Raksta tapšanas brīdī amatpersonas jau apsvēra ziemas versiju sistēmai, kas brīdinātu māju īpašniekus, kad paziņa grasās uzaicināt uz Jaungada saunu “tikai 40 minūšu attālumā no pilsētas”, kas Latvijas apstākļos var nozīmēt jebko — no 58 minūtēm līdz garīgai izzušanai.`,
+      ru: `ЮРМАЛА — В шаге, который городские власти называют вехой балтийских городских инноваций, муниципалитет Юрмалы во вторник запустил первую в стране «тихую сирену», прибрежный механизм оповещения, призванный информировать местных жителей о надвигающейся концентрации туристов при условии отсутствия какого-либо слышимого звука.
+
+Устройство, установленное у Концертного зала Дзинтари и ещё в шести точках вдоль пляжа, не звучит, не мигает, не вибрирует и вообще никак не передаёт информацию в обнаружимом виде. Вместо этого, по словам муниципалитета, оно «создаёт тонкое, но административно действительное ощущение» того, что посетители из Риги находятся примерно в 12 минутах.
+
+Заместитель исполнительного директора по делам сезонного спокойствия Илзе Витолиņa сказала, что технология необходима для сохранения культурной идентичности Юрмалы и одновременно для реагирования на повторные жалобы постоянных жителей, которые сообщали, что «внезапно оказываются в окружении надувных фламинго» без формального предупреждения.
+
+«Люди переезжают в Юрмалу ради тишины, сосен и права молча не одобрять», — сказала Витолиņa репортёрам, стоя рядом с бежевым металлическим столбом с надписью «ТОЛЬКО В СЛУЧАЕ НАСТРОЕНИЯ». «Традиционные сирены слишком громки, слишком пугают и, честно говоря, слишком выразительны для нашего муниципалитета. Эта система даёт жителям достаточно времени, чтобы собрать бельё, спрятать хорошие стулья и начать слегка осуждать обувь, сходящую с поезда.»
+
+Документы городских закупок показывают, что проект обошёлся в €842 000, включая технико-экономические обоснования, церемониальную ленточку и 96-страничное экологическое заключение, подтверждающее, что не-звук, испускаемый сиреной, не помешает перелётным птицам, занятиям медитацией или фешенебельным бранчам на террасах. Система была разработана прибрежной технологической фирмой Amber Silence Solutions, предыдущие контракты которой включают программу по снижению звона ветровых колокольчиков в Саулкрастах и пилотный «немой фонтан» в Сигулде, который успешно намекал на воду, не используя звука.
+
+По результатам внутреннего тестирования в период майских праздников, «тихая сирена» оказалась на 83% эффективной среди коренных жителей Юрмалы, многие из которых сообщали, что «просто знали», когда первые электросамокаты с растерянными офисными работниками пересекали мост через Лиелупе. Среди более новых жителей из центра Риги эффективность упала до 41%, в основном потому, что они «приняли предупреждение за смутное личное недовольство», говорится в отчёте.
+
+Местный житель и наследственный владелец веранды Мартиньш Берзиньш, 68 лет, похвалил систему после участия в муниципальной учёбе в прошлые выходные. «Я почувствовал что-то примерно в 10:17», — сказал он. «Не совсем страх. Скорее давление за глазами, как когда кто-то рядом слишком громко произносит «карта крафтового пива». Я посмотрел в сторону Майори и, верно, там они были — мужчины в одинаковых льняных рубашках спрашивали, где найти аутентичные места.»
+
+Не все убеждены. Член оппозиции в совете Ренате Саксе раскритиковала запуск как дорогой плацебо, заявив, что город мог бы добиться похожих результатов с помощью «существующих индикаторов», например, услышав фразу «Нам правда нужно тут место», произнесённую из кабриолета с рижскими номерами.
+
+Тем не менее аналитики в сфере туризма говорят, что «тихая сирена» может стать образцом для других балтийских курортов, пытающихся уравновесить приток посетителей с местной эмоциональной погодой. Представитель города Пярну подтвердил, что эстонские чиновники внимательно следят за программой, а делегация из Паланги, по сообщениям, запросила технические чертежи и образец атмосферы.
+
+К позднему вторнику днём муниципалитет объявил запуск успешным после того, как жители Булдури, Меллужи и Дубулти независимо друг от друга закрыли садовые ворота в течение одного и того же семиминутного интервала. На момент подготовки материала чиновники уже рассматривали зимнюю версию системы, которая предупреждала бы домовладельцев, когда знакомый собирается пригласить их в новогоднюю сауну «всего в 40 минутах от города», что в латвийских условиях может означать что угодно — от 58 минут до духовного исчезновения.`
+    },
+    date: "Jul 27, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/226/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 225,
     slug: "riga-introduces-official-silent-hour-so-225",
     title: {
@@ -130,7 +211,7 @@ Preses demonstrācijas laikā plkst. 14:07 visa laukuma apkārt Sv. Pētera bazn
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/225/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 224,
