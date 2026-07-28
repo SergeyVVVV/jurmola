@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 227,
+    slug: "riga-introduces-official-municipal-silence-hours-227",
+    title: {
+      en: "Riga Introduces Official Municipal Silence Hours After Study Finds Residents Wasting 14% of Day on Unlicensed Complaining",
+      lv: "Rīga ievieš oficiālas pašvaldības klusuma stundas pēc pētījuma, kas atklāj, ka iedzīvotāji 14% dienas tērē nelicencētām sūdzībām",
+      ru: "Рига вводит официальные муниципальные часы тишины после исследования, обнаружившего, что жители тратят 14% дня на нелицензированные жалобы"
+    },
+    excerpt: {
+      en: "Riga City Council has approved the country’s first regulated Silence Hours, during which residents will be prohibited from unnecessary commentary, sighing with intent, and speculative remarks about roadworks. Officials say the measure will free up civic attention for more strategic forms of disapproval.",
+      lv: "Rīgas dome apstiprinājusi valsts pirmās reglamentētās klusuma stundas, kuru laikā iedzīvotājiem būs aizliegts sniegt liekas piezīmes, mērķtiecīgi nopūsties un izteikt spekulatīvas piezīmes par ceļu remontiem. Iestādes apgalvo, ka pasākums atbrīvos sabiedrisko uzmanību stratēģiskākām neapmierinātības formām.",
+      ru: "Горсовет Риги утвердил первые в стране регламентированные «часы тишины», в течение которых жителям будет запрещено излишне комментировать, целенаправленно вздыхать и делать предположения о дорожных работах. Чиновники говорят, что мера освободит общественное внимание для более стратегических форм неодобрения."
+    },
+    fullContent: {
+      en: `RIGA — In a move described by municipal leaders as “firm, balanced, and acoustically mature,” Riga City Council on Tuesday voted 34–19 to establish official Silence Hours across the capital after a newly commissioned study found that residents spend an average of 3 hours and 21 minutes per day making non-productive observations, low-grade complaints, and meaningful pauses intended to be interpreted as criticism.
+
+The new policy, which takes effect on 1 November, designates daily silence windows from 13:00 to 15:00 and again from 20:30 to 21:00, during which citizens will be asked to refrain from muttering on public transport, discussing weather with moral disappointment, and announcing “this was better before” in reference to paving stones, tomatoes, or social norms.
+
+According to the report, prepared by the Institute for Urban Emotional Efficiency, 14% of all audible communication in Riga consists of what researchers classified as “ambient dissatisfaction.” The category includes tutting near construction fences, softly repeating the price of butter to no one in particular, and entering a room just to say, “Well, of course.”
+
+“Latvians are a resilient people, but resilience must be scheduled,” said Deputy Mayor Inese Dreimanis at a press briefing held in a room where journalists were reminded twice not to react visibly. “We are not banning complaining. We are simply modernising it, concentrating it into approved periods where it can be measured, archived, and, where useful, forwarded to the appropriate department and then ignored in a transparent manner.”
+
+The city says the restrictions will be enforced by a new pilot program involving 27 “civic calm stewards” stationed at transit hubs, courtyards, and selected Maxima entrances. Equipped with decibel meters and laminated escalation charts, the stewards will issue three levels of warning: Verbal, Stern Verbal, and a handwritten note reading, “Please preserve your grievance for the designated slot.”
+
+At the Central Market, reaction was mixed. Fish vendor Valdis Krumins said the policy could be workable if exemptions are made for seasonal realities. “If herring is six euros and somebody has parked like that, I need at least one sentence,” he said, arranging sprats with visible constitutional concern. “I’m not asking for chaos. I’m asking for a narrow professional exception.”
+
+Others welcomed the reform. “Sometimes the trolleybus is so full of disappointed breathing that you forget which stop you’re at,” said office administrator Elina Ozola, 41. “If the city can reduce passive-aggressive exhalation even by 8%, that’s basically public health.”
+
+To support the transition, Riga will launch a free mobile app, KluseTagad, which allows users to log upcoming irritations and schedule them for later release. Premium features include “Historic Complaint Templates,” “Queue-Based Rage Forecasting,” and an emergency button for roadwork-related despair. During beta testing, the app reportedly crashed after users in Purvciems attempted to simultaneously pre-file reactions to a single bicycle lane.
+
+Not all experts are convinced. Sociologist Martins Vecvanags warned that suppressing daytime remarks may create a dangerous backlog by Friday evening. “There is a real possibility of concentrated weekend discharge in saunas, parking lots, and family mushroom-picking expeditions,” he said. “Once conversational pressure exceeds normal Baltic thresholds, people may begin expressing opinions directly, which our institutions are not designed to handle.”
+
+Still, city officials remain optimistic. Early trials in two municipal buildings showed a 22% increase in document stamping, a 31% reduction in corridor eyebrow activity, and one unprecedented instance of a resident leaving an office without saying, “Interesting.”
+
+If successful, the program may expand to include “Reflective Mondays,” when citizens are encouraged to keep all criticism internal until at least 10:00. A ministry spokesperson said national adoption remains possible, though only after a feasibility review and several months of silent skepticism.`,
+      lv: `RĪGA — Solī, ko pašvaldības vadība raksturojusi kā “stingru, līdzsvarotu un akustiski nobriedušu,” Rīgas dome otrdien ar balsojumu 34–19 nobalsoja par oficiālu klusuma stundu ieviešanu visā galvaspilsētā, pēc tam, kad jaunpasūtīts pētījums atklāja, ka iedzīvotāji vidēji 3 stundas 21 minūti dienā veltī neproduktīvām novērojumiem, zemas pakāpes sūdzībām un nozīmīgām pauzēm, kuras domātas, lai tiktu interpretētas kā kritika.
+
+Jaunā politika, kas stāsies spēkā 1. novembrī, nosaka ikdienas klusuma logus no 13:00 līdz 15:00 un atkārtoti no 20:30 līdz 21:00, kuru laikā iedzīvotājiem lūgts izvairīties no mumboļošanas sabiedriskajā transportā, laika apstākļu apspriešanas ar morālu vilšanos un paziņojumiem “tas agrāk bija labāk” par bruģakmeņiem, tomātiem vai sabiedriskajām normām.
+
+Saskaņā ar ziņojumu, ko sagatavojis Pilsētu emocionālās efektivitātes institūts, 14% no visām Rīgā dzirdamajām komunikācijām veido tas, ko pētnieki klasificējuši kā “apkārtējo neapmierinātību.” Šī kategorija ietver klusu “tsk” skaņu pie būvfencēm, maigu sviesta cenas atkārtošanu nevienam konkrēti un ieiešanu telpā tikai, lai pateiktu: “Nu, protams.”
+
+“Latvieši ir izturīgs tauta, bet izturību jāplāno,” preses konferencē, kas notika telpā, kur žurnālistiem divreiz atgādināja neizrādīt redzamu reakciju, sacīja vicemēra amatā Inese Dreimanis. “Mēs neaizliedzam sūdzēšanos. Mēs to vienkārši modernizējam, koncentrējot to apstiprinātos periodos, kur to var izmērīt, arhivēt un, ja noder, nodot atbilstošajai nodaļai un pēc tam caurspīdīgi ignorēt.”
+
+Pilsēta paziņo, ka ierobežojumus uzraudzīs jauns pilotprojekts ar 27 “pilsoniskās mierīguma uzraugiem”, kas izvietoti pie transporta mezgliem, pagalmos un izvēlētajos Maxima ieejas punktos. Aprīkoti ar decibelmetriem un laminētām eskalācijas shēmām, uzraugi izsniegs trīs brīdinājumu līmeņus: vārdisku, stingru vārdisku un rokraksta piezīmi ar tekstu: “Lūdzu, saglabājiet savu neapmierinātību paredzētajam laikam.”
+
+Centrāltirgū reakcijas bija dažādas. Zivs tirgotājs Valdis Krumiņš teica, ka politika varētu būt īstenojama, ja tiks paredzētas sezonālas izņēmumu normas. “Ja siļķe maksā sešus eiro un kāds ir noparkojies tā, es vismaz vienu teikumu vajag,” viņš sacīja, kārtodams reņģes ar redzamu konstitucionālu satraukumu. “Es neprasu haosu. Es lūdzu šauru profesionālu izņēmumu.”
+
+Citi reformu sveica. “Reizēm trolejbuss ir tik pilns ar vīlušos izelpu, ka tu aizmirsti, kurā pieturā esi,” sacīja biroja administratora Elīna Ozola, 41 gadu. “Ja pilsēta spēj samazināt pasīvi-agresīvu izelpošanu pat par 8%, tas būtībā ir sabiedrības veselība.”
+
+Lai atbalstītu pāreju, Rīga izstrādās bezmaksas mobilo lietotni KluseTagad, kas ļaus lietotājiem reģistrēt gaidāmās kairinājuma iespējas un ieplānot to izpausmi vēlāk. Premium funkcijas ietver “Vēsturiskās sūdzību veidnes,” “Rindas bāzes dusmu prognozēšanu” un avārijas pogu ceļu remontu izmisumam. Beta testēšanas laikā lietotne, pēc ziņām, avarēja, kad lietotāji Purvciemā mēģināja vienlaikus iepriekš iesniegt reakcijas uz vienu velojoslu.
+
+Ne visi eksperti ir pārliecināti. Sociologs Mārtiņš Vecvanags brīdināja, ka dienas izteikumu apspiešana var izraisīt bīstamu atlikumu piektdienas vakarā. “Pastāv reāla iespēja koncentrētai nedēļas nogales izlādēšanai pirtīs, stāvvietās un ģimenes sēņu lasīšanas braucienos,” viņš sacīja. “Kad sarunu spiediens pārsniegs parastos Baltijas sliekšņus, cilvēki var sākt izteikt viedokļus tieši, ko mūsu institūcijas nav projektētas apstrādāt.”
+
+Tomēr pilsētas amatpersonas paliek optimistiskas. Agrīnie izmēģinājumi divās pašvaldības ēkās demonstrēja dokumentu zīmogošanas pieaugumu par 22%, koridora uzacu pacelšanās aktivitātes samazinājumu par 31% un vienu bezprecedenta gadījumu, kad iedzīvotājs iznāca no biroja, nepasakot “Interesanti.”
+
+Ja programma būs veiksmīga, to varētu paplašināt, iekļaujot “Pārdomu pirmdienas,” kad iedzīvotāji tiek aicināti paturēt visu kritiku iekšēji vismaz līdz pulksten 10:00. Viena ministrijas pārstāve sacīja, ka valsts līmeņa ieviešana joprojām ir iespējama, taču tikai pēc izpildāmības pārbaudes un vairāku mēnešu klusā skepticisma.`,
+      ru: `РИГА — В шаге, который муниципальные лидеры охарактеризовали как «твердый, сбалансированный и акустически зрелый», горсовет Риги во вторник проголосовал 34–19 за установление официальных часов тишины по всей столице после того, как недавно заказанное исследование показало, что жители в среднем тратят по 3 часа 21 минуте в день на непродуктивные замечания, жалобы низкого разряда и значимые паузы, предназначенные для интерпретации как критика.
+
+Новая политика, вступающая в силу 1 ноября, устанавливает ежедневные окна тишины с 13:00 до 15:00 и снова с 20:30 до 21:00, в течение которых граждан попросят воздерживаться от бормотания в общественном транспорте, обсуждения погоды с моральным разочарованием и заявлений вроде «раньше было лучше» по поводу брусчатки, помидоров или общественных норм.
+
+Согласно докладу, подготовленному Институтом городской эмоциональной эффективности, 14% всей слышимой коммуникации в Риге составляют то, что исследователи классифицировали как «фоновое недовольство». В эту категорию входят клацанье языком у ограждений стройки, тихое многократное повторение цены на масло ни для кого в частности и вход в комнату лишь для того, чтобы сказать: «Ну, конечно». 
+
+«Латвийцы — народ выносливый, но выносливость должна быть расписана по графику», — заявила заместитель мэра Инесе Дрейманис на брифинге для прессы, который проходил в комнате, где журналистов дважды напоминали не реагировать видимо. «Мы не запрещаем жалобы. Мы просто модернизируем их, концентрируя в утвержденные периоды, где их можно измерить, архивировать и, если полезно, переслать в соответствующий департамент, а затем прозрачно проигнорировать». 
+
+Город сообщает, что ограничения будут обеспечивать в рамках пилотной программы 27 «стражей гражданского спокойствия», размещённых в транспортных узлах, дворах и у отдельных входов магазинов Maxima. Оснащённые дециметровыми измерителями и ламинированными схемами эскалации, стражи будут выдавать три уровня предупреждения: устное, строгое устное и рукописную записку со словами: «Пожалуйста, приберегите своё недовольство для отведённого времени». 
+
+На Центральном рынке реакция разделилась. Рыбный торговец Valdis Krumins сказал, что политика может быть работоспособной, если будут сделаны исключения для сезонных реалий. «Если селёдка шесть евро и кто-то припарковался вот так, мне нужно хотя бы одно предложение», — сказал он, раскладывая шпроты с явной конституционной озабоченностью. «Я не прошу хаоса. Я прошу узкое профессиональное исключение». 
+
+Другие приветствовали реформу. «Иногда в троллейбусе так много разочарованного дыхания, что забываешь, на какой остановке», — сказала офисный администратор Элина Озола, 41 год. «Если городу удастся сократить пассивно-агрессивное выдохи даже на 8%, это по сути вопрос общественного здравоохранения». 
+
+Чтобы поддержать переход, Рига запустит бесплатное мобильное приложение KluseTagad, которое позволяет пользователям фиксировать предстоящие раздражители и планировать их выпуск позже. Премиум-функции включают «Шаблоны исторических жалоб», «Прогнозирование ярости в очереди» и аварийную кнопку для отчаяния, связанного с дорожными работами. Во время бета-тестирования приложение, по сообщениям, упало после того, как пользователи в Purvciems попытались одновременно заранее подать реакции на одну велосипедную полосу. 
+
+Не все эксперты убеждены. Социолог Martins Vecvanags предостерег, что подавление дневных замечаний может создать опасный затор к пятничному вечеру. «Есть реальная возможность сосредоточенного уравновешивания эмоций на выходных в саунах, на парковках и во время семейных походов за грибами», — сказал он. «Как только разговорное давление превысит нормальные балтийские пороги, люди могут начать выражать мнения напрямую, а наши институты к этому не готовы». 
+
+Тем не менее городские власти остаются оптимистичными. Ранние испытания в двух муниципальных зданиях показали увеличение штамповки документов на 22%, сокращение «бровного» движения в коридорах на 31% и один беспрецедентный случай, когда житель вышел из кабинета, не сказав «Интересно». 
+
+Если программа окажется успешной, её могут расширить до «Размышляющих понедельников», когда граждан призывают держать всю критику при себе как минимум до 10:00. Представитель министерства сказал, что национальное принятие возможно, но только после оценки осуществимости и нескольких месяцев молчаливого скептицизма.`
+    },
+    date: "Jul 28, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/227/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 226,
     slug: "jrmala-introduces-quiet-siren-to-warn-226",
     title: {
@@ -96,7 +183,7 @@ By late Tuesday afternoon, the municipality declared the launch a success after 
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/226/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 225,
