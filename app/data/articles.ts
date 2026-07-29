@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 228,
+    slug: "riga-introduces-silent-tram-car-for-228",
+    title: {
+      en: "Riga Introduces Silent Tram Car for Passengers Who Need 11 Minutes of Dramatic Window Staring Before Work",
+      lv: "Rīga ievieš klusā tramvaja vagonu pasažieriem, kuriem pirms darba vajadzīgas 11 minūtes dramatiskas skatīšanās pa logu",
+      ru: "Рига вводит тихий вагон для пассажиров, которым нужно 11 минут драматического созерцания в окно перед работой"
+    },
+    excerpt: {
+      en: "Responding to what officials called a growing public need for \"structured melancholy,\" Riga City Council has unveiled a pilot tram car where conversation, phone calls, and visible optimism are strictly prohibited. The new service, already popular with commuters heading across the Daugava at dawn, is being described as the city’s most successful transport innovation since drivers began pretending not to see people running from half a block away.",
+      lv: "Reaģējot uz to, ko amatpersonas nosauca par pieaugošu sabiedrības vajadzību pēc 'strukturētas melanholijas', Rīgas dome atklāja pilotprojektu — tramvaja vagonu, kurā sarunas, telefona zvani un redzams optimisms ir stingri aizliegtas. Jaunais pakalpojums, kas jau iecienīts braucējiem, kuri rīta agrumā šķērso Daugavu, tiek dēvēts par pilsētas veiksmīgāko transporta inovāciju kopš laika, kad šoferi sāka tēlot, ka neredz cilvēkus, kas skrien no pusblokas attāluma.",
+      ru: "В ответ на то, что чиновники назвали растущей общественной потребностью в «структурированной меланхолии», Рижская дума представила пилотный трамвайный вагон, где разговоры, телефонные звонки и видимый оптимизм строго запрещены. Новая услуга, уже популярная у пассажиров, переезжающих Даугуву на рассвете, описывается как самое успешное транспортное нововведение города со времён, когда водители стали притворяться, что не видят людей, бегущих с полублока."
+    },
+    fullContent: {
+      en: `RIGA — In a move transport planners say reflects both modern commuter habits and ancient Baltic emotional traditions, Riga’s municipal transit authority on Tuesday launched a dedicated “Silent Reflective Car” on Tram No. 7, reserved exclusively for passengers wishing to gaze out the window in meaningful silence before arriving at work already slightly disappointed.
+
+The pilot program, which began at 6:43 a.m. from Ausekļa iela and continued through the city center toward Ķengarags, prohibits casual conversation, cheerful small talk, speakerphone use, and what one posted sign describes as “unearned facial brightness before 9:30.” According to Rīgas Satiksme, 84% of surveyed riders said they wanted “a protected environment in which to think vague thoughts while infrastructure passes by.”
+
+“This is not simply a transport service,” said project coordinator Ilze Vītola, standing beside a matte-gray tram car whose interior had been fitted with slightly fogged windows and discreetly creaking seats. “It is a civic space for internal monologue. For too long, residents have been forced to experience public transit next to people discussing protein intake or using video calls to show someone a supermarket. We asked ourselves: what if there were another way?”
+
+Officials say the car was developed after an 18-month study conducted with the Baltic Institute for Practical Atmosphere, which found that the average Riga commuter requires between 9 and 14 minutes of uninterrupted horizon-based reflection in order to function at “minimum professional bitterness.” Researchers observed that workers who were denied this period were 37% more likely to sigh audibly in meetings and 52% more likely to describe emails as “aggressive” when they were, in fact, just in Arial.
+
+Inside the tram, passengers are encouraged to sit alone when possible, hold a hot beverage they will not drink until it is too late, and look at industrial scenery as if remembering a lost summer from 2008. A low-volume speaker occasionally plays sounds of distant seagulls, muffled station announcements, and one man somewhere unsuccessfully starting a diesel engine.
+
+By 8 a.m., the car was already near capacity.
+
+“I usually have to create this feeling myself,” said office administrator Mārtiņš Bērziņš, 34, who boarded at Centrāltirgus and stared across the river for three stops without blinking. “Normally I put in headphones with no music just so people leave me alone. Here, the system respects me. A woman smiled when she got on, and the conductor quietly moved her to the regular car. That is professionalism.”
+
+Not all riders were immediately comfortable with the rules. One university student was issued a warning after whispering “good morning” to a friend, causing what witnesses described as “a sharp collapse in the carriage mood.” Another passenger was removed after opening an orange and introducing “unnecessary vitality” into the compartment.
+
+To enforce standards, Rīgas Satiksme has trained a team of so-called Emotional Conductors, authorized to intervene in cases of excessive enthusiasm. Infractions are graded on a three-point scale, from Minor Disruption, such as visible eagerness near Opera, to Severe Levity, including laughter during bridge crossings.
+
+Jūrmala officials are reportedly monitoring the initiative closely and considering a coastal adaptation for summer trains, where passengers would be allowed one deep, historic exhale upon seeing the sea, followed by mandatory silence until Dubulti.
+
+Deputy mayor Andris Žagars defended the investment, which totaled €218,000, including €41,000 for custom upholstery in “municipal dusk.” Critics have called the program frivolous, though support appears broad across age groups and income levels.
+
+“This is who we are,” said pensioner Maija Feldmane, adjusting her scarf as the tram passed a wet parking lot of exceptional emotional quality. “Some countries have high-speed rail. We have composure. Not every nation can build policy out of the need to stare quietly at a birch tree and prepare for disappointment. But Latvia can.”
+
+Following the successful first morning, city officials confirmed they are exploring a premium version of the service for autumn, featuring slower acceleration, light condensation, and a staff member who occasionally walks through the carriage and says, for no clear reason, “Well. It is what it is.”`,
+      lv: `RĪGA — Pāreja, ko transporta plānotāji saka atspoguļojam gan mūsdienu braucēju ieradumus, gan senās Baltijas emocionālās tradīcijas, Rīgas sabiedriskā transporta pārvalde otrdien atklāja īpašu 'Klusuma un pārdomu vagonu' 7. tramvajā, paredzētu tikai tiem pasažieriem, kuri vēlas nozīmīgi skatīties pa logu klusumā pirms nonākšanas darbā jau nedaudz vīlušies.
+
+Pilotprogramma, kas sākās pulksten 6:43 no Ausekļa ielas un turpinājās caur pilsētas centru uz Ķengaragu, aizliedz ikdienišķas sarunas, jautru piejautāšanu, skaļrunu izmantošanu un to, ko uz kāda izvietota zīme nosauc par 'nenopelnīto sejas spožumu pirms pulksten 9:30.' Pēc Rīgas Satiksmes aptaujas datiem 84% aptaujāto braucēju teica, ka vēlas 'aizsargātu vidi, kurā domāt neskaidras domas, kamēr infrastruktūra paiet garām.'
+
+"Tas nav vienkārši transporta pakalpojums," sacīja projekta koordinatore Ilze Vītola, stāvot pie matēti pelēka vagona, kura iekšpuse bija aprīkota ar nedaudz miglains logiem un diskrēti čīkstošām sēdvietām. "Tas ir pilsonisks telpas iekšējam monologam. Pārāk ilgi iedzīvotāji bija spiesti pieredzēt sabiedrisko transportu blakus cilvēkiem, kas apspriež uztura proteīnu uzņemšanu vai izmanto videozvanus, lai kādam parādītu tirgus. Mēs pajautājām sev: vai nevarētu būt arī citāds veids?"
+
+Amatpersonas stāsta, ka vagonu izstrādāja pēc 18 mēnešu pētījuma, ko veica Baltijas Praktiskās Atmosfēras Institūts. Pētījumā noskaidrots, ka vidējam rīdziniekam, kas brauc uz darbu, nepieciešamas no 9 līdz 14 minūtēm nepārtrauktu apvāršņa pārdomu, lai funkcionētu ar "minimālo profesionālo rūgtumu." Pētnieki novēroja, ka darbinieki, kuriem šo laiku liegts, 37% gadījumu sapulcēs skaļāk nopūšas un 52% biežāk raksturo e-pastus kā "agresīvus", kad tie patiesībā vienkārši bija Arial fontā.
+
+Vagonā pasažieriem iesaka, kad iespējams, sēdēt vienam, turēt karstu dzērienu, ko izdzers tikai tad, kad tas būs par vēlu, un skatīties uz industriālo ainavu tā, it kā atcerētos pazaudētu 2008. gada vasaru. Zema skaļuma skaļrunis vietām atskaņo tālu kaiju skaņas, nodzēstas stacijas paziņojumus un vienu vīru kaut kur, kas neveiksmīgi mēģina iedarbināt dīzeļdzinēju.
+
+Līdz pulksten 8:00 vagonā jau bija gandrīz pilns.
+
+"Parasti man pašam jāizveido šī sajūta," sacīja ofisa administrators Mārtiņš Bērziņš, 34, kurš uzlīda Centrāltirgū un trīs pieturas pārlūkoja Daugavu nespiežot acis. "Parasti es uzlieku austiņas bez mūzikas vien tāpēc, lai cilvēki mani atstāj mierā. Šeit sistēma mani cienīja. Sieviete, kas uzkāpa, pasmaidīja, un konduktors klusi pārcēla viņu uz parasto vagonu. Tā ir profesionalitāte."
+
+Ne visi braucēji uzreiz jutās ērti ar noteikumiem. Viens universitātes students saņēma brīdinājumu pēc tam, kad čukstot pateica 'labrīt' draugam, izraisot to, ko aculiecinieki aprakstīja kā "strauju vagonā valdošās noskaņas sabrukumu." Citu pasažieri noņēma pēc apelsīna atvēršanas, kas vagonā ieviesa 'nevajadzīgu dzīvīgumu.'
+
+Lai uzraudzītu normu ievērošanu, Rīgas Satiksme apmācījusi komandadītu ar nosaukumu 'emocionālie konduktori', kurus pilnvaro iejaukties pārmērīgas entuziasma gadījumā. Pārkāpumi tiek vērtēti trīspunktu skalā, sākot no Nelielas traucēšanas — piemēram, redzama vēlme blakus Operai, līdz Smagai vieglprātībai, tai skaitā smiekliem tilta šķērsošanas laikā.
+
+Ziņots, ka Jūrmalas amatpersonas uzmanīgi vēro iniciatīvu un apsver piejūras adaptāciju vasaras vilcieniem, kur pasažieriem būtu atļauts vienu dziļu, vēsturisku izelpu jūras ieraudzīšanas brīdī, pēc tam obligāts miers līdz Dubultiem.
+
+Pašvaldības priekšsēdētāja vietnieks Andris Žagars aizstāvēja ieguldījumu, kas kopumā sasniedz 218 000 €, tostarp 41 000 € par speciālu apdari 'pašvaldības krēsla' toņos. Kritiķi programmu sauc par niecīgu, taču atbalsts šķiet plašs visās vecuma grupās un ienākumu līmeņos.
+
+"Tādi mēs esam," sacīja pensionāre Maija Feldmane, pielāgojot lakatu, kamēr tramvajs šķērsoja izcili emocionāli mitru stāvvietu. "Dažām valstīm ir ātrgaitas dzelzceļš. Mums ir pašpietiekamība. Ne visas tautas var veidot politiku no vajadzības klusībā pavilkt skatu uz bērzu un sagatavoties vīlumam. Bet Latvija to var."
+
+Pēc veiksmīgās pirmās rīta reizes pilsētas amatpersonas apstiprināja, ka izskata premium versiju pakalpojumam rudenim, kurā paredzēta lēnāka paātrināšanās, viegla kondensācija un darbinieks, kas reizēm izstaigā vagonu un bez redzama iemesla saka: "Nu. Kā ir, tā ir."`,
+      ru: `РИГА — В шаге, который, по словам планировщиков транспорта, отражает как современные привычки городских пассажиров, так и древние балтийские эмоциональные традиции, муниципальная транспортная служба Риги во вторник запустила специальный «Тихий вагон для размышлений» на трамвае №7, предназначенный исключительно для пассажиров, желающих вглядываться в окно в значительной тишине перед тем, как попасть на работу уже слегка разочарованными.
+
+Пилотная программа, начавшаяся в 6:43 с Ausekļa iela и проследовавшая через центр города в сторону Ķengarags, запрещает непринуждённые разговоры, бодрые светские беседы, разговоры на громкой связи и то, что один из вывешенных плакатов называет «незаслуженным сиянием лица до 9:30». По данным Rīgas Satiksme, 84% опрошенных пассажиров заявили, что хотят «защищённую среду, в которой можно думать расплывчатые мысли, пока инфраструктура проплывает мимо». 
+
+«Это не просто транспортная услуга», — сказала координатор проекта Ilze Vītola, стоя рядом с матово‑серым вагоном, интерьер которого был оборудован слегка запотевшими окнами и незаметно скрипящими сиденьями. «Это гражданское пространство для внутреннего монолога. Слишком долго жителям приходилось пользоваться общественным транспортом рядом с людьми, обсуждающими потребление белка или использующими видеозвонки, чтобы показать кому‑то супермаркет. Мы спросили себя: а что если есть другой путь?»
+
+По словам чиновников, вагон был разработан после 18‑месячного исследования, проведённого совместно с Балтийским институтом практической атмосферы, которое выявило, что среднему рижскому пассажиру требуется от 9 до 14 минут непрерывного созерцания горизонта, чтобы функционировать на уровне «минимальной профессиональной горечи». Исследователи отметили, что работники, лишённые этого периода, на 37% чаще тяжело вздыхали на совещаниях и на 52% чаще называли письма «агрессивными», хотя на самом деле они были просто набраны шрифтом Arial.
+
+Внутри вагона пассажирам предлагают по возможности сидеть в одиночестве, держать горячий напиток, который они не успеют выпить, пока он не остынет, и смотреть на индустриальные пейзажи так, будто вспоминают потерянное лето 2008 года. Иногда через тихий динамик доносятся звуки далеких чаек, приглушённые объявления на остановках и чей‑то неудачный запуск дизеля где‑то вдалеке.
+
+К 8 утра вагон был уже почти заполнен.
+
+«Обычно мне приходится вызывать это состояние самому», — сказал офисный администратор Mārtiņš Bērziņš, 34 года, который сел на Centrāltirgus и три остановки молча смотрел через реку, не моргая. «Как правило, я надеваю наушники без музыки, просто чтобы люди меня оставили в покое. Здесь система меня уважает. Женщина улыбнулась, когда зашла, и кондуктор тихо пересадил её в обычный вагон. Это профессионализм». 
+
+Не все пассажиры сразу почувствовали себя комфортно с правилами. Одному студенту университета выписали предупреждение за шёпот «доброе утро» другу, что, по свидетельствам, вызвало «резкий спад настроения в вагоне». Другого пассажира удалили после того, как он открыл апельсин и принес в салон «ненужную жизненность». 
+
+Для соблюдения норм Rīgas Satiksme подготовила команду так называемых Эмоциональных кондукторов, уполномоченных вмешиваться в случае чрезмерного энтузиазма. Нарушения оцениваются по трёхбалльной шкале — от Незначительного нарушения, например видимого рвения возле Оперы, до Серьёзной легкомысленности, включая смех при пересечении мостов.
+
+Представители Юрмалы, по сообщениям, внимательно следят за инициативой и рассматривают прибрежную адаптацию для летних поездов, где пассажирам разрешат один глубокий исторический вздох при виде моря, за которым последует обязательная тишина до станции Dubulti.
+
+Заместитель мэра Andris Žagars защищал инвестицию, общая сумма которой составила €218 000, включая €41 000 на индивидуальную обивку в оттенке «муниципального сумрака». Критики назвали программу пустой тратой, хотя поддержка, по-видимому, широка во всех возрастных и доходных группах.
+
+«Это — кто мы есть», — сказала пенсионерка Maija Feldmane, поправляя шарф, когда трамвай проезжал мимо мокрой парковки исключительного эмоционального качества. «У некоторых стран есть высокоскоростные железные дороги. У нас — выдержка. Не каждая нация сможет строить политику, исходя из потребности тихо смотреть на берёзку и готовиться к разочарованию. Но Латвия сможет». 
+
+После успешного первого утра городские власти подтвердили, что изучают премиальную версию услуги на осень, с более медленным разгоном, лёгкой конденсацией и сотрудником, который время от времени проходит по вагону и без объяснимой причины произносит: «Ну. Что есть, то есть.»`
+    },
+    date: "Jul 29, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/228/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 227,
     slug: "riga-introduces-official-municipal-silence-hours-227",
     title: {
@@ -102,7 +201,7 @@ Ja programma būs veiksmīga, to varētu paplašināt, iekļaujot “Pārdomu pi
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/227/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 226,
