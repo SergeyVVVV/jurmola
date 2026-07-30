@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 229,
+    slug: "riga-introduces-14-minute-silence-tax",
+    title: {
+      en: "Riga Introduces 14-Minute Silence Tax After Residents Caught Enjoying Unexpected Peace",
+      lv: "Rīga ievieš 14 minūšu klusuma nodokli pēc tam, kad iedzīvotāji pieķerti baudām negaidītu mieru",
+      ru: "Рига вводит налог на 14 минут тишины после того, как жителей застали, наслаждающихся неожиданным покоем"
+    },
+    excerpt: {
+      en: "Following a municipal study showing that several central Riga neighborhoods experienced a full 14 minutes of uninterrupted quiet last Thursday, city officials have moved quickly to prevent what they describe as \"unsustainable levels of calm.\" The new Silence Tax will charge residents for any period in which no tram squeal, renovation drilling, or distant accordion can be detected.",
+      lv: "Pēc pašvaldības pētījuma, kas parādīja, ka vairākās Rīgas centrālajās apkaimēs pagājušajā ceturtdienā izdevās pilnas 14 minūtes nepārtraukta klusuma, pilsētas amatpersonas rīkojās steidzīgi, lai novērstu to, ko viņi dēvē par “neuzturamu mierīguma līmeni”. Jaunais Klusuma nodoklis iekasēs maksu no iedzīvotājiem par jebkuru periodu, kurā nav konstatējama tramvaja čīkstēšana, remonta urbšana vai tālas akordeona skaņas.",
+      ru: "После муниципального исследования, показавшего, что в нескольких центральных районах Риги в прошлый четверг было зафиксировано целых 14 минут непрерывной тишины, городские власти поспешили предотвратить то, что они называют «несоразмерно устойчивым спокойствием». Новый Налог за Тишину будет взиматься с жителей за любой период, в котором не слышно скрипа трамвая, ремонтного сверления или далёкого аккордеона."
+    },
+    fullContent: {
+      en: `RIGA — In an emergency session lasting just under three hours and interrupted twice by ceremonial leaf blowers, the Riga City Council on Monday approved a new Silence Tax aimed at addressing what officials called a "dangerous and unequal distribution of acoustic activity" across the capital.
+
+The measure comes after the Riga Department of Urban Vibrancy released a 62-page report confirming that residents in parts of Āgenskalns, Mežaparks, and one particularly sheltered courtyard in Centrs experienced up to 14 consecutive minutes of near-total silence at 15:42 last Thursday. Analysts described the event as statistically rare and "deeply confusing to long-term city dwellers."
+
+"At first we assumed there had been a data error," said department spokesperson Ilze Kārkliņa, standing beside a graph labeled 'Normal City Sounds' and another labeled 'Concerning Tranquility Spike.' "But after reviewing traffic sensors, gull patterns, and unauthorized violin activity, we concluded that a genuine silence pocket had formed. This is not the Riga our grandparents loudly renovated."
+
+Under the new rules, any residential property recording more than 11 minutes of acoustic inactivity per week will incur a municipal Quietness Adjustment Fee starting at €18. Residents may apply for exemptions if they can demonstrate active construction, ownership of at least one emotionally unstable scooter, or regular hosting of relatives from Jelgava.
+
+To enforce the policy, the city will begin installing Sound Equity Meters on lamp posts in 17 neighborhoods. The devices, manufactured by a startup founded by three former exchange students and one man from Salaspils who "used to do events," will measure ambient noise including tram friction, bottle-return arguments, staircase echo, and what the tender documents classify as "non-specific Baltic sighing."
+
+Vice Mayor Andris Laumanis defended the move, saying silence had become a luxury commodity that unfairly benefited certain residents. "For years people in central Riga have contributed to the city’s sonic identity by drilling at 07:58, dragging glass across cobblestones, and explaining parking rules with their entire body," Laumanis said. "Then suddenly some courtyard gets premium Scandinavian quiet for free? That is not solidarity."
+
+Reaction among residents was mixed. In Teika, accountant and amateur mushroom classifier Mārtiņš Feldmanis said he supported the tax in principle but worried about compliance. "Sometimes my building gets quiet because everyone is watching the hockey in separate apartments," he said. "What am I supposed to do, knock over a metal drying rack to stay within regulation?"
+
+Others were more skeptical. Elīna Ozola, who lives near the railway and has not heard her own thoughts since 2019, called the policy "elitist in a different direction." According to Ozola, "If the city wants fairness, they should redistribute noise. Send some of the Old Town bachelor party energy out here and take two cargo train honks back."
+
+Business groups have already responded. The Latvian Association of Preventive Drilling welcomed the tax and announced a subsidy program to help households maintain legally sufficient noise levels through light masonry, uncertain plumbing inspections, and "seasonal shelf installation." Meanwhile, a Jurmala wellness resort has begun advertising a premium package in which guests can experience 20 full minutes of silence offshore before being invoiced by Riga retroactively.
+
+Municipal economists estimate the Silence Tax could raise €3.4 million annually, enough to fund new bicycle lanes, three studies on bicycle lanes, and a pilot project introducing soft motivational shouting on public transport.
+
+As of Tuesday morning, several residents had already filed appeals, including one pensioner in Pārdaugava who insisted the recorded silence was only because "everybody was listening for that one mosquito." The city has promised to review complaints individually, provided they are submitted during normal business hours, between 10:00 and 10:07, when the photocopier is traditionally quiet enough to hear dissent.`,
+      lv: `RĪGA — Avārijas sēdē, kas ilga nedaudz mazāk par trim stundām un divreiz tika pārtraukta ceremoniālo lapu pūtēju dēļ, Rīgas domes deputāti pirmdien apstiprināja jaunu Klusuma nodokli, kuru mērķis ir risināt to, ko amatpersonas nosauca par “bīstamu un nevienlīdzīgu akustiskās aktivitātes sadalījumu” visā galvaspilsētā.
+
+Solis sekoja Rīgas Urbānās Dzīvotspējas departamenta 62 lappušu ziņojumam, kurā apstiprināts, ka iedzīvotāji Āgenskalnā, Mežaparkā un vienā īpaši noslēgtā pagalma Centra rajonā ceturtdien pulksten 15:42 piedzīvoja līdz pat 14 secīgiem tuvu pilnīga klusuma minūtēm. Analītiķi notikumu raksturoja kā statistiski reti sastopamu un “dziļi mulsinošu ilgstošiem pilsētniekiem”.
+
+"Sākumā domājām, ka ir kļūda datā," sacīja departamenta pārstāve Ilze Kārkliņa, stāvot blakus grafikiem ar nosaukumiem "Parastās pilsētas skaņas" un "Traucošs mierīguma pieaugums". "Bet, pārskatot satiksmes sensorus, kaiju kustības modeļus un neatļautas vijoles aktivitātes, secinājām, ka ir izveidojusies īsta klusuma kabata. Tā nav tā Rīga, ko mūsu vectēvi skaļi renovēja."
+
+Saskaņā ar jaunajiem noteikumiem jebkura dzīvojamā īpašuma reģistrētas vairāk nekā 11 minūtes akustiskas neaktivitātes nedēļā gadījumā tiks piemērota pašvaldības Klusuma koriģējošā maksa, sākot no 18 eiro. Iedzīvotāji var pieteikties atvieglojumiem, ja spēj pierādīt aktīvus būvdarbus, piederību vismaz vienam emocionāli nestabilam skūterim vai regulāru radinieku uzņemšanu no Jelgavas.
+
+Lai īstenotu politiku, pilsēta sāks uzstādīt Skaņas Taisnīguma mērītājus uz laternu stabiem 17 apkaimēs. Ierīces, ko ražo jaunuzņēmums, ko dibinājuši trīs bijušie apmaiņas studenti un viens vīrs no Salaspils, kurš "reiz darīja pasākumus", mērīs apkārtējās vides troksni, tostarp tramvaja berzi, pudeļu atgriešanas strīdus, kāpņu atbalsi un to, ko iepirkuma dokumenti klasificē kā "nespecifisku Baltijas nopūtu".
+
+Rīgas vicemērs Andris Laumanis aizstāvēja rīcību, sacīdams, ka klusums kļuvis par luksusa preci, kas netaisnīgi labvēlīgi ietekmē dažus iedzīvotājus. "Gadu desmitiem cilvēki centrā Rīgā ir veidojuši pilsētas skanējumu, urbjot plkst. 07:58, velkot stiklu pāri bruģim un skaidrojot stāvvietu noteikumus ar visu ķermeni," sacīja Laumanis. "Un tad pēkšņi kādam pagalmam bez maksas uzdāvināts premium Skandināvijas miers? Tas nav solidaritāte."
+
+Iedzīvotāju reakcija bija juceklīga. Teikā grāmatvedis un amatieru sēņu klasificētājs Mārtiņš Feldmanis teica, ka nodokli pamatā atbalsta, bet bažījās par atbilstību. "Reizēm mūsu māja kļūst klusa, jo visi atsevišķajos dzīvokļos skatās hokeju," viņš sacīja. "Ko man darīt — nomest metāla žāvētāju, lai paliktu noteikumu robežās?"
+
+Citi bija skeptiskāki. Elīna Ozola, kas dzīvo pie dzelzceļa un kopš 2019. gada nav dzirdējusi savas domas, nodēvēja politiku par "elitiskāku citā virzienā". Pēc Ozolas teiktā, "Ja pilsēta grib taisnīgumu, troksni vajag pārdalīt. Sūtiet šurp kādu no Vecrīgas izlaidīgās bērnu ballītes enerģijas un atpakaļ ņemiet divus kravas vilciena signālus."
+
+Uzņēmēju grupas jau reaģējušas. Latvijas Preventīvās Urbšanas asociācija sagaidīja nodokli ar gandarījumu un paziņoja par subsīdiju programmu, lai palīdzētu mājsaimniecībām uzturēt likumiski pietiekamu trokšņa līmeni caur vieglu mūrniecību, neizprotamiem santehnikas pārbaudījumiem un "sezonālu plauktu uzstādīšanu". Tikmēr Jūrmalas wellness kūrorts sācis reklamēt premium paketi, kurā viesi var piedzīvot 20 pilnas klusuma minūtes piekrastē, pirms Rīga tiem atpakaļrēķinu izraksta.
+
+Pašvaldības ekonomisti lēš, ka Klusuma nodoklis varētu ienest 3,4 miljonus eiro gadā — pietiekami, lai finansētu jaunus veloceliņus, trīs pētījumus par veloceliņiem un pilotprojektu, kurā sabiedriskajā transportā tiktu ieviesta maigā motivējošā kliegšana.
+
+Otrdienas rītā vairāki iedzīvotāji jau bija iesnieguši sūdzības, tostarp viens pensionārs Pārdaugavā, kurš uzstājīgi apgalvoja, ka reģistrētais klusums esot tikai tāpēc, ka "visi klausījās to vienu odiņu". Pilsēta sola izskatīt sūdzības individuāli, ja vien tās iesniegs normālā darba laikā — no 10:00 līdz 10:07 — kad kopējam tradīcijās parasti ir pietiekami kluss, lai dzirdētu neapmierinātību.`,
+      ru: `РИГА — На внеочередной сессии горсовета, длившейся чуть менее трёх часов и дважды прерывавшейся церемониальными бензопылесосами для листьев, в понедельник был утверждён новый Налог за Тишину, направленный на устранение того, что чиновники называют «опасным и неодинаковым распределением акустической активности» по столице.
+
+Мера появилась после того, как Департамент городской вибрации Риги опубликовал 62-страничный отчёт, подтвердивший, что жители части Āgenskalns, Mežaparks и одного особенно защищённого двора в Centrs испытали до 14 подряд минут почти полной тишины в 15:42 в прошлый четверг. Аналитики описали событие как статистически редкое и «глубоко сбивающее с толку долгожителей города». 
+
+«Сначала мы думали, что это ошибка в данных», — сказала представитель департамента Илзе Кārkliņa, стоя рядом с графиком под названием «Обычные городские звуки» и другим графиком «Тревожный всплеск спокойствия». «Но после проверки датчиков движения, моделей чаек и несанкционированной скрипки мы пришли к выводу, что образовался настоящий карман тишины. Это не та Рига, которую наши внуки громко ремонтировали». 
+
+По новым правилам любое жилое помещение, в котором фиксируется более 11 минут акустической неактивности в неделю, будет облагаться муниципальным сбором за корректировку тишины — начиная с €18. Жители могут подавать заявки на освобождение от налога, если смогут доказать наличие активного строительства, владение как минимум одним эмоционально нестабильным самокатом или регулярное приёмство родственников из Елгавы. 
+
+Для обеспечения исполнения политики город начнёт устанавливать на фонарных столбах в 17 районах так называемые Измерители звукового равенства. Устройства, производимые стартапом, основанным тремя бывшими студентами по обмену и одним мужчиной из Salaspils, который «раньше занимался организацией мероприятий», будут измерять фоновые шумы, включая трение трамвайных колёс, спор по поводу возврата бутылок, эхо в подъездах и то, что в тендерной документации классифицируют как «неспецифическое балтийское вздыхание». 
+
+Вице-мэр Андрис Лауманис защищал решение, заявив, что тишина стала предметом роскоши, который несправедливо выгоден некоторым жителям. «Годами люди в центре Риги вносили вклад в звуковую идентичность города, сверля в 07:58, таща стекло по брусчатке и объясняя правила парковки всей своей телесной экспрессией», — сказал Лауманис. «А тут вдруг какой‑то двор бесплатно получает премиальную скандинавскую тишину? Это не солидарность». 
+
+Реакция жителей оказалась смешанной. В Тейке бухгалтер и любитель систематизации грибов Mārtiņš Feldmanis сказал, что в принципе поддерживает налог, но волнуется о соблюдении правил. «Иногда в нашем доме становится тихо, потому что все смотрят хоккей по отдельным квартирам», — сказал он. «Что мне тогда делать, перевернуть металлическую сушилку, чтобы соответствовать нормативу?» 
+
+Другие настроены скептически. Elīna Ozola, которая живёт рядом с железной дорогой и не слышала собственных мыслей с 2019 года, назвала эту политику «элитизмом в другом направлении». По её словам, «если город хочет справедливости, ему следует перераспределить шум. Послать сюда немного энергии мальчишника из Старого города и забрать обратно два гудка грузового поезда». 
+
+Бизнес‑группы уже отреагировали. Латвийская ассоциация превентивного сверления приветствовала налог и объявила о субсидийной программе, которая поможет домохозяйствам поддерживать законодательно достаточный уровень шума с помощью лёгкой кладки, неопределённых сантехнических проверок и «сезонной установки полок». Тем временем один юрмальский велнес‑курорт начал рекламировать премиум‑пакет, в котором гости могут испытать 20 полных минут тишины в море, прежде чем Рига выставит им счёт задним числом. 
+
+Муниципальные экономисты оценивают, что Налог за Тишину может принести 3,4 миллиона евро в год — достаточно, чтобы профинансировать новые велополосы, три исследования по велополосам и пилотный проект по введению мягкого мотивационного крика в общественном транспорте. 
+
+По состоянию на утро вторника несколько жителей уже подали апелляции, включая одного пенсионера в Pārdaugava, который настаивал, что зафиксированная тишина объясняется лишь тем, что «все прислушивались к той самой мошке». Город пообещал рассматривать жалобы индивидуально, при условии, что они поданы в рабочее время — между 10:00 и 10:07, когда ксерокс традиционно достаточно тих, чтобы услышать инакомыслие.`
+    },
+    date: "Jul 30, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/229/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 228,
     slug: "riga-introduces-silent-tram-car-for-228",
     title: {
@@ -114,7 +201,7 @@ Pēc veiksmīgās pirmās rīta reizes pilsētas amatpersonas apstiprināja, ka 
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/228/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 227,
