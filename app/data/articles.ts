@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 230,
+    slug: "jrmala-introduces-quiet-siren-to-warn-230",
+    title: {
+      en: "Jūrmala Introduces ‘Quiet Siren’ To Warn Residents Of Emergencies Without Disturbing Weekend Mood",
+      lv: "Jūrmala ievieš „Kluso sirēnu”, lai brīdinātu iedzīvotājus par ārkārtas situācijām, netraumējot nedēļas nogales noskaņu",
+      ru: "Юрмала вводит «Тихую сирену», чтобы предупреждать жителей об опасностях, не портя выходного настроения"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have unveiled a new civil defense system designed to alert residents to fires, floods, and regional instability in a manner described as “tasteful, coastal, and emotionally non-invasive.” The pilot siren emits a soft baritone voice saying “if convenient” every seven minutes.",
+      lv: "Jūrmalas amatpersonas atklājušas jaunu civilās aizsardzības sistēmu, kas paredzēta, lai informētu iedzīvotājus par ugunsgrēkiem, plūdiem un reģionālu nestabilitāti gaumīgā, piejūras un emocionāli neuzbāzīgā veidā. Pilota sirēna ik pēc septiņām minūtēm izstaro maigu baritona balsi, kas saka “ja tas ir ērti”.",
+      ru: "Чиновники Юрмалы представили новую систему гражданской обороны, призванную оповещать о пожарах, наводнениях и региональной нестабильности «со вкусом, прибрежно и эмоционально ненавязчиво». Пилотная сирена раз в семь минут мягким баритоном произносит «если удобно»."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders are calling a breakthrough in “Baltic-calibrated emergency communication,” Jūrmala municipality on Tuesday presented the country’s first Quiet Siren, an early-warning system specifically engineered to notify residents of danger without creating the impression that anyone is overreacting.
+
+The system, developed over 18 months by the Jūrmala Department of Seasonal Calm and a private acoustic consultancy based in Dzintari, replaces the traditional alarm wail with what officials described as “a respectful auditory suggestion.” During a live demonstration near Majori beach, the siren issued a low, reassuring tone similar to an upscale electric kettle before a male voice politely announced in Latvian, Russian, English, and “neutral seaside humming” that a hypothetical emergency was occurring “if convenient.”
+
+Deputy Executive Director for Public Softness Ilze Vītola said the city had been forced to rethink emergency procedures after a 2023 survey found that 81% of residents considered conventional sirens “a bit much,” while 64% said they would be more likely to evacuate if instructions were phrased as recommendations and delivered by someone who sounded like a spa receptionist.
+
+“People come to Jūrmala for restoration, pine air, and the right not to be shouted at,” Vītola told reporters, standing beside a prototype mounted discreetly behind ornamental reeds. “Of course we support public safety. But safety should arrive elegantly, with low visual impact and no abrupt frequencies before 10 a.m. on weekends.”
+
+According to municipal documents, the Quiet Siren adjusts its intensity based on neighborhood profile. In central Jūrmala, where many second-home owners are believed to be asleep until noon, the alert begins with a distant cello note and a message reading, “Conditions may be suboptimal outdoors.” In more residential districts, the system can escalate to a firmer warning: “It might now be prudent to consider footwear.”
+
+The project cost €2.8 million, including €410,000 for “tone identity research” and €93,000 for field testing whether residents preferred being advised to seek shelter in the imperative or the conditional mood. City engineers reported that the phrase “Please proceed indoors at your earliest tasteful opportunity” achieved the highest compliance rating among adults aged 37 to 61.
+
+Reaction among residents was mixed but measured. “I appreciate the philosophy,” said Bulduri resident and amateur mushroom dehydrator Andris Kļaviņš, 58. “Last year the old siren went off and my entire terrace lunch became unnecessarily dramatic. If there is to be danger, I prefer it framed constructively.”
+
+Not everyone was convinced. University of Latvia disaster preparedness researcher Dr. Sabīne Dreimane warned that emergency systems work best when they are unmistakable. “There is a reason sirens are alarming,” she said. “If your flood alert sounds like a boutique hotel informing you breakfast has been extended, some people will continue drinking coffee until the Gulf of Riga enters the kitchen.”
+
+City officials dismissed the criticism, citing successful tests conducted this spring. In one simulation, 72 volunteers were informed of a fictional forest fire approaching a parking area in Lielupe. Within 43 minutes, nearly half had acknowledged the event, and 11 relocated their vehicles to what they described as “a more emotionally appropriate distance.”
+
+The Ministry of the Interior has requested technical documentation but has not endorsed a national rollout. Still, several municipalities are reportedly interested, including Cēsis, which is exploring a heritage bell that expresses concern indirectly, and Riga, where planners are studying whether emergency alerts can be integrated into parking enforcement messages to improve open rates.
+
+As Tuesday’s demonstration concluded, the Quiet Siren softly advised attendees that a staged chemical leak had reached “a level no longer ideal for leisurely remaining here.” Most journalists began packing up at once, while two local men continued their chess game on a nearby bench, saying they would leave after the next message if it sounded more certain.`,
+      lv: `JŪRMALA — Pāreju, ko pilsētas vadība sauc par „Baltijas kalibrētu ārkārtas komunikācijas” atklājumu, otrdien Jūrmalas pašvaldība prezentēja valsts pirmo Kluso sirēnu — agrīnas brīdināšanas sistēmu, kas speciāli izstrādāta, lai paziņotu iedzīvotājiem par briesmām, neradot iespaidu, ka kāds pārlieku pārdzīvo.
+
+Sistēmu, kuru 18 mēnešus izstrādāja Jūrmalas Sezonālās Mierīguma nodaļa kopā ar privātu akustikas konsultāciju biroju Dzintaros, aizstāj tradicionālo sirēnas kliedzienu ar to, ko amatpersonas raksturoja kā „cieņpilnu skaņas ieteikumu”. Dzīvā demonstrācijā pie Majoru pludmales sirēna izdeva zemu, nomierinošu toni, līdzīgu augstākas klases elektriskajam tējkannam, un vīriešu balss pieklājīgi paziņoja latviešu, krievu, angļu un „neitrālā piekrastes humoņēšanā”, ka hipotētiska ārkārtas situācija notiek „ja tas ir ērti”.
+
+Publiskās maiguma viceizpilddirektore Ilze Vītola sacīja, ka pilsēta bija spiesta pārdomāt ārkārtas procedūras pēc 2023. gada aptaujas, kurā 81% iedzīvotāju konstatēja, ka parastās sirēnas ir „mazliet pārmērīgas”, savukārt 64% teica, ka, visticamāk, evakuēsies, ja norādījumi tiks izteikti kā ieteikumi un tos sniegs kāds, kurš skan kā spa reģistratūra.
+
+„Cilvēki brauc uz Jūrmalu atjaunoties, pēc priedes gaisa un ar tiesībām netikt kliegtiem virsū,” Vītola sacīja reportieriem, stāvot blakus prototipam, kas diskrēti piestiprināts aiz rotājumu niedrēm. „Protams, mēs atbalstām sabiedrības drošību. Bet drošībai jāierodas eleganti — ar zemu vizuālo ietekmi un bez pēkšņām frekvencēm pirms pulksten 10 no rīta nedēļas nogalēs.”
+
+Saskaņā ar pašvaldības dokumentiem Klusā sirēna pielāgo intensitāti atkarībā no apkaimes profila. Centrālajā Jūrmalā, kur daudziem otrās mājas īpašniekiem tiek pieņemts, ka viņi guļ līdz pusdienlaikam, brīdinājums sākas ar tālas čella noti un ziņojumu: „Āra apstākļi var būt mazāk nekā ideāli.” Dzīvokļu rajonos sistēma var eskalēt līdz stingrākam brīdinājumam: „Tagad, iespējams, būtu prātīgi apsvērt apavus.”
+
+Projekts izmaksāja €2,8 miljonus, tajā skaitā €410 000 „tōnu identitātes pētījumam” un €93 000 lauka testiem, lai noskaidrotu, vai iedzīvotāji dod priekšroku padomam meklēt patvērumu imperatīvā vai nosacījuma formā. Pilsētas inženieri ziņoja, ka frāze „Lūdzu, pie pirmās gaumīgās iespējas pārejiet iekštelpās” sasniedza augstāko atbilstības rādītāju pieaugušajiem vecumā no 37 līdz 61 gadiem.
+
+Iedzīvotāju reakcija bija jaukta, bet mērīta. „Es novērtēju filozofiju,” sacīja Bulduru iedzīvotājs un amatieru sēņu dehidratētājs Andris Kļaviņš, 58 gadi. „Pagājušajā gadā vecā sirēna ieslēdzās un manas terases pusdienas kļuva nevajadzīgi dramatiskas. Ja ir briesmas, es labprātāk tās redzu noformētas konstruktīvi.”
+
+Ne visi turējās pārliecināti. Latvijas Universitātes katastrofu gatavības pētniece Dr. Sabīne Dreimane brīdināja, ka ārkārtas sistēmas darbojas vislabāk, kad tās ir nešaubīgas. „Sirēnām ir iemesls, kāpēc tās ir trauksmainas,” viņa sacīja. „Ja jūsu plūdu brīdinājums skanēs kā boutique viesnīcas paziņojums par to, ka brokastis tiek pagarinātas, daži turpinās dzert kafiju līdz Rīgas jūras līcis ielauzīsies virtuvē.”
+
+Pilsētas amatpersonas kritiku noraidīja, atsaucoties uz veiksmīgiem pavasara testiem. Vienā simulācijā 72 brīvprātīgos informēja par izdomātu meža ugunsgrēku, kas tuvojas Lielupes stāvvietai. 43 minūšu laikā gandrīz puse bija atzinušies par notikumu, un 11 pārvietoja savus spēkratus uz to, ko viņi raksturoja kā „emocionāli piemērotāku attālumu.”
+
+Iekšlietu ministrija ir pieprasījusi tehnisko dokumentāciju, taču nav atbalstījusi valsts mēroga ieviešanu. Tomēr vairākas pašvaldības esot ieinteresētas, tostarp Cēsis, kur tiek izpētīts mantojuma zvans, kas netieši izsaka bažas, un Rīga, kur plānotāji apsver, vai ārkārtas brīdinājumus varētu integrēt stāvvietu uzraudzības ziņojumos, lai uzlabotu to atvēršanas rādītājus.
+
+Kad otrdienas demonstrācija noslēdzās, Klusā sirēna klusi ieteica sanākušajiem, ka inscenētais ķīmiskās noplūdes līmenis sasniedzis „stāvokli, kas vairs nav ideāli piemērots nesteidzīgai uzturēšanās šeit”. Lielākā daļa žurnālistu uzreiz sāka pakot aprīkojumu, bet divi vietējie vīrieši turpināja šaha partijā uz tuvējā sola, sakot, ka izies pēc nākamā paziņojuma, ja tas skanēs noteiktāk.`,
+      ru: `ЮРМАЛА — В шаге, который городские власти называют прорывом в «балтийско-калиброванной экстренной коммуникации», муниципалитет Юрмалы во вторник представил первую в стране «Тихую сирену» — систему раннего оповещения, специально сконструированную, чтобы сообщать жителям об опасности, не создавая впечатления, будто кто-то излишне паникёрствует.
+
+Система, разработанная в течение 18 месяцев Департаментом сезонного спокойствия Юрмалы и частной акустической консалтинговой фирмой из Дзинтари, заменяет традиционный вой сирены тем, что чиновники описали как «уважительное слуховое предложение». Во время живой демонстрации у пляжа Майори сирена издала низкий, обнадёживающий тон, напоминающий элитный электрический чайник, после чего мужской голос вежливо объявил на латышском, русском, английском и «нейтральном прибрежном мурлыканье», что гипотетическая чрезвычайная ситуация имеет место «если удобно». 
+
+Заместитель исполнительного директора по общественной мягкости Илзе Витола заявила, что город вынужден был пересмотреть процедуры оповещения после опроса 2023 года, который показал, что 81% жителей считают обычные сирены «чуть перебором», а 64% сказали, что с большей вероятностью эвакуировались бы, если бы инструкции были сформулированы как рекомендации и озвучены кем‑то, кто звучит как администратор спа.
+
+«Люди приезжают в Юрмалу за восстановлением, сосновым воздухом и правом, чтобы на них не кричали», — сказала Витола репортёрам, стоя рядом с прототипом, скромно установленным за декоративными камышами. «Разумеется, мы поддерживаем общественную безопасность. Но безопасность должна приходить элегантно, с низким визуальным воздействием и без резких частот до 10:00 по выходным». 
+
+Согласно муниципальным документам, «Тихая сирена» регулирует интенсивность в зависимости от профиля района. В центральной части Юрмалы, где считается, что многие владельцы вторых домов спят до полудня, оповещение начинается с отдалённой ноты виолончели и сообщения: «На улице условия могут быть не самыми благоприятными». В более жилых кварталах система может эскалировать до более твёрдого предупреждения: «Возможно, сейчас было бы разумно подумать о наличии обуви». 
+
+Проект обошёлся в 2,8 млн евро, включая 410 000 евро на «исследование тоновой идентичности» и 93 000 евро на полевые испытания — предпочитают ли жители советы о поиске укрытия в повелительном или в условном наклонении. Городские инженеры сообщили, что фраза «Пожалуйста, пройдите внутрь при первой же благовкусной возможности» показала наивысший уровень соблюдения среди взрослых в возрасте от 37 до 61 года. 
+
+Реакция жителей была смешанной, но сдержанной. «Мне нравится сама философия», — сказал 58‑летний житель Булдури и любитель сушить грибы Андрис Клявиньш. «В прошлом году старая сирена сработала, и весь мой обед на террасе стал ненужно драматичным. Если опасность и есть, я предпочитаю, чтобы её подавали конструктивно». 
+
+Не все были убеждены. Исследователь по готовности к бедствиям из Университета Латвии доктор Сабине Дреймане предупредила, что системы оповещения работают лучше всего, когда они однозначны. «Сирены звучат тревожно не просто так, — сказала она. — Если ваше предупреждение о наводнении будет звучать как объявление бутикового отеля о продлении завтрака, некоторые люди будут продолжать пить кофе, пока Рижский залив не зайдёт им на кухню». 
+
+Городские власти отмахнулись от критики, сославшись на удачные тесты, проведённые этой весной. В одном из имитированных сценариев 72 добровольца были оповещены о вымышленном лесном пожаре, приближающемся к парковке в Лиелупе. В течение 43 минут почти половина подтвердила получение сообщения, а 11 перешли на парковку на то, что они описали как «более эмоционально уместное расстояние». 
+
+Министерство внутренних дел запросило техническую документацию, но не дало одобрения для национального развёртывания. Тем не менее, несколько муниципалитетов, по сообщениям, проявляют интерес, в том числе Цесис, который изучает вариант с памятным колоколом, косвенно выражающим обеспокоенность, и Рига, где планировщики рассматривают возможность интеграции экстренных оповещений в сообщения о парковке для повышения процента прочтений. 
+
+Когда вторничная демонстрация подходила к концу, «Тихая сирена» мягко посоветовала присутствующим, что инсценированная утечка химикатов достигла «уровня, уже не совсем подходящего для спокойного времяпрепровождения здесь». Большинство журналистов сразу же начали складывать вещи, в то время как двое мужчин продолжили партию в шахматы на скамье рядом, отметив, что уйдут после следующего сообщения, если оно покажется более определённым.`
+    },
+    date: "Jul 31, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/230/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 229,
     slug: "riga-introduces-14-minute-silence-tax",
     title: {
@@ -102,7 +189,7 @@ Otrdienas rītā vairāki iedzīvotāji jau bija iesnieguši sūdzības, tostarp
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/229/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 228,
