@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 231,
+    slug: "jrmala-introduces-silent-applause-zones-after-231",
+    title: {
+      en: "Jūrmala Introduces Silent Applause Zones After Residents Complain Seagulls Are Becoming Too Confident",
+      lv: "Jūrmala ievieš klusās aplausu zonas pēc iedzīvotāju sūdzībām, ka kaijas kļūst pārāk pārliecinātas",
+      ru: "Юрмала вводит зоны тихих аплодисментов после жалоб жителей, что чайки стали слишком самоуверенными"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have approved the Baltic region’s first network of designated Silent Applause Zones, where cultural audiences will be encouraged to express appreciation through respectful nodding, minor eyebrow movement, and the temporary tightening of scarves. The measure follows mounting concern that conventional clapping has emboldened local seagulls, who now reportedly interrupt piano recitals and attempt to inspect seafood soups at a level described by experts as “administratively worrying.”",
+      lv: "Jūrmalas pašvaldības amatpersonas apstiprinājušas Baltijas reģiona pirmo Kluso aplausu zonu tīklu, kur publika kultūras pasākumos tiek aicināta izrādīt atzinību caur cieņpilnu galvas mājienu, vieglu uzacu kustību un šalli īslaicīgi pievelkot. Šis pasākums seko pieaugošām bažām, ka tradicionālais plaukšķināšana ir uzmundrinājusi vietējās kaijas, kuras tagad pārtrauc klavieru recitālus un mēģina izpētīt zupu ar jūras veltēm līmenī, ko eksperti raksturojuši kā \"administratīvi satraucošu.\"",
+      ru: "Муниципальные власти Юрмалы утвердили первую в Балтийском регионе сеть так называемых зон тихих аплодисментов, где зрителям культурных мероприятий предложат выражать признательность уважительным кивком, лёгким движением бровей и временным подтягиванием шарфов. Мера последовала за нарастающим беспокойством, что привычные аплодисменты распустили местных чаек, которые, по сообщениям, теперь перебивают фортепианные рециталы и пытаются изучить супы из морепродуктов на уровне, который эксперты охарактеризовали как «административно тревожный»."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a 9–4 vote late Tuesday evening, the Jūrmala City Council adopted a new public order regulation establishing Silent Applause Zones near concert halls, beach cafés, and three historically sensitive dune paths after months of testimony linking audience enthusiasm to what officials called “an unsustainable rise in gull self-esteem.”
+
+The policy, which takes effect on 1 September, applies first to the Dzintari Concert Hall perimeter, Majori pedestrian street, and selected summer event venues where applause has reportedly been “misinterpreted by birds as maritime endorsement.” Under the rules, residents and tourists attending performances may still show appreciation, but must do so through approved low-noise gestures, including solemn nodding, brief eye-closing, and what the regulation describes as “a measured exhalation through the nose.”
+
+Deputy Mayor for Seasonal Harmony Ilze Vītola said the city had no choice after a difficult summer in which seagulls became “visibly overfamiliar with the concept of being the main character.”
+
+“We are not anti-culture, and we are certainly not anti-bird,” Vītola told reporters while standing beside a laminated map of the new zones. “But when a gull lands on a vibraphone during a jazz set and maintains eye contact with the percussionist for nearly eleven seconds, government must act.”
+
+According to a 43-page municipal report titled Acoustic Encouragement and Coastal Behavioral Drift, incidents involving “audience-triggered avian assertiveness” rose 18% compared with last summer. Among the documented cases were two gulls entering an organ rehearsal through an open side window, one unauthorized extraction of a smoked sprat sandwich from a Swedish tourist, and a widely shared event in which a bird walked onto an outdoor stage during a poetry reading and remained there “with the poise of an arts grant recipient.”
+
+Local café owners had initially opposed the measure, arguing that the city was punishing businesses for birds that were already “deeply convinced of their own authority.” But several changed position after a July incident outside a beach restaurant in Bulduri, where seagulls reportedly gathered in unusual silence until diners began applauding a violin duo, at which point the flock advanced “in a coordinated, almost consultative manner.”
+
+“I’ve lived here 27 years, and the gulls used to just scream and steal fries like normal,” said café manager Normunds Grasis. “Now they pause, assess the mood, and target whichever customer appears emotionally open. Something has shifted.”
+
+Cultural organizers are adapting quickly. Starting this weekend, volunteers at selected venues will distribute Audience Decorum Cards demonstrating acceptable appreciation levels. Green indicates a polite nod, yellow a discreet scarf adjustment, and red prohibits any reaction “capable of being interpreted by wildlife as momentum.” Several event planners have also agreed to replace encores with administrative acknowledgments.
+
+Not everyone is convinced. Ornithologist Dr. Maija Siliņa of the Baltic Institute for Applied Bird Realism called the council’s approach “scientifically theatrical,” noting that gull confidence likely stems from food access, beach density, and “years of unchallenged success.” Still, she admitted the birds have changed.
+
+“They now stand like property developers,” Siliņa said. “That is new.”
+
+Tourists interviewed on Jomas Street expressed confusion but broad support. “In Germany we clap,” said Hamburg visitor Petra Klein, clutching a paper cup of soup with both hands. “If here we must instead narrow our eyes respectfully, we will do our best.”
+
+City officials say enforcement will remain educational at first, though repeat offenders may be asked to attend a 90-minute seminar on nonverbal gratitude at the former library annex near Melluži station.
+
+Meanwhile, residents report the gulls appear unfazed. On Wednesday morning, three of them were seen outside Dzintari Concert Hall watching workers install new Silent Applause signage. One witness said the birds seemed “calm, informed, and not especially threatened,” raising concerns that they may already understand the policy better than the public.`,
+      lv: `JŪRMALA — Ar 9–4 balsojumu vēlā otrdienas vakarā Jūrmalas domes sēdē pieņemts jauns sabiedriskās kārtības noteikums, kas pēc liecību mēnešiem, kuros auditorijas entuziasms tiek saistīts ar to, ko amatpersonas nosaukušas par "neilgtspējīgu kaiju pašapziņas pieaugumu", izveido Kluso aplausu zonas pie koncertzālēm, pludmales kafejnīcām un trim vēsturiski jutīgiem kāpu celiņiem.
+
+Polise, kas stāsies spēkā 1. septembrī, pirmām kārtām attieksies uz Dzintaru koncertzāles apkārtni, Majoru gājēju ielu un izvēlētiem vasaras pasākumu norises vietām, kur aplausus, pēc ziņām, "putni ir nepareizi interpretējuši kā jūras atbalstu." Saskaņā ar noteikumiem iedzīvotāji un tūristi, kuri apmeklē priekšnesumus, joprojām drīkst izrādīt atzinību, taču to jānodod caur apstiprinātām zema trokšņa žestikulācijām, tostarp nopietnu galvas mājienu, īslaicīgu acu aizvēršanu un to, ko noteikums raksturo kā "miermīlīgu izelpu caur degunu."
+
+Sezonālās saskaņas vietniece Ilze Vītola sacīja, ka pilsētai nebija izvēles pēc grūtās vasaras, kurā kaijas kļuva "redzami pārāk iepazinušās ar galvenā varoņa lomu."
+
+"Mēs neesam pretkultūras, un mēs noteikti neesam pretputnu," Vītola sacīja reportieriem, stāvot blakus laminētai jaunās zonu kartei. "Bet, kad kaija nosēžas uz vibrafona džeza uzstāšanās laikā un ilgstoši tur acu kontaktu ar perkusionistu gandrīz vienpadsmit sekundes, valdībai ir jāiejaucas."
+
+Saskaņā ar 43 lappušu pašvaldības ziņojumu ar nosaukumu 'Akustiskā iedrošināšana un piekrastes uzvedības novirze', incidentu skaits, kuros iesaistīta "auditorijas izraisīta putnu pašpārliecinātība", salīdzinājumā ar pagājušo vasaru pieauga par 18%. Dokumentētajos gadījumos ietilpa divas kaijas, kas caur atvērtu sānu logu iekļuva ērģeļu mēģinājumā, viens neatļauts kūpinātas reņģes sviestmaizes izņemšanas gadījums no zviedru tūrista un plaši izplatīts notikums, kurā putns iebridis uz āra skatuves dzejas lasījumā un palicis tur "ar tādu paštēlu, kādam piemīt mākslas stipendijas saņēmējs."
+
+Vietējie kafejnīcu īpašnieki sākotnēji iebilda pret pasākumu, apgalvojot, ka pilsēta soda uzņēmumus par putniem, kuri jau "dziļi pārliecināti par savu autoritāti." Tomēr vairāki mainīja nostāju pēc jūlija incidenta pie pludmales restorāna Bulduri, kad kaijas, pēc ziņām, pulcējās neparastā klusumā, līdz ēdāji sāka aplausus vijoles duetā, un putnu bars piegāja "saskaņoti, gandrīz konsultatīvā manierē."
+
+"Esmu šeit dzīvojis 27 gadus, un kaijas agrāk vienkārši kliedza un zog frīkartupelīšus kā parasti," teica kafejnīcas pārzinis Normunds Grasis. "Tagad tās apstājas, izvērtē noskaņojumu un mērķē uz to klientu, kas šķiet emocionāli atvērts. Kaut kas ir mainījies."
+
+Kultūras organizatori ātri pielāgojas. No šīs nedēļas brīvdienām brīvprātīgie izvēlētajās norises vietās izdalīs Auditorijas uzvedības kartes, kurās parādīts pieņemamās atzinības līmenis. Zaļā krāsa nozīmē pieklājīgu galvas mājienu, dzeltenā – diskrētu šalles pielāgošanu, bet sarkanā aizliedz jebkādu reakciju, "ko savvainei var interpretēt kā impulsu." Vairāki pasākumu plānotāji arī piekrituši atcelt bisus un tos aizstāt ar administratīvām atzinībām.
+
+Ne visi ir pārliecināti. Ornitoloģe Dr. Maija Siliņa no Baltijas institūta lietišķai putnu realizmai nosauca domes pieeju par "zinātniski teatrālu", norādot, ka kaiju pārliecība, visticamāk, rodas no pieejas pie pārtikas, pludmales blīvuma un "gadiem ilgas neapstrīdētas veiksmes." Tomēr viņa atzina, ka putni ir mainījušies.
+
+"Tagad tie stāv kā nekustamo īpašumu attīstītāji," Siliņa teica. "Tas ir kas jauns."
+
+Tūristi, kuri tika aptaujāti Jomas ielā, izteica sajukumu, bet plašu atbalstu. "Vācijā mēs plaukšķinām," sacīja Hamburgas viese Petra Klein, abās rokās turot papīra krūzi ar zupu. "Ja te mums jāpaskatās šauri, cieņpilni, mēs centīsimies to izdarīt."
+
+Pilsētas amatpersonas saka, ka sākotnēji izpilde būs izglītojoša, lai gan atkārtoti pārkāpējiem var tikt lūgts apmeklēt 90 minūšu semināru par neverbālu pateicību bijušajā bibliotēkas pielikumā pie Mellužu stacijas.
+
+Tikmēr iedzīvotāji ziņo, ka kaijas šķiet netraucētas. Trešdienas rītā trīs no tām tika novērotas ārpus Dzintaru koncertzāles, vērojot strādniekus uzstādām jaunos Kluso aplausu norādes. Viens aculiecinieks teica, ka putni šķita "mierīgi, informēti un īpaši neapdraudēti," izraisot bažas, ka viņi varētu jau saprast politiku labāk nekā sabiedrība.`,
+      ru: `ЮРМАЛА — На позднем заседании во вторник городской совет Юрмалы принял новым постановлением о порядке в общественных местах создание зон тихих аплодисментов возле концертных залов, прибрежных кафе и трёх исторически значимых дюнных троп — после месяцев показаний, связывавших воодушевление публики с тем, что чиновники назвали «неустойчивым ростом самооценки чаек». 
+
+Политика, вступающая в силу 1 сентября, сначала распространяется на периметр концертного зала Дзинтари, пешеходную улицу Майори и избранные летние площадки, где, по сообщениям, аплодисменты «были неверно интерпретированы птицами как морское одобрение». По новым правилам жители и туристы, посещающие представления, по‑прежнему могут выражать признательность, но должны делать это посредством разрешённых малошумных жестов, включая торжественный кивок, кратковременное смыкание глаз и то, что в регламентах описывается как «меренный выдох через нос». 
+
+Заместитель мэра по сезонной гармонии Илзе Витола заявила, что у города не было выбора после трудного лета, когда чайки стали «видимо чрезмерно знакомы с концепцией быть главным персонажем». 
+
+«Мы не против культуры и тем более не против птиц», — сказала Витола репортёрам, стоя рядом с ламинированной картой новых зон. — «Но когда чайка садится на вибрафон во время джазового сета и почти одиннадцать секунд поддерживает зрительный контакт с ударником, правительство должно вмешаться». 
+
+Согласно 43‑страничному муниципальному докладу под названием «Акустическое поощрение и прибрежный дрейф поведения», инциденты с «птичьей напористостью, инициированной аудиторией», выросли на 18% по сравнению с прошлым летом. Среди задокументированных случаев — две чайки, вошедшие на репетицию органа через приоткрытое боковое окно, одно несанкционированное извлечение копчёного шпротного сэндвича у шведской туристки и широко разошедшийся случай, когда птица вышла на уличную сцену во время вечерa поэзии и оставалась там «с осанкой получателя культурного гранта». 
+
+Местные владельцы кафе первоначально выступали против меры, утверждая, что город наказывает бизнес за птиц, которые уже «глубоко уверены в собственной власти». Но несколько предпринимателей изменили позицию после инцидента в июле у одного из пляжных ресторанов в Булдури, где, по сообщениям, чайки собирались в необычной тишине до тех пор, пока посетители не начали аплодировать скрипичному дуэту, после чего стая двинулась «координированно, почти в консультационном порядке». 
+
+«Я живу здесь 27 лет, и раньше чайки просто орали и воровали картошку фри, как все положено», — сказал управляющий кафе Нормундс Грасис. — «Теперь они делают паузу, оценивают настроение и выбирают того клиента, кто выглядит эмоционально открытым. Что‑то изменилось». 
+
+Культурные организаторы быстро адаптируются. Начиная с этих выходных, добровольцы на избранных площадках будут раздавать зрителям карточки вежливого поведения, демонстрирующие допустимые уровни признательности. Зелёный означает вежливый кивок, жёлтый — незаметную поправку шарфа, а красный запрещает любую реакцию, «способную быть истолкованной дикой природой как набор движения». Несколько организаторов также согласились заменять бисы административными благодарностями. 
+
+Не все убеждены. Орнитолог доктор Майя Силиня из Балтийского института прикладного птичьего реализма назвала подход совета «научно‑театральным», отметив, что уверенность чаек, вероятно, вызвана доступом к еде, плотностью пляжей и «годами беспрепятственного успеха». Всё же она признала, что птицы изменились. 
+
+«Теперь они стоят как застройщики», — сказала Силиня. — «Это новое». 
+
+Туристы, опрошенные на улице Йомас, выражали замешательство, но в целом поддерживали нововведение. «В Германии мы аплодируем», — сказала посетительница из Гамбурга Петра Кляйн, сжимая бумажный стаканчик супа обеими руками. — «Если здесь нам придётся вместо этого уважительно прищуриваться, мы постараемся». 
+
+Городские власти говорят, что сначала исполнение будет носить образовательный характер, хотя нарушителей, замеченных повторно, могут направлять на 90‑минутный семинар по невербальной благодарности в бывшем пристройке библиотеки рядом со станцией Меллужи. 
+
+Тем временем жители сообщают, что чайки, похоже, остаются невозмутимыми. В среду утром троих из них видели у концертного зала Дзинтари, наблюдающими за работниками, устанавливающими новые таблички «Зона тихих аплодисментов». Один свидетель сказал, что птицы выглядели «спокойными, проинформированными и особо не напуганными», что вызывает опасения, что они уже понимают политику лучше, чем публика.`
+    },
+    date: "Aug 1, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/231/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 230,
     slug: "jrmala-introduces-quiet-siren-to-warn-230",
     title: {
@@ -102,7 +201,7 @@ Kad otrdienas demonstrācija noslēdzās, Klusā sirēna klusi ieteica sanākuš
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/230/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 229,
