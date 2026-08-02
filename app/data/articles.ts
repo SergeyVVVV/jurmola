@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 232,
+    slug: "riga-introduces-municipal-silence-tax-after-232",
+    title: {
+      en: "Riga Introduces Municipal Silence Tax After Residents Caught Enjoying Unlicensed Moments of Peace",
+      lv: "Rīga ievieš pašvaldības klusuma nodokli pēc tam, kad iedzīvotāji pieķerti baudām neregistrētus miera brīžus",
+      ru: "Рига вводит муниципальный налог на тишину после того, как жителей застали за наслаждением нелицензированными моментами покоя"
+    },
+    excerpt: {
+      en: "Riga City Council has approved a pilot program requiring residents to declare and, where applicable, pay for periods of 'unregistered tranquility' experienced within municipal limits. Officials say the measure will help regulate a growing black market in silence, particularly in courtyards, saunas, and certain trolleybus routes after 11:40 p.m.",
+      lv: "Rīgas dome apstiprinājusi pilotprogrammu, kas prasa iedzīvotājiem deklarēt un, kur piemērojams, maksāt par pašvaldības robežās pieredzētām „nereģistrētām klusuma” epizodēm. Iestādes uzsver, ka tas regulēs pieaugošo klusuma “melnā tirgus” daļējo plūsmu, īpaši pagalmos, pirtīs un noteiktos trolejbusu maršrutos pēc plkst. 23:40.",
+      ru: "Рижская городская дума утвердила пилотную программу, требующую от жителей декларировать и, где применимо, платить за периоды «незарегистрированного спокойствия», пережитые в муниципальных границах. Чиновники утверждают, что мера поможет регулировать растущий чёрный рынок тишины, особенно во дворах, саунах и на некоторых маршрутах троллейбусов после 23:40."
+    },
+    fullContent: {
+      en: `RIGA — In what officials are calling a long-overdue modernization of the city’s acoustic economy, Riga City Council on Tuesday approved a new Silence Declaration Framework requiring residents to report any personally experienced quiet lasting longer than 47 consecutive seconds.
+
+Under the pilot scheme, which begins in September in Central District, Āgenskalns, and 'selected emotionally stable sections' of Mežaparks, residents must log episodes of meaningful silence using the municipal mobile app ManaRīga+, where they will be assigned one of three categories: Incidental Quiet, Passive Calm, or Premium Silence with Bird Component.
+
+'For too long, silence has been consumed informally, without contributing to city maintenance,' Deputy Committee Chair for Urban Vibrations Ilze Bērziņa told reporters while standing beside a decibel meter draped in the city flag. 'People sit on balconies. They hear nothing. They feel restored. And yet the municipality sees none of that value return to public infrastructure.'
+
+According to a 61-page explanatory report, the average Riga resident informally experiences 14.6 minutes of unlicensed peace per week, most of it in stairwells after neighbors leave for summer cottages, on trams during the brief interval when no one is arguing about e-talons, and in supermarkets immediately following a refrigerator malfunction. City analysts estimate the capital loses up to €8.2 million annually in undeclared calm.
+
+The policy was developed after a joint study by Riga Technical University and the Institute for Applied Baltic Stillness found that silence in urban Latvia is no longer a naturally occurring condition but 'a premium civic event requiring oversight.' Researchers documented 312 undocumented moments of stillness across the capital, including a controversial 96-second stretch near Ziedoņdārzs described by one observer as 'suspiciously Alpine.'
+
+Reactions among residents were mixed. 'I don’t mind paying if it’s proper silence,' said Purvciems resident Sandra Ozoliņa, 42, who said she regularly encounters two to three minutes of calm each morning before the upstairs neighbor begins 'what sounds like reorganizing a drawer full of hammers.' 'But I want transparency. If crows are present, I’m not paying the Premium rate.'
+
+Others were more critical. Retired electrician Juris Kļaviņš said he accidentally exceeded the declaration threshold last Thursday while fishing near Mangaļsala and is now facing a provisional surcharge. 'I was just sitting there, not talking, not moving, like any law-abiding Latvian,' he said. 'Now suddenly they tell me I enjoyed 6 minutes and 11 seconds of Category B serenity. I didn’t even know I was in possession of it.'
+
+To enforce the measure, the city will deploy 18 Acoustic Compliance Inspectors equipped with reflective vests, clipboards, and what procurement documents describe as 'portable atmosphere verification units.' Inspectors will patrol parks, courtyards, libraries, and certain high-performing bus stops, asking residents to provide proof that all calm experienced was either incidental or previously registered.
+
+Business groups have already adapted. A chain of coworking spaces in Riga has begun advertising 'tax-optimized silence packages,' while one Jurmala wellness center now offers offshore quiet by conducting meditation sessions 300 meters into the Gulf of Riga, beyond standard municipal assessment range. The Ministry of Finance has not ruled out extending the model nationally if results are promising.
+
+There are, however, exemptions. Parents of children under seven may claim up to 90 seconds of silence annually without penalty. Residents assembling IKEA furniture are automatically classified under Force Majeure. Meanwhile, all silence occurring during municipal livestreams will remain tax-free 'due to lack of measurable enjoyment.'
+
+By late afternoon, the ManaRīga+ app had crashed after thousands of users attempted to retroactively declare peaceful moments dating back to 2019. City officials urged patience and reminded the public that undeclared tranquility is not a crime on first offense.
+
+'Our goal is not to punish silence,' Bērziņa said. 'Our goal is to ensure it contributes fairly.'
+
+As of press time, several residents in Teika had reportedly begun making small, continuous throat noises in their kitchens to avoid future liability.`,
+      lv: `RĪGA — Tā dēvētajā, ilgi gaidītajā pilsētas akustiskās ekonomikas modernizācijā Rīgas dome otrdien apstiprināja jaunu Klusuma deklarēšanas ietvaru, kas prasa iedzīvotājus ziņot par jebkuru personīgi piedzīvotu klusumu, kas ilgst ilgāk par 47 nepārtrauktām sekundēm.
+
+Saskaņā ar pilotprojektu, kas sāksies septembrī Centrālajā rajonā, Āgenskalnā un «izvēlētajās emocionāli stabilajās» Mežaparka daļās, iedzīvotājiem jāreģistrē nozīmīgas klusuma epizodes pašvaldības mobilajā lietotnē ManaRīga+, kur viņiem tiks piešķirta viena no trim kategorijām: Gadījuma klusums, Pasīvais miers vai Premium klusums ar putnu komponentu.
+
+«Pārāk ilgi klusums tiek patērēts neformāli, nesniedzot ieguldījumu pilsētas uzturēšanā,» žurnālistiem sacīja Pilsētas vibrāciju komitejas vietniece Ilze Bērziņa, stāvot blakus decibelmetram, kas bija apsegts ar pilsētas karogu. «Cilvēki sēž uz balkoniem. Viņi neko nedzird. Viņi jūtas atjaunoti. Un tomēr pašvaldība neredz šo vērtību atgriežamies publiskajā infrastruktūrā.»
+
+61 lappušu skaidrojošajā ziņojumā teikts, ka vidējais rīdzinieks neformāli piedzīvo 14,6 minūtes neregistrēta miera nedēļā, lielāko daļu no tā — kāpņu telpās pēc kaimiņu došanās uz vasarnīcām, tramvajos īsajos brīžos, kad neviens nestrīdas par e-taloniem, un lielveikalos tūlīt pēc ledusskapja bojājuma. Pilsētas analītiķi lēš, ka galvaspilsēta gadā zaudē līdz 8,2 miljoniem eiro nereģistrētā mierā.
+
+Polisi izstrādājuši pēc kopīga pētījuma, ko veica Rīgas Tehniskā universitāte un Lietišķās Baltijas Klusuma institūts. Tajā noskaidrots, ka pilsētas Latvijā klusums vairs nav dabiski rasties spējīgs stāvoklis, bet «premium pilsonisks notikums, kam nepieciešama uzraudzība.» Pētnieki dokumentēja 312 nedeklarētus klusuma momentus visā galvaspilsētā, tostarp pretrunīgi vērtētos 96 sekundes pie Ziedoņdārza, ko viens novērotājs aprakstīja kā «aizdomīgi alpisku.»
+
+Iedzīvotāju reakcijas bija dažādas. «Man nav iebildumu maksāt, ja tas ir īsts klusums,» sacīja Purvciema iedzīvotāja Sandra Ozoliņa, 42 gadi, kura katru rītu regulāri piedzīvo divu līdz trīs minūšu klusumu pirms augšējā kaimiņa sāktā «kaut kas, kas izklausās pēc atvilktnes pārkārtošanas, pilnas ar āmuriem». «Bet es vēlos caurskatāmību. Ja klātesoši ir vārnas, es neesmu gatava maksāt Premium likmi.»
+
+Citi bija kritiskāki. Pensionētais elektriķis Juris Kļaviņš stāstīja, ka pagājušajā ceturtdienā nejauši pārsniedza deklarēšanas slieksni, makšķerējot pie Mangaļsalas, un tagad viņam draud pagaidu piemaksa. «Es tikai sēdēju tur, neteicu ne vārda, nekustējos, kā ikviens likumu cienošs Latvijas pilsonis,» teica viņš. «Un tagad pēkšņi man saka, ka esmu baudījis 6 minūtes un 11 sekundes B kategorijas mieru. Es pat nezināju, ka esmu tāda īpašnieks.»
+
+Lai īstenotu pasākumu, pilsēta izsūtīs 18 Akustiskās atbilstības inspektorus, aprīkotus ar atstarojošām vestēm, rakstāmplāksnēm un, kā iepirkuma dokumentos rakstīts, «portatīvām atmosfēras pārbaudes iekārtām». Inspektori patrulēs parkos, pagalmos, bibliotēkās un noteiktās «augstas veiktspējas» autobusu pieturās, prasot iedzīvotājiem uzrādīt pierādījumu, ka viss piedzīvotais miers bija vai nu gadījuma raksturs, vai iepriekš reģistrēts.
+
+Uzņēmēju grupa jau pielāgojusies. Viena coworkinga telpu tīkla Rīgā sācis reklamēt «nodokļu optimizētas klusuma paketes», savukārt viens Jūrmalas labsajūtas centrs tagad piedāvā «offshore» klusumu, rīkojot meditācijas 300 metru attālumā Rīgas jūras līcī, ārpus standarta pašvaldības novērtēšanas zonas. Finanšu ministrija nav izslēgusi iespēju modeli paplašināt nacionālā mērogā, ja rezultāti būs iepriecinoši.
+
+Tomēr ir izņēmumi. Vecāki ar bērniem līdz septiņu gadu vecumam var pieprasīt līdz 90 sekundēm klusuma gadā bez soda. Iedzīvotāji, kas montē IKEA mēbeles, tiek automātiski klasificēti kā «force majeure». Savukārt viss klusums, kas notiek pašvaldības tiešraidēs, paliks beznodokļu «jo nav izmērāmas baudīšanas.»
+
+Vēlā pēcpusdienā ManaRīga+ lietotne sabruka pēc tam, kad tūkstošiem lietotāju mēģināja retroaktīvi deklarēt miera brīžus, datējot atpakaļ līdz 2019. gadam. Pilsētas amatpersonas aicināja uz pacietību un atgādināja, ka neregistrēts miers pirmajā pārkāpumā nav noziegums.
+
+«Mūsu mērķis nav sodīt klusumu,» sacīja Bērziņa. «Mūsu mērķis ir nodrošināt, ka tas taisnīgi sniedz ieguldījumu.»
+
+Pēc preses laika ziņām vairākas Teikas iedzīvotājas un iedzīvotāji it kā sākuši virtuvēs radīt maigas, nepārtrauktas rīkles skaņas, lai izvairītos no nākotnes atbildības.`,
+      ru: `РИГА — В том, что чиновники называют давно назревшей модернизацией акустической экономики города, Рижская городская дума во вторник одобрила новую Рамочную программу декларирования тишины, требующую от жителей сообщать о любом лично пережитом спокойствии продолжительностью более 47 подряд секунд.
+
+В рамках пилотной схемы, которая начнётся в сентябре в Центральном районе, Āgenskalns и «отобранных эмоционально стабильных участках» Mežaparks, жители должны фиксировать эпизоды значительной тишины через муниципальное мобильное приложение ManaRīga+, где им присвоят одну из трёх категорий: Случайная тишина (Incidental Quiet), Пассивное спокойствие (Passive Calm) или Премиальная тишина с птичьим компонентом (Premium Silence with Bird Component).
+
+«Слишком долго тишина потреблялась неформально, не принося вклада в содержание города», — заявила на брифинге заместитель председателя комитета по городским вибрациям Ilze Bērziņa, стоя рядом с децибелметром, укрытым городским флагом. «Люди сидят на балконах. Они ничего не слышат. Они восстанавливаются. И всё же муниципалитет не получает никакой отдачи от этой ценности на инфраструктуру». 
+
+Согласно 61-страничному пояснительному отчёту, средний рижанин неформально переживает 14,6 минуты нелицензированного покоя в неделю, большая часть которого — в подъездах после того, как соседи уезжают на дачи, в трамваях в короткий промежуток, когда никто не спорит про е-талоны, и в супермаркетах сразу после поломки холодильника. Городские аналитики оценивают, что столица ежегодно теряет до €8,2 млн из-за недекларированного спокойствия.
+
+Политика была разработана после совместного исследования Рижского технического университета и Института прикладного балтийского безмолвия, которое установило, что тишина в городской Латвии уже не является естественным явлением, а представляет собой «премиум-гражданское событие, требующее надзора». Исследователи задокументировали 312 незарегистрированных моментов неподвижности по всей столице, включая спорный 96-секундный интервал у Ziedoņdārzs, который один наблюдатель описал как «подозрительно альпийский».
+
+Реакции жителей разделились. «Я не против заплатить, если это настоящая тишина», — сказала 42-летняя жительница Purvciems Sandra Ozoliņa, которая утверждает, что регулярно встречает по две–три минуты спокойствия каждое утро перед тем, как сосед сверху начинает «то, что звучит как перетасовка ящика, полного молотков». «Но я хочу прозрачности. Если присутствуют вороны, я не плачу премиум-тариф». 
+
+Другие отнеслись критически. Пенсионер-электрик Juris Kļaviņš сказал, что случайно превысил порог декларирования в прошлый четверг, когда рыбачил возле Mangaļsala, и теперь ему грозит временный штраф. «Я просто сидел там, не разговаривал, не двигался, как любой законопослушный латвиец», — пожаловался он. «А теперь вдруг мне говорят, что я наслаждался 6 минутами и 11 секундами Серенитета категории B. Я даже не знал, что у меня это есть». 
+
+Для принудительного исполнения меры город развернёт 18 инспекторов акустического соответствия, оснащённых светоотражающей спецодеждой, папками и тем, что в документах по закупкам описывается как «портативные устройства проверки атмосферы». Инспекторы будут патрулировать парки, дворы, библиотеки и некоторые высокопосещаемые автобусные остановки, прося жителей предоставить доказательства того, что вся испытанная тишина была либо случайной, либо заранее зарегистрированной.
+
+Бизнес уже приспособился. Сеть коворкингов в Риге начала рекламировать «налогооптимизированные пакеты тишины», а один оздоровительный центр в Jūrmala теперь предлагает «офшорную» тишину, проводя сеансы медитации на 300 метров вглубь Рижского залива, за пределами стандартной зоны муниципальной оценки. Министерство финансов не исключило распространения модели на всю страну, если результаты будут обнадёживающими.
+
+Есть, однако, исключения. Родители детей до семи лет могут ежегодно заявлять до 90 секунд тишины без штрафа. Сборка мебели IKEA автоматически классифицируется как форс-мажор. Между тем вся тишина, происходящая во время муниципальных прямых трансляций, останется свободной от налогов «из‑за отсутствия измеримого удовольствия». 
+
+К концу дня приложение ManaRīga+ упало из‑за того, что тысячи пользователей попытались задним числом задекларировать мирные моменты, датируемые 2019 годом. Городские власти призвали к терпению и напомнили, что незадекларированное спокойствие не является преступлением при первом нарушении.
+
+«Наша цель — не наказывать тишину», — сказала Bērziņa. «Наша цель — обеспечить, чтобы она вносила справедливый вклад». 
+
+На момент сдачи материала несколько жителей Teika, по сообщениям, начали издавать мелкие непрерывные кашляющие и глотательные звуки на кухнях, чтобы избежать будущей ответственности.`
+    },
+    date: "Aug 2, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/232/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 231,
     slug: "jrmala-introduces-silent-applause-zones-after-231",
     title: {
@@ -114,7 +213,7 @@ Tikmēr iedzīvotāji ziņo, ka kaijas šķiet netraucētas. Trešdienas rītā 
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/231/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 230,
