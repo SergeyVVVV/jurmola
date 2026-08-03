@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 233,
+    slug: "riga-introduces-polite-pothole-pilot-program-233",
+    title: {
+      en: "Riga Introduces ‘Polite Pothole’ Pilot Program, Asking Drivers to Schedule Emotional Check-Ins Before Impact",
+      lv: "Rīga ievieš pilotprogrammu „Pieklājīgā bedre”, lūdzot vadītājus ieplānot emocionālās pārbaudes pirms trieciena",
+      ru: "Рига запускает пилотную программу «Вежливые ямы»: водителей просят планировать эмоциональные проверки перед ударом"
+    },
+    excerpt: {
+      en: "In an effort to modernize urban mobility while preserving beloved local traditions, Riga officials have unveiled a new pilot program requiring major potholes to be formally registered, named, and equipped with signage encouraging drivers to prepare psychologically before contact. City leaders say the initiative balances infrastructure realism with Baltic emotional transparency.",
+      lv: "Lai modernizētu pilsētas mobilitāti, saglabājot mīļās vietējās tradīcijas, Rīgas amatpersonas atklājušas jaunu pilotprogrammu, kas prasa lielākajām bedrēm oficiālu reģistrāciju, nosaukumu piešķiršanu un zīmes aicinājumam vadītājus psiholoģiski sagatavoties pirms kontakta. Pilsētas vadība apgalvo, ka iniciatīva līdzsvaro infrastruktūras realizmu ar Baltijas emocionālo caurspīdīgumu.",
+      ru: "В стремлении модернизировать городской трафик, не теряя при этом любимых местных традиций, чиновники Риги представили пилотную программу, по которой крупные ямы теперь требуется официально регистрировать, назвать и снабдить табличками с призывом водителям психологически подготовиться перед контактом. Городские власти говорят, что инициатива сочетает инфраструктурный реализм с балтийской эмоциональной прозрачностью."
+    },
+    fullContent: {
+      en: `RIGA — In what municipal leaders are calling a “cost-effective acknowledgment strategy,” the Riga City Council on Tuesday launched a new transport policy under which the capital’s most active potholes will no longer be repaired immediately, but instead classified as “Recurring Road Personalities” and integrated into the city’s digital mobility ecosystem.
+
+Under the pilot program, 47 high-performing potholes in Central Riga, Purvciems, and along a particularly reflective stretch of Brīvības gatve have been mapped, numbered, and given human names to improve public familiarity. Beginning next week, drivers using the city’s traffic app will receive notifications such as: “You are approaching Inga, depth 14 cm, emotionally unpredictable in wet conditions,” and “Haralds has widened since February and may reopen old suspension-related grievances.”
+
+Deputy Mayor for Practical Atmosphere Elīna Caune said the policy reflects a mature shift in how Latvian cities deal with unavoidable phenomena. “For years, our approach to potholes was adversarial,” Caune told reporters while standing beside a cone placed ceremonially near one of the capital’s largest asphalt depressions. “We filled them, they returned. We denied their presence, residents photographed them and added music. At some point, governance must evolve from control to respectful coexistence.”
+
+According to city data, Riga processed 12,406 pothole complaints last winter, though officials clarified that nearly 38% referred to the same six holes “but with different levels of personal betrayal.” The municipality estimates that by naming and documenting them, public anger may fall by up to 17%, while social media engagement could rise as much as 63%.
+
+Residents have already begun adapting. Office administrator Rūdolfs Miezītis, 34, said he now plans his route with greater emotional precision. “Before, a pothole was just a shock,” he said, adjusting a thermos outside a service station in Teika. “Now if I know I’m about to meet Māra near Deglava Street, I can center myself. It brings dignity to the experience.”
+
+Not everyone is convinced. The Latvian Association of Auto Mechanics issued a carefully worded statement warning that anthropomorphizing road damage may create “unhealthy attachment cycles” between drivers and front axle trauma. “We support transparency,” said association board member Gunārs Vilcāns. “But if a customer starts saying, ‘Actually I prefer old Jānis near the railway over the new crater in Ķengarags,’ then society has crossed a line.”
+
+To support the rollout, several potholes will receive small plaques with historical notes. One near the National Library, believed to date back to three separate procurement disputes, has been designated a site of municipal resilience. Another in Ziepniekkalns, unofficially known among taxi drivers as “The Baltic Sea,” will feature QR access to estimated splash radius data and meditative breathing exercises in Latvian, Russian, and English.
+
+The Transport Department has also partnered with local artists to develop a summer cultural event, “Night of the Living Surface Irregularities,” during which selected potholes will be softly illuminated and accompanied by chamber music. Organizers say the event is intended to help residents “reframe disruption as seasonal heritage.”
+
+Opposition councillors criticized the program as symbolic, though several admitted privately that the pilot may be cheaper than roadworks and more honest than annual promises. Meanwhile, insurers are monitoring the initiative closely after one draft proposal suggested offering reduced premiums to motorists who successfully complete an online module titled Recognizing Avoidable Despair at 40 km/h.
+
+At press time, city officials confirmed that one newly registered pothole in Sarkandaugava had already split into two administrative entities, forcing planners to determine whether they qualify as twins, a coalition, or a spontaneous public-private partnership.`,
+      lv: `RĪGA — To, ko domes vadītāji dēvē par “izmaksu efektīvu atzīšanas stratēģiju”, otrdien Rīgas dome uzsāka jaunu satiksmes politiku, saskaņā ar kuru galvaspilsētas aktīvākās bedres vairs netiks uzreiz labotas, bet gan klasificētas kā “atkārtotās ceļu personības” un integrētas pilsētas digitālajā mobilitātes ekosistēmā.
+
+Saskaņā ar pilotprogrammu 47 visaktīvākās bedres Centrālajā Rīgā, Purvciemā un gar īpaši reflektīvu Brīvības gatves posmu ir kartētas, numerētas un piešķirti cilvēvvārdi, lai uzlabotu publisko pazīstamību. Sākot ar nākamo nedēļu, vadītāji, kas lieto pilsētas satiksmes lietotni, saņems paziņojumus, piemēram: “Tu tuvojas Ingai, dziļums 14 cm, mitrā laikā emocionāli nepastāvīga,” un “Haralds kopš februāra ir paplašinājies un var atkal atvērt vecas ar piekari saistītas sūdzības.”
+
+Praktiskās atmosfēras vicemēre Elīna Caune sacīja, ka politika atspoguļo nobriedušu maiņu tajā, kā Latvijas pilsētas risina neizbēgamus fenomēnus. “Gadu garumā mūsu attieksme pret bedrēm bija konfrontējoša,” Caune sacīja žurnālistiem, stāvot blakus konusam, kas ceremonāli novietots pie vienas no galvaspilsētas lielākajām asfalta ieplakām. “Mēs tās aizpildījām, tās atgriezās. Mēs noliegsim to eksistenci, iedzīvotāji tās fotografēja un pievienoja mūziku. Kādā brīdī pārvaldībai jāattīstās no kontroles uz cieņpilnu līdzāspastāvēšanu.”
+
+Pilsētas dati rāda, ka pagājušajā ziemā Rīgā apstrādātas 12 406 bedru sūdzības, lai gan amatpersonas precizēja, ka teju 38% attiecās uz tām pašām sešām bedrēm “bet ar dažādiem personiskās nodevības līmeņiem.” Pašvaldība lēš, ka, piešķirot nosaukumus un dokumentējot tās, sabiedrības niknums varētu samazināties līdz pat 17%, savukārt sociālo tīklu iesaiste varētu pieaugt pat par 63%.
+
+Iedzīvotāji jau sākuši pielāgoties. Biroja administrātors Rūdolfs Miezītis, 34, sacīja, ka tagad plāno maršrutu ar lielāku emocionālo precizitāti. “Agrāk bedre bija tikai satricinājums,” viņš teica, sakārtojot termosu pie servisa stacijas Teikā. “Tagad, ja zinu, ka drīz satikšu Māru pie Deglava ielas, varu sevi centrēt. Tas piešķir pieredzei cieņu.”
+
+Ne visi ir pārliecināti. Latvijas Automehāniķu asociācija izplatīja rūpīgi noformulētu paziņojumu, brīdinot, ka ceļa bojājumu antropomorfizēšana var radīt “neveselīgas piesaistes ciklus” starp vadītājiem un priekšējās asis traumām. “Mēs atbalstām caurspīdīgumu,” sacīja asociācijas valdes loceklis Gunārs Vilcāns. “Bet, ja klients sāks teikt: ‘Patiesībā es dodu priekšroku vecajam Jānim pie dzelzceļa nekā jaunajam krāterim Ķengaragā,’ tad sabiedrība ir pārkāpusi robežu.”
+
+Lai atbalstītu ieviešanu, vairākām bedrēm tiks uzstādītas nelielas plāksnītes ar vēsturiskām piezīmēm. Viena netālu no Nacionālās bibliotēkas, kuras izcelsme tiek saistīta ar trim atsevišķiem iepirkumu strīdiem, ir noteikta par pašvaldības noturības vietu. Otra Ziepniekkalnā, taksometru vadītāju neformāli saukta par “Baltijas jūru”, tiks aprīkota ar QR kodu, kas dod piekļuvi aptuvenajiem šļakatu rādiusa datiem un meditējošajām elpošanas vingrinājumu versijām latviešu, krievu un angļu valodā.
+
+Satiksmes departaments arī sadarbojies ar vietējiem māksliniekiem, lai izstrādātu vasaras kultūras pasākumu “Dzīvo virsmas nelīdzenību nakts”, kuras laikā izvēlētās bedres tiks maigi apgaismotas un pavadītas ar kameransambļa mūziku. Organizatori saka, ka pasākums paredzēts, lai palīdzētu iedzīvotājiem “pārrāmēt traucējumu kā sezonālu mantojumu.”
+
+Oppozīcijas domnieki kritizēja programmu kā simbolisku, lai gan vairāki privāti atzina, ka pilots varētu būt lētāks nekā ceļu remonts un godīgāks par ikgadējiem solījumiem. Tikmēr apdrošinātāji cieši vēro iniciatīvu pēc tam, kad viens darba variants piedāvāja samazinātas prēmijas autovadītājiem, kuri veiksmīgi pabeidz tiešsaistes moduli ar nosaukumu “Atpazīt izvairāmos izmisumus pie 40 km/h.”
+
+Preses brīdī pilsētas amatpersonas apstiprināja, ka viena nesen reģistrēta bedre Sarkandaugavā jau sadalījusies divās administratīvās vienībās, piespiežot plānotājus lemt, vai tās kvalificējas kā dvīņi, koalīcija vai spontāna publiski privāta partnerība.`,
+      ru: `РИГА — В том, что муниципальные лидеры называют «экономичной стратегией признания», Рижская дума во вторник запустила новую транспортную политику, согласно которой наиболее «работающие» ямы столицы больше не будут немедленно заделываться, а будут классифицированы как «Повторяющиеся дорожные личности» и интегрированы в цифровую экосистему мобильности города.
+
+В рамках пилота 47 особо знаменитых ям в центре Риги, Пурвциемсе и вдоль особенно отражающего участка Brīvības gatve были нанесены на карту, пронумерованы и получили человеческие имена для улучшения общественной узнаваемости. Начиная со следующей недели, водители, использующие городской трафик-приложение, будут получать уведомления вроде: «Вы приближаетесь к Inga, глубина 14 см, эмоционально непредсказуема в мокрую погоду» и «Haralds расширился с февраля и может возродить старые обиды подвески».
+
+Заместитель мэра по практической атмосфере Элина Цауне сказала, что политика отражает зрелый сдвиг в том, как латвийские города справляются с неизбежными явлениями. «Годы мы вели себя по отношению к ямам словно враждебно», — сказала Цауне репортёрам, стоя рядом с конусом, торжественно установленным около одной из крупнейших ям в столице. «Мы заделывали их — они возвращались. Мы отрицали их существование, жители фотографировали их и добавляли музыку. В какой-то момент управление должно эволюционировать от контроля к уважительному сосуществованию».
+
+По данным города, прошлой зимой в Риге было обработано 12 406 жалоб на ямы, при этом чиновники уточнили, что почти 38% жалоб касались одних и тех же шести ям «но с разными уровнями личного предательства». Муниципалитет оценивает, что именование и документирование может снизить общественный гнев до 17%, а вовлечённость в соцсетях может вырасти до 63%.
+
+Жители уже начинают адаптироваться. Офисный администратор Рудольфс Миезитис, 34 года, сказал, что теперь планирует маршрут с большей эмоциональной точностью. «Раньше яма была просто шоком», — сказал он, подправляя термос у автомойки в Тейке. «Теперь, если я знаю, что собираюсь встретиться с Māra у улицы Deglava, я могу настроиться. Это придаёт опыту достоинство».
+
+Не все убеждены. Латвийская ассоциация автомехаников выпустила выверенное заявление, предупреждающее, что одушевление дорожных повреждений может создать «нездоровые циклы привязанности» между водителями и травмами передней оси. «Мы поддерживаем прозрачность», — сказал член правления ассоциации Гунарс Вилцанс. «Но если клиент начнёт говорить: „На самом деле я предпочитаю старого Jānis у железной дороги старому кратеру в Ķengarags“, то общество перешло черту».
+
+В поддержку запуска нескольким ямам установят небольшие таблички с историческими заметками. Одна возле Национальной библиотеки, по мнению специалистов, возникшая в результате трёх отдельных споров по закупкам, объявлена местом муниципальной стойкости. Другая в Зиепниеккалнсе, неофициально известная среди таксистов как «Балтийское море», получит QR-код с доступом к данным об ожидаемом радиусе брызг и медитативным дыхательным упражнениям на латышском, русском и английском.
+
+Транспортный департамент также сотрудничает с местными художниками в разработке летнего культурного мероприятия «Ночь живых неровностей поверхности», во время которого избранные ямы будут мягко подсвечены и сопровождаемы камерной музыкой. Организаторы говорят, что событие призвано помочь жителям «переосмыслить нарушение как сезонное наследие».
+
+Оппозиционные депутаты раскритиковали программу как символическую, хотя несколько из них в частных беседах признались, что пилот может оказаться дешевле дорожных работ и честнее ежегодных обещаний. Тем временем страховщики внимательно следят за инициативой после того, как один из проектных предложений предполагал снижение страховых взносов для водителей, успешно прошедших онлайн-модуль «Распознавание избегаемого отчаяния на скорости 40 км/ч».
+
+К моменту публикации городские чиновники подтвердили, что одна вновь зарегистрированная яма в Саркандаугаве уже разделилась на два административных образования, заставив планировщиков решать, считаются ли они близнецами, коалицией или спонтанным государственно-частным партнёрством.`
+    },
+    date: "Aug 3, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/233/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 232,
     slug: "riga-introduces-municipal-silence-tax-after-232",
     title: {
@@ -114,7 +195,7 @@ Pēc preses laika ziņām vairākas Teikas iedzīvotājas un iedzīvotāji it k�
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/232/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 231,
