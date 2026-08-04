@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 234,
+    slug: "jrmala-introduces-quiet-luxury-siren-to",
+    title: {
+      en: "Jūrmala Introduces ‘Quiet Luxury Siren’ to Alert Residents That Someone Nearby Is Enjoying Themselves Too Loudly",
+      lv: "Jūrmala ievieš 'klusās greznības sirēnu', lai brīdinātu iedzīvotājus, ka kāds tuvumā pārāk skaļi izklaidējas",
+      ru: "Юрмала вводит «сирену тихой роскоши», чтобы предупреждать жителей, что рядом кто‑то слишком громко веселится"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have unveiled a new coastal warning system designed to preserve the city’s signature atmosphere of tasteful, medium-volume dissatisfaction. The so-called “quiet luxury siren” will sound whenever laughter exceeds acceptable decibel levels near premium pine forest properties.",
+      lv: "Jūrmalas pašvaldības amatpersonas atklājušas jaunu piekrastes brīdināšanas sistēmu, kas izstrādāta, lai saglabātu pilsētas raksturīgo, gaumīgo, vidēja apjoma neapmierinātības atmosfēru. Tā dēvētā \"klusās greznības sirēna\" skanēs katru reizi, kad smiekli netālu no ekskluzīvajām priežu meža īpašībām pārsniegs pieļaujamo decibelu līmeni.",
+      ru: "Муниципальные власти Юрмалы представили новую прибрежную систему предупреждения, призванную сохранить фирменную атмосферу города — изысканное, среднегромкое недовольство. Так называемая «сирена тихой роскоши» будет срабатывать всякий раз, когда смех превышает допустимый уровень децибел рядом с фешенебельными сосновыми владениями."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders say will modernize public order while preserving Jūrmala’s delicate ecosystem of inherited linen, restrained applause, and disapproving cycling, municipal officials on Tuesday introduced a new “quiet luxury siren” system intended to notify residents when somebody in their vicinity appears to be having too much fun.
+
+The initiative, officially titled the Seasonal Acoustic Moderation Pilot Program, was approved after a 7-hour council session during which members reviewed audio samples of “problematic merriment,” including beach volleyball cheering, spontaneous birthday singing, and one recording of a man saying “this is actually affordable” at a café on Jomas Street.
+
+Under the new rules, bronze speaker columns disguised as minimalist Scandinavian sculpture have been installed every 180 meters from Dzintari to Melluži. When local sensors detect laughter above 62 decibels, flip-flops striking pavement in an overly festive rhythm, or a group of more than four Estonians visibly relaxing at once, the system emits a low, elegant chime followed by a recorded voice saying, in Latvian, Russian, and polite English, “Please remember where you are.”
+
+“This is not about punishment,” said Jūrmala Deputy Executive Director for Seasonal Atmosphere Ilze Vaivode, standing beside a dune while technicians calibrated a sensor using a prosecco brunch. “It is about maintaining balance. Jūrmala has always offered a very specific promise: pine air, sea breeze, and the subtle awareness that someone richer than you is annoyed. We are simply protecting that heritage.”
+
+City data suggests the problem has worsened in recent summers. According to a municipal report, unregulated enjoyment increased by 14.3% between June and August of last year, driven largely by day-trippers from Riga, visiting digital nomads who sat cross-legged in public, and one unusually extroverted Lithuanian family whose board game night near Bulduri Station prompted 27 separate calls to authorities.
+
+Residents in the quieter villa districts welcomed the measure. “Last July I heard active delight from across the street at 21:40,” said local homeowner and shell company beneficiary Artūrs Feldmanis, adjusting a cashmere cardigan despite the heat. “At first I thought it was a medical event. But no, it was merely people enjoying grilled corn. There must be standards.”
+
+Business owners expressed cautious support, provided the regulation distinguishes between unacceptable noise and premium noise. “Champagne uncorking should obviously remain exempt,” said restaurateur Sabīne Lāce, who operates an oyster terrace near Majori beach. “But if somebody opens a can with a loud click and then says ‘cheers, bro,’ then yes, I think the public has a right to be warned.”
+
+To refine the technology, city contractors worked with acoustic engineers from Riga Technical University and two former nightclub doormen now described in procurement documents as “vibe auditors.” The resulting algorithm reportedly can differentiate between acceptable sounds — such as distant jazz, diplomatic infidelity, and expensive dogs sneezing — and prohibited acoustic events like chanting, budget fireworks, or sincere dancing.
+
+Not everyone is convinced. Civil liberties group Free Coast Latvia has criticized the program after early testing led to false positives, including one incident in which a yoga instructor was flagged for “excessively triumphant exhaling,” and another in which the siren activated during a child’s first sighting of the sea. The city has defended both interventions as “regrettable but culturally consistent.”
+
+Officials say the pilot will run through September, after which the council will consider expanding the system with wearable alerts for homeowners and a mobile app that allows residents to report nearby enthusiasm in real time. If successful, the model could be exported to other high-sensitivity municipalities across the Baltics.
+
+At press time, the siren had reportedly sounded six times during its opening ceremony, including once when a vice mayor described the project as “fun.”`,
+      lv: `JŪRMALA — Pilsētas vadība otrdien atklāja jaunu "klusās greznības sirēnu" sistēmu, ko viņi sauc par soli, kas modernizē sabiedrisko kārtību, vienlaikus saglabājot Jūrmalas smalko ekosistēmu, kurā dominē mantotais lina audums, atturīgā aplausu kultūra un nosodoši riteņbraucēji. Sistēma paredzēta, lai paziņotu iedzīvotājiem, kad kāds viņu tuvumā acīmredzami pārāk daudz priecājas.
+
+Iniciatīva, oficiāli nosaukta par Sezonālās akustiskās moderācijas pilotprogrammu, tika apstiprināta pēc septiņu stundu domes sēdes, kuras laikā deputāti klausījās audio paraugus ar "problemātisku priekpilnību", tai skaitā pludmales volejbola ovācijām, spontānām dzimšanas dienas dziesmām un vienu ierakstu, kurā vīrietis uzkāpjot Jomas ielas kafejnīcā teica: "tas patiesībā ir pieejams".
+
+Saskaņā ar jaunajiem noteikumiem no Dzintariem līdz Mellužiem ik pēc 180 metriem uzstādīti bronzas skaļruņu stabi, kas iekrāsoti par minimālisma skandināvu skulptūru. Kad vietējie sensori konstatē smieklus virs 62 decibeliem, šļupenes čīkstēšanu uz asfalta pārāk svinīgā ritmā vai grupu ar vairāk nekā četriem igauņiem, kuri vienlaikus acīmredzami atslābinās (jebkurā gadījumā — ja vairāk nekā četri cilvēki relaksējas uzreiz), sistēma emitē zemu, elegantu skaņu signālu, kam seko ierakstīts balsis latviešu, krievu un pieklājīgā angļu valodā: "Lūdzu, atcerieties, kur atrodaties."
+
+"Tā nav sodīšana," sacīja Jūrmalas Sezonālās atmosfēras izpilddirektores vietniece Ilze Vaivode, stāvot pie kāpas, kamēr tehniķi kalibrēja sensoru, lietojot prosecco branču. "Tā ir par līdzsvara uzturēšanu. Jūrmala vienmēr ir solījusi ļoti konkrētu lietu: priežu gaiss, jūras vējiņš un smalkā apziņa, ka kāds bagātāks par tevi ir saniknots. Mēs vienkārši aizsargājam šo mantojumu."
+
+Pilsētas dati liecina, ka problēma vasarās pasliktinājusies. Pēc pašvaldības ziņojuma nekontrolēta izklaide pagājušā gada jūnijā–augustā pieauga par 14,3%, ko lielā mērā izraisīja dienas ceļotāji no Rīgas, digitālie nometnieki, kas sasēdās sakrustotām kājām publiskās vietās, un viena neparasti ekstraverta lietuviešu ģimene, kuras galda spēļu vakars pie Bulduru stacijas izraisīja 27 atsevišķus zvanu pie policijas.
+
+Klusu villu rajonu iedzīvotāji šo pasākumu uzņēma ar atplestām rokām. "Pagājušā jūlijā es dzirdēju aktīvu sajūsmu no pretējā ielas gala 21:40," sacīja vietējais mājas īpašnieks un tukša uzņēmuma labuma saņēmējs Artūrs Feldmanis, uzvelkot kašmira kardiganu, neraugoties uz karstumu. "Sākumā domāju, ka tas ir medicīnisks gadījums. Bet nē — tas vienkārši bija cilvēku prieks par grilētu kukurūzu. Tam jābūt standartu līmenī."
+
+Uzņēmēji pauda piesardzīgu atbalstu, uzsverot, ka regulējumam jāšķiro nepieņemami trokšņi no premium trokšņiem. "Šampanieša atvēršana, protams, jāatstāj izņēmumā," sacīja restorāna īpašniece Sabīne Lāce, kura vada austeru terasi pie Majoru pludmales. "Bet ja kāds atver bundžu ar skaļu klikšķi un pēc tam saka 'priekā, brāl', tad jā, publiskajai drošībai ir tiesības tikt brīdinātai."
+
+Lai tehnoloģiju pilnveidotu, pilsētas līgumslēdzēji strādāja kopā ar akustikas inženieriem no Rīgas Tehniskās universitātes un diviem bijušajiem naktsklubu durvju sargiem, kas iepirkuma dokumentos aprakstīti kā "noskaņas auditori". Rezultātā izveidotais algoritms spējot atšķirt pieļaujamās skaņas — piemēram, tālu džezu, diplomātisku neuzticību un dārgus suņus, kas šķauda — no aizliegtām akustiskām parādībām, kā skandēšana, lētas uguņošanas vai patiesa dejošana.
+
+Ne visi ir pārliecināti par sistēmu. Pilsonisko brīvību grupa Brīvā Krasta Latvija kritizējusi programmu pēc sākotnējām pārbaudēm, kurās bijuši viltus trauksmes signāli, tostarp gadījums, kad jogas instruktors tika iezīmēts par "pārmērīgi triumfālu izelpošanu", un vēl viens, kad sirēna aktivizējās bērna pirmajā saskatīšanā ar jūru. Pilsēta aizstāvēja abas iejaukšanās kā "nožēlojamas, bet kulturāli saskanīgas."
+
+Amatpersonas norāda, ka pilots turpinās līdz septembrim, pēc tam dome izskats iespēju paplašināt sistēmu ar valkājamām brīdinājumu ierīcēm māju īpašniekiem un mobilo lietotni, kas ļautu iedzīvotājiem reāllaikā ziņot par tuvumā esošu entuziasmu. Ja projekts būs veiksmīgs, modeli varētu eksportēt uz citām augstas jūtības pašvaldībām visā Baltijā.
+
+Pēc ziņošanas brīža sirēna atklāšanas ceremonijas laikā, kā ziņots, bija skaņojusies sešas reizes, tostarp vienā brīdī, kad vietnieks mērs projekta raksturoja kā "jautru."`,
+      ru: `ЮРМАЛА — В попытке модернизировать общественный порядок, не разрушив хрупкую экосистему унаследованного льняного белья, сдержанных аплодисментов и неодобрительного велоезды, муниципальные чиновники во вторник представили новую систему «сирена тихой роскоши», призванную уведомлять жителей, когда кто‑то в их окрестности, по всей видимости, получает слишком много удовольствия.
+
+Инициатива, официально названная «Пилотная программа сезонной акустической модерации», была одобрена после семичасового заседания совета, в ходе которого члены прослушали аудиозаписи «проблематичного веселья», включая аплодисменты на пляжном волейболе, спонтанное исполнение «С днём рождения» и одну запись, где мужчина в кафе на улице Йомас произнёс: «это вообще‑то недорого». 
+
+По новым правилам по всей линии от Дзинтари до Меллужи через каждые 180 метров установлены бронзовые колонны‑громкоговорители, замаскированные под минималистскую скандинавскую скульптуру. Когда местные датчики фиксируют смех свыше 62 децибел, шлёпанцы, бьющиеся о тротуар в чрезмерно праздничном ритме, или группу из более чем четырёх эстонцев, одновременно заметно расслабившихся, система издаёт низкий элегантный звон, за которым следует записанный голос на латышском, русском и учтивом английском: «Пожалуйста, помните, где вы находитесь.»
+
+«Речь не о наказании», — сказала заместитель исполнительного директора по сезонной атмосфере Юрмалы Илзе Вайводе, стоя у дюны, пока техники калибровали датчик за бранчем с просекко. «Речь о сохранении баланса. Юрмала всегда давала очень специфическое обещание: сосновый воздух, морской бриз и тонкое осознание того, что кто‑то богаче вас раздражён. Мы просто защищаем это наследие.»
+
+Городская статистика показывает, что проблема усугубилась в последние лета. Согласно муниципальному отчёту, неуправляемое наслаждение выросло на 14,3% в период с июня по август прошлого года, в основном за счёт однодневных туристов из Риги, цифровых кочевников, сидевших в публичных местах по‑турецки, и одной необычно экстравертной литовской семьи, чьи настольные игры возле станции Булдури привели к 27 отдельным вызовам в органы власти.
+
+Жители более тихих вилльных кварталов приветствовали меру. «В июле прошлого года я услышал активную радость с той стороны улицы в 21:40», — сказал местный домовладелец и бенефициар компании‑оболочки Артурс Фелдманис, поправляя кашемировый кардиган несмотря на жару. «Сначала я подумал, что это медицинское событие. Но нет — это были просто люди, наслаждающиеся кукурузой на гриле. Должны быть стандарты.»
+
+Предприниматели выразили осторожную поддержку при условии, что регуляция будет различать недопустимый шум и «премиальный» шум. «Откупоривание шампанского, разумеется, должно оставаться исключением», — сказала ресторатор Сабине Лаце, владелица устричной террасы у пляжа Майори. «Но если кто‑то с громким щелчком открыл банку и потом сказал «cheers, bro», то да, общество имеет право быть предупреждённым.»
+
+Для отработки технологии городские подрядчики сотрудничали с акустиками из Рижской технической университета и двумя бывшими портье ночных клубов, ныне в документации по закупкам описываемыми как «аудиторы вайба». Получившийся алгоритм, по сообщениям, умеет отличать допустимые звуки — например, далёкий джаз, дипломатические измены и чихание дорогих собак — от запрещённых акустических явлений вроде скандирования, дешёвых фейерверков или искренних танцев.
+
+Не все в восторге. Гражданская группа «Свободный берег Латвии» раскритиковала программу после ранних испытаний, приведших к ложным срабатываниям, включая инцидент, когда инструктора по йоге пометили за «чрезмерно триумфальное выдыхание», и другой случай, когда сирена сработала при первом в жизни ребёнка виде моря. Город отстаивает оба вмешательства как «прискорбные, но культурно последовательные».
+
+Чиновники говорят, что пилот продлится до сентября, после чего совет рассмотрит возможность расширения системы — носимыми оповещениями для домовладельцев и мобильным приложением, позволяющим жителям в реальном времени сигналить о соседнем энтузиазме. Если модель окажется успешной, её могут экспортировать в другие высокочувствительные муниципалитеты по всему Балтийскому региону.
+
+На момент выхода материала сообщалось, что сирена прозвучала шесть раз во время церемонии открытия, в том числе один раз, когда вице‑мэр описал проект как «fun».`
+    },
+    date: "Aug 4, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/234/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 233,
     slug: "riga-introduces-polite-pothole-pilot-program-233",
     title: {
@@ -96,7 +183,7 @@ Preses brīdī pilsētas amatpersonas apstiprināja, ka viena nesen reģistrēta
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/233/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 232,
