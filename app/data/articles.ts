@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 235,
+    slug: "riga-introduces-official-municipal-silence-hours-235",
+    title: {
+      en: "Riga Introduces Official Municipal Silence Hours After Residents Complain City’s Birds ‘Speaking Too Casually’",
+      lv: "Rīga ievieš oficiālas pašvaldības klusuma stundas pēc iedzīvotāju sūdzībām, ka pilsētas putni „runā pārāk neformāli”",
+      ru: "Рига вводит официальные муниципальные часы тишины после жалоб жителей, что городские птицы «слишком фамильярно разговаривают»"
+    },
+    excerpt: {
+      en: "In a pilot program announced Tuesday, Riga City Council approved the country’s first municipally regulated silence hours for non-essential urban wildlife after residents in the Quiet Centre district reported that local birds had adopted an “increasingly informal tone.” Officials say the measure will restore acoustic dignity while preserving Latvia’s constitutional right to passive-aggressive outdoor observation.",
+      lv: "Pilotprogrammā, kas izziņota otrdien, Rīgas dome apstiprināja valsts pirmās pašvaldības regulētās klusuma stundas nešķirotai pilsētas faunai pēc tam, kad Klusā centra iedzīvotāji ziņoja, ka vietējie putni ir pieņēmuši „arvien neformālāku toni”. Iestādes saka, ka mērs atjaunos akustisko cienījumu, vienlaikus saglabājot Latvijas konstitucionālo tiesību uz pasīvi-agresīvu vērošanu ārā.",
+      ru: "В пилотной программе, объявленной во вторник, Рижская городская дума утвердила первые в стране муниципально регулируемые часы тишины для ненасущной городской фауны после того, как жители района Тихий Центр пожаловались, что местные птицы перешли на «всё более неформальный тон». По словам чиновников, мера восстановит акустическое достоинство и сохранит конституционное право Латвии на пассивно-агрессивное наблюдение на свежем воздухе."
+    },
+    fullContent: {
+      en: `RIGA — In what urban planners are calling a measured response to a highly specific civic concern, Riga City Council has voted 38–19 to implement official Silence Hours for birds, squirrels, and “other unsolicited conversational fauna” in several central neighborhoods beginning 1 September.
+
+The decision follows months of complaints from residents of the Quiet Centre, who say the city’s blackbirds, gulls, and sparrows have become “too familiar” in their morning vocalizations, with some alleging that recent chirping patterns carry “the energy of men discussing cryptocurrency at a brunch place.”
+
+Under the new rules, birds in designated municipal zones will be expected to maintain reduced commentary between 07:30 and 10:00 on weekdays, with stricter standards near embassy buildings, architecture schools, and certain apartment courtyards in which one person has lived since 1964 and disapproves of all novelty.
+
+“This is not anti-bird,” Deputy Chair of Environmental Order Affairs Linda Ozoliņa said at a press briefing held beside a decorative shrub that had been temporarily netted for compliance reasons. “Riga remains a European capital of biodiversity. But biodiversity must understand boundaries. We are simply asking urban wildlife to express itself with greater professionalism.”
+
+The city’s 41-page guidance document, Acoustically Responsible Coexistence Framework 2026–2028, classifies bird sounds into three categories: acceptable, excessive, and needlessly personal. Long trills before 08:00 will now be subject to review, while repetitive cawing near tram stops may trigger on-site mediation by municipal ecology coordinators.
+
+To support enforcement, the council has allocated €842,000 for a network of “ornithological decibel posts” in Mežaparks, Āgenskalns, and parts of central Riga. The devices, manufactured by a Jelgava startup better known for smart saunas, will distinguish between mating calls, territorial signals, and “vocal conduct likely to be interpreted as mockery by humans over 45.”
+
+Residents interviewed Tuesday expressed cautious optimism. “I don’t mind nature,” said Elīna Vītola, 57, a translator from Alberta iela. “But lately one crow sits outside my kitchen window at 6:12 every morning and delivers what I can only describe as commentary. Yesterday it made three short sounds exactly when I burned my syrniki. That is no longer wilderness. That is editorial.”
+
+Not everyone supports the plan. The Latvian Ornithological Society released a statement warning that the regulations risk criminalizing ordinary bird behavior and could create a two-tier soundscape privileging “approved silence over authentic ecosystem participation.” The group’s chairman, Dr. Mārtiņš Skuja, said there is no scientific evidence that birds are becoming more casual, though he conceded that urban gulls in particular have shown “a troubling confidence around baked goods and emotional boundaries.”
+
+In Jurmala, where seasonal disputes over leaf blowers, dune etiquette, and distant bass have long shaped local politics, officials said they are monitoring Riga’s experiment closely. A spokesperson for the Jurmala City Development Committee confirmed that a similar coastal proposal would focus less on birds and more on “seagulls behaving as if they own premium beachfront property, which increasingly, in spirit, they do.”
+
+The Ministry of Culture has also entered the debate, suggesting that if managed correctly, Latvia could market its quieter avian environments as a form of wellness tourism. Draft promotional slogans reportedly include “Hear Yourself Age Gracefully” and “Visit Riga: Our Birds Know When To Stop.”
+
+Despite criticism, city officials insist the policy reflects public demand. A municipal survey of 2,700 residents found that 63% support some form of wildlife tone moderation, 21% oppose government interference in birdsong, and 16% said they had never trusted magpies and appreciated finally being asked.
+
+As dusk fell over the capital Tuesday evening, life continued much as usual. Trams rattled, café terraces filled, and a single pigeon outside the council building stared at passersby in a manner several witnesses described as “openly noncompliant.”`,
+      lv: `RĪGA — To, ko pilsētvides plānotāji dēvē par mērenu reakciju uz ļoti specifisku civisku bažu loku, Rīgas domes sēdē ar 38–19 nobalsoja par oficiālo Klusuma stundu ieviešanu putniem, vāverēm un "citai nepasūtītai sarunu faunai" vairākos centrālajos kvartālos, sākot no 1. septembra.
+
+Lēmums seko mēnešiem ilgušām sūdzībām no Klusā centra iedzīvotājiem, kuri saka, ka pilsētas melnputni, kaijas un zīlītes savās rīta vokalizācijās kļuvuši "pārāk pazīstami", un daži apgalvo, ka jaunie čivināšanas modeļi nes ‘‘vīru enerģiju, kas diskusē par kriptovalūtām pie brunch vietas’’. 
+
+Saskaņā ar jaunajiem noteikumiem putniem noteiktajās pašvaldības zonās būs sagaidāms ierobežotāks komentāru apjoms darba dienu rītos no plkst. 07:30 līdz 10:00, ar stingrākiem standartiem pie vēstniecību ēkām, arhitektūras skolām un dažiem daudzdzīvokļu pagalmiem, kuros viena persona dzīvo kopš 1964. gada un nosoda visu jauninājumu.
+
+"Tas nav pretputnu politika," preses brīfingā pie dekoratīva krūma, kas uz laiku bija noiets ar sietu atbilstības nodrošināšanas dēļ, sacīja Vides kārtības lietu priekšsēdētājas vietniece Linda Ozoliņa. "Rīga joprojām ir Eiropas bioloģiskās daudzveidības galvaspilsēta. Bet bioloģiskajai daudzveidībai jāzina robežas. Mēs vienkārši lūdzam pilsētas faunu izteikties ar lielāku profesionalitāti."
+
+Pilsētas 41 lappušu vadlīniju dokuments "Akustiski atbildīgas līdzābūšanas ietvars 2026.–2028." klasificē putnu skaņas trīs kategorijās: pieņemamas, pārmērīgas un bezjēdzīgi personiskas. Garas trillas pirms plkst. 08:00 tagad būs pakļautas pārskatīšanai, bet atkārtots kraukšķis pie tramvaja pieturām var izsaukt vietēju mediāciju, ko vadīs pašvaldības ekologu koordinatori.
+
+Lai nodrošinātu uzraudzību, dome atvēlēja 842 000 € tīklam ar "ornitoloģiskajiem decibelu posteņiem" Mežaparkā, Āgenskalnā un daļā centrālās Rīgas. Ierīces, ko ražo Jelgavas startaps, kas vairāk pazīstams ar viedajām pirtīm, spēs atšķirt vairošanās saucienus, teritoriālos signālus un "balss uzvedību, ko cilvēki vecāki par 45 gadiem, visticamāk, tulkotu kā izsmieklu." 
+
+Otrdienas intervijās iedzīvotāji izrādīja piesardzīgu optimismu. "Man daba netraucē," sacīja 57 gadus vecā tulkotāja Elīna Vītola no Alberta ielas. "Bet pēdējā laikā viens krauklis katru rītu plkst. 6:12 sēž pie manas virtuves loga un sniedz to, ko es varu vienīgi dēvēt par komentāru. Vakar tas izlaida trīs īsus signālus tieši tajā brīdī, kad es piededzināju savus syrniki. Tas vairs nav mežonīgums. Tas ir redakcionāls komentārs."
+
+Ne visi plānu atbalsta. Latvijas Ornitoloģijas biedrība izplatīja paziņojumu, brīdinot, ka noteikumi riskē kriminalizēt parastu putnu uzvedību un var radīt divu līmeņu skaņu ainavu, kas priekšrocība piešķir "apstiprinātam klusumam pār autentisku ekosistēmas līdzdalību." Biedrības priekšsēdētājs Dr. Mārtiņš Skuja sacīja, ka nav zinātnisku pierādījumu, ka putni kļūtu „neformālāki”, lai gan viņš atzina, ka pilsētas kaijas īpaši ir izrādījušas "raizējošu pārliecību attiecībā uz ceptiem izstrādājumiem un emocionālajām robežām." 
+
+Jūrmalā, kur sezonālas domstarpības par lapu pūtējiem, kāpu etiķeti un tālā basu skaņām sen jau ietekmē vietējo politiku, amatpersonas paziņoja, ka uzmanīgi vēro Rīgas eksperimentu. Jūrmalas pilsētas attīstības komitejas pārstāvis apstiprināja, ka līdzīgs piekrastes priekšlikums vairāk koncentrēsies ne tik daudz uz putniem kā uz "kaijām, kas uzvedas tā, it kā viņas piederētu prestižai pludmales īpašumam, kas, garīgā ziņā, arvien vairāk tā arī ir."
+
+Kultūras ministrija arī iesaistījusies diskusijā, norādot, ka pareizi pārvaldīta klusāka putnu vide varētu tikt tirgota kā labsajūtas tūrisms. Sagatavotie reklāmas saukļi, kā ziņots, iekļauj "Uzklausi, kā skaisti novecot" un "Apciemo Rīgu: mūsu putni zina, kad apstāties." 
+
+Neskatoties uz kritiku, pilsētas amatpersonas uzsver, ka politika atspoguļo sabiedrības pieprasījumu. Pašvaldības aptauja ar 2 700 respondentu parādīja, ka 63% atbalsta kādu formu faunas toni ierobežošanas, 21% iebilst pret valsts iejaukšanos putnu dziesmā, un 16% sacīja, ka nekad nav uzticējušies žagatai un novērtē, ka beidzot viņus tiek pajautāts.
+
+Kad otrdienas vakarā pār galvaspilsētu nolaidās krēslas drāna, dzīve turpinājās gandrīz ierastajā režīmā. Tramvaji čirkstēja, kafejnīcu terases piepildījās, un viens vienīgs balodis pie domes ēkas skatījās uz garāmgājējiem tādā veidā, ko vairāki liecinieki raksturoja kā „atklāti nepaklausīgu”.`,
+      ru: `РИГА — То, что градостроители называют взвешенным ответом на весьма конкретную гражданскую обеспокоенность, Рижская городская дума проголосовала 38–19 за введение официальных Часов Тишины для птиц, белок и «прочей нежелательной разговорной фауны» в нескольких центральных кварталах с 1 сентября.
+
+Решение последовало за месяцами жалоб от жителей Тихого Центра, которые заявляли, что дрозды, чайки и воробьи в городе стали «чересчур фамильярными» в своих утренних вокализациях, а некоторые утверждали, что недавние мотивы щебета несут в себе «энергию мужчин, обсуждающих криптовалюту в бранч-клубе».
+
+По новым правилам птицы в обозначенных муниципальных зонах должны будут сокращать комментарии с 07:30 до 10:00 в будние дни; более строгие стандарты действуют вблизи посольств, архитектурных вузов и в отдельных дворах жилых домов, где с 1964 года живёт один человек, несущепривыкший ко всему новому.
+
+«Это вовсе не антитопление в отношении птиц», — сказала на брифинге у декоративного куста, временно окутанного сеткой в целях соблюдения, заместитель председателя по делам экологического порядка Линда Озолина. — «Рига остаётся европейской столицей биоразнообразия. Но биоразнообразие должно понимать границы. Мы просто просим городскую фауну выражаться более профессионально».
+
+41‑страничный руководящий документ города «Рамки акустически ответственного сосуществования 2026–2028» классифицирует птичьи звуки на три категории: приемлемые, чрезмерные и излишне личные. Длительные трели до 08:00 теперь будут подлежать проверке, а повторяющееся карканье у трамвайных остановок может привести к выездной медиации муниципальных координаторов по экологии.
+
+Для обеспечения исполнения дума выделила 842 000 евро на сеть «орнитологических децибел‑постов» в Межапарке, Агенскалнсе и в частях центральной Риги. Устройства, произведённые елгавским стартапом, более известным своими умными саунами, будут отличать брачные крики, территориальные сигналы и «вокальное поведение, способное быть истолковано людьми старше 45 лет как насмешка».
+
+Жители, опрошенные во вторник, выразили осторожный оптимизм. «Я не против природы», — сказала Элина Витола, 57 лет, переводчица с улицы Альберта. — «Но в последнее время один ворон садится за моим кухонным окном ровно в 6:12 и выдаёт то, что я могу описать лишь как комментарий. Вчера он издал три коротких звука ровно в тот момент, когда я сожгла свои сырники. Это уже не дикая природа. Это редакционная колонка».
+
+Не все поддерживают план. Латвийское орнитологическое общество выпустило заявление, предупреждая, что правила рискуют криминализировать поведение обычных птиц и могут создать двухуровневый звуковой ландшафт, отдающий приоритет «одобренной тишине над аутентичным участием экосистемы». Председатель общества, д-р Мартиньш Скуя, сказал, что научных доказательств того, что птицы стали более фамильярны, нет, хотя он признал, что городские чайки в частности проявляют «тревожную уверенность вблизи выпечки и эмоциональных границ».
+
+В Юрмале, где сезонные споры о садовых пылесосах, дюнах и далёком басе давно формируют местную политику, чиновники заявили, что внимательно следят за рижским экспериментом. Представитель Комитета по развитию города Юрмала подтвердил, что подобное прибрежное предложение будет уделять меньше внимания птицам и больше — «чайкам, ведущим себя так, будто владеют элитной прибрежной недвижимостью, которой, по духу, они всё более и более становятся».
+
+Министерство культуры тоже включилось в дискуссию, отметив, что при правильном управлении Латвия могла бы продвигать свои более тихие авиационные среды как форму велнес‑туризма. Проект рекламных слоганов якобы включает «Слышите, как вы красиво стареете» и «Посетите Ригу: наши птицы знают, когда остановиться».
+
+Несмотря на критику, городские чиновники настаивают, что политика отражает общественный запрос. Муниципальный опрос 2 700 жителей показал, что 63% поддерживают ту или иную форму смягчения тональности дикой природы, 21% выступают против вмешательства государства в птичьи песни, а 16% сказали, что никогда не доверяли сорокам и рады, что их наконец попросили.
+
+Когда во вторник вечером над столицей спустились сумерки, жизнь продолжалась как обычно. Трамваи гремели, террасы кафе наполнялись, а одинокий голубь у здания думы смотрел на прохожих так, как несколько свидетелей описали как «открыто непокорный».`
+    },
+    date: "Aug 5, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/235/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 234,
     slug: "jrmala-introduces-quiet-luxury-siren-to",
     title: {
@@ -102,7 +195,7 @@ Pēc ziņošanas brīža sirēna atklāšanas ceremonijas laikā, kā ziņots, b
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/234/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 233,
