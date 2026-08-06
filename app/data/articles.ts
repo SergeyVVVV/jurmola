@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 236,
+    slug: "riga-introduces-emotional-left-turn-pilot",
+    title: {
+      en: "Riga Introduces ‘Emotional Left Turn’ Pilot Program to Help Drivers Process Intersection Regret",
+      lv: "Rīga ievieš pilotprogrammu “emocionālais kreisais pagrieziens”, lai palīdzētu autovadītājiem pārstrādāt krustojuma nožēlu",
+      ru: "Рига запускает пилотную программу «Эмоциональный левый поворот», чтобы помочь водителям пережить сожаление о пропущенном повороте"
+    },
+    excerpt: {
+      en: "Municipal officials in Riga on Tuesday unveiled a new traffic initiative allowing motorists who miss a left turn to pull into a designated reflection lane and sit quietly with their choices. City planners say the measure will reduce aggressive U-turns, horn-related trauma, and what one report describes as “acute Baltic disappointment behind the wheel.”",
+      lv: "Rīgas pašvaldības amatpersonas otrdien atklāja jaunu satiksmes iniciatīvu, kas ļauj autovadītājiem, kuri nokavē kreiso pagriezienu, iegriezties īpašā pārdomu joslā un klusi sēdēt ar saviem lēmumiem. Pilsētplānotāji saka, ka pasākums samazinās agresīvos apgriezienus, traumas no signāla skaņas un to, ko viens ziņojums raksturo kā „akūtu Baltijas vilšanos pie stūres.”",
+      ru: "Муниципальные власти Риги во вторник представили новую дорожную инициативу: автомобилистам, которые пропустили левый поворот, разрешается заехать в специальную полосу для размышлений и спокойно посидеть с последствиями своих решений. Городские планировщики уверены, что мера снизит агрессивные развороты, травмы от клаксона и то, что в одном отчёте описали как «острое балтийское разочарование за рулём»."
+    },
+    fullContent: {
+      en: `RIGA — In a move officials described as “both infrastructural and deeply personal,” the Riga City Council has launched a six-month pilot program creating special “emotional left turn” lanes at 14 major intersections, where drivers who fail to merge in time may stop, breathe, and confront the consequences of their own hesitation.
+
+The first lane opened Monday near Brīvības and Cēsu streets, marked not by the usual white arrows but by a blue sign depicting a sedan staring into the middle distance. By 8:40 a.m., the lane had already reached capacity, with 23 vehicles idling in orderly silence while motorists reportedly looked straight ahead and replayed the moment they “could have gone, but didn’t.”
+
+According to the Riga Department of Transport Behavior, 38% of all city congestion is not caused by volume but by “secondary emotional events” following a missed turn, including abrupt lane changes, performative sighing, and passive-aggressive acceleration. The department’s 61-page report, Lost in the Intersection: A Baltic Mobility Study, found that the average Riga driver spends 11 minutes per week thinking about a turn they did not make, rising to 19 minutes during wet snow.
+
+“We have spent years designing roads for cars, but almost no time designing them for Latvian feelings,” said Deputy Mobility Commissioner Elīna Dreimane at a press conference held beside a newly installed curbside birch tree intended to create “an atmosphere of civic introspection.” Dreimane said the reflection lanes were inspired by similar concepts in Helsinki, though she acknowledged the Finnish version was “less emotional and more about efficient shame.”
+
+Under the system, drivers entering an emotional left turn lane are permitted up to four minutes of stationary processing. They may use one of three council-approved coping options displayed on a nearby digital board: Accept and Continue, Blame Road Markings, or Reframe as Scenic Detour. In severe cases, a municipal therapist on an electric scooter may be dispatched to the scene.
+
+Not all residents are convinced. “I don’t need a government lane to feel bad,” said 47-year-old Purvciems resident Andris Kļaviņš, speaking from his Volvo while waiting in the new zone Tuesday morning. “I have done that independently for years. Still, it is nice to have formal recognition.”
+
+Others have embraced the change. Café owner Līga Ozola, whose business faces one of the pilot intersections, said sales of black coffee and laminated poppy-seed buns had doubled. “People emerge from the lane with a new softness in their eyes,” she said. “They order slowly, like someone who has just understood something about themselves.”
+
+The program has also generated interest from insurers. Balta Mobility, one of Latvia’s largest auto insurers, announced it will offer reduced premiums to drivers who can prove they used the reflection lane “instead of expressing their inner weather through the accelerator.” The company is reportedly developing an app that measures remorse through steering-wheel grip pressure.
+
+City officials say early results are promising. In the first 24 hours, illegal U-turns dropped 17%, horn use fell 22%, and one previously combative BMW driver was seen allowing a bus to merge without making eye contact. “That is the kind of transformation we are hoping for,” said Dreimane.
+
+If successful, the initiative may expand to include pedestrian hesitation benches, tram-stop closure circles, and a quiet zone outside the Central Station where travelers can acknowledge they arrived absurdly early for a domestic train. For now, officials are urging the public to treat the new lanes with respect.
+
+“This is not about weakness,” Dreimane said, as a Volkswagen in the reflection lane switched off its engine and stared at the rain. “This is about mobility with dignity, and missing your turn in a way that honors the city.”`,
+      lv: `RĪGA — Solī, ko amatpersonas raksturoja kā „gan infrastruktūras, gan dziļi personisku,” Rīgas Dome ir uzsākusi sešu mēnešu pilotprogrammu, izveidojot īpašas „emocionālā kreisā pagrieziena” joslas 14 lielākajos krustojumos, kur autovadītāji, kuri laikus nepārslēdzas, var apstāties, ieelpot un saskarties ar sava vilcināšanās sekām.
+
+Pirmā josla pirmdien atklājās pie Brīvības un Cēsu ielas — nevis ar ierastajām baltajām bultām, bet ar zilu zīmi, kurā attēlots sedans, kas raugās tālumā. Līdz 8:40 josla jau bija pilna: 23 spēkrati stāvēja kārtīgā klusumā, kamēr šoferi, pēc ziņām, skatījās taisni priekšā un atkārtoja sev brīdi, kad „varēja nogriezties, bet nepagāja.”
+
+Saskaņā ar Rīgas Satiksmes Uzvedības departamentu, 38% no pilsētas sastrēgumiem nav radīti apjoma dēļ, bet gan „sekundāriem emocionāliem notikumiem” pēc nokavēta pagrieziena, tostarp straujas joslu maiņas, izrādāmiem nopūtieniem un pasīvi‑agresīvām paātrināšanām. Departamenta 61 lappušu ziņojums "Pazuduši krustojumā: Baltijas mobilitātes pētījums" secina, ka vidējais rīdzinieka šoferis nedēļā pavada 11 minūtes domājot par pagriezienu, ko viņš neizdarīja — šis laiks pieaug līdz 19 minūtēm slapja sniega laikā.
+
+„Gadu gaitā esam projektējuši ceļus automašīnām, bet gandrīz neesam pievērsuši laiku to projektēšanai latviešu jūtām,” preses konferencē pie jaunuzstādīta ietves bērza, kas paredzēts „pilsoniskas introspekcijas atmosfērai,” sacīja mobilitātes vietniece Elīna Dreimane. Dreimane teica, ka pārdomu joslas iedvesmojušās no līdzīgām koncepcijām Helsinkos, kaut arī atzina, ka somu versija bijusi „mazāk emocionāla un vairāk par efektīvu kaunu.”
+
+Sistēmas ietvaros autovadītāji, iebraucot emocionālā kreisā pagrieziena joslā, drīkst stacionēti pārdomāt līdz četru minūšu garumā. Viņiem pieejamas trīs domājami atceljamas pašvaldības apstiprinātas tiktālina iespējas, kas attēlotas uz tuvējā digitālā tablo: "Pieņemt un turpināt", "Pārmetiet ceļa marķējumiem" vai "Pārapzīmēt kā ainavisku apvedceļu." Smagos gadījumos uz notikuma vietu var tikt nosūtīts municipālais terapeits uz elektriskā skūtera.
+
+Ne visi iedzīvotāji ir pārliecināti. „Man nevajag valsts joslu, lai justos slikti,” sacīja 47 gadus vecais Purvciema iedzīvotājs Andris Kļaviņš, runājot no sava Volvo, kamēr gaidīja jaunajā zonā otrdienas rītā. „To es daru neatkarīgi jau gadiem. Tomēr patīkami saņemt formālu atzīšanu.”
+
+Citi izmaiņas ir pieņēmuši ar sajūsmu. Kafejnīcas īpašniece Līga Ozola, kuras uzņēmums atrodas pretī vienam no pilotkrustojumiem, teica, ka melnās kafijas un laminēto maku cepumu pārdošana ir dubultojusies. „Cilvēki iznāk no joslas ar jaunu maigumu acu skatienā,” viņa sacīja. „Viņi pasūta lēni, kā cilvēks, kas tikko kaut ko sapratis par sevi.”
+
+Programma radījusi arī apdrošinātāju interesi. „Balta Mobility”, viens no lielākajiem autoapdrošinātājiem Latvijā, paziņoja, ka piedāvās zemākas prēmijas autovadītājiem, kuri var pierādīt, ka ir izmantojuši pārdomu joslu „nevis ar akseleratoru izrādījuši savu iekšējo laikapstākli.” Uzņēmums, pēc ziņām, izstrādā lietotni, kas mēra nožēlu, analizējot stūres satvēriena spiedienu.
+
+Pilsētas amatpersonas saka, ka sākotnējie rezultāti ir daudzsološi. Pirmajās 24 stundās nelegālie apgriezieni samazinājās par 17%, signāla izmantošana kritās par 22%, un viens iepriekš konfliktējošs BMW vadītājs tika redzēts ļaujot autobusam ieslīdēt joslā, neatverot acis. „Tieši tāda pārveidošanās mēs ceram panākt,” sacīja Dreimane.
+
+Ja iniciatīva izrādīsies veiksmīga, tā var tikt paplašināta ar gājēju vilcināšanās soliņiem, tramvaja pieturu „slēgšanas” apļiem un klusuma zonu ārpus Centrālās stacijas, kur ceļotāji var atzīt, ka viņi absurdu agru atbraukuši uz iekšzemes vilcienu. Šobrīd amatpersonas aicina publiku jaunās joslas cienīt.
+
+„Tas nav par vājumu,” sacīja Dreimane, kamēr Volkswagen pārdomu joslā izslēdza motoru un skatījās uz lietu. „Tas ir par mobilitāti ar cieņu un par to, ka nobrūk pagrieziens tā, lai tas godā pilsētu.”`,
+      ru: `РИГА — В шаге, который чиновники назвали «и инфраструктурным, и глубоко личным», Рижская городская дума запустила шестимесячный пилотный проект: специальные полосы «эмоционального левого поворота» на 14 крупных перекрёстках, где водители, не успевшие перестроиться, могут остановиться, глубоко вздохнуть и столкнуться с последствиями собственной нерешительности.
+
+Первая полоса открылась в понедельник у улиц Brīvības и Cēsu и обозначена не привычными белыми стрелками, а синим знаком с изображением седана, задумчиво смотрящего в никуда. К 8:40 утра полоса уже была заполнена: 23 автомобиля мирно стояли, водители, по сообщениям, смотрели прямо перед собой и проигрывали в голове момент «я мог бы повернуть, но не повернул». 
+
+По данным Департамента дорожного поведения Риги, 38% городских пробок вызваны не плотностью машин, а «вторичными эмоциональными событиями» после пропущенного поворота — резкими перестроениями, показным вздохом и пассивно-агрессивным давлением на газ. В 61-страничном отчёте Lost in the Intersection: A Baltic Mobility Study отмечается, что средний рижский водитель проводит 11 минут в неделю, обдумывая поворот, который он не совершил; в период мокрого снега это время возрастает до 19 минут.
+
+«Мы годами проектировали дороги для автомобилей, но почти не проектировали их для латвийских чувств», — сказала заместитель комиссара по мобильности Элина Дреймане на пресс-конференции у недавно посаженной берёзки у тротуара, призванной создавать «атмосферу гражданской интроспекции». Дреймане добавила, что полосы для размышлений вдохновлены похожими концепциями в Хельсинки, хотя финская версия была «менее эмоциональной и больше про эффективный стыд». 
+
+По правилам, водителям, въехавшим в полосу эмоционального левого поворота, разрешается до четырёх минут неподвижного осмысления. На соседнем электронном табло отображаются три одобренных советом варианта преодоления: «Принять и продолжить», «Обвинить дорожную разметку» и «Переосмыслить как живописный объезд». В серьёзных случаях к месту может быть направлен муниципальный терапевт на электросамокате.
+
+Не все жители в восторге. «Мне не нужна правительственная полоса, чтобы себя плохо чувствовать», — сказал 47‑летний житель Пурвциемса Андрис Клявиньш, разговаривая из своего Volvo, пока ждал в новой зоне во вторник утром. «Я делал это самостоятельно годами. Тем не менее приятно иметь официальное подтверждение». 
+
+Другие восприняли нововведение с энтузиазмом. Владелица кафе Лига Озола, чей бизнес выходит на один из пилотных перекрёстков, рассказала, что продажи чёрного кофе и заламинированных маковых булочек удвоились. «Люди выходят из полосы с новой мягкостью в глазах, — сказала она. — Они заказывают медленно, как кто-то, кто только что кое‑что понял о себе». 
+
+Программа также привлекла внимание страховщиков. Balta Mobility, одна из крупнейших автостраховых компаний Латвии, объявила о снижении премий для водителей, которые смогут доказать, что использовали полосу для размышлений «вместо того чтобы выражать свою внутреннюю погоду через педаль газа». Компания, по сообщениям, разрабатывает приложение, которое будет измерять раскаяние по силе схватывания руля. 
+
+Городские власти говорят, что первые результаты обнадеживающие. За первые 24 часа незаконные развороты сократились на 17%, использование клаксона упало на 22%, а одного ранее агрессивного водителя BMW заметили, когда он позволил автобусу перестроиться, не вступив с ним в зрительный контакт. «Это та трансформация, на которую мы надеемся», — сказала Дреймане. 
+
+Если эксперимент окажется успешным, инициативу могут расширить: появятся скамейки для колеблющихся пешеходов, круги для принятия решения на трамвайных остановках и тихая зона у Центрального вокзала, где путешественники смогут признать, что приехали смехотворно рано на внутренний поезд. Пока что чиновники просят население относиться к новым полосам с уважением. 
+
+«Речь не о слабости», — сказала Дреймане, пока Volkswagen на полосе для размышлений заглушил мотор и уставился в дождь. «Речь о мобильности с достоинством и о том, чтобы пропустить поворот так, чтобы это чтило город».`
+    },
+    date: "Aug 6, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/236/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 235,
     slug: "riga-introduces-official-municipal-silence-hours-235",
     title: {
@@ -108,7 +195,7 @@ Kad otrdienas vakarā pār galvaspilsētu nolaidās krēslas drāna, dzīve turp
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/235/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 234,
