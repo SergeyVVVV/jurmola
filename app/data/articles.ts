@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 237,
+    slug: "jrmala-introduces-silent-seagull-zone-residents",
+    title: {
+      en: "Jūrmala Introduces Silent Seagull Zone, Residents Report First-Ever Ability To Hear Own Thoughts",
+      lv: "Jūrmala ievieš Kluso kaiju zonu — iedzīvotāji pirmoreiz spēj dzirdēt savas domas",
+      ru: "Юрмала вводит «Зону молчаливых чаек», жители впервые в жизни слышат собственные мысли"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala this week unveiled Latvia’s first \"Silent Seagull Zone,\" a coastal pilot program designed to reduce what planners describe as \"non-essential shrieking\" during peak promenade hours. Early results have been hailed as historic, with several longtime residents confirming they briefly remembered what the sea actually sounds like.",
+      lv: "Jūrmala pašvaldības amatpersonas šonedēļ atklāja Latvijas pirmo „Klusās kaijas zonu” — piekrastes pilotprogrammu, kas domāta, lai samazinātu to, ko plānotāji dēvē par „nepamatotu kliegšanu” promenādes noslogotajos laikos. Sākotnējie rezultāti tiek slavēti kā vēsturiski — vairāki ilggadējie iedzīvotāji apstiprina, ka īsi atcerējušies, kā patiesībā skan jūra.",
+      ru: "Муниципальные чиновники Юрмалы на этой неделе представили первую в Латвии «Зону молчаливых чаек» — прибрежный пилотный проект, призванный сократить то, что планировщики называют «ненужным визгом» в часы наибольшей прогулочной активности. Ранние результаты уже называют историческими: несколько давних жителей подтвердили, что на мгновение вспомнили, как вообще звучит море."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders are calling a bold step toward acoustic dignity, Jūrmala municipality has officially launched a 1.8-kilometer Silent Seagull Zone stretching from Dzintari Concert Hall to a point just beyond the third kiosk selling amber magnets and suspiciously confident smoked fish.
+
+The policy, approved late Tuesday after a six-hour council session and one unrelated argument about bicycle bells, aims to curb excessive gull noise through a combination of behavioral signage, volunteer shoreline mediators, and what the city’s Coastal Harmony Task Force describes as “firm but respectful eye contact.”
+
+“For years, residents have accepted a sound environment in which every ice cream purchase is immediately followed by aerial psychological warfare,” said Deputy Mayor Liene Ozoliņa, standing beneath a newly installed blue-and-white sign depicting a gull inside a crossed-out speech bubble. “Europe has low-emission zones. We asked ourselves: why not low-opinion seabirds?”
+
+According to municipal figures, the average Jūrmala gull emits 94 audible incidents per hour between May and August, with activity peaking whenever a child unwraps a pastry, a tourist opens herring near a bench, or anyone dares look relaxed. A 47-page city report released alongside the pilot found that 63% of local residents can now distinguish between ocean waves and distant tram sounds only in winter, when the gulls are “less emotionally available.”
+
+The pilot zone is enforced not by fines, but by intervention teams known as Beach Civility Stewards, identifiable by beige vests and laminated cards reading “Let Us All De-Escalate Together.” Their responsibilities include discouraging public chip-waving, mediating bread-related disputes, and redirecting aggressive flocks toward less residential airspace near parking lots.
+
+“We do not believe in punishment,” said project coordinator Mārtiņš Dambītis, who previously worked in conference moderation and says the skills are transferable. “A gull is not our enemy. It is a stakeholder whose communication style has become unconstructive.”
+
+Not everyone is convinced. At Majori market, fish vendor and amateur ornithology skeptic Vasilijs Petrov insisted the city was treating a natural Baltic tradition like a planning defect. “My father sold sprats here, my grandfather sold sprats here, and all of them were screamed at by birds,” Petrov said. “That is heritage. If the beach becomes quiet, people will start expecting efficiency from other parts of public life.”
+
+Tourists, however, have reacted positively. Estonian visitor Kärt Põld, clutching a waffle untouched for nearly four minutes, described the experience as “deeply unsettling but premium.” German wellness traveler Anke Ritter said she selected Jūrmala specifically for its pine air and old wooden villas, “not to negotiate with a gang of flying dock workers every morning.”
+
+Municipal monitoring data from the first 48 hours suggests measurable progress. Officials reported a 22% reduction in abrupt sandwich loss, a 31% drop in panic arm-flailing, and one verified instance of a pensioner finishing an entire pīrādziņš while seated. The city also logged a 14-minute interval Wednesday afternoon during which no gull attempted to steal sunglasses, attack a stroller, or deliver what witnesses described as “a deeply personal insult.”
+
+Environmental experts caution that long-term effects remain unclear. “Suppressing gull expression may simply relocate the problem,” said Dr. Elīna Skuja of the Baltic Institute for Coastal Systems, warning that displaced birds could move inland and begin targeting rooftop cafes, wedding terraces, or “the emotionally fragile lunch culture of central Riga.”
+
+Still, city officials remain optimistic and are already considering adjacent reforms, including a Low-Drama Crow Corridor near Dubulti Station and designated Whisper Pine hours in residential areas. If the seagull pilot succeeds, Jūrmala may apply for EU funding under an experimental cross-border initiative on sustainable silence.
+
+As evening fell over the beach on Thursday, several residents stood motionless near the shoreline, listening to a faint breeze move through the pines. One woman, visibly overwhelmed, turned to her husband and asked whether the sea had always been making that noise. He nodded, then instinctively covered his pastry.`,
+      lv: `JŪRMALA — Soli, ko pilsētas vadība dēvē par drosmīgu iešanu akustiskās cieņas virzienā, Jūrmala oficiāli uzsākusi 1,8 kilometrus garu Klusās kaijas zonu, kas stiepjas no Dzintaru koncertzāles līdz punktam nedaudz pāri trešajam kioskam, kur tirgo dzintara magnētiņus un aizdomīgi pašpārliecinātas kūpinātas zivis.
+
+Politiku akceptēja naktī uz otrdienu pēc sešu stundu domes sēdes un viena nesaistīta strīda par velosipēdu zvaniņiem. Tā mērķis ir mazināt pārmērīgo kaiju trokšņošanu, izmantojot uzvedības norādes, brīvprātīgo krasta starpniekus un to, ko pilsētas Krasta Harmonijas darba grupa raksturo kā „stingru, taču cieņpilnu acu kontaktu”.
+
+„Gadu desmitiem iedzīvotāji ir pieņēmuši skaņu vidi, kur katra saldējuma iegāde tiek nekavējoties pavadīta ar gaisa psiholoģisko karu,” sacīja vietniece mēra amatā Liene Ozoliņa, stāvot zem tikko uzstādītas zilbalts zīmes, kurā attēlota kaija šķērstota runas mākonī. „Eiropā ir zemas emisijas zonas. Mēs sev jautājām: kāpēc gan ne zema-opinijas jūrasputni?”
+
+Pašvaldības datu pēc, vidējā jūrmalas kaija maija–augusta periodā izdod 94 dzirdamus incidentus stundā, ar aktivitātes virsotni katru reizi, kad bērns atver kārumu, tūristam soliņa tuvumā atveras siļķe vai kāds atļaujas izskatīties relaksēts. 47 lappušu garais pilsētas ziņojums, kas paziņots kopā ar pilotu, secināja, ka 63% vietējo iedzīvotāju tagad spēju atšķirt okeāna viļņus no tālām tramvaja skaņām tikai ziemā, kad kaijas esot „mazāk emocionāli pieejamas”.
+
+Zonu neuzrauga sodu sistēma, bet gan intervences komandas, kuras sauc par Pludmales pieklājības uzraugiem — tās var atpazīt pēc bēšiem vestēm un laminētām kartītēm ar uzrakstu „Nomierināsimies kopā”. Viņu pienākumos ietilpst publiskas čipsu vicināšanas nepieļaušana, maizes konfliktu mediācija un agresīvu baru novirzīšana uz mazāk dzīvojamām gaisa telpām pie stāvvietām.
+
+„Mēs neticam sodīšanai,” sacīja projekta koordinators Mārtiņš Dambītis, kurš iepriekš strādājis konferenču moderēšanā un apgalvo, ka šīs prasmes ir pārnesamas. „Kaija nav mūsu ienaidnieks. Tā ir ieinteresētā puse, kuras komunikācijas stils kļuvis nekonstruktīvs.”
+
+Ne visi ir pārliecināti. Majoru tirgū zivju tirgotājs un amatierornitologs skeptiķis Vasilijs Petrovs uzstāja, ka pilsēta pretīgo baltijas tradīciju traktē kā plānošanas defektu. „Mans tēvs šeit tirgoja brētliņas, mans vectēvs šeit tirgoja brētliņas, un visi viņus kliegtu putni — tas ir mantojums. Ja pludmale kļūs klusa, cilvēki sāks gaidīt efektivitāti arī no citām sabiedriskās dzīves daļām,” Petrovs sacīja.
+
+Tūristi gan reaģējuši pozitīvi. Igauniete Kärt Põld, kas turēja vafeli gandrīz četras minūtes neaiztiktu, pieredzi raksturoja kā „dziļi satraucošu, bet premium”. Vācijas veselības tūristes Anke Ritter sacīja, ka izvēlējusies Jūrmalu tieši dēļ priežu gaisa un vecajām koka villām, „nevis lai katru rītu sarunātos ar lidaparāta piestātnes strādnieku bandas pārstāvjiem”.
+
+Pilsētas monitoringa dati pirmajās 48 stundās liecina par taustāmu progresu. Amatpersonas ziņoja par 22% samazinājumu straujā sviestmaizes pazušanā, 31% kritumu paniskas roku vicināšanas gadījumos un vienu verificētu situāciju, kad pensionārs, sēžot, pabeidza visu pīrādziņu. Pilsēta arī uzskaitīja 14 minūšu garu laika sprīdi trešdienas pēcpusdienā, kurā neviena kaija nemēģināja nozagt saulesbrilles, uzbrukt ratiņiem vai piegādāt to, ko aculiecinieki aprakstīja kā „dziļi personisku apvainojumu”.
+
+Vides eksperti brīdina, ka ilgtermiņa ietekme vēl nav skaidra. „Kaiju izteiksmes ierobežošana var vienkārši pārvietot problēmu,” sacīja Dr. Elīna Skuja no Baltijas Krasta Sistēmu institūta, brīdinot, ka izspiesti putni var pārvietoties uz iekšzemes teritorijām un sākt mērķēt uz jumta kafejnītēm, kāzu terasēm vai „centrālās Rīgas emocionāli trauslo pusdienu kultūru”.
+
+Tomēr pilsētas amatpersonas paliek optimistiskas un jau apsver blakus reformas, tostarp Zemas drāmas vārnu koridoru pie Dubultu stacijas un noteiktas „Čukstošo priežu” stundas dzīvojamajās zonās. Ja kaiju pilots būs veiksmīgs, Jūrmala varēs pretendēt uz ES finansējumu eksperimentālai pārrobežu iniciatīvai par ilgtspējīgu klusumu.
+
+Kad vakarā pludmalē noslīdēja krēsla, vairāki iedzīvotāji stāvēja kustību bez, klausoties vājo vēja šņākšanu caur priežu galotnēm. Viena sieviete, acīmredzami pārslogota, pagriezās pie vīra un jautāja, vai jūra vienmēr ir tik skaļi trokojusi. Viņš pamāja ar galvu, pēc tam instinktīvi pārklāja savu pīrādziņu.`,
+      ru: `ЮРМАЛА — В шаге, который городские власти называют смелым шагом к акустическому достоинству, муниципалитет Юрмалы официально запустил 1,8-километровую Зону молчаливых чаек, простирающуюся от концертного зала Dzintari до точки чуть дальше третьего киоска с янтарными магнитиками и подозрительно самоуверенной копчёной рыбой.
+
+Политика, одобренная поздно во вторник после шестичасового заседания совета и одного совершенно не связанного спора о велосипедных звонках, направлена на сокращение чрезмерного шума чаек с помощью сочетания поведенческих указателей, добровольных прибрежных медиаторов и того, что Группа по прибрежной гармонии города описывает как «твёрдый, но уважительный зрительный контакт».
+
+«Годы жители мирились со звуковым окружением, в котором каждая покупка мороженого неминуемо перерастала в воздушную психологическую войну», — сказала заместитель мэра Liene Ozoliņa, стоя под недавно установленным сине-белым знаком с изображением чайки в перечёркнутом речевом пузыре. «В Европе есть зоны низких выбросов. Мы задумались: почему бы не сделать зоны для морских птиц с низким уровнем мнений?»
+
+По муниципальным данным, средняя юрмальская чайка издаёт 94 слышимых инцидента в час в период с мая по август, причём активность достигает пика всякий раз, когда ребёнок разворачивает слойку, турист открывает селёдку на скамейке или кто-либо решает выглядеть расслабленным. В 47-страничном городском отчёте, выпущенном вместе с пилотом, говорится, что 63% местных жителей теперь способны различать шум прибоя и далёкие звуки трамвая только зимой, когда чайки «менее эмоционально доступны».
+
+Зону контролируют не штрафы, а интервенционные команды, известные как Стюарды Пляжной Вежливости, которых легко узнать по бежевым жилетам и ламинированным картам с надписью «Давайте все вместе снизим напряжение». Их обязанности включают отговаривание от демонстративного размахивания пакетами чипсов, урегулирование споров, связанных с хлебом, и перенаправление агрессивных стай в менее жилые воздушные пространства у парковок.
+
+«Мы не верим в наказание», — сказал координатор проекта Mārtiņš Dambītis, ранее работавший модератором конференций и уверяющий, что навыки легко переносятся. «Чайка — не наш враг. Это заинтересованная сторона, чей стиль коммуникации стал неконструктивным».
+
+Не все в восторге. На рынке в Майори продавец рыбы и любитель орнитологии-скептик Vasilijs Petrov настаивал, что город обращается с природной балтийской традицией как с дефектом планирования. «Мой отец здесь продавал шпроты, мой дед здесь продавал шпроты, и всех их всегда кричали птицы», — сказал Петров. «Это наследие. Если на пляже воцарится тишина, люди начнут требовать эффективности и в других сферах общественной жизни».
+
+Туристы, однако, отреагировали положительно. Эстонская посетительница Kärt Põld, с вафлей, не тронутой почти четыре минуты, описала опыт как «глубоко тревожный, но премиальный». Немецкая путешественница по оздоровлению Anke Ritter сказала, что выбрала Юрмалу специально ради соснового воздуха и старых деревянных вилл, «а не для того, чтобы каждое утро вести переговоры с бандой летающих грузчиков с причала».
+
+Муниципальные мониторинговые данные за первые 48 часов указывают на измеримый прогресс. Чиновники сообщили о 22%-ном снижении внезапных потерь бутербродов, 31%-ном падении панических размахиваний руками и одном подтверждённом случае, когда пенсионер досидел до конца и доел целый pīrādziņš, оставаясь на месте. Город также зафиксировал 14-минутный интервал в среду днём, в течение которого ни одна чайка не попыталась украсть солнцезащитные очки, нападать на коляску или произнести то, что свидетели описали как «глубоко личное оскорбление».
+
+Экологи предостерегают, что долгосрочные последствия пока неясны. «Подавление выражения чайки может просто переместить проблему», — сказала д-р Elīna Skuja из Балтийского института прибрежных систем, предупредив, что переселившиеся птицы могут уйти вглубь суши и начать нацеливаться на крытые кафе, свадебные террасы или «эмоционально неустойчивую культуру обедов в центре Риги».
+
+Тем не менее городские власти полны оптимизма и уже рассматривают соседние реформы, включая «Коридор для ворон без драм» возле станции Дубулти и назначенные часы «Шепчущих сосен» в жилых зонах. Если пилот с чайками увенчается успехом, Юрмала может подать заявку на финансирование ЕС в рамках экспериментальной трансграничной инициативы по устойчивой тишине.
+
+Когда в четверг вечером над пляжем опустилась тьма, несколько жителей стояли неподвижно у кромки воды, прислушиваясь к лёгкому ветру, шевелящемуся в соснах. Одна женщина, заметно потрясённая, повернулась к мужу и спросила, всегда ли море издавало такой звук. Он кивнул, а затем автоматически прикрыл свою слойку.`
+    },
+    date: "Aug 7, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/237/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 236,
     slug: "riga-introduces-emotional-left-turn-pilot",
     title: {
@@ -102,7 +195,7 @@ Ja iniciatīva izrādīsies veiksmīga, tā var tikt paplašināta ar gājēju v
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/236/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 235,
