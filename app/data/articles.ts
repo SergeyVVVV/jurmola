@@ -18,6 +18,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 238,
+    slug: "jrmala-introduces-silent-applause-zones-after-238",
+    title: {
+      en: "Jūrmala Introduces Silent Applause Zones After Residents Complain Clapping Sounds Too Much Like Renovation Season",
+      lv: "Jūrmala ievieš „klusās aplausu zonas” pēc iedzīvotāju sūdzībām, ka plaukšķešanas skaņa atgādina remonta sezonu",
+      ru: "Юрмала вводит зоны «тихих аплодисментов» после жалоб жителей, что хлопки слишком похожи на сезон ремонтов"
+    },
+    excerpt: {
+      en: "City officials in Jūrmala have approved the creation of several 'Silent Applause Zones' along the coast, where residents and visitors will be required to express enthusiasm through respectful nodding, dampened wrist motions, or softly exhaled appreciation. The measure follows months of complaints from locals who say traditional clapping has become indistinguishable from the sound of summer construction.",
+      lv: "Jūrmalas pašvaldība apstiprinājusi vairāku „klusās aplausu zonu” izveidi piekrastē, kur iedzīvotājiem un viesiem būs jārāda atbalsts ar cieņpilnu galvas mājienu, nomierinātām plaukstas viļņu kustībām vai klusi izelpotu pateicību. Šis lēmums seko mēnešiem ilgiem sūdzību vilnim no vietējiem, kuri apgalvo, ka tradicionālā plaukšķināšana kļuvusi nemanāmi līdzīga vasaras būvniecības skaņai.",
+      ru: "Городские власти Юрмалы одобрили создание нескольких «зон тихих аплодисментов» вдоль побережья, где жителям и гостям будет предложено выражать одобрение уважительным кивком, приглушёнными движениями рук или тихим выдохом. Мера последовала за месяцами жалоб местных, заявлявших, что традиционные хлопки стали неотличимы от звуков летнего строительства."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move municipal leaders are calling 'a victory for civic peace and acoustic dignity,' the Jūrmala City Council on Tuesday voted 11–4 to establish the country’s first Silent Applause Zones, a pilot program intended to reduce confusion between public celebration and the relentless percussion of seasonal villa renovation.
+
+Beginning 1 June, designated stretches near Dzintari Concert Hall, Majori pedestrian street, and two benches considered 'emotionally significant' in Bulduri will require all applause to be performed non-audibly. According to the new rules, audience members attending concerts, poetry readings, public unveilings, and tense family ice cream purchases must instead signal approval through controlled jazz-hands below shoulder height, one solemn blink held for two seconds, or what the municipality describes as 'an inward-facing feeling of support.'
+
+The measure was proposed after the city’s Environmental Noise Board released a 48-page report concluding that 72% of clapping recorded in Jūrmala between May and August was mistaken by nearby residents for tile cutting, scaffold assembly, or 'a man dropping Baltic oak planks in an agitated rhythm.' In one high-profile incident last July, a standing ovation at a youth choir festival prompted three separate calls to police, two noise complaints, and one retired dentist from Melluži to arrive on scene carrying his own reflective safety vest.
+
+'At a certain point, our residents deserve to know whether they are hearing appreciation for a cello solo or someone installing heated bathroom flooring at 9:14 in the evening,' said municipal vice-mayor Ilze Priedīte, speaking at a press conference so lightly attended that one reporter’s pen click was briefly registered as disruptive sound. 'Jūrmala has always balanced culture, nature, and extremely expensive anxiety. This policy reflects that balance.'
+
+Local reaction has been mixed but intensely specific. 'I support the arts,' said pensioner and year-round Dubulti resident Velta Krūmiņa, 68, who claims she has not experienced a full uninterrupted thought since 2017. 'But when I hear sudden clapping, my body prepares for six men to begin sanding something historic. Last month I applauded my grandson and instinctively closed all the windows.'
+
+Performers, meanwhile, are adjusting to the new landscape. Concert promoter Aivars Paukšs said his team is already preparing instructional signage for summer events, including illustrated diagrams showing acceptable forms of silent admiration. 'Foreign tourists may struggle at first,' he admitted. 'The British still want to clap, the Germans want a system, and the Finns have actually been overcomplying for years.'
+
+To enforce the rules, the city will deploy 14 seasonal Acoustic Courtesy Stewards equipped with decibel monitors, laminated discretion charts, and authority to issue warnings of up to €35 for 'reckless ovation.' Repeat offenders may be directed to a newly designated Expressive Release Area near the old water tower, where clapping, gasping, and one spontaneous bravo per person will be permitted between 16:00 and 16:07.
+
+Not everyone is convinced. Opposition council member Mārtiņš Ozols criticized the rollout as performative, arguing that the city continues to ignore what he called 'the deeper issue of applause inequality.' 'Ordinary residents are banned from clapping, yet every summer a man from Riga can arrive in a white linen shirt, buy half a street, and approve a terrace extension by slamming his SUV door twelve times,' Ozols said.
+
+Still, city officials remain optimistic. If successful, the program may expand next year to include Whispered Fireworks, Low-Impact Laughing Corridors, and a municipally regulated Sighing Hour. For now, Jūrmala residents say they are ready to welcome a quieter summer—provided they can tell whether the faint rhythmic tapping in the distance is cultural appreciation, coastal wind in the pines, or someone finally finishing the guest sauna.`,
+      lv: `JŪRMALA — Pašvaldības vadītāju to dēvētajā „uzvarā par pilsonisko mieru un akustisko cieņu” Jūrmalas Domes sēdē otrdien ar 11–4 balsojumu pieņemts lēmums izveidot valsts pirmās Klusās aplausu zonas — pilotprogrammu, kas paredzēta, lai mazinātu sajukumu starp publiskām svinībām un neatlaidīgo sezonālo villu remontu perkusiju.
+
+No 1. jūnija noteikti posmi pie Dzintaru koncertzāles, Majoru gājēju ielas un divas Bulduru soliņu vietas, kas atzītas par „emocionāli nozīmīgām”, būs pakļautas prasībai aplausus izpildīt nedzirdami. Pēc jaunajiem noteikumiem koncerta apmeklētājiem, dzejas lasījumu klausītājiem, publisku atklāšanu dalībniekiem un spriedzes pilniem ģimenes saldējuma pirkumiem būs jāizrāda atbalsts ar kontrolētām „džeza roku” kustībām zem plecu līmeņa, vienu nopietnu mirkšķinājumu, kas noturēts divas sekundes, vai ar to, ko pašvaldība apraksta kā „iekšēju atbalsta sajūtu, kas vērsta uz iekšu”.
+
+Šo pasākumu ierosināja Vides trokšņu padomes 48 lappušu ziņojums, kurā konstatēts, ka 72% plaukšķu Jūrmalā no maija līdz augustam vietējiem iedzīvotājiem tika sajaukti ar flīžu griešanu, stalažu montāžu vai „vīrieti, kurš satrauktā ritmā met Baltijas ozola dēļus”. Vienā augsti publicizētā incidentā pagājušā jūlijā stāvoša ovācija jauniešu koru festivālā izraisīja trīs atsevišķus izsaukumus policijai, divas trokšņu sūdzības un vienu pensionētu zobārstu no Mellužiem, kurš ieradās ar savu atstarojošo drošības vestes gabalu.
+
+„Vienu brīdi mūsu iedzīvotājiem ir tiesības zināt, vai viņi dzird atzinību čella solo vai kāds uzstādot siltās grīdas vannasistabā pulksten 21:14,” sacīja pašvaldības vietniece Ilze Priedīte preses konferencē, kas bija tik gaiši apmeklēta, ka viena reportiera pildspalvas klikšķis īslaicīgi tika reģistrēts kā traucējošs troksnis. „Jūrmala vienmēr ir sabalansējusi kultūru, dabu un ārkārtīgi dārgu trauksmi. Šī politika atspoguļo to līdzsvaru.”
+
+Vietējā reakcija ir jaukta, bet ārkārtīgi konkrēta. „Es atbalstu mākslu,” sacīja pensionāre un visu gadu Dubultu iedzīvotāja Velta Krūmiņa, 68 gadi, kura apgalvo, ka kopš 2017. gada nav piedzīvojusi nevienu pilnīgu, nepārtrauktu domu. „Bet, kad es pēkšņi dzirdu plaukšķi, mans ķermenis gatavojas tam, ka seši vīrieši sāks slīpēt kaut ko vēsturisku. Pagājušajā mēnesī es aplauzīju savu mazbērnu un instinktīvi aizvēru visas logu ailes.”
+
+Izpildītāji savukārt pielāgojas jaunajai videi. Koncertu rīkotājs Aivars Paukšs stāstīja, ka viņa komanda jau gatavo instrukciju stendus vasaras pasākumiem, ieskaitot ilustrētas shēmas ar pieļaujamajiem klusās apbrīnas veidiem. „Ārzemju tūristiem pirmajā brīdī var būt grūti,” atzina viņš. „Briti joprojām grib plaukšķināt, vācieši grib sistēmu, un somi jau gadiem ilgi pārmērīgi pilda noteikumus.”
+
+Lai uzraudzītu noteikumu ievērošanu, pilsēta izsūtīs 14 sezonas Akustiskās pieklājības uzraugus ar decibelu mērītājiem, laminētām diskrētuma tabulām un pilnvarām izteikt brīdinājumus līdz 35 € par „bezrūpīgu ovāciju”. Nepārtraukti pārkāpēji var tikt novirzīti uz jaunizveidoto Izpausmju atbrīvošanas zonu pie vecā ūdenstorņa, kur plaukšķināšana, aizelšanās un viens spontāns „bravo” no katras personas būs atļauts no 16:00 līdz 16:07.
+
+Ne visi ir pārliecināti. opozīcijas domes deputāts Mārtiņš Ozols kritizēja ieviešanu kā teatralizētu soli, apgalvojot, ka pilsēta turpina ignorēt, kā viņš to nosauc, „dziļāku plaukšķu nevienlīdzības jautājumu”. „Parastajiem iedzīvotājiem ir aizliegts plaukšķināt, bet katru vasaru kāds no Rīgas var ierasties baltā lina kreklā, nopirkt pusi ielas un apstiprināt terases pagarinājumu, trāpot ar savu SUV durvīm divpadsmit reižu,” sacīja Ozols.
+
+Tomēr pašvaldības pārstāvji paliek optimistiski. Ja pilotprogramma izdodas, nākamgad tā var tikt paplašināta ar „čukstošajiem uguņošanos”, „zema ietekmes smieklu koridoriem” un pašvaldības regulētu „nopūtas stundu”. Tikmēr jūrmalnieki saka, ka ir gatavi sagaidīt klusāku vasaru — ja vien spēs noteikt, vai vāji ritmiskais klabošanās tālumā ir kultūras atzinība, piekrastes vējš priedēs vai kāds beidzot pabeidz viesu pirti.`,
+      ru: `ЮРМАЛА — В шаге, который муниципальные чиновники называют «победой гражданского мира и акустического достоинства», Городской совет Юрмалы во вторник проголосовал 11–4 за создание первой в стране пилотной программы зон «тихих аплодисментов», призванной уменьшить путаницу между общественным празднованием и неутихающей перкуссией сезонного ремонта вилл.
+
+Начиная с 1 июня, на определённых участках возле концертного зала Дзинтари, пешеходной улицы Majori и двух скамеек, признанных «эмоционально значимыми» в Bulduri, все аплодисменты будут обязаны выполняться бесшумно. Согласно новым правилам, зрители на концертах, поэтических чтениях, открытии памятников и даже во время напряжённых семейных покупок мороженого должны вместо этого демонстрировать одобрение контролируемыми «джаз-хэндс» ниже уровня плеч, одним торжественным моргом длительностью две секунды или тем, что муниципалитет описывает как «внутренне направленное чувство поддержки».
+
+Эта мера была предложена после того, как Городская комиссия по вопросам экологического шума выпустила 48-страничный доклад, в котором говорится, что 72% хлопков, зафиксированных в Юрмале в период с мая по август, жители поблизости принимали за резку плитки, сборку лесов или «мужчину, бросающего балтийские дубовые доски в возбужденном ритме». В одном резонансном случае прошлым летом овация стоя на фестивале детских хоров привела к трем отдельным звонкам в полицию, двум жалобам на шум и к тому, что один на пенсии зубной врач из Melluži прибыл на место, держа при себе светоотражающий жилет.
+
+«В какой-то момент наши жители заслуживают знать: аплодисменты ли они слышат в честь соло на виолончели или кто-то укладывает тёплый пол в ванной в 21:14», — сказала на пресс-конференции муниципальный вице-мэр Ilze Priedīte, которая была настолько слабо посещена, что щелчок ручки одного репортёра на короткое время был зарегистрирован как нарушающий шум. «Юрмала всегда умела балансировать между культурой, природой и крайне дорогой тревогой. Эта политика отражает этот баланс». 
+
+Местная реакция смешанная, но чрезвычайно конкретная. «Я поддерживаю искусство», — сказала пенсионерка и жительница Dubulti круглый год Velta Krūmiņa, 68 лет, утверждающая, что не переживала целой и непрерывной мысли с 2017 года. «Но когда я слышу внезапные хлопки, моё тело готовится к тому, что шесть мужчин начнут шлифовать что‑то историческое. В прошлом месяце я аплодировала внуку и инстинктивно закрыла все окна». 
+
+Артисты тем временем приспосабливаются к новым условиям. Организатор концертов Aivars Paukšs сказал, что его команда уже готовит инструкционные таблички для летних мероприятий, в том числе иллюстрированные схемы приемлемых форм silent admiration. «Иностранным туристам сначала будет тяжело», — признал он. «Британцы всё ещё хотят хлопать, немцы хотят систему, а финны на самом деле годами переусердствуют с соблюдением правил». 
+
+Для обеспечения соблюдения правил город развернёт 14 сезонных стюардов акустического этикета, оснащённых децибелометрами, ламинированными таблицами тактичности и полномочиями выдавать предупреждения до 35 € за «безрассудную овацию». Повторных нарушителей могут направлять в недавно выделенную зону эмоционального разряда у старой водонапорной башни, где хлопки, вздохи и по одному спонтанному «браво» на человека будут разрешены с 16:00 до 16:07. 
+
+Не все уверены в успехе. Член оппозиции в совете Mārtiņš Ozols раскритиковал инициативу как показуху, заявив, что город продолжает игнорировать, по его словам, «глубинную проблему неравенства аплодисментов». «Обычным жителям запрещено хлопать, в то время как каждое лето какой‑то мужчина из Риги может прийти в белой льняной рубашке, купить полулицы и одобрить удлинение террасы, хлопнув дверью своего внедорожника двенадцать раз», — сказал Ozols.
+
+Тем не менее чиновники города остаются оптимистичными. Если эксперимент окажется успешным, программу в следующем году могут расширить, включив туда «шепчущие фейерверки», коридоры для низкоинтенсивного смеха и муниципально регулируемый «час вздохов». Пока что жители Юрмалы говорят, что готовы к более тихому лету — при условии, что смогут отличить, является ли едва слышный ритмичный стук вдали выражением культурного почтения, прибрежным ветром в соснах или тем, как кто‑то наконец доделывает гостевую сауну.`
+    },
+    date: "Aug 8, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/238/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 237,
     slug: "jrmala-introduces-silent-seagull-zone-residents",
     title: {
@@ -108,7 +183,7 @@ Kad vakarā pludmalē noslīdēja krēsla, vairāki iedzīvotāji stāvēja kust
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/237/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 236,
