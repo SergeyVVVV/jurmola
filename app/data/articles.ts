@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 239,
+    slug: "jrmala-introduces-passive-aggressive-silence-zone",
+    title: {
+      en: "Jūrmala Introduces ‘Passive-Aggressive Silence Zone’ on Beach to Preserve Traditional Baltic Communication",
+      lv: "Jūrmala ievieš 'pasīvi-agresīvo klusēšanas zonu' pludmalē, lai saglabātu tradicionālo Baltijas komunikāciju",
+      ru: "Юрмала вводит на пляже «зону пассивно-агрессивного молчания», чтобы сохранить традиционный балтийский способ общения"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have unveiled a 2.3-kilometer “Passive-Aggressive Silence Zone” along Majori Beach, where visitors are encouraged to communicate exclusively through sighs, meaningful pauses, and staring at the horizon. The initiative, city leaders say, is aimed at protecting a fragile and distinctly Baltic form of emotional expression from loud foreign optimism.",
+      lv: "Jūrmalas amatpersonas atklājušas 2,3 kilometru garu 'pasīvi-agresīvās klusēšanas zonu' Majoru pludmalē, kur apmeklētāji tiek aicināti sazināties tikai ar nopūtām, nozīmīgām pauzēm un skatienu pret horizontu. Pilsētas vadība saka, ka iniciatīvas mērķis ir pasargāt trauslu un izteikti baltisku emocionālās izpausmes formu no skaļa ārvalstu optimism.",
+      ru: "Власти Юрмалы объявили о создании 2,3-километровой «зоны пассивно-агрессивного молчания» вдоль пляжа Майори, где посетителям рекомендуется общаться исключительно через вздохи, многозначительные паузы и взгляд в горизонт. По словам городских руководителей, инициатива направлена на защиту хрупкой и по‑балтийски сдержанной формы эмоционального выражения от громкого иностранного оптимизма."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move municipal leaders are calling “long overdue, though obviously nobody asked us directly,” the Jūrmala City Council on Tuesday approved the creation of Latvia’s first officially regulated Passive-Aggressive Silence Zone, a protected section of beach where speech will be discouraged in favor of traditional Baltic non-verbal communication.
+
+The 2.3-kilometer area, stretching from a little past Majori to “roughly where people begin pretending they know where Dzintari ends,” will feature discreet gray signage instructing beachgoers to lower their voices, avoid overt enthusiasm, and, when possible, express disappointment through posture alone.
+
+According to the municipality’s Department of Intangible Cultural Atmosphere, the new zone is intended to safeguard what experts describe as a rapidly disappearing social practice: standing next to someone for 47 minutes while both parties stare at the sea and neither acknowledges having planned to meet.
+
+“We are not against talking,” said department chair Ilze Vārna, speaking at a press conference in a tone that suggested she very much was. “But there has been a measurable increase in audible laughter, direct compliments, and other imported behaviors that do not reflect the coastal emotional ecosystem. Last summer, inspectors recorded 18 separate incidents of cheerful shouting near the dunes. In one case, a man said ‘amazing weather’ out loud. To several people.”
+
+A 64-page impact assessment commissioned by the city found that unregulated conversation had already caused “noticeable disturbances” to local rhythms of restrained acknowledgment. Researchers documented a 31% decline in mutually understood silence since 2019, along with a sharp rise in what the report called “unnecessary verbal closure,” including phrases such as “Let’s definitely meet up” and “Keep in touch.”
+
+Under the new policy, beach visitors may still communicate, but only within approved channels. These include the slow exhale, the short nod, the indirect warning disguised as a weather observation, and the highly advanced technique of moving one’s towel 12 centimeters farther away. Repeat violations—such as asking strangers where they are from in a sincere tone—may result in removal to a designated Conversation Rehabilitation Tent near the parking lot.
+
+Local resident and year-round sea watcher Andris Lapiņš, 58, welcomed the changes. “Before, you could sit here and feel normal disappointment in peace,” he said, folding and unfolding a newspaper he had no intention of reading. “Now every summer there are people discussing plans, dreams, fruit smoothies. It creates pressure. Suddenly you must either respond or fake a phone call. This is not our heritage.”
+
+Tourism operators have expressed cautious support. While some worried the policy could confuse visitors, others see branding potential. A pilot brochure released this week advertises Jūrmala as “Europe’s Leading Destination for Emotionally Reserved Relaxation,” promising guests “miles of coastline, restorative pine air, and the thrilling possibility that no one will bother you in exactly the right way.”
+
+Not everyone is convinced. Riga-based sociologist Dr. Māra Feldmane warned that codifying passive aggression may lead to overperformance. “Once people know they are being authentically silent, they may become theatrical about it,” she said. “We could see exaggerated eyebrow work, competitive sighing, or young professionals attempting irony without proper family training.”
+
+City officials say enforcement will begin next Monday, with specially trained beach stewards patrolling the area in linen vests and expressions of administrative fatigue. The council is already considering expansion of the program to select cafés, train platforms, and one particularly tense section of the Central Market dairy pavilion.
+
+By sunset Tuesday, early adopters had already gathered inside the zone, where dozens of residents sat in near-total silence under a flat gray sky, each privately suspecting the others were doing it slightly wrong.`,
+      lv: `JŪRMALA — Pārkārtojums, ko pašvaldības vadītāji sauc par “ilgi gaidītu, lai gan acīmredzami neviens mūs tieši nejautāja,” otrdien Jūrmalas dome apstiprināja Latvijas pirmās oficiāli reglamentētās pasīvi-agresīvās klusēšanas zonas izveidi — aizsargātu pludmales posmu, kur runāšana tiks nevēlama par labu tradicionālajai baltiskajai neverbālajai saziņai.
+
+Šis 2,3 kilometru garais posms, stiepjas nedaudz pāri Majoru rajonam līdz “aptuveni tur, kur cilvēki sāk izlikties, ka zina, kur beidzas Dzintari,” būs aprīkots ar diskreti pelēkām zīmēm, kas pludmales apmeklētājiem norādīs nedaudz pazemināt balsi, izvairīties no acīmredzamas sajūsmas un, ja iespējams, izrādīt vilšanos tikai ar stāju.
+
+Saskaņā ar pašvaldības Nemateriālās kultūras atmosfēras departamenta teikto, jaunā zona domāta, lai aizsargātu to, ko eksperti raksturo kā ātri izzūdošu sociālo praksi: stāvēt blakus kādam 47 minūtes, kamēr abas puses skatās uz jūru un neviens neatzīst, ka būtu plānojis tikties.
+
+“Mēs neesam pret runāšanu,” sacīja departamenta vadītāja Ilze Vārna preses konferencē tonī, kas norādīja, ka patiesībā ir pret. “Taču ir novērojama izmērāma palielināšanās dzirdamu smieklu, tiešu komplimentu un citu importētu uzvedību, kas neatspoguļo piekrastes emocionālo ekosistēmu. Pagājušajā vasarā inspektori pie kāpām fiksēja 18 atsevišķus gadījumus, kad cilvēki priecīgi kliedza. Vienā gadījumā vīrietis skaļi pateica ‘brīnišķīgs laiks’. Vairākiem cilvēkiem.”
+
+Pilsētas uzdots 64 lappušu ietekmes novērtējums atklāja, ka neregulētas sarunas jau ir radījušas “manāmas traucēšanas” vietējām atturīgās atzinības ritmām. Pētnieki dokumentēja 31% samazinājumu abpusēji saprotamajā klusumā kopš 2019. gada, kā arī strauju pieaugumu tam, ko ziņojums dēvē par “nepietiekami nepieciešamu verbālu noslēgumu”, ieskaitot frāzes kā “Noteikti tiksimies” un “Turies saiknē.”
+
+Saskaņā ar jauno politiku pludmales apmeklētāji joprojām varēs sazināties, bet tikai atļautajos kanālos. Tie ietver lēnu izelpu, īsu galvas mājienu, netiešu brīdinājumu, kas maskēts kā laika apstākļu novērojums, un augsti attīstītu paņēmienu — pārvietot savu dvieli par 12 centimetriem tālāk. Atkārtoti pārkāpumi — piemēram, nepazīstama cilvēka jautāšana, no kurienes viņš ir, sirsnīgā tonī — var novest pie izsūtīšanas uz īpašu Sarunu rehabilitācijas telti pie autostāvvietas.
+
+Vietējais iedzīvotājs un visu gadu jūru vērotājs Andris Lapiņš, 58, sveica izmaiņas. “Iepriekš varēja sēdēt šeit un mierīgi izjust parastu vilšanos,” viņš sacīja, locīdams un atlocīdams avīzi, ko nemaz negrasījās lasīt. “Tagad katru vasaru cilvēki runā par plāniem, sapņiem, augļu smūtijiem. Tas rada spiedienu. Pēkšņi tev jāatbild vai jāizdomā viltus zvans. Tas nav mūsu mantojums.”
+
+Tūrisma operatori izrādījuši piesardzīgu atbalstu. Daži bažījās, ka politika varētu sajaukt apmeklētājus, citi saskata zīmola potenciālu. Šonedēļ izlaista pilotbrošūra reklamē Jūrmalu kā “Eiropas vadošo galamērķi emocionāli atturīgai atpūtai”, solot viesiem “jūdzes garu krastu, atjaunojošu priežu gaisu un aizraujošu iespēju — ka neviens jūs traucēt neuzmācīsies tieši tā, kā vajadzētu.”
+
+Ne visi ir pārliecināti. Rīgā bāzētā socioloģe Dr. Māra Feldmane brīdināja, ka pasīvi agresivitātes kodifikācija var novest pie pārspīlēšanas. “Kad cilvēki zinās, ka viņi klusē autentiski, tas var kļūt teatrāli,” viņa sacīja. “Mēs varam ieraudzīt pārmērīgu uzacu darbu, konkurenci nopūtu veidošanā vai jaunus profesionāļus, kas mēģina ironiju bez pienācīgas ģimenes apmācības.”
+
+Pilsētas amatpersonas saka, ka uzraudzība sāksies nākamajā pirmdienā, ar īpaši apmācītiem pludmales uzraugiem, kas patrulēs zonu linu vestēs un ar administratīva noguruma izteiksmēm. Dome jau apsver programmas paplašināšanu uz izvēlētām kafejnīcām, dzelzceļa peroniem un vienu īpaši saspringtu Centrāltirgus piena paviljona posmu.
+
+Otrdienas saulrieta brīdī agrīnie piekritēji jau bija sapulcējušies zonā, kur desmitiem iedzīvotāju sēdēja gandrīz pilnīgā klusumā zem plakana pelēka debesu, katrs slepeni aizdomājoties, ka pārējie to dara nedaudz nepareizi.`,
+      ru: `ЮРМАЛА — В шаге, который муниципальные руководители называют «давно назревшим, хотя, разумеется, никто нас прямо не просил», Городской совет Юрмалы во вторник одобрил создание первой в Латвии официально регулируемой Зоны пассивно-агрессивного молчания, охраняемого участка пляжа, где речь будет нежелательна в пользу традиционного балтийского невербального общения.
+
+Эта 2,3-километровая территория, простирающаяся от чуть дальше Майори до «примерно того места, где люди начинают притворяться, что знают, где кончаются Дзинтари», будет снабжена сдержанными серыми указателями, призывающими отдыхающих приглушать голос, избегать явного энтузиазма и, по возможности, выражать разочарование исключительно осанкой.
+
+По данным муниципального Департамента нематериальной культурной атмосферы, новая зона призвана защитить, как описывают эксперты, быстро исчезающую социальную практику: стоять рядом с кем‑то 47 минут, оба смотреть на море и ни один из них не признавать, что встреча была запланирована.
+
+«Мы не против разговоров», — сказала председатель департамента Илзе Варна на пресс‑конференции тоном, который очень на это не походил. «Но зафиксирован измеримый рост слышимого смеха, прямых комплиментов и других привнесённых поведений, не соответствующих прибрежной эмоциональной экосистеме. Прошлым летом инспекторы зафиксировали 18 отдельных случаев радостных криков у дюн. В одном случае мужчина вслух сказал «потрясающая погода». Нескольким людям.»
+
+64‑страничная оценка воздействия, заказанная городом, обнаружила, что нерегулируемое общение уже вызвало «заметные нарушения» местных ритмов сдержанного признания. Исследователи задокументировали 31%‑ное снижение взаимопонятного молчания с 2019 года, а также резкий рост того, что в отчёте назвали «ненужным словесным замыканием», включая фразы вроде «Обязательно встретимся» и «Будь на связи».
+
+По новой политике посетители пляжа всё ещё могут общаться, но только в одобренных каналах. Сюда входят медленный выдох, короткий кивок, косвенное предупреждение, замаскированное под замечание о погоде, и высокоразвитая техника сдвига полотенца на 12 сантиметров дальше. Повторные нарушения — например, искренне спросить у незнакомца, откуда он — могут повлечь вывод в специально отведённую Палатку реабилитации разговоров рядом с парковкой.
+
+Местный житель и круглогодичный наблюдатель моря Андрис Лапиньш, 58 лет, приветствовал изменения. «Раньше можно было посидеть здесь и в мире испытывать нормальное разочарование», — сказал он, складывая и раскладывая газету, которую не собирался читать. «А теперь каждое лето появляются люди, обсуждающие планы, мечты, фруктовые смузи. Это создаёт давление. Вдруг тебе нужно либо отвечать, либо изображать телефонный звонок. Это не наше наследие.»
+
+Операторы турбизнеса выразили осторожную поддержку. Некоторые опасались, что политика может спутать гостей, другие же увидели маркетинговый потенциал. Пилотная брошюра, вышедшая на этой неделе, рекламирует Юрмалу как «ведущий в Европе пункт назначения для эмоционально сдержанного отдыха», обещая гостям «километры побережья, восстанавливающий сосновый воздух и захватывающую возможность, что вас никто не потревожит именно в нужной мере».
+
+Не все убеждены. Рижская социолог доктор Мара Фелдмане предупредила, что кодирование пассивной агрессии может привести к переигрыванию. «Когда люди узнают, что их молчание теперь аутентично, они могут начать делать из этого спектакль», — сказала она. «Мы можем увидеть преувеличенную работу бровями, соревновательное вздыхание или молодых профессионалов, пытающихся иронизировать без надлежащего семейного воспитания.»
+
+Городские чиновники заявляют, что исполнение начнётся в следующий понедельник, с специально обученными стюардами пляжа в льняных жилетах и с выражениями административной усталости. Совет уже рассматривает расширение программы на избранные кафе, платформы вокзалов и один особенно напряжённый сектор молочного павильона Центрального рынка.
+
+К закату вторника ранние последователи уже собрались внутри зоны: десятки жителей сидели в почти полной тишине под плоским серым небом, каждый втайне подозревая, что другие делают это чуть неправильно.`
+    },
+    date: "Aug 9, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/239/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 238,
     slug: "jrmala-introduces-silent-applause-zones-after-238",
     title: {
@@ -90,7 +177,7 @@ Tomēr pašvaldības pārstāvji paliek optimistiski. Ja pilotprogramma izdodas,
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/238/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 237,
