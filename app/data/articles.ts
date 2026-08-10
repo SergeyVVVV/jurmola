@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 240,
+    slug: "riga-introduces-polite-queue-lanes-after-240",
+    title: {
+      en: "Riga Introduces ‘Polite Queue Lanes’ After Study Finds Residents Spend 11 Years Silently Resenting Line-Cutters",
+      lv: "Rīga ievieš «Pieklājīgo rindu joslas» pēc pētījuma, kas atklāj, ka iedzīvotāji 11 gadus klusībā nicina rindas pārkāpējus",
+      ru: "Рига вводит «полосы вежливых очередей» после исследования, показавшего, что жители тратят 11 лет в молчаливом раздражении из‑за нарушителей"
+    },
+    excerpt: {
+      en: "Riga City Council has unveiled a new urban mobility initiative aimed at one of the capital’s oldest infrastructure problems: the emotional aftershocks of queue violations. Officials say the pilot program will reduce passive-aggressive sighing by 38% and restore public confidence in standing still.",
+      lv: "Rīgas dome ir prezentējusi jaunu pilsētas mobilitātes iniciatīvu, kas vērsta uz vienu no galvaspilsētas senākajām infrastruktūras problēmām: rindā traucēšanas emocionālajām pēckrāsām. Ierēdņi apgalvo, ka pilotprojekts samazinās pasīvi-agresīvas nopūtas par 38% un atjaunos sabiedrības uzticību stāvēt uz vietas.",
+      ru: "Городской совет Риги представил новую инициативу в области городской мобильности, направленную на одну из самых давних инфраструктурных проблем столицы: эмоциональные послеследствия нарушений очереди. По словам чиновников, пилотная программа сократит пассивно‑агрессивные вздохи на 38% и вернёт общественное доверие к стоянию на месте."
+    },
+    fullContent: {
+      en: `RIGA — In a move municipal leaders are calling “both practical and spiritually necessary,” Riga City Council on Tuesday launched the country’s first network of designated Polite Queue Lanes, a citywide system intended to regulate orderly waiting outside pharmacies, ticket machines, bakery counters, parcel terminals, and any doorway where at least three Latvians have formed a line without formally admitting it.
+
+The initiative follows a 214-page study by the Institute for Social Calmness and Municipal Geometry, which found that the average Riga resident spends 10.8 years of their life in queues and an additional 14 months replaying incidents in which someone “clearly was not there before but somehow is now.” Researchers classified these episodes as low-grade civic traumas.
+
+Under the new system, painted markings resembling tasteful grey herringbone patterns will appear at 173 high-risk waiting zones across the city. Each lane includes numbered foot placements, a 1.2-meter “dignity buffer,” and a yellow Repressed Outrage Strip where citizens may stand if they are too angry to leave but too polite to object.
+
+Deputy Mayor for Everyday Logistics Lelde Švarce said the policy emerged after years of public consultation, most of which consisted of residents muttering “interesting” under their breath and then going home. “Riga has world-class Art Nouveau architecture, public transport, and a deeply internalized understanding of disappointment,” Švarce told reporters while unveiling queue markings outside a central post office. “It was time our line management reflected those values.”
+
+City data indicates line ambiguity spikes during weather events, pension days, and any supermarket promotion involving discounted buckwheat. Last November, a misunderstanding at a self-service coffee machine in Purvciems reportedly created a temporary social fracture affecting 26 people and one marriage.
+
+To enforce the new lanes, the municipality has trained 42 Queue Stewards, identifiable by navy vests and an expression of weary moral clarity. Their duties include confirming who is “last,” documenting suspicious diagonal advances, and de-escalating disputes through the official three-step protocol: eye contact, silence, and a meaningful exhale.
+
+Not everyone is convinced. Outside Riga Central Market, 67-year-old resident and amateur mushroom classifier Aivars Briedis questioned whether bureaucracy can solve what he called “the ancient Baltic instinct to drift forward by three centimeters whenever nobody is looking.” Still, he admitted the lane markers had helped. “For the first time in years, I know exactly whom I dislike,” he said.
+
+Retail workers have welcomed the reform. Elīna Kārkliņa, manager of a popular bakery in Āgenskalns, said disputes over queue order had become so common staff were forced to keep a notebook titled Witnesses. “Before, customers would point at each other and say, ‘I think she was behind the man in the hat, unless that was yesterday,’” Kārkliņa said. “Now there is structure. We can return our focus to pastries.”
+
+The pilot has already produced measurable results. In a two-week trial at three pharmacies, officials recorded a 38% drop in audible sighing, a 22% reduction in throat-clearing with accusatory intent, and a dramatic increase in public trust among people holding numbered slips.
+
+Encouraged by the early data, the city is considering phase two: express lanes for residents carrying only one item and an experimental “Rural Uncle Adjustment Zone” near bus stations, where queue behavior is understood to follow separate cosmological rules.
+
+By evening, citizens at a tram stop on Brīvības iela appeared cautiously optimistic. Several stood in the newly marked positions, staring straight ahead with the solemn pride usually reserved for song festivals and successfully assembled IKEA furniture. One woman, declining to give her name, said the innovation made her feel something rare in civic life.
+
+“Not happiness,” she clarified. “But close enough.”`,
+      lv: `RĪGA — Solī, ko pašvaldības vadītāji sauc par «gan praktisku, gan garīgi nepieciešamu», otrdien Rīgas dome laida klajā valsts pirmo Pieklājīgo rindu joslu tīklu — pilsētas mēroga sistēmu, kas paredzēta, lai regulētu kārtīgu gaidīšanu ārpus aptiekām, biļešu automātiem, maiznīcu letēm, paciņu termināļiem un jebkuras durvju ailes, kur vismaz trīs latvieši ir izveidojuši rindu, neatzīstot to oficiāli.
+
+Iniciatīva seko 214 lappušu pētījumam, ko veica Sociālās Mierīguma un Pašvaldību Ģeometrijas institūts, un šajā pētījumā atklāts, ka vidējais rīdzinieks pavada 10,8 gadus sava mūža rindās un vēl papildus 14 mēnešus atkārtodams prātā epizodes, kurās kāds «acīmredzami tur pirms tam nebija, bet kādu brīdi tagad ir». Pētnieki šos gadījumus klasificēja kā zemas pakāpes pilsoniskos traumējumus.
+
+Saskaņā ar jauno sistēmu 173 augsta riska gaidīšanas zonās visā pilsētā parādīsies uzkrāsoti marķējumi, kas atgādina gaumīgu pelēku zivju kaula rakstu. Katram joslas posmam būs numurētas pēdu vietas, 1,2 metru «cieņas buferis» un dzeltenā «apspiestā sašutuma josla», kur pilsoņi var stāvēt, ja ir pārāk saniknoti, lai aizietu, bet pārāk pieklājīgi, lai iebilstu.
+
+Ikdienas loģistikas vicemēre Lelde Švarce sacīja, ka politika radusies pēc gadiem ilgas sabiedriskās konsultācijas, kuras lielākoties sastāvējušas no iedzīvotāju zembalss murmināšanas «interesanti» un tad došanās mājās. «Rīgā ir pasaules klases jūgendstila arhitektūra, sabiedriskais transports un dziļi internalizēta sapratne par vilšanos,» Švarce sacīja reportieriem, atklājot rindu marķējumus pie centrālās pastas. «Bija pienācis laiks, lai mūsu rindu pārvaldība atspoguļotu šīs vērtības.»
+
+Pilsētas dati liecina, ka rindu neskaidrība pieaug laikapstākļu notikumos, pensionāru dienās un jebkurā lielveikala akcijā, kur tiek piedāvāta atlaide griķiem. Pagājušā novembrī pārpratums pie pašapkalpošanās kafijas automāta Purvciemā, kā ziņots, radīja īslaicīgu sociālu plaisu, kas skāra 26 cilvēkus un vienu laulību.
+
+Lai uzraudzītu jauno joslu ievērošanu, pašvaldība apmācījusi 42 rindu uzraugus, kurus var atpazīt pēc tumši zilām vestēm un nogurušas morālas skaidrības izteiksmes. Viņu pienākumos ietilpst apstiprināt, kurš ir «pēdējais», dokumentēt aizdomīgas diagonālas pabīdīšanās un konflikta deeskalācija, izmantojot oficiālu trīssoļu protokolu: acu kontakts, klusums un nozīmīga izelpa.
+
+Ne visi ir pārliecināti. Pie Rīgas Centrāltirgus 67 gadus vecais iedzīvotājs un amatieru sēņu klasifikators Aivars Briedis pauda šaubas, vai birokrātija var atrisināt to, ko viņš sauca par «seno Baltijas instinktu pabīdīties trīs centimetrus uz priekšu ikreiz, kad neviens neredz». Tomēr viņš atzina, ka joslu marķējumi palīdzējuši. «Pirmoreiz gados es tieši zinu, ko neieredzu,» viņš teica.
+
+Mazumtirdzniecības darbinieki uzņem reformu ar atvērtiem pleciem. Āgenskalna populāras maiznīcas vadītāja Elīna Kārkliņa stāstīja, ka strīdi par rindu secību bija kļuvuši tik izplatīti, ka personālam nācās turēt kladi ar nosaukumu «Liecinieki». «Agrāk klienti rādīja viens uz otru un teica: 'Es domāju, viņa bija aiz cepurainā vīra, ja vien tas nebija vakar',» Kārkliņa sacīja. «Tagad ir struktūra. Mēs varam atgriezties pie konditorejas izstrādājumu pagatavošanas.»
+
+Pilotprojekts jau radījis izmērāmus rezultātus. Divu nedēļu izmēģinājumā trīs aptiekās ierēdņi fiksēja 38% samazinājumu skaļi dzirdamajās nopūtās, 22% samazinājumu aizraudinošās kakla skaidrošanās un dramatisku sabiedriskās uzticības pieaugumu starp cilvēkiem ar numurētām čekām.
+
+Iedvesmojoties no agrīnajiem datiem, pilsēta apsver otro posmu: ekspresjoslas iedzīvotājiem, kuri nēsā tikai vienu preci, un eksperimentālu «Lauku onkuļa pielāgošanas zonu» pie autobusu pieturām, kur rindu uzvedība, kā uzskata, pakļaujas atsevišķiem kosmoloģiskiem likumiem.
+
+Vakarā tramvaja pieturā Brīvības ielā iedzīvotāji izskatījās piesardzīgi optimistiski. Daži stāvēja jaunajās numurētajās vietās, raugoties taisni priekšā ar svinīgu lepnumu, kāds parasti tiek atstāts dziesmu svētkiem un veiksmīgi saliktam IKEA mēbelē. Viena sieviete, kura atteicās nosaukt savu vārdu, sacīja, ka inovācija viņā radījusi kaut ko reti sastopamu pilsētiskajā dzīvē.
+
+«Ne laime,» viņa precizēja. «Bet gana tuvu.»`,
+      ru: `РИГА — В шаге, который муниципальные власти называют «и практичным, и духовно необходимым», городской совет Риги во вторник запустил первую в стране сеть обозначенных «Полос вежливых очередей» — общегородскую систему, призванную упорядочивать ожидание у аптек, билетных автоматов, прилавков пекарен, постаматов и любых дверей, где по крайней мере трое латвийцев сформировали очередь, не объявляя об этом официально.
+
+Инициатива последовала за 214‑страничным исследованием Института общественного спокойствия и муниципальной геометрии, которое показало, что средний рижанин проводит в очередях 10,8 года своей жизни и дополнительно 14 месяцев прокручивает в уме эпизоды, когда кто‑то «очевидно тут не был, а теперь вдруг оказался». Исследователи классифицировали такие эпизоды как низкоинтенсивные гражданские травмы.
+
+По новой системе на 173 зонах повышенного риска по всему городу появятся нарисованные разметки в виде изящного серого «ёлочного» узора. Каждая полоса включает пронумерованные места для ног, 1,2‑метровый «буфер достоинства» и жёлтую «полосу подавленного возмущения», где граждане могут постоять, если им слишком сердито уходить, но они слишком вежливы, чтобы возражать.
+
+Заместитель мэра по повседневной логистике Лельде Шварце сказала, что политика родилась после лет общественных консультаций, большая часть которых состояла в том, что жители тихо бормотали «интересно» про себя и шли по домам. «У Риги мирового уровня архитектура в стиле модерн, общественный транспорт и глубоко интернализированное понимание разочарования», — сказала Шварце репортёрам, открывая разметку у центрального почтового отделения. «Пора, чтобы наша система управления очередями отражала эти ценности.»
+
+Городские данные показывают, что неясность в очередях резко растёт во время погодных явлений, в дни выплат пенсий и при любых акциях в супермаркетах, связанных с дешёвой гречкой. В прошлом ноябре недоразумение у кофемата самообслуживания в Пурвциемсе якобы вызвало временный социальный разлом, затронувший 26 человек и один брак.
+
+Чтобы обеспечивать порядок на новых полосах, муниципалитет обучил 42 «стюарда очереди», которых можно узнать по тёмно‑синим жилетам и выражению утомлённой моральной ясности. В их обязанности входит подтверждать, кто «последний», фиксировать подозрительные диагональные подвинутия и деэскалировать споры по официальному трёхступенчатому протоколу: зрительный контакт, молчание и осмысленный выдох.
+
+Не все в восторге. У центрального рынка Риги 67‑летний житель и любитель‑классификатор грибов Айварс Бриедис усомнился, сможет ли бюрократия справиться с тем, что он назвал «древним балтийским инстинктом подвинуться на три сантиметра, когда никто не смотрит». Тем не менее он признал, что разметка помогла. «Впервые за много лет я точно знаю, кого я не люблю», — сказал он.
+
+Розничные работники приветствовали реформу. Элина Карклина, управляющая популярной пекарни в Āgenskalns, сказала, что споры о порядке в очереди стали настолько обычным делом, что персонал был вынужден вести тетрадь под названием «Свидетели». «Раньше покупатели указывали друг на друга и говорили: „Кажется, она была позади того мужчины в шляпе, если это не было вчера“, — рассказывала Карклина. — Теперь есть структура. Мы можем вернуться к выпечке.»
+
+Пилот уже дал измеримые результаты. В двухнедельном эксперименте в трёх аптеках чиновники зафиксировали падение громких вздохов на 38%, снижение откашливаний с обвинительным подтекстом на 22% и драматический рост общественного доверия среди людей с пронумерованными талонами.
+
+Воодушевлённый первыми данными, город рассматривает второй этап: экспресс‑полосы для жителей, несущих в руках только один предмет, и экспериментальную «зону поправки деревенского дяди» возле автовокзалов, где поведение в очереди, как полагают, подчиняется отдельным космологическим правилам.
+
+К вечеру на трамвайной остановке на улице Brīvības iela граждане выглядели осторожно оптимистично. Несколько человек стояли на новых разметках, глядя прямо перед собой с торжественной гордостью, обычно предназначенной для песенных фестивалей и успешно собранной мебели IKEA. Одна женщина, отказавшаяся назвать своё имя, сказала, что нововведение вызвало у неё нечто редкое в гражданской жизни.
+
+«Не счастье», — уточнила она. «Но достаточно близко.»`
+    },
+    date: "Aug 10, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/240/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 239,
     slug: "jrmala-introduces-passive-aggressive-silence-zone",
     title: {
@@ -102,7 +195,7 @@ Otrdienas saulrieta brīdī agrīnie piekritēji jau bija sapulcējušies zonā,
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/239/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 238,
