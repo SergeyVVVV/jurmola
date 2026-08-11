@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 241,
+    slug: "riga-introduces-official-queue-reservation-system",
+    title: {
+      en: "Riga Introduces Official Queue Reservation System After Residents Report Missing Major Life Events While Waiting at Post Office",
+      lv: "Rīga ievieš oficiālu rindu rezervēšanas sistēmu pēc tam, kad iedzīvotāji, gaidot pastā, palaiduši garām nozīmīgus dzīves notikumus",
+      ru: "Рига вводит официальную систему бронирования очередей после того, как жители пропускали важные события жизни, ожидая на почте"
+    },
+    excerpt: {
+      en: "In a move officials say will \"modernize national standing,\" Riga this week launched the country’s first municipal Queue Reservation System, allowing residents to book their place in line up to 14 months in advance. City leaders say the reform will reduce uncertainty, preserve Latvia’s cultural relationship with waiting, and prevent citizens from having to choose between collecting a parcel and attending their own wedding.",
+      lv: "Kā solījuši amatpersonas, lai \"modernizētu valsts stāvēšanu\", šonedēļ Rīga palaida pirmo pašvaldības Rindu rezervēšanas sistēmu, kas ļauj iedzīvotājiem rezervēt vietu rindā līdz pat 14 mēnešiem iepriekš. Pilsētas vadība saka, ka reforma mazinās nenoteiktību, saglabās Latvijas kultūras saikni ar gaidīšanu un novērš situācijas, kad cilvēkam jāizvēlas starp pakas saņemšanu un paša kāzām.",
+      ru: "Чтобы, по словам чиновников, «модернизировать национальную выдержку», в Риге на этой неделе запущена первая в стране муниципальная система бронирования очередей, позволяющая жителям резервировать место в очереди за 14 месяцев. Городские власти говорят, что реформа сократит неопределённость, сохранит латвийскую культурную связь с ожиданием и не даст гражданам выбирать между получением посылки и собственным свадебным торжеством."
+    },
+    fullContent: {
+      en: `RIGA — Riga City Council on Tuesday unveiled a pilot program that will allow residents to reserve places in selected public queues through a centralized digital platform, after a municipal study found that the average Rigans spends 11.4 months of their adult life "hovering near a counter while pretending not to sigh."
+
+The new platform, called Rinda+ and funded through a €2.8 million mixture of city funds, EU innovation grants, and what one official described as "quiet desperation," will initially cover post offices, outpatient clinics, vehicle registration desks, and one especially symbolic bakery in Purvciems where customers have reportedly maintained a semi-formal queue since 1998.
+
+Deputy Mayor for Administrative Calm Elīna Paukšte said the system was designed not to eliminate queues entirely, but to bring them into line with 21st-century expectations. "We are not some reckless society that believes waiting can simply disappear," Paukšte told reporters at a press conference held behind a velvet rope for realism. "Queueing is part of our civic identity. But now a resident can know with confidence that their turn to be mildly acknowledged will arrive on 17 February 2027 between 10:10 and 10:25. That is progress."
+
+According to a 146-page report commissioned by the council, 63% of Riga residents have at some point sent a relative to "hold their place" while they attended another obligation, including funerals, school concerts, and in 4% of cases, the birth of a child. The same report found that 28% of respondents trust a person standing silently with folded arms more than any elected official.
+
+At the Central Post Office on Stacijas laukums, locals greeted the announcement with the reserved optimism generally associated with tax adjustments and summer. "Last year I queued so long to collect a package from my niece in Cork that I had time to reconsider my entire relationship with wool," said 58-year-old office administrator Inga Ozoliņa, clutching ticket A-442. "If I can now schedule this emotional journey in advance, that helps the family calendar."
+
+The launch has also introduced a Premium Heritage Queue option for an additional €4.50, allowing users to stand in a historically authentic line with no visible indication of where it begins. City officials insist the feature is intended for tourists and younger residents who "consume Latvian inconvenience only through stories from their parents."
+
+Not everyone is convinced. Sociologist Mārtiņš Veldre of the Baltic Institute for Everyday Systems warned that digitizing queues could have unintended social consequences. "For decades, the queue has been one of the few places where Latvians feel comfortable sharing personal information," he said. "People reveal shocking details about knee surgeries, mushroom yields, and disappointing sons-in-law to complete strangers, but only after 47 minutes of collective silence. An app may weaken that trust."
+
+Meanwhile, software testers have already reported several bugs, including a feature that mistakenly assigned one man from Ķengarags to a dental line in Liepāja and another that interpreted the phrase "I’m just asking" as an emergency category. Developers say both issues are being addressed.
+
+At a demonstration kiosk near Origo, pensioner Valdis Bērziņš said he remained cautiously supportive after successfully booking a spot for August. "It says I am 19th in line to speak to a human about a registered letter," he said, studying the confirmation printout as if it were a border treaty. "This is the most secure I have felt since 2004."
+
+If the pilot proves successful, city officials say Rinda+ could eventually expand to larger civic experiences, including roadworks complaints, beach parking in Jūrmala, and the annual spring queue to complain that there are too many roadworks complaints. "We envision a Latvia where no one misses life’s important moments because they are waiting inefficiently," said Paukšte. "They will miss them efficiently, with an appointment."`,
+      lv: `RĪGA — Rīgas domes otrdien atklāja pilotprogrammu, kas ļaus iedzīvotājiem rezervēt vietas atlasītās publiskajās rindās caur centralizētu digitālu platformu, pēc tam, kad pašvaldības pētījumā konstatēts, ka vidējam rīdziniekam pieaugušā mūža laikā 11,4 mēnešus paiet "stāvot pie letes un izlikdamies, ka neuzelpo".
+
+Jauno platformu, kas saucas Rinda+ un ir finansēta ar 2,8 miljonu eiro maisījumu no pilsētas līdzekļiem, ES inovāciju grantiem un, kā vienu amatpersonu izteicās, "klusās bezcerības", sākotnēji segs pasta nodaļas, ambulatorās poliklīnikas, transportlīdzekļu reģistrācijas aizstāvības un viena īpaši simboliska maiznīca Purvciemā, kur klienti, kā ziņots, uzturējuši daļēji formālu rindu kopš 1998. gada.
+
+Administratīvā miera vicemēre Elīna Paukšte sacīja, ka sistēma nav veidota, lai rindas pilnībā likvidētu, bet gan lai tās pielāgotu 21. gadsimta gaidām. "Mēs neesam nekaunīga sabiedrība, kas domā, ka gaidīšana var vienkārši izzust," Paukšte sacīja žurnālistiem preses konferencē, kas notika aiz samta auklas, lai saglabātu reālisma izjūtu. "Rindā stāvēšana ir daļa no mūsu pilsoniskās identitātes. Bet tagad iedzīvotājs var droši zināt, ka viņa kārta tikt maigi pamanītam pienāks 2027. gada 17. februārī no pulksten 10:10 līdz 10:25. Tas ir progress."
+
+Saskaņā ar 146 lappušu ziņojumu, ko pasūtīja dome, 63% rīdzinieku kādā brīdī ir nosūtījuši radinieku "turēt vietu", kamēr paši apmeklējuši citas saistības, tostarp bēres, skolas koncertus un 4% gadījumu — bērna piedzimšanu. Tajā pašā ziņojumā konstatēts, ka 28% aptaujāto uzticas cilvēkam, kas stāv klusējot ar sakrustotām rokām, vairāk nekā jebkuram ievēlētam amatministram.
+
+Stacijas laukuma centrālajā pasta nodaļā vietējie paziņojumu sagaidīja ar to pašu rezervēto optimismu, ko parasti izjūt attiecībā uz nodokļu izmaiņām un vasaru. "Pagājušajā gadā es stāvēju rindā tik ilgi, lai saņemtu paketi no manas māsas meitas Korkā, ka man bija laiks pārdomāt visu savu attiecību ar vilnu," sacīja 58 gadus vecā biroja administratore Inga Ozoliņa, cieši turot biļeti A-442. "Ja tagad šo emocionālo ceļojumu varu ieplānot iepriekš, tas palīdz ģimenes kalendāram."
+
+Lai palielinātu nianses, palaišana ieviesusi arī Premium mantojuma rindas opciju par papildu 4,50 €, kas ļauj lietotājiem stāvēt vēsturiski autentiskā rindā bez redzama sākuma. Pilsētas amatpersonas uzsver, ka īpašība domāta tūristiem un jaunākiem iedzīvotājiem, kuri "latviešu neērtību patērē tikai caur vecāku stāstiem".
+
+Ne visi ir pārliecināti. Sociologs Mārtiņš Veldre no Baltijas Ikdienas Sistēmu institūta brīdināja, ka rindu digitalizācija var radīt nevēlamas sociālas sekas. "Gadsimtu gaitā rinda ir bijusi viens no retajiem vietām, kur latvieši jūtas ērti dalīties ar personisku informāciju," viņš sacīja. "Cilvēki pilnīgām svešiniekiem atklāj šokējošas detaļas par ceļa operācijām, sēņu ražām un vilšanās znotiem, bet tikai pēc 47 minūtēm kopīgas klusēšanas. Lietotne šo uzticību var vājināt."
+
+Tikmēr programmatūras testētāji jau ziņojuši par vairākiem kļūdainiem scenārijiem, tostarp funkciju, kas nejauši piešķīra vienam vīrietim no Ķengaraga vietu pie zobārsta rindas Liepājā, un citu, kas frāzi "Es tikai pajautāju" interpretēja kā ārkārtas kategoriju. Izstrādātāji norāda, ka abas problēmas tiek risinātas.
+
+Pie demonstrācijas kioska pie Origo pensionārs Valdis Bērziņš sacīja, ka pēc veiksmīgas vietas rezervācijas augustā paliek piesardzīgi atbalstošs. "Šeit rakstīts, ka esmu 19. rindā, lai runātu ar cilvēku par rekomendētu vēstuli," viņš teica, skatot apstiprinājuma izdruku kā robežlīgumu. "Šobrīd jūtos drošāk nekā kopš 2004. gada."
+
+Ja pilots izrādīsies veiksmīgs, pilsētas amatpersonas norāda, ka Rinda+ varētu galu galā paplašināties uz lielākām civiskajām pieredzēm, tostarp ceļu remontdarbu sūdzībām, pludmales novietošanos Jūrmalā un ikgadējo pavasara rindu, kurā sūdzas, ka ir par daudz ceļu remontdarbu sūdzību. "Mēs iedomājamies Latviju, kur neviens nepalaidīs garām dzīves svarīgākos brīžus tāpēc, ka gaida neefektīvi," sacīja Paukšte. "Viņi tos palaidīs garām efektīvi, ar iepriekšēju pierakstu."`,
+      ru: `РИГА — Во вторник Рижская дума представила пилотную программу, которая позволит жителям резервировать места в выбранных общественных очередях через централизованную цифровую платформу, после муниципального исследования, показавшего, что среднестатистический рижанин проводит 11,4 месяца взрослой жизни «паря у окошка и делая вид, что не вздыхает». 
+
+Новая платформа под названием Rinda+ и профинансированная за счёт €2,8 млн, смешанных из городского бюджета, грантов ЕС на инновации и того, что один чиновник описал как «тихое отчаяние», сначала будет охватывать почтовые отделения, поликлиники, регистрационные столы для автомобилей и одну особенно символичную пекарню в Пурвциемсе, где, по сообщениям, покупатели держат полуформальную очередь с 1998 года. 
+
+Заместитель мэра по административному спокойствию Элина Паукште сказала, что система задумана не для того, чтобы полностью искоренить очереди, а чтобы привести их в соответствие с ожиданиями XXI века. «Мы ведь не какое-то безрассудное общество, которое верит, что ожидание может просто исчезнуть», — заявила Паукште на пресс-конференции, прошедшей за бархатной лентой ради достоверности. «Очередь — часть нашей гражданской идентичности. Но теперь житель может с уверенностью знать, что его очередь на лёгкое внимание наступит 17 февраля 2027 года между 10:10 и 10:25. Это прогресс». 
+
+Согласно 146-страничному отчёту, заказанному думой, 63% рижан в какой-то момент отправляли родственника «держать место», пока сами посещали другое обязательство, включая похороны, школьные концерты и, в 4% случаев, рождение ребёнка. Тот же отчёт показал, что 28% опрошенных больше доверяют человеку, стоящему молча со сложенными руками, чем любому избранному чиновнику. 
+
+В Центральном почтамте на площади Стачиас местные жители встретили объявление с той самой сдержанной оптимистичностью, которая обычно сопровождает изменения в налогах и лето. «В прошлом году я стояла в очереди так долго, чтобы получить посылку от племянницы в Корке, что успела пересмотреть всё своё отношение к шерсти», — сказала 58‑летняя сотрудница офиса Инга Озолиня, сжимая талон A‑442. «Если теперь я смогу запланировать это эмоциональное путешествие заранее, это поможет семейному календарю». 
+
+Запуск также ввёл опцию Premium Heritage Queue за дополнительные €4,50, позволяющую пользователям встать в исторически аутентичную линию без видимых признаков того, где она начинается. Городские чиновники настаивают, что функция предназначена для туристов и молодых жителей, которые «потребляют латвийские неудобства только по рассказам родителей». 
+
+Не все убеждены. Социолог Мартиньш Вельдре из Балтийского института повседневных систем предостерёг, что цифровизация очередей может иметь непредвиденные социальные последствия. «Десятилетиями очередь была одним из немногих мест, где латвийцы чувствуют себя комфортно, делясь личной информацией», — сказал он. «Люди раскрывают шокирующие подробности о операциях на коленях, урожае грибов и разочаровывающихся зятях незнакомцам, но только после 47 минут коллективной тишины. Приложение может ослабить это доверие». 
+
+Тем временем тестировщики ПО уже сообщили о нескольких багах, включая функцию, которая по ошибке отправила одного мужчину из Кенгарагса в стоматологическую очередь в Лиепае, и другую, которая интерпретировала фразу «я просто спрашиваю» как категорию «срочно». Разработчики говорят, что над устранением обоих проблем уже работают. 
+
+У демонстрационного киоска возле Origo пенсионер Валдис Берзиньш сказал, что остаётся осторожно настроенным положительно после того, как успешно забронировал место на август. «Здесь написано, что я 19‑й в очереди, чтобы поговорить с человеком о заказном письме», — сказал он, рассматривая распечатанное подтверждение так, как будто это пограничный договор. «С тех пор как 2004 год, я не чувствовал себя так защищённо». 
+
+Если пилот удастся, городские власти заявляют, что Rinda+ в перспективе может расшириться до более масштабных гражданских переживаний, включая жалобы на дорожные работы, парковку на пляжах Юрмалы и ежегодную весеннюю очередь на жалобы о том, что жалоб на дорожные работы слишком много. «Мы видим Латвию, где никто не пропускает важные моменты жизни из‑за неэффективного ожидания», — сказала Паукште. «Они будут пропускать их эффективно, по записи».`
+    },
+    date: "Aug 11, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/241/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 240,
     slug: "riga-introduces-polite-queue-lanes-after-240",
     title: {
@@ -108,7 +189,7 @@ Vakarā tramvaja pieturā Brīvības ielā iedzīvotāji izskatījās piesardzī
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/240/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 239,
