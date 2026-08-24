@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 254,
+    slug: "riga-residents-relieved-to-learn-citys",
+    title: {
+      en: "Riga Residents Relieved To Learn City’s Endless Roadworks Are Actually A Slow-Motion Defensive Wall Against Estonia",
+      lv: "Rīgas iedzīvotāji atviegloti uzzina, ka pilsētas bezgalīgie ceļa darbi patiesībā ir lēnas darbības aizsargmūris pret Igauniju",
+      ru: "Жители Риги с облегчением узнали, что бесконечные дорожные работы в городе на самом деле — медленно действующая оборонительная стена против Эстонии"
+    },
+    excerpt: {
+      en: "After years of questioning why the same 300 meters of pavement near Brīvības Street had been excavated 11 times, Riga residents were informed this week that the disruptions are part of a long-term national security project. Officials say the strategic traffic paralysis will create an “unpredictable urban moat” capable of confusing any hostile force, delivery van, or visiting relative from Valmiera.",
+      lv: "Pēc gadiem, kad cilvēki brīnījās, kāpēc tie paši 300 metri bruģa pie Brīvības ielas tika izrakti 11 reizes, rīdzinieki šonedēļ tika informēti, ka traucējumi ir daļa no ilgtermiņa valsts drošības projekta. Ierēdņi apgalvo, ka stratēģiskā satiksmes paralīze radīs “neparedzamu pilsētas grāvi”, kas spēs samulsināt jebkuru naidīgu spēku, piegādes furgonu vai ciemiņos atbraukušu radinieku no Valmieras.",
+      ru: "После многих лет вопросов о том, почему те же самые 300 метров покрытия возле улицы Бривибас копали уже одиннадцать раз, жители Риги на этой неделе были проинформированы, что эти перебои — часть долгосрочного проекта национальной безопасности. Чиновники заявляют, что стратегический паралич движения создаст «непредсказуемый городской ров», способный поставить в тупик любую враждебную силу, доставочный фургон или навещающего родственника из Валмьеры."
+    },
+    fullContent: {
+      en: `RIGA — In a press conference held Tuesday between two temporary metal fences and a pile of decorative gravel no one could explain, municipal officials confirmed that the capital’s seemingly permanent roadworks are not, in fact, evidence of bureaucratic drift, poor planning, or a spiritual inability to finish things before November. Instead, they are part of a classified-but-now-conveniently-public defensive infrastructure program known as Asphalt Shield 2035.
+
+The revelation followed mounting public speculation over why major sections of Riga have been dug up, resurfaced, reopened, and then immediately dug up again with the ceremonial confidence of a city trying to erase itself one lane at a time. According to Deputy Director of Urban Continuity and Obstruction Mārtiņš Auzers, the project was designed in cooperation with transport engineers, civil defense analysts, and “one extremely pessimistic uncle from Cēsis.”
+
+“The average outsider sees cones, mud, and a tram stop that has migrated 800 meters in three months,” Auzers said, gesturing toward a blocked intersection where three men in orange vests were staring thoughtfully into a trench. “What they don’t see is a highly adaptive deterrence system. No organized force can advance through Riga if even local residents cannot determine where lane markings begin or whether this is still technically a sidewalk.”
+
+City data released alongside the announcement suggests the strategy has already proven effective. Since 2022, 94% of drivers entering central Riga have unintentionally rerouted themselves at least twice, 61% have experienced “temporary philosophical surrender,” and one Lithuanian logistics convoy reportedly spent six hours circling Purvciems before filing what officials described as “an admirably detailed complaint.”
+
+Residents expressed a mix of vindication and fatigue. “Honestly, it explains a lot,” said Teika resident and accountant Līga Strautmale, who has budgeted an extra 37 minutes every morning to travel a distance she can see from her kitchen window. “I used to think they were replacing the pipes, then I thought maybe the pipes were replacing us. Knowing it’s military strategy makes me feel slightly more respected.”
+
+Public confidence rose further after the Ministry of Defense confirmed that the roadworks align with broader Baltic resilience goals. Colonel Edgars Vītols said traditional fortifications are obsolete in the modern era. “Concrete barriers can be mapped. Traffic cones cannot,” he said. “A hostile column may prepare for tanks, drones, or anti-armor systems. It does not prepare for a handwritten detour sign pointing directly into Ķengarags.”
+
+The most heavily fortified zones reportedly include the approaches to Central Station, several emotionally sensitive roundabouts in Pārdaugava, and a tactical crater outside a supermarket in Jugla that has remained untouched long enough to appear on Google Maps as a seasonal feature. Jurmala officials, unwilling to be left out of national defense planning, announced a complementary strategy involving decorative bike lane revisions and a parking system “complex enough to break morale before noon.”
+
+Not all experts are convinced. Urban policy researcher Elīna Rozentāle of the Baltic Institute for Functional Surfaces warned that while confusion is a proven deterrent, overuse may have side effects. “There is a threshold beyond which residents no longer distinguish between civil engineering and fate,” she said. “At that point, the city is not defended. It is simply accepted.”
+
+Still, by Wednesday afternoon, public frustration appeared to soften after workers reopened one lane near the Daugava, only to close a different one 20 minutes later in what officials called a live readiness exercise. Standing beside a sign reading APOLOGIES FOR THE INCONVENIENCE SINCE 2019, Auzers defended the city’s long-term vision.
+
+“People keep asking when the roadworks will end,” he said. “If they end, the enemy wins.”`,
+      lv: `RĪGA — Preses konferencē, kas otrdien notika starp divām pagaidu metāla žogmalām un dekoratīvā šķembas kaudzi, kuru neviens nevarēja izskaidrot, pašvaldības ierēdņi apstiprināja, ka galvaspilsētas šķietami pastāvīgie ceļa darbi patiesībā nav birokrātijas klibs lēciens, slikta plānošana vai garīgas nespējas pabeigt darbus līdz novembrim. Tā vietā tie ir daļa no slepenas — bet nu ērti publiskas — aizsardzības infrastruktūras programmas ar nosaukumu "Asfalta vairogs 2035".
+
+Atklājums sekoja pieaugošai sabiedrības spekulācijai, kāpēc lielas Rīgas daļas tiek izrakņātas, pēc tam atjaunotas, atvērtas un tūlīt pat atkal izrakņātas ar pilsētas rituālu pārliecību, kāda piemīt mēģinājumam izdzēst sevi josla pa joslai. Pilsētas nepārtrauktības un šķēršošanas vietnieks Mārtiņš Auzers skaidroja, ka projekts izstrādāts sadarbībā ar transporta inženieriem, civilās aizsardzības analītiķiem un “vienu ārkārtīgi pesimistisku onkuli no Cēsīm”.
+
+"Vidusmēra novērotājam šķiet, ka viņš redz konusītes, dubļus un tramvaja pieturu, kas trīs mēnešu laikā migrējusi 800 metrus," teica Auzers, norādot uz bloķēto krustojumu, kur trīs vīri oranžos vestēs domīgi skatījās tranšejā. "To, ko viņi neredz, ir augsti adaptīva novēršanas sistēma. Neviena organizēta kolonna nevar pārkāpt Rīgu, ja pat vietējie iedzīvotāji nespēj noteikt, kur sākas joslu atzīmes vai vai tas tehniski joprojām ir ietve."
+
+Pilsētas dati, kas izplatīti kopā ar paziņojumu, liecina, ka stratēģija jau pierādījusi savu efektivitāti. Kopš 2022. gada 94% vadītāju, kas iebraukuši centrālajā Rīgā, nejauši pārvirzījušies vismaz divas reizes, 61% piedzīvojuši "pagaidu filozofisku kapitulāciju", un viens Lietuvas loģistikas konvojs esot sešas stundas rijis riņķī ap Purvciemu, pirms iesniedza to, ko ierēdņi raksturoja kā "apbrīnojami detalizētu sūdzību".
+
+Iedzīvotāji izteica gan apmierinājumu, gan nogurumu. "Godīgi sakot, tas daudz ko izskaidro," sacīja Teikas iedzīvotāja un grāmatvede Līga Strautmale, kura katru rītu pievienojusi budžetā papildus 37 minūtes ceļam uz attālumu, ko viņa var redzēt no savas virtuves loga. "Sākumā domāju, ka maina caurules, pēc tam sapratu, ka varbūt caurules maina mūs. Zināt, ka tas ir militārs stratēģijas man liek justies mazliet cienītākai."
+
+Sabiedrības uzticība pieauga vēl vairāk pēc Aizsardzības ministrijas apstiprinājuma, ka ceļa darbi saskan ar plašākiem Baltijas noturības mērķiem. Pulkvedis Edgars Vītols sacīja, ka tradicionālās fortifikācijas mūsdienu laikmetā ir novecojušas. "Betona barjeras var uzkartēt kartēs. Satiksmes konusus — nevar," viņš teica. "Naidīga kolonna var sagatavoties tankiem, droniem vai pretbruņojuma sistēmām. Tā neiedomājas sagatavoties roku rakstītai apbraucamās ceļa zīmei, kas norāda tieši uz Ķengaragu."
+
+Visaugstāk fortificētās zonas, pēc ziņām, ietver pieejas pie Centrālās stacijas, vairākas emocionāli jutīgas apļa krustojumu vietas Pārdaugavā un taktisku krāteri pie viena veikala Juglā, kas palicis neaiztverts tik ilgi, ka Google Maps to parāda kā sezonālu iezīmi. Jūrmalas ierēdņi, nevēloties palikt ārpus valsts aizsardzības plānošanas, paziņoja par papildinošu stratēģiju, kas ietver dekoratīvas velosipēdu joslu pārskatīšanas un autostāvvietu sistēmu, "pietiekami sarežģītu, lai salauztu morāli pirms pusdienlaika".
+
+Ne visi eksperti ir pārliecināti. Pilsētpolitikas pētniece Elīna Rozentāle no Baltijas Funkcionālo Virsmu institūta brīdināja, ka, lai gan samulsināšana ir pierādīts atbaidīšanas līdzeklis, pārmērīga tā izmantošana var radīt blakusefektus. "Pastāv slieksnis, pēc kura iedzīvotāji vairs neatšķir civilās inženierijas no likteņa," viņa sacīja. "Tajā brīdī pilsēta nav aizsargāta. Tā tiek vienkārši pieņemta."
+
+Tomēr trešdienas pēcpusdienā sabiedrības neapmierinātība šķita mīkstināta pēc tam, kad darbinieki atvēra vienu joslu pie Daugavas, lai 20 minūtes vēlāk slēgtu citu — to, ko ierēdņi nosauca par tiešraides gatavības vingrinājumu. Stāvot blakus zīmei, uz kuras rakstīts "APOLOGIES FOR THE INCONVENIENCE SINCE 2019", Auzers aizstāvēja pilsētas ilgtermiņa redzējumu.
+
+"Cilvēki jautā, kad beigsies ceļa darbi," viņš teica. "Ja tie beigsies, ienaidnieks uzvar."`,
+      ru: `РИГА — На пресс‑конференции во вторник, проходившей между двумя временными металлическими ограждениями и кучей декоративной гальки, происхождение которой никто не мог объяснить, муниципальные чиновники подтвердили, что кажущиеся вечными дорожные работы в столице вовсе не являются свидетельством бюрократической расхлябанности, плохого планирования или духовной неспособности что‑то закончить до ноября. Наоборот, это часть засекреченной, но теперь удобно обнародованной оборонительной инфраструктурной программы под названием «Асфальтовый Щит 2035». 
+
+Откровение последовало после нарастающих общественных спекуляций о том, почему крупные участки Риги то вырывают, то вновь асфальтируют, то открывают, а затем с церемониальной уверенностью снова роют — словно город пытается стереть сам себя по одной полосе за раз. По словам заместителя директора по городской преемственности и препятствию Мārtiņša Auzersa, проект разработан в сотрудничестве с транспортными инженерами, аналитиками гражданской обороны и «одним чрезвычайно пессимистичным дядей из Цесиса». 
+
+«Посторонний видит конусы, грязь и трамвайную остановку, которая за три месяца «переехала» на 800 метров», — сказал Аузерс, указывая на перекрытое пересечение, где трое мужчин в оранжевых жилетах задумчиво смотрели в траншею. «То, чего они не видят, — это высокоадаптивная сдерживающая система. Никакая организованная колонна не сможет продвинуться через Ригу, если даже местные жители не могут определить, где начинаются разметки полос или по-прежнему ли это технически тротуар». 
+
+Данные города, опубликованные вместе с заявлением, свидетельствуют о том, что стратегия уже доказала свою эффективность. С 2022 года 94% водителей, въезжающих в центр Риги, непреднамеренно перенаправлялись по крайней мере дважды, 61% испытали «временную философскую капитуляцию», а один литовский логистический конвой, как сообщается, шесть часов кружил по Пурвциемсу, прежде чем подать, по словам чиновников, «восхитительно подробную жалобу». 
+
+Жители выразили смесь удовлетворения и усталости. «Честно говоря, многое объясняет», — сказала жительница Тейки, бухгалтер Лига Страутмале, которая ежедневно закладывает дополнительные 37 минут на поездку туда, что видно из её кухонного окна. «Сначала я думала, что они меняют трубы, потом подумала, что, может быть, трубы меняют нас. Узнав, что это военная стратегия, я почувствовала себя чуть более уважаемой». 
+
+Доверие общественности выросло после того, как Министерство обороны подтвердило, что дорожные работы вписываются в более широкие балтийские цели устойчивости. Полковник Эдгарс Витолс сказал, что традиционные укрепления в современную эпоху устарели. «Бетонные заграждения можно нанести на карту. Дорожные конусы — нет», — сказал он. «Вражеская колонна может готовиться к танкам, дронам или противотанковым системам. Она не готовится к рукописному указателю объезда, указывающему прямо в Кенгарагс». 
+
+Наиболее укреплённые зоны, как сообщается, включают подходы к Центральному вокзалу, несколько эмоционально чувствительных кольцевых развязок в Пардаугаве и тактический кратер у супермаркета в Югле, который оставался нетронутым так долго, что Google Maps уже помечает его как сезонную достопримечательность. Чиновники Юрмалы, не желая отставать от национального планирования обороны, объявили дополнительную стратегию, включающую декоративную ревизию велодорожек и систему парковки «достаточно сложную, чтобы сломать боевой дух до полудня». 
+
+Не все эксперты убеждены. Исследователь городской политики Элина Розентале из Балтийского института функциональных поверхностей предупредила, что хотя замешательство — проверенное средство сдерживания, чрезмерное его использование может иметь побочные эффекты. «Существует порог, после которого жители уже не отличают гражданское строительство от судьбы», — сказала она. «В этот момент город не защищён. Он просто принят». 
+
+Тем не менее к среде днём общественное раздражение, похоже, смягчилось: рабочие открыли одну полосу у Даугавы, чтобы через 20 минут закрыть другую — то, что чиновники назвали учением по боевой готовности. Стоя рядом со знаком «ИЗВИНЯЕМСЯ ЗА НЕУДОБСТВА С 2019 ГОДА», Аузерс защищал долгосрочное видение города. 
+
+«Люди продолжают спрашивать, когда закончатся дорожные работы», — сказал он. «Если они закончатся, враг победит».`
+    },
+    date: "Aug 24, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/254/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 253,
     slug: "jrmala-introduces-quiet-hour-for-seagulls",
     title: {
@@ -102,7 +183,7 @@ Tomēr domes locekļi paliek optimistiski. 'Latvija ir risinājusi sarežģītā
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/253/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 252,
