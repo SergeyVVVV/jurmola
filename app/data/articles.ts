@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 255,
+    slug: "riga-introduces-silent-tram-car-for-255",
+    title: {
+      en: "Riga Introduces Silent Tram Car for Passengers Who Need to Continue Looking Mildly Disappointed in Peace",
+      lv: "Rīga ievieš Kluso tramvaja vagonu pasažieriem, kuriem vajag mierīgi turpināt izskatīties viegli vīlušies",
+      ru: "Рига вводит тихий вагон для пассажиров, которым нужно в покое продолжать выглядеть слегка разочарованными"
+    },
+    excerpt: {
+      en: "Responding to what officials describe as a \"critical shortage of uninterrupted sighing space,\" Riga has launched a new tram carriage reserved exclusively for silence, introspection, and passive-aggressive window staring. The pilot program has already been hailed as a major success by commuters who called it \"better than happiness.\"",
+      lv: "Reaģējot uz to, ko amatpersonas dēvē par „kritisku nepārtrauktas nopūtīšanās vietas trūkumu”, Rīga ir palaidusi jaunu tramvaja vagonu, kas rezervēts tikai klusumam, introspekcijai un pasīvi-agresīvai skatīšanai pa logu. Pēcpilota programma jau ir saņēmusi slavējumus no ikdienas pasažieriem, kuri to nosaukuši par „labāku nekā laime”.",
+      ru: "В ответ на то, что чиновники называют «критической нехваткой места для непрерывных вздохов», Рига запустила новый трамвайный вагон, зарезервированный исключительно для тишины, интроспекции и пассивно‑агрессивного созерцания в окно. Пилотный проект уже назвали большим успехом пассажиры, которые охарактеризовали его как «лучше, чем счастье»."
+    },
+    fullContent: {
+      en: `RIGA — In a move city planners are calling "the most emotionally accurate public transport reform in decades," Rīgas Satiksme on Tuesday unveiled a new silent tram car intended for passengers who wish to experience their commute without forced small talk, ringtone outbreaks, or the psychological violence of overhearing someone enthusiastically discuss property prices in Āgenskalns.
+
+The new carriage, marked with a pale grey sticker depicting a person looking out at drizzle, began operating this week on the 11th tram line. According to transport officials, the pilot was developed after a municipal survey found that 68% of Riga residents would prefer "total atmospheric quiet" during morning travel, while 24% said they would also support "a separate compartment for people eating hard-boiled eggs on public transport, preferably on another continent."
+
+"We studied successful quiet zones abroad, but those models were too cheerful," said Rīgas Satiksme spokesperson Elīna Vītola at a press conference conducted in a voice barely louder than a respectful cough. "Our passengers were clear. They did not want wellness. They wanted the legally protected right to think about birch trees, utility bills, and one argument from 2017 without interruption."
+
+Under the new rules, passengers entering the silent car must place phones on mute, avoid eye contact exceeding 1.5 seconds, and keep all visible emotions "within reasonable Baltic limits." Speaking is technically permitted only in emergencies, which official signage defines as "fire, medical distress, or suddenly remembering where to buy decent tomatoes in February."
+
+City inspectors have already issued 14 warnings and one removal after a university student boarded the carriage and said "good morning" with what witnesses described as "excessive sincerity." The student, 21-year-old architecture major Rūdolfs Meiers, was escorted to a regular tram compartment where he was forced to continue his optimism among other civilians.
+
+Many commuters have welcomed the change. "Usually I have to absorb three podcast leaks, two speakerphone calls, and one man explaining crypto to a woman who clearly regrets standing near him," said office administrator Inga Lapiņa, staring through the tram window as rain traced thin lines down the glass. "Today I heard only the rails, a distant coat zipper, and my own disappointment. It was perfect."
+
+Jūrmala resident and daily commuter Mārtiņš Ozols said the carriage finally reflects regional values. "In other countries they have first class. Here we have emotional non-interference," he said. "Nobody smiled at me. Nobody asked if this seat was free in an enthusiastic way. For 17 minutes I felt seen by not being seen at all."
+
+Not everyone is convinced. The Latvian Association of Extroverts, which currently lists four active members, criticized the policy as divisive. Chairwoman Karīna Brence argued that public transport should remain a space for social connection. Her statement was met with concern from transit officials, who said they were monitoring the situation carefully and had prepared a separate outreach tram where extroverts can describe weekend plans to one another until the issue resolves itself.
+
+Early data suggests the quiet carriage has already improved punctuality by 3%, mainly because passengers now board with the focused urgency of people defending a scarce natural habitat. The city is also considering a premium "Ultra-Silent" car for winter, in which even thoughts about summer would be discouraged.
+
+As the tram rolled toward Mežaparks on its second day of service, no applause greeted the initiative, no celebratory speeches were made, and no one appeared visibly pleased. Officials later called the public response "overwhelmingly positive."`,
+      lv: `RĪGA — Solī, ko pilsētplānotāji dēvē par „emocionāli precīzāko sabiedriskā transporta reformu desmitgaudē”, Rīgas Satiksme otrdien atklāja jaunu Kluso tramvaja vagonu, paredzētu pasažieriem, kuri vēlas braucienu piedzīvot bez piespiedu mazas sarunas, zvanu uzliesmojumiem vai psiholoģiskā vardarbība, klausoties kādu ar entuziasmu apspriež īpašumu cenas Āgenskalnā.
+
+Jaunais vagonu marķē ar blāvi pelēku uzlīmi, kur attēlota persona, kas raugās uz smidzinošu lietu, šonedēļ sāka kursēt 11. tramvaja līnijā. Pēc satiksmes amatpersonu teiktā, pilots tika izstrādāts pēc pašvaldības aptaujas, kurā noskaidrojās, ka 68% Rīgas iedzīvotāju dod priekšroku „totālai atmosfēras klusumam” rīta braucienos, kamēr 24% norādīja, ka atbalstītu arī „atsevišķu nodalījumu cilvēkiem, kas sabiedriskajā transportā ēd vārītus olas, vēlams — uz cita kontinenta”.
+
+„Mēs pētījām veiksmīgās klusuma zonas ārzemēs, bet tās modeļi bija pārāk priecīgi,” preses konferencē, runājot balsī, kas knapi bija skaļāks par pieklājīgu klepu, sacīja Rīgas Satiksmes preses pārstāve Elīna Vītola. „Mūsu pasažieri bija skaidri. Viņi negribēja wellness. Viņi gribēja tiesiski aizsargātas tiesības domāt par bērziem, komunālajiem rēķiniem un vienu strīdu no 2017. gada bez pārtraukuma.”
+
+Saskaņā ar jaunajiem noteikumiem Klusā vagona pasažieri ir jāliek telefoni klusumā, jāizvairās no acu kontakta, kas ilgāks par 1,5 sekundēm, un jātur visas redzamās emocijas „saprātīgās Baltijas robežās”. Runāt tehniski ir atļauts tikai ārkārtas gadījumos, ko oficiālā zīme definē kā „ugunsgrēks, medicīniska krīze vai pēkšņa atmiņa, kur februārī nopirkt cienījamas tomātus”.
+
+Pilsētas inspektori jau izdevuši 14 brīdinājumus un vienu izraidīšanu pēc tam, kad universitātes students uzkāpa vagonā un teica „labrīt” ar to, ko aculiecinieki raksturoja kā „pārmērīgu sirsnību”. Studenta, 21 gadu vecā arhitektūras studenta Rūdolfa Meiera, pavadīja uz parasto tramvaja nodalījumu, kur viņš tika piespiests turpināt savu optimismu kopā ar citiem civīliedzīvotājiem.
+
+Daudzi ikdienas braucēji sveikuši izmaiņas. „Parasti man jāuzsūc trīs podkāstu noplūdes, divi zvani no skaļruņa un viens vīrietis, kas skaidro kripto sievietei, kura acīmredzami nožēlo, ka stāv viņam blakus,” sacīja biroja administratora Inga Lapiņa, skatoties pa tramvaja logu, kamēr lietus izvilka plānas līnijas pa stiklu. „Šodien es dzirdēju tikai sliedes, tālenu mēteļa rāvējslēdzēja čīkstēšanu un savu pašu vīlumu. Tas bija perfekti.”
+
+Jūrmalas iedzīvotājs un ikdienas pasažieris Mārtiņš Ozols sacīja, ka vagonā beidzot atspoguļojas reģionālās vērtības. „Citur ir pirmā klase. Šeit mums ir emocionāla neiejaukšanās,” viņš teica. „Neviens man nesmaidīja. Neviens nejautāja entuziasma pilnā tonī, vai šis sēdeklis ir brīvs. 17 minūtes es jutos redzēts tāpēc, ka mani nemaz neredzēja.”
+
+Ne visi ir pārliecināti. Latvijas Ekstrovertu asociācija, kurā pašlaik reģistrēti četri aktīvi biedri, kritizēja politiku kā šķeļošu. Priekšsēdētāja Karīna Brence apgalvoja, ka sabiedriskajam transportam jāpaliek kā vietai sociālām sasaistēm. Viņas paziņojumu ar nopietnām bažām uzņēma satiksmes speciālisti, kuri sacīja, ka situāciju rūpīgi uzrauga un ir sagatavojuši atsevišķu „sasniedzamības” tramvaju, kurā ekstroverti var viens otram bez steigas aprakstīt brīvdienu plānus, kamēr jautājums atrisinās.
+
+Agrīnie dati liecina, ka Klusais vagons jau ir uzlabojis punktualitāti par 3%, galvenokārt tāpēc, ka pasažieri tagad iekāpj ar koncentrētas steidzamības sajūtu, kā cilvēki, kas aizstāv retu dabas biotopu. Pilsēta arī apsver ziemai premium „Ultra-Kluso” vagonu, kur pat domas par vasaru tiktu atturētas.
+
+Kad tramvajs otrajā darba dienā virzījās uz Mežaparku, iniciatīvu nesagaidīja ne aplausi, ne svinīgi runas, un nevienam nebija acīmredzami priecīgs izskats. Amatpersonas vēlāk sabiedrības reakciju nodēvēja par „pārliecinoši pozitīvu.”`,
+      ru: `РИГА — В шаге, который городские планировщики называют «самой эмоционально точной реформой общественного транспорта за десятилетия», компания Rīgas Satiksme во вторник представила новый тихий вагон трамвая, предназначенный для пассажиров, желающих совершать поездку без навязанного светского общения, вспышек рингтонов и психологического насилия от того, что слышишь, как кто‑то с энтузиазмом обсуждает цены на недвижимость в Āgenskalns.
+
+Новый вагон, отмеченный бледно‑серой наклейкой с изображением человека, смотрящего на моросящий дождь, начал курсировать на 11‑й трамвайной линии на этой неделе. По словам транспортных чиновников, пилот был разработан после муниципального опроса, показавшего, что 68% жителей Риги предпочли бы «тотальную атмосферную тишину» во время утренних поездок, а 24% также поддержали бы «отдельный отсек для людей, поедающих вкрутую сваренные яйца в общественном транспорте, желательно на другом континенте». 
+
+«Мы изучали успешные тихие зоны за рубежом, но эти модели были слишком жизнерадостны», — сказала пресс‑секретарь Rīgas Satiksme Элина Витола на пресс‑конференции, проведённой голосом едва громче уважительного кашля. «Наши пассажиры были предельно ясны. Им не нужен велнес. Им нужно юридически защищённое право думать о берёзах, коммунальных квитанциях и одном споре 2017 года без перебивок». 
+
+По новым правилам, пассажиры, заходящие в тихий вагон, обязаны ставить телефоны на беззвучный режим, избегать зрительного контакта дольше 1,5 секунды и держать все видимые эмоции «в пределах разумной прибалтийской нормы». Разговор технически разрешён лишь в чрезвычайных ситуациях, которые на официальных табличках определяют как «пожар, медицинское бедствие или внезапное воспоминание, где в феврале можно купить нормальные помидоры». 
+
+Городские инспекторы уже выписали 14 предупреждений и одно удаление после того, как студент университета сел в вагон и сказал «доброе утро» с тем, что свидетели описали как «чрезмерную искренность». Студента, 21‑летнего будущего архитектора Рудольфса Мейерса, сопроводили в обычный трамвайный СВ, где он был вынужден продолжать свой оптимизм среди прочих пассажиров. 
+
+Многие горожане приветствовали нововведение. «Обычно на меня выливается три подкаст‑утечки, два разговора на громкой связи и один мужчина, объясняющий крипту женщине, которая явно сожалеет, что стоит рядом», — сказала офисная администратор Инга Лапиня, глядя в окно трамвая, по которому дождь провёл тонкие дорожки. «Сегодня я слышала только рельсы, далёкую молнию молнии на куртке и собственное разочарование. Это было идеально». 
+
+Житель Юрмалы и ежедневный пассажир Мартиньш Озолс сказал, что вагон наконец отражает региональные ценности. «В других странах у них есть первый класс. У нас — эмоциональное невмешательство», — сказал он. «Никто не улыбнулся мне. Никто не спросил, свободно ли это место, с энтузиазмом. 17 минут я ощущал себя замеченным тем, что меня вовсе не замечали». 
+
+Не все убеждены. Латвийская ассоциация экстравертов, в которой на данный момент числится четыре активных члена, раскритиковала политику как разобщающую. Председательница Карина Бренце утверждала, что общественный транспорт должен оставаться пространством для социальных связей. Её заявление встретило обеспокоенность со стороны транспортных чиновников, которые заявили, что внимательно мониторят ситуацию и подготовили отдельный «приговорочный» трамвай, где экстраверты могут описывать планы на выходные друг другу, пока вопрос не разрешится сам собой. 
+
+Ранние данные показывают, что тихий вагон уже улучшил пунктуальность на 3%, в основном потому, что пассажиры теперь входят с сосредоточенной срочностью людей, защищающих редкую природную среду. Город также рассматривает премиальный «Ультра‑тихий» вагон на зиму, в котором даже мысли о лете будут поощряться к самоцензуре. 
+
+Когда трамвай на второй день работы катился в сторону Mežaparks, инициативу не встретили ни аплодисментами, ни торжественными речами, и никто не выглядел явно довольным. Чиновники позднее назвали общественную реакцию «подавляюще положительной».`
+    },
+    date: "Aug 25, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/255/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 254,
     slug: "riga-residents-relieved-to-learn-citys",
     title: {
@@ -96,7 +177,7 @@ Tomēr trešdienas pēcpusdienā sabiedrības neapmierinātība šķita mīkstin
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/254/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 253,
