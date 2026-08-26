@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 256,
+    slug: "riga-introduces-official-silence-hours-for-256",
+    title: {
+      en: "Riga Introduces Official Silence Hours for Passive-Aggressive Balcony Conversations",
+      lv: "Rīga ievieš oficiālās klusuma stundas pasīvi-agresīvām balkona sarunām",
+      ru: "Рига вводит официальные часы тишины для пассивно-агрессивных балконных бесед"
+    },
+    excerpt: {
+      en: "In a move city leaders say will protect the capital’s “intangible tradition of indirect conflict,” Riga has approved designated evening hours for neighbors to exchange disapproval from separate balconies without raising their voices above 38 decibels. Officials insist the policy will reduce noise while preserving one of Latvia’s most efficient forms of social regulation.",
+      lv: "Kā soli, ko pilsētas vadība sola aizsargāt galvaspilsētas \"nemateriālo netiešā konflikta tradīciju\", Rīga apstiprinājusi noteiktas vakara stundas, kad kaimiņi var izrādīt neapmierinātību no atsevišķiem balkoniem, nepaceļot balsi virs 38 decibeliem. Iestādes uzsver, ka politika samazinās trokšņus, vienlaikus saglabājot vienu no Latvijas efektīvākajām sociālās regulēšanas formām.",
+      ru: "В попытке защитить «нематериальную традицию косвенных конфликтов» столицы Рига утвердила вечерние часы, в которые соседи могут выражать неодобрение с отдельных балконов, не повышая голос выше 38 децибел. Чиновники утверждают, что это уменьшит шум и одновременно сохранит одну из самых эффективных в Латвии форм социальной регуляции."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Council on Tuesday approved a pilot program establishing official “Silence Hours for Passive-Aggressive Balcony Communication,” a municipal framework intended to preserve what urban planners described as “the delicate ecosystem of disapproving eye contact, meaningful throat-clearing, and comments not technically addressed to anyone.”
+
+The regulation, which will take effect in September across five neighborhoods including Āgenskalns, Purvciems, and what the city called “the louder section of Teika,” allows residents to stand on their balconies between 20:00 and 21:30 and express dissatisfaction with neighbors exclusively through implied remarks, sighing, and heavily coded references to “some people.” Direct accusations remain prohibited unless submitted in triplicate to the building association.
+
+Vice Mayor for Civic Atmosphere Elīna Dreijere said the city had no choice after a municipal study found that 71% of residential disputes in Riga now begin with “someone saying something normal in a tone that made it a threat.” The same study concluded that unregulated balcony commentary had risen 18% during last year’s warm May, with peak aggression recorded near apartment blocks where at least one resident had recently purchased an electric grill.
+
+“We are not banning conflict,” Dreijere told reporters while standing beneath a Soviet-era facade specifically chosen for its acoustics. “We are simply giving it structure, dignity, and, where possible, standardized phrasing. Riga has always believed that if a person wishes to humiliate a neighbor, it should be done quietly and with proper paperwork.”
+
+Under the new rules, residents may use approved statements such as “Interesting lifestyle choices at this hour,” “One wonders what kind of upbringing produces such parking,” and the increasingly popular “Apparently walls are decorative now.” The city has also published a 14-page guidance booklet explaining when a prolonged window-closing gesture constitutes civic feedback and when it escalates into harassment.
+
+The policy was developed after a three-month consultation with sociologists, acoustics engineers, and six retired women from Imanta described in official documents as “holding advanced practical knowledge.” Among those consulted was 68-year-old apartment association chairwoman Maiga Ozoliņa, who said the city’s intervention was overdue.
+
+“In the old days, people knew how to communicate disapproval correctly,” Ozoliņa said from her fourth-floor balcony, where she has reportedly maintained visual control over a courtyard since 1994. “You didn’t shout. You watered geraniums aggressively. You laughed once, very briefly. Today the younger generation just sends emails, which is cold.”
+
+Not everyone supports the plan. A coalition of younger tenants has criticized the decibel cap as unrealistic, particularly on Fridays, when many balcony disputes must compete with traffic, gulls, and an unidentified man in Centre who has been practicing saxophone fragments of only the saddest parts of songs since 2021.
+
+Still, early trials suggest strong public approval. In a pilot conducted in Zolitūde, formalized silence-hour exchanges reduced direct doorbell confrontations by 43% and increased “emotionally clarifying curtain movements” by nearly half. One building reported a complete resolution of a six-month argument over bicycle storage after both parties spent 17 consecutive evenings making comments about “shared space” to potted basil plants.
+
+The Ministry of Culture has already expressed interest in seeking UNESCO recognition for the practice as a form of Baltic intangible heritage, alongside sauna rituals and standing motionless at the seaside while evaluating weather conditions with suspicion. If approved, Riga would become the first European capital to legally distinguish between ordinary quiet time and what officials are calling “heritage-grade silence with implications.”
+
+At press time, residents in one Purvciems courtyard had reportedly welcomed the new rules by opening their balcony doors in unison and saying, to no one in particular, that “certain reforms are finally useful, though naturally some people will still manage to do them incorrectly.”`,
+      lv: `RĪGA — Rīgas dome otrdien apstiprināja pilotprogrammu, kas izveido oficiālās "Klusuma stundas pasīvi-agresīvai balkona komunikācijai", pašvaldības ietvaru, kura mērķis ir saglabāt to, ko pilsētplānotāji raksturojuši kā "neapmierinātas acu kontaktu, nozīmīgas aizrijēšanās un tehniski nevienam ne adresētu piezīmju smalko ekosistēmu".
+
+Regulējums, kas stāsies spēkā septembrī piecās apkaimēs, tostarp Āgenskalnā, Purvciemā un tā dēvētajā "skaļākajā Teikas daļā", ļauj iedzīvotājiem stāvēt uz balkoniem no pulksten 20:00 līdz 21:30 un izteikt neapmierinātību ar kaimiņiem tikai ar mājieniem, nopūtas un smagi kodētu atsauču palīdzību uz "dažiem cilvēkiem". Tiešas apsūdzības joprojām ir aizliegtas, ja vien tās nav iesniegtas trīs eksemplāros mājas biedrībai.
+
+Vietniece civiltāras atmosfēras jautājumos Elīna Dreijere sacīja, ka pilsētai nebija izvēles pēc pašvaldības pētījuma, kas atklāja, ka 71% dzīvojamo strīdu Rīgā tagad sākas ar "kādu, kurš pateica kaut ko normālu tonī, kas padarīja to par draudu". Tas pats pētījums secināja, ka neregulētas balkona piezīmes pērn siltajā maijā pieauga par 18%, bet agresijas vilnis tika fiksēts blakus daudzdzīvokļu namiem, kur vismaz viens iedzīvotājs nesen bija iegādājies elektrisko grilu.
+
+"Mēs neaizliedzam konfliktu," Dreijere žurnālistiem teica, stāvot zem padomju laika fasādes, kas īpaši izvēlēta tās akustikas dēļ. "Mēs vienkārši dodam tam struktūru, cieņu un, kur iespējams, standartizētu formulējumu. Rīga vienmēr ir uzskatījusi, ka, ja cilvēks vēlas pazemot kaimiņu, tas jādara klusi un ar pienācīgu papīru apstrādi."
+
+Saskaņā ar jaunajiem noteikumiem iedzīvotāji drīkst izmantot apstiprinātus izteikumus, piemēram, "Interesantas dzīves izvēles šajā stundā", "Var tikai brīnīties, kāda audzināšana rada tādu autostāvvietu" un arvien populārāko "Izrādās, sienas tagad ir tikai dekoratīvas." Pilsēta arī publicējusi 14 lappušu vadlīniju bukletu, kas skaidro, kad ilgstošs loga aizvēršanas žests ir pilsoniska atsauksme un kad tas pāraug iebiedēšanā.
+
+Politika izstrādāta pēc trīs mēnešu konsultācijām ar sociologiem, akustikas inženieriem un sešām pensijas vecuma sievietēm no Imantas, kuras oficiālajos dokumentos raksturotas kā "ar padziļinātām praktiskām zināšanām". Starp konsultantiem bija arī 68 gadus vecā mājas biedrības priekšsēdētāja Maiga Ozoliņa, kura sacīja, ka pilsētas iejaukšanās ir ilgi gaidīta.
+
+"Senāk cilvēki zināja, kā pareizi paust neapmierinātību," Ozoliņa teica no sava ceturtā stāva balkona, no kura, kā ziņots, viņa kopš 1994. gada uztur vizuālu kontroli pār pagalmu. "Tu negāzi. Tu laisti pelargonijas agresīvi. Tu pasmaidi vienreiz, ļoti īsi. Mūsdienu jaunatne vienkārši sūta e-pastus, un tas ir auksti."
+
+Ne visi atbalsta plānu. Jauno īrnieku koalīcija kritizējusi decibelu ierobežojumu kā nereālu, īpaši piektdienās, kad daudzi balkona strīdiem jākonkurē ar satiksmi, kaijām un kādu nenoteiktu vīrieti Centrā, kurš kopš 2021. gada trenējas saksofona fragmentos tikai skumjāko dziesmu daļu.
+
+Tomēr agrīnās izmēģinājumu atziņas liecina par spēcīgu sabiedrības atbalstu. Pētnieka pilotā Zolitūdē formalizētas klusuma stundu apmaiņas samazināja tiešu pieklauvēšanu uz durvīm par 43% un palielināja "emocionāli noskaidrojošu aizkaru kustību" skaitu gandrīz uz pusi. Viens nams ziņoja par pilnīgu sešu mēnešu strīda par velosipēdu glabāšanu atrisināšanu pēc tam, kad abas strīdīgās puses 17 vakarus pēc kārtas izteica piezīmes par "kopīgo telpu" baziliku podiņiem.
+
+Kultūras ministrija jau izrādījusi interesi meklēt UNESCO atzīšanu šai praksei kā Baltijas nemateriālajam mantojumam blakus pirts rituāliem un klusai stāvēšanai pie jūras, aizdomīgi vērtējot laikapstākļus. Ja tiks apstiprināts, Rīga būtu pirmā Eiropas galvaspilsēta, kas likumiski atšķir parasto klusuma laiku no tā, ko amatpersonas dēvē par "mantojuma klasi ar sekām".
+
+Raksta iesniegšanas brīdī ziņots, ka Purvciema vienā pagalma iedzīvotāji esot atzinīgi sagaidījuši jaunās normas, vienoti atverot balkonu durvis un, nevienam īpaši nesakot, piebilstot, ka "noteiktas reformas beidzot ir noderīgas, lai gan, protams, daži cilvēki tās tomēr spēs izdarīt nepareizi."`,
+      ru: `РИГА — Во вторник Рижская городская дума утвердила пилотную программу под названием «Часы тишины для пассивно-агрессивной балконной коммуникации», муниципальную схему, призванную сохранить то, что градостроители описали как «хрупкую экосистему неодобрительных взглядов, многозначительных прочисток горла и замечаний, формально не обращённых к кому-либо конкретно». 
+
+Регламент, который вступит в силу в сентябре в пяти микрорайонах, включая Āgenskalns, Purvciems и то, что город назвал «более шумной частью Teika», позволяет жителям находиться на балконах с 20:00 до 21:30 и выражать недовольство соседями исключительно через намёки, вздохи и сильно завуалированные отсылки к «некоторым людям». Прямые обвинения остаются запрещёнными, если только они не поданы в трёх экземплярах в домовую ассоциацию. 
+
+Вице-мэр по гражданской атмосфере Эліна Дрейере заявила, что город не имел выбора после того, как муниципальное исследование показало: 71% жилых конфликтов в Риге теперь начинается с «чьего-то совершенно нормального высказывания в тоне, который делает его угрозой». То же исследование пришло к выводу, что неконтролируемые балконные комментарии выросли на 18% во время тёплого мая прошлого года, а пик агрессии зафиксирован возле домов, где хотя бы один житель недавно купил электрогриль. 
+
+«Мы не запрещаем конфликт», — сказала Дрейере журналистам, стоя под советским фасадом, специально выбранным за его акустику. «Мы просто придаём ему структуру, достоинство и, где возможно, стандартизированные формулировки. Рига всегда считала: если человек хочет унизить соседа, это следует делать тихо и с надлежащими документами». 
+
+По новым правилам жители могут пользоваться утверждёнными фразами, такими как «Интересные жизненные предпочтения в такой час», «Интересно, какое воспитание порождает такую парковку» и ставшая всё более популярной «Похоже, стены теперь декоративные». Город также опубликовал 14-страничную памятку, объясняющую, когда продолжительный жест закрытия окна считается гражданской обратной связью, а когда перерастает в преследование. 
+
+Политика была разработана после трёхмесячных консультаций с социологами, инженерами‑акустиками и шестью пенсионерками из Иманты, официально описанными в документах как «обладающие продвинутыми практическими знаниями». Среди консультантов была 68-летняя председатель домовой ассоциации Майга Озолиня, которая сказала, что вмешательство города назрело. 
+
+«Раньше люди умели выражать недовольство правильно», — сказала Озолиня со своего балкона на четвёртом этаже, откуда, как сообщают, она с 1994 года поддерживает визуальный контроль над двором. «Вы не кричали. Вы агрессивно поливали герани. Вы хохотали один раз, очень коротко. Сегодня молодое поколение просто шлёт электронные письма — это холодно». 
+
+Не все поддерживают план. Коалиция молодых арендаторов раскритиковала ограничение в децибелах как нереалистичное, особенно по пятницам, когда многие балконные ссоры вынуждены конкурировать с городским трафиком, чайками и неким человеком в Центре, который с 2021 года репетирует фрагменты саксофона только самых печальных частей песен. 
+
+Тем не менее ранние испытания показывают высокую общественную поддержку. В пилоте, проведённом в Золитуде, формализованные часы тишины сократили прямые стычки у дверей на 43% и увеличили «эмоционально уточняющие движения занавесок» почти наполовину. Один дом сообщил о полном разрешении шестимесячного спора о хранении велосипедов после того, как обе стороны 17 вечеров подряд делали замечания о «совместном пространстве» горшкам с базиликом. 
+
+Министерство культуры уже выразило заинтересованность в том, чтобы добиваться признания практики ЮНЕСКО как формы балтийского нематериального наследия, наряду с банными ритуалами и стоянием неподвижно у моря, оценивая погодные условия с подозрением. Если это будет одобрено, Рига станет первой европейской столицей, официально различающей обычное время тишины и то, что чиновники называют «наследственной тишиной с подтекстом». 
+
+На момент закрытия выпуска жители одного из дворов в Purvciems, по сообщениям, приветствовали новые правила, одновременно открыв балконные двери и, ни к кому конкретно не обращаясь, сказав, что «некоторые реформы, наконец, полезны, хотя, разумеется, некоторые люди всё равно сумеют сделать их неправильно».`
+    },
+    date: "Aug 26, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/256/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 255,
     slug: "riga-introduces-silent-tram-car-for-255",
     title: {
@@ -96,7 +183,7 @@ Kad tramvajs otrajā darba dienā virzījās uz Mežaparku, iniciatīvu nesagaid
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/255/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 254,
