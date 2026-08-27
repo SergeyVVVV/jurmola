@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 257,
+    slug: "riga-introduces-official-municipal-silence-hour-257",
+    title: {
+      en: "Riga Introduces Official Municipal Silence Hour After Residents Report ‘Excessive Conversational Activity’ on Public Transport",
+      lv: "Rīga ievieš oficiālo pašvaldības klusuma stundu pēc iedzīvotāju ziņojumiem par „pārmērīgu sarunu aktivitāti” sabiedriskajā transportā",
+      ru: "Рига вводит официальный Муниципальный час тишины после жалоб жителей на «чрезмерную разговорную активность» в общественном транспорте"
+    },
+    excerpt: {
+      en: "In a move city officials say will restore 'acoustic dignity' to urban life, Riga has approved a daily Municipal Silence Hour across trams, trolleybuses, and selected sidewalks. The policy follows a year-long study concluding that unnecessary small talk has reduced average commuter resilience by 14 percent.",
+      lv: "Kā solīts atgūt „akustisko cieņu” pilsētas dzīvē, Rīga pieņēmusi ikdienas Pašvaldības klusuma stundu tramvajos, trolejbusos un atlasītās ietves zonās. Politika seko gada garam pētījumam, kas secināja, ka nevajadzīgās small talk sarunas samazinājušas vidējo pārvietotāju izturību par 14 procentiem.",
+      ru: "В шаге, который городские власти называют восстановлением «акустического достоинства» городской жизни, Рига утвердила ежедневный Муниципальный час тишины в трамваях, троллейбусах и на отобранных тротуарах. Политика последовала за годичным исследованием, в котором сделан вывод: ненужное светское общение сократило среднюю устойчивость пассажиров на 14 процентов."
+    },
+    fullContent: {
+      en: `RIGA — Beginning next Monday, residents of Riga will be asked to observe an official Municipal Silence Hour from 7:43 to 8:43 each weekday morning, a measure city leaders describe as a practical response to rising levels of unsolicited commentary, weather-based conversation, and loud phone discussions about cottage repairs.
+
+The new policy, approved Tuesday by the Riga City Council in a 38–19 vote, applies to all trams, trolleybuses, and 'high-risk verbal corridors,' including the underpass near Origo, the central market dairy pavilion, and one bench in Mežaparks that officials say has become 'notoriously anecdotal.' During the designated hour, commuters may still sigh, clear their throats, and mutter one-word observations such as 'typical,' 'terrible,' or 'again,' provided they are delivered at a respectful volume.
+
+According to a 61-page report from the Riga Institute for Civic Atmosphere, the average resident is now exposed to 27 minutes of unnecessary public speech per day, up from 11 minutes in 2016. Researchers identified the leading categories as 'speakerphone consultations with relatives in Jelgava,' 'aggressively optimistic tourist planning,' and 'men over 58 explaining exactly how winters used to work.'
+
+'We are not banning communication,' said Deputy Mayor Linda Ozoliņa, speaking to reporters in a carefully moderated tone outside City Hall. 'We are simply creating protected time for residents to stare through tram windows in peace, mentally reorganize their grievances, and prepare for the administrative burdens of the day.'
+
+City transport staff have already begun training 112 new Silence Stewards, who will ride major routes wearing grey armbands and carrying decibel meters, herbal lozenges, and laminated cards reading, 'Your point may be valid, but this is not the hour.' Repeat violators will first receive a polite warning. A second offense may result in temporary reassignment to a Conversation Carriage on Tram 6, where they will be seated with other talkative passengers and required to discuss kitchen renovations until remorse develops naturally.
+
+The measure has drawn mixed reactions from residents. 'Honestly, I support it,' said Purvciems accountant Ilze Krūmiņa, 41, while waiting for the Number 15 trolleybus. 'Yesterday a man behind me spent fourteen stops describing a mushroom map app to his cousin. I arrived at work knowing too much about boletus distribution and too little about my own will to live.'
+
+Others warned the initiative goes too far. Retired port engineer Viktors Mežmalis, 67, called it 'an attack on spontaneous civic warmth,' adding that brief tram conversations are one of the last places where Latvians can accidentally express emotion before immediately regretting it. 'If I cannot quietly tell a stranger that this route was better in 1989, then what kind of capital are we running?' he asked.
+
+Business groups have also weighed in. Several cafés near Central Station say they expect increased morning demand from residents seeking licensed speech zones before work. One kiosk owner, who requested anonymity because he had not yet renewed his pastry permit, said he is considering a 'Talk Freely Combo' featuring coffee, a cottage cheese bun, and five uninterrupted minutes to complain about municipal paving decisions.
+
+Despite criticism, early pilot programs suggest the idea may succeed. During a February trial on Tram 11, passenger stress fell by 22 percent, while window-gazing satisfaction rose to a record 89 percent. The only major incident involved a university lecturer who attempted to bypass the rules by delivering his complaint in operatic whisper-singing.
+
+Officials say they are already considering expanding the program to beaches in Jūrmala during summer weekends, where Bluetooth speakers, drone hobbyists, and men named Aivars explaining smoked fish techniques have long tested the limits of national endurance. For now, Riga leaders are urging patience, restraint, and above all, lower vocal ambition.
+
+'Our city has survived occupations, inflation, and three separate artisanal burger waves,' Ozoliņa said. 'Surely it can survive one hour of not hearing how someone’s cousin got a cheaper fence in Ogre.'`,
+      lv: `RĪGA — No nākamās pirmdienas rīdzinieki aicināti ievērot oficiālu Pašvaldības klusuma stundu no plkst. 7:43 līdz 8:43 katru darba dienas rītu — pasākumu, ko pilsētas vadītāji raksturo kā praktisku atbildi uz pieaugošu neizsaucamu komentāru, laika apstākļu tematikas sarunu un skaļu tālruņa sarunu par vasarnīcu remontiem līmeni.
+
+Jauno politiku otrdien pieņēma Rīgas dome ar 38–19 balsīm; tā attiecas uz visiem tramvajiem, trolejbusiem un „augsta riska vārdu koridoriem”, tostarp zempāreju pie Origo, Centrāltirgus piena paviljonu un vienu soliņu Mežaparkā, kas, pēc amatpersonu teiktā, kļuvis „notoriski anekdotisks”. Norādītajā stundā pasažieri joprojām drīkst nopūsties, aizrīties vai murmināt vienvārdu novērojumus kā „kā ierasts”, „šausmīgi” vai „atkal”, ja vien tie tiek izteikti cienījamā skaļumā.
+
+Saskaņā ar 61 lappušu ziņojumu no Rīgas Pilsoniskās Gaisotnes institūta vidējais iedzīvotājs tagad katru dienu tiek pakļauts 27 minūtēm nevajadzīgas publiskas runas — salīdzinot ar 11 minūtēm 2016. gadā. Pētnieki noteikuši vadošās kategorijas kā „runāšanas pa skaļruni ar radiniekiem Jelgavā”, „agresīvi optimistiska tūristu plānošana” un „vīrieši virs 58, kas skaidro tieši, kā agrāk darbojās ziemas”.
+
+„Mēs neaizliedzam saziņu,” sacīja vicemēre Linda Ozoliņa, runājot pie Domes ēkas rūpīgi tonāli samazinātā balsī. „Mēs vienkārši izveidojam aizsargātu laiku iedzīvotājiem, lai mierīgi skatītos caur tramvaja logiem, mentāli sakārtotu savas sūdzības un sagatavotos dienas administratīvajiem pienākumiem.”
+
+Pilsētas transporta darbinieki jau sākuši apmācīt 112 jaunus Klusuma uzraugus, kuri brauks pa galvenajām maršruta līnijām, nēsājot pelēkas aproces un līdzi vedot decibelmetrus, zāļu pastilītes un laminētas kartītes ar uzrakstu „Jūsu arguments var būt pamatots, taču šī nav stunda.” Pārkāpējiem pirmoreiz tiks iedota pieklājīga brīdinājuma. Otrā pārkāpuma gadījumā personu var uz laiku pārcelt uz „Sarunu vagonu” tramvajā Nr. 6, kur viņu blakus sēdēs citi runātgribētāji un viņiem būs jāapspriež virtuves remonti, kamēr nožēla attīstīsies dabiskā ceļā.
+
+Iniciatīva guvusi jauktas atsauksmes no iedzīvotājiem. „Godīgi sakot, es to atbalstu,” sacīja Purvciema grāmatvede Ilze Krūmiņa, 41 gadu, gaidot 15. trolejbusu. „Vakar vīrietis aiz manis četrpadsmit pieturas garumā aprakstīja kādam brālēnam sēņu karšu aplikāciju. Es ierados darbā, zinādama pārāk daudz par baraviku izplatību un pārāk maz par savu dzīves gribu.”
+
+Citi brīdināja, ka iniciatīva iet pārāk tālu. Pensionētais ostas inženieris Viktors Mežmalis, 67, to nosauca par „uzbrukumu spontānai pilsoniskai siltumam”, piebilstot, ka īsas tramvaja sarunas ir viena no pēdējām vietām, kur latvieši var nejauši izteikt emociju, pirms to tūlīt nožēlo. „Ja es vairs nevaru klusi pateikt svešiniekam, ka šis maršruts 1989. gadā bija labāks, tad kādu galvaspilsētu mēs īsti vadām?” viņš vaicāja.
+
+Uzņēmēju grupas arī iesaistījušās diskusijā. Vairākas kafejnīcas pie Centrālās stacijas paredz, ka rītos pieaugs pieprasījums pēc licencētām runāšanas zonām pirms darba. Viens kioska īpašnieks, kas vēlējās anonimitāti, jo nebija atjaunojis savu konditorejas atļauju, teica, ka apsver „Brīvi runāšanas komplektu” ar kafiju, biezpiena bulciņu un piecām nepārtrauktām minūtēm, lai sūdzētos par pašvaldības bruģēšanas lēmumiem.
+
+Neskatoties uz kritiku, agrīnie pilotprojekti liecina, ka ideja var izdoties. Februāra izmēģinājumā tramvajā Nr. 11 pasažieru stress samazinājās par 22 procentiem, bet logā skatīšanās apmierinātība sasniedza rekordlīmeni — 89 procentus. Vienīgais nopietnais incidents bija universitātes lektors, kurš mēģināja apiet noteikumus, savu sūdzību izpildot operisku čukstošu dziedājumu.
+
+Amatpersonas saka, ka jau apsver programmas paplašināšanu uz Jūrmalas pludmalēm vasaras nedēļas nogales laikā, kur Bluetooth skaļruņi, dronu entuziasti un vīrieši vārdā Aivars, kas skaidro kūpināto zivju metodes, jau sen pārbauda tautas izturību. Uz šo brīdi Rīgas vadība lūdz pacietību, atturību un, galvenais, mazāk vokālu ambīciju.
+
+„Mūsu pilsēta izdzīvojusi okupācijas, inflāciju un trīs atsevišķus amatnieku burgeru vilnius,” sacīja Ozoliņa. „Droši vien tā var izturēt vienu stundu bez tā, lai dzirdētu, kā kāda radinieks Ogrē dabūja lētāku žogu.”`,
+      ru: `РИГА — Начиная со следующего понедельника жителям Риги будет предложено соблюдать официальный Муниципальный час тишины с 7:43 до 8:43 каждое рабочее утро — меру, которую городские руководители описывают как практичный ответ на рост непрошеных комментариев, бесед о погоде и громких разговоров по телефону о ремонте дачи.
+
+Новая политика, утверждённая во вторник Рижским городским советом голосами 38 против 19, распространяется на все трамваи, троллейбусы и «коридоры повышенного словесного риска», включая подземный переход возле Origo, молочный павильон центрального рынка и одну скамейку в Межапарке, которая, по словам чиновников, стала «печально известной анекдотичностью». В течение назначенного часа пассажиры по-прежнему могут вздыхать, откашливаться и бормотать однословные наблюдения вроде «типично», «ужасно» или «снова», при условии, что они произносятся с уважительным уровнем громкости.
+
+Согласно 61-страничному докладу Рижского института гражданской атмосферы, средний житель теперь подвергается 27 минутам ненужной публичной речи в день, по сравнению с 11 минутами в 2016 году. Исследователи выделили ведущие категории: «разговоры по громкой связи с родственниками в Елгаве», «агрессивно оптимистичное планирование туристической поездки» и «мужчины старше 58, подробно объясняющие, как именно раньше работали зимы». 
+
+«Мы не запрещаем коммуникацию», — заявила заместительница мэра Линда Озолиня журналистам в тщательно умеренном тоне у здания мэрии. «Мы просто создаём защищённое время, чтобы жители могли спокойно смотреть в окна трамваев, мысленно реорганизовать свои обиды и подготовиться к административным нагрузкам дня». 
+
+Сотрудники городского транспорта уже начали обучение 112 новых Смотрителей Тишины, которые будут ездить по главным маршрутам в серых повязках на руке и с децибелометрами, травяными леденцами и ламинированными карточками с надписью: «Ваша мысль может быть верна, но сейчас не час». Повторные нарушители сначала получат вежливое предупреждение. Второе нарушение может привести к временной перекомандировке в Разговорный вагон трамвая №6, где их посадят рядом с другими разговорчивыми пассажирами и заставят обсуждать ремонт кухни до естественного появления раскаяния.
+
+Мера вызвала смешанные реакции у жителей. «Честно говоря, я поддерживаю», — сказала 41‑летняя бухгалтер из Пурвциема Илзе Крумина, ожидая троллейбус №15. «Вчера мужчина за мной четырнадцать остановок подробно описывал своему двоюродному брату карту грибов в приложении. Я пришла на работу, зная слишком много о распространении белых грибов и слишком мало о собственной воле к жизни». 
+
+Другие предупреждают, что инициатива заходит слишком далеко. 67‑летний пенсионер, портовый инженер Викторс Межмалис, назвал это «атакой на спонтанное гражданское тепло», добавив, что короткие разговоры в трамвае — одно из последних мест, где латыши могут случайно выразить эмоцию, а потом сразу же об этом пожалеть. «Если я не могу тихо сказать незнакомцу, что этот маршрут был лучше в 1989‑м, то что за столицу мы тогда ведём?» — поинтересовался он.
+
+Деловые круги также высказались. Несколько кафе возле Центрального вокзала заявили, что ожидают увеличения утреннего спроса со стороны жителей, ищущих лицензированные зоны для речи перед работой. Один владелец киоска, попросивший не называть его имени, потому что он ещё не продлил разрешение на выпечку, сказал, что рассматривает «Комбо Свободной Болтовни» из кофе, творожной булочки и пяти минут беспрерывного ворчания о решениях по городскому мощению.
+
+Несмотря на критику, ранние пилотные программы показывают, что идея может сработать. Во время февральского эксперимента на трамвае №11 уровень стресса пассажиров упал на 22 процента, а удовлетворённость созерцанием в окно выросла до рекордных 89 процентов. Единственным крупным инцидентом стал университетский лектор, попытавшийся обойти правила, предъявив свою жалобу в форме оперного шепотного пения.
+
+Чиновники говорят, что уже рассматривают расширение программы до пляжей в Юрмале в летние выходные, где Bluetooth‑колонки, любители дронов и мужчины по имени Айварс, объясняющие технику копчёной рыбы, давно испытывают национальную выносливость на прочность. Пока же рижские лидеры призывают к терпению, сдержанности и, прежде всего, к снижению вокальных амбиций.
+
+«Наш город пережил оккупации, инфляцию и три отдельные волны хендмейд‑бургеров», — сказала Озолиня. «Уверена, он переживёт и один час, в течение которого мы не будем слышать, как чей‑то кузен купил дешевле забор в Огре».`
+    },
+    date: "Aug 27, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/257/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 256,
     slug: "riga-introduces-official-silence-hours-for-256",
     title: {
@@ -102,7 +189,7 @@ Raksta iesniegšanas brīdī ziņots, ka Purvciema vienā pagalma iedzīvotāji 
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/256/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 255,
