@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 258,
+    slug: "jrmala-introduces-quiet-thunder-siren-to-258",
+    title: {
+      en: "Jūrmala Introduces ‘Quiet Thunder’ Siren To Warn Residents Tourist Season Has Begun",
+      lv: "Jūrmala ievieš „Kluso Pērkona Dārdoņu”, lai brīdinātu iedzīvotājus — sākusies tūrisma sezona",
+      ru: "Юрмала вводит сирену «Тихий Гром», чтобы предупредить жителей о начале туристического сезона"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala this week unveiled a new civil-defense-style warning system designed to alert locals to the annual arrival of linen-clad visitors asking where the \"authentic Baltic feeling\" is kept. City leaders say the siren, described as \"firm but emotionally distant,\" will give residents enough time to secure bicycles, hide good mushrooms, and switch to Russian, Latvian, or strategic silence as needed.",
+      lv: "Jūrmalas amatpersonas šonedēļ atklāja jaunu civilās aizsardzības tipa brīdināšanas sistēmu, kas domāta, lai vietējiem paziņotu par gada ierašanos lina drēbēs tērptajiem viesiem, kas jautā, kur glabājas „autentiskā Baltijas sajūta”. Pilsētas vadība saka, ka sirēna, kuru raksturo kā „stingru, bet emocionāli attālinātu”, dos iedzīvotājiem pietiekami laika, lai nofiksētu velosipēdus, paslēptu labās sēnes un, ja vajadzīgs, pārietu uz krievu, latviešu vai stratēģisku klusumu.",
+      ru: "Представители Юрмалы на этой неделе представили новую систему оповещения в стиле гражданской обороны, призванную предупредить местных о ежегодном нашествии гостей в льняной одежде, спрашивающих, где хранится «аутентичное балтийское ощущение». Городские власти говорят, что сирена, описываемая как «строгая, но эмоционально отстранённая», даст жителям достаточно времени, чтобы убрать велосипеды, спрятать хорошие грибы и при необходимости перейти на русский, латышский или стратегическое молчание."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city officials are calling “long overdue municipal realism,” Jūrmala has launched a seasonal early-warning system to notify residents when tourist density reaches legally significant levels.
+
+The new alarm, officially named the Coastal Acoustic Preparedness Signal but already known among locals as the “Quiet Thunder,” was tested Tuesday at 11:00 a.m. from Dzintari to Ķemeri. Unlike conventional sirens, the Jūrmala version emits a restrained, tasteful hum resembling “a cello being mildly disappointed in you,” according to procurement documents reviewed by Jurmola Telegraphs.
+
+Municipal authorities say the system was developed after several summers in which residents were caught unprepared by sudden clusters of visitors wearing nautical sweaters and asking where they could “eat something very local, but not too local.”
+
+“We are not anti-tourist,” stressed Jūrmala Deputy Executive Director for Seasonal Balance, Ilze Rubeze, standing in front of a laminated map marked with beach towel pressure zones. “We simply believe residents deserve a few minutes’ notice before 400 people from Stockholm simultaneously decide they want hand-filtered coffee in a pine forest.”
+
+According to the city, the siren will activate once three key indicators are met: beach bag saturation above 78%, average queue time for a single pistachio gelato exceeding 14 minutes, and more than 25 consecutive inquiries about whether the sea is “always this conceptual.” During Tuesday’s pilot, sensors reportedly detected all three by 10:43 a.m.
+
+Residents are advised to follow standard preparedness guidance. This includes bringing drying racks indoors, moving parking spaces into private family memory, and placing at least one half-finished renovation project in visible view to discourage photography. Those living near central promenades are urged to maintain calm and avoid eye contact with anyone carrying a vintage film camera near hydrangeas.
+
+“I heard the tone and immediately closed the gate, covered the grill, and told my children we are from Jelgava now,” said Majori resident and accountant Andris Feldmanis, 47. “It’s not panic. It’s procedure. Last year one Belgian lifestyle couple wandered into our yard and asked if our compost had a story.”
+
+Local business owners have expressed cautious support. Café proprietor Marina Petrova said the warning gives her staff time to prepare their multilingual menu inserts, including the popular explanatory note beneath grey peas that reads: “Yes, this is the dish.”
+
+“At least now we can emotionally stretch beforehand,” Petrova said. “By noon in July, I have explained six times that cold beet soup is supposed to be pink and one time that no, the seagulls are not part of the brand concept, they are independent actors.”
+
+The project cost €482,000, a figure that has drawn criticism from opposition council members, though city officials insist the system will pay for itself by reducing confusion-related municipal strain. A feasibility report estimates the siren could lower accidental engagement in long conversations about sauna architecture by as much as 31% over the next three years.
+
+Not everyone is convinced. The Association for Open Coastal Exchange issued a statement arguing that Jūrmala should embrace visitors rather than sonically warn against them. In response, officials clarified that the signal is not hostile but informational, comparable to weather alerts or a neighbor quietly mentioning they have seen three Range Rovers from Vilnius circling the same side street.
+
+By late afternoon, the test was declared a success. Several residents had already implemented protective protocols, including speaking only in abbreviations and pretending not to know where the beach is.
+
+City leaders say the Quiet Thunder will sound daily through August, with an upgraded premium tone planned for festival weekends. Engineers are reportedly also developing a second alert level for extreme conditions, tentatively triggered when more than 60% of passing conversations contain the phrase “hidden gem.”`,
+      lv: `JŪRMALA — Pilsētas amatpersonas šo soli dēvē par „ilgi kavēto pašvaldības realismu” — Jūrmala ir palaidusi sezonālu agrīnas brīdināšanas sistēmu, lai paziņotu iedzīvotājiem, kad tūristu blīvums sasniedz juridiski nozīmīgus līmeņus.
+
+Jaunā trauksme, oficiāli nosaukta par Krasta akustiskās sagatavotības signālu, taču vietējo starpā jau pazīstama kā „Klusa Pērkona Dārdoņa”, trešdien tika izmēģināta no Dzintariem līdz Ķemeriem. Atšķirībā no parastajām sirēnām Jūrmalas variants izdod atturīgu, gaumīgu zemu rūkoņu, kas, pēc iepirkuma dokumentiem, kuri pārskatīja žurnāls "Jūrmalas Telegrafi", atgādina „čellu, kas ir maigi vīlies tevī”.
+
+Pilsētas vara apgalvo, ka sistēma izstrādāta pēc vairākiem vasaras sezonas gadiem, kad iedzīvotāji tika noķerti nesagatavoti pēkšņu viesu pulku dēļ — cilvēkiem ar jūrnieku džemperiem, kas prasa, kur var „apēst kaut ko ļoti vietēju, bet ne pārāk vietēju”.
+
+„Mēs neesam pret tūristiem,” uzsvēra Jūrmalas Sezonālās līdzsvara vietniece izpilddirektorā Ilze Rubeze, stāvot pie laminētas kartes, kurā atzīmētas pludmales dvieļu spiediena zonas. „Mēs vienkārši uzskatām, ka iedzīvotājiem pienākas dažas minūtes brīdinājuma pirms 400 cilvēku no Stokholmas vienlaikus nolemj, ka viņi grib roku filtrētu kafiju priežu mežā.”
+
+Pilsētas dati liecina, ka sirēna tiks aktivizēta, kad tiks izpildīti trīs galvenie rādītāji: pludmales somu piepildījums virs 78%, pistāciju gelato vidējais rindas gaidīšanas laiks, pārsniedzot 14 minūtes, un vairāk nekā 25 pēc kārtas uzdoti jautājumi, vai jūra ir „vienmēr tik konceptuāla”. Otrdienas pilotā sensori visus trīs parametrus konstatēja līdz pulksten 10:43.
+
+Iedzīvotājiem tiek ieteikts ievērot standartizētus gatavības norādījumus. Tas ietver žāvētāju pārnešanu iekšā, autostāvvietu pārvietošanas dokumentēšanu privātā ģimenes atmiņā un vismaz viena pusuzsākta remonta projekta izvietošanu redzamā vietā, lai atturētu no fotografēšanas. Tie, kas dzīvo pie centrālajām promenādēm, tiek aicināti saglabāt mieru un izvairīties no acu kontakta ar ikvienu, kurš pie hortenzijām nēsā vecu filmu fotokameru.
+
+„Dzirdēju toni un uzreiz aizvēru vārtiņus, pārklāju grilu un pateicu bērniem, ka tagad mēs esam no Jelgavas,” stāsta Majoru iedzīvotājs un grāmatvedis Andris Feldmanis, 47. „Nav panikas. Tā ir procedūra. Pagājušajā gadā viens Beļģijas dzīvesstila pāris ielauzās mūsu pagalmā un pajautāja, vai mūsu kompostam ir stāsts.”
+
+Vietējie uzņēmēji izrāda piesardzīgu atbalstu. Kafejnīcas īpašniece Marina Petrova sacīja, ka brīdinājums dod viņas personālam laiku sagatavot daudzvalodu ēdienkartes papildinājumus, tostarp populāro paskaidrojumu zem pelēkajiem zirņiem: „Jā, tas ir šis ēdiens.”
+
+„Vismaz tagad varam emocionāli sagatavoties iepriekš,” sacīja Petrova. „Līdz pusdienlaikam jūlijā es esmu sešas reizes skaidrojusi, ka aukstā biešu zupa ir paredzēta rozā krāsā, un vienu reizi skaidroju, ka nē — kaijas nav zīmola koncepcijas sastāvdaļa, tās ir neatkarīgas aktrises.”
+
+Projekts izmaksāja 482 000 €, kas ir radījis kritiku no opozīcijas domes locekļiem, lai gan pilsētas amatpersonas uzsver, ka sistēma atmaksāsies, samazinot neskaidrību izraisīto pašvaldības slodzi. Izpētes ziņojums lēš, ka sirēna varētu samazināt nejaušu iesaisti ilgās sarunās par pirts arhitektūru pat par 31% nākamo trīs gadu laikā.
+
+Ne visi ir pārliecināti. Atklātās Krasta Apmaiņas asociācija izplatīja paziņojumu, apgalvojot, ka Jūrmala būtu jāapskauj viesus, nevis jābrīdina pret tiem skaņas signālos. Atbildot uz to, amatpersonas paskaidroja, ka signāls nav naidīgs, bet informatīvs, salīdzināms ar laika apstākļu brīdinājumiem vai kaimiņa klusā piezīmē, ka viņš redzējis trīs Range Rover no Viļņas riņķojam vienā un tajā pašā blakusielā.
+
+Vēlāk pēcpusdienā tests tika atzīts par veiksmīgu. Vairāki iedzīvotāji jau bija ieviesuši aizsardzības protokolus, tostarp runāja tikai saīsinājumos un tēloja, ka nezina, kur atrodas pludmale.
+
+Pilsētas vadība paziņo, ka „Klusa Pērkona Dārdoņa” skanēs katru dienu līdz augustam, ar plāniem festivālu nedēļas nogalēs ieviest uzlabotu „premium” toni. Inženieri, kā ziņots, strādā arī pie otrā brīdinājuma līmeņa ekstrēmiem apstākļiem, kas pagaidu nosacījumu robežās tiks aktivizēts, ja vairāk nekā 60% paiet sarunām satursēs frāzi „slēptais dārgums”.`,
+      ru: `ЮРМАЛА — В шаге, который городские чиновники называют «давно назревшим муниципальным реализмом», Юрмала запустила сезонную систему раннего предупреждения, чтобы уведомлять жителей, когда плотность туристов достигает юридически значимых уровней.
+
+Новая сирена, официально названная Побережным акустическим сигналом готовности, но уже известная среди местных как «Тихий Гром», была протестирована во вторник в 11:00 от Дзинтари до Кемери. В отличие от обычных сирен, юрмальская версия издаёт сдержанное, со вкусом выдержанное гудение, похожее «на виолончель, слегка разочарованную в тебе», говорится в конкурсной документации, изученной Jurmola Telegraphs.
+
+Муниципальные власти заявляют, что систему разработали после нескольких лет, когда жители оказывались неготовыми к внезапным группам посетителей в морских свитерах, спрашивающих, где можно «поесть что‑то очень местное, но не слишком местное».
+
+«Мы не против туристов», — подчеркнула заместитель исполнительного директора Юрмалы по сезонному балансу Илзе Рубезе, стоя перед ламинированной картой, отмеченной зонами «давления пляжных полотенец». — «Мы просто считаем, что жители заслуживают несколько минут предупреждения, прежде чем 400 человек из Стокгольма одновременно решат, что им нужен кофе, отфильтрованный вручную, посреди соснового леса». 
+
+По данным города, сирена будет активироваться, когда одновременно выполнятся три ключевых показателя: заполненность пляжных сумок выше 78%, среднее время ожидания за одной порцией фисташкового джелато превышает 14 минут и более 25 подряд вопросов о том, действительно ли море «всегда такое концептуальное». Во время пилота во вторник датчики, по сообщениям, зафиксировали все три показателя к 10:43.
+
+Жителей просят следовать стандартным рекомендациям по подготовке. Это включает занос сушилок для белья в дом, перевод парковочных мест в разряд семейных воспоминаний и выставление хотя бы одного недоделанного ремонтного проекта на видном месте, чтобы отпугивать фотографов. Тем, кто живёт возле центральных променадов, настоятельно рекомендуют сохранять спокойствие и избегать зрительного контакта с теми, кто носит винтажную плёночную камеру рядом с гортензиями.
+
+«Я услышал тон и сразу закрыл ворота, накрыл гриль и сказал детям, что теперь мы из Елгавы», — рассказал житель Майори и бухгалтер Андрис Фельдманис, 47 лет. «Это не паника. Это процедура. В прошлом году одна бельгийская лайфстайл‑пара забрела в наш двор и спросила, есть ли у нашего компоста история». 
+
+Местные предприниматели высказали осторожную поддержку. Владелица кафе Марина Петрова сказала, что предупреждение даёт персоналу время подготовить многоязычные вставки в меню, включая популярную пояснительную заметку под серыми горохами: «Да, это то самое блюдо». 
+
+«По крайней мере теперь мы можем эмоционально растянуться заранее», — сказала Петрова. — «К полудню в июле я уже шесть раз объяснила, что холодник должен быть розовым, и один раз — что нет, чайки не часть бренд‑концепции, они — независимые актёры». 
+
+Проект обошёлся в 482 000 евро, сумма, которая вызвала критику у оппозиционных членов совета, хотя городские чиновники настаивают, что система окупится за счёт снижения нагрузок, связанных с путаницей. Отчёт о рентабельности оценивает, что сирена может сократить случайное вовлечение в долгие разговоры об архитектуре сауны аж на 31% в течение следующих трёх лет.
+
+Не все убеждены. Ассоциация открытого прибрежного обмена выпустила заявление, в котором говорится, что Юрмале стоит принимать посетителей, а не звуковыми сигналами предупреждать об них. В ответ чиновники уточнили, что сигнал не враждебен, а информационный, сравнимый с погодными предупреждениями или с тем, как сосед тихо замечает, что видел три Range Rover из Вильнюса, кружащие по одной и той же боковой улице.
+
+К вечеру испытание объявили успешным. Несколько жителей уже ввели защитные протоколы, в том числе говорили только сокращениями и делали вид, что не знают, где находится пляж.
+
+Городские руководители говорят, что «Тихий Гром» будет звучать ежедневно до конца августа, а для фестивальных выходных планируется улучшённый премиум‑тон. Инженеры, по сообщениям, также разрабатывают второй уровень оповещения для экстремальных условий, который, предположительно, будет срабатывать, когда в более чем 60% проходящих разговоров встречается фраза «скрытая жемчужина».`
+    },
+    date: "Aug 28, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/258/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 257,
     slug: "riga-introduces-official-municipal-silence-hour-257",
     title: {
@@ -102,7 +201,7 @@ Amatpersonas saka, ka jau apsver programmas paplašināšanu uz Jūrmalas pludma
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/257/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 256,
