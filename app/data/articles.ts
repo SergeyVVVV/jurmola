@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 259,
+    slug: "riga-introduces-official-municipal-puddle-map",
+    title: {
+      en: "Riga Introduces Official Municipal Puddle Map After Residents Refuse To Step Around “Historically Significant” Water",
+      lv: "Rīga ievieš oficiālu pašvaldības peļķu karti pēc tam, kad iedzīvotāji atsakās apiet “vēsturiski nozīmīgo” ūdeni",
+      ru: "Рига вводит официальный муниципальный атлас луж после того, как жители отказались обходить «исторически значимую» воду"
+    },
+    excerpt: {
+      en: "City officials in Riga have unveiled the capital’s first interactive puddle registry, classifying 312 recurring street puddles as sites of civic importance. The move follows years of disputes between drivers, pedestrians, and amateur photographers over whether certain pools of rainwater constitute infrastructure, memory, or seasonal identity.",
+      lv: "Rīgas amatpersonas atklājušas galvaspilsētas pirmo interaktīvo peļķu reģistru, klasificējot 312 atkārtotas ielu peļķes kā pilsoniskas nozīmes objektus. Šis solis seko gadu ilgiem strīdiem starp autovadītājiem, gājējiem un amatierfotogrāfiem par to, vai noteiktas lietusūdens peļķes ir infrastruktūra, atmiņa vai sezonālas identitātes sastāvdaļa.",
+      ru: "Городские власти Риги представили первый интерактивный реестр луж столицы, отнеся 312 регулярно появляющихся уличных луж к объектам гражданского значения. Решение последовало после многих лет споров между водителями, пешеходами и любителями фотографии о том, являются ли отдельные лужи инфраструктурой, памятью или сезонной идентичностью."
+    },
+    fullContent: {
+      en: `RIGA — In a move officials described as “long overdue for a northern European democracy,” Riga City Council on Tuesday launched an official digital map of the capital’s most persistent puddles, granting selected bodies of street water recognized municipal status and, in several cases, protected cultural designation.
+
+The new platform, called Udens mantojums, or “Water Heritage,” allows residents to track 312 mapped puddles across neighborhoods including Purvciems, Teika, Sarkandaugava, and central Riga, where several high-profile accumulations have reportedly outlasted four mayors, two tram procurement scandals, and one complete redesign of a bicycle lane no one uses correctly.
+
+According to the Department of Mobility, Moisture, and Public Tolerance, the registry was created after years of public confusion over whether major puddles were awaiting drainage, legal recognition, or simply “another autumn to develop character.” The city says each site has now been assigned one of four categories: Temporary, Semi-Permanent, Emotionally Important, and Driver-Created.
+
+“We had citizens filing contradictory complaints,” said municipal hydrology coordinator Ilze Briede, standing beside a broad reflective basin near Brivibas Street officially labeled Puddle No. 44B. “One resident demanded we remove it for safety reasons, while another said her parents got engaged here in 1998 when his trolleybus splashed her and he apologized with chrysanthemums. We realized we were not managing water. We were managing heritage.”
+
+Under the program, especially notable puddles will receive blue-and-white informational plaques listing average depth, mirror quality, and seasonal bird interest. A large depression outside Riga Central Station has already been designated a “transport-interactive aquatic zone” after repeatedly swallowing the right shoe of commuters hurrying toward Platform 3.
+
+Local reaction has been mixed but deeply sincere. “This one outside my building has shown more consistency than any landlord,” said Purvciems resident Andris Feldmanis, 52, gesturing toward a sprawling roadside sheet of brown rainwater known informally as The Inland Sea. “In spring it reflects clouds, in winter it becomes a moral test, and in summer it disappears just long enough to make you trust life again. Then it returns.”
+
+Small businesses are also adapting. Cafe Miers & Dubli, located near a notorious crosswalk puddle in Agenskalns, has begun offering “splash seating” by the window. Owner Sabine Ozola said visitors from Finland, Germany, and Liepaja now stop specifically to watch buses hit the water at speed. “People don’t want authenticity anymore,” Ozola said. “They want impact. Preferably on strangers.”
+
+Not everyone is convinced. Opposition council member Martins Keiss criticized the map as “cartographic surrender,” arguing that city hall had confused maintenance failure with participatory urbanism. “A pothole filled with rain is not automatically a landmark,” Keiss told reporters. “If this logic continues, by November half of Maskavas forstate will be nominated for UNESCO.”
+
+Still, the administration insists the project will improve civic life by reducing arguments and helping pedestrians plan dry routes that are currently considered theoretical. The map includes user-submitted ratings for splash radius, stroller hostility, and visual poetry. Residents may also appeal a puddle’s classification if they believe it has matured beyond Temporary and into what the city calls “stable emotional presence.”
+
+At press time, officials confirmed that a long-contested puddle near a tram stop in Ziepniekkalns had been temporarily closed for restoration after excessive tourist coin-throwing altered its natural edge.`,
+      lv: `RĪGA — Solī, ko amatpersonas raksturoja kā «ilgi gaidītu ziemeļeiropiešu demokrātijā», Rīgas dome otrdien palaida vaļā galvaspilsētas oficiālo digitālo karti par noturīgākajām peļķēm, piešķirot atlasītām ielu ūdens krātuvēm atzītu pašvaldības statusu un vairākos gadījumos — arī aizsargātu kultūras statusu.
+
+Jaunā platforma, dēvēta par «Ūdens mantojums», ļauj iedzīvotājiem izsekot 312 kartētām peļķēm tādos rajonos kā Purvciems, Teika, Sarkandaugava un centra Rīga, kur vairākas manāmas ūdens izgulsnēšanās, pēc ziņām, ir pārdzīvojušas četrus mērus, divus tramvaju iepirkumu skandālus un vienu pilnīgu velosipēdu joslas pārplānošanu, ko neviens pareizi nelieto.
+
+Pārvietošanās, mitruma un sabiedriskās tolerance departaments norāda, ka reģistrs tapis pēc gadu ilgas sabiedrības apjukuma par to, vai lielākās peļķes gaida notecēšanu, juridisku atzīšanu vai vienkārši «vēl vienu rudeni, lai iegūtu raksturu». Pilsēta saka, ka katram objektam tagad piešķirta viena no četrām kategorijām: Īslaicīga, Puspastāvīga, Emocionāli nozīmīga un Autovadītāju radīta.
+
+«Mums bija iedzīvotāji, kas iesniedza pretrunīgas sūdzības,» sacīja pašvaldības hidroloģijas koordinatore Ilze Briede, stāvot blakus plašai spoguļojošai peļķei pie Brīvības ielas, oficiāli atzīmētai kā Peļķe Nr. 44B. «Viena iedzīvotāja prasīja to noņemt drošības apsvērumu dēļ, kamēr cita teica, ka viņas vecāki te saderinājās 1998. gadā, kad viņas vīrietis no trolejbusa viņu apšļāca un atvainojās ar krizantēmām. Mēs sapratām, ka mēs nemaz nevadām ūdeni. Mēs vadījām mantojumu.»
+
+Saskaņā ar programmu īpaši ievērības cienīgas peļķes saņems zil-baltas informatīvas plāksnes, kurās būs norādīts vidējais dziļums, atspoguļojuma kvalitāte un sezonālā putnu interese. Liela iegremdēšanās pie Rīgas Centrālās stacijas jau pasludināta par «transporta-interaktīvu ūdenszonu», jo tā atkārtoti pieveikusi virsūjošu tiesu pēdu labās kurpes, kad cilvēki steigā metās uz 3. platformu.
+
+Vietējā reakcija ir jaukta, taču dziļi sirsnīga. «Šī pie manas mājas ir rādījusi vairāk konsekvences nekā jebkurš mājas saimnieks,» sacīja Purvciema iedzīvotājs Andris Feldmanis, 52, norādot uz plašu ceļa malu brūnu lietusūdens loksni, kuru neformāli dēvē par Iekšzemi. «Pavasarī tā atspoguļo mākoņus, ziemā tā kļūst par morālu pārbaudījumu, bet vasarā izzūd tieši pietiekami ilgi, lai tu atkal uzticētos dzīvei. Tad tā atgriežas.»
+
+Mazie uzņēmumi arī pielāgojas. Kafejnīca Miers & Dubļi, kas atrodas pie pazīstamas pārejas peļķes Āgenskalnā, ir sākusi piedāvāt «šļakatu sēdvietas» pie loga. Īpašniece Sabīne Ozola sacīja, ka viesi no Somijas, Vācijas un Liepājas tagad īpaši apstājas, lai vērotu, kā autobusi ar lielu ātrumu ietriecas ūdenī. «Cilvēki vairs nevēlas autentiskumu,» teica Ozola. «Viņi grib iespaidu. Vēlams — uz svešiniekiem.»
+
+Ne visi ir pārliecināti. Oppozīcijas domes deputāts Mārtiņš Keiss kritizēja karti kā «kartogrāfisku kapitualciju», apgalvojot, ka domes pārstāvji ir sajaukuši uzturēšanas neveiksmju ar participatīvu urbanismu. «Bedre, kas piepildīta ar lietu, nav automātiski tūrisma objekts,» Keiss sacīja žurnālistiem. «Ja šāda loģika turpinās, līdz novembrim puse Maskavas forštates tiks nominēta UNESCO.»
+
+Tomēr administraācija apgalvo, ka projekts uzlabos pilsonisko dzīvi, samazinot strīdus un palīdzot gājējiem plānot sausas rutas, kas pašlaik tiek uzskatītas par teorētiskām. Karte iekļauj lietotāju iesūtītas vērtēšanas par šļakatu rādiusu, ratu naidīgumu un vizuālo poēziju. Iedzīvotāji var arī pārsūdzēt peļķes klasifikāciju, ja uzskata, ka tā ir nobriest no Īslaicīgas par t. s. «stabilu emocionālo klātbūtni.»
+
+Preses brīdī amatpersonas apstiprināja, ka ilgi strīdētā peļķe pie tramvaja pieturas Ziepniekkalnā ir pagaidām slēgta atjaunošanai pēc tam, kad pārmērīga tūristu monētu mešana izmainīja tās dabisko malu.`,
+      ru: `РИГА — В шаге, который чиновники охарактеризовали как «давно назревший для североевропейской демократии», Рижская городская дума во вторник запустила официальный цифровой атлас самых стойких луж столицы, присвоив отдельным площадям уличной воды признанный муниципальный статус и, в ряде случаев, охранный культурный статус.
+
+Новая платформа, названная Udens mantojums, или «Водное наследие», позволяет жителям отслеживать 312 нанесённых на карту луж по всему городу — в районах Пурвциемс, Тейка, Саркандаугава и в центре Риги, где несколько заметных водоёмов, как сообщается, пережили четырёх мэров, два скандала с закупкой трамваев и одну полную переделку велосипедной дорожки, которой никто правильно не пользуется.
+
+По словам Департамента мобильности, влажности и общественной терпимости, реестр был создан после лет общественной путаницы по поводу того, ожидают ли крупные лужи осушения, юридического признания или просто «ещё одной осени, чтобы сформировать характер». Город сообщает, что каждому объекту теперь присвоена одна из четырёх категорий: Временная, Полупостоянная, Эмоционально значимая и Созданная водителем.
+
+«К нам поступали противоречивые жалобы, — сказала координатор муниципальной гидрологии Илзе Бриеде, стоя у широкой зеркальной чаши рядом с улицей Бривибас, официально отмеченной как Лужа №44B. — Одна жительница требовала убрать её по соображениям безопасности, а другая сказала, что её родители здесь обручились в 1998 году, когда его троллейбус окатил её, а он извинился хризантемами. Мы поняли, что не управляем водой. Мы управляем наследием».
+
+В рамках программы особенно примечательные лужи получат сине‑белые информационные таблички с указанием средней глубины, качества зеркального отражения и интереса со стороны сезонных птиц. Большая впадина у Рижского центрального вокзала уже получила статус «транспортно‑интерактивной водной зоны» после того, как неоднократно проглатывала правую туфлю спешащих к платформе 3 пассажиров.
+
+Местная реакция оказалась смешанной, но глубоко искренней. «Эта у моего дома показала больше стабильности, чем любой домовладелец», — сказал 52‑летний житель Пурвциемса Андрис Фельдманис, указывая на растянувшийся у обочины коричневый водоём, неофициально называемый Внутренним морем. «Весной он отражает облака, зимой становится моральным испытанием, а летом исчезает ровно настолько, чтобы ты снова поверил в жизнь. Потом возвращается».
+
+Малый бизнес тоже приспосабливается. Кафе Miers & Dubli, расположенное рядом со знаменитой лужей на пешеходном переходе в Агeнскалнсе, начало предлагать у окна «сиденья для плеска». Хозяйка Сабине Озола рассказала, что посетители из Финляндии, Германии и Лиепаи теперь специально останавливаются, чтобы смотреть, как автобусы с разбегу бьют по воде. «Люди больше не хотят аутентичности, — сказала Озола. — Им нужен эффект. Желательно на чужих».
+
+Не все убеждены. Представитель оппозиции в городском совете Мартиньш Кейсс раскритиковал карту как «картографическую капитуляцию», утверждая, что мэрия спутала провал в обслуживании с партиципативным урбанизмом. «Яма, заполненная дождём, не становится автоматически достопримечательностью, — сказал Кейсс репортёрам. — Если эта логика продолжится, к ноябрю половина Maskavas форштате будет номинирована в ЮНЕСКО».
+
+Тем не менее администрация настаивает, что проект улучшит городскую жизнь, сократив споры и помогая пешеходам планировать сухие маршруты, которые сейчас считаются теоретическими. Карта включает рейтинги, присылаемые пользователями, по радиусу брызг, враждебности к детским коляскам и визуальной поэзии. Жители также могут оспорить классификацию лужи, если считают, что та переросла статус Временной и достигла того, что город называет «стабильным эмоциональным присутствием».
+
+К моменту выхода материала чиновники подтвердили, что долго оспариваемая лужа у трамвайной остановки в Зиепниеккалнсе была временно закрыта на реставрацию после того, как чрезмерное забрасывание монет туристами исказило её естественный берег.`
+    },
+    date: "Aug 29, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/259/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 258,
     slug: "jrmala-introduces-quiet-thunder-siren-to-258",
     title: {
@@ -114,7 +195,7 @@ Pilsētas vadība paziņo, ka „Klusa Pērkona Dārdoņa” skanēs katru dienu
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/258/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 257,
