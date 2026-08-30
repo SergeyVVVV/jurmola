@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 260,
+    slug: "jrmala-residents-approve-new-quiet-hours",
+    title: {
+      en: "Jūrmala Residents Approve New Quiet Hours Requiring Baltic Sea to Lower Its Voice After 10 P.M.",
+      lv: "Jūrmalas iedzīvotāji apstiprina jaunas klusuma stundas, kas prasa Baltijas jūrai nolaist balsi pēc plkst. 22:00",
+      ru: "Жители Юрмалы одобрили новые часы тишины: Балтийскому морю предписано понижение голоса после 22:00"
+    },
+    excerpt: {
+      en: "Following years of seasonal complaints about \"aggressive wave behavior,\" Jūrmala officials have approved a pilot ordinance requiring the Baltic Sea to maintain socially acceptable noise levels after 10 p.m. The measure includes decibel monitoring, public signage, and a mediation framework in case the shoreline refuses to cooperate.",
+      lv: "Pēc gadiem ilgiem sezonāliem sūdzību viļņiem par 'agresīvu viļņu uzvedību' Jūrmalas amatpersonas apstiprinājušas pilotregulu, kas pēc plkst. 22:00 prasa Baltijas jūrai uzturēt sabiedrībai pieņemamu trokšņa līmeni. Pasākums paredz decibelu monitoringu, sabiedrisko zīmju izvietošanu un starpniecības mehānismu gadījumā, ja krasts atsakās sadarboties.",
+      ru: "После многих лет сезонных жалоб на «агрессивное поведение волн» власти Юрмалы утвердили пилотный акт, обязывающий Балтийское море соблюдать общественно приемлемый уровень шума после 22:00. Мера включает мониторинг децибелов, информационные таблички и механизм медиации на случай, если берег откажется сотрудничать."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what city planners are calling a "balanced compromise between nature and property values," the Jūrmala City Council voted 11–4 on Thursday to introduce mandatory quiet hours for the Baltic Sea, citing a sharp increase in resident reports concerning late-night splashing, repetitive crashing, and what one committee memo described as "an ongoing inability of the water to read the room."
+
+The ordinance, which takes effect on a trial basis from June 1 through the end of the summer season, requires the sea along a 14-kilometer stretch of beach to remain below 38 decibels after 10 p.m. and to avoid "sudden emotional surges" near private terraces. Municipal workers have already begun installing discreet blue signs in Dzintari, Bulduri, and Majori reading: PLEASE RESPECT LOCAL REST HOURS / SEA INCLUDED.
+
+Deputy Mayor Ivars Kļaviņš said the policy emerged after a difficult public consultation process in which 63% of respondents described the sea as "beautiful but increasingly performative." According to city data, noise complaints related to coastal activity rose 27% last August, with the majority filed between 11:20 p.m. and 1:15 a.m., particularly on windy nights and during what residents repeatedly identified as "needless encore waves."
+
+"People move to Jūrmala for tranquility, pines, and a certain level of tasteful silence," Kļaviņš told reporters, standing beside a laminated acoustic map of the shoreline. "No one is trying to ban the sea. We are simply asking it to participate more responsibly in community life."
+
+Under the new rules, specially trained Environmental Order Inspectors will patrol the beach with handheld sound meters and issue formal warnings to the coastline if wave clusters exceed permitted limits. If disturbances continue, the municipality may deploy a temporary row of imported reeds from a calmer section of Lake Engure as a natural sound-dampening measure. A second phase of the plan includes optional "de-escalation lighting" and a pilot whisper-current zone near high-value villas.
+
+Reaction among residents has been mixed. "At first I thought it sounded ridiculous," said Bulduri homeowner and wellness entrepreneur Santa Vītola, whose glass-fronted summer house sits 43 meters from the surf. "But then last Tuesday, at 00:47, there were at least six extremely assertive waves in a row. Not romantic waves. Administrative waves. It felt personal."
+
+Others accused the city of overreach. Local fisherman Edgars Liepiņš said officials had ignored more practical concerns. "The sea has been loud for centuries," he said while untangling a net near Lielupe. "Meanwhile the actual problem is seagulls conducting what can only be called maritime screaming competitions at sunrise. But because they don't pay property tax, nobody wants that fight."
+
+To address enforcement concerns, the council has established a Shoreline Mediation Board made up of one acoustics consultant, one municipal lawyer, two residents, and a retired choir conductor believed to have experience managing large unstable bodies. The board will meet weekly to review recordings and determine whether wave activity was recreational, provoked, or "artistically unnecessary."
+
+The measure has also drawn attention in Riga, where urban policy researchers say the initiative could inspire similar interventions elsewhere. A spokesperson for the Ministry of Smart Regional Adjustment said the government is "monitoring the Jūrmala model closely," particularly its potential application to loud fountain systems, overconfident mopeds, and one accordionist near the Central Market who has reportedly entered a legally ambiguous relationship with 'Besame Mucho.'
+
+By Friday afternoon, the sea itself had not commented publicly, though observers noted what they described as a somewhat passive-aggressive tide pattern near Pumpuri. As beachgoers gathered under a gray evening sky, workers hammered in the final quiet-hours sign and stepped back to examine it against the horizon.
+
+For several minutes, everything appeared calm. Then a larger-than-average wave rolled in, struck the shore with measurable force, and withdrew without explanation, which residents said was exactly the sort of thing the new policy had been designed to prevent.`,
+      lv: `JŪRMALA — To, ko pilsētplānotāji sauc par 'sabalansētu kompromisu starp dabu un īpašumu vērtībām', Jūrmalas domes sēdē ceturtdien ar 11–4 balsojumu pieņēma obligātas klusuma stundas Baltijas jūrai, atsaucoties uz strauju iedzīvotāju ziņojumu pieaugumu par vēlu nakts plunčāšanos, atkārtotu uzbrukumu skaņu un, kā vienā komisijas memuārā aprakstīts, 'ūdens pastāvīgo nespēju izprast situāciju'.
+
+Regula, kas stāsies spēkā uz izmēģinājuma laiku no 1. jūnija līdz vasaras sezonas beigām, nosaka, ka jūra 14 kilometru garā pludmales posmā pēc plkst. 22:00 drīkst būt zem 38 decibeliem un tai jāizvairās no 'negaidītiem emocionāliem uzplūdiem' pie privātām terasēm. Pašvaldības darbinieki jau ir sākuši uzstādīt smalkas zilas norādes Dzintaros, Bulduros un Majoros ar uzrakstu: LŪDZU, CIENIET VIENAS NAKTS MIERA STUNDAS / ARĪ JŪRU.
+
+Domes vietnieks Ivars Kļaviņš sacīja, ka politika radusies pēc sarežģīta publiskā konsultāciju procesa, kurā 63% aptaujāto jūru raksturoja kā 'skaistu, bet aizvien teatrālāku'. Pilsētas datu rādītāji liecina, ka sūdzības par piekrastes troksni pagājušā gada augustā pieauga par 27%, lielākā daļa iesniegumu iesniegti laikā starp plkst. 23:20 un 1:15 naktī, īpaši vējainās naktīs un brīžos, ko iedzīvotāji atkārtoti dēvēja par 'nevajadzīgajiem „encore” viļņiem'.
+
+'Cilvēki pārvācas uz Jūrmalu klusumam, priedēm un zināmam gaumīgam tāmstumam,' Kļaviņš žurnālistiem teica, stāvot blakus laminētai akustiskajai krasta kartei. 'Neviens nemēģina aizliegt jūru. Mēs vienkārši lūdzam tai atbildīgāk piedalīties kopienas dzīvē.'
+
+Saskaņā ar jaunajiem noteikumiem īpaši apmācīti vides kārtības inspektori patrulēs pludmalē ar rokās turamiem trokšņa mērītājiem un izsniegs oficiālas brīdinājuma zīmes krasta līnijai, ja viļņu kopas pārsniegs atļautos limitus. Ja traucējumi turpināsies, pašvaldība varēs uzstādīt pagaidu rindu ievestu niedru no klidākas Engures ezera daļas kā dabisku skaņas slāpētāju. Plāna otrajā posmā paredzēts izvēles kārtā ieviest 'deeskalācijas apgaismojumu' un izmēģinājuma čukstošo straumes zonu pie augstas vērtības villām.
+
+Iedzīvotāju reakcija bijusi dažāda. 'Sākumā nodomāju, ka tas izklausās smieklīgi,' sacīja Bulduru mājas īpašniece un labsajūtas uzņēmēja Santa Vītola, kuras stiklotā vasaras māja atrodas 43 metrus no viļņu līnijas. 'Bet pagājušajā otrdienā, plkst. 00:47, pēc manām acīm tur bija vismaz seši ārkārtīgi pārliecināti viļņi pēc kārtas. Ne romantiski viļņi. Administratīvie viļņi. Tas jutās personiski.'
+
+Citi vaino pilsētu pārmērīgā iejaukšanās dēļ. Vietējais zvejnieks Edgars Liepiņš, kamēr pļāpājot un šķetinādams tīklu pie Lielupes, sacīja, ka amatpersonas ignorējušas praktiskākas problēmas. 'Jūra ir bijusi skaļa gadsimtiem ilgi,' viņš teica. 'Taču īstā problēma ir kaijas, kas rīko, ko var saukt vienīgi par jūriskām kliegšanas sacensībām saullēktā. Bet tā kā viņas nemaksā nekustamā īpašuma nodokli, neviens nevēlas šo cīņu.'
+
+Lai risinātu izpildes jautājumus, dome izveidojusi Krasta mediācijas padomi, kurā iekļauts viens akustikas konsultants, viens pašvaldības jurists, divi iedzīvotāji un pensionēts koru diriģents, par kura pieredzi lielu nemierīgu masu vadīšanā tiek runāts ar cieņu. Padome tiksies reizi nedēļā, lai pārskatītu ierakstus un noteiktu, vai viļņu aktivitāte bija rekreacionāla, provokēta vai 'mākslinieciski nevajadzīga'.
+
+Pasākums pievērsis uzmanību arī Rīgā, kur pilsētpolitikas pētnieki saka, ka iniciatīva var iedvesmot līdzīgus risinājumus citur. Viedās reģionālās pielāgošanas ministra pārstāvis sacīja, ka valdība 'cītīgi seko Jūrmalas modelim', īpaši tā iespējai attiekties uz skaļajiem strūklakām, pārlieku pašpārliecinātiem mopēdiem un kādu akordeonistu pie Centrāltirgus, kurš, kā ziņots, ir iekļuvis juridiski neskaidrās attiecībās ar 'Besame Mucho'.
+
+Piektdienas pēcpusdienā pati jūra publiski nebija izteikusies, lai gan novērotāji atzīmēja to, ko raksturoja kā nedaudz pasīvi-agresīvu paisuma rakstu pie Pumpuriem. Kamēr pludmales apmeklētāji sapulcējās zem pelēkas vakara debess, darbinieki iedzina pēdējo klusuma stundas zīmi un atkāpās, lai to aplūkotu pret horizontu.
+
+Pāris minūtes viss šķita kluss. Pēc tam ievērojami lielāks par vidējo vilnis atšļāca krastā, ar izmērāmu spēku trieca piekrasti un atkāpās bez paskaidrojuma — ko iedzīvotāji teica, bija tieši tas, ko jaunā politika bija domāta novērst.`,
+      ru: `ЮРМАЛА — В том, что городские планировщики называют «сбалансированным компромиссом между природой и стоимостью недвижимости», Городской совет Юрмалы в четверг проголосовал 11:4 за введение обязательных часов тишины для Балтийского моря, сославшись на резкий рост жалоб жителей на поздние плескания, повторяющиеся удары прибоя и то, что один из комитетных меморандумов охарактеризовал как «постоянную неспособность воды читать обстановку». 
+
+Этот ордонанс, который вступает в силу на пробной основе с 1 июня до конца летнего сезона, требует, чтобы море вдоль 14-километрового участка пляжа держалось ниже 38 децибелов после 22:00 и избегало «внезапных эмоциональных всплесков» возле частных террас. Муниципальные работники уже начали устанавливать незаметные синие таблички в Дзинтари, Булдури и Майори со словами: ПОЖАЛУЙСТА, УВАЖАЙТЕ МЕСТНЫЕ ЧАСЫ ОТДЫХА / ВКЛЮЧАЯ МОРЕ. 
+
+Заместитель мэра Иварс Клявиньш сказал, что политика родилась после тяжёлого общественного обсуждения, в котором 63% опрошенных описали море как «красивое, но всё более демонстративное». По данным города, жалобы на шум, связанный с прибрежной активностью, выросли на 27% в августе прошлого года, причём большинство жалоб приходилось на период между 23:20 и 1:15 ночи — особенно в ветреные ночи и в моменты того, что жители не раз называли «ненужными «бисовыми» волнами». 
+
+«Люди переезжают в Юрмалу за тишиной, соснами и определённым уровнем благородного молчания», — сказал Клявиньш репортёрам, стоя рядом с ламинированной акустической картой побережья. «Никто не пытается запретить море. Мы просто просим его участвовать в общественной жизни более ответственно». 
+
+По новым правилам специально подготовленные Инспекторы по экологическому порядку будут патрулировать пляж с портативными шумомерами и выдавать официальные предупреждения береговой линии, если скопления волн превысят допустимые уровни. Если нарушения продолжатся, муниципалитет может установить временный ряд импортных тростников из более спокойного участка озера Энгуре в качестве природного звукопоглощающего барьера. Вторая фаза плана включает опциональное «световое деэскалирующее освещение» и пилотную зону шепчущего течения рядом с виллами высокой ценности. 
+
+Реакция среди жителей оказалась смешанной. «Сначала я думала, что это звучит нелепо», — сказала владелица дома в Булдури и предприниматель в сфере велнеса Санта Витола, чей стеклянный летний дом стоит в 43 метрах от прибоя. «Но в прошлый вторник в 00:47 было по крайней мере шесть крайне напористых волн подряд. Не романтические волны. Административные волны. Было лично». 
+
+Другие обвинили город в превышении полномочий. Местный рыбак Эдгарс Лиепиньш сказал, что чиновники проигнорировали более практичные проблемы. «Море громко веками», — сказал он, распутывая сеть в районе Лиелупе. «А настоящая проблема — чайки, устраивающие то, что можно назвать морскими соревнованиями по крику на рассвете. Но поскольку они не платят налог на имущество, никто не хочет с этим связываться». 
+
+Чтобы решить вопросы исполнения, совет учредил Совет по урегулированию прибрежных споров, состоящий из одного акустического консультанта, одного муниципального юриста, двух жителей и отставного хормейстера, которого считают опытным в управлении большими нестабильными телами. Совет будет собираться еженедельно для прослушивания записей и определения, носила ли волновая активность рекреационный характер, была ли она спровоцирована или «художественно необязательна». 
+
+Мера также привлекла внимание в Риге, где исследователи городской политики говорят, что инициатива может вдохновить на подобные вмешательства в других местах. Представитель Министерства умной региональной адаптации заявил, что правительство «внимательно следит за юрмалским опытом», особенно за его потенциальным применением к шумным фонтанам, самоуверенным мотороллерам и одному аккордеонисту у Центрального рынка, который, по слухам, вступил в юридически неоднозначные отношения с «Besame Mucho». 
+
+К пятнице днём само море публично не комментировало ситуацию, хотя наблюдатели отметили то, что они описали как несколько пассивно-агрессивный график приливов в районе Пумпури. Пока отдыхающие собирались под серым вечерним небом, рабочие вбивали последнюю табличку часов тишины и отошли, чтобы посмотреть на неё на фоне горизонта. 
+
+Несколько минут всё выглядело спокойно. Затем пришла необычно крупная волна, врезалась в берег с измеримой силой и отступила без объяснений, что, по словам жителей, как раз и было тем самым, чего новая политика должна была предотвращать.`
+    },
+    date: "Aug 30, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/260/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 259,
     slug: "riga-introduces-official-municipal-puddle-map",
     title: {
@@ -96,7 +183,7 @@ Preses brīdī amatpersonas apstiprināja, ka ilgi strīdētā peļķe pie tramv
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/259/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 258,
