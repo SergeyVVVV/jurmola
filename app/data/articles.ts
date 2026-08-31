@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 261,
+    slug: "jrmala-introduces-silent-thunder-tax-after",
+    title: {
+      en: "Jūrmala Introduces Silent Thunder Tax After Residents Complain Wealthy SUVs Are Disturbing the Spiritual Quiet of Beige Fences",
+      lv: "Jūrmala ievieš „Klusā pērkona” nodokli pēc iedzīvotāju sūdzībām, ka turīgie SUV traucē bēšaino žogu garīgo klusumu",
+      ru: "Юрмала вводит налог «Тихий гром» после жалоб жителей, что состоятельные внедорожники тревожат духовную тишину бежевых заборов"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have approved a new municipal fee targeting luxury vehicles deemed \"acoustically overconfident\" while driving past the city’s historic pine groves and emotionally fragile property lines. The measure is expected to raise €2.4 million annually, most of it from three streets and one dentist.",
+      lv: "Jūrmalas amatpersonas apstiprinājušas jaunu pašvaldības maksu, kas vērsta pret luksus transportlīdzekļiem, kurus atzinuši par «akustiski pārāk pašpārliecinātiem», braucot gar pilsētas vēsturiskajiem priežu birzīm un emocionāli trauslajām īpašuma robežām. Paredzams, ka pasākums gadā ienāks aptuveni 2,4 miljonus eiro, lielāko daļu no tiem no trim ielām un viena zobārsta.",
+      ru: "Чиновники Юрмалы одобрили новый муниципальный сбор, направленный на роскошные автомобили, признанные «акустически чересчур самоуверенными» при проезде мимо исторических сосновых рощ города и эмоционально хрупких границ участков. Ожидается, что мера принесёт €2,4 млн в год, большая часть — с трёх улиц и одного дантиста."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders described as "necessary for the preservation of coastal dignity," the Jūrmala City Council voted late Tuesday to impose a new Silent Thunder Tax on high-end sport utility vehicles whose engine noise, door-closing force, or general aura of arrival is found to disrupt the municipality’s "traditional atmosphere of discreet suspicion."
+
+The tax, which takes effect on 1 October, will apply to vehicles valued above €85,000 and equipped with features classified by the council as "socially unnecessary," including illuminated grilles, retractable side steps, and any sound system capable of reproducing Russian pop at a volume audible through double-glazed villa windows.
+
+According to the 47-page regulation, inspectors will assess not only decibel output but also what planners called "secondary disturbances," such as prolonged idling outside artisanal bakeries, aggressive key-fob locking beeps, and the "psychological reverberation" caused when a matte-black SUV passes too slowly by a wooden summer home built in 1931.
+
+"This is not a war on success," said Deputy Mayor Ilze Vītola at a press briefing held beside a decorative dune rehabilitation project. "Jūrmala has always welcomed prosperity, provided it behaves as though slightly embarrassed by itself. We are merely asking residents and guests to transport their wealth with greater softness."
+
+City acoustics consultant Mārtiņš Ābele, who spent six months studying vehicle noise between Bulduri and Melluži, said the problem extends beyond measurable sound. "We recorded 312 instances this summer where a vehicle was technically within legal decibel limits yet still conveyed, very clearly, that its owner wanted to be noticed," he said, pointing to a map shaded in what officials called "zones of acoustic tension." "That message travels through pine bark, through wrought-iron gates, through the human nervous system."
+
+Under the new rules, first-time offenders will pay between €180 and €640 depending on engine size and emotional aggressiveness. Repeat violators may be ordered to install municipal-approved "humility mufflers" or complete a mandatory three-hour retraining seminar titled Arriving Without Making It Everyone’s Business.
+
+Reaction among residents has been mixed. Longtime Dzintari homeowner and retired philologist Maija Krastiņa, 71, said she supports the tax because summer traffic has become "operatic." "You sit quietly with your coffee, listening to the sea and your own cholesterol, and suddenly some imported machine announces itself like a minor monarchy," she said. "There must be rules."
+
+Not everyone agrees. Local businessman and part-time padel investor Ruslans Mežajevs, whose pearl-white SUV was photographed last month outside a wellness concept showroom, called the policy discriminatory. "My car is not loud," he said. "It simply has confidence. Why should I be punished because the municipality fears premium engineering?"
+
+Still, preliminary data suggest broad support. A survey commissioned by the council found that 68% of residents favored the tax, while 22% said they were undecided until they heard what kind of vehicle their neighbor drives. Another 10% asked whether bicycles with expensive attitudes would also be included.
+
+The city expects the measure to generate roughly €2.4 million in its first year, funds earmarked for dune stabilization, additional bicycle racks, and a pilot program to train crows to identify illegally tinted windows. Municipal procurement documents show the crow initiative alone has been allocated €84,000.
+
+By Wednesday morning, officers had already issued nine warnings, two fines, and one written recommendation that a visiting entrepreneur from Riga "consider entering Jūrmala emotionally from a lower register." As late-summer traffic rolled down Jomas Street, several drivers appeared to test quieter routes, while others simply lowered their windows and glared in premium silence.
+
+At sunset, the city remained calm. Pine branches moved lightly in the sea air, café spoons tapped against porcelain, and somewhere in the distance a luxury tailgate closed with enough restraint to suggest that, for now at least, the policy may be working.`,
+      lv: `JŪRMALA — Pilsētas vadītāju dēvētā «nepieciešamā piekrastei piedienīgā cienības saglabāšanai» vārdā Jūrmalas dome otrdienas vakarā nobalsoja par jauna Klusā pērkona nodokļa ieviešanu pret augstas klases sporta visurgājējiem, kuru motora rūkoņa, durvju aizvēršanas spēks vai pašnāvīgā ierašanās aura traucē pašvaldības «tradicionālo pieklājīgās aizdomības atmosfēru».
+
+Nodoklis, kas stāsies spēkā 1. oktobrī, attieksies uz transportlīdzekļiem, kuru vērtība pārsniedz 85 000 € un kuri aprīkoti ar domēna nozīmē «sociāli liekām» iezīmēm, tostarp apgaismotas radiatora restes, izvelkami sānu pakāpieni un jebkura skaņas sistēma, kas spēj reproducēt krievu popu skaļumā, kas dzirdams caur dubultstikla villu logiem.
+
+Saskaņā ar 47 lappušu regulu inspektori novērtēs ne tikai decibelus, bet arī to, ko plānotāji dēvē par «sekundārajiem traucējumiem», piemēram, ilgstošu tukšgaitas stāvēšanu pie amatnieku maiznīcām, agresīvas distanču atslēgu pīkstēšanas un «psiholoģisko atbalsi», ko rada, ja matēti melns SUV pārāk lēni pabrauc garām koka vasarnīcai, uzbūvētai 1931. gadā.
+
+«Tas nav karš pret panākumiem,» preses brīfingā blakus dekoratīvam kāpu atjaunošanas projektam sacīja domes priekšsēdētājas vietniece Ilze Vītola. «Jūrmala vienmēr ir sveicinājusi labklājību, ja vien tā izturas tā, it kā pašai būtu mazliet kauns pašai no sevis. Mēs vienkārši lūdzam iedzīvotājus un viesus savus labumus pārvietot maigāk.»
+
+Pilsētas akustikas konsultants Mārtiņš Ābele, kurš sešus mēnešus pētīja transportlīdzekļu trokšņus starp Bulduriem un Melluži, sacīja, ka problēma pārsniedz izmērāmo skaņu. «Šovasar reģistrējām 312 gadījumus, kad transportlīdzeklis tehniski atradās likumīgajos decibelos, taču tomēr ļoti skaidri deva ziņu, ka tā īpašnieks grib tikt pamanīts,» viņš piebilda, rādot karti ar zonām, ko amatpersonas nosaukušas par «akustiskās spriedzes zonām». «Šī ziņa ceļo caur priežu mizām, caur kaltiem vārtiem, caur cilvēka nervu sistēmu.»
+
+Saskaņā ar jaunajiem noteikumiem pirmreizēji pārkāpēji samaksās no 180 € līdz 640 €, atkarībā no motora tilpuma un emocionālās agresivitātes. Atkārtotājiem var tikt piespriesta uzstādīšana pašvaldības apstiprinātiem «pazemības slāpētājiem» vai obligāta trīs stundu pāraudzināšanas semināra apgūšana ar nosaukumu «Ierodoties tā, lai tas nebūtu visu sabiedrības lieta». 
+
+Iedzīvotāju reakcija bijusi jaukta. Ilgstoša Dzintaru mājas īpašniece un pensionēta filoloģe Maija Krastiņa (71) sacīja, ka atbalsta nodokli, jo vasaras satiksme kļuvusi «pārlieku teatrāla». «Tu mierīgi dzer kafiju, klausies jūru un savu holesterīnu, un pēkšņi kāda ievestā mašīna paziņo par sevi kā neliela monarhija,» viņa teica. «Tam jābūt noteikumiem.»
+
+Ne visi piekrita. Vietējais uzņēmējs un daļējs padel investoru entuziasts Ruslans Mežajevs, kura pērļu baltā SUV pagājušajā mēnesī tika iemūžināta pie veselības koncepta izstāžu zāles, nosauca politiku par diskriminējošu. «Mana mašīna nav skaļa,» viņš sacīja. «Tai vienkārši piemīt pārliecība. Kāpēc man jāsoda, jo pašvaldība baidās no augstākās klases inženierijas?»
+
+Tomēr provizoriskie dati liecina par plašu atbalstu. Domes pasūtītā aptauja parādīja, ka 68% iedzīvotāju atbalsta nodokli, kamēr 22% bija nenoteikti, līdz dzirdēs, kāda automašīna pieder viņu kaimiņam. Vēl 10% jautāja, vai tiks iekļauti arī velosipēdi ar dārgu attieksmi.
+
+Pilsēta sagaida, ka pasākums pirmajā gadā nesīs aptuveni 2,4 miljonus eiro, līdzekļus paredzot kāpu stabilizēšanai, papildu velosipēdu statīviem un pilotprojektam vārnu apmācībai neatļauti tonētu logu atpazīšanai. Pašvaldības iepirkumu dokumenti rāda, ka vārnu iniciatīvai vienai ir atvēlēti 84 000 €.
+
+Līdz trešdienas rītam inspektori jau izteikuši deviņus brīdinājumus, divas naudas sodu zīmes un vienu rakstisku ieteikumu, lai viesojošais uzņēmējs no Rīgas «apsver emocionālu ierašanos Jūrmalā zemākā reģistrā». Kad vēlās vasaras satiksme virzījās pa Jomas ielu, vairāki vadītāji, šķita, meklēja klusākas maršrutus, kamēr citi vienkārši nolaida logus un skatījās elitārā klusumā.
+
+Saulrietā pilsēta saglabājās mierīga. Priežu zarus viegli kustināja jūras vējš, kafejnīcas karotītes skanēja pret porcelānu, un kaut kur tālumā luksusa bagāžnieka vāks aizvērās ar pietiekamu atturību, lai liecinātu — vismaz pagaidām — ka politika, šķiet, darbojas.`,
+      ru: `ЮРМАЛА — В шаге, который городские власти описали как «необходимый для сохранения прибрежного достоинства», Городской совет Юрмалы поздно во вторник проголосовал за введение нового налога «Тихий гром» для высококлассных внедорожников, чей шум двигателя, сила захлопывания дверей или общее аурное заявление о прибытии признаются нарушающими «традиционную атмосферу сдержанного подозрения» муниципалитета.
+
+Налог, вступающий в силу 1 октября, будет применяться к транспортным средствам стоимостью свыше €85 000 и оснащённым функциями, классифицированными советом как «социально ненужные», включая подсвеченные решётки радиатора, выдвижные боковые подножки и любые аудиосистемы, способные воспроизводить российский поп на громкости, слышимой сквозь двойные стеклопакеты вилл.
+
+Согласно 47-страничному регламенту, инспекторы будут оценивать не только уровень децибел, но и то, что планировщики назвали «вторичными помехами», такими как длительная работа на холостых оборотах у ремесленных пекарен, агрессивные писки брелка при запирании и «психологическая реверберация», возникающая, когда матово-чёрный внедорожник едет слишком медленно мимо деревянного летнего дома, построенного в 1931 году.
+
+«Это не война с успехом», — заявила заместитель мэра Илзе Витола на брифинге у декоративного проекта по восстановлению дюн. «Юрмала всегда приветствовала процветание, при условии что оно ведёт себя так, словно слегка смущено самим собой. Мы лишь просим жителей и гостей перевозить своё богатство более мягко». 
+
+Городской акустический консультант Мартиньш Абеле, который шесть месяцев изучал шум от автомобилей между Булдури и Меллужи, сказал, что проблема выходит за рамки измеримого звука. «Этим летом мы зафиксировали 312 случаев, когда транспортное средство формально соответствовало допустимым децибелам, но при этом очень ясно сообщало, что его владелец хочет быть замеченным», — сказал он, указывая на карту, заштрихованную в том, что чиновники назвали «зонами акустического напряжения». «Это послание проходит сквозь сосновую кору, сквозь кованные ворота, сквозь нервную систему человека». 
+
+По новым правилам, нарушители, пойманные впервые, будут платить от €180 до €640 в зависимости от объёма двигателя и степени эмоциональной агрессивности. Повторным нарушителям может быть предписано установить муниципально одобренные «глушители смирения» или пройти обязательный трёхчасовой переучивающий семинар под названием «Прибывать, не делая это всеобщим делом». 
+
+Реакция среди жителей разделилась. Долгожительница Дзинтари и на пенсии филолог Майя Крастиня, 71 год, сказала, что поддерживает налог, потому что летний трафик стал «по-оперному». «Сидишь тихо с кофе, слушаешь море и свой холестерин, и вдруг какое-то импортное чудо заявляет о себе словно маленькая монархия», — сказала она. «Нужны правила». 
+
+Не все согласны. Местный бизнесмен и частичный инвестор в падел Русланс Межаевс, чей перламутрово-белый внедорожник в прошлом месяце был сфотографирован перед шоу-румом велнес-концепта, назвал политику дискриминационной. «Моя машина не громкая», — сказал он. «Она просто уверенная. Почему меня должны наказывать потому, что муниципалитет боится премиальной инженерии?» 
+
+Тем не менее предварительные данные указывают на широкую поддержку. Опрос, заказанный советом, показал, что 68% жителей поддерживают налог, 22% сказали, что решатся только после того, как узнают, какой автомобиль у их соседа, и ещё 10% поинтересовались, будут ли включены в список велосипеды с дорогим отношением. 
+
+Город ожидает, что мера принесёт примерно €2,4 млн в первый год; средства будут направлены на стабилизацию дюн, дополнительные велопарковки и пилотную программу по обучению ворон выявлять незаконно затемнённые стёкла. Документы муниципальных закупок показывают, что на саму инициативу с воронами выделено €84 000. 
+
+К середине среды уже было вынесено девять предупреждений, два штрафа и одно письменное рекомендательное замечание тому предпринимателю из Риги с просьбой «входить в Юрмалу эмоционально с более низкой тональностью». Пока позднесезонный поток машин катился по улице Йомас, некоторые водители, по-видимому, искали более тихие маршруты, в то время как другие просто опускали стекла и хмурились в премиальном молчании. 
+
+На закате город оставался спокойным. Сосновые ветви легко шевелились в морском воздухе, кофейные ложки постукивали по фарфору, и где-то вдалеке роскошный багажник захлопнулся с такой сдержанностью, что, по крайней мере на данный момент, казалось — политика работает.`
+    },
+    date: "Aug 31, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/261/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 260,
     slug: "jrmala-residents-approve-new-quiet-hours",
     title: {
@@ -102,7 +195,7 @@ Pāris minūtes viss šķita kluss. Pēc tam ievērojami lielāks par vidējo vi
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/260/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 259,
