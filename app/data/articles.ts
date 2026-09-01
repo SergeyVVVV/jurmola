@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 262,
+    slug: "riga-introduces-silence-tax-after-residents-262",
+    title: {
+      en: "Riga Introduces Silence Tax After Residents Found Enjoying Tram Ride Too Much",
+      lv: "Rīga ievieš Klusuma nodokli, jo iedzīvotāji pārāk izbaudījuši tramvaja braucienu",
+      ru: "Рига вводит налог на тишину после того, как жители стали слишком наслаждаться поездкой в трамвае"
+    },
+    excerpt: {
+      en: "City officials have approved a new municipal fee targeting passengers who sit quietly and appear emotionally restored during public transport journeys. The measure, described as a 'fair contribution to urban tranquility infrastructure,' is expected to generate €4.2 million annually.",
+      lv: "Pilsētas amatpersonas apstiprinājušas jaunu pašvaldības maksu, kas vērsta uz pasažieriem, kuri sēž klusi un šķiet emocionāli atjaunoti sabiedriskā transporta braucienu laikā. Šo pasākumu, ko raksturo kā «taisnīgu ieguldījumu pilsētas mierīguma infrastruktūrā», paredzēts nopelnīt 4,2 miljonus eiro gadā.",
+      ru: "Городские власти утвердили новый муниципальный сбор, направленный на пассажиров, которые сидят молча и выглядят эмоционально восстановившимися во время поездок на общественном транспорте. Ожидается, что мера принесёт €4,2 млн в год."
+    },
+    fullContent: {
+      en: `RIGA — In a move municipal leaders say will protect the capital’s fragile budget and preserve the authentic emotional atmosphere of weekday commuting, the Riga City Council voted Tuesday to introduce a Silence Tax for public transport passengers observed experiencing 'unearned peace' while riding trams, trolleybuses, and selected buses.
+
+The fee, which takes effect on 1 November, will apply to individuals who remain visibly calm for more than three consecutive stops, gaze thoughtfully out the window without sighing, or listen to music in a manner inspectors classify as 'personally transformative.' According to the Department of Civic Equilibrium, first-time offenders will receive a warning and a brochure explaining that serenity within city limits is a taxable event.
+
+Deputy Committee Chair for Mobility and Appropriate Mood, Inese Tauriņa, said the decision followed a six-month pilot program on Tram No. 11, where transport monitors documented a concerning rise in what they called 'silent contentment incidents.' The route, which passes several pine-lined sections before reaching Mežaparks, reportedly produced 218 cases of relaxed posture, 74 half-smiles, and one man who closed his eyes and nodded gently to a podcast for nearly 11 minutes.
+
+'We are not punishing passengers for existing,' Tauriņa told reporters while standing beside a chart labeled Emotional Leakage by District. 'We are merely asking those who derive measurable inner balance from public infrastructure to contribute proportionally. If a resident receives psychological spa-level value between Central Station and Teika, that has a municipal cost.'
+
+Under the new rules, ticket inspectors will be equipped with decibel-sensitive lapel devices and the revised Mood Observation Form 6B. Passengers judged suspiciously at ease may be asked to demonstrate ordinary commuter dissatisfaction by checking the time repeatedly, muttering about roadworks, or performing a brief shoulder slump. Those unable to provide sufficient signs of urban strain will be charged €1.40 per tranquil episode, with a discounted monthly cap of €18 for students, pensioners, and freelance graphic designers.
+
+The city says the revenue will fund practical improvements, including three new benches at Zemitāni, a pilot program for less alarming timetable fonts, and the restoration of the recorded tram announcement voice to what officials called 'its traditional level of mild disappointment.'
+
+Reaction across Riga has been mixed. Office administrator Elīna Skujiņa, 34, said she was fined during the trial after an inspector noticed she had spent four stops looking at rain on the window 'in a spiritually organized way.'
+
+'I wasn’t even happy,' Skujiņa said. 'I was just briefly arranged internally. They asked me if I had reached acceptance, and when I hesitated, they printed the receipt.'
+
+Others have welcomed the policy as long overdue. Retired engineer Voldemārs Krastiņš, reached outside the National Library, argued that unchecked calm could destabilize the social contract.
+
+'If one person sits peacefully on public transport, soon another does it, and then before you know it people are making eye contact at Origo,' Krastiņš said. 'That is not the Riga I defended through several winters.'
+
+To address concerns of unequal enforcement, the council has promised annual sensitivity training for inspectors, especially regarding naturally serene-looking residents from Jurmala, who officials acknowledge have historically benefited from proximity to sea air. A separate exemption process will also be available for choir conductors, herbalists, and anyone carrying rye bread in a paper bag.
+
+At a press conference Wednesday, Mayor Vilnis Bērziņš rejected criticism that the city was monetizing basic human relief. 'Riga remains committed to accessible public transport,' he said. 'But accessibility must not be confused with free emotional upgrades.'
+
+As debate continues, transport users have already begun adapting. Several morning commuters on Tram No. 6 were seen practicing mild irritation in reflective surfaces, while one passenger kept a spreadsheet open on his phone purely for protection. By noon, the city reported 63 successful collections and one appeal from a woman who claimed she was not tranquil, only from Jelgava.`,
+      lv: `RĪGA — Pilsētas vadītāji, kuri apgalvo, ka tā pasargās galvaspilsētas trauslo budžetu un saglabās autentisko darba dienas pārvietošanās emocionālo atmosfēru, otrdien Rīgas dome nobalsoja par Klusuma nodokļa ieviešanu pasažieriem, kuri sabiedriskajā transportā tiek novēroti kā piedzīvojam «neesamību nopelnītu mieru» brauciena laikā pa tramvajiem, trolejbusiem un atlasītiem autobusiem.
+
+Nodoklis, kas stāsies spēkā 1. novembrī, attieksies uz personām, kas vairāk nekā trīs pieturas pēc kārtas acīmredzami saglabā mieru, domīgi skatās pa logu, neuzdegoties, vai klausās mūziku tādā veidā, ko inspektori klasificē kā «personiski transformējošu». Pēc Pilsoniskā līdzsvara departamenta teiktā, pirmreizēji pārkāpēji saņems brīdinājumu un bukletu ar skaidrojumu, ka miers pilsētas robežās ir apliekams ar nodokli.
+
+Mobilitātes un piemērota noskaņojuma komitejas vietniece Inese Tauriņa sacīja, ka lēmums sekoja sešu mēnešu pilotprogrammai 11. tramvajā, kur transporta uzraugi dokumentējuši satraucošu «klusās apmierinātības incidentu» pieaugumu. Maršruts, kas šķērso vairākas priežu alejētas atsegtas daļas pirms iebraukšanas Mežaparkā, esot radījis 218 gadījumus atslābinātas stājas, 74 pus-smaidus un vienu vīrieti, kurš aizvēra acis un gandrīz 11 minūtes viegli mīmēja pie podkāsta.
+
+«Mēs pasažierus nepārkāpjam par to, ka viņi eksistē,» Tauriņa sacīja žurnālistiem, stāvot blakus diagrammai ar nosaukumu «Emocionālā noplūde pa rajoniem». «Mēs vienkārši lūdzam tos, kuri no publiskās infrastruktūras iegūst izmērāmu iekšējo līdzsvaru, sniegt proporcionālu ieguldījumu. Ja iedzīvotājs no Centrālās stacijas līdz Teikai saņem psiholoģiskas spa līmeņa vērtības, tam ir pašvaldības izmaksas.»
+
+Saskaņā ar jaunajiem noteikumiem biļešu inspektoriem būs aprīkojums ar decibelu jutīgiem piespraužamiem mērītājiem un pārskatotu Noskaņojuma novērošanas veidlapu 6B. Pasažieri, kuriem tiek izteikta aizdomas par pārāk lielu vieglumu, var tikt lūgti demonstrēt parastu sastrēgumu braucēja neapmierinātību — vairākas reizes pārbaudot laiku, zemūdot par ceļu remontiem vai īslaicīgi nolaižot plecus. Tie, kuri nespēs sniegt pietiekamus pilsētas stresa simptomus, tiks sodīti ar 1,40 € par katru klusu epizodi, ar samazinātu mēneša griestu maksu 18 € studentiem, pensionāriem un pašnodarbinātajiem grafiskajiem dizaineriem.
+
+Pilsēta apgalvo, ka ieņēmumi tiks izmantoti praktiskiem uzlabojumiem, tostarp trim jauniem soliņiem Zemitānos, pilotprojektam mazāk biedējošiem grafikiem un ierakstītā tramvaja paziņojuma balss atjaunošanai uz, kā amatpersonas teica, «tā tradicionālā viegli sarūgtinātā līmeņa». 
+
+Reakcijas Rīgā ir bijušas jauktas. Biroja administratora Elīna Skujiņa, 34, sacīja, ka izmēģinājuma laikā viņai uzlika sodu, jo inspektors pamanījis, ka viņa četras pieturas skatījusies uz logā krītošo lietu «garīgi sakārtotā veidā». 
+
+«Es pat nebiju laimīga,» Skujiņa teica. «Es biju tikai īslaicīgi iekšēji sakārtota. Viņi jautāja, vai es sasniegusi iekšēju pieņemšanu, un, kad es nokavējos ar atbildi, izdrukāja kvīti.»
+
+Citi politiku ir sagaidījuši kā ilgi gaidītu. Pensionētais inženieris Voldemārs Krastiņš, kuram žurnālisti piekļuva pie Nacionālās bibliotēkas, apgalvoja, ka neatļauts miers varētu destabilizēt sociālo līgumu.
+
+«Ja viens cilvēks sēž mierīgs sabiedriskajā transportā, drīz otrs to dara, un tad pirms paspējat pamanīt, cilvēki Origo uzsāk acu kontaktu,» Krastiņš sacīja. «Tas nav tā Rīga, ko es aizstāvēju vairākas ziemas.»
+
+Lai risinātu bažas par nevienlīdzīgu piemērošanu, dome solījusi reizi gadā rīkot jutīguma apmācības inspektoriem, īpaši attiecībā uz dabiski mierīgi izskatīgiem Jūrmalas iedzīvotājiem, kuri, pēc amatpersonu atzīšanas, vēsturiski guvuši labumu no tuvuma jūras gaisam. Būs pieejama arī atsevišķa atbrīvojumu procedūra koriem, zāļu vācējiem un ikvienam, kurš nēsā rudzu maizi papīra maisiņā.
+
+Trešdienas preses konferencē mērs Vilnis Bērziņš noraidīja kritiku, ka pilsēta monetizē pamata cilvēcisko atvieglojumu. «Rīga paliek apņēmības pilna nodrošināt pieejamu sabiedrisko transportu,» viņš sacīja. «Bet pieejamību nedrīkst jaukt ar bezmaksas emocionālajām uzlabojumiem.»
+
+Kamēr debates turpinās, transporta lietotāji jau sākuši pielāgoties. Daži rīta pasažieri 6. tramvajā redzēti praktizējam vieglu aizkaitinājumu atspulgos, kamēr viens pasažieris nolēmis aizsardzības nolūkos telefonā glabāt atvērtu izklājlapu. Līdz pusdienlaikam pilsēta ziņoja par 63 veiksmīgām iekasēšanām un vienu apelāciju no sievietes, kura apgalvoja, ka viņa nav mierīga, tikai esot no Jelgavas.`,
+      ru: `РИГА — В шаге, который городские руководители называют защитой хрупкого бюджета столицы и сохранением подлинной эмоциональной атмосферы будничных поездок, Рижская городская дума во вторник проголосовала за введение Налога на тишину для пассажиров общественного транспорта, уличённых в «незаслуженном спокойствии» во время езды в трамваях, троллейбусах и на выбранных автобусных маршрутах.
+
+Сбор, вступающий в силу 1 ноября, будет применяться к лицам, которые остаются заметно спокойными более чем на три остановки подряд, задумчиво глядят в окно, не вздыхая, или слушают музыку таким образом, который инспекторы классифицируют как «личностно-преобразующий». По данным Департамента гражданского равновесия, первичные нарушители будут получать предупреждение и брошюру с объяснением, что умиротворение в пределах города является налогооблагаемым событием.
+
+Заместитель председателя комитета по мобильности и надлежащему настроению Инесе Тауриня заявила, что решение последовало за шестимесячным пилотным проектом на трамвае №11, где транспортные наблюдатели зафиксировали тревожный рост так называемых «инцидентов тихого удовлетворения». На маршруте, который проходит мимо нескольких участков с соснами перед конечной в Межапарксе, якобы зарегистрировали 218 случаев расслабленной осанки, 74 полуулыбки и одного мужчину, который почти 11 минут закрывал глаза и мягко кивал в такт подкасту.
+
+«Мы не наказываем пассажиров за то, что они существуют», — сказала Тауриня репортёрам, стоя рядом с графиком под заголовком «Утечка эмоций по районам». «Мы лишь просим тех, кто извлекает измеримую внутреннюю гармонию из городской инфраструктуры, внести пропорциональный вклад. Если житель получает психологическую ценность уровня спа между Центральным вокзалом и Тейкой, это имеет муниципальную стоимость». 
+
+В соответствии с новыми правилами контролёры билетов будут оснащены петличными приборами, чувствительными к децибелам, и обновлённой Формой наблюдения за настроением 6B. Пассажиров, вызывающе спокойных на вид, могут попросить продемонстрировать обычное недовольство пассажира, многократно глянув на часы, пробормотав что-то о дорожных работах или исполнив короткий плечевой вздёрг. Те, кто не сможет предъявить достаточных признаков городского напряжения, будут оштрафованы на €1,40 за каждый эпизод умиротворения; предусмотрен льготный месячный потолок в €18 для студентов, пенсионеров и фриланс-графических дизайнеров.
+
+Город сообщает, что вырученные средства пойдут на практические улучшения, включая три новые скамейки на Земитани, пилотную программу по менее пугающим шрифтам в расписаниях и возвращение записанного голоса объявлений в трамвае к тому, что чиновники назвали «традиционным уровнем лёгкого разочарования». 
+
+Реакция по всей Риге разделилась. Офис-администратор Элина Скуйня, 34 года, рассказала, что её оштрафовали во время испытательного периода после того, как инспектор заметил, что она четыре остановки смотрела на дождь в окно «духовно упорядоченным образом». 
+
+«Я даже не была счастлива», — сказала Скуйня. «Я просто ненадолго устроилась внутри. Они спросили, достигла ли я принятия, а когда я запнулась, распечатали чек». 
+
+Другие приветствовали политику как давно назревшую. На пенсии инженер Вольдемарс Крастиньш, к которому подошли у Национальной библиотеки, заявил, что бесконтрольное спокойствие может дестабилизировать общественный договор. 
+
+«Если один человек сидит спокойно в общественном транспорте, скоро другой делает то же самое, а потом люди начинают смотреть друг другу в глаза в Ориго», — сказал Крастиньш. «Это не та Рига, которую я защищал в несколько зим». 
+
+Чтобы учесть опасения по поводу неравного применения, дума пообещала ежегодное обучение чувствительности для контролёров, особенно в отношении естественно выглядящих спокойными жителей Юрмалы, которые, по признанию чиновников, исторически выигрывали от близости морского воздуха. Также будет доступна отдельная процедура освобождения для дирижёров хоров, травников и всех, кто носит ржаной хлеб в бумажном пакете. 
+
+На пресс-конференции в среду мэр Вилнис Берзиньш отверг критику о том, что город монетизирует базовое человеческое облегчение. «Рига остаётся приверженной доступному общественному транспорту», — сказал он. «Но доступность не должна смешиваться с бесплатными эмоциональными апгрейдами». 
+
+Пока шла дискуссия, пользователи транспорта уже начали адаптироваться. Несколько утренних пассажиров в трамвае №6 замечены за репетицией лёгкого раздражения перед отражающими поверхностями, а один пассажир держал на телефоне открытую таблицу исключительно для прикрытия. К полудню город сообщил о 63 успешных взысканиях и одной апелляции от женщины, которая утверждала, что она не была спокойной, а только приехала из Елгавы.`
+    },
+    date: "Sep 1, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/262/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 261,
     slug: "jrmala-introduces-silent-thunder-tax-after",
     title: {
@@ -108,7 +207,7 @@ Saulrietā pilsēta saglabājās mierīga. Priežu zarus viegli kustināja jūra
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/261/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 260,
