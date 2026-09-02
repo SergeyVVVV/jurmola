@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 263,
+    slug: "riga-introduces-official-municipal-sigh-to-263",
+    title: {
+      en: "Riga Introduces Official Municipal Sigh to Replace 14 Separate Complaint Forms",
+      lv: "Rīga ievieš oficiālo pašvaldības nopūtu, lai aizstātu 14 atsevišķas sūdzību formas",
+      ru: "Рига вводит официальный муниципальный вздох, заменяющий 14 отдельных форм жалоб"
+    },
+    excerpt: {
+      en: "In a move city officials say will \"streamline emotional administration,\" Riga has unveiled a legally recognized municipal sigh for residents frustrated by transport delays, weather, utility bills, and hearing the phrase “European capital” too often. The new vocalization, recorded at a service center in Purvciems, can now be submitted verbally instead of in writing.",
+      lv: "Kā pilsētas amatpersonas apgalvo, lai \"vienkāršotu emocionālo administrēšanu\", Rīga ir izziņojusi juridiski atzītu pašvaldības nopūtu iedzīvotājiem, kas satraukti par transporta kavēm, laika apstākļiem, komunālajiem rēķiniem un frāzes “Eiropas galvaspilsēta” pārāk biežas dzirdēšanas. Jaunā vokalizācija, ierakstīta klientu apkalpošanas punktā Purvciemā, nu var tikt iesniegta mutiski, nevis rakstiski.",
+      ru: "В шаге, который чиновники называют «упрощением эмоционального администрирования», Рига представила юридически признанный муниципальный вздох для жителей, раздражённых транспортными задержками, погодой, коммунальными счетами и тем, что фразу «европейская столица» слышат слишком часто. Новый звук, записанный в сервисном центре в Пурвциемсе, теперь можно подать устно вместо письменного обращения."
+    },
+    fullContent: {
+      en: `RIGA — After a three-year pilot program and a feasibility study conducted during two consecutive Novembers, Riga City Council on Tuesday approved the use of a standardized municipal sigh as an acceptable form of civic feedback, replacing 14 existing complaint forms and what one report described as “several thousand passive-aggressive kitchen conversations annually.”
+
+The sigh, officially classified as Form N-7A, is described in the regulation as “a sustained exhalation of disappointment, duration between 1.8 and 4.2 seconds, optionally accompanied by a distant stare.” Beginning next month, residents will be able to submit it at customer service centers, public transport counters, district heating consultations, and, on a trial basis, at certain Maxima self-checkouts where emotional congestion remains high.
+
+According to Deputy Executive Director for Administrative Simplification Ilze Vītoliņa, the reform is aimed at reducing paperwork while honoring a deeply rooted civic tradition.
+
+“We had to admit that in many cases the resident has already communicated everything essential with one accurate sigh,” Vītoliņa told reporters, standing before a demonstration poster showing approved facial angles. “Whether the issue is a bus that says it will come in 3 minutes for 11 minutes, a bicycle lane ending in philosophical uncertainty, or a stairwell renovation that has entered its ninth symbolic phase, the emotional content is nearly identical.”
+
+The city said the new system was developed with help from linguists at the University of Latvia, acoustic engineers in Ķīpsala, and two women from Ziepniekkalns who reportedly said, “No, that one sounds too hopeful,” during calibration. Officials tested 612 sample sighs from residents aged 19 to 84 and sorted them into six recognized administrative categories: transport, housing, weather, noise, bureaucracy, and “general national atmosphere.”
+
+An audio reference file has already been uploaded to the city’s e-services portal. Residents unable to produce a sufficiently authentic sigh in person may submit a certified home recording, though the municipality warned that exaggerated theatrical sighing will trigger an additional review. “We are not trying to create incentives for opera,” said municipal quality inspector Mārtiņš Goba.
+
+Reaction across Riga was mixed but unusually immediate. Outside the Brīvības Street client center, pensioner Austra Kļaviņa, 72, said the policy was “the first realistic modernization I’ve seen.” She then demonstrated a textbook 3.6-second sigh regarding sidewalk ice, rising pharmacy prices, and her nephew’s decision to move to Tallinn “because apparently things function there.” Staff present reportedly stamped her case resolved before she finished.
+
+Younger residents were more cautious. “It’s convenient, but I worry the city will start answering with its own sigh,” said software developer Rūdis Feldmanis, 31, who commutes daily from Pļavnieki. “Then what? We escalate to a tired laugh? A long silence? This can become constitutional.”
+
+The Ministry of Smart Administration confirmed it is monitoring the Riga initiative for possible national rollout. Internal documents suggest municipalities in Jelgava and Liepāja are interested, though Jurmala has requested permission to develop a premium seaside variant “with more salt in it.”
+
+By late afternoon, city servers were briefly overloaded after 18,400 residents logged on to test the digital sigh simulator, which grades submissions on authenticity, restraint, and “historic endurance.” The highest score of the day came from an unnamed man in Teika whose submission regarding roadworks was so precise that the system automatically forwarded it to three departments, a parliamentary committee, and, by mistake, the Estonian embassy.
+
+Officials insist the reform is only the beginning. A working group has now been established to examine whether a municipal eyebrow raise could replace in-person consultations entirely by 2027.`,
+      lv: `RĪGA — Pēc trīs gadu pilotprojektā un iespējamības pētījuma, kas veikts divos secīgos novembra mēnešos, Rīgas dome otrdien apstiprināja standartizētas pašvaldības nopūtas izmantošanu kā pieņemamu pilsonisko atgriezenisko saiti, aizstājot 14 esošās sūdzību formas un to, ko viens ziņojums raksturoja kā “dažus tūkstošus pasīvi-agresīvu virtuves sarunu gadā.”
+
+Nopūta, oficiāli klasificēta kā Forma N-7A, reglamentā raksturota kā “ilgstoša izelpa, kas izsaka vilšanos, ilgums 1,8–4,2 sekundes, pēc izvēles papildināta ar tālu skatienu.” No nākamā mēneša iedzīvotāji to varēs iesniegt klientu apkalpošanas centros, sabiedriskā transporta kasēs, siltumapgādes konsultācijās un, izmēģinājuma kārtā, pie noteiktām Maxima pašapkalpošanās kasēm, kur emocionālā sastrēguma līmenis joprojām ir augsts.
+
+Pēc administratīvās vienkāršošanas izpilddirektora vietnieces Ilzes Vītoliņas teiktā, reforma vērsta uz papīra darba samazināšanu, godinot dziļi sakņotu pilsonisko tradīciju.
+
+“Jāatzīst, ka daudzos gadījumos iedzīvotājs ar vienu precīzu nopūtu jau ir pateicis visu būtisko,” Vītoliņa sacīja žurnālistiem, stāvot pie demonstrācijas plakāta, kas rāda apstiprināmos sejas leņķus. “Vai nu runa ir par autobusu, kas saka, ka būs pēc 3 minūtēm, bet pienāk pēc 11, par velosipēdu celiņu, kas beidzas filozofiskā neskaidrībā, vai par kāpņu telpas remontu, kas iekļuvis savā devītajā simboliskajā fāzē — emocionālais saturs gandrīz vienāds.”
+
+Pilsēta paziņoja, ka jauno sistēmu izstrādāja, sadarbojoties ar Latvijas Universitātes lingvistiem, akustikas inženieriem Ķīpsalā un divām Ziepniekkalna iedzīvotājām, kuras, kā ziņots, kalibrācijas laikā teikušas: “Nē, šī skan pārāk cerīgi.” Amatpersonas testēja 612 paraugnopūtas no iedzīvotājiem vecumā no 19 līdz 84 gadiem un sakārtoja tās sešās atzītās administratīvās kategorijās: transports, mājoklis, laika apstākļi, troksnis, birokrātija un “vispārējā nacionālā noskaņa.”
+
+Audio atsauces fails jau ir augšupielādēts pilsētas e-pakalpojumu portālā. Iedzīvotāji, kas nevar personīgi radīt pietiekami autentisku nopūtu, var iesniegt sertificētu mājas ierakstu, lai gan pašvaldība brīdināja, ka pārspīlēti teātrisks nopūšanas veids izraisīs papildu pārbaudi. “Mēs neveidojam stimulu operai,” sacīja pašvaldības kvalitātes inspektors Mārtiņš Goba.
+
+Reakcijas Rīgā bija dažādas, taču neparasti tūlītējas. Pie Brīvības ielas klientu centra pensionāre Austra Kļaviņa, 72, sacīja, ka politika ir “pirmā reālistiskā modernizācija, ko esmu redzējusi.” Viņa pēc tam demonstrēja tipisku 3,6 sekunžu nopūtu attiecībā uz ietvju ledu, aptieku cenu kāpumu un viņas brāļa dēla lēmumu pārcelties uz Tallinu “jo, šķiet, tur lietas funkcionē.” Klāt esošā darbinieki, kā ziņots, lietā atzīmēja „atrisināts”, pirms viņa paspēja pabeigt.
+
+Jaunie iedzīvotāji izrādījās piesardzīgāki. “Ērti, bet es uztraucos, ka pilsēta sāks atbildēt ar savu nopūtu,” sacīja programmatūras izstrādātājs Rūdis Feldmanis, 31, kurš katru dienu brauc no Pļavniekiem. “Tad kas? Mēs eskalējam uz nogurušu smieklu? Ilgu klusumu? Tas var kļūt par konstitucionālu lietu.”
+
+Viedās pārvaldes ministrija apstiprināja, ka uzrauga Rīgas iniciatīvu iespējamai nacionālai izvēršanai. Iekšējie dokumenti liecina, ka Jelgavas un Liepājas pašvaldības ir ieinteresētas, lai gan Jūrmala ir pieprasījusi atļauju izstrādāt premium piejūras variantu “ar vairāk sāls.”
+
+Vēlā pēcpusdienā pilsētas serveri īslaicīgi tika pārslogoti pēc tam, kad 18 400 iedzīvotāju pieslēdzās, lai pārbaudītu digitālo nopūtas simulatoru, kas vērtē iesniegumus pēc autentiskuma, atturības un “vēsturiskās noturības.” Augstāko dienas rezultātu sasniedza kāds nenosaukts vīrietis no Teikas, kura iesniegums par ceļu remontu bija tik precīzs, ka sistēma to automātiski nosūtīja trim departamentiem, parlamentārās komisijai un, nejauši, Igaunijas vēstniecībai.
+
+Amatpersonas uzsver, ka reforma ir tikai sākums. Ir izveidota darba grupa, lai izpētītu, vai pašvaldības uzacu pacelšana varētu pilnībā aizstāt klātienes konsultācijas līdz 2027. gadam.`,
+      ru: `РИГА — После трехлетнего пилотного проекта и технико-экономического исследования, проведённого в течение двух подряд ноябрей, Рижская городская дума во вторник одобрила использование стандартизированного муниципального вздоха как приемлемой формы гражданской обратной связи, заменив 14 существующих форм жалоб и то, что один отчёт описал как «несколько тысяч пассивно-агрессивных кухонных разговоров в год». 
+
+Вздох, официально классифицированный как Форма N-7A, в регламенте описывается как «продолжительный выдох разочарования длительностью от 1,8 до 4,2 секунды, необязательно сопровождающийся взглядом в никуда». Начиная со следующего месяца жители смогут подавать его в центрах обслуживания клиентов, на стойках общественного транспорта, при консультациях по отоплению районов и, в пилотном режиме, на некоторых самообслуживающих кассах сети Максима, где уровень эмоциональной загруженности остаётся высоким. 
+
+По словам заместителя исполнительного директора по административному упрощению Илзе Витолини, реформа направлена на сокращение бумажной волокиты при уважении глубоко укоренившейся гражданской традиции. 
+
+«Пришлось признать, что во многих случаях житель уже сказал всё существенное одним точным вздохом», — заявила Витолиня репортёрам, стоя перед демонстрационным плакатом с одобренными углами наклона лица. «Будь то автобус, который обещает приехать через 3 минуты, а едет 11, велодорожка, кончающаяся в философской неопределённости, или ремонт лестничной клетки, вступивший в свою девятую символическую фазу — эмоциональное содержание почти идентично». 
+
+Город сообщил, что новую систему разрабатывали при участии лингвистов Латвийского университета, акустических инженеров на Кипсале и двух женщин из Зиепниеккалнса, которые, по свидетельствам, в процессе калибровки сказали: «Нет, этот звучит слишком обнадёживающе». Чиновники протестировали 612 образцов вздохов от жителей в возрасте от 19 до 84 лет и распределили их по шести признанным административным категориям: транспорт, жильё, погода, шум, бюрократия и «общая национальная атмосфера». 
+
+Аудиоэталон уже загружен на городской портал электронных услуг. Жители, не сумевшие лично произвести достаточно аутентичный вздох, могут прислать сертифицированную домашнюю запись, хотя муниципалитет предупредил, что преувеличенные театральные вздохи приведут к дополнительной проверке. «Мы не пытаемся создавать стимулы для оперы», — сказал муниципальный инспектор качества Мартиньш Гоба. 
+
+Реакция по всей Риге была смешанной, но необычайно оперативной. У клиентского центра на улице Бривибас пенсионерка Аустра Клявина, 72 года, заявила, что политика — «первая реалистичная модернизация, которую я видела». Затем она продемонстрировала образцовый 3,6‑секундный вздох по поводу льда на тротуарах, роста цен в аптеках и решения её племянника перебраться в Таллин «потому что там, видимо, всё работает». Присутствующие сотрудники, по сообщениям, отметили её обращение как решённое ещё до того, как она закончила. 
+
+Молодые жители отнеслись осторожнее. «Удобно, но меня беспокоит, что город начнёт отвечать своим собственным вздохом», — сказал 31‑летний разработчик программного обеспечения Рудис Фельдманис, который ежедневно ездит из Пльавниеки. «А что тогда? Эскалируем до утомлённого хихиканья? Длинного молчания? Это может стать конституционным вопросом». 
+
+Министерство умного управления подтвердило, что следит за рижской инициативой в целях возможного внедрения на национальном уровне. Внутренние документы свидетельствуют о заинтересованности муниципалитетов Елгавы и Лиепаи, хотя Юрмала запросила разрешение разработать премиальный прибрежный вариант «с большим количеством соли». 
+
+К вечеру серверы города на время перегрузились после того, как 18 400 жителей вошли в систему, чтобы протестировать цифровой симулятор вздоха, который оценивает заявки по аутентичности, сдержанности и «исторической выносливости». Высший балл дня набрал некий мужчина из Тейки: его запись по поводу дорожных работ оказалась настолько точной, что система автоматически переадресовала её в три ведомства, парламентский комитет и, по ошибке, в посольство Эстонии. 
+
+Чиновники настаивают, что реформа — только начало. Создана рабочая группа для изучения возможности того, чтобы муниципальное поднятие брови полностью заменило личные консультации к 2027 году.`
+    },
+    date: "Sep 2, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/263/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 262,
     slug: "riga-introduces-silence-tax-after-residents-262",
     title: {
@@ -114,7 +201,7 @@ Kamēr debates turpinās, transporta lietotāji jau sākuši pielāgoties. Daži
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/262/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 261,
