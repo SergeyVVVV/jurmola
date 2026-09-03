@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 264,
+    slug: "riga-introduces-official-silence-hours-so-264",
+    title: {
+      en: "Riga Introduces Official Silence Hours So Residents Can Better Hear Their Own Disappointment",
+      lv: "Rīga ievieš oficiālās klusuma stundas, lai iedzīvotāji labāk sadzirdētu savu vilšanos",
+      ru: "Рига вводит официальные часы тишины, чтобы жители лучше слышали собственное разочарование"
+    },
+    excerpt: {
+      en: "In a pilot program launched Monday, Riga Municipality has designated two daily \"Official Silence Hours\" during which all construction, scooters, leaf blowers, and unnecessarily optimistic conversation must cease. City leaders say the initiative will help residents reconnect with the capital’s historic soundscape of tram rattles, distant gulls, and private regret.",
+      lv: "Pilotprogrammas pirmajā dienā, pirmdien, Rīgas pašvaldība noteica divas ikdienas „Oficiālās klusuma stundas”, kuru laikā jābeidz viss būvdarbu troksnis, skūteru žviegšana, lapu pūtēji un nevajadzīgi optimistiskas sarunas. Pilsētas vadība apgalvo, ka iniciatīva palīdzēs iedzīvotājiem atkal savienoties ar galvaspilsētas vēsturisko skaņu ainavu — tramvaja klabošanu, tālām kaijām un personīgo nožēlu.",
+      ru: "В пилотной программе, запущенной в понедельник, муниципалитет Риги установил два ежедневных «официальных часа тишины», во время которых должны прекратиться все стройки, самокаты, воздуходувки и неоправданно оптимистичные разговоры. Городские власти говорят, что инициатива поможет жителям заново почувствовать исторический звуковой пейзаж столицы — треск трамваев, далекие чайки и частное сожаление."
+    },
+    fullContent: {
+      en: `RIGA — In what officials are calling a major step toward sustainable urban living, the Riga City Council this week approved a new municipal ordinance establishing two daily Official Silence Hours, from 13:00 to 14:00 and again from 19:30 to 20:00, during which residents are encouraged to stop making noise and, where possible, quietly confront the choices that led them to remain in group chats.
+
+The measure, formally titled the Acoustic Heritage Preservation and Emotional Calibration Initiative, passed by a vote of 34–19 after three hours of debate and one seven-minute pause to determine whether the council chamber’s microphone feedback constituted culture.
+
+Deputy Mayor for Environmental Ambience Ilze Krauja said the policy is intended to preserve the authentic auditory identity of Riga, which she described as “a fragile ecosystem composed of trolley hum, muted resentment, and one man somewhere dragging glass into a recycling bin at 6:12 a.m.”
+
+“For too long, residents have been exposed to imported noise,” Krauja said at a press conference held beside a construction site that was briefly asked to lower its excavator “out of respect.” “Bluetooth speakers on public transport, aggressive cafe furniture deployment, electric scooter shrieking — these are not native sounds. We want to bring people back to the acoustic Riga their grandparents knew: radiators clicking, crows negotiating over bread, and neighbors vacuuming with moral superiority.”
+
+Under the new rules, delivery drivers must coast the final 20 meters to their destination, dogs may bark only in “measured intervals,” and apartment renovations are prohibited unless the resident can prove the drilling is spiritually necessary. The city has also published a 46-page guidance booklet instructing citizens on approved quiet activities, including window-staring, internal complaint drafting, beet marination, and saying “interesting” in a way that ends a conversation.
+
+Municipal data suggests strong public support. In a survey of 1,200 residents conducted by SKDS and later corrected after one respondent turned out to be a decorative pillow in Āgenskalns, 68% said the city was “too loud,” 21% said “it depends which courtyard,” and 8% asked whether silence would affect parking. The remaining 3% were from Jurmala and requested exemption on account of seagulls “acting above the law.”
+
+Not all residents are convinced. Artis Dreimanis, 42, owner of a barbershop in Purvciems, said the policy unfairly targets small businesses. “They told me my radio, my clippers, and my apprentice’s constant sighing all count as nonessential noise,” Dreimanis said. “What’s next? Silent haircuts? I’m Latvian, not Swiss.”
+
+Others welcomed the change. Retired literature teacher Maija Ozoliņa said the evening silence period had already improved relations in her building. “Yesterday nobody slammed a door for 28 consecutive minutes,” she said. “I could hear the Daugava, or perhaps my blood pressure. Either way, it was civic.”
+
+To enforce the ordinance, the city has deployed 18 newly trained Acoustic Inspectors equipped with decibel meters, sensible footwear, and authority to issue warnings for “excessive conversational buoyancy.” Repeat offenders may be sentenced to a municipal reflection seminar in Mežaparks, where participants sit on damp benches and listen to a recording of someone explaining why Tallinn feels more organized.
+
+Business groups have requested clarification on whether political speeches will be subject to the silence rules. A council spokesperson confirmed they would not, because “historically, residents have stopped hearing those years ago.”
+
+Officials say the pilot will continue through November, after which it may be expanded if measurable benefits are found. Early indicators are promising: tram operators report passengers looking out windows at a 14% higher rate, pharmacies have observed a spike in chamomile purchases, and one man in Ziepniekkalns admitted he could finally hear his refrigerator making “that honest sound.”
+
+As the first full week of Silence Hours began, a strange calm settled over parts of the capital. Somewhere in the center, a pigeon landed on an empty terrace chair and appeared briefly to consider a better life. For many residents, city leaders said, that was precisely the point.`,
+      lv: `RĪGA — To, ko amatpersonas sauc par nozīmīgu soli pretim ilgtspējīgai pilsētas dzīvei, šonedēļ Rīgas dome apstiprināja jaunu pašvaldības rīkojumu, ar kuru tiek noteiktas divas ikdienas Oficiālās klusuma stundas — no pulksten 13:00 līdz 14:00 un atkal no 19:30 līdz 20:00 — kuru laikā iedzīvotāji tiek aicināti pārtraukt radīt troksni un, ja iespējams, klusi konfrontēt izvēles, kas viņus ir novedušas pie palikšanas grupu čatos.
+
+Šo pasākumu, oficiāli nosaukto par „Akustiskā mantojuma saglabāšanas un emocionālās kalibrācijas iniciatīvu”, pieņēma ar 34–19 balsīm pēc trim stundām debatēm un vienas septiņu minūšu pauzes, lai noskaidrotu, vai domes zāles mikrofona atgriezeniskā skaņa ir kultūra.
+
+Vides noskaņas jautājumu vicemēre Ilze Krauja sacīja, ka politika ir domāta Rīgas autentiskās dzirdes identitātes saglabāšanai, kuru viņa raksturoja kā „maigs ekosistēmu, ko veido trolejbusa dungoņa, klusējošs neapmierinājums un kāds vīrietis kaut kur velk stiklu uz pārstrādes konteineru pulksten 6:12 no rīta.”
+
+„Pārāk ilgi iedzīvotāji ir bijuši pakļauti ievestam troksnim,” Krauja sacīja preses konferencē blakus būvlaukumam, kuram uz neilgu brīdi lūdza nolaist ekskavatoru „no cieņas”. „Bluetooth skaļruņi sabiedriskajā transportā, agresīva kafejnīcu mēbeļu izvietošana, elektrisko skūteru žviegšana — tās nav vietējās skaņas. Mēs vēlamies atgriezt cilvēkus pie akustiskās Rīgas, ko pazina viņu vecāki: radiatoru klikšķēšana, vārnu pārrunas par maizi un kaimiņi, kas putekļsūc ar morālu pārliecību.”
+
+Saskaņā ar jaunajiem noteikumiem piegādes vadītājiem pēdējos 20 metros jāripo līdz galamērķim, suņiem drīkst riekt tikai „mērītos intervālos”, un dzīvokļu remonti ir aizliegti, ja vien iedzīvotājs nevar pierādīt, ka urbšana ir garīgi nepieciešama. Pilsēta arī publicējusi 46 lappušu ceļvedi, kas iedzīvotājiem skaidro atļautās klusās nodarbes, tostarp skatīšanos logā, iekšējo sūdzību sastādīšanu, biešu marinēšanu un vārda „interesanti” lietošanu tādā tonī, kas noslēdz sarunu.
+
+Pašvaldības dati liecina par spēcīgu sabiedrisko atbalstu. SKDS veiktajā 1 200 iedzīvotāju aptaujā — vēlāk koriģētā, kad izrādījās, ka viens respondents ir dekoratīvs spilvens Āgenskalnā — 68% sacīja, ka pilsēta ir „pārāk skaļa”, 21% atbildēja „atkarīgs no tā, kurš pagalms”, bet 8% vaicāja, vai klusums ietekmēs autostāvvietas. Pārējie 3% bija no Jūrmala un lūdza atbrīvojumu, jo kaijas „uzvedas augstāk par likumu”.
+
+Ne visi iedzīvotāji ir pārliecināti. 42 gadus vecais friziera darbnīcas Purvciemā īpašnieks Artis Dreimanis sacīja, ka politika netaisnīgi ietekmē mazos uzņēmumus. „Viņi man teica, ka mans radio, manu matu mašīnīšu troksnis un mana mācekļa pastāvīgā nopūta — tas viss tiek uzskatīts par nevajadzīgu troksni,” Dreimanis sacīja. „Kas nākamais? Klusie frizieri? Es esmu latvietis, nevis šveicietis.”
+
+Citi sveica izmaiņas. Pensionēta literatūras skolotāja Maija Ozoliņa teica, ka vakara klusuma periods jau uzlabojis attiecības viņas mājā. „Vakar neviens 28 minūtes pēc kārtas netrieca durvis,” viņa sacīja. „Es varēju dzirdēt Daugavu, vai varbūt savu asinsspiedienu. Abos gadījumos tas bija pilsoniski.”
+
+Lai piemērotu rīkojumu, pilsēta izvietojusi 18 nesen apmācītus Akustiskos inspektorus, aprīkotus ar decibelmetriem, saprātīgiem apaviem un pilnvarām izsniegt brīdinājumus par „pārāk lielu sarunu pacilātību”. Atkārtoti pārkāpēji var tikt nosūtīti uz pašvaldības refleksijas semināru Mežaparkā, kur dalībnieki sēž uz mitriem soliņiem un klausās ierakstu, kurā kāds skaidro, kāpēc Tallina šķiet organizētāka.
+
+Biznesa grupas lūdza precizēt, vai klusuma noteikumi attieksies arī uz politiskajiem runām. Domes pārstāvis apstiprināja, ka nē, jo „vēsturiski iedzīvotāji tos pārstāja dzirdēt jau pirms gadiem.”
+
+Amatpersonas saka, ka pilots turpināsies līdz novembrim, pēc kura to var paplašināt, ja tiks konstatēti izmērāmi ieguvumi. Agrīnie rādītāji ir iepriecinoši: tramvaju vadītāji ziņo, ka pasažieri logus skatās par 14% biežāk, aptiekas redz kumelīšu pirkumu pieaugumu, un kāds vīrietis Ziepniekkalnā atzinis, ka beidzot var dzirdēt savu ledusskapi, kas izdod „to godīgo skaņu”.
+
+Kad sākās klusuma stundu pilnā pirmā nedēļa, daļā galvaspilsētas valda dīvaina mierīguma sajūta. Kaut kur centrā balodis apsēdās uz tukša terases krēsla un uz brīdi šķita, ka apsver labāku dzīvi. Daudziem iedzīvotājiem, sacīja pilsētas vadība, tieši tas arī bija mērķis.`,
+      ru: `РИГА — В том, что чиновники называют крупным шагом к устойчивой городской жизни, Рижская дума на этой неделе утвердила новый муниципальный регламент, устанавливающий два ежедневных Официальных Часа Тишины: с 13:00 до 14:00 и снова с 19:30 до 20:00, в которые жителям предлагается прекратить издавать шум и, где возможно, тихо столкнуться с выбором, из‑за которого они остались в групповых чатах.
+
+Мера, официально названная «Инициатива по сохранению акустического наследия и эмоциональной калибровке», прошла голосование 34–19 после трёх часов дебатов и одной семиминутной паузы на выяснение, является ли акустическая отдача микрофонов культурой.
+
+Заммэра по экологической атмосфере Илзе Крауя сказала, что политика призвана сохранить аутентичную слуховую идентичность Риги, которую она описала как «хрупкую экосистему, состоящую из гудения троллейбуса, приглушённой обиды и одного человека где‑то, в 6:12 утра, тащающего стекло к контейнеру для вторсырья». 
+
+«Слишком долго жители подвергались импортному шуму», — заявила Крауя на пресс‑конференции возле строительной площадки, которой на короткое время вежливо попросили приглушить экскаватор «из соображений уважения». — «Блютуз‑колонки в общественном транспорте, агрессивное размещение кафе‑мебели, визг электрических самокатов — это ненативные звуки. Мы хотим вернуть людям акустическую Ригу, которую знали их бабушки и дедушки: щёлканье радиаторов, вороны, торгующиеся из‑за хлеба, и соседи, пылесосящие с моральным превосходством». 
+
+По новым правилам курьеры должны подкатываться последние 20 метров до пункта назначения, собакам разрешается лаять только в «измеренных интервалах», а ремонт в квартирах запрещён, если жилец не сможет доказать, что сверление духовно необходимо. Город также выпустил 46‑страничную памятку с указаниями по одобренным тихим занятиям, включая созерцание в окно, составление внутренних жалоб, маринование свёклы и произнесение «интересно» таким образом, чтобы разговор на этом закрывался.
+
+Муниципальные данные свидетельствуют о широкой поддержке населения. В опросе 1 200 жителей, проведённом SKDS и затем скорректированном после того, как один респондент оказался декоративной подушкой в Āgenskalns, 68% заявили, что город «слишком шумный», 21% сказали «зависит от двора», 8% поинтересовались, повлияет ли тишина на парковку. Оставшиеся 3% — из Юрмалы — потребовали исключения, сославшись на чайок, «стоящих над законом».
+
+Не все жители убеждены. Артис Дрейманис, 42 года, владелец парикмахерской в Пурвциемсе, сказал, что политика несправедливо бьёт по малому бизнесу. «Мне сказали, что моё радио, мои машинки для стрижки и постоянное вздыхание моего ученика — всё это считается несущественным шумом», — сказал Дрейманис. — «Что дальше? Бесшумные стрижки? Я латвиец, а не швейцарец». 
+
+Другие тепло приняли перемены. Пенсионерка, учитель литературы Майя Озолиня, сказала, что вечерний период тишины уже улучшил отношения в её доме. «Вчера никто не хлопал дверью целых 28 минут подряд», — сказала она. — «Я могла слышать Даугаву, а может, и своё кровяное давление. В любом случае — это было гражданственно». 
+
+Для исполнения постановления город развернул 18 недавно обученных Акустических Инспекторов, оснащённых шумомерами, здравой обувью и правом выдавать предписания за «чрезмерную разговорную плавучесть». Повторные нарушители могут быть приговорены к муниципальному семинару для рефлексии в Межапарксе, где участники сидят на влажных скамьях и слушают запись, в которой кто‑то объясняет, почему Таллинн кажется более организованным.
+
+Деловые объединения запросили разъяснение, будут ли молчаливые правила распространяться на политические выступления. Пресс‑секретарь думы подтвердил, что нет — «потому что исторически жители перестали их слышать уже много лет назад». 
+
+Чиновники говорят, что пилот продлится до ноября, после чего его при необходимости могут расширить, если будут обнаружены измеримые преимущества. Первичные показатели обнадеживают: машинисты трамваев сообщают, что пассажиры стали смотреть в окна на 14% чаще, в аптеках зафиксирован всплеск покупок ромашки, а один мужчина в Зиепниеккалнсе признался, что наконец услышал, как его холодильник издаёт «тот честный звук». 
+
+Когда началась первая полноценная неделя Часов Тишины, над частями столицы воцарилось странное спокойствие. Где‑то в центре голубь приземлился на пустой стул на террасе и ненадолго задумался о лучшей жизни. Для многих жителей, сказали городские власти, в этом и был смысл.`
+    },
+    date: "Sep 3, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/264/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 263,
     slug: "riga-introduces-official-municipal-sigh-to-263",
     title: {
@@ -102,7 +195,7 @@ Amatpersonas uzsver, ka reforma ir tikai sākums. Ir izveidota darba grupa, lai 
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/263/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 262,
