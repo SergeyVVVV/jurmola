@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 265,
+    slug: "jrmala-residents-file-312-complaints-after",
+    title: {
+      en: "Jūrmala Residents File 312 Complaints After Sea Breeze Arrives 11 Minutes Earlier Than Scheduled",
+      lv: "Jūrmalas iedzīvotāji iesniedz 312 sūdzības pēc tam, kad jūras brīze ieradusies par 11 minūtēm agrāk nekā paredzēts",
+      ru: "Жители Юрмалы подали 312 жалоб после того, как морской бриз пришёл на 11 минут раньше, чем по расписанию"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala confirmed Tuesday that the town’s coastal air current reached several neighborhoods noticeably ahead of its expected arrival, prompting confusion, outrage, and a temporary spike in cardigan deployment. Authorities have opened an inquiry into whether the breeze was acting independently or under orders from Riga.",
+      lv: "Jūrmalas pašvaldības amatpersonas otrdien apstiprināja, ka pilsētas piekrastes gaisa plūsma sasniedza vairākus kvartālus ievērojami pirms gaidāmā ierašanās laika, izraisot neskaidrības, sašutumu un pagaidu džemperu izmantošanas pieaugumu. Varasiestādes sākušas izmeklēšanu, vai brīze darbojās patstāvīgi vai pēc Rīgas norādījumiem.",
+      ru: "Муниципальные власти Юрмалы во вторник подтвердили, что прибрежный воздушный поток города достиг нескольких neighbourhoods заметно раньше ожидаемого времени, вызвав замешательство, возмущение и временный всплеск ношения кардиганов. Власти начали расследование, действовал ли бриз самостоятельно или по указанию из Риги."
+    },
+    fullContent: {
+      en: `JŪRMALA — A normally manageable level of seaside dissatisfaction escalated this week after the daily Gulf of Riga breeze arrived in central Jūrmala at approximately 14:19, a full 11 minutes ahead of the customary 14:30 window long relied upon by pensioners, café operators, and at least one man who times his emotional instability around changes in humidity.
+
+By Tuesday evening, the Jūrmala Municipal Portal had received 312 formal complaints, 47 passive-aggressive emails, and one handwritten note simply reading, “This is not the Jūrmala I defended in 1997.” The complaints describe a range of consequences, including prematurely chilled beet soup, unauthorized movement of linen garments, and widespread uncertainty over whether it was still acceptable to sit facing the sea without a light jacket.
+
+According to the Jūrmala Department of Coastal Predictability, the breeze reached Dzintari at 14:17, Bulduri at 14:18, and Majori at 14:19, before “lingering in an unprofessional manner” near a row of outdoor cafés where several customers had not yet emotionally prepared to say, “Oh! It’s freshening up.”
+
+“We are not against wind,” said municipal spokesperson Ilze Bērziņa, standing before a laminated chart titled Seasonal Air Behavior and Community Trust. “What residents are demanding is accountability. For decades, this town has functioned on a delicate sequence: sun, mild overconfidence, coffee, then breeze. If the breeze begins freelancing, the social contract starts to fray.”
+
+Local resident and retired dentist Mārtiņš Liepiņš, 68, said he had just removed his second layer when the gust front arrived without proper notice. “I was midway through a strategic unbuttoning,” Liepiņš said. “My torso had already committed to one climate, and then suddenly the municipality expects me to negotiate another? This is how regions decline.”
+
+At issue, experts say, is not merely timing but trust. A preliminary report from the Latvian Centre for Atmospheric Discipline found that Tuesday’s sea breeze was moving at 14.6 kilometers per hour, nearly 9% faster than the seasonal norm and carrying what one analyst described as “a distinctly self-important attitude.” Though no criminal charges have been filed, the report does not rule out interference from inland heating patterns, offshore pressure fluctuations, or “certain elements in Riga who enjoy seeing Jūrmala uncomfortable.”
+
+Riga University microclimate researcher Dr. Evija Skuja urged calm, noting that coastal systems can vary due to temperature gradients, urban surfaces, and the emotional volatility of the Baltic in August. “People hear ‘weather event’ and immediately assume sabotage,” Skuja said. “Sometimes a breeze is just a breeze. Other times, yes, it appears to arrive with intent. We are still studying this distinction.”
+
+Businesses across the resort town reported disruptions. At Café Amber Foam in Majori, owner Renāte Ozola said wind-sensitive customers abandoned three half-finished Aperol spritzes and one full conversation about property taxes. “We lost nearly €86 in projected terrace confidence,” Ozola said. “One woman looked at her napkin fluttering and whispered, ‘It has begun.’ Then everyone ordered tea, which is not our brand identity.”
+
+In response, city council convened an emergency session Tuesday night and approved a €42,000 pilot program to improve public readiness. Measures include a new amber alert-style notification system called BreezeWatch, marked benches indicating recommended shawl usage, and a volunteer corps of municipal interns who will walk the beach ringing small bells 15 minutes before any significant atmospheric mood shift.
+
+Opposition councilor Aivars Grunte criticized the plan as inadequate. “This administration keeps reacting after the wind has already happened,” he said. “Where is the investment in breeze resilience? Where is the strategic scarf reserve?”
+
+As investigators continue reviewing CCTV footage of flapping awnings and startled sunbathers, officials have urged residents not to spread unverified rumors that the sea is becoming “more Nordic than before.” By Wednesday morning, however, calm had largely returned to the coastline, with locals once again settling into their usual routine of watching the horizon suspiciously and insisting that twenty years ago, air knew how to behave.`,
+      lv: `JŪRMALA — Parasti kontrolējams piejūras neapmierinātības līmenis šonedēļ eskalējās pēc tam, kad ikdienas Rīgas līča brīze ieradās Jūrmalas centrā apmēram plkst. 14:19, pilnas 11 minūtes agrāk par ierasto 14:30 logu, uz kuru pensionāri, kafejnīcu īpašnieki un vismaz viens vīrietis, kurš sinhronizē savu emocionālo nestabilitāti ar mitruma svārstībām, paļāvās gadu desmitiem.
+
+Līdz otrdienas vakaram Jūrmalas pašvaldības portāls bija saņēmis 312 formālas sūdzības, 47 pasīvi‑agresīvus e‑pastus un vienu ar roku rakstītu zīmīti, kurā vienkārši bija rakstīts: "Šī nav tā Jūrmala, ko es aizstāvēju 1997. gadā." Sūdzībās aprakstīti dažādi sekas scenāriji, tostarp par ātrāk atdzisušu bietes zupu, neatļautu līņu apģērbu pārvietošanu un plašu nenoteiktību par to, vai joprojām ir pieņemami sēdēt ar skatu uz jūru bez vieglas jakas.
+
+Pēc Jūrmalas Piekrastes Paredzamības nodaļas datiem brīze sasniedza Dzintarus plkst. 14:17, Buldurus plkst. 14:18 un Majorus plkst. 14:19, pirms "kavējās neprofesionālā veidā" pie viena terases kafejnīcu rindas, kur vairāki klienti vēl nebija emocionāli sagatavoti pateikt: "Ak! Piestiprinās." 
+
+"Mēs neesam pret vēju," sacīja pašvaldības pārstāve Ilze Bērziņa, stāvot pie laminēta grafika ar nosaukumu "Sezonālā gaisa uzvedība un sabiedrības uzticība." "To, ko iedzīvotāji pieprasa, ir atbildība. Desmitiem gadu šī pilsēta balstījās uz smalku secību: saule, viegla pārliecība, kafija, tad brīze. Ja brīze sāks darboties patstāvīgi, sociālais līgums sāk sarauties."
+
+Vietējais iedzīvotājs un pensionēts zobārsts Mārtiņš Liepiņš (68) sacīja, ka tikko bija novilcis otro slāni, kad brāzma pienāca bez pienācīgas brīdināšanas. "Bijām pusceļā starp stratēģisku atpogāšanos," teica Liepiņš. "Mans tors jau bija apņēmies par vienu klimatu, un tad pēkšņi pašvaldība gaida, ka es vienošu citu? Tā reģioni iet bojā."
+
+Eksperti gan norāda, ka jautājums nav tikai par laiku, bet arī par uzticēšanos. Pirmais ziņojums no Latvijas Atmosfēras Disciplīnas centra konstatēja, ka otrdienas jūras brīze kustējās ar ātrumu 14,6 kilometri stundā, gandrīz par 9% ātrāk nekā sezonālā norma, un tānī nesusi to, ko viens analītiķis raksturoja kā "acīmredzamu pašsvarīguma piegaršu." Lai gan krimināllietas nav sāktas, ziņojums neizslēdz iejaukšanos no iekšzemes apkures modeļiem, jūras spiediena svārstībām vai "noteiktiem elementiem Rīgā, kuriem patīk redzēt Jūrmalu neērti."
+
+Rīgas Universitātes mikroklimata pētniece Dr. Evija Skuja aicināja saglabāt mieru, norādot, ka piekrastes sistēmas var svārstīties temperatūras gradientu, pilsētas virsmu un Baltijas emocionālās svārstīguma augustā dēļ. "Cilvēki dzird vārdu 'laika notikums' un uzreiz pieņem sabotažu," sacīja Skuja. "Reizēm brīze ir tikai brīze. Citreiz, jā, šķiet, ka tā ierodas ar nodomu. Mēs vēl pētām šo atšķirību."
+
+Uzņēmēji visā kūrortpilsētā ziņoja par traucējumiem. Kafejnīcā "Dzintara Putas" Majoros īpašniece Renāte Ozola teica, ka vējam jutīgie klienti pameta trīs pusizdzertas Aperol Spritz glāzes un vienu pilnu sarunu par nekustamā īpašuma nodokļiem. "Mēs zaudējām gandrīz 86 eiro prognozētajā terases pārliecībā," sacīja Ozola. "Viena sieviete paskatījās uz savas salvetes plivināšanos un čukstēja: 'Tas ir sācies.' Tad visi pasūtīja tēju, kas nav mūsu zīmola identitāte."
+
+Kā atbilde pašvaldības dome otrdienas vakarā sasauca ārkārtas sēdi un apstiprināja 42 000 eiro pilotprogrammu sabiedriskās gatavības uzlabošanai. Pasākumi ietver dzeltenā brīdinājuma tipa paziņošanas sistēmu ar nosaukumu BreezeWatch, marķētus soliņus, kas norāda ieteicamo lakatu/šaļļu lietošanu, un brīvprātīgo pulku no pašvaldības praktikantiem, kuri 15 minūtes pirms jebkuras nozīmīgas atmosfēras noskaņas maiņas staigās pa pludmali, skandējot nelielus zvaniņus.
+
+Oppozīcijas domes deputāts Aivars Grunte plānu kritizēja kā nepietiekamu. "Šī administrācija turpina reaģēt tikai pēc tam, kad vējš jau ir noticis," viņš teica. "Kur ir investīcijas brīzes noturības paaugstināšanā? Kur ir stratēģiskā šaļu rezerve?"
+
+Kamēr izmeklētāji turpina pārskatīt novērošanas kameru ierakstus ar plivinājošām markīzēm un izbiedētiem sauļotājiem, amatpersonas aicinājušas iedzīvotājus neizplatīt neapstiprinātas baumas, ka jūra kļūst "vairāk ziemeļiska nekā agrāk." Trešdienas rītā tomēr piekrastē lielākoties atgriezās miers, vietējie atkal iegrima savā ierastajā rutīnā — aizdomīgi vērot horizontu un pārliecināti apgalvot, ka pirms divdesmit gadiem gaiss zināja, kā uzvesties.`,
+      ru: `ЮРМАЛА — Обычный управляемый уровень морского недовольства на этой неделе обострился после того, как ежедневный бриз с залива Риги пришёл в центр Юрмалы примерно в 14:19 — целых 11 минут раньше привычного окна в 14:30, на которое годами ориентировались пенсионеры, владельцы кафе и по крайней мере один мужчина, подстраивавший свою эмоциональную нестабильность под изменения влажности.
+
+К вечеру вторника муниципальный портал Юрмалы получил 312 официальных жалоб, 47 пассивно‑агрессивных писем по электронной почте и одну рукописную записку, просто гласящую: «Это не та Юрмала, которую я защищал в 1997 году». В жалобах описываются разные последствия: преждевременно охладившийся свекольник, несанкционированное движение льняных вещей и повсеместная неуверенность в том, можно ли ещё сидеть лицом к морю без лёгкой куртки.
+
+По данным Отдела прибрежного прогнозирования Юрмалы, бриз добрался до Дзинтари в 14:17, до Булдури — в 14:18, и до Майори — в 14:19, прежде чем «непрофессионально задержаться» у ряда уличных кафе, где несколько посетителей ещё не были морально готовы произнести: «Ох! Освежило». 
+
+«Мы не против ветра», — сказала муниципальный пресс‑секретарь Илзе Берзиня, стоя перед ламинированной схемой под заголовком «Сезонное поведение воздуха и общественное доверие». «То, чего требуют жители, — это подотчётность. Десятилетиями этот город работал по тонкой последовательности: солнце, лёгкое самоуверенность, кофе, затем бриз. Если бриз начинает работать сам по себе, общественный договор начинает рваться». 
+
+Местный житель и пенсионер‑стоматолог Мартиньш Лиепинш, 68 лет, рассказал, что он только что снял второй слой одежды, когда фронт порывов пришёл без должного уведомления. «Я был в разгаре стратегического расстёгивания», — сказал Лиепинш. «Мой торс уже принял одну климатическую позицию, а тут муниципалитет вдруг ожидает, что я буду договариваться о другой? Именно так регионы и приходят в упадок». 
+
+По мнению экспертов, на кону — не только время, но и доверие. Предварительный доклад Латвийского центра атмосферной дисциплины отмечает, что вторничный морской бриз двигался со скоростью 14,6 км/ч, почти на 9% быстрее сезонной нормы и нес, по словам одного аналитика, «отчётливо самодовольное отношение». Хотя уголовных обвинений не выдвигалось, в докладе не исключается вмешательство внутренних распределений тепла, колебаний давления у побережья или «некоторых элементов в Риге, которым нравится видеть Юрмалу не в своей тарелке». 
+
+Исследователь микроклимата Рижского университета доктор Эвия Скуя призвала к спокойствию, отметив, что прибрежные системы могут варьироваться из‑за температурных градиентов, городских поверхностей и эмоциональной нестабильности Балтики в августе. «Люди слышат „метео‑событие“ и сразу предполагают саботаж», — сказала Скуя. «Иногда бриз просто бриз. В другие разы, да, кажется, что он приходит с умыслом. Мы всё ещё изучаем это различие». 
+
+Предприятия по всему курортному городу сообщили о сбоях. В кафе «Amber Foam» в Майори владелица Ренате Озола рассказала, что чувствительные к ветру посетители оставили три недопитых апероль‑спритца и один полноценный разговор о налогах на недвижимость. «Мы потеряли почти 86 € в прогнозируемой уверенности террасы», — сказала Озола. «Одна женщина посмотрела на развевающуюся салфетку и прошептала: „Началось“. Потом все заказали чай, что не входит в наш бренд‑профиль». 
+
+В ответ городской совет во вторник вечером созвал чрезвычайное заседание и одобрил пилотную программу стоимостью 42 000 €, направленную на повышение готовности населения. Меры включают новую систему оповещения в стиле «янтарного алерта» под названием BreezeWatch, скамейки с маркировкой, указывающей на рекомендуемое использование шали, и добровольный корпус муниципальных стажёров, который будет ходить по пляжу, звеня маленькими колокольчиками за 15 минут до любого значимого атмосферного переменчивого настроения. 
+
+Оппозиционный советник Айварс Грунте раскритиковал план как недостаточный. «Эта администрация продолжает действовать уже после того, как ветер случился», — сказал он. «Где инвестиции в устойчивость к бризу? Где стратегический запас шарфов?» 
+
+Пока следователи продолжают просматривать записи с камер наблюдения, запечатлевшие развевающиеся маркизы и поражённых отдыхающих, чиновники призвали жителей не распространять непроверённые слухи о том, что море становится «более северным, чем раньше». К утру среды, однако, спокойствие в основном вернулось на побережье, и местные вновь устроились в привычный ритуал: подозрительно смотреть на горизонт и настаивать, что двадцать лет назад воздух умел себя вести.`
+    },
+    date: "Sep 4, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/265/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 264,
     slug: "riga-introduces-official-silence-hours-so-264",
     title: {
@@ -108,7 +195,7 @@ Kad sākās klusuma stundu pilnā pirmā nedēļa, daļā galvaspilsētas valda 
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/264/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 263,
