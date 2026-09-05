@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 266,
+    slug: "jrmala-introduces-quiet-siren-to-warn-266",
+    title: {
+      en: "Jūrmala Introduces ‘Quiet Siren’ To Warn Residents Of Approaching Summer Tourists Without Disturbing Pine Trees",
+      lv: "Jūrmala ievieš 'klusās sirēnas', lai brīdinātu iedzīvotājus par tuvojošos vasaras tūristiem, netraucējot priedēm",
+      ru: "Юрмала представляет «тихую сирену», чтобы предупреждать жителей о приближении летних туристов, не тревожа сосны"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala on Tuesday unveiled a new silent emergency alert system designed to inform residents when incoming waves of summer tourists have been detected near the city limits. Authorities say the ‘quiet siren’ will preserve the resort town’s fragile atmosphere while giving locals enough time to hide their parking spaces and emotionally prepare for increased linen-related conversations.",
+      lv: "Jūrmalas pašvaldības amatpersonas otrdien atklāja jaunu klusu ārkārtas brīdinājumu sistēmu, kas paredzēta, lai informētu iedzīvotājus, kad pie pilsētas robežām konstatētas ieplūdes vasaras tūristu viļņi. Pārvalde apgalvo, ka 'klusā sirēna' saglabās kūrorta pilsētas trauslo atmosfēru, vienlaikus dodot vietējiem pietiekami laika paslēpt autostāvvietas un emocionāli sagatavoties pastiprinātām sarunām par linu.",
+      ru: "Муниципальные власти Юрмалы во вторник представили новую бесшумную систему экстренного оповещения, предназначенную для информирования жителей о том, что у границ города замечены наступающие волны летних туристов. По словам властей, «тихая сирена» сохранит хрупкую атмосферу курортного города и даст местным достаточно времени, чтобы спрятать свои парковочные места и морально подготовиться к усилению разговоров о льняных вещах."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what local leaders are calling a breakthrough in coastal preparedness, the Jūrmala City Council has officially launched the Baltic region’s first ‘quiet siren,’ a public warning system that alerts residents to incoming tourist density through subtle vibrations, municipal eyebrow movements, and a faint but legally recognized feeling of disappointment.
+
+The system, developed over three years by the Jūrmala Department of Seasonal Stability, is intended to replace the older alarm model, which officials say caused unnecessary distress among seagulls and once made a terrier from Bulduri run directly into Lithuania.
+
+‘We needed something that reflects Jūrmala’s values,’ said Deputy Mayor for Calmness Ilze Priedīte at a press conference held beside a politely expensive café terrace. ‘Loud noises are not who we are. We wanted an alert that says, “Your peace is ending,” but in a tasteful, wood-accented way.’
+
+Under the new protocol, residents who have downloaded the municipal app Dzintari Ready will receive a notification reading, ‘Movement detected,’ followed by a color-coded forecast of tourist types, including Weekend Families, Aggressive Cyclists, Spiritual Finns, and Men Who Suddenly Need Boat Shoes. Those without smartphones will be informed by a municipal employee standing silently outside their gate and looking toward Riga.
+
+According to city data, trial runs conducted over the May holiday period were 94 percent successful, with most residents correctly interpreting the warning signs and relocating to secondary cottages, kitchens, or emotional shutdown. The remaining 6 percent reportedly mistook the alert for normal seasonal dread.
+
+‘On Saturday I felt a slight pressure in the floorboards and immediately knew they were crossing the Lielupe bridge,’ said Majori resident and year-round scarf owner Guntars Vītols, 58. ‘By the time the second vibration came, I had already moved my car into a misleading patch of shrubbery and turned my face into the expression we use until September.’
+
+The city says the siren draws from multiple data points, including train ticket volumes from Riga, sunscreen purchases, sudden increases in linen pants, and the annual spike in people asking whether the beach is “walking distance from literally everything.” Sensors were also installed at key choke points, including the entrance to Jomas Street and the exact bakery where Muscovites begin saying the word “authentic” too loudly.
+
+Not everyone is convinced. Critics in nearby Riga have questioned the cost of the project, which totaled €2.8 million, though municipal accountants stressed that figure includes consulting fees, pine-tree listening workshops, and a pilot program involving a retired choir conductor trained to detect distant wellness intentions.
+
+‘This is another example of elite resort governance,’ said opposition councilman Aivars Miezītis. ‘Ordinary people don’t get a quiet siren. In Riga, when tourists arrive, we just notice someone confidently stepping into a bike lane while holding half of Old Town in a paper cup.’
+
+Still, Jūrmala officials remain optimistic. Early response metrics show the system has already reduced public sighing by 17 percent and improved defensive towel placement on beaches by nearly a third. The council is now exploring additional non-invasive alerts for other seasonal threats, including a mist-based warning for underdressed wedding photographers and a low-frequency chime to indicate that someone from Riga has begun discussing “buying a small place here.”
+
+At press time, the quiet siren had entered its first full deployment of the summer after authorities detected 11 consecutive SUVs with bicycle racks, prompting residents across the municipality to close their gates, straighten their deck chairs, and begin speaking to one another only in meaningful glances.`,
+      lv: `JŪRMALA — Vietējie vadītāji to dēvē par jauninājumu piekrastes gatavībā: Jūrmalas pilsētas dome oficiāli palaidusi Baltijas reģiona pirmo 'klusās sirēnas' sistēmu — publisku brīdināšanas mehānismu, kas iedzīvotājus par tuvojošos tūristu blīvumu informē caur smalkām vibrācijām, pašvaldības uzacu kustībām un vieglu, bet juridiski atzītu viltus vilšanos.
+
+Sistēmu, ko trīs gadu garumā izstrādāja Jūrmalas Sezonālās Stabilitātes nodaļa, paredzēts aizstāt ar vecā tipa trauksmes modeli, kuru, kā amatpersonas apgalvo, nevajadzīgi satrauca kaijas un reiz lika Bulduru terjeram tieši doties uz Lietuvu.
+
+"Mums vajadzēja kaut ko, kas atbilst Jūrmalas vērtībām," preses konferencē blakus pieklājīgi dārgai kafejnīcas terasei sacīja miera vicemēre Ilze Priedīte. "Skaļas skaņas nav tas, kas mēs esam. Mēs gribējām brīdinājumu, kas saka: 'Tava miers beidzas,' bet gaumīgā, koka akcentēta veidā."
+
+Saskaņā ar jauno protokolu iedzīvotāji, kuri ir lejupielādējuši pašvaldības lietotni "Dzintari Gatavi", saņems paziņojumu ar tekstu "Kustība konstatēta", kam sekos krāsu kodēts tūristu tipu prognozes saraksts — piemēram, Brīvdienu ģimenes, Agresīvie riteņbraucēji, Garīgie somi un Vīrieši, kam pēkšņi vajag laivu apavus. Cilvēkiem bez viedtālruņiem par to paziņos pašvaldības darbinieks, kas stāvēs klusi pie vārtiem un skatīsies uz Rīgu.
+
+Pilsētas datu rādītāji liecina, ka testa reizes maija brīvdienu periodā bija 94 procentu veiksmīgas — lielākā daļa iedzīvotāju pareizi interpretēja brīdinājuma zīmes un pārcēlās uz otršķirīgām vasarnīcām, virtuvēm vai iegrima emocionālā noslēgšanās stāvoklī. Pārējie 6 procenti, iespējams, brīdinājumu sajauca ar ierastajām sezonālām bailēm.
+
+"Sestdien es saņēmu vieglu spiediena sajūtu grīdā un uzreiz zināju, ka viņi šķērso Lielupes tiltu," sacīja Majoru iedzīvotājs un visu gadu šalli nēsājošais Guntars Vītols, 58 gadi. "Kad nāca otrā vibrācija, biju jau novietojis auto maldinošā krūmā un izveidojis to sejas izteiksmi, ko lietojam līdz septembrim."
+
+Pilsēta apgalvo, ka sirēna balstās uz vairākiem datu punktiem, tostarp vilciena biļešu apjomu no Rīgas, sauļošanās līdzekļu pirkumiem, strauju lina biksu skaita pieaugumu un ikgadējo pieprasījumu pieaugumu par to, vai pludmale atrodas "kājām no burtiski visa." Sensorus uzstādīja arī pie galvenajiem sastrēgumu mezgliem, tostarp pie ieejas Jomas ielā un tieši tajā maiznīcā, kur maskavieši sāk pārāk skaļi teikt vārdu "autentisks." 
+
+Ne visi ir pārliecināti. Kritiķi kaimiņu Rīgā apšaubījuši projekta izmaksas — kopējā summa sasniedzot 2,8 miljonus eiro — lai gan pašvaldības grāmatveži uzsvēra, ka šī summa ietver konsultāciju maksas, priedes klausīšanās darbnīcas un pilotprogrammu, kurā iesaistīts pensijā aizgājis kora diriģents, apmācīts atpazīt tālas labsajūtas nodomas.
+
+"Tas ir vēl viens piemērs elitārai kūrorta pārvaldībai," sacīja opozīcijas domes deputāts Aivars Miezītis. "Parastie cilvēki klusās sirēnas nesaņem. Rīgā, kad ierodas tūristi, mēs vienkārši pamanām kādu, kur pārliecinoši ieiet velo joslā, turot pusi Vecpilsētas papīra glāzē."
+
+Tomēr Jūrmalas amatpersonas paliek optimistiskas. Agrīnie atbildes metri rāda, ka sistēma jau samazinājusi publisko nopūtu skaitu par 17 procentiem un uzlabojusi aizsargājošo dvieļu izvietojumu pludmalēs gandrīz par trešdaļu. Dome tagad izskata papildu neinvazīvus brīdinājumus citiem sezonāliem draudiem, tostarp miglas brīdinājumu nepietiekami apģērbtiem kāzu fotogrāfiem un zemu frekvenču zvanu, kas norādītu, ka kāds no Rīgas sācis runāt "par maza īpašuma pirkšanu šeit."
+
+Preses materiālu iesniegšanas brīdī klusā sirēna bija pārgājusi pilnā vasaras izvietošanā pēc tam, kad varas iestādes fiksēja 11 pēc kārtas braucošus SUV ar velo statīviem, kas lika iedzīvotājiem visā pašvaldībā aizvērt vārtus, sakārtot atpūtas krēslus un sākt sazināties savā starpā tikai ar nozīmīgām skatieniem.`,
+      ru: `ЮРМАЛА — В том, что местные лидеры называют прорывом в прибрежной готовности, Городской совет Юрмалы официально запустил первую в Балтийском регионе «тихую сирену» — общественную систему оповещения, которая предупреждает жителей о росте плотности туристов через тонкие вибрации, муниципальные движения бровей и едва уловимое, но юридически признанное чувство разочарования.
+
+Система, разработанная за три года Департаментом сезонной стабильности Юрмалы, призвана заменить старую модель тревоги, которая, по словам чиновников, причиняла ненужный стресс чайкам и однажды заставила терьера из Булдури убежать прямо в Литву.
+
+«Нам нужно было что-то, что отражает ценности Юрмалы», — сказала заместитель мэра по спокойствию Илзе Приедите на пресс-конференции, прошедшей рядом с вежливо дорогой террасой кафе. «Громкие звуки — это не про нас. Мы хотели оповещение, которое говорит: „Ваше спокойствие заканчивается“, но изысканно, с деревянными акцентами». 
+
+Согласно новому протоколу, жители, скачавшие муниципальное приложение Dzintari Ready, будут получать уведомление «Обнаружено движение», за которым последует цветовая раскраска прогноза типов туристов — в том числе «Семьи на выходные», «Агрессивные велосипедисты», «Духовные финны» и «Мужчины, внезапно нуждающиеся в лодочных туфлях». Тем, у кого нет смартфонов, об этом сообщит муниципальный сотрудник, стоящий молча у ворот и смотрящий в сторону Риги.
+
+По данным города, пробные запуски, проведённые в праздничный майский период, оказались успешными в 94 процентах случаев: большинство жителей правильно истолковали знаки тревоги и перебрались во второстепенные дачи, кухни или в состояние эмоционального отключения. Оставшиеся 6 процентов, как сообщается, приняли оповещение за обычную сезонную тоску.
+
+«В субботу я почувствовал лёгкое давление в половицах и сразу понял — они пересекают мост через Лиелупе», — рассказал житель Майори и владелец шарфа круглый год Гунтарс Витолс, 58 лет. «Когда пришла вторая вибрация, я уже перебросил машину в обманчивый куст и сделал то выражение лица, которое мы сохраняем до сентября». 
+
+Город утверждает, что сирена опирается на множество показателей, включая объёмы продаж билетов на поезда из Риги, покупки солнцезащитных средств, внезапный рост числа льняных брюк и ежегодный всплеск вопросов «пляж в пешей доступности от буквально всего?». Датчики также установили в ключевых узких местах, включая вход на улицу Йомас и ту самую пекарню, где москвичи начинают слишком громко произносить слово «аутентично».
+
+Не все воодушевлены. Критики в соседней Риге усомнились в целесообразности расходов проекта, который обошёлся в €2,8 млн, хотя муниципальные бухгалтеры отметили, что эта сумма включает консультантские гонорары, мастер-классы по прослушиванию сосен и пилотную программу с отставным хоровым дирижёром, обученным улавливать отдалённые намерения к оздоровлению.
+
+«Это очередной пример управления элитного курорта», — сказал оппозиционный советник Айварс Мизитис. «Обычные люди тихую сирену не получают. В Риге, когда приезжают туристы, мы просто замечаем, как кто-то уверенно выходит на велодорожку, держа в бумажном стаканчике половину Старого города». 
+
+Тем не менее юрмальские чиновники остаются оптимистами. По ранним метрикам, система уже сократила количество общественных вздохов на 17 процентов и улучшила защитное размещение полотенец на пляжах почти на треть. Совет теперь изучает дополнительные неагрессивные оповещения для других сезонных угроз, в том числе туманное предупреждение для недоодетых свадебных фотографов и низкочастотный звонок, сигнализирующий о том, что кто-то из Риги начал обсуждать «купить тут маленькое место». 
+
+На момент подготовки материала «тихая сирена» вступила в своё первое полное летнее развертывание после того, как власти зафиксировали 11 подряд внедорожников с велобагажниками, в результате чего жители по всему муниципалитету закрыли ворота, выпрямили шезлонги и начали общаться друг с другом только значимыми взглядами.`
+    },
+    date: "Sep 5, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/266/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 265,
     slug: "jrmala-residents-file-312-complaints-after",
     title: {
@@ -102,7 +189,7 @@ Kamēr izmeklētāji turpina pārskatīt novērošanas kameru ierakstus ar plivi
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/265/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 264,
