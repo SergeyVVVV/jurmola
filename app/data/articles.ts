@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 267,
+    slug: "jrmala-launches-municipal-fog-to-improve",
+    title: {
+      en: "Jūrmala Launches Municipal Fog to Improve Prestige, Confuse Budget Tourists",
+      lv: "Jūrmala palaidusi pašvaldības miglu, lai paceltu prestižu un sajauktu budžeta tūristus",
+      ru: "Юрмала запускает муниципальный туман, чтобы повысить престиж и запутать бюджетных туристов"
+    },
+    excerpt: {
+      en: "City officials in Jūrmala this week unveiled the Baltic region’s first publicly funded prestige fog, a low-lying atmospheric layer designed to make the resort town appear more exclusive while gently disorienting anyone arriving with a supermarket beach towel. The pilot program, already drifting across Dzintari and Majori, has been praised by luxury real estate agents and denounced by several seagulls.",
+      lv: "Šonedēļ Jūrmalas pilsētas amatpersonas atklāja Baltijas reģiona pirmo publiski finansēto prestiža miglu — zemu klājošu atmosfēras slāni, kas paredzēts, lai kūrortpilsētu padarītu ekskluzīvāku un maigi dezorientētu ikvienu, kurš ierodas ar supermārketa pludmales dvieli. Pilotprogramma, kas jau dreifē pāri Dzintariem un Majoru, tiek slavēta luksusa nekustamo īpašumu aģentu vidū un nosodīta vairākas kaijas.",
+      ru: "Городские власти Юрмалы на этой неделе презентовали первый в Балтийском регионе туман престижа на государственные средства — низкорасположенный слой атмосферы, призванный сделать курортный город более эксклюзивным и мягко дезориентировать каждого, кто приехал с пляжным полотенцем из супермаркета. Пилотная программа, уже расползающаяся по Дзинтари и Майори, получила похвалу от агентств элитной недвижимости и осуждение нескольких чаек."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move described by local authorities as “a natural continuation of urban elegance,” Jūrmala Municipality on Tuesday introduced a taxpayer-supported fog system intended to enhance the city’s image, soften architectural imperfections, and discourage day-trippers from asking where the free parking begins.
+
+The initiative, officially titled the Atmospheric Soft Power and Coastal Mystique Programme, will release curated fog along key sections of the shoreline between 6:30 a.m. and 11:00 a.m., with additional evening haze available during festival weekends and whenever a black SUV convoy is expected. According to municipal documents, the fog has been calibrated to obscure “unhelpful realities” at a radius of up to 40 meters, including unfinished terraces, men in socks with sandals, and any visible evidence that a cappuccino should not cost €6.80.
+
+Deputy Mayor for Seasonal Sophistication Ilze Priedīte said the idea emerged after a 2025 tourism survey found that 62 percent of visitors associated Jūrmala with “pine trees, old villas, and mild uncertainty,” while 31 percent said the town felt “too understandable.”
+
+“We asked ourselves, what do the world’s most aspirational destinations have in common?” Priedīte told reporters from behind a podium that appeared and disappeared every few seconds in the mist. “The answer was obvious: limited visibility. If people can clearly see where they are, they begin making price comparisons. Prestige thrives in ambiguity.”
+
+The municipality has allocated €2.4 million to the first phase of the project, including artisanal vapor generators imported from Finland, three Atmospheric Curators, and a hotline residents can call if the fog enters their stairwell and begins lingering judgmentally. Officials stressed that the fog is environmentally responsible and made from “100 percent local moisture,” collected from sea air, damp bicycle seats, and the emotional atmosphere of November.
+
+Not everyone is convinced. Local fisherman and part-time accordion repairman Genādijs Vorobjovs said the new fog had already caused him to accidentally sell smoked flounder to a parking inspector. “Yesterday I walked into what I thought was the sea and found myself in an outdoor property viewing,” Vorobjovs said. “A woman handed me sparkling water and asked if I could imagine raising children there. I am 63. I was carrying fish.”
+
+Business leaders, however, have welcomed the program. Real estate consultant Mārtiņš Egle of Amber Signature Estates called the fog “transformational,” noting that apartments previously described as “near the railway and spiritually moist” are now being marketed as “immersed in kinetic silence.” He said buyer interest from Riga had increased 18 percent in the first 24 hours, particularly among clients who enjoy paying extra for things they cannot verify.
+
+The Latvian Meteorology and Environment Centre confirmed that the fog is technically unnecessary but legally difficult to oppose. Spokesperson Anda Lāce said regulators approved it after the municipality demonstrated that naturally occurring weather had become “insufficiently premium.”
+
+Meanwhile, neighboring municipalities are reportedly considering copycat measures. Saulkrasti is testing a “thoughtful breeze,” while Sigulda has proposed a municipal raven to fly overhead and make visitors feel historically inadequate.
+
+By late afternoon on Tuesday, the fog had drifted inland, briefly enveloping Riga-bound platform benches at Dubulti station and causing several commuters to believe they had already achieved retirement. Despite minor navigation complaints, Jūrmala officials declared the launch a success, citing a 94 percent increase in phrases such as “atmospheric,” “European,” and “I suppose this must be worth it.”
+
+At press time, the city council was reviewing a second-phase proposal to introduce selective moonlight for premium neighborhoods and a pilot gull-silencing zone around restaurants where the fish is described as conceptual.`,
+      lv: `JŪRMALA — Kā vietējās varas „dabiskā turpinājuma pilsētas elegancei” dēvētu soli, Jūrmalas dome otrdien ieviesa nodokļu maksātāju apmaksātu miglas sistēmu, kuras mērķis ir uzlabot pilsētas tēlu, mīkstināt arhitektoniskās nepilnības un atturēt dienas apmeklētājus no jautāšanas, kur sākas bezmaksas stāvvieta.
+
+Iniciatīva, oficiāli nosaukta par Atmosfēras maigās ietekmes un piekrastes mistikas programmu, izdalīs rūpnieciski kontrolētu miglu gar svarīgākajiem krasta posmiem no plkst. 6:30 līdz 11:00, ar papildu vakara dūmaku festivālu nedēļas nogalēs un katru reizi, kad gaidāms melnu apvidus auto konvojs. Pēc domes dokumentiem, migla ir kalibrēta, lai līdz pat 40 metru rādiusā aizsegtu „nevēlamas realitātes”, tostarp nepabeigtas terases, vīriešus zeķēs un sandālēs, un jebkādas redzamas pazīmes, ka kapučīno par €6,80 nav adekvāts.
+
+Sezonālās izsmalcinātības vicemēre Ilze Priedīte sacīja, ka ideja radās pēc 2025. gada tūrisma aptaujas, kurā 62 procenti apmeklētāju Jūrmalu saistīja ar „priedēm, vecām villām un vieglu neziņu”, savukārt 31 procents teica, ka pilsēta šķiet „pārāk saprotama”.
+
+„Mēs pajautājām sev — kas ir kopīgs pasaules visvairāk tiektos galamērķus?” Priedīte žurnālistiem teica no pjedestāla, kas miglā parādījās un pazuda ik pēc pāris sekundēm. „Atbilde bija acīmredzama: ierobežota redzamība. Ja cilvēki skaidri redz, kur atrodas, viņi sāk salīdzināt cenas. Prestižs plaukst neskaidrībā.”
+
+Dome piešķīrusi 2,4 miljonus eiro projekta pirmajai fāzei, tostarp amatnieciski ražotus tvaika ģeneratorus, importētus no Somijas, trim atmosfēras kuratoriem un karstajai līnijai, uz kuru iedzīvotāji var zvanīt, ja migla iekļūst viņu kāpņu telpā un sāk tur palikt ar nosodošu piesitienu. Amatpersonas uzsvēra, ka migla ir ekoloģiski atbildīga un darināta no „100 procentiem vietējā mitruma”, kas savākts no jūras gaisa, mitriem velosipēdu sēdekļiem un novembra emocionālās gaisotnes.
+
+Ne visi ir pārliecināti. Vietējais zvejnieks un pusslodzes akordeona remontētājs Genādijs Vorobjovs sacīja, ka jaunā migla viņam jau ir ļāvusi netīšām pārdot kūpinātu gubu autostāvvietu inspektoram. „Vakar es iegāju tajā, ko domāju par jūru, un nonācu āra nekustamā īpašuma apskatē,” Vorobjovs stāstīja. „Sieviete iedeva man dzirkstošu ūdeni un jautāja, vai es varu iedomāties tur audzināt bērnus. Man ir 63. Es nesu zivis.”
+
+Biznesa līderi tomēr ir atbalstījuši programmu. Nekustamā īpašuma konsultants Mārtiņš Egle no Amber Signature Estates sauca miglu par „transformējošu”, piebilstot, ka dzīvokļi, kas iepriekš tika raksturoti kā „blakus dzelzceļam un garīgi mitri”, tagad tiek tirgoti kā „iemērkti kinētiskā klusumā”. Viņš sacīja, ka pircēju interese no Rīgas pirmajās 24 stundās pieaugusi par 18 procentiem, īpaši starp klientiem, kuriem patīk maksāt papildus par lietām, kuras viņi nevar pārbaudīt.
+
+Latvijas Meteoroloģijas un vides centrs apstiprināja, ka migla tehniski nav nepieciešama, taču juridiski tai grūti iebilst. Preses pārstāve Anda Lāce teica, ka regulatori piekrituši pēc tam, kad dome pierādījusi, ka dabīgi rodas laikapstākļi kļuvuši „nepietiekami premium”.
+
+Tikmēr blakus esošās pašvaldības, kā ziņots, apsver kopēšanas pasākumus. Saulkrasti testē „apdomīgu vējiņu”, bet Sigulda ierosinājusi pašvaldības vārnu, kas lidos pār galvām un liks apmeklētājiem justies vēsturiski nepietiekamiem.
+
+Otrdienas vēlā pēcpusdienā migla bija aizslīdējusi iekšzemē, uz īsu brīdi ietverot Rīgas virzienā kursējošās perona sols Dubultu stacijā un liekot vairākiem pasažieriem noticēt, ka viņi jau ir pensionējušies. Neskatoties uz nelielām orientēšanās sūdzībām, Jūrmalas amatpersonas paziņoja par palaišanu par veiksmīgu, atsaucoties uz 94 procentu pieaugumu frāzēs, piemēram, „atmosfērisks”, „Eiropisks” un „nu jau tas droši vien ir tā vērts”.
+
+Ziņu iznākšanas brīdī domes deputāti izskatīja otrās fāzes priekšlikumu ieviest selektīvu mēnesgaismu premium kvartāliem un pilotzonu kaiju klusēšanai ap restorāniem, kuros zivis tiek aprakstītas kā konceptuālas.`,
+      ru: `ЮРМАЛА — В ходе инициативы, которую местные власти назвали «естественным продолжением городской элегантности», муниципалитет Юрмалы во вторник запустил систему тумана на деньги налогоплательщиков. Цель — улучшить имидж города, смягчить архитектурные недостатки и отпугнуть однодневных туристов от вопросов типа «А где здесь начинается бесплатная парковка?». 
+
+Инициатива, официально именуемая «Программой атмосферной мягкой силы и прибрежной мистики», будет выпускать курируемый туман вдоль ключевых участков побережья с 6:30 до 11:00, а также вечерние заряды тумана в выходные фестивалей и всякий раз, когда ожидается конвой чёрных внедорожников. По муниципальным документам, туман настроен так, чтобы скрывать «неудобные реалии» на радиусе до 40 метров: недоделанные террасы, мужчины в носках и сандалях и любые видимые доказательства того, что капучино не должен стоить €6,80. 
+
+Заместитель мэра по сезонной утончённости Илзе Прайдите сказала, что идея возникла после опроса туристов 2025 года, в котором 62 процента посетителей ассоциировали Юрмалу с «соснами, старыми виллами и лёгкой неуверенностью», а 31 процент заявил, что город кажется «слишком понятным». 
+
+«Мы спросили себя: что объединяет самые желанные направления в мире?» — сказала Прайдите репортёрам из-за трибуны, которая то появлялась, то исчезала каждые несколько секунд в тумане. «Ответ был очевиден: ограниченная видимость. Если люди чётко видят, где они находятся, они начинают сопоставлять цены. Престиж процветает в неясности». 
+
+Муниципалитет выделил €2,4 млн на первый этап проекта, включая ремесленные парогенераторы, импортированные из Финляндии, трёх «атмосферных кураторов» и горячую линию, по которой жители могут сообщить, если туман проник в их подъезд и начал задерживаться там с осуждающим видом. Чиновники подчёркивали, что туман экологически ответственен и изготовлен из «100 процентов местной влаги», собранной из морского воздуха, влажных сидений велосипедов и эмоциональной атмосферы ноября. 
+
+Не все в восторге. Местный рыбак и подработавший ремонтник аккордеонов Генадийс Воробьовс рассказал, что новый туман уже заставил его по ошибке продать копчёного камбалу парковочному инспектору. «Вчера я вошёл в то, что думал было морем, а оказался на уличном просмотре недвижимости, — сказал Воробьовс. — Женщина вручила мне газированную воду и спросила, могу ли я представить, чтобы там растили детей. Мне 63. У меня были рыбы». 
+
+Предприниматели, однако, встретили программу положительно. Консультант по недвижимости Mārtiņš Egle из Amber Signature Estates назвал туман «трансформационным», заметив, что квартиры, ранее описывавшиеся как «рядом с железной дорогой и духовно влажные», теперь продают как «погружённые в кинетическую тишину». По его словам, интерес покупателей из Риги вырос на 18 процентов в первые 24 часа, особенно среди тех клиентов, кто готов доплачивать за вещи, которые нельзя проверить. 
+
+Латвийский центр метеорологии и охраны окружающей среды подтвердил, что туман технически не обязателен, но юридически с ним трудно бороться. Представительница центра Анда Ляце заявила, что регуляторы одобрили проект после того, как муниципалитет продемонстрировал, что природная погода стала «недостаточно премиальной». 
+
+Тем временем соседние муниципалитеты, как сообщается, рассматривают подражательные меры. Саулкрасти тестирует «вдумчивый бриз», а Сигулда предложила муниципального ворона, который будет пролетать над головой и заставлять посетителей чувствовать себя исторически неполноценными. 
+
+К позднему дню вторника туман продвинулся вглубь суши, ненадолго окутывая скамейки платформы на станции Дубулти в сторону Риги и заставив нескольких пассажиров поверить, что они уже вышли на пенсию. Несмотря на мелкие жалобы на ориентирование, власти Юрмалы объявили запуск успешным, ссылаясь на 94-процентный рост употребления выражений типа «атмосферно», «европейски» и «наверное, это того стоит». 
+
+На момент выхода материала городской совет рассматривал предложение второго этапа: ввести селективный лунный свет для премиальных кварталов и пилотную зону по «усмирению» чаек вокруг ресторанов, где рыба описывается как концептуальная.`
+    },
+    date: "Sep 6, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/267/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 266,
     slug: "jrmala-introduces-quiet-siren-to-warn-266",
     title: {
@@ -102,7 +189,7 @@ Preses materiālu iesniegšanas brīdī klusā sirēna bija pārgājusi pilnā v
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/266/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 265,
