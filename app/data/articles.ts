@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 268,
+    slug: "jrmala-introduces-quiet-siren-to-warn-268",
+    title: {
+      en: "Jūrmala Introduces ‘Quiet Siren’ to Warn Residents of Anything Even Slightly Inconvenient",
+      lv: "Jūrmala ievieš «klusā sirēna», lai brīdinātu iedzīvotājus par jebkuru pat nedaudz neērtu notikumu",
+      ru: "Юрмала вводит «тихую сирену», чтобы предупреждать жителей о любом, даже слегка неудобном"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala this week unveiled a new municipal safety system designed to alert residents to storms, traffic changes, aggressive seagulls, and emotionally disruptive construction noise without creating the unpleasantness of actual alarm. The city says the new ‘quiet siren’ better reflects local values of discretion, property preservation, and not making a scene.",
+      lv: "Jūrmalas amatpersonas šonedēļ atklāja jaunu pašvaldības drošības sistēmu, kas paredzēta, lai brīdinātu iedzīvotājus par negaisiem, satiksmes izmaiņām, agresīvām kaijām un emocionāli traucējošu būvdarbu troksni, neizraisot īstu trauksmes nepatīkamu skaņu. Pilsēta apgalvo, ka jaunā «klusā sirēna» labāk atbilst vietējām vērtībām — diskrecijai, īpašumu saglabāšanai un nevēlēšanās radīt skandālu.",
+      ru: "Чиновники Юрмалы на этой неделе представили новую муниципальную систему безопасности, призванную оповещать жителей о шторме, изменениях в движении, агрессивных чаёчках и эмоционально нарушающем покой строительном шуме, не создавая неприятности настоящей тревоги. Город утверждает, что новая «тихая сирена» лучше отражает местные ценности сдержанности, сохранения имущества и нежелания поднимать скандал."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a ceremony described by attendees as “tasteful” and “barely audible,” Jūrmala officials on Tuesday launched the country’s first municipal quiet siren, a public warning system engineered to notify residents of emergencies in a way that remains respectful to pine trees, spa clients, and people having a restorative mineral wrap.
+
+The system, developed over three years at a cost of €4.8 million, emits what the municipality calls “an acoustically polite advisory presence.” Depending on weather conditions, the signal resembles either a distant apologetic flute or someone in another neighborhood considering knocking on a glass.
+
+Vice Mayor for Seasonal Calm Ieva Strautmane said the project emerged after repeated complaints that conventional sirens sounded “too committed.”
+
+“We asked ourselves an important question,” Strautmane told reporters beside a demonstration speaker concealed inside a decorative dune fence. “Can a city communicate danger while still suggesting that everything is fundamentally under control and no one should put on shoes too quickly? We believe the answer is yes.”
+
+The first phase includes 18 units installed from Bulduri to Ķemeri, each housed in weatherproof Scandinavian-style wooden casings painted in low-anxiety beige. During tests conducted in May, 73% of nearby residents reported sensing that “something administrative may be happening,” while 12% said they assumed it was a boutique hotel opening.
+
+According to technical documents reviewed by Jurmola Telegraphs, the siren has six alert settings: Mild Coastal Concern, Tree Adjacent Event, Ceremonial Flooding, Railway Unclarity, Seagull Escalation, and General Baltic Unease. A seventh setting, Full Alarm, was removed during procurement after residents in Dzintari objected that the name was “needlessly continental.”
+
+Emergency officials insist the system is effective, particularly when paired with the city’s existing SMS service, website banner, municipal Facebook post, and a laminated notice displayed at select cafés. “Modern safety is layered,” said Civil Protection Coordinator Mārtiņš Feldmanis. “If a person misses the sound, ignores the text message, does not use Facebook, and is not currently ordering sea buckthorn tea, then yes, there are scenarios where communication becomes more interpretive.”
+
+Some residents have already praised the initiative. “Last year I was startled by thunder and I didn’t appreciate it,” said longtime Jūrmala homeowner Inese Melnalksne, 62, wrapping a cardigan tighter despite clear weather. “This system lets me remain elegant during uncertainty. I heard the test and thought, ‘Either there is a municipal hazard, or someone rich is meditating nearby.’ Both are believable here.”
+
+Not everyone is convinced. Lifeguard and part-time electrician Artis Bērziņš said the warning may be too subtle for practical use. “On Monday they tested Seagull Escalation while three actual seagulls stole a child’s pastry at Majori beach,” he said. “Nobody reacted because the sound blended naturally with Jūrmala itself.”
+
+Municipal procurement records show the contract was awarded to SIA NordHush Civic Solutions, a Riga-based public acoustics firm previously known for designing “courteously padded” pedestrian crossing beeps in upscale neighborhoods. Company founder Rūdolfs Purvītis defended the system’s volume, saying louder models were rejected for causing “visible frowning” during focus groups.
+
+By evening, city staff declared the launch a success after activating Mild Coastal Concern for 14 minutes. No panic occurred, no property values visibly shifted, and one German tourist reportedly described the experience as “more of a suggestion than a warning.”
+
+Officials say the quiet siren may soon be exported to other Baltic municipalities seeking less confrontational emergency infrastructure. In the meantime, Jūrmala residents have been advised that if they hear a faint, tasteful hum drifting over the pines, they should remain calm, check their phones, and begin worrying with appropriate moderation.`,
+      lv: `JŪRMALA — Ceremonijā, ko klātesošie raksturoja kā „gaumīgu” un „knapi dzirdamu”, Jūrmalas amatpersonas otrdien atklāja valsts pirmo pašvaldības klusā sirēnu — publisku brīdināšanas sistēmu, kas izstrādāta, lai informētu iedzīvotājus par ārkārtas situācijām tādā veidā, kas paliek saudzīgs pret priedēm, spa klientiem un cilvēkiem, kas bauda atjaunojošu minerālu ietinu.
+
+Sistēma, kas izstrādāta trīs gadu laikā par 4,8 miljoniem eiro, emitē to, ko pašvaldība dēvē par „akustiski pieklājīgu konsultatīvu klātbūtni”. Atkarībā no laikapstākļiem signāls līdzinās vai nu tālumā atvainojošai flautas niansei, vai arī kādam citā mikrorajonā, kurš apsver iespēju piesitīt pie stikla.
+
+Sezonālās mierīguma vicemēre Ieva Strautmane skaidroja, ka projekts radies pēc atkārtotām sūdzībām, ka parastās sirēnas izklausās „pārāk nosvērti”.
+
+„Mēs uzdevām sev svarīgu jautājumu,” Strautmane sacīja reportieriem blakus demonstrācijas skaļrunim, kas bija slēpts dekoratīvā kāpas žogā. „Vai pilsēta var komunikēt par briesmām, vienlaikus iesakot, ka pamatā viss ir kontrolē un nevienam nevajadzētu pārāk ātri vilkt kurpes? Mēs uzskatām, ka var.”
+
+Pirmā fāze iekļauj 18 vienības, izvietotas no Bulduriem līdz Ķemeriem, katra ievietota laikapstākļiem noturīgā skandināvu stila koka apvalkā, krāsotā zemas trauksmes bēšā tonī. Maija mēģinājumos 73% tuvumā dzīvojošo ziņoja, ka sajutuši, ka „varbūt notiek kaut kas administratīvs”, kamēr 12% pieņēmusi, ka, iespējams, atveras butika viesnīca.
+
+Saskaņā ar tehniskajiem dokumentiem, ko pārskatīja Jūrmalas Telegrafi, sirēnai ir seši brīdinājumu režīmi: Vieglas piekrastes bažas, Notikums pie koka, Ceremoniāli plūdi, Dzelzceļa neskaidrība, Kaiju eskalācija un Vispārējs Baltijas nemiers. Septītais režīms — Pilnā trauksme — tika izņemts iepirkuma gaitā pēc tam, kad Dzintaru iedzīvotāji iebilda, ka nosaukums ir „nepamatoti kontinentāls”.
+
+Ārkārtas dienestu pārstāvji uzsver, ka sistēma ir efektīva, it īpaši apvienojumā ar pilsētas esošo SMS servisu, mājaslapas baneri, pašvaldības Facebook ierakstu un laminētu paziņojumu, izvietotu izvēlētās kafejnīcās. „Mūsdienu drošība ir slāņaina,” sacīja civilās aizsardzības koordinators Mārtiņš Feldmanis. „Ja cilvēks palaid garām skaņu, ignorē īsziņu, nelieto Facebook un šobrīd nepasūta smiltsērkšķu tēju, tad jā, ir scenāriji, kur komunikācija kļūst interpretatīvāka.”
+
+Daži iedzīvotāji jau uzslavējuši iniciatīvu. „Pagājušajā gadā mani izbiedēja pērkons un man tas nepatika,” sacīja ilggadēja Jūrmalas mājas īpašniece Inese Melnalksne, 62 gadi, ciešāk apvērdama kardigānu, lai gan laiks bija skaidrs. „Šī sistēma ļauj man palikt elegantai nenoteiktības brīžos. Es dzirdēju testu un nodomāju: ‘Vai nu ir pašvaldības bīstamība, vai kāds bagāts meditē tuvumā.’ Abi varianti šeit ir ticami.”
+
+Ne visi ir pārliecināti. Glābējs un pusslodzes elektriķis Artis Bērziņš sacīja, ka brīdinājums var būt pārāk smalka praktiskai lietošanai. „Pirmdien viņi testēja Kaiju eskalāciju, kamēr trīs īstas kaijas Majoru pludmalē nozaga bērna konditorejas izstrādājumu,” viņš teica. „Neviens nereaģēja, jo skaņa dabiski saplūda ar pašu Jūrmalu.”
+
+Pašvaldības iepirkuma dokumenti liecina, ka līgums piešķirts SIA NordHush Civic Solutions, Rīgas akustikas uzņēmumam, kas iepriekš bija pazīstams ar „pieklājīgi apmīkstinātu” gājēju pāreju pīkstieniem prestižos rajonos. Uzņēmuma dibinātājs Rūdolfs Purvītis aizstāvēja sistēmas skaļumu, norādot, ka skaļāki modeļi tika noraidīti, jo fokusgrupās tie radīja „redzamu piererumošanos”.
+
+Vakarpusē pilsētas darbinieki paziņoja, ka atklāšana bija veiksmīga pēc tam, kad 14 minūtes bija aktivizēti Vieglas piekrastes bažu režīms. Panika neradās, īpašumu vērtības manāmi nepārvietojās, un viens vācu tūristiņš reportedly aprakstīja pieredzi kā „vairāk ieteikumu nekā brīdinājumu”.
+
+Amatpersonas norāda, ka klusā sirēna drīz varētu tikt eksportēta uz citām Baltijas pašvaldībām, kas meklē mazāk konfrontējošu ārkārtas infrastruktūru. Tikmēr Jūrmalas iedzīvotājiem ieteikts, ka, ja viņi dzird vāju, gaumīgu humu, kas vīd pāri priedēm, viņiem jāpaliek mierīgiem, jāpārbauda telefoni un jāuzsāk raizēšanās ar atbilstošu mēru.`,
+      ru: `ЮРМАЛА — На церемонии, которую присутствующие описывали как «со вкусом» и «едва слышно», во вторник чиновники Юрмалы запустили первую в стране муниципальную тихую сирену — систему публичного оповещения, разработанную, чтобы информировать жителей об ЧП так, чтобы это оставалось уважительным к соснам, клиентам спа и людям, проходящим восстанавливающее минеральное обёртывание.
+
+Система, разрабатывавшаяся три года и обошедшаяся в €4,8 млн, издаёт то, что муниципалитет называет «акустически вежливым предостерегающим присутствием». В зависимости от погодных условий сигнал напоминает либо отдалённую извиняющуюся флейту, либо кого‑то в соседнем квартале, размышляющего, стучать ли по стеклу.
+
+Заместитель мэра по сезонному спокойствию Иева Страутмане рассказала, что проект возник после повторных жалоб на то, что обычные сирены звучат «слишком рьяно».
+
+«Мы задали себе важный вопрос, — сказала Страутмане репортёрам возле демонстрационного динамика, спрятанного внутри декоративного забора‑бархана. — Может ли город сообщать о тревоге, при этом намекая, что в сущности всё под контролем и никому не стоит слишком быстро надевать обувь? Мы считаем, что может». 
+
+На первом этапе установлены 18 модулей от Булдури до Кемери, каждый в герметичных скандинавских деревянных корпусах, окрашенных в успокаивающий бежевый. Во время тестов в мае 73% местных жителей сообщили, что почувствовали «возможно, происходит что‑то административное», тогда как 12% решили, что это открытие бутикового отеля.
+
+Согласно техническим документам, с которыми ознакомились Jurmola Telegraphs, у сирены шесть режимов оповещения: «Мягкая прибрежная обеспокоенность», «Событие у дерева», «Церемониальное наводнение», «Неопределённость на железной дороге», «Эскалация чаек» и «Общая балтийская тревожность». Седьмой режим, «Полная тревога», был удалён в ходе закупки после того, как жители Дзинтари возразили, что такое название «лишне континентально».
+
+Чиновники по чрезвычайным ситуациям утверждают, что система эффективна, особенно в паре с существующими сервисами города: SMS‑рассылкой, баннером на сайте, муниципальным постом в Facebook и ламинированным уведомлением в отдельных кафе. «Современная безопасность — многослойна, — сказал координатор гражданской защиты Мартинш Фельдманис. — Если человек не услышал звук, проигнорировал SMS, не пользуется Facebook и в данный момент не заказывает чай из облепихи, то да, бывают сценарии, где коммуникация становится более интерпретативной». 
+
+Некоторые жители уже похвалили инициативу. «В прошлом году меня испугал гром, и мне это не понравилось, — сказала давняя собственница дома в Юрмале Инесе Мелнальксне, 62 года, туже завернув кардиган, несмотря на ясную погоду. — Эта система позволяет мне оставаться элегантной в условиях неопределённости. Я услышала тест и подумала: „Либо муниципальная опасность, либо где‑то рядом медитирует кто‑то богатый“. Оба варианта здесь правдоподобны». 
+
+Не все убеждены. Спасатель и по совместительству электрик Артис Берзиш сказал, что предупреждение может быть слишком тонким для практического применения. «В понедельник они тестировали режим „Эскалация чаек“, а в это время три настоящие чайки украли у ребёнка пирожное на пляже Майори, — сказал он. — Никто не отреагировал, потому что звук естественно слился с самой Юрмалой». 
+
+Записи муниципальных закупок показывают, что контракт получила фирма SIA NordHush Civic Solutions из Риги, ранее известная дизайном «вежливо приглушённых» звуков для пешеходных переходов в фешенебельных районах. Основатель компании Рудольфс Пурвитис защищал громкость системы, заявив, что более громкие модели отклонили из‑за вызова «заметного хмурения» в фокус‑группах.
+
+К вечеру сотрудники города объявили запуск успешным после активации режима «Мягкая прибрежная обеспокоенность» на 14 минут. Паники не было, стоимость недвижимости не изменилась, и один немецкий турист, по сообщениям, охарактеризовал опыт как «скорее предложение, чем предупреждение». 
+
+Чиновники говорят, что тихая сирена вскоре может быть экспортирована в другие балтийские муниципалитеты, желающие менее конфронтационной инфраструктуры оповещения. А пока жителям Юрмалы посоветовали: если они услышат слабое, со вкусом подобранное гудение, плывущее над соснами, — сохранять спокойствие, проверить телефоны и начинать беспокоиться с надлежащей умеренностью.`
+    },
+    date: "Sep 7, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/268/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 267,
     slug: "jrmala-launches-municipal-fog-to-improve",
     title: {
@@ -102,7 +195,7 @@ Ziņu iznākšanas brīdī domes deputāti izskatīja otrās fāzes priekšlikum
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/267/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 266,
