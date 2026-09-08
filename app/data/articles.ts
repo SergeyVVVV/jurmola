@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 269,
+    slug: "riga-introduces-official-municipal-puddle-registry",
+    title: {
+      en: "Riga Introduces Official Municipal Puddle Registry After Residents Report Emotional Attachment to Certain Ones",
+      lv: "Rīga ievieš oficiālu pašvaldības peļķu reģistru pēc tam, kad iedzīvotāji atzīst emocionālu piesaisti noteiktām peļķēm",
+      ru: "Рига вводит официальный муниципальный реестр луж после того, как жители признались в эмоциональной привязанности к некоторым из них"
+    },
+    excerpt: {
+      en: "Riga City Council has unveiled a new digital registry allowing residents to formally identify, rate, and defend significant puddles across the capital. Officials say the initiative will preserve local heritage while reducing confusion during spring thaw, when several intersections become, in the words of one deputy mayor, 'spiritually maritime.'",
+      lv: "Rīgas dome atklājusi jaunu digitālu reģistru, kas ļauj iedzīvotājiem oficiāli identificēt, novērtēt un aizstāvēt nozīmīgas peļķes visā galvaspilsētā. Pārstāvji uzsver, ka iniciatīva saglabās vietējo mantojumu un samazinās neskaidrības pavasara atkušņa laikā, kad vairākas krustojumi, kā to izteicās viens vicemērs, kļūst „garīgi jūrnieciski”.",
+      ru: "Рижская городская дума представила новый цифровой реестр, позволяющий формально отмечать, оценивать и защищать значимые лужи по всему городу. По словам чиновников, инициатива сохранит местное наследие и сократит путаницу во время весеннего таяния, когда несколько перекрёстков становятся, по словам одного из вице‑мэров, «духовно морскими»."
+    },
+    fullContent: {
+      en: `RIGA — In a move described by municipal leaders as 'long overdue in any serious northern democracy,' Riga City Council on Tuesday launched the country’s first Official Puddle Registry, a public database intended to catalogue standing water of cultural, practical, and emotional significance.
+
+The platform, called Mana Peļķe ('My Puddle'), allows residents to submit photographs, estimated depth, seasonal reliability, and personal memories associated with specific puddles. Within three hours of launch, more than 1,400 submissions had been filed, including 86 duplicate claims for what appears to be the same broad reflective basin near a tram stop in Purvciems.
+
+According to the Department of Environmental Mood and Minor Infrastructure, the registry was created after repeated disputes between neighbors over ownership, naming rights, and whether certain puddles should be drained, commemorated, or simply 'left to achieve their full potential.'
+
+'For too long, these bodies of water have existed in an administrative gray zone,' said Deputy Mayor Jānis Līdaks, standing beside a cone-marked depression on Brīvības Street that the city has provisionally classified as a 'heritage-grade puddle.' 'One resident sees a drainage issue. Another sees the place where he dropped one glove in 2017 and had a profound moment of self-reflection. We must govern for both.'
+
+Under the new system, puddles may receive one of four classifications: Temporary, Semi-Permanent, Historically Recurring, and Municipal Mirror. The final category is reserved for puddles that, according to city guidelines, 'consistently reflect church spires, Soviet apartment blocks, or a resident reconsidering several life decisions.'
+
+The policy has already sparked intense local engagement. In Āgenskalns, residents have begun lobbying for protected status for a puddle behind a pharmacy described in one application as 'an honest and stabilizing presence since at least the euro transition.' In Mežaparks, a smaller but highly symmetrical puddle has been nominated for twinning with a decorative pond in Pärnu.
+
+City data show that 63% of registered puddles are located near bus stops, 21% directly outside bakeries, and 14% in places where a person carrying coffee is statistically least prepared to encounter them. A pilot survey conducted this winter found that 47% of Riga residents could identify at least one neighborhood puddle 'by mood alone.'
+
+Not everyone supports the initiative. Opposition councilman Edgars Veldre called the registry 'an embarrassing distraction from serious infrastructure investment,' though he later admitted his office had submitted a preservation request for a slush-water formation near the Central Market after staff reported it had 'become part of team identity.'
+
+Local historian and amateur hydrology blogger Inese Rubene defended the program, arguing that puddles have played an underappreciated role in the city’s social fabric. 'A puddle is where urban planning meets fate,' she said. 'It slows the pedestrian, tests the boot, and reveals character. Some of Riga’s most durable civic values — caution, endurance, vague annoyance — are learned there.'
+
+The city has also published etiquette recommendations, advising residents not to skip stones in registered puddles, not to rename a puddle without community consultation, and not to describe every large puddle as 'basically Venice,' a phrase authorities say has created unrealistic tourism expectations.
+
+At press time, municipal workers had installed a small bronze plaque next to one newly protected puddle in Zolitūde reading, 'Present in all seasons except confidence,' while nearby residents gathered quietly at its edge, taking photos and agreeing that, if nothing else, it had really been there for them.`,
+      lv: `RĪGA — Soli, ko pašvaldības vadītāji raksturojuši kā „kavējušos jebkurā nopietnā ziemeļu demokrātijā”, otrdien Rīgas dome sperusi, ieviešot valsts pirmo Oficiālo peļķu reģistru — publisku datubāzi, kurā tiks katalogizēti stāvošie ūdeņi ar kultūras, praktisku un emocionālu nozīmi.
+
+Platforma, saukta Mana Peļķe, ļauj iedzīvotājiem iesniegt fotogrāfijas, aptuveno dziļumu, sezonālo uzticamību un personiskās atmiņas, kas saistītas ar konkrētām peļķēm. Trīs stundu laikā pēc palaišanas tika saņemti vairāk nekā 1 400 pieteikumu, tostarp 86 dublētas prasības uz, iespējams, to pašu plašo atspulga bļodu pie tramvaja pieturas Purvciemā.
+
+Pēc Vides noskaņu un sīkas infrastruktūras departamenta teiktā reģistrs radīts pēc atkārtotām strīdām starp kaimiņiem par īpašumtiesībām, nosaukuma tiesībām un par to, vai dažas peļķes būtu jāiztukšo, jāpiemin vai vienkārši „jāatstāj, lai sasniegtu savu pilno potenciālu”.
+
+„Pārāk ilgi šie ūdens veidojumi pastāvējuši administratīvā pelēkajā zonā,” sacīja vicemērs Jānis Līdaks, stāvot blakus konusos iezīmētam ieplēsumam Brīvības ielā, ko pilsēta pagaidu kārtā klasificējusi kā „mantojuma klases peļķi”. „Viens iedzīvotājs redz drenāžas problēmu. Cits redz vietu, kur 2017. gadā viņš nokrita vienu cimdu un piedzīvoja dziļu pašrefleksijas brīdi. Mums jālēmj abiem.”
+
+Jaunās sistēmas ietvaros peļķes var saņemt vienu no četriem klasifikācijas veidiem: Pagaidu, Pusoilgstoša, Vēsturiski atkārtota un Pašvaldības spogulis. Pēdējā kategorija rezervēta peļķēm, kuras, pēc pilsētas vadlīnijām, „konsekventi atspoguļo baznīcu torņus, padomju daudzdzīvokļu mājas vai iedzīvotāju, kas pārvērtē vairākas dzīves izvēles.”
+
+Politika jau izsaukusi intensīvu vietējo iesaisti. Āgenskalnā iedzīvotāji sākuši lobēt aizsargāta statusa piešķiršanu peļķei aiz aptiekas, ko vienā pieteikumā raksturoja kā „godīgu un stabilizējošu klātbūtni vismaz kopš pārejas uz eiro”. Mežaparkā mazāka, bet itin simetriska peļķe nominēta par dvīņu partneri dekoratīvam dīķim Pärnu.
+
+Pilsētas dati rāda, ka 63% reģistrēto peļķu atrodas pie autobusu pieturām, 21% — tieši pie maiznīcām, un 14% — vietās, kur cilvēks ar kafiju statistiski vismazāk gatavs tās sastapt. Šī ziema veiktā pilotaptauja atklāja, ka 47% Rīgas iedzīvotāju spēj identificēt vismaz vienu apkaimes peļķi „tikai pēc noskaņas”.
+
+Ne visi atbalsta iniciatīvu. Oppozīcijas domes deputāts Edgars Veldre nosauca reģistru par „kaunīgu novēršanos no nopietnām infrastruktūras investīcijām”, lai gan vēlāk atzinās, ka viņa birojs iesniedzis saglabāšanas pieprasījumu par atkušņa peļķi pie Centrāltirgus pēc tam, kad darbinieki ziņoja, ka tā „ir kļuvusi par komandas identitātes daļu”.
+
+Vietējā vēsturniece un amatieru hidrologijas blogere Inese Rubene aizstāvēja programmu, apgalvojot, ka peļķes ir bijušas nepietiekami novērtēta loma pilsētas sociālajā audumā. „Peļķe ir tur, kur pilsētas plānošana satiek likteni,” viņa sacīja. „Tā palēnina gājēju, pārbauda zābakus un atklāj raksturu. Dažas no Rīgas visnoturīgākajām pilsoniskajām vērtībām — piesardzība, izturība, neizteikta neapmierinātība — tiek tur iemācītas.”
+
+Pilsēta arī publicējusi etiķetes ieteikumus, brīdinot iedzīvotājus nešķļākt blokus pāri reģistrētajām peļķēm, nepārdēvēt peļķi bez kopienas konsultācijas un neaprakstīt katru lielo peļķi kā „būtībā Venēciju” — frāzi, kuru varas iestādes apgalvo, radījusi nereālas tūrisma cerības.
+
+Preses iesniegšanas brīdī pašvaldības darbinieki bija uzstādījuši mazu bronzas plāksnīti pie vienas tikko aizsargātas peļķes Zolitūdē ar uzrakstu: „Klāt visos gadalaikos, izņemot pārliecību,” kamēr tuvējie iedzīvotāji klusībā sapulcējušies pie tās malas, fotografējušies un vienojušies, ka, ja nekas cits, tā viņiem tiešām ir bijusi.`,
+      ru: `РИГА — В шаге, который муниципальные лидеры назвали «давно назревшим для любой серьёзной северной демократии», во вторник Рижская городская дума запустила первый в стране Официальный реестр луж — публичную базу данных, призванную каталогизировать стоячую воду культурного, практического и эмоционального значения.
+
+Платформа под названием «Mana Peļķe» («Моя лужа») позволяет жителям загружать фотографии, оценивать примерную глубину, сезонную надёжность и делиться личными воспоминаниями, связанными с конкретными лужами. В течение трёх часов после запуска было подано более 1 400 заявок, в том числе 86 дублирующих претензий на то, что, по-видимому, одна и та же широкая отражающая впадина около трамвайной остановки в Пурвциемсе.
+
+По данным Департамента экологического настроения и мелкой инфраструктуры, реестр был создан после повторяющихся споров между соседями относительно владения, прав на называние и того, следует ли некоторые лужи осушать, увековечивать или просто «оставить им реализовать свой полный потенциал».
+
+«Слишком долго эти водоёмы существовали в административной серой зоне», — сказал вице‑мэр Янис Лидакс, стоя рядом с конусом, отмечающим углубление на улице Бривибас, которое город предварительно классифицировал как «лужу культурно‑исторического значения». «Один житель видит проблему с дренажем. Другой видит место, где он уронил одну перчатку в 2017 году и пережил глубокий момент саморефлексии. Мы должны управлять для всех.»
+
+По новой системе лужи могут получать одну из четырёх классификаций: Временная, Полупостоянная, Исторически повторяющаяся и Муниципальное зеркало. Последняя категория зарезервирована для луж, которые, согласно городским инструкциям, «постоянно отражают церковные шпили, советские многоквартирные дома или жителя, пересматривающего несколько жизненных решений».
+
+Политика уже вызвала живой местный интерес. В Агёнскалнсе жители начали лоббировать охранный статус для лужи за аптекой, описанной в одной заявке как «честное и стабилизирующее присутствие как минимум со времён перехода на евро». В Меджапарке небольшая, но чрезвычайно симметричная лужа была номинирована на «побратимство» с декоративным прудом в Пярну.
+
+Городские данные показывают, что 63% зарегистрированных луж находятся возле автобусных остановок, 21% — прямо перед пекарнями, и 14% — в местах, где человек, держащий кофе, статистически наименее готов столкнуться с ними. Пилотный опрос, проведённый этой зимой, показал, что 47% рижан могут идентифицировать хотя бы одну районную лужу «только по настроению».
+
+Не все поддерживают инициативу. Оппозиционный советник Эдгарс Вельдре назвал реестр «постыдным отвлечением от серьёзных инвестиций в инфраструктуру», хотя позже признался, что его офис подал заявку на сохранение слякотной лужицы возле Центрального рынка после того, как сотрудники сообщили, что она «стала частью командной идентичности». 
+
+Местный историк и блогер‑самоучка по гидрологии Инесе Рубене встала на защиту программы, утверждая, что лужи играли недооценённую роль в общественной ткани города. «Лужа — это то место, где градостроительство встречается с судьбой», — сказала она. «Она заставляет пешехода замедлиться, испытывает ботинок и раскрывает характер. Некоторые из самых прочных гражданских ценностей Риги — осторожность, выносливость, смутное раздражение — формируются именно там.»
+
+Город также опубликовал рекомендации по этикету: не прыгать камешками по зарегистрированным лужам, не переименовывать лужу без общественного обсуждения и не называть каждую большую лужу «по сути Венецией», фраза, которая, по словам властей, создала нереалистичные туристические ожидания.
+
+На момент закрытия выпуска муниципальные работники установили небольшую бронзовую табличку рядом с одной из только что защищённых луж в Золитуде с надписью «Присутствует во все сезоны, кроме уверенности», а близлежащие жители тихо собрались на её берегу, фотографировали и соглашались, что, по крайней мере, она действительно была там для них.`
+    },
+    date: "Sep 8, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/269/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 268,
     slug: "jrmala-introduces-quiet-siren-to-warn-268",
     title: {
@@ -108,7 +195,7 @@ Amatpersonas norāda, ka klusā sirēna drīz varētu tikt eksportēta uz citām
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/268/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 267,
