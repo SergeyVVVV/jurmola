@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 270,
+    slug: "jrmala-introduces-silent-thunder-siren-to",
+    title: {
+      en: "Jūrmala Introduces ‘Silent Thunder’ Siren to Warn Residents of Approaching Tourists Without Disturbing the Pine Trees",
+      lv: "Jūrmala ievieš „Klusais Pērkons” sirēnu, lai brīdinātu iedzīvotājus par tuvojošajiem tūristiem, netraucējot priežu akustisko cieņu",
+      ru: "Юрмала вводит сирену «Тихий Гром», чтобы предупреждать жителей о приближении туристов, не тревожа сосны"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala this week unveiled a new emergency alert system designed to notify residents when large groups of tourists are approaching the beach, while preserving what the municipality calls the city’s “acoustic dignity.” The nearly inaudible siren, tested Tuesday near Dzintari Concert Hall, has already been praised by planners as a major step forward in passive-aggressive public safety.",
+      lv: "Jūrmalas amatpersonas šonedēļ atklāja jaunu ārkārtas brīdināšanas sistēmu, kas paredzēta, lai paziņotu iedzīvotājiem, kad pie pludmales tuvojas lielas tūristu grupas, saglabājot to, ko pašvaldība sauc par pilsētas „akustisko cieņu”. Gandrīz nesadzirdamo sirēnu otrdien izmēģināja pie Dzintaru koncertzāles, un plānotāji to jau slavē kā lielu soli uz priekšu pasīvi-agresīvā sabiedriskās drošības jomā.",
+      ru: "Власти Юрмалы на этой неделе представили новую систему экстренного оповещения, призванную сообщать жителям о приближении больших групп туристов к пляжу, сохраняя при этом то, что муниципалитет называет «акустическим достоинством» города. Почти нечувствительная сирена, протестированная во вторник возле концертного зала Дзинтари, уже получила похвалу от градпланировщиков как важный шаг вперёд в пассивно-агрессивной общественной безопасности."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a ceremony attended by municipal officials, acoustic consultants, and three confused cyclists who thought it was a market opening, the City of Jūrmala on Tuesday launched its long-awaited “Silent Thunder” siren system, a civic infrastructure project intended to alert locals to incoming tourist density without causing unnecessary alarm among seagulls, pensioners, or the city’s historically introverted pine trees.
+
+According to the municipality’s Department of Seasonal Stability, the new warning network will emit a “psychologically noticeable but legally arguable” tone whenever beach traffic from Riga exceeds 4,200 sandals per hour. Unlike traditional sirens, which use loud sound to provoke immediate reaction, Silent Thunder relies on an almost imperceptible low-frequency hum, a faint smell of sunscreen, and coordinated eyebrow movements from trained volunteers stationed along Jomas Street.
+
+“This is not about panic. This is about preparedness with dignity,” said deputy executive director Ilze Strautmane, standing beneath a banner reading SUMMER WILL HAPPEN WHETHER WE LIKE IT OR NOT. “Residents deserve time to secure parking spaces, hide their better tomatoes, and emotionally prepare for hearing the phrase ‘Do you take card?’ in four different accents.”
+
+The 2.8 million euro system was developed over 18 months in partnership with the Latvian Institute of Applied Quietness, an independent research body based in a former library basement in Cēsis. Engineers say the signal was specifically calibrated to be detectable only by long-term Jūrmala residents, small purebred dogs, and women over 62 who already “had a feeling something was off.”
+
+Initial field tests were conducted last weekend near Majori Beach, where 600 volunteer tourists from Riga were instructed to arrive all at once carrying inflatable swans and asking where the “authentic fisherman cafés” are. Municipal analysts reported that local response times improved dramatically. Within six minutes of activation, 73% of residents had relocated to side streets, 41% had begun complaining preemptively, and one man in Bulduri had somehow already posted “season ruined” in a neighborhood Facebook group before the first train arrived.
+
+Not everyone is convinced. Opposition council member Edgars Paukšs called the project “an expensive non-sound for a problem that could also be solved by letting it rain more.” He added that the city should focus on practical needs such as public toilets, boardwalk repairs, and regulating the annual phenomenon of men from Riga suddenly wearing linen trousers with visible confidence.
+
+Business owners, however, have expressed cautious support. Baiba Ozoliņa, manager of the café Amber Spoon, said the system gives staff valuable time to switch menus from “local pricing” to “seasonal optimism.” “Before, tourists would simply appear,” she said. “Now we have a full three minutes to place extra cucumber in the cold soup and raise the price of still water to something spiritually significant.”
+
+The municipality has published a four-color Tourist Severity Scale ranging from Level 1, “Two Couples Looking for Sea,” to Level 5, “Festival Adjacent.” At the highest level, residents are advised to avoid eye contact, refrain from saying “it used to be better,” and seek shelter in relatives’ gardens inland until conditions normalize.
+
+Officials say the system may eventually expand to Riga, where a pilot version could warn Old Town residents of approaching bachelor parties by causing selected cobblestones to sigh.
+
+For now, Jūrmala leaders insist Silent Thunder represents the future of Baltic urban resilience: understated, publicly funded, and faintly irritated. As the demonstration concluded in near-total silence, several attendees nodded in approval, while one elderly man near the station looked toward the sea and said he could already not hear it working.`,
+      lv: `JŪRMALA — Svētku ceremonijā, kurā pulcējās pašvaldības vadība, akustikas konsultanti un trīs samulsuši riteņbraucēji, kas domāja, ka atklāšana ir tirgus sākums, Jūrmalas pilsēta otrdien palaida gaidīto „Klusā Pērkona” sirēnu sistēmu — pilsētvides infrastruktūras projektu, kas domāts, lai brīdinātu vietējos par tūristu pieplūdumu, neizraisot liekas bažas kaijām, pensionāriem vai pilsētas vēsturiski intravertajām priežu dzimtām.
+
+Pēc pašvaldības Sezonālās Stabilitātes nodaļas teiktā jaunā brīdinājumu tīkla signāls izskanēs ar „psiholoģiski pamanāmu, bet juridiski apstrīdamu” tonīti, kad pludmales satiksme no Rīgas pārsniegs 4 200 sandales stundā. Atšķirībā no tradicionālajām sirēnām, kuras ar trokšņa palīdzību provocē tūlītēju reakciju, „Klusais Pērkons” paļaujas uz teju nepamanāmu zemu frekvenču dunoņu, vieglu saules aizsargkrēma smaržas pavēsmu un saskaņotām uzacu kustībām no apmācītiem brīvprātīgajiem, izvietotiem gar Jomas ielu.
+
+„Šī nav panikas jautājums. Tas ir par pieklājīgu gatavību,” sacīja vietniece izpilddirektore Ilze Strautmane, stāvot zem plakāta ar uzrakstu "VASARA NOTIKS, VAI MĒS TO GRIBAM VAI NĒ." „Iedzīvotājiem pienākas laiks nodrošināt stāvvietas, paslēpt savus labākos tomātus un emocionāli sagatavoties frāzes 'Man pieņemiet karti?' dzirdēšanai četru dažādu akcents skanājumā.”
+
+2,8 miljonu eiro vērtā sistēma tika izstrādāta 18 mēnešu garumā sadarbībā ar Latvijas Lietišķā Klusuma institūtu, neatkarīgu pētījumu iestādi, kas bāzēta bijušā bibliotēkas pagrabā Cēsīs. Inženieri norāda, ka signāls ir īpaši kalibrēts tā, lai to uztvertu tikai ilgtermiņa jūrmalnieki, mazi tīršķirnes suņi un sievietes vecākas par 62 gadiem, kuras jau „jutās, ka kaut kas nav īsti tā.”
+
+Sākotnējie lauka testi notika pagājušajā nedēļas nogalē pie Majoru pludmales, kur 600 brīvprātīgo tūristu no Rīgas instruēja ierasties vienlaikus, nēsājot uzpūšamos gulbjus un jautājot, kur atrodas „autentiskās zvejnieku kafejnīcas”. Pašvaldības analītiķi ziņoja, ka vietējo reakcijas laiki dramatiski uzlabojās. Sešās minūtēs pēc aktivizācijas 73% iedzīvotāju bija pārvietojušies uz šķērsielām, 41% sāka sūdzēties preventīvi, un viens vīrietis Bulduriem kādā brīdī jau bija ierakstījis vietējā Facebook grupā „sezona sabojāta” pirms pirmā vilciena ieradās.
+
+Ne visi ir pārliecināti. opozīcijas domes deputāts Edgars Paukšs projektu nosauca par „dārgu 'ne-trokšņa' risinājumu problēmai, ko varētu atrisināt arī, ļaujot biežāk līst.” Viņš piebilda, ka pilsētai vajadzētu koncentrēties uz praktiskajām vajadzībām, piemēram, publiskajām tualetēm, koka laipas remontu un regulējumu gadījumos, kad reizi gadā vīrieši no Rīgas pēkšņi uzvelk lina bikses ar redzamu pārliecību.
+
+Uzņēmēji gan izrādījuši piesardzīgu atbalstu. Kafejnīcas „Dzintara Karote” vadītāja Baiba Ozoliņa sacīja, ka sistēma darbiniekiem dod vērtīgas minūtes, lai pārietu no ēdienkartes „vietējais tarifs” uz „sezonālo optimismu”. „Agrāk tūristi vienkārši parādījās,” viņa teica. „Tagad mums ir veselas trīs minūtes papildus, lai aukstajā zupā ieliktu papildus gurķi un paceltu negāzētā ūdens cenu līdz kaut kam garīgi nozīmīgam.”
+
+Pašvaldība publicējusi četru krāsu Tūristu Smaguma Skalā, sākot no 1. līmeņa "Divi pāri meklē jūru" līdz 5. līmenim "Blakus festivālam". Augstākajā līmenī iedzīvotājiem iesaka izvairīties no acu kontakta, atturēties no frāzes „agrāk bija labāk” un meklēt patvērumu radinieku dārzos iekšzemē, līdz apstākļi normalizēsies.
+
+Amatpersonas norāda, ka sistēma iespējams tiks paplašināta līdz Rīgai, kur pilotprojekts varētu brīdināt Vecrīgas iedzīvotājus par tuvojošiemies bārtmeņu vakariem, liekot izvēlētiem bruģakmeņiem nopūtēties.
+
+Pašlaik Jūrmalas vadība uzstāj, ka „Klusais Pērkons” pārstāv Baltijas pilsētu noturības nākotni: pieticīgu, valsts finansētu un viegli sarūgtinātu. Demonstrācijai noslēdzoties gandrīz pilnīgā klusumā, vairāki klātesošie piebilda ar galvas mājienu, kamēr kāds sirmgalvis pie stacijas paskatījās uz jūru un teica, ka viņš jau tagad to nedzird.`,
+      ru: `ЮРМАЛА — На церемонии, в которой участвовали муниципальные чиновники, акустические консультанты и трое озадаченных велосипедистов, принявших мероприятие за открытие рынка, во вторник город Юрмала запустил долгожданную систему сирен «Тихий Гром» — гражданский инфраструктурный проект, предназначенный оповещать местных о надвигающейся скученности туристов, не вызывая лишнего беспокойства у чайок, пенсионеров и исторически интровертированных сосен города.
+
+По данным Департамента сезонной устойчивости муниципалитета, новая сеть оповещения будет издавать «психологически заметный, но юридически спорный» тон всякий раз, когда поток с Риги к пляжу превысит 4 200 сандалий в час. В отличие от традиционных сирен, использующих гром для немедленной реакции, «Тихий Гром» опирается на почти неощутимый низкочастотный гул, легкий запах солнцезащитного крема и скоординированные движения бровей обученных волонтёров, расположенных вдоль улицы Йомас.
+
+«Речь не о панике. Речь о подготовленности с достоинством», — сказала заместитель исполнительного директора Илзе Страутмане, стоя под баннером с надписью ЛЕТО БУДЕТ, ХОТИМ МЫ ТОГО ИЛИ НЕТ. «Жители заслуживают времени, чтобы обеспечить парковочные места, спрятать лучшие помидоры и морально приготовиться к фразе «Вы принимаете карты?» на четырёх разных акцентах». 
+
+Система стоимостью 2,8 миллиона евро разрабатывалась в течение 18 месяцев в партнёрстве с Латвийским институтом прикладной тишины, независимой исследовательской организацией, базирующейся в бывшем подвальном помещении библиотеки в Цесисе. Инженеры утверждают, что сигнал был специально откалиброван так, чтобы его улавливали только постоянные жители Юрмалы, мелкие чистопородные собачки и женщины старше 62 лет, у которых уже «было предчувствие, что что-то не так».
+
+Первые полевые испытания прошли в прошлые выходные на пляже Майори, где 600 добровольных туристов из Риги получили указание прибыть одновременно, неся надувные лебеди и спрашивая, где тут «аутентичные рыбачьи кафе». Муниципальные аналитики сообщили о резком улучшении времени реакции местных: в течение шести минут после активации 73% жителей перебрались на боковые улицы, 41% начали жаловаться заранее, а один мужчина в Булдури каким-то образом успел написать в районную группу в Facebook «сезон испорчен» ещё до прибытия первого поезда.
+
+Не все убеждены. Член оппозиционного совета Эдгарс Паукшс назвал проект «дорогостоящим «не-звуком» для проблемы, которую можно было бы решить, если бы чаще шёл дождь». Он добавил, что городу следует сосредоточиться на практических нуждах, таких как общественные туалеты, ремонт настилов и регулирование ежегодного явления внезапно обретающих явную уверенность мужчин из Риги в льняных брюках.
+
+Однако представители бизнеса выразили осторожную поддержку. Байба Озолиня, управляющая кафе «Amber Spoon», сказала, что система даёт персоналу ценное время, чтобы переключить меню с «местных цен» на «сезонный оптимизм». «Раньше туристы просто появлялись», — сказала она. «Теперь у нас целых три минуты, чтобы положить в холодный суп лишний огурец и поднять цену на негазированную воду до чего-то, имеющего духовный смысл». 
+
+Муниципалитет опубликовал четырёхцветную шкалу тяжести туристической угрозы от Уровня 1 — «Две пары, ищущие море» до Уровня 5 — «Рядом с фестивалем». На высшем уровне жителям советуют избегать зрительного контакта, воздерживаться от фразы «раньше было лучше» и укрываться в садах родственников в глубинке, пока условия не нормализуются.
+
+Чиновники говорят, что система в перспективе может расшириться до Риги, где пилотная версия могла бы предупреждать жителей Старого города о приближении мальчишников, заставляя выбранные брусчатки вздыхать.
+
+Пока же руководители Юрмалы настаивают, что «Тихий Гром» представляет будущее балтийской городской устойчивости: сдержанное, финансируемое из бюджета и слегка раздражённое. Когда демонстрация завершилась почти полной тишиной, несколько присутствовавших одобрительно кивнули, а один пожилой мужчина у станции посмотрел в сторону моря и сказал, что он уже не слышит, как оно работает.`
+    },
+    date: "Sep 9, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/270/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 269,
     slug: "riga-introduces-official-municipal-puddle-registry",
     title: {
@@ -102,7 +183,7 @@ Preses iesniegšanas brīdī pašvaldības darbinieki bija uzstādījuši mazu b
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/269/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 268,
