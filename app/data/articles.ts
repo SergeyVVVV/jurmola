@@ -18,6 +18,111 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 271,
+    slug: "riga-introduces-official-municipal-puddle-to",
+    title: {
+      en: "Riga Introduces Official Municipal Puddle to Preserve National Reflection Standards",
+      lv: "Rīga ievieš oficiālu pašvaldības peļķi, lai saglabātu nacionālos atspīduma standartus",
+      ru: "Рига вводит официальную муниципальную лужу для сохранения национальных стандартов отражения"
+    },
+    excerpt: {
+      en: "Following weeks of unseasonably competent drainage, Riga City Council has designated a protected puddle in the center of Brīvības Street to ensure residents continue encountering the level of mild inconvenience considered essential to urban identity. Officials say the puddle will serve cultural, historical, and reflective functions for generations.",
+      lv: "Pēc nedēļām ilgas neierasti kompetentas notekūdeņu novadīšanas Rīgas dome ir noteikusi aizsargājamā statusu peļķei Brīvības ielas centrā, lai iedzīvotāji turpinātu sastapt to maigi neērtības līmeni, ko uzskata par būtisku pilsētas identitātei. Amatpersonas apgalvo, ka peļķe kalpos kultūras, vēstures un atspoguļošanās funkcijām paaudzēm.",
+      ru: "После недель необычно умелого дренажа Рижская городская дума объявила защищённую лужу в центре улицы Brīvības, чтобы жители продолжали сталкиваться с уровнем легких неудобств, считающихся неотъемлемой частью городской идентичности. По словам чиновников, лужа будет служить культурным, историческим и отражательным функциям для будущих поколений."
+    },
+    fullContent: {
+      en: `RIGA — In a unanimous late-evening vote punctuated by a 14-minute procedural disagreement over boot terminology, Riga City Council on Tuesday approved the creation of the city’s first officially protected municipal puddle, citing an urgent need to safeguard "traditional public dampness" amid ongoing sidewalk renovations and unauthorized efficiency.
+
+The puddle, to be installed and maintained near the intersection of Brīvības Street and Ģertrūdes Street, will occupy 11.6 square meters and fluctuate seasonally to preserve what city planners are calling a "familiar but emotionally manageable degree of despair." A bronze plaque next to the site will inform passersby that the puddle is part of Riga’s intangible urban heritage and should not be drained, mocked, or stepped around too optimistically.
+
+Deputy Chair for Environmental Texture Ilze Priedkalne said the decision came after residents began reporting feelings of disorientation caused by newly repaired pavements that allowed them to reach trolleybus stops with dry socks.
+
+"We received 327 complaints in just three days," Priedkalne said at a press conference held under a leaking canopy for symbolic continuity. "People said they no longer recognized the city. One man from Teika arrived at work on time and described the experience as deeply alienating. We cannot permit this kind of social rupture."
+
+According to a 46-page municipal impact assessment, the average Riga resident expects to encounter at least 2.4 avoidable water obstacles during any trip exceeding 700 meters. That figure had fallen to 0.8 in central districts after recent EU-funded street improvements, triggering what officials described as a "dangerous spike in civic smoothness."
+
+To address the crisis, the city assembled a panel of hydrologists, folklorists, tram drivers, and one extremely opinionated grandmother from Purvciems. Their recommendations included preserving a flagship puddle in the capital and establishing smaller satellite puddles in neighborhoods where residents had begun using words like "pleasant" without irony.
+
+Local cultural historian Mārtiņš Kalniņš said the puddle represents more than water. "For centuries, the people of this region have looked into imperfect surfaces and thought, 'Yes, that seems about right,'" Kalniņš explained. "The puddle is where infrastructure meets philosophy. It reflects the sky, old buildings, and occasionally a man carrying herring. That is civilization."
+
+Not all residents are convinced. Office administrator Sabīne Ozola, 34, who commutes daily from Zolitūde, questioned whether the city should be investing €218,000 in a puddle maintenance program during a period of inflation. The budget includes cloud-seeding consultations, emergency replenishment tankers, anti-evaporation staffing, and a nighttime shimmer technician.
+
+"I support culture," Ozola said, carefully navigating a temporary demonstration puddle outside City Hall. "But if they’re going to spend this much, I’d like at least a little footbridge or maybe a small warning choir."
+
+The Riga Tourism Development Bureau, however, has embraced the project. Beginning in June, guided tours will allow visitors to observe the puddle at dawn, midday, and after one bus drives through it too fast. Souvenir kiosks will sell limited-edition magnet sets featuring all four approved reflection angles: Grey Sky, Historic Facade, Pigeon Disturbance, and Sudden Trouser Regret.
+
+Jūrmala officials have already criticized the initiative as "typical Riga centralism," arguing that seaside communities have maintained premium-grade wetness for decades without demanding heritage status. In response, Riga has invited Jūrmala to apply for partnership funding under the new Baltic Moisture Corridor program, though sources say talks have stalled over whether sand counts as civic liquidity.
+
+At Tuesday’s closing ceremony, workers in municipal vests poured the first ceremonial buckets into the designated depression as a small crowd applauded cautiously from a safe distance. By morning, several commuters had already stepped into it while trying to check tram times, an early success city leaders described as "proof of restored continuity."
+
+"This is not about nostalgia," Priedkalne said, gazing into the water as a cigarette butt drifted majestically toward the curb. "It is about resilience, identity, and ensuring that every resident of Riga can still experience the quiet shock of avoidable inconvenience in a public setting."
+
+Officials confirmed that if the pilot program performs well, the city may move ahead next year with phase two: an interactive municipal slush corridor.`,
+      lv: `RĪGA — Ar vienbalsīgu vēluvakara balsojumu, kuru iezīmēja 14 minūšu procedurāls strīds par zābaku terminoloģiju, Rīgas dome otrdien apstiprināja pilsētas pirmās oficiāli aizsargātās pašvaldības peļķes izveidi, norādot steidzamu nepieciešamību aizsargāt "tradicionālo publisko mitrumu" mājaslabu ietvju atjaunošanas un neatļautas efektivitātes laikā.
+
+Peļķe, kuru uzstādīs un uzturēs pie Brīvības un Ģertrūdes ielas krustojuma, aizņems 11,6 kvadrātmetrus un sezonāli mainīsies, lai saglabātu to, ko pilsētplānotāji sauc par "pazīstamu, bet emocionāli pārvaldāmu izmisuma pakāpi." Bronzas plāksne blakus vietai informēs garāmgājējus, ka peļķe ir Rīgas nemateriālās pilsētvides mantojuma daļa un to nedrīkst nosusināt, izsmiet vai pārāk optimistiski apiet.
+
+Vides tekstūras vietniece Ilze Priedkalne sacīja, ka lēmums pieņemts pēc tam, kad iedzīvotāji sāka ziņot par dezorientāciju, ko izraisīja nesen salabotas ietves, kas ļāva viņiem nokļūt trolejbusa pieturās ar sausām zeķēm.
+
+"Mēs saņēmām 327 sūdzības tikai trīs dienu laikā," Priedkalne teica preses konferencē, kas notika zem noplūduša nojumes simboliskas nepārtrauktības zīmē. "Cilvēki sacīja, ka vairs nepazīst pilsētu. Viens vīrietis no Teikas ieradās darbā laikā un raksturoja pieredzi kā dziļi svešādojošu. Mēs nevaram pieļaut šādu sociālu šķelšanos."
+
+Saskaņā ar 46 lappušu pašvaldības ietekmes novērtējumu vidējais rīdzinieks sagaida sastapties vismaz ar 2,4 izvairāmiem ūdens šķēršļiem jebkurā ceļojumā, kas pārsniedz 700 metrus. Šis rādītājs samazinājās līdz 0,8 centrālajos rajonos pēc nesenajiem ES finansētajiem ielu uzlabojumiem, izraisot to, ko amatpersonas raksturoja kā "bīstamu civiskās gludības pieaugumu."
+
+Lai risinātu krīzi, pilsēta izveidoja komisiju no hidroloģiem, folkloristiem, tramvaja vadītājiem un vienas ārkārtīgi viedokļiem bagātas vecmāmiņas no Purvciema. Viņu ieteikumos ietilpa saglabāt galveno peļķi galvaspilsētā un izveidot mazākas satelītpeļķes rajonos, kur iedzīvotāji sākuši lietot tādus vārdus kā "patīkami" bez ironijas.
+
+Vietējais kultūras vēsturnieks Mārtiņš Kalniņš sacīja, ka peļķe nozīmē vairāk nekā ūdeni. "Gadsimtiem ilgi šīs zemes ļaudis ir skatījušies uz nepilnīgām virsmām un domājuši: 'Jā, tas šķiet pareizi'," skaidroja Kalniņš. "Peļķe ir vieta, kur infrastruktūra satiekas ar filozofiju. Tā atspoguļo debesis, vecās ēkas un reizēm arī siļķi nesošu vīru. Tā ir civilizācija."
+
+Ne visi iedzīvotāji ir pārliecināti. Biroja administratore Sabīne Ozola, 34 gadi, kas ikdienā brauc no Zolitūdes, apšaubīja, vai pilsētai vajadzētu ieguldīt 218 000 eiro peļķes uzturēšanas programmā inflācijas apstākļos. Budžetā iekļautas mākoņu sēšanas konsultācijas, avārijas papildināšanas cisternas, iztvaikošanas novēršanas personāls un nakts mirdzuma tehniķis.
+
+"Es atbalstu kultūru," Ozola sacīja, rūpīgi šķērsojot pagaidu demonstrāciju peļķi pie Rātsnama. "Bet ja viņi gatavojas tērēt tik daudz, es vēlētos vismaz nelielu kājiņtiltiņu vai varbūt mazu brīdinājuma kori."
+
+Rīgas tūrisma attīstības birojs gan ir pievērsies projektam ar entuziasmu. No jūnija ekskursijas ar gidu ļaus apmeklētājiem vērot peļķi rīta agrumā, dienas vidū un pēc tam, kad viens autobuss to izbraucis pārāk ātri. Suvenīru kioski pārdos ierobežota izlaiduma magnētu komplektus ar visiem četriem apstiprinātajiem atspoguļošanās leņķiem: Pelēkās debesis, Vēsturiskā fasāde, baložu traucējums un Pēkšņā biksu nožēla.
+
+Jūrmalas amatpersonas jau kritizējušas iniciatīvu kā "tipisku Rīgas centralismu", argumentējot, ka piejūras kopienas gadu desmitiem uzturējušas pirmšķirīgu mitrumu, neizvirzot prasību par mantojuma statusu. Atbildot, Rīga ir uzaicinājusi Jūrmalu pieteikties partnerības finansējumam jaunā Baltijas Mitruma Koridora programmā, lai gan avoti vēsta, ka sarunas iestrēgušas par to, vai smiltis skaitās par civisko šķidrību.
+
+Otrdienas noslēguma ceremonijā strādnieki pašvaldības vestēs ielēja pirmās ceremonālās spaiņas norādītajā bedrē, kamēr maza pūlīte piesardzīgi plieca plaukstas no droša attāluma. No rīta vairāki pasažieri jau bija uzkāpuši peļķē, mēģinot pārbaudīt tramvaja reisu laikus — agrīns panākums, ko pilsētas vadītāji raksturoja kā "atjaunotās nepārtrauktības pierādījumu."
+
+"Tas nav par nostalģiju," sacīja Priedkalne, raugoties ūdenī, kamēr cigarešu izsmēķis majestātiski virzījās pret ielas apmali. "Tas ir par izturību, identitāti un par to, lai katrs rīdzinieks joprojām varētu piedzīvot kluso šoku, ko sniedz izvairāmi neērtības publiskā vietā."
+
+Amatpersonas apstiprināja, ka, ja pilotprogramma būs veiksmīga, nākamgad pilsēta varētu turpināt ar otro posmu: interaktīvu pašvaldības slapjuma koridoru.`,
+      ru: `РИГА — В единогласном позднем вечернем голосовании, прерванном 14-минутным процедурным спором о терминологии для обуви, Рижская городская дума во вторник утвердила создание первой в городе официально охраняемой муниципальной лужи, ссылаясь на срочную необходимость защитить «традиционную общественную влажность» на фоне продолжающегося ремонта тротуаров и несанкционированной эффективности.
+
+Лужа, которая будет создана и поддерживаться рядом с перекрёстком улиц Brīvības и Ģertrūdes, займёт 11,6 квадратных метров и будет сезонно меняться, чтобы сохранить то, что городские планировщики называют «знакомой, но эмоционально управляемой степенью отчаяния». Бронзовая табличка рядом с местом сообщит прохожим, что лужа является частью нематериального городского наследия Риги и не должна сушиться, высмеиваться или обходиться слишком оптимистично.
+
+Зампред по «текстуре окружающей среды» Илзе Приедкальне заявила, что решение было принято после того, как жители начали сообщать о чувстве дезориентации, вызванном недавно отремонтированными тротуарами, которые позволяли им добираться до трамвайно-троллейбусных остановок с сухими носками.
+
+«За три дня мы получили 327 жалоб», — сказала Приедкальне на пресс-конференции, проходившей под протекающим навесом ради символической непрерывности. «Люди говорили, что больше не узнают город. Один мужчина из Тейки пришёл на работу вовремя и описал опыт как глубоко чуждый. Мы не можем допустить такого социального разрыва».
+
+Согласно 46-страничной муниципальной оценке последствий, средний рижанин ожидает столкнуться, как минимум, с 2,4 неизбежными водными препятствиями во время любой поездки длиннее 700 метров. Этот показатель упал до 0,8 в центральных районах после недавних улучений улиц на средства ЕС, вызвав то, что чиновники охарактеризовали как «опасный всплеск гражданской гладкости».
+
+Чтобы справиться с кризисом, город собрал комиссию из гидрологов, фольклористов, водителей трамваев и одной исключительно бескомпромиссной бабушки из Пурвциемса. Их рекомендации включали сохранение флагманской лужи в столице и создание небольших сателлитных луж в районах, где жители начали употреблять слова вроде «приятно» без иронии.
+
+Местный культурный историк Мартиньш Калниньш сказал, что лужа — это не просто вода. «На протяжении веков люди этого региона смотрели в неровные поверхности и думали: ‚Да, примерно так‘», — объяснил Калниньш. «Лужа — это место, где инфраструктура встречается с философией. Она отражает небо, старые здания и время от времени мужчину с селёдкой. Это и есть цивилизация».
+
+Не все жители убеждены. Офисный администратор Сабине Озола, 34 года, которая ежедневно ездит из Золитуде, усомнилась, стоит ли городу вкладывать 218 000 евро в программу обслуживания луж в период инфляции. Бюджет включает консультации по посеву облаков, аварийные водовозы для пополнения, штат против испарения и ночного техника по эффекту мерцания.
+
+«Я поддерживаю культуру», — сказала Озола, осторожно лавируя вокруг временной демонстрационной лужи у Ратуши. «Но если они собираются тратить столько, я бы хотела хотя бы маленький пешеходный мостик или, может быть, небольшой предупреждающий хор».
+
+Однако Бюро развития туризма Риги приветствовало проект. Начиная с июня, организованные экскурсии позволят посетителям наблюдать лужу на рассвете, в полдень и после того, как один автобус промчится через неё слишком быстро. Сувенирные киоски будут продавать лимитированные наборы магнитов с четырьмя одобренными углами отражения: Сероватое небо, Исторический фасад, Встревоженный голубь и Внезапное сожаление о штанах.
+
+Чиновники Юрмалы уже раскритиковали инициативу как «типичный рижский централи...зм», утверждая, что прибрежные сообщества десятилетиями поддерживают премиальный уровень влажности, не требуя статуса наследия. В ответ Рига пригласила Юрмалу подать заявку на партнёрское финансирование в рамках новой программы «Балтийский коридор влажности», хотя источники сообщают, что переговоры застопорились из-за вопроса, считается ли песок городской жидкостью.
+
+На церемонии закрытия во вторник рабочие в муниципальных жилетах вылили первые церемониальные вёдра в обозначенную впадину, в то время как небольшая толпа осторожно аплодировала с безопасного расстояния. К утру несколько пассажиров уже наступили в неё, пытаясь посмотреть расписание трамваев, — ранний успех, который городские лидеры охарактеризовали как «доказательство восстановленной непрерывности».
+
+«Речь не о ностальгии», — сказала Приедкальне, глядя в воду, по которой величественно плыл окурок. «Речь о стойкости, идентичности и о том, чтобы каждый житель Риги мог снова испытать тихий шок отavoidable неудобства в общественном пространстве».
+
+Чиновники подтвердили, что если пилотный проект будет успешен, в следующем году город может перейти ко второй фазе: интерактивному муниципальному коридору слякоти.`
+    },
+    date: "Sep 10, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/271/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 270,
     slug: "jrmala-introduces-silent-thunder-siren-to",
     title: {
@@ -96,7 +201,7 @@ Pašlaik Jūrmalas vadība uzstāj, ka „Klusais Pērkons” pārstāv Baltijas
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/270/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 269,
