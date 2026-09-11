@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 272,
+    slug: "riga-introduces-silent-tram-car-for-272",
+    title: {
+      en: "Riga Introduces Silent Tram Car For Passengers Who Need 14 Minutes Of Meaningful Baltic Suffering Before Work",
+      lv: "Rīga ievieš klusējošu tramvaja vagonu pasažieriem, kuriem pirms darba vajadzīgas 14 minūtes nozīmīgu Baltijas ciešanu",
+      ru: "Рига вводит тихий трамвай для пассажиров, которым перед работой нужно 14 минут осмысленных балтийских страданий"
+    },
+    excerpt: {
+      en: "Riga City Council on Tuesday unveiled a new \"silent contemplation\" tram car designed for commuters who feel ordinary public transport does not provide enough structured despair. Officials say the pilot program will give residents a dignified space to stare through fogged windows and reconsider every choice that led them to Ziepniekkalns at 7:42 a.m.",
+      lv: "Rīgas dome otrdien atklāja jaunu «klusās apceres» tramvaja vagonu, paredzētu pasažieriem, kuriem parastais sabiedriskais transports nesniedz pietiekami strukturētu bezcerību. Ierēdņi saka, ka pilotprogramma iedos iedzīvotājiem cienīgu vietu, kur skatīties caur miglainiem logiem un pārdomāt katru izvēli, kas viņus 7:42 no rīta aizveda uz Ziepniekkalnu.",
+      ru: "Во вторник Рижская городская дума представила новый «вагон тихого созерцания», предназначенный для тех, кто считает, что обычный общественный транспорт не даёт достаточно структурированного отчаяния. По словам чиновников, пилотная программа предоставит горожанам достойное пространство, чтобы смотреть в запотевшие окна и пересмотреть каждый выбор, приведший их в Зиепниеккалнс в 7:42 утра."
+    },
+    fullContent: {
+      en: `RIGA — In what transport authorities are calling a major investment in emotional infrastructure, the capital this week launched a special silent tram carriage reserved exclusively for passengers wishing to experience a more authentic pre-work Baltic atmosphere.
+
+The new carriage, attached to selected morning Route 11 and Route 6 trams, prohibits phone calls, cheerful conversation, eye contact exceeding 1.5 seconds, and "overly optimistic winter accessories," including mittens in pastel colors. A discreet sign near the doors requests passengers to maintain "an interior mood somewhere between mild disappointment and historical endurance."
+
+According to Riga Satiksme, the carriage was developed after a 14-month public consultation process found that 68% of commuters felt regular trams had become "too socially unpredictable," while 41% said they needed a designated place to brood in peace before arriving at offices where the heating is controlled by one aggressive accountant.
+
+"People were already doing this informally," said project coordinator Ilze Brante, standing beside the inaugural tram at the depot in Ķengarags while several onlookers respectfully avoided enthusiasm. "They would board, sigh once, look out the window at a gray kiosk, and enter a reflective state. We simply recognized a public need and gave it a timetable."
+
+Brante said the carriage had been acoustically designed to preserve key elements of the commuting experience, including the soft hum of old rails, the muffled rustle of a pastry bag, and one distant cough that may or may not be judgmental. Seats are upholstered in a fabric transport engineers describe as "municipal blue," and the windows have been treated to produce a permanent light film of condensation from October through April.
+
+Commuters testing the service on Tuesday appeared cautiously supportive. "Usually I have to create this atmosphere myself," said Artūrs, 34, an insurance claims specialist from Purvciems, speaking in a whisper despite being invited to speak normally. "I put on a podcast about economic decline and stare at the Daugava until I feel appropriately small. Now the city does half the work. It’s efficient."
+
+Another passenger, Baiba Ozola, said she welcomed the new option after several distressing incidents in standard carriages. "Last Thursday two students were discussing weekend plans with visible hope," she said. "I’m not saying there should be penalties, but there should at least be zoning."
+
+To enforce the atmosphere, Riga Satiksme has trained a new category of transit staff known as Emotional Conductors, who will patrol the carriage and issue warnings to anyone displaying excessive liveliness. First-time offenders will be asked to sit near the articulated joint and think about utility bills. Repeat violators may be transferred to a family carriage playing light morning radio.
+
+City officials insist the project is not anti-social, but culturally specific. Deputy Mayor Mārtiņš Lācis called the carriage "a modern urban solution rooted in regional values."
+
+"In other countries, public transport is for chatting," Lācis told reporters. "Here it is for standing very still and privately surviving. We must protect that heritage from unnecessary brightness."
+
+Early data from the first morning of operation suggests the concept is already succeeding. Sensors installed by the municipality recorded a 23% drop in audible laughter, a 51% increase in long-distance window staring, and one statistically significant nod of mutual recognition between two strangers near the National Library stop.
+
+Following the launch, officials said they are considering future additions, including a summer beach train to Jūrmala with a separate compartment for passengers who want to resent tourists in silence, and an evening bus service featuring prerecorded remarks from an aunt asking whether anyone has thought seriously about buying property.
+
+At press time, the silent tram had been delayed 11 minutes due to a signaling fault, creating what authorities described as "an unexpectedly premium contemplative experience."`,
+      lv: `RĪGA — To, ko satiksmes iestādes sauc par lielu ieguldījumu emocionālajā infrastruktūrā, šonedēļ galvaspilsētā ienesa īpašs klusējošs tramvaja vagonu komplekts, kas paredzēts tikai pasažieriem, kuri vēlas izbaudīt autentiskāku pirmsdarba baltisku atmosfēru.
+
+Jaunais vagonu komplekts, pieslēgts atlasītajiem rīta 11. un 6. maršruta tramvajiem, aizliedz telefona zvanus, priecīgas sarunas, acu kontaktu ilgāku par 1,5 sekundēm un «pārlieku optimistiskus ziemas aksesuārus», tostarp pasteles krāsas dūraiņus. Neliels uzraksts pie durvīm lūdz pasažierus uzturēt iekšējo noskaņu kaut kur starp vieglu vīlu un vēsturisku izturību.
+
+Pēc Rīgas Satiksmes teiktā, vagons tika izstrādāts pēc 14 mēnešu sabiedriskās konsultācijas procesa, kurā noskaidrojās, ka 68% braucēju uzskatīja — parastie tramvaji kļuvuši «pārāk sociāli neprognozējami», kamēr 41% teica, ka viņiem nepieciešama speciāla vieta, kur mierīgi skumt pirms nonākšanas birojos, kur apkuri regulē viens agresīvs grāmatvedis.
+
+"Cilvēki to jau darīja neformāli," sacīja projekta koordinatore Ilze Brante, stāvot pie atklāšanas tramvaja depo Ķengaragā, kamēr vairāki onlookeri ar cieņu izvairījās no pārākas sajūsmas. "Viņi iekāpa, nopūtās vienreiz, paskatījās pa logu uz pelēku kiosku un iedzīvojās refleksīvā stāvoklī. Mēs vienkārši atzinām sabiedrības vajadzību un deva tai grafiku."
+
+Brante stāstīja, ka vagons akustiski projektēts, lai saglabātu galvenos pārvietošanās pieredzes elementus, tostarp veco sliežu maigo dunoņu, noslāpēto konditorejas maisiņa čabināšanos un vienu tālu klepu, kas varbūt vērtē, varbūt ne. Sēdekļi ir apsegti audumā, ko transporta inženieri apraksta kā «pašvaldības zilu», un logi apstrādāti tā, lai no oktobra līdz aprīlim radītu pastāvīgu vieglu kondensāta plēvīti.
+
+Pasažieri, kuri otrdien testēja pakalpojumu, izskatījās piesardzīgi atbalstoši. "Parasti man pašam jāizveido šī atmosfēra," čukstēja Artūrs, 34 gadus vecs apdrošināšanas prasību speciālists no Purvciema, kaut arī tika aicināts runāt normālā tonī. "Es uzlieku podkāstu par ekonomikas lejupslīdi un stāru uz Daugavu, līdz jūtos pienācīgi niecīgs. Tagad puse darba ir gatava pilsētas. Tas ir efektīvi."
+
+Vēl viena pasažiere, Baiba Ozola, sacīja, ka sveicina jauno iespēju pēc dažiem satraucošiem incidentiem parastos vagonos. "Pagājušajā ceturtdienā divi studenti apsprieda nedēļas nogales plānus ar redzamu cerību," viņa teica. "Es neteikšu, ka jābūt sodam, bet vismaz jābūt zonēšanai."
+
+Lai nodrošinātu vajadzīgo atmosfēru, Rīgas Satiksme apmācījusi jaunu pārvadājumu darbinieku kategoriju, ko dēvē par Emocionālajiem konduktoriem, kuri patrulēs vagonā un izsniegs brīdinājumus ikvienam, kurš demonstrē pārmērīgu dzīvīgumu. Pirmo reizi pārkāpēji tiks lūgti apsēsties pie lokveida savienojuma un padomāt par komunālajiem rēķiniem. Atkārtoti pārkāpēji var tikt pārcelti uz ģimenes vagonu, kur skan viegls rīta radio.
+
+Pilsētas amatpersonas uzstāj, ka projekts nav antisociāls, bet gan kulturāli specifisks. Pilsētas vicemērs Mārtiņš Lācis nosauca vagonu par "mūsdienīgu pilsētisku risinājumu, sakņotu reģionālajās vērtībās."
+
+"Citās valstīs sabiedriskais transports ir domāts tērzēšanai," Lācis žurnālistiem sacīja. "Šeit tas ir domāts, lai stāvētu ļoti nekustīgi un privāti izdzīvotu. Mums jāsargā šis mantojums no nevajadzīgas spožuma."
+
+Sākotnējie dati no pirmās darba dienas liecina, ka koncepts jau darbojas. Komunāli uzstādītie sensori fiksēja smieklu skaļuma samazinājumu par 23%, attāluma skatīšanās pa logu pieaugumu par 51% un vienu statistiski nozīmīgu galvas mājienu savstarpējai atpazīšanai starp diviem svešiniekiem pie Nacionālās bibliotēkas pieturas.
+
+Pēc atklāšanas amatpersonas sacīja, ka apsver nākotnes papildinājumus, tostarp vasaras pludmales vilcienu uz Jūrmalu ar atsevišķu nodalījumu pasažieriem, kuri klusējot vēlas nicināt tūristus, un vakara autobusa pakalpojumu ar iepriekš ierakstītiem komentāriem no tantes, kas jautā, vai kāds nopietni domājis par nekustamā īpašuma pirkšanu.
+
+Preses sagatavošanas brīdī klusais tramvajs kavējās 11 minūtes signālu bojājuma dēļ, radot to, ko varas iestādes raksturoja kā «negaidīti izsmalcinātu apceres pieredzi».`,
+      ru: `РИГА — В том, что транспортные власти называют крупной инвестицией в эмоциональную инфраструктуру, столица на этой неделе запустила специальный тихий трамвайный вагон, зарезервированный исключительно для пассажиров, желающих испытать более аутентичную предрабочую балтийскую атмосферу.
+
+Новый вагон, прицепленный к отдельным утренним маршрутам №11 и №6, запрещает телефонные разговоры, радостные беседы, зрительный контакт продолжительностью более 1,5 секунды и «чересчур оптимистичные зимние аксессуары», включая варежки пастельных цветов. Ненавязчивая табличка у дверей просит пассажиров поддерживать «внутреннее настроение где‑то между лёгким разочарованием и историческим терпением». 
+
+По данным Riga Satiksme, вагон был разработан после 14‑месячного общественного консультирования, в ходе которого 68% пассажиров заявили, что обычные трамваи стали «слишком социально непредсказуемыми», а 41% сказали, что им нужно специально отведённое место, чтобы в спокойствии похмуриться перед тем, как попасть в офис, где отопление контролирует один агрессивный бухгалтер.
+
+«Люди уже делали это неофициально», — сказала координатор проекта Илзе Бранте, стоя у торжественно выставленного вагона на депо в Кенгарагсе, в то время как несколько зрителей с уважением воздерживались от энтузиазма. «Они садились, вздыхали один раз, смотрели в окно на серый ларёк и впадали в рефлексивное состояние. Мы просто признали общественную потребность и снабдили её расписанием». 
+
+По словам Бранте, вагон акустически спроектирован так, чтобы сохранить ключевые элементы поездки: мягкое жужжание старых рельсов, приглушённый шелест кондитерского мешка и один отдалённый кашель, который может как осуждать, так и нет. Сиденья обиты тканью, которую транспортные инженеры описывают как «муниципально‑синюю», а окна обработаны так, чтобы с октября по апрель на них постоянно образовывалась лёгкая плёнка конденсата.
+
+Пассажиры, тестировавшие сервис во вторник, выглядели сдержанно поддерживающими. «Обычно мне приходится создавать эту атмосферу самому», — сказал Артурс, 34 года, специалист по страховым выплатам из Пурвциемса, шёпотом, хотя ему предлагали говорить нормально. «Я включаю подкаст про экономический упадок и уставленно смотрю на Даугаву, пока не стану должным образом ничтожен. Теперь город делает половину работы. Это эффективно». 
+
+Другая пассажирка, Байба Озола, сказала, что приветствует новую опцию после нескольких тревожных инцидентов в обычных вагонах. «В прошлый четверг двое студентов обсуждали планы на выходные с видимой надеждой», — сказала она. «Я не говорю, что нужны штрафы, но хотя бы зонирование должно быть». 
+
+Для поддержания атмосферы Riga Satiksme обучила новую категорию сотрудников — так называемых эмоциональных кондукторов, которые будут патрулировать вагон и делать замечания всем, кто проявляет чрезмерную жизнерадостность. Нарушителям впервые предложат пересесть рядом с сочленением вагонов и подумать о коммунальных счетах. Повторные нарушители могут быть переведены в семейный вагон с включённым лёгким утренним радио.
+
+Городские чиновники настаивают, что проект не антисоциальный, а культурно специфичный. Заместитель мэра Мартиньш Лацис назвал вагон «современным городским решением, укоренённым в региональных ценностях». 
+
+«В других странах общественный транспорт — для разговоров», — сказал Лацис репортёрам. «У нас он для того, чтобы очень неподвижно стоять и частным образом выживать. Мы должны защитить это наследие от лишней яркости». 
+
+Ранние данные за первый утренний день работы свидетельствуют о том, что концепция уже даёт результаты. Датчики, установленные муниципалитетом, зафиксировали падение слышимого смеха на 23%, увеличение долгого уставленного взгляда в окно на 51% и одно статистически значимое взаимное кивание между двумя незнакомцами возле остановки у Национальной библиотеки.
+
+После запуска чиновники заявили, что рассматривают будущие дополнения, включая летний пляжный поезд до Юрмалы с отдельным купе для пассажиров, которые хотят молчаливо негодовать на туристов, и вечерний автобус с заранее записанными замечаниями тёти, спрашивающей, думал ли кто‑нибудь серьёзно о покупке недвижимости.
+
+На момент закрытия номера тихий трамвай задерживался на 11 минут из‑за сбоя сигнализации, что создало то, что власти описали как «неожиданно премиальный созерцательный опыт».`
+    },
+    date: "Sep 11, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/272/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 271,
     slug: "riga-introduces-official-municipal-puddle-to",
     title: {
@@ -120,7 +219,7 @@ Amatpersonas apstiprināja, ka, ja pilotprogramma būs veiksmīga, nākamgad pil
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/271/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 270,
