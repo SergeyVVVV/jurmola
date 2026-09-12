@@ -18,6 +18,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 273,
+    slug: "jrmala-introduces-silent-beach-hours-to",
+    title: {
+      en: "Jūrmala Introduces Silent Beach Hours To Protect Endangered Midday Nappers",
+      lv: "Jūrmala ievieš klusās pludmales stundas, lai aizsargātu apdraudētos dienas vidus snaudētājus",
+      ru: "Юрмала вводит часы тишины на пляже, чтобы защитить исчезающих полуденных дремлюнов"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have approved a new environmental measure requiring all beach activity between 12:30 and 14:00 to be conducted in near-total silence. The policy, they say, is necessary to preserve the fragile resting patterns of the city’s rapidly declining population of middle-aged sunbathers who have 'finally found a comfortable position.'",
+      lv: "Jūrmalas pašvaldības amatpersonas ir apstiprinājušas jaunu vides pasākumu, kas paredz, ka visa pludmales darbība no plkst. 12:30 līdz 14:00 jāveic gandrīz totālā klusumā. Pēc viņu teiktā, politika ir nepieciešama, lai saglabātu trauslās atpūtas paradumus pilsētas straujā tempā sarucošajai vidēja vecuma sauļotāju populācijai, kuri \"beidzot atraduši ērtu pozu.\"",
+      ru: "Муниципальные чиновники Юрмалы утвердили новую экологическую меру: вся пляжная активность с 12:30 до 14:00 должна проходить при почти полной тишине. По их словам, это необходимо для сохранения хрупкого режима отдыха быстро сокращающегося городского вида — полуденных засонь, которые «наконец-то нашли удобную позу»."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move local leaders are calling 'the most ambitious conservation project since that one boardwalk was repaired correctly,' the Jūrmala City Council voted Tuesday to establish mandatory Silent Beach Hours across a 14-kilometer stretch of coastline, citing alarming new evidence that the region’s traditional midday napper is under unprecedented pressure from volleyball impacts, Bluetooth speakers, and children experiencing joy at conversational volumes.
+
+Under the new regulations, all beachgoers between 12:30 p.m. and 2:00 p.m. must limit themselves to approved low-impact activities, including whispering, slow blinking, and turning over on towels with what officials described as 'reasonable caution.' Inflatable swans must be deflated before entering the designated quiet zone, and the word 'Mārtiņš' may not be shouted under any circumstances, after researchers found it to be 'startlingly effective' at waking sleeping uncles from 18 meters away.
+
+'We are not banning summer,' said Deputy Mayor Ilze Putniņa, speaking at a press conference so quiet that several attendees accidentally fell asleep standing up. 'We are simply asking residents and tourists to respect one of Latvia’s most vulnerable ecosystems: a man in linen shorts who has eaten too much smoked fish and now needs 47 uninterrupted minutes under a striped umbrella.'
+
+The policy follows the release of a 62-page study from the Baltic Institute for Coastal Stillness, which found that the average Jūrmala napper now achieves only 11 minutes of continuous sleep before being disturbed by a paddleboard collision, a seagull dispute, or someone opening a bag of ķiploku grauzdiņi with excessive optimism. Scientists warned that if current noise trends continue, Latvia could lose up to 38% of its prime beach dozers by 2030, forcing many to migrate to quieter inland terraces in Cēsis.
+
+Senior researcher Dr. Artūrs Kļaviņš said the species is culturally significant. 'The Jūrmala napper plays a vital role in our coastal identity,' he explained. 'They provide shade structure, produce a low reassuring snore that calms nearby grandchildren, and serve as a living reminder that sunscreen was once considered optional and fate-based.'
+
+Reaction from residents has been mixed. Some praised the measure as overdue, while others said the law unfairly targets younger beach users and the naturally enthusiastic. 'I support conservation, of course,' said Riga marketing consultant Linda Sēja, 29, speaking in a whisper despite being outside the regulated area. 'But my son was fined €15 for building a sandcastle with what the inspector called 'hammer-like intent.' At that point you have to ask whether this city still believes in families.'
+
+City enforcement teams, officially titled Coastal Tranquility Rangers, began patrols Wednesday equipped with decibel meters, felt-soled sandals, and thermoses of calming linden tea. By 3 p.m., officers had issued 27 warnings, 11 citations, and one immediate expulsion to a man from Jelgava who attempted to unwrap a foil-wrapped cutlet during protected hours.
+
+Tourism officials remain optimistic the rules will boost Jūrmala’s international image. A new campaign, 'Come Hear Almost Nothing,' is scheduled to launch next month in Estonia, Germany, and selected parts of Finland where sitting quietly is already understood. Early promotional materials promise visitors a premium Baltic experience featuring pine air, muted disapproval, and the chance to witness three generations of one family not speaking to each other in perfect harmony.
+
+As evening returned and normal levels of beach clatter resumed, several longtime visitors expressed hope that the initiative might restore order to the coast. Lying motionless beneath a towel and speaking without opening his eyes, local resident Andris Ozols, 56, called the policy 'the first serious action any government has taken in my lifetime.' He then requested that journalists leave immediately, because after years of instability, he said, 'the body was finally shutting down correctly.'`,
+      lv: `JŪRMALA — Vietējie vadītāji šo soli dēvējuši par "visambiciozāko saglabāšanas projektu kopš tās vienas laipas, kas beidzot tika pienācīgi salabota," un Jūrmalas domes sēdē otrdien nobalsoja par obligātu Kluso pludmales stundu ieviešanu 14 kilometru garā krasta posmā, atsaucoties uz satraucošiem jauniem pierādījumiem, ka reģiona tradicionālais dienas vidus snaudētājs atrodas bezprecedenta spiedienā no volejbola sadursmēm, Bluetooth skaļruņiem un bērniem, kuri sajūsmā runā parastā sarunu skaļumā.
+
+Saskaņā ar jaunajiem noteikumiem visi pludmales apmeklētāji no plkst. 12:30 līdz 14:00 drīkst nodarboties tikai ar apstiprinātām zemas ietekmes aktivitātēm, tostarp čukstēšanu, lēnu mirkšķināšanu un apgāšanos uz dvieļiem ar to, ko amatpersonas raksturoja kā "saprātīgu piesardzību." Uzpūšamie gulbji pirms iekļūšanas norādītajā klusajā zonā jāizlaiž gaisu, un vārdu "Mārtiņš" nedrīkst kliegt nekādā apstākļos, jo pētnieki atklājuši, ka tas ir "pārsteidzoši efektīvs" gulējušu onkuļu modināšanā līdz 18 metru attālumam.
+
+"Mēs neaizliedzam vasaru," sacīja vietniece mēra amatā Ilze Putniņa preses konferencē, kas bija tik klusa, ka vairāki klātesošie nejauši aizmiga stāvot kājās. "Mēs vienkārši lūdzam iedzīvotājus un tūristus cienīt vienu no Latvijas neaizsargātākajām ekosistēmām: vīrieti linu šortos, kurš ir pārēdies kūpinātas zivis un tagad prasa 47 nepārtrauktas minūtes zem svītrainā lietussarga."
+
+Politika seko 62 lappušu pētījumam no Baltijas Krasta Miera institūta, kurā konstatēts, ka vidējais jūrmalnieks tagad iegūst tikai 11 minūtes nepārtrauktas miega pirms tiek traucēts ar SUP dēļa sadursmi, kaiju strīdu vai kāda pārmērīgi optimistiska maisiņa atvēršanu ar ķiploku grauzdiņiem. Zinātnieki brīdināja, ka, ja pašreizējās trokšņu tendences turpināsies, līdz 2030. gadam Latvija var zaudēt līdz 38% no saviem labākajiem pludmales snaudētājiem, piespiežot daudzus migrēt klusākās iekšzemes terasēs Cēsīs.
+
+Vadošais pētnieks Dr. Artūrs Kļaviņš sacīja, ka suga ir kultūras ziņā nozīmīga. "Jūrmalas snaudētājs spēlē svarīgu lomu mūsu krasta identitātē," viņš paskaidroja. "Viņi nodrošina ēnas struktūru, rada zemu nomierinošu čīkstēšanu, kas nomierina apkārtesošos mazbērnus, un kalpo kā dzīva atgādinājums, ka sauļošanās krēms reiz tika uzskatīts par izvēles un likteņa lietu."
+
+Iedzīvotāju reakcija ir dalīta. Daži slavēja pasākumu kā sen gaidītu, kamēr citi apgalvoja, ka likums negodīgi mērķē uz jaunākiem pludmales lietotājiem un dabiski entuziastiskajiem. "Es, protams, atbalstu dabas aizsardzību," klusā balsī, kaut gan ārpus regulētās zonas, sacīja Rīgas mārketinga konsultante Linda Sēja, 29. "Bet mans dēls saņēma 15 eiro sodu par smilšu pils būvēšanu ar to, ko inspektors nosauca par 'āmurveidīgu nolūku.' Tajā brīdī jāuzdod jautājums, vai šī pilsēta vēl tic ģimenēm."
+
+Pilsētas izpildpienākumu grupas, oficiāli sauktas par Krasta Mierizlūkošanas reindžeriem, trešdien sāka patrulēt, aprīkotas ar decibelmetriem, sandālēm ar filca zolēm un termosiem ar nomierinošu liepu tēju. Līdz plkst. 15:00 inspektori bija izteikuši 27 brīdinājumus, sastādījuši 11 protokolus un veikuši vienu nekavējošu izraidīšanu pret izcelsmes vīrieti no Jelgavas, kurš centās aiznest folijā ietītu kotleti, viņam to atverot aizsargātajā laikā.
+
+Tūrisma amatpersonas paliek optimistiskas, ka noteikumi uzlabos Jūrmalas starptautisko tēlu. Jauna kampaņa "Nāc — dzirdi gandrīz neko" plānota nākamajā mēnesī Igaunijā, Vācijā un izvēlētajās Somijas daļās, kur klusēšana jau tiek saprasta. Agrīnie reklāmas materiāli sola apmeklētājiem premium Baltijas pieredzi ar priežu gaisu, apslāpētu neapmierinātību un iespēju vērot trīs paaudzes vienas ģimenes pilnīgā nesarunāšanās harmonijā.
+
+Kad vakars atgriezās un pludmales troksnis atgriezās normālā līmenī, vairāki ilggadēji apmeklētāji izteica cerību, ka iniciatīva varētu atjaunot kārtību krastā. Guļot nekustīgi zem dvieļa un neraugoties acis verot vaļā, vietējais iedzīvotājs Andris Ozols, 56, nosauca politiku par "pirmo nopietno rīcību, ko jebkura valdība ir veikusi manas dzīves laikā." Pēc tam viņš lūdza žurnālistiem nekavējoties doties prom, jo, pēc viņa teiktā, pēc gadiem ilgas nestabilitātes "ķermenis beidzot sāka pareizi izslēgties."`,
+      ru: `ЮРМАЛА — В шаге, который местные власти называют «самым масштабным проектом по охране природы со времён того самого променада, который наконец отремонтировали как следует», Городской совет Юрмалы во вторник проголосовал за введение обязательных Часов Тихого Пляжа на 14‑километровом участке побережья. Как сообщается, решение принято после тревожных новых данных о том, что традиционный полуденный дремлюн региона испытывает беспрецедентное давление со стороны падений волейбольных мячей, Bluetooth-колонок и детей, испытывающих радость на разговорных уровнях громкости.
+
+По новым правилам все отдыхающие на пляже с 12:30 до 14:00 обязаны ограничиться разрешёнными малошумными занятиями, включая шёпот, медленное моргание и переворачивание на полотенцах с тем, что чиновники описали как «разумную осторожность». Надутые лебеди должны быть сдуты перед входом в обозначенную тихую зону, а имя «Мартиньш» нельзя кричать ни при каких обстоятельствах — исследователи выяснили, что оно «ошеломляюще эффективно» в том, чтобы разбудить спящих дядей с 18‑метровой дистанции.
+
+«Мы не запрещаем лето», — сказала заместитель мэра Илзе Путниня на пресс‑конференции, которая прошла настолько тихо, что несколько участников случайно уснули стоя. «Мы лишь просим жителей и туристов уважать одну из самых уязвимых экосистем Латвии: мужчину в льняных шортах, который съел слишком много копчёной рыбы и теперь нуждается в 47 непрерывных минут под полосатым зонтом». 
+
+Политика последовала за выпуском 62‑страничного исследования Балтийского института прибрежного спокойствия, в котором говорится, что средний юрмальский дремлюн теперь достигает лишь 11 минут непрерывного сна, прежде чем его потревожит падение на SUP‑доску, перепалка с чайкой или кто‑то, кто с излишним оптимизмом открывает пакет ķiploku grauzdiņi (чесночные гренки). Ученые предупредили, что при сохранении текущих шумовых тенденций Латвия может потерять до 38% своих «праймовых» пляжных засонь к 2030 году, что вынудит многих переселиться на более тихие внутренние террасы в Цесисе.
+
+Старший исследователь доктор Артурс Клявиньш сказал, что вид имеет культурное значение. «Юрмальский дремлюн играет важную роль в нашей прибрежной идентичности», — объяснил он. «Они создают тень, производят низкое успокаивающее похрапывание, которое умиротворяет близких внуков, и служат живым напоминанием о том, что солнцезащитный крем когда‑то считался необязательным и зависел от судьбы». 
+
+Отношение жителей разделилось. Одни похвалили меру как назревшую, другие посчитали закон дискриминационным по отношению к молодым пользователям пляжа и по натуре восторженным. «Я, конечно, за сохранение природы», — прошептала 29‑летняя рижская маркетолог Линда Сея, хоть и находилась за пределами регулируемой зоны. «Но моего сына оштрафовали на 15 евро за то, что он строил песочный замок с тем, что инспектор назвал 'молотоподобным намерением'. В какой-то момент приходится спрашивать: верит ли этот город ещё в семьи?»
+
+Городские патрули, официально именуемые Рейнджерами прибрежного спокойствия, в среду вышли на дежурство, оснащённые децибелометрами, шлёпанцами с войлочной подошвой и термосами с успокаивающим липовым чаем. К 15:00 офицеры выдали 27 предупреждений, 11 протоколов и одно немедленное удаление — мужчине из Елгавы, который попытался развёртывать котлету в фольге в защищённые часы.
+
+Туристические чиновники остаются оптимистами, что правила улучшат международный имидж Юрмалы. Новая кампания «Приходите, чтобы почти ничего не услышать» стартует в следующем месяце в Эстонии, Германии и в отдельнных районах Финляндии, где сидеть в тишине уже принято. Ранние промо‑материалы обещают гостям премиальный балтийский опыт с сосновым воздухом, приглушённым неодобрением и возможностью стать свидетелем трёх поколений одной семьи, прекрасно гармонирующих в молчании.
+
+Когда вечер вернул пляжу привычный уровень шума, несколько давних посетителей выразили надежду, что инициатива поможет восстановить порядок на побережье. Лежа неподвижно под полотенцем и говоря, не открывая глаз, местный житель Андрис Озолс, 56 лет, назвал политику «первым серьёзным шагом любого правительства за всю мою жизнь». Затем он попросил журналистов уйти немедленно, потому что после лет нестабильности, сказал он, «тело наконец‑то начало выключаться как следует».`
+    },
+    date: "Sep 12, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/273/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 272,
     slug: "riga-introduces-silent-tram-car-for-272",
     title: {
@@ -114,7 +189,7 @@ Preses sagatavošanas brīdī klusais tramvajs kavējās 11 minūtes signālu bo
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/272/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 271,
