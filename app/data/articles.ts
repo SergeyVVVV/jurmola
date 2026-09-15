@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 275,
+    slug: "jrmala-introduces-silent-emergency-siren-to",
+    title: {
+      en: "Jūrmala Introduces Silent Emergency Siren To Preserve Seaside Tranquility During Crises",
+      lv: "Jūrmala ievieš klusējošu avārijas sirēnu, lai saglabātu piejūras mieru krīzēs",
+      ru: "Юрмала вводит бесшумную аварийную сирену, чтобы сохранить спокойствие на побережье во время кризисов"
+    },
+    excerpt: {
+      en: "City officials in Jūrmala this week unveiled a new \"silent emergency siren\" system designed to alert residents to danger without disturbing vacationers, pine trees, or the general emotional atmosphere of the beach. The system, described as \"firm but tasteful,\" relies on subtle frowning municipal employees, a change in cloud posture, and a downloadable PDF.",
+      lv: "Šonedēļ Jūrmalas pašvaldība atklāja jaunu \"klusā avārijas sirēna\" sistēmu, kas paredzēta iedzīvotāju brīdināšanai par briesmām, nekaitējot brīvdienu viesiem, priežu kokiem vai pludmales vispārējai emocionālajai atmosfērai. Sistēma, ko raksturo kā \"stingru, bet gaumīgu\", paļaujas uz maigi sarūkošiem pašvaldības darbiniekiem, mākoņu pozas maiņu un lejupielādējamu PDF.",
+      ru: "Городские власти Юрмалы на этой неделе представили новую систему «бесшумной аварийной сирены», предназначенную оповещать жителей об опасности, не тревожа отдыхающих, сосны и общую эмоциональную атмосферу пляжа. Система, описываемая как «решительная, но со вкусом», опирается на едва заметно хмурящихся муниципальных служащих, изменение позы облаков и скачиваемый PDF."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what officials are calling a major step forward in crisis management with proper aesthetic restraint, the Jūrmala City Council on Tuesday launched Latvia’s first silent emergency siren network, a public safety initiative intended to warn residents of floods, storms, infrastructure failures, and "unconstructive panic" without generating any actual sound.
+
+The project, funded through a €2.8 million combination of municipal reserves, a coastal resilience grant, and what one budget document refers to only as "summer people," replaces traditional alarm systems with a layered communication strategy based on visual cues, emotional ambience, and a 14-page advisory leaflet available in Latvian, Russian, English, and "polite nodding."
+
+"We had to ask ourselves: must an emergency be loud?" said Deputy Executive Director for Harmonious Preparedness Ilze Vītola, standing before a demonstration tower near Dzintari Concert Hall. "For decades, Europe has approached danger with bells, sirens, horns. But Jūrmala is not Europe in the ordinary sense. Here, if someone hears a harsh noise after 10 a.m., they assume a construction permit has been issued and become frightened anyway."
+
+Under the new system, emergencies will be communicated through a series of increasingly visible but non-auditory signs. A mild municipal concern will be indicated by lifeguards folding their arms and staring meaningfully toward the Gulf of Riga. Severe weather warnings will trigger the raising of a beige flag described in official documents as "slightly alarming linen." In the event of immediate danger, specially trained cultural administration staff will cycle through central neighborhoods at reduced speed while maintaining what the city calls "a grave but not accusatory expression."
+
+Residents are also encouraged to download the Jūrmala SafeCalm app, which sends a push notification reading, "Something is wrong, but elegantly," alongside a map of recommended evacuation routes and a breathing exercise narrated by a former radio host from Majori.
+
+According to internal trials conducted last autumn, 63% of residents correctly interpreted the signal for coastal flooding, while 22% believed the city was announcing a chamber music festival and 11% assumed a wealthy person had died discreetly. The remaining 4% were in Riga and therefore unavailable for emotional coordination.
+
+Local reaction has been cautiously supportive. "I appreciate that they are respecting the acoustic identity of the city," said retired dentist and year-round Bulduri resident Andris Kļaviņš, who participated in a pilot evacuation in November. "When the municipal woman looked at me with deep administrative sadness, I immediately understood either the river was rising or parking regulations had changed. In both cases, I packed a bag."
+
+Not everyone is convinced. Environmental acoustics researcher Dr. Marta Ozoliņa of the University of Latvia warned that the absence of sound could create confusion among visitors unfamiliar with Baltic nonverbal governance. "A German tourist expects clarity. A Latvian expects implication, weather, and one person in a reflective vest sighing near a bus stop. These are different systems," she said.
+
+Still, city leaders insist Jūrmala may soon become a model for low-impact municipal alarm design across the region. Representatives from Pärnu and Palanga are reportedly observing the rollout, while a delegation from Sigulda has expressed interest in adapting the concept for winter landslides "in a more vertical tone."
+
+At press time, the city had briefly activated the silent alert after a beachside espresso kiosk in Dubulti began playing upbeat music, prompting 47 residents to evacuate voluntarily into nearby forests.`,
+      lv: `JŪRMALA — Tādā, ko amatpersonas dēvē par nozīmīgu soli uz priekšu krīžu vadībā ar pienācīgu estētisku atturību, Jūrmalas domē otrdien tika palaista Latvijas pirmā klusā avārijas sirēnu tīkla sistēma — sabiedriskās drošības iniciatīva, kas paredz brīdināt iedzīvotājus par plūdiem, vētrām, infrastruktūras kļūmēm un "neveiksmīgu paniku", neradot nekāda veida skaņu.
+
+Projekts, finansēts ar 2,8 miljonu eiro kombināciju no pašvaldības rezervēm, piekrastes noturības granta un tā, ko viens budžeta dokuments min tikai kā "vasaras cilvēki", aizstāj tradicionālās trauksmes sistēmas ar daudzslāņu komunikācijas stratēģiju, kas balstīta uz vizuālām norādēm, emocionālu noskaņu un 14 lappušu informatīvu bukletu, pieejamu latviešu, krievu, angļu valodā un "pieklājīgas mājienas" valodā.
+
+"Mums bija jājautā sev: vai avārijai ir jābūt skaļai?" sacīja Harmoniskas sagatavotības vietniece izpilddirektora amatā Ilze Vītola, stāvot pie demonstrācijas torņa pie Dzintaru koncertzāles. "Gadsimtiem Eiropa ir piegājusi bīstamībai ar zvaniem, sirēnām, ragiem. Bet Jūrmala nav Eiropa parastajā nozīmē. Šeit, ja kāds pēc pulksten 10 dzird asas skaņas, viņš pieņem, ka izsniegts būvatļauja, un tāpat nobīstas."
+
+Saskaņā ar jauno sistēmu avārijas tiks komunicētas ar virkni arvien redzamāku, bet neakustisku signālu. Mierīgas pašvaldības rūpes tiks norādītas ar glābēju sakrustotām rokām un nozīmīgu skatienu uz Rīgas jūras līci. Svarīgas laika apstākļu brīdinājumi izraisīs bēšīga karoga pacelšanu, ko oficiālie dokumenti apraksta kā "nedaudz satraucošu lina audumu". Tūlītējā bīstamības gadījumā īpaši apmācīti kultūras pārvaldes darbinieki pārvietosies pa centrālajām apkaimēm ar samazinātu ātrumu, saglabādami to, ko pilsēta dēvē par "nopietnu, bet neapsūdzīgu sejas izteiksmi".
+
+Iedzīvotāji tiek arī mudināti lejupielādēt lietotni Jūrmala SafeCalm, kas nosūta paziņojumu: "Kaut kas nav kārtībā, bet eleganti," kopā ar ieteiktu evakuācijas maršrutu karti un elpošanas vingrinājumu, kuru vada bijusī radioānere no Majoru.
+
+Saskaņā ar iekšējiem izmēģinājumiem pagājušajā rudenī, 63% iedzīvotāju pareizi interpretēja signālu par piekrastes applūšanu, 22% uzskatīja, ka pilsēta paziņo par kamermūzikas festivālu, bet 11% pieļāva, ka klusi nomiris kāds bagāts cilvēks. Pārējie 4% atradās Rīgā un tāpēc bija nepieejami emocionālai koordinācijai.
+
+Vietējā reakcija bijusi piesardzīgi atbalstoša. "Es novērtēju, ka viņi respektē pilsētas akustisko identitāti," sacīja pensionētais zobārsts un visa gada garumā Bulduri dzīvojošais Andris Kļaviņš, kurš piedalījās pilotizvadīšanā novembrī. "Kad pašvaldības darbiniece mani paskatījās ar dziļu administratīvu skumju, es uzreiz sapratu — vai nu upe cēlās, vai mainījās stāvvietu noteikumi. Abos gadījumos es sapakoju somu."
+
+Ne visi ir pārliecināti. Vides akustikas pētniece Dr. Marta Ozoliņa no Latvijas Universitātes brīdināja, ka skaņas neesamība var radīt mulsumu viesiem, kas nav pieraduši pie Baltijas neverbālās pārvaldības. "Vācu tūristam nepieciešama skaidrība. Latvietim pietiek ar norādi, laika apstākļiem un vienu cilvēku atstarojošā vestē, kas nopūšas pie autobusa pieturas. Tās ir dažādas sistēmas," viņa teica.
+
+Tomēr pilsētas vadība uzstāj, ka Jūrmala drīz var kļūt par zemu ietekmi atstājošas pašvaldību trauksmju dizaina modeli visā reģionā. Pārstāvji no Pērnavas un Palangas, kā ziņots, novēro ieviešanu, kamēr delegācija no Siguldas izrādījusi interesi pielāgot konceptu ziemas nogāžu gadījumiem "vertikālākā tonalitātē".
+
+Preses sagatavošanas brīdī pilsēta īslaicīgi aktivizēja kluso brīdinājumu pēc tam, kad pludmales espresso kiosks Dubultos sāka atskaņot pacilājošu mūziku, kas pamudināja 47 iedzīvotājus brīvprātīgi evakuēties uz tuvējām mežainajām teritorijām.`,
+      ru: `ЮРМАЛА — В том, что чиновники называют крупным шагом вперед в управлении кризисами с надлежащей эстетической сдержанностью, Городской совет Юрмалы во вторник запустил первую в Латвии сеть бесшумных аварийных сирен — инициативу общественной безопасности, предназначенную предупреждать жителей о наводнениях, штормах, сбоях в инфраструктуре и «неконструктивной панике» без выпуска какого‑либо звука.
+
+Проект, финансируемый за счёт 2,8 млн евро, собранных из муниципальных резервов, гранта на прибрежную устойчивость и того, что один бюджетный документ называет просто «летними жителями», заменяет традиционные системы оповещения многоуровневой стратегией коммуникации, основанной на визуальных сигналах, эмоциональной атмосфере и 14‑страничной памятке, доступной на латышском, русском, английском и «вежливом кивании».
+
+«Нам пришлось задать себе вопрос: должно ли предупреждение быть громким?» — заявила заместитель исполнительного директора по гармоничной готовности Илзе Витола, стоя у демонстрационной башни рядом с концертным залом Дзинтари. «Десятилетиями Европа встречала опасность колоколами, сиренами, гудками. Но Юрмала — не Европа в обычном смысле. Здесь, если кто‑то услышит резкий звук после 10 утра, он подумает, что выдали разрешение на стройку, и всё равно испугается». 
+
+В рамках новой системы чрезвычайные ситуации будут передаваться серией всё более заметных, но неаудиальных знаков. Слабое муниципальное беспокойство будет обозначаться тем, что спасатели скрещивают руки и значимо смотрят в сторону Рижского залива. Предупреждения о сильной погоде будут сопровождаться поднятием бежевого флага, описываемого в официальных документах как «слегка тревожный лен». В случае непосредственной угрозы специально обученные сотрудники управления культуры будут объезжать центральные кварталы на велосипедах на пониженной скорости, сохраняя, как город называет, «суровое, но не обвинительное выражение лица». 
+
+Жителей также призывают скачать приложение Jūrmala SafeCalm, которое присылает пуш‑уведомление с текстом «Что‑то не так, но элегантно», вместе с картой рекомендованных маршрутов эвакуации и упражнением на дыхание, озвученным бывшим радиоведущим из Майори.
+
+По результатам внутренних испытаний, проведённых прошлой осенью, 63% жителей правильно интерпретировали сигнал о прибрежном наводнении, в то время как 22% посчитали, что город объявляет фестиваль камерной музыки, а 11% решили, что тихо скончался какой‑то состоятельный человек. Оставшиеся 4% находились в Риге и поэтому были недоступны для эмоциональной координации.
+
+Местная реакция оказалась сдержанно благожелательной. «Ценю, что уважают акустическую идентичность города», — сказал отставной стоматолог и круглый год проживающий в Булдури Андрис Клявиньш, участвовавший в пилотной эвакуации в ноябре. «Когда муниципальная сотрудница посмотрела на меня с глубокой административной печалью, я сразу понял: либо река поднимается, либо поменялись правила парковки. В обоих случаях я собрал сумку». 
+
+Не все убеждены. Исследователь акустики окружающей среды д-р Марта Озолиня из Латвийского университета предупредила, что отсутствие звука может создать путаницу среди туристов, незнакомых с балтийским невербальным управлением. «Немецкий турист ожидает ясности. Латвиец ожидает намёков, погоды и одного человека в светоотражающем жилете, вздыхающего возле автобусной остановки. Это разные системы», — сказала она.
+
+Тем не менее городские власти настаивают, что Юрмала вскоре может стать моделью низкоинвазивного муниципального дизайна тревожных сигналов по региону. Представители из Пярну и Паланги, по сообщениям, наблюдают за развёртыванием, а делегация из Сигулды выразила интерес адаптировать концепт для зимних оползней «в более вертикальном тоне». 
+
+На момент сдачи материала город ненадолго активировал бесшумное оповещение после того, как прибрежный эспрессо‑киоск в Дубулти начал проигрывать бодрую музыку, в результате чего 47 жителей добровольно эвакуировались в близлежащие леса.`
+    },
+    date: "Sep 15, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/275/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 274,
     slug: "jrmala-introduces-silent-seagull-corridor-after",
     title: {
@@ -108,7 +189,7 @@ Kad otrdienas krēslā Jūrmalā virs domes ēkas vairākas kaijas riņķoja it 
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/274/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 273,
