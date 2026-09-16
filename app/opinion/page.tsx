@@ -6,6 +6,7 @@ import type { Metadata } from 'next';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import LoadMoreArticles from '../components/LoadMoreArticles';
+import { toArticleCards } from '../lib/article-card';
 
 const language = 'ru';
 
@@ -63,7 +64,7 @@ export default function OpinionPage() {
         </p>
         
         <LoadMoreArticles 
-          articles={opinionArticles}
+          articles={toArticleCards(opinionArticles, language)}
           language={language}
           initialCount={18}
           loadMoreCount={15}

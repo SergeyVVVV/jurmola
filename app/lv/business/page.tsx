@@ -6,6 +6,7 @@ import type { Metadata } from 'next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import LoadMoreArticles from '../../components/LoadMoreArticles';
+import { toArticleCards } from '../../lib/article-card';
 
 const language = 'lv';
 
@@ -63,7 +64,7 @@ export default function BusinessPage() {
         </p>
         
         <LoadMoreArticles 
-          articles={businessArticles}
+          articles={toArticleCards(businessArticles, language)}
           language={language}
           initialCount={18}
           loadMoreCount={15}

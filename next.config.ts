@@ -61,6 +61,12 @@ const nextConfig: NextConfig = {
         destination: '/lv/jurmola',
         permanent: true,
       },
+      // Legacy client-rendered category listing -> static category pages
+      {
+        source: '/news/category/:category(politics|culture|business|opinion)',
+        destination: '/:category',
+        permanent: true,
+      },
       // Old Russian prefix redirects (Meduza structure migration)
       {
         source: '/ru/:path*',

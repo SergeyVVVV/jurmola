@@ -107,7 +107,7 @@ export async function GET(
       status: 302,
       headers: {
         Location: pexelsUrl,
-        'Cache-Control': 'public, max-age=86400',
+        'Cache-Control': 'public, max-age=86400, s-maxage=2592000, stale-while-revalidate=604800',
       },
     });
   }
@@ -143,7 +143,7 @@ export async function GET(
   return new Response(svg, {
     headers: {
       'Content-Type': 'image/svg+xml; charset=utf-8',
-      'Cache-Control': 'public, max-age=86400',
+      'Cache-Control': 'public, max-age=86400, s-maxage=2592000, stale-while-revalidate=604800',
     },
   });
 }

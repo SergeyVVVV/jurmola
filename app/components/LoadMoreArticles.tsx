@@ -4,10 +4,10 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { localizedHref } from '../lib/i18n-config';
 import { getArticleImageUrl } from '../lib/article-image';
-import type { Article } from '../data/articles';
+import type { ArticleCard } from '../lib/article-card';
 
 interface LoadMoreArticlesProps {
-  articles: Article[];
+  articles: ArticleCard[];
   language: 'ru' | 'en' | 'lv';
   initialCount: number; // 19 for homepage, 18 for categories
   loadMoreCount?: number; // 15 by default
@@ -56,7 +56,7 @@ export default function LoadMoreArticles({
             >
               <img
                 src={getArticleImageUrl(article)}
-                alt={article.title[language]}
+                alt={article.title}
                 width={800}
                 height={600}
                 loading="lazy"
@@ -65,15 +65,15 @@ export default function LoadMoreArticles({
               />
             </Link>
             <span className="text-xs font-semibold text-red-600 uppercase tracking-wide">
-              {article.category[language]}
+              {article.category}
             </span>
             <Link href={localizedHref(`news/${article.slug}`, language)}>
               <h3 className="text-xl font-bold mt-2 mb-3 leading-tight hover:underline cursor-pointer" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
-                {article.title[language]}
+                {article.title}
               </h3>
             </Link>
             <p className="text-gray-700 mb-3 leading-relaxed">
-              {article.excerpt[language]}
+              {article.excerpt}
             </p>
             <div className="text-sm text-gray-500">
               {article.date} · {article.readTime}

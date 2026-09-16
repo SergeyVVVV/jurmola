@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SetHtmlLang from "../components/SetHtmlLang";
 
 export const metadata: Metadata = {
   title: "Jurmola Telegraphs – Jūsu Jūrmala, Jūsu Galvaspilsēta",
@@ -42,5 +43,10 @@ export default function LvLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return (
+    <>
+      <SetHtmlLang lang="lv" />
+      {children}
+    </>
+  );
 }
