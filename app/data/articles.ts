@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 276,
+    slug: "jrmala-introduces-quiet-sand-hours-after-276",
+    title: {
+      en: "Jūrmala Introduces Quiet Sand Hours After Residents Complain Beach Is ‘Becoming Too Granular’",
+      lv: "Jūrmala ievieš Kluso smilšu stundas pēc iedzīvotāju sūdzībām, ka pludmale ‘pārvēršas par pārāk granulētu’",
+      ru: "Юрмала вводит «тихие часы для песка» после жалоб жителей, что пляж «становится слишком зернистым»"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have approved Latvia’s first-ever Quiet Sand Hours, a daily two-hour period during which beachgoers will be asked not to step on, rearrange, or emotionally provoke the sand. The pilot program follows a 47-page citizen petition warning that the city’s dunes are suffering from ‘overstimulation during peak slipper traffic.’",
+      lv: "Jūrmalas pašvaldība apstiprinājusi Latvijas pirmās Klusās smilšu stundas — divu stundu ikdienas periodu, kurā pludmales apmeklētājiem lūgts nespert, nepārbīdīt un neemocionāli neprovocēt smiltis. Pilotprogramma seko 47 lappušu iedzīvotāju petīcijai, kas brīdināja, ka pilsētas kāpas cieš no “pārmērīgas pārstimulācijas intensīvas čību satiksmes laikā.”",
+      ru: "Муниципальные власти Юрмалы утвердили первые в Латвии «тихие часы для песка» — ежедневный двухчасовой промежуток, в течение которого у отдыхающих попросят не наступать на песок, не переставлять его и не провоцировать его эмоционально. Пилотная программа последовала за 47‑страничной гражданской петицией, предупреждавшей, что городские дюны страдают от «перестимуляции в часы пикового скольжения»."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders are calling both environmentally responsible and spiritually Baltic, Jūrmala Municipality on Tuesday unveiled a seasonal regulation establishing Quiet Sand Hours on Majori and Dzintari beaches from 14:00 to 16:00 each day, citing growing concern that local sand has been exposed to “excessive disturbance, unnecessary crunching, and recreational scattering.”
+
+The measure, passed 11–4 after a tense council debate and one procedural pause to remove a seagull from the chamber, prohibits vigorous towel-shaking, competitive trench-digging, and “high-impact strolling” during the protected period. Children will still be allowed to exist on the beach, but must do so “with reduced abrasion.”
+
+“This is not about restricting summer joy,” said Deputy Executive Director for Coastal Calm Ilze Briede, standing beside a laminated diagram titled Respectful Beach Interaction Pathway. “It is about recognizing that our sand, like all residents of Jūrmala, deserves at least two hours a day without strangers stamping on it in wet sandals after buying a €9 iced coffee.”
+
+According to a municipality-commissioned study by the Baltic Institute for Soft Surfaces, each square meter of Jūrmala beach experiences up to 312 micro-disturbances per hour on warm weekends, including heel-drags, indecisive pivoting, and what researchers classified as “aggressive crumb deposition from pastries.” The report concluded that, while sand cannot technically become tired, “many participants felt strongly that it can.”
+
+Support for the plan grew earlier this summer when 684 residents, 19 second-home owners from Riga, and one Russian Blue cat registered as “Viktors” signed a petition warning that the beach had “lost its original texture of calm.” The petition cited concerns over random pit excavation, unauthorized shell curation, and a noticeable increase in what it called “performative volleyball dust.”
+
+“For years we thought the issue was tourism,” said Majori resident and petition organizer Dace Kauliņa, 58, who said she first noticed the problem during a particularly loud August. “But then I realized it was not the people. It was the constant rearrangement of the particles. Every evening the beach looked emotionally exhausted.”
+
+Not everyone is convinced. Riga marketing consultant and frequent day-tripper Edgars Zālītis called the policy “anti-foot” and said city hall had gone too far. “If I cannot pace near the water while pretending to answer an important call, then what exactly am I paying train fare for?” he asked, before admitting he had not actually paid train fare in three years.
+
+To enforce the rules, Jūrmala Beach Police will deploy six Seasonal Quiet Officers equipped with whistles, moisture meters, and small flags reading “Please Let the Sand Reset.” First-time offenders will receive a verbal warning and a brochure on low-impact reclining. Repeat violators may be directed to a designated High-Energy Sediment Zone near the volleyball courts, where normal levels of kicking, stomping, and existential sunscreen application will remain legal.
+
+Local businesses have already begun adapting. A Dzintari café announced a new “silent éclairs” menu designed to reduce crumb scatter, while one beach rental kiosk now offers orthopedic linen mats marketed as “particle-neutral.”
+
+Mayor Gatis Ozoliņš defended the initiative as a model for climate-sensitive urban management. “People laughed when we introduced whisper trams near the concert hall,” he said. “Now they are one of our top three least controversial transport experiments.”
+
+Municipal officials say the program will run through August and may be expanded if successful. Early proposals include Low-Drama Pine Forest Mornings, Respectful Puddle Observation Zones, and a pilot scheme requiring all sunset discussions to be “less repetitive.”`,
+      lv: `JŪRMALA — Pārgājienā, ko pilsētas vadība sauc gan par vides ziņā atbildīgu, gan garīgi baltisku, Jūrmalas pašvaldība otrdien prezentēja sezonālu regulu, kas nosaka Klusās smilšu stundas Majoros un Dzintaros katru dienu no plkst. 14:00 līdz 16:00, kā arī norādīja uz pieaugošu bažu, ka vietējās smiltis ir pakļautas “pārmērīgai traucēšanai, liekai kraukšķēšanai un rekreācijai paredzētai izkliedei.”
+
+Sākums, kas tika pieņemts ar 11–4 balsīm pēc saspringtas domes debates un viena procedurālā pārtraukuma, lai no zāles izņemtu kaiju, aizliedz energisku dvieļu kratīšanu, sacensību rakšanas tranšeju veidošanu un “augstas intensitātes pastaigas” aizsargājamajā periodā. Bērniem joprojām atļauts būt pludmalē, taču tas jādarot “ar samazinātu abraziju.”
+
+“Šis nav mēģinājums ierobežot vasaras prieku,” sacīja Piekrastes Klusuma vietniece izpilddirektore Ilze Briede, stāvot blakus laminētai shēmai ar nosaukumu Cieņpilnas pludmales mijiedarbības ceļš. “Tā ir atziņa, ka mūsu smiltīm, tāpat kā visiem jūrmalniekiem, pienākas vismaz divas stundas dienā, kad svešinieki nesper uz tām slapjos sandales pēc 9 € aukstās kafijas.”
+
+Pašvaldības uzdevumā sagatavotā pētījumā, ko veica Baltijas mīksto virsmu institūts, konstatēts, ka katrs Jūrmalas pludmales kvadrātmetrs siltās brīvdienu pēcpusdienās saņem līdz 312 mikrotraucējumiem stundā, tostarp papēža vilkšanai, neizlēmīgai griešanās soļošanai un to, ko pētnieki klasificēja kā “agresīvu drupaču izvietošanu no konditorejas izstrādājumiem.” Ziņojums nonāca pie secinājuma, ka, lai gan smiltis tehniski nevar nogurt, “daudzi iesaistītie bija pārliecināti, ka var.”
+
+Atbalsts plānam pieauga vasaras sākumā, kad petīciju parakstīja 684 iedzīvotāji, 19 otrmāju īpašnieki no Rīgas un viens Krievijas zilais kaķis, reģistrēts kā “Viktors”, brīdinot, ka pludmale “ir pazaudējusi savu sākotnējo mierīgās tekstūras raksturu.” Petīcija norādīja uz bažām par nejaušu bedru izrakšanu, neatļautu gliemežvāku klasifikāciju un ievērojamu pieaugumu tam, ko tā sauca par “performatīvo volejbola putekļu veidošanos.”
+
+“Gadu desmitiem domājām, ka problēma ir tūrismā,” sacīja Majoru iedzīvotāja un petīcijas organizatore Dace Kauliņa, 58 gadi, kura pirmoreiz pamanīja problēmu īpaši skaļā augustā. “Bet tad sapratu, ka tā nav par cilvēkiem. Tā ir par pastāvīgo daļiņu pārvietošanu. Katru vakaru pludmale izskatījās emocionāli izsmelta.”
+
+Ne visi ir pārliecināti. Rīgas mārketinga konsultants un biežs dienas ceļotājs Edgars Zālītis sauca politiku par “pretkāju” un sacīja, ka domes lēmums ir pārspīlēts. “Ja es nevaru soļot pie krasta, tēlojot, ka atbildu uz svarīgu zvanu, par ko tad es īsti maksāju dzelzceļa biļetes cenu?” viņš vaicāja, pirms atzina, ka trīs gadus patiesībā nav maksājis par vilciena biļeti.
+
+Lai pārraudzītu noteikumus, Jūrmalas pludmales policija dislocēs sešus Sezonas Klusuma inspektorus, aprīkotus ar svilpēm, mitruma mērītājiem un maziem karodziņiem ar uzrakstu “Lūdzu, ļaujiet smiltīm atjaunoties.” Pirmajiem pārkāpējiem tiks izteikta mutiska brīdinājuma un izsniegts buklets par zema ietekmes līmeņa atgūšanos guļus. Atkārtotus pārkāpējus varēs norādīt uz īpašu Augstas enerģijas sedimenta zonu pie volejbola laukumiem, kur paliks atļauta parasta spēriena, stampāšanas un eksistenciālas sauļošanās krēma uzklāšanas prakse.
+
+Vietējie uzņēmumi jau sākuši pielāgoties. Dzintaru kafejnīca izziņoja jaunu “klusos eklērus” ēdienkarti, lai samazinātu drupaču izkliedi, savukārt viens pludmales inventāra nomas kiosks tagad piedāvā ortopēdiskus lina paklājus ar tirgus frāzi “daļiņu neitrāls.”
+
+Mērs Gatis Ozoliņš aizstāvēja iniciatīvu kā klimata jutīgas pilsētvides pārvaldības modeli. “Cilvēki smejoties skatījās, kad ieviesām čukstošos tramvajus pie koncertzāles,” viņš teica. “Tagad tie ir viena no mūsu trīs mazāk pretrunīgajām transporta eksperimentu idejām.”
+
+Pašvaldība norāda, ka programma darbosies līdz augustam un, ja būs veiksmīga, var tikt paplašināta. Agrīnie priekšlikumi ietver zema drāmas priežu meža rītus, cieņpilnas peļķu novērošanas zonas un pilotprojektu, kas prasītu, lai visi saulrieta sarunu temati būtu “mazāk atkārtojoši.”`,
+      ru: `ЮРМАЛА — В шаге, который городские власти называют одновременно экологически ответственным и духовно балтийским, муниципалитет Юрмалы во вторник представил сезонное постановление, вводящее «тихие часы для песка» на пляжах Майори и Дзинтари с 14:00 до 16:00 каждый день, сославшись на растущую озабоченность тем, что местный песок подвергался «чрезмерным помехам, излишнему хрусту и рекреационному рассыпыванию». 
+
+Мера, принятая голосами 11 против 4 после напряжённых дебатов в совете и одной процедурной паузы, чтобы удалить чайку из зала, запрещает энергичное встряхивание полотенец, соревновательное рытьё траншей и «ходьбу с высоким воздействием» в защищённый период. Детям по‑прежнему разрешено находиться на пляже, но им предписано делать это «с пониженной абразивностью». 
+
+«Речь не о том, чтобы ограничивать летнюю радость», — сказала заместитель исполнительного директора по прибрежному спокойствию Илзе Бриеде, стоя рядом с ламинированной схемой под названием «Путь уважительного взаимодействия с пляжем». «Речь о признании того, что наш песок, как и все жители Юрмалы, заслуживает хотя бы двух часов в день, когда на него не топчутся чужие в мокрых сандалиях с купленным за 9 евро холодным кофе». 
+
+По данным исследования, заказанного муниципалитетом и проведённого Балтийским институтом мягких поверхностей, каждый квадратный метр юрмальского пляжа испытывает до 312 микро‑возмущений в час в тёплые выходные — включая драконье тянущееся пятно каблука, нерешительные повороты и то, что исследователи классифицировали как «агрессивное осыпание крошек от выпечки». В отчёте сделан вывод, что хотя песок технически не может устать, «многие участники были твёрдо уверены, что может». 
+
+Поддержка плана выросла ранее этим летом, когда 684 жителя, 19 дачников из Риги и один кот породы Russian Blue, зарегистрированный как «Viktors», подписали петицию, предупреждавшую, что пляж «утратил свою исходную текстуру покоя». В петиции выражалась обеспокоенность из‑за случайных выемок, несанкционированной коллекции ракушек и заметного увеличения того, что там называли «перформативной волейбольной пылью». 
+
+«Годами мы думали, что проблема в туризме», — сказала жительница Майори и организатор петиции Даце Каулиня, 58 лет, которая впервые заметила проблему в особенно шумный август. «Но потом я поняла: дело не в людях. Дело в постоянном переставлении частиц. Каждый вечер пляж выглядел эмоционально истощённым». 
+
+Не все убеждены. Рижский маркетолог и частый однодневный гость Эдгарс Залитис назвал политику «антиступневой» и заявил, что мэрия зашла слишком далеко. «Если я не могу шагать у воды, притворяясь, что отвечаю на важный звонок, то за что тогда я плачу за проезд на поезде?» — спросил он, прежде чем признать, что на самом деле не платил за поездку три года. 
+
+Для обеспечения соблюдения правил пляжная полиция Юрмалы задействует шесть Сезонных офицеров тишины, оснащённых свистками, измерителями влажности и небольшими флагами с надписью «Пожалуйста, дайте песку восстановиться». Нарушители в первый раз получат устное предупреждение и брошюру о лежании с низким воздействием. Повторных нарушителей могут направлять в специально отведённую «Зону высокоэнергичного осадка» рядом с волейбольными кортами, где обычный уровень пинков, топтанья и экзистенциального нанесения солнцезащитного крема останется законным. 
+
+Местный бизнес уже начал адаптироваться. Кафе в Дзинтари объявило новое меню «тихих эклеров», призванное уменьшить рассыпания крошек, а одна киоск‑прокат на пляже теперь предлагает ортопедические льняные коврики под маркой «нейтральные к частицам». 
+
+Мэр Гатис Озолиньш защитил инициативу как модель климаточувствительного городского управления. «Люди смеялись, когда мы вводили шепчущие трамваи возле концертного зала», — сказал он. «Теперь они входят в тройку наших наименее спорных транспортных экспериментов». 
+
+Муниципальные чиновники говорят, что программа будет действовать до августа и может быть расширена при успешности. В числе ранних предложений — «утра низкой драмы в сосновом бору», «зоны уважительного наблюдения за лужами» и пилотная схема, обязывающая все закатные беседы быть «менее повторяющимися».`
+    },
+    date: "Sep 16, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/276/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 275,
     slug: "jrmala-introduces-silent-emergency-siren-to",
     title: {
@@ -96,7 +183,7 @@ Preses sagatavošanas brīdī pilsēta īslaicīgi aktivizēja kluso brīdināju
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/275/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 274,
