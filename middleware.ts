@@ -4,6 +4,17 @@ import type { NextRequest } from 'next/server';
 const RUSSIAN_COUNTRIES = ['ru', 'by', 'ua', 'kz', 'am', 'ge', 'md', 'tj', 'uz', 'kg'];
 const COOKIE_NAME = 'preferred-language';
 
+function nextWithLang(request: NextRequest, lang: string) {
+  const response = NextResponse.next();
+  if (request.cookies.get(COOKIE_NAME)?.value !== lang) {
+    response.cookies.set(COOKIE_NAME, lang, {
+      maxAge: 60 * 60 * 24 * 365,
+      path: '/',
+    });
+  }
+  return response;
+}
+
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   const searchParams = request.nextUrl.searchParams;
@@ -91,23 +102,11 @@ export function middleware(request: NextRequest) {
   
   // If already on a language path, set cookie and continue
   if (isOnEnglishPath) {
-    const response = NextResponse.next();
-    response.cookies.set(COOKIE_NAME, 'en', {
-      maxAge: 60 * 60 * 24 * 365,
-      path: '/',
-    });
-    response.headers.set('x-pathname', pathname);
-    return response;
+    return nextWithLang(request, 'en');
   }
 
   if (isOnLatvianPath) {
-    const response = NextResponse.next();
-    response.cookies.set(COOKIE_NAME, 'lv', {
-      maxAge: 60 * 60 * 24 * 365,
-      path: '/',
-    });
-    response.headers.set('x-pathname', pathname);
-    return response;
+    return nextWithLang(request, 'lv');
   }
 
   // If user is on root path without language prefix
@@ -136,13 +135,7 @@ export function middleware(request: NextRequest) {
     }
     
     // User should stay on Russian root, set cookie
-    const response = NextResponse.next();
-    response.cookies.set(COOKIE_NAME, 'ru', {
-      maxAge: 60 * 60 * 24 * 365,
-      path: '/',
-    });
-    response.headers.set('x-pathname', pathname);
-    return response;
+    return nextWithLang(request, 'ru');
   }
 
   // If user has a preference cookie and is on root, respect their preference
@@ -167,22 +160,16 @@ export function middleware(request: NextRequest) {
 
   // For Russian content on root (no prefix), set cookie if not present
   if (!isOnEnglishPath && !isOnLatvianPath && !preferredLang) {
-    const response = NextResponse.next();
-    response.cookies.set(COOKIE_NAME, 'ru', {
-      maxAge: 60 * 60 * 24 * 365,
-      path: '/',
-    });
-    response.headers.set('x-pathname', pathname);
-    return response;
+    return nextWithLang(request, 'ru');
   }
 
-  const response = NextResponse.next();
-  response.headers.set('x-pathname', pathname);
-  return response;
+  return NextResponse.next();
 }
 
 export const config = {
+  // Only pages need language handling. Everything served straight from the CDN
+  // (assets, covers, feeds, sitemap, robots) is excluded so it never invokes middleware.
   matcher: [
-    '/((?!_next/static|_next/image|favicon.ico|icon.svg|.*\\.svg|.*\\.png|.*\\.jpg|.*\\.jpeg|.*\\.gif|.*\\.webp).*)',
+    '/((?!_next/|_vercel/|api/|cover/|feed\\.xml|sitemap\\.xml|robots\\.txt|favicon\\.ico|icon\\.svg|images/|.*\\.[a-zA-Z0-9]+$).*)',
   ],
 };

@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import LoadMoreArticles from '../components/LoadMoreArticles';
+import { toArticleCards } from '../lib/article-card';
 
 // Latvian version
 const language = 'lv';
@@ -87,7 +88,7 @@ export default function Home() {
 
         {/* News Grid with Load More */}
         <LoadMoreArticles
-          articles={regularStories}
+          articles={toArticleCards(regularStories, language)}
           language={language}
           initialCount={18}
           loadMoreCount={15}

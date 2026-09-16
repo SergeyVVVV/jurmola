@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SetHtmlLang from "../components/SetHtmlLang";
 
 export const metadata: Metadata = {
   title: "Jurmola Telegraphs – Your Jurmala, Your Capital",
@@ -42,5 +43,10 @@ export default function EnLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return (
+    <>
+      <SetHtmlLang lang="en" />
+      {children}
+    </>
+  );
 }
