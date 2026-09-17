@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 277,
+    slug: "jrmala-introduces-quiet-sand-to-preserve",
+    title: {
+      en: "Jūrmala Introduces Quiet Sand to Preserve Resort’s Historic Sound of Passive-Aggressive Seagulls",
+      lv: "Jūrmala ievieš “klusās” smilts, lai saglabātu kūrorta vēsturisko pasīvi-agresīvo kaiju skaņu",
+      ru: "Юрмала вводит «тихий песок», чтобы сохранить исторический звук пассивно‑агрессивных чаек"
+    },
+    excerpt: {
+      en: "City officials in Jūrmala have unveiled a pilot program replacing several kilometers of beach with specially imported “quiet sand” designed to reduce footstep noise by 83% and restore what planners call the resort’s traditional acoustic identity. The move has already divided residents, migratory birds, and one parliamentary subcommittee on national ambience.",
+      lv: "Jūrmalas pilsētas amatpersonas paziņojušas par pilotprojektu, kurā vairāku kilometru garumā pludmale tiks pārklāta ar īpaši ievestu „klusās smilts” slāni, kas paredzēts soļu trokšņa samazināšanai par 83% un tam, ko plānotāji sauc par kūrorta tradicionālās akustiskās identitātes atjaunošanu. Šis solis jau izraisa domstarpības iedzīvotāju, migrējošo putnu un vienas parlamentārās apakškomisijas par nacionālo noskaņu vidū.",
+      ru: "Городские власти Юрмалы представили пилотный проект по замене нескольких километров пляжа специально привезённым «тихим песком», который должен снизить шум шагов на 83% и вернуть то, что планировщики называют традиционной акустической идентичностью курорта. Мера уже разделила жителей, перелётных птиц и один парламентский подкомитет по национальной атмосфере."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a ceremony delayed twice by decorative wind, municipal leaders on Tuesday introduced 14 tons of acoustically treated “quiet sand” to Majori Beach, calling it a bold step toward preserving Jūrmala’s fragile soundscape of distant train brakes, low conversational disappointment, and assertive seagull commentary.
+
+According to city planners, the imported sand — sourced from a “sonically mature coastal partner region” in northern Finland — absorbs up to 83% of casual footstep noise, 61% of sandal drag, and nearly all unnecessary enthusiasm after 21:00. The initiative, officially titled the Seasonal Coastal Acoustic Stabilization Programme, follows a 178-page report concluding that standard Baltic sand had become “too crunchy” during peak tourism months.
+
+“For years, visitors have arrived expecting the authentic Jūrmala experience: pine air, tasteful melancholy, and gulls that sound like they are personally offended by your presence,” said Deputy Mayor Ilze Priedīte, standing beside a demonstration trench while technicians in reflective vests asked beachgoers to walk less brightly. “Instead, what they heard was stomping. This city cannot compete internationally if every fifth person sounds like a shopping bag full of cutlery.”
+
+The municipality says the project will initially cover a 2.3-kilometer stretch between Majori and Dzintari, at a cost of €4.8 million, including transport, moisture calibration, and a public-awareness campaign reminding tourists that audible joy must remain within designated zones. New signs posted along the shore advise visitors to “Relax Responsibly” and “Please Reconsider Sprinting.”
+
+Not all residents are convinced. Local pensioner and year-round observer of beach behavior Valentīna Ozola, 74, said the city should focus on more urgent issues. “Last summer my nephew parked his SUV directly in a philosophical mood,” she said. “No one from the municipality came to regulate that. But suddenly they are measuring the emotional sharpness of flip-flops.”
+
+Business owners, however, have expressed cautious support. Edgars Svilpis, manager of the Amber Whisper Wellness Hotel, said guests increasingly demand silence with “texture.” “People no longer want ordinary peace and quiet,” Svilpis explained. “They want curated quiet. They want to hear one birch leaf, but not the second one. They want a seagull in the mid-distance, not close enough to imply legal risk.”
+
+Early data from the Jūrmala Institute of Applied Atmosphere appears promising. In a three-day trial involving 240 participants, respondents reported a 34% increase in “coastal dignity” and a 19% decrease in “unexpected liveliness.” Researchers also noted that, deprived of loud footsteps, local seagulls became “more verbally creative,” with one flock near Bulduri improvising extended complaint patterns during a 07:12 herring dispute.
+
+The program has also attracted national attention after a Saeima subcommittee on Culture, Environment, and Vague Feelings requested a briefing on whether quiet sand could be adapted for use in Riga’s Old Town. Opposition MPs warned this could erase the capital’s heritage of late-night cobblestone regret, while supporters argued the technology might finally allow pedestrians to hear themselves making bad decisions.
+
+For now, city workers continue raking the pilot area with special low-impact tools imported from Sweden, where several municipalities have already implemented similar measures in reflective lakeside settings. Officials say the final phase will include a mobile app allowing residents to report excessive beach acoustics in real time by selecting from categories such as “aggressive loafing,” “rhythmic towel deployment,” and “child operating above historical volume.”
+
+As Tuesday’s unveiling concluded, a small crowd gathered to test the new surface, walking back and forth in near-total silence while three seagulls screamed over them with renewed authority. “That,” said Deputy Mayor Priedīte, closing her eyes briefly, “is the Jūrmala we remember.”`,
+      lv: `JŪRMALA — Dekoratīvā vēja dēļ divreiz aizkavētā ceremonijā otrdien pašvaldības vadītāji Majoru pludmalē svinīgi iepazīstināja ar 14 tonnām akustiski apstrādātas „klusās smilts”, dēvējot to par drosmīgu soli Jūrmalas trauslās skaņu ainavas saglabāšanā — tālās vilcienu bremzēs, gaumīgā skumjā un kaijās, kas izsakot pārliecinošu, pasīvi-agresīvu komentāru par jūsu klātbūtni.
+
+Pilsētas plānotāju ieskatā ievestā smilts — iegūta no „soniski nobrieduša piekrastes partnerreģiona” Ziemeļsomijā — absorbē līdz 83% parasta soļu trokšņa, 61% čībju ieraušanās skaņu un gandrīz visu nevajadzīgo entuziasmu pēc pulksten 21:00. Iniciatīva, oficiāli saukta par Sezonālo Piekrastes Akustiskās Stabilizācijas Programmu, seko 178 lapu ziņojumam, kurā secināts, ka standarta Baltijas smilts tūrisma sezonas laikā kļuvusi „pārāk kraukšķīga”.
+
+"Gadu gaitā viesi ieradās ar gaidām par autentisku Jūrmalu: priežu gaisu, gaumīgu melanholiju un kaijām, kuras skan it kā personīgi aizvainotas par jūsu klātbūtni," sacīja domes priekšsēdētājas vietniece Ilze Priedīte, stāvot pie demonstrācijas grāvja, kamēr tehniķi atstarojošās vestēs lūdza pludmales apmeklētājus soļot mazāk spoži. "Vietā tam viņi dzirdēja bruņošanos. Šī pilsēta nevar konkurēt starptautiski, ja katrs piektais cilvēks skan kā iepirkumu maisiņš, pilns ar galda piederumiem."
+
+Pašvaldība norāda, ka projekts sākotnēji aptvers 2,3 kilometru posmu starp Majoru un Dzintariem, izmaksas tiek lēstas aptuveni 4,8 miljonu eiro apmērā, ieskaitot transportu, mitruma kalibrēšanu un sabiedrības informēšanas kampaņu, kas atgādinās tūristiem, ka dzirdama prieka izpausme jāierobežo noteiktajās zonās. Gar krastu uzstādītās jaunās zīmes apmeklētājus mudina "atpūsties atbildīgi" un "lūdzu, pārdomājiet skriešanu".
+
+Ne visi iedzīvotāji ir pārliecināti. Vietējā pensionāre un visu gadu uzmanīgā pludmales uzvedības vērotāja Valentīna Ozola, 74, sacīja, ka pilsētai būtu jākoncentrējas uz steidzamākiem jautājumiem. "Pagājušajā vasarā mans brāļadēls novietoja savu apvidus auto tieši filozofiskā noskaņā," viņa teica. "Neviens no pašvaldības nepienāca to sakārtot. Bet pēkšņi viņi mēra čiepu emocionālo asumu."
+
+Savukārt uzņēmēji pauduši piesardzīgu atbalstu. Amber Whisper Wellness Hotel vadītājs Edgars Svilpis sacīja, ka viesi arvien biežāk prasa klusumu ar "tekstūru". "Cilvēki vairs nevēlas parastu mieru un klusumu," skaidroja Svilpis. "Viņi grib kurētu klusumu. Viņi grib dzirdēt vienu bērza lapu, bet ne otro. Viņi grib kaiju vidējā distancē, ne tik tuvu, lai radītu juridisku risku."
+
+Sākotnējie dati no Jūrmalas Lietišķās Atmosfēras institūta izskatās cerīgi. Trīs dienu izmēģinājumā ar 240 dalībniekiem respondenti ziņoja par 34% pieaugumu "piekrastes cieņā" un 19% samazinājumu "negaidītā dzīvīgumā". Pētnieki arī atzīmēja, ka, atņemot skaļos soļus, vietējās kaijas kļuva "vārdiski radošākas" — viena barība pie Bulduriem improvizēja pagarinātas sūdzību frāzes 07:12 siļķu strīda laikā.
+
+Programma piesaistījusi arī nacionālu uzmanību, pēc tam kad Saeimas apakškomisija kultūras, vides un neskaidro izjūtu jautājumos pieprasīja ziņojumu par to, vai klusā smilts būtu pielāgojama izmantošanai Rīgas Vecpilsētā. Opozīcijas deputāti brīdināja, ka tas varētu iznīcināt galvaspilsētas mantojumu par vēlu nakts bruģa nožēlu, savukārt atbalstītāji argumentēja, ka tehnoloģija beidzot varētu ļaut gājējiem dzirdēt paši sevi, pieņemot sliktus lēmumus.
+
+Patlaban pilsētas darbinieki turpina rakt un līdzināt pilotzonu ar īpašiem mazās ietekmes instrumentiem, kas ievesti no Zviedrijas, kur vairākas pašvaldības jau ir realizējušas līdzīgus pasākumus atspoguļojošos ezeru piekrastes apstākļos. Amatpersonas saka, ka noslēdzošā fāze ietvers mobilo lietotni, kas ļaus iedzīvotājiem reāllaikā ziņot par pārāk intensīvu pludmales akustiku, izvēloties kategorijas, piemēram, "agresīva slinkošana", "ritmiska dvieļu izvietošana" un "bērns, kurš darbojas virs vēsturiskā skaļuma".
+
+Pasākuma noslēgumā neliela pūļa pārbaudīt jauno virsmu devās staigāt turp-atpakaļ gandrīz pilnīgā klusumā, kamēr trīs kaijas viņu galvu pārpeldēja, kliedzot ar atjaunotu autoritāti. "Tas," sacīja domes priekšsēdētājas vietniece Priedīte, uz mirkli aizverot acis, "ir tā Jūrmala, ko mēs atceramies."`,
+      ru: `ЮРМАЛА — На церемонии, дважды задержанной декоративным ветром, муниципальные руководители во вторник представили 14 тонн акустически обработанного «тихого песка» на пляже Майори, назвав это смелым шагом к сохранению хрупкой звуковой среды Юрмалы: далёких тормозов поездов, лёгкого разочарования в разговорах и напористых чаечных комментариев.
+
+По словам городских планировщиков, привезённый песок — из «звуково зрелого прибрежного партнёрского региона» на севере Финляндии — поглощает до 83% обычного шума шагов, 61% скольжения шлёпок и почти всю ненужную радость после 21:00. Инициатива, официально названная Сезонной программой прибрежной акустической стабилизации, последовала за 178‑страничным отчётом, в котором стандартный балтийский песок был признан «слишком хрустящим» в пик туристического сезона.
+
+«Гости годами приезжали в ожидании аутентичного юрмальского опыта: сосновый воздух, изящная меланхолия и чайки, которые звучат так, будто обиделись лично на ваше присутствие», — сказала заместительница мэра Ilze Priedīte, стоя у демонстрационной траншеи, пока техники в светоотражающих жилетах просили отдыхающих «гулять менее ярко». «Вместо этого они слышали топот. Этот город не сможет конкурировать на международной арене, если каждый пятый человек звучит как пакет с набором столовых приборов.»
+
+Муниципалитет сообщает, что проект первоначально покроет 2,3‑километровый участок между Майори и Дзинтари и обойдётся в 4,8 млн евро, включая транспортировку, калибровку влажности и кампанию по повышению осведомлённости, напоминающую туристам, что слышимая радость должна оставаться в отведённых зонах. Новые таблички вдоль берега призывают посетителей «Расслабляйтесь ответственно» и «Пожалуйста, ещё раз подумайте, прежде чем бежать.»
+
+Не все жители убеждены. Местная пенсионерка и круглогодичный наблюдатель за пляжным поведением Валентīна Ozola, 74 года, сказала, что городу следует сосредоточиться на более насущных проблемах. «Прошлым летом мой племянник припарковал свой внедорожник прямо в философском настроении, — сокрушалась она. — Никто из муниципалитета этого не урегулировал. А теперь вдруг они измеряют эмоциональную остроту шлёпанцев.»
+
+Владельцы бизнеса, однако, выразили осторожную поддержку. Эдгарс Svilpis, управляющий велнес‑отеля Amber Whisper, сказал, что гости всё чаще требуют тишины с «текстурой». «Люди больше не хотят обычного покоя и тишины, — объяснил Svilpis. — Они хотят курированной тишины. Они хотят слышать одну берёзовую листочку, но не вторую. Они хотят чуточку отстоящую чайку, не настолько близко, чтобы возникал юридический риск.»
+
+Ранние данные Юрмальского института прикладной атмосферы выглядят многообещающе. В трёхдневном пробном испытании с участием 240 человек респонденты сообщили о 34% росте «прибрежного достоинства» и 19% снижении «неожиданной оживлённости». Исследователи также отметили, что, лишённые громких шагов, местные чайки стали «словесно изобретательнее»: одна стая у Булдури импровизировала затяжные шаблоны жалоб во время сельдовой ссоры в 07:12.
+
+Программа привлекла и национальное внимание после того, как подкомитет Сейма по культуре, окружающей среде и расплывчатым чувствам запросил брифинг о том, можно ли адаптировать «тихий песок» для использования в Старом городе Риги. Оппозиционные депутаты предупредили, что это может стереть наследие столицы — ночной сожалительный звон брусчатки, тогда как сторонники утверждали, что технология наконец позволит пешеходам слышать, как они принимают плохие решения.
+
+Пока городские рабочие продолжают грабить пилотную зону специальными маловоздействующими инструментами, импортированными из Швеции, где уже несколько муниципалитетов внедрили похожие меры у зеркальных озёр. По словам чиновников, финальная фаза включит мобильное приложение, позволяющее жителям в реальном времени жаловаться на чрезмерную акустику пляжа, выбирая категории вроде «агрессивное безделье», «ритмичное разворачивание полотенец» и «ребёнок, действующий сверх исторического уровня громкости.»
+
+По окончании вторничного представления небольшая толпа собралась, чтобы опробовать новую поверхность, ходя взад‑вперёд в почти полной тишине, в то время как три чайки над ними пронзительно кричали с обновлённым чувством авторитета. «Вот она, — сказала заместительница мэра Priedīte, на мгновение закрыв глаза, — та Юрмала, которую мы помним.»`
+    },
+    date: "Sep 17, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/277/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 276,
     slug: "jrmala-introduces-quiet-sand-hours-after-276",
     title: {
@@ -102,7 +183,7 @@ Pašvaldība norāda, ka programma darbosies līdz augustam un, ja būs veiksmī
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/276/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 275,
