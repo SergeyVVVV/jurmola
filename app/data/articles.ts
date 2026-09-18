@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 278,
+    slug: "jrmala-introduces-passive-aggressive-seagull-tax",
+    title: {
+      en: "Jūrmala Introduces ‘Passive-Aggressive Seagull Tax’ After Birds Officially Declared Stronger Than Municipal Authority",
+      lv: "Jūrmala ievieš 'Pasīvi-agresīvo kaiju nodokli' pēc tam, kad putni oficiāli atzīti par spēcīgākiem par pašvaldību",
+      ru: "Юрмала вводит «пассивно‑агрессивный налог на чаек» после того, как птиц официально признали сильнее муниципальной власти"
+    },
+    excerpt: {
+      en: "City officials in Jūrmala have approved a seasonal tax aimed at compensating residents for “psychological negotiations” with increasingly organized seagulls along the coast. The measure follows a municipal report concluding that the birds now control several bins, two parking areas, and “the emotional atmosphere” of Dzintari Beach.",
+      lv: "Jūrmalas pašvaldības amatpersonas apstiprinājušas sezonas nodokli, lai atlīdzinātu iedzīvotājiem 'psiholoģiskās sarunas' ar arvien organizētākām kaijām piekrastē. Šis pasākums seko pašvaldības ziņojumam, kurā secināts, ka putni tagad kontrolē vairākas atkritumu urnas, divas stāvvietu zonas un 'Dzintaru pludmales emocionālo atmosfēru'.",
+      ru: "Городские власти Юрмалы одобрили сезонный налог, направленный на компенсацию «психологических переговоров» жителей с всё более организованными чайками вдоль побережья. Мера последовала за муниципальным отчётом, в котором говорится, что птицы теперь контролируют несколько урн, два парковочных места и «эмоциональную атмосферу» пляжа Дзинтари."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a 9–4 vote late Thursday evening, Jūrmala City Council approved what it is calling the Baltic region’s first Passive-Aggressive Seagull Tax, a targeted seasonal levy designed to address the growing imbalance of power between local government and coastal bird populations.
+
+Beginning 1 May, all visitors purchasing a day pass to enter Jūrmala by car will pay an additional €1.70, with proceeds earmarked for “public resilience initiatives,” including gull de-escalation training, emergency pastry diversion stations, and a pilot program teaching children how to maintain eye contact while protecting smoked fish.
+
+The decision follows the release of a 63-page municipal study, Wings of Governance, which found that seagulls in Jūrmala have evolved from “opportunistic scavengers” into “a parallel administrative structure with no electoral accountability.” Researchers documented 417 incidents last summer involving stolen pastries, 89 involving direct intimidation near outdoor cafés, and one “highly coordinated operation” in which a flock distracted a family from Jelgava while a secondary unit removed an entire bag of garlic croutons from a beach blanket.
+
+“These are no longer random acts of avian enthusiasm,” said Deputy Mayor Ilze Pabrika at a press conference held indoors after what officials described as “an avoidable croissant situation” outside the council building. “We are seeing strategic behavior, synchronized swooping, and in at least two cases, what appeared to be mocking. If a resident cannot eat a curd snack in peace, then the municipality must act.”
+
+Under the new plan, tax revenue will support 14 specially marked Gull Recovery Zones where traumatized beachgoers may sit beneath reassuring signage and reassemble their belongings. The city has also commissioned 3,000 laminated wallet cards explaining how to distinguish between ordinary seagull opportunism and what authorities call “advanced social pressure.”
+
+Local ornithologist and crisis consultant Dr. Mārtiņš Šnore, who advised the council, said the birds have adapted unusually well to Baltic tourism patterns. “A Jūrmala seagull can now identify, from approximately 60 meters, the difference between an experienced local carrying herring in a sealed container and a first-time day-tripper holding an open cinnamon bun with hope in his eyes,” Šnore said. “Their judgment is instantaneous and often correct.”
+
+Not all residents support the tax. Beach kiosk owner Sandra Liepiņa argued that the city is punishing people for a conflict it helped create by expanding outdoor snack culture. “For years they encouraged relaxed seaside consumption,” she said. “Now suddenly everyone is surprised that the birds interpreted this as a buffet franchise model.”
+
+Others say the measure does not go far enough. Retired school administrator Andris Kļaviņš, 72, said a single tax cannot solve what he called “a constitutional issue.” Speaking from a bench near Majori station, he held up a half-wrapped pīrāgs and gestured toward the sky. “You tell me,” he said, lowering his voice as three gulls landed nearby. “If a bird can take your lunch, scream at your grandchild, and still stand on a lamp post like it pays property tax, who is the state?”
+
+Municipal data suggests public frustration has intensified sharply. A March survey found that 68% of respondents believe seagulls are “too confident,” while 21% said the birds exhibit “the exact energy of mid-level bureaucracy.” Another 7% said they respected them professionally.
+
+For now, officials insist the tax is a practical first step. If successful, the program may be expanded to include anti-gull umbrellas, therapist-led beach re-entry support, and negotiations with selected flocks.
+
+At sunset on Friday, as council workers installed the first new warning sign near Dzintari Concert Hall, a seagull reportedly landed on top of it, stared at staff for several seconds, and flew away with a freshly labeled municipal sandwich. The city has classified the incident as “symbolic, but not unexpected.”`,
+      lv: `JŪRMALA — Ceturtdienas vakarā, ar balsojumu 9 pret 4, Jūrmalas domes deputāti apstiprināja to, ko sauc par Baltijas reģiona pirmo Pasīvi-agresīvo kaiju nodokli — mērķtiecīgu sezonas nodevu, kas radīta, lai risinātu pieaugošo varas nelīdzsvarotību starp pašvaldību un piekrastes putnu kopienām.
+
+No 1. maija visi, kas iebrauks Jūrmalā ar automašīnu, iegādājoties dienas biļeti, maksās papildus 1,70 €, un ienākumi tiks novirzīti 'sabiedrības noturības iniciatīvām', tostarp kaiju deeskalācijas apmācībām, ārkārtas bulciņu novirzīšanas stacijām un pilotprogrammai, kurā bērniem mācīs, kā saglabāt acu kontaktu, vienlaikus aizsargājot kūpinātu zivi.
+
+Lēmums sekoja 63 lappušu pašvaldības pētījumam Wings of Governance, kurā atklāts, ka Jūrmalas kaijas ir attīstījušās no 'izdevīgiem atkritumu ēdājiem' par 'paralēlu administratīvu struktūru bez vēlēšanu atbildības'. Pētnieki pagājušajā vasarā dokumentēja 417 incidentus saistībā ar nozagtām bulciņām, 89 incidentus ar tiešu iebiedēšanu pie āra kafejnīcām un vienu 'ļoti koordinētu operāciju', kurā bars novērsa ģimenes uzmanību no Jelgavas, kamēr otra vienība aiznesa veselu maisu ķiploku krutoņu no pludmales segu.
+
+"Tās vairs nav nejaušas putnu izpausmes," preses konferencē, kas notika telpās pēc tā dēvētās 'izvairāmās kroasāna situācijas' pie domes ēkas, sacīja domes priekšsēdētājas vietniece Ilze Pabrika. "Mēs redzam stratēģisku uzvedību, sinhronizētu traucēšanos un vismaz divos gadījumos to, kas šķita kā izsmējība. Ja iedzīvotājs nevar mierīgi apēst biezpiena uzkodu, tad pašvaldībai ir jārīkojas."
+
+Saskaņā ar jauno plānu nodokļa ieņēmumi tiks novirzīti 14 īpaši marķētām Kaiju atveseļošanās zonām, kur traumatizētie pludmales apmeklētāji varēs sēdēt zem nomierinošām zīmēm un sakārtot savas mantas. Pilsēta arī pasūtījusi 3000 laminētu kabatas kartīšu ar norādījumiem, kā atšķirt parasto kaiju izdevīgumu no tā, ko varasiestādes sauc par 'uzlabotu sociālo spiedienu'.
+
+Vietējais ornitologs un krīžu konsultants dr. Mārtiņš Šnore, kurš sniedza padomus domei, sacīja, ka putni neparasti labi pielāgojušies Baltijas tūrisma ritmam. "Jūrmalas kaija tagad apmēram no 60 metru attāluma var atšķirt pieredzējušu vietējo iedzīvotāju, kurš nēsā siļķi noslēgtā traukā, no pirmo reizi ieradušā dienas ceļotāja ar atvērtu kanēļmaizīti acīs pilnu cerību," sacīja Šnore. "Viņu spriedums ir momentāns un bieži pareizs."
+
+Ne visi iedzīvotāji atbalsta nodokli. Pludmales kioska īpašniece Sandra Liepiņa apgalvoja, ka pilsēta sodot cilvēkus par konfliktu, ko pati palīdzējusi radīt, paplašinot āra uzkodu kultūru. "Gadu desmitiem viņi veicināja atslābinātu piejūras patēriņu," viņa teica. "Un tagad pēkšņi visi ir pārsteigti, ka putni to interpretējuši kā bufetes franšīzes modeli."
+
+Citi uzskata, ka pasākums nav pietiekami tālu ieturošs. Pensijā esošais skolas pārzinis Andris Kļaviņš, 72 gadi, sacīja, ka viens nodoklis nevar atrisināt to, ko viņš nosauc par 'konstitucionālu jautājumu'. Sēžot uz sola pie Majori stacijas, viņš uzvilka pusi iesaiņota pīrāga un norādīja uz debesīm. "Tu pasaki man," viņš teica, nolaidot balsi, kamēr trīs kaijas nosēdās netālu. "Ja putns var paņemt tavu pusdienu, uzkliegt tavām mazbērniem un vēl stāvēt uz lampas kā tam būtu jāmaksā nekustamā īpašuma nodoklis, kas tad ir valsts?"
+
+Pašvaldības dati liecina, ka sabiedrības neapmierinātība ir strauji pieaugusi. Marts aptauja atklāja, ka 68% respondentu uzskata kaijas par 'pārāk pašpārliecinātām', kamēr 21% sacīja, ka putniem piemīt 'tieši tāda pati enerģija kā vidējā līmeņa birokrātijai'. Vēl 7% teica, ka tie profesionāli cienot tās.
+
+Pašlaik amatpersonas uzsver, ka nodoklis ir praktisks pirmais solis. Ja tas izrādīsies veiksmīgs, programma var tikt paplašināta, iekļaujot anti-kaiju lietussargus, psihoterapeita vadītu pludmales atkārtotas ienākšanas atbalstu un sarunas ar atlasītiem bariem.
+
+Piektdienas saulrietā, kamēr dome uzstādīja pirmo jauno brīdinājuma zīmi pie Dzintaru koncertzāles, kaija, kā ziņots, nosēdās uz tās augšas, dažas sekundes skatījās uz darbiniekiem un aizlidoja prom ar svaigi marķētu pašvaldības sendviču. Pilsēta šo incidentu klasificējusi kā 'simbolisku, bet nepārsteidzošu.'`,
+      ru: `ЮРМАЛА — На позднем заседании в четверг вечером городcкой совет Юрмалы проголосовал 9 голосами против 4 за то, что называет первым в Балтийском регионе «Пассивно‑агрессивным налогом на чаек» — целевым сезонным сбором, призванным устранить растущий дисбаланс сил между местной властью и прибрежными популяциями птиц.
+
+Начиная с 1 мая, все посетители, покупающие дневной пропуск для въезда в Юрмалу на автомобиле, будут платить дополнительно €1,70; вырученные средства пойдут на «инициативы общественной устойчивости», включая тренинги по деэскалации конфликтов с чайками, экстренные станции отвлечения выпечки и пилотную программу по обучению детей сохранять зрительный контакт при защите копчёной рыбы.
+
+Решение последовало за публикацией 63‑страничного муниципального исследования «Крылья управления», в котором констатируется, что чайки в Юрмале эволюционировали из «оппортунистических падальщиков» в «параллельную административную структуру без электоральной отчётности». Исследователи зафиксировали прошлым летом 417 инцидентов кражи выпечки, 89 случаев прямого запугивания возле летних кафе и одну «высоко скоординированную операцию», в которой стая отвлекла семейство из Елгавы, пока вторичный отряд снял с пляжного пледа целый пакет чесночных круто́нов.
+
+«Это уже не случайные вспышки птичьего рвения», — заявила заместитель мэра Илзе Пабрика на пресс‑конференции, прошедшей в помещении после того, что чиновники описали как «избежная ситуация с круассаном» около здания совета. «Мы наблюдаем стратегическое поведение, синхронные пикирования и, как минимум в двух случаях, то, что можно было принять за насмешку. Если житель не может спокойно съесть творожную закуску, муниципалитет обязан вмешаться». 
+
+По новому плану доходы от налога пойдут на содержание 14 специально обозначенных «Зон восстановления от чаек», где травмированные пляжники смогут посидеть под обнадёживающими вывесками и привести свои вещи в порядок. Город также заказал 3 000 ламинированных карточек для кошельков с объяснением, как отличить обычный оппортунизм чайки от того, что власти называют «продвинутым социальным давлением».
+
+Местный орнитолог и консультант по кризисам доктор Мартиньш Шноре, консультировавший совет, сказал, что птицы необычайно хорошо адаптировались к туристическим паттернам Балтики. «Юрмальская чайка теперь с расстояния примерно 60 метров может определить разницу между искушённым местным, несущим сельдь в герметичной упаковке, и впервые приехавшим, державшим в руках открытый булочку с корицей и надеждой в глазах», — сказал Шноре. «Их суждение мгновенно и зачастую верно». 
+
+Не все жители поддержали налог. Владелица пляжного киоска Сандра Лиепиня утверждала, что город наказывает людей за конфликт, который сам и создал, расширяя культуру уличной закуски. «Годами они поощряли расслабленное потребление на побережье, — сказала она. — И вдруг все удивляются, что птицы восприняли это как модель шведского стола с франшизой». 
+
+Другие говорят, что мера недостаточна. Пенсионер и бывший школьный администратор Андрис Клявиньш, 72 года, заявил, что один налог не решит то, что он называет «конституционной проблемой». Сидя на скамейке у станции Майори, он держал в руках наполовину завернутый пīрāгс и помахал рукой в сторону неба. «Скажите мне, — понизил он голос, когда рядом приземлились три чайки, — если птица может забрать твой обед, накричать на внука и при этом стоять на фонарном столбе так, будто платит налог на недвижимость, то кто тогда государство?» 
+
+Муниципальные данные указывают на резкое возрастание общественного раздражения. В опросе марта 68% респондентов сочли чаек «слишком самоуверенными», 21% заявили, что птицы проявляют «эту самую энергию среднего звена бюрократии». Ещё 7% признались, что испытывают к ним профессиональное уважение.
+
+Пока чиновники настаивают, что налог — это практичный первый шаг. В случае успеха программу могут расширить: предусмотреть зонты против чаек, психологическую поддержку при возвращении на пляж под руководством терапевтов и переговоры с избранными стаями.
+
+На заходе солнца в пятницу, когда рабочие совета устанавливали первый новый предупредительный знак возле концертного зала Дзинтари, чайка, по сообщениям, села прямо на его вершину, уставилась на сотрудников несколько секунд и улетела с недавно маркированным муниципальным бутербродом. Город классифицировал инцидент как «символичный, но не неожиданный».`
+    },
+    date: "Sep 18, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/278/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 277,
     slug: "jrmala-introduces-quiet-sand-to-preserve",
     title: {
@@ -96,7 +183,7 @@ Pasākuma noslēgumā neliela pūļa pārbaudīt jauno virsmu devās staigāt tu
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/277/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 276,
