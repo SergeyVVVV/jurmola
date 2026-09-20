@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 280,
+    slug: "jrmala-introduces-silent-beach-siren-so",
+    title: {
+      en: "Jūrmala Introduces Silent Beach Siren So Residents Can Feel Controlled Without Hearing Anything",
+      lv: "Jūrmala ievieš klusējošu pludmales sirēnu — lai iedzīvotāji justos kontrolēti, nesadzirdot neko",
+      ru: "Юрмала вводит беззвучную пляжную сирену, чтобы жители могли ощущать контроль, ничего не слыша"
+    },
+    excerpt: {
+      en: "After years of complaints that traditional seaside warning sirens were \"too alarming\" and \"interrupted very important staring at the horizon,\" Jūrmala officials have unveiled the Baltic region’s first fully silent beach siren. Authorities say the system preserves public order while respecting local expectations that emergencies, like everything else, should remain tasteful and slightly passive-aggressive.",
+      lv: "Pēc gadiem ilgiem sūdzību, ka tradicionālās piejūras brīdinājuma sirēnas ir «pārāk satraucošas» un «traucē ļoti svarīgai skatīšanās uz apvārsni», Jūrmalas amatpersonas atklājušas Baltijas reģiona pirmo pilnīgi kluso pludmales sirēnu. Varas pārstāvji apgalvo, ka sistēma saglabā sabiedrisko kārtību, cienot vietējās cerības, ka ārkārtas situācijām, tāpat kā visam pārējam, jākļūst gaumīgām un viegli pasīvi-agresīvām.",
+      ru: "После многих жалоб, что традиционные прибрежные сирены «слишком пугают» и «мешают очень важному смотрению в горизонт», власти Юрмалы представили первую в Балтике полностью беззвучную пляжную сирену. По их словам, система сохраняет общественный порядок, одновременно уважая местные ожидания: чрезвычайные ситуации, как и всё прочее, должны оставаться со вкусом и слегка пассивно-агрессивными."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a ceremony delayed 40 minutes by ceremonial indecision, Jūrmala city officials on Thursday presented a new silent emergency siren designed to alert beachgoers to dangerous weather, high waves, missing children, and, in severe cases, unauthorized loud happiness.
+
+The device, officially named the Coastal Acoustic Neutrality Beacon, emits no sound whatsoever. Instead, it stands at 6.2 meters tall near Majori beach and "radiates administrative concern," according to city representatives. The project, funded through a €418,000 combination of municipal reserves, EU coastal resilience money, and one extremely specific wellness grant, is already being praised by local residents who say it finally reflects the true emotional register of Latvian public life.
+
+"People in Jūrmala don’t want to be shouted at by the state, even for safety," said Deputy Executive Director for Seasonal Discipline Ilze Krauja, standing beside the matte-white tower as several journalists squinted respectfully at it. "The old sirens created panic, movement, and in one case an impromptu queue. This new system allows residents to sense, privately and with dignity, that they may be in danger."
+
+According to municipal documents, the silent siren was tested on 1,200 volunteers over the course of two weekends. Of those, 73% reported feeling "somewhat supervised," 18% said they suddenly wanted to gather their belongings for no reason, and 9% experienced what researchers classified as "a firm but unclear intuition about the sea."
+
+The project was developed in partnership with the Riga Institute for Applied Civic Atmosphere, where engineers spent 14 months studying how to communicate urgency without creating the social embarrassment associated with reacting too quickly. Lead designer Dr. Emīls Vītols said the tower uses advanced non-auditory signaling methods, including subtle geometric authority, a faint smell of wet paperwork, and what he called "bureaucratic pressure fields."
+
+"It’s not about hearing," Vītols explained. "It’s about knowing, at a deep cultural level, that if something tall and municipal appears near you, your afternoon has been revised."
+
+Beachgoers interviewed Thursday largely supported the innovation. "I prefer this," said 62-year-old Dzintari resident Maija Sproģe, folding a towel with visible suspicion. "With a normal siren, everyone starts looking around, asking questions, behaving Southern. Now I can simply feel disappointed and leave on my own terms."
+
+Not everyone is convinced. Lifeguard supervisor Artūrs Priedītis warned that the silent siren may be too subtle for foreign tourists, particularly those from countries where emergencies are still communicated "through noise and emotion." Last summer, he noted, one German visitor ignored three red flags, two whistle blasts, and a lifeguard standing knee-deep in the Gulf of Riga making direct eye contact.
+
+To address this, the city has installed multilingual signage reading: IF YOU SENSE AN OFFICIAL VAGUENESS, PLEASE EXIT THE WATER CALMLY. QR codes link to a government webpage where users can confirm whether they are currently being warned.
+
+Officials say the system will be expanded next year to include silent train announcements, invisible parking enforcement, and a pilot program in central Riga in which potholes will communicate disappointment directly to drivers.
+
+At press time, the silent siren had already been activated after a cloud over the Gulf appeared "administratively dark," prompting dozens of locals to pack up, sigh, and leave the beach with the eerie efficiency of a population that has finally found a public safety system matching its soul.`,
+      lv: `JŪRMALA — Pēc ceremonijas, kas aizkavējās par 40 minūtēm veselīgā ceremonijas indecizijā, piektdien Jūrmalas pilsētas amatpersonas prezentēja jaunu kluso ārkārtas sirēnu, kas paredzēta, lai brīdinātu pludmales apmeklētājus par bīstamu laiku, augstām viļņām, pazudušiem bērniem un, smagos gadījumos, neatļautu skaļu laimi.
+
+Ierīce, oficiāli nosaukta par Krasta akustiskās neitralitātes bāku, vispār nerada nekādu skaņu. Tās 6,2 metrus augstā baltmatētā konstrukcija pie Majori pludmales "izstaro administratīvu rūpi", ziņoja pilsētas pārstāvji. Projekts, finansēts ar 418 000 eiro kombināciju no pašvaldības rezerves līdzekļiem, ES krasta noturības fonda un viena ārkārtīgi specifiska labklājības granta, jau tiek slavēts vietējo iedzīvotāju vidū, kas saka, ka tas beidzot atspoguļo patieso Latvijas sabiedriskās dzīves emocionālo reģistru.
+
+"Jūrmalas iedzīvotāji nevēlas, lai valsts viņus kliedz, pat ja tas nepieciešams drošībai," sacīja sezonālās disciplīnas izpilddirektora vietniece Ilze Krauja, stāvot blakus baltajam stabam, kamēr vairāki žurnālisti pieklājīgi to sažmiedzot skatījās. "Vecās sirēnas radīja paniku, kustību un vienā gadījumā spontānu rindu. Šī jaunā sistēma ļauj iedzīvotājiem sajust, privāti un ar cieņu, ka viņi iespējams atrodas briesmās."
+
+Pēc pašvaldības dokumentiem kluso sirēnu pārbaudīja 1 200 brīvprātīgo divu nedēļas nogaļu laikā. No tiem 73% ziņoja, ka jūtas "līdzīgi uzraudzīti", 18% sacīja, ka pēkšņi vēlējās sakravāt mantas bez iemesla, un 9% piedzīvoja to, ko pētnieki klasificēja kā "stingru, bet neskaidru intuīciju par jūru."
+
+Projekts izstrādāts sadarbībā ar Rīgas pielietotās pilsoniskās atmosfēras institūtu, kur inženieri 14 mēnešus pētīja, kā komunicēt steidzamību, neradot sociālo apkaunošanos, kas saistīta ar pārāk ātru reaģēšanu. Galvenais dizaineris Dr. Emīls Vītols skaidroja, ka tornis izmanto uzlabotas nedzirdamas signālēšanas metodes, tostarp smalku ģeometrisku autoritāti, vāju mitru dokumentu smaržu un to, ko viņš sauc par "birokrātiskajiem spiediena laukiem."
+
+"Nav runa par dzirdi," Vītols paskaidroja. "Runa ir par to, lai kultūras dziļumā zinātu — ja kaut kas garš un municipāls parādās tev apkārt, tava pēcpusdiena ir pārskatīta."
+
+Pludmales apmeklētāji, ar kuriem runāja žurnālisti, lielākoties atbalstīja inovāciju. "Es priekšroku dodu tam," sacīja 62 gadus vecā Dzintaru iedzīvotāja Maija Sproģe, savukārt aizdomīgi locīdama dvieli. "Ar parastu sirēnu visi sāk skatīties apkārt, uzdot jautājumus, uzvesties kā dienvidnieki. Tagad es vienkārši varu būt vīlusies un doties prom pēc saviem noteikumiem."
+
+Ne visi ir pārliecināti. Glābšanas dienesta priekšnieks Artūrs Priedītis brīdināja, ka klusā sirēna varētu būt par smalku ārvalstu tūristiem, īpaši tiem no valstīm, kur ārkārtas situācijas joprojām tiek paziņotas "ar troksni un emocijām." Pagājušovasar, viņš atzīmēja, viens vācu viesis ignorēja trīs sarkanās karogus, divus svilpienus un glābēju, kas stāvēja ceļos Rīgas jūras līcī un tieši skatījās acīs.
+
+Lai to risinātu, pilsēta uzstādījusi daudzvalodu zīmes ar tekstu: "JA JŪTAT OFICIĀLU NESKAIDRĪBU, LŪDZU KLUSI IZKĀPIET NO ŪDENS." QR kodi ved uz valdības tīmekļa lapu, kur lietotāji var pārbaudīt, vai viņiem šobrīd tiek izteikts brīdinājums.
+
+Amatpersonas saka, ka sistēmu nākamgad plānots paplašināt, iekļaujot klusos vilcienu paziņojumus, neredzamu stāvvietu uzraudzību un pilotprojektu Rīgas centrā, kur bedrītes autovadītājiem tieši izteiks vīlušanos.
+
+Preses lasīšanas brīdī klusā sirēna jau bija aktivizēta pēc tam, kad virs līča parādījās mākoņs, kas šķita "administratīvi tumšs", rosinot desmitiem vietējo sakravāt mantas, nopūsties un pamest pludmali ar dīvaini efektīvu rīcību — tādu, kas liecina par sabiedrību, kas beidzot atradusi publiskās drošības sistēmu, kas atbilst tās dvēselei.`,
+      ru: `ЮРМАЛА — На церемонии, отложенной на 40 минут из-за церемониального раздумья, в четверг городские власти Юрмалы представили новую беззвучную аварийную сирену, предназначенную для оповещения отдыхающих о неблагоприятной погоде, больших волнах, пропавших детях и, в серьёзных случаях, несанкционированной громкой радости.
+
+Устройство, официально именуемое «Береговой маяк акустического нейтралитета», совершенно не издаёт звуков. Вместо этого оно возвышается на 6,2 метра у пляжа Майори и, как заявляют городские представители, «излучает административную озабоченность». Проект, финансировавшийся за счёт 418 000 евро из муниципальных резервов, средств ЕС на прибрежную устойчивость и одного исключительно специфического гранта в сфере велнеса, уже получает похвалу от местных жителей, которые говорят, что он наконец отражает истинный эмоциональный регистр латвийской общественной жизни.
+
+«Люди в Юрмале не хотят, чтобы им кричало государство, даже ради безопасности», — заявила заместитель исполнительного директора по сезонной дисциплине Илзе Крауя, стоя рядом с матово‑белой башней, пока несколько журналистов уважительно прищуривались на неё. «Старые сирены создавали панику, движение и в одном случае — спонтанную очередь. Эта новая система позволяет жителям ощущать, приватно и с достоинством, что они, возможно, в опасности.»
+
+Согласно муниципальным документам, беззвучную сирену протестировали на 1 200 добровольцах в течение двух выходных. Из них 73% сообщили, что почувствовали себя «в некоторой степени наблюдаемыми», 18% заявили, что внезапно захотели собрать вещи без видимой причины, и 9% испытали то, что исследователи охарактеризовали как «твёрдую, но неясную интуицию относительно моря». 
+
+Проект был разработан в партнёрстве с Рижским институтом прикладной гражданской атмосферы, где инженеры в течение 14 месяцев изучали, как передать срочность, не создавая социального смущения от слишком быстрой реакции. Ведущий дизайнер доктор Эмилс Витолс сказал, что башня использует передовые неаудиционные методы сигнализации, включая тонкую геометрическую авторитетность, слабый запах влажной бумаги и то, что он назвал «полями бюрократического давления». 
+
+«Дело не в слышимости, — объяснил Витолс. — Речь о знании, на глубоко культурном уровне, что если рядом появляется что‑то высокое и муниципальное, ваш послеполуденный план пересмотрен.»
+
+Отдыхающие, опрошенные в четверг, в основном поддержали нововведение. «Мне нравится это больше», — сказала 62‑летняя жительница Дзинтари Майя Спроге, складывая полотенце с явным подозрением. «С обычной сиреной все начинают оглядываться, задавать вопросы, вести себя южно. Теперь я могу просто почувствовать разочарование и уйти на своих условиях.»
+
+Не все убеждены. Начальник службы спасателей Артурс Приедитис предупредил, что беззвучная сирена может быть слишком тонкой для иностранных туристов, особенно тех, из стран, где чрезвычайные ситуации всё ещё передают «шумом и эмоциями». Прошлым летом, заметил он, один немецкий посетитель проигнорировал три красных флага, два свистка и спасателя, стоявшего по колено в Рижском заливе и устанавливавшего прямой зрительный контакт.
+
+Чтобы решить эту проблему, в городе установили многоязычные таблички с надписью: «ЕСЛИ ВЫ ОЩУЩАЕТЕ ОФИЦИАЛЬНУЮ РАСПЛЫВЧИВОСТЬ, ПОЖАЛУЙСТА, СПОКОЙНО ПОКИНЬТЕ ВОДУ.» QR‑коды ведут на правительственную веб‑страницу, где пользователи могут подтвердить, находятся ли они в текущем состоянии предупреждения.
+
+По словам чиновников, систему расширят в следующем году: планируются беззвучные объявления в поездах, невидимая парковочная контрольно‑пропускная система и пилотный проект в центре Риги, в рамках которого ямы на дорогах будут напрямую выражать водителям разочарование.
+
+На момент выхода материала беззвучная сирена уже была активирована после того, как облако над заливом показалось «административно тёмным», что побудило десятки местных жителей собрать вещи, вздохнуть и покинуть пляж с жуткой эффективностью населения, которое, наконец, нашло систему общественной безопасности, соответствующую его душе.`
+    },
+    date: "Sep 20, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/280/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 279,
     slug: "jrmala-introduces-silent-applause-tax-after-279",
     title: {
@@ -120,7 +207,7 @@ Kad saule norietēja virs pludmales, viens vijolnieks, kas spēlēja reti apmekl
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/279/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 278,
