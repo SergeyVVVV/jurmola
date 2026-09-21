@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 281,
+    slug: "riga-introduces-official-queue-whisperer-to",
+    title: {
+      en: "Riga Introduces Official Queue Whisperer To Reduce Passive-Aggressive Sighing By 14% Before Winter",
+      lv: "Rīga ievieš oficiālu rindu čukstētāju, lai pirms ziemas samazinātu pasīvi‑agresīvo nopūtu skaitu par 14%",
+      ru: "Рига вводит официального шепотчика очередей, чтобы сократить пассивно-агрессивные вздохи на 14% до зимы"
+    },
+    excerpt: {
+      en: "Facing what city officials have called a \"critical atmosphere of unexpressed displeasure,\" Riga has launched a pilot program placing trained Queue Whisperers in municipal service lines. Authorities say the initiative could reduce eye-rolling, strategic coat-adjustment, and audible sighing across the capital before heating season begins.",
+      lv: "Saskaroties ar to, ko pilsētas amatpersonas nosaukušas par \"kritisku neizpaustas neapmierinātības atmosfēru\", Rīga uzsāk pilotprogrammu, ievietojot apmācītus rindu čukstētājus pašvaldību pakalpojumu rindās. Varasiestādes apgalvo, ka iniciatīva varētu samazināt acu rullēšanu, taktisku mēteļa pārrakstīšanu un skaļā nopūšanos visā galvaspilsētā pirms apkures sezonas sākuma.",
+      ru: "Столкнувшись с тем, что городские чиновники назвали «критической атмосферой невысказанного недовольства», Рига запустила пилотный проект по размещению обученных шепотчиков очередей в муниципальных службах. По словам властей, инициатива может сократить закатывание глаз, стратегическую корректировку пальто и слышимые вздохи по всему городу до начала отопительного сезона."
+    },
+    fullContent: {
+      en: `RIGA — In a move described by municipal leaders as “quietly historic,” the Riga City Council on Tuesday unveiled its first class of certified Queue Whisperers, specially trained public servants tasked with calming residents standing in line at post offices, clinics, permit counters, and other traditional sites of Baltic emotional compression.
+
+The pilot program, funded through a €2.8 million “social harmony and circulation efficiency” package, comes after a 147-page city report found that passive-aggressive sighing in public queues rose 22% last year, with the sharpest increase recorded between 8:10 and 10:45 a.m. on weekdays and “whenever someone appears to have skipped ahead because they know a cousin at the desk.”
+
+According to Deputy Mayor for Civic Flow Evija Bērziņa, the issue has been ignored for too long. “A queue is not merely a line,” Bērziņa said, standing in front of a demonstration queue outside the Central District Population Registry. “It is a social ecosystem. One badly timed exhale, one theatrical glance at a wristwatch, and the entire structure collapses into a nation-state of resentment.”
+
+Under the new system, Queue Whisperers will move discreetly along lines, offering real-time emotional de-escalation. Techniques include murmuring phrases such as “it is moving, just spiritually,” validating citizens’ suspicion that Line B always advances faster than Line A, and identifying “alpha grandmothers” before they reorganize the queue by moral authority alone.
+
+At the Riga 3rd Regional Polyclinic, where the program was tested for six weeks, officials reported measurable improvements. Average muttered commentary per citizen dropped from 3.4 remarks to 1.2, while incidents of aggressive document shuffling fell by 31%. Most notably, queue abandonment decreased after Whisperers began announcing estimated wait times in the familiar local format of “not long” and “depends.”
+
+Residents expressed cautious support. “At first I was against it because I don’t think the city should interfere with my disappointment,” said Imants Kalniņš, 54, who had been waiting to update his parking permit. “But then the young man in the beige vest told me my frustration was valid and statistically shared by others. It was the most seen I’ve felt in a government building.”
+
+Others remain skeptical. Pensioner Velta Ozoliņa, who has maintained what neighbors call a “highly disciplined relationship with queuing” since 1978, said no whisperer could replace lived experience. “You cannot train this,” she said, tapping the floor with a folded utility bill. “I can tell within seven seconds which line contains a person who will suddenly remember they forgot a photocopy. That is instinct.”
+
+To qualify, Queue Whisperers complete a 120-hour certification course at the Latvian Academy of Administrative Atmosphere. Modules include Applied Stillness, Introductory Tension Mapping, and Advanced Nonverbal Nodding. Final exams require trainees to stand between two irritated men in identical dark jackets while a self-service printer runs out of paper.
+
+The city says the next phase may expand the program to Jurmala during summer, where queues outside artisan ice cream kiosks have become “emotionally complex” due to heat, parking disputes, and the appearance of tourists who ask if the sea is always “this determined.”
+
+Economists at the Bank of Latvia have declined to estimate the program’s long-term impact, though one internal memo noted that if successful, the initiative could save thousands of productive hours currently lost to silent outrage and re-explaining whose turn it was.
+
+By late afternoon Tuesday, the first signs of progress were already visible at a customer service center on Brīvības Street, where seven residents reportedly allowed a man to search his bag for reading glasses without a single public throat-clear. Officials called the moment encouraging, though they cautioned that sustained results will depend on staffing, funding, and whether anyone’s aunt arrives and says, “I’m not cutting in, I’m just asking one tiny question.”`,
+      lv: `RĪGA — Solī, ko pašvaldības vadība raksturojusi kā “klusumā vēsturisku,” Rīgas domes otrdien atklāja savu pirmo sertificēto rindu čukstētāju grupu — īpaši apmācītus valsts tarifikācijas darbiniekus, kuru uzdevums ir nomierināt rindā stāvošos iedzīvotājus pastā, klīnikās, atļauju logu rindās un citās tradicionālajās Baltijas emocionālās saspiešanas vietās.
+
+Pilotprogramma, finansēta ar 2,8 miljonu eiro "sociālās harmonijas un aprites efektivitātes" paku, seko 147 lapu pilsētas ziņojumam, kurā konstatēts, ka pasīvi‑agresīvā nopūšanās publiskajās rindās pagājušajā gadā pieauga par 22%, un visstraujākais kāpums reģistrēts darbības dienu rītos no 8:10 līdz 10:45 un "kad šķiet, ka kāds ir pārgājis priekšā, jo pie lodziņa ir radiņš." 
+
+Pilsētas vicemēre pilsoņu plūsmas jautājumos Evija Bērziņa sacīja, ka jautājums ilgi ticis ignorēts. "Rinda nav tikai līnija," Bērziņa teica, stāvot pie demonstrācijas rindas pie Centrālā rajona Dzimstības reģistra. "Tā ir sociāla ekosistēma. Viens nevietā izelpot, viens teatrāls skatījums uz rokas pulksteni — un visa struktūra sabrūk par nepieredzētas aizkaitinātības valsti."
+
+Saskaņā ar jauno sistēmu rindu čukstētāji diskrēti pārvietosies gar rindām, piedāvājot reāllaika emocionālo deeskalāciju. Tehnikas ietver tādu frāžu murmināšanu kā "tas kustas, tikai garīgi", pilsoņu aizdomu apstiprināšanu, ka B‑rinda vienmēr kustas ātrāk nekā A‑rinda, un "alfa vecmāmiņu" identificēšanu pirms viņas pēc morālas autoritātes vien reorganizē rindu.
+
+Rīgas 3. reģionālajā poliklīnikā, kur programmu testēja sešas nedēļas, amatpersonas ziņoja par taustāmiem uzlabojumiem. Vidējais klusi piemurmļotais komentārs uz vienu iedzīvotāju samazinājās no 3,4 piezīmēm līdz 1,2, savukārt agresīvas dokumentu šķirstīšanas incidentu skaits kritās par 31%. Visvērtīgāk — rindas pametšana samazinājās pēc tam, kad čukstētāji sāka paziņot gaidīšanas laika aplēses pazīstamajā vietējā formātā "drīz" un "tas atkarīgs." 
+
+Iedzīvotāji izrādīja piesardzīgu atbalstu. "Sākumā es biju pret, jo neuzskatu, ka pilsētai vajadzētu iejaukties manā vilšanās izjūtā," sacīja 54 gadus vecais Imants Kalniņš, kurš gaidīja, lai atjauninātu savu stāvvietas atļauju. "Bet tad jaunais vīrietis bēšā vestē man teica, ka mana fristrācija ir pamatota un statistiski kopīga arī citiem. Tā bija visredzamākā sajūta, kādu jebkad esmu juties valsts iestādē."
+
+Citi paliek skeptiski. Pensionāre Velta Ozoliņa, kura kopš 1978. gada uztur to, ko kaimiņi dēvē par "augsti disciplinētu attiecību ar rindām," sacīja, ka neviens čukstētājs nevar aizstāt dzīves pieredzi. "To nevar apmācīt," viņa teica, piesitot grīdai ar salocītu komunālo rēķinu. "Es varu noteikt septiņu sekunžu laikā, kurā rindā ir cilvēks, kurš pēkšņi atcerēsies, ka aizmirsis fotokopiju. Tas ir instinkts." 
+
+Lai kvalificētos, rindu čukstētāji iziet 120 stundas ilgu sertifikācijas kursu Latvijas Administratīvās Atmosfēras akadēmijā. Moduļi ietver Pielietoto klusēšanu, Ievadu spriedzes kartēšanā un Augstāko neverbālo galvas mājienu. Noslēguma eksāmenā apmācāmie tiek piespiesti stāvēt starp diviem aizkaitinātiem vīriešiem identiskos tumšos žakos, kamēr pašapkalpošanās printers paliek bez papīra.
+
+Pilsēta saka, ka nākamajā posmā programma varētu tikt paplašināta uz Jūrmalu vasarā, kur rindas pie amatnieku saldējuma būdiņām kļuvušas "emocionāli komplicētas" karstuma, stāvvietu strīdu un tūristu parādīšanās dēļ, kuri jautā, vai jūra vienmēr ir "tik apņēmīga." 
+
+Latvijas Bankas ekonomisti atteikušies lēst programmas ilgtermiņa ietekmi, lai gan viens iekšējs ziņojums atzīmēja, ka, ja iniciatīva izrādīsies sekmīga, tā varētu ietaupīt tūkstošiem produktīvo stundu, kas pašlaik tiek zaudētas klusā sašutumā un atkārtotā skaidrošanā, kurai pienākas kārta.
+
+Vēlā otrdienas pēcpusdienā pirmie progresu signāli jau bija redzami klientu apkalpošanas centrā Brīvības ielā, kur septiņi iedzīvotāji, pēc ziņām, ļāva vīrietim izmeklēt somu pēc lasītājbrillēm bez nevienas publiskas rīkstes. Amatpersonas brīdi nodēvēja par iedvesmojošu, tomēr brīdināja, ka ilgstoši rezultāti būs atkarīgi no personāla pieejamības, finansējuma un no tā, vai kādas radinieces pienāks un teiks: "Es neraujos priekšā, es tikai uzdodu vienu sīciņu jautājumu."`,
+      ru: `РИГА — В шаге, который муниципальные лидеры назвали «тихой историей», Рижская городская дума во вторник представила первый набор сертифицированных шепотчиков очередей — специально обученных государственных служащих, чья задача успокаивать жителей, стоящих в очередях на почте, в клиниках, в окнах разрешений и на других традиционных местах балтийской эмоциональной компрессии.
+
+Пилотная программа, профинансированная в рамках пакета «социальной гармонии и эффективности циркуляции» на сумму €2,8 млн, появилась после того, как 147-страничный городской отчет показал, что пассивно-агрессивное вздыхание в общественных очередях выросло на 22% за прошлый год, причем резкий скачок зафиксирован в будние дни между 8:10 и 10:45 и «всякий раз, когда кажется, что кто-то прошел вперед, потому что у него на стойке работает двоюродный брат». 
+
+По словам заместителя мэра по гражданскому потоку Эвии Бērзиньи (Evija Bērziņa), проблема игнорировалась слишком долго. «Очередь — это не просто линия», — сказала Бērзинья, стоя перед демонстрационной очередью возле Центрального районного регистра населения. «Это социальная экосистема. Один неуместный выдох, один театральный взгляд на наручные часы — и вся структура рушится в национальное государство обиды». 
+
+По новой системе шепотчики очередей будут незаметно перемещаться вдоль линий, предлагая эмоциональную деэскалацию в реальном времени. Техники включают бормотание фраз вроде «идет, просто духовно», подтверждение подозрений граждан, что очередь Б всегда движется быстрее, чем очередь А, и выявление «альфа-бабушек» до того, как они реорганизуют очередь лишь на основании морального авторитета.
+
+В 3-й региональной поликлинике Риги, где программу тестировали шесть недель, чиновники сообщили о заметных улучшениях. Среднее число бормочущих комментариев на одного человека упало с 3,4 до 1,2, а случаи агрессивного перетасовывания документов сократились на 31%. Самое примечательное — число отказов от ожидания уменьшилось после того, как шепотчики начали объявлять предполагаемое время ожидания в привычном для местных формате «недолго» и «зависит». 
+
+Жители осторожно поддержали инициативу. «Сначала я был против, потому что не думаю, что город должен вмешиваться в мое разочарование», — сказал 54-летний Имантс Калнiньш (Imants Kalniņš), который ждал обновления парковочного разрешения. «Но потом молодой человек в бежевом жилете сказал мне, что мое разочарование оправдано и статистически разделено другими. Это было самое внимательное ко мне отношение, которое я ощущал в государственном здании». 
+
+Другие остаются скептичными. Пенсионерка Вельта Озолиня (Velta Ozoliņa), которая с 1978 года поддерживает то, что соседи называют «строго дисциплинированными отношениями с очередями», сказала, что никакой шепотчик не заменит накопленного опыта. «Этому не научишь», — сказала она, постукивая по полу свернутой коммунальной квитанцией. «Я за семь секунд определю, в какой очереди окажется человек, который вдруг вспомнит, что забыл копию. Это инстинкт». 
+
+Чтобы получить квалификацию, шепотчики очередей проходят 120-часовой сертификационный курс в Латвийской академии административной атмосферы. Модули включают «прикладную неподвижность», «вводное картирование напряжения» и «продвинутое невербальное кивание». На финальных экзаменах курсантам требуется встать между двумя раздраженными мужчинами в одинаковых темных куртках, пока принтер самообслуживания не закончится бумага. 
+
+Город заявляет, что следующий этап может расширить программу до Юрмалы летом, где очереди у киосков с авторским мороженым стали «эмоционально сложными» из-за жары, спорных парковок и появления туристов, спрашивающих, всегда ли море такое «решительное». 
+
+Экономисты Банка Латвии отказались оценивать долгосрочное влияние программы, хотя в одном внутреннем меморандуме отмечалось, что в случае успеха инициатива может сэкономить тысячи продуктивных часов, в настоящее время теряемых на безмолвное возмущение и повторное объяснение, чья очередь. 
+
+К позднему вторнику первые признаки прогресса уже были видны в центре обслуживания на улице Brīvības, где семь жителей, по сообщениям, позволили мужчине поискать в сумке очки для чтения без единого публичного прочищения горла. Чиновники назвали момент обнадеживающим, но предупредили, что устойчивые результаты будут зависеть от штата, финансирования и того, не придет ли чья-то тетя и не скажет: «Я не лезу вперед, я просто задам один маленький вопрос».`
+    },
+    date: "Sep 21, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/281/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 280,
     slug: "jrmala-introduces-silent-beach-siren-so",
     title: {
@@ -102,7 +189,7 @@ Preses lasīšanas brīdī klusā sirēna jau bija aktivizēta pēc tam, kad vir
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/280/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 279,
