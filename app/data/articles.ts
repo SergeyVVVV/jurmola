@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 282,
+    slug: "riga-introduces-emotional-potholes-to-help",
+    title: {
+      en: "Riga Introduces ‘Emotional Potholes’ To Help Residents Process Winter In A Safe, Municipal Setting",
+      lv: "Rīga ievieš 'emocionālās bedres', lai palīdzētu iedzīvotājiem droši pārdzīvot ziemu pašvaldības vidē",
+      ru: "Рига вводит «эмоциональные ямы», чтобы помочь жителям пережить зиму в безопасной муниципальной обстановке"
+    },
+    excerpt: {
+      en: "Riga City Council this week unveiled a pilot program that reclassifies 17 major potholes not as road damage, but as ‘urban emotional support infrastructure.’ Officials say the initiative will allow residents to confront disappointment, instability, and abrupt drops in mood in a familiar civic environment.",
+      lv: "Rīgas dome šonedēļ atklāja pilotprojektu, kas 17 lielas bedres pārreģistrē nevis kā ceļa bojājumus, bet kā 'pilsētas emocionālās atbalsta infrastruktūras'. Pārstāvji apgalvo, ka iniciatīva ļaus iedzīvotājiem saskarties ar vilšanos, nestabilitāti un pēkšņiem garastāvokļa kritumiem pazīstamā civiskā vidē.",
+      ru: "На этой неделе Городской совет Риги представил пилотную программу, которая переквалифицирует 17 крупных ям не как повреждение дорог, а как «городскую инфраструктуру эмоциональной поддержки». По словам чиновников, инициатива позволит жителям сталкиваться с разочарованием, нестабильностью и резким падением настроения в привычной городской среде."
+    },
+    fullContent: {
+      en: `RIGA — In what planners are calling a bold step toward psychologically integrated transport policy, Riga City Council on Tuesday announced the launch of the country’s first network of “emotional potholes,” a pilot scheme designed to help citizens process seasonal despair through controlled encounters with municipal neglect.
+
+The project, funded jointly by the Department of Transport, the Department of Public Wellbeing, and “some remaining European money nobody claimed in time,” will preserve selected potholes across Brīvības iela, Maskavas forštate, and one especially reflective section of Čaka Street. Each site has been fitted with a small blue plaque explaining the emotional function of the cavity, with labels including “sudden disappointment,” “minor resentment,” and “deep inherited Baltic silence.”
+
+According to city officials, the program emerged after a three-month study found that 82% of Riga residents were already using damaged road surfaces as metaphors in daily conversation, while 64% said a jarring tram ride “accurately described their relationship with February.” Rather than fight the problem, the municipality decided to “honor the lived texture of the city.”
+
+“We have spent decades pretending potholes are a failure,” said Deputy Mayor Ilze Krauja at a press conference held beside a crater large enough to hold a medium-sized stroller and one entire philosophy degree. “But in Latvia, hardship is not always an obstacle. Sometimes it is heritage. Sometimes it is also on the route to your dentist.”
+
+Under the scheme, residents may voluntarily engage with an emotional pothole by driving over it at low speed, circling it thoughtfully, or standing nearby and exhaling through the nose while holding a takeaway coffee. QR codes posted next to several sites direct users to breathing exercises and a city-approved reflection prompt: “What expectation did I bring into this intersection, and was that realistic?”
+
+Not everyone is convinced. The Latvian Association of Suspension Mechanics warned that the city may be “romanticizing avoidable damage” after repair calls in central Riga rose 31% last quarter. “A worn shock absorber is not self-knowledge,” said association chair Normunds Veckalns. “There are other ways to experience character development.”
+
+Still, public response has been unexpectedly enthusiastic. By Wednesday afternoon, residents had left candles, chrysanthemums, and one passive-aggressive note reading “finally, a government service that meets me where I am.” A retired teacher from Teika, 68-year-old Maija Ozoliņa, said she visits the same pothole every morning on purpose. “It gives me structure,” she explained. “First there is coffee, then there is the small collapse, then I continue.”
+
+Jūrmala officials have already expressed interest in launching a companion summer initiative in which selected beach boardwalks will contain “therapeutic loose planks” meant to evoke the emotional uncertainty of short Baltic summers. “We believe infrastructure should reflect the citizen,” said Jūrmala development consultant Artūrs Žagars. “Unstable, beautiful, and expensive to maintain.”
+
+Transport experts say Riga’s program may be the first of its kind in Europe, though several towns in eastern Lithuania reportedly considered similar measures before accidentally paving over their findings. The Ministry of Smart Administration has not endorsed the concept nationally but confirmed it is monitoring the pilot with “guarded resignation.”
+
+For now, the city plans to expand the initiative if residents continue reporting positive outcomes. A second phase under discussion would introduce “healing puddles” in spring and a heritage slush corridor near Central Station.
+
+At Tuesday’s launch event, a bus briefly disappeared into one of the flagship installations before re-emerging to moderate applause. Officials later described the incident as “a meaningful interaction with the urban landscape.”`,
+      lv: `RĪGA — To, ko plānotāji sauc par drosmīgu soli uz psiholoģiski integrētu transporta politiku, otrdien Rīgas dome paziņoja par valsts pirmā „emocionālo bedru” tīkla uzsākšanu — pilotprojekts, kurš izstrādāts, lai palīdzētu pilsoņiem sezonālās izmisuma izjūtās, nodrošinot kontrolētas tikšanās ar pašvaldības nolaidību.
+
+Projekts, ko kopīgi finansē Satiksmes departaments, Sabiedrības labklājības departaments un „daži atlikušie Eiropas līdzekļi, kurus neviens laikus neprasīja”, saglabās atlasītas bedres Brīvības ielā, Maskavas forštatē un vienā, it īpaši reflektīvā Čaka ielas posmā. Katra vieta ir apzīmēta ar mazu zilu plāksnīti, kas paskaidro dobuma emocionālo funkciju, ar nosaukumiem, tostarp „pēkšņa vilšanās”, „neliela aizvainotība” un „dziļā iedzimtā Baltijas klusēšana”.
+
+Pēc pilsētas amatpersonu teiktā, programma radusies pēc trīs mēnešu pētījuma, kas atklāja, ka 82% rīdzinieku jau izmanto bojātas ceļa virsmas kā metaforas ikdienas sarunās, kamēr 64% sacīja, ka triecienpilns tramvaja brauciens „precīzi apraksta viņu attiecības ar februāri”. Tā vietā, lai cīnītos ar problēmu, pašvaldība nolēmusi „godināt pilsētas dzīves faktūru”.
+
+„Gadu desmitiem mēs izlikāmies, ka bedres ir neveiksme,” preses konferencē pie krātera, kurā viegli varēja iebāzt vidēja izmēra bērnu ratiņus un vienu filozofijas bakalaura grādu, sacīja pašvaldības vietniece Ilze Krauja. „Bet Latvijā grūtības ne vienmēr ir šķērslis. Reizēm tās ir mantojums. Reizēm tās arī atrodas uz ceļa uz jūsu zobārstu.”
+
+Saskaņā ar shēmu iedzīvotāji brīvprātīgi var iesaistīties emocionālajā bedrē, pārbraucot pāri tai lēnā ātrumā, apbraukājot to pārdomās vai stāvot netālu un izelpojot caur degunu, turēdami līdzi paņemtu kafiju. Pie vairākām vietām izvietotie QR kodi novirza uz elpošanas vingrinājumiem un pilsētas apstiprinātu pārdomu jautājumu: „Kādas cerības es ienesu šajā krustojumā, un vai tās bija reālas?”
+
+Ne visi ir pārliecināti. Latvijas amortizatoru ekspertu asociācija brīdināja, ka pilsēta varētu „romantizēt novēršamu bojājumu”, pēc tam, kad centrālajā Rīgā remonta izsaukumu skaits pagājušajā ceturksnī pieauga par 31%. „Nodilusi atsperes bloka nav pašizziņa,” sacīja asociācijas priekšsēdētājs Normunds Veckalns. „Ir arī citi veidi, kā piedzīvot rakstura izaugsmi.”
+
+Taču sabiedrības reakcija bijusi negaidīti entuziasma pilna. Līdz trešdienas pēcpusdienai iedzīvotāji bija atstājuši sveces, krizantēmas un vienu pasīvi-agresīvu piezīmi ar tekstu „beidzot valsts pakalpojums, kas mani sastop tur, kur esmu”. Pensijā esošā skolotāja no Teikas, 68 gadus vecā Maija Ozoliņa, pastāstīja, ka mērķtiecīgi katru rītu apmeklē vienu un to pašu bedri. „Tā man dod struktūru,” viņa skaidroja. „Vispirms ir kafija, pēc tam mazais sabrukums, pēc tam es turpinu.”
+
+Jūrmalas amatpersonas jau izrādījušas interesi sākt pavadošu vasaras iniciatīvu, kurā atlasītās pludmales promenādes saturēs „terapeitiskus vaļīgus dēļus”, kas paredzēti, lai izsauktu īso Baltijas vasaru emocionālo nenoteiktību. „Mēs uzskatām, ka infrastruktūrai jāatspoguļo pilsonis,” sacīja Jūrmalas attīstības konsultants Artūrs Žagars. „Nestabils, skaists un dārgi uzturams.”
+
+Transporta eksperti saka, ka Rīgas programma varētu būt pirmā šāda veida Eiropā, lai gan vairākas pilsētas Lietuvas austrumos, kā ziņots, apsvēra līdzīgus pasākumus, pirms nejauši pārklāja ar asfalta kārtu savus atklājumus. Viedo pārvaldību ministrija nacionāli nav atzinusi konceptu, bet apstiprināja, ka uzrauga pilotprojektu ar „piesardzīgu rezignāciju”.
+
+Pašlaik pilsēta plāno paplašināt iniciatīvu, ja iedzīvotāji turpinās ziņot par pozitīviem rezultātiem. Otrā posma diskusijā paredzēts pavasarī ieviest „dziedinošas peļķes” un mantojuma slapjdraņķa koridoru pie Centrālās stacijas.
+
+Otrdienas atklāšanas pasākumā autobuss uz brīdi pazuda vienā no vadošajām instalācijām, pēc tam atkal parādījās ar mērenu aplausu. Amatpersonas vēlāk notikumu raksturoja kā „jēgpilnu mijiedarbību ar pilsētas ainavu.”`,
+      ru: `РИГА — В том, что планировщики называют смелым шагом к психологически интегрированной транспортной политике, Городской совет Риги во вторник объявил о запуске первой в стране сети «эмоциональных ям», пилотной программы, призванной помочь гражданам переработать сезонное отчаяние через контролируемые встречи с муниципальным пренебрежением.
+
+Проект, финансируемый совместно Департаментом транспорта, Департаментом общественного благополучия и «какими‑то оставшимися европейскими деньгами, за которые никто вовремя не успел заявиться», сохранит выбранные ямы на Brīvības iela, Maskavas forštate и на одном особенно созерцательном участке Čaka Street. На каждом месте установлена небольшая синяя табличка, объясняющая эмоциональную функцию воронки, с обозначениями вроде «внезапное разочарование», «незначительное недовольство» и «глубокое унаследованное балтийское молчание».
+
+По словам городских чиновников, идея возникла после трёхмесячного исследования, которое показало, что 82% рижан уже используют повреждённые дорожные поверхности как метафоры в повседневной речи, а 64% заявили, что резкая поездка трамваем «точно описывает их отношения с февралем». Вместо того чтобы бороться с проблемой, муниципалитет решил «почтить прожитую фактуру города».
+
+«Мы десятилетиями делали вид, что ямы — это провал», — сказала на пресс‑конференции у воронки, достаточно большой, чтобы вместить коляску среднего размера и целую философскую степень, заместитель мэра Илзе Крауя. «Но в Латвии трудности — не всегда препятствие. Иногда это наследие. Иногда это ещё и по пути к вашему стоматологу».
+
+В рамках программы жители могут добровольно взаимодействовать с эмоциональной ямой: проехать по ней на небольшой скорости, обогнуть её задумчиво или постоять рядом, выдохнув носом и держа кофе навынос. Рядом с несколькими площадками размещены QR‑коды, которые ведут к упражнениям на дыхание и одобренному городом вопросу для размышления: «Какие ожидания я принес(ла) на этот перекрёсток и были ли они реалистичны?».
+
+Не все убеждены в полезности нововведения. Латвийская ассоциация механиков подвески предупредила, что город может «романтизироватьavoidable повреждения» после того, как в центральной Риге количество жалоб на ремонт выросло на 31% в прошлом квартале. «Изношенный амортизатор — это не самопознание», — заявил председатель ассоциации Нормундс Вецкалнс. «Есть и другие способы переживать формирование характера».
+
+Тем не менее реакция населения оказалась неожиданно восторженной. К среде днём жители оставили свечи, хризантемы и одну пассивно‑агрессивную записку: «наконец-то государственная услуга, которая встречает меня там, где я есть». 68‑летняя пенсионерка и бывшая учительница из Тейки Майя Озолиня сказала, что целенаправленно посещает одну и ту же яму каждое утро. «Она даёт мне структуру», — объяснила она. «Сначала кофе, потом маленькое падение, а затем я продолжаю».
+
+Чиновники Юрмалы уже проявили интерес к запуску летней компаньон‑инициативы, в рамках которой на выбранных набережных будут «терапевтические шатающиеся доски», призванные вызвать эмоциональную неуверенность коротких балтийских лет. «Мы считаем, что инфраструктура должна отражать гражданина», — сказал юрмальский консультант по развитию Артурс Жагарс. «Неустойчивая, красивая и дорогая в содержании».
+
+Транспортные эксперты полагают, что рижская программа может быть первой в своём роде в Европе, хотя несколько городков на востоке Литвы якобы рассматривали похожие меры, прежде чем случайно заасфальтировали свои выводы. Министерство «умного администрирования» не дало национального одобрения концепции, но подтвердило, что наблюдает за пилотом с «сдержанным смирением».
+
+Пока город планирует расширить инициативу, если жители продолжат сообщать о положительных результатах. Во второй фазе, обсуждаемой сейчас, планируется ввести «целебные лужи» весной и коридор наследственной слякоти возле Центрального вокзала.
+
+На церемонии запуска во вторник автобус на короткое время исчез в одной из флагманских инсталляций, затем выехал под сдержанные аплодисменты. Чиновники позже описали инцидент как «значимое взаимодействие с городским ландшафтом».`
+    },
+    date: "Sep 22, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/282/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 281,
     slug: "riga-introduces-official-queue-whisperer-to",
     title: {
@@ -102,7 +189,7 @@ Vēlā otrdienas pēcpusdienā pirmie progresu signāli jau bija redzami klientu
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/281/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 280,
