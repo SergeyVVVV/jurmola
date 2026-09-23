@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 283,
+    slug: "riga-introduces-emotional-parking-permits-after",
+    title: {
+      en: "Riga Introduces ‘Emotional Parking Permits’ After Residents Admit They Only Leave Cars to Feel Something",
+      lv: "Rīga ievieš 'emocionālās stāvvietu atļaujas' pēc iedzīvotāju atzīšanās, ka auto atstāj tikai, lai kaut ko sajustu",
+      ru: "Рига вводит «эмоциональные разрешения на парковку» после признаний жителей, что они выходят из машин только чтобы что‑то почувствовать"
+    },
+    excerpt: {
+      en: "Riga City Council this week unveiled a pilot program allowing residents to apply for specially marked ‘emotional parking permits,’ acknowledging what officials described as the capital’s growing habit of using vehicle relocation as a substitute for inner development. The permits will allow motorists to park in unauthorized-but-personally-meaningful spaces for up to 47 minutes, provided they can articulate a credible emotional reason.",
+      lv: "Rīgas dome šonedēļ atklāja pilotprogrammu, kas ļaus iedzīvotājiem pieteikties īpaši marķētām 'emocionālajām stāvvietu atļaujām', atzīstot to, ko amatpersonas raksturoja kā galvaspilsētas pieaugošo ieradumu izmantot automašīnu pārvietošanu kā iekšējās attīstības aizvietojumu. Atļaujas ļaus autovadītājiem stāvēt neatļautās, taču personīgi nozīmīgās vietās līdz 47 minūtēm, ja vien viņi spēj izklāstīt ticamu emocionālu iemeslu.",
+      ru: "Городской совет Риги на этой неделе запустил пилотную программу, позволяющую жителям подавать заявки на специально помеченные «эмоциональные разрешения на парковку», признав, как заявляют чиновники, растущую привычку столицы заменять внутреннее развитие перестановкой автомобиля. Разрешения позволят ставить машины в неразрешённых, но лично значимых местах до 47 минут при условии, что водитель сможет изложить убедительную эмоциональную причину."
+    },
+    fullContent: {
+      en: `RIGA — In a move urban planners are calling “administratively innovative and spiritually overdue,” Riga City Council on Tuesday approved a new municipal category of parking authorization intended for residents who admit that circling the block, stopping abruptly, and staring through the windshield has become their primary method of processing modern life.
+
+The new document, formally titled the Temporary Emotional Vehicle Placement Permit, will be available beginning in November through the e-pakalpojumi portal, where applicants must upload a passport photo, vehicle registration, and a 120-word statement answering the prompt: “Why must this car be here, specifically, at this moment?”
+
+According to the Department of Transport and Existential Coordination, the policy emerged after a 14-month study found that 38% of parking violations in central Riga occurred not because drivers misunderstood signage, but because they “were experiencing a vague but dignified internal episode.” The number rose to 61% in Āgenskalns during drizzle.
+
+“We have spent years assuming people parked illegally due to selfishness, confusion, or a contemptuous relationship with arrows,” said deputy transport committee chairwoman Vineta Laizāne at a press conference held beside a hazard-lit Volvo near Esplanāde. “But our data now show many citizens are simply pausing outside a former bakery, a school they once hated, or a pharmacy where they had a profound coupon experience. Governance must respond to reality.”
+
+Under the rules, permit holders may leave their vehicles in bus lanes, loading zones, or diagonally across two spaces if municipal inspectors determine the emotional justification meets minimum sincerity thresholds. Approved reasons include “needed to sit quietly after seeing ex-partner thriving,” “song on Radio Skonto reached bridge section,” and “sudden awareness of mortality while passing Daugava embankment.” Applications citing ‘just five minutes’ will be rejected automatically.
+
+To ensure consistency, the city has trained 46 new parking wardens in what officials call empathic enforcement. The officers, easily identifiable by their reflective vests and softly disappointed expressions, carry a laminated rating scale from 1 to 5 measuring distress categories such as nostalgic paralysis, low-grade civic despair, and weather-triggered introspection.
+
+Senior inspector Edgars Bitenieks said the system had already reduced conflict during a closed pilot in Purvciems. “Before, when I approached a car stopped halfway on the tram line, the driver would lie and say he was waiting for someone,” Bitenieks said. “Now he can say openly, ‘I remembered I am 43 and never learned proper relaxation.’ This saves us both time.”
+
+Residents have reacted with cautious relief. Ilze Krūmiņa, 34, a marketing specialist from Teika, said she plans to apply immediately after receiving three fines this spring for what she insists were “necessary symbolic pauses.”
+
+“One was outside my childhood dentist,” Krūmiņa explained. “Another was near a Rimi where they stopped carrying that one kefir. You can’t put a normal parking ticket on a process like that.”
+
+Not everyone supports the initiative. The association Park for Order, Not Feelings warned the permits could create a dangerous precedent in which subjective human experience interferes with basic traffic control. “The street is not a diary,” the group wrote in a statement, before acknowledging that its chairman had to pull over in Mežaparks for ten minutes after drafting the sentence.
+
+City officials say the program will run until next summer, when it will be evaluated using several metrics, including congestion, resident wellbeing, and whether the phrase “I’m not parking, I’m reflecting” becomes legally unusable due to overuse.
+
+If successful, Riga plans to expand the concept into other sectors of public administration, including emotionally justified library late fees and a pilot queue-jumping scheme at state offices for people “going through something quiet.” For now, however, the council says it is simply proud to be the first Baltic capital to admit that sometimes a badly parked car is not a transportation problem, but a cry for help with hazard lights.`,
+      lv: `RĪGA — Pārvietošanās plānotāji to dēvē par 'administratīvi inovatīvu un garīgi ilgi gaidītu' — otrdien Rīgas dome apstiprināja jaunu pašvaldības kategoriju stāvvietu atļaujām iedzīvotājiem, kuri atzīst, ka riņķošana kvartālā, pēkšņa apstāšanās un skatīšanās caur vējstiklu kļuvusi par viņu galveno mūsdienu dzīves apstrādes metodi.
+
+Jaunais dokuments, formāli nosaukts par 'Pagaidu emocionālās transportlīdzekļa novietošanas atļauju', būs pieejams no novembra e‑pakalpojumu portālā, kur pretendentiem jāielādē pases foto, transportlīdzekļa reģistrācijas apliecība un 120 vārdu paziņojums, atbildot uz norādi: 'Kāpēc šai automašīnai tieši šobrīd jāatrodas šeit?'
+
+Pēc Satiksmes un eksistenciālās koordinācijas departamenta teiktā, politika radusies pēc 14 mēnešu pētījuma, kurā atklājās, ka 38% stāvvietu pārkāpumu centrālajā Rīgā notiek ne tāpēc, ka autovadītāji nesaprastu ceļazīmes, bet tāpēc, ka viņi 'pārdzīvo neskaidru, bet cienījamu iekšēju epizodi.' Skaitlis Āgenskalnā drēgnā lietū sasniedzot 61%.
+
+"Gadus ilgi pieņēmām, ka cilvēki stāvēja nelegāli no pašmērķības, neskaidrības vai nicināšanas pret bultām," preses konferencē pie brīdinājuma gaismām iedegta Volvo pie Esplanādes sacīja satiksmes komitejas vietniece Vineta Laizāne. "Bet mūsu dati rāda, ka daudzi pilsoņi vienkārši apstājās pie bijušās maiznīcas, skolas, kuru reiz ienīda, vai aptiekas, kur viņiem bija dziļi kuponu piedzīvojumi. Pārvaldībai jāreaģē uz realitāti."
+
+Saskaņā ar noteikumiem atļauju turētāji drīkst atstāt savus transportlīdzekļus sabiedriskā transporta joslās, iekraušanas zonas vietās vai diagonāli pāri divām vietām, ja pašvaldības inspektori konstatē, ka emocionālā attaisnojuma ticamības slieksnis ir sasniegts. Akceptējami iemesli ietver: 'vajadzēja klusi nočāpot pēc redzēšanas, ka bijušais plaukst,' 'dziesma Radio Skonto sasniedza tilta daļu,' un 'pēkšņa mirstības apziņa, braucot gar Daugavas krastmalu.' Pieteikumi ar formulējumu 'tikai piecas minūtes' tiks automātiski noraidīti.
+
+Lai nodrošinātu konsekvenci, pilsēta apmācījusi 46 jaunus stāvvietu uzraugus tam, ko amatpersonas sauc par empātisku izpildi. Vienkārši atpazīstami pēc atstarojošajām vestēm un maigi vīlušām sejas izteiksmēm, darbinieki nēsā laminētu vērtēšanas skalu no 1 līdz 5, kas mēra trauksmes kategorijas, piemēram, nostalģisku paralīzi, zema līmeņa pilsonisku izmisumu un laikapstākļu izraisītu introspekciju.
+
+Vecākais inspektors Edgars Bitenieks sacīja, ka sistēma jau samazinājusi konfliktus slēgtā pilotprojektā Purvciemā. "Agrāk, kad piegāju pie mašīnas, kas stāvēja pusceļā tramvaja sliedē, vadītājs meloja un teica, ka gaida kādu," Bitenieks teica. "Tagad viņš var atklāti pateikt: 'Es atcerējos, ka man ir 43 gadi un es nekad neesmu iemācījies pareizi atpūsties.' Tas ietaupa laiku mums abiem."
+
+Iedzīvotāji reaģējuši ar piesardzīgu atvieglojumu. Ilze Krūmiņa, 34 gadus veca mārketinga speciāliste no Teikas, sacīja, ka plāno pieteikties tūlīt pēc trim rēķiniem šajā pavasarī par to, ko viņa uzstājīgi sauc par 'nepieciešamām simboliskām pauzēm.'
+
+"Viena bija pie manas bērnības zobārsta," Krūmiņa paskaidroja. "Vēl viena pie Rimi, kur pārtrauca tirgot to vienīgo kefīru. Par tādu procesu normālu sodu neuzlīmē."
+
+Ne visi atbalsta iniciatīvu. Asociācija 'Kārtība, ne jūtas' brīdināja, ka atļaujas var radīt bīstamu precedentu, kurā subjektīva cilvēka pieredze traucē pamatīgu satiksmes kontroli. "Iela nav dienasgrāmata," grupa rakstīja paziņojumā, pirms piebilda, ka tās priekšsēdētājam nācās piebraukt pie Mežaparka uz desmit minūtēm, rakstot šo teikumu.
+
+Pilsētas amatpersonas norāda, ka programma darbosies līdz nākamajai vasarai, kad tā tiks vērtēta pēc vairākiem rādītājiem, tostarp sastrēgumu līmeņa, iedzīvotāju labsajūtas un tā, vai frāze 'Es nestāvu, es pārdomāju' kļūst juridiski neizmantojama pārslodzes dēļ.
+
+Ja pilotprojekts izrādīsies veiksmīgs, Rīga plāno paplašināt koncepciju citās publiskās pārvaldes jomās, tostarp emocionāli pamatotos bibliotēkas soda naudās par nokavējumu un izmēģinājuma prioritārajā rindā valsts iestādēs cilvēkiem, kuri 'iziet cauri kaut kam klusinātam.' Pašlaik dome gan saka, ka ir vienkārši lepna būt pirmā Baltijas galvaspilsēta, kura atzīst, ka dažkārt slikti novietota automašīna nav transporta problēma, bet aizkavēts palīgs ar avārijas signāliem.`,
+      ru: `РИГА — В шаге, который градостроители уже называют «административно инновационным и духовно запоздавшим», Городской совет Риги во вторник одобрил новую муниципальную категорию парковочных разрешений, предназначенную для жителей, признавших, что объезд квартала, внезапные остановки и витиеватые взгляды через лобовое стекло стали их основным способом переработки современной жизни.
+
+Новый документ, официально именуемый «Временное разрешение на эмоциональное размещение транспортного средства», будет доступен начиная с ноября через портал e-pakalpojumi, где заявители должны загрузить фото для паспорта, свидетельство о регистрации автомобиля и 120‑словное заявление в ответ на вопрос: «Почему эта машина должна находиться здесь, именно в этот момент?»
+
+По данным Департамента транспорта и экзистенциальной координации, политика родилась после 14‑месячного исследования, которое показало, что 38% нарушений парковки в центральной Риге происходят не потому, что водители неправильно поняли знаки, а потому что «они переживали смутный, но достойный внутренний эпизод». В Агентскалнсе (Āgenskalns) эта доля поднималась до 61% в моросящий дождь.
+
+«Мы годами полагали, что люди паркуются вне правил из корыстных соображений, из‑за невнимательности или пренебрежительного отношения к стрелкам», — сказала заместитель председателя транспортного комитета Винета Лайзāне на пресс‑конференции рядом с Volvo с включённой аварийкой у Эспланады. «Но наши данные теперь показывают, что многие граждане просто останавливаются возле бывшей булочной, школы, которую они когда‑то ненавидели, или аптеки, где у них был глубокий купонный опыт. Управление должно реагировать на реальность.»
+
+По правилам, держатели разрешений могут оставлять свои машины в автобусных полосах, в зонах разгрузки или диагонально на двух местах, если муниципальные инспекторы сочтут эмоциональное обоснование отвечающим минимальным порогам искренности. В перечень одобряемых причин входят «нужно посидеть в тишине после того, как увидел(а) бывшего партнёра, который преуспевает», «песня на Radio Skonto дошла до припева» и «внезапное осознание смертности при проезде набережной Даугавы». Заявления, в которых указано «всего пять минут», будут автоматически отклоняться.
+
+Чтобы обеспечить последовательность, город обучил 46 новых парковочных инспекторов тому, что чиновники называют эмпатичным правоприменением. Офицеры, легко узнаваемые по светоотражающим жилетам и едва скрываемому разочарованию на лицах, носят ламинированную шкалу от 1 до 5, оценивающую категории страданий, такие как ностальгический паралич, низкоуровневое гражданское отчаяние и интроспекция, вызванная погодой.
+
+Старший инспектор Эдгарс Битениекс сказал, что система уже уменьшила количество конфликтов во время закрытого пилота в Пурвциемсе. «Раньше, когда я подходил к машине, остановленной наполовину на трамвайных путях, водитель лгал бы, что ждёт кого‑то», — сказал Битениекс. «Теперь он может сказать открыто: ‚Я вспомнил, что мне 43 и я так и не научился правильно расслабляться.‘ Это экономит наше время.»
+
+Жители восприняли нововведение с осторожным облегчением. Илзе Крумина, 34 года, маркетолог из Тейки, заявила, что собирается подать заявление сразу после того, как этой весной получила три штрафа за то, что она настаивает были «необходимыми символическими паузами».
+
+«Одна была возле зубного моего детства», — объяснила Крумина. «Другая — у Rimi, где перестали возить тот самый кефир. На такой процесс обычным штрафом не накажешь.»
+
+Не все поддержали инициативу. Ассоциация «Порядок, а не чувства» предупредила, что разрешения могут создать опасный прецедент, когда субъективный человеческий опыт будет вмешиваться в базовый дорожный контроль. «Улица — не дневник», — написала группа в заявлении, прежде чем признать, что её председателю пришлось притормозить в Ме�запарке на десять минут после того, как он составил это предложение.
+
+Городские власти заявляют, что программа будет действовать до следующего лета, после чего её оценят по нескольким показателям, включая уровень загруженности дорог, благополучие жителей и то, станет ли фраза «Я не паркуюсь, я рефлексирую» юридически непригодной из‑за чрезмерного употребления.
+
+Если инициатива окажется успешной, Рига планирует распространить концепцию на другие сферы публичной администрации, включая эмоционально оправданные штрафы за просроченные книги в библиотеках и пилотную схему пропуска очереди в государственных учреждениях для людей, которые «переживают что‑то тихое». Пока же горсовет с гордостью констатирует: он — первая балтийская столица, которая признала, что иногда плохо припаркованная машина — это не транспортная проблема, а крик о помощи на аварийке.`
+    },
+    date: "Sep 23, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/283/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 282,
     slug: "riga-introduces-emotional-potholes-to-help",
     title: {
@@ -102,7 +195,7 @@ Otrdienas atklāšanas pasākumā autobuss uz brīdi pazuda vienā no vadošajā
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/282/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 281,
