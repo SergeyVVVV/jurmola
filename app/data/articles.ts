@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 284,
+    slug: "jrmala-introduces-quiet-sand-hours-after-284",
+    title: {
+      en: "Jūrmala Introduces Quiet Sand Hours After Residents Complain Beach Has Become ‘Too Granular’",
+      lv: "Jūrmala ievieš Klusās smilšu stundas pēc iedzīvotāju sūdzībām, ka pludmale kļuvusi „pārāk graudaina”",
+      ru: "Юрмала вводит «тихие часы для песка» после жалоб жителей, что пляж стал «слишком зернистым»"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have approved a pilot program restricting unnecessary sand movement between 13:00 and 15:00, citing a rise in complaints from residents who say the beach now produces “constant microscopic chaos.” The policy, the first of its kind in the Baltics, is intended to restore what the city calls a “more contemplative coastal texture.”",
+      lv: "Jūrmalas pašvaldības amatpersonas apstiprinājušas pilotprogrammu, kas ierobežo nevajadzīgu smilšu kustību no pulksten 13:00 līdz 15:00, atsaucoties uz pieaugušu sūdzību skaitu no iedzīvotājiem, kuri saka, ka pludmale tagad rada „pastāvīgu mikroskopisku haosu.” Politika, pirmā šāda veida Baltijā, paredz atjaunot to, ko pilsēta sauc par „vairāk kontemplatīvu piekrastes tekstūru.”",
+      ru: "Муниципальные чиновники Юрмалы утвердили пилотную программу, ограничивающую ненужное перемещение песка с 13:00 до 15:00, сославшись на рост жалоб от жителей, которые утверждают, что теперь пляж производит «постоянный микроскопический хаос». Эта политика, первая в своём роде в Прибалтике, призвана вернуть то, что город называет «более созерцательной прибрежной фактурой»."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a unanimous late-evening vote interrupted only by a 17-minute argument over whether pebbles count as “enthusiastic sand,” Jūrmala City Council this week approved new seasonal regulations establishing daily Quiet Sand Hours on all major beaches from Majori to Vaivari.
+
+Under the measure, beachgoers will be asked to refrain from running, aggressive towel-flapping, and “non-essential castle construction” between 13:00 and 15:00. The policy follows 684 formal complaints filed since May, many of them from long-term residents who say the auditory profile of the city’s coastline has shifted from “meditative Baltic hush” to “a bag of semolina being shaken inside a tram.”
+
+“We are not anti-sand,” Deputy Coastal Harmony Coordinator Ilze Priedīte told reporters at a press conference held beside a respectfully undisturbed dune. “Let me be absolutely clear. Sand is one of Jūrmala’s core assets. But lately it has been behaving in a way that many taxpayers find overly available.”
+
+According to a 42-page municipal report titled Strategic Acoustic Framework for Responsible Beach Matter, the average summer visitor displaces up to 11.4 kilograms of sand per afternoon, with peak agitation occurring near family zones where children “continue to demonstrate a troubling commitment to excavation.” The same report estimates that one medium-sized beach volleyball game can generate enough airborne granules to emotionally inconvenience 37 nearby retirees.
+
+To address the issue, the city has deployed six newly trained Shoreline Stewards in pale beige vests, each equipped with a whistle, a moisture meter, and a laminated de-escalation card featuring approved phrases such as “Please let the beach settle” and “Sir, that hole has become ideological.”
+
+At Dzintari Beach on Thursday, reaction to the policy was mixed. “At first I thought it was ridiculous,” said Riga resident and father of three Edgars Lapiņš, watching his children stand silently beside an unfinished moat. “But after ten minutes of stillness, I could actually hear my own disappointment, and that felt very local.”
+
+Not everyone is supportive. The Latvian Association of Active Sand Users called the regulations discriminatory toward families, athletes, and people with what it described as “natural kinetic seaside values.” Spokesman Mārtiņš Upmalis warned that limiting recreational scattering sets a dangerous precedent. “Today they come for your flip-flop shake-out,” he said. “Tomorrow they classify skipping as sediment redistribution.”
+
+Business owners, however, have already adapted. Several cafés along Jomas iela now offer Quiet Hour Specials, including lukewarm chicory beverages and a new dessert marketed as “deconstructed beach, but indoors.” One wellness studio has begun selling guided anti-granular listening sessions in which participants sit facing a wall while a facilitator whispers the word “dune” at regulated intervals.
+
+Tourism officials insist the initiative will strengthen Jūrmala’s brand as a premium destination for disciplined leisure. “People don’t come here only for the sea,” said regional tourism consultant Baiba Zālīte. “They come for order, pine trees, and the possibility that somewhere nearby, somebody is politely disapproving of fun.”
+
+Enforcement during the pilot phase will remain educational rather than punitive, though repeated violators may be directed to a designated High-Activity Sand Zone near Pumpuri, where jumping, digging, and emotionally expressive strolling will be permitted.
+
+As of Friday morning, the city said the first Quiet Sand Hour had been “largely successful,” with measurable reductions in scrape noise, drift irritation, and visible enthusiasm. Officials plan to review the results in September, after which they may consider expanding the concept to include Whispering Waves and a trial ban on overly crisp sunscreen bottles.`,
+      lv: `JŪRMALA — Ar vienbalsīgu vēlu vakara balsojumu, kuru pārtrauca tikai 17 minūšu ilgs strīds par to, vai oļi skaitās par „entuziasma smiltīm,” Jūrmalas pilsētas dome šonedēļ apstiprināja jaunas sezonālas normas, kas visās lielākajās pludmalēs no Majoriem līdz Vaivariem nosaka ikdienas Klusās smilšu stundas.
+
+Saskaņā ar šo pasākumu pludmales apmeklētājiem lūgs neizskriet, neagresīvi nemētāt dvieļus un neuzcelt „ne-essenciālas pilītes” laika posmā no 13:00 līdz 15:00. Politika seko 684 formālām sūdzībām, kas iesniegtas kopš maija, daudzām no tām no ilgtermiņa iedzīvotājiem, kuri apgalvo, ka pilsētas krasta akustiskais profils ir pārvērties no „meditatīvā Baltijas klusuma” par „mannas krupuļu maisiņu, kas kratās tramvajā.”
+
+„Mēs neesam pret smiltīm,” preses konferencē blakus cieņpilni netraucētai kāpai reportieriem sacīja vietniece piekrastes harmonijas koordinatore Ilze Priedīte. „Lai tas būtu pilnīgi skaidrs. Smiltis ir viens no Jūrmalas pamatresursiem. Bet pēdējā laikā tās uzvedas tā, ka daudzi nodokļu maksātāji tās uzskata par pārāk pieejamām.”
+
+42 lappušu pašvaldības ziņojums ar nosaukumu „Stratēģiskais akustiskais ietvars atbildīgai pludmales lietai” norāda, ka vidējais vasaras apmeklētājs pārvieto līdz pat 11,4 kilogramiem smilšu katrā pēcpusdienā, bet maksimālā satraukuma zona ir tuvu ģimenes vietām, kur bērni „turpina demonstrēt satraucošu apņemšanos ekskavācijās.” Tajā pašā ziņojumā tiek lēsts, ka viena vidēja izmēra pludmales volejbola spēle var radīt tik daudz gaisā lidojošu graudiņu, lai emocionāli traucētu 37 tuvumā esošus pensionārus.
+
+Lai risinātu šo jautājumu, pilsēta ievietojusi sešus jaunapmācītus Krasta uzraugus bēšos vestēs; katram no tiem ir svilpe, mitruma mērītājs un laminēta deeskalācijas karte ar apstiprinātām frāzēm, piemēram, „Lūdzu, ļaujiet pludmalei nosēsties” un „Kungs, tā bedre ir kļuvusi ideoloģiska.”
+
+Ceturtdienas vakarā reakcija uz politiku Dzintaros bija jaukta. „Sākumā domāju, ka tas ir absurdi,” sacīja rīdzinieks un trīs bērnu tēvs Edgars Lapiņš, vērodams, kā viņa bērni klusi stāv blakus nepabeigtai aizaizei. „Bet pēc desmit minūtēm klusuma es pat varēju dzirdēt savu paša vilšanos, un tas jutās ļoti lokāli.”
+
+Ne visi ir atbalstoši. Latvijas Aktīvo Smilšu Lietotāju asociācija dēvēja normas par diskriminējošām pret ģimenēm, sportistiem un cilvēkiem ar tā saucamām „dabas kinētiskajām piekrastes vērtībām.” Asociācijas pārstāvis Mārtiņš Upmalis brīdināja, ka atpūtas smilšu izkliedes ierobežošana rada bīstamu precedentu. „Šodien viņi nāk pēc tavas pludmales šļapalu izkratīšanas,” sacīja viņš. „Rīt tie klasificēs lēkšanu kā nogulumu pārdali.”
+
+Uzņēmēji gan jau ir pielāgojušies. Vairāki kafejnīcu īpašnieki Jomas ielā piedāvā Klusā stunda īpašos piedāvājumus, tostarp remdenus cikorijas dzērienus un jaunu desertu, kas tiek tirgots kā „dekonstruēta pludmale, tikai iekštelpās.” Viena labsajūtas studija sāka pārdot vadītas pretgraudainas klausīšanās sesijas, kurās dalībnieki sēž pret sienu, kamēr facilitators regulāros intervālos čukst vārdu „kāpa.”
+
+Tūrisma ierēdņi uzstāj, ka iniciatīva nostiprinās Jūrmalas kā prestiža galamērķa tēlu disciplinētai atpūtai. „Cilvēki nenāk šeit tikai pēc jūras,” sacīja reģionālā tūrisma konsultante Baiba Zālīte. „Viņi nāk pēc kārtības, priežu eglītēm un iespējamības, ka kaut kur netālu kāds pieklājīgi nosoda izklaidi.”
+
+Pilotfāzē uzraudzība būs izglītojoša, nevis sodījoša, lai gan atkārtotus pārkāpējus varēs norādīt uz speciālu Augstas darbības smilšu zonu pie Pumpuriem, kur būs atļauta lēkāšana, rakšana un emocionāli izteiksmīga staigāšana.
+
+Piektdienas rītā pilsēta paziņoja, ka pirmā Klusā smilšu stunda bijusi „lielā mērā veiksmīga,” ar izmērāmiem samazinājumiem skrāpēšanas troksnī, putošanas kairinājumā un redzamā entuziasmā. Amatpersonas plāno rezultātus pārskatīt septembrī, pēc tam iespējams apsvērt koncepta paplašināšanu, iekļaujot Čukstošos viļņus un izmēģinājuma aizliegumu pārāk kraukšķīgiem saules aizsargkrēmu iepakojumiem.`,
+      ru: `ЮРМАЛА — Единогласно, в позднем вечернем голосовании, прерванном лишь 17‑минутным спором о том, считаются ли галька и «энергичный песок» одним и тем же, Городской совет Юрмалы на этой неделе утвердил новые сезонные правила, устанавливающие ежедневные «Тихие часы для песка» на всех основных пляжах от Майори до Вайвари.
+
+Согласно постановлению, посетителям пляжей будет предложено воздерживаться от бега, агрессивного взмахивания полотенцами и «несущественного строительства замков» с 13:00 до 15:00. Политика была принята после 684 официальных жалоб, поданных с мая, многие из которых исходили от давних жителей, заявлявших, что акустический профиль побережья города сместился от «медитативной прибалтийской тишины» к «мешку манки, трясущемуся внутри трамвая». 
+
+«Мы не против песка», — заявила заместитель координатора по прибрежной гармонии Илзе Приедите на пресс‑конференции у уважительно не тронутой дюны. «Позвольте мне быть предельно ясной. Песок — один из ключевых активов Юрмалы. Но в последнее время он ведёт себя так, что многим налогоплательщикам кажется чрезмерно доступным». 
+
+Согласно 42‑страничному муниципальному докладу под названием «Стратегические акустические рамки для ответственного обращения с пляжной массой», средний летний посетитель смещает до 11,4 килограмма песка за одно послеобеденное время, при этом пик возбуждения отмечается в зонах для семей, где дети «по‑прежнему демонстрируют тревожную приверженность к раскопкам». В том же отчёте оценено, что одна игра в пляжный волейбол среднего размера может поднять в воздух достаточно гранул, чтобы эмоционально потревожить 37 соседних пенсионеров.
+
+Чтобы решить проблему, город задействовал шесть недавно обученных Смотрителей Берега в бледно‑бежевых жилетах, каждый из которых оснащён свистком, влагомером и ламинированной карточкой деэскалации с утверждёнными фразами вроде «Пожалуйста, дайте пляжу устояться» и «Сэр, эта яма стала идеологической». 
+
+На пляже Дзинтари в четверг реакция на политику была смешанной. «Сначала я думал, что это смешно», — сказал рижанин и отец троих детей Эдгарс Лапиньш, наблюдая, как его дети молча стоят у незавершённого рва. «Но спустя десять минут тишины я действительно услышал своё собственное разочарование, и это показалось очень местным». 
+
+Не все поддержали нововведение. Латвийская ассоциация активных пользователей песка назвала правила дискриминационными по отношению к семьям, спортсменам и людям с тем, что она описывает как «естественные кинетические прибрежные ценности». Представитель Мартиньш Упмалис предупредил, что ограничение развлекательного рассыпания создаёт опасный прецедент. «Сегодня придут за вашими шлёпанцами, чтобы запретить их встряхивание», — сказал он. «Завтра они классифицируют пропускание как перераспределение осадков». 
+
+Предприниматели, однако, уже приспособились. Несколько кафе вдоль улицы Йомас теперь предлагают специальные «Тихие часовые предложения», включая тёплые напитки из цикория и новый десерт под маркой «деконструированный пляж, но в помещении». Одна студия велнеса начала продавать сеансы направленного анти‑зернистого слушания, где участники сидят лицом к стене, в то время как ведущий шепчет слово «дуна» через строго регламентированные интервалы. 
+
+Туристические чиновники настаивают, что инициатива укрепит бренд Юрмалы как премиального направления для дисциплинированного отдыха. «Люди приезжают сюда не только ради моря», — сказала региональный консультант по туризму Байба Залите. «Они приезжают за порядком, соснами и возможностью, что где‑то поблизости кто‑то вежливо не одобряет веселье». 
+
+Во время пилотного этапа соблюдение правил останется образовательным, а не карательным, хотя повторно нарушающих могут направлять в выделенную зону высокой активности песка возле Пумпури, где будут разрешены прыжки, копание и эмоционально экспрессивные прогулки. 
+
+По состоянию на утро пятницы город сообщил, что первый «Тихий час для песка» был «в значительной степени успешным», с измеримым снижением скребущих звуков, раздражения от дрейфа и видимого энтузиазма. Чиновники планируют пересмотреть результаты в сентябре, после чего могут рассмотреть расширение концепции до «Шепчущих волн» и пробный запрет на чрезмерно хрустящие тюбики с солнцезащитным кремом.`
+    },
+    date: "Sep 24, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/284/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 283,
     slug: "riga-introduces-emotional-parking-permits-after",
     title: {
@@ -108,7 +195,7 @@ Ja pilotprojekts izrādīsies veiksmīgs, Rīga plāno paplašināt koncepciju c
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/283/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 282,
