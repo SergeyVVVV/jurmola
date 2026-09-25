@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 285,
+    slug: "riga-introduces-polite-silence-tax-after-285",
+    title: {
+      en: "Riga Introduces ‘Polite Silence Tax’ After Residents Found Nodding Through 84% of Conversations",
+      lv: "Rīga ievieš „Pieklājīgā klusuma nodokli”, pēc tam, kad iedzīvotāji 84% sarunu laikā vienkārši pamāja ar galvu",
+      ru: "Рига вводит «налог на вежливое молчание» после того как жители кивали в 84% разговоров"
+    },
+    excerpt: {
+      en: "City officials in Riga have approved a new municipal levy on conversations that contain more than four consecutive seconds of socially compulsory silence. Authorities say the measure will help regulate the capital’s growing economy of restrained nodding, muted sighs, and weather-based small talk.",
+      lv: "Pilsētas amatpersonas Rīgā apstiprinājušas jaunu pašvaldības nodevu par sarunām, kurās ir vairāk nekā četras secīgas sociāli obligātas klusuma sekundes. Varasiestādes apgalvo, ka mērs palīdzēs regulēt galvenās pilsētas ekonomikas daļas — ierobežotā galvas mājienu, noslāpēto nopūtu un pēc laika apstākļiem veiktās sniega tēmas mazo sarunu izaugsmi.",
+      ru: "Чиновники Риги утвердили новый муниципальный сбор за разговоры, включающие более четырёх последовательных секунд социально обязательного молчания. По словам властей, мера поможет регулировать растущую экономику сдержанных кивков, подавленных вздохов и разговоров о погоде."
+    },
+    fullContent: {
+      en: `RIGA — In a move described by officials as “administratively inevitable,” the Riga City Council on Tuesday approved the country’s first Polite Silence Tax, a municipal charge applied to social interactions in which participants maintain eye contact, nod meaningfully, and say nothing of measurable content for longer than four seconds.
+
+The policy, which takes effect on 1 November, follows a 172-page study commissioned by the Department of Urban Atmosphere and Soft Communication. According to the report, 84% of all conversations in central Riga now include “extended respectful silence,” while 37% consist entirely of one person saying “well” and the other looking out the window toward a tram.
+
+Deputy Mayor for Civic Tone Elīna Mežs announced the initiative at a press conference conducted in near-total quiet, interrupted only by one throat-clearing and the rustle of a scarf.
+
+“We are not punishing introversion,” Mežs said, after a pause later measured by journalists at 11.6 taxable seconds. “We are simply asking residents to contribute fairly to the maintenance of the social environment they so diligently avoid disturbing.”
+
+Under the new rules, each adult resident will receive 120 untaxed silence minutes per month, tracked through the city’s existing e-governance platform, e-Klusums. Once the allowance is exhausted, households will be billed 0.43 euros per additional minute of mutually acknowledged but verbally unproductive interaction. Pensioners will receive a discounted rate, while architecture students and men standing outside kiosks with no visible purpose qualify for a reduced seasonal tariff.
+
+Municipal economists estimate the measure could raise €18.4 million annually, enough to fund three new bicycle lanes, two advisory committees, and an experimental pilot project in which tram announcements are replaced by a single disappointed cough.
+
+The idea reportedly originated in Āgenskalns, where local resident and part-time accordion restorer Mārtiņš Blaus filed a complaint after enduring what he described as “a 14-minute staircase conversation with my neighbor in which we both agreed life is complicated and then remained there, each waiting for the other to leave first.”
+
+“I support paying something,” Blaus said. “If the city can pave roads, surely it can also manage that moment when someone says ‘we should definitely meet sometime’ and both parties know this is a ceremonial lie.”
+
+Business groups have expressed cautious support. The Latvian Association of Cafés and Reserved Beverage Consumption said the tax could finally monetize the nation’s long-standing practice of sitting by a window with one coffee for 90 minutes while processing one childhood memory per sip.
+
+Some civil liberties advocates, however, warn that enforcement may be uneven. “How do you distinguish ordinary silence from premium silence?” asked Linda Ozola, director of the nonprofit Speech Without Pressure. “If two former classmates meet in Maxima, exchange a look of exhausted recognition, and spend six seconds considering whether discussing inflation is worth it, is that taxable speech avoidance or cultural heritage?”
+
+To address such concerns, the city has hired 48 new Silence Inspectors, identifiable by their beige coats and clipboards, who will be stationed at tram stops, apartment courtyards, and all shops selling artisanal candles. A pilot version of the program found especially high silence concentrations in Teika, where one bus queue reportedly generated €63.20 in taxable pauses during a light snowfall.
+
+Reaction in Jūrmala has been mixed. While some residents fear the tax could spill over into seaside territory, others see opportunity. One Dzintari wellness center has already announced a “detox conversational retreat” in which guests pay €240 to sit in linen robes and avoid discussing real estate.
+
+By Wednesday evening, residents across Riga had begun adjusting. Several were seen speaking in complete, panicked sentences to avoid fees, while others downloaded e-Klusums and immediately closed it without comment. At a bus stop near Brīvības iela, a man asked a stranger whether the tax would apply to “that specific silence after you say ‘interesting’ and regret it.” The stranger nodded gravely, looked at the ground, and may already owe the city 0.86 euros.`,
+      lv: `RĪGA — Solis, ko amatpersonas aprakstījušas kā „administratīvi neizbēgamu”, otrdien Rīgas dome apstiprināja valsts pirmo Pieklājīgā klusuma nodokli, pašvaldības maksu, kas tiks piemērota sociālajām mijiedarbībām, kurās sarunu dalībnieki notur acu kontaktu, nozīmīgi pamāj ar galvu un vairāk nekā četras sekundes neko nepasaka, kas būtu mērāms kā saturīgs izteikums.
+
+Politika, kas stāsies spēkā 1. novembrī, seko 172 lapaspusu pētījumam, ko pasūtījis Pilsētas atmosfēras un maigas komunikācijas departaments. Ziņojuma dati liecina, ka 84% no visām sarunām centrālajā Rīgā tagad ietver „paplašinātu cieņpilnu klusumu”, kamēr 37% sarunu pilnībā sastāv no viena cilvēka sacītā „nu” un otra cilvēka skatiena, kas vērsts uz logu virzienā uz tramvaju.
+
+Vietniece mēra pilsoniskā toni Elīna Mežs iniciatīvu paziņoja preses konferencē, kas notika gandrīz pilnīgā klusumā, pārtraukts tikai ar vienu rīkles tīrīšanu un šalles čaukstināšanu.
+
+„Mēs nesodām introvaktivitāti,” Mežs sacīja pēc pauzes, kuru žurnālisti vēlāk nomērīja kā 11,6 nodokļa sekundes. „Mēs vienkārši lūdzam iedzīvotājus godīgi līdzdarboties sociālās vides uzturēšanā, kuru viņi tik rūpīgi izvairās traucēt.”
+
+Saskaņā ar jaunajiem noteikumiem katram pieaugušajam iedzīvotājam tiks piešķirtas 120 neapliekamas klusuma minūtes mēnesī, kuras tiks uzskaitītas pašvaldības esošajā e-pārvaldes platformā e-Klusums. Kad piešķīrums būs iztērēts, mājsaimniecībām tiks izrakstīti rēķini 0,43 eiro par katru papildu minūti savstarpēji atzīta, bet verbāli neproduktīva mijiedarbība. Pensionāri saņems atlaidi, bet arhitektūras studenti un vīrieši, kas stāv pie kioskiem bez redzama mērķa, kvalificēsies samazinātai sezonālajai tarifa likmei.
+
+Pašvaldības ekonomisti lēš, ka mērs varētu nākt klāt ar 18,4 miljonu eiro gada ieņēmumiem, kas būtu pietiekami, lai finansētu trīs jaunas velosipēdu joslas, divas padomes un eksperimentālu pilotprojektu, kurā tramvaja paziņojumus aizstāj ar vienu sarūgtinātu klepus skaņu.
+
+Ideja, kā ziņots, radās Āgenskalnā, kur vietējais iedzīvotājs un daļlaika akordeona restaurators Mārtiņš Blaus iesniedza sūdzību pēc tam, kad izturējis, kā viņš to aprakstīja, „14 minūšu kāpņu sarunu ar kaimiņu, kurā mēs abi piekritām, ka dzīve ir sarežģīta, un pēc tam abi tur palikām, gaidot, kurš pirmais aizies”.
+
+„Es atbalstu kaut ko samaksāt,” sacīja Blaus. „Ja pilsēta var asfaltēt ceļus, droši vien tā var arī sakārtot to mirkli, kad kāds saka ‘mums noteikti jāsatiekas kādreiz’ un abas puses saprot, ka tā ir ceremonija lieks apmāns.”
+
+Biznesa grupas paudušas piesardzīgu atbalstu. Latvijas Kafejnīcu un rezervētas dzērienu patēriņa asociācija teikusi, ka nodoklis beidzot varētu monetizēt valsts ilgstošo praksi sēdēt pie loga ar vienu kafiju 90 minūtes, katru malku pavada apstrādājot vienu bērnības atmiņu.
+
+Dažas pilsonisko brīvību aizstāves tomēr brīdina, ka uzraudzība var būt nevienmērīga. „Kā jūs atšķirat parasto klusumu no premium klusa?” vaicāja Linda Ozola, bezpeļņas organizācijas Runas bez spiediena vadītāja. „Ja divi bijušie klasesbiedri satiek Maxima, apmainās noguruša atpazīšanas skatienu un pavada sešas sekundes, domājot, vai inflācijas apspriešana vispār ir tā vērta, vai tas ir aplikams runas izvairīšanās gadījums vai kultūras mantojums?”
+
+Lai risinātu šādas bažas, pilsēta pieņēma darbā 48 jaunus Klusuma inspektorus, pēc bēšajām mēteļu krāsām un klipbordiem viegli atpazīstamus, kuri dežurēs pie tramvaja pieturām, iekšpagalmiem un visos veikalos, kas pārdod amatnieciskās sveces. Programmas pilotversija atklāja īpaši augstu klusuma koncentrāciju Teikā, kur viena autobusu rinda, kā ziņots, radīja 63,20 eiro aplikamu paužu laikā viegla snigšanas brīdī.
+
+Reakcija Jūrmalā ir dažāda. Kamēr daži iedzīvotāji baidās, ka nodoklis var izplūst arī piejūras teritorijā, citi saskata iespējas. Viens Dzintaru labas pašsajūtas centrs jau paziņojis par „detoks sarunām” — retrītu, kur viesi par 240 eiro sēž linu halātos un izvairās apspriest nekustamo īpašumu.
+
+Līdz trešdienas vakaram Rīgas iedzīvotāji sāka pielāgoties. Daži tika redzēti runājam pilnīgās, paniskās teikumos, lai izvairītos no maksām, kamēr citi lejupielādēja e-Klusums un tūlīt to aizvēra bez komentāriem. Pie autobusa pieturas netālu no Brīvības ielas, vīrietis pajautāja svešiniekam, vai nodoklis attieksies uz „to konkrēto klusumu pēc tam, kad tu saki ‘interesanti’ un to nožēlo”. Svešinieks smagi pamāja ar galvu, paskatījās zemē un, iespējams, jau parādā pilsētai 0,86 eiro.`,
+      ru: `РИГА — В шаге, который чиновники описали как «административно неизбежный», Рижская дума во вторник утвердила первый в стране Налог на вежливое молчание — муниципальный сбор, применяемый к социальным взаимодействиям, в которых участники поддерживают зрительный контакт, значимо кивают и ничего не говорят, что можно было бы считать содержательным, в течение более чем четырёх секунд.
+
+Политика, вступающая в силу 1 ноября, стала результатом 172-страничного исследования по заказу Департамента городской атмосферы и мягкой коммуникации. Согласно докладу, 84% всех разговоров в центральной Риге теперь включают «продолжительное уважительное молчание», а в 37% случаев беседа состоит целиком из того, что один человек говорит «ну», а другой смотрит в окно в сторону трамвая.
+
+Заместитель мэра по гражданскому тону Элина Межс объявила инициативу на пресс‑конференции, проведённой при почти полной тишине, нарушаемой лишь одним прочищением горла и шуршанием шарфа.
+
+«Мы не наказываем интровертов», — сказала Межс после паузы, которую журналисты позже засекли в 11,6 облагаемых налогом секунд. «Мы просто просим жителей справедливо вносить вклад в содержание социальной среды, которую они так старательно избегают тревожить». 
+
+По новым правилам каждый совершеннолетний житель получит 120 необлагаемых налогом минут молчания в месяц, отслеживаемых через уже действующую городскую платформу электронного управления e‑Klusums. Как только квота исчерпана, домохозяйствам выставят счёт в размере 0,43 евро за каждую дополнительную минуту взаимно признанного, но вербально непродуктивного взаимодействия. Пенсионеры получат льготную ставку, а студенты архитектурных факультетов и мужчины, стоящие у киосков без видимой цели, будут иметь право на пониженный сезонный тариф.
+
+Городские экономисты оценивают, что мера может принести 18,4 млн евро в год — достаточно для финансирования трёх новых велосипедных дорожек, двух консультативных комитетов и экспериментального пилотного проекта, в котором объявления в трамваях заменят одним разочарованным кашлем.
+
+Идея, как сообщается, возникла в Агенскалнсе, где местный житель и по совместительству реставратор баянов Мартиньш Блаус подал жалобу после того, как пережил, по его словам, «14‑минутный разговор на лестнице с соседом, в котором мы оба согласились, что жизнь сложна, а затем оба остались там, каждый в ожидании, кто первым уйдёт». 
+
+«Я готов что‑то платить», — сказал Блаус. «Если город может класть асфальт, то уж точно может управлять моментом, когда кто‑то говорит «мы обязательно как‑нибудь увидимся», и обе стороны знают, что это церемониальная ложь». 
+
+Деловые круги выразили осторожную поддержку. Латвийская ассоциация кафе и сдержанного потребления напитков заявила, что налог наконец позволит монетизировать давнюю практику сидения у окна с одним кофе 90 минут, пережёвывая одно детское воспоминание на каждый глоток.
+
+Некоторые защитники гражданских свобод, однако, предупреждают о возможной неравномерности применения правил. «Как отличить обычное молчание от премиального?» — спросила Линда Озола, директор некоммерческой организации «Речь без давления». «Если двое бывших одноклассников встречаются в Maxima, обмениваются взглядом усталого узнавания и проводят шесть секунд в размышлениях, стоит ли обсуждать инфляцию, — это уклонение от речи, облагаемое налогом, или культурное наследие?»
+
+Чтобы учесть такие опасения, город нанял 48 новых инспекторов по молчанию, которых будут узнавать по бежевым плащам и планшетам. Их разместят на трамвайных остановках, во дворах жилых домов и во всех магазинах, продающих ремесленные свечи. Пилотная версия программы выявила особенно высокую концентрацию молчания в Тейке, где в одной автобусной очереди, по сообщениям, образовалось налоговое молчание на сумму 63,20 евро во время лёгкого снегопада.
+
+Реакция в Юрмале оказалась смешанной. В то время как некоторые жители боятся, что налог может распространиться на прибрежную территорию, другие видят в этом возможности. Один велнес‑центр в Дзинтари уже объявил «детокс‑ретрит от разговоров», где гости за 240 евро сидят в льняных халатах и воздерживаются от обсуждения недвижимости.
+
+К вечеру среды жители Риги начали приспосабливаться. Некоторых заметили говорящими полными, испуганными предложениями, чтобы избежать штрафов, другие скачали e‑Klusums и тут же закрыли приложение без комментариев. На автобусной остановке рядом с улицей Brīvības iela один мужчина спросил незнакомца, будет ли налог применяться к «этому моменту молчания после того, как ты говоришь „интересно“ и жалеешь об этом». Незнакомец серьёзно кивнул, посмотрел в землю и, вероятно, уже должен городу 0,86 евро.`
+    },
+    date: "Sep 25, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/285/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 284,
     slug: "jrmala-introduces-quiet-sand-hours-after-284",
     title: {
@@ -102,7 +201,7 @@ Piektdienas rītā pilsēta paziņoja, ka pirmā Klusā smilšu stunda bijusi �
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/284/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 283,
