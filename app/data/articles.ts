@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 286,
+    slug: "jrmala-introduces-silence-tax-after-residents-286",
+    title: {
+      en: "Jūrmala Introduces 'Silence Tax' After Residents Complain Seagulls No Longer Respect Quiet Hours",
+      lv: "Jūrmala ievieš 'Klusuma nodokli' pēc iedzīvotāju sūdzībām, ka kaijas vairs neievēro klusuma stundas",
+      ru: "Юрмала вводит «налог на тишину» после жалоб жителей, что чайки больше не уважают часы тишины"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have approved a seasonal Silence Tax aimed at restoring what they describe as 'the acoustic dignity of the coast.' The measure follows years of complaints that local seagulls, tourists, and one emotionally unstable saxophonist have collectively eroded the city’s legally protected atmosphere of tasteful murmuring.",
+      lv: "Jūrmala pilsētas amatpersonas apstiprinājušas sezonālu 'Klusuma nodokli', kura mērķis ir atjaunot to, ko tās dēvē par 'krasta akustisko cienību'. Lēmums seko gadiem ilgiem pārmetumiem, ka vietējās kaijas, tūristi un viens emocionāli nestabils saksofonists kopīgi iznīcinājuši pilsētas likumīgi aizsargāto gaumīgā čukstēšanas atmosfēru.",
+      ru: "Муниципальные чиновники Юрмалы утвердили сезонный «налог на тишину», призванный восстановить, как они это сформулировали, «акустическое достоинство побережья». Мера последовала за годами жалоб на то, что местные чайки, туристы и один эмоционально нестабильный саксофонист совместно подорвали юридически защищённую атмосферу деликатного перешёптывания в городе."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a 9–4 vote late Tuesday evening, the Jūrmala City Council approved Latvia’s first municipal Silence Tax, a targeted fee on disruptive summer noise that officials say will help preserve the resort town’s 'historic sound profile' of distant waves, mild disappointment, and cutlery touching porcelain.
+
+The new regulation, which takes effect on 1 June, will apply to any sound exceeding what the council document calls 'a civilised Baltic volume.' This includes portable speakers, amplified laughter after 22:00, flip-flops 'slapped aggressively,' and seagull activity deemed 'performative rather than nutritional.' Revenue from the tax will be used to fund 14 seasonal Acoustic Inspectors, two decibel kiosks, and a pilot mediation program between residents and coastal birds.
+
+According to city data, average summer noise complaints in Jūrmala rose 38% over the past three years, with the sharpest increases in Dzintari and Majori. Of the 1,742 complaints filed last season, 611 concerned beachgoers speaking Russian too confidently, 403 involved Bluetooth speakers playing 'tastefully remixed nostalgia,' and 287 named seagulls individually.
+
+'People come to Jūrmala expecting peace, architecture, and a manageable level of passive aggression,' said municipal environmental deputy Inga Lejniece, speaking beside a chart titled Seasonal Sonic Threats. 'Instead, they are confronted with bachelorette parties from Riga and seagulls who scream directly into the concept of summer. At some point, local government has to act.'
+
+Under the new rules, first-time offenders will receive a warning and a brochure explaining approved coastal tones. Repeat violations carry fines ranging from €15 for loud snack packaging to €250 for 'recreational shouting.' Businesses may also be penalized if their terraces generate what inspectors classify as 'aspirational luxury noise,' a category reportedly inspired by one restaurant where a champagne cork triggered twelve separate complaints and a blood pressure episode.
+
+Not everyone is convinced the law is enforceable. Outside a grocery in Bulduri, pensioner Aivars Priede said the city was targeting the wrong species. 'The seagulls are not the problem,' he said while protecting a smoked sprat sandwich beneath his jacket. 'The problem is people who arrive from Riga on Friday and behave as if oxygen is free. A gull only steals your food. A tourist steals the whole atmosphere.'
+
+Business owners have expressed cautious support. Ilze Mežmale, manager of the beach café Amber Pause, said she had already adapted by replacing live music with a certified low-impact accordionist and asking customers to clap internally. 'At first people resisted,' she said. 'But once we explained that visible enjoyment can be submitted in written form, they adjusted beautifully.'
+
+The city has also begun testing new deterrent technology, including reflective dune signage and recorded messages in Latvian, English, and stern silence. Early trials were mixed. One seagull reportedly attacked a decibel meter for 17 minutes, while inspectors in Melluži mistakenly fined a wind chime, a labrador, and a Swedish family peeling eggs too energetically.
+
+Still, officials insist the initiative is necessary if Jūrmala is to retain its identity. Mayor Gatis Ozols called the Silence Tax 'a bold investment in audible restraint' and predicted it could become a model for other Baltic municipalities facing 'unregulated enthusiasm.'
+
+As sunset fell over the nearly empty beach on Wednesday, the policy’s effects were already visible. Visitors spoke in lowered tones, café chairs moved with bureaucratic delicacy, and a lone seagull stood atop a bin near the promenade, glaring at the sea with what witnesses described as taxable intent.`,
+      lv: `JŪRMALA — Otrdienas vēlā vakarā, ar balsu attiecību 9–4, Jūrmalas domē apstiprināja Latvijas pirmo pašvaldības 'Klusuma nodokli' — mērķētu nodevu par traucējošu vasaras trokšņošanu, kas, pēc amatpersonu teiktā, palīdzēs saglabāt kūrortpilsētas 'vēsturisko skaņas profilu' ar tālāku viļņu šalkoņu, maigu vīlušanos un galda piederumu pieskārieniem porcelānam.
+
+Jaunā regulēšana, kas stāsies spēkā 1. jūnijā, attieksies uz jebkuru skaņu, kas pārsniedz to, ko domes dokuments dēvē par "civiļizētu Baltijas skaļumu". Tas ietver portatīvos skaļruņus, pastiprinātu smieklu pēc plkst. 22:00, pludmales čības, "sitot agresīvi", un kaiju darbības, kuras tiek uzskatītas par "performatīvām, nevis uzturvielām". Nodokļa ieņēmumi tiks izmantoti, lai finansētu 14 sezonālus Akustikas inspektorus, divus decibeļu kioskus un pilotprogrammu starp iedzīvotājiem un piekrastes putniem mediācijas jomā.
+
+Pēc pilsētas datiem vidējās sūdzības par vasaras trokšņiem Jūrmalā pieauga par 38% pēdējo trīs gadu laikā, ar straujāko pieaugumu Dzintaros un Majoros. No 1 742 iesniegtajām sūdzībām pagājušajā sezonā 611 bija par pludmales apmeklētājiem, kas pārāk pārliecinoši runā krieviski, 403 skāra Bluetooth skaļruņus, kas atskaņo "gaumīgi remiksētu nostalģiju", un 287 individuāli nosauca kaijas vārdā.
+
+"Cilvēki brauc uz Jūrmalu, sagaidot mieru, arhitektūru un pieņemamu līmeni pasīvai agresijai," sacīja pašvaldības vides deputāte Inga Lejniece, runājot blakus diagrammai ar nosaukumu Sezonālie akustiskie draudi. "Tā vietā viņi sastopas ar Rīgas meiteņu ballītēm un kaijām, kas kliedz tieši uz vasaras jēdzienu. Kādā brīdī vietējai varai ir jāiejaucas."
+
+Saskaņā ar jaunajiem noteikumiem pirmo reizi pārkāpēji saņems brīdinājumu un bukletu, kurā skaidrotas atļautās piejūras toni. Atkārtoti pārkāpumi paredz naudas sodus no 15 € par skaļu uzkodu iepakojumu līdz 250 € par "rekreācijas kliegšanu". Uzņēmumi var tikt sodīti arī tad, ja to terases rada to, ko inspektori klasificē kā "tieksmīgu greznības troksni" — kategoriju, kuras iedvesma, pēc ziņām, bija viens restorāns, kur šampanieša korķis izraisīja divpadsmit atsevišķas sūdzības un asinsspiediena paaugstināšanos.
+
+Ne visi ir pārliecināti, ka likumu iespējams īstenot. Pie veikala Bulduri pensionārs Aivars Priede teica, ka pilsēta mērķē uz nepareizo sugu. "Kaijas nav problēma," viņš sacīja, slēpjot kūpinātas sprotas sviestmaizi zem žaketes. "Problēma ir cilvēki, kas piektdien no Rīgas ierodas un uzvedas, it kā skābeklis būtu bez maksas. Kaija tikai nozog tavu ēdienu. Tūristi nozog visu atmosfēru."
+
+Uzņēmēji ir izrādījuši piesardzīgu atbalstu. Pludmales kafejnīcas Amber Pause vadītāja Ilze Mežmale sacīja, ka jau ir pielāgojusies, aizstājot dzīvo mūziku ar sertificētu zemu ietekmi atstarojošu akordeonistu un lūdzot klientiem "plaukšķināt iekšēji". "Sākumā cilvēki pretojās," viņa teica. "Bet, kad paskaidrojām, ka redzamo izklaidi var iesniegt rakstiskā formā, viņi skaisti pielāgojās."
+
+Pilsēta arī sāka izmēģināt jaunu atturēšanas tehnoloģiju, tostarp atstarojošas kāpu zīmes un ierakstītas ziņas latviski, angliski un stingrā klusumā. Agrīnie testi bija jaukti. Viena kaija, kā ziņots, 17 minūtes uzbruka decibeļu mērītājam, kamēr inspektori Mellužos kļūdaini sodīja vēja zvaniņu, labradoru un zviedru ģimeni par pārāk enerģisku olu mizošanu.
+
+Tomēr amatpersonas uzsver, ka iniciatīva ir nepieciešama, ja Jūrmala vēlas saglabāt savu identitāti. Pilsētas mērs Gatis Ozols nosauca Klusuma nodokli par "drosmīgu ieguldījumu dzirdamā atturībā" un prognozēja, ka tas var kļūt par piemēru citām Baltijas pašvaldībām, kas saskaras ar "neierobežotu entuziasmu".
+
+Kad trešdienas saulriets krāsa gandrīz tukšo pludmali, politikas ietekme jau bija redzama. Apmeklētāji runāja klusākos toņos, kafejnīcu krēsli kustējās ar birokrātisku maigumu, un vientuļa kaija stāvēja uz atkritumu tvertnes pie promenādes, blenzdama uz jūru ar to, ko liecinieki aprakstīja kā nodokļa cienīgu nodomu.`,
+      ru: `ЮРМАЛА — В голосовании 9–4 поздним вечером во вторник Городской совет Юрмалы одобрил первый в Латвии муниципальный «налог на тишину», целевой сбор за нарушающий летний шум, который, по словам чиновников, поможет сохранить курортный «исторический звуковой профиль» — отдалённые волны, лёгкое разочарование и звон посуды.
+
+Новое правило, которое вступает в силу 1 июня, будет применяться ко всем звукам, превышающим то, что в документе совета названо «цивилизованным балтийским уровнем громкости». Сюда входят переносные колонки, усилённый смех после 22:00, шлёпанцы, хлопающие агрессивно, и активность чаек, признанная «показательной, а не питательной». Доходы от налога пойдут на содержание 14 сезонных акустических инспекторов, двух киосков для замера децибел и пилотной программы примирения между жителями и прибрежными птицами.
+
+Согласно городским данным, среднее число жалоб на летний шум в Юрмале выросло на 38% за последние три года, причём резкий подъём отмечен в Дзинтари и Маяори. Из 1 742 жалоб, поданных в прошлом сезоне, 611 касались отдыхающих на пляже, говоривших по‑русски с чрезмерной уверенностью, 403 — Bluetooth‑колонок, проигрывавших «вкусно перемикшированную ностальгию», и 287 — жалоб с указанием чаек поимённо.
+
+«Люди приезжают в Юрмалу в ожидании тишины, архитектуры и управляемого уровня скрытой агрессии», — заявила заместитель муниципального эколога Инга Лейниеце, выступая у диаграммы под заголовком «Сезонные звуковые угрозы». «Вместо этого они сталкиваются с девичниками из Риги и чайками, которые кричат прямо в само понятие «лето». В какой‑то момент местная власть обязана вмешаться».
+
+По новым правилам, нарушителям при первом нарушении будет вынесено предупреждение и выдана брошюра с перечнем одобренных прибрежных тонов. Повторные нарушения грозят штрафами от €15 за громкую упаковку с закусками до €250 за «развлекательные крики». Предпринимателей тоже могут наказывать, если их террасы создают то, что инспекторы классифицируют как «шум, стремящийся к роскоши» — категория, по слухам, вдохновлённая случаем в одном ресторане, где пробка от шампанского вызвала двенадцать отдельных жалоб и один приступ повышенного давления.
+
+Не все уверены, что закон можно будет исполнить. У продуктового магазина в Булдури пенсионер Айварс Приеде сказал, что город нацелился не на тот вид. «Чайки — не проблема», — сказал он, пряча под курткой бутерброд с копчёным шпротом. «Проблема — люди, которые приезжают из Риги в пятницу и ведут себя так, будто кислород бесплатен. Чайка только стащит еду. Турист украдёт всю атмосферу».
+
+Владельцы бизнеса выразили осторожную поддержку. Илзе Межмале, менеджерка прибрежного кафе Amber Pause, сказала, что уже адаптировалась: живая музыка заменена сертифицированным аккордеонистом с низкой акустической нагрузкой, а гостей просят аплодировать про себя. «Сначала люди сопротивлялись», — признала она. «Но как только мы объяснили, что видимое наслаждение можно подать в письменной форме, они великолепно приспособились».
+
+Город также начал тестирование новых средств отпугивания, включая световозвращающую дюнную навигацию и запись сообщений на латышском, английском и в форме сурового молчания. Ранние испытания оказались смешанными. Одна чайка, по сообщениям, атаковала децибелометр в течение 17 минут, а инспекторы в Меллужи по ошибке оштрафовали ветровой колокольчик, лабрадора и шведскую семью, слишком рьяно чистившую яйца.
+
+Тем не менее чиновники настаивают, что инициатива необходима для сохранения идентичности Юрмалы. Мэр Гатис Озолс назвал «налог на тишину» «смелой инвестицией в слышимое самообладание» и предположил, что мера может стать моделью для других балтийских муниципалитетов, столкнувшихся с «неконтролируемым энтузиазмом».
+
+Когда в среду над почти пустым пляжем опустился закат, эффект политики был уже заметен: посетители говорили приглушённо, стулья в кафе передвигали с бюрократической деликатностью, а одна чайка стояла на мусорном баке у променада и пялилась на море с тем, что свидетели описали как облагаемое налогом намерение.`
+    },
+    date: "Sep 26, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/286/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 285,
     slug: "riga-introduces-polite-silence-tax-after-285",
     title: {
@@ -114,7 +195,7 @@ Līdz trešdienas vakaram Rīgas iedzīvotāji sāka pielāgoties. Daži tika re
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/285/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 284,
