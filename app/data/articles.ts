@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 287,
+    slug: "jrmala-introduces-silent-applause-zoning-after",
+    title: {
+      en: "Jūrmala Introduces Silent Applause Zoning After Residents Complain Clapping Is ‘Too Riga’",
+      lv: "Jūrmala ievieš klusās aplausu zonēšanu pēc tam, kad iedzīvotāji sūdzējušies — plaukšķošana esot “pārāk Rīga”",
+      ru: "Юрмала вводит зонирование тихих аплодисментов после жалоб жителей, что аплодисменты «слишком по‑рижски»"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have approved Latvia’s first municipal Silent Applause Zoning Plan, restricting enthusiastic clapping to designated corridors near the concert hall and one municipal parking lot. Residents say the measure will preserve the city’s historic atmosphere of tasteful approval and low-risk emotion.",
+      lv: "Jūrmalas pašvaldība apstiprinājusi Latvijas pirmo Kluso aplausu zonēšanas plānu, ierobežojot entuziastisku plaukšķināšanu tikai noteiktos koridoros pie koncertzāles un vienā pašvaldības stāvlaukumā. Iedzīvotāji saka, ka pasākums saglabās pilsētas vēsturisko atmosfēru — gaumīgas apstiprināšanas un zema riska emociju vidi.",
+      ru: "Чиновники Юрмалы утвердили первый в Латвии муниципальный План зонирования «тихих аплодисментов», ограничивающий энергичные аплодисменты специально отведёнными коридорами возле концертного зала и одной муниципальной парковкой. Жители говорят, что мера сохранит историческую атмосферу города — вкусовое одобрение и низкорисковые эмоции."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city planners described as “long overdue for a seaside municipality of refined acoustic expectations,” the Jūrmala City Council voted Tuesday to regulate public applause through a new zoning framework aimed at reducing what officials called “unstructured hand-based noise.”
+
+The Silent Applause Zoning Plan, passed 11–4 after a two-hour procedural disagreement over whether light finger tapping counted as ovation-related activity, will limit full-volume clapping to three approved districts: the immediate perimeter of Dzintari Concert Hall, a 40-meter cultural buffer near Turaidas Street, and Parking Lot C behind the municipal library, where residents may applaud “briefly and with emotional restraint” between 6 p.m. and 8 p.m. on weekdays.
+
+The policy follows months of complaints from longtime residents who say spontaneous displays of enthusiasm have grown noticeably louder since remote workers from Riga began treating Jūrmala as “a place where every espresso deserves a standing response.” According to a municipal survey of 1,200 residents, 68% said applause levels had become “urban,” 21% said they had heard at least one clap they considered “aggressive,” and 7% reported being startled by what they later learned was appreciation for a jazz trio.
+
+“We are not anti-culture,” said Deputy Mayor Ilze Vītoliņa, speaking beside a laminated map of approved appreciation zones. “We are simply saying that in Jūrmala, gratitude should travel no faster than sea air. For centuries, this city has expressed joy through a dignified nod, a soft exhale, or in exceptional cases, a second nod.”
+
+Under the new rules, residents attending concerts, children’s recitals, and successful restaurant openings will be encouraged to use alternative feedback methods, including eyebrow elevation, discreet mitten contact in winter months, and the newly standardized Baltic Palm Hover, in which attendees raise their hands slightly and think supportive thoughts. Hotels found encouraging foreign tourists to clap “as if in Barcelona” may face fines of up to €350 or mandatory attendance at a municipal seminar titled Listening to Your Surroundings Before They Become a Problem.
+
+Not everyone supports the measure. Local saxophonist and cultural organizer Mārtiņš Liepa said artists were struggling to adapt to a performance environment where audience members show approval by adjusting posture. “At my last set, I thought I had failed completely,” Liepa said. “Then afterward, three people told me they had narrowed their eyes in admiration during the second number. One woman said she almost smiled.”
+
+Business owners remain divided. Café proprietor Sanita Ozola, whose terrace sits just outside an approved applause corridor, said she has already had to intervene twice. “A table of architecture students from Riga began clapping after a well-assembled napoleon cake,” she said. “I had to show them the municipal map and guide them to the designated response area near the recycling containers.”
+
+City acoustic consultant Andris Kļaviņš defended the plan with a 47-page report concluding that applause in Jūrmala reverberates differently due to pine density, dune humility, and “the psychological flatness of summer linen.” His team measured peak clap intensity during last year’s resort season at 83 decibels, roughly equivalent, he said, to “one emotionally unstable suitcase wheel on wooden boards.”
+
+Municipal leaders insist the policy is only the beginning. A pilot program next month will test whether gasps of delight at sunset should require permits in residential sectors west of Bulduri. Meanwhile, council members say they are monitoring a separate increase in unsolicited laughter near beach cafés.
+
+“As a resort city, we must remain open, cultured, and calm,” Vītoliņa said. “People are still free to feel things here. We just ask that they do so in the correct zone.”`,
+      lv: `JŪRMALA — Pilsētplānotāji šo lēmumu raksturoja kā «ilgi gaidītu pie jūrmalas pašvaldībai ar izsmalcinātām akustiskajām ekspektācijām», un Jūrmalas dome otrdien nobalsoja par publiskās plaukšķošanas regulēšanu jaunā zonēšanas ietvarā, kura mērķis ir samazināt to, ko amatpersonas dēvēja par «nesakārtotu roku radītu troksni».
+
+Klusās aplausu zonēšanas plāns, kas pieņemts ar 11–4 pēc divu stundu procedurāla strīda par to, vai viegla pirkstu tapsināšana skaitās uz ovācijām attiecināma darbība, ierobežos skaļus aplausus trīs apstiprinātajās teritorijās: Dzintaru koncertzāles tiešā tuvumā, 40 metrus plašā kultūras buferzonā pie Turaidas ielas un Autostāvvietā C aiz pašvaldības bibliotēkas, kur iedzīvotāji drīkst aplaudēt «īslaicīgi un emocionālā atturībā» darba dienās no plkst. 18:00 līdz 20:00.
+
+Politiika seko mēnešiem ilgiem sūdzību vilnī no ilglaicīgiem iedzīvotājiem, kuri stāsta, ka spontānas entuziasma izpausmes ir krietni skaļākas kopš tam, kad attālinātie darbinieki no Rīgas sākuši Jūrmalu uzskatīt par «vietu, kur katram espresso pienākas stāvoša reakcija». Pašvaldības aptaujā ar 1 200 respondentiem 68% sacīja, ka aplausu līmenis ir kļuvis «pilsētnisks», 21% apgalvoja, ka bija dzirdējuši vismaz vienu plaukšķi, ko uzskatīja par «agresīvu», bet 7% ziņoja, ka tika izbiedēti par to, kas vēlāk izrādījās – apbrīna pret džeza trio.
+
+«Mēs neesam pretkultūras,» sacīja domes priekšsēdētājas vietniece Ilze Vītoliņa, blakus laminētai apstiprināto atzinības zonu kartei. «Mēs vienkārši sakām, ka Jūrmalā pateicībai jāceļas ne ātrāk par jūras gaisu. Gadsimtiem ilgi šī pilsēta prieku ir izrādījusi ar cienījamu galvas mājienu, vieglu izelpu vai izņēmuma gadījumos — ar otro galvas mājienu.»
+
+Saskaņā ar jaunajiem noteikumiem koncertu apmeklētājiem, bērnu recitālu klausītājiem un veiksmīgu restorānu atklāšanu apmeklētājiem tiks ieteikts izmantot alternatīvas atgriezeniskās saites metodes, tostarp uzacu pacelšanu, diskretu dūraiņu saskari ziemas mēnešos un jaunizveidoto standartizēto «Baltijas plaukstas gaisā» — kad klātesošie nedaudz paceļ plaukstas un domās izsaka atbalstu. Viesnīcas, kuras mudinās ārvalstu viesus plaukšķināt «it kā Barselonā», var tikt sodītas ar naudas sodu līdz 350 € vai piespiedu dalībai pašvaldības seminārā «Klausies apkārtni pirms tā kļūst par problēmu». 
+
+Ne visi atbalsta šo pasākumu. Vietējais saksofonists un kultūras organizators Mārtiņš Liepa sacīja, ka māksliniekiem ir grūti pielāgoties uzstāšanās videi, kurā skatītāji atzinību izrāda, vienkārši koriģējot pozu. «Pēdējā setā man šķita, ka esmu pilnīgi izgāzies,» teica Liepa. «Pēc tam trīs cilvēki man atklāja, ka otrajā numurā viņi apbrīnā bija sašaurinājuši acis. Viena kundze teica, ka gandrīz pasmaidījusi.»
+
+Uzņēmēji ir šķirti. Kafejnīcas «Terase» īpašniece Sanita Ozola, kuras terase atrodas tieši ārpus apstiprinātā aplausu koridora, sacīja, ka viņai jau divreiz nācies iejaukties. «Pie mums pie galda sēdēja Rīgas arhitektūras studenti, kuri sāka plaukšķināt pēc perfektas napoleona kūkas gabala,» viņa stāstīja. «Man nācās rādīt viņiem pašvaldības karti un nogādāt uz norādīto reakcijas zonu pie šķirošanas konteineriem.»
+
+Pilsētas akustikas konsultants Andris Kļaviņš aizstāvēja plānu ar 47 lappušu ziņojumu, kurā secināts, ka aplausi Jūrmalā atbalsojas citādi sakarā ar priežu blīvumu, kāpu pieticību un «vasaras lina psiholoģisko plaknību». Viņa komanda pagājušās sezonas kūrorta laikā izmērīja maksimālo plaukšķu intensitāti 83 decibelos, kas, pēc Kļaviņa vārdiem, aptuveni atbilst «viena emocionāli nestabilā kofera riteņa skaņai uz koka dēļiem». 
+
+Pašvaldības vadītāji uzsver, ka politika ir tikai sākums. Nākamajā mēnesī tiks izmēģināta pilotprogramma, lai pārbaudītu, vai saulrieta laikā izskanīgām sajūsmas aizelšanās jāpieprasa atļaujas dzīvojamajās zonās uz rietumiem no Bulduriem. Tikmēr dome seko līdzi arī atsevišķam negaidītā smieklu pieaugumam pie pludmales kafejnīcām.
+
+«Kā kūrortpilsētai mums jāpaliek atvērtai, kultūrīgai un mierīgai,» sacīja Vītoliņa. «Cilvēkiem joprojām šeit ir brīvība kaut ko izjust. Mēs tikai lūdzam, lai viņi to dara pareizajā zonā.»`,
+      ru: `ЮРМАЛА — В шаге, который городские планировщики назвали «давно назревшим для прибрежного муниципалитета с утончёнными акустическими ожиданиями», Городской совет Юрмалы во вторник проголосовал за регулирование публичных аплодисментов через новую систему зонирования, направленную на сокращение того, что чиновники назвали «неструктурированным шумом руками». 
+
+План зонирования «тихих аплодисментов», принятый 11 голосами против 4 после двухчасового процедурного спора о том, считаются ли лёгкие постукивания кончиками пальцев видом овации, ограничит полноценные аплодисменты на всю громкость тремя утверждёнными районами: непосредственный периметр концертного зала Dzintari, 40‑метровая культурная буферная полоса возле улицы Turaidas и Парковка C за муниципальной библиотекой, где жители могут аплодировать «кратко и сдержанно» с 18:00 до 20:00 в будние дни. 
+
+Политика стала ответом на месяцы жалоб от давних жителей, которые говорят, что спонтанные проявления энтузиазма заметно огрубели с тех пор, как удалённые работники из Риги начали воспринимать Юрмалу как «место, где каждому эспрессо положен овационный ответ». По муниципальному опросу среди 1 200 жителей 68% заявили, что уровень аплодисментов стал «урбанистическим», 21% говорили, что слышали по крайней мере один аплодисмент, который они сочли «агрессивным», а 7% сообщили, что были испуганы тем, что позже оказалось проявлением признательности в адрес джаз‑трио. 
+
+«Мы не против культуры», — сказала заместительница мэра Ilze Vītoliņa, выступая рядом с ламинированной картой утверждённых зон для выражения признательности. «Мы просто говорим, что в Юрмале благодарность не должна перемещаться быстрее морского воздуха. На протяжении веков этот город выражал радость достойным кивком, мягким выдохом или в исключительных случаях — вторым кивком». 
+
+По новым правилам посетителей концертов, детских концертов и успешных открытий ресторанов призывают пользоваться альтернативными способами обратной связи, включая поднятие бровей, деликатное соприкосновение варежками в зимние месяцы и нововведённый стандартизованный «Балтийский парящий ладонь», при котором зрители слегка поднимают руки и мысленно посылают поддерживающие мысли. Отели, поощряющие иностранных туристов аплодировать «как в Барселоне», могут получить штраф до 350 евро или быть обязаны пройти муниципальный семинар под названием «Слушать своё окружение, прежде чем оно станет проблемой». 
+
+Не все поддерживают эту меру. Местный саксофонист и организатор культурных мероприятий Mārtiņš Liepa сказал, что артистам трудно адаптироваться к среде выступлений, где публика выражает одобрение изменением осанки. «На своём последнем сете я думал, что провалился полностью», — сказал Liepa. «Потом трое людей сказали мне, что прищурились от восхищения во время второй композиции. Одна женщина призналась, что чуть не улыбнулась». 
+
+Предприниматели разделились во мнениях. Владелица кафе Sanita Ozola, чья терраса находится прямо у утверждённого коридора аплодисментов, сказала, что ей уже приходилось вмешиваться дважды. «За столиком сидела группа студентов‑архитекторов из Риги и начала аплодировать после удачно собранного торта «наполеон», — рассказала она. — «Мне пришлось показать им муниципальную карту и сопроводить их в предназначенную для ответов зону рядом с контейнерами для переработки». 
+
+Городской акустический консультант Andris Kļaviņš защитил план 47‑страничным отчётом, в котором делается вывод, что аплодисменты в Юрмале звучат иначе из‑за плотности сосен, скромности дюн и «психологической плоскости летнего льна». Его команда зафиксировала пиковую интенсивность хлопка ладоней в туристический сезон прошлого года на уровне 83 децибела, что, по его словам, примерно эквивалентно «одному эмоционально нестабильному колесику чемодана по деревянным доскам». 
+
+Муниципальные лидеры настаивают, что это только начало. В следующем месяце пилотная программа проверит, требуют ли вздохи восхищения на закате разрешений в жилых кварталах к западу от Bulduri. Тем временем члены совета следят за отдельным ростом незапрошенного смеха рядом с пляжными кафе. 
+
+«Как курортный город, мы должны оставаться открытыми, культурными и спокойными», — сказала Vītoliņa. «Люди по‑прежнему свободны испытывать эмоции. Мы лишь просим, чтобы они делали это в правильной зоне».`
+    },
+    date: "Sep 27, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/287/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 286,
     slug: "jrmala-introduces-silence-tax-after-residents-286",
     title: {
@@ -96,7 +177,7 @@ Kad trešdienas saulriets krāsa gandrīz tukšo pludmali, politikas ietekme jau
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/286/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 285,
