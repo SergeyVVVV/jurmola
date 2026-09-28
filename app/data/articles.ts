@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 288,
+    slug: "riga-introduces-polite-queue-pilot-program",
+    title: {
+      en: "Riga Introduces ‘Polite Queue’ Pilot Program After Residents Report Waiting in Line Has Become Their Primary Hobby",
+      lv: "Rīga ievieš 'Pieklājīgās rindas' pilotprogrammu pēc iedzīvotāju ziņojumiem, ka rindā stāvēšana kļuvusi par viņu galveno hobiju",
+      ru: "Рига запускает пилотный проект «Вежливая очередь» после того, как жители заявили, что стоять в очереди стало их главным хобби"
+    },
+    excerpt: {
+      en: "Municipal officials in Riga have unveiled a new urban initiative designed to regulate the city’s increasingly competitive queuing culture. The pilot program, already active at three pharmacies, two parcel lockers, and one especially tense bakery in Purvciems, aims to ensure every resident gets a fair chance to sigh audibly in public.",
+      lv: "Rīgas pašvaldības ierēdņi ir izziņojuši jaunu pilsētas iniciatīvu, kuras mērķis regulēt arvien konkurētspējīgāko rindu kultūru. Pilotprojekts, kas jau darbojas trijās aptiekās, divos pakomātos un vienā īpaši saspringtā maiznīcā Purvciemā, paredz nodrošināt, ka katram iedzīvotājam ir godīga iespēja publiskā vietā skaļi nopūsties.",
+      ru: "Муниципальные власти Риги представили новую городскую инициативу, призванную регулировать всё более конкурентную культуру стояния в очередях. Пилотный проект, уже действующий в трёх аптеках, двух постаматах и в одной особенно напряжённой пекарне в Пурвциемсе, призван обеспечить каждому жителю справедливый шанс громко вздохнуть на публике."
+    },
+    fullContent: {
+      en: `RIGA — In what city planners are calling a “necessary adaptation to social reality,” the Riga City Council on Tuesday launched the country’s first officially managed queuing system, a pilot program intended to bring structure, dignity, and modest emotional containment to the act of standing in line.
+
+The initiative, titled Polite Queue Riga, will assign residents a digital queue temperament profile based on their historical waiting behavior, with categories including ‘Quietly Furious,’ ‘Overtaking Through Vague Body Language,’ and ‘Actually Just Here to Ask One Small Question.’ Participants will receive a QR-coded place in line, estimated sighing windows, and, in premium municipal zones, access to a laminated card reading, ‘I Was Here Before You But in a Spiritual Sense.’
+
+Deputy Mayor for Public Rhythm and Transitional Patience Ilze Rancāne said the city could no longer ignore what internal reports identified as “an unsupervised line-based lifestyle economy.” According to a municipal survey of 1,200 residents, the average Rigan now spends 8.4 hours per week either in a queue, discussing a previous queue, or preparing emotionally for a future one.
+
+“We looked at the data and realized queuing is no longer an inconvenience,” Rancāne told reporters while standing ceremonially behind a velvet rope outside the Customer Service Centre on Brīvības iela. “It is one of the few remaining shared civic experiences. Song Festival happens every five years. Waiting behind a person paying utility bills in coins happens daily.”
+
+The pilot began quietly last month at selected sites across the capital, including Milda Pharmacy near Čaka Street, a parcel pickup point in Ziepniekkalns, and the bakery Maizes Doma, where authorities say line-related incidents had risen 17% after customers began “reserving” places with meaningful eye contact from across the room.
+
+At the bakery, retiree Aivars Lūsiņš, 68, said the new system had already improved social order. “Before, you had to remember seven faces, one tote bag, and a baby stroller that might or might not represent an active customer,” he said. “Now I receive a number and can focus on what matters: judging everyone else’s bread choices in silence.”
+
+Not all residents are convinced. Freelance graphic designer and self-described queue traditionalist Anete Vītola, 34, argued the reform risks erasing valuable cultural practices. “My mother taught me how to determine line hierarchy from scarf placement, basket angle, and passive-aggressive exhaling,” she said. “This is heritage. UNESCO should be protecting it, not the city digitizing it.”
+
+Officials insist the program respects local customs. The software, developed by a startup in Āgenskalns called LineMind, includes region-specific features such as Winter Coat Buffer Recognition, Grandmother Priority Drift, and a crisis mode for when one cashier closes unexpectedly and everyone must renegotiate the moral basis of civilization.
+
+LineMind co-founder Edgars Puksts said the algorithm was trained on more than 14,000 hours of Baltic retail footage. “We wanted to build something truly local,” he said. “In Western Europe, people stand in line physically. Here, half the queue exists in theory, memory, and low-level resentment.”
+
+The Ministry of Culture has expressed cautious interest, suggesting managed queuing could be added to Latvia’s inventory of intangible cultural practices if the pilot proves sustainable. Jurmala officials are reportedly considering a summer version for beach cafés, where residents and tourists currently form what one internal memo described as ‘a decorative cluster with transactional aspirations.’
+
+For now, the city says it will monitor satisfaction levels through interviews, wait-time data, and microphones calibrated to detect muttered phrases such as “interesting” and “of course.” If successful, Polite Queue Riga could expand nationwide by 2027.
+
+At a press event marking the launch, attendees were invited to experience a demonstration queue outside the council building. The event was delayed 22 minutes after three participants claimed they were not in line, but had nonetheless been there first.`,
+      lv: `RĪGA — To, ko pilsētplānotāji dēvē par “nepieciešamu adaptāciju sociālajai realitātei”, otrdien Rīgas dome sāka valsts pirmo oficiāli pārvaldīto rindu sistēmu — pilotprogrammu, kuras mērķis ievest struktūru, cienību un mērenu emocionālu pašvaldību rindas stāvēšanā.
+
+Iniciatīva ar nosaukumu Pieklājīgā rinda Rīgā piešķirs iedzīvotājiem digitālu rindu temperamentu profilu, balstoties uz viņu iepriekšējo gaidīšanas uzvedību, kategorijām iekļaujot 'klusi dusmīgs', 'apsteidz ar miglainu ķermeņa valodu' un 'patiesībā šeit tikai, lai uzdotu vienu mazu jautājumu'. Dalībnieki saņems QR kodu vietai rindā, paredzamos nopūtas logus un, premium pašvaldības zonās, laminētu kartīti ar uzrakstu 'Es biju šeit pirms tevis, bet garīgā nozīmē'.
+
+Sabiedriskās ritmikas un pārejas pacietības jautājumos atbildīgā vicemēre Ilze Rancāne sacīja, ka pilsēta vairs nevar ignorēt to, ko iekšējie ziņojumi identificējuši kā “neuzraudzītu rindu bāzētas dzīves ekonomiku”. Pēc pašvaldības aptaujas ar 1 200 respondentu vidējais rīdzinieks tagad pavada 8,4 stundas nedēļā, būdams rindā, diskutējot par iepriekšējo rindu vai emocionāli gatavojoties nākamajai.
+
+“Mēs paskatījāmies uz datiem un sapratām, ka rindas stāvēšana vairs nav tikai neērtība,” Rancāne žurnālistiem sacīja, stāvot ceremonāli aiz samta auklas ārpus Klientu apkalpošanas centra Brīvības ielā. “Tas ir viens no retajiem kopīgajiem pilsoniskajiem pieredzes brīžiem. Dziesmu svētki notiek ik pēc pieciem gadiem. Gaidīt aiz cilvēka, kas maksā komunālos rēķinus ar monētām, notiek ik dienu.”
+
+Pilots klusi sākās pagājušajā mēnesī izvēlētās vietās galvaspilsētā, tostarp Mildas aptiekā pie Čaka ielas, pakomāta punktā Ziepniekkalnā un maiznīcā Maizes Doma, kur varasiestādes apgalvo, ka ar rindām saistīti incidenti pieauguši par 17% pēc tam, kad klienti sākuši “rezervēt” vietas ar nozīmīgu acu kontaktu no otras telpas malas.
+
+Maiznīcā pensionārs Aivars Lūsiņš, 68 gadus vecs, sacīja, ka jaunā sistēma jau uzlabojusi sociāro kārtību. “Agrāk bija jāatceras septiņas sejas, viena auduma soma un rati, kas varbūt, varbūt ne pārstāv aktīvu klientu,” viņš teica. “Tagad es saņemu numuriņu un varu koncentrēties uz svarīgo: klusumā spriest par citu maizes izvēlēm.”
+
+Ne visi iedzīvotāji ir pārliecināti. Brīvmākslas grafiskā dizainere un pašpasludināta rindu tradicionāliste Anete Vītola, 34, apgalvoja, ka reforma apdraud vērtīgas kultūras prakses iznīcināšanu. “Māte man iemācīja noteikt rindas hierarhiju pēc šalles novietošanas, groza leņķa un pasīvi-agresīvas izelpas,” viņa sacīja. “Tas ir mantojums. UNESCO to vajadzētu aizsargāt, nevis pilsētai digitalizēt.”
+
+Ierēdņi uzsver, ka programma cienīs vietējās paražas. Programmatūra, ko izstrādājis Āgenskalna startup uzņēmums LineMind, ietver reģionālai videi raksturīgas funkcijas, piemēram, Ziemas mēteļu bufera atpazīšanu, vecmāmiņas prioritātes ‘driftu’ un krīzes režīmu situācijām, kad viens kasieris negaidīti aizveras un visiem jāpārrunā civilizācijas morālā bāze.
+
+LineMind līdzīpašnieks Edgars Puksts sacīja, ka algoritms tika trenēts uz vairāk nekā 14 000 stundām Baltijas mazumtirdzniecības materiāla. “Mēs gribējām uzbūvēt kaut ko patiesi vietēju,” viņš teica. “Rietumeiropā cilvēki rindā stāv fiziski. Šeit puse rindas pastāv teorētiski, atmiņā un zemā līmeņa aizvainojumā.”
+
+Kultūras ministrija izrādījusi piesardzīgu interesi, norādot, ka pārvaldītas rindu sistēmas varētu tikt iekļautas Latvijas nemateriālā kultūras mantojuma sarakstā, ja pilots izrādīsies ilgtspējīgs. Jūrmalas pašvaldība, kā ziņots, apsver vasaras versiju pludmales kafejnīcām, kur iedzīvotāji un tūristi pašlaik veido to, ko viens iekšējais memuārs nosaucis par “dekoratīvu pulciņu ar darījumnieciskām tieksmēm”.
+
+Pašvaldība norāda, ka līdz šim apmierinātības līmeņus tiks monitorēti, veicot intervijas, analizējot gaidīšanas laikus un izmantojot mikrofonus, kas kalibrēti, lai uztvertu zemā balsī izteiktas frāzes, piemēram, “interesanti” un “protams”. Ja projekts būs veiksmīgs, Pieklājīgā rinda Rīgā varētu paplašināties visā valstī līdz 2027. gadam.
+
+Preses pasākumā programmas uzsākšanai klātesošos aicināja piedalīties demonstrācijas rindā pie domes ēkas. Pasākums tika atlikts par 22 minūtēm pēc tam, kad trīs dalībnieki apgalvoja, ka nemaz nav rindā, taču tomēr bija bijuši tur pirmie.`,
+      ru: `РИГА — В том, что городские планировщики называют «необходимой адаптацией к социальной реальности», Рижская городская дума во вторник запустила первую в стране официально управляемую систему очередей — пилотный проект, призванный привнести структуру, достоинство и умеренную эмоциональную сдержанность в акт стояния в очереди.
+
+Инициатива под названием «Вежливая очередь Рига» будет присваивать жителям цифровой профиль темперамента очереди на основе их исторического поведения при ожидании, с категориями вроде «Тихо в ярости», «Обгон через неопределённый язык тела» и «Собственно пришёл только задать один маленький вопрос». Участники будут получать QR-код с местом в очереди, расчётные окна для вздохов и, в премиум-муниципальных зонах, доступ к ламинированной карточке с надписью «Я был здесь раньше вас, но в духовном смысле».
+
+Заместитель мэра по общественному ритму и переходному терпению Илзе Ранцане сказала, что город больше не может игнорировать то, что внутренние отчёты определили как «неконтролируемую экономику образа жизни, основанного на очередях». По данным муниципального опроса 1 200 жителей, среднестатистический рижанин теперь тратит 8,4 часа в неделю либо в очереди, либо на обсуждение прошлой очереди, либо на эмоциональную подготовку к будущей.
+
+«Мы посмотрели на данные и поняли, что очереди уже не являются неудобством», — сказала Ранцане репортёрам, торжественно стоя за бархатной лентой у Центра обслуживания клиентов на улице Бривибас. — «Это одно из немногих оставшихся общих гражданских переживаний. Праздник песни происходит раз в пять лет. А вот ожидание за человеком, оплачивающим коммуналку монетами, — каждый день».
+
+Пилотный проект тихо начался в прошлом месяце на выбранных точках по всей столице, включая аптеку Milda рядом с улицей Чака, пункт выдачи посылок в Зиепниеккалнсе и пекарню Maizes Doma, где, по словам властей, количество инцидентов, связанных с очередями, выросло на 17% после того, как покупатели начали «резервировать» места значимым зрительным контактом с другого конца зала.
+
+В пекарне пенсионер Айварс Лүшиньш, 68 лет, сказал, что новая система уже улучшила общественный порядок. «Раньше приходилось запоминать семь лиц, одну сумку-шоппер и детскую коляску, которая могла быть или не быть активным покупателем», — сказал он. — «Теперь я получаю номер и могу сосредоточиться на том, что важно: молча судить о хлебных предпочтениях остальных».
+
+Не все жители убеждены. Фриланс-графический дизайнер и самопровозглашённая традиционистка очередей Анетe Витола, 34 года, утверждает, что реформа рискует стереть ценные культурные практики. «Моя мать учила меня определять иерархию в очереди по расположению шарфа, углу корзины и пассивно-агрессивному выдоху», — сказала она. — «Это наследие. ЮНЕСКО должно его защищать, а не город цифровать».
+
+Чиновники настаивают, что программа уважает местные обычаи. Программное обеспечение, разработанное стартапом из Агентскальнса под названием LineMind, включает регионально-специфичные функции, такие как распознавание «зимного буфера» (объёма верхней одежды), дрейф приоритета для бабушек и кризисный режим на случай, когда внезапно закрывается одна касса и всем приходится заново оговаривать моральную основу цивилизации.
+
+Сооснователь LineMind Эдгарс Пукстс сказал, что алгоритм обучался на более чем 14 000 часов балтийских розничных съёмок. «Мы хотели создать нечто по-настоящему местное», — сказал он. — «В Западной Европе люди просто стоят в очереди физически. У нас же половина очереди существует в теории, в памяти и в низкоуровневой обиде».
+
+Министерство культуры выразило осторожный интерес, предположив, что управляемые очереди могут быть добавлены в национальный реестр нематериального культурного наследия Латвии, если пилот окажется устойчивым. Власти Юрмалы, по сообщениям, рассматривают летнюю версию для пляжных кафе, где жители и туристы сейчас образуют то, что один внутренний меморандум охарактеризовал как «декоративное скопление с транзакционными устремлениями».
+
+Пока город говорит, что будет мониторить уровень удовлетворённости через интервью, данные о времени ожидания и микрофоны, откалиброванные на обнаружение пробормоченных фраз вроде «интересно» и «конечно». Если проект окажется успешным, «Вежливая очередь Рига» может распространиться по всей стране к 2027 году.
+
+На пресс-мероприятии в честь запуска гостей пригласили испытать демонстрационную очередь у здания думы. Мероприятие задержалось на 22 минуты после того, как три участника заявили, что они в очереди не стояли, но, тем не менее, были там первыми.`
+    },
+    date: "Sep 28, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/288/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 287,
     slug: "jrmala-introduces-silent-applause-zoning-after",
     title: {
@@ -96,7 +189,7 @@ Pašvaldības vadītāji uzsver, ka politika ir tikai sākums. Nākamajā mēnes
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/287/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 286,
