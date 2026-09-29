@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 289,
+    slug: "jrmala-introduces-silent-thunderstorm-hours-to",
+    title: {
+      en: "Jūrmala Introduces Silent Thunderstorm Hours To Preserve Premium Calm For Audi Q7 Owners",
+      lv: "Jūrmala ievieš Klusos pērkona negaisu laikus, lai saglabātu prestižu mieru Audi Q7 īpašniekiem",
+      ru: "Юрмала вводит часы тихой грозы, чтобы сохранить премиальное спокойствие для владельцев Audi Q7"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala announced Tuesday that all thunderstorms occurring between 14:00 and 17:00 must now remain \"atmospherically active but acoustically respectful\" in order to protect the city’s afternoon tranquility. The measure, the first of its kind in the Baltics, follows repeated complaints that lightning had been undermining wellness routines and causing unnecessary agitation among luxury SUV drivers.",
+      lv: "Pašvaldības amatpersonas Jūrmalā otrdien paziņoja, ka visi pērkona negaisi no plkst. 14:00 līdz 17:00 tagad drīkst palikt \"atmosfēriski aktīvi, bet akustiski cieņpilni\", lai aizsargātu pilsētas pēcpusdienas mieru. Šis pasākums — pirmais šāda veida Baltijā — seko atkārtotām sūdzībām, ka zibens grauj labsajūtas rituālus un rada lieku satraukumu luksusa apvidus automašīnu vadītāju vidū.",
+      ru: "Муниципальные власти Юрмалы во вторник объявили, что все грозы, происходящие с 14:00 до 17:00, теперь должны оставаться «атмосферно активными, но акустически уважительными», чтобы защитить послеобеденное спокойствие города. Мера, первая в своем роде в Прибалтике, последовала за многочисленными жалобами, что молнии подрывают ритуалы оздоровления и вызывают ненужное волнение у водителей роскошных внедорожников."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders described as "both environmentally adaptive and emotionally upscale," Jūrmala City Council has approved a pilot program requiring summer thunderstorms to observe Silent Thunderstorm Hours in the resort municipality’s coastal districts.
+
+Under the new guidelines, cloud formations entering Dzintari, Bulduri, and Majori between 14:00 and 17:00 must continue producing rain and dramatic visual effects while reducing thunder volume to "no more than a tasteful murmur." The regulation was passed 11–2 late Monday after a contentious public hearing in which several residents argued that recent storms had interrupted oat-milk coffees, sea-facing naps, and at least one guided breathing seminar entitled Wealth Begins In The Spine.
+
+"We are not anti-weather," said Deputy Executive Director Liene Vītola, speaking beside a laminated diagram titled Sustainable Acoustics for Elite Precipitation. "We simply believe meteorological events should integrate more thoughtfully into the Jūrmala lifestyle ecosystem. If a storm wishes to express itself, that is valid. But there are channels for that, and not all of them need to involve sudden cracking noises over €4.80 iced matcha."
+
+According to the municipality’s Environmental Peace Office, thunder-related disturbances rose 37% last July, with 62 formal complaints filed by residents who said loud skies had startled pets, loosened biodegradable curtain rods, or forced Porsche Cayenne owners to re-park at stressful angles. One report from a villa near Melluži described a thunderclap so abrupt that it caused six terrace guests to look directly at each other, an interaction the complainant called "deeply avoidable."
+
+To enforce the policy, the city has installed three Atmospheric Courtesy Beacons along the beach, each equipped with amber lights and a recorded whisper in Latvian, Russian, and what officials called "neutral Scandinavian." When pressure systems become unstable, the beacons emit a calming reminder: "You are approaching a premium municipality. Please condense responsibly."
+
+Meteorologists have reacted with cautious confusion. "From a scientific standpoint, this is nonsense," said Toms Beķeris, senior forecaster at the Baltic Climate Centre in Riga. "But from a regional governance standpoint, I must admit it is among the more organized attempts to negotiate with cumulonimbus formations. They did send us a 14-page PDF with zones marked ‘acceptable drama’ and ‘reflective drizzle only.’"
+
+Local businesses have largely welcomed the initiative. The owner of Sun Cabinet Pilates & Mineral Broth, Ilze Straume, said thunder had become incompatible with the brand identity of modern Jūrmala. "Our clients come here to recover from Riga, taxation, and hearing ordinary people. Last week a lightning strike landed somewhere over Lielupe and three women spilled collagen water on imported deck textiles. This is not what coastal healing should look like."
+
+Not everyone is convinced. Lifeguard and year-round resident Andrejs Ozoliņš called the regulation "the most Jūrmala thing ever attempted." Standing near a warning flag that had been relabeled Gentle Atmospheric Boundary, he said, "The sea does what it wants. The sky does what it wants. But every summer someone here thinks nature can be managed with signage and a small committee."
+
+Still, city officials say early results are promising. During a trial storm on Sunday, rainfall remained steady while thunder was reportedly "subjectively softer" near the concert hall, and 81% of surveyed promenade visitors said the lightning had felt "considerate." One respondent noted that while the storm remained visible, it had "the decency not to dominate the afternoon."
+
+The municipality plans to expand the program next month by introducing Quiet Seagull Corridors and a voluntary code of conduct for aggressive sunsets. "Jūrmala must remain a place where people can hear themselves unwinding," Vītola said. "If that requires some modest cooperation from the atmosphere, we believe that is a reasonable expectation."`,
+      lv: `JŪRMALA — Kustībā, ko pilsētas vadītāji raksturoja kā "gan vides adaptīvu, gan emocionāli augstvērtīgu", Jūrmalas domes deputāti apstiprinājuši pilotprogrammu, kas vasaras pērkona negaisiem piekrastes mikrorajonos paredz ievērot Kluso pērkona negaisu laikus.
+
+Saskaņā ar jaunajiem noteikumiem mākoņu veidojumiem, kas iekļūst Dzintaros, Bulduros un Majoros no plkst. 14:00 līdz 17:00, jāturpina radīt lietu un dramatiskas vizuālas norises, vienlaikus samazinot pērkona skaļumu līdz "ne vairāk kā gaumīgam murmulim". Regula pieņemta 11 pret 2 pirmdienas vakarā pēc strīdus pilnas publiskas klausīšanās, kurā vairāki iedzīvotāji apgalvoja, ka nesenie negaisi ir pārtraukuši auzu-mātes kafijas, ar jūru orientētas diendusu un vismaz vienu vadītu elpošanas semināru ar nosaukumu "Bagātība sākas mugurkaulā".
+
+"Mēs neesam pret laika apstākļiem," sacīja izpilddirektora vietniece Liene Vītola, stāvot pie laminēta diagrammas ar nosaukumu "Ilgtspējīga akustika elitāriem nokrišņiem". "Mēs vienkārši uzskatām, ka meteoroloģiskiem notikumiem jāintegrējas Jūrmalas dzīvesstila ekosistēmā pārdomātāk. Ja negaiss vēlas sevi izteikt, tas ir derīgi. Bet tam ir kanāli, un ne visi no tiem prasa pēkšņas sprāgstošas skaņas virs €4,80 ledus matčas." 
+
+Pēc Pašvaldības Vides Miera biroja datiem pērkona radīto traucējumu skaits jūlijā pieaudzis par 37%, iesniegti 62 oficiāli sūdzību raksti no iedzīvotājiem, kas teikuši, ka skaļās debesis izbiedējušas mājdzīvniekus, atbrīvojušas bioloģiski noārdāmos aizkaru stiprinājumus vai spieduši Porsche Cayenne īpašniekus pārparkoties stresa pilnos leņķos. Vienā ziņojumā no villas netālu no Mellužiem aprakstīts pērkona dārdiens tik pēkšņš, ka tas licis sešiem terases viesiem paskatīties viens uz otru — mijiedarbību, ko sūdzētājs nosauca par "dziļi izvairāmu".
+
+Lai īstenotu politiku, pilsēta uzstādījusi trīs Atmosfēras Pieklājības bākas gar pludmali, katra aprīkota ar dzintara krāsas gaismām un ierakstītu čukstu latviešu, krievu un to, ko amatpersonas sauca par "neitrālu skandināvu" valodā. Kad spiediena sistēmas kļūst nestabilas, bākas izstaro nomierinošu atgādinājumu: "Jūs tuvojaties prestižai pašvaldībai. Lūdzu, kondensējieties atbildīgi."
+
+Meteorologi reaģējuši ar piesardzīgu apjukumu. "No zinātniskā viedokļa tas ir absurds," sacīja Toms Beķeris, vecākais laika ziņu speciālists Baltijas Klimata Centrā Rīgā. "Bet no reģionālās pārvaldības skatupunkta man jāsaka — tas ir viens no organizētākajiem mēģinājumiem sarunāties ar kumulonimbu veidojumiem. Viņi mums atsūtīja 14 lappušu PDF ar zonām, atzīmētām 'pieņemama drāma' un 'tikai pārdomāts smidzinājums'."
+
+Vietējie uzņēmēji lielākoties uzņem iniciatīvu ar atvērtiem pleciem. "Sun Cabinet Pilates & Mineral Broth" īpašniece Ilze Straume sacīja, ka pērkona negaisi kļuvuši nesavienojami ar mūsdienu Jūrmalas zīmolu identitāti. "Mūsu klienti nāk šeit atgūties no Rīgas, nodokļiem un parasto cilvēku balsīm. Pagājušajā nedēļā zibenstrāde nolidoja kaut kur pār Lielupi un trīs sievietes uzlēja kolagēna ūdeni uz ievestām klāju tekstīlijām. Tā nav piejūras dziedināšana, kā tai jāizskatās."
+
+Ne visi ir pārliecināti. Glābējs un gada aplis diriģents Andrejs Ozoliņš nosauca regulu par "visjūrmalīgāko mēģinājumu, kādu esmu redzējis". Stāvot pie brīdinājuma karoga, kas pārdēvēts par "Maigo atmosfēras robežu", viņš teica: "Jūra dara, ko grib. Debesis dara, ko grib. Bet katru vasaru kāds šeit domā, ka dabu var pārvaldīt ar zīmēm un mazu komiteju."
+
+Tomēr pilsētas amatpersonas saka, ka agrīnie rezultāti ir solīdi. Pārbaudē svētdien lietus turējās vienmērīgs, kamēr pērkona skaņa pie koncerta nama bija, pēc ziņotā, "subjektīvi maigāka", un 81% aptaujāto promenādes apmeklētāju teica, ka zibens juties "atsevišķs un taktiski iejūtīgs". Viens respondents norādīja, ka, lai arī negaiss bija redzams, tam bija "cieņa neatņemt pēcpusdienu".
+
+Pašvaldība plāno nākamajā mēnesī paplašināt programmu, ieviešot Klusos kaiju koridorus un brīvprātīgu uzvedības kodeksu agresīvām saulrietēm. "Jūrmala ir jāpaliek par vietu, kur cilvēki var dzirdēt, kā viņi atslābst," sacīja Vītola. "Ja tam nepieciešama neliela atmosfēras sadarbība, mēs uzskatām, ka tas ir saprātīgs gaidījums."`,
+      ru: `ЮРМАЛА — В шаге, который городские власти описали как «одновременно экологически адаптивный и эмоционально элитный», Городской совет Юрмалы утвердил пилотную программу, требующую от летних гроз соблюдать Часы тихой грозы в прибрежных районах курортного муниципалитета.
+
+Согласно новым указаниям, облачные массы, входящие в Дзинтари, Булдуури и Майори в период с 14:00 до 17:00, должны по-прежнему давать дождь и эффектную визуальную картинку, но уменьшать гром до «не более чем изящного шороха». Регламент был принят 11 голосами против 2 поздно в понедельник после спорных слушаний, на которых несколько жителей утверждали, что недавние бури прерывали латте на овсяном молоке, дневные дремы с видом на море и как минимум один семинар по дыханию под названием «Богатство начинается в позвоночнике».
+
+«Мы не против погоды», — сказала заместитель исполнительного директора Liene Vītola, выступая рядом с ламинированной диаграммой под заголовком «Устойчивая акустика для элитных осадков». «Мы просто считаем, что метеорологические явления должны более вдумчиво интегрироваться в экосистему образа жизни Юрмалы. Если гроза хочет выразиться — это допустимо. Но есть каналы для этого, и не все из них обязаны включать внезапные трески над €4,80 за ледяной матча.»
+
+По данным Муниципального управления экологического спокойствия, нарушения, связанные с грозами, выросли на 37% в прошлом июле: было подано 62 официальных жалобы от жителей, которые говорили, что громкие небеса пугали домашних животных, ослабляли биоразлагающиеся карнизы или вынуждали владельцев Porsche Cayenne повторно парковаться под стрессовыми углами. В одном сообщении из виллы возле Меллужи описывался раскат грома настолько резкий, что шесть гостей террасы одновременно посмотрели друг на друга — взаимодействие, которое заявитель назвал «категорически излишним».
+
+Для обеспечения исполнения политики город установил три Маяка атмосферной вежливости вдоль пляжа, каждый оснащён янтарными огнями и записанным шёпотом на латышском, русском и том, что чиновники назвали «нейтральным скандинавским». Когда атмосферные системы становятся нестабильными, маяки излучают успокаивающее напоминание: «Вы приближаетесь к муниципалитету премиум‑класса. Пожалуйста, конденсируйтесь ответственно.»
+
+Метеорологи отреагировали с осторожным недоумением. «С научной точки зрения это бессмыслица», — сказал Томс Беķeris, старший синоптик Балтийского климатического центра в Риге. «Но с точки зрения регионального управления — вынужден признать, это одна из более организованных попыток вести переговоры с кучево-дождевыми облаками. Они прислали нам 14‑страничный PDF с зонами, помеченными «приемлемая драма» и «только задумчивая морось».»
+
+Местный бизнес в основном приветствовал инициативу. Владелица Sun Cabinet Pilates & Mineral Broth Илзе Страуме заявила, что гром стал несовместим с имиджем современной Юрмалы. «Наши клиенты приезжают сюда, чтобы восстановиться после Риги, налогов и общения с обычными людьми. На прошлой неделе молния ударила где‑то над Лелупе, и три женщины пролили коллагеновую воду на импортные настилы. Это не тот вид прибрежного исцеления, который мы продвигаем.»
+
+Не все убеждены. Спасатель и круглогодичный житель Andrejs Ozoliņš назвал норматив «восхитительно юрмальским». Стоя рядом со знамением предупреждения, переклеенным в «Мягкую атмосферную границу», он сказал: «Море делает, что хочет. Небо делает, что хочет. Но каждое лето здесь находится кто‑то, кто думает, что природу можно упорядочить с помощью табличек и маленького комитета.»
+
+Тем не менее городские власти утверждают, что первые результаты обнадеживают. Во время пробной грозы в воскресенье дождь шел равномерно, а гром, по сообщениям, был «субъективно мягче» в районе концертного зала, и 81% опрошенных на променаде заявили, что молния показалась им «вежливой». Один из респондентов отметил, что, хоть буря и была заметна, у неё «было достоинство не доминировать над послеобеденным временем».
+
+Муниципалитет планирует расширить программу в следующем месяце, введя Тихие коридоры для чаек и добровольный кодекс поведения для агрессивных закатов. «Юрмала должна оставаться местом, где люди слышат, как они расслабляются», — сказала Vītola. «Если для этого требуется небольшое сотрудничество со стороны атмосферы, мы считаем это разумным ожиданием.»`
+    },
+    date: "Sep 29, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/289/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 288,
     slug: "riga-introduces-polite-queue-pilot-program",
     title: {
@@ -108,7 +189,7 @@ Preses pasākumā programmas uzsākšanai klātesošos aicināja piedalīties de
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/288/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 287,
