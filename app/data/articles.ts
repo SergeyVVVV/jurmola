@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 290,
+    slug: "riga-introduces-passive-aggressive-silence-zones-290",
+    title: {
+      en: "Riga Introduces ‘Passive-Aggressive Silence Zones’ on Public Transport to Preserve National Heritage",
+      lv: "Rīga ievieš 'pasīvi-agresīvās klusuma zonas' sabiedriskajā transportā, lai saglabātu nacionālo mantojumu",
+      ru: "Рига вводит «зоны пассивно‑агрессивного молчания» в общественном транспорте для сохранения национального наследия"
+    },
+    excerpt: {
+      en: "In a move officials are calling a major victory for cultural preservation, Riga has begun designating special ‘Passive-Aggressive Silence Zones’ on buses, trams, and trolleybuses. The policy aims to protect the delicate Latvian tradition of expressing disapproval through sighing, coat-adjusting, and staring out the window with moral authority.",
+      lv: "Kā žestu, ko amatpersonas sauc par lielu uzvaru kultūras saglabāšanā, Rīga sāka atzīt īpašas 'pasīvi-agresīvās klusuma zonas' autobusos, tramvajos un trolejbusos. Politika mērķē pasargāt smalko latviešu tradīciju izteikt neapmierinātību, nopūšoties, koriģējot mētelīti un skaidri skatoties ārā pa logu ar morālas pārliecības toni.",
+      ru: "В шаге, который чиновники называют большой победой в деле сохранения культуры, Рига начала выделять специальные «зоны пассивно‑агрессивного молчания» в автобусах, трамваях и троллейбусах. Политика призвана защищать тонкую латвийскую традицию выражать неодобрение через вздохи, поправление пальто и взгляд в окно с моральным превосходством."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Council on Tuesday unveiled a new public transport initiative intended to safeguard what it described as one of Latvia’s most endangered cultural practices: the ability to make another person feel deeply unwelcome without saying a single word.
+
+Under the pilot program, the first three rows of selected buses and one articulated section of Tram No. 6 will be reserved as official Passive-Aggressive Silence Zones, where passengers may communicate annoyance only through approved nonverbal methods, including controlled exhalation, pointed glances, dramatic ticket validation, and the subtle repositioning of shopping bags.
+
+Deputy Chair for Urban Mood Management Ilze Dreimane said the policy was inspired by growing concern that globalization, cheap air travel, and “an excessive southernness of temperament” were diluting the capital’s social atmosphere.
+
+“We observed alarming behaviors, such as unsolicited smiling, apologizing with sincerity, and, in one documented case near Barona iela, two strangers discussing the weather with visible enjoyment,” Dreimane told reporters while standing beside a laminated etiquette poster featuring a stern hedgehog in a scarf. “If we lose our silence, we lose the invisible architecture of Riga.”
+
+According to a 47-page municipal white paper titled Strategic Reservedness 2030, casual conversation on public transport rose by 18% last winter, driven largely by tourists, Erasmus students, and one retired choir conductor from Cēsis who repeatedly greeted people before 8 a.m. The report warns that without intervention, average commuter disapproval could become “inconsistently expressed,” threatening social cohesion.
+
+To enforce the new rules, specially trained inspectors from Rīgas Satiksme will patrol designated routes carrying decibel meters and illustrated charts to distinguish acceptable sighs from conversational openings. First-time violators will receive a warning and a complimentary brochure, Understanding Boundaries in a Northern Climate. Repeat offenders may be relocated to a Conversational Rehabilitation Carriage on Route 11, where they will be forced to sit near a man explaining cryptocurrency.
+
+Reaction from commuters was cautiously approving. “This is overdue,” said 58-year-old accountant Andris Lapiņš, who commutes daily from Purvciems and said the social fabric had begun to fray after a woman recently thanked him for moving his umbrella. “What am I supposed to do with that? Now I must process a human exchange before work. It is not efficient.”
+
+Others welcomed the policy as a defense against seasonal emotional volatility. University student Elīna Ozola said the zones would help residents transition safely between meteorological disappointment and civic endurance. “Sometimes in February you are balancing on ice, your scarf is wet, and someone asks, ‘How are you?’” she said. “Honestly, at that point the state must intervene.”
+
+Not everyone is convinced. The Latvian Association of Small Talk, founded earlier this year by three expatriates and a wedding DJ from Jelgava, criticized the plan as exclusionary. In a statement, the group argued that light conversation can improve well-being and reduce isolation. The statement received no public response, though several officials were seen reading it and narrowing their eyes.
+
+Cultural historian Māris Veinbergs called the initiative long overdue, noting that strategic quietude has deep roots in the region. “Our ancestors survived war, occupation, reform, and televised singing competitions by mastering the language of meaningful silence,” he said. “A correctly timed sigh can contain taxation policy, disappointment, and cucumber prices all at once.”
+
+Following a successful two-week trial on routes serving the Central Market and Mežciems, where reported eye-contact incidents fell by 63%, city leaders say they may expand the concept to municipal waiting rooms and selected midsummer celebrations.
+
+At a closing ceremony held in near-total discomfort outside Riga Central Station, officials marked the launch by standing together for 40 seconds without acknowledging one another, a gesture many in attendance described as deeply moving.`,
+      lv: `RĪGA — Rīgas dome otrdien atklāja jaunu sabiedriskā transporta iniciatīvu, kas domāta aizsargāt to, ko tā raksturoja kā vienu no Latvijas visvairāk apdraudētajām kultūras praksēm: spēju otru cilvēku likt justies dziļi nevēlamiem, pat neizteicot ne vārda.
+
+Pilotprogrammā atlasīto autobusu pirmajās trīs rindās un vienā saliekamajā tramvaja Nr. 6 sekcijā tiks izveidotas oficiālas pasīvi-agresīvās klusuma zonas, kur pasažieri drīkstēs izrādīt neapmierinātību tikai ar apstiprinātām neverbālām metodēm, tostarp kontrolētu izelpšanu, izteiksmīgiem skatieniem, dramatisku biļetes atzīmēšanu un veiksmīgu iepirkumu maisiņu subtīlu pārlikšanu.
+
+Mēra vietniece pilsētas noskaņojuma pārvaldē Ilze Dreimane sacīja, ka politika iedvesmota no pieaugošām bažām, ka globalizācija, lētas avioreisas un "pārmērīgs dienvidnieciskais temperaments" izšķīdina galvaspilsētas sociālo atmosfēru.
+
+"Mēs novērojām satraucošas izpausmes, piemēram, nepasūtītu smaidīšanu, nopietnam nožēlas izteikšanu un, vienā dokumentētā gadījumā pie Barona ielas, divus svešiniekus, kas ar redzamu baudījumu runā par laika apstākļiem," Dreimane sacīja žurnālistiem, stāvot blakus laminētam etiķetes plakātam ar stingru ezi šallē. "Ja pazaudēsim klusumu, pazaudēsim Rīgas neredzamo arhitektūru."
+
+Saskaņā ar 47 lappušu pašvaldības baltās grāmatas "Stratēģiskā Atturība 2030" datiem, ikdienišķo sarunu skaits sabiedriskajā transportā pagājušajā ziemā pieauga par 18%, ko lielā mērā veica tūristi, Erasmus studenti un viens pensionēts kordiriģents no Cēsīm, kurš atkārtoti sveicināja cilvēkus pirms pulksten 8. Ziņojums brīdina, ka bez iejaukšanās vidējā pilsētnieka neapmierinātība var kļūt "nekonsekventi izteikta", apdraudot sociālo kohēziju.
+
+Lai piemērotu jaunās normas, īpaši apmācīti Rīgas Satiksmes inspektori patrulēs noteiktajos maršrutos, nēsājot decibelmetrus un ilustrētas shēmas, kas palīdzēs atšķirt pieņemamas nopūtas no sarunu uzsaukumiem. Pirmo reizi pārkāpēji saņems brīdinājumu un bezmaksas bukletu "Robu izpratne ziemeļu klimatā". Atkārtotāji var tikt pārcelti uz "Sarunu rehabilitācijas vagonu" maršrutā 11, kur viņiem būs jāsēž blakus vīram, kas stāsta par kriptovalūtām.
+
+Pasažieri reaģēja piesardzīgi atbalstoši. "Tas jau sen vajadzēja tikt darīts," sacīja 58 gadus vecais grāmatvedis Andris Lapiņš, kas ikdienā brauc no Purvciema un teica, ka sociālais audums sācis plīst pēc tam, kad kāda sieviete nesen viņam pateicās par lietussarga pārvietošanu. "Ko man ar to darīt? Tagad man pirms darba jāapstrādā cilvēku apmaiņa. Tas nav efektīvi."
+
+Citi sveica politiku kā aizsardzību pret sezonālo emocionālo mainīgumu. Studentīte Elīna Ozola sacīja, ka zonas palīdzēs iedzīvotājiem droši pāriet no meteoroloģiskas vilšanās uz pilsonisku izturību. "Dažkārt februārī tu balansē uz ledus, šalle ir slapja, un kāds jautā: 'Kā tev klājas?'" viņa teica. "Godīgi sakot, tajā brīdī valstij jāiejaucas."
+
+Ne visi ir pārliecināti. Latvijas Vieglu Sarunu asociācija, ko šogad dibināja trīs ekspatrianti un kāzu dīdžejs no Jelgavas, kritizēja plānu kā izslēdzošu. Paziņojumā grupa apgalvoja, ka vieglas sarunas var uzlabot labsajūtu un mazināt izolāciju. Paziņojums nesaņēma publisku atbildi, lai gan vairāki amatpersonas tika redzētas to lasām un sašaurinām acu skatu.
+
+Kultūras vēsturnieks Māris Veinbergs sauca iniciatīvu par ilgi gaidītu, norādot, ka stratēģiska klusēšana reģionā ir ar dziļām saknēm. "Mūsu senči pārdzīvoja karu, okupāciju, reformas un televīzijas dziedāšanas konkursus, apgūstot nozīmīgas klusēšanas valodu," viņš sacīja. "Pareizi laika nopūta vienlaikus var ietvert nodokļu politiku, vilšanos un gurķu cenas."
+
+Pēc veiksmīga divu nedēļu izmēģinājuma uz maršrutiem, kas apkalpo Centrāltirgu un Mežciemu, kur ziņotie acu kontakta gadījumi samazinājās par 63%, pilsētas vadība norādīja, ka varētu paplašināt koncepciju uz pašvaldības gaiteņiem un atlasītām Jāņu svinībām.
+
+Noslēguma ceremonijā, kas notika gandrīz pilnīgā diskomfortā ārpus Rīgas Centrālās stacijas, amatpersonas atklāšanu atzīmēja, stāvot kopā 40 sekundes bez viena otra atzīšanas — žests, ko daudzi klātesošie raksturoja kā dziļi aizkustinošu.`,
+      ru: `РИГА — Во вторник Рижский городской совет представил новую инициативу общественного транспорта, направленную на защиту того, что он называет одной из самых уязвимых культурных практик Латвии: умением заставить другого человека почувствовать себя глубоко нежеланным, не сказав ни слова.
+
+В рамках пилотной программы первые три ряда в некоторых автобусах и одна сочленённая секция трамвая №6 будут зарезервированы как официальные «Зоны пассивно‑агрессивного молчания», где пассажирам разрешается выражать недовольство только одобренными невербальными способами, в том числе контролируемым выдохом, точечными взглядами, драматической компостировкой билета и тонким перекладыванием пакетов с покупками.
+
+Заместитель председателя по управлению городским настроением Илзе Дреймане заявила, что политика была вдохновлена растущей обеспокоенностью тем, что глобализация, дешёвые авиаперелёты и «чрезмерная южность темперамента» размывают столичную социальную атмосферу.
+
+«Мы наблюдали тревожные явления, такие как непрошенная улыбка, искренние извинения и, в одном задокументированном случае на улице Барона, два незнакомца, обсуждавшие погоду с видимым удовольствием», — сказала Дреймане репортёрам, стоя рядом с ламинированным плакатом с правилами этикета, на котором был изображён суровый ёжик в шарфе. «Если мы утратим наше молчание, мы утратим невидимую архитектуру Риги». 
+
+Согласно 47‑страничному муниципальному докладу под названием «Стратегическая сдержанность 2030», случайные беседы в общественном транспорте выросли на 18% прошлой зимой, в основном за счёт туристов, студентов по программе Erasmus и одного на пенсии дирижёра хора из Цесиса, который неоднократно приветствовал людей до 8 утра. Отчёт предупреждает, что без вмешательства среднее выражение недовольства у пассажиров может стать «непоследовательным», что угрожает социальной ткани.
+
+Для контроля новых правил специально обученные инспекторы из Rīgas Satiksme будут патрулировать назначенные маршруты с децибеломерами и иллюстрированными таблицами, чтобы отличать допустимые вздохи от начала разговора. Первые нарушители получат предупреждение и бесплатную брошюру «Понимание границ в северном климате». Повторных нарушителей могут пересадить в «вагон реабилитации разговорных навыков» на маршруте 11, где им придётся сидеть рядом с мужчиной, объясняющим про криптовалюты.
+
+Реакция пассажиров была сдержанно одобрительной. «Это назрело», — сказал 58‑летний бухгалтер Андрис Лапиньш, который ежедневно ездит из Пурвциемса и рассказал, что социальная ткань начала ослабевать после того, как женщина недавно поблагодарила его за то, что он сдвинул зонтик. «Что мне с этим делать? Теперь мне перед работой нужно переваривать человеческий обмен. Это не эффективно». 
+
+Другие приветствовали политику как защиту от сезонной эмоциональной нестабильности. Студентка Элина Озола сказала, что зоны помогут жителям безопасно переходить от метеорологического разочарования к гражданскому выносливому молчанию. «Иногда в феврале ты балансируешь на льду, у тебя мокрый шарф, и кто‑то спрашивает: «Как дела?» — сказала она. — «Честно говоря, в этот момент государство должно вмешаться». 
+
+Не все убеждены. Латвийская ассоциация светской беседы, основанная ранее в этом году тремя экспатами и свадебным диджеем из Елгавы, раскритиковала план как исключающий. В заявлении группа утверждала, что лёгкое общение может улучшать самочувствие и снижать изоляцию. Заявление не получило официального ответа, хотя нескольких чиновников видели читающими его и прищурившими глаза.
+
+Культурный историк Марис Вейнбергс назвал инициативу давно назревшей, отметив, что стратегическая тишина имеет глубокие корни в регионе. «Наши предки пережили войны, оккупации, реформы и телевизионные певческие конкурсы, овладев языком содержательного молчания», — сказал он. «Правильно вовремя вздох может вместить налоговую политику, разочарование и цены на огурцы одновременно». 
+
+После успешного двухнедельного испытания на маршрутах, обслуживающих Центральный рынок и район Mežciems, где зафиксированное количество зрительного контакта сократилось на 63%, городские власти заявляют, что могут расширить концепцию на муниципальные приёмные и отдельные купальские торжества.
+
+На закрытой церемонии, прошедшей в состоянии почти полного дискомфорта у Рижского центрального вокзала, чиновники отметили запуск, просто простояв вместе 40 секунд, не приветствуя друг друга — жест, который многие присутствующие назвали глубоко трогающим.`
+    },
+    date: "Sep 30, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/290/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 289,
     slug: "jrmala-introduces-silent-thunderstorm-hours-to",
     title: {
@@ -96,7 +189,7 @@ Pašvaldība plāno nākamajā mēnesī paplašināt programmu, ieviešot Klusos
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/289/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 288,
