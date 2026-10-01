@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 291,
+    slug: "riga-introduces-dynamic-sidewalk-pricing-to-291",
+    title: {
+      en: "Riga Introduces Dynamic Sidewalk Pricing to Reduce Congestion Caused by People Suddenly Remembering Something Mid-Walk",
+      lv: "Rīga ievieš dinamisku ietvju tarifēšanu, lai mazinātu sastrēgumus, ko rada cilvēki, kuri pastaigājoties pēkšņi kaut ko atceras",
+      ru: "Рига вводит динамическую плату на тротуарах, чтобы сократить пробки от людей, внезапно что‑то вспомнивших в пути"
+    },
+    excerpt: {
+      en: "Riga City Council on Tuesday unveiled a pilot program that will charge pedestrians different rates depending on how abruptly they stop on busy sidewalks to check messages, reconsider life choices, or stare into bakery windows. Officials say the system will improve flow in the capital’s most congested foot-traffic corridors while preserving Latvia’s constitutional right to become motionless without warning.",
+      lv: "Rīgas dome otrdien atklāja pilotprogrammu, kas pieprasīs no gājējiem dažādas maksas atkarībā no tā, cik strauji viņi apstājas uz aizņemtām ietvēm, lai pārbaudītu ziņas, pārvērtētu dzīves izvēles vai vienkārši aizrautīgi skatītos uz konditorejas skatlogu. Amatpersonas ziņo, ka sistēma uzlabos plūsmu galvaspilsētas visvairāk noslogotajos gājēju koridoros, saglabājot Latvijas konstitucionālo tiesību uz pēkšņu nekustīgumu bez brīdinājuma.",
+      ru: "Во вторник Рижская городская дума представила пилотный проект, по которому пешеходам будут начислять разные тарифы в зависимости от того, насколько резко они останавливаются на оживлённых тротуарах, чтобы проверить сообщения, переосмыслить жизненные решения или устремлиться взглядом в витрины булочных. По словам чиновников, система улучшит поток на самых загруженных пешеходных коридорах столицы, сохранив при этом конституционное право Латвии внезапно замирать."
+    },
+    fullContent: {
+      en: `RIGA — In what municipal planners are calling “a bold step forward for orderly drifting,” Riga City Council has approved a six-month pilot program introducing dynamic sidewalk pricing in the city centre, with higher rates for pedestrians who halt unexpectedly near public transport stops, Old Town alleyways, and high-traffic coffee kiosks.
+
+Under the new system, residents and visitors will continue to enjoy free basic walking at speeds above 3.8 kilometres per hour. However, those who decelerate sharply, pivot diagonally, or stop in pairs across the full width of a pavement may incur micro-fees ranging from €0.07 to €1.40, depending on location, time of day, and level of inconvenience caused to others carrying backpacks, umbrellas, or private emotional burdens.
+
+The program, called StepSmart Riga, relies on waist-height sensors attached to lamp posts, tram shelters, and one statue that officials insist is “participating voluntarily.” The sensors measure what planners refer to as “pedestrian hesitation events,” a category that includes sudden stopping, group clustering, and the notorious “phone extraction maneuver,” in which a person slows to near-zero velocity before turning slightly sideways for no apparent reason.
+
+“Every day in central Riga, thousands of productive walking minutes are lost because someone in front of you remembers they need oat milk, sees a familiar face from 2016, or becomes spiritually attached to a shop window displaying linen socks,” said Deputy Mobility Chair Ilze Vītola at a press conference held on a sidewalk intentionally narrowed for demonstration purposes. “We are not punishing thoughtfulness. We are simply asking it to happen in designated bays.”
+
+According to a 48-page impact assessment prepared by the Riga Urban Flow Observatory, one in four sidewalk bottlenecks occurs within six metres of a pastry display, while 31% are caused by couples who begin discussing where to eat only after exiting the restaurant they just rejected. The report estimates the average resident loses 2.3 days per year trapped behind indecisive tourists, retractable dog leashes, and men over 57 who stop walking to point at renovation work.
+
+To reduce public concern, the city has designated 112 official Reflection Zones where pedestrians may legally pause, sigh, scroll, or announce that they are “just checking one thing.” Premium Reflection Zones with benches and wind protection will be available in the embassy district at off-peak rates.
+
+Reaction from residents has been mixed. “At first I was angry,” said Purvciems resident and habitual mid-walk reorganizer Mārtiņš Feldmanis, who admitted to stopping 14 times on Brīvības iela last Saturday. “But then I realised I support anything that allows me to blame an app instead of my own decisions.”
+
+Tourism operators also expressed cautious optimism. “Visitors often ask what makes Riga unique,” said Liga Ozola, spokesperson for Baltic Horizon Tours. “Now we can honestly say it is one of the few capitals where standing still in the wrong place is treated with the administrative seriousness usually reserved for port logistics.”
+
+Not everyone is convinced. The Latvian Association for Spontaneous Wandering warned that pricing mechanisms could disproportionately affect seniors, teenagers, and men trying to remember where they parked near the Central Market in 2009. In response, the city clarified that nostalgic confusion would remain exempt on public holidays.
+
+If successful, officials say the scheme could expand to Jurmala next summer, where beachgoers may be fined for forming sudden towel-based democracies in high-transit dune areas. For now, Riga authorities are urging calm and reminding the public that normal walking remains free, provided they continue moving with the quiet determination expected of a northern people.`,
+      lv: `RĪGA — To, ko pašvaldības plānotāji sauc par 'drosmīgu soli uz priekšu sakārtotā brazdēšanā', Rīgas dome ir apstiprinājusi sešu mēnešu pilotprogrammu ar dinamisku ietvju tarifēšanu pilsētas centrā, kur par lielāku samaksu tiks sodīti gājēji, kuri pēkšņi apstājas netālu no sabiedriskā transporta pieturām, Vecrīgas šaurajām ieliņām un kafejnīcu kioskiem ar lielu plūsmu.
+
+Saskaņā ar jauno sistēmu iedzīvotāji un viesi joprojām varēs bez maksas pārvietoties ar ātrumu virs 3,8 kilometriem stundā. Tomēr tie, kuri strauji samazina ātrumu, pagriežas diagonāli vai apstājas divatā, aizņemot visu ietves platumu, var nonākt mikronodevu slānī — no €0,07 līdz €1,40 — atkarībā no atrašanās vietas, diennakts laika un radītā neērtuma citām personām ar mugursomām, lietussargiem vai privātām emocionālajām nastām.
+
+Programma, kas saucas StepSmart Rīga, balstās uz vidukļa augstumā uzstādītiem sensoriem pie laternu stabiem, tramvaju pieturvietām un viena pieminekļa, par kuru amatpersonas uzstāj, ka tas 'piedalās brīvprātīgi'. Sensori mēra to, ko plānotāji sauc par 'gājēju vilcināšanās notikumiem' — kategoriju, kas ietver pēkšņu apstāšanos, grupu saplūšanu un slaveno 'telefona izņemšanas manevru', kad cilvēks praktiski apstājas, pēc tam mazliet pagriežas uz sāniem bez acīmredzama iemesla.
+
+'Katru dienu centrālajā Rīgā tūkstošiem produktīvu gājienu minūšu tiek zaudētas, jo priekšā esošais cilvēks pēkšņi atceras, ka vajag auzu pienu, ierauga pazīstamu seju no 2016. gada vai garīgi piesaistās veikaliņa skatlogam ar linu zeķēm,' preses konferencē, kas notika uz speciāli sašaurinātas ietves demonstrācijas nolūkos, sacīja mobilitātes komisijas vietniece Ilze Vītola. 'Mēs nesodām pārdomīgumu. Mēs vienkārši lūdzam, lai tas notiek paredzētajās nišās.'
+
+Saskaņā ar 48 lappušu ietekmes novērtējumu, ko sagatavojis Rīgas Pilsētplūsmas Observatorijs, viena ceturtā daļa ietvju sastrēgumu rodas sešu metru attālumā no konditorejas izrādēm, kamēr 31% izraisa pāri, kuri sāk apspriest, kur ēst, tikai pēc tam, kad iznāk no restorāna, kuru tikko noraidījuši. Ziņojums lēš, ka vidējais iedzīvotājs gadā zaudē 2,3 dienas, iesprūstot aiz neizlēmīgiem tūristiem, atsperojamām suņu pavadiņām un vīriešiem virs 57, kuri apstājas, lai norādītu uz remontdarbiem.
+
+Lai mazinātu sabiedrības bažas, pilsēta ir noteikusi 112 oficiālas Pārdomu zonas, kur gājēji likumīgi var apstāties, nopūsties, ritināt telefonu vai paziņot, ka 'es tikai pārbaudu vienu lietu'. Premium Pārdomu zonas ar soliem un vēja aizsardzību būs pieejamas vēstniecību rajonā par ārpuspīķa tarifiem.
+
+Iedzīvotāju reakcija ir jaukta. 'Sākumā es biju dusmīgs,' atzina Purvciema iedzīvotājs un ieraduma pēc pastaigas pārkārtošanās entuziasts Mārtiņš Feldmanis, kurš piekrita, ka pagājušajā sestdienā Brīvības ielā apstājies 14 reizes. 'Bet tad sapratu, ka atbalstu jebko, kas ļauj vainot lietotni nevis savas paša izvēles.'
+
+Tūrismā strādājošie izrādīja piesardzīgu optimismu. 'Viesi bieži jautā, kas padara Rīgu unikālu,' sacīja Baltic Horizon Tours pārstāve Līga Ozola. 'Tagad mēs godīgi varam teikt, ka tā ir viena no retajām galvaspilsētām, kur stāvēšana nepiemērotā vietā tiek traktēta ar to administratīvo nopietnību, kas parasti tiek veltīta ostu loģistikai.'
+
+Ne visi ir pārliecināti. Latvijas Asociācija Spontānai Klaiņošanai brīdināja, ka tarifēšanas mehānismi varētu neproporcionāli ietekmēt seniorus, pusaudžus un vīriešus, kas mēģina atcerēties, kur 2009. gadā atstāja automašīnu pie Centrāltirgus. Pilsēta atbildēja, precizējot, ka nostaļģiska apjukuma gadījumā publiskajos svētkos atvieglojumi tiks saglabāti.
+
+Ja shēma būs veiksmīga, amatpersonas saka, ka nākamās vasaras plānā ir paplašināt to uz Jūrmalu, kur pludmales apmeklētāji varētu tikt sodīti par pēkšņām dvieļu demokrātijām intensīvi trafikotajās kāpu zonās. Bet pagaidām Rīgas vadība aicina saglabāt mieru un atgādina sabiedrībai, ka parastā iešana paliek bez maksas, ja vien cilvēki turpina kustēties ar to kluso apņēmību, kāda tiek sagaidīta no ziemeļu tautām.`,
+      ru: `РИГА — В том, что муниципальные планировщики называют «смелым шагом вперёд в упорядоченном дрейфе», Рижская городская дума утвердила шестимесячный пилотный проект введения динамической платы на тротуарах в центре города: повышенные тарифы будут взиматься с пешеходов, которые неожиданно останавливаются у остановок общественного транспорта, в переулках Старого города и у оживлённых кофейных киосков.
+
+По новой системе жители и гости по-прежнему могут бесплатно ходить в базовом режиме, если скорость движения превышает 3,8 километра в час. Однако те, кто резко замедляется, поворачивается по диагонали или останавливается в паре, занимая всю ширину тротуара, могут получить микросборы от €0,07 до €1,40 в зависимости от места, времени суток и степени неудобства, причинённого другим людям с рюкзаками, зонтами или личными эмоциональными тяжестями.
+
+Программа под названием StepSmart Рига опирается на датчики на уровне пояса, прикреплённые к фонарным столбам, трамвайным павильонам и одной статуе, которую чиновники настаивают на том, что она «участвует добровольно». Датчики фиксируют то, что планировщики называют «событиями пешеходного колебания» — категорию, включающую внезапную остановку, скопление групп и печально известный «манёвр извлечения телефона», когда человек замедляет ход почти до нуля, а затем слегка разворачивается вбок без видимой причины.
+
+«Каждый день в центре Риги теряются тысячи продуктивных минут ходьбы, потому что кто‑то перед вами вдруг вспоминает, что ему нужно овсяное молоко, видит знакомое лицо из 2016 года или духовно привязывается к витрине с льняными носками», — заявила вице‑председатель по мобильности Илзе Витола на пресс‑конференции, прошедшей на тротуаре, намеренно суженном в демонстрационных целях. «Мы не наказываем вдумчивость. Мы просто просим, чтобы она происходила в отведённых зонах.»
+
+Согласно 48‑страничной оценке воздействия, подготовленной Обсерваторией городских потоков Риги, один из четырёх заторов на тротуарах возникает в пределах шести метров от витрины с выпечкой, а 31% причиняют пары, которые начинают обсуждать, где поесть, только выйдя из недавно отвергнутого ресторана. В отчёте оценивается, что средний житель теряет 2,3 дня в год, застревая за нерешительными туристами, рулонными поводками и мужчинами старше 57 лет, которые останавливаются, чтобы указать на ремонтные работы.
+
+Чтобы снизить общественное недовольство, город выделил 112 официальных Зон Размышления, где пешеходам разрешено законно останавливаться, вздыхать, листать или объявлять, что они «всего лишь проверяют одно дело». Премиальные Зоны Размышления с скамейками и защитой от ветра будут доступны в посольском квартале по пониженному тарифу в непиковое время.
+
+Реакция жителей оказалась смешанной. «Сначала я злился», — признался житель Пуорвциемса и привычный переупорядочиватель на ходу Мартиньш Фельдманис, который признался, что остановился 14 раз на Brīvības iela в прошлую субботу. «Но потом я понял: я поддерживаю всё, что позволяет мне обвинить приложение вместо собственных решений.»
+
+Туроператоры тоже выразили сдержанный оптимизм. «Посетители часто спрашивают, что делает Ригу уникальной», — сказала Лига Озола, пресс‑представитель Baltic Horizon Tours. «Теперь мы честно можем сказать: это одна из немногих столиц, где стоять в неправильном месте относятся с той административной серьёзностью, которая обычно зарезервирована для портовой логистики.»
+
+Не все убеждены. Латвийская ассоциация спонтанных блужданий предупредила, что механизмы ценообразования могут непропорционально затронуть пожилых, подростков и мужчин, пытающихся вспомнить, где они припарковались рядом с Центральным рынком в 2009 году. В ответ город уточнил, что ностальгическая растерянность останется исключением в государственные праздники.
+
+Если эксперимент окажется удачным, чиновники говорят, что схему можно будет расширить до Юрмалы следующим летом, где пляжников могут штрафовать за образование внезапных «полотенечных демократий» в зонах с интенсивным движением по дюнам. Пока же власти Риги призывают к спокойствию и напоминают населению, что обычная ходьба остаётся бесплатной, при условии что они продолжают двигаться с той тихой решимостью, которая ожидается от северного народа.`
+    },
+    date: "Oct 1, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/291/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 290,
     slug: "riga-introduces-passive-aggressive-silence-zones-290",
     title: {
@@ -108,7 +189,7 @@ Noslēguma ceremonijā, kas notika gandrīz pilnīgā diskomfortā ārpus Rīgas
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/290/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 289,
