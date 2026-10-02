@@ -18,6 +18,97 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 292,
+    slug: "riga-introduces-silent-applause-zone-for",
+    title: {
+      en: "Riga Introduces ‘Silent Applause Zone’ for Citizens Who Feel Clapping Has Become Too Emotionally Expensive",
+      lv: "Rīga ievieš „Kluso aplausu zonu” pilsoņiem, kuriem plaukšķināšana kļuvusi emocionāli pārāk dārga",
+      ru: "Рига вводит «зону тихих аплодисментов» для граждан, которые считают, что аплодать стало слишком эмоционально дорого"
+    },
+    excerpt: {
+      en: "Municipal officials in Riga have unveiled the country’s first designated Silent Applause Zone, a public space where residents may express measured approval through thoughtful nodding, restrained blinking, and low-intensity scarf adjustment. The initiative, city leaders say, responds to growing concern that conventional clapping places unsustainable social demands on an already seasonally fatigued population.",
+      lv: "Rīgas pašvaldības amatpersonas atklājušas pirmo valsts Kluso aplausu zonu — publisku telpu, kur iedzīvotāji var izrādīt mērenu atzinību ar pārdomātu galvas mājienu, ierobežotu mirkšķināšanu un zemas intensitātes šalles pielāgošanu. Pilsētas vadība norāda, ka iniciatīva vērsta uz pieaugošām bažām, ka tradicionālā plaukšķināšana uzliek nepāraudzējamas sociālās prasības jau tā sezonāli nogurušai sabiedrībai.",
+      ru: "Муниципальные власти Риги открыли первую в стране «зону тихих аплодисментов» — общественное пространство, где жители могут выражать взвешенное одобрение вдумчивым кивком, сдержанным морганием и приглушённой поправкой шарфа. По словам городских руководителей, инициатива отвечает на растущую тревогу: обычные аплодисменты предъявляют несоразмерные социальные требования к и без того сезонно уставшему населению."
+    },
+    fullContent: {
+      en: `RIGA — In what city planners are calling a “necessary modernization of public gratitude,” Riga this week opened a 320-square-meter Silent Applause Zone near Esplanāde Park, allowing residents to acknowledge cultural performances, civic announcements, and mildly competent public service without the “destabilizing theatricality” of actually clapping.
+
+The fenced area, marked by matte gray signage and a small municipal birch installed for emotional calibration, was introduced after a 14-month pilot program found that 68% of Riga residents felt applause had become “too loud, too sudden, and too full of implied follow-up enthusiasm.” An additional 21% said they had clapped at an event in 2023 and were “still recovering socially.”
+
+According to Deputy Chair for Urban Atmosphere Līga Straume, the city could no longer ignore the widening gap between what Latvians feel internally and what etiquette manuals continue to demand from their hands.
+
+“We are not an ungrateful people,” Straume told reporters while demonstrating a medium-approval head incline approved by the municipal design board. “But there are many shades between emotional collapse and a standing ovation. For decades, residents were given only one tool: impact. We are now offering alternatives.”
+
+Inside the zone, citizens may select from six officially recognized response categories, including ‘respectful exhale,’ ‘brief eye narrowing of admiration,’ and ‘single nod with fiscal caution.’ Use of double nodding remains restricted to national holidays, exceptional cello performances, and confirmed heating bill reductions.
+
+The project, which cost €412,000, includes anti-echo paving, low-reflection benches, and an instructional kiosk where visitors can watch looping demonstrations by actors from the New Riga Municipal Restraint Theatre. One training video shows a man receiving unexpectedly good choir tickets and responding with what officials classify as “contained but visible acknowledgment.”
+
+Reaction across the capital has been mixed but attentive. “Honestly, this is the first public initiative that understands me,” said 43-year-old accountant and Āgenskalns resident Māris Vītols, who visited the zone Tuesday afternoon to practice approving of a street violinist from a safe emotional distance. “At my cousin’s graduation, people clapped for seven full minutes. I had to hide near the coat rack and stare at a fire extinguisher until it was over.”
+
+Not everyone is convinced. The Association of Traditional Hand-Based Recognition issued a statement warning that silent approval risks “eroding Latvia’s already fragile spontaneous joy sector.” Its chair, former event host Andris Pelēkais, accused the city of replacing “our proud rhythmic heritage” with “bureaucratized facial management.”
+
+Still, several institutions have already expressed interest. The Latvian National Opera is reportedly considering two Silent Applause balconies for patrons who wish to communicate deep appreciation without “becoming involved in a scene.” Meanwhile, three ministries are reviewing whether the format could be adapted for budget presentations, where audible enthusiasm has long been considered misleading.
+
+At the opening ceremony, attended by 86 invited guests and one confused Finnish tourist who thought it was a line for coffee, Mayor Vilnis Egle praised the zone as a model of Baltic realism. After concluding his remarks, he received what organizers later described as “an overwhelming wave of concentrated stillness.”
+
+By evening, officials declared the launch a success after measuring a citywide 14% drop in involuntary applause and a 39% increase in privately managed approval. The municipality is now studying whether similar spaces could be installed in Jūrmala before next summer’s festival season, when residents typically face dangerous levels of mandatory enthusiasm.
+
+As twilight settled over the capital, a chamber ensemble performed quietly beside the zone while onlookers offered a series of highly disciplined nods, one scarf adjustment, and what witnesses agreed was an extremely ambitious exhale. For Riga, it was the loudest possible silence.`,
+      lv: `RĪGA — To, ko pilsētplānotāji sauc par „nepieciešamu publiskās pateicības modernizāciju”, šonedēļ Rīga atklāja 320 kvadrātmetru lielu Kluso aplausu zonu pie Esplanādes parka, ļaujot iedzīvotājiem atzīt kultūras priekšnesumus, pilsētas paziņojumus un viegli kompetentu publisko servisu bez „destabilizējošās tētrālības”, ko rada parasts plaukšķis.
+
+Žogotā teritorija, atzīmēta ar matēti pelēkām norādēm un nelielu pašvaldības bērzu, uzstādītu emocionālai kalibrēšanai, tika ieviesta pēc 14 mēnešu pilotprogrammas, kurā atklājās, ka 68% rīdzinieku uzskata — aplausi kļuvuši „pārāk skaļi, pārāk pēkšņi un pārāk pilni ar netieši sagaidāmo turpmāko entuziasmu.” Papildu 21% atzina, ka 2023. gadā bija plaukšķinājuši kādā pasākumā un joprojām „sociāli atveseļojas.”
+
+„Mēs neesam neuzticīgs tauta,” reportieriem sacīja pilsētas atmosfēras vietniece Līga Straume, demonstrējot vidējas apstiprināšanas galvas noliekumu, ko apstiprinājusi pašvaldības dizaina padome. „Bet starp emocionālu sabrukumu un stāvošu ovāciju ir daudz toņu. Gadiem ilgi iedzīvotājiem tika dots tikai viens instruments: ietekme. Tagad mēs piedāvājam alternatīvas.”
+
+Zonas iekšienē pilsoņi var izvēlēties no sešām oficiāli atzītām reakciju kategorijām, tostarp „cieņpilna izelpa”, „īslaicīga acu sašaurināšanās apbrīnā” un „viens mājiens ar finansiālu piesardzību”. Dubultmājiena lietošana joprojām ir ierobežota nacionālajos svētkos, izcili čellistu priekšnesumos un apstiprinātos apkures rēķinu samazinājumos.
+
+Projekts, kas izmaksāja 412 000 €, ietver pretatbalss bruģējumu, zemu atstarošanos sola solos un informatīvu kiosku, kur apmeklētāji var skatīties atkārtotus demonstrācijas klipus no aktieriem no Jaunā Rīgas Paškontroles municipālā teātra. Vienā mācību video redzams vīrietis, kas saņem negaidīti labas koru biļetes un reaģē ar to, ko amatpersonas klasificē kā „valdītu, bet redzamu atzinību.”
+
+Reakcijas galvaspilsētā ir jauktas, bet uzmanīgas. „Godīgi sakot, šī ir pirmā publiskā iniciatīva, kas mani saprot,” sacīja 43 gadus vecais grāmatvedis un Āgenskalna iedzīvotājs Māris Vītols, kurš otrdienas pēcpusdienā apmeklēja zonu, lai no droša emocionālā attāluma trenētos apstiprināt ielas vijolnieku. „Mana brāļa bērēm— nu, brālēna izlaidumā — cilvēki plaukšķināja veselas septiņas minūtes. Man nācās slēpties pie mēteļu pakaramā un skatīties uz ugunsdzēšamo aparātu, līdz viss beidzās.”
+
+Ne visi ir pārliecināti. Asociācija „Tradicionālā rokas atpazīšana” izplatīja paziņojumu, brīdinot, ka klusā atzinība draud „izskalot Latvijas jau tā trauslo spontānās prieka nozari.” Tās priekšsēdētājs, bijušais pasākumu vadītājs Andris Pelēkais, apsūdzēja pilsētu par „mūsu lepno ritmisko mantojumu” aizstāšanu ar „birokratizētu sejas vadību.”
+
+Tomēr vairākas institūcijas jau izrādījušas interesi. Latvijas Nacionālā opera tiekoties apsverot divas Kluso aplausu lodžijas tiem skatītājiem, kas vēlas izteikt dziļu pateicību, „neiesaistoties skandālā.” Tikmēr trīs ministrijas pārskata, vai formātu varētu pielāgot budžeta prezentācijām, kur skaļš entuziasms jau sen tiek uzskatīts par maldinošu.
+
+Atklāšanas ceremonijā, kurā piedalījās 86 uzaicināti viesi un viens apjucis somu tūrist, kurš domāja, ka rindā stāv pēc kafijas, mērs Vilnis Egle slavēja zonu kā Baltijas reālisma paraugu. Pēc runas noslēguma viņš saņēma to, ko rīkotāji vēlāk raksturoja kā „pārgudrojošu koncentrētas klusēšanas vilni.”
+
+Vakara laikā amatpersonas pasludināja atklāšanu par veiksmīgu, pēc tam, kad novērtēja pilsētā 14% samazinājumu nebrīvprātīgajos plaukšķos un 39% pieaugumu privāti pārvaldītā atzinībā. Pašvaldība tagad izskata, vai līdzīgas telpas varētu uzstādīt Jūrmalā pirms nākamās vasaras koncertsezonas, kad iedzīvotāji parasti sastopas ar bīstami augstu obligātā entuziasma līmeni.
+
+Kad vakara krēsla nomierinājās pār galvaspilsētu, kamermūzikas ansamblis klusumā spēlēja blakus zonai, kamēr skatītāji izrādīja virkni stingri disciplinētu mājienu, vienu šalles pielāgojumu un to, ko aculiecinieki vienojās saukt par ārkārtīgi ambiciozu izelpu. Rīgai tā bija skaļākā iespējamā klusēšana.`,
+      ru: `РИГА — В том, что городские планировщики называют «необходимой модернизацией общественной благодарности», Рига на этой неделе открыла 320-метровую «зону тихих аплодисментов» рядом с парком Эспланада, где жители могут отмечать культурные выступления, муниципальные объявления и умеренно компетентное обслуживание, не прибегая к «дестабилизирующей театральности» настоящих аплодисментов.
+
+Ограждённая территория, отмеченная матовыми серыми указателями и небольшой муниципальной берёзкой, установленной для эмоциональной калибровки, была открыта после 14-месячной пилотной программы, показавшей, что 68% рижан считают аплодисменты «слишком громкими, слишком внезапными и слишком полными подразумеваемого последующего энтузиазма». Ещё 21% заявили, что аплодировали на мероприятии в 2023 году и «до сих пор восстанавливаются в социальном плане».
+
+По словам заместителя председателя по городской атмосфере Лиги Страуме, город больше не мог игнорировать растущий разрыв между тем, что латвийцы ощущают внутри, и тем, чего по-прежнему требуют этикетные пособия от их рук.
+
+«Мы не неблагодарный народ», — сказала Страуме журналистам, демонстрируя умеренный наклон головы одобрения, утверждённый муниципальной дизайн‑комиссией. «Но между эмоциональным коллапсом и стоячими овациями есть множество оттенков. Десятилетиями жителям давали лишь один инструмент: удар. Теперь мы предлагаем альтернативы.»
+
+Внутри зоны горожане могут выбирать из шести официально признанных категорий реакции, включая «уважительный выдох», «краткое прищуривание восхищения» и «одинарный кивок с финансовой осторожностью». Двойной кивок остаётся ограниченной практикой и допустим только в национальные праздники, при исключительных виолончельных исполнениях и в случае подтверждённого снижения коммунальных платежей.
+
+Проект, обошедшийся в 412 000 евро, включает противоэховое покрытие, скамьи с низким уровнем отражения и инструкционный киоск, где посетители могут смотреть зацикленные демонстрации актёров из Нового Рижского муниципального театра сдержанности. В одном из обучающих роликов показан мужчина, получивший неожиданно хорошие билеты в хор и ответивший тем, что чиновники классифицировали как «сдержанное, но заметное признание».
+
+Реакция в столице оказалась смешанной, но внимательной. «Честно говоря, это первая публичная инициатива, которая понимает меня», — сказал 43‑летний бухгалтер и житель Агенскалнса Марис Витолс, посетивший зону во вторник днём, чтобы попрактиковаться в одобрении уличного скрипача с безопасной эмоциональной дистанции. «На выпускном у моего двоюродного человека люди хлопали семь полных минут. Мне пришлось прятаться возле вешалки и глазеть на огнетушитель, пока всё не закончилось.»
+
+Не все разделяют оптимизм. Ассоциация традиционного ручного выражения признания выпустила заявление, предупреждая, что немое одобрение рискует «размыть и без того хрупкий сектор спонтанной радости Латвии». Её председатель, бывший ведущий мероприятий Андрис Пелекайс, обвинил город в том, что тот заменяет «нашу гордую ритмическую традицию» «бюрократизированным управлением лицом».
+
+Тем не менее ряд учреждений уже проявил интерес. Как сообщается, Латвийская национальная опера рассматривает два балкона тихих аплодисментов для зрителей, желающих выразить глубокую признательность, не «вовлекаясь в сцену». Тем временем три министерства изучают, можно ли адаптировать формат для представления бюджетов, где слышимый энтузиазм давно считается вводящим в заблуждение.
+
+На церемонии открытия, в которой присутствовали 86 приглашённых гостей и один озадаченный финский турист, принявший очередь за кофе, мэр Вилнис Эгле назвал зону образцом балтийского реализма. Завершив речь, он получил то, что организаторы позже охарактеризовали как «подавляющую волну сосредоточенной неподвижности».
+
+К вечеру чиновники объявили запуск успешным после того, как зафиксировали в городе 14%-ное снижение непроизвольных аплодисментов и 39%-ный рост частных форм одобрения. Муниципалитет теперь изучает возможность создания подобных пространств в Юрмале до начала фестивального сезона следующего лета, когда жители обычно сталкиваются с опасными уровнями обязательного энтузиазма.
+
+Когда над столицей опустились сумерки, камерный ансамбль тихо играл рядом с зоной, а зрители предлагали серию исключительно дисциплинированных кивков, одну поправку шарфа и то, что свидетели сочли чрезвычайно амбициозным выдохом. Для Риги это было самым громким возможным молчанием.`
+    },
+    date: "Oct 2, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/292/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 291,
     slug: "riga-introduces-dynamic-sidewalk-pricing-to-291",
     title: {
@@ -96,7 +187,7 @@ Ja shēma būs veiksmīga, amatpersonas saka, ka nākamās vasaras plānā ir pa
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/291/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 290,
