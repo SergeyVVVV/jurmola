@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 293,
+    slug: "riga-introduces-passive-aggressive-silence-zones-293",
+    title: {
+      en: "Riga Introduces ‘Passive-Aggressive Silence Zones’ On Public Transport To Preserve National Heritage",
+      lv: "Rīga ievieš «pasīvi-agresīvas klusuma zonas» sabiedriskajā transportā, lai saglabātu nacionālo mantojumu",
+      ru: "Рига вводит «зоны пассивно‑агрессивного молчания» в общественном транспорте ради сохранения национального наследия"
+    },
+    excerpt: {
+      en: "In a move city officials are calling ‘long overdue,’ Riga has begun designating special silence zones on trams and buses where eye contact, cheerful greetings, and obvious emotional expression are strictly discouraged. Authorities say the initiative protects an endangered cultural practice: silently resenting strangers in public while staring out at grey weather.",
+      lv: "Kā pilsētas amatpersonas sauc par «ilgi gaidītu» soli, Rīga sākusi iezīmēt īpašas klusuma zonas tramvajos un autobusos, kur acu kontakts, sirsnīgi sveicieni un acīmredzama emociju izpausme ir stingri nevēlama. Pēc varas iestāžu teiktā, iniciatīva sargā apdraudētu kultūras praksi: klusībā nicināt svešiniekus publiskā telpā, raugoties uz pelēkajiem laikapstākļiem.",
+      ru: "В шаге, который городские чиновники называют «давно назревшим», в Риге начали обозначать специальные зоны молчания в трамваях и автобусах, где зрительный контакт, приветливые приветствия и явно выраженные эмоции строго не приветствуются. По словам властей, инициатива защищает находящуюся под угрозой культурную практику: молча раздражаться на чужих в общественном пространстве, глядя на серую погоду."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Council this week unveiled a pilot program creating ‘Passive-Aggressive Silence Zones’ across 14 tram routes, 6 trolleybus lines, and selected long-form bus journeys deemed especially suitable for internal disappointment. The policy, officially introduced under the Urban Intangible Heritage Preservation Initiative, aims to safeguard what municipal documents describe as ‘a delicate ecosystem of emotional restraint, ambient inconvenience, and highly structured mutual avoidance.’
+
+Blue signs now posted near vehicle doors depict a neutral-faced commuter looking past another neutral-faced commuter while both stand too close to each other despite ample available space elsewhere. Under the image are the words: ‘Respect Tradition. Do Not Become Familiar.’
+
+According to city figures, the average Riga passenger currently speaks only 1.7 words per trip, down from 2.1 in 2019, a statistic hailed by officials as ‘promising, but vulnerable to outside influence,’ particularly from exchange students, startup employees, and one inexplicably energetic man who boards at Brīvības iela each morning saying, ‘Beautiful day, isn’t it?’
+
+‘We are not banning conversation,’ explained Deputy Committee Chair for Mobility and Emotional Distance, Inese Lapiņa, during a press conference delivered in a tone suggesting the audience had already disappointed her. ‘People may still mutter “sorry” if they step on someone’s foot, but only if they do not mean it theatrically. This is about preserving authenticity. A tram is not a café. It is a moving room where we all briefly agree not to exist for each other.’
+
+Under the new rules, passengers entering a Silence Zone are encouraged to select one of three approved facial expressions: Mild Endurance, Administrative Fatigue, or Weather-Based Betrayal. Smiling without clear justification may result in a warning from conductors, who have received a laminated chart to help distinguish between acceptable irony and dangerous sincerity.
+
+The first week of enforcement has already produced measurable results. On Tram 11 toward Mežaparks, inspectors reported a 43% reduction in unnecessary nodding and a complete elimination of tourists asking whether the National Opera stop was ‘this one or maybe the next one?’ after local riders collectively refused to participate in the exchange. On Bus 22 to the airport, one Lithuanian traveler was politely relocated after attempting to begin a conversation about craft beer with four unrelated passengers.
+
+Not all residents oppose the changes. ‘Finally, the city is investing in what matters,’ said Purvciems accountant Artūrs Ozols, 38, who described previous commuting conditions as ‘chaotic’ after a stranger once complimented his scarf in February. ‘I moved two stops early and walked home in freezing rain just to recover. People think infrastructure is roads and bridges. No. Infrastructure is knowing no one will suddenly ask how your weekend was.’
+
+Some concerns have been raised by younger Latvians, particularly those returning from time abroad. ‘After two years in Amsterdam, I accidentally thanked a bus driver out loud,’ admitted communications specialist Elza Priede, 29. ‘Three women looked at me like I had proposed live saxophone on the tram. It took me a month to reintegrate.’
+
+Jūrmala officials are reportedly considering a summer adaptation of the policy for beachside minibuses, where passengers would be permitted one seasonal sigh and a maximum of two disapproving glances toward anyone carrying a Bluetooth speaker.
+
+At press time, Riga was also testing premium ‘Ultra Silence’ carriages for morning commuters, where even thinking positively about other people is strongly discouraged.`,
+      lv: `RĪGA — Rīgas dome šonedēļ atklāja testa programmu, izveidojot «pasīvi-agresīvu klusuma zonas» 14 tramvaja maršrutos, 6 trolejbusu līnijās un atsevišķos tālākos autobusu reisos, kurus uzskata par īpaši piemērotiem iekšējai vilšanās izjūtai. Politika, oficiāli ieviesta kā Pilsētas nemateriālā mantojuma saglabāšanas iniciatīva, cenšas aizsargāt to, ko pašvaldības dokumenti apraksta kā «emocionālās atturēšanās, apkārtējās neērtības un stingri strukturētas savstarpējas izvairīšanās sārņu ekosistēmu.»
+
+Pie durvīm piekabinātās zilās zīmes attēlo neitrālu pasažieri, kas raugās garām citam neitrālam pasažierim, kamēr abi stāv pārāk tuvu viens otram, neskatoties uz brīvi pieejamu vietu citur. Attēla apakšā rakstīts: «Cieniet tradīcijas. Nekļūstiet pārāk pazīstami.»
+
+Pēc pašvaldības datiem vidējais Rīgas pasažieris pašlaik sarunājas tikai 1,7 vārdus braucienā, salīdzinot ar 2,1 2019. gadā — statistika, ko amatpersonas sauc par «perspektīvu, taču uzņēmīgu pret ārējām ietekmēm», it īpaši no apmaiņas studentiem, startapa darbiniekiem un viena neizskaidrojami enerģiska vīrieša, kas katru rītu iekāpj Brīvības ielā, sakot: «Cik skaista diena, vai ne?»
+
+«Mēs neieviestam sarunu aizliegumu,» preses konferencē sacīja Mobilitātes un emocionālās distances komitejas priekšsēdētājas vietniece Inese Lapiņa, runājot tonī, kas liecināja, ka klausītāji viņu jau bija sarūgtinājuši. «Cilvēki joprojām drīkst nodrebot “piedod”, ja uzkāpj uz kājas, bet tikai tad, ja to neizspēlē teatrāli. Tas ir par autentiskuma saglabāšanu. Tramvajs nav kafejnīca. Tas ir kustīgs kambaris, kurā mēs īsi vienojamies neeksistēt cits priekš otra.»
+
+Saskaņā ar jaunajiem noteikumiem pasažieri, iekļūstot Klusuma zonā, tiek mudināti izvēlēties vienu no trim atļautajām sejas izteiksmēm: Maiga izturēšanās, Administratīva noguruma izteiksme vai Laika apstākļu nodevības izteiksme. Smaidīšana bez skaidra iemesla var izraisīt brīdinājumu no konduktoriem, kuri saņēmuši laminētu tabulu, lai palīdzētu atšķirt pieļaujamo ironiju no bīstamās sirsnības.
+
+Pirmā ieviestā nedēļa jau devusi izmērāmas sekas. Tramvajā 11 virzienā uz Mežaparku inspektori ziņoja par 43% samazinājumu nevajadzīgā galvas mājienā un pilnīgu tūristu jautājumu izzušanu par to, vai Nacionālā opera ir «šeit vai varbūt nākamā pietura?», jo vietējie braucēji kolektīvi atteicās iesaistīties sarunā. Autobusā 22 uz lidostu viens lietuvietis ceļotājs tika laipni pārvietots pēc mēģinājuma uzsākt sarunu par amatniecības alu ar četriem nepazīstamiem pasažieriem.
+
+Ne visi iedzīvotāji iebilst pret izmaiņām. «Beidzot pilsēta iegulda svarīgajās lietās,» sacīja Purvciema grāmatvedis Artūrs Ozols, 38, kurš iepriekšējās ceļošanas pieredzes raksturoja kā «haotiskas», jo kāds reiz februārī svešinieks viņam uzslavējis šalli. «Es izkāpu divas pieturas agrāk un gāju mājās ledainā lietū, tikai lai atgūtos. Cilvēki domā, ka infrastruktūra ir ceļi un tilti. Nē. Infrastruktūra ir pārliecība, ka neviens pēkšņi neprasīs, kā tev pagāja nedēļas nogale.»
+
+Dažas bažas izteikuši jaunāki latvieši, īpaši tie, kuri atgriezušies pēc laika ārzemēs. «Pēc diviem gadiem Amsterdamā es nejauši skaļi pateicos autobusa šoferim,» atzina komunikācijas speciāliste Elza Priede, 29. «Trīs sievietes paskatījās uz mani tā, it kā es būtu piedāvājusi dzīvā saksofona koncertu tramvajā. Lai reintegrētos, man vajadzēja mēnesi.»
+
+Žurnālistu ziņām Jūrmalas amatpersonas apsver vasaras adaptāciju pludmales minibusos, kur pasažieriem tiks atļauts viens sezonāls nopūtiens un ne vairāk kā divi nosodoši skatieni uz katru, kurš nēsā Bluetooth skaļruni.
+
+Rakstīšanas brīdī Rīga arī testēja premium «Ultra Klusuma» vagoniņus rīta pasažieriem, kur pat pozitīvas domas par citiem tiek stingri nevēlētas.`,
+      ru: `РИГА — На этой неделе Рижская городская дума представила пилотную программу создания «зон пассивно‑агрессивного молчания» на 14 трамвайных маршрутах, 6 троллейбусных линиях и на отдельных длительных автобусных рейсах, признанных особенно пригодными для внутреннего разочарования. Политика, официально введённая в рамках Инициативы по сохранению городского нематериального наследия, направлена на защиту того, что муниципальные документы описывают как «деликатную экосистему эмоционального сдержанности, фонового неудобства и строго структурированного взаимного игнорирования». 
+
+Синие таблички теперь висят у дверей транспортных средств и изображают пассажира с нейтральным лицом, смотрящего мимо другого пассажира с нейтральным лицом, причём оба стоят слишком близко друг к другу, несмотря на наличие свободного места в других частях вагона. Под изображением надпись: «Уважайте традицию. Не становитесь знакомыми.»
+
+По данным города, средний рижский пассажир в настоящее время произносит лишь 1,7 слова за поездку, по сравнению с 2,1 в 2019 году — показатель, который чиновники называют «многообещающим, но уязвимым перед внешним влиянием», особенно со стороны студентов по обмену, сотрудников стартапов и одного необъяснимо жизнерадостного мужчины, который садится на Бривибас иелa каждое утро и говорит: «Красивый денёк, да?»
+
+«Мы не запрещаем разговоры», — пояснила заместитель председателя комитета по мобильности и эмоциональной дистанции Инесе Лапиня на пресс‑конференции, произнесённой тоном, как будто слушатели уже её разочаровали. «Люди всё ещё могут пробормотать „извините“, если наступят кому‑то на ногу, но только если это не будет театральным. Речь идёт о сохранении аутентичности. Трамвай — не кафе. Это передвижная комната, где мы на короткое время договариваемся не существовать друг для друга.»
+
+Согласно новым правилам, пассажирам, входящим в Зону молчания, рекомендуется выбрать одно из трёх одобренных выражений лица: «Лёгкое терпение», «Административная усталость» или «Погодно‑е предательство». Улыбка без явной причины может привести к предупреждению со стороны кондукторов, которые получили ламинированную таблицу для различения допустимой иронии и опасной искренности.
+
+Первая неделя внедрения уже дала измеримые результаты. На трамвае №11 в сторону Mežaparks инспекторы зафиксировали снижение ненужных кивков на 43% и полное исчезновение туристов с вопросом «национальная опера здесь или, может быть, на следующей?», после того как местные пассажиры коллективно отказались участвовать в таком обмене. В автобусе №22 до аэропорта один литовский путешественник вежливо был пересажен после попытки завести разговор о крафтовом пиве с четырьмя посторонними пассажирами.
+
+Не все жители выступают против изменений. «Наконец город вкладывает деньги в то, что действительно важно», — сказал бухгалтер из Пурвциемса Артурс Озолс, 38 лет, охарактеризовав предыдущие условия поездок как «хаос» после того, как в феврале незнакомец однажды похвалил его шарф. «Я сошёл на две остановки раньше и дошёл до дома пешком под ледяным дождём только чтобы восстановиться. Люди думают, что инфраструктура — это дороги и мосты. Нет. Инфраструктура — это уверенность, что никто внезапно не спросит, как прошли ваши выходные.»
+
+Некоторые опасения выразили молодые латыши, особенно вернувшиеся из‑за границы. «После двух лет в Амстердаме я по ошибке вслух поблагодарила водителя автобуса», — призналась специалист по коммуникациям Элза Прийеде, 29 лет. «Три женщины посмотрели на меня так, словно я предложила устроить на трамвае живое выступление саксофониста. Мне потребовался месяц, чтобы реинтегрироваться.»
+
+Сообщается, что власти Юрмалы рассматривают летнюю адаптацию политики для прибрежных маршруток, где пассажирам будет разрешён один сезонный вздох и максимум два неодобрительных взгляда в сторону любого, у кого в руках блютуз‑колонка.
+
+На момент выхода материала в Риге также тестируют премиальные вагоны «Ультра‑Молчание» для утренних пассажиров, где даже позитивная мысль о других людях настоятельно не приветствуется.`
+    },
+    date: "Oct 3, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/293/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 292,
     slug: "riga-introduces-silent-applause-zone-for",
     title: {
@@ -106,7 +187,7 @@ Kad vakara krēsla nomierinājās pār galvaspilsētu, kamermūzikas ansamblis k
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/292/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 291,
