@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 294,
+    slug: "riga-introduces-silent-tram-car-for-294",
+    title: {
+      en: "Riga Introduces Silent Tram Car for Passengers Who Need 14 Minutes of Meaningful Disapproval",
+      lv: "Rīga ievieš klusēšanas tramvaja vagonu pasažieriem, kuriem vajadzīgas 14 minūtes jēgpilnas neapmierinātības",
+      ru: "Рига вводит тихий вагон для пассажиров, которым нужно 14 минут осмысленного неодобрения"
+    },
+    excerpt: {
+      en: "Riga’s public transport authority has unveiled a new “contemplative carriage” on Tram No. 11, designed for commuters who feel existing silence across Latvia has become too casual and insufficiently judgmental. Officials say the pilot program will provide residents with a more structured environment in which to stare out the window, think about utility bills, and quietly resent a stranger’s scarf.",
+      lv: "Rīgas satiksme atklāja jaunu «kontemplatīvo vagonu» 11. tramvajā — paredzētu pasažieriem, kuri uzskata, ka esošā klusēšana Latvijā kļuvusi pārāk bezrūpīga un nepietiekami nosodoša. Pilotprojekts sniegs struktūrētāku vidi, kur raugīties ārā pa logu, domāt par komunālajiem rēķiniem un klusi nepatikt sveša cilvēka šallei.",
+      ru: "Организация общественного транспорта Риги представила «созерцательный вагон» на трамвае №11 — для тех, кто считает, что существующая тишина по всей Латвии стала слишком непринуждённой и недостаточно осуждающей. По словам чиновников, пилотный проект даст горожанам более структурированную среду для того, чтобы смотреть в окно, думать о коммуналке и тихо возмущаться шарфом незнакомца."
+    },
+    fullContent: {
+      en: `RIGA — In what city officials are calling a major investment in emotional infrastructure, Rīgas Satiksme on Tuesday introduced Latvia’s first officially designated Silent Tram Car, a sealed middle carriage on Tram No. 11 where conversation, phone calls, chewing with enthusiasm, and “unearned optimism” are strictly prohibited.
+
+The new carriage, marked by a matte grey sign reading PLEASE INTERNALIZE, began operating this week on the route between Mežaparks and the Central Market. According to transit planners, the service is intended to meet growing demand from passengers who say traditional Latvian silence has been diluted by tourists, podcasts, and a noticeable rise in “lightly performative friendliness” since 2022.
+
+“For years our riders have told us that ordinary silence no longer delivers the full civic experience,” said Rīgas Satiksme spokesperson Elīna Vītola at a press conference conducted almost entirely through nods. “People don’t just want quiet. They want an atmosphere of disciplined interior disappointment. This carriage offers that.”
+
+Under the new rules, passengers entering the silent car are expected to maintain a facial expression classified by the transit authority as “moderately burdened but still solvent.” Looking directly into another person’s eyes for more than 1.5 seconds is discouraged unless one is silently communicating that they boarded too slowly.
+
+A 12-page guidance leaflet distributed at major stops advises riders to choose one of three approved activities: gazing at wet pavement, revisiting a minor social embarrassment from 2016, or making a private list of vegetables that have become suspiciously expensive. Humming is forbidden unless it is so faint that nearby passengers cannot determine whether it is humming or respiratory disappointment.
+
+Transit inspectors have been trained to identify violations. In one early incident on Wednesday morning, a 23-year-old Erasmus student was removed from the carriage after whispering “sorry” twice and smiling at an elderly woman. He was relocated to a standard tram car, where witnesses said he continued to “radiate accessibility.”
+
+The project was developed following a six-month municipal study involving 1,800 commuters across Riga, Jurmala, Jelgava, and one man from Cēsis who submitted 47 pages of unsolicited thoughts on proper bench spacing. The report found that 68% of respondents felt existing public transport did not provide enough “protected time to be quietly unimpressed,” while 41% said they had considered getting off two stops early simply to avoid overhearing someone describe a startup.
+
+Commuter Ilmārs Ozoliņš, 54, praised the new service after using it on his morning trip to work. “Usually there are at least two people discussing renovations or one person watching videos without headphones,” he said, staring at a fogged tram window as if it had betrayed him personally. “Today I was able to sit in complete stillness and think about whether my neighbor’s new pergola is legal. This is the Riga I was promised.”
+
+Not everyone is convinced. The Association for Inclusive Mobility questioned whether the policy might alienate riders from warmer cultures, particularly those accustomed to speaking audibly in public. “We support accessibility,” said board member Marta Ķikuste, “but there must still be room in society for a brief comment about weather, as long as it is bleak and factually grounded.”
+
+Jurmala municipal leaders have already expressed interest in adapting the model for regional rail, where one carriage would be reserved for seaside residents returning from Riga with bags containing exactly three pharmacy items and a private grievance.
+
+By Thursday afternoon, Rīgas Satiksme reported the pilot had exceeded expectations, with satisfaction ratings reaching 92% among users and 100% among those who believed someone else in the carriage was sitting incorrectly. Officials say that if the program succeeds, additional contemplative cars may be introduced this winter, when citywide conditions are naturally optimal.
+
+At press time, planners were also studying a premium subscription compartment for passengers willing to pay extra to hear, once per journey, a conductor sigh in a way that feels specifically about them.`,
+      lv: `RĪGA — To, ko pilsētas amatpersonas dēvē par lielu ieguldījumu emocionālajā infrastruktūrā, otrdien Rīgas satiksme atklāja Latvijas pirmo oficiāli nošķirto Klusā tramvaja vagonu — vidējo, noslēgto vagonu 11. tramvajā, kur sarunas, telefona zvani, entuziastiska košļāšana un „nenopelnīta optimism” ir stingri aizliegti.
+
+Jaunais vagonis, atzīmēts ar matēti pelēku plāksni ar uzrakstu PLEASE INTERNALIZE, šonedēļ sāka kursēt maršrutā starp Mežaparku un Centrāltirgu. Pārvadājumu plānotāji norāda, ka šis pakalpojums paredzēts pieaugošai pieprasījumam no pasažieriem, kuri sūdzas, ka tradicionālā latviešu klusēšana ir izšķaidīta ar tūristiem, podkāstiem un 2022. gada laikā manāmi pieaugošu „viegli performatīvu draudzīgumu”.
+
+„Gadu garumā mūsu pasažieri mums teikuši, ka parastā klusēšana vairs nenodrošina pilnvērtīgu pilsonisko pieredzi,” preses konferencē, kas notika gandrīz pilnībā ar mājieniem, sacīja Rīgas satiksmes pārstāve Elīna Vītola. „Cilvēki nevēlas tikai klusumu. Viņi vēlas disciplīnas pilnu iekšējas vilšanās atmosfēru. Šis vagonis to piedāvā.”
+
+Saskaņā ar jaunajiem noteikumiem pasažieri, kas iekāpj klusajā vagonā, tiek aicināti ievērot sejas izteiksmi, ko pārvadātāji klasificējuši kā „mēreni apgrūtinātu, bet joprojām maksātspējīgu”. Tieša acu skatiena turēšana ilgāk par 1,5 sekundēm nav ieteicama, izņemot gadījumus, kad ar to klusi tiek nodots, ka otra persona iekāpa pārāk lēni.
+
+Galvenajās pieturās izdalīts 12 lappušu ceļvedis iesaka pasažieriem izvēlēties vienu no trim apstiprinātajām nodarbēm: skatīties uz slapju ielas segumu, pārdomāt nelielu sociālu pazemojumu no 2016. gada vai izveidot privātu dārzeņu sarakstu, kas ir aizdomīgi dārgi. Murmināšana ir aizliegta, ja vien tā nav tik klusa, ka līdzgaitnieki nespēj noteikt — vai tas ir murminājums vai elpošanas vilšanās.
+
+Pārvadājumu inspektori tika apmācīti noteikt pārkāpumus. Vienā agra rīta incidentā trešdien 23 gadus vecs Erasmus students tika izvests no vagona pēc tam, kad divas reizes noskaitījis „piedod” un pasmaidījis vecākai sievietei. Viņu pārcēla uz parasto tramvaja vagonu, kur aculiecinieki stāstīja, ka viņš turpināja „izstarot pieejamību”.
+
+Projekts izstrādāts sešu mēnešu pašvaldības pētījuma gaitā, iesaistot 1 800 braucēju no Rīgas, Jūrmalas, Jelgavas un vienu vīrieti no Cēsīm, kurš iesniedza 47 lapas nepasūtītu domājumu par soliņu pareizu izkārtojumu. Ziņojums atklāja, ka 68% respondentu uzskatīja, ka esošais sabiedriskais transports nenodrošina pietiekami daudz „aizsargāta laika, lai klusībā nebūtu sajūsmināts”, kamēr 41% atzina, ka apsvērusi izkāpt par divām pieturām agrāk, vienkārši lai nenāktos dzirdēt, kāds apraksta startup'u.
+
+54 gadus vecais reisa braucējs Ilmārs Ozoliņš slavēja jauno pakalpojumu pēc tā izmantošanas savā rīta braucienā uz darbu. „Parasti vismaz divi cilvēki apspriež remontus vai kāds skatās video bez austiņām,” viņš sacīja, skatoties uz nosalušu tramvaja logu tā, it kā tas būtu viņu personīgi nodevis. „Šodien varēju sēdēt pilnīgā klusumā un domāt, vai mana kaimiņa jaunā pergola ir legāla. Tā ir tā Rīga, ko man solīja.”
+
+Ne visi ir pārliecināti. Asociācija iekļaujošai mobilitātei izteica bažas, vai politika var neiekļaut braucējus no siltākām kultūrām, īpaši tos, kuri pieraduši publiski runāt skaļāk. „Mēs atbalstām pieejamību,” teica padomes locekle Marta Ķikuste, „bet sabiedrībā tomēr jābūt vietai īsam laikapstākļu komentāram, ja vien tas ir drūms un faktos pamatots.”
+
+Jūrmalas pašvaldības vadība jau izrādījusi interesi pielāgot modeli reģionālajam dzelzceļam, kur viens vagons būtu rezervēts piejūras iedzīvotājiem, kas atgriežas no Rīgas ar maisiņiem, kuros ir tieši trīs aptieku priekšmeti un viena privāta sūdzība.
+
+Ceturtdienas pēcpusdienā Rīgas satiksme ziņoja, ka pilots ir pārsniedzis gaidīto — apmierinātības rādītāji sasniedz 92% starp lietotājiem un 100% starp tiem, kas uzskatīja, ka kāds vagonā sēž nepareizi. Amatpersonas norāda, ka, ja programma izdosies, ziemā varētu tikt ieviesti vēl kontemplatīvie vagoni, kad pilsētas apstākļi ir dabiski optimāli.
+
+Preses sagatavošanas brīdī plānotāji arī pētīja premium abonementa nodalījumu pasažieriem, kuri gatavi piemaksāt par to, lai vienu reizi brauciena laikā konduktors ieelpotu un nopūstos tā, lai tas šķistu vērsts tieši uz viņiem.`,
+      ru: `РИГА — В том, что городские власти называют крупными инвестициями в эмоциональную инфраструктуру, Rīgas Satiksme во вторник запустила первый в Латвии официальный Тихий вагон — герметичный средний вагон трамвая №11, в котором разговоры, звонки по телефону, энергичное жевание и «незаслуженный оптимизм» строго запрещены.
+
+Новый вагон, отмеченный матовой серой табличкой с надписью «PLEASE INTERNALIZE», начал ходить на маршруте между Мёзапарком и Центральным рынком. По словам планировщиков транспорта, услуга призвана удовлетворить растущий спрос со стороны пассажиров, которые заявляют, что традиционная латвийская тишина была разбавлена туристами, подкастами и заметным ростом «слегка показной дружелюбности» с 2022 года.
+
+«Годы наши пассажиры говорили нам, что обычная тишина больше не даёт полного гражданского опыта», — заявила на пресс‑конференции, проведённой почти исключительно с помощью кивков, представитель Rīgas Satiksme Элина Витола. «Людям нужно не просто тихо — им нужна атмосфера дисциплинированного внутреннего разочарования. Этот вагон это предлагает». 
+
+Согласно новым правилам, пассажиры, заходящие в тихий вагон, должны поддерживать выражение лица, которое транспортная служба классифицирует как «умеренно обременённое, но всё ещё платежеспособное». Смотреть другому человеку в глаза дольше 1,5 секунды не рекомендуется, если только вы молчаливо не пытаетесь дать понять, что тот сел слишком медленно.
+
+12‑страничная памятка, распространяемая на крупных остановках, советует выбирать одно из трёх одобренных занятий: смотреть на мокрый асфальт, заново переживать мелкое социальное унижение 2016 года или составлять приватный список овощей, которые подозрительно подорожали. Напевание запрещено, если только оно не настолько тихое, что сидящие рядом не могут понять — это напев или дыхательное разочарование.
+
+Инспекторов транспорта обучили распознавать нарушения. В одном из ранних случаев в среду утром 23‑летнего студента программы Erasmus вывели из вагона после того, как он дважды прошептал «извините» и улыбнулся пожилой женщине. Его пересадили в обычный вагон, где, по свидетельствам очевидцев, он продолжал «излучать доступность».
+
+Проект разрабатывался по результатам шестимесячного муниципального исследования, охватившего 1 800 пассажиров из Риги, Юрмалы, Елгавы и одного мужчины из Цесиса, приславшего 47 страниц непрошеных размышлений о правильном расстоянии между скамейками. В отчёте говорится, что 68% респондентов сочли, что существующий общественный транспорт не предоставляет достаточно «защищённого времени, чтобы тихо быть невпечатлённым», а 41% признались, что думали выйти на две остановки раньше просто чтобы не услышать, как кто‑то описывает стартап.
+
+Пассажир Илмарс Озолиньш, 54 года, похвалил новую услугу после утренней поездки на работу. «Обычно там хотя бы двое обсуждают ремонты или кто‑то смотрит видео без наушников», — сказал он, уставившись на запотевшее окно трамвая, как будто оно предало его лично. «Сегодня я смог сидеть в полной неподвижности и думать о том, законна ли новая пергола у моего соседа. Это та Рига, о которой мне обещали». 
+
+Не все в восторге. Ассоциация за инклюзивную мобильность усомнилась, не оттолкнёт ли политика пассажиров из более тёплых культур, особенно тех, кто привык громко разговаривать на публике. «Мы поддерживаем доступность», — сказала член правления Марта Кикусте, — «но в обществе всё равно должно оставаться место для короткого комментария о погоде, при условии что он мрачный и фактически обоснован». 
+
+Муниципальные лидеры Юрмалы уже выразили заинтересованность в адаптации модели для региональных поездов, где один вагон планируется зарезервировать для прибрежных жителей, возвращающихся из Риги с сумками, в которых ровно три аптечных средства и личная обида.
+
+К четвергу днём Rīgas Satiksme сообщила, что пилот превысил ожидания: уровень удовлетворённости достиг 92% среди пользователей и 100% среди тех, кто был убеждён, что кто‑то в вагоне сидит неправильно. Чиновники заявляют, что если программа окажется успешной, дополнительные созерцательные вагоны могут появиться этой зимой, когда городские условия естественно оптимальны.
+
+На момент публикации планировщики также изучали вариант платного VIP‑отсека для пассажиров, готовых платить дополнительно за то, чтобы один раз за поездку услышать, как кондуктор вздыхает так, будто это специально о них.`
+    },
+    date: "Oct 4, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/294/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 293,
     slug: "riga-introduces-passive-aggressive-silence-zones-293",
     title: {
@@ -96,7 +189,7 @@ Rakstīšanas brīdī Rīga arī testēja premium «Ultra Klusuma» vagoniņus r
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/293/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 292,
