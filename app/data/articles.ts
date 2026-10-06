@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 296,
+    slug: "jrmala-introduces-whispering-tax-after-residents",
+    title: {
+      en: "Jūrmala Introduces Whispering Tax After Residents Complain Summer Tourists Are Pronouncing 'Dzintari' At Full Volume",
+      lv: "Jūrmala ievieš čukstošanas nodokli pēc tam, kad iedzīvotāji sūdzējās, ka vasaras tūristi „Dzintari” izrunā pilnā skaļumā",
+      ru: "Юрмала вводит налог на шёпот после жалоб жителей на то, что летние туристы произносят «Dzintari» во весь голос"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have approved Latvia’s first seasonal Whispering Tax, charging visitors a small fee each time they say the name of a neighborhood louder than 'respectfully coastal.' The measure, city leaders say, will preserve local tranquility while discouraging what one councillor called 'phonetic aggression from inland populations.'",
+      lv: "Jūrmalas pašvaldības amatpersonas ir apstiprinājušas Latvijas pirmo sezonālo čukstošanas nodokli — no viesiem tiks iekasēta neliela maksa katru reizi, kad viņi rajona nosaukumu izrunā skaļāk nekā „cieņpilni piejūras”. Pilsētas vadība apgalvo, ka pasākums saglabās vietējo mieru un atturēs to, ko viens domes deputāts nosaucis par „fonētisku agresiju no iekšzemes teritorijām”.",
+      ru: "Муниципальные власти Юрмалы утвердили первый в Латвии сезонный «налог на шёпот», взимающий с посетителей небольшую плату каждый раз, когда они произносят название района громче, чем «уважительно прибрежно». Городские лидеры заявляют, что мера сохранит местное спокойствие и помешает тому, что один из советников назвал «фонетической агрессией со стороны внутренней части страны»."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move officials described as 'long overdue for a civilized resort town,' Jūrmala City Council voted Tuesday evening to implement a seasonal Whispering Tax on tourists who pronounce local place names above 42 decibels between May 15 and September 1.
+
+Under the new pilot program, visitors heard saying 'Dzintari,' 'Majori,' or especially 'Bulduri' at what authorities classify as 'conference voice' will be charged between €1.50 and €4.00 per utterance, depending on syllabic force. Repeat offenders may be issued a laminated Courtesy Lanyard and redirected to designated Loud Speaking Zones near the railway station, where they may ask for beach directions without distressing long-term residents.
+
+The measure was introduced after a municipal study found that 68% of summer noise complaints in central Jūrmala were not related to music, traffic, or late-night terrace activity, but to tourists over-enunciating district names after exiting trains from Riga. Researchers from the Baltic Institute of Acoustic Sociology documented what they called 'avoidable vowel spikes,' particularly among day-trippers attempting to sound informed.
+
+'People arrive, they read one article about wellness culture, and suddenly they are standing in the middle of Jomas Street shouting "DZZZINTARI" like they are summoning a ferry,' said Deputy Mayor Ilze Priedkalne, speaking softly beside a potted pine tree installed for the press conference. 'This is not how a resort community survives. Tranquility is not just a value here. It is infrastructure.'
+
+To enforce the tax, the municipality has deployed 14 specially trained Seasonal Phonetic Inspectors equipped with handheld decibel meters and what city procurement records describe as 'discreet linen authority vests.' Inspectors will patrol cafes, boardwalks, and train platforms, issuing on-the-spot QR-coded fines. A companion mobile app, Klusāk, Please, allows users to pre-pay a daily unlimited murmuring pass for €7.99.
+
+Local businesses have reacted with cautious optimism. 'At first I was worried,' said Edgars Lūsis, manager of the Amber Foam Bistro in Majori. 'A lot of our customers are from Riga, and their natural speaking level is what I would call emotionally asphalt. But then the city explained that indoor whispering exemptions would apply if the customer is ordering two soups and at least one grilled item.'
+
+Not all residents support the policy. Some fear selective enforcement. 'Last summer I heard a man from Sigulda say "Dubulti" like he was unveiling a missile,' said local pensioner Maija Ozoliņa, 74. 'Nobody stopped him. Meanwhile my niece from Jelgava got warned just for laughing too brightly near the concert hall.'
+
+Tourists, however, appeared willing to adapt. 'Honestly, I think it’s fair,' said Rihards, 29, visiting from Ogre and practicing beach etiquette outside the station. 'I came here to relax, not to project confidence. The inspector gave me a brochure with approved sentence volumes and a map of reflective silence corridors. Very helpful.'
+
+The city has already reported early results from a limited weekend trial. According to municipal data, audible pronunciation of 'Dzintari' fell 31%, while respectful nodding increased by 54%. Train platform stress levels also dropped significantly after officials replaced the public announcement 'Next stop: Majori' with a nearly inaudible chime and an apologetic gesture from station staff.
+
+If successful, the program may expand to other parts of Latvia, including a proposed pilot in central Riga targeting men who say 'craft beer district' as if they discovered it personally. For now, Jūrmala authorities remain confident they are protecting a way of life.
+
+'People think silence happens naturally,' said Priedkalne, pausing to let a gull pass. 'It doesn’t. It must be budgeted for.'`,
+      lv: `JŪRMALA — Kā solījumu „civilizētai kūrortpilsētai, par kuru jau sen vajadzēja padomāt”, Jūrmalas dome otrdienas vakarā nobalsoja par sezonāla čukstošanas nodokļa ieviešanu tūristiem, kuri vietējos vietvārdu nosaukumus izrunā virs 42 decibelu laika posmā no 15. maija līdz 1. septembrim.
+
+Saskaņā ar jauno pilotprogrammu viesiem, kuriem dzirdot izrunāt „Dzintari”, „Majori” vai īpaši „Bulduri” varonīgā, to, ko iestādes klasificē kā «konferenču balsi», tiks iekasēta starp €1,50 un €4,00 par izsaukumu, atkarībā no zilbju spēka. Atkārtoti pārkāpēji var saņemt laminētu pieklājības identifikatoru uz lentes un tiks novirzīti uz īpašām skaļas runāšanas zonām pie dzelzceļa stacijas, kur viņi var lūgt norādes uz pludmali, nesatraucot ilglaicīgos iedzīvotājus.
+
+Šo pasākumu ieviesa pēc pašvaldības pētījuma, kurā tika konstatēts, ka 68% vasaras trokšņa sūdzību centrālajā Jūrmalā nav saistītas ar mūziku, satiksmi vai vēlu vakara terases aktivitātēm, bet gan ar tūristiem, kas pārāk izteikti izrunā rajonu nosaukumus, izkāpjot no vilcieniem no Rīgas. Baltijas Akustiskās Socioloģijas Institūta pētnieki dokumentēja to, ko viņi nosauca par „izvairāmiem patskaņu pikakiem”, īpaši dienas ceļotāju mēģinājumos izklausīties zinoši.
+
+— Cilvēki atbrauc, izlasa vienu rakstu par wellness kultūru, un pēkšņi tie stāv Jomas ielas vidū, kliedzot «DZZZINTARI», it kā sauktu prāmi, — sacīja domes priekšsēdētājas vietniece Ilze Priedkalne, klusā balsī stāvot blakus preses konferencei noliktai podā iestādītai priedītei. — Tā kūrortkopiena nedzīvo. Klusums nav tikai vērtība — tas ir infrastruktūras jautājums.
+
+Lai nodrošinātu nodokļa ievērošanu, pašvaldība izvietojusi 14 īpaši apmācītus Sezonas Fonētikas inspektorus, aprīkotus ar rokas decibelu mērierīcēm un, kā pašvaldības iepirkumu dokumentos aprakstīts, „neuzkrītošām lina autoritātes vestēm”. Inspektori patrulēs kafejnīcās, promenādēs un vilcienu platformās, piemērojot uz vietas izsniegtus sodi ar QR kodiem. Palīgs mobilā lietotne Klusāk, Please ļauj lietotājiem iepriekš iegādāties dienas neierobežotu murmināšanas caurlaidi par €7,99.
+
+Vietējie uzņēmēji uz šo reaģējuši ar piesardzīgu optimismu. — Sākumā biju noraizējies, — sacīja Edgars Lūsis, „Amber Foam Bistro” menedžeris Majoros. — Daudzi no mūsu klientiem ir no Rīgas, un viņu dabīgais runas līmenis man šķiet emocionāli asfalta līmenis. Bet tad pilsēta paskaidroja, ka iekštelpu čukstēšanas atvieglojumi tiks piemēroti, ja klients pasūta divas zupas un vismaz vienu grilētu ēdienu.
+
+Ne visi iedzīvotāji atbalsta politiku. Daži baidās no selektīvas piemērošanas. — Pagājušajā vasarā es dzirdēju vīru no Siguldas izrunājam «Dubulti» tā, it kā viņš atklātu raķeti, — sacīja vietējā pensionāre Maija Ozoliņa, 74 gadus veca. — Neviens viņu neapturēja. Tikmēr mana māsīca no Jelgavas saņēma brīdinājumu tikai par to, ka viņa smējās par spilgti pie koncerta zāles.
+
+Tūristi, šķiet, ir gatavi adaptēties. — Godīgi sakot, es to uzskatu par taisnīgu, — sacīja 29 gadus vecais Rihards no Ogres, ārpus stacijas praktizējot pludmales etiķeti. — Es atbraucu atpūsties, nevis projicēt pārliecību. Inspektors man iedeva brošūru ar apstiprinātajiem teikumu skaļumiem un karti ar atstarojošiem klusuma koridoriem. Ļoti noderīgi.
+
+Pilsēta jau ziņojusi par agrīniem rezultātiem ierobežota nedēļas nogales izmēģinājuma laikā. Pašvaldības datu pēc, dzirdama „Dzintari” izrunāšana samazinājusies par 31%, kamēr pieklājīga galvas noliekšana palielinājusies par 54%. Vilcienu platformu stresa līmenis būtiski samazinājās pēc tam, kad amatpersonas publisko paziņojumu „Nākamā pietura: Majori” aizstāja ar gandrīz nedzirdamu signālu un nožēlas pilnu žestu no stacijas personāla.
+
+Ja programma izrādīsies veiksmīga, to varēs paplašināt uz citiem Latvijas reģioniem, ietverot piedāvātu pilotprojektu Rīgas centrā, kas mērķētu uz vīriešiem, kuri saka „craft beer district” tā, it kā būtu to personīgi atklājuši. Pagaidām Jūrmalas varas iestādes ir pārliecinātas, ka aizsargā dzīvesveidu.
+
+— Cilvēki domā, ka klusums rodas pats no sevis, — teica Priedkalne, uz brīdi apstājoties, lai ļautu paiet kaijai. — Tas nenotiek. To jāparedz budžetā.`,
+      ru: `ЮРМАЛА — В шаге, который чиновники охарактеризовали как «давно назревший для цивилизованного курортного города», Городской совет Юрмалы во вторник вечером проголосовал за введение сезонного налога на шёпот для туристов, которые произносят местные топонимы громче 42 децибел в период с 15 мая по 1 сентября.
+
+В рамках новой пилотной программы посетителям, уличённым в произнесении «Dzintari», «Majori» или особенно «Bulduri» голосом, который власти классифицируют как «конференц‑голос», будет выписан штраф от €1.50 до €4.00 за произнесение, в зависимости от силы слога. Повторным нарушителям могут выдать ламинированную ленточку «Учтивый посетитель» и перенаправить в специально отведённые Зоны громкой речи у вокзала, где они смогут спросить дорогу к пляжу, не тревожа долгожителей.
+
+Мера была предложена после муниципального исследования, показавшего, что 68% летних жалоб на шум в центральной Юрмале не связаны с музыкой, движением или поздними террасами, а с туристами, слишком отчётливо проговаривающими названия районов, выходя из поездов из Риги. Исследователи из Балтийского института акустической социологии зафиксировали то, что они назвали «избежными всплесками гласных», особенно среди однодневных гостей, пытающихся казаться сведущими.
+
+«Люди приезжают, читают одну статью про культуру велнеса — и вдруг они стоят посреди улицы Йомас и кричат «ДЗЗЗИНТАРИ», как будто вызывают паром», — сказала заместитель мэра Илзе Прийедкалне шёпотом рядом с кадкой сосны, установленной для пресс‑конференции. «Так курортное сообщество не выживет. Спокойствие — это не просто ценность здесь. Это инфраструктура.»
+
+Для контроля за соблюдением налога муниципалитет задействовал 14 специально обученных сезонных фонетических инспекторов, оснащённых портативными децибелометрами и, как записано в городских закупках, «скромными льняными жилетами с обозначением полномочий». Инспекторы будут патрулировать кафе, набережные и платформы, выписывая на месте штрафы с QR‑кодом. Сопутствующее мобильное приложение Klusāk, Please позволяет пользователям предоплатить дневной неограниченный пропуск на бормотание за €7.99.
+
+Местный бизнес отнёсся к нововведению с осторожным оптимизмом. «Сначала я волновался», — сказал Эдгарс Лусис, менеджер бистро Amber Foam в Майори. «Многие наши клиенты из Риги, и их естественный уровень речи — то, что я бы назвал «эмоциональный асфальт». Но потом город объяснил, что в помещениях будут действовать исключения на шёпот, если клиент заказывает два супа и хотя бы одно блюдо с гриля.»
+
+Поддерживают не все жители. Некоторые опасаются избирательного применения правил. «Прошлым летом я слышала, как мужчина из Сигулды сказал «Dubulti» так, будто представлял ракету», — рассказала местная пенсионерка Майя Озолиня, 74 года. «Никто его не остановил. А мою племянницу из Елгавы предупредили лишь за то, что она слишком громко смеялась возле концертного зала.»
+
+Туристы, однако, похоже, готовы подстраиваться. «Честно говоря, считаю это справедливым», — сказал Рихардс, 29 лет, приехавший из Огре и отрабатывающий пляжный этикет у вокзала. «Я приехал сюда отдыхать, а не демонстрировать уверенность. Инспектор дал мне брошюру с одобренными уровнями громкости фраз и карту коридоров отражающего молчания. Очень полезно.»
+
+Город уже сообщил о первых результатах ограниченного уик‑эндного теста. По муниципальным данным, слышимое произнесение «Dzintari» упало на 31%, в то время как уважительное кивание выросло на 54%. Уровень стресса на платформах поездов также значительно снизился после того, как объявление «Следующая остановка: Majori» заменили почти неслышимым звоном и извинительной жестикуляцией персонала станции.
+
+Если программа окажется успешной, её могут распространить на другие регионы Латвии, включая предложенный пилот в центре Риги, нацеленный на мужчин, которые говорят «район крафтового пива» так, будто открыли его лично. Пока же власти Юрмалы уверены, что защищают образ жизни.
+
+«Люди думают, что тишина появляется сама по себе», — сказала Прийедкалне, замолчав, чтобы дать пролётной чайке пролететь. «Это не так. За тишину нужно выделять бюджет.»`
+    },
+    date: "Oct 6, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/296/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 295,
     slug: "riga-introduces-official-municipal-silence-hour-295",
     title: {
@@ -120,7 +207,7 @@ Līdz trešdienas rītam īstenošana jau sastapusi pirmo šķērsli, kad Grīzi
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/295/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 294,
