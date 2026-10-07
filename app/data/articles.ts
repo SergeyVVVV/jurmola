@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 297,
+    slug: "riga-introduces-official-queue-reservation-app",
+    title: {
+      en: "Riga Introduces Official Queue Reservation App After Citizens Complain They No Longer Have Enough Opportunities To Stand Around",
+      lv: "Rīga ievieš oficiālu rindas rezervēšanas lietotni pēc iedzīvotāju sūdzībām, ka vairs nav pietiekami daudz iespēju stāvēt apkārt",
+      ru: "Рига запускает официальное приложение для бронирования очередей после жалоб, что у граждан больше нет возможностей постоять"
+    },
+    excerpt: {
+      en: "In a move city officials say will preserve Latvia’s intangible cultural heritage, Riga has launched a digital platform allowing residents to book places in various lines across the capital. Early demand crashed the system within minutes, forcing thousands to form a spontaneous queue outside the customer support office.",
+      lv: "Pilsētas amatpersonas apgalvo, ka tas saglabās Latvijas nemateriālo kultūras mantojumu — Rīga palaidusi digitālu platformu, kas ļauj iedzīvotājiem rezervēt vietas dažādās rindās visā galvaspilsētā. Lielais pieprasījums sabruka sistēmu dažu minūšu laikā, piespiežot tūkstošiem cilvēku spontāni izveidot rindu pie klientu atbalsta biroja.",
+      ru: "В попытке, которую городские власти называют сохранением нематериального культурного наследия Латвии, Рига запустила цифровую платформу, позволяющую жителям бронировать места в различных очередях по всему городу. Ранний спрос привёл к сбою системы за считанные минуты, из‑за чего тысячи человек выстроились в спонтанную очередь у офиса поддержки клиентов."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Council on Tuesday unveiled “Rinda,” a new municipal app that allows residents to reserve places in strategically important queues, after sociologists warned that self-checkouts, online banking, and efficient parcel lockers were depriving Latvians of one of their last dependable forms of social structure.
+
+Officials described the platform as a “bold hybridization of tradition and innovation,” enabling users to book 15-minute, 40-minute, or ceremonial 90-minute waiting experiences at selected pharmacies, building authority offices, bakery counters, and one especially slow coffee kiosk near the Central Station.
+
+“Queueing has always been where civic trust is negotiated,” said Deputy Mayor Inese Grīnberga, standing before a banner reading DIGITAL FUTURE, PHYSICAL WAITING. “In line, a person becomes fully visible as a citizen. You observe who cuts in, who sighs theatrically, who has incorrect documents in a transparent folder. This is democracy in its purest Baltic form.”
+
+According to a city-commissioned study by the Institute for Applied Patience, the average Riga resident spent 6.7 hours per month in meaningful silence behind strangers in 2004, compared with just 58 minutes last year. Researchers linked the decline to a 14% rise in “disorientation during weekdays” and a sharp increase in residents arriving home too early and having to speak to family members.
+
+Under the pilot program, users can select from several queue categories. “Classic Municipal” offers a standard administrative line with one malfunctioning number display. “Premium Winter” includes wet floors, layered clothing discomfort, and an elderly man loudly explaining how things worked better in 1987. For younger users, a gamified option awards points for muttering, checking the wall clock, and pretending not to notice when a second service window opens.
+
+At the Riga 2nd District Documentation Center, where the app was tested over six weeks, officials reported strong public engagement. “People were emotional,” said center manager Aivars Lauberts. “One woman thanked us because she finally had a reason to print out an unnecessary form and hold it tightly against her chest again. Another man said the line gave him closure after a disappointing online tax filing.”
+
+Not everyone is convinced. The Latvian Association of Efficient Systems criticized the app as “an expensive nostalgia simulator,” noting that development costs reached €2.4 million after the city insisted the interface should freeze occasionally “for realism.” Opposition lawmakers further questioned why the beta version automatically assigned Russian-speaking users to a separate line marked ‘historically complicated,’ a feature developers later described as “legacy code from an old parking app.”
+
+Still, public enthusiasm has remained high. By 9:15 a.m. on launch day, all weekend queue slots at the Jurmala outpatient clinic had been fully booked, including a premium beachfront line where participants wait in sea wind for no clear administrative reason. Several users on social media praised the app’s “authentic ambient frustration,” though others complained that the virtual waiting room moved too quickly and did not include enough passive-aggressive eye contact.
+
+Outside a temporary support kiosk in Purvciems, residents whose accounts had failed to verify formed an unofficial backup queue stretching past a flower shop and into a dentist’s stairwell. Many described the experience as reassuring.
+
+“I tried the app because my grandson said I need hobbies,” said 74-year-old Velta Ozoliņa, number 43 in the support line. “At first I thought, this is modern nonsense. But then a man in front of me turned around and asked if this was the end of the line, and I felt something ancient return to my body.”
+
+The city has already announced plans for future updates, including family queue packages, romantic double-waiting slots, and a special Song Festival edition capable of generating six-hour lines for toilets, coffee, and national melancholy simultaneously.
+
+“As a society, we must ask what kind of future we want,” Deputy Mayor Grīnberga said. “One where everything happens immediately? Or one where a woman in a wool coat slowly removes exact coins while 19 people stare into the middle distance?”
+
+By late afternoon, the app had gone offline again, prompting officials to encourage residents to line up in person at designated locations to report digital access problems — a development experts called the platform’s most successful feature to date.`,
+      lv: `RĪGA — Rīgas dome otrdien atklāja "Rinda" — jaunu pašvaldības lietotni, kas ļauj iedzīvotājiem rezervēt vietas stratēģiski svarīgās rindās, pēc tam, kad sociologi brīdināja, ka pašapkalpošanās kases, interneta bankas un efektīvi pakomāti atņem latviešiem vienu no pēdējām uzticamajām sociālās struktūras formām.
+
+Amatpersonas platformu raksturoja kā "drosmīgu tradīciju un inovācijas hibridizāciju", kas lietotājiem ļauj rezervēt 15 minūšu, 40 minūšu vai ceremonālās 90 minūšu gaidīšanas pieredzes izvēlētajās aptiekās, būvvaldes kabinetos, maiznīcu letēs un vienā īpaši lēnā kafijas kiosciņā pie Centrālās stacijas.
+
+"Rindā stāvēšana vienmēr ir bijusi vieta, kur tiek izšķirta pilsoniskā uzticība," sacīja vicemēre Inese Grīnberga, stāvot pie banera ar uzrakstu DIGITĀLA NĀKOTNE, FIZISKA GAIDĪŠANA. "Rindā cilvēks kļūst pilnībā redzams kā pilsonis. Tu redzi, kas griezd un iešķiebjas, kurš teatrāli nopūšas, kuram caurspīdīgā mapītē ir nepareizie dokumenti. Tā ir demokrātija tās tīrākajā Baltijas formā."
+
+Pilsētas pasūtītā Pielietotās Pacietības institūta pētījumā secināts, ka vidējais Rīgas iedzīvotājs 2004. gadā mēnesī pavadīja 6,7 stundas jēgpilnā klusumā aiz svešiniekiem, salīdzinot ar tikai 58 minūtēm pagājušajā gadā. Pētnieki kritumu saistīja ar 14% pieaugumu "dezorientācijā darba dienās" un strauju pieaugumu iedzīvotāju, kuri mājās ierodas pārāk agri un spiesti runāt ar ģimenes locekļiem.
+
+Sākotnējā pilotprogrammā lietotāji var izvēlēties vairākas rindas kategorijas. "Klasiskā pašvaldības" piedāvā standarta administratīvo rindu ar vienu nestrādājošu numura displeju. "Premium Ziemas" ietver slapjas grīdas, diskomfortu dēļ vairākās drēbēs un vecu kungu, kurš skaļi skaidro, ka 1987. gadā viss darbojās labāk. Jaunākiem lietotājiem pieejama spēlificēta opcija, kas piešķir punktus par murmināšanu, pie sienas karājošā pulksteņa pārbaudīšanu un izlikšanos, ka nepamanīji, kad atvērās otra apkalpošanas logu.
+
+Rīgas 2. rajona Dokumentu centrā, kur lietotne tika testēta sešu nedēļu garumā, amatpersonas ziņoja par spēcīgu sabiedrības iesaisti. "Cilvēki bija emocionāli," sacīja centra vadītājs Aivars Lauberts. "Viena sieviete pateicās, jo viņai beidzot bija iemesls izdrukāt nevajadzīgu veidlapu un turēt to cieši pie krūtīm. Cits vīrietis teica, ka rinda viņam deva noslēgumu pēc viltus cerībām pie nodokļu deklarācijas iesniegšanas tiešsaistē."
+
+Ne visi ir pārliecināti. Latvijas Efektīvo Sistēmu asociācija kritizēja lietotni kā "dārgu nostalģijas simulatoru", norādot, ka izstrādes izmaksas sasniedza 2,4 miljonus eiro pēc tam, kad pilsēta uzstāja, ka saskarne reizēm jāiesaldē "reālisma labad". Saskaņā ar opozīcijas politiķu jautājumiem beta versija automātiski krievvalodīgos lietotājus novirzījusi uz atsevišķu rindu ar nosaukumu "vēsturiski sarežģīti" — funkciju, ko izstrādātāji vēlāk nosauca par mantojumkodu no vecas stāvvietu lietotnes.
+
+Tomēr sabiedrības entuziasms bija augsts. Palaides dienā līdz plkst. 9:15 visi nedēļas nogales rindas laiki Jūrmalas ambulatorajā klīnikā bija pilnībā rezervēti, tajā skaitā premium piejūras rinda, kur dalībnieki gaida jūras vēsā bez skaidra administratīva iemesla. Daži sociālo tīklu komentētāji slavēja lietotnes "autentisko apkārtējo frustrāciju", lai gan citi sūdzējās, ka virtuālā gaidīšanas telpa pārvietojās pārāk ātri un tajā nebija pietiekami daudz pasīvā-agresīvā acu kontakta.
+
+Pie pagaidu atbalsta kioska Purvciemā iedzīvotāji, kuru konti nebija izdevies verifikācijas dēļ, izveidoja neoficiālu rezerves rindu, kas stiepās gar ziedu veikalu un iekļuva zobārsta kāpņu telpā. Daudzi pieredzi raksturoja kā nomierinošu.
+
+"Es izmēģināju lietotni, jo mans mazmazdēls sacīja, ka man vajag hobijus," teica 74 gadus vecā Velta Ozoliņa, atrodoties nr. 43 atbalsta rindā. "Sākumā domāju — tā ir mūsdienu muļķība. Bet tad priekšā stāvošais vīrietis pagriezās un pajautāja, vai tas ir rindas gals, un es sajutu, kā man ķermenī atgriežas kaut kas senais."
+
+Pilsēta jau paziņojusi par nākotnes atjauninājumiem, tostarp ģimenes rindu paketēm, romantiskām dubultgaidīšanas vietām un īpašu Dziesmu svētku izdevumu, kas spēj ģenerēt sešu stundu rindas uz tualetēm, kafiju un nacionālo melanholiju vienlaikus.
+
+"Kā sabiedrība mums jājautā, kādu nākotni mēs vēlamies," sacīja vicemēre Grīnberga. "Tādu, kur viss notiek uzreiz? Vai tādu, kur sieviete vilnas mētelī lēnām izņem precīzas monētas, kamēr 19 cilvēki skatās tālumā?"
+
+Vēlā pēcpusdienā lietotne atkal bija bezsaistē, tāpēc amatpersonas mudināja iedzīvotājus ierasties klātienē norādītajās vietās, lai ziņotu par digitālās piekļuves problēmām — attīstību, ko eksperti dēvējuši par platformas līdz šim veiksmīgāko funkciju.`,
+      ru: `РИГА — Во вторник Рижский городской совет представил «Ринду», новое муниципальное приложение, которое позволяет жителям резервировать места в «стратегически важных» очередях — после того как социологи предупредили, что самообслуживание на кассах, онлайн‑банкинг и эффективные постаматы лишают латвийцев одной из последних надёжных форм социальной структуры.
+
+Чиновники описали платформу как «смелую гибридизацию традиций и инноваций», дающую пользователям возможность забронировать 15‑минутный, 40‑минутный или церемониальный 90‑минутный сеанс ожидания в выбранных аптеках, в органах выдачи справок, у прилавков пекарен и у одного особенно медленного кофейного киоска рядом с Центральным вокзалом.
+
+«Очередь всегда была тем местом, где рождается гражданское доверие», — сказала вице‑мэр Инесе Гринберга, стоя перед баннером ЦИФРОВОЕ БУДУЩЕЕ, ФИЗИЧЕСКОЕ ОЖИДАНИЕ. «В очереди человек становится полностью видимым как гражданин. Там видно, кто лезет без очереди, кто театрально вздыхает, у кого в прозрачной папке неправильные документы. Это демократия в своей чистейшей балтийской форме». 
+
+По данным исследования, заказанного городом Институтом прикладного терпения, средний рижанин в 2004 году проводил 6,7 часа в месяц в содержательной тишине за спинами незнакомцев, тогда как в прошлом году — всего 58 минут. Исследователи связали это сокращение с ростом «дезориентации в будние дни» на 14% и резким увеличением числа жителей, возвращающихся домой слишком рано и вынужденных разговаривать с членами семьи.
+
+В пилотной программе пользователям предлагают несколько категорий очередей. «Классическая муниципальная» предполагает стандартную административную линию с одним неработающим табло номера. «Премиум‑зима» включает мокрые полы, дискомфорт от многослойной одежды и пожилого мужчину, громко объясняющего, как было лучше в 1987 году. Для молодёжи есть игровая опция: баллы начисляются за бормотание, проверку настенных часов и притворство, что ты не заметил открытие второго окна обслуживания.
+
+В Документационном центре 2‑го района Риги, где приложение тестировали в течение шести недель, чиновники сообщили о высокой вовлечённости населения. «Люди были эмоциональны», — сказал директор центра Айварс Лаубертс. «Одна женщина поблагодарила нас, потому что у неё снова появилась причина распечатать ненужную форму и прижимать её к груди. Другой мужчина сказал, что очередь дала ему закрытие после неудачной онлайн‑отчётности по налогам». 
+
+Не все остались в восторге. Латвийская ассоциация эффективных систем раскритиковала приложение как «дорогой симулятор ностальгии», отметив, что разработка обошлась в €2,4 млн после того, как город настоял на том, чтобы интерфейс иногда зависал «ради реалистичности». Оппозиционные депутаты также задали вопрос, почему бета‑версия автоматически направляла русскоязычных пользователей в отдельную линию с пометкой «исторически сложная», что разработчики позже объяснили как «наследственный код из старого парковочного приложения». 
+
+Тем не менее общественный энтузиазм остаётся высоким. К 9:15 утра в день запуска все слоты на выходные в юрмальской амбулатории были полностью забронированы, включая премиальную прибрежную очередь, где участники ждут на ветру у моря без ясной административной причины. Некоторые пользователи в соцсетях хвалили «аутентичную атмосферу раздражения», хотя другие жаловались, что виртуальная приёмная слишком быстро продвигается и в ней недостаточно пассивно‑агрессивных взглядов.
+
+У временного киоска поддержки в Пурвциемсе жители, чьи аккаунты не прошли верификацию, выстроили неофициальную запасную очередь, которая протянулась мимо цветочного магазина и в лестничную клетку стоматологии. Многие описывали пережитое как утешительное.
+
+«Я попробовала приложение потому, что внук сказал: "Надо хобби"», — сказала 74‑летняя Велта Озолиня, под номером 43 в очереди поддержки. «Сначала я думала: это какая‑то современная чепуха. Но потом мужчина передо мной обернулся и спросил, не конец ли это очереди, и я почувствовала, как во мне возвращается нечто древнее». 
+
+Город уже объявил планы на будущие обновления, включая семейные пакеты очередей, романтические двойные слоты ожидания и специальное издание для Песенного фестиваля, способное одновременно генерировать шестичасовые очереди на туалеты, кофе и национальную меланхолию.
+
+«Как общество, мы должны спросить себя, какого будущего мы хотим, — сказала вице‑мэр Гринберга. — Того, где всё происходит мгновенно? Или того, где женщина в шерстяном пальто медленно достаёт точные монеты, пока 19 человек уставились в пустоту?» 
+
+К позднему вечеру приложение снова легло, и чиновники призвали жителей лично встать в очередь в назначенных местах, чтобы сообщить о проблемах с цифровым доступом — развитие событий, которое эксперты назвали самой успешной функцией платформы на сегодняшний день.`
+    },
+    date: "Oct 7, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/297/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 296,
     slug: "jrmala-introduces-whispering-tax-after-residents",
     title: {
@@ -102,7 +201,7 @@ Ja programma izrādīsies veiksmīga, to varēs paplašināt uz citiem Latvijas 
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/296/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 295,
