@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 298,
+    slug: "jrmala-introduces-silent-seagull-hours-after",
+    title: {
+      en: "Jūrmala Introduces Silent Seagull Hours After Tourists Report Feeling 'Emotionally Audited' at Sunrise",
+      lv: "Jūrmala ievieš 'klusās kaiju stundas' pēc tūristu sūdzībām, ka saullēktā jūtas 'emocionāli auditi'",
+      ru: "Юрмала вводит часы молчания для чаек после того, как туристы почувствовали, что их «эмоционально аудируют» на рассвете"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have approved Latvia’s first experimental 'silent seagull hours' in an effort to reduce what visitors described as aggressive early-morning scrutiny from coastal birds. The pilot program, running from 6:00 to 8:00 a.m., will rely on soft jazz, decoy herrings, and a retired choir conductor hired to gesture disapprovingly at louder gulls.",
+      lv: "Jūrmalas pašvaldības amatpersonas apstiprinājušas Latvijas pirmo eksperimentālo 'klusās kaiju stundas', lai samazinātu to, ko viesi raksturoja kā agresīvu agrīnrīta pārbaudi no piekrastes putniem. Pilotprojekts no plkst. 6:00 līdz 8:00 balstīsies uz maigu džezu, mākslīgām siļķēm un pensionētu koru diriģentu, kas nolīgts izrādīt nepatiku pret skaļākām kaijām.",
+      ru: "Городские власти Юрмалы одобрили первую в Латвии экспериментальную программу «часов молчания для чаек» в попытке уменьшить то, что посетители описывали как агрессивную ранним утром бдительность прибрежных птиц. Пилотный проект с 6:00 до 8:00 будет опираться на мягкий джаз, муляжи сельди и отставного хормейстера, нанятого для неодобрительных жестов в адрес громких чаек."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders are calling 'measured, innovative, and only slightly symbolic,' the Jūrmala City Council voted Tuesday to introduce silent seagull hours along a 4.7-kilometer stretch of central beach after multiple tourists complained that dawn gull activity had made them feel, in the words of one official report, 'personally evaluated by nature.'
+
+The new coastal ordinance, approved 11–4 after a heated 90-minute debate and one procedural interruption caused by a bird stealing a councillor’s pastry, will attempt to reduce seagull vocalization between 6:00 and 8:00 a.m. from its current seasonal average of 87 decibels to what planners call 'a more reflective Baltic level.' The city has allocated €48,000 for the three-week pilot, including €12,500 for marine-acoustic speakers that will play low-volume saxophone arrangements of Raimonds Pauls classics.
+
+Deputy Mayor Ilze Vītola said the measure was a response to a surge in visitor feedback, especially from wellness tourists who had come to Jūrmala expecting pine air, sea mist, and manageable existential discomfort.
+
+'People were not objecting to birds in principle,' Vītola told reporters while standing beneath a municipal sign reading RESPECT THE DUNES, EVEN IF THEY DISAGREE WITH YOU. 'They were objecting to the specific sensation that a seagull had landed nearby, looked directly into their soul, and concluded they were not serious people.'
+
+According to data collected by the Jūrmala Tourism Development Board, 63% of surveyed visitors this summer described local gulls as 'overconfident,' while 18% said they had altered breakfast plans after prolonged eye contact near smoked sprat kiosks. One German tourist from Bremen, identified only as Klaus, said a gull had followed him for 200 meters after he unwrapped a curd pastry.
+
+'I have traveled widely along the Baltic,' Klaus said. 'In Estonia, the birds seem managerial. In Jūrmala, they behave like hereditary landowners.'
+
+To enforce the quiet period, the city has contracted 14 seasonal 'avian atmosphere coordinators,' most of them music school graduates, who will patrol the beach carrying reflective batons and laminated cards that say 'Let us all choose gentleness.' A separate team from the Latvian Ornithological Society has been tasked with observing whether the gulls interpret jazz as de-escalation, provocation, or a sign of institutional weakness.
+
+Senior ornithologist Dr. Mārtiņš Briežkalns cautioned that the policy may have unintended consequences. 'The herring gull is highly adaptive,' he said. 'If you suppress one form of expression, it may simply pivot into slower, more theatrical intimidation. We could see increased sand pacing, synchronized staring, even coordinated sighing.'
+
+Not all residents support the initiative. Local fisherman Andris Veldre called the plan 'an expensive way to lose an argument to birds.' Speaking from his boat near Majori, he argued that Jūrmala’s identity had always included a certain amount of dignified harassment from wildlife.
+
+'If a gull steals your sandwich, that is not noise pollution,' Veldre said. 'That is heritage.'
+
+Still, early indicators suggest public support is strong. During a limited Monday trial near Dzintari, municipal observers recorded a 22% drop in audible shrieking and a 41% increase in what they described as 'tentative inner peace.' One issue emerged when several gulls gathered silently around a family from Cēsis and opened a packet of rye crisps by working cooperatively at the corners.
+
+The Ministry of Environmental Regional Softness, which does not formally exist but was cited twice during the council session, is reportedly monitoring the experiment as a model for other Latvian resort towns. Liepāja has already inquired about 'wind-neutral pigeon corridors,' while Saulkrasti is said to be considering seasonal mediation between cyclists and swans.
+
+As of Wednesday morning, the seagulls themselves had not issued a statement. However, by 7:15 a.m., three had assembled near the renovated promenade in complete silence and knocked over a businessman’s oat milk latte one deliberate step at a time.`,
+      lv: `JŪRMALA — Solī, ko pilsētas vadība dēvē par 'mērķtiecīgu, inovatīvu un tikai nedaudz simbolisku', Jūrmalas domes deputāti otrdien nobalsoja par klusajām kaiju stundām 4,7 kilometru garā centrālās pludmales posmā pēc tam, kad vairāki tūristi sūdzējās, ka rīta kaiju aktivitātes lika viņiem justies, kādā amatā rakstīts, 'personīgi novērtētiem no dabas puses.'
+
+Jaunais piekrastes rīkojums, apstiprināts ar 11–4 pēc 90 minūšu sīvas debates un viena procedurāla pārtraukuma, ko izraisīja putns, kas nozaga domnieka konditorejas izstrādājumu, mēģinās samazināt kaiju klaigāšanu no pašreizējā sezonālā vidējā 87 decibeliem uz to, ko plānotāji sauc par 'vairāk pārdomātu Baltijas līmeni'. Pilsēta pilotprojektam trim nedēļām ir atvēlējusi €48 000, tajā skaitā €12 500 jūras-akustiskajiem skaļruņiem, kas atskaņos klusas saksofona aranžijas Raimonda Paula klasikai.
+
+Deputāte mēra Ilze Vītola sacīja, ka pasākums ir atbilde uz tūristu atsaucību pieaugumu, īpaši no veselības tūrisma viesiem, kuri uz Jūrmalu bija ieradušies gaidīt priedes gaisu, jūras miglu un pašu eksistenciālās diskomforta pārvaldāmu devu.
+
+"Cilvēki paša būtībā pret putniem nepārdzīvoja," Vītola žurnālistiem teica, stāvot zem pašvaldības zīmes, kur rakstīts CIENI KĀPAS, PAT JA TĀS AR TEVI NEPIEKRĪT. "Viņi sūdzējās par konkrēto sajūtu, ka kaija nosēžas blakus, ieskatās tieši viņu dvēselē un izlemj, ka viņi nav nopietni cilvēki." 
+
+Pēc Jūrmalas Tūrisma attīstības padomes vāktajiem datiem šovasar 63% aptaujāto viesu vietējās kaijas raksturoja kā "pārlieku pārliecinātas", bet 18% atzina, ka izmainījuši brokastu plānus pēc ilgstošas acu kontakta pie kūpināto reņģu kioskiem. Viens Vācijas tūristu no Bremenas, kurš identificēts vienkārši kā Klaus, teica, ka kaija viņu pavadījusi 200 metru garumā pēc tam, kad viņš atvēris biezpiena pīrādziņu.
+
+"Esmu daudz ceļojis pa Baltijas piekrasti," Klaus sacīja. "Igaunijā putni šķiet vadītājiem līdzīgi. Jūrmalā viņi uzvedas kā senču zemes īpašnieki."
+
+Lai uzraudzītu klusuma periodu, pilsēta nolīgusi 14 sezonas 'putnu atmosfēras koordinatori', lielākoties mūzikas skolu absolventus, kuri patrulēs pa pludmali ar atstarojošām nūjām un laminētām kartītēm ar uzrakstu 'Ļausim visiem izvēlēties maigumu'. Atsevišķa Latvijas Ornitoloģijas biedrības komanda ir uzdevusi novērot, vai kaijas džezu uztver kā deeskalāciju, provokāciju vai institucionālas vājuma pazīmi.
+
+Vadošais ornitologs Dr. Mārtiņš Briežkalns brīdināja, ka politika var radīt nevēlamas sekas. "Siļķu kaija ir ļoti adaptīva," viņš teica. "Ja apspiest vienu izpausmes formu, tā var vienkārši pārorientēties uz lēnāku, teatrālāku intimidāciju. Mēs varam redzēt pieaugošu smilšu staigāšanu uz riņķi, sinhronizētu skatīšanos, pat koordinētas nopūtas."
+
+Ne visi iedzīvotāji iniciatīvu atbalsta. Vietējais zvejnieks Andris Veldre nosauca plānu par "dārgu veidu zaudēt strīdu pret putniem". Runājot no savas laivas netālu no Majoru, viņš apgalvoja, ka Jūrmalas identitāte vienmēr ir iekļāvusi cienījamu uzmācību no savvaļas.
+
+"Ja kaija nozog tavu sendviču, tas nav trokšņu piesārņojums," Veldre sacīja. "Tas ir mantojums."
+
+Tomēr agrīnie rādītāji liecina par spēcīgu sabiedrības atbalstu. Ierobežotā pirmdienas izmēģinājumā pie Dzintari pašvaldības novērotāji reģistrēja 22% samazinājumu dzirdamā kliedzienā un 41% pieaugumu tam, ko viņi raksturoja kā "nedrošu iekšējo mieru". Viens jautājums radās, kad vairākas kaijas klusi sapulcējās ap ģimeni no Cēsīm un, sadarbojoties stūros, atvēra rudzu krekeru iepakojumu.
+
+Tā sauktā Vides Reģionālās Maiguma ministrija, kas formāli nepastāv, bet domei sēdē tika minēta divreiz, uzrauga eksperimentu kā modeli citām Latvijas kūrortpilsētām. Liepāja jau interesējusies par 'vējneitrāliem baložu koridoriem', kamēr Saulkrasti, kā ziņots, apsver sezonālu starpniecību starp velosipēdistiem un gulbjiem.
+
+Līdz trešdienas rītam paši kaijas nebija izdevušas oficiālu paziņojumu. Tomēr līdz plkst. 7:15 trīs no tām bija sapulcējušās pie atjaunotā promenādes pilnīgā klusumā un vienu apdomīgu soli pa solim izlaida uzņēmēja auzu piena latte uz zemes.`,
+      ru: `ЮРМАЛА — В шаге, который городские руководители называют «взвешенным, новаторским и лишь слегка символичным», Городской совет Юрмалы во вторник проголосовал за введение часов молчания для чаек на участке центрального пляжа длиной 4,7 километра после того, как несколько туристов пожаловались, что рассветная активность чаек заставляла их чувствовать, по выражению одного официального отчёта, «лично оценёнными природой». 
+
+Новый прибрежный указ, принятый 11–4 после горячего 90-минутного дебата и одной процессуальной паузы, вызванной тем, что птица украла пирожное у депутата, попытается снизить вокализацию чаек между 6:00 и 8:00 утра с нынешнего сезонного среднего показателя в 87 децибел до того, что планировщики называют «более созерцательным балтийским уровнем». Город выделил €48 000 на трёхнедельный пилот, в том числе €12 500 на морско-акустические колонки, которые будут проигрывать тихие саксофонные аранжировки хитов Раймонда Паулса. 
+
+Заместитель мэра Илзе Витола сказала, что мера стала ответом на всплеск отзывов посетителей, особенно велнесс-туристов, которые приезжали в Юрмалу в ожидании соснового воздуха, морской мглы и допустимого уровня экзистенциального дискомфорта. 
+
+«Люди не возражали против самих птиц как таковых», — сказала Витола репортёрам, стоя под муниципальной табличкой с надписью УВАЖАЙТЕ ДЮНЫ, ДАЖЕ ЕСЛИ ОНИ С ВАМИ НЕ СОГЛАСНЫ. «Они возражали против конкретного ощущения: что чайка села рядом, посмотрела прямо в их душу и решила, что они не серьёзные люди». 
+
+По данным, собранным Советом по развитию туризма Юрмалы, 63% опрошенных этим летом посетителей описали местных чаек как «слишком самоуверенных», в то время как 18% заявили, что изменили планы на завтрак после продолжительного зрительного контакта возле киосков с копчёной килькой. Один немецкий турист из Бремена, назвавшийся только Клаусом, сказал, что чайка преследовала его 200 метров, когда он развернул творожное пирожное. 
+
+«Я много путешествовал вдоль Балтики», — сказал Клаус. «В Эстонии птицы кажутся менеджерами. В Юрмале они ведут себя как потомственные землевладельцы». 
+
+Для обеспечения соблюдения тихого периода город заключил контракт с 14 сезонными «координаторами атмосферности пернатых», большинство из которых — выпускники музыкальных школ; они будут патрулировать пляж с фонариками-рефлекторами и ламинированными карточками с надписью «Давайте все выберем мягкость». Отдельная команда Латвийского орнитологического общества получила задачу наблюдать, будут ли чайки интерпретировать джаз как деэскалацию, провокацию или признак институциональной слабости. 
+
+Старший орнитолог д-р Мартиньш Брижкалнс предупредил, что политика может иметь непредвиденные последствия. «Обыкновенная чайка очень адаптивна», — сказал он. «Если подавлять одну форму выражения, она может просто перейти к более медленным, театральным методам запугивания. Мы можем увидеть учащение хождения по песку, синхронные взгляды, даже скоординированные вздохи». 
+
+Не все жители поддерживают инициативу. Местный рыбак Андрис Велдре назвал план «дорогостоящим способом проиграть спор птицам». Говоря с лодки у Майори, он утверждал, что идентичность Юрмалы всегда включала в себя определённую долю благородных притеснений со стороны дикой природы. 
+
+«Если чайка украла у тебя бутерброд, это не шумовое загрязнение», — сказал Велдре. «Это наследие». 
+
+Тем не менее ранние индикаторы показывают, что общественная поддержка сильна. Во время ограниченного понедельничного испытания у Дзинтари муниципальные наблюдатели зафиксировали 22%-ное снижение слышимого визга и 41%-ное увеличение того, что они описали как «предположительный внутренний покой». Одна проблема проявилась, когда несколько чаек собрались молча вокруг семьи из Цесиса и, работая совместно в углах, открыли пачку ржаных хрустяшек. 
+
+Министерство региональной экологической мягкости, которое формально не существует, но было процитировано дважды во время сессии совета, якобы отслеживает эксперимент как модель для других латвийских курортных городков. Лиепая уже поинтересовалась «нейтральными к ветру коридорами для голубей», а Саулкрасты, по слухам, рассматривают сезонную медиацию между велосипедистами и лебедями. 
+
+По состоянию на среду утром сами чайки пока не давали никаких заявлений. Однако к 7:15 утра трое собрались у отремонтированной набережной в полном молчании и, шаг за шагом, намеренно опрокинули овсяный латте бизнесмена.`
+    },
+    date: "Oct 8, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/298/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 297,
     slug: "riga-introduces-official-queue-reservation-app",
     title: {
@@ -114,7 +213,7 @@ Vēlā pēcpusdienā lietotne atkal bija bezsaistē, tāpēc amatpersonas mudin�
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/297/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 296,
