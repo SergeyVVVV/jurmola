@@ -18,6 +18,97 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 299,
+    slug: "jrmala-introduces-silent-applause-tax-after-299",
+    title: {
+      en: "Jūrmala Introduces Silent Applause Tax After Residents Complain Clapping Disturbs Pine Trees",
+      lv: "Jūrmala ievieš klusās aplausu nodevu pēc iedzīvotāju sūdzībām, ka plaukšķēšana traucē priedes",
+      ru: "Юрмала вводит налог на аплодисменты после жалоб жителей, что хлопки тревожат сосны"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have approved a seasonal levy on audible applause at public events, arguing that excessive clapping is placing unnecessary acoustic stress on the city’s coastal ecosystem. Residents will be encouraged to express enthusiasm through silent hand-waving, tasteful nodding, or what the municipality calls “administratively appropriate joy.”",
+      lv: "Jūrmalas amatpersonas ir apstiprinājušas sezonālu maksājumu par dzirdamu aplausu publiskos pasākumos, argumentējot, ka pārmērīga plaukšķēšana liek nevajadzīgu akustisko slodzi pilsētas piekrastes ekosistēmai. Iedzīvotājiem tiks veicināts izrādīt sajūsmu ar klusām roku mājām, gaumīgu galvas mājienu vai to, ko pašvaldība dēvē par 'administratīvi atbilstošu prieku'.",
+      ru: "Власти Юрмалы одобрили сезонный сбор за слышимые аплодисменты на публичных мероприятиях, аргументируя это тем, что чрезмерные хлопки создают ненужный акустический стресс для прибрежной экосистемы города. Жителей призывают выражать энтузиазм бесшумным помахиванием рукой, выдержанным кивком или тем, что муниципалитет называет «административно целесообразной радостью»."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a decision described by municipal leaders as “both environmentally responsible and emotionally modern,” the Jūrmala City Council voted late Tuesday to introduce Latvia’s first Applause Regulation Fee, a summer-only tax on clapping, cheering, and other “sudden celebratory impacts” deemed disruptive to the city’s pine trees, dune birds, and higher-income quiet.
+
+The measure, which will take effect on 1 June, applies to concerts, poetry readings, graduation ceremonies, and any restaurant terrace event where more than seven people react positively at once. Under the new system, the first three applause bursts per attendee will remain free. Additional claps will be billed at €0.18 each through a wristband-based monitoring system developed by a start-up from Ķekava previously known for tracking sauna humidity.
+
+According to a 47-page municipal report titled Acoustic Civility in Coastal Municipalities: A Way Forward, Jūrmala recorded 14.2 million hand-to-hand contact events during the 2025 summer season, a figure officials say correlates strongly with “needle anxiety” among local pines and a measurable increase in seagull sarcasm.
+
+“People imagine applause is harmless because it happens in culture,” said Deputy Mayor for Seasonal Harmony Ilze Skrastiņa, speaking beside a diagram showing concentric circles around a stressed-looking tree. “But a city must ask itself difficult questions. Does every jazz solo require 280 palms striking each other? Is this the Europe we want?”
+
+To enforce the policy, the municipality will deploy 32 trained Applause Stewards along Dzintaru Concert Hall, Jomas Street, and selected beachfront zones. Using decibel cuffs and facial composure charts, stewards will determine whether a gathering has exceeded its permitted enthusiasm threshold. Repeat offenders may be directed to a designated release area near Majori Station, where they can clap freely into the sea for up to four minutes.
+
+Reaction from residents has been mixed. “I support culture, but last July someone applauded after a flute recital and my labradoodle refused to make eye contact for two days,” said local homeowner Mārtiņš Bērziņš, who purchased property near the beach in 2018 specifically for “managed silence.” Nearby pensioner Velta Ozoliņa agreed, noting that modern applause has become “too ambitious.”
+
+“In Soviet times, people clapped efficiently,” she said. “Now everyone wants to express themselves. It is exhausting.”
+
+Business owners, however, warned that the new fee could reshape Jūrmala’s hospitality sector. At the café Amber Note, manager Renāte Miķelsone said staff are already being trained to serve desserts in a way that does not trigger involuntary ovations. “We had a mille-feuille in testing that caused 11 unauthorized gasps,” she said. “Financially, that is not a stable pastry.”
+
+Not all experts are convinced by the science behind the measure. University of Latvia sociologist Dr. Edgars Līdums called the policy “a classic Baltic administrative response,” explaining that authorities had taken a minor seasonal irritation and converted it into “a wearable technology pilot, a tax category, and a laminated infographic.”
+
+Even so, public compliance may be high. By Wednesday morning, city shops had already sold out of approved non-auditory celebration kits, including muted linen gloves, low-impact finger flutter guides, and a premium “Nordic Approval” package featuring a restrained smile and one municipal voucher for internal pride.
+
+Council members insist the policy is not anti-joy, merely pro-regulated joy. If successful, officials say the applause model could be expanded next year to include excessive sandal slapping, emotional accordion reactions, and spontaneous shouting of “bravo” in neighborhoods zoned for contemplation.
+
+At press time, a chamber orchestra audience in Bulduri had reportedly adapted to the new rules by expressing appreciation through synchronized blinking, which witnesses described as moving, dignified, and almost impossible to invoice correctly.`,
+      lv: `JŪRMALA — Pilsētas vadītāju raksturotā kā 'gan videi atbildīga, gan emocionāli moderna' lēmumā Jūrmalas dome vēlu otrdienas vakarā nobalsoja par pirmo Latvijas Aplausu regulēšanas nodevu — tikai vasaras sezonai paredzētu maksu par plaukšķēšanu, uzsaucieniem un citiem pēkšņiem svinīgiem impulsiem, ko atzīst par traucējošiem pilsētas priedēm, kāpu putniem un augstākas ienākumu klases klusumam.
+
+Šis pasākums, kas stāsies spēkā 1. jūnijā, attieksies uz koncertiem, dzejas lasījumiem, izlaidumiem un jebkuru restorāna terases notikumu, kur vairāk nekā septiņi cilvēki vienlaikus reaģē pozitīvi. Saskaņā ar jauno sistēmu katram klātesošajam pirmie trīs aplauzi būs bez maksas. Papildu plaukšķi tiks iekasēti pa 0,18 € par reižu, izmantojot aproču uzraudzības sistēmu, ko izstrādājis Ķekavas startaps, agrāk pazīstams ar pirtiņu mitruma uzraudzību.
+
+Saskaņā ar 47 lappušu pašvaldības ziņojumu 'Akustiskā pieklājība piekrastes pašvaldībās: ceļš uz priekšu', Jūrmala 2025. gada vasaras sezonā reģistrēja 14,2 miljonus rokas pret rokas kontaktu, kas, pēc amatpersonu teiktā, cieši korelē ar vietējo priežu 'adatu trauksmi' un izmērāmu kaiju sarkasma pieaugumu.
+
+'Cilvēki iedomājas, ka aplausi ir nekaitīgi, jo tie taču notiek kultūrā,' sacīja sezonālās harmonijas vietniece Ilze Skrastiņa, stāvot blakus diagrammai ar koncentriskām lokām ap satrauktu izskatā esošu koku. 'Bet pilsētai jāuzdod sev grūti jautājumi. Vai katrs džeza solo prasa 280 plaukstu sadursmes? Vai tāda Eiropa ir tā, ko mēs vēlamies?'
+
+Lai īstenotu politiku, pašvaldība izvietos 32 apmācītus Aplausu uzraugus gar Dzintaru koncertzāli, Jomas ielu un izvēlētajām pludmales zonām. Izmantojot decibelu manžetes un sejas miera diagrammas, uzraugi noteiks, vai sapulce ir pārsniegusi atļauto entuziasma slieksni. Bieži pārkāpēji var tikt novirzīti uz speciāli norīkotu atbrīvošanās zonu pie Majoru stacijas, kur viņi var brīvi plaukšķināt jūrā līdz četru minūšu ilgumam.
+
+Iedzīvotāju reakcijas ir dažādas. 'Es atbalstu kultūru, bet pagājušā gada jūlijā kāds plaukšķināja pēc flautas recitala, un mans labradūdlis divas dienas atteicās skatīties acīs,' sacīja vietējais mājas īpašnieks Mārtiņš Bērziņš, kurš 2018. gadā iegādājās īpašumu pie pludmales tieši 'vadāmas klusuma' dēļ. Blakus esošā pensionāre Velta Ozoliņa piekrita, piebilstot, ka mūsdienu aplausi kļuvuši 'pārāk ambiciozi.'
+
+'Padomju laikos cilvēki plaukšķināja efektīvi,' viņa teica. 'Tagad visi grib sevi izteikt. Tas nogurdina.'
+
+Uzņēmēji brīdina, ka jaunā nodeva var pārbūvēt Jūrmalas viesmīlības sektoru. Kafejnīcā Amber Note vadītāja Renāte Miķelsone sacīja, ka personāls jau tiek apmācīts pasniegt desertus tā, lai netiktu izraisītas negribētas ovācijas. 'Mēs testa laikā izmēģinājām mille-feuille, kas izraisīja 11 neatļautas aizelpas,' viņa sacīja. 'Finansiāli tas nav stabils konditorejas izstrādājums.'
+
+Ne visi eksperti ir pārliecināti par šo pasākumu zinātnisko pamatojumu. Latvijas Universitātes sociologs Dr. Edgars Līdums nosauca politiku par 'klasisku Baltijas administratīvu reakciju', skaidrojot, ka varas iestādes mazu sezonālu neērtību pārvērta nēsājamās tehnoloģijas pilotprojektā, nodokļu kategorijā un laminētā infografikā.
+
+Neskatoties uz to, var sagaidīt augstu sabiedrības pakļaušanos. Līdz trešdienas rītam pilsētas veikali bija izpārdevuši apstiprinātos nedzirdamos svinību komplektus, tostarp klusus linu cimdus, zemas ietekmes pirkstu plivināšanas rokasgrāmatas un premium 'Ziemeļu apstiprinājuma' komplektu ar atturīgu smaidu un vienu pašvaldības kuponu iekšējai pašlepnuma izjūtas izrādīšanai.
+
+Domes locekļi uzsver, ka politika nav pret prieku, tā ir par regulētu prieku. Ja tā izrādīsies veiksmīga, amatpersonas norāda, ka aplausu modeli nākamgad var paplašināt, iekļaujot pārmērīgu sandales švīkstēšanu, emocionālas akordeona reakcijas un spontānus 'bravo' saucienus apkaimēs, kas paredzētas pārdomām.
+
+Ziņošanas brīdī kamerorķestra klausītāji Buldurī, kā ziņots, bija pielāgojušies jaunajiem noteikumiem, izrādot atzinību ar sinhronizētu mirkšķināšanu, ko liecinieki raksturoja kā aizkustinošu, cienījamu un gandrīz neiespējami pareizi uzrēķināmu.`,
+      ru: `ЮРМАЛА — В решении, которое муниципальные лидеры охарактеризовали как «и экологично ответственно, и эмоционально современно», Городской совет Юрмалы во вторник поздно вечером проголосовал за введение первой в Латвии платы за регулирование аплодисментов — сезонного летнего налога на хлопки, возгласы и другие «внезапные торжественные воздействия», признанные нарушающими покой городских сосен, птиц дюн и более состоятельной тишины.
+
+Мера, которая вступит в силу 1 июня, распространяется на концерты, поэтические чтения, выпускные церемонии и любые события на террасах ресторанов, где одновременно позитивно реагуют более семи человек. По новой системе первые три вспышки аплодисментов на одного участника остаются бесплатными. Дополнительные хлопки будут тарифицироваться по €0,18 за штуку через систему отслеживания на основе браслетов, разработанную стартапом из Кекавы, ранее известным мониторингом влажности в саунах.
+
+Согласно 47-страничному муниципальному докладу под названием «Акустическая воспитанность в прибрежных муниципалитетах: путь вперед», Юрмала за летний сезон 2025 года зафиксировала 14,2 миллиона случаев соприкосновения ладоней — показатель, который, по мнению чиновников, сильно коррелирует с «игольчатой тревогой» у местных сосен и измеримым увеличением сарказма у чаек.
+
+«Люди себе представляют, что аплодисменты безвредны, потому что это часть культуры», — сказала заместитель мэра по сезонной гармонии Илзе Скрастиня, стоя возле диаграммы с концентрическими кругами вокруг, мягко говоря, стрессового дерева. «Но городу нужно задавать себе сложные вопросы. Действительно ли каждое джазовое соло требует, чтобы 280 ладоней сталкивались друг с другом? Это та Европа, которой мы хотим?»
+
+Для принудительного соблюдения политики муниципалитет разместит 32 подготовленных контролёра аплодисментов вдоль Концертного зала Дзинтару, на улице Йомас и в выбранных прибрежных зонах. С помощью «децибельных наручников» и шкал выдержки лица стюарды будут определять, превысило ли собрание допустимый порог энтузиазма. Повторных нарушителей могут направить в специально отведённую зону разрядки у станции Майори, где им разрешат хлопать в сторону моря в течение четырёх минут.
+
+Реакция жителей разделилась. «Я поддерживаю культуру, но в июле кто‑то зааплодировал после флейтового рецитала, и мой лабрадудель два дня отказывался смотреть мне в глаза», — поделился местный домовладелец Мартиньш Берзиньш, который в 2018 году купил жильё рядом с пляжем специально ради «управляемой тишины». Близкая пенсионерка Вельта Озолиня согласилась, отметив, что современные аплодисменты стали «слишком амбициозными». «В советские времена люди хлопали эффективно», — сказала она. «Теперь каждый хочет самовыразиться. Это утомляет». 
+
+Однако предприниматели предупреждают, что новый сбор может изменить индустрию гостеприимства Юрмалы. В кафе Amber Note менеджер Ренате Микельсонe сообщила, что персонал уже учат подавать десерты так, чтобы они не провоцировали непроизвольных оваций. «У нас был тестовый мильфей, который вызвал 11 несанкционированных вздохов», — сказала она. «С финансовой точки зрения это нестабильная выпечка». 
+
+Не все эксперты убеждены в науке, лежащей в основе меры. Социолог Латвийского университета д-р Эдгарс Лидумс назвал политику «классическим прибалтийским административным ответом», объяснив, что власти взяли незначительное сезонное раздражение и превратили его в «пилот носимых технологий, налоговую категорию и ламинированную инфографику». 
+
+Тем не менее общественное соблюдение может быть высоким. К утру среды городские магазины уже распродали одобренные наборы для неаудиторных празднований, включающие приглушённые льняные перчатки, руководства по малошумному трепету пальцев и премиальный пакет «Нордическое одобрение», где идёт сдержанная улыбка и один муниципальный ваучер на внутреннюю гордость.
+
+Члены совета настаивают, что политика не против радости, а за радость в регулируемых рамках. Если эксперимент окажется успешным, чиновники заявляют, что в следующем году модель аплодисментов может быть расширена и на чрезмерные шлёпанья сандалиями, эмоциональные реакции аккордеона и спонтанные выкрики «браво» в районах, отведённых для созерцания.
+
+На момент сдачи материала, по сообщениям, публика камерного оркестра в Булдури приспособилась к новым правилам, выражая признательность синхронным морганием, которое свидетели описывали как трогательное, достойное и почти невозможное для корректного выставления счета.`
+    },
+    date: "Oct 9, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/299/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 298,
     slug: "jrmala-introduces-silent-seagull-hours-after",
     title: {
@@ -114,7 +205,7 @@ Līdz trešdienas rītam paši kaijas nebija izdevušas oficiālu paziņojumu. T
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/298/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 297,
