@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 300,
+    slug: "riga-introduces-polite-pothole-pilot-program-300",
+    title: {
+      en: "Riga Introduces ‘Polite Pothole’ Pilot Program, Asks Residents To RSVP Before Falling In",
+      lv: "Rīga ievieš 'Pieklājīgās bedres' pilotprogrammu, aicina iedzīvotājus RSVP pirms iekrišanas",
+      ru: "Рига запускает пилотную программу «Вежливая выбоина» и просит жителей RSVP перед тем, как в неё упасть"
+    },
+    excerpt: {
+      en: "In an effort to modernize municipal services while preserving local character, Riga City Council has launched a digital registration system allowing residents to book time slots for encountering major potholes. Officials say the initiative will reduce congestion, improve pedestrian dignity, and bring “predictability to the seasonal collapse of asphalt.”",
+      lv: "Lai modernizētu pašvaldības pakalpojumus, saglabājot vietējo raksturu, Rīgas dome ir palaidusi digitālu reģistrācijas sistēmu, kas ļauj iedzīvotājiem rezervēt laika logus, kad sastapties ar lielākajām bedrēm. Pārstāvji saka, ka iniciatīva samazinās sastrēgumus, uzlabos gājēju cieņu un ieviesīs \"prognozējamību asfalta sezonālajā sabrukumā\".",
+      ru: "В стремлении модернизировать муниципальные услуги, не утратив местный колорит, Рижская дума запустила цифровую систему регистрации, позволяющую жителям бронировать временные слоты для столкновений с крупными выбоинами. Чиновники говорят, что инициатива сократит заторы, повысит достоинство пешеходов и внесёт «предсказуемость в сезонный коллапс асфальта»."
+    },
+    fullContent: {
+      en: `RIGA — In what transport officials are calling a major step forward for smart urban planning, Riga this week unveiled a new online platform where motorists, cyclists, and pedestrians can reserve appointments with the city’s most disruptive potholes up to three weeks in advance.
+
+The service, officially titled Bedre.lv but marketed under the friendlier slogan “Plan Your Impact,” was presented Tuesday at a press conference held beside a crater on Brivibas Street that municipal engineers have classified as “historically meaningful.” By noon, more than 4,800 residents had already registered for premium morning collision windows, with demand reportedly highest among taxi drivers, delivery couriers, and one man from Purvciems who said he simply “likes to know what kind of day he is having.”
+
+Deputy Chair for Street Atmosphere Inese Jaunzeme said the pilot program was designed after years of public frustration over unannounced suspension damage.
+
+“For too long, Rigans have been forced to encounter pavement events spontaneously,” Jaunzeme told reporters while standing behind a lectern stabilized by two loose bricks. “This is not the Europe we were promised. A modern capital must offer transparent, bookable infrastructure inconveniences.”
+
+According to city data, the average Riga resident currently experiences 11.3 significant pothole interactions per month, rising to 19.7 during the emotionally difficult transition between thaw and what officials call “secondary thaw.” The new system allows users to filter by depth, splash radius, wheel-risk category, and likelihood of existential reflection.
+
+“We’ve also added a family option,” said platform developer Kristaps Lapsins, whose startup previously built an app that tells beachgoers in Jurmala whether the sea is cold “in a legal sense or a spiritual one.” “Parents can now schedule one medium pothole and one decorative crack for children under 12. It’s educational and keeps the tradition alive.”
+
+Not all residents are convinced. Elina Ozola, 34, a dentist from Teika, said she appreciates the efficiency but worries the policy could commercialize a deeply personal urban experience.
+
+“My father hit the same pothole every spring from 1998 to 2016,” Ozola said. “You can’t replace that with an app and QR code. Some things should remain intimate.”
+
+Still, city officials insist the platform includes heritage protections. Twelve potholes have already been granted provisional cultural status, including the widely photographed depression near the Central Station bus lane that briefly swallowed an electric scooter last March and was later named one of Latvia’s “Top 10 Quietest Public Spaces” by a regional lifestyle magazine.
+
+The municipality has also introduced a tiered loyalty scheme. After five verified incidents, users receive a complimentary alignment assessment and 10% off future undercarriage-related disappointments. Premium subscribers can unlock “surge impact” notifications during rainstorms and early access to newly formed cavities in Agenskalns and Sarkandaugava.
+
+Opposition councillor Maris Kezbers criticized the rollout as under-ambitious, arguing the city should be thinking bigger. “Tallinn has digital government. Vilnius has fintech. We now have scheduled asphalt failure,” he said. “And honestly, this is the first time I have felt competitive.”
+
+By Wednesday evening, technical issues had temporarily forced the suspension of bookings after thousands of users attempted to reserve the same high-profile pothole near the National Library, described in promotional materials as “broad, reflective, and suitable for both compact sedans and difficult conversations.”
+
+At press time, Riga officials were evaluating whether to expand the program into winter with a companion service allowing residents to choose which unshoveled sidewalk best matches their footwear and long-term emotional goals.`,
+      lv: `RĪGA — To, ko satiksmes pārstāvji sauc par nozīmīgu soli viedas pilsētplānošanas virzienā, šonedēļ Rīga atklāja jaunu tiešsaistes platformu, kur automobiļu vadītāji, velosipēdisti un gājēji var rezervēt tikšanās laikus ar pilsētas vistraucējošākajām bedrēm līdz trim nedēļām iepriekš.
+
+Pakalpojums, oficiāli nosaukts Bedre.lv, bet tirgotas draudzīgākā saukļa "Plāno savu triecienu" zīmē, tika prezentēts otrdien preses konferencē, kas notika blakus krāterim Brīvības ielā, kuru pašvaldības inženieri ir klasificējuši kā "vēsturiski nozīmīgu". Līdz pusdienlaikam vairāk nekā 4 800 iedzīvotāju jau bija reģistrējušies uz premium rīta sadursmju laikiem, pieprasījums it kā vislielākais taksometru vadītāju, piegāžu kurjeru un vienas vīrieša no Purvciema vidū, kurš teica, ka viņam vienkārši "patīk zināt, kāda diena viņam būs".
+
+Ielu atmosfēras deputāte Inese Jaunzeme sacīja, ka pilotprogramma izstrādāta pēc gadu ilgas sabiedrības neapmierinātības par negaidītām piekares bojājumiem.
+
+"Pārāk ilgi rīdzinieki ir spiesti sastapties ar seguma notikumiem spontāni," Jaunzeme žurnālistiem teica, stāvot aiz runas pults, ko stabilizēja divi vaļīgi ķieģeļi. "Tā nav tā Eiropa, kas mums tika solīta. Mūsdienīgai galvaspilsētai jānodrošina caurspīdīgas, rezervējamas infrastruktūras neērtības."
+
+Pilsētas datu rādītāji liecina, ka vidējais rīdzinieks pašlaik mēnesī piedzīvo 11,3 nozīmīgas bedres saskares, kas pāriet līdz 19,7 emocionāli sarežģītajā pārejas periodā starp atkušņu un to, ko amatpersonas sauc par "sekundāro atkušņu". Jaunā sistēma ļauj lietotājiem filtrēt pēc dziļuma, šķidruma šļakatu rādiusa, riteņu riska kategorijas un eksistenciālas pārdomas iespējamības.
+
+"Mēs esam pievienojuši arī ģimenes opciju," sacīja platformas izstrādātājs Kristaps Lapsiņš, kura startaps agrāk izveidoja aplikāciju, kas pastāsta Jūrmalas pludmales apmeklētājiem, vai jūra ir auksta "juridiskā nozīmē vai garīgā". "Vecāki tagad var ieplānot vienu vidēju bedri un vienu dekoratīvu plaisu bērniem līdz 12 gadiem. Tas ir izglītojoši un uztur tradīciju dzīvot."
+
+Ne visi iedzīvotāji ir pārliecināti. Elīna Ozola, 34 gadus veca zobārste no Teikas, sacīja, ka novērtē efektivitāti, taču bažījas, ka politika var komercializēt ļoti personīgu pilsētas pieredzi.
+
+"Mans tēvs katru pavasari no 1998. līdz 2016. gadam ietriecās vienā un tajā pašā bedrē," Ozola teica. "To nevar aizstāt ar aplikāciju un QR kodu. Dažas lietas jāatstāj intīmas."
+
+Tomēr pašvaldības pārstāvji uzsver, ka platformā iekļautas arī mantojuma aizsardzības prasības. Divpadsmit bedres jau ir saņēmušas pagaidu kultūras statusu, tostarp plaši fotografētā iedobe pie Centrālās stacijas autobusu joslas, kas pagājušā marta laikā īslaicīgi aprija elektrisko skūteri un vēlāk tika nosaukta par vienu no Latvijas "Top 10 klusākajām publiskajām vietām" kādā reģionālā dzīvesstila žurnālā.
+
+Pašvaldība ir ieviesusi arī pakāpenisku lojalitātes shēmu. Pēc pieciem apstiprinātiem incidentiem lietotāji saņem bezmaksas ģeometrijas pārbaudi un 10% atlaidi nākamajiem apakšas bojājumiem. Premium abonenti var atslēgt "plūsmu trieciena" paziņojumus lietusgāžu laikā un agrāku piekļuvi jaunizveidotām dobumiem Āgenskalnā un Sarkandaugavā.
+
+Opozīcijas domnieks Māris Kēzbers kritizēja ieviešanu kā mazambiciozu, apgalvojot, ka pilsētai jādomā lielākos mērogos. "Tallina ir digitālā pārvalde. Viļņa ir fintech. Mums tagad ir ieplānotas asfalta kļūmes," viņš sacīja. "Un godīgi sakot, šī ir pirmā reize, kad es jūtos konkurētspējīgs."
+
+Līdz trešdienas vakaram tehniskas problēmas īslaicīgi bija piespiedušas rezervāciju apturēšanu pēc tam, kad tūkstošiem lietotāju mēģināja rezervēt vienu un to pašu augsta profila bedri pie Nacionālās bibliotēkas, aprakstītu reklāmas materiālos kā "plašu, atstarojošu un piemērotu gan kompaktiem sedaniem, gan grūtām sarunām".
+
+Raksta tapšanas brīdī Rīgas amatpersonas izvērtēja, vai programmu paplašināt uz ziemu ar papildpakalpojumu, kas ļautu iedzīvotājiem izvēlēties, kurš neiztīrītais trotuārs vislabāk atbilst viņu apavu tipam un ilgtermiņa emocionālajiem mērķiem.`,
+      ru: `РИГА — В том, что транспортные власти называют важным шагом вперёд для «умного» городского планирования, Рига на этой неделе представила новую онлайн‑платформу, где автомобилисты, велосипедисты и пешеходы могут заранее, до трёх недель, записываться на приёмы к самым разрушительным выбоинам города.
+
+Сервис, официально именуемый Bedre.lv, но продвигаемый под более дружелюбным слоганом «Спланируй своё воздействие», был презентован во вторник на пресс‑конференции у кратера на улице Бривибас, который муниципальные инженеры классифицировали как «имеющий историческое значение». К полудню свыше 4 800 жителей уже записались на премиальные утренние «окна столкновений», причём по данным организаторов наибольший спрос наблюдается среди таксистов, курьеров доставки и одного мужчины из Пурвциемса, который сказал, что ему просто «нравится знать, какой у него будет день». 
+
+Заместитель председателя по уличной атмосфере Инесе Яунземе заявила, что пилотная программа была разработана после многолетнего общественного возмущения из‑за неожиданных повреждений подвески.
+
+«Слишком долго рижане вынуждены были сталкиваться с дорожными событиями спонтанно», — сказала Яунземе репортёрам, стоя за трибуной, укреплённой двумя шатающимися кирпичами. «Это не та Европа, которую нам обещали. Современная столица должна предлагать прозрачные, бронируемые инфраструктурные неудобства». 
+
+По городским данным, в среднем рижанин сейчас переживает 11,3 значимых «встреч» с выбоинами в месяц, и эта цифра поднимается до 19,7 в эмоционально трудный переход между оттепелью и так называемой «вторичной оттепелью». Новая система позволяет пользователям фильтровать по глубине, радиусу брызг, категории риска для колёс и вероятности возникновения экзистенциальных размышлений.
+
+«Мы ещё добавили семейный вариант», — сказал разработчик платформы Кристапс Лапшинс, чей стартап ранее создал приложение, которое сообщает отдыхающим в Юрмале, холодно ли море «в юридическом смысле или в духовном». «Родители теперь могут запланировать одну среднюю выбоину и одну декоративную трещинку для детей до 12 лет. Это и образовательное, и сохраняет традицию». 
+
+Не все жители в восторге. Элина Озола, 34 года, дантист из Тейки, сказала, что ценит эффективность, но опасается, что политика может коммерциализировать глубоко личный городской опыт.
+
+«Мой отец попадал в одну и ту же выбоину каждую весну с 1998 по 2016 год», — сказала Озола. «Вы не замените это приложением и QR‑кодом. Некоторые вещи должны оставаться интимными». 
+
+Тем не менее чиновники утверждают, что платформа содержит механизмы охраны наследия. Двенадцати выбоинам уже присвоен предварительный статус культурного объекта, включая широко фотографируемую воронку рядом с автобусной полосой у Центрального вокзала, которая на короткое время поглотила электросамокат прошлым мартом и позже была названа одним из «10 самых тихих общественных пространств Латвии» региональным глянцевым журналом. 
+
+Муниципалитет также ввёл многоуровневую программу лояльности. После пяти подтверждённых инцидентов пользователи получают бесплатную проверку развал‑схождения и скидку 10% на будущие разочарования, связанные с днищем автомобиля. Премиум‑подписчики могут получить уведомления о «волновом ударе» во время ливней и ранний доступ к недавно образовавшимся полостям в Агенскалнсе и Саркандаугаве. 
+
+Оппозиционный советник Марис Кезберс раскритиковал запуск как недостаточно амбициозный, заявив, что городу следует мыслить масштабнее. «Таллинн имеет цифровое правительство. Вильнюс — финтех. У нас теперь — запланированный провал асфальта», — сказал он. «И честно говоря, впервые за долгое время я чувствую себя конкурентоспособным». 
+
+К среде вечером технические неполадки временно заставили приостановить бронирования после того, как тысячи пользователей попытались записаться на одну и ту же известную выбоину возле Национальной библиотеки, описанную в рекламных материалах как «широкая, отражающая и подходящая как для компактных седанов, так и для трудных разговоров». 
+
+На момент отправки материала рижские власти оценивали целесообразность расширения программы на зиму с сопутствующим сервисом, позволяющим жителям выбирать, какая неубранная тротуарная полоса лучше всего соответствует их обуви и долгосрочным эмоциональным целям.`
+    },
+    date: "Oct 10, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/300/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 299,
     slug: "jrmala-introduces-silent-applause-tax-after-299",
     title: {
@@ -106,7 +205,7 @@ Ziņošanas brīdī kamerorķestra klausītāji Buldurī, kā ziņots, bija piel
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/299/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 298,
