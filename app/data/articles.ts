@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 301,
+    slug: "riga-introduces-dynamic-silence-pricing-residents-301",
+    title: {
+      en: "Riga Introduces Dynamic Silence Pricing, Residents Charged Extra for Loud Thoughts During Tram Delays",
+      lv: "Rīga ievieš dinamisko klusuma tarifēšanu — iedzīvotāji jāmaksā par skaļām domām tramvaja kavējumu laikā",
+      ru: "Рига вводит динамическое ценообразование тишины: с жителей будут взимать плату за громкие мысли во время задержек трамваев"
+    },
+    excerpt: {
+      en: "In a pilot program officials say will modernize urban quiet, Riga has begun testing a variable-rate silence system in selected neighborhoods and public transport corridors. Authorities insist the policy only affects \"unnecessarily intense internal reactions\" to delays, construction noise, and people opening herring in enclosed spaces.",
+      lv: "Pilotprojektā, kuru amatpersonas sauc par pilsētiskas klusuma modernizāciju, Rīga sāka izmēģināt mainīga tarifa klusuma sistēmu atlasītās apkaimēs un sabiedriskā transporta koridoros. Varas iestādes uzsver, ka politika skar tikai «nevajadzīgi intensīvas iekšējas reakcijas» uz kavējumiem, būvdarbu troksni un cilvēku siļķes atvēršanu slēgtās telpās.",
+      ru: "В пилотной программе, которую чиновники называют модернизацией городского спокойствия, Рига начала тестирование системы переменных тарифов на тишину в отдельных районах и коридорах общественного транспорта. Власти настаивают, что политика затрагивает только «необоснованно интенсивные внутренние реакции» на задержки, строительный шум и людей, открывающих селёдку в замкнутых помещениях."
+    },
+    fullContent: {
+      en: `RIGA — In what city planners are calling a “bold next step in acoustic fairness,” the Riga City Council on মঙ্গলবার approved a pilot program introducing dynamic silence pricing across the capital, allowing residents to be charged micro-fees for what officials described as “high-volume internal irritation” during public disturbances.
+
+The six-month initiative, formally titled the Adaptive Civic Quietness Mechanism, will begin in central Riga, Āgenskalns, and along the 1st tram line, where municipal analysts recorded the city’s highest density of sighing per square meter. Using newly installed “reflective calm sensors” at stops, intersections, and supermarket dairy aisles, the system will estimate whether nearby citizens are maintaining what the council defines as “reasonable Baltic composure.”
+
+“Silence has long been treated as a free natural resource in Latvia,” Deputy Housing and Atmosphere Committee chairwoman Ilze Grinberga said at a press conference held in a room so quiet reporters could hear a pen being judged. “But unmanaged silence leads to overuse. If one passenger on a delayed tram is internally shouting the equivalent of a diesel generator, that affects everyone.”
+
+Under the new rules, standard calm remains free between 05:00 and 07:30, when most residents are considered too tired to react meaningfully. From 07:31 onward, frustration is billed dynamically. Mild eye narrowing during a 12-minute tram delay will cost 0.14 euros. A full exhale through the nose while glancing at an electronic timetable displaying the word “after” incurs 0.37 euros. Citizens who mentally compose a formal complaint to no one in particular may be charged up to 1.20 euros during peak hours.
+
+Officials say charges will be calculated through a combination of posture analytics, scarf tension, and what one procurement document refers to as “forehead weather.” The city awarded the 2.8 million euro sensor contract to SIA Mierpilsonis Tech, a startup founded by three former parking enforcement consultants and a sound artist from Cēsis.
+
+Company co-founder Ralfs Ozoliņš said the technology had already performed well in controlled trials. “We tested it near Origo during first snowfall, at a self-checkout in Purvciems, and outside a pharmacy when someone asked if the queue had a queue,” Ozoliņš said. “The system successfully distinguished ordinary resignation from premium-grade silent outrage with 91 percent accuracy.”
+
+Reaction among residents has been mixed. Juris Kalniņš, 43, said he received a warning notification after standing on a platform in Teika while two trams disappeared from the schedule. “I didn’t say anything,” Kalniņš said. “Apparently my silence was too ambitious.”
+
+Others welcomed the move. Retired music teacher Maija Feldmane of Āgenskalns said monetizing emotional restraint was “the most Latvian policy in decades.” “At last,” she said, “people who loudly suffer in private will pay for the privilege. Why should my disciplined disappointment subsidize their chaos?”
+
+Not all experts are convinced. University of Latvia sociologist Dr. Edgars Spunde warned the policy could create a two-tier society divided between those who can afford premium stoicism and those forced into budget irritation. “Historically, silence in the Baltics has functioned as identity, protest, weather response, and social lubricant,” Spunde said. “To surge-price it is culturally risky.”
+
+City officials rejected criticism and noted that low-income residents may apply for 12 subsidized monthly “grievance minutes,” plus one free seasonal eye-roll in November. A separate family plan is being developed for IKEA parking lots and regional bus stations.
+
+If the pilot succeeds, Riga may expand the model to beach-adjacent areas in Jūrmala by next summer, where authorities say unmanaged passive aggression currently peaks during towel placement disputes before 9 a.m. Until then, the city has urged residents to remain calm, think softly, and if necessary, become upset only during off-peak hours.`,
+      lv: `RĪGA — To, ko pilsētplānotāji dēvē par «drosmīgu nākamo soli akustiskajā taisnīgumā», Rīgas dome otrdien apstiprināja pilotprogrammu, kas ievieš dinamisko klusuma tarifēšanu galvaspilsētā, ļaujot iedzīvotājiem tikt apliktiem ar mikromaksājumiem par to, ko amatpersonas raksturoja kā «augsta skaļuma iekšējo kairinājumu» sabiedrisku traucējumu laikā.
+
+Sešu mēnešu iniciatīva, formāli nosaukta par Adaptīvo pilsoniskā klusuma mehānismu, sāksies centrālajā Rīgā, Āgenskalnā un gar 1. tramvaja līniju — vietās, kur pašvaldības analītiķi reģistrēja pilsētas vislielāko nopūtu blīvumu uz kvadrātmetru. Izmantojot jaunuzstādītos «reflektējošos mierīguma sensorus» pieturās, krustojumos un lielveikalu piena produktu alejās, sistēma novērtēs, vai apkārtējie iedzīvotāji saglabā to, ko dome definējusi kā «saprātīgu Baltijas composedību».
+
+«Klusums ilgi tika uzskatīts par bezmaksas dabas resursu Latvijā,» preses konferencē sacīja Mājokļu un atmosfēras komitejas priekšsēdētājas vietniece Ilze Grinberga, kas runāja telpā tik klusā, ka žurnālisti varēja dzirdēt, kā tiek tiesāta pildspalva. «Taču nekontrolēts klusums noved pie pārmērīgas izmantošanas. Ja viens pasažieris kavējošā tramvajā iekšēji kliedz dīzeļģeneratora apjomā, tas ietekmē visus.»
+
+Saskaņā ar jaunajiem noteikumiem parasts miers paliek bez maksas no pulksten 05:00 līdz 07:30, kad lielākā daļa iedzīvotāju tiek uzskatīti par pārāk nogurušiem, lai reaģētu jēgpilni. No 07:31 sāks darboties dinamiskā tarifēšana. Maiga acu sašaurināšanās 12 minūšu tramvaja kavējuma laikā maksās 0,14 eiro. Pilna izelpšana caur degunu, skatoties uz elektronisko sarakstu, kur redzams vārds «pēc», izmaksās 0,37 eiro. Pilnīgi noformulēta iekšēja sūdzība nekur nevienam konkrētam var tikt iekasēta līdz 1,20 eiro pīķa stundās.
+
+Amatpersonas norāda, ka maksa tiks aprēķināta, kombinējot stājas analītiku, šalles spriedzi un to, ko viena iepirkumu dokumenta teksts dēvē par «pieres laika apstākļiem». Pilsēta 2,8 miljonu eiro sensoru līgumu piešķīra SIA Mierpilsonis Tech, jaunuzņēmumam, kuru dibināja trīs bijušie stāvvietu kontroli konsultanti un viens skaņas mākslinieks no Cēsīm.
+
+Uzņēmuma līdzdibinātājs Ralfs Ozoliņš sacīja, ka tehnoloģija jau labi darbojusies kontrolētos izmēģinājumos. «Mēs testējām to pie Origo pirmajā snigumā, pašapkalpošanās kasē Purvciemā un ārpus aptiekas, kad kāds jautāja, vai rindai ir rinda,» teica Ozoliņš. «Sistēma ar 91 procenta precizitāti veiksmīgi atšķīra parasto padevību no premium klases klusās sašutuma.»
+
+Iedzīvotāju reakcija bijusi jaukta. Juris Kalniņš, 43 gadi, stāstīja, ka saņēmis brīdinājuma paziņojumu pēc tam, kad nostāvēja uz platformas Teikā, kamēr divi tramvaji pazuda no saraksta. «Es neko neteicu,» sacīja Kalniņš. «Acīmredzot mans klusums bija pārāk ambiciozs.»
+
+Citi uzņēma iniciatīvu ar labvēlību. Pensionētā mūzikas skolotāja Maija Feldmane no Āgenskalna sacīja, ka emocionālās atturības monetizācija esot «vislatviskākā politiskā darbība desmitgadēs». «Beidzot,» viņa teica, «cilvēki, kuri privāti skaļi cieš, maksās par šo privilēģiju. Kāpēc mana disciplinētā vīšanās būtu jāsubsidē viņu haoss?»
+
+Ne visi eksperti ir pārliecināti. Latvijas Universitātes sociologs Dr. Edgars Spunde brīdināja, ka politika var radīt divpakāpju sabiedrību, kurā vieni var atļauties premium stoisumu, bet citi spiestas dzīvot ar budžeta kairinājumu. «Vēsturiski klusums Baltijā ir kalpojis kā identitāte, protests, reakcija uz laikapstākļiem un sociālais eļļotājs,» sacīja Spunde. «To cenu dinamiski pacelt ir kultūriski riskanti.»
+
+Pilsētas pārstāvji noliedza kritiku un norādīja, ka zemu ienākumu iedzīvotāji var pieteikties uz 12 subsidētām mēneša "sūdzību minūtēm", kā arī vienu bezmaksas sezonālu acu rullīti novembrī. Tiek izstrādāts atsevišķs ģimenes plāns IKEA stāvvietām un reģionālajām autobusu stacijām.
+
+Ja pilots būs veiksmīgs, Rīga var paplašināt modeli arī pludmales piegulošajās teritorijās Jūrmalā līdz nākamajai vasarai, kur varas iestādes norāda, ka nekontrolēta pasīvā agresija pašlaik sasniedz kulmināciju dvieļu izvietošanas strīdos pirms pulksten 9:00. Līdz tam pilsēta aicina iedzīvotājus saglabāt mieru, domāt klusu un, ja nepieciešams, sašust tikai ārpus pīķa stundām.`,
+      ru: `РИГА — В том, что городские планировщики называют «смелым следующим шагом к акустическому равенству», Рижская городская дума во вторник одобрила пилотную программу по введению динамического ценообразования тишины по столице, позволяющую взимать с жителей микроплатежи за то, что чиновники описывают как «высокообъёмное внутреннее раздражение» во время общественных помех.
+
+Шестимесячная инициатива, официально названная «Механизм адаптивного гражданского спокойствия», стартует в центральной Риге, Āgenskalns и вдоль 1-й трамвайной линии, где муниципальные аналитики зафиксировали наибольшую плотность вздохов на квадратный метр. С использованием недавно установленных «датчиков отражённого спокойствия» на остановках, перекрёстках и в отделах молочных продуктов супермаркетов система будет оценивать, сохраняют ли находящиеся рядом граждане то, что думаемое советом, «приемлемое балтийское самообладание».
+
+«Долгое время молчание рассматривалось как бесплатный природный ресурс в Латвии», — заявила заместитель председателя комитета по жилью и атмосфере Ильзе Гринберга на пресс‑конференции, которая проходила в такой тишине, что журналисты слышали, как ручку подвергают суждению. «Но неуправляемое молчание ведёт к его перерасходу. Если один пассажир в задержанном трамвае внутренне кричит эквивалентом дизельного генератора, это влияет на всех». 
+
+По новым правилам стандартное спокойствие остаётся бесплатным с 05:00 до 07:30, когда большинство жителей считаются слишком усталыми, чтобы реагировать осмысленно. С 07:31 же раздражение тарифицируется динамически. Лёгкое прищуривание глаз при 12‑минутной задержке трамвая обойдётся в 0,14 евро. Полный выдох через нос при взгляде на электронное табло с надписью «after» повлечёт списание в 0,37 евро. Граждан, мысленно сочиняющих официальную жалобу ни к кому конкретно, могут оштрафовать до 1,20 евро в часы пик.
+
+Чиновники заявляют, что начисления будут рассчитываться на основе сочетания аналитики позы, натяжения шарфа и того, что в одном из конкурсных документов названо «погодой на лбу». Город выделил контракт на датчики на сумму 2,8 миллиона евро компании SIA Mierpilsonis Tech, стартапу, основанному тремя бывшими консультантами по парковочному контролю и звуковым художником из Cēsis.
+
+Сооснователь компании Ралфс Озолиньш сказал, что технология уже показала хорошие результаты в контролируемых испытаниях. «Мы тестировали её возле Origo во время первого снегопада, на кассе самообслуживания в Пурвциемсе и у аптеки, когда кто‑то спросил, есть ли у очереди своя очередь», — сказал Озолиньш. «Система успешно отличала обычную смирённость от премиального класса тихого возмущения с точностью 91 процента». 
+
+Реакция жителей оказалась смешанной. 43‑летний Юрис Калниньш рассказал, что получил предупреждение после того, как стоял на платформе в Тейке, пока два трамвая исчезали из расписания. «Я ничего не сказал», — пояснил Калниньш. «По‑видимому, моё молчание было слишком амбициозным». 
+
+Другие приветствовали нововведение. Пенсионерка, преподаватель музыки Майя Фельдмане из Āgenskalns заявила, что монетизация эмоционального воздержания — «самая латвийская политика за десятилетия». «Наконец», — сказала она, — «те, кто громко страдает наедине, будут платить за эту привилегию. Почему моё дисциплинированное разочарование должно субсидировать их хаос?» 
+
+Не все эксперты убеждены. Социолог Латвийского университета д-р Эдгарс Спунде предупредил, что политика может создать двухуровневое общество, разделённое между теми, кто может себе позволить премиальную стоицизм, и теми, кого вынуждают довольствоваться бюджетным раздражением. «Исторически молчание на Балтике выполняло функции идентичности, протеста, реакции на погоду и социальной смазки», — сказал Спунде. «Накручивать на него цены — культурный риск». 
+
+Городские власти отвергли критику и отметили, что малообеспеченные жители могут подать заявку на 12 субсидируемых ежемесячных «минут жалоб», плюс одно бесплатное сезонное закатывание глаз в ноябре. Отдельный семейный план разрабатывается для парковок IKEA и региональных автовокзалов.
+
+Если пилот увенчается успехом, Рига может к следующему лету расширить модель на прилегающие к пляжу территории Юрмалы, где, по словам властей, неуправляемое пассивно‑агрессивное поведение сейчас достигает пика во время споров о размещении полотенец до 9 утра. До тех пор город призывает жителей сохранять спокойствие, думать тише и, при необходимости, расстраиваться только в непиковые часы.`
+    },
+    date: "Oct 11, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/301/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 300,
     slug: "riga-introduces-polite-pothole-pilot-program-300",
     title: {
@@ -114,7 +201,7 @@ Raksta tapšanas brīdī Rīgas amatpersonas izvērtēja, vai programmu paplaši
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/300/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 299,
