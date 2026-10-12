@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 302,
+    slug: "jrmala-introduces-silent-applause-zone-after-302",
+    title: {
+      en: "Jūrmala Introduces Silent Applause Zone After Residents Complain Clapping Is ‘Too Riga’",
+      lv: "Jūrmala ievieš klusās aplausu zonas pēc iedzīvotāju sūdzībām, ka plaukšķošanās esot 'pārāk Rīga'",
+      ru: "Юрмала вводит зону беззвучных аплодисментов после жалоб жителей, что хлопки «слишком рижские»"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have unveiled Latvia’s first municipally regulated Silent Applause Zone, requiring all public praise to be expressed through restrained nodding, sand-level hand fluttering, or brief exhalations through the nose. The move follows a resident petition claiming traditional clapping created an ‘urban atmosphere’ incompatible with the city’s long-term development strategy.",
+      lv: "Jūrmalas pašvaldība atklājusi pirmo Latvijā pašvaldības regulēto Kluso aplausu zonu, kurā visa publiskā atzinība jāizpauž ar pieticīgu mājienu, smiltīm tuvu stāvošu roku vieglu vicināšanu vai īsām deguna izelpām. Šis solis seko iedzīvotāju petīcijai, kurā apgalvots, ka tradicionālā plaukšķināšana rada «pilsētas atmosfēru», kas nav saderīga ar pilsētas ilgtermiņa attīstības stratēģiju.",
+      ru: "Чиновники Юрмалы объявили о создании первой в Латвии муниципально регулируемой Зоны беззвучных аплодисментов: теперь все публичные проявления похвалы должны выражаться сдержанными кивками, порхающими ладонями на уровне песка или короткими выдохами через нос. Решение принято после петиций жителей, утверждавших, что традиционные хлопки создают «городскую атмосферу», несовместимую с долгосрочной стратегией развития города."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what city planners are calling a major step toward preserving the acoustic dignity of the coast, Jūrmala municipality this week approved new regulations establishing a 2.7-kilometer Silent Applause Zone stretching from Dzintari Concert Hall to a portion of the beach residents describe simply as ‘the calmer bit after the kiosk.’
+
+Under the new rules, public expressions of approval exceeding 14 decibels will be classified as “performative disturbance” and may result in a warning, a brochure on tasteful enthusiasm, or, in repeat cases, compulsory attendance at a municipal seminar titled Applause Without Aggression.
+
+The ordinance passed after 612 residents signed a petition arguing that ordinary clapping had become “too sharp, too confident, and increasingly associated with people who arrive by train from central Riga wearing event wristbands.” The petition was organized by the civic group Coastal Moderation for Future Generations, whose members said they were not against joy itself, but preferred it “filtered through proper seasonal restraint.”
+
+“This is not censorship,” said Deputy Executive Director for Environmental Mood Management Ilze Priedīte, standing beside a laminated sign depicting acceptable and unacceptable appreciation methods. “This is about protecting Jūrmala’s traditional soundscape, which historically consists of pine trees, distant bicycle bells, and one child asking for an ice cream in a tone of manageable disappointment.”
+
+According to the municipality’s 38-page implementation plan, approved hand gestures include the soft palm hover, the diplomatic fingertip tap, and the “Baltic acknowledgment arc,” described as a downward movement of the chin suggesting both approval and emotional self-control. Full palm-to-palm applause will still be permitted in specially designated Enthusiasm Corridors near major transport exits, where visitors may celebrate freely for up to 90 seconds before entering residential quiet adaptation lanes.
+
+At Dzintari Concert Hall, where the policy will first be tested during a weekend chamber music series, audience members will receive color-coded cards instructing them how much reaction is appropriate. Green cards authorize up to three muted hand contacts following a violin solo; yellow indicates appreciation should be internal; red means attendees are encouraged to think warmly about the performance later, perhaps at home.
+
+Musicians have expressed mixed feelings. “On one hand, every artist lives for applause,” said cellist Edgars Vītols of the Riga String Initiative. “On the other hand, if the audience gives me a long collective nasal exhale and several controlled nods, I can learn to interpret that as love. Latvian audiences were already halfway there.”
+
+Not all residents support the measure. Café owner Marina Jeļisejeva, whose terrace overlooks one of the newly marked compliance areas, said she fears the policy may create confusion among summer visitors. “Last year they were still figuring out whether smiling at strangers was mandatory or ironic,” she said. “Now I have to explain the difference between a legal flutter and an illegal clap while serving cold beet soup.”
+
+Municipal data suggests the issue is not trivial. A pilot monitoring program conducted last August found that post-concert applause in central Jūrmala peaked at 22 decibels and caused 41% of nearby residents to describe the evening as “unexpectedly active.” One respondent reported hearing “a sequence of celebratory impacts” while trying to read a magazine article about sustainable curtains.
+
+Regional officials say similar models are already being studied in Saulkrasti and parts of Pärnu, though Estonia is reportedly considering an even stricter framework in which approval must be submitted digitally within three business days.
+
+By Thursday afternoon, workers had installed the first beachside signs reading THANK YOU FOR APPRECIATING RESPONSIBLY. Beneath them, several elderly residents watched a street accordionist complete a lively rendition of an old Raimonds Pauls melody, then rewarded him with seven solemn nods and what witnesses described as a “devastatingly sincere” blink.`,
+      lv: `JŪRMALA — Pilsētplānotāji šo lēmumu sauc par nozīmīgu soli piekrastes akustiskās cienības saglabāšanā: šonedēļ Jūrmalas dome apstiprināja jaunus noteikumus, ar kuriem izveidota 2,7 kilometru gara Kluso aplausu zona — no Dzintaru koncertzāles līdz kādam pludmales posmam, ko iedzīvotāji vienkārši dēvē par «tā mierīgākā vieta aiz kioska». 
+
+Saskaņā ar jaunajiem noteikumiem publiskas atzinības izpausmes, kas pārsniedz 14 decibelus, tiks kvalificētas kā «performatīvs traucējums» un var izraisīt brīdinājumu, bukletu par gaumīgu entuziasmu vai, atkārtotu pārkāpumu gadījumā, obligātu dalību pašvaldības seminārā «Aplausi bez agresijas». 
+
+Ordinance tika pieņemta pēc tam, kad 612 iedzīvotāju parakstīja petīciju, apgalvojot, ka parastā plaukšķināšana kļuvusi «pārāk asa, pārāk pārliecināta un arvien vairāk saistīta ar cilvēkiem, kuri atbrauc ar vilcienu no Rīgas centra, nēsājot pasākumu aproces». Petīciju organizēja pilsoniskā grupa 'Piekrastes mērenība nākamajām paaudzēm', kuras locekļi apgalvoja, ka nejaušot prieku kā tādu, bet dod priekšroku, lai tas «tiktu filtrēts caur pareizu sezonālu atturību». 
+
+«Tas nav cenzūra,» sacīja Vides noskaņu vadības vietniece Ilze Priedīte, stāvot blakus laminētai zīmei ar attēlotām pieņemamām un nepieņemamām atzinības izpausmēm. «Tas ir par Jūrmalas tradicionālā skaņu ainavas aizsardzību, kas vēsturiski sastāv no priedēm, tāliem velosipēda zvaniņiem un viena bērna, kas lūdz saldējumu ar pārvaldāmi vilšanās pilnu toni.» 
+
+Pašvaldības 38 lappušu īstenošanas plānā apstiprinātie roku žesti ietver maigu plaukstas gaisā turēšanu, diplomātisku pirkstu galiņa piesitienu un tā dēvēto «Baltijas atzinības loku» — zoda nolaišanas kustību, kas norāda gan uz atzinību, gan emocionālu paškontroli. Pilnīga plaukstu pret plaukstām aplausēšana joprojām būs atļauta īpaši norādītajos Entuziasma koridoros pie lielākiem transporta izejām, kur apmeklētāji var brīvi svinēt līdz 90 sekundēm, pirms iekļūst dzīvojamo māju klusuma pielāgošanās joslās. 
+
+Dzintaru koncertzālē, kur politiku pirmām kārtām izmēģinās nedēļas nogalē notiekošajā kamermūzikas sērijā, skatītāji saņems krāsu kodētas kartiņas, kas norādīs, cik lielu reakciju drīkst izrādīt. Zaļās kartiņas atļauj līdz trim klusinātām roku saskariem pēc vijoles sola; dzeltenā nozīmē, ka atzinība jāizjūt iekšēji; sarkanā mudina apmeklētājus vēlāk, iespējams mājās, siltā atmiņā atcerēties priekšnesumu. 
+
+Mūziķiem ir jauktas izjūtas. «No vienas puses, katrs mākslinieks dzīvo par aplausiem,» sacīja čellists Edgars Vītols no Rīgas stīgu iniciatīvas. «No otras puses, ja publika man dod garu kolektīvu deguna izelpu un vairākas kontrolētas mājienu, es varu to iemācīties uztvert kā mīlestību. Latvijas publika jau bija pusceļā tur.» 
+
+Ne visi iedzīvotāji atbalsta šo mēru. Kafejnīcas īpašniece Marina Jeļisejeva, kuras terase skats pār vienu no jaunajām saskaņošanas zonām, sacīja, ka baidās — šī politika vasaras apmeklētājiem radīs neskaidrības. «Pagājušajā gadā viņi vēl izdomāja, vai svešinieku apsmaidīšana ir obligāta vai ironiska,» viņa teica. «Tagad man jāizskaidro atšķirība starp likumīgu plivināšanu un nelikumīgu plaukšķi, pasniedzot aukstu biešu zupu.» 
+
+Pašvaldības dati liecina, ka jautājums nav sīks. Pilotmonitoringa programma pagājušā gada augustā konstatēja, ka pēckoncerta aplausu līmenis centrālajā Jūrmalā sasniedza 22 decibeles un lika 41% tuvumā dzīvojošo iedzīvotāju aprakstīt vakaru kā «negaidīti aktīvu». Viens respondents ziņoja, ka, mēģinot lasīt žurnāla rakstu par ilgtspējīgiem aizkariem, viņš dzirdējis «svinīgu triecienu secību». 
+
+Reģionālie amatpersonas ziņo, ka līdzīgi modeļi jau tiek pētīti Saulkrastos un Pērnavas daļās, lai gan Igaunija, pēc ziņām, apsver vēl stingrāku regulu, kurā atzinība jāiesniedz digitāli trīs darba dienu laikā. 
+
+Ceturtdienas pēcpusdienā darbinieki bija uzstādījuši pirmās pludmales zīmes ar uzrakstu «PALDIES, KA NOVĒRTĒJAT ATBILDĪGI». Zem tām vairāki gados vecāki iedzīvotāji vēroja ielu akordeonistu, kurš izspēlēja dzīvīgu vecā Raimonda Paula melodijas atdari, un atlīdzināja viņam ar septiņām sevšķi nopietnām mājienām un to, ko aculiecinieki aprakstīja kā «sirdsplosoši sirsnīgu» mirkšķi.`,
+      ru: `ЮРМАЛА — В том, что городские планировщики называют важным шагом к сохранению акустического достоинства побережья, муниципалитет Юрмалы на этой неделе одобрил новые правила, устанавливающие 2,7‑километровую Зону беззвучных аплодисментов, простирающуюся от концертного зала Дзинтари до участка пляжа, который жители просто называют «потой спокойнее после киоска». 
+
+Согласно новым правилам, публичные выражения одобрения, превышающие 14 децибел, будут классифицироваться как «перформативное нарушение» и могут повлечь за собой предупреждение, выдачу брошюры о соразмерном энтузиазме или, в повторных случаях, обязательное посещение муниципального семинара под названием «Аплодисменты без агрессии». 
+
+Указ был принят после того, как 612 жителей подписали петицию, в которой говорилось, что привычные хлопки стали «слишком резкими, слишком уверенными и всё чаще ассоциируются с людьми, прибывающими на поезде из центра Риги в браслетах от мероприятий». Петицией руководила гражданская группа «Прибрежная умеренность ради будущих поколений», члены которой заявили, что они не против радости как таковой, но предпочитают, чтобы она «проходила через надлежащее сезонное сдерживание». 
+
+«Это не цензура», — сказала заместитель исполнительного директора по управлению экологическим настроением Илзе Приедите, стоя рядом с ламинированным плакатом, изображающим допустимые и недопустимые способы выражения признательности. «Речь идёт о защите традиционной звуковой среды Юрмалы, которая исторически состоит из сосновых деревьев, далеких звуков велосипедных звонков и одного ребёнка, просящего мороженое в тоне управляемого разочарования». 
+
+Согласно 38‑страничному плану реализации муниципалитета, одобренные жесты включают мягкое парение ладони, дипломатическое постукивание кончиками пальцев и «балтийскую дугу признания» — описываемую как опускающее движение подбородка, предполагающее и одобрение, и эмоциональный самоконтроль. Полные ладонь в ладонь аплодисменты по-прежнему будут разрешены в специально отведённых Коридорах энтузиазма у крупных выходов транспорта, где посетители могут свободно праздновать до 90 секунд, прежде чем войти в жилые полосы адаптации к тишине. 
+
+В концертном зале Дзинтари, где политику впервые испытают на уикендовой серии камерной музыки, зрителям выдадут цветные карточки с инструкциями о том, какая реакция уместна. Зелёная карточка даёт право на до трёх приглушённых контактов ладонями после скрипичного соло; жёлтая указывает, что восхищение должно остаться внутренним; красная советует тёпло подумать о выступлении позже, возможно, уже дома. 
+
+Музыканты отнеслись к инициативе по-разному. «С одной стороны, каждый артист живёт аплодисментами», — сказал виолончелист Эдгарс Витолс из инициативы Riga String Initiative. «С другой стороны, если публика даст мне длинный коллективный носовой выдох и несколько контролируемых кивков, я смогу научиться воспринимать это как любовь. Латвийская публика уже была наполовину готова к этому». 
+
+Не все жители поддержали меру. Владелица кафе Марина Йелисејева, чья терраса выходит на одну из недавно размеченных зон, сказала, что боится, что политика может ввести в заблуждение летних гостей. «В прошлом году они всё ещё разбирались, обязательно ли улыбаться незнакомцам или это ирония, — сказала она. — Теперь мне придётся объяснять разницу между законным порханием и незаконным хлопком, пока я наливаю холодный свекольник». 
+
+Муниципальные данные свидетельствуют, что вопрос не тривиален. Пилотная программа мониторинга, проведённая прошлым августом, показала, что постконцертные аплодисменты в центральной Юрмале достигали пика в 22 децибела и заставляли 41% соседей описывать вечер как «неожиданно активный». Один респондент сообщил, что слышал «последовательность праздничных ударов», пытаясь читать статью о устойчивых шторах. 
+
+Региональные чиновники говорят, что аналогичные модели уже изучают в Саулкрасти и в частях Пярну, хотя, по сообщениям, Эстония рассматривает ещё более жёсткую схему, при которой одобрение должно быть подано в цифровом виде в течение трёх рабочих дней. 
+
+К вечеру четверга рабочие установили первые прибрежные таблички с надписью «СПАСИБО ЗА ОТВЕТСТВЕННОЕ ВЫРАЖЕНИЕ ПРИЗНАТЕЛЬНОСТИ». Под ними несколько пожилых жителей наблюдали, как уличный аккордеонист исполнил оживлённую версию старой мелодии Раймондса Паулса, а затем отблагодарили его семью торжественными кивками и тем, что свидетели описали как «разрушительно искреннее» моргание.`
+    },
+    date: "Oct 12, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/302/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 301,
     slug: "riga-introduces-dynamic-silence-pricing-residents-301",
     title: {
@@ -102,7 +189,7 @@ Ja pilots būs veiksmīgs, Rīga var paplašināt modeli arī pludmales piegulo�
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/301/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 300,
