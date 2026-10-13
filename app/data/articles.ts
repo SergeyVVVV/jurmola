@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 303,
+    slug: "riga-introduces-mandatory-7-minute-silence",
+    title: {
+      en: "Riga Introduces Mandatory 7-Minute Silence After Any Mention of Real Estate Prices",
+      lv: "Rīga ievieš obligātu 7 minūšu klusumu pēc jebkuras atsauces uz nekustamā īpašuma cenām",
+      ru: "Рига вводит обязательные 7 минут молчания после любого упоминания цен на недвижимость"
+    },
+    excerpt: {
+      en: "City officials in Riga have approved a new public health measure requiring all residents to observe seven minutes of silence whenever apartment prices are discussed within earshot. Authorities say the policy is designed to reduce stress-related sighing, spontaneous laughing, and incidents of people opening rental websites “just to check” before staring into the middle distance for several hours.",
+      lv: "Rīgas pilsētas amatpersonas ir apstiprinājušas jaunu sabiedrības veselības pasākumu, kas uzliek pienākumu visiem iedzīvotājiem ievērot septiņu minūšu klusumu ikreiz, kad dzirdama runa par dzīvokļu cenām. Pašvaldība skaidro, ka politika paredzēta, lai samazinātu ar stresu saistītus nopūtas, spontānu smīdināšanos un gadījumus, kad cilvēki atver īres mājaslapas „tikai lai paskatītos”, pēc tam vairākas stundas kurtu skatienu virzienā.",
+      ru: "Городские власти Риги утвердили новую меру общественного здоровья: всем жителям предписывается соблюдать семь минут молчания всякий раз, когда поблизости обсуждают цены на квартиры. По словам чиновников, политика призвана снизить количество вздохов, нервного смеха и случаев, когда люди «просто заглядывают» на сайты аренды, а потом смотрят в одну точку несколько часов."
+    },
+    fullContent: {
+      en: `RIGA — In what municipal leaders are calling a “modest, evidence-based emotional cooling mechanism,” the Riga City Council on Tuesday adopted emergency regulations requiring a mandatory seven-minute silence after any public mention of real estate prices within city limits.
+
+The new rule, which takes effect Monday at 8:00 a.m., applies to conversations on public transport, in cafes, at family gatherings, and in the queue at Rimi if at least one person says a phrase including “two-room apartment,” “renovated building,” or “up-and-coming neighborhood” in a tone deemed “financially destabilizing.”
+
+According to the Department of Civil Calm, the measure was drafted after a six-month pilot project in Teika and Āgenskalns found that immediate silence reduced secondary panic by 43%, passive-aggressive whistling by 61%, and the phrase “for that money you could buy a whole house in Daugavpils” by nearly 80%.
+
+“We are not banning the discussion of housing,” said Deputy Mayor Ilze Priedīte, standing before a chart titled Emotional Consequences of Hearing ‘€240,000 for Need of Light Cosmetic Refresh’. “We are simply creating a dignified civic pause in which residents may process the information, blink at a fixed point, and ask themselves whether they truly need indoor walls in all rooms.”
+
+Under the regulations, the silence must begin immediately after the price is spoken. During this time, witnesses are encouraged to look out a window, hold a ceramic mug with both hands, or softly recite the cadastral value of a relative’s countryside property for grounding. Fines range from €15 for nervous giggling to €70 for saying “actually that’s not bad for the area.”
+
+The policy has already sparked debate among real estate professionals, many of whom argue it will complicate standard apartment viewings. “It used to be straightforward,” said estate agent Mārtiņš Vītols of Amber Nest Realty. “You show the 38-square-meter flat, mention that it has ‘historic charm,’ and then say €189,000. Now I have to stand in respectful silence with clients for seven minutes while everyone looks at the radiator. It affects momentum.”
+
+Others believe the law does not go far enough. Sociologist and housing researcher Dr. Baiba Ozoliņa said the city should also require a post-discussion recovery bench every 300 meters. “Our latest survey found that 72% of Riga residents have, at some point, heard the words ‘exclusive development in Mežaparks’ and immediately needed to sit down,” she said. “Among those under 35, that figure rises to 94%, with 12% reporting they briefly considered becoming lighthouse keepers.”
+
+Local resident Kristaps Liepiņš, 31, said he welcomed the change after accidentally overhearing two architects discussing “starter homes” in a coffee shop. “One of them said €310,000 and then added, ‘but it’s compact,’” Liepiņš recalled. “I blacked out for maybe two seconds. When I came to, I was nodding as if this were normal and researching ferries to Sweden.”
+
+Businesses across Riga are now adjusting to comply. Several cafes have introduced designated Price Recovery Corners featuring herbal tea, weighted blankets, and a laminated photograph of a Soviet-era utility bill labeled “Perspective.” A spokesperson for Latvijas Dzelzceļš confirmed that onboard announcements will soon include a warning reminding passengers that any discussion of square-meter costs between Zemitāni and Jugla must be followed by “silence appropriate to the scale of personal disappointment.”
+
+In Jurmala, where the average detached house listing can cause dizziness in adults with no preexisting condition, officials say they are monitoring the situation closely. A trial version of the law there would replace the seven-minute silence with a brief guided breathing exercise and a municipal employee whispering, “No one is forcing you to live near the sea.”
+
+As residents prepared for the new rules, some expressed cautious optimism that the measure might restore basic functioning to the capital. By late afternoon Tuesday, however, the council was forced to pause its own press conference for seven minutes after a reporter asked what kind of apartment a city employee could theoretically afford on a normal salary.`,
+      lv: `RĪGA — To, ko pašvaldības vadītāji sauc par „pieticīgu, uz pierādījumiem balstītu emocionālās atdzišanas mehānismu”, otrdien Rīgas domē apstiprināja ārkārtas noteikumus, kas uzliek obligātu septiņu minūšu klusumu pēc jebkuras publiskas atsauces uz nekustamā īpašuma cenām pilsētas teritorijā.
+
+Jaunais noteikums, kas stāsies spēkā pirmdien plkst. 8:00, attiecas uz sarunām sabiedriskajā transportā, kafejnīcās, ģimenes sanāksmēs un rindā Rimi, ja vismaz viena persona izsaka frāzi, kas ietver 'divistabu dzīvoklis', 'renovēta ēka' vai 'attīstāmais rajons' toņā, ko uzskata par 'finansiāli destabilizējošu'.
+
+Saskaņā ar Civiskā klusuma pārvaldes datiem pasākums izstrādāts pēc sešu mēnešu pilotprojekta Teikā un Āgenskalnā, kurā konstatēts, ka tūlītējs klusums samazina sekundāro paniku par 43%, pasīvi-agresīvu svilpošanu par 61% un frāzes „par tādu naudu jau var nopirkt veselu māju Daugavpilī” lietojumu gandrīz par 80%.
+
+"Mēs neaizliedzam runāt par dzīvojamo fondu," sacīja vicemēre Ilze Priedīte, stāvot pie diagrammas ar nosaukumu Emocionālās sekas, kad dzird: '€240 000 par vieglu kosmētisku atjaunošanu'. "Mēs vienkārši radām cienījamu pilsonisku pauzi, kurā iedzīvotāji var sagremot informāciju, skatīties uz kādu punktu un uzdot sev jautājumu — vai viņiem patiešām vajag iekšējās sienas visās telpās."
+
+Saskaņā ar noteikumiem klusumam jāsākas nekavējoties pēc cenu nosaukšanas. Šajā laikā liecinieki tiek aicināti palūkoties pa logu, abas rokās satvert keramisko krūzi vai klusi atkārtot radinieka lauku īpašuma kadastrālo vērtību kā piesaistes mantru. Soda naudas svārstās no €15 par nervozu smīnināšanos līdz €70 par teikumu 'patiesībā tas nav nemaz tik slikti šajā rajonā.'
+
+Politiskā tirgū jau izcēlusies diskusija — daudzi nekustamo īpašumu speciālisti apgalvo, ka tas sarežģīs standarta apskates. "Agrāk viss bija vienkāršāk," sacīja nekustamo īpašumu aģents Mārtiņš Vītols no Amber Nest Realty. "Tu parādi 38 kvadrātmetru dzīvokli, pieminē 'vēsturisko šarmu' un tad pateiksi €189 000. Tagad man sev klāt ar klientiem septiņas minūtes jākļūst par cienījamu klusumu, kamēr visi skatās uz radiatoru. Tas izjauc tempu."
+
+Citi uzskata, ka likums neiet pietiekami tālu. Socioloģe un mājokļu pētniece Dr. Baiba Ozoliņa sacīja, ka pilsētai vajadzētu arī paredzēt atveseļošanās soliņus ik pēc 300 metriem. "Mūsu jaunākais pētījums parādīja, ka 72% rīdzinieku kaut kad ir dzirdējuši vārdus 'ekskluzīva apbūve Mežaparkā' un uzreiz vajadzēja apsēsties," viņa teica. "Starp tiem, kas jaunāki par 35 gadiem, šis rādītājs sasniedz 94%, un 12% atzīst, ka īslaicīgi apsvēra kļūt par bākas sargiem."
+
+Vietējais iedzīvotājs Kristaps Liepiņš, 31, teica, ka sveicina izmaiņas pēc tam, kad nejauši pārdzirda divu arhitektu sarunu par 'sākuma mājām' kādā kafejnīcā. "Viens no viņiem teica €310 000 un pēc tam piebilda: 'bet tas ir kompakts'," Liepiņš atcerējās. "Es, iespējams, zaudēju samaņu uz kādām divām sekundēm. Kad atguvos, es piebalsoju it kā tas būtu normāli un sāku meklēt prāmjus uz Zviedriju."
+
+Uzņēmumi visā Rīgā jau pielāgojas prasībām. Vairākas kafejnīcas ieviesušas Cenu atveseļošanās stūrīšus ar zāļu tējām, svarotām segām un laminētu padomju laika komunālā rēķina fotogrāfiju ar uzrakstu 'Perspektīva'. Latvijas Dzelzceļš pārstāvis apstiprināja, ka tuvākajā laikā vilcienu paziņojumos būs brīdinājums, kas atgādinās pasažieriem, — jebkura kvadrātmetra izmaksu apspriešana posmā starp Zemitāniem un Juglu jānoslēdz ar 'klusumu, kas atbilst personiskā vīlas mērogam.'
+
+Jūrmalā, kur vidējais atsevišķās mājas sludinājums var izraisīt reibumu pieaugušajiem bez iepriekšējām veselības problēmām, amatpersonas saka, ka situāciju uzmanīgi uzrauga. Tur izmēģinājumā 7 minūšu klusumu plāno aizstāt ar īsu vadītu elpošanas vingrinājumu un pašvaldības darbinieka čukstu: 'Neviens jums neliek dzīvot pie jūras.'
+
+Kamēr iedzīvotāji gatavojas jaunajiem noteikumiem, daļa izrādīja piesardzīgu optimismu, ka pasākums varētu atgriezt galvaspilsētā elementāru funkcionēšanu. Tomēr vēlās otrdienas pēcpusdienā dome bija spiesta pārtraukt savu preses konferenci uz septiņām minūtēm pēc žurnālista jautājuma, kāda tipa dzīvokli pašvaldības darbinieks teorētiski varētu atļauties par normālu algu.`,
+      ru: `РИГА — В том, что муниципальные руководители называют «скромным, основанным на доказательствах механизмом эмоционального охлаждения», Рижская городская дума во вторник приняла экстренные правила, по которым после любого публичного упоминания цен на недвижимость в пределах города обязателен семиминутный период молчания.
+
+Новое правило, вступающее в силу в понедельник в 8:00 утра, распространяется на разговоры в общественном транспорте, в кафе, на семейных сборах и в очереди в Rimi, если хотя бы один из присутствующих произнёс фразу с «двухкомнатная квартира», «реконструированный дом» или «перспективный район» в тоне, признанном «финансово дестабилизирующим».
+
+По данным Департамента гражданского спокойствия, мера была разработана после шестимесячного пилотного проекта в Тейке и Агенскалнсе, в ходе которого выяснилось, что мгновенное молчание уменьшает вторичную панику на 43%, пассивно‑агрессивное насвистывание — на 61%, а фразу «за эти деньги можно целый дом в Даугавпилсе купить» — почти на 80%.
+
+«Мы не запрещаем обсуждать жильё», — заявила заместитель мэра Илзе Приедите, стоя перед графиком под заголовком «Эмоциональные последствия от слышания „€240,000 за нужду в лёгком косметическом обновлении“». «Мы просто вводим достойную гражданскую паузу, в которой жители могут переварить информацию, моргнуть в одну точку и спросить себя, действительно ли им нужны внутренние стены во всех комнатах». 
+
+Согласно регламенту, молчание должно начинаться немедленно после произнесения цены. В этот период свидетелям рекомендуется смотреть в окно, держать керамическую кружку обеими руками или тихо вслух проговаривать кадастровую стоимость загородной дачи родственника для заземления. Штрафы варьируются от €15 за нервный хихик до €70 за фразу «в общем, для района не так уж плохо». 
+
+На политику уже откликнулись представители сферы недвижимости, многие из которых утверждают, что теперь будет сложнее проводить стандартные показы квартир. «Раньше всё было просто», — сказал риелтор Мартиньш Витолс из Amber Nest Realty. «Показываешь 38‑метровую квартиру, говоришь, что у неё „историческое очарование“, а потом называешь €189,000. Теперь я должен стоять в уважительном молчании с клиентами семь минут, пока все смотрят на радиатор. Это сбивает темп». 
+
+Другие считают, что закон недостаточно строг. Социолог и исследователь жилищной темы доктор Байба Озолина высказала мнение, что городу следовало бы также устанавливать «скамейку восстановления» каждые 300 метров. «Наш недавний опрос показал, что 72% жителей Риги в какой‑то момент слышали словосочетание „эксклюзивная застройка в Межапарксе“ и сразу же им понадобилось присесть», — сказала она. «Среди тех, кому меньше 35, этот показатель поднимается до 94%, а 12% сообщили, что на мгновение подумывали стать смотрителями маяка». 
+
+Местный житель Кристапс Лиепиньш, 31 год, сказал, что приветствует нововведение после того, как случайно подслушал в кафе двух архитекторов, обсуждавших «starter homes». «Один из них сказал €310,000 и добавил: „но компактно“», — вспоминал Лиепиньш. «Я, кажется, отключился на пару секунд. Пришёл в себя — киваю как будто это нормально и уже ищу паромы в Швецию». 
+
+Бизнесы по всей Риге сейчас адаптируются к требованиям. В нескольких кафе появились специальные Уголки восстановления после разговора о цене с травяными чаями, утяжелёнными пледами и ламинированной фотографией советского коммунального счёта с подписью «Перспектива». Представитель Latvijas Dzelzceļš подтвердил, что объявления в поездах скоро будут включать предупреждение: если между Земитани и Юглой ведётся разговор о цене за квадратный метр, он должен завершаться «молчанием, соответствующим масштабу личного разочарования». 
+
+В Юрмале, где среднее объявление о отдельном доме может вызвать головокружение у взрослых без предшествующих патологий, чиновники заявляют, что внимательно наблюдают за ситуацией. Экспериментальная версия закона там предполагает заменить семиминутное молчание кратким руководимым дыхательным упражнением и шёпотом муниципального служащего: «Никто не заставляет вас жить у моря». 
+
+Когда жители готовились к новым правилам, некоторые выразили осторожный оптимизм, что мера может вернуть столице базовую работоспособность. Однако к позднему вторнику сама дума была вынуждена прервать свою пресс‑конференцию на семь минут после того, как один журналист спросил, какую квартиру теоретически мог бы позволить себе городский служащий на обычную зарплату.`
+    },
+    date: "Oct 13, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/303/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 302,
     slug: "jrmala-introduces-silent-applause-zone-after-302",
     title: {
@@ -102,7 +189,7 @@ Ceturtdienas pēcpusdienā darbinieki bija uzstādījuši pirmās pludmales zīm
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/302/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 301,
