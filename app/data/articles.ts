@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 304,
+    slug: "riga-introduces-silent-tram-car-for-304",
+    title: {
+      en: "Riga Introduces Silent Tram Car for Passengers Who Need to Rehearse Mild Complaints Before Arriving at Work",
+      lv: "Rīga ievieš klusējošu tramvaja vagonu pasažieriem, kuriem pirms darba jāpamēģina maigās sūdzības",
+      ru: "Рига вводит тихий вагон трамвая для пассажиров, которым нужно отрепетировать лёгкие жалобы перед выходом на работу"
+    },
+    excerpt: {
+      en: "In a move city officials say reflects “the emotional realities of urban transport,” Rīgas Satiksme has unveiled a new tram carriage reserved for commuters wishing to quietly practice low-stakes dissatisfaction. The pilot program, launched Monday on Route 11, is already being praised as a breakthrough in preserving Latvia’s most important renewable resource: unspoken irritation.",
+      lv: "Pēc pašvaldības amatpersonu teiktā, kas, viņuprāt, atspoguļo «pilsētas sabiedriskā transporta emocionālās realitātes», Rīgas Satiksme atklājusi jaunu tramvaja vagonu, rezervētu pasažieriem, kas vēlas klusi trenēt nenozīmīgas neapmierinātības izteikšanu. Pilotprogramma, kas pirmdien sākta 11. maršrutā, jau tiek slavēta kā pavērsiens Latvijas svarīgākā atjaunojamā resursa — nepateiktas aizkaitinātības — saglabāšanā.",
+      ru: "В шаге, который городские чиновники называют отражением «эмоциональных реалий городского транспорта», Rīgas Satiksme представила новый вагон трамвая, зарезервированный для пассажиров, желающих тихо потренироваться в мелких недовольствах. Пилотный проект, запущенный в понедельник на маршруте 11, уже хвалят как прорыв в сохранении самого важного возобновляемого ресурса Латвии: негласного раздражения."
+    },
+    fullContent: {
+      en: `RIGA — Municipal transport operator Rīgas Satiksme this week introduced what it is calling Europe’s first “Reflective Complaint Car,” a specially designated tram carriage where passengers may silently prepare the modest grievances they intend to share later with colleagues, partners, or nobody at all.
+
+The carriage, marked with a discreet gray sign reading “For Internal Processing Only,” began service Monday morning on Route 11 between Mežaparks and the city center. By 8:17 a.m., transport officials reported it had reached 93% occupancy, making it the most successful public policy initiative in Riga since the city synchronized parking meters to expire exactly three minutes before anyone returns.
+
+According to project coordinator Elīna Vītola, the idea came after a six-month observational study found that 64% of commuters spend the ride to work mentally composing phrases such as “interesting decision” and “of course, if that’s what management wants.” Another 22% were found to be revisiting a conversation from 2019 in which they should have spoken sooner.
+
+“We noticed people were already doing this unofficially,” Vītola told reporters while standing beside a decal instructing riders to maintain at least one meter of emotional distance. “They look out the window, tighten the jaw slightly, and rehearse a complaint at a volume detectable only by their own ancestors. The city felt it was time to support that habit with infrastructure.”
+
+The new carriage includes fog-resistant windows for dramatic staring, muted lighting calibrated to “November at 15:40,” and a digital display cycling through approved thought starters, including “So nobody checked this before sending it?” and “Well, that explains a lot.” Seats are arranged to discourage eye contact but allow strategic sighing. An emergency yellow button has also been installed for passengers whose complaint accidentally escalates into a medium concern.
+
+“I used to waste this energy at home,” said commuter Mārtiņš Bērziņš, 41, who boarded at Brasas iela carrying a thermos and what witnesses described as a fully developed but socially manageable objection to a spreadsheet format. “Now I arrive at the office with my disappointment properly proofread. It’s much more efficient.”
+
+Not everyone is convinced. The Latvian Association of Unprompted Loud Phone Call Participants has criticized the carriage as exclusionary, arguing that all tram spaces should remain available for speakerphone conversations about cousin property disputes. In a statement, the group said the pilot “privileges passive emotional administration over spontaneous public broadcasting.”
+
+Still, early data suggests the concept is working. Rīgas Satiksme says delays caused by overheard muttering have fallen 18%, while workplace complaints delivered before 9:30 a.m. have become 27% more concise. A separate survey found that 71% of passengers exiting the carriage reported feeling “validated, though not in a way that requires smiling.”
+
+The city is already considering expansions. Deputy Mayor Andris Ķezbers confirmed that if the trial continues successfully, Riga may launch a companion bus route for residents who need to silently forgive municipal snow removal, as well as a premium train compartment where passengers can practice saying “no worries” without meaning it.
+
+At the end of the inaugural journey, riders disembarked calmly at Centrālā stacija, many appearing lighter, if only by one carefully curated resentment. Transport staff described the atmosphere as unusually peaceful, noting that for several minutes the carriage held the rarest sound in the capital: thirty Latvians thinking the same critical thought and choosing, for now, to save it for later.`,
+      lv: `RĪGA — Pilsētas transporta operators Rīgas Satiksme šonedēļ atklāja to, ko dēvē par Eiropas pirmo «Reflektīvās Sūdzēšanās Vagonu» — īpaši norīkotu tramvaja vagonu, kur pasažieri var klusām sagatavot tos nelielos pārmetumus, ko plāno vēlāk izteikt kolēģiem, partneriem vai arī nevienam.
+
+Vagons, apzīmēts ar diskrētu pelēku zīmi «Tikai iekšējai apstrādei», pirmdienas rītā sāka kursēt 11. maršrutā no Mežaparka līdz pilsētas centram. Līdz pulksten 8:17 transporta pārstāvji ziņoja, ka tas sasniedzis 93% noslodzi, padarot to par veiksmīgāko publiskās politikas iniciatīvu Rīgā kopš brīža, kad stacionētie automašīnu maksas metri tika sinhronizēti, lai beigtos tieši trīs minūtes pirms kāds atgriežas.
+
+Projekta koordinatora Elīnas Vītolas teiktā, ideja radusies pēc sešu mēnešu novērojuma pētījuma, kas atklāja, ka 64% ikdienas braucēju ceļā uz darbu garīgi formulē tādas frāzes kā «interesants lēmums» un «protams, ja vadība tā vēlas». Vēl 22% konstatēti atkārtoti pārdomājam sarunu no 2019. gada, kurā viņiem būtu bijis jārunā agrāk.
+
+«Mēs pamanījām, ka cilvēki to jau dara neoficiāli,» Vītola sacīja reportieriem, stāvot blakus uzlīmei, kas aicina pasažierus ievērot vismaz viena metra emocionālo distanci. «Viņi skatās pa logu, nedaudz saspiež žokli un mēģina sūdzību tādā skaļumā, ko spēj saklausīt tikai viņu pašu priekšteči. Pilsēta sajuta — laiks atbalstīt šo ieradumu ar infrastruktūru.»
+
+Jaunajā vagonā ir pretmiglas logi dramatiskiem skatieniem, nomācoša apgaismojuma režīms, nokalibrēts uz «novembris, 15:40», un digitāls displejs, kas ritmiski rād a apstiprinātas domāšanas palaišanas frazes, tostarp «Tātad neviens to nepārbaudīja pirms nosūtīšanas?» un «Nu, tas izskaidro daudz ko.» Sēdvietu izvietojums ir tāds, lai mazinātu acu kontaktu, bet atļautu stratēģisku nopūtu izdalīšanos. Uzstādīta arī avārijas dzeltenā poga pasažieriem, kuru sūdzība nejauši pāraug par vidēja līmeņa rūpi.
+
+«Es šādu enerģiju agrāk tērēju mājās,» sacīja 41 gadu vecais pasažieris Mārtiņš Bērziņš, kurš kāpa iekšā pie Brasas ielas, nesot termosu un, pēc aculiecinieku apraksta, pilnībā izstrādātu, bet sabiedriski pārvaldāmu iebildumu pret izklājlapu formātu. «Tagad es ierodos birojā ar savu vīlu pareizi korektētu. Tas ir daudz efektīvāk.»
+
+Ne visi ir pārliecināti. Latvijas Neaicināto Skaļo Telefona Zvanu Dalībnieku asociācija kritizējusi vagonu kā izslēdzošu, apgalvojot, ka visi tramvaja telpas jāatstāj pieejamas telefonsarunām skaļā režīmā par radiņu īpašumu strīdiem. Organizācija paziņojumā norādīja, ka pilots «dod priekšroku pasīvai emocionālajai kārtošanai pār spontānu publisku raidīšanu.»
+
+Tomēr sākotnējie dati liecina, ka koncepts darbojas. Rīgas Satiksme ziņo, ka kavēšanās, ko izraisīja klausāmas murmināšanas gadījumi, samazinājušās par 18%, savukārt darba vietā izteiktas sūdzības pirms pulksten 9:30 kļuvušas par 27% lakoniskākas. Atsevišķs aptaujas rezultāts rāda, ka 71% pasažieru, kas izkāpa no vagona, jutās «atzīti, lai gan ne tādā veidā, kas prasa smaidīt.»
+
+Pilsēta jau apsver paplašināšanu. Domes priekšsēdētāja vietnieks Andris Ķezbers apstiprināja, ka, ja izmēģinājums turpinās veiksmīgi, Rīga varētu ieviest palīgvadītā autobusa maršrutu iedzīvotājiem, kuriem klusi jāpiedod pašvaldības sniegtais sniega novākšanas darbs, kā arī premium vilciena kupeju, kur pasažieri var mēģināt teikt «nekādu bēdu», to nedomājot.
+
+Inaugurācijas brauciena beigās pasažieri mierīgi izkāpa Centrālajā stacijā, daudzi šķita vieglāki, ja ne jau neatbrīvoti, tad vismaz par vienu rūpīgi atlasītu aizvainojumu vieglāki. Transporta darbinieki raksturoja atmosfēru kā neparasti mierīgu, piebilstot, ka vairākas minūtes vagons izskanēja valsts galvaspilsētā retākais troksnis: trīsdesmit latviešu, kas domāja vienu un to pašu kritisko domu un nolēma to pagaidām noglabāt uz vēlāk.`,
+      ru: `РИГА — Муниципальный перевозчик Rīgas Satiksme на этой неделе представил то, что называет первым в Европе «Вагоном рефлексивных жалоб» — специально выделенный вагон трамвая, где пассажиры могут молча подготовить скромные претензии, которые собираются позже озвучить коллегам, партнёрам или никому.
+
+Вагон, отмеченный сдержанным серым знаком «Только для внутренней обработки», вышел на линию в понедельник утром на маршруте 11 между Мезапарком и центром города. К 8:17 представители транспорта сообщили, что заполняемость достигла 93%, что делает проект самым успешным общественно-политическим решением в Риге со времён, когда паркоматы синхронизировали так, чтобы они заканчивали плату ровно за три минуты до возвращения владельца.
+
+По словам координатора проекта Элины Витолы (Elīna Vītola), идея родилась после шестимесячного наблюдения, показавшего, что 64% пассажиров в пути на работу мысленно составляют фразы вроде «интересное решение» и «конечно, если так хочет руководство». Ещё 22% пересматривали разговор 2019 года, в котором им следовало сказать что-то раньше.
+
+«Мы заметили, что люди уже делают это неофициально», — сказала Витола репортёрам, стоя рядом с наклейкой, призывающей сохранять как минимум один метр эмоциональной дистанции. «Они смотрят в окно, слегка сжимают челюсть и отрабатывают жалобу на громкости, слышимой разве что их собственными предками. Город посчитал, что пришло время поддержать эту привычку инфраструктурно.»
+
+Новый вагон оснащён противотуманными стеклами для эффектного пристального взгляда, приглушённым освещением, откалиброванным под «ноябрь, 15:40», и цифровым дисплеем с циклом утверждённых подсказок для мыслей, включая «Так никто не проверил это перед отправкой?» и «Ну что ж, многое стало ясно». Сиденья расположены так, чтобы не провоцировать зрительный контакт, но позволять стратегические вздохи. Также установлена аварийная жёлтая кнопка для пассажиров, чья жалоба случайно перерастает в умеренную проблему.
+
+«Раньше я тратил эту энергию дома», — сказал пассажир Мартиньш Берзиньш (Mārtiņš Bērziņš), 41 год, который зашёл на Брасас и шёл с термосом и, по свидетельствам очевидцев, с полностью сформированным, но социально управляемым возражением по поводу формата таблицы. «Теперь я прихожу в офис с выверенным разочарованием. Это гораздо эффективнее.»
+
+Не все в восторге. Латвийская ассоциация внезапных громких телефонных разговоров раскритиковала вагон как исключающий, заявив, что все трамвайные пространства должны оставаться доступными для громких разговоров по громкой связи о спорах по поводу имущества кузена. В заявлении группа отметила, что пилот «даёт привилегию пассивному эмоциональному администрированию в ущерб спонтанному публичному вещанию». 
+
+Тем не менее ранние данные говорят о положительном эффекте. Rīgas Satiksme сообщает, что задержки из‑за подслушанных бормотаний сократились на 18%, а рабочие жалобы, высказанные до 9:30, стали на 27% короче. В отдельном опросе 71% пассажиров, выходивших из вагона, заявили, что чувствуют себя «подтверждёнными, но не в той степени, чтобы улыбаться». 
+
+Город уже рассматривает расширение проекта. Заммэра Андрис Кезберс (Andris Ķezbers) подтвердил, что в случае успеха эксперимента Рига может запустить сопутствующий автобусный маршрут для жителей, которым нужно молча простить работу муниципальной уборки снега, а также премиальный вагон поезда, где пассажиры смогут отрабатывать «ничего страшного» без внутреннего убеждения.
+
+В конце первого рейса пассажиры спокойно вышли на Центральном вокзале, многие казались полегче — пусть и на одну тщательно подобранную обиду. Сотрудники транспорта охарактеризовали атмосферу как необычно мирную, отметив, что несколько минут в вагоне звучал один из самых редких звуков столицы: тридцать латвийцев одновременно думают одну и ту же критическую мысль и пока решают отложить её до поры.`
+    },
+    date: "Oct 14, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/304/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 303,
     slug: "riga-introduces-mandatory-7-minute-silence",
     title: {
@@ -102,7 +183,7 @@ Kamēr iedzīvotāji gatavojas jaunajiem noteikumiem, daļa izrādīja piesardz�
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/303/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 302,
