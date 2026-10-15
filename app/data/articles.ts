@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 305,
+    slug: "riga-introduces-quiet-siren-to-preserve",
+    title: {
+      en: "Riga Introduces ‘Quiet Siren’ To Preserve Sunday Calm While Still Warning Residents Of Everything",
+      lv: "Rīga ievieš „Klāstošo sirēnu”, lai saglabātu svētdienas mieru un tomēr brīdinātu iedzīvotājus par visu",
+      ru: "Рига вводит «Тихую сирену», чтобы сохранить воскресное спокойствие и при этом предупреждать жителей обо всём"
+    },
+    excerpt: {
+      en: "In a move city officials are calling a breakthrough in Baltic urban balance, Riga has unveiled a new municipal emergency alert system designed to notify the public without producing any noticeable sound. Authorities say the ‘Quiet Siren’ reflects local values by allowing residents to remain mildly informed without forcing anyone to make eye contact with danger.",
+      lv: "Pilsētas amatpersonas to dēvē par pavērsienu Baltijas pilsētvides līdzsvarošanā — Rīga ir prezentējusi jaunu pašvaldības brīdinājumu sistēmu, kas paredzēta, lai informētu sabiedrību, neradot pamanāmu skaņu. Autoritātes saka, ka „Klāstošā sirēna” atspoguļo vietējās vērtības, ļaujot iedzīvotājiem palikt viegli informētiem, neradot vajadzību nevienam skatīties bīstamībai acīs.",
+      ru: "В попытке достичь прорыва в балтийском городском равновесии власти Риги представили новую муниципальную систему экстренного оповещения, которая уведомляет население, не издавая заметного звука. По словам чиновников, «Тихая сирена» отражает местные ценности: позволяет оставаться слегка осведомлёнными, не заставляя никого смотреть опасности в глаза."
+    },
+    fullContent: {
+      en: `RIGA — Seeking to modernize public safety while respecting the capital’s long-established preference for low-volume emotional responses, Riga City Council on Tuesday officially launched its new ‘Quiet Siren’ network, an emergency warning system engineered to alert residents to floods, storms, infrastructure collapse, and unspecified administrative feelings using what officials described as “a firm atmosphere of concern.”
+
+The project, which cost €4.8 million and was partially financed through an EU program for Innovative Civic Stillness, replaces several Soviet-era sirens that residents had complained were “too informative” and “aggressively urgent.” Instead of producing a loud alarm, the new devices emit a subtle 11-second exhale, dim nearby streetlights by 3%, and send what the municipality calls “an intuitive municipal vibration” into the broader environment.
+
+Deputy Mayor for Urban Tone Management Ilze Krastina said the system was developed after extensive public consultation revealed that many Rigans wished to be warned of emergencies in a manner that preserved the city’s weekend character.
+
+“We asked citizens a simple question: do you want to survive, or do you want to survive with dignity?” Krastina told reporters while standing beneath a newly installed siren in Mezaparks that resembled a tasteful Scandinavian birdhouse. “The old alarms screamed. This one suggests. It creates awareness without drama, which is very important in Riga, especially on Sundays between 10 a.m. and lunch.”
+
+According to city testing data, 62% of residents exposed to the Quiet Siren reported sensing that “something municipal may be happening,” while 24% said they initially assumed a neighbor had become silently disappointed in them. A further 9% described the alert as “wind with paperwork.”
+
+Emergency planners insist the technology is already showing promise. During a trial flood alert in Kengarags last month, nearly half of residents eventually moved their cars off the embankment after noticing that the Daugava looked “more committed than usual.” In another simulation, a controlled gas leak in Purvciems was successfully communicated to nearby apartment blocks after local dogs began staring toward the horizon in a synchronized but non-panicked manner.
+
+Not everyone is convinced. Retired tram electrician and Zolitude resident Janis Egle, 71, said he failed to notice three separate test warnings this spring. “I thought I was just having one of those normal Latvian intuitions,” Egle said. “By the third one I had made tea, closed the window, and accepted fate. If that is preparedness, then yes, it worked beautifully.”
+
+The State Fire and Rescue Service has cautiously endorsed the program, though officials confirmed a backup protocol remains in place in case of major disaster. If an event exceeds Level 4 on the national Concern Scale, municipalities are permitted to deploy traditional measures, including a loudspeaker announcement, two men in reflective vests speaking gravely near a bus stop, or in extreme cases, a Facebook post using bold text.
+
+Acoustics consultant Martins Skuja, whose firm spent eight months calibrating the ideal emergency hush, said the challenge was creating a warning subtle enough for Riga but still distinguishable from ordinary Baltic melancholy. “There is a narrow frequency range between ‘light drizzle over tram tracks’ and ‘regional crisis,’” Skuja explained. “We believe we found it.”
+
+City officials say phase two of the program will include multilingual alerts in Latvian, Russian, and what internal planning documents refer to as “meaningful silence for tourists.” Meanwhile, Jurmala representatives have expressed interest in adopting a coastal version that would notify summer residents of incoming storms by slightly repositioning beach chairs toward existential north.
+
+At press time, Riga authorities confirmed the Quiet Siren had been accidentally activated citywide for 14 minutes, prompting thousands of residents to pause, look out the window, and correctly conclude that if it were truly serious, someone’s aunt would have called by now.`,
+      lv: `RĪGA — Cenšoties modernizēt sabiedrības drošību, vienlaikus respektējot galvaspilsētas ilggadējo priekšroku zemas skaņas emocionālām reakcijām, Rīgas dome otrdien oficiāli palaida savu jauno „Klusās sirēnas” tīklu — ārkārtas brīdinājumu sistēmu, izstrādātu, lai brīdinātu iedzīvotājus par plūdiem, vētrām, infrastruktūras sabrukumiem un neskaidriem administratīviem noskaņojumiem, izmantojot to, ko amatpersonas raksturoja kā „mērķtiecīgu bažu auru.”
+
+Projekts, kurš izmaksāja 4,8 miljonus eiro un daļēji tika finansēts caur ES programmu „Inovatīvā pilsoniskā klusēšana”, aizstāj vairākas padomju laika sirēnas, par kurām iedzīvotāji sūdzējās, ka tās bija „pārāk informatīvas” un „agresīvi steidzīgas”. Tā vietā, lai radītu skaļu trauksmi, jaunās ierīces izdala smalku, 11 sekundes ilgstošu izelpu, samazina tuvējās ielu apgaismojuma intensitāti par 3% un izsūta to, ko pašvaldība dēvē par „intuīvu pašvaldības vibrāciju” plašākā vidē.
+
+Pilsētas vicemēre pilsēttonošanas jautājumos Ilze Krastiņa sacīja, ka sistēma tika izstrādāta pēc plašām sabiedriskajām konsultācijām, kurās atklājās, ka daudzi rīdzinieki vēlējās tikt brīdināti par ārkārtas situācijām tādā veidā, kas saglabā pilsētas nedēļas nogales raksturu.
+
+"Mēs uzdevām iedzīvotājiem vienkāršu jautājumu: vai jūs vēlaties izdzīvot, vai izdzīvot ar cieņu?" Krastiņa sacīja žurnālistiem, stāvot zem tikko uzstādītas sirēnas Mežaparkā, kas atgādināja gaumīgu skandināvu putnu namiņu. "Vecās signalizācijas kliedza. Šī ierosina. Tā rada apziņu bez drāmas, kas Rīgā ir ļoti svarīgi, īpaši svētdienās no pulksten 10 līdz pusdienām."
+
+Pilsētas testēšanas datiem 62% iedzīvotāju, kuri bija pakļauti Klusajai sirēnai, ziņoja, ka sajutuši, ka "varbūt notiek kaut kas, kas saistīts ar pašvaldību", kamēr 24% sacīja, ka sākotnēji pieņēmuši, ka kaimiņš klusībā ir vīlies viņos. Vēl 9% brīdinājumu aprakstīja kā "vēju ar papīriem."
+
+Ārkārtas plānotāji uzstāj, ka tehnoloģija jau rāda solījumus. Pēdējā mēneša izmēģinājuma plūdu brīdinājumā Ķengaragā gandrīz puse iedzīvotāju beigās pārvietoja savas automašīnas no krasta, pamanot, ka Daugava izskatās "apņēmīgāka nekā parasti." Citā simulācijā kontrolēta gāzes noplūde Purvciemā tika veiksmīgi nodota tuvējām daudzdzīvokļu mājām pēc tam, kad vietējie suņi sāka sinhroni, taču bez panikas, skatīties pret apvārsni.
+
+Ne visi ir pārliecināti. Aizgājis pensijā tramvaja elektriķis un Zolitūdes iedzīvotājs Jānis Egle, 71 gadu vecs, sacīja, ka viņš pavasarī nepamanīja trīs atsevišķus testa brīdinājumus. "Es domāju, ka man vienkārši ir viena no tām ierastajām latviešu intuīcijām," Egle teica. "Trešajā reizē es biju uztaisījis tēju, aizvēris logu un pieņēmis likteni. Ja tā ir gatavība, tad jā — tas nostrādāja lieliski."
+
+Valsts ugunsdzēsības un glābšanas dienests piesardzīgi ir atbalstījis programmu, lai gan amatpersonas apstiprināja, ka pastāv rezerves protokols gadījumam, ja notiktu liela katastrofa. Ja notikums pārsniedz 4. līmeni valsts Bažu skalā, pašvaldībām ir atļauts izmantot tradicionālas metodes, tostarp skaļruņa paziņojumu, divus vīrus atstarojošajās vestēs, kas nopietni runā pie autobusa pieturas, vai ekstrēmos gadījumos Facebook ierakstu ar treknu tekstu.
+
+Akustikas konsultants Mārtiņš Skuja, kura firma astoņus mēnešus kalibrēja ideālo ārkārtas klusumu, sacīja, ka izaicinājums bija izveidot brīdinājumu pietiekami smalku Rīgai, bet tomēr atšķiramu no ierastās Baltijas melanholijas. "Pastāv šaura frekvenču josla starp 'vieglu smidzinošu lietu pār tramvaja sliedēm' un 'reģionālu krīzi'," Skuja paskaidroja. "Mēs uzskatām, ka to atradām."
+
+Pilsētas amatpersonas norāda, ka programmas otrajā posmā tiks ietverti daudzvalodu brīdinājumi latviešu, krievu un tam, ko iekšējie plānošanas dokumenti dēvē par "jēgpilnu klusumu tūristiem." Tikmēr Jūrmalas pārstāvji izrādījuši interesi par piekrastes versiju, kas vasaras iedzīvotājus brīdinātu par tuvojošām vētrām, nedaudz pārkārtojot pludmales krēslus uz eksistenciālā ziemeļa pusi.
+
+Preses brīdī Rīgas varas iestādes apstiprināja, ka Klusā sirēna nejauši bija aktivizēta visā pilsētā uz 14 minūtēm, liekot tūkstošiem iedzīvotāju apstāties, paskatīties ārā pa logu un pareizi secināt, ka, ja tas tiešām būtu nopietni, kāda tante jau būtu piezvanījusi.`,
+      ru: `РИГА — Стремясь модернизировать общественную безопасность и вместе с тем уважать давние предпочтения столицы к выдержанным эмоциональным реакциям, Рижская городская дума во вторник официально запустила сеть «Тихая сирена», муниципальную систему оповещения, разработанную для предупреждения жителей о наводнениях, штормах, обрушениях инфраструктуры и неспецифицированных административных переживаниях с использованием того, что чиновники описали как «твёрдую атмосферу обеспокоенности». 
+
+Проект, стоимостью €4,8 млн и частично профинансированный через программу ЕС «Инновационное гражданское безмолвие», заменяет несколько советских сирен, о которых жители жаловались, что они «слишком информативны» и «агрессивно срочны». Вместо громкой тревоги новые устройства издают тонкий 11‑секундный выдох, приглушают ближайшие фонари уличного освещения на 3% и передают то, что муниципалитет называет «интуитивной муниципальной вибрацией» в окружающую среду. 
+
+Заместитель мэра по управлению городским тоном Илзе Крастина заявила, что систему разработали после масштабных общественных консультаций, которые показали, что многие рижане хотят получать предупреждения об чрезвычайных ситуациях таким образом, чтобы это сохраняло характер города на выходных. 
+
+«Мы задали гражданам простой вопрос: вы хотите выжить или вы хотите выжить с достоинством?» — сказала Крастина репортёрам, стоя под недавно установленной сиреной в Мезапарке, похожей на со вкусом оформленный скандинавский скворечник. «Старые сигнализации орали. Эта — предлагает. Она формирует осознание без драмы, что очень важно в Риге, особенно по воскресеньям с 10 утра до обеда». 
+
+По данным городских тестов, 62% жителей, подвергнувшихся воздействию Тихой сирены, сообщили, что почувствовали: «что-то муниципальное может происходить», тогда как 24% сначала решили, что сосед молча разочаровался в них. Ещё 9% описали оповещение как «ветер с бумагами». 
+
+Планировщики чрезвычайных ситуаций настаивают, что технология уже показывает результаты. Во время пробного оповещения о наводнении в Кенгарагсе в прошлом месяце почти половина жителей в конечном счёте переместили свои машины с набережной после того, как заметили, что Даугавa выглядела «более решительно настроенной, чем обычно». В другом сценарии контролируемой утечки газа в Пурвциемсе соседним жилым домам успешно донесли сообщение после того, как местные собаки синхронно, но без паники, уставились в сторону горизонта. 
+
+Не все убеждены. 71‑летний пенсионер, бывший трамвайный электрик и житель Золитуде Янис Эгле сказал, что этой весной он не заметил три отдельные тестовые тревоги. «Я думал, что это просто одна из тех обычных латвийских интуиций», — сказал Эгле. «К третьей я уже успел заварить чай, закрыть окно и смириться с судьбой. Если это и есть готовность, то да — сработало прекрасно». 
+
+Государственная пожарно-спасательная служба осторожно одобрила программу, хотя официальные лица подтвердили, что резервный протокол остаётся в силе на случай крупной катастрофы. Если событие превысит Уровень 4 по национальной Шкале Озабоченности, муниципалитетам разрешается применять традиционные меры, включая объявление по громкоговорителю, двух мужчин в светоотражающих жилетах, говорящих тяжёлым голосом у автобусной остановки, или, в крайних случаях, пост в Facebook с использованием жирного шрифта. 
+
+Акустический консультант Мартиньш Скуя, чья фирма восемь месяцев калибровала идеальную экстренную тишину, сказал, что задача заключалась в создании предупреждения достаточно тонкого для Риги, но всё ещё отличимого от обычной балтийской меланхолии. «Существует узкий частотный диапазон между „лёгким моросящим дождиком над трамвайными рельсами“ и „региональным кризисом“, — объяснил Скуя. — Мы считаем, что нашли его». 
+
+Городские власти заявляют, что второй этап программы будет включать многоязычные оповещения на латышском, русском и то, что внутренние планировочные документы называют «значимым молчанием для туристов». Между тем представители Юрмалы выразили интерес к прибрежной версии, которая уведомляла бы летних жителей о надвигающихся штормах путём лёгкого поворота пляжных шезлонгов в сторону экзистенциального севера. 
+
+На момент выхода материала власти Риги подтвердили, что Тихая сирена была случайно активирована по всему городу на 14 минут, что заставило тысячи жителей на мгновение замереть, выглянуть в окно и правильно сделать вывод: если бы это было действительно серьёзно, тётя уже бы позвонила.`
+    },
+    date: "Oct 15, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/305/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 304,
     slug: "riga-introduces-silent-tram-car-for-304",
     title: {
@@ -96,7 +183,7 @@ Inaugurācijas brauciena beigās pasažieri mierīgi izkāpa Centrālajā stacij
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/304/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 303,
