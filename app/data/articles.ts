@@ -18,6 +18,91 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 306,
+    slug: "jrmala-introduces-quiet-siren-to-warn-306",
+    title: {
+      en: "Jūrmala Introduces ‘Quiet Siren’ To Warn Residents Of Incoming Tourists Without Disturbing Pine Trees",
+      lv: "Jūrmala ievieš „klusās sirēnas”, lai brīdinātu iedzīvotājus par tuvojošiem tūristiem, netraucējot priedēm",
+      ru: "Юрмала вводит «тихую сирену», чтобы предупреждать жителей о приближающихся туристах, не тревожа сосны"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala this week unveiled a new low-volume civil defense system designed to alert residents when weekend visitors from Riga are approaching the coast. The so-called ‘quiet siren’ emits a respectful amber-colored hum intended to preserve the emotional stability of local pine trees while giving homeowners enough time to hide parking cones and artisanal seating.",
+      lv: "Šonedēļ Jūrmalas pašvaldības amatpersonas atklāja jaunu zema skaļuma civilās aizsardzības sistēmu, kas paredzēta, lai brīdinātu iedzīvotājus, kad no Rīgas tuvojas nedēļas nogalē ierēdošie apmeklētāji. Tā sauktā „klusā sirēna” izdod cieņpilnu dzintaraini dunoņu, kas domāta, lai saglabātu vietējo priežu emocionālo stabilitāti, vienlaikus dodot māju īpašniekiem pietiekami laika slēpt stāvvietu konusus un amatnieku sēdvietas.",
+      ru: "Власти Юрмалы на этой неделе представили новую низкоуровневую систему гражданской обороны, предназначенную оповещать жителей о приближении уикенд‑гостей из Риги. Так называемая «тихая сирена» издаёт уважительный янтарный гул, призванный сохранить эмоциональное равновесие местных сосен и дать домовладельцам достаточно времени, чтобы спрятать парковочные конусы и ремесленные места для сидения."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a ceremony described by municipal planners as ‘modest, elegant, and acoustically apologetic,’ Jūrmala City Council on Tuesday presented the Baltic region’s first Quiet Siren, a tourism-warning device meant to notify permanent residents of incoming short-term human density without causing unnecessary alarm among dune ecosystems.
+
+Installed atop a cedar-clad observation post near Dzintari concert hall, the siren produces what engineers have called ‘a medium-confidence murmur’ whenever traffic data suggests more than 700 vehicles with bicycle racks, emotional support labradoodles, or unearned opinions about smoked fish are heading toward the resort town.
+
+Mayor Rita Auziņa told reporters the initiative emerged after years of complaints that traditional emergency systems were ‘too shrill for a municipality built almost entirely out of nostalgia, timber, and seasonal passive aggression.’
+
+‘People here deserve warning, but they also deserve dignity,’ Auziņa said while standing beside a prototype wrapped in linen. ‘A family from Purvciems should not be able to arrive at a beach café before local residents have had a fair opportunity to become unavailable.’
+
+According to the municipality’s Department of Atmospheric Calm, the Quiet Siren operates in three escalating phases. Phase One is an almost inaudible exhale, signaling that the highway near Babīte has begun to thicken with SUVs carrying folded paddleboards and one grandfather loudly insisting he knows a better route. Phase Two introduces a faint vibraphone note, advising Jūrmala homeowners to move decorative driftwood, lower pergola visibility, and begin saying, ‘Actually, we were just leaving.’ Phase Three, used only in extreme conditions, releases a subtle cloud of bergamot-scented mist over major intersections.
+
+Officials say the system was calibrated after a 14-month pilot study involving 62 residents, 11 pines, and one highly intuitive café cat named Marts. The study found that conventional sirens increased coastal tension by 38 percent, while the Quiet Siren reduced spontaneous curtain twitching by nearly half. Researchers also recorded a 22 percent improvement in the time it took for locals to reserve all desirable terrace tables before day-trippers entered the pedestrian zone.
+
+Not everyone is convinced. Transport analyst Edgars Sproģis of the think tank Mobility Without Drama questioned whether the technology can handle modern Riga tourism patterns. ‘You’re no longer dealing with simple beach traffic,’ Sproģis said. ‘Today’s visitor is hybrid. They come for sea air, post-Soviet architecture, vegan napoleon cake, and to ask why parking costs more than a theater ticket. A mere murmur may not be enough.’
+
+Still, local business owners have reacted favorably. Ilze Kalniņa, who runs a boutique shop selling hand-poured candles named after weather conditions, said the warning system has already changed the atmosphere. ‘Before, tourists would just appear,’ she said. ‘Now I get six to eight minutes to rotate the ceramics into a more judgmental arrangement.’
+
+The municipality has budgeted €184,000 for the first phase of rollout, including multilingual signage, a mobile app, and a training seminar titled Recognizing Urgency Without Raising Your Voice. Future upgrades may integrate the system with train schedules and weather forecasts to issue special alerts for what planners call ‘false autumns,’ periods when one cool breeze causes 4,000 Riga residents to suddenly crave soup by the sea.
+
+By late afternoon, the first official activation had been recorded as traffic crossed Lielupe Bridge. Several residents were seen calmly lifting bicycles onto balconies, dimming outdoor lanterns, and explaining to no one in particular that Jūrmala used to be quieter.
+
+Council members hailed the launch as a model for civilized preparedness. ‘Other places respond to pressure with noise,’ Mayor Auziņa said. ‘We respond with understatement, fragrance, and advance notice.’`,
+      lv: `JŪRMALA — ceremonijā, ko pašvaldības plānotāji raksturoja kā „klusētu, elegantu un akustiski iežēlojošu”, Jūrmalas dome otrdien prezentēja Baltijas reģiona pirmo Kluso Sirēnu — tūrisma brīdinājuma ierīci, kas paredzēta, lai paziņotu pastāvīgajiem iedzīvotājiem par tuvojošos īstermiņa cilvēku blīvumu, nekaitējot kāpju ekosistēmām.
+
+Uzstādīta ciedra apšuvuma novērošanas postenī netālu no Dzintaru koncertzāles, sirēna rada to, ko inženieri nodēvējuši par „vidējas pārliecības murmulīti”, kad satiksmes dati liecina, ka vairāk nekā 700 transportlīdzekļu ar velo statīviem, emocionālās atbalsta labradoodliem vai nepelnītām pārliecībām par kūpinātu zivi virzās uz kūrortpilsētu.
+
+Mēre Rita Auziņa žurnālistiem sacīja, ka iniciatīva radusies pēc gadiem ilgiem sūdzību stāstiem, ka tradicionālās trauksmes sistēmas esot „pārāk šķība pašvaldībai, kas uzbūvēta gandrīz pilnībā no nostalģijas, koka un sezonālas pasīvās agresijas.”
+
+"Cilvēki šeit pelnījuši brīdinājumu, bet arī cienību," Auziņa sacīja, stāvot blakus prototipam, aptītam lina audumā. "Ģimenei no Purvciema nevajadzētu paspēt ierasties pludmales kafejnīcā pirms vietējiem iedzīvotājiem ir bijusi godīga iespēja kļūt nepieejamiem."
+
+Saskaņā ar pašvaldības Atmosfēras Miera nodaļu, Klusā Sirēna darbojas trīs pakāpēs. Pirmais posms ir gandrīz nedzirdama izelpa, signalizējot, ka šoseja pie Babītes sākusies sabiezēt ar apvidus auto, kas pārved salocītas airu dēļes, un vienu vectēvu, kurš skaļi apgalvo, ka zina labāku maršrutu. Otrais posms ievada vārgu vibrafona noti, iesakot Jūrmalas māju īpašniekiem pārvietot dekoratīvos dreifkokus, samazināt pergolas redzamību un sākt teikt: "Patiesībā mēs jau devāmies prom." Trešais posms, kas tiek izmantots tikai ārkārtējos apstākļos, izplūda smalku bergamotes smaržas miglu pār lielākajām krustojumu vietām.
+
+Amatpersonas apgalvo, ka sistēma tika kalibrēta pēc 14 mēnešu pilotprojekta, kurā iesaistīti 62 iedzīvotāji, 11 priedes un viens īpaši intuitīvs kafejnīcas kaķis vārdā Marts. Pētījums secināja, ka tradicionālās sirēnas palielināja piejūras saspringumu par 38 procentiem, kamēr Klusā Sirēna samazināja spontāno aizkaru pakustēšanos gandrīz uz pusi. Pētnieki arī fiksēja 22 procentu uzlabojumu tajā, cik ātri vietējie var rezervēt visus iekārotos terases galdiņus pirms dienas ceļotāji iekļūst gājēju zonā.
+
+Ne visi ir pārliecināti. Transporta analītiķis Edgars Sproģis no domnīcas "Mobilitāte bez drāmas" apšaubīja, vai tehnoloģija spēs tikt galā ar mūsdienu Rīgas tūrisma tendenču daudzveidību. "Vairs nerunājam tikai par vienkāršu pludmales satiksmi," Sproģis sacīja. "Mūsdienu apmeklētājs ir hibrīds. Viņi nāk pēc jūras gaisa, pēc postsovjetiskās arhitektūras, pēc vegānu napoleon kūkas un lai pajautātu, kāpēc stāvvieta maksā vairāk nekā teātra biļete. Vienkāršs murmulis var nebūt pietiekams."
+
+Tomēr vietējie uzņēmēji reaģējuši pozitīvi. Ilze Kalniņa, kura vada butikveikalu, kurā pārdod roku liestas sveces, nosauktas pēc laikapstākļiem, teica, ka brīdināšanas sistēma jau mainījusi gaisotni. "Agrāk tūristi vienkārši parādījās," viņa sacīja. "Tagad man ir sešas līdz astoņas minūtes, lai keramiku pārorientētu uz nosodošāku izkārtojumu."
+
+Pašvaldība pirmajam ieviešanas posmam budžetējusi 184 000 €, tostarp daudzvalodu norādes, mobilā lietotne un apmācību seminārs ar nosaukumu "Steidzīguma atpazīšana, neceļot balsi." Nākamajās uzlabojumu kārtās plānots sistēmu integrēt ar vilcienu sarakstiem un laikapstākļu prognozēm, lai izsniegtu īpašus brīdinājumus tā sauktajām "viltus rudenim" — periodiem, kad viena vēsā vēsma liek 4 000 Rīgas iedzīvotāju pēkšņi kārot zupu pie jūras.
+
+Vēlāk pēcpusdienā pirmā oficiālā aktivizācija tika reģistrēta, kad satiksme šķērsoja Lielupes tiltu. Vairāki iedzīvotāji redzēti mierīgi paceļam riteņus uz balkoniem, aptumšojot āra laternas un vispārīgā sarunā skaidrojot, ka Jūrmala reiz bijusi klusāka.
+
+Domes locekļi atzina palaišanu par civilizētas gatavības paraugu. "Citas vietas uz spiedienu reaģē ar troksni," sacīja mēre Auziņa. "Mēs reaģējam ar pieklājīgu atturību, aromātu un iepriekšēju paziņojumu."`,
+      ru: `ЮРМАЛА — На церемонии, которую городские планировщики охарактеризовали как «скромную, элегантную и акустически извиняющуюся», Городской совет Юрмалы во вторник представил первую в Балтийском регионе Тихую Сирену — устройство для предупреждения о турпотоке, призванное уведомлять постоянных жителей о приближении краткосрочной человеческой концентрации, не вызывая ненужной тревоги у дюнных экосистем.
+
+Установленная на смотровой вышке, обшитой кедром, рядом с концертным залом Дзинтари, сирена испускает то, что инженеры назвали «шепотом со средней уверенностью», всякий раз, когда данные о трафике показывают более 700 автомобилей с багажниками для велосипедов, лабрадудлями эмоциональной поддержки или незаслуженно громкими суждениями о копчёной рыбе, направляющихся в сторону курортного города.
+
+Мэр Рита Аузиня заявила журналистам, что инициатива возникла после лет жалоб на то, что традиционные системы оповещения «слишком пронзительны для муниципалитета, построенного почти целиком из ностальгии, древесины и сезонной пассивной агрессии». «Люди здесь заслуживают предупреждения, но они также заслуживают достоинства, — сказала Аузиня, стоя рядом с прототипом, завернутым в лен. — Семья из Пурвциемса не должна суметь добраться до пляжного кафе раньше, чем у местных появится справедливый шанс стать недоступными». 
+
+По данным Департамента Атмосферного Спокойствия муниципалитета, Тихая Сирена действует в трёх эскалирующих фазах. Фаза первая — почти неслышный выдох, сигнализирующий о том, что шоссе возле Бабите начало сгущаться внедорожниками с складными паддлбордами и одним дедушкой, громко утверждающим, что он знает лучший маршрут. Фаза вторая вводит едва уловимую вибрафонную ноту, советующую домовладельцам Юрмалы переставить декоративные прибойные брёвна, сделать перголы менее заметными и начать говорить: «Вообще-то мы как раз собирались уходить». Фаза третья, применяемая только в экстремальных условиях, выпускает тонкое облачко бергамотового аромата над крупными перекрёстками.
+
+По словам официальных лиц, система была откалибрована после 14‑месячного пилотного исследования с участием 62 жителей, 11 сосен и одного исключительно интуитивного кафе‑кота по имени Марц. Исследование показало, что обычные сирены повышали прибрежную напряжённость на 38 процентов, в то время как Тихая Сирена сократила спонтанное подёргивание штор почти наполовину. Исследователи также зафиксировали улучшение на 22 процента в времени, за которое местные успевают зарезервировать все желанные столики на террасах до того, как дневные туристы войдут в пешеходную зону.
+
+Не все убеждены. Транспортный аналитик Эдгарс Спрогис из аналитического центра «Мобильность без драм» усомнился, выдержит ли технология современные туристические паттерны Риги. «С туристами сейчас уже не дело в простом пляжном трафике, — сказал Спрогис. — Современный посетитель гибриден. Он приезжает за морским воздухом, постсоветской архитектурой, веганским «наполеоном» и чтобы спросить, почему парковка стоит дороже билета в театр. Обычный шёпот может быть недостаточен». 
+
+Тем не менее местные предприниматели отреагировали благосклонно. Илзе Калниня, владелица бутика со свечами ручной заливки, названными в честь погодных условий, сказала, что система уже изменила атмосферу. «Раньше туристы просто появлялись, — сказала она. — Теперь у меня есть шесть‑восемь минут, чтобы переставить керамику в более осуждающую композицию». 
+
+Муниципалитет выделил 184 000 евро на первый этап внедрения, включая многоязычные таблички, мобильное приложение и учебный семинар под названием «Распознавание срочности без повышения голоса». В будущих обновлениях планируется интеграция системы с расписаниями поездов и прогнозами погоды для выдачи специальных оповещений о том, что планировщики называют «ложными осенями» — периодами, когда один прохладный ветерок заставляет 4 000 жителей Риги внезапно захотеть супа у моря.
+
+К вечеру была зафиксирована первая официальная активация — когда поток машин пересёк мост Лиелупе. Несколько жителей спокойно поднимали велосипеды на балконы, приглушали уличные фонари и, ни с кем конкретно не разговаривая, объясняли, что когда‑то Юрмала была тише.
+
+Члены совета провозгласили запуск образцом цивилизованной готовности. «В других местах на давление отвечают шумом, — сказала мэр Аузиня. — Мы отвечаем сдержанностью, ароматом и заблаговременным предупреждением».`
+    },
+    date: "Oct 16, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/306/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 305,
     slug: "riga-introduces-quiet-siren-to-preserve",
     title: {
@@ -102,7 +187,7 @@ Preses brīdī Rīgas varas iestādes apstiprināja, ka Klusā sirēna nejauši 
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/305/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 304,
