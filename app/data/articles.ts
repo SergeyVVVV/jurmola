@@ -18,6 +18,95 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 307,
+    slug: "jrmala-introduces-quiet-hours-for-seagulls-307",
+    title: {
+      en: "Jūrmala Introduces Quiet Hours for Seagulls After Residents Report ‘Psychological Harassment’ by Bread-Expectant Birds",
+      lv: "Jūrmala ievieš klusuma stundas kaijām pēc iedzīvotāju sūdzībām par 'psiholoģisku vajāšanu' no maizes gaidāmajām putnēm",
+      ru: "Юрмала вводит тихие часы для чаек после жалоб жителей на «психологическое преследование» птицами, ожидающими хлеба"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have approved Latvia’s first voluntary code of conduct for seagulls, asking coastal birds to reduce screaming, hovering, and emotionally manipulative staring between 23:00 and 07:00. The move follows a 148-page resident petition alleging that local gulls have become ‘more organized, less ashamed, and visibly familiar with human weakness.’",
+      lv: "Jūrmalas pašvaldības amatpersonas apstiprinājušas Latvijas pirmo brīvprātīgo uzvedības kodeksu kaijām, lūdzot piekrastes putnus samazināt kliegšanu, riņķošanu un emocionāli manipulējošu skatienu no pulksten 23:00 līdz 07:00. Šis solis seko 148 lappušu iedzīvotāju petīcijai, kurā apgalvots, ka vietējās kaijas ir kļuvušas 'organizētākas, mazāk kautrīgas un acīmredzami pazīstamas ar cilvēku vājībām.'",
+      ru: "Муниципальные власти Юрмалы утвердили первый в Латвии добровольный кодекс поведения для чаек, попросив прибрежных птиц воздерживаться от криков, зависания и эмоционально манипулятивного взгляда с 23:00 до 07:00. Этот шаг последовал за 148‑страничной петицией жителей, утверждавшей, что местные чайки стали «более организованными, менее стыдливыми и заметно знакомыми с человеческой слабостью»."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a vote described by city leadership as ‘symbolic, preventative, and probably unenforceable,’ the Jūrmala City Council on Tuesday approved new seaside behavioral guidelines intended to discourage aggressive late-night activity by seagulls along Majori Beach, Dzintari promenade, and several high-risk pastry zones near Jomas Street.
+
+The measure, officially titled the Nocturnal Coastal Harmony Framework, requests that gulls refrain from shrieking, dive-bombing takeaway containers, and conducting prolonged rooftop disputes during designated quiet hours. While legal experts confirmed the ordinance carries no direct penalties for birds, officials said it establishes an important precedent in municipal communication.
+
+‘For too long, residents have felt that they alone were expected to de-escalate,’ said Deputy Environmental Affairs Chairwoman Ilze Krūkle, standing beneath a sign that read PLEASE DO NOT NEGOTIATE WITH SEAGULLS. ‘A family should be able to consume one cinnamon bun in peace without entering a tactical confrontation with six airborne opportunists.’
+
+The policy was prompted by growing complaints from locals and summer visitors, including 63 formal reports filed last month describing incidents of ‘auditory dominance,’ ‘intimidating synchronized circling,’ and ‘theft performed with professional confidence.’ One pensioner from Bulduri alleged that a gull now waits for her outside the same Narvesen kiosk every morning and has ‘begun sighing theatrically’ if she leaves without purchasing a cheese pastry.
+
+City data appears to support the perception of escalating avian boldness. According to a survey commissioned by the municipality and conducted by the Baltic Institute for Small Public Disturbances, 71% of Jūrmala residents believe seagulls have ‘crossed an important moral line,’ while 42% said they have altered their walking routes to avoid known gull gathering points. An additional 18% reported pretending to be on urgent phone calls in order to avoid eye contact with birds.
+
+Local ornithologist Dr. Artūrs Mežaks said the gulls have likely adapted to seasonal tourism patterns and now associate humans not only with food, but with indecision. ‘The black-headed gull is highly intelligent,’ Mežaks explained. ‘It recognizes weakness instantly. If you hesitate even slightly while holding a waffle, the bird interprets this as a transfer of authority.’
+
+Business owners have expressed mixed feelings. Café manager Santa Veinberga, whose terrace has lost an estimated 11 kilograms of baked goods this season, welcomed the initiative but questioned whether the gulls would comply. ‘We already tried clapping, reflective tape, and a cardboard owl named Guntis,’ she said. ‘They sat on Guntis within forty minutes. One of them looked directly at me while doing it.’
+
+Not all residents support the city’s approach. A small but vocal advocacy group, Coast for All Species, argued that the ordinance unfairly stigmatizes gulls while ignoring the role of tourists who ‘wander the beach holding smoked fish as if consequences do not exist.’ In a statement, the group called for a more balanced conversation around coexistence, waste management, and sandwich visibility.
+
+Enforcement remains largely educational. Beginning next week, municipal workers will distribute multilingual leaflets explaining proper anti-gull posture, emergency pastry shielding techniques, and the importance of projecting emotional certainty. Trial signage has also been installed near popular access points, including one board reminding visitors that feeding gulls ‘creates dependency, entitlement, and in some cases a local leadership structure.’
+
+By Wednesday morning, early results were inconclusive. Several gulls continued screaming over the Gulf of Riga at 04:52, and one was seen dragging half a pīrādziņš across a parking lot with what witnesses described as ‘bureaucratic confidence.’
+
+Still, city officials insisted the framework had already sent a message.
+
+‘This is about respect,’ Krūkle said. ‘We are not anti-bird. We are simply asking that if a seagull is going to ruin someone’s evening, it does so during normal administrative hours.’`,
+      lv: `JŪRMALA — Pašvaldības domes trešdien veiktajā balsojumā, ko pilsētas vadība raksturoja kā 'simbollisku, preventīvu un, visticamāk, neviennozīmīgi izpildāmu', apstiprināja jaunus piejūras uzvedības principus, kuru mērķis ir ierobežot agresīvu nakts aktivitāti kaiju vidū Majoru pludmalē, Dzintaru promenādē un vairākās augsta riska konditorejas zonās pie Jomas ielas.
+
+Šo pasākumu oficiāli sauc par Nakts piekrastes harmonijas ietvaru, un tajā kaijas tiek lūgtas atturēties no kliegšanas, atsevišķu ēdienu ieguves pašnāvnieciskās nolaišanās un ilgstošām strīdām uz jumtiem paredzētajās klusuma stundās. Juristi norādīja, ka rīkojumā nav tiešu sodu putniem, tomēr amatpersonas uzsvēra, ka tas nostāda svarīgu komunikācijas precedentu pašvaldības līmenī.
+
+'Pārlieku ilgi iedzīvotāji jutās, ka tikai no viņiem tiek sagaidīts deeskalācijas darbs,' sacīja vides lietu vicedele Ilze Krūkle, stāvot zem zīmes, uz kuras rakstīts LŪDZAM NENEGOCĒJIET AR KAIJĀM. 'Ģimenei būtu jāspēj apēst viens kanēļmaizītes gabals mierā, nepārvēršot to par taktisku sadursmi ar sešiem gaisā esošiem oportunistiem.'
+
+Politika tika rosināta, reaģējot uz pieaugošām sūdzībām no vietējiem un vasaras viesiem, tostarp 63 formāliem ziņojumiem pagājušajā mēnesī, kuros aprakstīti gadījumi ar 'dzirdes dominanci', 'iebiedējošu sinhronizētu riņķošanu' un 'zādzību, izpildītu ar profesionālu pārliecību'. Viens pensionārs no Bulduriem apgalvoja, ka kaija tagad katru rītu gaida viņu pie tā paša Narvesen kioska un 'sākusi teatrāli nopūsties', ja viņa iziet ārā, nepērkot siera pīrādziņu.
+
+Pilsētas dati, šķiet, apstiprina putnu drosmes pieauguma sajūtu. Saskaņā ar pašvaldības pasūtītu un Baltijas Mazo Publisko Traucējumu Institūta veiktu aptauju 71% Jūrmala iedzīvotāju uzskata, ka kaijas 'ir šķērsojušas nozīmīgu morāles robežu', bet 42% atzina, ka ir mainījuši savus pastaigu maršrutus, lai izvairītos no zināmām kaiju sapulcēšanās vietām. Papildus 18% atklāja, ka izliekas, ka notiek steidzama telefonsaruna, lai izvairītos no acu kontakta ar putniem.
+
+Vietējais ornitologs Dr. Artūrs Mežaks sacīja, ka kaijas, visticamāk, adaptējušās sezonālajām tūrisma tendencēm un tagad cilvēkus asociē ne tikai ar ēdienu, bet arī ar indecisiju. 'Melnagalvainā kaija ir ļoti inteliģenta,' skaidroja Mežaks. 'Tā uzreiz pamanīs vājumu. Ja, turot vafeli, tu pat nedaudz šaubies, putns to uztver kā varas nodošanu.'
+
+Uzņēmēji izteikušies dažādi. Kafejnīcas pārziniece Santa Veinberga, kuras terase šosezon zaudējusi aptuveni 11 kilogramus konditorejas izstrādājumu, sveica iniciatīvu, taču izteica šaubas, vai kaijas ievēros noteikumus. 'Mēs jau esam mēģinājuši ploskāt, līmēt atstarojošo lenti un nolikām kartona pūci vārdā Guntis,' viņa teica. 'Viņas apsēdās uz Gunta četrdesmit minūšu laikā. Viņa vienu no tām skatījās tieši uz mani, darot to.'
+
+Ne visi iedzīvotāji atbalsta pilsētas pieeju. Neliela, bet skaļa aizstāvības grupa 'Piekraste visām sugām' apgalvoja, ka rīkojums negodīgi stigmatizē kaijas, ignorējot tūristu lomu, kuri 'klīst pa pludmali, turot kūpinātas zivis tā, it kā sekas nepastāvētu.' Izplatītajā paziņojumā grupa aicināja uz sabalansētāku sarunu par līdzāspastāvēšanu, atkritumu apsaimniekošanu un sendviču redzamību.
+
+Uzraudzība paliek galvenokārt izglītojoša. Sākot no nākamās nedēļas, pašvaldības darbinieki dalīs daudzvalodu bukletus, kuros skaidrots pareizs pretkaijas stājoklis, ārkārtas konditorejas aizsardzības paņēmieni un emocionālās pārliecības demonstrēšanas nozīme. Tāpat pie populāriem piekļuves punktiem uzstādītas izmēģinājuma zīmes, tostarp viena plāksne, kas atgādina apmeklētājiem, ka kaiju barošana 'rada atkarību, tiesību apziņu un dažos gadījumos vietēju līderības struktūru.'
+
+Līdz trešdienas rītam agrīnie rezultāti bija neskaidri. Vairāki putni turpināja kliegt pāri Rīgas jūras līcim plkst. 04:52, un viens tika novērots velkam pus pīrādziņu pāri stāvlaukumam ar to, ko liecinieki aprakstīja kā 'birokrātisku pārliecību.'
+
+Tomēr pilsētas amatpersonas uzsvēra, ka ietvars jau sūtījis savu vēstījumu. 'Tas ir par cieņu,' sacīja Krūkle. 'Mēs neesam pretputnu. Mēs vienkārši lūdzam, ka, ja kaija grasās sabojāt kāda vakaru, tā to dara ierastajās administratīvajās stundās.'`,
+      ru: `ЮРМАЛА — В голосовании, которое руководство города охарактеризовало как «символическое, превентивное и, вероятно, неисполнимое», Городской совет Юрмалы во вторник одобрил новые прибрежные правила поведения, направленные на то, чтобы отучить чаек от агрессивной ночной активности на пляже Майори, променаде Дзинтари и в нескольких особо рискованных булочных зонах возле улицы Йомас.
+
+Мера, официально названная Рамочной программой ночной прибрежной гармонии, просит чаек воздерживаться от воплей, пикирующих атак на контейнеры с едой навынос и затяжных крышиных споров в установленные тихие часы. Юристы подтвердили, что в ординансе нет прямых санкций для птиц, однако чиновники отметили, что он устанавливает важный прецедент в муниципальной коммуникации.
+
+«Слишком долго жильцы чувствовали, что только от них ожидается деэскалация», — сказала заместитель председателя по вопросам окружающей среды Илзе Крукле, стоя под табличкой с надписью PLEASE DO NOT NEGOTIATE WITH SEAGULLS. «Семья должна иметь возможность спокойно съесть одну булочку с корицей, не вступая в тактическое противостояние с шестью воздушными оппортунистами». 
+
+Политика была вызвана растущим числом жалоб от местных жителей и сезонных гостей: только в прошлом месяце было подано 63 официальных сообщения, описывающих инциденты «слухового доминирования», «угрожающего синхронного кружения» и «кражи, совершённой с профессиональной уверенностью». Одна пенсионерка из Булдури утверждала, что чайка теперь ждёт её каждое утро у того же киоска Narvesen и «начала театрально вздыхать», если она уходит, не купив сырную выпечку.
+
+Данные города, похоже, подтверждают восприятие нарастающей дерзости птиц. Согласно опросу, заказанному муниципалитетом и проведённому Балтийским институтом мелких общественных нарушений, 71% жителей Юрмалы считают, что чайки «перешли важную моральную черту», а 42% заявили, что изменили свои маршруты прогулок, чтобы избегать известных мест скопления чаек. Ещё 18% признались, что делают вид, будто находятся в экстренном телефонном разговоре, чтобы избежать зрительного контакта с птицами.
+
+Местный орнитолог доктор Артурс Межакс сказал, что чайки, вероятно, приспособились к сезонной туристической активности и теперь ассоциируют людей не только с едой, но и с нерешительностью. «Черноголовая чайка очень умна, — объяснил Межакс. — Она мгновенно распознаёт слабость. Если вы хоть немного сомневаетесь, держа вафлю, птица воспринимает это как передачу полномочий». 
+
+Владельцы бизнеса отнеслись к инициативе с сдержанным оптимизмом. Управляющая кафе Санта Вейнберга, с чьей террасы за этот сезон, по оценкам, унесли 11 килограммов выпечки, одобрила инициативу, но усомнилась в послушании чаек. «Мы уже пробовали аплодисменты, отражающую ленту и картонную сову по имени Гунтис, — сказала она. — Они уселись на Гунтиса в течение сорока минут. Одна из них смотрела на меня прямо, пока это происходило». 
+
+Не все жители поддержали подход города. Небольшая, но громкая группа активистов «Побережье для всех видов» заявила, что ордонанс неоправданно стигматизирует чаек, игнорируя при этом роль туристов, которые «бродят по пляжу с копчёной рыбой, будто последствий не существует». В заявлении группа призвала к более взвешенному обсуждению сосуществования, управления отходами и заметности бутербродов.
+
+Применение остаётся во многом просветительским. Начиная со следующей недели муниципальные работники будут раздавать многоязычные буклеты с объяснением правильной «антиичайковой» осанки, приёмов экстренного прикрытия выпечки и важности демонстрации эмоциональной уверенности. На опытных площадках также установили таблички, напоминающие посетителям, что кормление чаек «создаёт зависимость, чувство владения и в некоторых случаях — локальную структуру лидерства». 
+
+К утру среды ранние результаты были неубедительными. Несколько чаек продолжали кричать над Рижским заливом в 04:52, а одна была замечена тащащей по парковке половину pīrādziņš с тем, что очевидцы описали как «бюрократическая уверенность». 
+
+Тем не менее городские власти настаивали, что рамки уже послали сигнал. «Речь о взаимном уважении, — сказала Крукле. — Мы не против птиц. Мы просто просим, чтобы если чайка собирается испортить чей‑то вечер, она делала это в нормальные административные часы».`
+    },
+    date: "Oct 17, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/307/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 306,
     slug: "jrmala-introduces-quiet-siren-to-warn-306",
     title: {
@@ -100,7 +189,7 @@ Domes locekļi atzina palaišanu par civilizētas gatavības paraugu. "Citas vie
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/306/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 305,
