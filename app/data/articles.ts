@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 308,
+    slug: "riga-introduces-silent-tram-car-for-308",
+    title: {
+      en: "Riga Introduces Silent Tram Car for Passengers Who Want to Sigh at Snow in Peace",
+      lv: "Rīga ievieš klusā tramvaja vagonu pasažieriem, kuri vēlas mierā nopūsties pie sniega",
+      ru: "Рига вводит тихий трамвайный вагон для тех, кто хочет спокойно вздохнуть на снег"
+    },
+    excerpt: {
+      en: "Rīgas Satiksme has unveiled a new “contemplation carriage” on Tram No. 11, designed for commuters seeking a more authentic Latvian winter experience. Officials say the car forbids phone calls, laughter above 42 decibels, and any discussion of moving to Spain until after February.",
+      lv: "Rīgas Satiksme atklājusi jaunu «kontemplācijas vagonu» 11. tramvajā, paredzētu braucējiem, kas alkst autentiskākas latviskas ziemas pieredzes. Pēc amatpersonu teiktā, vagonā aizliegti tālruņa zvani, smiekli virs 42 decibeliem un jebkādas sarunas par pārcelšanos uz Spāniju līdz februārim.",
+      ru: "Rīgas Satiksme представила новый «вагон для созерцания» на трамвае №11, рассчитанный на пассажиров, ищущих более аутентичный латвийский зимний опыт. По словам чиновников, в вагоне запрещены телефонные звонки, смех громче 42 децибел и любые разговоры о переезде в Испанию до февраля."
+    },
+    fullContent: {
+      en: `RIGA — In what transport officials are calling a major investment in emotional infrastructure, Rīgas Satiksme on Tuesday launched the capital’s first officially designated Silent Tram Car, a subdued grey carriage attached to several morning and evening Tram No. 11 routes between the city centre and Mežaparks.
+
+The pilot project, formally titled “Interior Climate Mobility Zone No. 3,” is intended for passengers who wish to stand by a fogged-up window, stare at piles of municipal snow, and experience a respectful level of seasonal disappointment without interruption.
+
+According to the transport company, the carriage includes padded anti-cheer surfaces, low-reflection windows, and a specially calibrated heating system set to “just slightly too warm for your coat, but too cold to remove it.” A subtle audio loop replicates the distant sound of someone clearing ice from a windshield.
+
+“We are responding to passenger needs,” said Rīgas Satiksme spokesperson Elīna Dreijere, standing beside the tram in a scarf of administrative beige. “Not every resident wants to begin the day listening to a podcast at full volume from somebody else’s backpack. Some people simply want to exhale heavily and think about whether the slush has always been this philosophical.”
+
+Under the new rules, conversation is permitted only if it concerns weather patterns before 2004, whether fresh dill has become too expensive, or a brief acknowledgment that daylight was longer last week. Laughter above 42 decibels is prohibited, as are video calls, sunflower seed cracking, and optimistic startup vocabulary. One sign near the middle doors reads: “Please keep all visible enthusiasm to a minimum.”
+
+Commuters interviewed on the inaugural ride expressed cautious approval.
+
+“It feels natural,” said 34-year-old insurance analyst Mārtiņš Ozols, who boarded at Radio iela carrying a reusable bag containing exactly one leek. “Usually in public transport I must create this atmosphere myself with posture and silence. Now the city has finally recognized my contribution.”
+
+University student Sabīne Priedīte said she had initially entered the wrong carriage by accident and only realized it when three strangers looked at her after she said “good morning.” “I apologized immediately,” she said. “They accepted in the traditional way, by looking back out the window.”
+
+The project was reportedly inspired by a municipal survey of 8,200 riders conducted last November, in which 71 percent of respondents said they would support “a transport environment more compatible with internal monologue,” while 18 percent said they were “already mentally elsewhere” and 6 percent asked who was conducting the survey and why.
+
+City officials insist the initiative is not anti-social but culturally precise. “There is a difference,” said urban mobility consultant Andris Ķencis, who helped draft the carriage etiquette. “We are not discouraging connection. We are simply creating a protected space for premium-quality reserve, which remains one of Latvia’s most durable traditions.”
+
+To enforce the atmosphere, conductors assigned to the carriage have undergone a two-day training program in discreet eyebrow communication. Repeat offenders may be relocated to the standard tram section, where one child is usually eating something luminous.
+
+Following strong early interest, officials say they may expand the model to buses, regional trains, and one government ministry. Jurmala has already expressed interest in a summer adaptation called the Quiet Beach Wagon, where passengers can sit in mutual silence while carrying folding chairs and pretending not to have opinions about parking.
+
+As the tram reached its final stop in Mežaparks shortly after 8:43 a.m., passengers exited with the subdued satisfaction of people who had successfully shared space without creating any memorable interaction. Several paused briefly in the snow, adjusted their scarves, and continued into the morning, strengthened by the knowledge that somewhere, at least for 17 minutes, nobody had tried to show them a TikTok.`,
+      lv: `RĪGA — To, ko satiksmes amatpersonas dēvē par nozīmīgu ieguldījumu emocionālajā infrastruktūrā, otrdien Rīgas Satiksme ieviesa kā galvaspilsētas pirmo oficiāli noteikto Kluso Tramvaja Vagonu — nosacīti pelēku vagonu, kas pievienots vairākām rīta un vakara 11. tramvaja reisēm starp pilsētas centru un Mežaparku.
+
+Pilotprojekts, formāli nosaukts «Iekštelpu klimata mobilitātes zona Nr. 3», paredzēts pasažieriem, kuri vēlas nostāties pie miglainā loga, skatīties uz sabiedriskajai pārvaldei nodotajām sniega kaudzēm un bez traucējumiem piedzīvot cienīgu sezonālo vilšanos.
+
+Pēc pārvadātāja teiktā, vagonā ir polsterētas pret-prieka virsmas, zema atstarošanās logi un īpaši kalibrēta apkures sistēma, iestatīta uz «nedaudz par siltu jūsu mētelim, bet par aukstu, lai to novilktu». Smalka audio cilpa atdarinot attālu skaņu — kā kāds skalo ledus no stikla.
+
+„Mēs reaģējam uz pasažieru vajadzībām,” sacīja Rīgas Satiksmes pārstāve Elīna Dreijere, stāvēdama blakus tramvajam ar administratīvi bēšu šalli. „Ne visi iedzīvotāji grib dienu sākt, klausoties podkāstu pilnā skaļumā no kāda cita mugursomas. Dažiem cilvēkiem vienkārši gribas dziļi izelpot un padomāt, vai šis dubļainums vienmēr nav bijis tik filozofisks.”
+
+Saskaņā ar jaunajiem noteikumiem sarunas atļautas tikai tad, ja tās skar laika apstākļu modeļus pirms 2004. gada, jautājumu, vai svaigais dilles zars nav kļuvis par dārgu, vai īsu atzīšanos, ka pagājušajā nedēļā dienvidsaule deva vairāk gaismas. Smiekli virs 42 decibeliem ir aizliegti, tāpat kā videozvani, saulespuķu sēklu čiešana un optimistiskā startapu leksika. Pie vidējām durvīm piestiprināts uzraksts: „Lūdzu, ierobežojiet redzamo entuziasmu līdz minimumam.”
+
+Pirmajā reisā aptaujātie pasažieri izteica piesardzīgu piekrišanu.
+
+„Jūtas dabiski,” sacīja 34 gadus vecais apdrošināšanas analītiķis Mārtiņš Ozols, kurš uzkāpa Radio ielā ar atkārtoti lietojamu maisiņu, kurā atradās tieši viens puravs. „Parasti sabiedriskajā transportā šo atmosfēru man pašam jāizveido ar stāju un klusumu. Tagad pilsēta beidzot ir atzinusi manu ieguldījumu.”
+
+Studentu Sabīni Priedīti sākumā, pēc viņas vārdiem, nejauši interesējušais vagonā, un viņa to saprata tikai tad, kad trīs svešinieki paskatījās uz viņu pēc tam, kad viņa teica „labrit”. „Es uzreiz atvainojos,” viņa stāstīja. „Viņi pieņēma atvainošanās tradicionālā veidā — skatoties atpakaļ ārā pa logu.”
+
+Projekts, pēc ziņām, iedvesmots no pašvaldības aptaujas, kurā pagājušā novembrī piedalījās 8200 pasažieru: 71 procentam respondentu patika doma par „pārvadājumu vidi, kas saderīgāka ar iekšējo monologu”, 18 procenti teica, ka viņi „jau garīgi atrodas citur”, un 6 procenti jautāja, kurš šo aptauju veic un kāpēc.
+
+Pilsētas amatpersonas uzsver, ka iniciatīva nav antisosāla, bet gan kultūras precizēta. „Ir atšķirība,” sacīja urbānās mobilitātes konsultants Andris Ķencis, kurš palīdzēja izstrādāt vagonu etiķeti. „Mēs neveicinām atsvešināšanos. Mēs vienkārši radām aizsargātu telpu augstākās kvalitātes rezervētībai, kas joprojām ir viena no Latvijas visnoturīgākajām tradīcijām.”
+
+Lai uzturētu atmosfēru, vagonam piešķirtajiem konduktoriem bijis divu dienu apmācību kurss diskrētajā uzacstu komunikācijā. Pārkāpēji atkārtoti var tikt pārvietoti uz standarta tramvaja daļu, kur parasti kāds bērns ēd kaut ko spīdošu.
+
+Pēc lielas sākotnējās interese amatpersonas saka, ka modeli varētu paplašināt uz autobusiem, reģionālajiem vilcieniem un vienu valsts ministriju. Jūrmala jau izrādījusi interesi par vasaras adaptāciju ar nosaukumu Klusā Pludmales Vagonačka, kur pasažieri var sēdēt savstarpējā klusumā, vadādami salokāmās krēsliņus un izlikdamies, ka viņiem nav viedokļa par stāvvietu sarunām.
+
+Kad tramvajs īsi pēc pulksten 8:43 ieradās galapieturā Mežaparkā, pasažieri izkāpa ar piesardzīgu apmierinājumu — tādu, ko izjūt cilvēki, kuri veiksmīgi dalījušies telpā, neveidojot nevienu atmiņā paliekošu mijiedarbību. Daži uz mirkli apstājās sniegā, sakārtoja šalles un devās tālāk rītā, stiprināti ar zināšanu, ka kaut kur, vismaz 17 minūtes, neviens nav mēģinājis viņiem rādīt TikTok.`,
+      ru: `РИГА — В том, что транспортные власти называют крупной инвестицией в эмоциональную инфраструктуру, Rīgas Satiksme во вторник запустила в столице первый официально обозначенный Тихий трамвайный вагон — приглушённо‑серый вагон, прицепленный к нескольким утренним и вечерним рейсам трамвая №11 между центром города и Межапарком.
+
+Пилотный проект, формально названный «Зона мобильности внутреннего климата №3», предназначен для пассажиров, которые хотят постоять у запотевшего окна, уставиться на кучи коммунального снега и испытать должный уровень сезонного разочарования без помех.
+
+По данным транспортной компании, вагон оснащён мягкими поверхностями, препятствующими оживлению, стёклами с низким отражением и специально настроенной системой отопления, установленной на режим «чуть теплее, чем нужно для пальто, но слишком холодно, чтобы его снять». Тонкий аудиопетля воспроизводит отдалённый звук, похожий на очищение стекла от наледи.
+
+«Мы реагируем на запросы пассажиров», — заявила пресс‑секретарь Rīgas Satiksme Элина Дрейере, стоя у трамвая в шарфе административно‑бежевого цвета. «Не каждый житель хочет начинать день с прослушивания подкаста на полной громкости из чужого рюкзака. Некоторым просто нужно тяжело выдохнуть и подумать, не была ли эта слякоть всегда такой философской». 
+
+По новым правилам разговоры разрешены только если они касаются климатических тенденций до 2004 года, того, не стал ли укроп слишком дорогим, или краткого признания, что на прошлой неделе светового дня было больше. Смех громче 42 децибел запрещён, как и видеозвонки, раскусывание семечек и оптимистичная стартапная лексика. Одна табличка у средних дверей гласит: «Просьба свести видимый энтузиазм к минимуму». 
+
+Пассажиры, опрошенные во время первого рейса, выразили сдержанное одобрение.
+
+«Чувствуется естественно», — сказал 34‑летний страховой аналитик Мартыньш Озолс, который сел на Radio iela, неся многоразовую сумку с ровно одним пореем. «Обычно в общественном транспорте мне приходится создавать эту атмосферу самому — осанкой и молчанием. Теперь город наконец признал мой вклад». 
+
+Студентка Сабине Приедите рассказала, что сначала по ошибке зашла в неправильный вагон и поняла это только когда трое незнакомцев посмотрели на неё после того, как она сказала "доброе утро". «Я сразу извинилась», — сказала она. «Они приняли извинение по‑традиции — снова посмотрев в окно». 
+
+Проект, как сообщается, был вдохновлён муниципальным опросом 8 200 пассажиров, проведённым в прошлом ноябре, в котором 71 процент респондентов сказал, что поддержал бы «транспортную среду, более совместимую с внутренним монологом», 18 процентов ответили, что они «уже мыслями где‑то в другом месте», а 6 процентов поинтересовались, кто проводит опрос и зачем.
+
+Городские власти настаивают, что инициатива не асоциальна, а культурно точна. «Есть разница», — сказал консультант по городской мобильности Андрис Кенцис, который помог разрабатывать этикет вагона. «Мы не отговариваем от общения. Мы просто создаём защищённое пространство для первоклассной сдержанности, остающейся одной из самых прочных традиций Латвии». 
+
+Чтобы поддерживать атмосферу, кондукторы, назначенные в вагон, прошли двухдневный курс по ненавязчивому общению бровями. Повторных нарушителей могут пересадить в обычный сектор трамвая, где обычно один ребёнок ест что‑то светящееся.
+
+После большого начального интереса власти заявляют, что могут распространить модель на автобусы, региональные поезда и одно министерство. Юрмала уже проявила интерес к летней адаптации под названием «Тихий пляжный вагон», где пассажиры смогут сидеть в взаимном молчании, держа складные стулья и делая вид, что у них нет мнения по поводу парковки.
+
+Когда трамвай вскоре после 8:43 прибыл до конечной станции в Межапарке, пассажиры вышли с приглушённым удовлетворением людей, сумевших разделить пространство, не создав при этом ни одного запоминающегося контакта. Несколько человек на мгновение задержались в снегу, поправили шарфы и отправились по своим делам, окрылённые знанием о том, что где‑то, по крайней мере в течение 17 минут, никто не пытался показать им ролик в TikTok.`
+    },
+    date: "Oct 18, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/308/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 307,
     slug: "jrmala-introduces-quiet-hours-for-seagulls-307",
     title: {
@@ -104,7 +203,7 @@ Tomēr pilsētas amatpersonas uzsvēra, ka ietvars jau sūtījis savu vēstījum
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/307/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 306,
