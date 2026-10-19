@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 309,
+    slug: "jrmala-introduces-silent-applause-zones-after-309",
+    title: {
+      en: "Jūrmala Introduces Silent Applause Zones After Residents Complain Seagulls Are Becoming \"Too Confident\"",
+      lv: "Jūrmala ievieš klusās aplausu zonas pēc iedzīvotāju sūdzībām, ka kaijas kļūst «pārāk pašpārliecinātas»",
+      ru: "Юрмала вводит зоны тихих аплодисментов после жалоб жителей на чрезмерную самоуверенность чаек"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have approved the Baltic region’s first designated Silent Applause Zones, where clapping must be performed internally or by gently nodding. The measure follows mounting concern that traditional applause has emboldened local seagulls, which residents say now expect public recognition after stealing pastries.",
+      lv: "Jūrmalas amatpersonas ir apstiprinājušas Baltijas reģiona pirmās noteiktās Kluso aplausu zonas, kur plaukšķināšana jāizdara iekšēji vai maigā galvas mājienā. Šis pasākums seko pieaugošām bažām, ka tradicionālie aplausi ir uzkuplinājuši vietējās kaijas, kas pēc iedzīvotāju teiktā tagad sagaida publisku atzinību pēc konditorejas izstrādājumu nolaupīšanas.",
+      ru: "Чиновники Юрмалы утвердили первые в Балтийском регионе официальные зоны тихих аплодисментов, где аплодировать нужно мысленно или мягко кивая. Мера принята на фоне растущей озабоченности тем, что традиционные аплодисменты сделали местных чаек слишком смелыми: жители жалуются, что птицы теперь ожидают публичного признания после кражи выпечки."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders are calling "proportionate, data-driven, and spiritually coastal," the Jūrmala City Council on Tuesday approved the creation of five Silent Applause Zones along Dzintari Concert Hall, Jomas Street, and selected sections of beach where residents and tourists will be encouraged to celebrate performances, speeches, and successful parking attempts without making any hand-based noise.
+
+The policy, officially titled the Acoustic Humility and Gull Boundary Pilot Program, was passed 11–4 after a three-hour debate and one unexplained recorder solo from the public gallery. It comes after residents reported a sharp rise in what municipal ecologists described as "avian entitlement behavior," particularly among herring gulls seen loitering near cafés and observing customers with "the calm certainty of minor nobility."
+
+"At first it was harmless," said Ilze Priedīte, owner of the pastry kiosk Amber Crumb near Majori station. "A gull would take one piragi, maybe two, and fly away. But this summer they started landing on tables and waiting. One even looked directly at my husband after stealing a Napoleon slice, as if expecting a second round of applause. That is not sustainable for a democracy."
+
+According to a 47-page municipal report, beachside clapping events increased by 18% over the last two years, driven largely by sunset yoga graduations, open-air jazz encores, and tourists successfully folding rental bicycles. During the same period, opportunistic pastry theft by gulls rose 31%, while "post-theft strutting" rose 62%.
+
+Deputy Mayor Edgars Zeibots said the correlation was impossible to ignore. "No one is anti-applause," Zeibots told reporters, speaking beneath a sign that read PLEASE RESPECT THE EMOTIONAL DISTANCE OF LOCAL FAUNA. "But repeated audible praise has altered the social contract. The gull no longer sees itself as a scavenger. It sees itself as a participant in the cultural life of Jūrmala. In one case, a bird attempted to enter a chamber music rehearsal through the artists’ entrance."
+
+Under the new rules, audiences in designated zones will be asked to choose from approved alternatives including modest nodding, brief eyebrow elevation, closed-mouth satisfaction, or what the guidelines describe as "a soft exhale indicating civic approval." For larger events, synchronized mitten waving will be permitted between November and March.
+
+Not everyone is convinced. Viesturs Kalniņš, a percussion teacher from Riga who was fined €15 during the trial phase for what wardens classified as "rhythmically aggressive appreciation," called the policy humiliating. "I attended my niece’s accordion recital," he said. "She played beautifully. I forgot myself for four seconds. Suddenly a man in a green vest appears from behind a dune and tells me I have escalated the confidence of wildlife. This is not the Europe I was promised."
+
+Still, support appears broad among year-round residents. In a survey conducted by Baltic Coastal Institute, 72% of respondents said gulls had become "emotionally overfamiliar," while 14% said they had stopped eating outdoors entirely after one bird allegedly removed a smoked sprat directly from a plate "with the eye contact of a tax inspector."
+
+Municipal wildlife consultant Dr. Signe Auzāne said retraining the birds may take time. "We are dealing with a generation of gulls raised during a period of abundant public validation," she said. "Several juveniles now associate violin music with laminated sandwiches. Reversing that expectation will require consistency, patience, and fewer standing ovations."
+
+City officials say the pilot program will run through September, after which it may expand to select weddings and family gatherings. Enforcement teams have already been trained to identify prohibited enthusiasm, and multilingual signage is expected before the height of tourist season.
+
+By late afternoon on Tuesday, the first Silent Applause Zone had been marked outside a beachfront stage in Dzintari. Following a saxophone performance, the crowd responded with nearly flawless restraint: a field of solemn nods, two dignified blinks, and one deeply moved German tourist quietly placing his hand over his heart.
+
+A nearby gull watched for several seconds, appeared confused, and stole a churro without flourish.`,
+      lv: `JŪRMALA — Pilsētas vadība otrdien pieņēma lēmumu, ko sauc par «proporcionālu, uz datiem balstītu un garīgi piejūras», — Jūrmalas domē tika apstiprināta piecu Kluso aplausu zonu izveide pie Dzintaru koncertzāles, Jomas ielas un izvēlētiem pludmales posmiem, kur iedzīvotājiem un tūristiem tiks ieteikts svinēt uzstāšanos, uzrunas un veiksmīgas auto novietošanas bez jebkāda ar plaukstām radīta trokšņa.
+
+Politika, oficiāli nosaukta par Akustiskās pazemības un kaiju robežu pilotprogrammu, tika pieņemta ar 11–4 pēc trīs stundu debatēm un viena neizskaidrota blokflītes sola no publikas galerijas. Lēmums pieņemts pēc tam, kad iedzīvotāji ziņoja par strauju pieaugumu tam, ko pašvaldības ekologi raksturoja kā «putnu pašpārliecinātības uzvedību», īpaši siļķu kaiju vidū, kuras kavējās pie kafejnīcām un skatījās uz klientiem ar «mierīgu nelielas nobilitātes pārliecību». 
+
+"Sākumā tas bija nekaitīgs," sacīja konditorejas stenda Amber Crumb īpašniece Ilze Priedīte pie Majori stacijas. "Kaija paņemtu vienu piragu, varbūt divus, un aizlidotu. Bet šovasar viņas sāka nolaižas uz galdiem un gaidīt. Viena pat paskatījās tieši uz manu vīru pēc tam, kad nozaga Napoleona gabaliņu, it kā gaidītu vēl vienus aplausus. Tas demokrātijai nav ilgtspējīgi."
+
+Saskaņā ar 47 lappušu pašvaldības ziņojumu pludmales aplausu pasākumu skaits pēdējo divu gadu laikā palielinājies par 18%, ko galvenokārt veicinājušas saulrieta jogas beidzēju ceremonijas, brīvā laika džezes atkārtojumi un tūristu veiksmīga īres velosipēdu salocīšana. Tajā pašā periodā kaiju oportunistiskā konditorejas izstrādājumu zagšana pieauga par 31%, bet «pēczagšanas pozēšana» — par 62%.
+
+Domes priekšsēdētāja vietnieks Edgars Zeibots žurnālistiem, runājot zem zīmes ar uzrakstu LŪDZU, IEVĒROJIET VIETĒJĀS FAUNAS EMOCIONĀLO DISTANCI, sacīja, ka korelāciju nevar ignorēt. "Neviens nav pret aplausiem," teica Zeibots. "Bet atkārtota skaļa slavēšana ir mainījusi sociālo līgumu. Kaija vairs neredz sevi kā barību meklētāju. Tā redz sevi kā Jūrmalas kultūras dzīves dalībnieci. Vienā gadījumā putns mēģināja iekļūt kamermūzikas mēģinājumā pa mākslinieku ieeju."
+
+Saskaņā ar jaunajiem noteikumiem publika noteiktajās zonās tiek lūgta izvēlēties no apstiprinātām alternatīvām, tostarp pieklājīga galvas mājiena, īslaicīga uzacu pacēluma, aizvērtas mutes apmierinājuma vai, kā vadlīnijas raksturo, "maigas izelpas, kas norāda pilsonisku atzinību." Lielākiem pasākumiem no novembra līdz martam būs atļauta sinhronizēta dūrainīšu vicināšana.
+
+Ne visi ir pārliecināti. Rīgas sitaminstrumentu skolotājs Viesturs Kalniņš, kuram izmēģinājuma fāzē uzlikta 15 € naudas soda nauda par to, ko apsargi klasificēja kā "ritmiski agresīvu atzinību", uzskata politiku par pazemojošu. "Es ierados uz savas niece akordeona koncertu," viņš stāstīja. "Viņa spēlēja skaisti. Es uz mirkli aizmirsos — četras sekundes. Pēkšņi no aiz kāpas parādās vīrietis zaļā vestē un saka, ka esmu eskalējis dzīvnieku pašpārliecinātību. Tā nav tā Eiropa, ko man solīja."
+
+Tomēr atbalsts šķiet plašs pastāvīgajiem iedzīvotājiem. Baltijas piekrastes institūta veiktajā aptaujā 72% respondentu teica, ka kaijas ir kļuvušas «emocionāli pārāk tuvīgas», kamēr 14% atzina, ka pēc viena putna, kas, iespējams, tieši no šķīvja paņēma kūpinātu reņģīti „ar nodokļu inspektora acu kontaktu”, viņi vairs ēduši ārpus telpām.
+
+Pašvaldības dabas aizsardzības konsultante Dr. Signe Auzāne sacīja, ka putnu pāraudzināšana var prasīt laiku. "Mēs strādājam ar kaiju paaudzi, kas audzināta periodā, kad publiskā validācija bija bagātīga," viņa teica. "Vairāki jauni putni tagad vijoles mūziku asociē ar laminētām sendvičām. Šo gaidījumu mainīt prasīs konsekvenci, pacietību un mazāk stāvējošu ovāciju."
+
+Domes pārstāvji paziņo, ka pilotprogramma darbosies līdz septembrim, pēc tam to varētu paplašināt uz izvēlētām kāzām un ģimenes sanākšanām. Pildīšanas komandas jau apmācītas identificēt aizliegtu entuziasmu, bet daudzvalodu norādes tiek gaidītas pirms tūrisma sezonas augstuma.
+
+Otrdienas vēlā pēcpusdienā pirmā Kluso aplausu zona tika atzīmēta pie pludmales skatuves Dzintaros. Pēc saksofona priekšnesuma pūlis atbildēja ar gandrīz nevainojamu atturību: lauks nopietnu mājienu, divi cienīgi mirkšķinājumi un viens dziļi aizkustināts vācu tūristis klusi novietoja roku uz krūtīm.
+
+Netālu esoša kaija dažas sekundes vēroja, šķita apjukusi, un bez nekādas lielīšanās nozaga čurro.`,
+      ru: `ЮРМАЛА — В шаге, который городские власти назвали «пропорциональным, основанным на данных и духовно прибрежным», Городской совет Юрмалы во вторник одобрил создание пяти Зон Тихих Аплодисментов вдоль концертного зала Дзинтари, на улице Йомас и на отдельных участках пляжа, где жителей и туристов призовут отмечать выступления, речи и удачную парковку без звуковых хлопков руками.
+
+Политика, официально названная Пилотной программой «Акустическое смирение и границы чаек», была принята 11 голосами против 4 после трёхчасовых дебатов и одного необъяснимого соло на блокфлейте из публики. Решение последовало за сообщениями жителей о резком росте того, что муниципальные экологи охарактеризовали как «поведение птиц с чувством собственного права», особенно у серебристых (атлантических) чаек, которые засиживаются у кафе и смотрят на посетителей «с спокойной уверенностью мелкой знати». 
+
+«Сначала это было безобидно, — сказала Илзе Приедите, владелица киоска с выпечкой Amber Crumb у станции Майори. — Чайка могла взять один пираг, может быть два, и улететь. Но этим летом они стали садиться на столы и ждать. Одна даже посмотрела прямо на моего мужа после того, как стянула кусок «Наполеона», словно рассчитывая на второй раунд аплодисментов. Для демократии это неприемлемо». 
+
+Согласно 47-страничному муниципальному отчету, количество пляжных «аплодисментных» мероприятий выросло на 18% за последние два года, во многом за счёт выпускных по йоге на закате, бисов джаза под открытым небом и туристов, сумевших сложить арендованные велосипеды. За тот же период случаи opportunistic краж выпечки чаеками увеличились на 31%, а «послепохищенческая важная ходьба» — на 62%.
+
+Заместитель мэра Эдгарс Зейботс заявил, что корреляцию нельзя игнорировать. «Никто не против аплодисментов, — сказал Зейботс журналистам, стоя под табличкой: ПОЖАЛУЙСТА, УВАЖАЙТЕ ЭМОЦИОНАЛЬНУЮ ДИСТАНЦИЮ МЕСТНОЙ ФАУНЫ. — Но повторяющееся слышимое восхваление изменило общественный договор. Чайка больше не видит себя санитарным падальщиком. Она считает себя участником культурной жизни Юрмалы. В одном случае птица попыталась войти на репетицию камерного ансамбля через артистический вход». 
+
+В соответствии с новыми правилами зрителей в обозначенных зонах попросят выбрать один из одобренных вариантов выражения одобрения: скромное кивание, краткое поднятие брови, закрытое удовлетворённое выражение лица или то, что в руководстве описано как «тихий выдох, обозначающий гражданское одобрение». Для крупных мероприятий в период с ноября по март будет разрешено синхронное махание в варежках.
+
+Не все в восторге. Виестурс Калнинш, преподаватель ударных из Риги, который был оштрафован на €15 в пробной фазе за то, что надзор счёл «ритмично агрессивным выражением признательности», назвал политику унизительной. «Я пришёл на концерт племянницы — она прекрасно играла. Я потерял контроль на четыре секунды. Вдруг из-за дюны появляется мужчина в зелёной жилетке и говорит, что я повысил уверенность диких животных. Это не та Европа, о которой мне говорили», — пожаловался он.
+
+Тем не менее поддержка среди постоянных жителей, похоже, широка. В опросе Балтийского прибрежного института 72% респондентов заявили, что чайки стали «эмоционально чрезмерно фамильярными», а 14% признались, что после того, как одна птица якобы сняла копчёную шпроту прямо с тарелки «с взглядом налогового инспектора», совсем прекратили есть на улице.
+
+Муниципальный консультант по дикой природе доктор Сигне Аузане предупредила, что перенастройка птиц займёт время. «Мы имеем дело с поколением чаек, выросших в эпоху обильной публичной валидации, — сказала она. — Несколько юниоров теперь ассоциируют скрипичную музыку с ламинированными бутербродами. Обратный процесс потребует последовательности, терпения и меньшего количества стоячих оваций». 
+
+Городские власти утверждают, что пилотная программа продлится до сентября, после чего её могут расширить на отдельные свадьбы и семейные торжества. Команды по обеспечению соблюдения уже обучены выявлять запрещённый энтузиазм, а мультиязычные таблички ожидаются до начала пикового туристического сезона.
+
+К вечеру во вторник первая Зона Тихих Аплодисментов была отмечена у прибрежной сцены в Дзинтари. После выступления саксофониста публика продемонстрировала почти безупречное самообладание: поле торжественных кивков, два достойных моргания и один глубоко тронутый немецкий турист, тихо приложивший руку к сердцу.
+
+Близлежащая чайка наблюдала несколько секунд, выглядела озадаченной и, не делая никакого пафоса, стащила чурро.`
+    },
+    date: "Oct 19, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/309/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 308,
     slug: "riga-introduces-silent-tram-car-for-308",
     title: {
@@ -114,7 +207,7 @@ Kad tramvajs īsi pēc pulksten 8:43 ieradās galapieturā Mežaparkā, pasažie
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/308/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 307,
