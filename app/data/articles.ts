@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 310,
+    slug: "jrmala-introduces-passive-seagull-tax-after-310",
+    title: {
+      en: "Jūrmala Introduces ‘Passive Seagull Tax’ After Birds Found Contributing Nothing But Atmosphere",
+      lv: "Jūrmala ievieš 'pasīvā kaijas nodokli' pēc tam, kad putni konstatēti dot tikai atmosfēru",
+      ru: "Юрмала вводит «налог на пассивное присутствие чаек» после того, как птиц признали вносить в город лишь атмосферу"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have approved a first-of-its-kind seasonal tax on seagulls, arguing that thousands of birds benefit from the city’s coastline, restaurant terraces, and unattended pastries without making any measurable contribution to the local economy. The move has already sparked outrage from ornithologists, pensioners, and the birds themselves, who remain unavailable for comment but visibly indignant.",
+      lv: "Pašvaldības amatpersonas Jūrmalā apstiprinājušas unikālu sezonālu nodokli kaijām, argumentējot, ka tūkstošiem putnu izmanto pilsētas piekrasti, restorānu terases un neuzraudzītas smalkmaizītes, nepieguldot nekādas izmērāmas vērtības vietējā ekonomikā. Lēmums jau izsaucis sašutumu ornitologu, pensionāru un pašu putnu vidū — tie komentāriem nav pieejami, taču acīmredzami aizvainoti.",
+      ru: "Муниципальные чиновники Юрмалы утвердили беспрецедентный сезонный сбор на чаек, аргументируя это тем, что тысячи птиц пользуются береговой линией города, террасами ресторанов и оставленными булочками, не внося никакого осязаемого вклада в местную экономику. Решение уже вызвало возмущение орнитологов, пенсионеров и самих чаек, которые оказались недоступны для комментариев, но явно возмущены."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a 9–4 vote late Tuesday evening, Jūrmala City Council approved a new “Passive Seagull Presence Levy,” charging local businesses a small municipal reimbursement fee for each bird “loitering with economic intent” within 15 meters of a registered commercial activity. Officials say the measure is not punitive, but rather an overdue correction to what they call “decades of unchecked avian freeloading.”
+
+According to the Department of Coastal Balance and Seasonal Irritations, the city hosts an estimated 18,400 seagulls between May and September, with peak occupancy occurring during warm weekends, fish festivals, and any moment a child turns away from a waffle for more than four seconds. A 71-page report commissioned by the municipality concluded that while seagulls significantly increase the “maritime authenticity index” of the resort town, they provide no taxable labor, hold no business licenses, and have “refused all invitations to regularize their status.”
+
+“We are not anti-bird,” said Deputy Mayor Ilze Treifelde during a press conference held near Dzintari Beach under visible aerial supervision. “But if a gull spends six hours near a beach café, screams at tourists, steals half a smoked sprat sandwich, and then leaves droppings on a bicycle basket, that is not recreation. That is participation. Participation has a cost.”
+
+Under the system, cafés, kiosks, and outdoor vendors will pay between €0.03 and €0.11 per gull per hour, depending on wing span, aggression profile, and whether the bird demonstrates what the city defines as “targeted crumb acquisition behavior.” Establishments may apply for partial relief if they can prove the gull was merely passing through, was emotionally distressed, or belonged to a neighboring municipality.
+
+The tax was reportedly inspired by a pilot monitoring program conducted last summer on Jomas Street, where municipal interns equipped with clickers recorded gull movement patterns and “snack interception events.” In one seven-day period, officials logged 412 fry thefts, 88 strategic hovering incidents, and a single coordinated croissant operation involving three juvenile birds and one older male described in documents as “confident beyond administrative tolerance.”
+
+Local business owners remain divided. “On one hand, yes, they are a menace,” said café manager Artūrs Beķeris, whose establishment lost an estimated €640 in fish cutlets and customer morale last season. “On the other hand, tourists expect seagulls. Without them, some Germans might think they accidentally booked Liepāja.”
+
+Not everyone supports the measure. Ornithologist Dr. Maija Ozoliņa of the Baltic Institute for Practical Bird Reality called the policy “legally imaginative and biologically unserious,” noting that seagulls have historically occupied the coast without submitting quarterly declarations. “You cannot simply impose a fiscal framework on an animal whose central philosophy is opportunism,” she said. “If anything, they should be running parts of the customs system.”
+
+Residents have also raised questions about enforcement. The municipality says specially trained inspectors will conduct random shoreline assessments using binoculars, thermal imaging, and a new digital platform, GullDesk, where business owners can report suspicious avian lingering in real time. A beta version of the app briefly crashed on Wednesday after users uploaded 2,300 photos of the same gull outside a bakery in Bulduri.
+
+At the city’s central beach, pensioner and daily walker Velta Skujiņa expressed cautious support. “Frankly, if anyone should be taxed, it is the birds with the loud morning opinions,” she said, pointing at a group circling above a trash bin. “Some of them have better access to seafood than I do.”
+
+By Thursday afternoon, the first invoice had already been issued to a seafood kiosk near Majori station after inspectors observed nine gulls forming what one internal memo described as “a semi-formal intimidation semicircle.” The kiosk owner plans to appeal.
+
+Meanwhile, seagull activity along the coast appeared unchanged. Witnesses reported several birds standing on railings, staring directly at diners with what officials later described as “the familiar tax-resistant posture seen across multiple species, including landlords.”`,
+      lv: `JŪRMALA — Otrdienas vēlā vakarā ar balsojumu 9–4 Jūrmalas dome apstiprināja jaunu 'Pasīvās kaijas klātbūtnes nodevu', uzliekot vietējiem uzņēmumiem nelielu pašvaldības atlīdzību par katru putnu, kas 'uzturas ar ekonomisku nolūku' 15 metru rādiusā ap reģistrētu komerciālu aktivitāti. Amatpersonas saka, ka mērs nav represīvs, bet gan novēlots labojums tam, ko viņi sauc par 'desmitgadēm ilgušu nekontrolētu putnu izkrāpšanu'.
+
+Saskaņā ar Krasta līdzsvara un sezonālo kairinājumu departamenta datiem pilsētā no maija līdz septembrim uzturas aptuveni 18 400 kaiju, maksimumam sasniedzot siltajās brīvdienās, zivju svētkos un jebkurā brīdī, kad bērns pagriež muguru vafelei ilgāk par četrām sekundēm. Pašvaldības pasūtītā 71 lappušu atskaite secināja, ka, lai gan kaijas būtiski palielina kūrorta 'jūras autentiskuma indeksu', tās neveic apliekamu darbu, nerīkojas ar uzņēmējdarbības licencēm un 'atteikušās no visiem aicinājumiem legalizēt savu statusu'.
+
+"Mēs neesam pret putniem," preses konferencē pie Dzintaru pludmales, zem acīmredzamas gaisa uzraudzības, sacīja vietniece Ilze Treifelde. "Bet ja kaija pavada sešas stundas pie pludmales kafejnīcas, kliedz tūristiem virsū, nozog pusi kūpināta strēles sendviča un pēc tam atstāj ekskrementus uz velosipēda groza, tas nav atpūta. Tas ir līdzdalība. Līdzdalībai ir izmaksas."
+
+Sistēmas ietvaros kafejnīcas, kioski un ielu tirgotāji maksās no €0,03 līdz €0,11 par kaiju stundā, atkarībā no spārnu šķērssprieguma, agresijas profila un tā, vai putns demonstrē to, ko pilsēta definē kā 'mērķtiecīgu drupaču iegūšanas uzvedību'. Iestādes var pieteikties daļējai atvieglojumam, ja var pierādīt, ka kaija tikai šķērsoja teritoriju, bija emocionāli traucēta vai piederēja blakus pašvaldībai.
+
+Nodokli iedvesmoja pilotprogramma, kas pagājušovasar tika veikta Jomas ielā, kur pašvaldības praktikanti ar klikeriem reģistrēja kaiju kustības un 'uzkodu starpgadījumu' modeļus. Vienā septiņu dienu periodā amatpersonas uzskaitīja 412 stariņu zādzības, 88 stratēģiskas planēšanas incidentus un vienu koordinētu kruasānu operāciju, kurā piedalījās trīs jaunie putni un viens vecāks tēviņš, kuru dokumentos raksturo kā 'pārliecinātu ārpus administratīvās tolerance'.
+
+Vietējie uzņēmēji paliek dalīti. "No vienas puses, jā, tie ir apdraudējums," sacīja kafejnīcas vadītājs Artūrs Beķeris, kura iestāde pērn sezonā zaudēja aptuveni €640 zivju kotletēs un klientu možumā. "No otras puses, tūristi sagaida kaijas. Bez tām daži vācieši varētu domāt, ka nejauši rezervējuši Liepāju."
+
+Ne visi atbalsta šo pasākumu. Ornitoloģe Dr. Maija Ozoliņa no Baltijas Praktiskās Putnu Realitātes institūta nosauca politiku par "juridiski iztēles bagātu un bioloģiski nenopietnu", atzīmējot, ka kaijas vēsturiski apdzīvojušas piekrasti, neiesniedzot ceturkšņa deklarācijas. "Jūs nevarat vienkārši uzlikt fiskālu režīmu dzīvniekam, kura pamatfilozofija ir opportunisms," viņa sacīja. "Ja kas, viņām vajadzētu vadīt daļu muitas sistēmas."
+
+Iedzīvotāji arī uzdevuši jautājumus par izpildi. Pašvaldība apgalvo, ka īpaši apmācīti inspektori veiks nejaušas krasta pārbaudes, izmantojot binokļus, termokameras un jaunu digitālu platformu GullDesk, kur uzņēmēji var reāllaikā ziņot par aizdomīgu putnu uzkavēšanos. Beta versija īsi sabojājās trešdien pēc tam, kad lietotāji augšupielādēja 2 300 fotogrāfiju ar vienu un to pašu kaiju pie maiznīcas Bulduri.
+
+Pilsētas centrālajā pludmalē pensionāre un ikdienas staigātāja Velta Skujiņa izteica piesardzīgu atbalstu. "Godīgi sakot, ja kādam jāpiemēro nodoklis, tad tie ir putni ar skaļajiem rīta viedokļiem," viņa sacīja, norādot uz grupu, kas riņķoja virs atkritumu tvertnes. "Dažiem no viņiem ir labāka piekļuve jūras veltēm nekā man."
+
+Ceturtdienas pēcpusdienā pirmais rēķins jau tika izrakstīts zivju kioskam pie Majori stacijas pēc tam, kad inspektori novēroja deviņas kaijas, kas izveidoja to, ko viens iekšējais memors aprakstīja kā 'pusformālu iebiedēšanas pusriņķi'. Kioska īpašnieks plāno pārsūdzēt lēmumu.
+
+Tikmēr kaiju aktivitāte gar krastu šķita nemainīga. Aculiecinieki ziņoja par vairākiem putniem, kas stāvēja uz margām un tieši skatījās uz ēdājiem ar to, ko amatpersonas vēlāk aprakstīja kā 'pazīstamo nodokļu neievērošanas stāju, kas novērota daudzās sugās, tai skaitā namu īrniekos.'`,
+      ru: `ЮРМАЛА — В итоге голосования 9–4 поздним вечером во вторник Городской совет Юрмалы одобрил новый «Сбор за пассивное присутствие чаек», согласно которому местные предприятия будут платить небольшую муниципальную компенсацию за каждую птицу, «бездествующую с экономическим намерением» в радиусе 15 метров от зарегистрированной коммерческой деятельности. Чиновники утверждают, что мера не карательная, а давно назревшая корректировка того, что они называют «десятилетиями неконтролируемого птичьего халявничества».
+
+По данным Отдела прибрежного равновесия и сезонных раздражителей, в городе между маем и сентябрем обитает примерно 18 400 чаек, причём пик заселённости приходится на тёплые выходные, рыбные фестивали и любой момент, когда ребёнок отворачивается от вафли больше чем на четыре секунды. 71-страничный отчёт, заказанный муниципалитетом, заключил, что хотя чайки значительно повышают «индекс морской аутентичности» курортного города, они не выполняют облагаемой налогом работы, не имеют бизнес-лицензий и «отказывались от всех приглашений легализовать свой статус».
+
+«Мы не анти-птичьи», — сказала на пресс‑конференции у пляжа Дзинтари заммэра Илзе Трейфельде под явным воздушным присмотром. «Но если чайка проводит шесть часов возле пляжного кафе, кричит на туристов, ворует половину бутерброда со слабосолёной шпротой, а затем оставляет помёт на корзине для велосипеда, это не отдых. Это участие. Участие имеет свою стоимость».
+
+По новой системе кафе, киоски и уличные торговцы будут платить от €0,03 до €0,11 за чайку в час, в зависимости от размаха крыльев, профиля агрессии и того, демонстрирует ли птица то, что город определяет как «целенаправленное поведение по добыванию крошек». Предприятия могут претендовать на частичное освобождение, если докажут, что чайка просто проходила мимо, была в эмоциональном потрясении или принадлежала соседнему муниципалитету.
+
+Сообщается, что идею налога вдохновила пилотная программа наблюдения прошлым летом на улице Йомас, где муниципальные стажёры с кликерами фиксировали модели перемещений чаек и «случаи перехвата закусок». За семидневный период чиновники зафиксировали 412 краж мелкой рыбёшки, 88 инцидентов стратегического зависания и одну скоординированную операцию по завладению круассаном с участием трёх юных птиц и одного старшего самца, в документах описанного как «уверенный сверх административной терпимости».
+
+Местные бизнесмены разделены во мнениях. «С одной стороны, да, они — беда», — сказал управляющий кафе Артурс Беќерис, чьё заведение потеряло в прошлом сезоне примерно €640 на рыбных котлетах и морали клиентов. «С другой стороны, туристы ожидают чаек. Без них некоторые немцы могли бы подумать, что по ошибке забронировали Лиепаю».
+
+Не все поддерживают эту меру. Орнитолог доктор Майя Озолиня из Балтийского института практической птичьей реальности назвала политику «юридически изобретательной и биологически несерьёзной», отметив, что чайки исторически занимают побережье, не подавая ежеквартальных деклараций. «Вы не можете просто навесить фискальную рамку на животное, чья центральная философия — оппортунизм», — сказала она. «Если уж на то пошло, им стоило бы управлять частями таможенной службы».
+
+Жители также высказывали сомнения по поводу исполнения. Муниципалитет сообщает, что специально обученные инспекторы будут проводить случайные прибрежные проверки с помощью биноклей, тепловизоров и новой цифровой платформы GullDesk, где владельцы бизнеса смогут в реальном времени сообщать о подозрительном птичьем задержании. Бета‑версия приложения ненадолго упала в среду после того, как пользователи загрузили 2300 фотографий одной и той же чайки у пекарни в Булдури.
+
+На центральном пляже пенсионерка и ежедневная прохожая Вельта Скуйня выразила осторожную поддержку. «Честно говоря, если кого и надо обложить налогом, так это птиц с их громкими утренними мнениями», — сказала она, указывая на группу, кружившую над урной. «У некоторых из них доступ к морепродуктам даже лучше, чем у меня».
+
+К четвергу уже был выставлен первый счёт киоску с морепродуктами у станции Майори после того, как инспекторы заметили девять чаек, выстроившихся в то, что один внутренний меморандум описал как «полуформальный полукруг запугивания». Владелец киоска намерен обжаловать постановление.
+
+Между тем активность чаек вдоль побережья, похоже, не изменилась. Свидетели сообщили о нескольких птицах, стоящих на перилах и устремлённо уставившихся на посетителей с той самой «знакомой позой налогового неповиновения», наблюдаемой у множества видов, включая домовладельцев.`
+    },
+    date: "Oct 20, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/310/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 309,
     slug: "jrmala-introduces-silent-applause-zones-after-309",
     title: {
@@ -108,7 +195,7 @@ Netālu esoša kaija dažas sekundes vēroja, šķita apjukusi, un bez nekādas 
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/309/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 308,
