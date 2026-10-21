@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 311,
+    slug: "riga-introduces-official-municipal-sigh-to-311",
+    title: {
+      en: "Riga Introduces Official Municipal Sigh to Streamline Citizen Complaints",
+      lv: "Rīga ievieš oficiālo pašvaldības nopūtu, lai sakārtotu iedzīvotāju sūdzības",
+      ru: "Рига вводит официальный муниципальный вздох для упрощения жалоб граждан"
+    },
+    excerpt: {
+      en: "After years of administrative delays and overburdened service hotlines, Riga City Council has approved a standardized civic sigh intended to help residents express disappointment more efficiently. Officials say the move will reduce paperwork, clarify emotional intent, and bring Latvia in line with modern European grievance practices.",
+      lv: "Pēc gadiem ilgiem administratīviem aizkavējumiem un pārslogotām servisa līnijām Rīgas dome ir apstiprinājusi standartizētu pilsonisko nopūtu, lai iedzīvotāji varētu efektīvāk izteikt vilšanos. Pēc amatpersonu teiktā, solis mazinās papīru apjomu, skaidros emocionālo nodomu un pietuvinās Latviju mūsdienīgām Eiropas sūdzību praksēm.",
+      ru: "После лет административных проволочек и перегруженных «горячих линий» Рижская дума утвердила стандартизированный гражданский вздох, который должен помочь жителям более эффективно выражать разочарование. По словам чиновников, нововведение сократит бумажную волокиту, прояснит эмоциональный посыл и приведёт Латвию в соответствие с современными европейскими практиками обращения с жалобами."
+    },
+    fullContent: {
+      en: `RIGA — In what city leaders are calling a landmark modernization of public administration, Riga City Council on Tuesday unveiled the country’s first officially recognized municipal sigh, a standardized vocal exhalation residents will now be encouraged to use when reacting to potholes, heating invoices, trolleybus delays, and other routine encounters with urban life.
+
+The new sound, formally registered as “Protocol 4.2-B: Extended Nasal Civic Exhale,” was approved following an 18-month pilot program in Purvciems, Teika, and one emotionally representative section of Ķengarags. According to the Department of Public Order and Ambient Resignation, the initiative reduced contradictory complaint submissions by 37% and cut average in-person muttering time at customer service windows from 11 minutes to just under 4.
+
+“For too long, residents have been sighing in an uncoordinated manner,” Deputy Executive Director for Citizen Experience Ilze Kļaviņa told reporters while standing beside a laminated instructional poster showing proper jaw relaxation. “One person gives a short defeated puff, another performs a full ancestral groan, and our clerks are left guessing: is this about parking, taxes, or the existential condition of February? Standardization is simply good governance.”
+
+Under the new guidelines, a brief descending sigh will indicate dissatisfaction with public transport scheduling, while a longer, chest-origin sigh with optional upward glance will signal concern about utility costs. A more advanced form, reserved for interactions involving shared courtyards and building associations, includes a soft click of the tongue and may only be performed by certified adults over the age of 34.
+
+The city says residents will not be fined for spontaneous emotional leakage during the transition period, though beginning in January all complaints submitted without an accompanying approved sigh may be returned for “tone clarification.” Training booths have already been installed at Riga Central Station, three libraries, and outside a popular Mārupes hardware store where men have reportedly been rehearsing naturally for decades.
+
+Local response has been mixed. “Honestly, it’s helpful,” said office administrator Santa Ozoliņa, 41, after attending a lunchtime workshop near Esplanāde. “Before, I would use the same sigh for everything — rain in sideways direction, price of dill, my upstairs neighbors learning electric bass. Now I feel seen by the municipality.”
+
+Others remain skeptical. Juris Feldmanis, a 58-year-old resident of Imanta, argued the city was ignoring regional nuance. “A Riga sigh is not the same as a Jelgava sigh,” he said. “And nobody from the council has adequately addressed the coastal issue. In Jūrmala, half the meaning is in the wind.”
+
+Researchers at the University of Latvia’s Institute for Practical Silence have nevertheless praised the reform as “a rare case of bureaucracy listening closely to despair.” In a white paper released Monday, the institute estimated that Latvians collectively perform 14.6 million civic sighs per week, peaking on Monday mornings, slushy Thursdays, and any day a self-checkout machine requests unexpected assistance.
+
+The Ministry of Culture has also expressed interest in seeking UNESCO recognition for the practice, describing the Latvian sigh as “an intangible heritage object located between patience and weather.” Officials say an application is being prepared with archival material dating back to at least 1997, when one tram passenger in a surviving VHS recording can be heard delivering what experts now consider “a foundational urban exhale.”
+
+At a demonstration event outside City Hall, dozens of residents participated in a synchronized test sigh at exactly 17:00. The sound, low and textured, reportedly startled several pigeons and caused one nearby parking inspector to become momentarily reflective.
+
+Council members say further emotional infrastructure reforms are planned, including a pilot program for legally distinct eyebrow raises and a mobile app allowing citizens to pre-register disappointment before attending public meetings.
+
+As evening traffic thickened along Brīvības iela, one man exiting a trolleybus was asked whether he supported the initiative. He paused, looked at the sky, and delivered a perfectly calibrated medium-length municipal sigh. City officials later confirmed it had been logged as a favorable response.`,
+      lv: `RĪGA — To, ko pilsētas vadība dēvē par publiskās administrācijas nozīmīgu modernizāciju, otrdien Rīgas dome atklāja valsts pirmo oficiāli atzīto pašvaldības nopūtu — standartizētu vokālu izelpu, ko iedzīvotāji tagad tiks aicināti izmantot, reaģējot uz bedrēm ielās, apkures rēķiniem, trolejbusu kavējumiem un citiem ikdienišķiem saskarsmes momentiem ar pilsētas dzīvi.
+
+Jaunais skaņas veids, formāli reģistrēts kā “Protokols 4.2-B: Paplašināta nasālā civiskā izelpa,” tika apstiprināts pēc 18 mēnešu pilotprojekta Purvciemā, Teikā un vienā emocionāli reprezentatīvā Ķengaraga posmā. Pēc Sabiedriskās kārtības un apkārtējās rezignācijas departamenta datiem iniciatīva samazināja pretrunīgu sūdzību iesniegšanu par 37% un saīsināja vidējo klātienes murmināšanas laiku klientu apkalpošanas logos no 11 minūtēm līdz nedaudz zem 4.
+
+“Pārāk ilgi iedzīvotāji bija nopūtušies nekordinēti,” žurnālistiem sacīja Pilsoniskās pieredzes vietniece Ilze Kļaviņa, stāvot blakus laminētam instrukciju plakātam, kurā attēlots pareizs žokļa atslābināšanas veids. “Viens cilvēks izdod īsu sakāves pūtu, cits iestudē pilnu senču vaimanāšanu, un mūsu darbinieki paliek minot: vai tas ir par stāvvietu, nodokļiem vai februāra eksistenciālo stāvokli? Standardizācija vienkārši ir laba pārvaldība.”
+
+Saskaņā ar jaunajiem vadlīniju noteikumiem īsa dilstoša nopūta norādīs uz neapmierinātību ar sabiedriskā transporta grafikām, savukārt garāka, no krūtīm nākoša nopūta ar izvēles paceltu skatienu signalizēs par bažām saistībā ar komunālajiem izdevumiem. Sarežģītāka forma, paredzēta saskarsmei, kas skar koplietošanas pagalmus un dzīvokļu pārvaldes, ietver mīkstu mēles klikšķi un drīkst tikt veikta tikai sertificētiem pieaugušajiem, kas vecāki par 34 gadiem.
+
+Pilsēta norāda, ka pārejas periodā iedzīvotāji netiks soda par spontānām emocionālām izpausmēm, taču, sākot ar janvāri, visas sūdzības, kurām nav pievienota apstiprināta nopūta, var tikt atgrieztas “tā, lai precizētu toni.” Treniņu kabīnes jau uzstādītas Rīgas Centrālajā stacijā, trīs bibliotēkās un pie populāra Mārupes būvniecības veikala, kur, kā ziņots, vīrieši it kā dabīgi vingrinājušies gadu desmitiem.
+
+Vietējā reakcija bija jaukta. “Godīgi sakot, tas palīdz,” sacīja biroja administratore Santa Ozoliņa (41), apmeklējot pusdienlaika meistarklasi netālu no Esplanādes. “Agrāk es visam lietoju vienu un to pašu nopūtu — sāniski līstošam lietum, dilles cenai, manu augšstāva kaimiņu mēģinājumiem apgūt elektrisko basu. Tagad jūtos, ka pašvaldība mani redz.”
+
+Citi paliek skeptiski. Imantas iedzīvotājs Juris Feldmanis (58) apgalvoja, ka pilsēta ignorē reģionālo niansi. “Rīgas nopūta nav tas pats kas Jelgavas nopūta,” viņš sacīja. “Un nevienam no domes nav pienācīgi pievērsies piekrastes jautājumam. Jūrmalā puse jēgas slēpjas vējā.”
+
+Latvijas Universitātes Praktiskās klusēšanas institūta pētnieki tomēr slavēja reformu kā “retu piemēru, kad birokrātija uzmanīgi ieklausās izmisumā.” Baltajā rakstā, kas publicēts pirmdien, institūts lēsa, ka latvieši kopumā veic 14,6 miljonus civilo nopūtu nedēļā, sasniedzot maksimumu pirmdienas rītos, atkušņu ceturtdienās un katru reizi, kad pašapkalpošanās kase prasa negaidītu palīdzību.
+
+Kultūras ministrija arī izrādījusi interesi par UNESCO atzīšanas pieprasīšanu, aprakstot latviešu nopūtu kā “nemateriālā mantojuma objektu, kas atrodas starp pacietību un laika apstākļiem.” Amatpersonas ziņo, ka tiek gatavots pieteikums ar arhīva materiāliem, kas sniedzas vismaz līdz 1997. gadam, kad vienā tramvaja VHS ierakstā dzirdams pasažieris, kura sniegto nopūtu eksperti tagad uzskata par “pamatu veidojošu pilsētas izelpu.”
+
+Pie Rātsnama notikumā desmitiem iedzīvotāju piedalījās sinhronā testnopūtē tieši plkst. 17:00. Zemā un fakturētā skaņa pēc ziņām izbiedēja vairākus baložus un lika vienam tuvumā esošam parkošanas inspektoram uz brīdi kļūt pārdomīgam.
+
+Domes locekļi saka, ka plānotas vēl citas emocionālās infrastruktūras reformas, tostarp pilotprogramma juridiski atšķirīgu uzacu pacelšanu klasificēšanai un mobilā lietotne, kas ļaus iedzīvotājiem iepriekš reģistrēt vilšanos pirms došanās uz publiskajām sapulcēm.
+
+Kad vakara satiksme sabiezēja pa Brīvības ielu, kādam vīrietim izkāpjot no trolejbusa, viņu pajautāja, vai viņš atbalsta iniciatīvu. Viņš uz brīdi apstājās, paskatījās debesīs un izdeva perfektu, vidēja garuma pašvaldības nopūtu. Pilsētas amatpersonas vēlāk apstiprināja, ka to ir reģistrējušas kā atbalstošu atbildi.`,
+      ru: `РИГА — В том, что городские власти называют знаковой модернизацией публичной администрации, Рижская дума во вторник представила первый в стране официально признанный муниципальный вздох — стандартизированный вокальный выдох, которым теперь будут поощрять пользоваться жителей при реакции на ямы в дорогах, счета за отопление, задержки троллейбусов и другие повседневные столкновения с городской жизнью.
+
+Новый звук, формально зарегистрированный как «Протокол 4.2‑Б: Удлинённый носовой гражданский выдох», был утверждён после 18‑месячного пилотного проекта в Пурвчиемсе, Тейке и одном эмоционально репрезентативном участке Кенгарагса. По данным Департамента общественного порядка и атмосферы покорности, инициатива сократила количество противоречивых жалоб на 37% и уменьшила среднее время бормотания у окошек обслуживания с 11 минут до чуть менее 4.
+
+«Слишком долго жители вздыхали некоординированно», — сказала журналистам заместитель исполнительного директора по работе с гражданами Илзе Клявина, стоя рядом с ламинированным плакатом-инструкцией, показывающим, как правильно расслаблять челюсть. «Один делает короткий проигрышный пых, другой исполняет полный предковый стон, а наши служащие остаются в догадках: это про парковку, про налоги или про экзистенциальное состояние февраля? Стандартизация — это просто хорошее управление». 
+
+Согласно новым рекомендациям, краткий нисходящий вздох будет обозначать недовольство расписанием общественного транспорта, в то время как более длинный вздох, исходящий из груди с опциональным взглядом вверх — сигнал тревоги по поводу коммунальных платежей. Более продвинутая форма, зарезервированная для взаимодействий, касающихся общих дворов и ТСЖ, включает мягкое щёлканье языком и может выполняться только сертифицированными взрослыми старше 34 лет.
+
+Город заявляет, что жителей не будут штрафовать за спонтанную «утечку эмоций» в переходный период, хотя с января все жалобы, поданные без сопровождающего утверждённого вздоха, могут быть возвращены для «уточнения тона». Учебные кабины уже установлены на Рижском центральном вокзале, в трёх библиотеках и у популярного хозяйственного магазина в Марупе, где, как сообщают, мужчины естественным образом репетировали десятилетиями.
+
+Местная реакция разделилась. «Честно говоря, это полезно», — сказала 41‑летняя офис‑администратор Санта Озолиня после посещения обеденного воркшопа возле Эспланады. «Раньше я использовала один и тот же вздох для всего: дождя, который идёт боком, цены на укроп и моих соседей сверху, осваивающих электрический бас. Теперь я чувствую, что муниципалитет меня видит». 
+
+Другие остаются скептичными. 58‑летний житель Иманты Юрис Фельдманис заявил, что город игнорирует региональную нюансировку. «Рижский вздох — это не то же самое, что вздох Елгавы, — сказал он. — И никто из думы толком не разобрался с прибрежным вопросом. В Юрмале половина смысла в ветре». 
+
+Исследователи Института Практического Молчания Латвийского университета тем не менее похвалили реформу как «редкий случай, когда бюрократия внимательно прислушалась к отчаянию». В белой книге, опубликованной в понедельник, институт оценил, что латвийцы коллективно совершают 14,6 миллиона гражданских вздохов в неделю, с пиками по утрам понедельников, в слякотные четверги и в любой день, когда на кассе самообслуживания электронный экран просит неожиданной помощи.
+
+Министерство культуры также выразило интерес к получению признания практики в ЮНЕСКО, описывая латвийский вздох как «нематериальный объект наследия, расположенный между терпением и погодой». Чиновники говорят, что заявка готовится с архивными материалами, датируемыми по крайней мере 1997 годом, когда на сохранившейся видеозаписи с VHS один пассажир трамвая может быть слышен, выполняющим то, что эксперты ныне называют «основополагающим городским выдохом».
+
+На демонстрации перед ратушей десятки жителей приняли участие в синхронном тестовом вздохе ровно в 17:00. Звук, низкий и фактурный, по сообщениям, сильно испугал нескольких голубей и на мгновение заставил одного парковочного инспектора задуматься.
+
+Члены думы говорят, что планируются дальнейшие реформы эмоциональной инфраструктуры, включая пилотный проект по юридически отличимым поднятиям бровей и мобильное приложение, позволяющее гражданам предварительно регистрировать разочарование перед посещением публичных слушаний.
+
+Когда вечерний трафик сгущался по улице Бривибас, у выходящего из троллейбуса мужчины спросили, поддерживает ли он инициативу. Он замялся, посмотрел в небо и произнёс идеально откалиброванный муниципальный вздох средней длины. Городские чиновники позже подтвердили, что он был зарегистрирован как благоприятный ответ.`
+    },
+    date: "Oct 21, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/311/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 310,
     slug: "jrmala-introduces-passive-seagull-tax-after-310",
     title: {
@@ -102,7 +195,7 @@ Tikmēr kaiju aktivitāte gar krastu šķita nemainīga. Aculiecinieki ziņoja p
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/310/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 309,
