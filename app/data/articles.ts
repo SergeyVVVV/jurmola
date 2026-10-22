@@ -18,6 +18,97 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 312,
+    slug: "jrmala-introduces-official-queue-reservation-system",
+    title: {
+      en: "Jūrmala Introduces Official Queue Reservation System After Residents Complain They No Longer Have Time To Stand Around Meaningfully",
+      lv: "Jūrmala ievieš oficiālu rindas rezervēšanas sistēmu pēc iedzīvotāju sūdzībām, ka viņiem vairs nav laika jēgpilni stāvēt",
+      ru: "Юрмала вводит официальную систему бронирования очередей после жалоб жителей, что у них больше нет времени содержательно стоять в ожидании"
+    },
+    excerpt: {
+      en: "Municipal authorities in Jūrmala have launched a pilot program allowing residents to book places in line up to three weeks in advance, following widespread concern that spontaneous waiting has become disorganized and emotionally unsatisfying. Officials say the reform will preserve one of the region’s most respected civic traditions while reducing chaotic, unstructured standing.",
+      lv: "Jūrmalas pašvaldība ir uzsākusi pilotprogrammu, kas ļauj iedzīvotājiem rezervēt vietas rindā līdz trim nedēļām iepriekš, pēc plašas bažas, ka spontānā gaidīšana kļuvusi dezorganizēta un emocionāli neapmierinoša. Pārstāvji saka, ka reforma saglabās vienu no reģiona visvairāk cienītajām pilsoniskajām tradīcijām, vienlaikus samazinot haotisko, nestrukturēto stāvēšanu.",
+      ru: "Муниципальные власти Юрмалы запустили пилотную программу, позволяющую жителям бронировать места в очереди за три недели — после широкой обеспокоенности тем, что спонтанное ожидание стало хаотичным и эмоционально неудовлетворительным. По словам чиновников, реформа сохранит одну из самых почитаемых гражданских традиций региона и сократит хаотичное, неструктурированное стояние."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders are calling “a major step toward orderly inertia,” the Jūrmala municipal council on Tuesday approved the Baltic coast’s first digital queue reservation platform, giving residents the ability to schedule when and where they will wait in line, as well as what mood they intend to maintain while doing so.
+
+The system, called RINDA+, was developed over 18 months at a cost of €2.4 million, including a €310,000 public awareness campaign reminding citizens that “waiting is participation.” Beginning in November, residents will be able to reserve a queue slot for pharmacies, post offices, municipal counters, bakery openings, summer parking disputes, and “general winter pessimism,” according to official rollout documents.
+
+Deputy Mayor Ilze Vītoliņa said the city was forced to act after several long-time residents complained that modern conveniences had robbed them of the structure once provided by standing in line behind strangers who know at least one cousin in Sloka.
+
+“We heard from people who said they were arriving at institutions only to be served immediately,” Vītoliņa told reporters at a press conference delayed 22 minutes “for ceremonial authenticity.” “This creates uncertainty. A person has mentally prepared to sigh, shuffle forward, and quietly judge someone’s coat for at least 40 minutes. Instead they are seen at once, and then what? They must continue their day in a state of administrative emptiness.”
+
+Under the new system, users may choose from four queue categories: Functional, Symbolic, Passive-Aggressive, and Intergenerational. Premium subscribers to the city’s municipal app can also add a “light muttering” feature, which ensures they are placed between one pensioner with exact change and one man holding papers in an envelope for unclear reasons.
+
+According to a city survey of 1,200 residents, 68% said they “do not trust services with no visible line,” while 54% admitted they had remained in a queue for more than 15 minutes without knowing what it was for, “just in case it was important.” Another 23% said they had joined a line primarily because it was facing a door.
+
+Local resident and retired chemistry teacher Maija Ozoliņa, 71, welcomed the reform, saying recent years had seen a troubling decline in queue quality. “Before, you could spend a whole morning in line and learn who divorced whom, who got a new boiler, and which tomatoes are no longer worth buying,” she said while demonstrating what officials described as “excellent line posture” outside a pharmacy in Dubulti. “Now everything is online. Where is the human delay?”
+
+Not everyone is convinced. Riga-based policy analyst Edgars Pabriks called the initiative “an expensive digital monument to procedural nostalgia,” warning it could create secondary queues for people seeking assistance with the queue-booking interface. City officials responded that these support queues had already been fully booked through February.
+
+To prepare residents, Jūrmala has begun training 45 municipal Queue Coordinators, who will patrol high-traffic areas wearing reflective vests and gently correcting amateur clustering. The city has also installed a pilot “express queue” at the Dzintari cultural center for residents who need to wait briefly but with confidence.
+
+Officials say early tests have been promising. During a trial at the Kauguļi post office, average wait times increased by 37%, while satisfaction rose to 91%. Participants praised the experience as “familiar,” “dignified,” and “better than being at home with the news on.”
+
+If successful, RINDA+ may be expanded across Latvia by 2027, with possible seasonal adaptations for midsummer ferry confusion and pre-Christmas gray pea shortages. For now, Jūrmala leaders say the city is simply proud to protect a way of life many feared was slipping away.
+
+“In fast-changing times, people need stability,” Vītoliņa said. “And sometimes stability is standing in one place, slowly advancing toward a desk, with no clear reason except that everyone else is doing it too.”`,
+      lv: `JŪRMALA — Solī, ko pilsētas vadītāji dēvē par „lielu soli pretī kārtīgai inercei”, Jūrmalas dome otrdien apstiprināja Baltijas jūras krasta pirmo digitālo rindu rezervēšanas platformu, kas ļauj iedzīvotājiem ieplānot, kad un kur viņi gaidīs rindā, kā arī kādu noskaņojumu plāno uzturēt šajā laikā.
+
+Sistēma RINDA+ tika izstrādāta 18 mēnešu laikā par 2,4 miljonu eiro izmaksām, tostarp 310 000 eiro vērstu sabiedrības informēšanas kampaņu, kas atgādināja pilsoņiem, ka „gaidīšana ir līdzdalība”. No novembra iedzīvotāji varēs rezervēt rindu vietas aptiekām, pasta nodaļām, pašvaldības klientu apkalpošanas logiem, maiznīcu atklāšanām, vasaras stāvvietu strīdiem un „vispārējam ziemas pesimismam”, liecina oficiālie ieviešanas dokumenti.
+
+Domes priekšsēdētājas vietniece Ilze Vītoliņa sacīja, ka pilsēta bija spiesta rīkoties pēc tam, kad vairāki ilggadēji iedzīvotāji sūdzējās, ka mūsdienu ērtības atņēmušas struktūru, ko agrāk nodrošināja stāvēšana rindā aiz svešiniekiem, kuri pazīst vismaz vienu radinieku Slokā. „Mēs dzirdējām cilvēkus, kuri sacīja, ka ierodas iestādēs un tiek apkalpoti uzreiz,” Vītoliņa teica preses konferencē, kas tika aizkavēta par 22 minūtēm „lai saglabātu ceremonijas autentiskumu”. „Tas rada nenoteiktību. Cilvēks ir mentāli sagatavojies nopūsties, lēnām virzīties uz priekšu un klusībā spriest par kāda mēteļa izvēli vismaz 40 minūtes. Tā vietā viņu apkalpo uzreiz — un kas tad? Viņiem jāturpina diena administratīvas tukšuma stāvoklī.”
+
+Jaunajā sistēmā lietotāji var izvēlēties no četriem rindu veidiem: Funkcionālā, Simboliskā, Pasīvi-agresīvā un Starppaudžu. Pilsētas pašvaldības lietotnes premium abonenti var arī pievienot „vieglas murmināšanas” funkciju, kas nodrošina, ka viņi tiek ielikti starp pensionāru ar precīzu skaidru naudu un vīrieti, kurš aploksnē tur papīrus ne visai skaidru iemeslu dēļ.
+
+Saskaņā ar pilsētas aptauju 1 200 iedzīvotāju vidū 68% sacīja, ka „neuzticas pakalpojumiem bez redzamas rindas”, kamēr 54% atzina, ka palikuši rindā vairāk nekā 15 minūtes, nezinot, par ko tā ir, „tikai gadījumā, ja tas būtu svarīgi”. Vēl 23% teica, ka pievienojušies rindai galvenokārt tāpēc, ka tā vērsta pret durvīm.
+
+Vietējā iedzīvotāja un pensionētā ķīmijas skolotāja Maija Ozoliņa, 71 gadu, uzmundrināja reformu, sacīdama, ka pēdējie gadi nesuši satraucošu rindas kvalitātes pasliktināšanos. „Agrāk varēja pavadīt veselu rītu rindā un uzzināt, kas ar ko šķīries, kurš dabūjis jaunu boileri un kurus tomātus vairs nav vērts pirkt,” viņa sacīja, demonstrējot to, ko amatpersonas raksturoja kā „izcili pareizu rindas pozu” ārpus aptiekas Dubultos. „Tagad viss ir tiešsaistē. Kur palika cilvēcīgais kavējums?”
+
+Ne visi ir pārliecināti. Rīgas politikas analītiķis Edgars Pabriks nosauca iniciatīvu par „dārgu digitālu pieminekli procesuālajam nostalģismam”, brīdinot, ka tā var radīt sekundārās rindas cilvēkiem, kas meklē palīdzību ar rindu rezervēšanas saskarni. Pilsētas amatpersonas atbildēja, ka šīs atbalsta rindas jau ir pilnībā rezervētas līdz februārim.
+
+Lai sagatavotu iedzīvotājus, Jūrmala ir sākusi apmācīt 45 pašvaldības Rindu Koordinatorus, kas patrulēs intensīvas satiksmes vietās, valkājot atstarojošas vestes un maigi koriģējot amatieru sapulcēšanos. Pilsēta arī uzstādījusi pilot"ātrās rindas" Dzintaru kultūras centrā iedzīvotājiem, kuriem jāgaida īsu brīdi, bet ar pārliecību.
+
+Amatpersonas saka, ka sākotnējie testi ir bijuši cerīgi. Kauguļu pasta izmēģinājumā vidējais gaidīšanas laiks palielinājās par 37%, savukārt apmierinātība pieauga līdz 91%. Dalībnieki slavēja pieredzi kā „pazīstamu”, „cieņpilnu” un „labāku nekā mājās, skatoties ziņas.”
+
+Ja izrādīsies veiksmīgi, RINDA+ var tikt paplašināta visā Latvijā līdz 2027. gadam, ar iespējamiem sezonāliem pielāgojumiem saulgriežu prāmju juceklim un Ziemassvētku priekšdienu pelēko zirņu trūkumam. Pašlaik Jūrmalas vadība saka, ka pilsēta vienkārši lepojas, ka aizsargā dzīvesveidu, ko daudzi baidījās, ka tas izzūd.
+
+„Ātri mainīgā laikā cilvēkiem vajadzīga stabilitāte,” Vītoliņa sacīja. „Un reizēm stabilitāte ir stāvēt vienā vietā, lēnām virzoties uz leti, bez skaidra iemesla, izņemot to, ka to dara visi pārējie.”`,
+      ru: `ЮРМАЛА — В шаге, который городские руководители называют «важным шагом к упорядоченной инерции», муниципальный совет Юрмалы во вторник утвердил первую на Балтийском побережье цифровую платформу бронирования очередей, дающую жителям возможность заказывать, когда и где они будут ждать в очереди, а также в каком настроении намерены при этом находиться.
+
+Система под названием RINDA+ разрабатывалась 18 месяцев и обошлась в 2,4 млн евро, включая информационную кампанию за 310 000 евро, напоминавшую гражданам, что «ожидание — это участие». Начиная с ноября, жители смогут резервировать слоты в очереди для аптек, почтовых отделений, муниципальных окон, открытия булочных, споров о летней парковке и «общей зимней пессимистичности», согласно официальным документам о запуске.
+
+Заместитель мэра Илзе Витолиня заявила, что город был вынужден действовать после того, как несколько давних жителей пожаловались, что современные удобства лишили их той структуры, которую давало стояние в очереди за незнакомцами, которые, по меньшей мере, знают какого-нибудь двоюродного брата в Слоке.
+
+«К нам обращались люди, которые говорили, что приходят в учреждения и их обслуживают сразу же», — сказала Витолиня на пресс-конференции, задержанной на 22 минуты «ради церемониальной аутентичности». «Это создаёт неопределённость. Человек мысленно приготовился вздохнуть, переступать ногой и молча обсуждать чью‑то шубу как минимум 40 минут. А вместо этого его обслужили сразу, и что теперь? Ему приходится продолжать день в состоянии административного опустошения.»
+
+В рамках новой системы пользователи могут выбирать из четырёх категорий очереди: Функциональная, Символическая, Пассивно‑агрессивная и Межпоколенная. Премиум‑подписчики муниципального приложения также могут подключить функцию «лёгкое бормотание», которая гарантирует размещение между пенсионером с точной суммой и мужчиной, держащим в конверте бумаги по неясным причинам.
+
+Согласно городскому опросу 1 200 жителей, 68% заявили, что «не доверяют услугам без видимой очереди», а 54% признались, что оставались в очереди более 15 минут, не зная, за чем, «на всякий случай, если это важно». Ещё 23% сказали, что присоединились к очереди главным образом потому, что она была обращена к двери.
+
+Местная жительница и пенсионерка, преподаватель химии Майя Озолиня, 71 год, приветствовала реформу, заявив, что в последние годы наблюдается тревожное снижение качества очередей. «Раньше можно было провести в очереди всё утро и узнать, кто с кем развёлся, кто поменял котёл и какие помидоры больше не стоят того», — сказала она, демонстрируя то, что чиновники описали как «отличную стойку в очереди» у аптеки в Дубулти. «Теперь всё в интернете. Где человеческая задержка?»
+
+Не все в восторге. Рижский аналитик по политике Эдгарс Пабрикс назвал инициативу «дорогостоящим цифровым памятником процедурной ностальгии», предупреждая, что это может создать вторичные очереди для тех, кто ищет помощь с интерфейсом бронирования очереди. Городские чиновники ответили, что эти вспомогательные очереди уже полностью забронированы до февраля.
+
+Чтобы подготовить жителей, Юрмала начала обучение 45 муниципальных координаторов очередей, которые будут патрулировать зоны с интенсивным движением в светоотражающих жилетах и мягко корректировать любительское скопление людей. Город также установил пилотную «экспресс‑очередь» в культурном центре Дзинтари для жителей, которым нужно подождать недолго, но с уверенностью.
+
+Чиновники говорят, что ранние тесты обнадёживают. Во время пробного запуска на почте Каугули среднее время ожидания увеличилось на 37%, тогда как уровень удовлетворённости вырос до 91%. Участники охарактеризовали опыт как «знакомый», «достойный» и «лучше, чем дома с включёнными новостями».
+
+Если эксперимент окажется успешным, RINDA+ может быть расширена по всей Латвии к 2027 году, с возможными сезонными адаптациями для июньского хаоса на паромах и предрождественского дефицита серого гороха. Пока же руководители Юрмалы говорят, что город просто горд тем, что защищает образ жизни, который многие боялись утратить.
+
+«В быстро меняющееся время людям нужна стабильность», — сказала Витолиня. «А иногда стабильность — это стоять на одном месте, медленно продвигаясь к окошку, без ясной причины, кроме того, что все так делают.»`
+    },
+    date: "Oct 22, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/312/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 311,
     slug: "riga-introduces-official-municipal-sigh-to-311",
     title: {
@@ -108,7 +199,7 @@ Kad vakara satiksme sabiezēja pa Brīvības ielu, kādam vīrietim izkāpjot no
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/311/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 310,
