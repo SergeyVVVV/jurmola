@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 313,
+    slug: "riga-introduces-official-municipal-sigh-to-313",
+    title: {
+      en: "Riga Introduces Official Municipal Sigh to Replace Horns, Reduce Aggressive Politeness in Traffic",
+      lv: "Rīga ievieš oficiālu pašvaldības nopūtu, lai aizstātu taurītes un mazinātu agresīvo pieklājību satiksmē",
+      ru: "Рига вводит официальный муниципальный вздох вместо гудков, чтобы снизить «агрессивную вежливость» на дорогах"
+    },
+    excerpt: {
+      en: "In a pilot program unveiled Tuesday, Riga City Council announced that drivers will now be encouraged to communicate frustration using a standardized, state-approved sigh rather than car horns. Officials say the measure could reduce noise pollution by 38% while preserving the capital’s cultural commitment to passive disappointment.",
+      lv: "Pilotprogrammā, kas otrdien prezentēta plašākai publikai, Rīgas dome paziņoja, ka autovadītāji tagad tiks aicināti neizpaust neapmierinātību ar automašīnu skaņām, bet gan ar standartizētu, valsts apstiprinātu nopūtu. Iecerēts, ka tas samazinās trokšņu piesārņojumu par 38% un saglabās galvaspilsētas kultūras apņemšanos pret pasīvu vilšanos.",
+      ru: "В пилотной программе, представленной во вторник, Рижская городская дума объявила, что водителей теперь будут поощрять выражать раздражение стандартизированным, одобренным государством вздохом вместо автомобильных гудков. По словам чиновников, мера может сократить шумовое загрязнение на 38% и при этом сохранить культурную преданность столицы пассивному разочарованию."
+    },
+    fullContent: {
+      en: `RIGA — In what officials are calling “a modern, human-centered approach to urban exasperation,” Riga City Council this week launched a new traffic initiative replacing non-essential horn use with a registered municipal sigh, available in both resigned and sharply disappointed variants.
+
+The program, formally titled the Low-Emission Emotional Signaling Framework, was presented outside City Hall by Deputy Mobility Chairwoman Evija Paukste, who demonstrated the approved sigh technique into a calibrated microphone as a row of civil servants took notes and one cyclist nodded gravely.
+
+“For too long, Riga’s streets have suffered from uncontrolled acoustic hostility,” Paukste said. “At the same time, we understand that residents must still be able to communicate nuanced feelings such as ‘really?’, ‘of course this again,’ and ‘you had one simple lane.’ The municipal sigh gives people a dignified alternative.”
+
+Under the plan, drivers stopping at unnecessary green-light hesitations, diagonal parking incidents, or suspiciously philosophical tram crossings may issue one audible sigh of up to 2.4 seconds. Longer sighs will require a Category B Emotional Permit. Repeat offenders using sarcastic exhalation in school zones face fines starting at €15.
+
+The system was developed after a six-month study conducted by the Riga Institute for Applied Social Weather, which found that 71% of horn usage in the capital conveyed not immediate danger but “a broad dissatisfaction with the pace of other people’s existence.” Researchers also concluded that the average Riga driver already produces 4.2 involuntary sighs per commute, suggesting strong readiness for adoption.
+
+At a busy intersection near Brivibas Street, reactions were mixed but notably tired. “Honestly, it feels natural,” said motorist Janis Krumins, 43, practicing a medium-volume sigh from the driver’s seat of a silver Volvo with one winter tire still attached in July. “My father sighed, my grandfather sighed. The horn was always too optimistic. A sigh says, ‘I object, but I also assume nothing will change.’ That is more accurate.”
+
+Not everyone is convinced. Ilze Biteniece, who commutes daily from Purvciems, said the reform risks widening class divisions between residents with strong diaphragm control and those “raised in apartments where emotions were expressed only by adjusting curtains more firmly.” She has joined a grassroots campaign calling for municipal subsidies for breath-support workshops at local culture centers.
+
+Taxi operators have also raised concerns about implementation. The Riga Licensed Drivers Association warned that international visitors may struggle to distinguish between a traffic sigh, a weather sigh, and the unrelated but frequent sigh emitted upon hearing rent prices in the city center. “Without proper signage, a tourist from Germany could easily misinterpret a left-turn sigh as a heritage sigh,” said association spokesman Maris Ziedins.
+
+Still, early data from the pilot district in Agenskalns appears promising. According to municipal figures, horn use dropped 44% in the first three days, while ambient expressions of controlled despair rose 63%. The city also reported a measurable increase in “socially cohesive eye-rolling” among pedestrians.
+
+Officials say the next phase may include a digital library of approved public sounds, including a bus-stop murmur for delays over nine minutes and an official seaside groan for residents discovering that another summer in Jurmala has become “conceptually affordable” but not financially possible.
+
+As dusk fell over central Riga on Tuesday, a line of drivers waited silently behind a delivery van attempting to reverse into a space clearly intended for bicycles, prayer, or neither. Then, almost together, the street exhaled. City planners later described the moment as “deeply moving” and “the most coordinated thing to happen in traffic since 1998.”`,
+      lv: `RĪGA — To, ko amatpersonas dēvē par “mūsdienīgu, cilvēkcentrētu pieeju pilsētas izsīkumam”, šonedēļ Rīgas dome sāka jaunu satiksmes iniciatīvu, kas neuzskatāmas taurēšanas par nepieciešamu aizvieto ar reģistrētu pašvaldības nopūtu, pieejamu gan izmisīgi padevīgā, gan asprātīgi vīlīgā variantā.
+
+Programma, formāli nosaukta par "Low-Emission Emotional Signaling Framework" (Zemu izmešu emocionālās signalizācijas ietvars), tika prezentēta pie Rātsnama vietnieces mobilitātes vadītājas Evijas Paukstes, kura kalibrētā mikrofonā demonstrēja apstiprināto nopūtas tehniku, kamēr rindā stāvoši ierēdņi pierakstīja, un viens velosipēdists nopietni pamāja ar galvu.
+
+"Pārāk ilgi Rīgas ielas cieš no nekontrolētas akustiskas naidīgības," sacīja Paukste. "Tajā pašā laikā mēs saprotam, ka iedzīvotājiem joprojām jāspēj nodot niansētas jūtas, piemēram, 'tiešām?', 'protams, vēlreiz', un 'tev bija viena vienkārša josla.' Pašvaldības nopūta dod cilvēkiem cienīgu alternatīvu."
+
+Pēc plāna, autovadītāji, kas apstājas pie nevajadzīgām zaļās gaismas vilcināšanām, diagonālas stāvvietas incidentiem vai aizdomīgi filozofiskām tramvaju šķērsošanām, drīkst izdot vienu dzirdamu nopūtu līdz 2,4 sekundēm. Garākas nopūtas prasīs B kategorijas emocionālo atļauju. Atkārtoti pārkāpēji, kas skolas zonās izmanto sarkastisku izelpāšanu, saskarsies ar naudassodiem, kas sākas no 15 €.
+
+Sistēmu izstrādāja sešu mēnešu pētījums, ko veica Rīgas Pielietotās Sociālās Laika Apstākļu institūts, kurā konstatēts, ka 71% taurīšu izmantošanas galvaspilsētā nepārraida tūlītēju briesmu, bet gan "plašu neapmierinātību ar citu cilvēku eksistences tempu." Pētnieki arī secināja, ka vidējais rīdzinieku autovadītājs jau rada 4,2 nebrīvprātīgas nopūtas uz vienu braucienu, kas liecina par lielu gatavību pieņemt jauno praksi.
+
+Pie noslogota krustojuma pie Brīvības ielas reakcijas bija jauktas, bet pamanāmi nogurušas. "Godīgi sakot, tas šķiet dabiski," sacīja autovadītājs Jānis Krūmiņš, 43, praksē izpildot vidējas skaļuma nopūtu no sudraba Volvo vadītāja sēdekļa ar vienu ziemas riepu, kas joprojām bija uzlikta jūlijā. "Mans tēvs nopūtās, mans vectēvs nopūtās. Taurīte vienmēr bija pārāk optimistiska. Nopūta saka: 'es iebilstu, bet arī neko nedomāju mainīsies.' Tas ir precīzāk."
+
+Ne visi ir pārliecināti. Ilze Biteniece, kas ikdienā brauc no Purvciema, teica, ka reforma riskē paplašināt klases plaisas starp iedzīvotājiem ar labu diafragmas kontroli un tiem, "kuri uzaudzīti dzīvokļos, kur jūtas tika izrādītas tikai, ciešāk piegriežot aizkarus." Viņa pievienojusies kustībai, kas aicina pašvaldību subsīdijas elpas atbalsta darbnīcām vietējos kultūras centros.
+
+Taksometru operators arī izteikuši bažas par ieviešanu. Rīgas Licencēto Vadītāju asociācija brīdināja, ka starptautiskie viesi varētu grūti atšķirt satiksmes nopūtu no laikapstākļu nopūtas vai no neatkarīgās, bet bieži dzirdamās nopūtas, kas izraisa, uzzinot par īres cenām pilsētas centrā. "Bez skaidrām norādēm vācu tūristam var viegli šķist, ka kreisā pagrieziena nopūta ir kultūrvēsturiska nopūta," sacīja asociācijas pārstāvis Māris Ziediņš.
+
+Tomēr sākotnējie dati no pilotrajona Āgenskalnā izskatās cerīgi. Pašvaldības skaitļi rāda, ka taurīšu lietojums pirmajās trīs dienās samazinājās par 44%, kamēr kontrolētas izmisuma izpausmes pieauga par 63%. Pilsēta arī ziņoja par izmērāmu "sociāli saliedētās acu rullēšanas" palielināšanos starp gājējiem.
+
+Amatpersonas saka, ka nākamajā posmā varētu iekļaut digitālu bibliotēku ar apstiprinātām publiskajām skaņām, tostarp autobusu pieturas zīmēšanos aizkavēm virs deviņām minūtēm un oficiālu jūras piekrastes nopūtu iedzīvotājiem, kuri atklāj, ka vēl viena vasara Jūrmalā ir "konceptuāli pieejama", bet ne finanšu ziņā iespējama.
+
+Kad vakars krītēja pār Rīgas centru otrdien, rindā autovadītāji klusēja aiz piegādes furgona, kas mēģināja atpakaļgaitā iestumties vietā, kas skaidri paredzēta velosipēdiem, lūgšanām vai nekurienē. Tad, gandrīz vienlaikus, iela izelpās. Pilsētplānotāji vēlāk šo brīdi nodēvēja par "dziļi aizkustinošu" un "saskaņotāko notikumu satiksmē kopš 1998. gada."`,
+      ru: `РИГА — В том, что чиновники называют «современным, ориентированным на человека подходом к городскому изумию», на этой неделе Рижская городская дума запустила новую дорожную инициативу, заменяющую несущественное использование гудка зарегистрированным муниципальным вздохом, доступным в «покорном» и «резко разочарованном» вариантах.
+
+Программа, официально названная Рамочной программой низкоэмиссионной эмоциональной сигнализации, была представлена у Ратуши заместителем председателя по вопросам мобильности Эвией Пауксте, которая продемонстрировала одобренную технику вздоха в калиброванный микрофон, пока ряд чиновников делал пометки, а один велосипедист серьёзно кивал.
+
+«Слишком долго улицы Риги страдали от неконтролируемой акустической враждебности, — сказала Пауксте. — В то же время мы понимаем, что жители всё ещё должны иметь возможность передавать тонкие чувства, такие как „серьёзно?“, „опять это, конечно“ и „у тебя был один простой ряд“. Муниципальный вздох даёт людям достойную альтернативу». 
+
+Согласно плану, водители, остановившиеся из‑за ненужных колебаний на зелёном свете, при диагональной парковке или на подозрительно философских трамвайных переходах, могут издать один слышимый вздох продолжительностью до 2,4 секунды. Более длинные вздохи потребуют Эмоционального разрешения категории B. Повторные нарушители, использующие саркастические выдохи в школьных зонах, рискуют получить штрафы от €15.
+
+Систему разработали после шестимесячного исследования, проведённого Рижским институтом прикладной социальной погоды, которое показало, что 71% использования клаксона в столице передавало не непосредственную опасность, а «широкое недовольство темпом чужого существования». Исследователи также пришли к выводу, что средний рижский водитель уже даёт 4,2 невольных вздоха за поездку, что свидетельствует о высокой готовности к внедрению.
+
+На оживлённом перекрёстке возле улицы Бривибас реакции были смешанными, но заметно усталыми. «Честно говоря, это ощущается естественно, — сказал водитель Янис Круминс, 43 года, практикуя вздох средней громкости, сидя за рулём серебристого Volvo с одной зимней шиной, всё ещё прикреплённой в июле. — Мой отец вздыхал, мой дед вздыхал. Клаксон всегда был слишком оптимистичен. Вздох говорит: „Я возражаю, но и не ожидаю, что что‑то изменится“. Это точнее». 
+
+Не все убеждены. Илзе Битенеце, которая ежедневно ездит из Пурвциемса, заявила, что реформа рискует углубить классовые различия между жителями с сильным контролем диафрагмы и теми, кто «вырос в квартирах, где эмоции выражались лишь более энергичным задергиванием штор». Она присоединилась к народной кампании, требующей муниципальных субсидий на занятия по дыхательной поддержке в местных культурных центрах.
+
+Таксисты тоже высказали свои опасения по поводу реализации. Ассоциация лицензированных водителей Риги предупредила, что иностранным гостям может быть трудно отличить дорожный вздох от погодного вздоха и от не связанного с этим, но частого вздоха, который слышится при сообщении цен на аренду в центре города. «Без должной маркировки турист из Германии легко может принять вздох при повороте налево за историко‑культурный вздох», — сказал спикер ассоциации Марис Зиединс.
+
+Тем не менее ранние данные по пилотному району Агенскалнс выглядят обнадёживающе. По муниципальным данным, использование клаксона за первые три дня упало на 44%, тогда как фоновое выражение сдержанного отчаяния выросло на 63%. Город также зафиксировал заметное увеличение «социально сплоченного закатывания глаз» среди пешеходов.
+
+Чиновники говорят, что следующий этап может включать цифровую библиотеку одобренных общественных звуков, включая шёпот на автобусной остановке при задержке свыше девяти минут и официальный прибрежный стон для жителей, обнаруживших, что ещё одно лето в Юрмале стало «концептуально доступным», но финансово — нет.
+
+Когда над центральной Ригой во вторник опустилась сумеречная мгла, цепочка водителей молча стояла за грузовым фургоном, пытавшимся задним ходом занять место, явно предназначавшееся для велосипедов, молитвы или ни того, ни другого. Затем, почти одновременно, улица выдохнула. Градостроители позже описали этот момент как «глубоко трогательный» и «самое скоординированное событие в дорожном движении с 1998 года».`
+    },
+    date: "Oct 23, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/313/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 312,
     slug: "jrmala-introduces-official-queue-reservation-system",
     title: {
@@ -106,7 +193,7 @@ Ja izrādīsies veiksmīgi, RINDA+ var tikt paplašināta visā Latvijā līdz 2
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/312/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 311,
