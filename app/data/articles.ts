@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 314,
+    slug: "jrmala-introduces-silent-applause-beaches-to",
+    title: {
+      en: "Jūrmala Introduces ‘Silent Applause’ Beaches To Preserve National Supply of Mild Disapproval",
+      lv: "Jūrmala ievieš 'klusos aplausus' pludmales, lai saglabātu valsts mērenās reakcijas krājumus",
+      ru: "Юрмала вводит пляжи с «тихими аплодисментами», чтобы сохранить национальные запасы мягкого неодобрения"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have unveiled a new pilot program requiring beachgoers to express enjoyment through restrained hand fluttering rather than audible clapping, shouting, or any display that could be mistaken for Southern European enthusiasm. The city says the measure will protect coastal tranquility while conserving Latvia’s strategic reserves of emotionally moderate reaction.",
+      lv: "Jūrmalas pašvaldības ierēdņi atklājuši jaunu pilotprogrammu, kurā pludmales apmeklētājiem tiek prasīts baudījumu izrādīt ar atturīgu plaukstu tvirtinājumu, nevis skaļiem aplausiem, skandēšanu vai jebkādu izrādi, ko varētu sajaukt ar Dienvideiropas entuziasmu. Pilsēta apgalvo, ka pasākums saglabās piekrastes mieru un konservēs Latvijas stratēģiskos emocionāli mērenas reakcijas rezervjus.",
+      ru: "Муниципальные власти Юрмалы представили новый пилотный проект, требующий от отдыхающих выражать удовольствие сдержанным помахиванием рук, а не слышимыми аплодисментами, криками или любыми проявлениями, которые можно принять за южноевропейский энтузиазм. Город заявляет, что мера сохранит прибрежное спокойствие и одновременно сбережёт стратегические резервы Латвии эмоционально умеренной реакции."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders described as “both ecologically necessary and culturally inevitable,” Jūrmala Municipality on Tuesday launched Latvia’s first network of Silent Applause Beaches, where visible satisfaction is permitted but must remain acoustically neutral.
+
+Under the new regulations, visitors to designated sections of Majori, Dzintari, and Bulduri beaches may still acknowledge sunsets, successful volleyball serves, and children returning from the water with all sandals accounted for, but only by performing what officials call “palmar appreciation gestures” — a modest, dry clap performed approximately three centimeters from the other hand.
+
+Deputy Executive Director for Coastal Harmony Ilze Priedīte said the initiative followed a two-year study showing that spontaneous cheering had increased by 14% during unusually warm weekends, creating “localized pockets of extroversion” near the shoreline.
+
+“We are not banning joy,” Priedīte told reporters beside a laminated diagram of acceptable facial expressions. “We are simply asking residents and guests to process it responsibly, in accordance with Jūrmala’s acoustic landscape and the broader Latvian tradition of keeping good news to oneself until winter.”
+
+The municipality has installed 46 blue-and-white signs depicting a neutral figure applauding inwardly. Lifeguards have received additional training to identify prohibited celebratory behavior, including whooping, chanting, high-fives that produce a crack, and the phrase “This is amazing,” when delivered above conversational volume.
+
+According to internal guidelines obtained by Jurmola Telegraphs, violators will first receive a verbal reminder, followed by a printed brochure titled So You’ve Made A Scene. Repeat offenders may be relocated to a “decompression dune” where they can sit quietly and reconsider whether the sea was really that impressive.
+
+Local resident and year-round walker Andris Lapiņš, 58, said he welcomed the policy after a traumatic incident last July in which a group of Lithuanian tourists applauded a street musician with “at least seven consecutive full-contact claps.”
+
+“I dropped my smoked sprats,” Lapiņš recalled. “For several seconds I felt as if I were in Barcelona. Nobody should experience that without warning.”
+
+Not all reaction has been supportive. A small but energetic coalition of wedding planners, amateur drummers, and one unusually optimistic man from Cēsis gathered outside City Hall Wednesday to protest what they called “state-sponsored underreacting.” The demonstration remained orderly, with participants expressing outrage by nodding firmly.
+
+Tourism officials, however, insist the changes will enhance Jūrmala’s international brand. Data from the Riga Institute for Social Climate and Light Sweaters found that 63% of Northern European travelers actively seek destinations where celebration “never escalates beyond a respectful eyebrow lift.” Another 22% said they simply wanted a place where they could hear the sea, the wind, and nearby strangers privately judging their picnic choices.
+
+Hospitality businesses are already adapting. Several beachfront cafés now offer Quiet Hour menus featuring low-crunch pastries, and one hotel in Melluži has begun advertising sound-insulated balconies for guests who wish to feel pleased in complete secrecy. A startup founded by former audio engineers from Riga has also launched an app that converts clapping into a subtle on-screen animation of approval, allowing users to support live performers without alarming pensioners.
+
+At sunset on the first evening of the program, dozens of beachgoers stood facing the Gulf of Riga in near-total silence, gently vibrating their fingers in the approved manner as the sky turned pink over the water. The moment was described by observers as deeply moving, though not to any obvious degree.
+
+By 9 p.m., municipal inspectors declared the pilot an early success after recording just three audible gasps and one illegal “woo,” believed to have originated from a bachelor party that had mistaken the signs for a wellness campaign. Officials say the program may expand next summer, with early proposals including Whisper Fireworks, Introvert Paddleboarding, and a city-sponsored hotline residents can call to report excessive delight before it spreads.`,
+      lv: `JŪRMALA — Solī, ko pilsētas vadība aprakstīja kā "gan ekoloģiski nepieciešamu, gan kultūrvēsturiski neizbēgamu," Jūrmalas pašvaldība otrdien uzsāka Latvijas pirmo Kluso Aplaužu Pludmaļu tīklu, kur redzama apmierinātība ir atļauta, taču tai jāpaliek akustiski neitrālai.
+
+Saskaņā ar jaunajiem noteikumiem apmeklētāji ieceltajās Majori, Dzintari un Bulduri pludmaļu zonās joprojām var atzīmēt saulrietus, veiksmīgus volejbola serves un bērnu atgriešanos no ūdens ar visu sandalu komplektiem, taču to drīkst darīt tikai ar to, ko ierēdņi sauc par "plaukstu pateicības žestiem" — pieticīgu, sausu plaukstu plivināšanu, izpildītu aptuveni trīs centimetru attālumā no otras plaukstas.
+
+Kustību koordinatora amatā — Kuršu harmonijas vietniece Ilze Priedīte — sacīja, ka iniciatīva sekoja divu gadu pētījumam, kurā konstatēts, ka spontāna ovāciju veidošanās neparasti siltās nedēļas nogalēs pieaugusi par 14 %, radot "lokālas ekstraversijas kabatas" piekrastes zonā.
+
+"Mēs neaizliedzam prieku," Priedīte žurnālistiem teica pie laminētas shēmas ar pieļaujamajām sejas izteiksmēm. "Mēs vienkārši lūdzam iedzīvotājus un viesus ar to rīkoties atbildīgi, saskaņā ar Jūrmalas akustisko ainavu un plašāku latviešu tradīciju — labas ziņas paturēt pie sevis līdz ziemai." 
+
+Pašvaldība uzstādījusi 46 zilbaltas zīmes ar attēlu: neitrāla figūra, kas aplausē — 'iekšēji'. Glābēji saņēmuši papildu apmācību, lai atpazītu aizliegtu svinību uzvedību, tostarp saukšanu, skandēšanu, pieci, kas rada klakšķi, un frāzi "Tas ir apbrīnojami," ja tā izteikta skaļāk par sarunas līmeni.
+
+Saskaņā ar iekšējiem vadlīniju materiāliem, ko ieguva Jurmalas Telegrafi, pārkāpējiem vispirms tiks dots mutisks brīdinājums, kam sekos drukāta brošūra ar nosaukumu "Tātad — tu izveidoji ainu." Atkārtoti pārkāpēji var tikt pārvietoti uz "dekompresijas kāpu," kur viņi klusējot var pārdomāt, vai jūra tiešām bija tik iespaidīga.
+
+Vietējais iedzīvotājs un visa gada garumā staigātājs Andris Lapiņš, 58 gadi, sacīja, ka atbalsta politiku pēc traumatiska incidenta pagājušā gada jūlijā, kad lietuviešu tūristu grupa aplausēja ielu mūziķi ar "vismaz septiņām pēc kārtas pilna kontakta plaukšķēm."
+
+"Es izliju savu kūpināto šproti," Lapiņš atcerējās. "Uz vairākām sekundēm jutos kā Barselonā. Nevienam tas nedrīkst notikt bez brīdinājuma."
+
+Ne visas reakcijas bijušas atbalstošas. Neliela, bet enerģiska kāzu plānotāju, amatieru bundzinieku un viena neparasti optimistiska vīrieša no Cēsu koalīcija trešdien sapulcējās pie Domes, lai protestētu pret to, ko viņi sauca par "valsts finansētu nepietiekamu reaģēšanu." Demonstrācija palika kārtīga — dalībnieki izrādīja sašutumu stingri pamājot.
+
+Tūrismam atbildīgie tomēr uzstāj, ka izmaiņas uzlabos Jūrmalas starptautisko zīmolu. Rīgas Sociālā Klimata un Vieglā Džempera Institūta dati rāda, ka 63 % Ziemeļeiropas ceļotāju aktīvi meklē galamērķus, kur svinības "nekad neizaug pāri cienījamam uzacu pacelienam." Vēl 22 % sacīja, ka vienkārši vēlas vietu, kur var dzirdēt jūru, vēju un blakus esošos svešiniekus, kuri privāti tiesā viņu piknika izvēles.
+
+Uzņēmējdarbība jau pielāgojas. Vairāki pludmales kafejnīcas tagad piedāvā "Klauso stundu" ēdienkartes ar zema kraukšķēšanas līmeņa konditoreju, un viens viesnīca Mellužos sācis reklamēt skaņas izolētas balkonus viesiem, kuri vēlas sajust gandarījumu pilnīgā slepenībā. Startups, ko dibinājuši bijušie Rīgas audio inženieri, arī izlaida lietotni, kas pārvērš plaukšķus smalkā ekrāna animācijā apstiprinājumam, ļaujot lietotājiem atbalstīt dzīvos izpildītājus, nesatraucot pensionārus.
+
+Pirmās programmas vakara saulrietā desmiti pludmales apmeklētāju stāvēja vērsti pret Rīgas jūras līci gandrīz pilnīgā klusumā, viegli vibrējot pirkstus atļautajā manierē, kamēr debesis pār ūdeni kļuva rozā. Brīdi novērotāji raksturoja kā dziļi aizkustinošu, kaut arī neuzkrītoši.
+
+Līdz pulksten 21 pašvaldības inspektori pasludināja pilotprojektu par agru panākumu, reģistrējot vien trīs dzirdamas aizelpas un vienu nelikumīgu "ūū," par kura izcelsmi tiek uzskatīta vedēju ballīte, kas bija sajaukusies zīmes ar labklājības kampaņu. Ierēdņi saka, ka programma var tikt paplašināta nākamajā vasarā; agrīnie priekšlikumi ietver "čukstošos uguņus," "introvertu SUPošanu" un pilsētas atbalstītu tālruņa līniju, uz kuru iedzīvotāji var zvanīt, lai ziņotu par pārmērīgu sajūsmu pirms tā izplatīšanās.`,
+      ru: `ЮРМАЛА — В шаге, который городские лидеры охарактеризовали как «и экологически необходимый, и культурно неизбежный», муниципалитет Юрмалы во вторник запустил первую в Латвии сеть пляжей «тихих аплодисментов», где видимое удовлетворение допускается, но должно оставаться акустически нейтральным.
+
+В соответствии с новыми правилами посетители обозначенных участков пляжей Майори, Дзинтари и Булдури по-прежнему могут отмечать закаты, успешные подачи в волейболе и возвращение детей из воды со всеми сандалиями на месте, но только выполняя то, что чиновники называют «жестами ладонной признательности» — скромный, «сухой» хлопок, производимый примерно в трёх сантиметрах от другой ладони.
+
+Заместитель исполнительного директора по прибрежной гармонии Илзе Придите сказала, что инициатива последовала за двухлетним исследованием, показавшим, что спонтанные возгласы увеличились на 14% в необычно тёплые выходные, создавая «локализованные карманы экстраверсии» у кромки воды.
+
+«Мы не запрещаем радость», — сказала Придите репортерам рядом с ламинированной схемой допустимых мимических выражений. «Мы просто просим жителей и гостей перерабатывать её ответственно, в соответствии с акустическим ландшафтом Юрмалы и более широкой латвийской традицией держать хорошие новости при себе до зимы». 
+
+Муниципалитет установил 46 сине‑белых знаков с изображением нейтральной фигуры, аплодирующей про себя. Спасатели прошли дополнительное обучение по распознаванию запрещённого праздничного поведения, включая вопли, скандирование, «пять» с таким хлопком, что слышен треск, и фразу «Это потрясающе», произнесённую громче разговорного уровня.
+
+Согласно внутренним руководствам, полученным Jurmola Telegraphs, нарушителям сначала сделают устное замечание, затем вручат печатную брошюру под заголовком «Итак, вы произвели сцену». Повторно нарушающих могут пересадить на «дюну для декомпрессии», где им предложат посидеть в тишине и переосмыслить, действительно ли море было настолько впечатляющим.
+
+Местный житель и постоянный прохожий Андрис Лапиньш, 58 лет, сказал, что приветствует эту политику после травмирующего инцидента прошлым июлем, когда группа литовских туристов аплодировала уличному музыканту «как минимум семью подряд полноценными контактными хлопками».
+
+«Я уронил свои копчёные шпроты», — вспомнил Лапиньш. «Несколько секунд я чувствовал себя как в Барселоне. Никто не должен переживать такое без предупреждения». 
+
+Не все отреагировали поддержкой. Небольшая, но энергичная коалиция свадебных организаторов, любителей барабанов и одного необычно оптимистичного мужчины из Цесиса собралась у мэрии в среду, чтобы протестовать против того, что они назвали «государственно спонсируемым недореагированием». Демонстрация прошла чинно: участники выражали возмущение, крепко кивая.
+
+Туристические чиновники, впрочем, настаивают, что изменения улучшат международный бренд Юрмалы. Данные Рижского института социального климата и лёгких свитеров показали, что 63% североевропейских путешественников активно ищут места, где празднование «никогда не выходит за рамки уважительного поднятия брови». Ещё 22% заявили, что просто хотят место, где можно услышать море, ветер и соседей, приватно осуждающих их выбор для пикника.
+
+Предприятия гостеприимства уже адаптируются. Несколько прибрежных кафе теперь предлагают «тихие» меню с низкохрустящими выпечками, а один отель в Меллужи стал рекламировать звукоизолированные балконы для гостей, желающих тайно испытывать удовольствие. Стартап, основанный бывшими звукоинженерами из Риги, запустил приложение, превращающее хлопки в тонкую анимацию одобрения на экране, позволяя зрителям поддержать живых исполнителей, не пугая пенсионеров.
+
+На закате в первый вечер программы десятки отдыхающих стояли лицом к Рижскому заливу в почти полной тишине, слегка вибрируя пальцами в одобренной манере, пока небо над водой розовело. Наблюдатели охарактеризовали момент как глубоко трогательный, хотя и не в какой‑то очевидной степени.
+
+К 21:00 муниципальные инспекторы объявили пилотный проект предварительно успешным, зафиксировав всего три слышимые задержки дыхания и один незаконный «уух», предположительно исходивший от мальчишника, который принял знаки за кампанию по оздоровлению. Чиновники говорят, что программу могут расширить следующим летом; в числе ранних предложений — шёпотные фейерверки, паддлбординг для интровертов и городская горячая линия, по которой жители смогут сообщать о чрезмерной радости прежде, чем она распространится.`
+    },
+    date: "Oct 24, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/314/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 313,
     slug: "riga-introduces-official-municipal-sigh-to-313",
     title: {
@@ -102,7 +201,7 @@ Kad vakars krītēja pār Rīgas centru otrdien, rindā autovadītāji klusēja 
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/313/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 312,
