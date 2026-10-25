@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 315,
+    slug: "riga-introduces-official-municipal-puddle-to-315",
+    title: {
+      en: "Riga Introduces Official Municipal Puddle to Preserve National Character Amid Dry Spring",
+      lv: "Rīga ievieš oficiālu pašvaldības peļķi, lai saglabātu tautas raksturu sausā pavasarī",
+      ru: "Рига вводит официальную муниципальную лужу, чтобы сохранить национальный характер на фоне сухой весны"
+    },
+    excerpt: {
+      en: "After an unseasonably efficient drainage season left central Riga nearly walkable, city officials unveiled a protected ceremonial puddle Tuesday to ensure residents still experience the familiar emotional instability associated with spring. The 14-square-meter body of water, now registered as a cultural object of local significance, will be maintained year-round near Barona Street.",
+      lv: "Pēc neparasti efektīvas drenāžas sezonas, kas atstāja centrālo Rīgu gandrīz kā ejamu, pilsētas amatpersonas otrdien atklāja aizsargājamu ceremonialo peļķi, lai nodrošinātu, ka iedzīvotāji joprojām piedzīvo pazīstamo emocionālo nestabilitāti, kas saistīta ar pavasari. 14 kvadrātmetru ūdenskrātuve, tagad reģistrēta kā vietējā nozīmes kultūras objekts, tiks uzturēta visu gadu pie Barona ielas.",
+      ru: "После не по сезону успешного дренажа, оставившего центр Риги почти прогулябельным, городские власти во вторник представили охраняемую церемониальную лужу, чтобы жители по-прежнему испытывали знакомую весеннюю эмоциональную нестабильность. Водоём площадью 14 квадратных метров, теперь внесённый в реестр объектов культуры местного значения, будет поддерживаться круглый год рядом с улицей Барона."
+    },
+    fullContent: {
+      en: `RIGA — In a move described by urban planners as “emotionally necessary” and by at least one pensioner as “finally, a government that understands suffering,” the Riga City Council has formally introduced the capital’s first Official Municipal Puddle, a state-maintained wet depression intended to preserve the city’s traditional pedestrian experience.
+
+The puddle, located at the intersection of Barona and Artilerijas streets beside a leaning traffic bollard and a bakery that is never open when people need it, was inaugurated Tuesday morning by Deputy Mayor Artis Veinbergs, who cut a damp ribbon while standing on two uneven paving stones.
+
+“We noticed a troubling trend this March,” Veinbergs told reporters, pausing briefly as a bus sent a sheet of gray water over his left trouser leg. “Due to a combination of mild weather, competent asphalt patching, and accidental budget discipline, Riga residents were crossing certain blocks without any uncertainty. This is not the city we inherited, and not the city we intend to leave our children.”
+
+According to a 41-page municipal report titled Water Retention as Identity, citizen satisfaction fell 12 percent on days when footwear remained dry. Researchers from the Institute of Applied Baltic Realism found that 78 percent of respondents associated puddles with “home,” while 14 percent said they only realized they loved Riga after stepping ankle-deep into something they initially believed was shallow.
+
+To restore what planners called “hydrological authenticity,” the city allocated €84,000 to preserve and curate the site. Funding covered excavation, historical signage, two commemorative benches positioned just far enough away to still be splashed, and an LED depth indicator that is intentionally inaccurate “to honor lived experience.”
+
+The puddle has already attracted strong public interest. By noon, several office workers had gathered around its perimeter discussing whether it was deeper last year, despite the fact that it did not officially exist last year.
+
+“It has real municipal texture,” said Ilze Strazdiņa, 34, a tax consultant from Purvciems who had stopped to photograph her reflection in the oily surface. “Private puddles are fine, of course, but this one feels accountable. You can tell there was paperwork.”
+
+Not all residents are convinced. Local father of two Edgars Bērziņš criticized the project after his seven-year-old lost a boot in the western section, known by planners as the Deep Democratic Basin. “If the city wants to keep tradition alive, that’s one thing,” Bērziņš said, holding the remaining boot. “But at least install a railing, or a small flag system, or maybe a diver.”
+
+City engineers defended the design, noting that the puddle was modeled on archival water patterns dating back to 1998, widely considered a golden year for avoidable saturation. Senior hydrologist Baiba Kļaviņa said the team used advanced simulation tools to recreate the exact conditions under which a person decides, incorrectly, that they can jump over it.
+
+“We wanted something intergenerational,” Kļaviņa said. “A puddle that speaks equally to schoolchildren, delivery cyclists, and middle managers carrying pastries in thin cardboard boxes.”
+
+Officials say the site may become the first stop on a broader Heritage Moisture Trail linking significant wet areas across the city, including a philosophical underpass in Teika and a bus stop in Imanta where no umbrella has ever helped.
+
+At press time, the Ministry of Culture was reportedly reviewing whether the puddle qualifies for protected status under Latvia’s intangible heritage framework, after experts confirmed that no two people had ever crossed it using the same strategy.`,
+      lv: `RĪGA — Pārvietojumā, ko pilsētplānotāji raksturoja kā "emocionāli nepieciešamu" un vismaz viens pensionārs kā "beidzot valdība, kas saprot ciešanas", Rīgas domes deputāti formāli ieviesuši galvaspilsētas pirmo Oficiālo pašvaldības peļķi — valsts uzturētu mitru iegruvumu, kurš paredzēts, lai saglabātu pilsētas tradicionālo gājēju pieredzi.
+
+Peļķe, kas atrodas Barona un Artilērijas ielu krustojumā blakus slīpam ceļa stabam un maiznīcai, kas nekad nav atvērta tieši tad, kad cilvēkiem vajag, tika iedibināta otrdienas rītā ar Rīgas vicemēra Arta Veinberga svinīgu atklāšanu — viņš sagrieza mitru lentu, stāvot uz diviem nevienmērīgiem bruģakmeņiem.
+
+"Mēs pamanījām satraucošu tendenci šajā martā," Veinbergs pavēstīja žurnālistiem, uz mirkli apstājoties, kamēr autobuss pārlēja pelēcīgu ūdens šļakatu pāri viņa kreisajai bikšu kājai. "Sakarā ar maigāku laiku, kompetentu asfalta lāpīšanu un nejaušu budžeta disciplīnu, Rīgas iedzīvotāji šķērsosēja noteiktus kvartālus bez jebkādas nedrošības. Tā nav pilsēta, ko mēs mantojam, un nav arī tāda, ko vēlamies atstāt mūsu bērniem."
+
+Saskaņā ar 41 lapu pašvaldības ziņojumu ar nosaukumu "Ūdens noturēšana kā identitāte", iedzīvotāju apmierinātība kritās par 12 procentiem dienās, kad apavi palika sausi. Pielietotā Baltijas realizma institūta pētnieki konstatēja, ka 78 procenti respondentu saista peļķes ar "mājām", savukārt 14 procenti atzina, ka tikai pēc potītes dziļuma ieduršanas kaut kam, ko sākotnēji uzskatīja par seklu, sapratuši — viņi mīl Rīgu.
+
+Lai atjaunotu to, ko plānotāji dēvēja par "hidroloģisko autentiskumu", pilsēta atvēlēja 84 000 eiro vietas saglabāšanai un kopšanai. Finansējums sedza izrakšanas darbus, vēsturiskās norādes, divas piemiņas soliņas, novietotas tieši pietiekami tālu, lai tās vēl varētu apšļakstīt, un LED dziļuma indikātoru, kas apzināti ir neprecīzs "lai godinātu dzīves pieredzi." 
+
+Peļķe jau izpelnījusies lielu sabiedrības interesi. Līdz pusdienlaikam vairāki biroja darbinieki bija sapulcējušies ap tās perimetru, diskusējot, vai pagājušajā gadā tā nebija dziļāka, neraugoties uz to, ka pagājušajā gadā tā oficiāli nepastāvēja.
+
+"Tai ir īsta pašvaldības tekstūra," sacīja 34 gadus vecā Ilze Strazdiņa, nodokļu konsultante no Purvciema, kura apstājās, lai nofotografētu savu atspulgu eļļainajā virsmā. "Privātās peļķes protams ir pieņemamas, bet šī jūtas atbildīga. Redzams, ka tur ir bijuši papīri."
+
+Ne visi iedzīvotāji ir pārliecināti. Vietējais divu bērnu tēvs Edgars Bērziņš kritizēja projektu pēc tam, kad viņa septiņus gadus vecais dēls zaudēja zābaku rietumu daļā, ko plānotāji iesaukuši par Dziļo Demokrātisko Baseinu. "Ja pilsēta grib uzturēt tradīciju dzīvu, tas ir viens," Bērziņš sacīja, turēdams atlikušo zābaku. "Bet vismaz ielieciet margu, vai mazu karogu sistēmu, vai varbūt nirēju."
+
+Pilsētas inženieri aizstāvēja dizainu, norādot, ka peļķe veidota pēc arhīvu ūdens modeļiem, kas datēti ar 1998. gadu — plaši uzskatītu par zelta gadu izvairāmai applūšanai. Vadošā hidroloģe Baiba Kļaviņa teica, ka komanda izmantojusi modernas simulācijas Rīkus, lai reproducētu precīzus apstākļus, kuros cilvēks nepareizi izlemj, ka to var pārlekt.
+
+"Mēs vēlējāmies kaut ko starp paaudžu pieredzēm," sacīja Kļaviņa. "Peļķi, kas runā vienlīdzīgi ar skolas bērniem, eksprespiegādes riteņbraucējiem un vidējā līmeņa vadītājiem, kas nes smalkmaizītes plānās kartona kastītēs."
+
+Amatpersonas norāda, ka vieta var kļūt par pirmo pieturu plašākā Mantojuma Mitruma Maršrutā, kas sasaistītu nozīmīgas mitrās vietas visā pilsētā, tostarp filozofisku apakšgājēju pāreju Teikā un autobusu pieturu Imantā, kur nekad nav palīdzējis neviens lietussargs.
+
+Preses laikā Kultūras ministrija, pēc ekspertu apstiprinājuma, ka ne divi cilvēki nav šķērsojuši peļķi, izmantojot vienu un to pašu stratēģiju, pārskatīja, vai peļķe kvalificējas aizsargājamam statusam saskaņā ar Latvijas nemateriālā kultūras mantojuma sistēmu.`,
+      ru: `РИГА — В шаге, который городские планировщики описали как «эмоционально необходимый», а по крайней мере один пенсионер охарактеризовал как «наконец-то правительство, которое понимает страдание», Рижская дума официально учредила первую в столице Официальную Муниципальную Лужу — находку с влажной вмятиной, содержание которой берёт на себя государство в попытке сохранить традиционный пешеходный опыт города.
+
+Лужа, расположенная на перекрёстке улиц Барона и Артилерийас рядом с наклонным сигнальным столбиком и пекарней, которая никогда не открыта, когда людям это нужно, была торжественно inaugurирована во вторник утром вице-мэром Артисом Вейнбергсом, который перерезал промокшую ленточку, стоя на двух неровных плитах.
+
+«Мы заметили тревожную тенденцию в этом марте», — сказал Вейнбергс репортёрам, ненадолго замолчав, когда автобус плеснул волной серой воды ему по левому штану. «Из-за сочетания тёплой погоды, грамотного латания асфальта и случайной бюджетной дисциплины жители Риги переходили целые кварталы без всякой неопределённости. Это не тот город, который мы унаследовали, и не тот город, который мы намерены оставить нашим детям». 
+
+Согласно 41‑страничному муниципальному отчету под названием «Удержание воды как идентичность», удовлетворённость граждан упала на 12 процентов в те дни, когда обувь оставалась сухой. Исследователи из Института прикладного балтийского реализма выяснили, что 78 процентов опрошенных ассоциируют лужи с «домом», а 14 процентов признались, что поняли, что любят Ригу, только когда шагнули по щиколотку в то, что сначала казалось мелким.
+
+Чтобы восстановить то, что планировщики назвали «гидрологической аутентичностью», город выделил 84 000 евро на сохранение и кураторство площадки. Средства покрыли раскопки, историческую табличку, две памятные скамьи, расположенные достаточно близко, чтобы их всё ещё можно было забрызгать, и светодиодный индикатор глубины, намеренно неточный «в знак уважения к жизненному опыту».
+
+Лужа уже привлекла значительный общественный интерес. К полудню несколько офисных работников собрались по периметру и обсуждали, была ли она глубже в прошлом году, несмотря на то что официально в прошлом году её не существовало.
+
+«У неё настоящая муниципальная текстура», — сказала Илзе Страздиņa, 34 года, налоговый консультант из Пурвциемса, остановившаяся, чтобы сфотографировать своё отражение в маслянистой поверхности. «Частные лужи, конечно, хороши, но эта кажется ответственной. Видно, что тут были бумажки». 
+
+Не все жители убеждены. Местный отец двоих детей Эдгарс Бērзиньш раскритиковал проект после того, как его семилетний ребёнок потерял сапог в западной части, которую планировщики окрестили Глубоким Демократическим Бассейном. «Если город хочет сохранить традиции — это одно», — сказал Бērзиньш, держа оставшийся сапог. «Но хотя бы установите перила, или маленькую систему флажков, или, может быть, водолаза». 
+
+Городские инженеры защищали концепцию, отмечая, что лужу смоделировали по архивным водным паттернам, датируемым 1998 годом, который повсеместно считается золотым годом для излишнего увлажнения. Старший гидролог Байба Клявина сказала, что команда использовала передовые симуляционные инструменты, чтобы воссоздать точные условия, при которых человек ошибочно решает, что сможет перепрыгнуть её.
+
+«Мы хотели что-то межпоколенческое», — сказала Клявина. «Лужу, которая говорит одинаково и со школьниками, и с курьерами на велосипедах, и с менеджерами среднего звена, несущими булочки в тонких картонных коробках». 
+
+Чиновники заявляют, что площадка может стать первой остановкой на более широкой Тропе Наследственной Влажности, связывающей значимые сырые места по всему городу, включая философский подземный переход в Тейке и автобусную остановку в Иманте, где ни один зонт никогда не помогал.
+
+К моменту сдачи материала Министерство культуры, по сообщениям, пересматривало, соответствует ли лужа статусу охраняемого объекта по латвийской рамке нематериального наследия, после того как эксперты подтвердили, что ни один два человека никогда не переходили её, используя одну и ту же стратегию.`
+    },
+    date: "Oct 25, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/315/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 314,
     slug: "jrmala-introduces-silent-applause-beaches-to",
     title: {
@@ -114,7 +207,7 @@ Līdz pulksten 21 pašvaldības inspektori pasludināja pilotprojektu par agru p
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/314/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 313,
