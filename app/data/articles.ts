@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 316,
+    slug: "riga-introduces-silence-tax-after-residents-316",
+    title: {
+      en: "Riga Introduces Silence Tax After Residents Complain Mornings Have Become “Suspiciously Peaceful”",
+      lv: "Rīga ievieš Klusuma nodokli pēc iedzīvotāju sūdzībām, ka rīti kļuvuši „aizdomīgi mierīgi”",
+      ru: "Рига вводит налог на тишину после жалоб жителей, что утро стало «подозрительно спокойным»"
+    },
+    excerpt: {
+      en: "City officials in Riga have approved a municipal Silence Tax aimed at restoring what they describe as the capital’s “traditional acoustic character” after several residents reported hearing birds before buses. The measure will fine neighborhoods that remain too quiet between 6:00 and 9:00 a.m., with funds earmarked for tram squeaking, strategic leaf blowing, and emergency pothole drilling.",
+      lv: "Rīgas pašvaldības amatpersonas apstiprinājušas Klusuma nodokli, lai atjaunotu to, ko tās raksturo kā galvaspilsētas „tradicionālo akustisko raksturu”, pēc tam, kad vairāki iedzīvotāji ziņoja, ka vispirms dzird putnus, un tikai pēc tam autobusus. Pasākums sodīs kvartālus, kas starp plkst. 6:00 un 9:00 pārāk klusi, bet līdzekļi tiks novirzīti tramvaju čīkstēšanai, stratēģiskai lapu pūšanai un avārijas bedru urbšanai.",
+      ru: "Городские власти Риги одобрили муниципальный Налог на тишину, призванный вернуть то, что они называют «традиционным акустическим обликом» столицы, после того как несколько жителей пожаловались, что слышали птиц раньше, чем автобусы. Мера будет штрафовать микрорайоны, остающиеся слишком тихими с 6:00 до 9:00, а собранные средства пойдут на скрип трамвайных колёс, стратегическую уборку листьев и экстренное сверление ям."
+    },
+    fullContent: {
+      en: `RIGA — In a move municipal leaders say will preserve the city’s cultural identity, the Riga City Council on Tuesday approved a new Silence Tax targeting districts where morning noise levels fall below what experts call “historically believable standards.” The policy, set to begin in November, will require apartment associations in parts of Mežaparks, Āgenskalns, and several recently renovated blocks of the center to pay a monthly surcharge if decibel monitors detect fewer than three instances of metal clanging, one unresolved car alarm, and at least seven minutes of distant drilling before 9:00 a.m.
+
+The measure follows a pilot program launched last spring, after residents filed 214 complaints describing a “deeply unsettling quiet” at dawn. One Vecmīlgrāvis resident reported hearing “individual footsteps,” while a family in Teika claimed they were able to identify a pigeon emotionally, “which is not how a capital city should function.”
+
+“This is not about punishment. This is about continuity,” said Deputy Chair for Urban Texture and Public Irritation Ilze Skujiņa during a press conference held beside an idling municipal truck for atmosphere. “Riga is built on layers of sound — trolley brakes, somebody moving tiles at 7:12 a.m., a van reversing for no clear reason. If people wake up rested and calm, we risk losing the social rhythm that has held this city together for decades.”
+
+According to a 47-page report by the Latvian Institute of Applied Everyday Studies, the city’s average weekday annoyance index has dropped 18% since new windows were installed in several Soviet-era apartment blocks and stricter rules were introduced for nightlife terraces. Researchers warned that prolonged exposure to uninterrupted tranquility could result in dangerous side effects, including making eye contact with strangers, arriving early, and “forming unrealistic expectations about public services.”
+
+Under the new framework, inspectors from the Department of Acoustic Heritage will conduct random “dawn authenticity audits.” Using handheld meters and a 1998 recording of a tram grinding around a corner, officials will assess whether neighborhoods meet baseline urban credibility targets. Areas deemed excessively serene may be required to host corrective sound interventions, including municipal bottle recycling demonstrations, ceremonial scaffolding assembly, and what the city has described as “light but emotionally convincing jackhammer activity.”
+
+Not everyone opposes the tax. Local resident and retired port electrician Juris Eglītis, 68, said the quiet in his courtyard had recently become “arrogant.”
+
+“I opened the window last Thursday and heard nothing except wind in a tree,” Eglītis said. “For a moment I thought I was in Sweden, and my whole body rejected it. By 8:15 somebody had thankfully started dragging a wardrobe across concrete upstairs, so I knew we were still normal.”
+
+Small business owners are also preparing to adapt. The Riga Association of Morning Service Providers estimates the new policy could create up to 320 seasonal jobs in preventative scraping, unnecessary engine warming, and ceremonial bin repositioning. “This is a chance to support local industry,” said association chair Mārtiņš Grava, who recently opened a consultancy advising cafés on how to drop cutlery in a way that feels organic. “For too long we have outsourced our ambient irritation to chance.”
+
+Still, some urban planners have raised concerns that the city is overcorrecting. Architect Līga Ozola warned that excessive artificial noise could lead to “sound gentrification,” in which authentic neighborhood chaos is replaced by curated nuisance for affluent audiences. In response, city officials promised any disturbance would remain “accessible, inclusive, and mildly damp.”
+
+At press time, residents in central Riga were reportedly relieved after a roadwork crew arrived at 6:43 a.m. to begin restoring confidence.`,
+      lv: `RĪGA — Kā mēģinājumu, ko pašvaldības vadība sauc par pilsētas kultūras identitātes saglabāšanu, Rīgas dome otrdien apstiprināja jaunu Klusuma nodokli, kas vērsts uz apkaimēm, kur rīta trokšņu līmenis nokritis zem tā, ko eksperti dēvē par „vēsturiski ticamiem standartiem”. Politika, kas stāsies spēkā novembrī, prasīs dzīvokļu biedrībām Mežaparkā, Āgenskalnā un vairākos nesen atjaunotos centra namu korpusos maksāt mēneša piemaksu, ja decibelu monitori līdz plkst. 9:00 reģistrēs mazāk nekā trīs metāla klabošanas gadījumus, vienu neatrisinātu auto signalizācijas signālu un vismaz septiņas minūtes tālas urbšanas.
+
+Pasākums seko pilotprojektam, kas uzsākts pagājušajā pavasarī, pēc tam, kad iedzīvotāji iesnieguši 214 sūdzības, aprakstot „dziļi satraucošu klusumu” rīta stundās. Viens Vecmīlgrāvja iedzīvotājs ziņoja, ka dzirdējis „atsevišķas soļu skaņas”, kamēr ģimene Teikā apgalvojusi, ka spējusi emocionāli identificēt balodi — „kas nav tā, kā galvaspilsētai jāfunkcionē”.
+
+„Tas nav sods. Tas ir par kontinuitāti,” preses konferencē blakus tukšgaitā stāvošam pašvaldības kravas automobilim, lai radītu atmosfēru, sacīja Pilsētas tekstūras un sabiedriskās kairināšanas vietniece Ilze Skujiņa. „Rīga ir būvēta uz skaņu slāņiem — trolejbusa bremzes, kāds pārvieto flīzes plkst. 7:12, furgons, kas brauc atpakaļgaitā bez redzama iemesla. Ja cilvēki pamostas atpūtušies un mierīgi, mēs riskējam pazaudēt to sociālo ritmu, kas šeit ir valdījis gadu desmitiem.”
+
+Saskaņā ar 47 lappušu ziņojumu no Latvijas Pielietojamo Ikdienas Pētījumu Institūta, pilsētas vidējais darba dienas kaitinājuma indekss ir samazinājies par 18% kopš jaunu logu uzstādīšanas vairākos padomju laika daudzdzīvokļu korpusos un stingrāku noteikumu ieviešanas naktsdzīves terasēm. Pētnieki brīdināja, ka ilgstoša neiztrūkstošas klusuma iedarbība var radīt bīstamas blakusparādības, tostarp skatīšanos acīs ar svešiniekiem, ieradīšanos laicīgi un „nereālu cerību veidošanos par sabiedriskajiem pakalpojumiem”.
+
+Saskaņā ar jauno ietvaru, Akustiskā mantojuma departamenta inspektori veiks nejaušas „rīta autentiskuma audits”. Ar rokā turamiem mērītājiem un 1998. gada ierakstu ar tramvaja čīkstošu pagriezienu amatpersonas izvērtēs, vai apkaimes sasniedz pamatlīmeņa pilsētas ticamības mērķus. Rajoniem, kas atzīti par pārmērīgi ramiem, var tikt uzdots uzņemt korektīvās skaņas intervences, tostarp pašvaldības stiklu šķirošanas demonstrācijas, ceremonālu būssastatņu montāžu un to, ko pilsēta aprakstījusi kā „vieglas, bet emocionāli pārliecinošas perforatora skaņas”.
+
+Ne visi ir pret šo nodokli. Vietējais pensionētais ostas elektriķis Juris Eglītis, 68 gadus vecs, sacīja, ka klusums viņa pagalma vidū nesen kļūstot „arogants”.
+
+„Pagājušajā ceturtdienā atvēru logu un nedzirdēju neko, izņemot vēja šalku kokā,” Eglītis teica. „Uz mirkli domāju, ka esmu Zviedrijā, un mana visa būtība to noraidīja. Par laimi plkst. 8:15 kāds sākumā sāka velkt skapja gabalu pār betonu augšā, tāpēc zināju, ka mēs joprojām esam normāli.”
+
+Arī mazie uzņēmēji gatavojas pielāgoties. Rīgas Rīta Pakalpojumu Sniedzēju asociācija lēš, ka jaunā politika var radīt līdz pat 320 sezonālajām darbavietām profilaktiskā skrāpēšanā, nevajadzīgā dzinēju uzsildīšanā un ceremonālā atkritumu tvertņu pārvietojumā. „Tā ir iespēja atbalstīt vietējo industriju,” sacīja asociācijas priekšsēdētājs Mārtiņš Grava, kurš nesen atvēris konsultāciju uzņēmumu, kas padara kafejnīcu galdiem „dabisku” galda piederumu krišanu. „Pārāk ilgi esam uzticējuši mūsu apkārtējā kairinājuma risināšanu nejaušībai.”
+
+Tomēr daži pilsētvides plānotāji brīdina, ka pilsēta pārkorekcē. Arhitekte Līga Ozola brīdināja, ka pārmērīgas mākslīgas skaņas var novest pie „skaņas ģentrifikācijas”, kur autentisks apkaimes haoss tiek aizstāts ar kurētu kaitinājumu turīgiem skatītājiem. Atbildot uz to, pilsētas amatpersonas solīja, ka jebkura traucējoša darbība paliks „pieejama, iekļaujoša un viegli mitra”.
+
+Kad ziņu sagatavošanas brīdī, centrālās Rīgas iedzīvotāji, kā ziņots, atviegloti nopūtās — ceļu remonta brigāde ieradās plkst. 6:43, lai sāktu atjaunot uzticību.`,
+      ru: `РИГА — В шаге, который муниципальные лидеры называют сохранением культурной идентичности города, Рижская дума во вторник одобрила новый Налог на тишину, направленный на районы, где утренний уровень шума опустился ниже того, что эксперты называют «исторически правдоподобными стандартами». Политика, вступающая в силу в ноябре, потребует от товариществ собственников в частях Межапаркса (Mežaparks), Агентскалнса (Āgenskalns) и нескольких недавно отремонтированных кварталов центра ежемесячной доплаты, если шумометры зафиксируют меньше трёх случаев звона металла, одну неутихшую автомобильную сигнализацию и как минимум семь минут далёкого сверления до 9:00 утра.
+
+Мера стала следствием пилотной программы, запущенной прошлой весной, после того как жители подали 214 жалоб, описывавших «глубоко тревожную тишину» на рассвете. Один житель Вецмильгрависа (Vecmīlgrāvis) сообщил, что слышал «отдельные шаги», в то время как семья в Тейке (Teika) заявила, что смогла определить голубя эмоционально, «а это не то, как должна функционировать столица». 
+
+«Речь не о наказании. Речь о преемственности», — заявила на пресс‑конференции зампред по городскому тексту и общественному раздражению Илзе Скуйня, стоя рядом с заведённым муниципальным грузовиком для создания атмосферы. «Рига построена из слоёв звука — тормоза троллейбуса, кто‑то перекладывает плитку в 7:12, фургон сдаёт назад без понятной причины. Если люди просыпаются отдохнувшими и спокойными, мы рискуем потерять тот социальный ритм, который держал этот город вместе на протяжении десятилетий». 
+
+Согласно 47‑страничному докладу Латвийского института прикладных повседневных исследований, средний будничный индекс раздражения в городе снизился на 18% после установки новых окон в нескольких советских жилых домах и ужесточения правил для летних террас ночных заведений. Исследователи предупредили, что длительное воздействие непрерывной тишины может иметь опасные побочные эффекты, включая зрительный контакт с незнакомцами, приход раньше назначенного времени и «формирование нереалистичных ожиданий в отношении общественных услуг». 
+
+В рамках новой схемы инспекторы Департамента акустического наследия будут проводить случайные «аудиты подлинности рассвета». С помощью портативных шумомеров и записи 1998 года, где трамвай скрежещет на повороте, чиновники будут оценивать, соответствуют ли районы базовым городским показателям достоверности. Районы, признанные чрезмерно спокойными, могут быть обязаны принять корректирующие звуковые вмешательства, включая муниципальные демонстрации сортировки бутылок, церемониальную установку строительных лесов и то, что город описывает как «лёгкую, но эмоционально убедительную деятельность отбойного молотка». 
+
+Не все выступают против налога. Местный житель и пенсионер, портовый электрик Юрис Эглитис, 68 лет, сказал, что тишина во дворе недавно стала «наглой». 
+
+«В прошлый четверг я открыл окно и не услышал ничего, кроме ветра в дереве», — рассказал Эглитис. «На мгновение я подумал, что оказался в Швеции, и всё моё тело это отвергло. К 8:15 кто‑то, к счастью, начал тащить платяной шкаф по бетону сверху, и я понял, что мы всё ещё нормальные». 
+
+Предприниматели малого бизнеса тоже готовятся адаптироваться. Рижская ассоциация утренних услуг оценивает, что новая политика может создать до 320 сезонных рабочих мест в профилактическом скребении, необоснованном прогреве двигателей и церемониальном переставлении мусорных баков. «Это шанс поддержать местную промышленность», — сказал председатель ассоциации Мартиньш Грава, который недавно открыл консультационное агентство, обучающее кафе тому, как ронять столовые приборы так, чтобы это выглядело органично. «Слишком долго мы перекладывали ответственность за фоновое раздражение на случай». 
+
+Тем не менее некоторые градостроители выразили опасения, что город перегибает палку. Архитектор Лига Озола предупредила, что избыточный искусственный шум может привести к «звуковой джентрификации», когда аутентичный хаос района заменяется курированным раздражителем для обеспеченной публики. В ответ городские власти пообещали, что любое беспокойство останется «доступным, инклюзивным и слегка приглушённым». 
+
+По состоянию на время выхода материала, жители центральной Риги якобы вздохнули с облегчением: бригада дорожных работ появилась в 6:43 утра, чтобы начать восстановление уверенности.`
+    },
+    date: "Oct 26, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/316/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 315,
     slug: "riga-introduces-official-municipal-puddle-to-315",
     title: {
@@ -108,7 +189,7 @@ Preses laikā Kultūras ministrija, pēc ekspertu apstiprinājuma, ka ne divi ci
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/315/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 314,
