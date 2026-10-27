@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 317,
+    slug: "riga-introduces-polite-delay-trams-that",
+    title: {
+      en: "Riga Introduces ‘Polite Delay’ Trams That Arrive 11 Minutes Late to Preserve National Emotional Balance",
+      lv: "Rīga ievieš „pieklājīgu kavēšanos” — tramvaji ierodas 11 minūtes novēloti, lai saglabātu nacionālo emocionālo līdzsvaru",
+      ru: "Рига вводит «вежливые задержки»: трамваи, приходящие ровно на 11 минут позже, чтобы сохранить национальный эмоциональный баланс"
+    },
+    excerpt: {
+      en: "City officials say the new transport policy is designed to protect residents from the destabilizing effects of unexpected efficiency. Under the pilot program, trams will continue to appear on digital boards as \"approaching\" long after drivers have gone home emotionally fulfilled.",
+      lv: "Pilsētas amatpersonas apgalvo, ka jaunā transporta politika ir paredzēta, lai pasargātu iedzīvotājus no negaidītas efektivitātes destabilizējošajām sekām. Saskaņā ar pilotprogrammu tramvaji digitālajos tablo paliks kā „ tuvojas” vēl ilgi pēc tam, kad šoferi būs aizgājuši mājās emocionāli piepildīti.",
+      ru: "Городские власти заявляют, что новая транспортная политика призвана защитить жителей от дестабилизирующего эффекта неожиданной эффективности. В рамках пилотного проекта трамваи будут долго оставаться в расписании как «подъезжают», хотя водители уже давно ушли домой эмоционально удовлетворёнными."
+    },
+    fullContent: {
+      en: `RIGA — In what municipal leaders are calling a “measured investment in psychological continuity,” the Riga City Council on Tuesday unveiled a new public transport initiative that deliberately delays selected tram lines by exactly 11 minutes in order to maintain what planners describe as “a culturally appropriate level of guarded disappointment.”
+
+The policy, officially titled the Urban Temporal Softening Program, will begin next week on Tram 6, Tram 11, and, in a move critics have called “needlessly ambitious,” all replacement buses pretending to be Tram 5. According to documents presented at a four-hour committee meeting in a room with no visible optimism, the city spent €2.4 million on an algorithm that monitors passenger hope and adjusts arrivals accordingly.
+
+“For years, we have asked ourselves a difficult question,” said Rihards Veinbergs, Deputy Chair of the Committee for Mobility, Pavement Texture, and Managed Expectations. “What happens to a society if a tram simply comes when it says it will? We conducted focus groups in Purvciems, Āgenskalns, and one highly emotional segment of Teika, and the findings were clear: people felt exposed.”
+
+Under the system, trams that are accidentally on time will pause discreetly behind kiosks, churches, or medium-sized piles of municipal gravel until passengers have had sufficient opportunity to sigh, check their phones twice, and briefly consider walking. Officials say the target delay of 11 minutes was chosen after extensive polling revealed that 7 minutes felt “suspiciously Scandinavian,” while 14 minutes was associated with “actual rage.”
+
+The city’s Department of Civic Rhythm reported that 68% of respondents said a slightly late tram gives them “time to assemble an identity for the day,” while 22% said punctual transport made them “feel manipulated by success.” A further 9% said they did not trust any vehicle that appeared confidently in weather like this.
+
+Transport sociologist Dr. Ilze Rozenfelde of the Baltic Institute for Applied Resignation said the policy reflects a mature understanding of local emotional infrastructure. “Latvians do not necessarily want things to be bad,” she explained, standing near a stop where three generations were waiting in a unified silence. “But we do prefer services to arrive with the same humility as everyone else. A tram should not burst into your life radiating certainty. It should approach apologetically, if at all.”
+
+Reaction among passengers was mixed but measured. “Honestly, it’s nice to know they are finally listening,” said office administrator Elīna Kalniņa, 34, who had been tracking one tram on the app as it remained 2 minutes away for nearly half an hour. “Before this, I thought the delays were random. Now I understand they are curated.”
+
+Not everyone is convinced. Opposition councillor Mārtiņš Ozols accused the governing coalition of “turning basic scheduling failure into a heritage project.” He was later interrupted by applause from several residents who said they appreciated a politician speaking briefly and with visible fatigue.
+
+Jūrmala officials have already expressed interest in adapting the idea for summer rail service, where trains would arrive on time but only emotionally after Labor Day. Meanwhile, Estonia reportedly considered a similar scheme but rejected it after concluding that efficiency remains one of its few remaining hobbies.
+
+As evening fell over Riga, commuters at the Central Station tram stop watched the digital board cycle from 3 minutes to 5 minutes and then, with admirable tact, back to 4. Several nodded. One man adjusted his scarf and said the city finally felt governable again.`,
+      lv: `RĪGA — To, ko pašvaldības vadītāji dēvē par „mērķtiecīgu ieguldījumu psiholoģiskajā kontinuitātē”, otrdien Rīgas dome prezentēja jaunu sabiedriskā transporta iniciatīvu, kas apzināti aizkavē atsevišķas tramvaja līnijas tieši par 11 minūtēm, lai saglabātu to, ko plānotāji raksturo kā „kultūriski piemērotu piesardzīgas vilšanās līmeni”.
+
+Politika, oficiāli saukta par Pilsētas laika mīkstināšanas programmu, tiks uzsākta nākamnedēļ 6. un 11. tramvajā, un, kā kritiķi to nosaukuši par „nepamatoti ambiciozu”, arī visos aizvietojošajos autobusos, kas tēlo 5. tramvaju. Dokumentos, kas tika prezentēti četru stundu komitejas sēdē telpā bez redzama optimism, norādīts, ka pilsēta iztērējusi 2,4 miljonus eiro algoritmam, kas uzrauga pasažieru cerības un attiecīgi pielāgo ierašanās laikus.
+
+„Gadu garumā mēs sev uzdevām grūtu jautājumu,” sacīja Rihards Veinbergs, Komitejas Mobilitātes, Ielas Seguma Tekstūras un Pārvaldīto Cerību priekšsēdētāja vietnieks. „Kas notiek ar sabiedrību, ja tramvajs vienkārši nāk tad, kad teikts? Mēs rīkojām fokusa grupas Purvciemā, Āgenskalnā un vienā ļoti emocionālā Teikas segmentā, un secinājumi bija skaidri: cilvēki jutās pakļauti.”
+
+Sistēmas ietvaros tramvaji, kas nokļūst precīzi laikā „gaišā nejaušībā”, diplomātiski apstāsies aiz kioskiem, baznīcām vai vidēja izmēra pašvaldības grants kaudzēm, līdz pasažieriem būs bijusi pietiekama iespēja nopūsties, divreiz pārbaudīt telefonu un īslaicīgi apsvērt gājiena iespēju. Amatpersonas apgalvo, ka izvēlētais 11 minūšu kavējums tika noteikts pēc plašām aptaujām, kas atklāja: 7 minūtes šķiet „aizdomīgi skandināviskas”, kamēr 14 minūtes asociējas ar „reālām dusmām”.
+
+Pilsoniskā ritma departaments ziņoja, ka 68% respondentu sacīja, ka nedaudz nokavēts tramvajs viņiem dod „laiku sastādīt identitāti dienai”, savukārt 22% norādīja, ka punktuārs transports liek viņiem „justies manipulētiem ar panākumiem”. Vēl 9% teica, ka neuzticas nevienam transportlīdzeklim, kas šādā laikā parādās pārliecināti.
+
+Transporta socioloģe Dr. Ilze Rozenfelde no Baltijas Pielietotās Atteikšanās institūta pauda, ka politika atspoguļo nobriedušu izpratni par vietējo emocionālo infrastruktūru. „Latvieši ne vienmēr vēlas, lai viss būtu slikti,” viņa paskaidroja, stāvot pie pieturas, kur trīs paaudzes gaidīja viengabalainā klusumā. „Bet mēs priekšroku dodam tam, ka pakalpojumi ierodas ar tādu pašu pazemību kā visi pārējie. Tramvajs nedrīkst ielauzties tavā dzīvē, izstarojoši pārliecināts. Ja vispār tuvojas, tad atvainojoši.”
+
+Reakcijas starp pasažieriem bija jauktas, bet piesardzīgas. „Godīgi sakot, patīkami zināt, ka viņi beidzot klausās,” sacīja biroja administrators Elīna Kalniņa, 34, kas aplikācijā sekoja vienam tramvajam, kamēr tas gandrīz pusstundu palika norādīts kā 2 minūtes attālumā. „Pirms tam domāju, ka aizkavēšanās ir nejaušība. Tagad saprotu — tās ir kurētas.”
+
+Ne visi ir pārliecināti. Opozīcijas deputāts Mārtiņš Ozols apsūdzēja valdē esošo koalīciju par „pamata sarakstīšanas neveiksmes pārvēršanu mantojuma projektā.” Viņam vēlāk pārtrauca aplausi no vairākiem iedzīvotājiem, kuri teica, ka novērtē politiķi, kas runā īsi un ar redzamu nogurumu.
+
+Jūrmalas amatpersonas jau izrādījušas interesi adaptēt ideju vasaras dzelzceļa satiksmei, kur vilcieni ierastos laicīgi, bet tikai emocionāli pēc Darba svētkiem. Tikmēr Igaunija esot apsvērusi līdzīgu shēmu, bet noraidījusi to, secinot, ka efektivitāte joprojām ir viena no tās pēdējām palikušajām vaļaspriekiem.
+
+Kad vakars nolaidās pār Rīgu, pasažieri pie Centrālās stacijas tramvaja pieturas vēroja, kā digitālā tablo mainīja rādījumu no 3 minūtēm uz 5, un tad, ar apbrīnojamu taktiskumu, atpakaļ uz 4. Vairāki pieklauvēja ar galvu. Viens vīrietis pielaboja lakatu un teica, ka pilsēta beidzot atkal šķiet valdāma.`,
+      ru: `РИГА — В том, что муниципальные руководители называют «взвешенной инвестицией в психологическую непрерывность», Рижская городская дума во вторник представила новую инициативу общественного транспорта: намеренное замедление движения отдельных трамвайных линий ровно на 11 минут, чтобы поддерживать то, что планировщики описывают как «культурно уместный уровень сдержанного разочарования». 
+
+Политика, официально названная Программой смягчения городского времени, начнёт действовать на следующей неделе на трамваях №6, №11 и, в шаге, который критики уже назвали «излишне амбициозным», на всех автобусах-заменителях, притворяющихся трамваем №5. По документам, представленным на четырёхчасовом заседании комиссии в комнате без видимого оптимизма, город потратил €2,4 млн на алгоритм, который отслеживает надежды пассажиров и соответственно корректирует время прибытия. 
+
+«Много лет мы задавали себе трудный вопрос», — сказал Рихардс Вейнбергс, заместитель председателя Комитета по мобильности, фактуре тротуаров и управлению ожиданиями. «Что произойдёт с обществом, если трамвай просто придёт тогда, когда сказал? Мы проводили фокус-группы в Пурвчиемсе, Āгенскалнсе и в одном крайне эмоциональном сегменте Тейки, и выводы были ясны: люди чувствовали себя уязвимыми». 
+
+По системе, трамваи, которые случайно приходят вовремя, будут незаметно задерживаться за киосками, церквями или средних размеров кучками муниципального гравия, пока пассажиры не успеют достаточно вздохнуть, дважды проверить телефон и коротко подумать о пешей прогулке. По словам чиновников, целевая задержка в 11 минут была выбрана после обширных опросов: 7 минут казались «подозрительно скандинавскими», а 14 минут ассоциировались с «настоящим гневом». 
+
+Департамент гражданского ритма города сообщил, что 68% респондентов заявили: слегка опоздавший трамвай даёт им «время на то, чтобы собрать себе идентичность на день», в то время как 22% сказали, что пунктуальный транспорт заставляет их «чувствовать себя манипулируемыми успехом». Ещё 9% признались, что не доверяют ни одному транспортному средству, которое уверенно появляется в такую погоду. 
+
+Транспортный социолог д-р Илзе Розенфельде из Балтийского института прикладного смирения заявила, что эта политика отражает зрелое понимание местной эмоциональной инфраструктуры. «Латвийцам не обязательно хочется, чтобы всё было плохо», — объяснила она, стоя у остановки, где три поколения ждали в едином молчании. «Но мы предпочитаем, чтобы услуги приходили с той же скромностью, что и все остальные. Трамвай не должен ворваться в вашу жизнь, излучая уверенность. Он должен подходить извиняющимся тоном, если вообще подходит». 
+
+Реакция пассажиров была смешанной, но сдержанной. «Честно говоря, приятно знать, что они наконец-то слушают», — сказала офисная администратор Элина Калниня, 34 года, которая следила за одним трамваем в приложении, пока тот почти полчаса оставался «2 минуты» до остановки. «Раньше я думала, что задержки случайны. Теперь понимаю, что они кураторские». 
+
+Не все в это поверили. Оппозиционный советник Мартиньш Озолс обвинил правящую коалицию в «превращении базового сбоя в расписании в проект наследия». Его прервали аплодисментами несколько жителей, которые сказали, что ценят политика за краткость выступления и заметную усталость. 
+
+Власти Юрмалы уже выразили интерес к адаптации идеи для летнего железнодорожного сообщения, где поезда будут приходить вовремя, но эмоционально — только после Дня труда. Между тем Эстония якобы рассматривала схожую схему, но отклонила её, решив, что эффективность остаётся одним из немногих её оставшихся хобби. 
+
+Когда над Ригой опускался вечер, пассажиры на остановке у Центрального вокзала наблюдали, как цифровое табло переключалось с «3 минуты» на «5 минут», а затем, с восхитительной тактичностью, на «4». Несколько человек кивнули. Один мужчина поправил шарф и сказал, что город наконец снова кажется управляемым.`
+    },
+    date: "Oct 27, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/317/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 316,
     slug: "riga-introduces-silence-tax-after-residents-316",
     title: {
@@ -96,7 +177,7 @@ Kad ziņu sagatavošanas brīdī, centrālās Rīgas iedzīvotāji, kā ziņots,
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/316/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 315,
