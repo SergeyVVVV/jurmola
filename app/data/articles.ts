@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 319,
+    slug: "riga-introduces-silent-tram-carriage-for",
+    title: {
+      en: "Riga Introduces ‘Silent Tram’ Carriage for Passengers Who Need 14 Minutes of Eye Contact-Free Reflection",
+      lv: "Rīga ievieš “klusā tramvaja” vagonu pasažieriem, kuriem vajadzīgas 14 minūtes acu kontakta brīvas pārdomas",
+      ru: "Рига запускает «тихий вагон» в трамвае для пассажиров, которым нужно 14 минут размышлений без зрительного контакта"
+    },
+    excerpt: {
+      en: "Riga City Transport this week unveiled a new “silent carriage” on Tram No. 11, designed for commuters seeking a brief but meaningful escape from small talk, ringtone leaks, and the emotional threat of someone asking whether the seat is free. Officials say the pilot program has already been embraced by thousands of residents who consider public silence one of Latvia’s last functioning institutions.",
+      lv: "Rīgas satiksme šonedēļ atklāja jaunu “klusā vagonu” 11. tramvajā, paredzētu pasažieriem, kuri meklē īsu, bet jēgpilnu atelpau no sīkām sarunām, zvanu signālu noplūdēm un emocionālā drauda, ka kāds pajautās, vai sēdeklis ir brīvs. Pārstāvji apgalvo, ka pilotprojekts jau ieguvis tūkstošu iedzīvotāju atbalstu — cilvēku, kuri publisko klusumu uzskata par vienu no Latvijas pēdējām funkcionējošajām institūcijām.",
+      ru: "Rīgas Satiksme на этой неделе представила новый «тихий вагон» в трамвае №11, предназначенный для пассажиров, ищущих короткое, но содержательное спасение от светской болтовни, несдержанных рингтонов и эмоциональной угрозы в лице вопроса «Это место свободно?». Чиновники говорят, что пилотный проект уже поддержали тысячи жителей, считающих публичное молчание одной из последних реально работающих латвийских институций."
+    },
+    fullContent: {
+      en: `RIGA — In what city officials are calling a “historic investment in municipal quiet,” Rīgas Satiksme on Tuesday launched the capital’s first officially designated silent tram carriage, promising passengers a protected environment free from unnecessary conversation, aggressive snack rustling, and “all forms of socially ambitious throat-clearing.”
+
+The new carriage, attached to the middle section of Tram No. 11 between Mežaparks and the Central Market, is marked with a pale gray sign depicting two commuters carefully avoiding each other’s gaze. According to transport authorities, the pilot project follows a 14-month study that found 83% of Riga residents prefer to spend their commute in “private psychological exile,” while 11% said they would support stricter penalties for strangers attempting weather-related remarks before 9:30 a.m.
+
+“We are not against communication,” said Rīgas Satiksme spokesperson Elīna Vītola, standing beside the tram in a tone suggesting she absolutely was. “But there must be a suitable place for it. The public transport system cannot continue absorbing every unprocessed opinion about roadworks, dill prices, or someone’s nephew who moved to Ireland and now ‘works with computers.’”
+
+Under the new rules, passengers entering the silent carriage must either remain fully silent or communicate exclusively through subtle Baltic methods, including sighing, looking out the window with regional disappointment, and briefly lifting eyebrows to indicate moral fatigue. Violators face a warning on first offense and, for repeated disruption, relocation to the “social carriage,” a standard tram section where people are free to discuss parking, mushroom yields, and whether this winter feels “less serious somehow.”
+
+Commuters greeted the launch with visible restraint. “This is the first time I have felt seen by a public institution without needing to explain anything,” said 34-year-old accountant Mārtiņš Ozols, speaking quietly near the tram stop at Radio Street. “Usually on the morning tram there is always one man conducting a Bluetooth conversation at the volume of a dockyard confession. Today I heard only the tracks, my own regrets, and one woman opening a candy with excellent discipline.”
+
+Not all reactions were positive. Pensioner and habitual conversationalist Inese Brante called the measure “deeply un-Latvian in a new and advanced way.” Brante, who says she has started 27,000 transit conversations since 1998, expressed concern that younger riders “already stare into the middle distance too much” and may lose the ability to exchange crucial civic phrases such as “Is this going to the market?” and “Who raised tomato prices like this?”
+
+To enforce the policy, inspectors have been equipped with decibel meters and a laminated chart distinguishing acceptable tram sounds from prohibited ones. Approved noises include coat adjustment, reserved coughing, and the low hum of collective endurance. Banned noises include speakerphone use, loud laughter, and any sentence beginning with “Actually, in Tallinn they do it differently.”
+
+The city says early data from the first 48 hours is encouraging. Average commuter heart rates dropped by 12%, passive-aggressive glances fell by 31%, and one passenger reportedly completed an entire journey without hearing the phrase “I’m just saying.” Following the promising start, officials are considering silent bus zones, whisper-only suburban trains, and a “contemplative platform” at the Central Station for residents who need a moment before reentering society.
+
+Mayor Vilnis Ķezbers praised the initiative as “a practical step toward European standards of emotional noninterference.” Asked whether the program might expand citywide, he paused for several seconds before replying, “If successful, we hope someday all of Riga may become a place where a person can stand quietly with a bag of kefir and not be drawn into anything.”
+
+As Tram No. 11 departed into the afternoon drizzle, passengers inside the silent carriage stared forward with what several experts later described as “near-perfect civic contentment” — a level of public satisfaction not seen in Latvia since that one week in 2016 when nobody tried to reinvent the parking system.`,
+      lv: `RĪGA — To, ko pilsētas amatpersonas sauc par “vēsturisku ieguldījumu pašvaldības klusumā,” otrdien Rīgas Satiksme palaida galvaspilsētas pirmo oficiāli noteikto klusā tramvaja vagonu, solot pasažieriem aizsargātu vidi, brīvu no nevajadzīgām sarunām, agresīvas uzkodu čaukstēšanas un “visām sociāli ambiciozajām rīkles skaņām.”
+
+Jaunais vagonam, pievienots 11. tramvaja vidusdaļai maršrutā starp Mežaparku un Centrāltirgu, ir pelēka zīme ar diviem pasažieriem, kas rūpīgi izvairās no acu kontakta. Transports pārstāvji norāda, ka pilotprojekts seko 14 mēnešu pētījumam, kurā konstatēts, ka 83% rīdzinieku dod priekšroku savu pendeli pavadīt “privātā psiholoģiskā eksilā,” savukārt 11% atbalstītu stingrākas sankcijas pret svešiniekiem, kas pirms pulksten 9:30 mēģina uzsākt komentārus par laikapstākļiem.
+
+“Mēs neesam pret komunikāciju,” sacīja Rīgas Satiksmes pārstāve Elīna Vītola, stāvot blakus tramvajam tādā tonī, kas lika saprast, ka viņa noteikti ir pret. “Bet tam ir jābūt piemērotam laikam un vietai. Sabiedriskais transports vairs nevar uzņemt katru neapstrādāto viedokli par ceļu remontiem, dilles cenām vai kāda brālēna, kurš pārbrauca uz Īriju un tagad ‘strādā ar datoriem,’ karjeras atklāsmēm.”
+
+Saskaņā ar jaunajiem noteikumiem pasažieriem, kuri iekāpj klusajā vagonā, jāpaliek pilnīgā klusumā vai arī jākomunicē tikai ar smalkām Baltijas metodēm — nopūta, skatīšanās pa logu ar reģionālu vilšanos un īss uzacu pacelums, kas norāda uz morālu nogurumu. Pārkāpēji saņem brīdinājumu pirmajā pārkāpumā, bet atkārtotu traucējumu gadījumā tiek pārcelti uz “sociālo vagonu” — parasto tramvaja daļu, kur cilvēki brīvi var apspriest stāvvietas, sēņu ražas un to, vai šī ziema kaut kā “mazāk nopietna.”
+
+Pasažieri jauninājumu sagaidīja ar redzamu savaldību. “Pirmoreiz jūtos ievērots no publiskas institūcijas, neizskaidrojot neko,” klusi teica 34 gadus vecais grāmatvedis Mārtiņš Ozols pie pieturas Radio ielā. “Parasti rīta tramvajā vienmēr ir kāds vīrs, kas vada Bluetooth sarunu dokas grēku atzīšanas apjomā. Šodien dzirdēju tikai sliedes, savas nožēlas un vienu sievieti, kas atvēra konfekti ar izcilu disciplīnu.”
+
+Ne visi bija sajūsmā. Pensionāre un ieraduma runātāja Inese Brante šo pasākumu nosauca par “dziļi ne‑latvisku jaunā un progresīvā nozīmē.” Brante, kura apgalvo, ka kopš 1998. gada uzsākusi 27 000 pārvietošanās sarunu, pauda bažas, ka jaunie pasažieri “jau tagad pārāk daudz raugās uz tālāko vidu” un var zaudēt spēju apmainīties ar dzīšķīgi svarīgām civiskām frāzēm, piemēram, “Vai tas iet uz tirgu?” un “Kas tā ir pacēlis tomātu cenas tik augstu?”
+
+Lai nodrošinātu politikas ievērošanu, inspektoriem izsniegti decibelu mērītāji un laminētas tabulas, kas atšķir pieļaujamās tramvaja skaņas no aizliegtajām. Apstiprinātās skaņas ietver mēteļa sakārtošanu, rezervētu klepošanu un kolektīvās izturības zemo dunoņu. Aizliegtās skaņas — brīvroku sarunas skaļā režīmā, skaļi smiešanās brīži un jebkura teikuma sākums ar “Patiesībā Tallinā to dara citādi.”
+
+Pilsēta ziņo, ka agrīnās 48 stundas rāda iepriecinošus rezultātus: vidējais pasažieru sirdsdarbības ātrums samazinājies par 12%, pasīvi‑agresīvo paskatu skaits krities par 31%, un viens pasažieris it kā veicis visu braucienu, nejūtot frāzi “es tikai saku.” Pēc iepriecinošā starta amatpersonas apsver klusās autobusu zonas, čukstoņvilcienus piepilsētās un “kontemplatīvu peronu” Centrālajā stacijā tiem iedzīvotājiem, kam pirms sabiedrībā atgriešanās nepieciešama neliela pauze.
+
+Rīgas mērs Vilnis Ķezbers atzina iniciatīvu par “praktisku soli pretī Eiropas standartiem emocionālās neiejaukšanās jomā.” Uz jautājumu, vai programmu varētu paplašināt visā pilsētā, viņš uz brīdi apstājās, pirms atbildēt: “Ja izdosies, ceram, ka kādu dienu visa Rīga varēs kļūt par vietu, kur cilvēks var stāvēt klusējoši ar kefīra maisiņu un netiek nekādā veidā ievelts sarunā.”
+
+Kad 11. tramvajs devās tālāk pa dienvidu migli, pasažieri klusā vagonā skatījās uz priekšu ar to, ko vairāki eksperti vēlāk nosauca par “gandrīz perfektiem pilsoniskās apmierinātības izteiksmi” — publiskas apmierinātības līmeni, kādu Latvijā nebija redzēts kopš tā vienīgā 2016. gada nedēļas, kad neviens nemēģināja izgudrot stāvvietu sistēmu no jauna.`,
+      ru: `РИГА — В том, что городские власти называют «исторической инвестицией в муниципальное молчание», Rīgas Satiksme во вторник запустила первый в столице официально обозначенный тихий вагон трамвая, пообещав пассажирам защищённое пространство без лишних разговоров, агрессивного шуршания перекусами и «всех форм социально-амбициозного прочищения горла». 
+
+Новый вагон, прицепленный к средней секции трамвая №11 на маршруте между Mežaparks и Центральным рынком, отмечен бледно‑серой табличкой с изображением двух пассажиров, осторожно избегающих встречных взглядов. По данным транспортных властей, пилотный проект стал результатом 14‑месячного исследования, которое показало, что 83% жителей Риги предпочитают проводить поездку в «частном психологическом изгнании», а 11% заявили, что поддержали бы ужесточение наказаний для случайных прохожих, пытающихся с утра обсуждать погоду до 9:30. 
+
+«Мы не против общения, — сказала пресс‑секретарь Rīgas Satiksme Эліна Вітола, стоя рядом с трамваем тоном, что, по всей видимости, говорил об обратном. — Но для него должно быть подходящее место. Система общественного транспорта не может бесконечно впитывать каждое неосмысленное мнение о ремонтах дорог, ценах на укроп или чьём‑то племяннике, который уехал в Ирландию и теперь „работает с компьютерами“.» 
+
+По новым правилам пассажиры, заходящие в тихий вагон, обязаны либо полностью сохранять молчание, либо общаться исключительно тонкими балтийскими приёмами: тихим вздохом, взглядом в окно с региональным разочарованием и коротким поднятием бровей в знак моральной усталости. Нарушителей ждёт предупреждение при первом проступке, а при повторных нарушениях — пересадка в «социальный вагон», обычную секцию трамвая, где люди вольны обсуждать парковки, урожай грибов и то, что зима «как‑то менее серьёзная в этом году». 
+
+Пассажиры восприняли запуск с видимым самообладанием. «Это впервые я почувствовал(а), что общественное учреждение меня увидело и не требует объяснений, — тихо сказал 34‑летний бухгалтер Мārtiņš Ozols у остановки на улице Радио. — Обычно в утреннем трамвае всегда есть один мужчина, говорящий по Bluetooth на громкости, как будто признаётся в грехах на верфи. Сегодня я слышал только рельсы, собственные сожаления и одну женщину, открывающую конфету с отличной дисциплиной». 
+
+Не все отнеслись к новшеству позитивно. Пенсионерка и закоренелая собеседница Инесе Бранте назвала меру «глубоко нела́твийской — по‑новому и по‑продвинутому». Бранте, которая утверждает, что с 1998 года завела 27 000 разговоров в транспорте, выразила опасение, что молодые пассажиры «уже слишком часто смотрят в никуда» и могут утратить умение обмениваться важнейшими гражданскими фразами, такими как «Этот идёт на рынок?» и «Кто так поднял цены на помидоры?» 
+
+Для контроля соблюдения правил инспекторы получили шумомеры и ламинированную таблицу, различающую дозволенные трамвайные звуки от запрещённых. К разрешённым шумам относятся поправление пальто, сдержанный кашель и тихий гул коллективного терпения. Под запретом — разговоры на громкой громкой связи, голосной смех и любое предложение, начинающееся со слов «На самом деле в Таллине это делают по‑другому». 
+
+Город сообщает, что первые данные за 48 часов обнадёживают. Средний пульс пассажиров упал на 12%, число пассивно‑агрессивных взглядов сократилось на 31%, а один пассажир, по сообщениям, проехал всю дорогу и ни разу не услышал фразы «Я же просто говорю». Учитывая оптимистичный старт, чиновники рассматривают идеи тихих зон в автобусах, пригородных поездов только для шёпота и «платформы для созерцания» на Центральном вокзале для тех, кто нуждается в моменте перед возвращением в общество. 
+
+Мэр Вилнис Кезберс похвалил инициативу как «практический шаг к европейским стандартам эмоционального невмешательства». На вопрос, может ли программа распространиться на весь город, он сделал паузу на несколько секунд и ответил: «Если всё пройдёт успешно, мы надеемся, что однажды вся Рига станет местом, где человек может тихо стоять с пакетом кефира и никуда не вовлекаться». 
+
+Когда трамвай №11 уехал в послеполуденный моросящий дождь, пассажиры в тихом вагоне уставились вперёд с тем, что несколько экспертов позже описали как «почти идеальное гражданское удовлетворение» — уровнем общественной удовлетворённости, не виданным в Латвии с той самой недели 2016 года, когда никто не пытался заново изобрести систему парковки.`
+    },
+    date: "Oct 29, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/319/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 318,
     slug: "riga-introduces-passive-aggressive-silence-zones-318",
     title: {
@@ -108,7 +189,7 @@ Ja tas izrādīsies veiksmīgi, pilsēta cer, ka modeli varēs eksportēt uz ār
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/318/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 317,
