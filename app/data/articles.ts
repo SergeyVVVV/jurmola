@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 320,
+    slug: "riga-introduces-official-municipal-sigh-to-320",
+    title: {
+      en: "Riga Introduces Official Municipal Sigh to Improve Public Transport Morale",
+      lv: "Rīga ievieš oficiālu pilsētas uzelpu, lai uzlabotu sabiedriskā transporta morāli",
+      ru: "Рига вводит официальный муниципальный вздох, чтобы поднять мораль в общественном транспорте"
+    },
+    excerpt: {
+      en: "In a move city leaders say will modernize commuter culture, Riga has approved a standardized public sigh to be used while waiting for delayed trams, unreadable e-talons, and a bus that appears emotionally unwilling to arrive. Officials insist the initiative will bring order, dignity, and acoustic consistency to daily frustration.",
+      lv: "Rīgas vadība apgalvo, ka tas modernizēs pendleru kultūru — pilsēta apstiprinājusi standartizētu sabiedrisko uzelpu, ko lietot, gaidot aizkavējušos tramvajus, nesalasāmas e-talona kļūdas un autobusu, kurš izskatās emocionāli nevēlēms ierasties. Iestādes uzsver, ka iniciatīva ikdienas neapmierinātībai ieviesīs kārtību, cieņu un akustisku konsekvenci.",
+      ru: "В попытке, как утверждают городские власти, модернизировать культуру пассажиров, Рига утвердила стандартизированный публичный вздох для ожидания опоздавших трамваев, нечитаемых э‑талонов и автобуса, который, похоже, эмоционально не хочет приезжать. Чиновники настаивают, что инициатива принесёт порядок, достоинство и акустическую согласованность ежедневному разочарованию."
+    },
+    fullContent: {
+      en: `RIGA — After what transport planners described as "three years of stakeholder listening and one very long winter," the Riga City Council on মঙ্গলবার approved the capital’s first Official Municipal Sigh, a standardized exhalation intended for use by residents experiencing routine transit disappointment.
+
+The measure, formally titled Regulation No. 41/7 “On the Harmonization of Audible Resignation in Shared Mobility Zones,” passed by a vote of 38–19 and will take effect on 1 November, just before the period experts call “the spiritually damp part of autumn.” Under the new rules, commuters are encouraged to perform a low, controlled sigh of 2.4 seconds when a tram is late, a trolleybus displays “???”, or a fellow passenger begins loudly opening sunflower seeds before 8:00 a.m.
+
+According to the Department of Civic Atmosphere, the city previously suffered from a fragmented and inefficient system of spontaneous annoyance. “People were sighing in different pitches, with inconsistent chest support, sometimes even adding a muttered ‘nu jā,’” said department director Elīna Sproģe at a press conference held beside a Route 6 tram that had not moved since 09:14. “This created emotional bottlenecks on platforms and put unnecessary pressure on older residents, who have long carried the nation’s passive-aggressive acoustic heritage.”
+
+A pilot program conducted this spring at stops in Teika, Pļavnieki, and near the Origo underpass found that standardized sighing reduced platform confusion by 17% and helped first-time visitors identify the correct local mood within 11 seconds. Researchers from the Latvian Institute of Everyday Endurance also reported a 23% increase in “communal emotional alignment,” defined in the study as “the comforting realization that everyone else is also having a terrible morning.”
+
+To ensure proper implementation, instructional posters will appear on buses and tram shelters demonstrating approved forms of resignation. Version A, known as the “Classic Center Resident,” is a nasal exhale accompanied by a fixed stare at middle distance. Version B, recommended for outer neighborhoods, allows for a brief head shake and one upward glance toward a sky “from which nothing useful is expected.” Premium subscribers to the Mobilly app will also receive access to an optional digital metronome to help synchronize group sighs during delays exceeding 12 minutes.
+
+Not all residents are convinced. Outside the Central Station, office worker Mārtiņš Auziņš, 34, questioned whether the city was addressing the real issue. “I don’t need a government-certified sigh,” he said, watching three buses arrive at once for routes he did not need. “My family has been producing high-quality disappointment naturally since at least 1996.”
+
+Others welcomed the policy as overdue recognition of a deeply local skill. Retired chemistry teacher and Imanta resident Velta Krūmiņa, 68, said she plans to volunteer as a neighborhood sigh monitor. “You can hear immediately when a young person is forcing it,” she said. “A proper Latvian sigh begins in the spine. It should suggest that summer was too short, the heating bill will be unreasonable, and no one in the apartment association understands email.”
+
+Deputy Mayor Kaspars Briedis defended the initiative’s €284,000 rollout cost, noting that €190,000 had already been earmarked for a feasibility study, two consultants from Cēsis, and a small soundproof room where civil servants tested exhale prototypes. “This is about European standards,” Briedis said. “Tallinn has digital ticketing. Vilnius has modern stations. Riga will lead the region in audible composure.”
+
+If successful, the city may expand the program to other public settings, including supermarket queues, beach parking in Jūrmala, and any government office where a printer has displayed confidence without actual functionality. Officials confirmed a separate task force is already developing a companion municipal eyebrow raise for winter road maintenance updates.
+
+By late afternoon, commuters at several stops had begun informally practicing the approved technique, though early results were mixed. Near Barona iela, one man was observed adding theatrical despair and had to be politely corrected by a transport inspector. Still, city leaders remain optimistic that with training, patience, and no measurable improvement in services, Riga can finally offer residents a more unified experience of disappointment.`,
+      lv: `RĪGA — Pēc tam, kad transporta plānotāji to raksturoja kā “trīs gadu ieinteresēto personu uzklausīšanu un vienu ļoti garu ziemu,” Rīgas domes sēdē otrdien tika apstiprināta galvaspilsētas pirmā Oficiālā pilsētas uzelpa — standartizēta izelpa, paredzēta iedzīvotājiem, kuri pieredz ikdienišķu pārvietošanās vilšanos.
+
+Šis pasākums, formāli nosaukts par Reglamentu Nr. 41/7 “Par dzirdamās padevības harmonizāciju koplietošanas mobilitātes zonās,” tika pieņemts ar 38 pret 19 balsīm un stāsies spēkā 1. novembrī, tieši pirms tā, ko eksperti sauc par “garīgi mitro rudens daļu.” Saskaņā ar jaunajiem noteikumiem, pasažieri tiek aicināti veikt zemu, kontrolētu uzelpu 2,4 sekunžu garumā, kad tramvajs kavējas, trolejbuss rāda “???” vai līdzbraucējs sāk skaļi kārt vaigus ar saulespuķu sēklām pirms pulksten 8:00.
+
+Pilsētas Pilsoniskās atmosfēras departaments norāda, ka iepriekš pilsētā pastāvēja fragmentēta un neefektīva spontānās neapmierinātības sistēma. “Cilvēki uzelpoja dažādās toņās, ar nekonsistentu krūšu atbalstu, dažkārt pat pievienojot nopūtīgu ‘nu jā’,” sacīja departamenta direktore Elīna Sproģe preses konferencē pie 6. maršruta tramvaja, kas nebija kustējies kopš 9:14. “Tas radīja emocionālus sastrēgumus platformās un lieki uzlika slogu vecāka gadagājuma iedzīvotājiem, kuri jau ilgi nēsā tautas pasīvi-agresīvo akustisko mantojumu.”
+
+Piemērošanas pilotprojekts šovasar pieturvietās Teikā, Pļavniekos un pie Origo tunelī atrādīja, ka standartizēta uzelpošana samazināja platformu apjukumu par 17% un palīdzēja pirmreizējiem apmeklētājiem atpazīt pareizo vietējo noskaņu 11 sekunžu laikā. Latvijas Ikdienas Izturības institūta pētnieki arī ziņoja par 23% pieaugumu “kopējā emocionālajā saskaņā,” ko pētījumā definēja kā “norietinošu atziņu, ka arī visi pārējie šorīt piedzīvo briesmīgu rītu.”
+
+Lai nodrošinātu pareizu ieviešanu, autobusos un tramvaju nojumes parādīs mācību plakātus ar apstiprinātajām padevības formām. A versija, pazīstama kā “Klasiskais centra iedzīvotājs,” ir nāsis izelpa, kam pievienots fiksēts skats vidējā attālumā. B versija, ieteicama ārējām apkaimēm, pieļauj īsu galvas kratienu un vienu uzmetienu uz debess pusi “no kuras neko lietderīgu nav gaidāms.” Mobilly lietotnes Premium abonenti arī saņems piekļuvi izvēles digitālam metronomam, kas palīdzēs sinhronizēt grupas uzelpas aizkavēs, kas pārsniedz 12 minūtes.
+
+Ne visi iedzīvotāji ir pārliecināti. Pie Centrālās stacijas biroja darbinieks Mārtiņš Auziņš, 34, apšaubīja, vai pilsēta risina īsto problēmu. “Man nav vajadzīga valdības sertificēta uzelpa,” viņš teica, vērojot trīs autobusiem ierašanos vienlaikus maršrutos, kas viņam nebija vajadzīgi. “Mana ģimene ražo augstvērtīgas vilšanās dabīgi vismaz kopš 1996. gada.”
+
+Citi jauno politiku uzņēma kā ilgi gaidītu atzinību dziļi lokālai prasmei. Pensijā esošā ķīmijas skolotāja un Imantas iedzīvotāja Velta Krūmiņa, 68, sacīja, ka plāno brīvprātīgi darboties kā apkārtnes uzelpas uzraudzītāja. “Jau nozaudē uzreiz dzirdams, kad jaunietis to piespiež,” viņa sacīja. “Pareiza latvietes uzelpa sākas mugurkaulā. Tai jānorāda, ka vasara bija par īsu, apkures rēķins būs neracionāls un nevienam dzīvokļu biedrībā nav skaidrības e-pastā.”
+
+Deputāta mēra vietnieks Kaspars Briedis aizstāvēja iniciatīvas ieviešanas izmaksas 284 000 eiro apmērā, norādot, ka 190 000 eiro jau bija rezervēti izpētes pētījumam, diviem konsultantiem no Cēsīm un mazai skaņas izolētai telpai, kur valsts ierēdņi testēja izelpas prototipus. “Tas ir par Eiropas standartiem,” sacīja Briedis. “Tallina ir ar digitālajām biļetēm. Viļņa ir ar modernām stacijām. Rīga reģionā vadīs dzirdamo mierīgumu.”
+
+Ja projekts izrādīsies veiksmīgs, pilsēta var paplašināt programmu uz citiem publiskiem iestatījumiem, tostarp veikalu rindām, Jūrmalas pludmales stāvvietu un jebkuru valsts iestādi, kur printeris ir parādījis pārliecību bez faktiskas funkcionalitātes. Iestādes apstiprināja, ka atsevišķa darba grupa jau izstrādā pavadprojektu — pašvaldības uzacu pacelšanu ziemas ceļu uzturēšanas ziņojumiem.
+
+Vēlā pēcpusdienā pasažieri vairākās pieturvietās sāka neformāli trenēt apstiprināto tehniku, lai gan agrīnie rezultāti bija dažādi. Netālu no Barona ielas viens vīrietis tika novērots pievienojam teatrālu izmisumu un tika laipni koriģēts no transporta inspektora puses. Tomēr pilsētas vadība paliek optimistiska, ka ar apmācību, pacietību un nekādas izmērāmas pakalpojumu uzlabošanas trūkumu Rīga beidzot varēs iedzīvotājiem piedāvāt vienotāku vilšanās pieredzi.`,
+      ru: `РИГА — После того, что транспортные планировщики описали как «три года общения со всеми заинтересованными сторонами и одна очень долгая зима», Рижский горсовет во মঙ্গলবার утвердил первый в столице Официальный муниципальный вздох — стандартизированный выдох, предназначенный для жителей, испытывающих рутинное транспортное разочарование.
+
+Мера, формально носящая название Положение № 41/7 «О гармонизации слышимой покорности в зонах общего передвижения», была принята голосами 38–19 и вступит в силу 1 ноября, как раз перед тем периодом, который эксперты называют «духовно влажная часть осени». Согласно новым правилам, пассажиров поощряют выполнять низкий, контролируемый вздох продолжительностью 2,4 секунды, когда трамвай опаздывает, троллейбус показывает «???», или сосед по вагону начинает громко лузгать семечки до 8:00 утра.
+
+По данным Департамента гражданской атмосферы, ранее в городе существовала фрагментированная и неэффективная система спонтанного раздражения. «Люди вздыхали на разных тонах, с непостоянной опорой в груди, иногда даже добавляя пробормотанное «ну да», — сказала директор департамента Elīna Sproģe на пресс‑конференции у трамвая маршрута 6, который не двигался с 09:14. — «Это создавало эмоциональные пробки на платформах и создавало ненужное давление на пожилых жителей, которые давно несут пассивно‑агрессивное акустическое наследие нации». 
+
+Пилотная программа, проведённая этой весной на остановках в Teika, Pļavnieki и возле подземного перехода Origo, показала, что стандартизированное вздыхание сократило путаницу на платформах на 17% и помогло впервые приехавшим гостям определить местное настроение за 11 секунд. Исследователи из Латвийского института повседневной выносливости также зафиксировали рост «коммунального эмоционального выравнивания» на 23% — в исследовании это определяли как «утешительное осознание, что у всех остальных тоже ужасное утро». 
+
+Чтобы обеспечить надлежащее исполнение, в автобусах и на трамвайных павильонах появятся наглядные плакаты с демонстрацией одобренных форм покорности. Версия A, известная как «житель центра в классическом исполнении», — носовой выдох с фиксированным взглядом в среднюю дистанцию. Версия B, рекомендуемая для окраин, допускает краткое покачивание головой и один взгляд вверх на небо «от которого ничего полезного не ждут». Премиум‑подписчики приложения Mobilly также получат доступ к опциональному цифровому метронома, чтобы синхронизировать групповые вздохи при задержках свыше 12 минут.
+
+Не все жители убеждены. У Центрального вокзала офисный работник Mārtiņš Auziņš, 34 года, усомнился, решает ли город настоящую проблему. «Мне не нужен правительственный сертифицированный вздох», — сказал он, наблюдая, как одновременно подошли три автобуса по маршрутам, которые ему не нужны. «Моя семья производит качественное разочарование естественным путём как минимум с 1996 года». 
+
+Другие восприняли политику как давно назревшее признание глубоко местного умения. Пенсионерка, преподаватель химии и жительница Иманты Velta Krūmiņa, 68 лет, сказала, что собирается добровольно работать наблюдателем за вздохами в районе. «Сразу слышно, когда молодой человек его натягивает», — сказала она. — «Правильный латвийский вздох начинается в позвоночнике. Он должен намекать, что лето было слишком коротким, платёж за отопление будет необоснованным, и никто в ТСЖ не понимает электронную почту». 
+
+Заместитель мэра Kaspars Briedis оправдал расходы на внедрение в размере €284,000, отметив, что €190,000 уже были выделены на технико‑экономическое обоснование, двух консультантов из Цесиса и небольшую звукоизолированную комнату, где чиновники тестировали прототипы выдохов. «Речь идёт о европейских стандартах», — сказал Briedis. — «Таллинн имеет цифровую систему билетов. Вильнюс — современные станции. Рига станет лидером региона по слышимой собранности». 
+
+В случае успеха город может расширить программу на другие общественные места, включая очереди в супермаркетах, парковки на пляжах Юрмалы и любое государственное учреждение, где принтер проявил уверенность без реальной работоспособности. Чиновники подтвердили, что отдельная рабочая группа уже разрабатывает сопутствующее муниципальное поднятие бровей для информирования о зимнем содержании дорог. 
+
+К вечеру пассажиры на нескольких остановках неформально начали практиковать одобренную технику, хотя первые результаты оказались смешанными. Возле Барона иелы был замечен мужчина, добавивший театрального отчаяния, и его вежливо поправил инспектор транспорта. Тем не менее городские лидеры остаются оптимистичными: с обучением, терпением и при отсутствии заметного улучшения сервиса Рига наконец сможет предложить жителям более единообразный опыт разочарования.`
+    },
+    date: "Oct 30, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/320/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 319,
     slug: "riga-introduces-silent-tram-carriage-for",
     title: {
@@ -96,7 +177,7 @@ Kad 11. tramvajs devās tālāk pa dienvidu migli, pasažieri klusā vagonā ska
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/319/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 318,
