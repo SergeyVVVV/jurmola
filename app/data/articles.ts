@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 321,
+    slug: "riga-introduces-official-11-minute-silence-321",
+    title: {
+      en: "Riga Introduces Official 11-Minute Silence To Help Residents Recover From Hearing Someone Say ‘Let’s Just Drive To Jurmala’",
+      lv: "Rīga ievieš oficiālu 11 minūšu klusumu, lai iedzīvotāji spētu atgūties pēc frāzes “Vienkārši braucam uz Jūrmalu”",
+      ru: "Рига вводит официальную 11-минутную тишину, чтобы помочь жителям оправиться после фразы «Давайте просто съездим в Юрмалу»"
+    },
+    excerpt: {
+      en: "Municipal authorities in Riga have approved a daily 11-minute citywide silence intended to help residents emotionally process the phrase most associated with false hope, brake lights, and passive-aggressive family outings: ‘Let’s just drive to Jurmala.’ Officials say the measure is not anti-tourism, but a necessary public health intervention during the warm months.",
+      lv: "Rīgas dome ir apstiprinājusi ikdienas 11 minūšu pilsētas mēroga klusumu, kas domāts, lai iedzīvotāji emocionāli apstrādātu frāzi, kas visvairāk asociējas ar viltus cerībām, bremžu gaismām un pasīvi-agresīvām ģimenes izbraukšanām: “Vienkārši braucam uz Jūrmalu.” Amatpersonas uzsver, ka pasākums nav pret tūrisma nozari, bet nepieciešams sabiedrības veselības iejaukšanās karstajos mēnešos.",
+      ru: "Муниципальные власти Риги утвердили ежедневную городскую 11‑минутную тишину, призванную помочь жителям эмоционально переработать фразу, наиболее ассоциирующуюся с ложной надеждой, тормозными фонарями и пассивно‑агрессивными семейными выездами: «Давайте просто съездим в Юрмалу». Чиновники заявляют, что мера не антитуристическая, а необходимое вмешательство в интересах общественного здоровья в тёплые месяцы."
+    },
+    fullContent: {
+      en: `RIGA — In a move city leaders are calling ‘modest, science-based, and long overdue,’ the Riga City Council on Tuesday approved the introduction of an official 11-minute silence every day at 16:47 to allow residents to recover psychologically after hearing the sentence, ‘Let’s just drive to Jurmala.’
+
+The new observance, which begins this Friday and runs through the end of August, will require trams to pause announcements, office workers to stop opening weather apps, and all family WhatsApp groups to suspend the sending of beach photos with the caption ‘We’re already here somehow.’ Emergency services, however, will remain fully operational, except in cases involving arguments over whether Majori is ‘basically close.’
+
+According to a 73-page report commissioned by the Riga Department of Seasonal Emotional Stability, the phrase ‘Let’s just drive to Jurmala’ is responsible for a 41% spike in visible sighing, a 63% increase in pre-emptive shoe removal at household entrances, and approximately 12,000 annual instances of somebody saying, ‘It’ll clear up after Sloka,’ despite no evidence this has ever once been true.
+
+‘This is not about traffic,’ said Deputy Mayor for Mobility and Disappointment Elīna Ozoliņa at a press conference held beside a stationary vehicle on Kalnciema Street. ‘It is about the emotional violence of presenting Jurmala as a quick, effortless idea. Riga residents deserve protected time to sit with what has been suggested to them.’
+
+City psychologists say the syndrome typically begins with optimism around 13:00, peaks in denial near Imanta, and collapses into quiet interpersonal resentment shortly after the second unnecessary lane merge. The report identifies the highest-risk demographic as adults aged 28 to 44 who own one linen shirt, know a shortcut that no longer exists, and have uttered the phrase, ‘Maybe we’ll only stay for an hour.’
+
+At Akropole shopping center, residents reacted with cautious support. ‘I lost an entire Saturday in July 2022 because my brother-in-law said parking near Dzintari is “always fine if you know where to look,”’ said accountant and father of two Māris Vītols, staring into the middle distance. ‘We got home sunburned, over-salted, and somehow with a parking receipt from a zone none of us remembered entering. If 11 minutes of silence can save one family, it’s worth it.’
+
+Not everyone is convinced. Jurmala officials criticized the measure as harmful to the city’s image, insisting that access remains ‘mostly intuitive’ for those who leave at 07:12, pack no expectations, and emotionally detach from the concept of arrival. ‘Jurmala welcomes all visitors,’ said municipal tourism spokesperson Inga Beinarde. ‘We simply encourage a mindset in which the journey itself becomes the beach.’
+
+Businesses are already adapting. Several Riga cafés announced new ‘Recovery Menus’ featuring iced coffee, kefir, and a small dish labeled ‘acceptance.’ A private clinic in Teika has begun offering traffic-informed group therapy, while one startup has launched an app that automatically texts loved ones, ‘Don’t wait up, we chose the seaside,’ accompanied by a legally distinct crying emoji.
+
+Meanwhile, Latvijas Radio confirmed it will mark the daily silence by broadcasting 11 uninterrupted minutes of distant seagulls, a muffled child asking for ice cream, and one man insisting the train would have been worse.
+
+Officials say the policy could become permanent if pilot results are positive. Preliminary benchmarks include reduced swearing on the Ventspils highway approach, fewer strained declarations that ‘next time we’re going to Saulkrasti instead,’ and measurable declines in the national use of the phrase ‘just.’
+
+By Tuesday evening, residents across Riga had already begun observing the silence informally, especially after one colleague in a shared office kitchen was heard saying, with catastrophic casualness, ‘Honestly, after work we could still make it.’`,
+      lv: `RĪGA — Solī, ko pilsētas vadība dēvē par “piecīgu, uz zinātnes balstītu un sen nepieciešamu,” Rīgas dome otrdien apstiprināja oficiāla 11 minūšu klusuma ieviešanu katru dienu plkst. 16:47, lai iedzīvotāji varētu psiholoģiski atgūties pēc teiktās frāzes “Vienkārši braucam uz Jūrmalu.”
+
+Jaunā atceres prakse, kas sākas šajā piektdienā un turpināsies līdz augusta beigām, prasīs tramvajiem pārtraukt paziņojumus, biroja darbiniekiem pārtraukt laika ziņu aplikāciju atvēršanu, un visām ģimenes WhatsApp grupām apturēt pludmales foto sūtīšanu ar parakstu “Kaut kā jau esam šeit.” Neatliekamās dienesta vienības tomēr paliks pilnībā operatīvas, izņemot strīdu gadījumus par to, vai Majori nav “būtībā tuvu.”
+
+Saskaņā ar 73 lappušu ziņojumu, ko pasūtījis Rīgas Sezonālās Emocionālās Stabilitātes departaments, frāze “Vienkārši braucam uz Jūrmalu” ir atbildīga par 41% pieaugumu redzamo nopūtu skaitā, 63% palielinājumu priekšlaicīgai apavu novilkšanai pie mājas sliekšņiem, un aptuveni 12 000 gadā gadījumu, kad kāds saka: “Pēc Slokas būs skaidrs,” — kaut gan nav pierādījumu, ka tas jebkad būtu bijis patiess.
+
+“Šis nav par satiksmi,” preses konferencē, kas notika pie stāvoša auto Kalnciema ielā, sacīja Mobilitātes un Vīlumu vietniece mēra pienākumos Elīna Ozoliņa. “Šī ir par emocionālo vardarbību, prezentējot Jūrmalu kā ātru, bezpiepūļu ideju. Rīgas iedzīvotājiem pienākas aizsargāts laiks, lai apdomātu, kas tiem ir ieteikts.”
+
+Pilsētas psihologi skaidro, ka sindroms parasti sākas ar optimismu ap plkst. 13:00, sasniedz noraidījuma virsotni pie Imantas un sabrūk klusā savstarpējā aizvainojumā neilgi pēc otrās nevajadzīgās joslas saplūšanas. Ziņojums identificē vislielāko risku demogrāfiskajā grupā 28–44 gadus vecus pieaugušos, kuriem pieder viena linu krekla, kuri zina tā saukto īsceļu, kas vairs nepastāv, un kuri reiz ir teikuši: “Varbūt paliksim tikai uz stundu.”
+
+Tirdzniecības centrā Akropole iedzīvotāji uz šo ieceri reaģēja ar piesardzīgu atbalstu. “Es pazaudēju visu sestdienu 2022. gada jūlijā, jo mans zeķubikšu vīrs sacīja, ka stāvvieta pie Dzintariem ir ‘vienmēr ok, ja zini, kur skatīties,’” teica grāmatvedis un divu bērnu tēvs Māris Vītols, raugoties tālumā. “Atgriezāmies mājās apdeguši, pārāk sālīti un kaut kā ar stāvvietas kvīti no zonas, kuras neviens no mums neatcerējās, ka būtu iebraukuši. Ja 11 minūtes klusuma var izglābt vienu ģimeni, tas ir tā vērts.”
+
+Ne visi ir pārliecināti. Jūrmalas pārstāvji kritizēja pasākumu kā kaitīgu pilsētas tēlam, uzsverot, ka piekļuve joprojām ir “galvenokārt intuitīva” tiem, kuri izbrauc plkst. 07:12, neņem līdzi nekādas cerības un emocionāli atsvešinās no paša ierašanās koncepta. “Jūrmala gaida visus viesus,” sacīja pašvaldības tūrisma pārstāve Inga Beināre. “Mēs vienkārši iedrošinām domāšanas veidu, kurā pats ceļš kļūst par pludmali.”
+
+Uzņēmumi jau pielāgojas. Vairāki Rīgas kafejnīcu tīklā paziņoja par jaunām “Atgūšanās ēdienkartēm,” kurās ir auksta kafija, kefīrs un neliels trauciņš ar uzrakstu “pieņemšana.” Privātklinika Teikā sāka piedāvāt satiksmes izraisītas grupu terapijas, bet viens jaunuzņēmums palaidis lietotni, kas automātiski nosūta mīļajiem īsziņu “Neuzgaidi — mēs izvēlējāmies piejūru,” pavadītu ar juridiski atšķirīgu raudošu emocijzīmi.
+
+Tikmēr Latvijas Radio apstiprināja, ka atzīmēs ikdienas klusumu, pārraidot 11 nepārtrauktas minūtes attālu kaiju klaigas, noapaļotu bērna balsi, kas lūdz saldējumu, un vienu vīrieti, kas neatlaidīgi apgalvo, ka vilciens būtu bijis sliktāks.
+
+Amatpersonas norāda, ka politika var kļūt pastāvīga, ja pilotprojekta rezultāti būs pozitīvi. Sākotnējie kritēriji ietver lamāšanās samazināšanos pie Ventspils šosejas piebraucamā posma, mazāk saspringtu apgalvojumu “nākamreiz brauksim uz Saulkrastiem,” un izmērāmu vārda “vienkārši” lietojuma samazinājumu valsts līmenī.
+
+Līdz otrdienas vakaram Rīgas iedzīvotāji jau sāka neformāli ievērot klusumu, īpaši pēc tam, kad vienā koplietošanas biroja virtuvē kāds kolēģis tika dzirdēts sakām, ar katastrofāli vieglu attieksmi: “Godīgi sakot, pēc darba vēl varam paspēt.”`,
+      ru: `РИГА — В шаге, который городские руководители называют «скромным, научно обоснованным и давно назревшим», Рижская дума во вторник одобрила введение официальной 11‑минутной тишины каждый день в 16:47, чтобы дать жителям возможность психологически оправиться после услышанной фразы «Давайте просто съездим в Юрмалу.»
+
+Новое наблюдение, которое начинается в эту пятницу и продлится до конца августа, потребует от трамваев прекратить объявления, от офисных работников — перестать открывать приложения погоды, а от всех семейных чатов в WhatsApp — приостановить рассылку пляжных фотографий с подписью «Мы тут уже как‑то». Службы экстренной помощи, однако, останутся полностью работоспособны, за исключением случаев, связанных со спорами о том, является ли Майори «в принципе близко».
+
+Согласно 73‑страничному докладу, заказанному Департаментом сезонной эмоциональной стабильности Риги, фраза «Давайте просто съездим в Юрмалу» ответственна за 41%‑ный всплеск видимых вздохов, 63%‑ное увеличение случаев превентивного снятия обуви у порога и примерно 12 000 ежегодных инцидентов, когда кто‑то говорит: «После Слоки всё прояснится», несмотря на то, что нет никаких доказательств, что это хоть раз сработало.
+
+«Речь не о пробках», — заявила на пресс‑конференции у неподвижного автомобиля на улице Калнциема заместитель мэра по мобильности и разочарованиям Elīna Ozoliņa. «Речь об эмоциональном насилии, которое заключается в подаче Юрмалы как быстрой и лёгкой идеи. Жители Риги заслуживают защищённого времени, чтобы осмыслить предложенное им.»
+
+Городские психологи говорят, что синдром обычно начинается с оптимизма примерно в 13:00, достигает пика отрицания где‑то возле Иманты и разваливается в тихую межличностную обиду вскоре после второго ненужного слияния полос. В докладе определена группа наибольшего риска — взрослые 28–44 лет, у которых есть одна льняная рубашка, которые знают короткую дорогу, которой уже не существует, и которые произносили: «Может, посидим всего час.»
+
+В торговом центре Akropole жители отреагировали с осторожной поддержкой. «Я потерял целую субботу в июле 2022 года, потому что мой зять сказал, что парковка у Дзинтари «всегда норм, если знаешь, где смотреть»,» — сказал бухгалтер и отец двоих детей Māris Vītols, уставившись в пустоту. «Мы вернулись с солнечными ожогами, пересоленными и каким‑то чеком за парковку из зоны, в которую никто из нас не помнил, что въезжал. Если 11 минут тишины спасут хоть одну семью, это того стоит.»
+
+Не все убеждены. Представители Юрмалы раскритиковали меру как вредящую имиджу города, настаивая, что доехать «в основном интуитивно» тем, кто выезжает в 07:12, ни на что не рассчитывает и эмоционально отстраняется от идеи конечного прибытия. «Юрмала приветствует всех посетителей», — сказала представитель муниципального туризма Inga Beinarde. «Мы просто пропагандируем настрой, в котором сам путь становится пляжем.»
+
+Бизнес уже подстраивается. Несколько рижских кафе объявили новые «Меню восстановления», в которых есть холодный кофе, кефир и маленькая тарелочка с пометкой «принятие». Частная клиника в Тейке начала предлагать групповые терапии с учётом дорожной обстановки, а один стартап запустил приложение, которое автоматически шлёт близким сообщение: «Не ждите нас, мы выбрали побережье», сопровождаемое юридически отличающимся эмодзи плачущего лица.
+
+Между тем Latvijas Radio подтвердило, что будет отмечать ежедневную тишину 11 непрерывными минутами далеких чаек, приглушённого ребёнка, просящего мороженое, и одного мужчины, настаивающего, что поезд был бы хуже.
+
+Чиновники говорят, что политика может стать постоянной, если пилотный проект покажет положительные результаты. Предварительные критерии успеха включают сокращение количества бранных слов на подъезде к Вентспилсскому шоссе, меньше натянутых заявлений вроде «в следующий раз поедем в Саулкрасты», и измеримое снижение национального употребления слова «просто».
+
+К вечеру вторника жители по всему городу уже начали неформально соблюдать тишину, особенно после того, как в общей офисной кухне один коллега был услышан с катастрофической непринуждённостью, произнося: «Честно говоря, после работы мы ещё успеем.»`
+    },
+    date: "Oct 31, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/321/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 320,
     slug: "riga-introduces-official-municipal-sigh-to-320",
     title: {
@@ -96,7 +183,7 @@ Vēlā pēcpusdienā pasažieri vairākās pieturvietās sāka neformāli trenē
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/320/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 319,
