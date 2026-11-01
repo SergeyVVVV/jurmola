@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 322,
+    slug: "jrmala-installs-silence-meters-to-fine",
+    title: {
+      en: "Jūrmala Installs ‘Silence Meters’ to Fine Tourists for Audible Relaxation Above 37 Decibels",
+      lv: "Jūrmala uzstāda 'klusuma mērītājus', lai sodītu tūristus par skaļu atpūtu virs 37 decibeliem",
+      ru: "Юрмала устанавливает «счётчики тишины», штрафующие туристов за слышимое расслабление свыше 37 децибел"
+    },
+    excerpt: {
+      en: "City officials in Jūrmala have unveiled a new coastal monitoring system designed to preserve what they call the municipality’s “competitive tranquility.” Beginning this weekend, visitors whose laughter, flip-flops, or overly enthusiastic sighs exceed approved relaxation levels may face on-the-spot fines or be redirected to a designated excitement zone near the train station.",
+      lv: "Jūrmalas pašvaldības amatpersonas atklājušas jaunu piekrastes uzraudzības sistēmu, lai saglabātu to, ko tās sauc par pašvaldības 'konkurences klusumu'. No šīs nedēļas nogales apmeklētāji, kuru smiekli, šļūceņu klauvēšana vai pārlieku entuziastiskas nopūtas pārsniegs atļautos atpūtas līmeņus, var saņemt tūlītējus sodus vai tikt novirzīti uz īpašu satraukuma zonu pie stacijas.",
+      ru: "Власти Юрмалы представили новую прибрежную систему мониторинга, призванную сохранять то, что они называют «конкурентным спокойствием» муниципалитета. Начиная с этих выходных, посетители, чей смех, шлёпанцы или чрезмерно энтузиастическое вздохи превысят допустимый уровень релаксации, могут получить штраф на месте или быть перенаправлены в выделённую зону возбуждения у железнодорожной станции."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move local authorities described as “both preventative and spiritually necessary,” the Jūrmala City Council on Thursday introduced 48 solar-powered Silence Meters along the central beach and main pedestrian streets, a pilot program aimed at reducing what officials have termed “acoustic overparticipation in leisure.”
+
+The white, waist-high devices, installed between Bulduri and Majori, resemble a cross between a birdhouse and a parking meter. According to the municipality, they continuously measure nearby sound levels and distinguish between acceptable Baltic quietness and prohibited “performative vacation behavior,” including shrieking upon entering the sea, opening a bag of rye crisps too aggressively, and saying “wow” more than twice while looking at a sunset.
+
+“This is not anti-tourist,” said Jūrmala Deputy Executive Director for Ambient Standards Ilze Priedīte at a press conference held in a room carpeted to reduce applause. “We welcome everyone to enjoy our city calmly, in a way that does not interfere with the traditional soundscape of distant gulls, modest regret, and someone quietly dragging a bicycle through sand.”
+
+Under the new rules, beachgoers producing sustained noise above 37 decibels—roughly the volume of a polite cucumber being sliced—will receive a text message warning if they have registered with the local tourism app. Those who exceed 42 decibels may be approached by a Municipal Harmony Inspector and asked to “lower their emotional profile.” A third violation can result in a €25 fine or mandatory transfer to the newly designated Active Feelings Corridor near Dubulti Station, where talking at normal indoor levels is permitted between 14:00 and 16:30.
+
+City engineers say the meters were trained on more than 11,000 hours of locally recorded audio, including wind in pines, subdued family disappointment, and 19 separate examples of a man saying “it was cheaper in 2018” while staring at a café menu. The system’s algorithm, developed by a startup in Riga’s Skanste district, reportedly identifies high-risk disturbances with 91% accuracy and can already differentiate between a child’s joyful scream and a Lithuanian man unsuccessfully unfolding a beach chair.
+
+Reaction from businesses has been mixed. “On one hand, yes, my terrace customers are now ordering soup by pointing,” said café owner Mārtiņš Vanags, whose establishment on Jomas Street sits between two of the new meters. “On the other hand, sales of cold beet soup have increased because people no longer dare ask what anything is.”
+
+Some tourists expressed confusion. “We thought Jūrmala was a resort town,” said German visitor Petra Heinzel, speaking in a whisper after receiving her second warning for “excessively crisp sandal impact.” “Yesterday my husband hummed one verse of a song and a man in linen appeared from behind a dune with a tablet.”
+
+Officials insist early results are promising. In a 72-hour prelaunch trial over the Midsummer holiday weekend, unauthorized delight reportedly fell by 63%, while average bench-sitting efficiency rose 18%. The city also recorded a significant drop in seagull evasions, which researchers believe may indicate improved avian confidence.
+
+Not everyone is convinced. Civil liberties group Free the Baltic Vibe issued a statement calling the policy “an unconstitutional expansion of passive-aggressive governance.” Still, the council has already floated phase two of the program, which would include Quiet Sand Certification, decibel-adjusted ice cream pricing, and a mobile patrol equipped to detect sarcastic clapping.
+
+As evening settled over the beach on Thursday, the meters blinked softly in the fading light while a small crowd gathered in near-total silence to observe them. Witnesses described the atmosphere as deeply peaceful, though one teenager was briefly detained after exhaling in what inspectors later classified as “a disruptive manner.”`,
+      lv: `JŪRMALA — Vietējās varas iestādes šo soli raksturoja kā 'gan preventīvu, gan garīgi nepieciešamu' — ceturtdien Jūrmalas domē tika ieviesti 48 saules enerģijas darbināmi klusuma mērītāji gar centrālo pludmali un galvenajām gājēju ielām, pilotprojekts, kura mērķis ir samazināt to, ko amatpersonas nosaukušas par 'akustisku pārmērīgu iesaistīšanos atpūtā'.
+
+Baltas, puslaika auguma ierīces, uzstādītas starp Bulduriem un Majoriem, atgādina kaut ko uz robežas starp putnu būrīti un stāvvietas skaitītāju. Pēc pašvaldības teiktā, tās nepārtraukti mēra apkārtējos skaņas līmeņus un spēj atšķirt pieņemamu Baltijas klusumu no aizliegtas 'performatīvas atvaļinājuma uzvedības', tostarp kliegšanas ieejot jūrā, rudzu krekeru paciņas pārāk agresīvas atvēršanas un vārda 'wow' izteikšanas vairāk nekā divas reizes, skatoties saulrietā.
+
+'Tas nav pret tūristiem,' preses konferencē, kas notika istabā ar paklāju, lai samazinātu aplausu skaņu, sacīja Jūrmalas izpilddirektora vietniece ambientālo standartu jomā Ilze Priedīte. 'Mēs laipni aicinām ikvienu izbaudīt mūsu pilsētu mierīgi, tādā veidā, kas nekavē tā tradicionālo skaņas ainavu — tālus kaijas klaudzienus, pieticīgas nožēlas nopūtas un kādu, kas klusi stumj velosipēdu pa smiltīm.'
+
+Pēc jaunajiem noteikumiem pludmales apmeklētāji, kuru ilgstošais troksnis pārsniedz 37 decibelus — aptuveni pieklājīga gurķa šķēlēšanas skaļums — saņems īsziņas brīdinājumu, ja būs reģistrējušies vietējā tūrisma lietotnē. Tie, kuri pārsniegs 42 decibelus, var tikt uzrunāti ar Pašvaldības harmonijas inspektoru un lūgti 'samazināt emocionālo profilu'. Trešais pārkāpums var novest pie 25 € naudas soda vai obligātas pārcelšanās uz nesen izveidoto Aktīvo Sajūtu Koridoru pie Dubultu stacijas, kur runāšana telpu līmenī ir atļauta no plkst. 14:00 līdz 16:30.
+
+Pilsētas inženieri apgalvo, ka mērītāji tika apmācīti, izmantojot vairāk nekā 11 000 stundas vietēji ierakstītu audio materiālu, tostarp priežu vēju, noslāpētu ģimenes vīlušanos un 19 atsevišķus piemērus, kur vīrietis, skatoties kafejnīcas ēdienkarti, saka 'tas bija lētāk 2018. gadā'. Sistēmas algoritms, ko izstrādājusi jaunuzņēmuma komanda Rīgas Skanstes mikrorajonā, apgalvoti identificē augsta riska traucējumus ar 91% precizitāti un jau spēj atšķirt bērna priecīgo klaigu no lietuvieša neveiksmīgas pludmales krēsla izklāšanas.
+
+Uzņēmēju reakcija ir bijusi jaukta. 'No vienas puses, jā, mani terases klienti tagad pasūta zupu, rādīdami ar pirkstu,' teica kafejnīcas īpašnieks Mārtiņš Vanags, kura iestāde Jomas ielā atrodas starp diviem no jauniem mērītājiem. 'No otras puses, aukstā biešu zupa tiek pirktā biežāk, jo cilvēki vairs nedrīkst vaicāt, kas īsti ir kas.'
+
+Daži tūristi izrādījās apjukuši. 'Mēs domājām, ka Jūrmala ir kūrortpilsēta,' čukstot sacīja vācu viese Petra Heinzel pēc tam, kad saņēmusi otro brīdinājumu par 'pārlieku kraukšķīgu sandales triecienu'. 'Vakar mans vīrs humoja vienu dziesmas pantu, un no kāpas aizas parādījās vīrietis lina apģērbā ar planšeti.'
+
+Amatpersonas uzsver, ka sākotnējie rezultāti ir solīdi. 72 stundu testa režīmā Jāņos neatļautas prieka izpausmes samazinājās par 63%, kamēr vidējā soliņā sēdēšanas efektivitāte pieauga par 18%. Pilsēta arī fiksēja būtisku kaiju izvairīšanās samazinājumu, kas pētnieku ieskatā var liecināt par putnu pašpārliecinātības pieaugumu.
+
+Ne visi tomēr ir pārliecināti. Pilsonisko brīvību grupa 'Free the Baltic Vibe' izdeva paziņojumu, dēvējot politiku par 'nekonstitucionālu pasīvi-agresīvās pārvaldības paplašinājumu.' Tomēr dome jau apsver programmas otro posmu, kas iekļautu Klusās smilts sertifikāciju, desibeliem pielāgotu saldējuma cenu un mobilu patrulētu, aprīkotu, lai konstatētu sarkastisku plaukšķināšanu.
+
+Ceturtdienas vakarā, kad gaisma maigāk kļuva, mērītāji klusi mirgoja, un neliela pūļa sapulcējās gandrīz totālā klusumā, lai tos novērotu. Aculiecinieki atmosfēru raksturoja kā dziļi mierīgu, lai gan viens pusaudzis īslaicīgi tika aizturēts pēc izelpas, ko inspektori vēlāk klasificēja kā 'traucējošu veidu.'`,
+      ru: `ЮРМАЛА — В шаге, который местные власти назвали «и превентивным, и духовно необходимым», Городской совет Юрмалы в четверг установил 48 работающих на солнечных батареях счётчиков тишины вдоль центрального пляжа и главных пешеходных улиц — пилотный проект, направленный на сокращение того, что чиновники охарактеризовали как «чрезмерное звуковое участие в досуге». 
+
+Белые приборы по пояс, установленные между Булдури и Майори, больше похожи на нечто среднее между скворечником и паркоматом. По словам муниципалитета, они непрерывно измеряют уровень шума поблизости и отличают приемлемую балтийскую тишину от запрещённого «показного отпускного поведения», включая визг при входе в море, слишком энергичное вскрытие пакета с ржаным хлебцом и произнесение «вау» более двух раз при созерцании заката. 
+
+«Это не анти-туризм», — заявила на пресс-конференции заместитель исполнительного директора по стандартам окружающей среды Юрмалы Илзе Приедите в зале, покрытом ковром, чтобы уменьшить аплодисменты. «Мы приветствуем всех, кто готов спокойно наслаждаться нашим городом таким образом, чтобы не мешать традиционному звуковому пейзажу далеких чаек, сдержанного сожаления и кого‑то, тихо везущего велосипед по песку». 
+
+По новым правилам пляжники, чей постоянный шум превышает 37 децибел — примерно громкость вежливо нарезаемого огурца — получат предупреждение в виде текстового сообщения, если они зарегистрировались в местном туристическом приложении. Те, кто превысит 42 децибела, могут быть остановлены инспектором муниципальной гармонии и попросятся «снизить свой эмоциональный профиль». Третье нарушение может закончиться штрафом в €25 или обязательным переводом в новую зону «Коридор активных чувств» у станции Дубулты, где разговаривать на обычной комнатной громкости разрешено в период с 14:00 до 16:30. 
+
+Инженеры города говорят, что счётчики обучались на более чем 11 000 часов местных аудиозаписей, включая шум ветра в соснах, приглушённое семейное разочарование и 19 отдельных примеров мужчины, произносящего «дешевле было в 2018» при созерцании меню кафе. Алгоритм системы, разработанный стартапом из рижского района Скансте, по их данным определяет потенциально опасные помехи с точностью 91% и уже способен отличать радостный крик ребёнка от литовца, безуспешно раскладывающего пляжный стул. 
+
+Реакция бизнеса оказалась смешанной. «С одной стороны, да, мои посетители на террасе теперь заказывают суп, просто указывая пальцем», — сказал владелец кафе Мартиниш Ванагс, чьё заведение на улице Йомас стоит между двумя новыми счётчиками. «С другой стороны, продажи холодного свекольника выросли, потому что люди больше не смеют спросить, что вообще подаётся». 
+
+Некоторые туристы выразили недоумение. «Мы думали, что Юрмала — курортный город», — прошептала немецкая гостья Петра Хайнцель после получения второго предупреждения за «чересчур хрустящий удар сандалии». «Вчера мой муж напел один куплет, и мужчина в льняной рубашке вынырнул из-за дюны с планшетом». 
+
+Чиновники утверждают, что ранние результаты многообещающие. В 72‑часовом предзапуске в выходные по случаю середины лета несанкционированное восхищение, как сообщается, упало на 63%, а средняя эффективность сидения на скамейке выросла на 18%. В городе также зафиксировали заметное снижение «уклонений от чаек», что, по мнению исследователей, может свидетельствовать о возросшей уверенности птиц. 
+
+Однако не все в восторге. Группа за гражданские свободы Free the Baltic Vibe выпустила заявление, назвав политику «неконституционным расширением пассивно‑агрессивного управления». Тем не менее совет уже выносил на обсуждение второй этап программы, который включал бы Сертификацию тихого песка, ценники на мороженое, отрегулированные по децибелам, и мобильный патруль, оснащённый для обнаружения саркастических аплодисментов. 
+
+Когда в четверг над пляжем опустился вечер, счётчики тихо мигали в угасающем свете, а небольшая толпа собралась в почти полной тишине, чтобы на них посмотреть. Свидетели описали атмосферу как глубоко умиротворённую, хотя один подросток был кратковременно задержан после того, как выдохнул в манере, которую инспекторы впоследствии классифицировали как «нарушительную».`
+    },
+    date: "Nov 1, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/322/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 321,
     slug: "riga-introduces-official-11-minute-silence-321",
     title: {
@@ -102,7 +183,7 @@ Līdz otrdienas vakaram Rīgas iedzīvotāji jau sāka neformāli ievērot klusu
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/321/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 320,
