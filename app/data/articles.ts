@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 323,
+    slug: "riga-introduces-official-silence-hours-so-323",
+    title: {
+      en: "Riga Introduces Official Silence Hours So Residents Can Hear If Their Radiators Are Judging Them",
+      lv: "Rīga ievieš oficiālās klusuma stundas, lai iedzīvotāji varētu dzirdēt, vai viņu radiatori viņus nosoda",
+      ru: "Рига вводит официальные часы тишины, чтобы жители могли понять, осуждают ли их радиаторы"
+    },
+    excerpt: {
+      en: "Riga City Council has approved a pilot program mandating two daily \"municipal silence intervals\" to help residents detect subtle heating-system emotions, apartment corridor diplomacy, and possible passive-aggressive sighing from neighboring flats. Officials say the initiative is part of a broader strategy to improve winter resilience and reduce unnecessary small talk.",
+      lv: "Rīgas dome apstiprinājusi pilotprogrammu, kas paredz divus ikdienas «pašvaldības klusuma intervālus», lai iedzīvotāji spētu noķert smalkas apkures sistēmu emocijas, kāpņu telpu diplomātiju un iespējamas pasīvi-agresīvas nopūtas no blakus dzīvokļiem. Amatpersonas saka, ka iniciatīva ir plašākas stratēģijas daļa, lai uzlabotu ziemas noturību un samazinātu lieku sīku sarunu skaitu.",
+      ru: "Городской совет Риги утвердил пилотную программу с двумя ежедневными «муниципальными интервалами тишины», чтобы помочь жителям распознавать тонкие «эмоции» системы отопления, дипломатические намёки в подъездах и возможные пассивно‑агрессивные вздохи из соседних квартир. По словам чиновников, инициатива — часть более широкой стратегии повышения зимней устойчивости и сокращения лишних светских разговоров."
+    },
+    fullContent: {
+      en: `RIGA — In a move city leaders are calling "deeply practical for the Baltic psyche," Riga City Council on Tuesday approved a six-month pilot program establishing official Silence Hours across several central neighborhoods, allowing residents to pause non-essential noise and listen carefully to what municipal radiators, stairwells, and adjacent citizens may be trying not to say.
+
+Beginning next Monday, residents in Centrs, Āgenskalns, and parts of Teika will observe two mandatory quiet windows each weekday: 06:40 to 07:05 and 21:10 to 21:34. During these periods, television volume must be reduced to what regulators termed "subtitles-only intensity," blender use will be prohibited, and all conversations in apartment courtyards must remain below the decibel level of "a disappointed aunt rearranging jars in a pantry."
+
+According to the city’s Department of Seasonal Stability, the program was developed after a 2025 municipal survey found that 71% of Riga residents had recently been "almost certain" their radiator was making a personal remark, while 43% reported hearing emotionally loaded pipe vibrations during sudden drops in temperature. Another 18% said they had delayed filing maintenance complaints because they "did not want to seem dramatic in front of the building." 
+
+"We are not a loud people, but we are a perceptive people," said Deputy Housing Chairwoman Ilze Tauriņa, speaking at a press conference where microphones had been intentionally turned slightly too low. "For years residents have been forced to interpret heating systems in chaotic acoustic conditions. We believe every family deserves a fair chance to determine whether that knocking sound is air in the pipes, a loose valve, or a broader commentary on their life choices."
+
+The policy has already drawn mixed reactions from the public. Outside a cooperative housing block on Brīvības iela, accountant and father of two Mārtiņš Bērziņš said the idea made immediate sense. "Last January our radiator clicked three times after I bought Spanish tomatoes," he said. "My wife heard nothing, but I knew the apartment was disappointed. If there had been Silence Hours, we could have addressed it as a household."
+
+Not everyone is convinced. Lelde Krūmiņa, a violin teacher in Teika, warned that the restrictions may create unrealistic expectations. "Latvians are already experts at hearing meaning in silence," she said. "If you formalize it, people will start filing reports because a hallway felt sarcastic."
+
+City officials insist safeguards are in place. A new hotline, 8000-KLAUSOS, will allow residents to report suspicious hissing, judgmental clanking, or recurring sounds of what one pilot participant described as "a cast-iron exhale timed exactly to my financial decisions." Trained acoustic mediators will then classify the event using a four-tier municipal scale ranging from Neutral Thermal Activity to Confirmed Domestic Disapproval.
+
+Businesses are also adapting. Several Riga cafés announced special pre-silence promotions, including "rush your espresso before introspection" discounts and takeaway soup packaged in what one owner called "ethically muffled containers." In Āgenskalns Market, a hardware stall has begun selling radiator journals, wool slippers with reinforced listening soles, and a limited-edition stethoscope bearing the slogan: HEAT MEANS NOTHING UNTIL PROVEN.
+
+Meanwhile, Jūrmala officials are reportedly considering their own summer version of the policy, in which beachgoers would remain still for seven minutes every afternoon to determine whether nearby dune grass is merely swaying or "making fair points."
+
+If the Riga pilot proves successful, the Ministry of Smart Domestic Coexistence may recommend expanding Silence Hours nationwide before next heating season. Until then, residents are being urged not to panic if they hear faint rattling during the evening interval.
+
+"In most cases it is completely harmless," Tauriņa said. "And in the remaining cases, yes, the building may have concerns. But at least now we can finally listen with dignity."`,
+      lv: `RĪGA — Pārvērtījumu, ko pilsētas vadītāji dēvē par «dziļi pragmatisku Baltijas psihei», Rīgas dome otrdien apstiprināja sešu mēnešu pilotprogrammu, kas centralizētās apkaimēs nosaka oficiālas klusuma stundas un ļauj iedzīvotājiem pārtraukt nevajadzīgu troksni un uzmanīgi ieklausīties, ko pašvaldības radiatori, kāpņu telpas un kaimiņi varbūt cenšas neizteikt vārdos.
+
+No nākamās pirmdienas iedzīvotāji Centra, Āgenskalna un daļas Teikas sasaukumos ievēros divus obligātus klusuma logus katrā darba dienā: 06:40–07:05 un 21:10–21:34. Šajos periodos televizora skaļumu jāsamazina līdz tam, ko regulatori nosaukuši par «tikai subtitru līmeni», blenderu lietošana būs aizliegta, un visām sarunām pagalmos jāpaliek zem trokšņa līmeņa, ko varētu salīdzināt ar «vīlušās tantes burciņu pārlikšanas virtuves skapī».
+
+Saskaņā ar pilsētas Sezonālās stabilitātes departamenta datiem programma izstrādāta pēc 2025. gada pašvaldības aptaujas, kurā atklājās, ka 71% rīdzinieku nesen bija «gandrīz pārliecināti», ka viņu radiators izteica personisku piezīmi, kamēr 43% ziņoja, ka dzirdējuši ar emocijām piekrautas cauruļu vibrācijas strauju temperatūras pazemināšanās brīžos. Vēl 18% teica, ka atlika sūdzību par apkopes darbiem, jo «negribēja izskatīties dramatiskie ēkas priekšā». 
+
+«Mēs neesam skaļa tauta, bet mēs esam uztveroša tauta,» sacīja īres un mājokļu deputātkārtas priekšsēdētāja Ilze Tauriņa preses konferencē, kur mikrofoni apzināti bija nedaudz par klusu. «Gadu garumā iedzīvotāji spiesti interpretēt apkures sistēmas haotiskos akustiskos apstākļos. Mēs uzskatām, ka katrai ģimenei jādod godīga iespēja noskaidrot, vai tas klauvēšanas troksnis ir gaiss caurulēs, vaļīgs vārsts vai plašāks komentārs par viņu dzīves izvēlēm.»
+
+Politikai sabiedrībā jau izteiktas atšķirīgas reakcijas. Pie kooperatīvās mājas Brīvības ielā grāmatvedis un divu bērnu tēvs Mārtiņš Bērziņš teica, ka ideja šķiet uzreiz saprotama. «Pagājušajā janvārī mūsu radiators trīs reizes noklika pēc tam, kad nopirku spāņu tomātus,» viņš stāstīja. «Mana sieva neko nedzirdēja, bet es zināju, ka dzīvoklis ir vīlies. Ja būtu bijušas Klusuma stundas, mēs to būtu risinājuši kā saime.»
+
+Ne visi ir pārliecināti. Teikas vijoles skolotāja Lelde Krūmiņa brīdināja, ka ierobežojumi var radīt nereālas cerības. «Latvieši jau tā ir meistarīgi saskatīt jēgu klusumā,» viņa teica. «Ja to formalizē, cilvēki sāks iesniegt ziņojumus, jo koridors viņiem šķita sarkastisks.»
+
+Pilsētas amatpersonas uzsver, ka drošības pasākumi ir ieviesti. Jaunais tālrunis 8000-KLAUSOS ļaus iedzīvotājiem ziņot par aizdomīgu šņākšanu, nosodošu bruģēšanu vai atkārtotām skaņām, ko viens pilotprogrammas dalībnieks aprakstīja kā «cast-iron izelpnu, kas sakrīt tieši ar maniem finanšu lēmumiem». Apmācīti akustiskie mediatorii pēc tam klasificēs notikumu, izmantojot četrpakāpju pašvaldības skalu no «Neitrālas termālās aktivitātes» līdz «Apstiprinātam mājas nosodījumam».
+
+Uzņēmēji arī pielāgojas. Vairāki Rīgas kafejnīcu īpašnieki paziņojuši par īpašiem pirmsklusuma piedāvājumiem, tai skaitā atlaidēm «steidzies ar espresso pirms introspekcijas» un līdzi ņemamām zupām iepakotām tā sauktajās «ētiski noslāpētajās iepakojumos». Āgenskalna tirgū dārznieku un tērauda preču stendis sācis tirgot radiatoru dienasgrāmatas, vilnas čības ar pastiprinātām klausīšanās zolēm un ierobežotas sērijas stetoskopu ar uzrakstu: «SILTUMS NEKO NENOZĪMĒ, LĪDZ PIERĀDĪTS.»
+
+Tikmēr Jūrmalas amatpersonas, pēc ziņām, apsver savu vasaras versiju, kurā pludmales apmeklētāji katru pēcpusdienu septiņas minūtes paliktu nekustīgi, lai nošķirtu, vai tuvējā kāpas zāle vienkārši šūpojas vai «pamato taisnīgas piezīmes». 
+
+Ja Rīgas pilots izrādīsies veiksmīgs, Ministrija par Gudru Mājokļu Līdzāspastāvēšanu varētu ieteikt Klusuma stundu paplašināšanu visā valstī pirms nākamās apkures sezonas. Līdz tam iedzīvotāji tiek aicināti nekrist panikā, ja vakara intervālā dzird vājas čīkstēšanas.
+
+«Lielākajā daļā gadījumu tas ir pilnīgi nekaitīgi,» sacīja Tauriņa. «Un atlikušajos gadījumos jā, ēkai var būt bažas. Bet vismaz tagad mēs beidzot varam ieklausīties ar cieņu.»`,
+      ru: `РИГА — В шаге, который городские власти назвали «глубоко практичным для балтийской психики», Городской совет Риги во вторник одобрил шестимесячную пилотную программу, вводящую официальные часы тишины в нескольких центральных районах, позволяющие жителям приостанавливать несущечный шум и внимательно прислушиваться к тому, что муниципальные радиаторы, лестничные клетки и соседние граждане могут пытаться не сказать.
+
+Начиная со следующего понедельника, жители Centrs, Āgenskalns и частей Teika будут соблюдать два обязательных тихих окна в будние дни: с 06:40 до 07:05 и с 21:10 до 21:34. В эти периоды громкость телевизора должна быть снижена до того, что регуляторы назвали «уровнем, пригодным только для чтения субтитров», использование блендера запрещено, а все разговоры во дворах многоквартирных домов должны оставаться ниже по громкости, чем «разочарованная тётя, переставляющая банки в кладовке». 
+
+По данным Городского департамента сезонной устойчивости, программа была разработана после муниципального опроса 2025 года, в котором 71% рижан недавно были «почти уверены», что их радиатор сделал личное замечание, а 43% сообщили о слышимых ими эмоционально нагруженных вибрациях труб при резком похолодании. Ещё 18% признались, что откладывали подачу жалобы на обслуживание, потому что «не хотели казаться драматичными перед домом». 
+
+«Мы не люди кричащие, но мы люди восприимчивые», — заявила заместитель председателя по жилью Илзе Тауриня на пресс‑конференции, где микрофоны были нарочно чуть приглушены. «Годы жителям приходилось толковать системы отопления в хаотических акустических условиях. Мы считаем, что каждая семья заслуживает честного шанса определить: это стук от воздуха в трубах, болтающийся клапан или более широкий комментарий к их жизненным выборам». 
+
+Политика уже вызвала смешанные реакции у населения. У кооперативного жилого дома на Brīvības iela бухгалтер и отец двоих детей Мārtiņš Bērziņš сказал, что идея ему сразу показалась логичной. «В январе наш радиатор три раза щёлкнул после того, как я купил испанские помидоры», — рассказал он. «Моя жена ничего не слышала, а я понял, что квартира разочарована. Если бы были Часы Тишины, мы могли бы решить этот вопрос как семья». 
+
+Не все убеждены. Лельде Крūмиņa, преподаватель скрипки в Teika, предупредила, что ограничения могут породить нереалистичные ожидания. «Латыши и так мастера слышать смысл в тишине», — сказала она. «Если это формализовать, люди начнут писать заявления просто потому, что коридор показался саркастичным». 
+
+Городские чиновники настаивают, что предусмотрены меры предосторожности. Работает новая горячая линия 8000‑KLAUSOS, по которой жители смогут сообщать о подозрительном шипении, осуждающем грохоте или повторяющихся звуках того, что один участник пилота описал как «чугунный вздох, точно подстроенный под мои финансовые решения». Обученные акустические медиаторы затем классифицируют событие по четырёхуровневой муниципальной шкале от «Нейтральной тепловой активности» до «Подтверждённого домашнего неодобрения». 
+
+Бизнес тоже приспосабливается. Несколько рижских кафе объявили специальные акции перед тихими окнами, включая скидки «успей выпить эспрессо до саморефлексии» и суп навынос в упаковке, которую один владелец назвал «этично приглушённой». На рынке в Āgenskalns один из ларьков с хозяйственными товарами начал продавать журналы для радиаторов, шерстяные тапочки с усиленными подошвами для прослушивания и лимитированную серию стетоскопов с надписью: ТЕПЛО НИЧЕГО НЕ ЗНАЧИТ, ПОКА НЕ ДОКАЗАНО. 
+
+Тем временем власти Юрмалы, по сообщениям, рассматривают свою летнюю версию политики, согласно которой отдыхающие на пляже будут замирать на семь минут каждый день днём, чтобы определить, просто ли колышется прибрежная трава или она «высказывает справедливые замечания». 
+
+Если рижский пилот окажется успешным, Министерство умного бытового сосуществования может порекомендовать расширить Часы Тишины на всю страну до следующего отопительного сезона. До тех пор жителей просят не паниковать, если они услышат слабое дребезжание в вечерний интервал. 
+
+«В большинстве случаев это совершенно безвредно», — сказала Тауриня. «А в оставшихся случаях, да, у здания могут быть претензии. Но по крайней мере теперь мы наконец можем слушать с достоинством».`
+    },
+    date: "Nov 2, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/323/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 322,
     slug: "jrmala-installs-silence-meters-to-fine",
     title: {
@@ -96,7 +183,7 @@ Ceturtdienas vakarā, kad gaisma maigāk kļuva, mērītāji klusi mirgoja, un n
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/322/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 321,
