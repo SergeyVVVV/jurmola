@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 324,
+    slug: "jrmala-introduces-silent-seagull-zone-after",
+    title: {
+      en: "Jūrmala Introduces Silent Seagull Zone After Tourists Report Being ‘Emotionally Audited’ at Breakfast",
+      lv: "Jūrmala ievieš Kluso kaiju zonu pēc tūristu sūdzībām, ka brokastīs piedzīvojuši 'emocionālo auditu'",
+      ru: "Юрмала вводит зону тихих чаек после жалоб туристов, что их «эмоционально аудируют» за завтраком"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have unveiled Latvia’s first designated Silent Seagull Zone along a 1.8-kilometer stretch of beach, following a surge in complaints from visitors who say aggressive birds have been staring at them in a manner ‘more invasive than tax authorities.’ Authorities insist the measure is temporary, while admitting the gulls have ‘developed an advanced understanding of pastry-based leverage.’",
+      lv: "Jūrmalas pašvaldības amatpersonas atklājušas Latvijas pirmo 1,8 kilometrus garo Kluso kaiju zonu pēc sūdzību pieauguma no viesiem, kuri apgalvo, ka agresīvas putnas viņus brokastīs vērojušas 'vairāk iejaukšanās nekā nodokļu inspekcija.' Iestādes uzsver, ka mērs ir pagaidu rakstura, gan atzīstot, ka kaijas 'ir attīstījušas izsmalcinātu izpratni par konditorejas izstrādājumu spiedienu.'",
+      ru: "Муниципальные власти Юрмалы открыли первую в Латвии зону «тихих чаек» протяжённостью 1,8 км вдоль пляжа после всплеска жалоб от отдыхающих, которые заявляют, что агрессивные птицы «смотрят на них более навязчиво, чем налоговые органы». Власти настаивают, что мера временная, признавая при этом, что чайки «выработали продвинутое понимание рычага воздействия, основанного на выпечке»."
+    },
+    fullContent: {
+      en: `JŪRMALA — In an emergency session lasting three hours and interrupted twice by what one council member described as ‘organized wing activity,’ Jūrmala City Council voted Tuesday to establish a pilot Silent Seagull Zone between Dzintari Concert Hall and the southern end of Majori Beach, where gull vocalizations above 47 decibels and all forms of strategic breakfast intimidation will now be monitored.
+
+The decision follows a summer season in which the municipal tourism hotline received 614 complaints involving seagulls, up 38% from last year. Of those, 211 were classified under a newly created category: ‘prolonged accusatory eye contact near baked goods.’ Another 79 involved thefts of cottage cheese pastries, eight involved iced coffee lid removal, and one involved what police called ‘a coordinated diversionary maneuver’ around a family from Jelgava.
+
+‘This is not about punishing wildlife,’ said Deputy Executive Director for Coastal Harmony Ilze Pļaviņa at a press conference held indoors ‘for tactical reasons.’ ‘This is about restoring a basic sense of dignity to the morning experience. A visitor should be able to sit with a coffee, glance at the sea, and feel only ordinary Baltic melancholy — not the immediate sensation that they owe a gull an explanation.’
+
+Under the new program, beach wardens in pale blue vests will patrol the coastline carrying calibrated sound meters, laminated de-escalation cards, and emergency decoy pīrāgi. Signs posted in Latvian, English, Lithuanian, Finnish, and ‘firm hand gestures’ instruct beachgoers not to maintain direct eye contact with birds holding superior tactical position on railings.
+
+Local café owners have reacted with cautious optimism. ‘Last July we lost seventeen cinnamon buns before noon on a single Saturday,’ said Artūrs Mežmalis, owner of the beachfront café Café Pie Krasta. ‘One gull learned to knock over a sugar dispenser to create confusion. I’m not saying it was planned. I’m saying it happened every day at 10:14.’
+
+Researchers from the University of Latvia’s Department of Urban Bird Negotiation have been tracking behavioral changes in coastal gull populations since 2021, when remote work and expanded outdoor dining first increased what experts now call ‘high-value snack exposure.’ According to associate ornithologist Dr. Beāte Ločmele, the birds are not becoming more aggressive so much as ‘more administratively confident.’
+
+‘They no longer scavenge opportunistically,’ Ločmele said, displaying a chart labeled Escalation Pathways in Marine Opportunists. ‘They observe routines, identify the weakest member of a breakfast party, and apply pressure. In two documented cases, gulls waited until a human had just unwrapped butter. That indicates patience, planning, and a troubling familiarity with European dairy habits.’
+
+Not all residents support the measure. Retired Dubulti schoolteacher Maija Kalniņa called the zone ‘an insult to the historical character of the coast.’ ‘The gull shouts, the train passes, someone in linen complains about parking — this is summer,’ she said. ‘If people cannot defend one bun, perhaps they are not ready for Jūrmala.’
+
+Even some tourists appeared skeptical. ‘Honestly, I respected the bird,’ said Swedish visitor Johan Rask, who says he surrendered half a cardamom roll after what he described as ‘a very professional approach.’ ‘It wasn’t random. It felt Scandinavian in its efficiency.’
+
+Municipal police confirmed they will not issue fines directly to seagulls at this stage, citing ‘identification challenges and low rates of document compliance.’ Instead, the city plans to evaluate the pilot through August using noise maps, pastry-loss reports, and an experimental survey asking visitors whether they felt ‘watched in a legally meaningful way.’
+
+If successful, officials say the program could expand next year to include crow mediation in central Riga and pigeon boundary education near the Central Market.
+
+By late afternoon Tuesday, the first section of the zone was already in effect. Within minutes, witnesses reported a cluster of six gulls standing in total silence on a trash bin near Turaidas Street, staring with what one German tourist called ‘deep institutional disappointment.’
+
+City officials described the initial result as promising.`,
+      lv: `JŪRMALA — Trīs stundas ilgā ārkārtas sēdē, kuru divreiz pārtrauca, kā viena domes deputāte to raksturoja, 'organizēta spārnu darbība', Jūrmalas pilsētas dome otrdien nolēma izveidot pilotprojektu Klusās kaiju zonai starp Dzintaru koncertzāli un Majoru pludmales dienvidu galu, kur tagad tiks monitorētas kaiju skaņas virs 47 decibeliem un visi stratēģiskās brokastu izspiešanas veidi.
+
+Lēmums sekoja vasaras sezonai, kurā pašvaldības tūrisma tālrunis saņēma 614 sūdzību par kaijām — par 38% vairāk nekā pērn. No tām 211 tika klasificētas jaunā kategorijā: 'ilgstoša apsūdzīga acu kontakta uzturēšana pie ceptiem izstrādājumiem.' Vēl 79 gadījumos bija runa par biezpiena kārtojumu zādzībām, astoņos — ledus kafijas vāciņu noņemšanu, un vienā — par to, ko policija nosauca par 'koordinētu maldinošu manevru' ap Jelgavas ģimeni.
+
+'Tā nav valsts dzīvo dabu sodīt,' preses konferencē, kas notika iekštelpās 'taktisku iemeslu dēļ', sacīja Jūras piekrastes saskaņas vietniece Ilze Pļaviņa. 'Tā ir par pamata cieņas atjaunošanu rīta pieredzei. Apmeklētājam būtu jāvar apsēsties ar kafiju, ieskatīties jūrā un just tikai parastu Baltijas melanholiju — ne tūlītēju sajūtu, ka viņam jāsniedz skaidrojums kaijai.'
+
+Saskaņā ar jauno programmu, pludmales uzraugi bālzilos vestēs patrulēs piekrasti, nēsājot kalibrētus skaņas mērītājus, laminētas deeskalācijas kartītes un neatliekamos vilinošos pīrāgus. Zīmes latviešu, angļu, lietuviešu, somu valodā un ar 'stingriem roku žestiem' brīdina pludmales apmeklētājus neveidot tiešo acu kontaktu ar putnām, kuras ieņem taktiski izdevīgāku pozīciju uz margām.
+
+Vietējo kafejnīcu īpašnieki reaģējuši piesardzīgā optimisma pilni. 'Pagājušā jūlijā mēs sestdienas priekšpusdienā pazaudējām septiņpadsmit kanēļmaizītes,' sacīja piekrastes kafejnīcas Café Pie Krasta īpašnieks Artūrs Mežmalis. 'Viena kaija iemācījās pārmest cukura poda, lai radītu haosu. Nesaku, ka tas bija plānots. Saku, ka tas notika katru dienu plkst. 10:14.'
+
+Latvijas Universitātes Pilsētu putnu sarunu nodaļas pētnieki kopš 2021. gada seko piekrastes kaiju uzvedības izmaiņām — no brīža, kad attālinātais darbs un ārā ēšanas paplašināšanās palielināja to, ko eksperti tagad sauc par 'augstas vērtības uzkodām pakļaušanu.' Piesaistītā ornitoloģe Dr. Beāte Ločmele skaidro, ka putnas nevis kļūst agresīvākas, bet 'vairāk administratīvi pārliecinātas.'
+
+'Viņas vairs nebarojas vienīgi pēc iespējas,' sacīja Ločmele, rādot grafiku ar nosaukumu Jūras oportunistu eskalācijas ceļi. 'Viņas novēro rutīnas, identificē brokastu kompānijas vājāko dalībnieku un sāk spiest. Divos dokumentētos gadījumos kaijas gaidīja, kamēr cilvēks tikko bija atvēris sviestu. Tas norāda uz pacietību, plānošanu un satraucošu pazīstamību ar Eiropas piena paradumiem.'
+
+Ne visi iedzīvotāji atbalsta šo mēru. Pensijā esošā Dubultu skolotāja Maija Kalniņa zonu nosauca par 'apvainojumu krasta vēsturiskajam raksturam.' 'Kaiju klaigas, vilciens pabrauc, kāds lina kreklā sūdzās par stāvvietu — tā ir vasara,' viņa teica. 'Ja cilvēki nespēj aizstāvēt vienu bulciņu, varbūt viņi vēl nav gatavi Jūrmalai.'
+
+Pat daži tūristi izskatījās skeptiski. 'Godīgi sakot, es respektēju putnu,' sacīja zviedru viesis Johan Rask, kurš atzinās, ka pēc 'ļoti profesionālas pieejas' upurēja pusi kardamona ruļļa. 'Tas nebija nejauši. Tas šķita skandināviski efektīvs.'
+
+Pašvaldības policija apstiprināja, ka šajā stadijā sodus tieši kaijām izrakstīt negrasās, atsaucoties uz 'identifikācijas grūtībām un zemu dokumentu ievērošanas līmeni.' Tā vietā pilsēta plāno pilotprojektu novērtēt līdz augustam, izmantojot trokšņu kartes, konditorejas izstrādājumu zudumu atskaites un eksperimentālu aptauju, kurā apmeklētājiem tiks jautāts, vai viņi jutās 'juridiski nozīmīgā veidā uzraudzīti.'
+
+Ja projekts būs veiksmīgs, amatpersonas saka, ka nākamgad tas var tikt paplašināts, iekļaujot kraukļu mediāciju Rīgas centrā un baložu robežizglītību pie Centrālā tirgus.
+
+Otrdienas vēlā pēcpusdienā pirmā zonas daļa jau stājās spēkā. Dažu minūšu laikā aculiecinieki ziņoja par sešu kaiju klasteri, kas stāvēja pilnīgā klusumā uz atkritumu tvertnes pie Turaidas ielas, skatoties ar to, ko viens vācu tūristis nosauca par 'dziļu institucionālu vīlu.'
+
+Pilsētas amatpersonas sākotnējo rezultātu nodēvēja par cerīgu.`,
+      ru: `ЮРМАЛА — На внеочередном трёхчасовом заседании городского совета, который дважды прерывался, по выражению одного из депутатов, «организованной активностью крыльев», во вторник было решено запустить пилотную зону «тихих чаек» между концертным залом Дзинтари и южной оконечностью пляжа Майори. Здесь теперь будут отслеживать голосовые проявления чаек свыше 47 децибел и все формы стратегического утреннего запугивания.
+
+Решение принято после летнего сезона, в ходе которого муниципальная туристская «горячая линия» получила 614 жалоб, связанных с чайками — на 38% больше, чем в прошлом году. Из них 211 были отнесены к новому рубрикатору: «продолжительный обвиняющий зрительный контакт у выпечки». Ещё 79 сообщений касались краж творожных пирожков, восемь — снятия крышек с холодного кофе, а одно — того, что полиция назвала «координированным отвлекающим манёвром» вокруг семьи из Елгавы.
+
+«Речь не о наказании дикой природы», — заявила на пресс‑конференции (проведённой в помещении «по тактическим соображениям») заместитель исполнительного директора по прибрежной гармонии Илзе Плявня. «Речь о восстановлении элементарного чувства достоинства утреннего ритуала. Посетитель должен иметь возможность сидеть с кофе, глянуть на море и испытывать только обычную балтийскую меланхолию — а не мгновенное ощущение, что он должен давать чаечке объяснения». 
+
+В рамках новой программы сотрудники пляжной охраны в бледно‑голубых жилетах будут патрулировать береговую линию с калиброванными шумомерами, ламинированными карточками по деэскалации и экстренными отвлекающими пирагами. Таблички на латышском, английском, литовском, финском и «решительных жестах рукой» просят отдыхающих не вступать в прямой зрительный контакт с птицами, занявшими тактические высоты на перилах.
+
+Местные владельцы кафе отнеслись к инициативе с осторожным оптимизмом. «В прошлом июле за один только субботний до полудня у нас пропало семнадцать булочек с корицей», — рассказал Артурс Мезмалис, владелец прибрежного кафе Café Pie Krasta. «Одна чайка научилась опрокидывать дозатор с сахаром, чтобы посеять замешательство. Я не говорю, что это было спланировано. Я говорю, что это происходило каждый день ровно в 10:14». 
+
+Исследователи из кафедры урбанистических переговоров с птицами Латвийского университета отслеживают поведенческие изменения прибрежных популяций чаек с 2021 года, когда удалённая работа и расширенное уличное общепитие впервые увеличили то, что эксперты теперь называют «подверженностью высокоценной закуске». По словам ассоциированного орнитолога д‑ра Беате Лочмеле, птицы не столько становятся агрессивнее, сколько «более административно уверенными». 
+
+«Они больше не питаются по случаю», — сказала Лочмеле, демонстрируя график под названием «Схемы эскалации у морских оппортунистов». «Они наблюдают за распорядком, выявляют самого слабого члена завтрака и оказывают давление. В двух задокументированных случаях чайки дождались, пока человек только что развернул масло. Это указывает на терпение, планирование и тревожную осведомлённость о европейских молочных привычках». 
+
+Не все жители поддержали меры. Уволенная в отставку учительница из Дубулты Майя Калниня назвала зону «оскорблением исторического характера побережья». «Чайка кричит, поезд проезжает, кто‑то в льняном жалуется на парковку — это же лето», — сказала она. «Если люди не в состоянии защитить одну булочку, может быть, они ещё не готовы к Юрмале». 
+
+Даже некоторые туристы отнеслись к инициативе скептически. «Честно говоря, я отнёсся к птице с уважением», — сказал шведский гость Йохан Раск, который утверждает, что уступил половину кардамоновой булочки после того, что назвал «очень профессиональным подходом». «Это было не случайно. Это ощущалось скандинавски по эффективности». 
+
+Муниципальная полиция подтвердила, что на данном этапе штрафы непосредственно чаекам выписываться не будут, ссылаясь на «проблемы с идентификацией и низкий уровень соблюдения документооборота». Вместо этого город планирует оценивать пилот до августа с помощью шумовых карт, отчётов о потерянной выпечке и экспериментального опроса, в котором посетителей будут спрашивать, чувствовали ли они себя «наблюдаемыми в юридически значимом смысле». 
+
+Если пилот окажется успешным, чиновники заявляют, что в следующем году программу можно будет расширить: включить посредничество с воронами в центре Риги и обучение границам для голубей у Центрального рынка. 
+
+К вечеру вторника первый участок зоны уже вступил в силу. В считанные минуты свидетели сообщили о скоплении из шести чаек, стоявших в полной тишине на мусорном баке возле улицы Турайдас и смотревших с тем, что один немецкий турист назвал «глубоким институциональным разочарованием». 
+
+Городские власти охарактеризовали первый результат как обнадёживающий.`
+    },
+    date: "Nov 3, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/324/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 323,
     slug: "riga-introduces-official-silence-hours-so-323",
     title: {
@@ -102,7 +201,7 @@ Ja Rīgas pilots izrādīsies veiksmīgs, Ministrija par Gudru Mājokļu Līdzā
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/323/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 322,
