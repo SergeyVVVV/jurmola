@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 325,
+    slug: "riga-introduces-silent-tram-car-for-325",
+    title: {
+      en: "Riga Introduces Silent Tram Car For Passengers Who Need To Rehearse Arguments They’ll Never Have",
+      lv: "Rīga ievieš klusējošu tramvaja vagonu pasažieriem, kuriem jāizspēlē strīdi, kas nekad nenotiks",
+      ru: "Рига вводит тихий трамвайный вагон для пассажиров, которым нужно отрепетировать ссоры, которых у них никогда не будет"
+    },
+    excerpt: {
+      en: "Rīgas Satiksme on Tuesday unveiled a new “Reflective Carriage” on Tram 11, intended for commuters who require a quiet, dignified space to mentally replay social interactions from 2009. Officials say the pilot project responds to growing demand for public infrastructure that supports Baltic levels of internal dialogue without unnecessary eye contact.",
+      lv: "Rīgas Satiksme otrdien atklāja jaunu “Reflektīvo vagonu” 11. tramvajā, domātu pārvietošanās reizēm, kad pasažieriem nepieciešama klusa, cieņpilna telpa, lai galvā atkārtotu sociālās sadursmes no 2009. gada. Pārstāvji saka, ka pilotprojekts reaģē uz pieaugošu pieprasījumu pēc sabiedriskās infrastruktūras, kas atbalsta Baltijas līmeņa iekšējo dialogs bez liekas acu saskares.",
+      ru: "Rīgas Satiksme во вторник представила новый «Вагон для раздумий» на трамвае №11 — он предназначен для поездных, которым нужно спокойное, достойное пространство, чтобы мысленно проигрывать социальные взаимодействия из 2009 года. Чиновники говорят, что пилотный проект отвечает растущему спросу на общественную инфраструктуру, поддерживающую балтийский уровень внутреннего диалога без лишних зрительных контактов."
+    },
+    fullContent: {
+      en: `RIGA — In what city planners are calling a major leap forward in emotionally compatible transport, Riga’s municipal transit company has launched a dedicated silent tram car for passengers wishing to privately rehearse arguments, apologies, and devastatingly articulate comebacks they did not think of at the time.
+
+The new carriage, introduced this week on the popular Tram 11 route between the city center and Mežaparks, is marked with a pale grey sign reading, “Please Respect Others’ Ongoing Internal Monologues.” Conductors say the car is already operating at 87% capacity during morning hours, particularly between National Theatre and Brasas stations, where commuters reportedly do their strongest retrospective self-advocacy.
+
+According to Rīgas Satiksme spokesperson Elīna Krūkle, the initiative emerged after a six-month study found that 64% of passengers were using standard tram windows “not to observe surroundings, but to stare through their own reflection while re-litigating minor humiliations.” Another 22% admitted they had missed their stop because they were silently perfecting an argument with a dentist, former classmate, or cashier from 2017.
+
+“We realized we were treating this as a noise issue, when in fact it was a civic need,” Krūkle said at a press conference held beside a tram whose interior had been fitted with softer lighting, fog-resistant windows, and discreet brass plaques displaying useful sentence starters such as, “What I should have said was…” and “With all due respect, Sandra…”
+
+The Reflective Carriage includes several passenger-friendly features tailored to Latvian commuting habits. Seats are arranged at slight angles to minimize accidental intimacy. A “Moderate Sigh Zone” near the rear doors allows riders to exhale heavily without attracting concern. For premium users, two corner standing areas designated for “silent forehead-against-glass work” are available during non-peak hours.
+
+Commuter reaction has been overwhelmingly positive. “Usually I have to do this on the beach in Jurmala, in the forest, or while peeling potatoes,” said 38-year-old project manager Mārtiņš Ozols, who boarded the carriage Tuesday morning carrying a laptop bag and what witnesses described as “an unresolved tone from a meeting.” “Here I was finally able to revisit a 14-second exchange with my neighbor about recycling bins and come up with three morally superior responses before Sarkandaugava.”
+
+Not all riders were immediately convinced. Pensioner and regular tram user Velta Miezīte, 71, initially mistook the carriage for a memorial compartment. “At first I thought someone important had died,” she said. “But then I saw a young man near the window silently mouthing, ‘No, actually, that’s not the point,’ and I understood. This is for the nation.”
+
+City officials say the pilot is part of Riga’s broader “Functional Introversion 2030” strategy, which aims to modernize public life without forcing residents into visible enthusiasm. If successful, similar upgrades may be introduced in other settings, including a supermarket aisle in Āgenskalns for mentally rewriting conversations with pharmacists, and a low-lit room at the Office of Citizenship and Migration Affairs where visitors can calmly imagine having brought the correct document.
+
+Transport sociologist Dr. Aivars Plepis of the Baltic Institute for Everyday Tension said the project reflects a mature society. “Southern cultures may process emotion through shouting, gesturing, and family lunches,” Plepis said. “Here, we prefer to stand in a well-insulated vehicle and construct flawless responses 11 years too late. This is not repression. This is quality control.”
+
+By late afternoon, Rīgas Satiksme confirmed that one practical issue remained unresolved: several passengers had become so absorbed in finally winning old arguments that they continued riding the tram to the depot. Officials called this “an encouraging sign of public engagement” and said they were exploring whether future ticket options should include a special 90-minute fare for passengers who are, at last, really getting into it.`,
+      lv: `RĪGA — To, ko pilsētplānotāji dēvē par nozīmīgu soli uz priekšu emocionāli saderīgā transportā, Rīgas pašvaldības pārvadājumu uzņēmums ir uzsācis speciālu klusējošu tramvaja vagonu pasažieriem, kuri vēlas privāti izspēlēt strīdus, atvainošanās runas un asprātīgas atbildes, ko pašlaik neatceras, bet kuras būtu perfektas 11 gadus vēlāk.
+
+Jaunais vagons, kas šonedēļ tika ieviests populārajā 11. tramvaja maršrutā no centra līdz Mežaparkam, ir atzīmēts ar gaiši pelēku plāksnīti, uz kuras rakstīts: “Lūdzu, cieniet citu notiekošos iekšējos monologus.” Konduktori saka, ka vagons jau darbojas 87% noslodzē rīta stundās, īpaši posmā starp Nacionālā teātra un Brasas pieturām, kur pārvietojas cilvēki, kuri it kā visaugstāk aizstāvējot sevi ar atpakaļejošo domu palīdzību.
+
+Pēc Rīgas Satiksmes sabiedrisko attiecību pārstāves Elīnas Krūkles teiktā, iniciatīva radusies sešu mēnešu pētījuma gaitā, kurā atklājās, ka 64% pasažieru izmanto parastos tramvaja logus “nevis, lai skatītos apkārtni, bet lai skatītos cauri savai atspulgai, pārrunājot sīkas pazemojuma epizodes.” Vēl 22% atzina, ka bija izlaiduši savu pieturu, jo klusībā pilnveidojuši diskusiju ar zobārstu, bijušu klasesbiedru vai kasieri no 2017. gada.
+
+“Mēs sapratām, ka to uztveram kā trokšņa problēmu, bet patiesībā tas ir pilsonisks pieprasījums,” Krūkle sacīja preses konferencē blakus tramvajam, kura iekšpuse bija aprīkota ar maigāku apgaismojumu, pret miglojumu noturīgiem logiem un pieklājīgiem misiņa plāksnīšu ierakstiem ar noderīgiem teikumu sākumiem, piemēram: “Ko man būtu jāteic, bija…” un “Ar visu cieņu, Sandra…”
+
+Reflektīvajā vagonā iekļautas vairākas pasažieriem draudzīgas iezīmes, pielāgotas latviešu pārvietošanās ieradumiem. Sēdvietas izkārtotas nelielos slīpumos, lai samazinātu nejaušas tuvības sajūtu. Pie aizmugures durvīm ierīkota “Mērēnas nopūtas zona”, kur ļaudis var smagi uzelpot, neizpētot apkārtējo ziņkāri. Premium lietotājiem ārpus pīķa stundām pieejamas divas stūra stāvēšanas vietas ar norādi “klusai pieres pret stiklu darbam”.
+
+Pasažieru atsauksmes bijušas pārliecinoši pozitīvas. “Parasti man tas jāizdara Jūrmalas pludmalē, mežā vai arī, rēžoties, mizojot kartupeļus,” sacīja 38 gadus vecais projektu vadītājs Mārtiņš Ozols, kurš otrdienas rītā iekāpa vagonā ar portfeli un, pēc aculiecinieku teiktā, “nenokārtotu noti no sapulces.” “Šeit beidzot varēju pārrunāt četrpadsmit sekundes garu sarunu ar kaimiņu par pārstrādes konteineriem un izdomāt trīs morāli pārākas atbildes pirms Sarkandaugavas.”
+
+Ne visi pasažieri sākotnēji bija pārliecināti. Pensionāre un regulāra tramvaja lietotāja Velta Miezīte, 71, sākumā vagonu sajauca ar piemiņas nodalījumu. “Vispirms es domāju, ka kāds svarīgs ir nomiris,” viņa teica. “Bet tad pie loga redzēju jaunekli, kurš klusi iejumaļoja: ‘Nē, patiesībā tas nav būtiskākais,’ un tad es sapratu. Tas ir domāts tautai.”
+
+Pilsētas amatpersonas skaidro, ka pilots ir daļa no Rīgas plašākas stratēģijas “Funkcionālā introversija 2030”, kas cenšas modernizēt sabiedrisko dzīvi, nepieprasot iedzīvotājiem redzamu entuziasmu. Ja projekts būs veiksmīgs, līdzīgas uzlabojuma varētu parādīties citviet — piemēram, veikala ejā Āgenskalnā, kur pārdomāt sarunas ar farmaceitu, un vāji apgaismotā telpā Pilsonības un migrācijas lietu pārvaldē, kur apmeklētāji mierīgi iedomājas, ka atnākuši ar pareizo dokumentu.
+
+Transporta sociologs Dr. Aivars Plepis no Baltijas Ikdienas Spriedzes institūta sacīja, ka projekts atspoguļo nosvērti nobriedušu sabiedrību. “Dienvidu kultūras, iespējams, emocijas apstrādā ar kliegšanu, žestiem un ģimenes pusdienām,” sacīja Plepis. “Mēs labprātāk stāvēsim labi nosiltinātā transportlīdzeklī un izkopsim nevainojamas atbildes par 11 gadiem par vēlu. Tas nav apspiešana. Tā ir kvalitātes kontrole.”
+
+Vēlāk pēcpusdienā Rīgas Satiksme apstiprināja, ka praktiska problēma joprojām palikusi neatrisināta: daži pasažieri bija tik ļoti aizrāvušies ar pagātnes strīdu uzvarēšanu, ka brauca tramvajā līdz depo. Amatpersonas šo esot nosaukušas par “pozitīvu sabiedrības iesaistes zīmi” un paziņoja, ka izskata iespēju nākotnē piedāvāt īpašu 90 minūšu biļeti pasažieriem, kuri, beidzot, patiešām ir īsteni iegrimuši.`,
+      ru: `РИГА — В том, что городские планировщики называют большим шагом вперёд в эмоционально совместимом транспорте, муниципальная транспортная компания Риги запустила специальный тихий трамвайный вагон для пассажиров, желающих уединённо репетировать ссоры, извинения и убийственно точные ответы, которые они не придумали в нужный момент.
+
+Новый вагон, введённый на этой неделе на популярном маршруте трамвая №11 между центром города и Мезапарком, отмечен бледно-серой табличкой с надписью «Пожалуйста, уважайте чужие текущие внутренние монологи». Кондукторы говорят, что вагон уже работает на 87% вместимости в утренние часы, особенно между станциями Национальный театр и Браcас, где, по сообщениям, пассажиры дают худшие по эстетике, но лучшие по содержанию ретроспективные доводы в свою пользу.
+
+По словам пресс‑секретаря Rīgas Satiksme Элины Крукле, инициатива возникла после шестимесячного исследования, которое показало, что 64% пассажиров используют обычные трамвайные окна «не для наблюдения за окружением, а чтобы смотреть на своё отражение и заново обсуждать мелкие унижения». Ещё 22% признались, что пропускали свою остановку, потому что молча оттачивали спор с дантистом, бывшим одноклассником или кассиром из 2017 года.
+
+«Мы поняли, что воспринимали это как шумовую проблему, тогда как на самом деле это — гражданская потребность», — сказала Крукле на пресс‑конференции рядом с трамваем, интерьер которого обустроили более мягким освещением, антизапотевающими стёклами и сдержанными латунными табличками с полезными фразами‑началами вроде «То, что я должен был сказать, было…» и «Со всем уважением, Сандра…».
+
+«Вагон для раздумий» включает несколько удобных для пассажиров функций, адаптированных к латвийским привычкам поездок. Сиденья расположены под небольшим углом, чтобы минимизировать случайную интимность. У задних дверей выделена «Зона умеренного вздоха», где можно глубоко выдохнуть, не вызывая беспокойства. Для премиум‑пользователей в углах предусмотрены две стоячие зоны для «немой работы лбом у стекла» — они доступны в непиковые часы.
+
+Реакция пассажиров оказалась крайне положительной. «Обычно мне приходится это делать на пляже в Юрмале, в лесу или пока чищу картошку», — сказал 38‑летний менеджер проектов Мартиньш Озолс, который во вторник утром забрался в вагон с сумкой для ноутбука и, как свидетельствовали очевидцы, «с нерешённым тоном от совещания». «Здесь я наконец смог вернуться к 14‑секундному обмену с соседом про контейнеры для переработки и придумать три морально превосходных ответа до Саркандаугавы». 
+
+Не все пассажиры сразу поверили в идею. Пенсионерка и постоянная пользовательница трамваев Велта Миезите, 71 года, сначала приняла вагон за мемориальный отсек. «Сначала я подумала, что кто‑то важный умер», — сказала она. «Но потом я увидела молодого человека у окна, который молча шевелил губами «Нет, на самом деле, не в этом дело», и поняла. Это — для нации». 
+
+Городские власти сообщают, что пилотный проект является частью более широкой стратегии Риги «Функциональная интроверсия — 2030», цель которой — модернизировать общественную жизнь, не заставляя жителей демонстрировать видимую радость. Если эксперимент окажется успешным, аналогичные новшества могут появиться и в других местах, включая прилавок супермаркета в Айгенскалнсе для мысленной переписки с фармацевтом и затемнённую комнату в Управлении по гражданству и миграции, где посетители смогут спокойно представлять, что принесли правильный документ.
+
+Транспортный социолог доктор Айварс Плепис из Балтийского института повседневного напряжения сказал, что проект отражает зрелое общество. «Южные культуры, может быть, выражают эмоции криком, жестикуляцией и семейными обедами», — сказал Плепис. «Здесь мы предпочитаем постоять в хорошо звукоизолированном вагоне и сконструировать безупречные ответы с опозданием на 11 лет. Это не подавление. Это контроль качества». 
+
+К вечеру Rīgas Satiksme подтвердила, что остаётся одна практическая проблема: несколько пассажиров так увлеклись тем, чтобы наконец выиграть старые споры, что доехали вместе с трамваем до депо. Чиновники назвали это «обнадеживающим признаком общественной вовлечённости» и сообщили, что изучают возможность введения специального 90‑минутного тарифа для пассажиров, которые, наконец, действительно в деле.`
+    },
+    date: "Nov 4, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/325/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 324,
     slug: "jrmala-introduces-silent-seagull-zone-after",
     title: {
@@ -114,7 +195,7 @@ Pilsētas amatpersonas sākotnējo rezultātu nodēvēja par cerīgu.`,
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/324/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 323,
