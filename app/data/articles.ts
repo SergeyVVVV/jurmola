@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 326,
+    slug: "riga-introduces-official-municipal-silence-hour-326",
+    title: {
+      en: "Riga Introduces Official Municipal Silence Hour After Residents File 14,000 Noise Complaints About Other People Being Too Cheerful",
+      lv: "Rīga ievieš oficiālu pašvaldības klusuma stundu pēc tam, kad iedzīvotāji iesnieguši 14 000 sūdzību par citu cilvēku pārāk lielu priecīgumu",
+      ru: "Рига вводит официальный муниципальный час тишины после того, как жители подали 14 000 жалоб на чрезмерную жизнерадостность других людей"
+    },
+    excerpt: {
+      en: "In a move city officials say will preserve \"the acoustic dignity of the capital,\" Riga has approved a daily Municipal Silence Hour requiring residents to lower voices, reduce laughter, and avoid expressive optimism between 14:00 and 15:00. Supporters call it a practical compromise between modern urban life and the long-standing local preference for emotional restraint in shared spaces.",
+      lv: "Kā pilsētas amatpersonas apgalvo, saglabājot «galvaspilsētas akustisko cieņu», Rīga ir apstiprinājusi ikdienas Pašvaldības klusuma stundu, kuras laikā iedzīvotājiem jāsamazina balss, jāierobežo smiekli un jāizvairās no izteiksmīgas optimismas no plkst. 14:00 līdz 15:00. Atbalstītāji to sauc par praktisku kompromisu starp mūsdienu pilsētas dzīvi un ilggadējo vietējo tieksmi pēc emocionālas atturības kopīgajās telpās.",
+      ru: "В стремлении сохранить «акустическое достоинство столицы» Рига утвердила ежедневный Муниципальный час тишины: с 14:00 до 15:00 жителей просят понижать громкость речи, уменьшать смех и воздерживаться от выразительного оптимизма. Сторонники называют это практичным компромиссом между современной городской жизнью и давней местной склонностью к эмоциональной сдержанности в общих пространствах."
+    },
+    fullContent: {
+      en: `RIGA — After a six-month pilot program in which decibel monitors were installed near apartment courtyards, trolleybus stops, and the pastry section of three major supermarkets, the Riga City Council on Tuesday voted 41–19 to introduce an official Municipal Silence Hour, citing an “unsustainable rise in recreational loudness” across the capital.
+
+Beginning next Monday, residents will be expected to minimize non-essential conversation, enthusiastic greetings, and “prolonged, theatrical reactions to minor conveniences” every day from 14:00 to 15:00. The new regulation applies to public transport, stairwells, pharmacies, municipal offices, and any café within 300 meters of a body of water where someone might be trying to look meaningfully across it.
+
+According to a 78-page report commissioned by the city’s Department of Civic Atmosphere, Riga received 14,263 complaints in the past year related not to construction, traffic, or nightlife, but to “unjustified cheerfulness.” Of those, 31% involved what complainants described as “group laughing,” while 22% referenced “aggressive brunch energy,” a category the city only began tracking in January.
+
+“We are not against joy,” Deputy Chairwoman for Urban Calm Ilze Vīksne told reporters while standing beside a chart titled The Emotional Burden of Sudden Merriment. “We are simply asking that happiness, if experienced, be processed indoors and at a responsible volume. A city must have standards.”
+
+Under the new rules, violators will first receive a written warning and a complimentary brochure, Understanding Your Tone in Historic Neighborhoods. Repeat offenders may be fined up to €70 or required to attend a municipal composure workshop, where participants will practice neutral facial expressions while waiting for paperwork.
+
+The measure has found strong support among central district residents. “Yesterday two tourists near Alberta iela said ‘wow’ five times in under a minute,” said 62-year-old Arturs Blūms, who filed one of the original petitions. “At that point it is no longer sightseeing. It is a performance.”
+
+Public transport officials also welcomed the change, particularly after an incident in March in which a man on the 6th tram was overheard telling his friend he was “actually having a great week,” prompting three passengers to change seats and one to stare out the window so intensely that he missed his stop.
+
+Not everyone is convinced. Small business owners in Old Riga say the rule could hurt commerce, especially among establishments that rely on visible enjoyment. “We already had to reduce live accordion from spirited to reflective,” said café manager Santa Eglīte, whose riverside terrace has been cited twice for applause exceeding recommended duration. “Now we are being told cappuccino delight must remain internal. How is hospitality supposed to survive?”
+
+To address concerns, the city has created designated Expression Zones in Esplanāde Park and one fenced section of Lucavsala, where residents may laugh, speak excitedly, or celebrate finding parking for up to 12 minutes at a time. Officials say the zones will be monitored to prevent emotional spillover.
+
+Tourism representatives have cautiously endorsed the policy after learning it can be marketed internationally as “an authentic Nordic-Baltic stillness experience,” though several admitted privately that explaining the concept to British bachelor parties may prove difficult.
+
+By Tuesday evening, the city had already published a practical guide for residents, including approved low-impact phrases such as “that is acceptable,” “reasonably pleasant,” and, for special occasions, “not bad at all.” As dusk settled over the Daugava, most passersby appeared supportive, or at least unwilling to make a scene about it.`,
+      lv: `RĪGA — Pēc sešu mēnešu pilotprogrammas, kuras laikā pie daudzdzīvokļu pagalmiem, trolejbusu pieturvietām un trīs lielveikalu konditorejas nodaļām tika uzstādīti decibelu mērītāji, Rīgas domes deputāti otrdien ar 41–19 balsīm nobalsoja par oficiālas Pašvaldības klusuma stundas ieviešanu, atsaucoties uz «neuzturamu izklaides trokšņa pieaugumu» visā galvaspilsētā.
+
+No nākamās pirmdienas iedzīvotāji katru dienu no plkst. 14:00 līdz 15:00 tiks lūgti minimizēt nereglamentētu sarunu, entuziastiskus sveicienus un «ilgstošas, teatrālas reakcijas uz sīkiem labumiem». Jaunais noteikums attiecas uz sabiedrisko transportu, kāpnēm, aptiekām, pašvaldības iestādēm un jebkuru kafejnīcu 300 metru rādiusā no ūdenstilpes, kur kāds varētu mēģināt skatīties pāri tai ar dziļo izteiksmi.
+
+Saskaņā ar Rīgas Pilsoniskās atmosfēras departamenta pasūtīto 78 lappušu ziņojumu, pagājušajā gadā pilsētā saņemts 14 263 sūdzību nevis par celtniecību, satiksmi vai naktsdzīvi, bet par «neattaisnojamu priecīgumu». No tām 31% bija par to, ko sūdzētāji raksturoja kā «grupveida smiešanās», bet 22% atsaucās uz «agresīvu branča enerģiju», kategoriju, ko pilsēta sāka reģistrēt tikai janvārī.
+
+«Mēs neesam pret prieku,» Rīgas vietniece pilsētvides mieram Ilze Vīksne sacīja žurnālistiem, stāvot blakus diagrammai ar nosaukumu «Pēkšņas prieka emocionālais smagums». «Mēs vienkārši lūdzam, lai laime, ja tā tiek piedzīvota, tiktu apstrādāta telpās un atbildīgā skaļumā. Pilsētai jābūt standartiem.»
+
+Saskaņā ar jaunajiem noteikumiem pārkāpēji vispirms saņems rakstisku brīdinājumu un bezmaksas bukletu «Kā savaldīt toni vēsturiskajos rajonos». Repetētājiem var tikt piemērota naudas sods līdz 70 € vai pienākums apmeklēt pašvaldības savaldīšanās darbnīcu, kur dalībnieki praktizēs neitrālas sejas izteiksmes, gaidot dokumentu noformēšanu.
+
+Šis pasākums guvis ievērojamu atbalstu centrālo rajonu iedzīvotāju vidū. «Vakar pie Alberta ielas divi tūristi pateica ‘wow’ piecas reizes mazāk nekā minūtē,» stāstīja 62 gadus vecais Arturs Blūms, kurš iesniedza vienu no oriģinālajām petīcijām. «Tajā brīdī tas vairs nav apskates objekts. Tā ir izrāde.»
+
+Sabiedriskā transporta pārstāvji arī atzinīgi novērtēja izmaiņas, īpaši pēc marta incidenta, kad 6. tramvajā vīrietis draugam tika noklausīts sakām «es patiešām šonedēļ jūtos lieliski», kas lika trim pasažieriem pārvietoties uz citiem sēdekļiem un vienam tik intensīvi skatīties pa logu, ka viņš nokavēja savu pieturu.
+
+Ne visi tomēr ir pārliecināti. Vecpilsētas mazo uzņēmumu īpašnieki brīdina, ka noteikums var kaitēt tirdzniecībai, īpaši iestādēm, kas paļaujas uz redzamu baudījumu. «Mums jau nācās samazināt dzīvā akordeona izpildījumu no dzīvespriecīga uz pārdomātu,» teica kafejnīcas vadītāja Santa Eglīte, kuras upes malas terase divreiz saņēmusi piezīmi par plaudu ilguma pārsniegšanu. «Tagad mums saka, ka kapučīno prieks jāglabā iekšēji. Kā viesmīlība to izdzīvos?»
+
+Lai risinātu bažas, pilsēta izveidojusi īpašas Izteiksmes zonas Esplanādes parkā un vienā nožogotā Lucavsalas teritorijas daļā, kur iedzīvotāji var smieties, runāt aizrautīgi vai svinēt stāvvietas atrašanu līdz 12 minūtēm vienā reizē. Amatpersonas saka, ka zonas tiks uzraudzītas, lai novērstu emocionālo izplūdi ārpus tām.
+
+Tūrisma pārstāvji piesardzīgi atbalstījuši politiku, uzzinot, ka to var pasniegt starptautiski kā «autentisku ziemeļbaltijas klusuma pieredzi», lai gan vairāki atzina privāti, ka koncepta izskaidrošana britu puišu ballītēm var izrādīties sarežģīta.
+
+Līdz otrdienas vakaram pilsēta jau bija publicējusi praktisku ceļvedi iedzīvotājiem, tostarp apstiprinātas zema ietekmes frāzes, piemēram, «tas ir pieņemami», «pietiekami patīkami» un, īpašos gadījumos, «visnotaļ nav slikti». Kā vakars noritēja pār Daugavu, lielākā daļa garāmgājēju izrādījās atbalstoši vai vismaz nevēlējās par to taisīt skandālu.`,
+      ru: `РИГА — По итогам шестимесячного пилотного проекта, в ходе которого датчики уровня шума были установлены рядом с дворами жилых домов, остановками троллейбусов и кондитерскими отделами трёх крупных супермаркетов, Рижская городская дума во вторник проголосовала 41–19 за введение официального Муниципального часа тишины, сославшись на «неустойчивый рост рекреационной громкости» по всей столице.
+
+Начиная со следующего понедельника от жителей ожидается сведение к минимуму несущественных разговоров, энергичных приветствий и «продолжительных, театральных реакций на мелкие удобства» каждый день с 14:00 до 15:00. Новое правило распространяется на общественный транспорт, лестничные клетки, аптеки, муниципальные учреждения и любые кафе в пределах 300 метров от водоёма, где кто‑то может пытаться глубокомысленно смотреть через него.
+
+Согласно 78‑страничному докладу, подготовленному по заказу Департамента гражданской атмосферы, за прошлый год в Риге поступило 14 263 жалобы, связанные не со строительством, дорожным движением или ночной жизнью, а с «необоснованной веселостью». Из них 31% касались того, что заявители описывали как «групповой смех», а 22% — «агрессивной энергии бранча», категорию, которую город стал отслеживать только с января.
+
+«Мы не против радости», — заявила заместитель председателя по городскому спокойствию Илзе Виксне, стоя рядом с диаграммой под заголовком «Эмоциональная нагрузка внезапного веселья». «Мы просто просим, чтобы счастье, если оно испытывается, обрабатывалось в помещении и при ответственном уровне громкости. У города должны быть стандарты». 
+
+По новым правилам нарушители сначала получат письменное предупреждение и бесплатную брошюру «Понимание вашего тона в исторических районах». Повторные правонарушители могут получить штраф в размере до 70 евро или быть обязаны посетить муниципальный мастер‑класс по сохранению спокойствия, где участники будут отрабатывать нейтральные выражения лица в ожидании оформления документов.
+
+Мера получила широкую поддержку среди жителей центральных районов. «Вчера двое туристов на Альберта iela сказали „вау“ пять раз меньше чем за минуту», — рассказал 62‑летний Артурс Блумс, подавший одну из первоначальных петиций. «В этот момент это уже не экскурсия. Это представление». 
+
+Представители общественного транспорта также приветствовали изменения, особенно после инцидента в марте, когда в 6‑м трамвае один мужчина был подслушан, говоривший другу, что у него «на самом деле отличный (!) неделя», из‑за чего трое пассажиров пересели, а один настолько пристально уставился в окно, что пропустил свою остановку.
+
+Не все убеждены. Владельцы малого бизнеса в Старой Риге говорят, что правило может навредить торговле, особенно заведениям, которые живут за счёт заметного проявления удовольствия. «Нам уже пришлось перевести живой аккордеон из бодрого в созерцательный режим», — сказала менеджер кафе Санта Еглите, чья терраса у реки дважды получала замечания за аплодисменты, превышающие рекомендованную продолжительность. «Теперь нам говорят, что восторг от капучино должен оставаться внутренним. Как гостеприимство должно выживать?» 
+
+Чтобы учесть такие опасения, город создал обозначенные Зоны выражения в парке Эспланада и в одном огороженном участке Луцавсалы, где жители могут смеяться, говорить возбуждённо или праздновать найденное парковочное место не более 12 минут подряд. Чиновники говорят, что зоны будут контролироваться, чтобы предотвратить эмоциональное «переливание». 
+
+Туристические представители осторожно одобрили политику после того, как узнали, что её можно рекламировать за рубежом как «аутентичный северно‑балтийский опыт тишины», хотя несколько человек признались в частных беседах, что объяснить эту концепцию британским мальчишникам может оказаться сложно. 
+
+К вечеру вторника город уже опубликовал практическое руководство для жителей, включающее одобренные фразы с низкой эмоциональной нагрузкой, такие как «это приемлемо», «достаточно приятно» и, для особых случаев, «вполне неплохо». Когда сумерки опустились на Даугаву, большинство прохожих выглядели поддерживающими нововведение или, по крайней мере, не готовыми устраивать сцену по этому поводу.`
+    },
+    date: "Nov 5, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/326/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 325,
     slug: "riga-introduces-silent-tram-car-for-325",
     title: {
@@ -96,7 +183,7 @@ Vēlāk pēcpusdienā Rīgas Satiksme apstiprināja, ka praktiska problēma jopr
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/325/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 324,
