@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 327,
+    slug: "riga-apartment-building-declares-itself-cultural",
+    title: {
+      en: "Riga Apartment Building Declares Itself Cultural Institution, Begins Charging Tourists €6 To Witness Authentic Stairwell Tension",
+      lv: "Rīgas daudzdzīvokļu nams pasludina sevi par kultūras iestādi un sāk iekasēt tūristiem €6, lai liecinātu par autentisku kāpņutelpas spriedzi",
+      ru: "Рижский жилой дом провозгласил себя культурной организацией и начал брать с туристов €6 за наблюдение аутентичного напряжения в подъезде"
+    },
+    excerpt: {
+      en: "Residents of a pre-war apartment block in central Riga have formally reclassified their building as a “living museum of Baltic coexistence” after years of unsolicited tourist photography. The initiative, approved by a 9–7 vote and one prolonged sigh, will allow visitors to observe original tilework, passive-aggressive notice boards, and a functioning intercom no one trusts.",
+      lv: "Centrā, pirmskara daudzdzīvokļu ēkas iedzīvotāji oficiāli pārreģistrējuši savu māju par “dzīvo Baltijas līdzās pastāvēšanas muzeju” pēc gadiem ilgas nevēlamas tūristu fotografēšanas. Iniciatīvu apstiprināja ar 9–7 balsīm un vienu pagarinātu nopūtu; tagad apmeklētāji varēs vērot oriģinālo flīzējumu, pasīvi-agresīvos paziņojumu dēļus un domofonu, kam neviens netic.",
+      ru: "Жильцы довоенного многоквартирного дома в центре Риги официально переклассифицировали своё здание в «живой музей балтийского сосуществования» после многих лет нежелаемой туристической фотосъёмки. Инициатива, одобренная голосами 9–7 и одним затяжным вздохом, позволит посетителям наблюдать оригинальную мозаичную плитку, пассивно-агрессивные доски объявлений и работающий домофон, которому никто не доверяет."
+    },
+    fullContent: {
+      en: `RIGA — A five-storey apartment building on Ģertrūdes Street has officially declared itself a cultural institution and begun charging tourists €6 per entry to experience what its management committee describes as “an intact ecosystem of urban Latvian emotional architecture.”
+
+The decision was adopted Tuesday evening during a building association meeting that lasted two hours, 14 minutes, and one unrelated argument about bicycle tires. By Wednesday morning, a laminated sign in Latvian, English, and “hesitant German” had appeared beside the front door: “Welcome to House No. 38: Please Respect Residents, History, and the Smell of Boiled Buckwheat.”
+
+According to committee chairwoman Maija Ozoliņa, 63, the move was a practical response to the growing number of visitors who had been mistaking the building’s crumbling facade, ornate stair railings, and visible social fatigue for an immersive heritage site.
+
+“They were already coming in,” Ozoliņa told Jurmola Telegraphs while standing beneath a chandelier described in official materials as ‘original, moody, and one wire away from memory.’ “At least now we can monetize the experience of hearing someone on the third floor shout ‘Who left this here?’ without specifying what ‘this’ is.”
+
+For an additional €3, guests may access the Premium Stairwell Package, which includes a guided explanation of all 17 warning notices currently posted near the mailboxes, including one handwritten sheet reading, simply, “This Is Not Europe.” The building also offers a Family Ticket granting two adults and one confused child access to the courtyard, where a rusting swing and a dented Volkswagen have reportedly remained in “meaningful stasis” since approximately 2011.
+
+The house’s promotional brochure highlights several permanent exhibits: The Mysterious Basement Door No One Has Opened Since 1998; The Shoe Shelf of Plausible Suspicion; and Echoes of Renovation, an audio installation generated naturally by one resident drilling at impossible hours.
+
+Cultural policy researcher Uldis Bērziņš of the Institute for Everyday Baltics said the designation is legally questionable but spiritually precise. “For years, the Baltic region has failed to capitalize on its richest renewable resource: low-volume domestic hostility,” Bērziņš said. “Museums show objects. This building shows process. It is not about what the staircase looks like; it is about what happens when two neighbors carrying groceries meet there and both insist the other should pass first.”
+
+Some residents remain opposed. Second-floor tenant Inga Liepa, 41, said she voted against the plan after a group of architecture students from Belgium applauded when she struggled with the outer door. “I am not an exhibit,” Liepa said. “Also they wrote in a notebook when I said ‘unbelievable’ at the intercom. That is private culture.”
+
+Still, early visitor numbers suggest strong demand. In its first six hours, the building welcomed 47 paying guests, 12 art students, three Finns who claimed to be “just looking,” and one local man who entered by reflex and only later discovered he had purchased a ticket. Revenue from the opening day will be used to restore the entrance tiles and install a small gift kiosk selling postcards, fridge magnets, and a €14 scented candle called Wet Wool In November.
+
+Riga City Council has not formally commented, though one municipal spokesperson admitted off the record that at least four other buildings are now considering similar transitions. A property on Avotu Street is reportedly developing an audio guide, while a cooperative in Purvciems has applied for EU funding under the category “intangible corridor heritage.”
+
+As of Thursday, House No. 38 had expanded its offerings with a new evening event, Twilight in the Stairwell, marketed as an opportunity to “experience authentic dimness while someone upstairs moves furniture for unknown reasons.” Organizers say tickets are nearly sold out.
+
+“People want authenticity,” Ozoliņa said, locking the front door behind the day’s final group. “And if they insist on romanticizing our maintenance problems, the least they can do is pay for the light bulb.”`,
+      lv: `RĪGA — Piecstāvu daudzdzīvokļu nams Ģertrūdes ielā oficiāli pasludinājis sevi par kultūras iestādi un sācis iekasēt tūristiem €6 par ieeju, lai izbaudītu to, ko nama pārvaldes komiteja raksturo kā “neskartu urbānās latviešu emocionālās arhitektūras ekosistēmu”.
+
+Lēmums tika pieņemts otrdienas vakarā daudzdzīvokļu biedrības sapulcē, kas ilga divas stundas, 14 minūtes un vienu nesvarīgu strīdu par velosipēda riepām. Līdz trešdienas rītam pie ieejas parādījās laminēta zīme latviešu, angļu un “šaubīgā vācu” valodā: “Laipni lūgti 38. namā: lūdzu cieniet iedzīvotājus, vēsturi un vārītu griķu smaržu.”
+
+Pēc komitejas priekšsēdētājas Maijas Ozoliņas, 63, teiktā, šis solis bija praktiska atbilde uz pieaugošo apmeklētāju skaitu, kas ēkas drūpošo fasādi, izsmalcinātās kāpņu margas un redzamu sociālu nogurumu bija sākuši jaukt ar imersīvu mantojuma vietu.
+
+“Viņi jau nāca iekšā,” Ozoliņa sacīja Jurmolas Telegrafam, stāvot zem lustras, kuru oficiālajos materiālos apraksta kā „oriģinālu, noskaņainu un viena vada attālumā no atmiņas”. “Vismaz tagad mēs varam monetizēt to pieredzi, kad trešajā stāvā kāds uzkliedz: ‘Kas to šeit atstāja?’, neskaidri norādot, kas īsti ir ‘tas’.”
+
+Par papildus €3 viesi var iegādāties Premium kāpņu paketi, kurā iekļauts gida izskaidrojums par visiem 17 brīdinājumiem, kas pašlaik izvietoti pie pastkastītēm, tostarp viens rokrakstā uzrakstīts lapiņš ar vienkāršu tekstu: “ŠĪ NAV EIROP A.” Nams piedāvā arī Ģimenes biļeti diviem pieaugušajiem un vienam apjukušam bērnam ar piekļuvi iekšpagalmam, kur rūsējošas šūpoles un ieplīsis Volkswagen, kā ziņots, kopš aptuveni 2011. gada atrodas “jēgpilnā stāvē”.
+
+Nama reklāmas bukletā uzsvērti vairāki pastāvīgie eksponāti: Noslēpumainās pagraba durvis, ko neviens nav atvēris kopš 1998. gada; kurpju plaukts, kas raisa pamatotas aizdomas; un audio instalācija "Remonta atbalsis", kas dabiski rodas kāda iemītnieka urbšanas rezultātā nepiemērotos laikos.
+
+Kultūras politikas pētnieks Uldis Bērziņš no Ikdienas Baltijas institūta sacīja, ka šāds statuss juridiski ir diskutabls, taču garīgi precīzs. “Gadu gaitā Baltijas reģions nav izmantojis savu bagātāko atjaunojamo resursu: zema apjoma mājas naidīgumu,” Bērziņš skaidroja. “Muzeji rāda priekšmetus. Šī ēka rāda procesu. Nav runa par to, kā izskatās kāpnes; runa ir par to, kas notiek, kad divi kaimiņi ar pārtiku satiekas tur un abi uzstāj, lai otru laistu pirmajam.”
+
+Daļa iemītnieku joprojām iebilst. Otrā stāva īrniece Inga Liepa, 41, sacīja, ka nobalsojusi pret plānu pēc tam, kad grupai ar arhitektūras studentiem no Beļģijas plosījās apsveikumi, kamēr viņa cīnījās ar ārdurvīm. “Es neesmu eksponāts,” Liepa teica. “Un vēl — viņi pierakstīja savā kladē, kad es pie domofona teicu ‘neticami’. Tas ir privātās kultūras jautājums.”
+
+Tomēr agrīnie apmeklētāju skaitļi liecina par lielu pieprasījumu. Pirmajās sešās stundās namu apmeklēja 47 maksas apmeklētāji, 12 mākslas studenti, trīs somi, kas apgalvoja, ka “tikai skatās”, un viens vietējais vīrietis, kas iekļuvis pēc refleksa un tikai vēlāk atklāja, ka bija iegādājies biļeti. Ieņēmumi no atklāšanas dienas tiks izmantoti ieejas flīžu atjaunošanai un neliela suvenīru kioska iekārtošanai, kas pārdos pastkartes, ledusskapja magnētus un €14 smaržvielu sveci ar nosaukumu “Mitrā vilna novembrī”.
+
+Rīgas dome oficiāli nav komentējusi, lai gan viens pašvaldības pārstāvis neatbilstoši atzina, ka vismaz vēl četri nami tagad apsver līdzīgas pārejas. Avotu ielas īpašums, kā ziņots, izstrādā audio gidu, kamēr kooperatīvs Purvciemā ir iesniedzis pieteikumu ES finansējumam kategorijā “nemateriālais koridora mantojums”.
+
+No ceturtdienas 38. nams paplašinājis piedāvājumu ar jaunu vakara pasākumu “Puskrēsla kāpņutelpā”, kas reklamēts kā iespēja “izjust autentisku puskrēslu, kamēr kāds augšstāvā nezināmu iemeslu dēļ pārvieto mēbeles.” Organizatori ziņo, ka biļetes gandrīz izpārdotas.
+
+“Cilvēki grib autentiskumu,” Ozoliņa sacīja, aizslēdzot ārdurvis aiz dienas pēdējās grupas. “Un ja viņi pieprasa romantizēt mūsu uzturēšanas problēmas, vismaz varētu samaksāt par spuldzi.”`,
+      ru: `РИГА — Пятиэтажный многоквартирный дом на улице Гертрудес официально объявил себя культурной организацией и начал брать с туристов €6 за вход, чтобы те могли испытать то, что правление называет «неповреждённой экосистемой городской латвийской эмоциональной архитектуры». 
+
+Решение было принято во вторник вечером на собрании товарищества собственников, которое длилось два часа, 14 минут и одно не связанное с этим спор о велосипедных покрышках. К утру среды рядом со входной дверью появился ламинированный плакат на латышском, английском и «нерешительном немецком»: «Добро пожаловать в дом № 38: Пожалуйста, уважайте жителей, историю и запах варёной гречки». 
+
+По словам председательницы правления Майи Озолины, 63 года, шаг был практическим ответом на растущее количество посетителей, которые принимали облупившийся фасад дома, декоративные перила и заметную социальную усталость за памятник наследия. 
+
+«Они уже приходили, — сказала Озолина в разговоре с «Jurmola Telegraphs», стоя под люстрой, описанной в официальных материалах как „оригинальная, мрачная и в одном проводе от забвения“. — По крайней мере теперь мы можем монетизировать ощущение, когда кто-то на третьем этаже кричит: „Кто это тут оставил?“, не уточняя, что именно он имеет в виду под „это“.» 
+
+За дополнительные €3 гостям доступен Премиум-пакет «Подъезд», включающий экскурсоводское объяснение всех 17 предупредительных листов, развешанных у почтовых ящиков, в том числе одной рукописной записки с лаконичной надписью: «Это не Европа». Дом также предлагает семейный билет для двух взрослых и одного растерянного ребёнка с доступом во двор, где ржавые качели и помятый Volkswagen, по сообщениям, находятся в «смысленной стазисе» примерно с 2011 года. 
+
+В рекламной брошюре дома указаны несколько постоянных экспозиций: Таинственная дверь в подвал, которую никто не открывал с 1998 года; Полка для обуви правдоподобного подозрения; и «Эхо ремонта» — звуковая инсталляция, естественным образом генерируемая тем, что один из жильцов сверлит в невозможные часы. 
+
+Исследователь культурной политики Улдис Берзиньш из Института повседневной Балтики сказал, что юридически обозначение может быть спорным, но духовно точным. «Годы напролёт балтийский регион не умел извлекать выгоду из своего богатейшего возобновляемого ресурса: тихой бытовой враждебности, — сказал Берзиньш. — Музеи показывают предметы. Этот дом показывает процесс. Дело не в том, как выглядит лестница; дело в том, что происходит, когда два соседа с пакетами встречаются на ней и оба настаивают, чтобы другой прошёл первым». 
+
+Некоторые жильцы остаются против. Квартирантка второго этажа Инга Лиепа, 41 год, сказала, что голосовала против плана после того, как группа бельгийских студентов-архитекторов аплодировала, когда она с трудом пыталась открыть уличную дверь. «Я не экспонат, — заявила Лиепа. — К тому же они записали в блокнот, когда я сказала „невероятно“ в домофон. Это частная культура». 
+
+Тем не менее первые показатели посещаемости говорят о высоком спросе. За первые шесть часов в дом пришли 47 платных гостей, 12 студентов-художников, три финна, заявивших, что «просто смотрят», и один местный мужчина, который вошёл по инерции и только позже обнаружил, что купил билет. Доходы от дня открытия пойдут на восстановление входной плитки и установку маленького киоска с сувенирами — открытками, магнитами и ароматической свечой за €14 под названием «Мокрая шерсть в ноябре». 
+
+Рижский горсовет официально не комментировал, хотя один муниципальный представитель неофициально признал, что по крайней мере четыре других дома теперь рассматривают подобные трансформации. По сообщениям, на улице Авоту готовят аудиогид, а кооператив в Пурвциемсе подал заявку на финансирование ЕС в категории «нематериальное коридорное наследие». 
+
+К четвергу дом № 38 расширил своё предложение новым вечерним мероприятием «Сумерки в подъезде», рекламируемым как возможность „испытывать подлинную полумрак, пока кто‑то наверху двигает мебель по неизвестным причинам“. Организаторы говорят, что билеты почти распроданы. 
+
+«Люди хотят аутентичности, — сказала Озолина, запирая входную дверь за последней дневной группой. — И если они настаивают на романтизации наших проблем с обслуживанием, по крайней мере пусть оплатят лампочку».`
+    },
+    date: "Nov 6, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/327/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 326,
     slug: "riga-introduces-official-municipal-silence-hour-326",
     title: {
@@ -102,7 +195,7 @@ Līdz otrdienas vakaram pilsēta jau bija publicējusi praktisku ceļvedi iedzī
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/326/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 325,
