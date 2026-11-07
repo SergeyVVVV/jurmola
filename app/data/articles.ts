@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 328,
+    slug: "riga-introduces-silent-tram-car-for-328",
+    title: {
+      en: "Riga Introduces Silent Tram Car for Passengers Who Need 11 Minutes of Publicly Funded Staring Out Window Time",
+      lv: "Rīga ievieš klusā tramvaja vagonu pasažieriem, kuriem nepieciešamas 11 minūtes publiski finansētas skatīšanās pa logu",
+      ru: "Рига вводит вагон молчания для пассажиров, которым нужно 11 минут публично оплачиваемого созерцания в окно"
+    },
+    excerpt: {
+      en: "City officials in Riga this week unveiled a new “contemplation carriage” on Tram No. 6, reserved for passengers seeking uninterrupted silence, light existential fatigue, and the right to gaze at damp apartment blocks without social obligation. The pilot program has already been described by transport planners as 'the most Latvian infrastructure investment in a decade.'",
+      lv: "Šonedēļ Rīgas pilsētas amatpersonas atklāja jaunu “apceres vagonu” 6. tramvajā, paredzētu pasažieriem, kuri alkst nepārtrauktas klusēšanas, vieglas eksistenciālas noguruma izjūtas un tiesības bez sociālas atbildības skatīties uz mitriem daudzdzīvokļu namiem. Satiksmes plānotāji jau nodēvējuši pilotprojektu par 'vislatvijiskāko infrastruktūras ieguldījumu desmitgadē.'",
+      ru: "Городские власти Риги на этой неделе представили новый «вагон для созерцания» на маршруте №6, резервируемый для пассажиров, ищущих беспрерывную тишину, лёгкую экзистенциальную усталость и право смотреть на сырые панельные дома без социальной обязанности реагировать."
+    },
+    fullContent: {
+      en: `RIGA — In a move hailed by municipal leaders as both fiscally responsible and emotionally accurate, Riga City Council has launched a dedicated silent tram car designed for commuters who wish to stand perfectly still, avoid eye contact, and process a vague but persistent sense of historical weather.
+
+The new carriage, officially titled the Reflective Mobility Unit, began service Monday on the No. 6 line between Jugla and Ausekļa iela. Unlike standard tram cars, the silent unit contains no advertisements, no onboard announcements beyond a single soft bell, and no passenger conversation except in cases of “logistical emergency,” defined by the Riga Transport Authority as asking whether this tram goes to the Central Market and immediately regretting it.
+
+“This is not simply a transport solution,” said Deputy Mobility Director Ilze Priedīte at a press conference held beside a lightly salted snowbank. “It is a protected civic space for staring through scratched glass at trolley wires and privately reaching a conclusion about your life that you will never verbalize.”
+
+According to the city, the carriage was developed after a six-month study found that 73% of Riga residents consider the tram ride home “the only acceptable place to have emotions near other people,” while 64% reported frustration when fellow passengers attempted cheerful conversation before sunset. An additional 18% said they would pay extra for a carriage where nobody played videos aloud, coughed theatrically, or said “Well, at least it’s not as bad as in Tallinn.”
+
+Inside the carriage, passengers are greeted by upholstery in a municipal gray-green described by designers as “November pine.” Windows have been cleaned only to the precise degree that buildings remain visible but hope remains diffused. A digital screen at the front quietly displays rotating contemplative prompts, including “Did you lock the balcony door?” and “Maybe next year you will finally buy proper boots.”
+
+Commuters have responded enthusiastically. By Tuesday morning, the tram’s silent carriage was already operating at 112% intended emotional capacity.
+
+“I got on in Teika and for four stops not a single person made a phone call,” said office administrator Mārtiņš Ozols, clutching a paper cup of kefir. “At one point, three of us looked at the same puddle at the same time and understood everything. I haven’t felt this supported by public services since they fixed the pothole near my cousin’s dentist.”
+
+Not all residents are convinced. Some have argued that every tram in Riga is already functionally silent, aside from wheel screeching and one teenager eating chips directly into the atmosphere. But city officials insist the distinction is legal and spiritual.
+
+“To be clear, ordinary silence is accidental,” said transport sociologist Dr. Evija Lāce of the Baltic Institute for Practical Melancholy. “This is curated silence. It tells citizens: the municipality sees your exhaustion, validates your reserve, and has set aside one articulated carriage in which your soul may hover briefly above daily life.”
+
+The project cost €480,000, including acoustic insulation, signage, staff training, and a pilot consultation with two retired librarians from Āgenskalns, both of whom reportedly rejected the first prototype for being “a bit too lively.” The program will run through March, after which officials will decide whether to expand it to buses, regional trains, and a proposed quiet waiting room at the Office of Citizenship and Migration Affairs where applicants can sit in peace and contemplate surnames ending in -s.
+
+By Thursday evening, city leaders were already calling the initiative a success after one passenger voluntarily exited the carriage to take a loud call from his uncle in the normal section. In a brief statement, Riga Mayor Vilnis Ķirsis said the pilot proved that “when government truly listens, it says almost nothing.”`,
+      lv: `RĪGA — Pāreja, ko pašvaldības vadītāji slavē gan kā fiskāli atbildīgu, gan emocionāli precīzu, — Rīgas dome ir uzsākusi īpašu klusā tramvaja vagonu, domātu pasažieriem, kas vēlas stāvēt pilnīgā mierā, izvairīties no acu kontakta un apstrādāt nezināmas, bet noturīgas vēsturiskas laikapstākļu sajūtas.
+
+Jaunais vagons, oficiāli saukts par "Reflektīvo mobilitātes vienību", pirmdien sāka kursēt 6. līnijā starp Juglu un Ausekļa ielu. Atšķirībā no parastajiem tramvaja vagonu, klusajā vagonā nav reklāmu, nav uzbrauktu paziņojumu, izņemot vienu maigu zvaniņu, un nav pasažieru sarunu, izņemot gadījumus, ko Rīgas Satiksme klasificējusi kā "loģistikas ārkārtas situāciju" — piemēram, ja kāds vaicā, vai šis tramvajs dodas uz Centrāltirgu un tūlīt nožēlo savu jautājumu.
+
+"Tas nav vienkārši transporta risinājums," preses konferencē blakus viegli sālītai sniega kaudzei sacīja Mobilitātes vietniece Ilze Priedīte. "Tā ir aizsargāta pilsoniska telpa, kur caur skrāpētu stiklu skatīties uz trolejvadiem un privāti nonākt pie secinājuma par savu dzīvi, ko tu nekad neizteiksi vārdos."
+
+Pilsētas dati liecina, ka vagons tika izstrādāts pēc sešu mēnešu pētījuma, kurā 73% rīdzinieku norādīja, ka brauciens tramvajā uz mājām ir "vienīgā pieņemamā vieta, kur būt emocionālam blakus citiem cilvēkiem", kamēr 64% ziņoja par neapmierinātību, ja līdzbraucēji mēģina saulrieta priekšā uzsākt jautras sarunas. Papildus 18% sacīja, ka par labu maksātu papildu, lai vagonā neviens nespēlētu skaļi video, neķertos teatrāli klepus un neteiktu "Nu, vismaz nav tik slikti kā Tallinā."
+
+Vagona iekšpusē pasažieri sagaida atzveltne pilsētas pelēkzaļā tonī, ko dāvinieki aprakstījuši kā "novembra priedi." Logi ir tīrīti tikai tik daudz, lai ēkas būtu saskatāmas, bet cerība paliktu izplūdusi. Priekšējā ekrānā klusi rotē pārdomu norādes, tostarp: "Vai tu aizslēdzi balkona durvis?" un "Varbūt nākamgad tu beidzot nopirksi normālas zābakus."
+
+Pasažieri reaģējuši entuziastiski. Otrdienas rītā klusais vagonis jau darbojās ar 112% no paredzētās emocionālās kapacitātes.
+
+"Es iekāpu Teikā un četrās pieturās neviens neizrunāja nevienu zvanu," sacīja biroja administrators Mārtiņš Ozols, turot papīra krūzīti ar kefīru. "Kādā brīdī trīs no mums vienlaikus paskatījās uz vienu un to pašu peļķi un sapratām visu. Kopš brīža, kad viņi salaboja bedrīti pie mana brālēna zobārsta, publiskie pakalpojumi mani nav tik ļoti atbalstījuši."
+
+Ne visi iedzīvotāji ir pārliecināti. Daži apgalvo, ka katrs tramvajs Rīgā jau funkcionāli ir kluss, izņemot riteņu skrienu un vienu pusaudzi, kas čipsus ēd tieši atmosfērā. Taču pilsētas amatpersonas uzsver, ka atšķirība ir gan juridiska, gan garīga.
+
+"Lai būtu skaidrs — ikdienišķā klusēšana ir nejauša," sacīja transporta socioloģe Dr. Evija Lāce no Baltijas Praktiskās Melanholijas institūta. "Šī ir kurēta klusēšana. Tā saka pilsoņiem: pašvaldība redz jūsu izsīkumu, apliecina jūsu rezervētību un ir atvēlējusi vienu artikulētu vagonu, kurā jūsu dvēsele var īsu brīdi virst ikdienas dzīves virsū."
+
+Projekts izmaksāja 480 000 eiro, ieskaitot akustisko izolāciju, norādes, darbinieku apmācību un pilotkonsultāciju ar divām pensionētām bibliotekārēm no Āgenskalna, kas, pēc ziņām, noraidīja pirmo prototipu kā "nedaudz par rosīgu." Projekts darbosies līdz martam, pēc tam amatpersonas lems, vai to paplašināt uz autobusiem, reģionālajiem vilcieniem un plānoto klusējošo gaiteņu telpu Pilsonības un migrācijas lietu pārvaldē, kur pretendenti varēs mierīgi apsēsties un pārdomāt uzvārdus, kas beidzas ar -s.
+
+Ceturtdienas vakarā pilsētas vadītāji jau dēvēja iniciatīvu par panākumu pēc tam, kad viens pasažieris labprātīgi izkāpa no vagona, lai normālajā sadaļā uztvertu skaļu zvanu no sava onkuļa. Īsā paziņojumā Rīgas mērs Vilnis Ķirsis sacīja, ka pilots pierādīja: "kad valsts patiešām klausās, tā saka gandrīz neko."`,
+      ru: `РИГА — В шаге, который муниципальные лидеры называют одновременно финансово ответственным и эмоционально точным, Рижская городская дума запустила специальный вагон молчания, предназначенный для пассажиров, желающих стоять совершенно неподвижно, избегать зрительного контакта и обдумывать смутное, но настойчивое чувство исторической погоды.
+
+Новый вагон, официально именуемый «Единица рефлексивной мобильности», начал работу в понедельник на линии №6 между Юглой и улицей Аусекля. В отличие от обычных трамваев, в молчаливом вагоне нет рекламы, никаких объявлений, кроме одного мягкого звонка, и никакого разговоров между пассажирами, за исключением случаев «логистической чрезвычайной ситуации», что Рижское управление транспорта определяет как вопрос «этот трамвай едет на Центральный рынок?» с последующим немедленным сожалением.
+
+«Это не просто транспортное решение, — сказала заместитель директора по мобильности Илзе Приедите на пресс‑конференции у слегка посыпанного солью сугроба. — Это защищённое гражданское пространство для того, чтобы через поцарапанное стекло смотреть на контактные провода троллейбуса и в частном порядке прийти к выводу о своей жизни, который вы никогда не озвучите.»
+
+По данным города, вагон был разработан после шестимесячного исследования, показавшего, что 73% рижан считают поездку домой в трамвае «единственным приемлемым местом, чтобы испытывать эмоции рядом с другими людьми», а 64% сообщили о раздражении, когда попутчики пытались вести бодрые разговоры до захода солнца. Ещё 18% заявили, что готовы доплатить за вагон, где никто не включает видео вслух, не театрально не кашляет и не говорит «ну, по крайней мере, не так плохо, как в Таллине.»
+
+Внутри вагона пассажиров встречает обивка муниципального серо‑зелёного цвета, описанная дизайнерами как «ноябрьная сосна». Окна вымыты лишь настолько, чтобы здания оставались видимыми, но надежда — рассеянной. Цифровой экран спереди тихо демонстрирует сменяющиеся задумчивые подсказки, включая «Вы закрыли дверь на балконе?» и «Может быть, в следующем году вы наконец купите нормальные сапоги.»
+
+Пассажиры отреагировали с энтузиазмом. К утру вторника молчаливый вагон работал уже на 112% рассчитанной эмоциональной вместимости.
+
+«Я зашёл в Тейку и четыре остановки никто не звонит по телефону», — сказал офисный администратор Мартиньш Озолс, сжимая бумажный стаканчик кефира. «В один момент трое из нас одновременно посмотрели на одну и ту же лужу и всё поняли. Я не чувствовал такой поддержки от общественных служб со времён, когда они починили яму у стоматолога моего кузена.»
+
+Не все жители убеждены. Некоторые утверждают, что каждый рижский трамвай уже по сути молчалив, за исключением скрипа колёс и одного подростка, поедающего чипсы прямо в атмосферу. Но городские власти настаивают, что различие и юридическое, и духовное.
+
+«Чтобы было ясно, обычное молчание — случайно, — говорит транспортный социолог д-р Эвия Лаче из Балтийского института практической меланхолии. — Это кураторское молчание. Оно говорит гражданам: муниципалитет видит вашу усталость, подтверждает вашу сдержанность и выделил один сочленённый вагон, в котором ваша душа может ненадолго парить над повседневностью.»
+
+Проект обошёлся в 480 000 евро, включая акустическую изоляцию, навигационные знаки, обучение персонала и пилотную консультацию с двумя отставными библиотекаршами из Агенскалнса, которые, по сообщениям, отвергли первый прототип за то, что он был «чуть слишком оживлённым». Программа продлится до марта, после чего чиновники решат, расширять ли её на автобусы, региональные поезда и предложенную тихую зону ожидания в Бюро по делам гражданства и миграции, где заявители смогут в тишине сидеть и созерцать фамилии на «-s».
+
+К вечеру четверга городские лидеры уже называли инициативу успешной после того, как один пассажир добровольно вышел из вагона, чтобы в обычном секторе громко поговорить по телефону с дядей. В кратком заявлении мэр Риги Вилнис Кирсис сказал, что пилот доказал: «когда правительство действительно слушает, оно говорит почти ничего.»`
+    },
+    date: "Nov 7, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/328/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 327,
     slug: "riga-apartment-building-declares-itself-cultural",
     title: {
@@ -108,7 +195,7 @@ No ceturtdienas 38. nams paplašinājis piedāvājumu ar jaunu vakara pasākumu 
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/327/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 326,
