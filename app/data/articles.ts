@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 329,
+    slug: "jrmala-introduces-silent-beach-hours-so-329",
+    title: {
+      en: "Jūrmala Introduces Silent Beach Hours So Pine Trees Can ‘Process Summer’",
+      lv: "Jūrmala ievieš klusās pludmales stundas, lai priedes varētu 'apstrādāt vasaru'",
+      ru: "Юрмала вводит тихие часы на пляже, чтобы сосны могли «переварить» лето"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have approved a pilot program requiring beachgoers to observe daily silent hours, citing growing concern that the city’s pine trees are becoming emotionally overstimulated by another tourist season. Environmental planners say the measure will help the forest ‘recenter’ after years of exposure to Bluetooth speakers, optimistic volleyball, and the phrase ‘let’s do one more sunset prosecco.’",
+      lv: "Jūrmalas amatpersonas apstiprinājušas pilotprogrammu, kas liek pludmales apmeklētājiem ievērot ikdienas klusuma stundas, norādot, ka pieaug bažas – pilsētas priedes emocionāli pārslogojas no vēl vienas tūristu sezonas. Vides plānotāji saka, ka šo pasākumu mežs izmantos, lai 'atcentrētos' pēc gadu ilgas iedarbības no Bluetooth skaļruņiem, optimistiska volejbola un frāzes 'taisām vēl vienu saulrieta prosecco.'",
+      ru: "Чиновники Юрмалы одобрили пилотную программу, обязывающую отдыхающих соблюдать ежедневные тихие часы — по мотивам растущей обеспокоенности тем, что прибрежные сосны города эмоционально перегружаются очередным туристическим сезоном. Экологи говорят, что мера поможет лесу «вернуться в себя» после лет под Bluetooth-колонками, чрезмерно оптимистичным пляжным волейболом и фразы «давайте ещё одно просекко на закате»."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move municipal leaders are calling ‘a necessary act of ecological respect,’ Jūrmala City Council voted Tuesday to establish mandatory Silent Beach Hours between 14:00 and 16:00, during which all visitors to the coastline must refrain from loud conversation, portable music, celebratory shrieking, and what the ordinance classifies as ‘emotionally abrupt splashing.’
+
+The policy, which takes effect next Monday along a 12-kilometer stretch from Bulduri to Melluži, was drafted after a working group of environmental consultants, spa managers, and one unusually persuasive dendrologist concluded that the city’s coastal pines ‘have not been given sufficient opportunity to process summer in a healthy manner.’
+
+‘For decades we have thought only about the human tourist experience,’ said Deputy Mayor Ilze Dreimane, standing beside a laminated diagram showing a pine tree surrounded by arrows labeled STRESSORS. ‘But a pine also has limits. It listens all June, all July. It hears inflatable mattress arguments, techno remixes from phones wrapped in towels, and those groups of six men who say they are playing quiet beach tennis but are spiritually very loud. At some point, the ecosystem asks for boundaries.’
+
+According to a 48-page municipal assessment, the average Jūrmala pine is exposed each summer to 11,300 unsolicited conversations, 427 renditions of “Despacito” from unidentified sources, and 19 instances per weekend of a child yelling ‘MAMMA WATCH THIS’ immediately before doing something medically avoidable. The report warns that without intervention, trees may begin ‘withdrawing aesthetically’ by dropping needles in a judgmental manner.
+
+City officials stressed that the rules are not anti-tourist but ‘pro-recovery.’ During silent hours, beachgoers may still sunbathe, read, and enter the sea if they do so with ‘modest personal intention.’ Snack consumption remains legal, although crisp packets must be opened slowly. Volleyball is suspended entirely, after acoustic measurements found that the phrase ‘mine, mine, MINE’ reverberates through dune systems at levels previously associated only with seasonal roadwork.
+
+Reaction among residents has been mixed. ‘Honestly, I support it,’ said Dzintari local Maris Kalniņš, 62, who said he has spent the last eight summers trying to hear birds over visiting finance teams from Riga. ‘If two quiet hours means the forest stops looking disappointed in us, that’s worth a try.’
+
+Others questioned enforcement. The city has hired 18 seasonal ‘acoustic stewards’ equipped with beige whistles, decibel meters, and authority to issue on-the-spot fines ranging from €15 for aggressive watermelon cutting to €75 for public speakerphone use. A maximum penalty of €140 may be applied in severe cases involving synchronized birthday singing.
+
+Not all experts are convinced. Professor Andris Veinbergs of the Baltic Institute for Applied Calm said the science remains emerging. ‘Can a pine process summer? Strictly speaking, we don’t know,’ he said. ‘But if it could, Jūrmala would be an excellent place to start, because no organism should have to hear that much deep house while standing still.’
+
+Tourism businesses, meanwhile, are adapting quickly. Several cafés have announced new ‘forest-sensitive lunch menus,’ and one Majori wellness studio has begun offering guided apologizing sessions in which participants face the dunes and whisper, ‘Sorry for July.’
+
+By late afternoon Tuesday, the city had already installed prototype signs reading, ‘THE SEA IS STILL AVAILABLE. PLEASE PANIC QUIETER.’ Officials say the trial will run through August, after which researchers will evaluate needle retention, dune serenity, and whether the pines appear, in the words of the final metric, ‘less completely done with everybody.’`,
+      lv: `JŪRMALA — Kā soli, ko pašvaldības vadība dēvē par 'nepieciešamu ekoloģisku cieņas aktu', Jūrmalas domes deputāti otrdien nobalsoja par obligātu Kluso pludmales stundu ieviešanu no pulksten 14:00 līdz 16:00, kuru laikā visiem piekrastes apmeklētājiem jāizvairās no skaļām sarunām, pārnēsājamās mūzikas, svinīgiem šļaugiem un tā, ko saistošais akts klasificē kā 'emocionāli pēkšņu šļakstīšanos.'
+
+Politika, kas stāsies spēkā nākamajā pirmdienā 12 kilometru posmā no Bulduriem līdz Mellužiem, tika izstrādāta pēc darba grupas — kurā bija vides konsultanti, spa vadītāji un viens neparasti pārliecinošs dendrologs — secinājuma, ka pilsētas piekrastes priedēm 'nav dota pietiekama iespēja veselīgi apstrādāt vasaru.'
+
+'Desmitgadēm ilgi mēs domājām tikai par cilvēka tūrista pieredzi,' sacīja vicemēre Ilze Dreimane, stāvot blakus laminētam diagrammai, kur priede apvilkta ar bultiņām, marķētām STRESORIEM. 'Bet priede arī ir ar robežām. Tā klausās visu jūniju, visu jūliju. Tā dzird diskusijas par piepūšamajiem matračiem, tehno remiksus no telefoniem, ietītiem dvieļos, un tās sešu vīru grupas, kas apgalvo, ka spēlē klusu pludmales tenisu, bet garīgi ir ļoti skaļi. Kādā brīdī ekosistēma prasa robežas.'
+
+Saskaņā ar 48 lappušu pašvaldības izvērtējumu, vidējā Jūrmalas priede katru vasaru tiek pakļauta 11 300 nevēlamām sarunām, 427 'Despacito' izpildījumiem no neatpazītām ierīcēm un 19 gadījumiem nedēļas nogalē, kad bērns kliedz 'MAMMA, SKATIES TO!' tūlīt pirms dara kaut ko medicīniski izvairāmu. Ziņojums brīdina, ka, ja netiks iejaukts, koki var sākt 'estētiski atkāpties' — birzdamas skujas nosodošā manierē.
+
+Pilsētas amatpersonas uzsvēra, ka noteikumi nav pret tūrismu, bet gan 'par atveseļošanos.' Kluso stundu laikā pludmales apmeklētāji joprojām var sauļoties, lasīt un doties jūrā, ja to dara ar 'pieklājīgu personisku nodomu.' Uzkodu lietošana paliek atļauta, taču čipsu maisiņus jāatver lēnām. Volejbols ir pilnībā apturēts, jo akustiskie mērījumi parādīja, ka frāze 'mana, mana, MANA' caur kāpu sistēmām rezonē līmeņos, kas agrāk tika saistīti tikai ar sezonālu ceļu remontu.
+
+Iedzīvotāju reakcija bijusi jaukta. 'Godīgi sakot, es atbalstu,' teica dzintarietis Māris Kalniņš, 62, kurš sacīja, ka pēdējās astoņas vasaras ir pavadījis mēģinot pārdzirdēt putnus pār Rīgas apmeklējošajām finanšu komandām. 'Ja divas klusas stundas nozīmē, ka mežs vairs nelūkojas uz mums ar vilšanos, tas ir tā vērts.'
+
+Citi izteica šaubas par uzraudzību. Pilsēta nodarbinājusi 18 sezonas 'akustiskos sargus', aprīkotus ar bēšām svilpēm, decibelmetriem un pilnvarām uzlikt vietējas naudas soda naudas no 15 € par agresīvu arbūza griešanu līdz 75 € par publisku brīvroku tālruņa izmantošanu. Maksimāls sods 140 € var tikt piemērots smagos gadījumos, kas saistīti ar sinhronizētu dzimšanas dienas dziedāšanu.
+
+Ne visi eksperti ir pārliecināti. Baltijas Institūta Lietotās Mierības profesors Andris Veinbergs sacīja, ka zinātne joprojām attīstās. 'Vai priede var apstrādāt vasaru? Stingri runājot, mēs to nezinām,' viņš teica. 'Bet ja tā varētu, Jūrmala būtu lieliska vieta, kur sākt, jo nevienam organismam nevajadzētu jādzird tik daudz deep house, stāvot klusu.'
+
+Tūrisma uzņēmumi savukārt ātri pielāgojas. Vairāki kafejnīcu īpašnieki paziņojuši par jaunām 'meža jutīgām pusdienu ēdienkartēm', un viens Majori labsajūtas studija sācis piedāvāt vadītas atvainošanās sesijas, kurās dalībnieki stāv pret kāpu pusi un čukst: 'Piedodiet par jūliju.'
+
+Vēlāk otrdienas pēcpusdienā pilsēta jau bija uzstādījusi prototipa zīmes ar uzrakstu: 'JŪRA JOPROJĀM PIEEJAMA. LŪDZU, PANIKOJJIET KLUSĀK.' Amatpersonas saka, ka izmēģinājums turpināsies līdz augustam, pēc tam pētnieki novērtēs skuju noturību, kāpu mierīgumu un to, vai priedes, citējot noslēdzošo metriku, šķiet 'mazāk pilnībā apnikušas visiem.'`,
+      ru: `ЮРМАЛА — В шаге, который муниципальные власти называют «необходимым актом экологического уважения», Городской совет Юрмалы во вторник проголосовал за введение обязательных Тихих часов на пляже с 14:00 до 16:00, в течение которых всем посетителям побережья запрещено громко разговаривать, включать переносную музыку, визжать от радости и совершать то, что в постановлении классифицируется как «эмоционально резкое плескание». 
+
+Политика, вступающая в силу в следующий понедельник вдоль 12-километрового участка от Булдури до Меллужи, была разработана после работы группы, в которую вошли экологические консультанты, менеджеры спа и один необычно убедительный дендролог; они пришли к выводу, что прибрежным соснам города «не предоставляли достаточной возможности здорово переварить лето». 
+
+«Десятилетиями мы думали только об опыте человеческого туриста», — сказала заместитель мэра Илзе Дреймане, стоя рядом с ламинированной схемой, на которой сосна окружена стрелками с надписью STRESSORS. «Но у сосны тоже есть пределы. Она слушает весь июнь, весь июль. Слышит ссоры из‑за надувных матрасов, техно‑ремиксы из телефонов, завернутых в полотенца, и те группы из шести мужчин, которые говорят, что играют в тихий пляжный теннис, но духовно очень громкие. В какой-то момент экосистема просит границ». 
+
+Согласно 48‑страничной муниципальной оценке, средняя юрмальская сосна подвергается каждое лето 11 300 непрошенным разговорам, 427 исполнению «Despacito» из неидентифицированных источников и 19 случаям в выходные, когда ребёнок кричит «МАМА, СМОТРИ, ЧТО Я СДЕЛАЮ» непосредственно перед тем, как сделать что‑то медицински необязательное. В отчёте предупреждается, что без вмешательства деревья могут начать «эстетически отстраняться», сбрасывая иголки в осуждающей манере. 
+
+Городские власти подчёркивают, что правила не настроены против туристов, а «за восстановление». В период тихих часов загорающим по‑прежнему разрешено принимать солнечные ванны, читать и заходить в море при условии «скромного личного намерения». Перекусы остаются легальными, хотя пачки чипсов следует открывать медленно. Волейбол полностью приостанавливается — после акустических измерений было установлено, что фраза «моё, моё, МОЁ» резонирует через дюнные массивы на уровнях, ранее ассоциировавшихся только с сезонными дорожными работами. 
+
+Реакция жителей оказалась смешанной. «Честно говоря, я поддерживаю это», — сказал 62‑летний житель Дзинтари Марис Калниньш, который заявил, что последние восемь лет пытается услышать птиц поверх команд приезжающих из Риги финансовых групп. «Если два тихих часа означают, что лес перестанет выглядеть разочарованным в нас, — стоит попробовать». 
+
+Другие усомнились в обеспечении соблюдения правил. Город нанял 18 сезонных «акустических смотрителей», оснащённых бежевыми свистками, децибелометрами и полномочиями выписывать штрафы на месте: от €15 за агрессивное нарезание арбуза до €75 за разговор по громкой связи в общественном месте. Максимальное наказание в €140 может быть применено в серьёзных случаях, связанных с синхронным исполнением «С днём рождения». 
+
+Не все эксперты убеждены. Профессор Андрис Вейнбергс из Балтийского института прикладного спокойствия сказал, что наука всё ещё в зачаточном состоянии. «Может ли сосна переварить лето? Строго говоря, мы не знаем», — сказал он. «Но если бы могла, Юрмала была бы отличным местом для начала, потому что ни один организм не должен слушать столько дип‑хауса, стоя на месте». 
+
+Тем временем туристический бизнес быстро адаптируется. Несколько кафе объявили новые «щадящие лесу обеденные меню», а одно велнесс‑студия в Майори начала предлагать управляемые сессии извинений, во время которых участники обращаются к дюнам и шепчут: «Прости за июль». 
+
+К вечеру во вторник в городе уже установили пробные таблички с надписью: «МОРЕ ВСЁ ЕЩЁ ДОСТУПНО. ПОЖАЛУЙСТА, ПАНИКУЙТЕ ТИШЕ». Чиновники говорят, что эксперимент продлится до августа, после чего исследователи оценят удержание иголок, спокойствие дюн и выяснят, кажутся ли сосны, по словам итоговой метрики, «чуть менее полностью разочарованными везде и во всех».`
+    },
+    date: "Nov 8, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/329/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 328,
     slug: "riga-introduces-silent-tram-car-for-328",
     title: {
@@ -102,7 +183,7 @@ Ceturtdienas vakarā pilsētas vadītāji jau dēvēja iniciatīvu par panākumu
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/328/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 327,
