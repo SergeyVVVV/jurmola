@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 330,
+    slug: "jrmala-introduces-dynamic-sand-pricing-as",
+    title: {
+      en: "Jūrmala Introduces Dynamic Sand Pricing As Residents Accused Of Hoarding Premium Beach",
+      lv: "Jūrmala ievieš dinamisku smilšu cenu noteikšanu, jo iedzīvotāji apsūdzēti premium pludmales uzkrāšanā",
+      ru: "Юрмала вводит динамическое ценообразование песка — жителей обвиняют в накоплении премиального пляжа"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have unveiled a new 'dynamic sand pricing' system intended to ease seasonal pressure on the city’s coastline by charging higher rates for standing on especially photogenic sections of beach. Authorities say the measure will discourage what they call 'informal luxury sand accumulation' by locals who arrive before sunrise and occupy the smoothest grains.",
+      lv: "Jūrmalas pašvaldības ierēdņi atklājuši jaunu «dinamiskas smilšu cenu» sistēmu, lai mazinātu sezonālo spiedienu uz pilsētas krastu — tagad par īpaši fotogēniskām pludmales vietām prasīs augstāku maksu par stāvēšanu. Varas iestādes apgalvo, ka pasākums atturēs to, ko tās dēvē par «neformālu luksusa smilšu uzkrāšanu» — vietējiem iedzīvotājiem, kas ierodas pirms saullēkta un okupē gludākos graudus.",
+      ru: "Муниципальные власти Юрмалы представили новую систему «динамического ценообразования на песок», призванную снизить сезонное давление на побережье города: теперь за стояние на особенно фотогеничных участках пляжа будут взимать повышенные сборы. По словам чиновников, мера должна отпугнуть то, что они называют «неформальным накоплением роскошного песка» со стороны местных жителей, которые приходят до рассвета и занимают самые ровные песчинки."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders described as 'fiscally innovative and spiritually maritime,' Jūrmala Municipality on Tuesday approved a pilot program that will introduce dynamic pricing for access to high-demand areas of beach, with rates fluctuating hourly based on sun angle, grain uniformity, and the visible emotional fulfillment of nearby visitors.
+
+Under the new model, residents and tourists entering designated sections between Bulduri and Dzintari will pay a baseline fee of €1.40 per square meter, though prices may rise sharply during golden hour or after someone on Instagram refers to the area as 'undiscovered.' Children under seven will remain free unless found building structures classified by inspectors as 'premium-adjacent.'
+
+Deputy Chair for Coastal Optimization Ilze Pabrika said the city had no choice after years of unchecked sand consumption by what she called 'legacy beach users.'
+
+'Every summer we observe the same market distortion,' Pabrika said at a press conference held beside a laminated tide chart. 'A small number of highly organized individuals arrive at 6:12 a.m., place towels at strategic intervals, and effectively privatize the most emotionally resonant sediment. By noon, ordinary families are left with damp transitional zones and spiritually neutral grit.'
+
+The municipality insists no one is actually purchasing sand itself, only temporary standing rights and optional reclining privileges. A separate premium package, BeachPlus, will allow subscribers access to flatter towel terrain, reduced pine needle incidence, and up to 15 minutes in what the city calls a 'low-seagull corridor.'
+
+According to a 48-page impact assessment prepared by consulting firm Nordic Shore Advisory, 63% of summer beach dissatisfaction in Jūrmala stems not from weather, crowding, or sea temperature, but from 'the perception that somebody else has somehow found better sand.' The same report found that Latvian beachgoers can detect a class difference of as little as 2.3 centimeters in dune proximity.
+
+Reaction among locals has been mixed. Majori resident and retired dentist Aivars Kļaviņš, 71, said he supports reforms but worries the city is moving too fast.
+
+'I understand regulation,' Kļaviņš said, carefully brushing invisible debris off a folding chair. 'But I have stood on that same patch since 1998. My calves know its texture. If a software system suddenly tells me I can only afford the coarser section near the shouting volleyball men, then what was independence for?'
+
+Others have already begun adapting. Several families were seen Tuesday comparing live sand rates on a municipal app, SmiltisNow, which uses color coding to alert users when beachfront conditions become 'aspirational.' By 11:30 a.m., prices near a particularly symmetrical dune had surged 240% after a Lithuanian travel vlogger described it as 'basically the Baltic Maldives, but emotionally reserved.'
+
+Tourism analysts say Jūrmala is simply aligning itself with global trends. 'Consumers expect personalized scarcity,' said hospitality researcher Maija Ozoliņa of the Riga Institute for Seasonal Economics. 'Airlines did it with seats, power companies did it with electricity, and now beaches are doing it with existential calm. This is the natural evolution of modern leisure.'
+
+To address equity concerns, the municipality has designated a small stretch near Pumpuri as a public affordability zone, where visitors may stand for free on weekdays in exchange for watching a three-minute informational video about responsible towel spacing.
+
+At press time, city officials confirmed they were also studying surge pricing for sunset applause after repeated complaints that spontaneous clapping had become 'dominated by repeat participants.'`,
+      lv: `JŪRMALA — Pilsētas vadība otrdien apstiprināja pilotprogrammu, ko raksturoja kā «finansiāli inovatīvu un garīgi jūrisku»: Jūrmalas pašvaldība ieviesīs dinamisku cenu noteikšanu piekļuvei pieprasītākajām pludmales zonām, kuras stundas laikā mainīsies atkarībā no saules leņķa, smilšu graudu vienveidības un tuvumā esošo apmeklētāju redzamās emocionālās piepildījuma pakāpes.
+
+Saskaņā ar jauno modeli iedzīvotāji un tūristi, kas iekļūs noteiktajās zonās starp Bulduriem un Dzintariem, maksās bāzes maksu 1,40 € par kvadrātmetru, lai gan cenas var strauji pieaugt zelta stundā vai pēc tam, kad kāds Instagram lietotājs vietu nodēvējis par «neatklātu». Bērni līdz septiņu gadu vecumam turēsies bez maksas, ja vien viņi netiks atzīti par būvētājiem konstrukcijām, ko inspektori klasificē kā «premium klases tuvumā». 
+
+Pajūras optimizācijas vietniece Ilze Pabrika sacīja, ka pilsētai nebija citas izvēles pēc gadiem ilgas nekontrolētas smilšu patēriņa no tā, ko viņa dēvēja par «ilgstošajiem pludmales lietotājiem». 
+
+"Katru vasaru mēs novērojam to pašu tirgus kropļojumu," Pabrika sacīja preses konferencē pie laminētas paisuma tabulas. "Neliels, ļoti organizēts indivīdu skaits ierodas pulksten 6:12, izvietojot dvieļus stratēģiskos intervālos, un faktiski privatizē visemocionālāk rezonējošo sedimentu. Līdz pusdienlaikam parastajām ģimenēm paliek mitras pārejas zonas un garīgi neitrālas smiltiņas."
+
+Pašvaldība uzsver, ka neviens nepērk pašas smiltis — tikai pagaidu stāvēšanas tiesības un izvēles iespēju atgulties. Atsevišķs premium pakalpojums BeachPlus abonentiem nodrošinās piekļuvi gludākam dvieļu laukam, samazinātu priežu skuju daudzumu un līdz pat 15 minūtēm tā dēvētajā "mazkaiju koridorā".
+
+Saskaņā ar konsultāciju firmas Nordic Shore Advisory sagatavoto 48 lappušu ietekmes novērtējumu 63% vasaras pludmales neapmierinātības Jūrmalā rodas nevis no laika, pārpildījuma vai jūras temperatūras, bet no "sajūtas, ka kāds cits kaut kādā veidā atradis labākas smiltis." Tajā pašā ziņojumā konstatēts, ka latviešu pludmales apmeklētāji var uztvert klases atšķirību pat par 2,3 centimetriem kāpas tuvumā.
+
+Vietējo reakcija ir jaukta. Majoru iedzīvotājs un pensionēts zobārsts Aivars Kļaviņš, 71 gadu vecs, sacīja, ka atbalsta reformas, bet bažījās, ka pilsēta rīkojas par strauju soli.
+
+"Es saprotu regulējumu," Kļaviņš sacīja, uzmanīgi izslaukot neredzamu putru no salokāmā krēsla. "Bet es stāvēju uz tās pašas plankas kopš 1998. gada. Manas teļi pazīst tās tekstūru. Ja kāda programmatūra pēkšņi man pateiks, ka varu atļauties tikai rupjāko posmu pie saucošajiem volejbola vīriem, tad kam bija domāta neatkarība?"
+
+Citi jau sākuši pielāgoties. Ceturtdien vairākas ģimenes vērojām, kā tās salīdzināja tiešās smilšu cenas pašvaldības lietotnē SmiltisNow, kas izmanto krāsu kodēšanu, lai brīdinātu lietotājus, kad pludmales apstākļi kļūst "aspiracionāli." Līdz pulksten 11:30 cenas pie īpaši simetriskas kāpas bija uzlēkušas par 240% pēc tam, kad lietuviešu ceļojumu vloggeris to aprakstīja kā "praktiski Baltijas Maldivus, bet emocionāli rezervētus." 
+
+Tūrisma analītiķi saka, ka Jūrmala vienkārši pielāgojas globālajām tendencēm. "Patērētāji sagaida personalizētu trūkumu," sacīja viesmīlības pētījumu speciāliste Maija Ozoliņa no Rīgas Institūta Sezonālās Ekonomikas. "Lidostas to izdarīja ar vietām sēdvietām, elektroapgādes uzņēmumi — ar elektrību, un tagad pludmales dara to ar eksistenciālo mieru. Tā ir mūsdienu atpūtas dabiskā evolūcija."
+
+Lai risinātu taisnīguma jautājumus, pašvaldība ir atzīmējusi nelielu posmu pie Pumpuriem kā publisku pieejamības zonu, kur apmeklētāji var stāvēt bez maksas darbadienās apmaiņā pret trīs minūšu informatīva video noskatīšanos par atbildīgu dvieļu izvietošanu.
+
+Preses slēgšanas brīdī pilsētas amatpersonas apstiprināja, ka tiek izpētītas arī uzliesmojošās cenas vakara aplausiem — pēc atkārtotiem sūdzību viļņiem, ka spontāns plaukšķināšanas bariņš kļuvis par "reiterējošu dalībnieku dominēto".`,
+      ru: `ЮРМАЛА — В маневре, который городские руководители описали как «финансово инновационный и духовно морской», муниципалитет Юрмалы во вторник одобрил пилотный проект, вводящий динамическое ценообразование за доступ к участкам пляжа с высоким спросом: тарифы будут меняться по часам в зависимости от угла солнца, равномерности зерна и видимой степени эмоционального удовлетворения присутствующих посетителей.
+
+В соответствии с новой моделью резиденты и туристы, входящие в обозначенные секции между Булдури и Дзинтари, будут платить базовый сбор в размере €1,40 за квадратный метр, хотя цены могут резко подниматься в «золотой час» или после того, как кто‑то в Instagram назовёт участок «неоткрытым». Дети до семи лет будут по‑прежнему проходить бесплатно, если их не уличат в строительстве сооружений, которые инспекторы классифицируют как «примыкающие к премиуму».
+
+Заместитель председателя по оптимизации побережья Илзе Пабрика заявила, что у города не было выбора после лет бесконтрольного потребления песка со стороны того, кого она назвала «давними пользователями пляжа».
+
+«Каждое лето мы наблюдаем одно и то же рыночное искажение», — сказала Пабрика на пресс‑конференции у ламинированной карты отливов. «Небольшая группа высокоорганизованных индивидуумов приезжает в 6:12, расстилает полотенца на стратегических интервалах и фактически приватизирует наиболее эмоционально насыщенные песчинки. К полудню обычные семьи остаются с сырыми переходными зонами и духовно нейтральным песком.»
+
+Муниципалитет настаивает, что никто на самом деле не покупает сам песок — только временные права на стояние и опциональные привилегии для полулёжа. Отдельный премиум‑пакет BeachPlus позволит подписчикам получать доступ к более ровным местам для полотенец, уменьшенной плотности сосновых иголок и до 15 минут в том, что город называет «коридором с низкой плотностью чаек». 
+
+Согласно 48‑страничной оценке воздействия, подготовленной консалтинговой фирмой Nordic Shore Advisory, 63% летнего недовольства пляжами в Юрмале обусловлено не погодой, не толпами и не температурой моря, а «восприятием того, что кто‑то где‑то нашёл более хороший песок». В том же отчёте утверждается, что латвийские пляжники способны уловить классовую разницу всего в 2,3 сантиметра удалённости дюны.
+
+Реакция среди местных разделилась. Житель Майори и пенсионер‑стоматолог Айварс Клявиньш, 71 год, сказал, что поддерживает реформы, но беспокоится, что город движется слишком быстро.
+
+«Я стою на том же самом участке с 1998 года. Мои икры знают его текстуру», — сказал Клявиньш, аккуратно выметая с раскладного стула невидимый мусор. «Если какая‑то программная система вдруг скажет мне, что я могу позволить себе только более грубый участок рядом с кричащими волейболистами, то зачем тогда была независимость?»
+
+Другие уже начали приспосабливаться. Во вторник несколько семей видели друг у друга в приложении муниципалитета SmiltisNow живые тарифы на песок; приложение использует цветовую индикацию, чтобы предупреждать пользователей, когда условия на береговой линии становятся «дающими повод для стремления». К 11:30 цены возле особенно симметричной дюны взлетели на 240% после того, как литовский тревел‑влогер описал её как «в сущности Балтийские Мальдивы, но эмоционально сдержанные».
+
+Туристические аналитики говорят, что Юрмала просто выравнивается с глобальными тенденциями. «Потребители ожидают персонализированную нехватку», — сказала исследователь гостиничного дела Майя Озолиня из Рижского института сезонной экономики. «Авиакомпании сделали это с местами, энергетики — с электричеством, а теперь пляжи делают это с экзистенциальным спокойствием. Это естественная эволюция современного досуга.»
+
+Чтобы учесть вопросы справедливости, муниципалитет выделил небольшой участок возле Пумпури как зону доступности для населения: там посетители могут стоять бесплатно по будням в обмен на просмотр трёхминутного информационного ролика о ответственном размещении полотенец.
+
+На момент выхода статьи городские чиновники подтвердили, что также изучают возможность динамического ценообразования за аплодисменты на закате после многочисленных жалоб, что спонтанные хлопания стали «монополизированы повторяющимися участниками».`
+    },
+    date: "Nov 9, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/330/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 329,
     slug: "jrmala-introduces-silent-beach-hours-so-329",
     title: {
@@ -96,7 +189,7 @@ Vēlāk otrdienas pēcpusdienā pilsēta jau bija uzstādījusi prototipa zīmes
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/329/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 328,
