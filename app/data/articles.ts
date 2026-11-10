@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 331,
+    slug: "riga-introduces-polite-queue-lanes-after-331",
+    title: {
+      en: "Riga Introduces ‘Polite Queue Lanes’ After Study Finds Residents Spend 14% of Winter Silently Resenting Line-Cutters",
+      lv: "Rīga ievieš “Pieklājīgās rindas” pēc pētījuma, ka iedzīvotāji ziemā 14% laika klusībā nicina rindas griezējus",
+      ru: "Рига вводит «вежливые полосы очереди» после исследования, показавшего, что жители зимой тратят 14% времени на молчаливое негодование из‑за нарушителей очереди"
+    },
+    excerpt: {
+      en: "Municipal officials in Riga have unveiled a pilot program of marked ‘Polite Queue Lanes’ outside pharmacies, post offices, and selected bakery counters after researchers concluded that passive-aggressive waiting has become one of the capital’s largest informal industries. City leaders say the initiative will preserve Latvian cultural values while reducing dangerous levels of muttered disapproval.",
+      lv: "Rīgas pašvaldības amatpersonas ir atklājušas pilotprogrammu ar atzīmētām “Pieklājīgajām rindām” pie aptiekām, pastiem un izvēlētiem maiznīcu letēm, pēc tam, kad pētnieki secināja, ka pasīvi-agresīva gaidīšana ir kļuvusi par vienu no galvaspilsētas lielākajām neformālajām industrijām. Pilsētas vadība apgalvo, ka iniciatīva saglabās latviešu kultūras vērtības, vienlaikus samazinot bīstamu nopūtu līmeni.",
+      ru: "Муниципальные власти Риги представили пилотную программу отмеченных «вежливых полос очереди» у аптек, почтовых отделений и отдельных прилавков пекарен после того, как исследователи пришли к выводу, что пассивно‑агрессивное ожидание стало одной из крупнейших неформальных отраслей столицы. Городские руководители говорят, что инициатива сохранит латвийские культурные ценности и при этом снизит опасный уровень бормочущего неодобрения."
+    },
+    fullContent: {
+      en: `RIGA — In what city planners are calling a landmark investment in social stability, Riga this week began painting official ‘Polite Queue Lanes’ outside 37 public-facing institutions, aiming to regulate one of Latvia’s most delicate civic rituals: standing in line, saying nothing, and mentally condemning everyone ahead of you.
+
+The program, funded through a €2.8 million municipal resilience grant, follows a 214-page study by the Institute for Applied Northern Patience, which found that the average Riga resident spends 11.6 days each year in queues, with an additional 4.3 days devoted exclusively to reconstructing in their mind the exact moment somebody “clearly knew what they were doing.” Researchers classified this as a measurable economic burden.
+
+“Queue tension has been unmanaged for too long,” said Deputy Chair for Urban Calmness Ilze Vītola at Tuesday’s press conference, held in front of a Miera Street pharmacy where six pensioners had already formed a pre-announcement line before sunrise. “We are not trying to westernize the queue. We are trying to protect the queue from chaos, improvisation, and people who enter a bakery and suddenly begin ‘just asking one quick thing.’”
+
+Under the new system, residents will choose between three painted lanes: ‘I Know What I Want,’ ‘I Need Time to Squint at Prices,’ and ‘I Am Actually Here for an Argument About a Receipt from March.’ A fourth pilot lane, ‘Only Buying Dill,’ was added after a trial at Riga Central Market collapsed when 43 shoppers claimed their transaction would take “literally two seconds.”
+
+According to municipal data, queue-related incidents rose 18% last winter, including 61 cases of theatrical sighing, 14 scarf readjustments interpreted as hostile, and one highly publicized event in Purvciems in which a man whispered “interesting” after another customer attempted to merge with a companion already waiting near the cashier. Crisis counselors later described the comment as “devastating but technically civil.”
+
+Local residents greeted the reform with cautious support. “I don’t need convenience,” said 68-year-old retired chemistry teacher Maija Ozoliņa, standing perfectly straight in the newly marked lane outside a post office on Brīvības iela. “I need fairness, and preferably for others to experience mild shame. If these lines can deliver that, then at last my taxes are doing something visible.”
+
+Not everyone is convinced. Artūrs Feldmanis, owner of a small convenience kiosk in Āgenskalns, warned that codifying queue behavior may strip it of its spiritual essence. “A Latvian queue is not merely a sequence,” he said. “It is an emotional weather system. There is distance, suspicion, coat management, and one person pretending not to notice the line while studying kefir. Can the state truly regulate that?”
+
+Officials insist the design was culturally sensitive. Each lane was tested for acceptable silence levels, average boot spacing, and seasonal tolerance for indirect eye contact. In one rejected prototype, bright yellow arrows were replaced with muted gray after focus groups described the original markings as “too optimistic” and “not respecting November.”
+
+The city plans to expand the scheme to Jurmala train platforms by December, where queue ambiguity has historically peaked during the first snowfall and any weekend involving discounted smoked fish. If successful, the model could be exported across the Baltics.
+
+At press time, the launch had already encountered its first challenge when a man at a Ziepniekkalns pharmacy bypassed all three lanes to ask whether anyone was “actually waiting.” Witnesses reported 19 people immediately turning toward him in complete silence, suggesting the old system remains, for now, highly functional.`,
+      lv: `RĪGA — To, ko pilsētplānotāji sauc par nozīmīgu ieguldījumu sociālajā stabilitātē, šonedēļ Rīga sāka oficiāli atzīmēt 37 iestāžu ārpusē ar “Pieklājīgajām rindām”, mērķējot regulēt vienu no Latvijas smalkākajiem pilsoniskajiem rituāliem: stāvēt rindā, nespļaut un garīgi nosodīt visus, kas atrodas priekšā.
+
+Programmu, kas finansēta no 2,8 miljonu eiro pašvaldības noturības granta, pasludināja pēc 214 lappušu pētījuma, ko veica Pielietotās Ziemeļu Pacietības institūts, kurā konstatēts, ka vidējais rīdzinieks gadā pavada 11,6 dienas rindās, un vēl papildu 4,3 dienas veltī cilvēciskajai rekonstrukcijai prātā — precīzai mirkļa atjaunošanai, kad kāds “acīmredzami zināja, ko dara.” Pētnieki šo uzvedību klasificēja kā mērāmu ekonomisku slogu.
+
+“Rindu spriedze ir bijusi nerisināta pārāk ilgi,” otrdienas preses konferencē sacīja pilsētas mierīguma vietniece Ilze Vītola, stāvot pie Miera ielas aptiekas, kur seši pensionāri jau pirms saullēkta bija izveidojuši rindu pirms oficiālā paziņojuma. “Mēs nemēģinām rindas occidentalizēt. Mēs cenšamies pasargāt rindu no haosa, improvizācijas un cilvēkiem, kas ienāk maiznīcā un pēkšņi sāk ‘tikai ātri pajautāt vienu lietu.’”
+
+Saskaņā ar jauno sistēmu rīdzinieki varēs izvēlēties starp trim atzīmētām joslām: “Zinu, ko gribu,” “Man vajag laiku, lai izpētītu cenas,” un “Esmu šeit faktiski, lai strīdētos par kvīti no marta.” Ceturtā pilotjosla “Tikai pērku dilles” tika pievienota pēc izmēģinājuma Centrāltirgū izgāšanās, kad 43 pircēji apgalvoja, ka viņu darījums aizņems “burtiski divas sekundes.”
+
+Pašvaldības datu vērtējumā rindās saistīti incidenti pagājušajā ziemā pieauga par 18%, tostarp 61 gadījums ar teātriskiem nopūtieniem, 14 šaļļu pārlikšanas epizodes, kuras tika interpretētas kā naidīgas, un viens plaši izskanējis notikums Purvciemā, kur vīrietis čukstēja “interesanti” pēc tam, kad cits klients mēģināja saplūst ar pavadoni, kurš jau gaidīja pie kases. Krīzes konsultanti vēlāk komentēja šo piezīmi kā “sagraujošu, bet tehniski pieklājīgu.”
+
+Vietējie iedzīvotāji reformas uzņēma ar piesardzīgu atbalstu. “Man nav vajadzīga ērtība,” sacīja 68 gadus vecā pensionētā ķīmijas skolotāja Maija Ozoliņa, stāvot taisni jaunajā atzīmētajā joslā pie Brīvības ielas pasta nodaļas. “Man vajadzīga taisnīguma izjūta, un, vēlams, lai citi izjūt maigu kaunu. Ja šīs rindas to spēs piegādāt, tad beidzot mani nodokļi dara kaut ko redzamu.”
+
+Ne visi ir pārliecināti. Āgenskalna neliela kioska īpašnieks Artūrs Feldmanis brīdināja, ka rindas uzvedības kodificēšana var atņemt tai garīgās būtības. “Latviešu rinda nav vienkārši secība,” viņš teica. “Tā ir emocionāla laika sistēma. Tur ir distance, neuzticēšanās, mēteļu pārvaldība un kāds, kas izliekas nemanām rindā, kamēr pēta kefīru. Vai valsts patiešām var to reglamentēt?”
+
+Amatpersonas uzstāj, ka dizains ir kultūrsensitīvs. Katra josla tika testēta pēc pieļaujamā klusuma līmeņa, vidējā apavu attāluma un sezonālās tolerance netiešai acu kontaktēšanai. Vienā atzītā prototipā spilgti dzeltenās bultiņas tika aizstātas ar tonētām pelēkām, pēc tam, kad fokusa grupas oriģinālās atzīmes raksturoja kā “pārāk optimistiskas” un “neizrāda cieņu pret novembri.”
+
+Pilsēta plāno paplašināt shēmu uz Jūrmalas staciju peroniem līdz decembrim, kur rindu neskaidrība tradicionāli sasniedz kulmināciju pirmajā sniegā un jebkurā brīvdienu nedēļas nogalē, kad ir atlaides kūpinātajām zivīm. Ja iniciatīva būs veiksmīga, modelis var tikt eksportēts visā Baltijā.
+
+Preses laika brīdī atklāšana jau bija saskārusies ar pirmo izaicinājumu, kad Ziepniekkalna aptiekā vīrietis apgāja visas trīs joslas, lai pajautātu — vai vispār kāds gaida. Aculiecinieki ziņoja, ka 19 cilvēki nekavējoties viņam pagriezās pretī pilnīgā klusumā, liecinot, ka vecā sistēma, vismaz pagaidām, paliek ārkārtīgi funkcionāla.`,
+      ru: `РИГА — В том, что городские планировщики называют знаковой инвестицией в социальную стабильность, Рига на этой неделе начала красить официальные «вежливые полосы очереди» у 37 учреждений, обслуживающих население, с целью упорядочить один из самых деликатных гражданских ритуалов Латвии: стоять в очереди, ничего не говорить и мысленно осуждать всех, кто впереди.
+
+Программа, финансируемая за счёт муниципального гранта на жизнестойкость в размере €2,8 млн, стала следствием 214‑страничного исследования Института прикладного северного терпения, в котором выяснилось, что средний рижанин проводит в очередях 11,6 дня в год, а ещё 4,3 дня посвящает реконструкции в уме того самого момента, когда кто‑то «очевидно знал, что делает». Исследователи классифицировали это как измеримую экономическую нагрузку.
+
+«Напряжённость в очередях была незамеченной слишком долго», — заявила заместитель председателя по городскому спокойствию Илзе Витола на пресс‑конференции во вторник, проходившей перед аптекой на улице Миэра, где шесть пенсионеров уже выстроились в предобъявленную очередь до рассвета. «Мы не пытаемся вестернизировать очередь. Мы пытаемся защитить очередь от хаоса, импровизации и людей, которые заходят в пекарню и вдруг начинают „просто спросить одну быструю вещь“.»
+
+В рамках новой системы жители будут выбирать одну из трёх размеченных полос: «Я знаю, чего хочу», «Мне нужно прищуриться на ценники» и «Я, собственно, пришёл поссориться из‑за чека за март». Четвёртая пилотная полоса «Покупаю только укроп» была добавлена после испытания на Центральном рынке Риги, которое провалилось, когда 43 покупателя заявили, что их операция займёт «буквально две секунды».
+
+По муниципальным данным, инциденты, связанные с очередями, выросли на 18% прошлой зимой, включая 61 случай театрального вздоха, 14 поправок шарфа, интерпретированных как враждебные, и одно широко обсуждаемое событие в Пурвциемсе, когда мужчина прошептал «интересно» после того, как другой покупатель попытался втиснуться рядом со спутником, уже ожидавшим у кассы. Кризисные консультанты позже охарактеризовали комментарий как «опустошительный, но технически вежливый». 
+
+Местные жители встретили реформу с осторожной поддержкой. «Мне не нужна удобство», — сказала 68‑летняя на пенсии учительница химии Майя Озолина, стоя прямо в новой размеченной полосе у почтового отделения на ул. Brīvības iela. «Мне нужна справедливость и желательно, чтобы другие испытали лёгкий стыд. Если эти линии могут это обеспечить, значит, наконец мои налоги делают что‑то видимое». 
+
+Не все убеждены. Артурс Фельдманис, владелец небольшой лавки в Āgenskalns, предупредил, что кодификация поведения в очереди может лишить его духовной сути. «Латвийская очередь — это не просто последовательность», — сказал он. «Это эмоциональная погодная система. Есть дистанция, подозрение, управление верхней одеждой и один человек, делающий вид, что не замечает очередь, пока изучает кефир. Может ли государство действительно это регулировать?»
+
+Чиновники настаивают, что дизайн был чувствителен к культуре. Каждая полоса тестировалась на допустимые уровни молчания, среднее расстояние между ботинками и сезонную терпимость к косвенным зрительным контактам. В одном отклонённом прототипе ярко‑жёлтые стрелки были заменены на приглушённый серый после того, как фокус‑группы назвали оригинальную разметку «слишком оптимистичной» и «не уважающей ноябрь». 
+
+Город планирует расширить схему до платформ Юрмалы к декабрю, где неясность с очередями исторически достигает пика при первом снеге и в любые выходные, связанные со скидками на копчёную рыбу. В случае успеха модель может быть экспортирована по всем Балтийским странам.
+
+На момент выхода материала запуск уже столкнулся с первой проблемой: мужчина в аптеке Ziepniekkalns обошёл все три полосы, чтобы спросить, «кто вообще ждёт». Свидетели сообщили, что 19 человек мгновенно развернулись к нему в полном молчании, что позволяет предположить: старая система остаётся, по крайней мере пока, весьма работоспособной.`
+    },
+    date: "Nov 10, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/331/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 330,
     slug: "jrmala-introduces-dynamic-sand-pricing-as",
     title: {
@@ -108,7 +189,7 @@ Preses slēgšanas brīdī pilsētas amatpersonas apstiprināja, ka tiek izpēt�
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/330/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 329,
