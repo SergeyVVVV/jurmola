@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 332,
+    slug: "riga-introduces-silent-trams-so-residents",
+    title: {
+      en: "Riga Introduces Silent Trams So Residents Can Hear Better Why They’re Complaining",
+      lv: "Rīga ievieš klusos tramvajus, lai iedzīvotāji labāk sadzirdētu, par ko viņi sūdzas",
+      ru: "Рига вводит бесшумные трамваи, чтобы жители могли лучше слышать, почему они жалуются"
+    },
+    excerpt: {
+      en: "Municipal officials in Riga have unveiled a pilot fleet of ultra-quiet trams intended to reduce noise pollution in the capital. Within hours, residents reported a dramatic increase in their ability to hear, analyze, and publicly object to every other aspect of urban life.",
+      lv: "Rīgas pašvaldības amatpersonas atklājušas pilotfloti ultraklusu tramvaju, kas paredzēti troksņa samazināšanai galvaspilsētā. Dažu stundu laikā iedzīvotāji ziņoja par dramatisku spējas pieaugumu dzirdēt, analizēt un publiski iebilst pret katru citu pilsētas dzīves aspektu.",
+      ru: "Муниципальные власти Риги представили пилотный парк ультратихих трамваев, призванных снизить шумовое загрязнение в столице. Через несколько часов жители сообщили о резком увеличении способности слышать, анализировать и публично возражать против каждого второго аспекта городской жизни."
+    },
+    fullContent: {
+      en: `RIGA — In what city planners are calling a major step toward a more livable capital, Riga’s Transport Department on Tuesday launched six “acoustically humble” trams designed to glide through the city center with almost no audible presence, allowing residents to enjoy what officials described as “a calmer, more European style of dissatisfaction.”
+
+The new trams, introduced on the 11th route between Mežaparks and the Central Market, emit only a faint electrical sigh and, according to a municipal briefing, “less metal shrieking than an average cyclist seeing the first snow.” The project cost €14.2 million and was partly financed through an EU urban resilience program, though several residents said they were more interested in why the seats were “that shade of blue.”
+
+“At last we are tackling noise pollution in a meaningful way,” said Deputy Transport Chairwoman Ilze Pabrika, standing beside one of the vehicles while trying unsuccessfully to stop three pensioners from knocking on its side to see if it was “properly built.” “For years people complained that trams were too loud. Now they are nearly silent, and citizens can focus on more urgent concerns, such as whether the stop announcements sound emotionally committed enough.”
+
+By 9:30 a.m., city analysts had already recorded a 67% increase in formal complaints unrelated to tram noise. Among the top grievances were the speed of clouds over Brīvības iela, an “overly confident” pigeon near Origo, and what one filing described as “the passive-aggressive temperature” inside a kiosk selling coffee and suspiciously cheerful cinnamon pastries.
+
+“It’s true, I can hear much more now,” said Teika resident and amateur infrastructure observer Guntars Veinbergs, 58, while boarding the silent tram and immediately frowning at its windows. “Before, the old tram noise covered up many problems. Now I can clearly hear a man on the other side of the carriage chewing in a way that feels geopolitical. Also, these doors close with a tone that suggests Brussels has opinions about me.”
+
+Public response has been mixed. Several commuters praised the smoother ride, while others expressed concern that a silent tram could arrive without the traditional warning symphony of grinding steel, rattling glass, and one child asking loudly whether this was still Latvia. In response, Riga Satiksme has promised to test optional “heritage soundscapes” on select routes, including Classic Soviet Clatter, 1998 Rainy Suspension, and Authentic Driver Sigh.
+
+Small businesses near tram corridors also reported unexpected changes. A florist on Barona Street said her sales rose 18% after customers could finally hear themselves remembering they had forgotten someone’s name day. Meanwhile, a café in Āgenskalns installed a sign reading, “Now That The Trams Are Quiet, Please Notice Our Jazz Is Not.”
+
+Urban sociologist Dr. Mārtiņš Sprūdžs of the Baltic Institute for Everyday Strain said the program revealed a deeper truth about civic culture in Latvia. “Noise was never the issue,” he explained. “Noise was a respected intermediary between people and the full emotional intensity of public space. Remove it, and citizens are confronted with raw details: someone’s umbrella technique, a stranger’s backpack ethics, the exact moral posture of wet pavement.”
+
+City officials say the pilot will continue through November, after which the council will evaluate public feedback, engineering data, and a petition demanding the trams be made slightly louder “but in a tasteful way.” If approved, the quiet fleet could expand citywide by next year.
+
+Until then, residents are adjusting to a future in which public transport no longer drowns out the minor offenses of collective life. By late afternoon, the municipality had received its 400th complaint of the day, this one alleging that in the absence of tram noise, a church bell in the distance had begun “ringing with a judgmental accent.”`,
+      lv: `RĪGA — Pilsētplānotāji to sauc par lielu soli pretim dzīvotspējīgākai galvaspilsētai: Rīgas Satiksmes departaments otrdien palaida sešus "akustiski pieticīgus" tramvajus, kas paredzēti veltīgi slīdēt pa centra ielām ar gandrīz nedzirdamu klātbūtni, ļaujot iedzīvotājiem izbaudīt, kā amatpersonas to aprakstīja, "mierīgāku, vairāk eiropisku neapmierinātības stilu." 
+
+Jaunie tramvaji, kas ieviesti 11. maršrutā starp Mežaparku un Centrāltirgu, izdala tikai vieglu elektrisku nopūtu un, kā sacīja pašvaldības informatīvajā ziņojumā, "mazāk metāla kliedziena nekā vidējs velosipēdists, ieraugot pirmo sniegu." Projekts izmaksāja 14,2 miljonus eiro un tika daļēji finansēts no ES pilsētu noturības programmas, lai gan vairāki iedzīvotāji atzina, ka viņus vairāk interesē, kāpēc sēdvietas ir "tieši tādā zilā tonī." 
+
+"Beidzot mēs nozīmīgi ķeramies klāt troksnim," sacīja Transporta departamenta vietniece Ilze Pabrika, stāvot blakus vienam no vagoniem un neveiksmīgi cenšoties atturēt trīs pensionārus no tā sānu paklauvēšanas, lai pārbaudītu, vai tas ir "pareizi uzbūvēts." "Gadu desmitiem cilvēki sūdzējās, ka tramvaji ir pārāk skaļi. Tagad tie ir gandrīz klusi, un iedzīvotāji var koncentrēties uz steidzamākiem jautājumiem, piemēram, vai paziņojumi par pieturām izklausās emocionāli pietiekami apņēmīgi." 
+
+Līdz plkst. 9:30 pilsētas analītiķi jau bija reģistrējuši 67% pieaugumu oficiālajās sūdzībās, kas nebija saistītas ar tramvaju troksni. Starp galvenajām sūdzībām bija mākoņu ātrums pāri Brīvības ielai, "pārāk pārliecināts" balodis pie Origo, un tas, ko vienā iesniegumā raksturoja kā "pasīvi-agresīvu temperatūru" kioska iekšpusē, kur tirgo kafiju un aizdomīgi priecīgas kanēļmaizītes. 
+
+"Tas ir patiešām — tagad es dzirdu daudz vairāk," sacīja Teikas iedzīvotājs un amatieris infrastruktūras novērotājs Guntars Veinbergs, 58 gadi, kāpjot iekšā klusajā tramvajā un uzreiz saburzīdams pieri par tā logiem. "Agrāk vecais tramvaja troksnis aizsedza daudz problēmu. Tagad es skaidri dzirdu vīrieti otrā vagonā, kas košļā tā, ka tas šķiet ģeopolitisks. Un šīs durvis aizveras ar tādu toni, kas liek domāt, ka Brisele man par to ir viedokļi." 
+
+Sabiedriskā reakcija bijusi jaukta. Daži pasažieri slavēja gludāku braucienu, kamēr citi izteica bažas, ka kluss tramvajs var pienākt bez tradicionālās brīdinājumu simfonijas — metāla griešanās, stiklu klabēšana un viena bērna skaļais jautājums, vai tas joprojām ir Latvija. Rīgas Satiksme atbildēja, ka testēs izvēles "mantojuma skaņas ainavas" dažos maršrutos, tostarp Klasiskā padomju klabošana, 1998. gada lietainā pauze un Autentiskā vadītāja nopūta. 
+
+Mazie uzņēmumi gar tramvaja koridoriem arī ziņoja par negaidītām izmaiņām. Ziedu tirgotāja Barona ielā sacīja, ka pārdošana pieauga par 18%, jo klienti beidzot varēja sadzirdēt, kā paši sev atgādina — viņi bija aizmirsuši kādas personas vārda dienu. Tikmēr kafejnīca Āgenskalnā uzlika zīmi: "Tagad, kad tramvaji ir klusi, lūdzam pamanīt — mūsu džezs nav." 
+
+Pilsētas sociologs Dr. Mārtiņš Sprūdžs no Baltijas Ikdienas Spriedzes institūta sacīja, ka programma atklāj dziļāku patiesību par civisko kultūru Latvijā. "Troksnis nekad īsti nebija galvenā problēma," viņš paskaidroja. "Troksnis bija cienīts starpnieks starp cilvēkiem un publiskās telpas pilno emocionālo intensitāti. Noņemiet to, un pilsoņi sastopas ar neapstrādātām detaļām: kāda lietussarga tehnika, svešinieka mugursomas ētika, slapjā bruģa precīzā morālā poza." 
+
+Pašvaldība paziņoja, ka pilots turpināsies līdz novembrim, pēc tam dome izvērtēs sabiedrības atsauksmes, inženiertehniskos datus un parakstu vākumu, kurā pieprasīts tramvajus padarīt nedaudz skaļākus, "bet gaumīgā veidā." Ja tas tiks apstiprināts, klusā flote nākamgad varētu paplašināties visā pilsētā. 
+
+Līdz tam iedzīvotāji pielāgojas nākotnei, kur sabiedriskais transports vairs neizkliedē kopdzīves sīkos pārkāpumus. Vēlā pēcpusdienā pašvaldība saņēma dienas 400. sūdzību — tajā apgalvots, ka, trūkstot tramvaju troksnim, tālumā esošais baznīcas zvans ir sācis "skanēt nosodošā akcentā."`,
+      ru: `РИГА — В том, что городские планировщики называют важным шагом к более комфортной столице, Транспортный департамент Риги во вторник запустил шесть «акустически скромных» трамваев, спроектированных так, чтобы скользить по центру города почти без слышимого присутствия, позволяя жителям наслаждаться, по словам чиновников, «более спокойным, по‑европейски аутентичным стилем недовольства». 
+
+Новые трамваи, запущенные на 11‑м маршруте между Мезапарксом и Центральным рынком, издают лишь слабое электрическое вздохание и, по данным муниципального брифинга, «меньше металлического визга, чем у среднего велосипедиста при первом снеге». Проект обошёлся в €14,2 млн и частично финансировался через программу ЕС по устойчивости городов, хотя несколько жителей сказали, что их больше интересует, почему сиденья именно «такого оттенка синего». 
+
+«Наконец-то мы всерьёз взялись за шумовое загрязнение», — сказала заместитель председателя Транспортного департамента Илзе Пабрика, стоя рядом с одним из вагонов и безуспешно пытаясь отговорить трёх пенсионеров стукнуть по его боковой панели, чтобы проверить, «правильно ли он собран». «Годы люди жаловались, что трамваи слишком громкие. Теперь они почти молчат, и граждане могут сосредоточиться на более насущных проблемах, например, на том, достаточно ли эмоционально звучат объявления остановок». 
+
+К 9:30 аналитики города уже зафиксировали 67% рост официальных жалоб, не связанных с шумом трамваев. Среди главных нареканий были скорость облаков над Brīvības iela, «чрезмерно самодовольная» голубка у Origo и то, что в одной жалобе описывали как «пассивно‑агрессивную температуру» внутри киоска, где продавали кофе и подозрительно радостные булочки с корицей. 
+
+«Это правда, теперь я слышу гораздо больше», — сказал 58‑летний житель Тейки и любитель наблюдать за инфрастуктурой Гунтарс Вейнбергс, забираясь в бесшумный трамвай и мгновенно нахмурившийся на его окна. «Раньше шум старых трамваев заглушал многие проблемы. Теперь я ясно слышу мужчину на другой стороне салона, жующего так, что это кажется геополитическим актом. А ещё эти двери закрываются с тоном, который намекает, что у Брюсселя есть мнение обо мне». 
+
+Общественная реакция разделилась. Некоторые пассажиры похвалили более плавную езду, другие выразили опасение, что бесшумный трамвай может подъехать без традиционной предупреждающей симфонии скрежета стали, дребезжания стекла и одного ребёнка, громко спрашивающего, не осталась ли это всё ещё Латвия. В ответ Riga Satiksme пообещала протестировать опциональные «звуковые ландшафты наследия» на отдельных маршрутах, включая «Классический советский грохот», «Дождливая приостановка 1998» и «Аутентичный водительский вздох». 
+
+Малый бизнес вдоль трамвайных коридоров тоже отметил неожиданные перемены. Флористка на улице Барона рассказала, что её продажи выросли на 18% после того, как покупатели наконец стали слышать себя, вспоминающих, что забыли чей‑то именины. Тем временем кафе в Агенскалнсе повесило вывеску: «Теперь, когда трамваи тихие, обратите внимание — у нас джаз не тихий». 
+
+Городской социолог доктор Мартиньш Спруджс из Балтийского института повседневного напряжения заявил, что программа выявила более глубокую истину о гражданской культуре Латвии. «Шум никогда не был проблемой сам по себе», — объяснил он. «Шум был уважаемой промежуточной формой между людьми и полной эмоциональной интенсивностью публичного пространства. Уберите его — и граждане сталкиваются с голыми деталями: техникой держания зонта, этикой чужого рюкзака, точной моральной позой мокрого тротуара». 
+
+Городские власти заявляют, что пилот продолжится до ноября, после чего совет оценит отзывы населения, инженерные данные и петицию с требованием сделать трамваи чуть громче «но в со вкусом». В случае одобрения тихий парк может быть расширен на всю столицу уже к следующему году. 
+
+До тех пор жители привыкают к будущему, в котором общественный транспорт больше не заглушает мелкие проступки совместной жизни. К позднему дню муниципалитет получил 400‑ю жалобу за день: в ней утверждалось, что в отсутствие шума трамваев колокол далёкой церкви начал «звонить с осуждающим акцентом».`
+    },
+    date: "Nov 11, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/332/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 331,
     slug: "riga-introduces-polite-queue-lanes-after-331",
     title: {
@@ -96,7 +177,7 @@ Preses laika brīdī atklāšana jau bija saskārusies ar pirmo izaicinājumu, k
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/331/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 330,
