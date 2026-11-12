@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 333,
+    slug: "jrmala-introduces-silent-applause-zone-after-333",
+    title: {
+      en: "Jūrmala Introduces Silent Applause Zone After Residents Complain Clapping Is ‘Too Riga’",
+      lv: "Jūrmala ievieš Klusās aplausu zonu pēc iedzīvotāju sūdzībām, ka plaukšķināšana ir „pārāk rīdzinieciska”",
+      ru: "Юрмала вводит зону тихих аплодисментов после жалоб жителей, что хлопанье «слишком рижское»"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have approved the Baltic region’s first designated Silent Applause Zone, where cultural appreciation must be expressed through respectful blinking, slight scarf adjustments, and government-approved nodding. The measure follows a summer of complaints that conventional clapping was disturbing pine trees, wellness routines, and the spiritual balance of expensive terraces.",
+      lv: "Jūrmalas amatpersonas apstiprinājušas Baltijas reģiona pirmo īpaši noteikto Klusās aplausu zonu, kur kultūras novērtējumu jāpauž ar cienījamu mirkšķināšanu, piesardzīgu šalles sakārtošanu un valdības apstiprinātu mājienu. Šis pasākums seko vasarai, kurā tika sūdzēts, ka parastā plaukšķināšana traucē priedēm, labsajūtas rituāliem un dārgā terases garīgajai līdzsvarai.",
+      ru: "Власти Юрмалы утвердили первую в Балтийском регионе специально выделенную зону тихих аплодисментов, где проявлять культурную благодарность теперь положено уважительным морганием, аккуратным поправлением шарфа и одобренными правительством кивками. Мера последовала за летом жалоб на то, что обычные аплодисменты беспокоят сосны, велнес-ритуалы и духовный баланс дорогих террас."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move municipal leaders are calling “a necessary modernization of public gratitude,” the Jūrmala City Council on Tuesday unveiled a new Silent Applause Zone stretching from Dzintari Concert Hall to a carefully measured section of beach near a gluten-conscious kiosk. Beginning next month, visitors attending concerts, poetry readings, and passive-aggressive art openings will be required to express enthusiasm without producing what officials described as “urban hand noise.”
+
+Under the new regulations, audience members may no longer clap, whistle, cheer, or say “bravo” above conversational sea level. Acceptable alternatives include blinking twice for mild approval, nodding once for sustained admiration, placing a hand over one’s linen shirt in recognition of technical competence, or briefly exhaling through the nose in the event of exceptional cello performance.
+
+“This is not censorship,” said Deputy Cultural Calmness Coordinator Ilze Vītola, speaking at a press conference conducted almost entirely in a whisper. “This is about preserving the acoustic dignity of Jūrmala. For too long, visitors from Riga have arrived here and treated live performance as though it were a hockey goal. We are simply asking audiences to process joy privately, as responsible adults.”
+
+The policy was drafted after a municipal study found that applause levels during last year’s resort season exceeded recommended pine-soothing thresholds by 18 percent. Researchers from the Baltic Institute for Environmental Serenity reported that several elderly villas in Majori experienced “vibration-related disapproval,” while one meditation entrepreneur in Bulduri claimed an encore from a visiting jazz trio disrupted a paid crystal alignment package for six clients from Estonia.
+
+According to the 47-page guideline, performers will receive feedback through a new standardized visual appreciation system. A sea of closed-mouth nodding indicates success. Simultaneous scarf straightening suggests emotional resonance. More than twelve audience members adjusting tote bags at once will be officially recorded as a standing ovation equivalent.
+
+Not all artists are convinced. Pianist Artūrs Zeps, who frequently performs at summer salons for audiences that “already look mildly disappointed before the first note,” said the new model may create confusion. “At my last recital, one man stared at me without blinking for twenty minutes,” Zeps said. “I thought he was deeply moved. Later I learned he had simply lost a contact lens. In the old system, at least a clap meant something.”
+
+Local businesses, however, have welcomed the initiative. A boutique in Dubulti has begun selling “premium applause shawls” designed for dramatic but noiseless shoulder movements, while a wellness café now offers pre-concert jaw relaxation shots to help guests maintain an expression of subdued cultural fulfillment. The city expects silent audience accessories to generate up to €240,000 during the first season, or roughly three medium-scale artisan markets.
+
+Reaction from Riga has been mixed. One commuter exiting the morning train called the rule “elitist nonsense,” then admitted he had once been asked to lower the volume of his sandals near a terraced brunch. Meanwhile, tourism officials say the policy could become a signature attraction for foreign visitors seeking “authentic Baltic restraint in its highest administrative form.”
+
+To ease the transition, the municipality will deploy 14 trained Applause Stewards wearing beige armbands and expressions of quiet disappointment. First-time offenders will receive a warning and a brochure titled So You Felt Something in Jūrmala. Repeat violators may be escorted to a designated Expression Area near the station, where brief and supervised clapping will still be permitted between 16:00 and 16:07.
+
+As workers installed the first signs reading THANK YOU FOR APPRECIATING DISCREETLY, several residents paused to observe the moment in silence. One eventually offered what authorities later confirmed was a fully compliant tribute: a measured nod toward the sea, followed by a long, meaningful blink.`,
+      lv: `JŪRMALA — Solī, ko pašvaldības līderi sauc par “nepieciešamu publiskās pateicības modernizāciju”, Jūrmalas domes sēde otrdien atklāja jaunu Klusās aplausu zonu, kas stiepjas no Dzintaru koncertzāles līdz rūpīgi izmērītai pludmales daļai pie glutēnu apzinīga kioska. No nākamā mēneša viesiem, kas apmeklē koncertus, dzejas lasījumus un pasīvi-agresīvas mākslas izstādes, būs jāizsaka entuziasms, neradot to, ko amatpersonas raksturoja kā “pilsētas roku troksni”.
+
+Saskaņā ar jaunajiem noteikumiem skatītāji vairs nedrīkst plaukšķināt, svilpot, skandēt vai teikt "bravo" skaļāk nekā parasts sarunu līmenis pie jūras. Pieņemamas alternatīvas ietver divkāršu mirkšķināšanu vieglai apstiprināšanai, vienu mājienu noturīgai apbrīnai, roku uzlikšanu uz linu krekla par tehniskas kompetences atzīšanu vai īsu izelpu caur degunu izcila čella snieguma gadījumā.
+
+"Tas nav cenzūra," sacīja Kultūras mierīguma vietniece Ilze Vītola, runājot preses konferencē, kas noritēja gandrīz pilnībā čukstot. "Tas ir par Jūrmalas akustiskās cieņas saglabāšanu. Pārāk ilgi atbraucēji no Rīgas šeit ir izturējušies pret dzīvo priekšnesumu tā, it kā tas būtu hokeja vārti. Mēs vienkārši lūdzam auditoriju apstrādāt prieku privāti, kā atbildīgi pieaugušie." 
+
+Politika tika izstrādāta pēc tam, kad pašvaldības pētījums atklāja, ka aplausu līmenis pagājušā gada kūrorta sezonā pārsniedza ieteiktos priežu nomierināšanas sliekšņus par 18 procentiem. Baltijas Vides Miera institūta pētnieki ziņoja, ka vairākās vecākās villās Majoros novērota "vibrāciju saistīta neapmierinātība", kamēr viens meditācijas uzņēmējs Bulduros apgalvoja, ka viesu džeztrio uzruna izraisīja papildsniegumu un izjauca apmaksātu kristālu sakārtošanas paketi sešiem klientiem no Igaunijas.
+
+Saskaņā ar 47 lappušu vadlīniju mākslinieki saņems atgriezenisko saikni caur jaunu standartizētu vizuālās atzinības sistēmu. Aizvērtu lūpu mājienu jūra norāda uz panākumu. Vienlaicīga šalles sakārtošana liecina par emocionālu rezonansi. Ja vairāk nekā divpadsmit skatītāji vienlaikus sakārtos auduma maisiņus, to oficiāli reģistrēs kā stāvošās ovācijas ekvivalentu.
+
+Ne visi mākslinieki ir pārliecināti. Pianists Artūrs Zeps, kurš bieži uzstājas vasaras salonos auditorijām, kas "jau izskatās nedaudz vīlušās pirms pirmās nots", sacīja, ka jaunais modelis var radīt neskaidrību. "Manā pēdējā koncertā viens vīrietis mani bez mirkšķināšanas skatījās divdesmit minūtes," Zeps teica. "Domāju, ka viņš bija dziļi aizkustināts. Vēlāk uzzināju, ka viņš vienkārši bija pazaudējis kontaktlēcu. Vecajā sistēmā vismaz viens plaukšķis kaut ko nozīmēja." 
+
+Tomēr vietējie uzņēmēji šo iniciatīvu sveic. Boutique Dubultos sācis tirgot "premium plaukšķināšanas šalles", kas domātas dramatiskām, bet bezbalsīgām plecu kustībām, savukārt labsajūtas kafejnīca tagad piedāvā pirmskoncerta žokļa atslābināšanas šotus, lai viesi varētu uzturēt maigu kultūras apmierinājuma izteiksmi. Pilsēta sagaida, ka klusās auditorijas aksesuāri pirmajā sezonā radīs līdz pat 240 000 € ieņēmumu — apmēram trīs vidēja mēroga amatnieku tirgu ekvivalentu.
+
+Reakcija Rīgā bijusi jaukta. Viens reisa pasažieris, izkāpjot no rīta vilciena, noteikumu nosauca par "elitāru muļķību", bet pēc tam atzina, ka viņam reiz lūgts samazināt sandales trokšņa līmeni pie terases branča. Starpniecībā tūrisma amatpersonas norāda, ka politika var kļūt par iezīmes piesaisti ārzemju viesiem, kuri meklē "autentisku Baltijas atturību tās augstākajā administratīvajā formā." 
+
+Lai atvieglotu pāreju, pašvaldība izvietos 14 apmācītus Plaukšķināšanas uzraugus ar bēšām aprocēm un maigām vīlušām sejas izteiksmēm. Pirmreizēji pārkāpēji saņems brīdinājumu un bukletu ar nosaukumu "Tātad jūs Jūrmalā kaut ko sajutāt". Atkārtoti pārkāpēji var tikt eskortēti uz noteiktu Izpausmju zonu pie stacijas, kur īslaicīga un uzraudzīta plaukšķināšana joprojām būs atļauta no plkst. 16:00 līdz 16:07.
+
+Kamēr strādnieki uzstādīja pirmās zīmes ar uzrakstu "PALDIES, KA NOVĒRTĒJAT DISKRĒTI", vairāki iedzīvotāji apstājās, lai brīdi klusētu. Viens no tiem galu galā piedāvāja to, ko amatpersonas vēlāk apstiprināja kā pilnībā atbilstošu cieņas izrādi: pieticīgu mājienu pret jūru, kam sekoja ilgs, nozīmīgs mirkšķis.`,
+      ru: `ЮРМАЛА — В шаге, который городские власти называют «необходимой модернизацией общественной благодарности», Городской совет Юрмалы во вторник представил новую Зону тихих аплодисментов, простирающуюся от концертного зала Дзинтари до тщательно размеченного участка пляжа рядом с киоском для тех, кто следит за глютеном. Начиная со следующего месяца посетители концертов, поэтических чтений и пассивно-агрессивных вернисажей будут обязаны выражать энтузиазм без производства того, что чиновники описали как «урбанистический шум рук».
+
+В соответствии с новыми правилами зрителям больше нельзя хлопать, свистеть, кричать или говорить «бра́во» громче, чем уровень обычного разговора на фоне моря. Допустимые альтернативы включают двойное моргание при умеренном одобрении, один кивок при стойком восхищении, прикрытие рукой льняной рубахи в знак признания технического мастерства или короткий выдох через нос в случае исключительного виолончельного исполнения.
+
+«Это не цензура», — заявила заместитель координатора по культурному спокойствию Илзе Витола, выступая на пресс‑конференции, проведённой почти целиком шёпотом. «Речь идёт о сохранении акустического достоинства Юрмалы. Слишком долго приезжие из Риги воспринимали живые выступления так, будто это забитый гол в хоккее. Мы просто просим аудиторию перерабатывать радость приватно, как ответственные взрослые». 
+
+Политика была разработана после того, как муниципальное исследование показало, что уровни аплодисментов в прошлом курортном сезоне превышали рекомендованные пороги успокоения сосен на 18 процентов. Исследователи из Балтийского института экологического умиротворения сообщили, что несколько старинных вилл в Майори испытали «недовольство, связанное с вибрацией», в то время как один предприниматель в сфере медитации в Булдури утверждал, что бис от джазового трио нарушил оплачиваемую сессию по выравниванию кристаллов для шести клиентов из Эстонии.
+
+Согласно 47‑страничному руководству, исполнители будут получать обратную связь через новую стандартизированную систему визуального выражения признательности. Морем закрытых кивков с закрытым ртом будут отмечать успех. Одновременное поправление шарфов у публики будет свидетельствовать об эмоциональном резонансе. Более двенадцати человек, одновременно поправляющих сумки‑тоут, официально будут считаться эквивалентом оваций стоя.
+
+Не все артисты убеждены. Пианист Артурс Зепс, который часто играет на летних салонах для публики, «уже выглядящей слегка разочарованной до первой ноты», сказал, что новая модель может породить путаницу. «На моём последнем рецитале один мужчина смотрел на меня не моргая двадцать минут», — рассказал Зепс. «Я думал, он глубоко тронут. Позже выяснилось, что он просто потерял контактную линзу. В старой системе хоть одно хлопанье что‑то означало». 
+
+Местный бизнес, однако, приветствовал инициативу. Бутик в Дубулти начал продавать «премиальные шали для аплодисментов», предназначенные для драматичных, но бесшумных движений плеч, в то время как велнес‑кафе теперь предлагает шоты для расслабления челюсти перед концертом, чтобы гостям было легче поддерживать выражение сдержанного культурного удовлетворения. Город ожидает, что аксессуары для тихой аудитории принесут до 240 000 евро в первый сезон, что примерно равно три средним ремесленным ярмаркам.
+
+Реакция из Риги оказалась смешанной. Один пассажир, выходивший из утреннего поезда, назвал правило «элитарной чепухой», но затем признался, что однажды его просили сделать тише его шлёпанцы возле террасного бранча. Между тем туристические чиновники говорят, что политика может стать фирменной достопримечательностью для иностранных гостей, ищущих «аутентичную балтийскую сдержанность в её высшей административной форме». 
+
+Чтобы облегчить переход, муниципалитет направит 14 обученных инспекторов аплодисментов в бежевых повязках и с выражениями тихого разочарования. Нарушителям впервые будет вынесено предупреждение и выдана брошюра под названием «Значит, вы что‑то почувствовали в Юрмале». Повторные нарушители могут быть сопроводены в специально отведённую Зону выражения у станции, где кратковременные и контролируемые аплодисменты будут разрешены с 16:00 до 16:07.
+
+Когда рабочие устанавливали первые вывески с надписью «СПАСИБО, ЧТО ОЦЕНИВАЕТЕ ДЕЛИКАТНО», несколько жителей замерли, чтобы почтить момент тишиной. Один из них в конце концов предложил то, что власти позже подтвердили как полностью соответствующий данному регламенту трибьют: сдержанный кивок в сторону моря, за которым последовало долгое, многозначительное моргание.`
+    },
+    date: "Nov 12, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/333/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 332,
     slug: "riga-introduces-silent-trams-so-residents",
     title: {
@@ -96,7 +177,7 @@ Līdz tam iedzīvotāji pielāgojas nākotnei, kur sabiedriskais transports vair
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/332/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 331,
