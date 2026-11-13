@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 334,
+    slug: "riga-introduces-official-municipal-silence-hour-334",
+    title: {
+      en: "Riga Introduces Official Municipal Silence Hour After Residents Report Exhaustion From Excessive Politeness on Public Transport",
+      lv: "Rīga ievieš oficiālu pašvaldības klusuma stundu pēc iedzīvotāju izsīkuma no pārmērīgas pieklājības sabiedriskajā transportā",
+      ru: "Рига вводит официальный муниципальный час тишины после жалоб жителей на усталость от чрезмерной вежливости в общественном транспорте"
+    },
+    excerpt: {
+      en: "City officials in Riga have approved a daily \"municipal silence hour\" after a year-long pilot program found that residents were becoming mentally fatigued from repeatedly whispering \"please,\" \"sorry,\" and \"you can sit\" on buses. The measure is intended to preserve social stamina through the winter and reduce what one transport planner called \"civic over-enunciation.\"",
+      lv: "Rīgas pilsētas amatpersonas apstiprinājušas dienas «pašvaldības klusuma stundu», jo gada garumā veiktā izmēģinājuma laikā atklājās, ka iedzīvotāji garīgi izsīkst, atkārtoti čukstot «lūdzu», «piedodiet» un «vari apsēsties» autobusos. Šis pasākums paredzēts, lai ziemā saglabātu sabiedrisko izturību un samazinātu to, ko viens transporta plānotājs nosauca par «pilsonisko pārmērīgo artikulēšanu».",
+      ru: "Городские власти Риги утвердили ежедневный «муниципальный час тишины» после годичного пилота, который показал, что жители умственно утомляются от постоянного шёпота «пожалуйста», «извините» и «садитесь» в автобусах. Мера призвана сохранить социальную выносливость зимой и сократить то, что один транспортный планировщик назвал «гражданской сверхартикуляцией»."
+    },
+    fullContent: {
+      en: `RIGA — In a move officials described as “both fiscally responsible and emotionally necessary,” Riga City Council on Tuesday voted 38–19 to establish an official Silence Hour on all municipal buses, trams, and trolleybuses between 16:30 and 17:30, a period identified by researchers as the point at which the average resident is no longer capable of producing sincere courtesy.
+
+Under the new regulation, passengers may continue to nod, exhale through the nose, and make meaningful eye contact toward the floor, but spoken politeness will be strictly discouraged except in emergencies, weddings, and encounters with former classmates from Ogre.
+
+The policy follows a 214-page report commissioned by the Department of Urban Atmosphere and compiled by linguists, transit analysts, and one accordion teacher from Purvciems. According to the report, the average Riga resident on public transport says “sorry” 11.4 times per week without having committed any identifiable offense, while 63% of commuters admit they have offered their seat not out of kindness but because they “panicked when someone elderly looked generally stable but morally deserving.”
+
+“This is not about banning kindness,” explained Deputy Chair for Mobility Affairs Inese Dreimane at a press briefing held beside a tram that nobody boarded out of mutual hesitation. “This is about targeted conservation of verbal resources. By Thursday, many residents have already used up their annual warmth on holding a supermarket door half-open for a stranger.”
+
+Transport authority data suggests the problem has worsened in recent years, particularly on the 1st tram and the 22nd bus to the airport, where prolonged suitcase negotiation has led to what officials now classify as “acute soft-spoken burnout.” During the winter pilot program, audio sensors recorded a 27% decline in apologetic murmuring, while overall commuter resilience rose by 14%, measured by willingness to continue living here in February.
+
+Not everyone supports the measure. The Association of Overattentive Grandmothers issued a statement warning that the policy could create “a dangerous vacuum in which nobody insists that others take the last seat.” Its chairwoman, 74-year-old Maija Krūkle, said she respected the council’s intentions but feared a collapse of national character. “First they take away repeated offers of sandwiches, then what? We stop wrapping cutlets in foil for grown men?” she asked.
+
+Others welcomed the reform as overdue. Office administrator Ralfs Lapiņš, encountered on a trolleybus near Barona iela, said he had been living beyond his social means for years. “Yesterday I thanked the driver, apologized to a backpack, and told a tourist ‘no problem’ when in fact there was a medium problem,” he said. “At some point, the body cannot distinguish courtesy from injury.”
+
+To help residents adapt, the municipality will roll out visual aids including a blue Silence Hour sticker featuring a respectful gull, as well as instructional posters demonstrating approved alternatives to speech, such as the restrained chin-lift, the side-compression smile, and the traditional Baltic micro-shrug meaning both ‘after you’ and ‘none of this matters.’
+
+Officials say the program may later expand to pharmacies, lift lobbies, and family saunas, though implementation there remains politically sensitive. For now, the city is asking commuters to embrace quiet solidarity.
+
+At the conclusion of Tuesday’s meeting, council members attempted a brief round of applause for the measure but stopped after three seconds when it became clear nobody wanted to appear overly enthusiastic.`,
+      lv: `RĪGA — Kāpēc gan neabstāties tajā brīdī, kad laipnība kļūst par slodzi? Tā, izsakoties «gan fiskāli atbildīgi, gan emocionāli nepieciešami», otrdien nobalsoja Rīgas dome — 38 pret 19 — par oficiālas Klusuma stundas ieviešanu visos pašvaldības autobusos, tramvajos un trolejbusos no plkst. 16:30 līdz 17:30, periodā, ko pētnieki noskaidrojuši kā brīdi, kad vidējais iedzīvotājs vairs nav spējīgs ražot patiesu pieklājību.
+
+Saskaņā ar jauno noteikumu pasažieri drīkst turpināt piekrāmēt galvu, izelpot caur degunu un nozīmīgi skatīties uz grīdu, taču mutiska pieklājība tiks stingri atturēta, izņemot ārkārtas gadījumus, kāzas un satikšanos ar bijušajiem klasesbiedriem no Ogres.
+
+Politika seko 214 lappušu ziņojumam, ko pasūtīja Pilsētas atmosfēras departaments un kurā piedalījās valodnieki, tranzīta analītiķi un viens akordeona pedagogs no Purvciema. Pēc ziņojuma datiem vidējais rīdzinieks sabiedriskajā transportā nedarījuma dēļ nedēļā saka «piedodiet» 11,4 reizes, savukārt 63% braucēju atzīst, ka piedāvājuši sēdvietu ne laipnības dēļ, bet tāpēc, ka «iepanikojās, kad kāds vecāks cilvēks izskatījās vispārīgi stabili, bet morāli cienīgs». 
+
+«Nav runa par laipnības aizliegšanu,» uzsvēra Mobilitātes lietu priekšsēdētājas vietniece Inese Dreimane preses brīfingā blakus tramvajam, kurā neviens neiekāpa, pateicoties savstarpējai kautrībai. «Tā ir par mutisko resursu mērķtiecīgu taupīšanu. Ceturtdienā daudzi iedzīvotāji jau būs iztērējuši savu gada siltumu, noturot veikala durvis pus vaļā svešiniekam.»
+
+Transporta pārvaldes dati liecina, ka problēma pēdējos gados ir pasliktinājusies, īpaši 1. tramvajā un 22. autobusā uz lidostu, kur ilgstošas čemodānu sarunas novedušas pie tā, ko amatpersonas tagad klasificē kā «akūtu klusu runāšanas izdegumu». Ziemas izmēģinājuma laikā audio sensori reģistrēja 27% samazinājumu apologētisko murmulēšanu, kamēr kopējā braucēju izturība pieauga par 14%, mērāma pēc gatavības turpināt dzīvot šeit februārī.
+
+Ne visi atbalsta pasākumu. Pārlieku uzmanīgo vecmāmiņu apvienība izplatīja paziņojumu, brīdinot, ka politika var radīt «bīstamu vakuumu, kurā neviens nepiespiež citus paņemt pēdējo sēdvietu». Tās priekšsēdētāja, 74 gadus vecā Maija Krūkle, teica, ka cienot domes nodomu, tomēr baidās par nacionālā rakstura sabrukumu. «Vispirms viņi atņem atkārtotus piedāvājumus ēstmaizītēm, tad kas? Pārtrauksim ietīt kotletes folijā pieaugušiem vīriešiem?» viņa vaicāja.
+
+Citi reformu sagaida kā ilgi gaidītu. Biroja administrators Ralfs Lapiņš, satikts trolejbusā pie Barona ielas, teica, ka jau gadiem dzīvojis pāri savām sociālajām spējām. «Vakar es pateicos šoferim, atvainojos mugursomai un tūristam teicu ‘nav problēmu’, kad patiesībā bija vidēja problēma,» viņš stāstīja. «Kādā brīdī ķermenis vairs nevar atšķirt pieklājību no traumas.»
+
+Lai palīdzētu iedzīvotājiem pielāgoties, pašvaldība izplatīs vizuālos paziņojumus, tostarp zilu Klusuma stundas uzlīmi ar cienījamu kaiti, kā arī instruktāžas plakātus, kuros parādītas runas vietā atļautas alternatīvas, piemēram, pieticīga zoda pacelšana, sānu saspieduma smaids un tradicionālā baltiešu mikro-plecu trīce, kas vienlaikus nozīmē gan «pēc jums», gan «tam visam nav nozīmes». 
+
+Amatpersonas atzīst, ka programma var vēlāk tikt paplašināta aptiekās, liftu vestibilos un ģimenes pirtīs, lai gan tur ieviešana politiski ir jūtīgāka. Pašlaik pilsēta lūdz pasažierus pieņemt kluso solidaritāti.
+
+Tikmēr otrdienas sanāksmes noslēgumā domnieki mēģināja īsu aplausu par jauno normu, taču apstājās pēc trim sekundēm, kad kļuva skaidrs, ka neviens nevēlas izskatīties pārlieku entuziastisks.`,
+      ru: `РИГА — В шаге, который чиновники описали как «и финансово ответственное, и эмоционально необходимое», Рижская городская дума во вторник проголосовала 38–19 за введение официального Часа Тишины на всех муниципальных автобусах, трамваях и троллейбусах с 16:30 до 17:30 — промежутка, который исследователи определили как момент, когда среднему жителю уже не под силу произносить искреннюю вежливость.
+
+По новому регламенту пассажиры могут продолжать кивать, выдыхать через нос и многозначительно смотреть в пол, но устная вежливость будет строго не поощряться, за исключением экстренных случаев, свадеб и встреч со старыми одноклассниками из Огре.
+
+Политика последовала за 214-страничным докладом, заказанным Департаментом городской атмосферы и составленным лингвистами, аналитиками транспорта и одним учителем баяна из Пурвциемса. По данным доклада, средний рижанин в общественном транспорте говорит «извините» 11,4 раза в неделю, не совершив при этом никаких очевидных проступков, а 63% пассажиров признаются, что предлагали своё место не из доброты, а потому что «запаниковали, когда кто‑то пожилой выглядел в целом устойчивым, но морально заслуживающим». 
+
+«Речь не о запрете доброты», — объяснила заместитель председателя по вопросам мобильности Инесе Дреймане на брифинге, прошедшем у трамвая, в который никто не сел из взаимного стеснения. «Речь о целевом сохранении вербальных ресурсов. К четвергу многие жители уже исчерпывают годовой запас тепла, удерживая дверь супермаркета приоткрытой для незнакомца.»
+
+Данные транспортных служб указывают, что проблема усугубилась в последние годы, особенно в трамвае №1 и автобусе №22 до аэропорта, где затяжные переговоры чемоданов привели к тому, что чиновники теперь классифицируют как «острое выгорание от мягкой речи». В ходе зимнего пилота звуковые датчики зафиксировали 27%-ное снижение извинительных бормотаний, а общая «устойчивость» пассажиров выросла на 14% — по показателю готовности продолжать здесь жить в феврале.
+
+Не все поддерживают меру. Ассоциация сверхзаботливых бабушек выпустила заявление, предупредив, что политика может создать «опасный вакуум, в котором никто не будет настаивать, чтобы другие заняли последнее место». Её председатель, 74‑летняя Майя Крукле, сказала, что уважает намерения совета, но боится краха национального характера. «Сначала отнимают повторные предложения бутербродов, а что дальше? Мы перестанем заворачивать котлеты в фольгу для взрослых мужчин?» — спросила она.
+
+Другие приветствовали реформу как назревшую. Офисный администратор Ралфс Лапиньш, которого встретили в троллейбусе на Барона иеле, сказал, что годами жил сверх своих социальных возможностей. «Вчера я поблагодарил водителя, извинился перед рюкзаком и сказал туристу „не проблема“, когда на самом деле была средняя проблема», — рассказал он. «В какой-то момент тело перестаёт отличать вежливость от травмы.»
+
+Чтобы помочь жителям адаптироваться, муниципалитет выпустит наглядные материалы, включая синюю наклейку „Час Тишины“ с изображением почтительной чайки, а также обучающие плакаты, демонстрирующие одобренные альтернативы речи, такие как сдержанное поднятие подбородка, боковая сжатая улыбка и традиционный балтийский микро‑пожим, означающий и «после вас», и «всё это не имеет значения». 
+
+Чиновники говорят, что программа позднее может распространиться на аптеки, вестибюли лифтов и семейные сауны, хотя там её внедрение остаётся политически чувствительным. Пока город просит пассажиров принять тихую солидарность.
+
+В конце вторничного заседания члены совета попытались коротко аплодировать мере, но прекратили спустя три секунды, когда стало ясно, что никто не хочет выглядеть чересчур восторженно.`
+    },
+    date: "Nov 13, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/334/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 333,
     slug: "jrmala-introduces-silent-applause-zone-after-333",
     title: {
@@ -96,7 +177,7 @@ Kamēr strādnieki uzstādīja pirmās zīmes ar uzrakstu "PALDIES, KA NOVĒRTĒ
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/333/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 332,
