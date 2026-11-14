@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 335,
+    slug: "riga-introduces-mandatory-five-minute-window",
+    title: {
+      en: "Riga Introduces Mandatory Five-Minute Window Staring to Preserve National Emotional Balance",
+      lv: "Rīga ievieš obligātu piecu minūšu loga skatīšanos, lai saglabātu valsts emocionālo līdzsvaru",
+      ru: "Рига вводит обязательное пяти-минутное созерцание в окно для сохранения национального эмоционального равновесия"
+    },
+    excerpt: {
+      en: "City officials in Riga have approved a pilot program requiring residents to spend five minutes each morning silently staring out a window before speaking to anyone. Authorities say the measure will protect Latvia’s “intangible reserve of subdued contemplation” amid rising levels of unnecessary enthusiasm.",
+      lv: "Rīgas amatpersonas apstiprinājušas pilotprogrammu, kas prasa iedzīvotājiem katru rītu piecus minūtes klusējot skatīties pa logu pirms sarunas uzsākšanas. Varasiestādes apgalvo, ka šīs darbības aizsargās Latvijas \"nemateriālo klusinātās apceres rezervi\" pieaugošas nevajadzīgas entuziasma līmeņa dēļ.",
+      ru: "Городские власти Риги утвердили пилотную программу, обязывающую жителей тратить по пять минут каждое утро на молчаливое созерцание в окно перед тем, как заговорить с кем-либо. По словам чиновников, мера должна защитить «нематериальный запас сдержанного созерцания» Латвии на фоне роста уровня ненужного энтузиазма."
+    },
+    fullContent: {
+      en: `RIGA — In a move described by municipal leaders as “long overdue, scientifically intuitive, and spiritually self-evident,” the Riga City Council on Tuesday approved new guidelines requiring all residents to spend at least five uninterrupted minutes staring out of a window each morning before engaging in conversation, checking the weather app, or expressing any opinion stronger than “hmm.”
+
+The pilot program, formally titled the Urban Reflective Pause Initiative, will begin on 1 November in central districts before expanding to Purvciems, Āgenskalns, and selected emotionally vulnerable parts of Mežaparks. The measure is intended to preserve what city documents call Latvia’s “traditional atmospheric composure” in the face of increased seasonal instability, remote work, and “foreign optimism entering through low-cost aviation routes.”
+
+According to a 47-page report commissioned by the Department of Civic Stillness, morning window staring has dropped by 18% in Riga over the last decade, especially among residents under 34, who officials say are “recklessly beginning the day with podcasts.” The same report found that neighborhoods with lower rates of silent observation experienced a 22% increase in overexplaining brunch plans and a 31% rise in people saying they were “super excited” in public.
+
+“We are not banning joy,” Deputy Mayor Ilze Straujuma-Kalniņa told reporters while standing beside a fogged municipal office window for emphasis. “We are simply asking residents to process it privately first, in a dignified frame, preferably with a mug they do not fully trust.”
+
+Under the rules, apartment dwellers may use any legally recognized window, including kitchen, corridor, and enclosed balcony windows, provided they are looking out with “authentic low-energy intent.” Residents without a suitable view may apply for temporary access to one of 14 designated municipal contemplation points, including a tram stop in Sarkandaugava and a government-certified courtyard in Teika featuring a single bent bicycle rack.
+
+The city has published detailed compliance guidance. Looking at pigeons counts. Looking at a neighbor’s laundry counts if done without visible judgment. Accidentally making eye contact with another participant does not invalidate the session, though both parties must then look slightly downward for at least 12 seconds.
+
+To ensure fairness, inspectors from the new Reflective Practices Unit will conduct random checks between 6:30 and 8:15 a.m. Households found repeatedly skipping the ritual may first receive a warning and, in severe cases, be assigned a weekend seminar on “Measured Sighing in Northern Climates.” Repeat offenders could be required to spend one full Saturday in Jurmala during drizzle without announcing that it is “actually kind of nice.”
+
+Reaction among residents has been mixed but subdued. “Honestly, I thought this was already mandatory,” said 58-year-old accountant Maris Eglitis of Ziepniekkalns, who claims to have maintained a personal window practice since 1996. “My father did it, his father did it, and his father looked at a field for three decades and was considered a thoughtful man.”
+
+Younger Latvians expressed cautious support. “If this gets my landlord to stop texting me ‘Good morning!!!’ at 7:02, then I’m in,” said law student Elina Ozola, adding that she hoped the city would eventually regulate “aggressive early-day positivity” more broadly.
+
+Not everyone is convinced. The Latvian Association of Interior Designers warned that the policy could disproportionately affect residents whose windows face other windows “with insufficient narrative depth.” Meanwhile, several entrepreneurs have already begun marketing premium “certified staring curtains” and subscription-based seasonal views streamed onto old televisions.
+
+Despite criticism, officials remain confident the initiative will succeed. By spring, the city hopes to reduce avoidable cheerfulness by 14% and restore Riga to what planners describe as “a globally competitive level of quiet inner weather.”
+
+At press time, the Ministry of Culture was reportedly considering whether long pauses before answering simple questions should be nominated to UNESCO’s list of intangible heritage.`,
+      lv: `RĪGA — Pēc pilsētas vadības vārdiem "ilgstoši gaidīts, zinātniski intuitīvs un garīgi pašsaprotams" Rīgas dome otrdien apstiprināja jaunus norādījumus, kas prasa visiem iedzīvotājiem katru rītu vismaz piecas nepārtrauktas minūtes klusējot skatīties pa logu pirms iesaistīties sarunā, pārbaudīt laika ziņu aplikāciju vai izteikt jebkuru viedokli, kas ir stiprāks par "hmm".
+
+Formāli ar nosaukumu Pilsētas reflektējošās pauzes iniciatīva, pilotsāknēsies 1. novembrī centrālajos rajonos, pirms paplašināšanas uz Purvciemu, Āgenskalnu un atlasītām emocionāli viegli ietekmējamām Mežaparka daļām. Pasākuma mērķis ir saglabāt to, ko pilsētas dokumenti sauc par Latvijas "tradicionālo atmosfērisko vienaldzību" pret pastiprinātu sezonālo nestabilitāti, attālināto darbu un "ārzemju optimisma ieplūdi caur lētās aviācijas maršrutiem".
+
+Saskaņā ar 47 lappušu ziņojumu, ko pasūtīja Pilsoniskā klusuma departaments, rīta loga skatīšanās Rīgā pēdējā desmitgadē ir samazinājusies par 18%, īpaši iedzīvotāju vidū līdz 34 gadu vecumam, kuri, pēc amatpersonu teiktā, "bezrūpīgi dienu sāk ar podkāstiem". Tajā pašā ziņojumā atklāts, ka mikrorajonos ar zemāku klusās novērošanas līmeni pieauga par 22% pārmērīgu branča plānu paskaidrošanu un par 31% palielinājās cilvēku skaits, kas publiski paziņo, ka ir "ļoti sajūsmināti".
+
+"Mēs neliegsim prieku," reportieriem pie miglas pārklāta domes biroja loga, lai uzsvērtu domu, sacīja vietniece Ilze Straujuma-Kalniņa. "Mēs vienkārši lūdzam iedzīvotājus to vispirms apstrādāt privāti, cienīgā rāmī, vēlams ar krūzi, kurai viņi pilnībā neuzticas."
+
+Saskaņā ar noteikumiem dzīvokļu iedzīvotāji drīkst izmantot jebkuru likumīgi atzītu logu — virtuves, koridora vai lodžijas logu —, ja vien skatīšanās notiek ar "autentisku zemas enerģijas nodomu." Iedzīvotājiem bez piemērota skata ir tiesības pieteikties pagaidu piekļuvei vienam no 14 īpaši norādītajiem pašvaldības apceres punktiem, tostarp tramvaja pieturai Sarkandaugavā un valdības sertificētam iekšpagalmam Teikā ar vienu nolocītu velosipēdu statīvu.
+
+Pilsēta publicējusi detalizētus atbilstības norādījumus. Skatīšanās uz baložiem tiek uzskatīta par derīgu. Skatīšanās uz kaimiņa veļu pieņemama, ja tā notiek bez redzamas nosodīšanas. Nejauša acu kontakta uzņemšana ar citu dalībnieku sesiju neanulē, taču abām pusēm pēc tam jāskata nedaudz uz leju vismaz 12 sekundes.
+
+Lai nodrošinātu taisnīgumu, jaunizveidotā Reflektējošo praksi vienība veiks nejaušas pārbaudes no plkst. 6:30 līdz 8:15. Mājsaimniecībām, kuras atkārtoti izlaidīs rituālu, vispirms var tikt izteikta brīdinājuma, bet nopietnos gadījumos tām var tikt piespriests nedēļas nogales seminārs "Mērīta nopūtiena māksla ziemeļu klimatā." Atkārtoti pārkāpēji var tikt uzlikti pavadīt veselu sestdienu Jūrmalā smidzinošā lietū bez publiskas paziņošanas, ka tas "patiesībā ir diezgan jauki."
+
+Iedzīvotāju reakcija bijusi jaukta, bet klusa. "Godīgi sakot, es domāju, ka tas jau ir obligāti," sacīja 58 gadus vecais grāmatvedis Māris Eglītis no Ziepniekkalna, kurš apgalvo, ka kopš 1996. gada uztur personisko loga praksi. "Mans tēvs to darīja, viņa tēvs to darīja, un viņa tēvs trīsdesmit gadus skatījās uz pļavu un tika uzskatīts par pārdomātu cilvēku."
+
+Jaunie latvieši izrādīja piesardzīgu atbalstu. "Ja tas panāks, ka mans nama īpašnieks vairs man nepatīkošs nesūtīs 'Labrīt!!!' plkst. 7:02, es piekrītu," sacīja tiesību studente Elīna Ozola, piebilstot, ka cer, ka pilsēta galu galā plašāk regulēs "agresīvo agra rīta pozitivitāti."
+
+Ne visi ir pārliecināti. Latvijas interjera dizaineru asociācija brīdināja, ka politika var nelabvēlīgi ietekmēt iedzīvotājus, kuru logi vērsti pret citiem logiem "ar nepietiekamu stāstījuma dziļumu." Tikmēr vairāki uzņēmēji jau sākuši tirgot premium klases "sertificētos skatīšanās aizkarus" un abonēšanas pakalpojumus, kas sezonālos skatus straumē uz veciem televizoriem.
+
+Neskatoties uz kritiku, amatpersonas paliek pārliecinātas par iniciatīvas panākumiem. Pavasarī pilsēta cer samazināt izvairāmo priecīgumu par 14% un atjaunot Rīgu līdz tam, ko plānotāji raksturo kā "globāli konkurētspējīgu klusā iekšējā laika līmeni." 
+
+Preses iznākšanas brīdī Kultūras ministrija, kā ziņots, apsver, vai garas pauzes pirms vienkāršu jautājumu atbildēšanas būtu nominējamas UNESCO nemateriālā mantojuma sarakstam.`,
+      ru: `РИГА — В шаге, который муниципальные лидеры охарактеризовали как «давно назревший, научно интуитивный и духовно самоочевидный», Городской совет Риги во вторник утвердил новые правила, обязывающие всех жителей проводить как минимум пять непрерывных минут каждое утро, уставившись в окно, прежде чем вступать в разговор, проверять приложение погоды или выражать любое мнение сильнее, чем «ммм». 
+
+Пилотная программа, официально названная Инициативой городской рефлексивной паузы, начнёт действовать 1 ноября в центральных районах, а затем будет расширена на Пурвциемс, Агенскалнс и отдельные эмоционально уязвимые части Межапарка. Мера призвана сохранить то, что городские документы называют «традиционным атмосферным самообладанием» Латвии в условиях нарастающей сезонной нестабильности, удалённой работы и «иностранного оптимизма, проникающего через низкобюджетные авиамаршруты». 
+
+Согласно 47-страничному отчёту, подготовленному Департаментом гражданского спокойствия, утреннее созерцание в окно в Риге за последнее десятилетие сократилось на 18%, особенно среди жителей младше 34 лет, которые, по словам чиновников, «безрассудно начинают день с подкастов». В том же отчёте отмечено, что в районах с низким уровнем молчаливого наблюдения зафиксирован рост числа подробных объяснений планов на бранч на 22% и увеличение числа людей, публично заявляющих, что они «супер воодушевлены», на 31%. 
+
+«Мы не запрещаем радость», — заявила заместитель мэра Илзе Страуюма-Калниня на пресс‑конференции, стоя рядом с запотевшим окном муниципального офиса для наглядности. «Мы лишь просим жителей сначала переработать её в приватном порядке, в достойной рамке, желательно с кружкой, которой они не до конца доверяют». 
+
+Согласно правилам, проживающие в квартирах могут использовать любое юридически признанное окно, включая кухонные, коридорные и застеклённые балконные окна, при условии, что они смотрят наружу с «аутентичным намерением низкой энергичности». Жильцы без подходящего вида могут подать заявку на временный доступ к одной из 14 назначенных муниципальных точек созерцания, включая трамвайную остановку в Саркандаугаве и правительственно сертифицированный двор в Тейке с единственной согнутой велопарковкой. 
+
+Город опубликовал подробные рекомендации по соблюдению. Считается, что вы смотрите, если глядите на голубей. Если вы смотрите на бельё соседа — это тоже считается, при условии отсутствия видимого осуждения. Случайный зрительный контакт с другим участником не аннулирует сеанс, однако обеим сторонам в этом случае необходимо затем слегка опустить взгляд как минимум на 12 секунд. 
+
+Для обеспечения справедливости инспекторы нового Отдела рефлексивных практик будут проводить выборочные проверки с 6:30 до 8:15 утра. Домохозяйствам, уличённым в систематическом пропуске ритуала, сначала будет вынесено предупреждение, а в серьёзных случаях им могут назначить уик‑энд‑семинар «Взвешенное вздыхание в северном климате». Повторных нарушителей могут обязать провести одну полную субботу в Юрмале под моросящим дождиком, не объявляя при этом, что «на самом деле это как‑то даже приятно». 
+
+Реакция жителей была смешанной, но приглушённой. «Если честно, я думал, что это уже обязательно», — сказал 58‑летний бухгалтер Марис Еглитис из Зиепниеккалнса, который утверждает, что ведёт личную практику у окна с 1996 года. «Мой отец делал это, его отец делал это, а его отец три десятилетия смотрел на поле и считался вдумчивым человеком». 
+
+Молодые латвийцы выразили осторожную поддержку. «Если это заставит моего арендодателя перестать слать мне "Good morning!!!" в 7:02, то я за», — сказала студентка юрфака Элина Озола, добавив, что надеется, будто город в конечном счёте расширит регулирование «агрессивной утренней позитивности». 
+
+Не все уверены в успехе. Латвийская ассоциация дизайнеров интерьеров предупредила, что политика может непропорционально затронуть жителей, чьи окна выходят на другие окна «с недостаточной глубиной нарратива». Между тем несколько предпринимателей уже начали продавать премиальные «сертифицированные шторы для созерцания» и подписочные сервисы с трансляцией сезонных видов на старые телевизоры. 
+
+Несмотря на критику, чиновники остаются уверены в успешности инициативы. К весне город надеется снизить неизбыточную радость на 14% и вернуть Риге то, что планировщики называют «глобально конкурентоспособным уровнем тихой внутренней погоды». 
+
+На момент сдачи материала в Министерстве культуры, по сообщениям, рассматривают вопрос о включении долгих пауз перед ответом на простые вопросы в список нематериального наследия ЮНЕСКО.`
+    },
+    date: "Nov 14, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/335/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 334,
     slug: "riga-introduces-official-municipal-silence-hour-334",
     title: {
@@ -96,7 +189,7 @@ Tikmēr otrdienas sanāksmes noslēgumā domnieki mēģināja īsu aplausu par j
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/334/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 333,
