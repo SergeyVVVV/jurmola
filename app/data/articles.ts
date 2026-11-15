@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 336,
+    slug: "riga-introduces-official-municipal-silence-hour-336",
+    title: {
+      en: "Riga Introduces Official Municipal Silence Hour After Residents Complain City’s Thoughts Have Become Too Loud",
+      lv: "Rīga ievieš oficiālu pašvaldības klusuma stundu pēc iedzīvotāju sūdzībām, ka pilsētas domas kļuvušas pārāk skaļas",
+      ru: "Рига вводит официальный муниципальный час тишины после жалоб жителей на то, что мысли города стали слишком громкими"
+    },
+    excerpt: {
+      en: "In a pilot program described by officials as \"proactive acoustic governance,\" Riga will observe a daily Silence Hour from 14:00 to 15:00, during which citizens are asked to refrain not only from drilling, shouting, and accordion practice, but also from forming emotionally intense opinions near apartment windows. City leaders say the measure is necessary after repeated complaints that the capital has become \"psychologically drafty.\"",
+      lv: "Pilotprogrammā, ko amatpersonas dēvē par „proaktīvu akustisko pārvaldību”, Rīga ieviesīs ikdienas Klusuma stundu no pulksten 14:00 līdz 15:00, kuras laikā iedzīvotāji tiek lūgti atturēties ne tikai no urbšanas, kliegšanas un akordeona mēģinājumiem, bet arī no emocionāli intensīvu viedokļu formēšanas pie dzīvokļu logiem. Pilsētas vadība saka, ka šis pasākums nepieciešams pēc atkārtotām sūdzībām, ka galvaspilsēta kļuvusi „psiholoģiski caurvēja” stāvoklī.",
+      ru: "В пилотной программе, которую чиновники описывают как «проактивное акустическое управление», в Риге будет ежедневно соблюдаться час тишины с 14:00 до 15:00, в течение которого граждан просят воздерживаться не только от сверления, криков и упражнений на аккордеоне, но и от выражения эмоционально насыщенных мнений у окон квартир. Руководители города заявляют, что мера необходима после повторных жалоб на то, что столица стала «психологически продуваемой»."
+    },
+    fullContent: {
+      en: `RIGA — In a move urban planners are calling both bold and faintly passive-aggressive, the Riga City Council on Tuesday approved the country’s first municipally regulated Silence Hour, a daily 60-minute period during which residents are encouraged to lower all noise, dim interpersonal tensions, and, where possible, postpone decisive inner monologues until after business hours.
+
+The initiative, formally titled the Interim Acoustic and Reflective Harmony Framework, will begin next Monday in Central Riga, Agenskalns, Teika, and selected parts of Purvciems deemed "already halfway quiet in spirit." According to a 47-page explanatory report, the measure responds to an increase in citizen complaints concerning "ambient mental congestion," "aggressive kettle boiling," and "neighbors rehearsing disappointment out loud."
+
+"People assume noise is only physical," said Deputy Mayor for Civic Stillness Elina Skujene at a press conference held in a carpeted room behind the city archives. "But modern Riga faces more advanced disturbances — sighing in stairwells, politically loaded scraping of chairs, and what experts identify as sustained hostile radiating from balconies. We had to act before autumn, when all sounds become more meaningful."
+
+Under the guidelines, trams will continue operating but drivers have been instructed to ring their bells "only if genuinely necessary and not out of habit." Cafes may remain open provided milk frothing is conducted with what the regulation calls "measured emotional neutrality." Home renovation work will be paused, as will the traditional Wednesday courtyard debate over whether this winter feels different from previous winters in a way that says something larger.
+
+The policy follows a municipal survey of 2,800 residents in which 63% said the city had become "too loud in obvious ways," while 21% said it was "quiet, but in a threatening manner." Another 14% reported being unable to distinguish between construction noise and their own long-term disappointment.
+
+At the Origo transit hub, reaction among commuters was mixed. "I support silence," said office administrator Maris Vainovskis, 41, while unwrapping a herring pastry with extreme precision. "But if my upstairs neighbor chooses 14:07 to begin silently resenting furniture, the city should have enforcement mechanisms. Otherwise this is just symbolism, and Riga already has enough symbolic infrastructure."
+
+Others worried the rule would unfairly target ordinary Baltic behavior. "What about my aunt in Imanta?" asked law student Paula Dreimane, 23. "She doesn’t yell, but everyone in a 60-meter radius knows when she disapproves. Are we criminalizing cultural heritage now?"
+
+City officials say no fines will be issued during the first month, though trained Harmony Stewards will patrol neighborhoods equipped with decibel meters, thermoses, and the authority to ask residents whether a given slamming sound was "practical, emotional, or historical." Repeat offenders may be assigned to a restorative listening circle in Mezaparks, where they will sit near a pond and hear a librarian from Cesis turn pages at a corrective volume.
+
+Economists at the University of Latvia estimate the Silence Hour could reduce weekday irritation by 11%, while increasing the sale of soft-soled indoor slippers by as much as 38%. Real estate developers have already begun advertising apartments as "pre-compatible with reflective stillness," and one new project in Skanste promises triple-glazed windows capable of blocking both traffic and unsolicited certainty.
+
+By late afternoon Tuesday, several residents had already begun preparing for the new rules by speaking more quietly in supermarkets and glaring at each other with improved discipline. In a final remark to reporters, Skujene defended the program as a necessary modernization effort.
+
+"Other capitals invest in roads, tunnels, and innovation districts," she said. "Riga is investing in not making everything worse for one hour a day. We believe that is realistic, affordable, and deeply European."`,
+      lv: `RĪGA — Solī, ko pilsētplānotāji sauc gan par drosmīgu, gan nedaudz pasīvi agresīvu, Rīgas domes otrdien apstiprināja valsts pirmo pašvaldības regulēto Klusuma stundu — ikdienas 60 minūšu laika periodu, kurā iedzīvotāji tiek aicināti samazināt visus trokšņus, ierobežot savstarpējās saspringtības un, ja iespējams, atlikt lemšanas pilnas iekšējās monologus līdz pēc darba laika beigām.
+
+Iniciatīva, oficiāli nosaukta par „Pagaidu akustiskās un reflektīvās saskaņas ietvaru”, nākamajā pirmdienā sāksies Centrālajā Rīgā, Āgenskalnā, Teikā un izvēlētās Purvciema daļās, kuras tiek uzskatītas par „jau pusceļā uz klusuma garu”. Saskaņā ar 47 lappušu paskaidrojošo ziņojumu, pasākums reaģē uz pieaugošu iedzīvotāju sūdzību skaitu par „apkārtējo mentālo sastrēgumu”, „agresīvu tējkannas vārīšanos” un „kaimiņiem, skaļi mēģinot izteikt vilšanos.”
+
+"Cilvēki pieņem, ka troksnis ir tikai fizisks," preses konferencē paklājotā telpā aiz pilsētas arhīviem sacīja pašvaldības vietniece civiltiesiskās miermīlības jautājumos Elīna Skujene. "Bet mūsdienu Rīga saskaras ar sarežģītākiem traucējumiem — nopūtām kāpņu telpās, politiski uzlādētu krēslu rīvēšanu un to, ko eksperti identificē kā ilgstošu naidīgu izstarošanu no balkoniem. Mums vajadzēja rīkoties pirms rudens, kad visi trokšņi kļūst jēgpilnāki."
+
+Saskaņā ar vadlīnijām tramvaji turpinās kursēt, taču šoferiem dots ragi skanēt „tikai, ja tas tiešām nepieciešams, nevis no ieraduma”. Kafejnīcas drīkstēs strādāt, ja piena putošana tiks veikta ar to, ko regula dēvē par „mērījamu emocionālu neitralitāti”. Mājas remonta darbi tiks pārcelti, tāpat kā tradicionālā trešdienas pagalma diskusija par to, vai šīziema kādā veidā atšķiras no iepriekšējām un to, vai tas kaut ko nozīmē plašākā mērogā.
+
+Politika sekoja pašvaldības aptaujai, kurā piedalījās 2 800 iedzīvotāju — 63% norādīja, ka pilsēta kļuvusi „pārāk skaļa acīmredzamā veidā”, kamēr 21% sacīja, ka tā ir „klusa, bet draudošā veidā”. Vēl 14% ziņoja, ka nespēj atšķirt būvniecības troksni no savas ilgtermiņa vilšanās.
+
+Origo pārvadājumu mezglā ceļotāju reakcija bija jaukta. "Es atbalstu klusumu," sacīja biroja administrātors Māris Vainovskis, 41 gadu, uzmanīgi atverot siļķu pīrādziņu ar ārkārtīgu precizitāti. "Bet ja mans kaimiņš uz augšu izvēlas 14:07 sākt klusumā nicināt mēbeles, pilsētai jānoved izpildes mehānismi. Citādi tas ir tikai simbolisms, un Rīgai jau ir pietiekami daudz simboliskas infrastruktūras."
+
+Citi bažījās, ka noteikums netaisnīgi mērķēs ikdienišķu Baltijas uzvedību. "Bet kā ar manu tanti Imantā?" vaicāja jurista studente Paula Dreimane, 23 gadus. "Viņa neprasa, bet visi 60 metru rādiusā zina, kad viņai ir iebildumi. Vai mēs tagad kriminalizēsim kultūras mantojumu?"
+
+Pilsētas amatpersonas norāda, ka pirmā mēneša laikā naudas sodi netiks piemēroti, lai gan speciāli apmācīti Saskaņas sargi patrulēs rajonos, aprīkoti ar decibelu mērītājiem, termo kannām un pilnvarām pajautāt iedzīvotājiem, vai konkrētais slēgšanās troksnis bija „praktisks, emocionāls vai vēsturisks”. Pārkāpējiem, kas atkārto pārkāpumus, var tikt noteikta atjaunojoša klausīšanās grupa Mežaparkā, kur viņi sēdēs pie dīķa un klausīsies Cēsu bibliotekāri, kas lēnām lapo grāmatu lapas korektīvā skaļumā.
+
+Latvijas Universitātes ekonomisti lēš, ka Klusuma stunda var samazināt darba dienu kairinājumu par 11%, vienlaikus palielinot mīksto iekštelpu čību pārdošanu līdz pat 38%. Nekustamā īpašuma attīstītāji jau sākuši sludināt dzīvokļus kā "iepriekš saderīgus ar reflektīvo klusumu", un viens jaunais projekts Skanstē sola trīskārši stiklotus logus, kas spēj bloķēt gan satiksmes troksni, gan nevēlamu pārliecinātību.
+
+Otrdienas pēcpusdienā daži iedzīvotāji jau sākuši gatavoties jaunajiem noteikumiem, runājot klusāk lielveikalos un skatoties viens uz otru ar uzlabotu disciplīnu. Noslēgumā Skujene aizstāvēja programmu kā nepieciešamu modernizācijas gājienu.
+
+"Citas galvaspilsētas iegulda ceļos, tuneļos un inovāciju rajonos," viņa sacīja. "Rīga iegulda tajā, lai neradītu sliktāku stāvokli vienu stundu dienā. Mēs uzskatām, ka tas ir reālistiski, pieejami un dziļi Eiropiski."`,
+      ru: `РИГА — В шаге, который градостроители называют одновременно смелым и слегка пассивно-агрессивным, Городской совет Риги во вторник одобрил первый в стране муниципально регулируемый Час Тишины — ежедневный 60-минутный период, в течение которого жителей призывают снизить весь шум, умерить межличностные напряжения и, по возможности, отложить решительные внутренние монологи до окончания рабочего дня.
+
+Инициатива, официально получившая название «Временная рамка акустической и рефлексивной гармонии», стартует в следующий понедельник в Центральной Риге, Agenskalns, Teika и в отдельных частях Purvciems, которые признаны «уже наполовину тихими духом». Согласно 47-страничному пояснительному отчету, мера стала ответом на рост жалоб граждан на «фоновую ментальную перегруженность», «агрессивное кипячение чайника» и «соседей, вслух репетирующих разочарование». 
+
+«Люди считают, что шум — это только физика», — заявила в пресс-конференции, прошедшей в комнате с ковровым покрытием за городским архивом, заместитель мэра по гражданской тишине Элина Скуене. «Но современная Рига сталкивается с более тонкими нарушениями: вздохи в подъездах, политизированное скрежетание стульев и то, что эксперты определяют как продолжительное враждебное излучение с балконов. Нам пришлось вмешаться до наступления осени, когда все звуки становятся более содержательными». 
+
+В соответствии с рекомендациями трамваи продолжат ходить, но водителям велено звонить звонком «только если действительно необходимо, а не по привычке». Кафе смогут оставаться открытыми при условии, что взбивание молока будет происходить с тем, что в регламенте называется «сдержанной эмоциональной нейтральностью». Домашние ремонта приостанавливаются, как и традиционный средовый дворовой спор о том, кажется ли эта зима иной по сравнению с прошлым — в смысле «говорит ли это о чем‑то большем». 
+
+Политика следует за муниципальным опросом среди 2 800 жителей, в котором 63% сказали, что город стал «слишком громким в очевидных аспектах», 21% сочли его «тихим, но угрожающе», а ещё 14% сообщили, что не в состоянии отличить шум стройки от собственного долгосрочного разочарования. 
+
+В транзитном хабе Origo реакции пассажиров разделились. «Я поддерживаю тишину», — сказал офисный администратор Maris Vainovskis, 41 год, аккуратно разворачивая селёдочный пирожок с исключительной точностью. «Но если мой сосед сверху выберет 14:07, чтобы начать молча питать обиду на мебель, у города должны быть механизмы принуждения. Иначе это просто символизм, а у Риги и так достаточно символической инфраструктуры». 
+
+Другие опасались, что правило несправедливо затронет обычное балтийское поведение. «А что насчёт моей тёти в Imanta?» — спросила студентка-юрист Paula Dreimane, 23 года. «Она не кричит, но каждый в радиусе 60 метров знает, когда она выражает неодобрение. Не криминализируем ли мы теперь культурное наследие?» 
+
+Городские чиновники заверили, что в первый месяц штрафов не будет, однако обученные Смотрители Гармонии будут патрулировать районы, оснащённые шумомерами, термосами и полномочиями спрашивать у жителей, был ли хлопок «практическим, эмоциональным или историческим». Повторных нарушителей могут направить в восстановительный круг прослушивания в Mezaparks, где им предложат посидеть у пруда и послушать, как библиотекарь из Cesis перелистывает страницы на корректной громкости. 
+
+Экономисты Латвийского университета подсчитали, что Час Тишины может сократить раздражение по будням на 11% и увеличить продажи домашних тапочек на мягкой подошве до 38%. Девелоперы уже начали рекламировать квартиры как «предварительно совместимые с рефлексивной тишиной», а один новый проект в Skanste обещает трёхслойные окна, способные блокировать и дорожный шум, и навязчивую уверенность незваных мнений. 
+
+К вечеру вторника несколько жителей уже начали готовиться к новым правилам: говорить тише в супермаркетах и смотреть друг на друга с улучшенной дисциплиной. В заключительном слове для репортёров Скуене защитила программу как необходимое усилие по модернизации. 
+
+«Другие столицы инвестируют в дороги, туннели и инновационные кластеры, — сказала она. — Рига инвестирует в то, чтобы не делать всё хуже — по одному часу в день. Мы считаем, что это реально, доступно и глубоко по‑европейски».`
+    },
+    date: "Nov 15, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/336/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 335,
     slug: "riga-introduces-mandatory-five-minute-window",
     title: {
@@ -108,7 +195,7 @@ Preses iznākšanas brīdī Kultūras ministrija, kā ziņots, apsver, vai garas
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/335/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 334,
