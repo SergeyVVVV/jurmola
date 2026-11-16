@@ -18,6 +18,101 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 337,
+    slug: "jrmala-introduces-silent-thunder-festival-so-337",
+    title: {
+      en: "Jūrmala Introduces Silent Thunder Festival So Residents Can Complain About Noise More Efficiently",
+      lv: "Jūrmala ievieš „Klusā pērkona” festivālu, lai iedzīvotāji efektīvāk varētu sūdzēties par troksni",
+      ru: "Юрмала запускает фестиваль «Тихий гром», чтобы жители могли эффективнее жаловаться на шум"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have announced the Baltic region’s first Silent Thunder Festival, a three-day cultural event designed to preserve the city’s treasured tradition of objecting to sound. Using state-of-the-art wireless headphones, visitors will enjoy inaudible concerts while local residents submit formal complaints at historically normal volume.",
+      lv: "Jūrmalas amatpersonas paziņojušas par Baltijas reģiona pirmo „Klusā pērkona” festivālu — trīs dienu kultūras notikumu, kas radīts, lai saglabātu pilsētas dārgo tradīciju pretoties skaņai. Ar jaunākās paaudzes bezvadu austiņām apmeklētāji baudīs nedzirdamus koncertus, kamēr vietējie iedzīvotāji iesniegs oficiālas sūdzības vēsturiskā, normālā skaļumā.",
+      ru: "Чиновники Юрмалы объявили о проведении первого в Балтике фестиваля «Тихий гром» — трёхдневного культурного события, призванного сохранить дорогое городу искусство возражать против звука. При помощи современных беспроводных наушников посетители насладятся неслышимыми концертами, а местные жители подадут официальные жалобы на привычной исторической громкости."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what municipal leaders are calling “a breakthrough in sustainable irritation,” the resort city of Jūrmala this week unveiled plans for the inaugural Silent Thunder Festival, an event intended to resolve the long-standing conflict between summer tourism and the local population’s constitutional right to suspect that someone, somewhere, is enjoying themselves too loudly.
+
+The festival, scheduled for the final weekend of July near Dzintari Concert Hall, will feature silent discos, headphone-only folk choirs, an acoustic-free heavy metal showcase, and a midnight techno set described by organizers as “deeply offensive in principle, but acoustically unverifiable.” Tickets went on sale Monday, with premium packages including noise-cancelling headphones and a pre-filled complaint form addressed to the municipal police.
+
+According to festival director and former event consultant Ingus Vēveris, the concept was inspired by years of listening to residents denounce sounds they had not personally heard but felt were entirely plausible.
+
+“We wanted to create an event where everyone wins,” Vēveris said during a press conference conducted in a tent lined with soundproof curtains and passive-aggressive signage. “Visitors get culture, artists get exposure, and residents get the dignity of filing objections based on memory, instinct, and inherited emotional patterns.”
+
+Jūrmala’s City Development and Seasonal Annoyance Department estimates the festival could draw as many as 18,000 guests, each equipped with wireless headsets programmed to receive one of four channels: Latvian indie, nostalgic Eurodance, guided mindfulness in Russian, and a loop of distant seagulls for those seeking an authentic local soundscape.
+
+Municipal records show that Jūrmala received 1,742 official noise complaints last summer, including 311 concerning “bass vibrations in the soul,” 88 regarding laughter after 22:00, and one 14-page submission alleging that a passing cyclist had “an aggressively festive bell.” City officials believe the new format will increase efficiency by separating actual sound from the administrative pleasure of opposing it.
+
+“This is not about silence,” explained Deputy Mayor for Cultural Balance Dace Ločmele. “This is about preserving our heritage. For generations, people in Jūrmala have stood behind curtains, narrowed their eyes, and said, ‘There is some kind of event.’ We cannot lose that.”
+
+Reaction among residents has been cautiously optimistic. A survey conducted by the local newspaper Piekrastes Balss found that 63% of year-round inhabitants support the festival, 22% oppose it, and 15% asked whether supporting it would encourage others. In Bulduri, retiree and amateur curtain analyst Velta Kļaviņa, 71, said she appreciated the innovation but feared technology could weaken traditional standards.
+
+“If they are all wearing headphones, how will I know what specifically to resent?” Kļaviņa asked from her veranda, where she said she has monitored summer behavior since 1989. “Before, you could identify a problem by genre. Jazz was tolerable, techno was immoral, and wedding DJs were a matter for the state. Now everything is hidden inside people’s ears.”
+
+Business owners, meanwhile, have welcomed the festival’s economic potential. A café near Majori station has already introduced a “Silent Aperol” served with a QR code linking to the sound of ice clinking. Nearby, a souvenir stand is selling T-shirts reading I Visited Jūrmala and Caused No Measurable Disturbance.
+
+Not everyone is convinced. The Association for Responsible Outrage issued a statement warning that headphone-based entertainment could create a dangerous precedent in which citizens are deprived of fully experiencing the public nuisance they intend to discuss later. To address these concerns, organizers have installed a designated Complaint Pavilion where residents can gather, compare assumptions, and report that the atmosphere feels louder than before.
+
+At press time, the first 400 festival passes had sold out, and three separate neighborhood groups had already submitted formal objections to the possibility that the event’s silence might itself become “suspiciously energetic.”`,
+      lv: `JŪRMALA — To, ko pašvaldības vadītāji sauc par „pārrautienu ilgtspējīgā kairinājumā”, kūrortpilsēta Jūrmala šonedēļ atklāja pirmā "Klusā pērkona" festivāla plānus — pasākumu, kura mērķis ir atrisināt ilggadējo konfliktu starp vasaras tūrismu un vietējo iedzīvotāju konstitucionālo tiesību aizdomāties, ka kāds kaut kur izbauda sevi pārāk skaļi.
+
+Festivāls, kas paredzēts jūlija pēdējā nedēļas nogalē pie Dzintaru koncertzāles, piedāvās klusās diskotēkas, austiņām paredzētus folka korus, skaņas brīvu smagā metāla uznācienu un pusnakts techno setu, ko organizatori raksturojuši kā „principā dziļi aizvainojošu, bet akustiski neizsekojamu”. Biļetes nonāca tirdzniecībā pirmdien; premium paketes ietver trokšņu slāpējošas austiņas un iepriekš aizpildītu sūdzības veidlapu, adresētu pašvaldības policijai.
+
+Festivāla direktors un bijušais pasākumu konsultants Ingus Vēveris stāstīja, ka koncepciju iedvesmojusi gadu ilga klausīšanās, kā iedzīvotāji nosoda skaņas, ko paši nav dzirdējuši, taču kuras viņiem šķiet pilnīgi iespējamas.
+
+"Mēs gribējām radīt pasākumu, kur visi uzvar," Vēveris sacīja preses konferencē teltī, kas apšūts ar skaņu izolējošiem aizkariem un pasīvi-agresīvām norādēm. "Apmeklētāji iegūst kultūru, mākslinieki — uzmanību, un iedzīvotāji — cieņu iesniegt iebildes, balstoties uz atmiņu, instinktu un mantotām emocionālajām reaģēšanas manierēm."
+
+Pilsētas Attīstības un Sezonālo Kairinājumu departaments lēš, ka festivāls varētu pulcēt līdz 18 000 viesu, katram aprīkojot ar bezvadu austiņām, kas ieprogrammētas saņemt vienu no četriem kanāliem: latviešu indie, nostalģisku eurodance, vadītu uzmanības treniņu krievu valodā un attālu kaiju cilpu tiem, kas meklē autentisku vietējo skaņu ainavu.
+
+Pašvaldības ieraksti liecina, ka pagājušajā vasarā Jūrmala saņēma 1 742 oficiālas trokšņa sūdzības, tostarp 311 par "basa vibrācijām dvēselē", 88 saistībā ar smiekliem pēc 22:00 un vienu 14 lappušu iesniegumu, kurā apgalvots, ka garāmbraucošam velosipēdistam bijusi "agresīvi svinīga zvana". Pilsētas amatpersonas uzskata, ka jaunais formāts palielinās efektivitāti, atdalot pašu skaņu no administratīvā prieka to nosodīt.
+
+"Runa nav par klusumu," skaidroja vietniece mēra kultūras līdzsvara jautājumos Dace Ločmele. "Runa ir par mūsu mantojuma saglabāšanu. Gadu desmitiem cilvēki Jūrmalā stāvējuši aiz aizkariem, sarāvuši acis un teikuši: 'Tur notiek kaut kāds pasākums.' To mēs nevaram pazaudēt."
+
+Iedzīvotāju reakcija bijusi piesardzīgi optimistiska. Vērtējums, ko veica vietējais laikraksts Piekrastes Balss, parādīja, ka 63% pastāvīgo iedzīvotāju atbalsta festivālu, 22% tam iebilst, un 15% izteica jautājumu, vai atbalsts nemudinās citus.
+
+Buldurī 71 gadu vecā pensionāre un amatu aizkaru analītiķe Velta Kļaviņa sacīja, ka novērtē inovāciju, taču bažījas, ka tehnoloģijas var vājināt tradicionālos standartus.
+
+"Ja viņi visi nēsā austiņas, kā es zināšu, par ko tieši būt neapmierinātai?" Kļaviņa vaicāja no savas verandas, kur viņa uzrauga vasaras uzvedību kopš 1989. gada. "Agrāk varēja problēmu identificēt pēc žanra. Džezs bija paciešams, techno — amorāls, kāzu dīdžeji bija valsts kompetencē. Tagad viss ir paslēpts cilvēku ausīs."
+
+Uzņēmēji savukārt laipni uztvēruši festivāla ekonomisko potenciālu. Kafejnīca pie Majoru stacijas jau ieviesusi "Klusā Aperola" — dzērienu, kas tiek pasniegts kopā ar QR kodu uz ledus šķindoņas skaņas ierakstu. Netālu suvenīru stends pārdod T‑kreklus ar uzrakstu "Es apmeklēju Jūrmalu un neradīju mērāmu traucējumu".
+
+Ne visi ir pārliecināti. Asociācija "Par Atbildīgu Sašutumu" izplatīja paziņojumu, brīdinot, ka izklaide, balstīta uz austiņām, var radīt bīstamu precedentu, kurā pilsoņiem tiek liegtas iespējas pilnībā izbaudīt sabiedrisko traucējumu, par ko vēlāk viņi plāno sašust. Lai risinātu šīs bažas, organizatori izveidojuši īpašu Sūdzību Paviljonu, kur iedzīvotāji var sapulcēties, salīdzināt pieņēmumus un ziņot, ka atmosfēra šķiet skaļāka nekā iepriekš.
+
+Saskaņā ar preses laikā pieejamo informāciju pirmās 400 festivāla biļetes bija izpārdotas, un trīs atsevišķas kaimiņu grupas jau bija iesniegušas oficiālas iebildes pret iespēju, ka paša pasākuma klusums varētu kļūt "šaubīgi enerģisks".`,
+      ru: `ЮРМАЛА — В том, что муниципальные власти называют «прорывом в области устойчивого раздражения», курортный город Юрмала на этой неделе представил планы по проведению первого фестиваля «Тихий гром» — мероприятия, призванного разрешить давний конфликт между летним туризмом и конституционным правом местных жителей подозревать, что кто‑то где‑то слишком громко веселится.
+
+Фестиваль, запланированный на последний уик‑энд июля рядом с концертным залом Дзинтари, предложит «тихие дискотеки», хоровые выступления только через наушники в народном стиле, акустически‑свободный шоу‑кейc тяжёлого металла и полуночный сет техно, который организаторы описывают как «принципиально глубоко оскорбительный, но акустически не поддающийся проверке». Билеты поступили в продажу в понедельник; премиум‑пакеты включают шумоподавляющие наушники и заранее заполненную форму жалобы с адресом муниципальной полиции.
+
+По словам директора фестиваля и бывшего ивент‑консультанта Ингуса Ве̄вериса, идея родилась после многих лет прослушивания того, как жители осуждали звуки, которых сами они на самом деле не слышали, но которые казались им полностью правдоподобными.
+
+«Мы хотели создать событие, где выигрывают все», — сказал Ве̄верис на пресс‑конференции в палатке, обшитой звукоизолирующими шторами и украшенной пассивно‑агрессивными табличками. «Посетители получают культуру, артисты — экспозицию, а жители — достоинство подавать возражения, основанные на памяти, инстинкте и наследственных эмоциональных шаблонах». 
+
+Городской департамент развития и сезонных раздражителей Юрмалы оценивает, что фестиваль может привлечь до 18 000 гостей, каждый из которых получит беспроводные гарнитуры, запрограммированные на один из четырёх каналов: латвийский инди, ностальгический евро‑денс, практикуемое на русском языке руководимое внимательное осознание и зацикленную запись далёких чаек для тех, кто ищет подлинный местный звуковой ландшафт.
+
+Муниципальная отчётность показывает, что прошлым летом в Юрмалу поступило 1 742 официальные жалобы на шум, включая 311 по поводу «басовых вибраций в душе», 88 — по поводу смеха после 22:00 и одну 14‑страничную жалобу, утверждавшую, что проезжающий велосипедист имел «агрессивно праздничный звонок». Городские власти полагают, что новый формат повысит эффективность, разъединив реальный звук и административное удовольствие от возражения против него.
+
+«Дело не в тишине», — пояснила заместитель мэра по культурному балансу Даце Лочмеле. «Речь о сохранении нашего наследия. Поколениями люди в Юрмале стояли за шторами, щурились и говорили: „Там какое‑то мероприятие“. Мы не можем это потерять». 
+
+Реакция жителей оказалась сдержанно оптимистичной. Опрос местной газеты Piekrastes Balss показал, что 63% постоянных жителей поддерживают фестиваль, 22% выступают против, а 15% спросили, не побудит ли их поддержка остальных. В Булдури пенсионерка и любительница анализа занавесок Вельта Клявина, 71 год, заявила, что ценит новшество, но боится, что технология может ослабить традиционные критерии.
+
+«Если у всех будут наушники, как я пойму, что именно мне здесь не нравится?» — спросила Клявина с веранды, где, по её словам, она наблюдает за летним поведением с 1989 года. «Раньше проблему можно было определить по жанру. Джаз — терпимо, техно — аморально, а свадебные диджеи — дело государственной важности. Теперь всё спрятано у людей в ушах». 
+
+Предприниматели, между тем, приветствуют экономический потенциал фестиваля. Кафе у станции Майори уже ввело «тихий Апероль», подаваемый с QR‑кодом, ведущим к звуку столкновения льда. Поблизости сувенирный ларёк продаёт футболки с надписью: Я был(а) в Юрмале и не вызвал(а заметного беспокойства.
+
+Не все убеждены в пользе замены общего звука на наушники. Ассоциация ответственного возмущения выпустила заявление, предупреждающее, что развлечения через наушники могут создать опасный прецедент, при котором граждан лишают возможности полноценно испытать общественное неудобство, о котором они потом намерены рассуждать. Чтобы ответить на эти опасения, организаторы устроили специально отведённый Павильон Жалоб, где жители могут собираться, сравнивать домыслы и докладывать, что атмосфера кажется громче, чем раньше.
+
+На момент сдачи материала первые 400 пропусков на фестиваль были распроданы, и три отдельных соседских объединения уже подали официальные возражения против возможности того, что сама тишина мероприятия может оказаться «подозрительно энергичной».`
+    },
+    date: "Nov 16, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/337/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 336,
     slug: "riga-introduces-official-municipal-silence-hour-336",
     title: {
@@ -102,7 +197,7 @@ Otrdienas pēcpusdienā daži iedzīvotāji jau sākuši gatavoties jaunajiem no
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/336/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 335,
