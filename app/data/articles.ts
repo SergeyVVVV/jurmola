@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 338,
+    slug: "riga-introduces-official-polite-sigh-tax",
+    title: {
+      en: "Riga Introduces Official 'Polite Sigh' Tax After City Determines 38% of Public Communication Already Nonverbal",
+      lv: "Rīga ievieš oficiālo «pieklājīgās nopūtienes» nodokli, pēc tam kad pilsēta noskaidroja, ka 38% publiskās komunikācijas jau ir neverbāla",
+      ru: "Рига вводит официальный налог на «вежливое вздыхание» после того, как город установил, что 38% общественного общения уже невербальны"
+    },
+    excerpt: {
+      en: "Riga City Council has approved a municipal surcharge on what officials describe as 'socially load-bearing exhalations' emitted in queues, trams, and apartment stairwells. The measure, they say, will finally bring fiscal order to one of the capital’s most active and underregulated forms of civic participation.",
+      lv: "Rīgas dome apstiprinājusi pašvaldības piemaksu tam, ko amatpersonas raksturo kā «sociāli nesošas izelpas», kas izplatās rindās, tramvajos un daudzdzīvokļu kāpņu telpās. Pēc viņu teiktā, šis pasākums beidzot nodrošinās fiskālo kārtību vienai no galvaspilsētas aktīvākajām un mazāk regulētajām pilsoniskās līdzdalības formām.",
+      ru: "Городской совет Риги одобрил муниципальный сбор на то, что чиновники описывают как «социально значимые выдохи», издаваемые в очередях, трамваях и подъездах. По их словам, мера наконец приведёт в порядок один из самых активных и наименее регулируемых видов гражданского участия столицы."
+    },
+    fullContent: {
+      en: `RIGA — In a 34–19 vote late Tuesday evening, Riga City Council approved the country’s first Polite Sigh Tax, a narrowly targeted municipal levy on the weary, controlled exhalations that have long served as the unofficial punctuation of urban Latvian life. Beginning January 1, residents will pay a variable annual fee based on estimated sigh output, with discounts available for pensioners, public sector clerks, and anyone who has attempted to resolve a question at the Road Traffic Safety Directorate more than three times in one calendar year.
+
+Deputy Chair for Civic Atmosphere Anda Cīrule called the measure 'a practical modernization of emotional infrastructure.' Speaking at a press conference in a room where three reporters audibly demonstrated the taxable behavior, Cīrule said the city could no longer ignore what a 146-page municipal study described as 'persistent unmonetized respiratory commentary occurring in semipublic spaces.'
+
+'For decades, Riga has relied on informal sighing without any coherent administrative framework,' Cīrule said. 'When a person sees that the tram is coming in four minutes but somehow arrives in seven, that sigh has social meaning. It creates mood, consensus, and in some cases a draft. We are simply aligning the budget with lived reality.'
+
+According to the study, conducted by the Riga Institute for Applied Everydayness, the average resident produces 6.4 polite sighs on weekdays and 9.1 on days involving wet snow. In central neighborhoods, the figure rises sharply near self-checkout machines, family clinics, and any bakery where the person ahead asks whether the rye bread is 'the same as before, but somehow softer.' Researchers estimated that 38% of all meaningful communication in Riga now takes place through silence, eyebrow activity, or calibrated disappointment expelled through the nose.
+
+Under the new rules, low-intensity sighers will pay a base rate of €14 per year, while heavy users may face charges up to €89. Premium exemptions can be requested with supporting documentation, including video evidence of standing behind a tourist attempting to understand the concept of an e-talons card. Residents of Purvciems have already been designated a special high-output zone, though city planners stressed this was 'purely meteorological and not personal.'
+
+Not everyone supports the tax. Outside Riga Central Station, 52-year-old office administrator Ilze Vītola said the measure unfairly targets ordinary people. 'I already pay for parking, heating, waste collection, and emotionally processing every renovation project in this city,' she said before releasing what witnesses later described as 'a strong, textbook taxable sigh.' 'Now they want to meter basic discouragement?'
+
+To enforce compliance, the city will pilot acoustic sensors at selected tram stops and in municipal service corridors. Officials insist the devices will not record conversations, only 'breath events of clear civic relevance.' Data will be reviewed by a newly formed Department of Ambient Reactions, whose 27 employees completed training this month in differentiating between a taxable sigh, a frustrated puff, and what documents refer to as 'agricultural snorting brought indoors from the regions.'
+
+Business leaders have welcomed the move. Juris Plūme, owner of the café chain Quiet Bean, said formalizing sigh culture could improve planning. 'Until now, we had no reliable way to forecast the 8:15 a.m. pastry disappointment spike,' he said. 'With proper city data, we can staff accordingly and maybe introduce a laminated menu section titled “Yes, We Also Remember How It Used To Taste.”'
+
+The Ministry of Finance has not ruled out expanding the concept nationally if Riga’s pilot succeeds. Early proposals reportedly include a Seasonal Shrug Rebate and a reduced VAT rate on muttering. For now, city officials say residents should not panic, emphasizing that the first three sighs in any municipal queue will remain free as a gesture of social fairness.
+
+By Wednesday afternoon, hundreds of locals had gathered online to complain that the tax was ridiculous, unnecessary, and probably impossible to administer. City analysts classified the response as 'encouragingly engaged' and projected first-year revenues of €6.2 million, assuming compliance remains moderate and February is as damp as expected.`,
+      lv: `RĪGA — Otrdienas vakarā, ar 34 pret 19 balsīm, Rīgas dome apstiprināja valsts pirmo Pieklājīgās nopūtienes nodokli — mērķtiecīgi vērstu pašvaldības nodevu nomāktajām, kontrolētajām izelpām, kas jau ilgi kalpojušas par neoficiālu pieturzīmi pilsētas latviešu dzīvē. No 1. janvāra iedzīvotāji maksās mainīgu gada maksu, kas aprēķināta pēc aptuvenā nopūtienu apjoma, ar atlaidēm pensionāriem, valsts sektora ierēdņiem un jebkuram, kurš Ceļu satiksmes drošības direkcijā mēģinājis atrisināt kādu jautājumu vairāk nekā trīs reizes vienā kalendārajā gadā.
+
+Par civiskās atmosfēras jautājumos atbildīgā priekšsēdētājas vietniece Anda Cīrule nodokli nosauca par «praktisku emocionālās infrastruktūras modernizāciju». Preses konferencē, telpā, kurā trīs žurnālisti skaļi demonstrēja apliekamo uzvedību, Cīrule sacīja, ka pilsēta vairs nevar ignorēt 146 lappušu pašvaldības pētījumā aprakstīto «pastāvīgo nemetizētu elpošanas komentāru parādību semipubliskās telpās».
+
+«Desmitgades garumā Rīga balstījās uz neformālām nopūtienēm bez nekāda koherentā administratīvā ietvara,» teica Cīrule. «Kad cilvēks redz, ka tramvajs pienāks pēc četriem minūtēm, bet tomēr ierodas pēc septiņām, tā nopūtiene ir sociāli nozīmīga. Tā rada noskaņu, konsensu un dažos gadījumos caurvēju. Mēs vienkārši saskaņojam budžetu ar dzīvi.»
+
+Pētījumā, ko veica Rīgas lietišķās ikdienas institūts, secināts, ka vidējais rīdzinieks darba dienās rada 6,4 pieklājīgas nopūtienes, bet dienās ar slapju sniegu — 9,1. Centrālajos mikrorajonos šis rādītājs strauji palielinās pie pašapkalpošanās kasēm, ģimenes klīnikām un jebkurā maiznīcā, kur priekšā stāvošais jautā, vai rudzu maize ir «tāda pati kā agrāk, tikai kaut kā mīkstāka». Pētnieki lēsa, ka 38% no visiem nozīmīgajiem saziņas aktiem Rīgā tagad notiek klusumā, uzacsu darbībā vai caur degunu izelpoto precizēto vilšanos.
+
+Saskaņā ar jaunajiem noteikumiem zemas intensitātes nopūtēji maksās pamatlikmi 14 € gadā, kamēr intensīvie lietotāji var saskarties ar maksimālām izmaksām līdz 89 €. Īpašas atbrīvojuma statusu varēs pieprasīt, iesniedzot atbilstošus pierādījumus, tostarp video, kurā redzams, ka stāvēts aiz tūrista, kas mēģina saprast e‑talona koncepciju. Purvciems jau ir atzīts par īpašu augsta emisijas zonu, lai gan pilsētplānotāji uzsvēra, ka tas esot «pilnīgi meteoroloģiski, nevis personiski».
+
+Ne visi atbalsta nodokli. Pie Rīgas Centrālās stacijas 52 gadus vecā biroja administratore Ilze Vītola sacīja, ka pasākums negodīgi mērķē uz parastiem cilvēkiem. «Es jau tā maksāju par stāvvietu, apkuri, atkritumu izvešanu un emocionālu visu renovāciju projektu apstrādāšanu šajā pilsētā,» viņa teica, pirms atbrīvoja, ko aculiecinieki vēlāk aprakstīja kā «spēcīgu, rokasgrāmatisku apliekamu nopūtienu». «Tagad viņi grib nosvērt pamatīgu demotivāciju?»
+
+Lai nodrošinātu ievērošanu, pilsēta pilotēs akustiskos sensorus izvēlētajos tramvaja pieturpunktos un pašvaldības apkalpes koridoros. Amatpersonas uzstāj, ka ierīces nesaglabās sarunas, tikai «elpas notikumus ar skaidru civisko relevanci». Datus pārskatīs tikko izveidotais Videoreakciju departaments, kura 27 darbinieki šomēnes pabeidza apmācību, lai atšķirtu apliekamu nopūtienu no sarūgtināta pūta un no dokumentiem minētās «lauku snurkšķēšanas, kas iepludināta iekšā no reģioniem».
+
+Uzņēmēju aprindas sveica šo soli. Kafejnīcu tīkla Quiet Bean īpašnieks Juris Plūme sacīja, ka nopūtienu kultūras formalizēšana varētu uzlabot plānošanu. «Līdz šim mums nebija uzticama veida prognozēt pulksten 8:15 konditorejas izsīkuma pīķi,» viņš teica. «Ar pareiziem pilsētas datiem varam atbilstoši komplektēt personālu un varbūt ieviest laminētu ēdienkarti ar sadaļu “Jā, mēs arī atceramies, kā tas garšoja agrāk”.»
+
+Finanšu ministrija nav izslēgusi iespēju šo koncepciju paplašināt valsts mērogā, ja Rīgas pilots būs veiksmīgs. Sākotnējie priekšlikumi, kā ziņots, ietver Sezonālās pleca paviršanas atlaidi un samazinātu PVN likmi burkšķēšanai. Pašlaik pilsētas amatpersonas aicina iedzīvotājus nepārdzīvot, uzsverot, ka pirmās trīs nopūtienes jebkurā pašvaldības rindā paliks bezmaksas kā sociālas taisnīguma žests.
+
+Trešdienas pēcpusdienā simtiem vietējo bija sapulcējušies tiešsaistē, lai sūdzētos, ka nodoklis ir absurds, lieks un, visticamāk, neizpildāms. Pilsētas analītiķi šo reakciju klasificēja kā «uzmundrinoši iesaistītu» un prognozēja pirmā gada ieņēmumus 6,2 miljonu € apmērā, pieņemot, ka ievērošana saglabāsies mērena un februāris būs tik mitrs, kā paredzēts.`,
+      ru: `РИГА — Вечером во вторник на внеочередном голосовании 34 против 19 депутатов Городского совета Риги приняли первый в стране Налог на вежливое вздыхание — узконаправленный муниципальный сбор на утомлённые, сдержанные выдохи, которые давно служат неофициальной пунктуацией городской латвийской жизни. С 1 января жители будут платить переменную годовую плату, основанную на оценочном объёме вздохов, причём пенсионерам, сотрудникам госучреждений и всем, кто пытался решить вопрос в Директорате безопасности дорожного движения более трёх раз в календарном году, положены скидки.
+
+Заместитель председателя по гражданской атмосфере Анда Чируле назвала меру «практической модернизацией эмоциональной инфраструктуры». Выступая на пресс‑конференции в комнате, где трое журналистов громко продемонстрировали облагаемое поведение, Чируле сказала, что город больше не может игнорировать то, что 146‑страничное муниципальное исследование описывает как «постоянные немонетизированные респираторные комментарии, происходящие в полупубличном пространстве». 
+
+«Десятилетиями Рига полагалась на неформальные вздохи без какого‑либо связного административного каркаса,— сказала Чируле.— Когда человек видит, что трамвай должен прийти через четыре минуты, а приезжает через семь, этот вздох имеет социальное значение. Он создаёт настроение, консенсус и в некоторых случаях сквозняк. Мы просто согласуем бюджет с реальной жизнью». 
+
+Согласно исследованию, проведённому Рижским институтом прикладной повседневности, средний житель издаёт 6,4 вежливых вздоха в будний день и 9,1 в дни с мокрым снегом. В центральных районах эта цифра резко возрастает у касс самообслуживания, в семейных поликлиниках и в любой пекарне, где человек перед вами спрашивает, не «такой же ли это ржаной хлеб, только как‑то мягче». Исследователи оценили, что 38% всего значимого общения в Риге теперь происходит через молчание, движение бровями или отмеренную разочарованность, выплёвываемую через нос.
+
+По новым правилам «слабоинтенсивные» вздыхатели будут платить базовую ставку в €14 в год, в то время как активные пользователи могут получить счета до €89. Освобождения премиум‑уровня можно запрашивать при наличии подтверждающих документов, включая видеодоказательства того, что вы стояли за туристом, пытающимся понять концепцию карты e‑талон. Жителям Пурвциемса уже присвоен статус зоны с повышенным объёмом вздохов, хотя городские планировщики подчёркивали, что это «исключительно метеорологическое, а не персональное» обозначение.
+
+Не все поддерживают налог. У Рижского центрального вокзала 52‑летняя офисная администратор Илзе Витола заявила, что мера несправедливо бьёт по простым людям. «Я и так плачу за парковку, отопление, вывоз мусора и за эмоциональную переработку каждого ремонтного проекта в этом городе», — сказала она, после чего выпустила, как позже описали свидетели, «сильный, эталонный облагаемый вздох». «Теперь они хотят счётчик на базовое разочарование?»
+
+Для обеспечения соблюдения правил город планирует пилотный запуск акустических датчиков на отдельных трамвайных остановках и в коридорах муниципальных служб. Чиновники уверяют, что устройства не будут записывать разговоры, а только «события дыхания явной гражданской релевантности». Данные будут просматривать сотрудники недавно созданного Департамента окружающих реакций, 27 сотрудников которого в этом месяце прошли обучение различению облагаемого вздоха, фрустрированного пыхтения и того, что в документах обозначено как «сельскохозяйственное фырканье, принесённое из регионов». 
+
+Бизнес‑лидеры приветствовали инициативу. Юрис Плюме, владелец сети кафе Quiet Bean, сказал, что формализация культуры вздохов поможет в планировании. «До сих пор у нас не было надёжного способа спрогнозировать утренний пик разочарования с выпечкой в 8:15,— сказал он.— С грамотными городскими данными мы сможем подбирать персонал и, может быть, ввести ламинированный раздел в меню под заголовком „Да, мы тоже помним, как это раньше на вкус было“». 
+
+Министерство финансов не исключает расширения концепции на национальный уровень, если пилот в Риге окажется успешным. В числе ранних предложений — «сезонная скидка за пожатие плечами» и пониженная ставка НДС на бормотание. Пока городские чиновники призывают жителей не паниковать и подчёркивают, что первые три вздоха в любой муниципальной очереди останутся бесплатными в знак социальной справедливости. 
+
+К среде днём сотни местных жителей собрались в интернете, чтобы пожаловаться, что налог нелеп, лишен смысла и, вероятно, невозможен в администрировании. Городские аналитики классифицировали эту реакцию как «обнадеживающе вовлечённую» и спрогнозировали доходы в первый год в размере €6,2 млн при условии умеренного соблюдения и если февраль будет таким же влажным, как ожидается.`
+    },
+    date: "Nov 17, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/338/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 337,
     slug: "jrmala-introduces-silent-thunder-festival-so-337",
     title: {
@@ -110,7 +191,7 @@ Saskaņā ar preses laikā pieejamo informāciju pirmās 400 festivāla biļetes
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/337/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 336,
