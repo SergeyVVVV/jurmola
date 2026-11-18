@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 339,
+    slug: "jrmala-introduces-silent-sand-hours-after",
+    title: {
+      en: "Jūrmala Introduces ‘Silent Sand Hours’ After Residents Complain Sea Is Arriving Too Loudly",
+      lv: "Jūrmala ievieš „Klusās smilšu stundas” pēc tam, kad iedzīvotāji sūdzējās, ka jūra ierodas pārāk skaļi",
+      ru: "Юрмала вводит «часы тихого песка» после жалоб жителей на то, что море приходит слишком громко"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have approved a pilot program requiring the Baltic Sea to reduce wave-related noise between 14:00 and 16:00, following a surge in resident complaints about “aggressive shoreline enthusiasm.” Municipal leaders say the measure is about preserving the town’s historic calm while allowing the sea to remain “culturally expressive in moderation.”",
+      lv: "Jūrmalas amatpersonas apstiprinājušas pilotprojektu, kas prasa Baltijas jūrai samazināt viļņu radīto troksni no plkst. 14:00 līdz 16:00, pēc strauja sūdzību pieauguma par „agresīvu krasta entuziasmu”. Pašvaldības vadība norāda, ka pasākums vērsts uz pilsētas vēsturiskā miers saglabāšanu, vienlaikus atļaujot jūrai „kultūras izpausmes saprātīgā apjomā”.",
+      ru: "Власти Юрмалы утвердили пилотный проект, обязывающий Балтийское море снижать шум волн с 14:00 до 16:00 после всплеска жалоб жителей на «агрессивный прибрежный энтузиазм». Городские чиновники говорят, что мера призвана сохранить историческое спокойствие города, при этом позволяя морю оставаться «культурно выразительным в меру»."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city planners described as “both symbolic and enforceable in spirit,” the Jūrmala City Council on Tuesday voted 11–4 to establish daily Silent Sand Hours, a municipal initiative aimed at lowering the acoustic impact of the Baltic Sea during the most fatigue-sensitive portion of the afternoon.
+
+Beginning next Monday, signs in Latvian, English, Russian, and “firm pictograms” will be installed along Majori, Dzintari, and Bulduri beaches instructing incoming waves to keep noise below 38 decibels from 14:00 to 16:00. The policy follows a 67-page environmental report commissioned after 312 formal complaints were filed last summer alleging that the sea had become “noticeably more opinionated” since the end of the pandemic.
+
+“People do not come to Jūrmala to be suddenly confronted by repeated water,” said Deputy Executive Director for Coastal Harmony Ilze Graudiņa, speaking beside a prototype sign showing a wave with a finger over its mouth. “We support marine activity. We simply believe it should unfold with greater self-awareness.”
+
+According to the report, average surf noise on warm Saturdays in July reached 52 decibels near popular sunbathing zones, with isolated “enthusiasm spikes” of up to 61 near children throwing stones. Researchers from the Baltic Institute of Transitional Acoustics concluded that while the sea remains “an important regional stakeholder,” its current sound profile may no longer reflect Jūrmala’s desired identity as a place where wealthy people can hear themselves recover.
+
+The proposal was strongly backed by local residents in quieter villa districts, many of whom said the sea’s rhythm had grown less refined. “It used to suggest itself gently in the background,” said retired dentist and year-round Dzintari resident Guntars Veldre, 71. “Now by 15:30 it’s doing the same splash again and again, as if nobody understood it the first 400 times.”
+
+Not everyone is convinced. Beach vendors have warned that reduced wave noise may affect sales of smoked fish, coffee, and emergency cardigans. “The sound of the sea covers a lot of important truths about pricing,” said kiosk operator Marina Bērziņa, who runs a seasonal stand near the concert hall. “If the beach gets too quiet, people start asking why a waffle costs €9.50.”
+
+To address enforcement concerns, the municipality has allocated €184,000 for a Coastal Courtesy Task Force, including two shoreline mediators, one part-time hydrographic consultant, and a ceremonial whistle to be used in cases of excessive surf. Officials stressed that penalties would initially be educational. “This is not about punishing the Baltic,” said council chair Aivars Lācis. “This is about creating dialogue with it, ideally one in which it listens.”
+
+Early trials conducted this month reportedly showed mixed results. During a 90-minute test near Melluži, volunteers stood facing the water and held up yellow cards each time a wave exceeded the recommended emotional intensity. While several participants described the exercise as “healing,” the sea itself showed little measurable compliance and at one point advanced several meters without submitting the required acknowledgment form.
+
+Environmental groups have criticized the program as superficial, noting that coastal erosion, stormwater runoff, and climate resilience remain unresolved. City officials countered that the silent-hours initiative is only Phase One of a broader strategy to modernize relations with nature. Future measures under consideration include designated low-sigh pine zones, a reservation system for sunsets, and a pilot project asking seagulls to separate their cries into weekday and weekend categories.
+
+By Tuesday evening, workers had already begun installing the first informational placards. One, positioned prominently near a beach entrance in Majori, reads: “Thank you for choosing Jūrmala. Please enjoy the sea responsibly.”`,
+      lv: `JŪRMALA — Pilsētplānotāji šo lēmumu raksturoja kā „gan simbolisku, gan garu izpildāmu”, kad otrdien Jūrmalas dome nobalsoja 11 pret 4 par ikdienas Klusajām smilšu stundām — pašvaldības iniciatīvu, kas paredz samazināt Baltijas jūras akustisko ietekmi dienas noguruma jutīgākajā stundā.
+
+Sākot ar nākamo pirmdienu, Majori, Dzintari un Bulduri pludmalēs tiks izvietotas norādes latviešu, angļu, krievu valodā un ar saprotamām piktogrammām, kas instruktē ienākošos viļņus turēt trokšņa līmeni zem 38 decibeliem no plkst. 14:00 līdz 16:00. Politika pieņemta pēc 67 lappušu vides ziņojuma, kas pasūtīts pēc 312 formālām sūdzībām pagājušajā vasarā, kurās apgalvots, ka jūra kopš pandēmijas beigām kļuvusi „pamanāmi pieredzīgu viedokļu pilna”.
+
+„Cilvēki nebrauc uz Jūrmalu, lai pēkšņi tiktu konfrontēti ar atkārtotu ūdeni,” sacīja piekrastes harmonijas vietniece izpilddirektore Ilze Graudiņa, stāvot blakus prototipa zīmei ar viļņa attēlu, kuram pie mutes turot pirkstu. „Mēs atbalstām jūras aktivitātes. Vienkārši uzskatām, ka tās jāizpauž ar lielāku pašapziņu.”
+
+Ziņojuma dati liecina, ka siltās jūlija sestdienās vidējais laušanās troksnis pie populārām sauļošanās zonām sasniedza 52 decibelus, ar izolētiem „entuziasma uzliesmojumiem” līdz 61 decibelam bērnu metamu akmeņu tuvumā. Pārejas akustikas Baltijas institūta pētnieki secināja, ka, lai gan jūra joprojām ir „svarīgs reģionālais ieinteresētais”, tās pašreizējais skaņas profils vairs var neatspoguļot Jūrmalas vēlamo identitāti — vietu, kur turīgi cilvēki var dzirdēt, kā viņi atkopjas.
+
+Priekšlikumu stingri atbalstīja vietējie iedzīvotāji klusākajās villas rajonos, daudzi norādot, ka jūras ritms kļuvis mazāk izsmalcināts. „Agrāk tā maigi ierosināja sevi fonā,” sacīja pensionētais zobārsts un visu gadu Dzintaros dzīvojošais Guntars Veldre, 71 gadu. „Tagad līdz 15:30 tā atkal un atkal izdara to pašu šļakstu, it kā neviens to nebūtu sapratis pirmajās 400 reizēs.”
+
+Ne visi ir pārliecināti. Pludmales tirgotāji brīdinājuši, ka samazināts viļņu troksnis var ietekmēt kūpinātu zivju, kafijas un „avārijas džemperu” pārdošanu. „Jūras skaņa sedz daudz svarīgu patiesību par cenu noteikšanu,” sacīja kioska īpašniece Marina Bērziņa, kas vada sezonas stendu pie koncertzāles. „Ja pludmale kļūs pārāk klusa, cilvēki sāks prātot, kāpēc vafele maksā 9,50 €.”
+
+Lai risinātu uzraudzības jautājumus, pašvaldība atvēlējusi 184 000 € Piekrastes pieklājības uzdevumu grupai, kurā ietilpst divi krasta mediatoru amata pienākumi, viens pusslodzes hidrogrāfijas konsultants un ceremoniela svilpe, kas tiks izmantota pārmērīgas laušanās gadījumos. Amatpersonas uzsvēra, ka sods sākotnēji būs izglītojošs. „Šis nav sodīšanas akts Baltijai,” sacīja domes priekšsēdētājs Aivars Lācis. „Tas ir dialogs ar to, vēlams tāds, kurā tā arī ieklausās.”
+
+Šī mēneša agrīnās pārbaudes, kā ziņots, parādījušas dažādus rezultātus. 90 minūšu testā pie Mellužiem brīvprātīgie stāvēja, raugoties uz ūdeni, un katru reizi, kad vilnis pārsniedza ieteikto emocionālo intensitāti, pacēla dzeltenas kartītes. Lai gan vairāki dalībnieki vingrinājumu raksturoja kā „dziedinošu”, pati jūra maz mērāmi pakļāvās un vienā brīdī iestiepās vairākus metrus uz priekšu, nepiedodot prasīto atzīšanās veidlapu.
+
+Vides grupas kritizējušas programmu kā virspusēju, norādot, ka piekrastes eroze, lietusūdeņu nosusināšana un klimata noturība joprojām nav atrisināti jautājumi. Pilsētas amatpersonas atrunājās, ka klusās stundas ir tikai Pirmais posms plašākai stratēģijai attiecībās ar dabu. Nākotnē apsverami pasākumi ietver noteiktas „zemu nopūtu” priežu zonas, saulrietus rezervējošu sistēmu un pilotprojektu, kurā kaijas lūgtu sadalīt savus kliedzienus darbdienu un nedēļas nogales kategorijās.
+
+Otrdienas vakarā darbinieki jau sāka uzstādīt pirmās informatīvās plāksnes. Viena, izteikti novietota pie pludmales ieejas Majoros, vēsta: „Paldies, ka izvēlējāties Jūrmalu. Lūdzu, izbaudiet jūru atbildīgi.”`,
+      ru: `ЮРМАЛА — В шаге, который городские планировщики охарактеризовали как «и символический, и исполнимый по духу», Городской совет Юрмалы во вторник проголосовал 11 голосами против 4 за учреждение ежедневных Часов тихого песка, муниципальной инициативы, направленной на снижение акустического воздействия Балтийского моря в наиболее уязвимую к усталости часть дня.
+
+Начиная со следующего понедельника вдоль пляжей Майори, Дзинтари и Булдури будут установлены таблички на латышском, английском, русском языках и «чёткие пиктограммы», инструктирующие приходящие волны не превышать 38 децибел с 14:00 до 16:00. Политика последовала за 67-страничным экологическим отчётом, заказанным после того, как прошлым летом было подано 312 официальных жалоб с утверждением, что море стало «заметно более вольнодумным» со времени окончания пандемии.
+
+«Люди не приезжают в Юрмалу, чтобы внезапно сталкиваться с повторяющейся водой», — сказала заместитель исполнительного директора по прибрежной гармонии Илзе Граудиня, стоя рядом с прототипом таблички, на которой изображена волна с пальцем у рта. «Мы поддерживаем морскую активность. Просто считаем, что она должна разворачиваться с большим самосознанием». 
+
+Согласно отчёту, средний уровень шума прибоя в тёплые субботы июля достигал 52 децибел вблизи популярных зон для загорания, с единичными «всплесками энтузиазма» до 61 децибела в местах, где дети бросают камни. Исследователи из Балтийского института переходной акустики пришли к выводу, что, хотя море остаётся «важной региональной заинтересованной стороной», его нынешний звуковой профиль, возможно, уже не отражает желаемый образ Юрмалы как места, где состоятельные люди могут услышать, как они восстанавливаются.
+
+Предложение получило решительную поддержку местных жителей спокойных вилльных районов, многие из которых заявили, что ритм моря стал менее утончённым. «Раньше оно тихо намекало на себя на заднем плане», — сказал 71‑летний Гунтарс Велдре, отставной стоматолог и круглогодичный житель Дзинтари. «Теперь к 15:30 оно делает тот же плеск снова и снова, как будто никто не понял это с первых четырёхсот раз». 
+
+Не все убеждены. Продавцы на пляже предупредили, что снижение шумности волн может повлиять на продажи копчёной рыбы, кофе и аварийных кардиганов. «Звук моря прикрывает многие важные истины о ценообразовании», — сказала киоскерша Марина Бērзиня, которая держит сезонную точку у концертного зала. «Если пляж станет слишком тихим, люди начнут спрашивать, почему вафля стоит €9,50». 
+
+Для решения вопросов соблюдения порядка муниципалитет выделил €184,000 на «Дорожную группу приличия побережья», в состав которой войдут два прибрежных медиатора, один внештатный гидрографический консультант и церемониальный свисток для случаев чрезмерного прибоя. Чиновники подчеркнули, что санкции поначалу будут просветительскими. «Речь не о наказании Балтики», — сказал председатель совета Айварс Лачис. «Речь о создании с ней диалога, желательно такого, в котором она слушает». 
+
+Ранние испытания, проведённые в этом месяце, по сообщениям, показали смешанные результаты. Во время 90‑минутного теста у Меллужи волонтёры стояли лицом к воде и поднимали жёлтые карточки каждый раз, когда волна превышала рекомендованную эмоциональную интенсивность. В то время как несколько участников описали упражнение как «исцеляющее», само море проявило мало измеримого послушания и в одном случае продвинулось на несколько метров, не подав требуемую форму подтверждения.
+
+Экологические организации раскритиковали программу как поверхностную, отметив, что прибрежная эрозия, ливневый сток и климатическая устойчивость остаются нерешёнными. Городские власти же возразили, что инициатива тихих часов — лишь Фаза Первая более широкой стратегии модернизации отношений с природой. В числе будущих мер, находящихся на рассмотрении: специально выделенные «зоны для сосен с тихими вздохами», система бронирования закатов и пилотный проект, в котором чайкам предложат разделять свои крики на будничные и выходные категории.
+
+К вечеру вторника рабочие уже начали устанавливать первые информационные таблички. Одна из них, расположенная заметно у входа на пляж в Майори, гласит: «Спасибо, что выбрали Юрмалу. Пожалуйста, наслаждайтесь морем ответственно.»`
+    },
+    date: "Nov 18, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/339/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 338,
     slug: "riga-introduces-official-polite-sigh-tax",
     title: {
@@ -96,7 +177,7 @@ Trešdienas pēcpusdienā simtiem vietējo bija sapulcējušies tiešsaistē, la
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/338/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 337,
