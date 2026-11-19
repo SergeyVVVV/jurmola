@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 340,
+    slug: "jrmala-introduces-silent-applause-zones-to-340",
+    title: {
+      en: "Jūrmala Introduces Silent Applause Zones To Protect Wealthy Residents From Emotional Disturbance",
+      lv: "Jūrmala ievieš klusā aplausa zonas, lai pasargātu turīgos iedzīvotājus no emocionālas satricināšanas",
+      ru: "Юрмала вводит зоны тихих аплодисментов, чтобы защитить состоятельных жителей от эмоциональных потрясений"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala this week unveiled a pilot program requiring all public expressions of enthusiasm to be conducted below 34 decibels in designated coastal neighborhoods. The city says the measure will preserve \"acoustic dignity\" for villa owners while allowing ordinary residents to continue celebrating municipal achievements through approved hand gestures.",
+      lv: "Šonedēļ Jūrmalas pašvaldība atklāja pilotprogrammu, kas paredz, ka visas publiskās sajūsmas izpausmes norobežotajos piejūras kvartālos jāveic zem 34 decibeliem. Pilsēta uzsver, ka mērs saglabās villa īpašnieku «akustisko cienīgu», vienlaikus ļaujot parastajiem iedzīvotājiem turpināt svinēt pašvaldības sasniegumus ar apstiprinātām roku gestu formām.",
+      ru: "Чиновники Юрмалы на этой неделе представили пилотную программу, согласно которой все публичные проявления восторга в обозначенных прибрежных районах должны происходить ниже 34 децибел. По словам города, мера сохранит «акустическое достоинство» владельцев вилл, одновременно позволяя обычным жителям продолжать праздновать муниципальные достижения с помощью одобренных ручных жестов."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move city leaders are calling a necessary compromise between civic life and premium real estate values, Jūrmala Municipality on Tuesday launched Latvia’s first network of Silent Applause Zones, special areas in which clapping, cheering, and spontaneous public joy must be performed in near silence.
+
+The program, already marked by discreet beige signage along Dzintari Avenue and near several gated dune-adjacent properties, applies to roughly 3.2 kilometers of the city’s most affluent coastline. Residents and visitors are still permitted to express approval, according to the municipality, but only through "low-impact acknowledgment methods" including finger fluttering, solemn nodding, and what one city pamphlet describes as "respectful exhalation."
+
+"We are not banning happiness," said Deputy Executive Director for Seasonal Harmony Ilze Pabērza at a press conference held on a carpeted platform to reduce shoe noise. "We are simply ensuring that happiness is not weaponized acoustically against people who made responsible property decisions in the late 2000s. A city must think about everyone, especially those with panoramic windows."
+
+The measure follows 47 formal complaints filed last summer by villa owners who reported being exposed to disruptive sounds from open-air concerts, wedding toasts, and one children’s puppet performance in which a papier-mâché hedgehog received what documents described as "prolonged and emotionally aggressive applause."
+
+Under the new rules, any applause exceeding 34 decibels between 18:00 and 23:00 may trigger intervention by the Municipal Courtesy Unit, a newly formed six-person team equipped with velvet gloves, laminated warning cards, and portable sound meters calibrated in cooperation with Riga Technical University. First-time offenders will receive guidance on safer appreciation techniques; repeated violations may result in mandatory attendance at a weekend seminar, "Celebrating Internally: A Baltic Approach."
+
+At Thursday’s pilot demonstration near the Jūrmala Concert Hall, city staff modeled acceptable reactions to a saxophone recital. Journalists observed several forms of compliant enthusiasm, including controlled blinking and a synchronized eyebrow raise. One retired schoolteacher from Melluži, 68-year-old Velta Grīnberga, said the concept was difficult at first but ultimately manageable.
+
+"I used to clap with my whole personality," Grīnberga admitted. "Now I keep my hands near each other and think appreciative thoughts. It feels less natural, but also more European."
+
+Not all residents are convinced. Local café owner Andris Svikulis said enforcement would create unnecessary confusion during wedding season, when distinguishing between regular noise and premium-approved silence can be challenging.
+
+"Last year we had a bride’s uncle who already applauded like a frightened moth," Svikulis said. "Under these rules he’ll be considered a model citizen, while everyone else gets fined for basic sincerity."
+
+City data analysts estimate the policy could reduce annual "luxury irritation incidents" by 62 percent while increasing silent hand-related muscle strain by 14 percent. Early support has come from several homeowners’ associations, including the Dune Preservation Circle, whose chairwoman Maija von Bulduri praised the municipality for recognizing that noise pollution can include "sounds of other people enjoying municipally tolerated culture."
+
+National politicians have so far declined to intervene, though one unnamed Saeima member was overheard calling the policy "the most Jūrmala thing since heated driveways for summer homes."
+
+By Friday evening, compliance appeared mixed. Near a sunset jazz performance, one group of tourists from Finland attempted a conventional clap before being gently surrounded by Courtesy Unit staff and offered a brochure in four languages. They reportedly switched to nodding within minutes.
+
+Municipal leaders say the trial will continue through August, after which officials may consider expanding Silent Applause Zones to include selected portions of Riga where expensive renovations have made residents newly vulnerable to ordinary life. Until then, Jūrmala authorities are urging the public to celebrate responsibly, softly, and, where possible, inwardly.`,
+      lv: `JŪRMALA — Pilsētas vadības saukts par nepieciešamu kompromisu starp pilsētas dzīvi un dārgā nekustamā īpašuma vērtībām, Jūrmalas pašvaldība otrdien uzsāka Latvijas pirmo Klusā aplausa zonu tīklu — īpašas teritorijas, kurās plaukstu plaukšķināšana, ovācijas un spontāra publiska prieka izpausmes jāveic gandrīz pilnīgā klusumā.
+
+Programma, kas jau apzīmēta ar neuzkrītošām bēšām norādēm gar Dzintaru prospektu un pie vairākiem vārtotiem kopām pieguļošo īpašumu, attiecas uz aptuveni 3,2 kilometriem pilsētas visturīgākās piekrastes. Pašvaldība apgalvo, ka iedzīvotājiem un viesiem joprojām atļauts izrādīt atzinību, taču tikai izmantojot «zema ietekmes apliecināšanas metodes», tostarp pirkstu vālēšanu, nožēlojamu galvas mājienu un to, ko viens no pilsētas bukleti raksturo kā «cieņpilnu izelpu».
+
+"Mēs neliedzam laimi," preses konferencē, kas notika uz paklājotas skatu platformas, lai samazinātu soļu troksni, sacīja Sezonālās harmonijas vietniece izpilddirektore Ilze Pabērza. "Mēs vienkārši nodrošinām, ka laime netiek akustiski izmantota kā ierocis pret cilvēkiem, kuri 2000. gadu beigās pieņēma atbildīgus nekustamā īpašuma lēmumus. Pilsētai jādomā par visiem, īpaši tiem ar panorāmas logiem."
+
+Mērs seko 47 formālām sūdzībām, kas pagājušajā vasarā iesniegtas no villa īpašniekiem — viņi ziņoja par traucējošiem skaņas avotiem no brīvā lauka koncertiem, kāzu tostiem un viena bērnu leļļu priekšnesuma, kurā papiermašē ezis, kā dokumentos aprakstīts, saņēma "ilgstošu un emocionāli agresīvu aplausu".
+
+Saskaņā ar jaunajiem noteikumiem jebkurš aplausu līmenis, kas pārsniedz 34 decibelus laikā no pulksten 18:00 līdz 23:00, var izsaukt Pašvaldības pieklājības vienības iejaukšanos — nesen izveidotu sešu personu komandu, aprīkotu ar samta cimdiem, laminētām brīdinājuma kartītēm un pārnēsājamiem skaņas mērītājiem, kas kalibrēti sadarbībā ar Rīgas Tehnisko universitāti. Pirmreizēji pārkāpēji saņems norādījumus par drošākām atzinības tehnikām; atkārtoti pārkāpumi var beigties ar obligātu dalību nedēļas nogalē rīkotā seminārā "Svinēt iekšēji: Baltijas pieeja".
+
+Ceturtdienas pilotdemonstrācijā pie Jūrmalas koncertzāles pilsētas darbinieki demonstrēja pieņemamas reakcijas uz saksofona recitālu. Žurnālisti novēroja vairākas atbilstošas sajūsmas formas, tostarp kontrolētu mirkšķināšanu un sinhronizētu uzacu pacelšanu. Viena pensionēta skolotāja no Mellužiem, 68 gadus vecā Velta Grīnberga, atzina, ka sākumā koncepts šķitis grūts, taču galu galā ir pārvaldāms.
+
+"Es plaukšķināju ar visu savu personību," Grīnberga piebilda. "Tagad turu rokas viena otrai tuvu un domāju pateicīgas domas. Tas šķiet mazāk dabiski, bet arī vairāk Eiropiski."
+
+Ne visi iedzīvotāji ir pārliecināti. Vietējā kafejnīcas īpašnieks Andris Svikulis brīdināja, ka uzraudzība radīs nevajadzīgu haosu kāzu sezonā, kad atšķirt parastu troksni no premium-apstiprinātā klusuma var būt sarežģīti.
+
+"Pagājušajā gadā mums bija līgavas onkulis, kurš jau plaukšķināja kā nobijies mētelis," Svikulis teica. "Pēc šo noteikumu spēkā stāšanās viņš tiks uzskatīts par paraugiem pilsoni, kamēr visi pārējie saņems sodus par pamatīgu sirsnību."
+
+Pilsētas datu analītiķi lēš, ka politika varētu samazināt gadā reģistrēto "greznības kairinājuma incidentu" skaitu par 62 procentiem, vienlaikus palielinot klusā rokas muskuļu pārspriegumu par 14 procentiem. Agrīvu atbalstu sniegušas vairākas namu biedrības, tostarp Kupu saglabāšanas biedrība, kuras priekšsēdētāja Maija fon Bulduri slavēja pašvaldību par atzīšanu, ka trokšņu piesārņojums var ietvert arī "citu cilvēku prieka skaņas, ko pašvaldība tolerē".
+
+Nacionālie politiķi pagaidām atteikušies iejaukties, lai gan viens nenosaukts Saeimas deputāts tika dzirdēts apzīmējot politiku par "visjūrmaliskāko lietu kopš apsildāmajām brauktuvēm vasarnīcām".
+
+Pie piektdienas vakara apkārtnes izskatījās jaukta ievērošana. Sauleslīdes džeza priekšnesuma laikā viena Somijas tūristu grupa mēģināja tradicionāli plaukšķināt, pirms pieklājības vienības darbinieki viņus maigā veidā apņēma un piedāvāja bukletu četrās valodās. Viņi, kā ziņots, pārgāja uz galvas mājienu dažu minūšu laikā.
+
+Pašvaldības vadība norāda, ka izmēģinājums turpināsies līdz augustam, pēc tam amatpersonas varētu apsvērt Klusā aplausa zonu paplašināšanu uz atsevišķām Rīgas daļām, kur dārgas renovācijas padarījušas iedzīvotājus jaunā mērā jūtīgus pret parastu dzīvi. Līdz tam Jūrmalas varas iestādes aicina sabiedrību svinēt atbildīgi, klusi un, ja iespējams, iekšēji.`,
+      ru: `ЮРМАЛА — В шаге, который городские власти называют необходимым компромиссом между гражданской жизнью и стоимостью элитной недвижимости, муниципалитет Юрмалы во вторник запустил первую в Латвии сеть Зон тихих аплодисментов, специальные участки, где хлопки, возгласы и спонтанная общественная радость должны исполняться почти бесшумно.
+
+Программа, уже отмеченная сдержанной бежевой навигацией вдоль Проспекта Дзинтари и около нескольких огороженных участков у дюн, охватывает примерно 3,2 километра самого богатого побережья города. По словам властей, жители и гости по-прежнему имеют право выражать одобрение, но только «методами низкого акустического воздействия», включая трепетание пальцами, торжественное кивание и то, что городская брошюра называет «уважительным выдыханием».
+
+«Мы не запрещаем счастье», — заявила заместитель исполнительного директора по сезонной гармонии Илзе Паберца на пресс-конференции, проведённой на ковровой помосте, чтобы уменьшить шум от обуви. «Мы просто гарантируем, что счастье не будет использоваться как звуковое оружие против тех, кто принял ответственные решения о недвижимости в конце 2000-х. Город должен думать о всех, особенно о тех, у кого панорамные окна.»
+
+Мера последовала за 47 официальными жалобами, поданными владельцами вилл прошлым летом: они сообщали о нарушениях тишины из‑за концертов на открытом воздухе, свадебных тостов и даже одного детского кукольного представления, в котором еж из папье‑маше подвергся, как сказано в документах, «продолжительным и эмоционально агрессивным аплодисментам».
+
+Согласно новым правилам, любые аплодисменты свыше 34 децибел в период с 18:00 до 23:00 могут привести к вмешательству Отдела муниципальной вежливости, недавно сформированного шестичленного подразделения, оснащённого бархатными перчатками, ламинированными карточками‑предупреждениями и портативными шумомерами, откалиброванными совместно с Рижским техническим университетом. Нарушителям, пойманным впервые, дадут инструкции по более безопасным методам выражения признательности; повторные нарушения могут повлечь обязательное посещение уикенд‑семинара «Празднование внутри себя: балтийский подход».
+
+На пилотной демонстрации в четверг у Юрмальского концертного зала сотрудники города продемонстрировали приемлемые реакции на саксофонный концерт. Журналисты наблюдали несколько форм compliant‑энтузиазма, включая контролируемое моргание и синхронный подъём бровей. Одна пенсионерка‑учительница из Меллужей, 68‑летняя Велта Гринберга, призналась, что сначала идея давалась тяжело, но в итоге выполнима.
+
+«Раньше я аплодировала всей своей личностью», — призналась Гринберга. «Теперь держу руки близко и думаю благодарные мысли. Это менее естественно, но и более по‑европейски.»
+
+Не все жители убеждены. Владелец местного кафе Андрис Свикулис сказал, что исполнение правил создаст ненужную путаницу в свадебный сезон, когда отличить обычный шум от премиально‑одобренной тишины бывает непросто.
+
+«В прошлом году у нас был дядя невесты, который аплодировал как испуганный мотылёк», — рассказал Свикулис. «По этим правилам его будут считать образцовым гражданином, а всех остальных оштрафуют за элементарную искренность.»
+
+Городские аналитики данных оценивают, что политика может сократить ежегодное число «инцидентов роскошного раздражения» на 62 процента и одновременно увеличить беззвучное мышечное напряжение рук на 14 процентов. Раннюю поддержку высказали несколько товариществ собственников, включая Круг сохранения дюн, председательница которого Майя фон Булдури похвалила муниципалитет за признание того, что шумовое загрязнение может включать «звуки того, как другие люди наслаждаются муниципально терпимой культурой».
+
+Национальные политики пока воздерживаются от вмешательства, хотя один неназванный депутат Сейма был подслушан, как он охарактеризовал политику «самой юрмальской вещью со времён тёплых подъездов к дачам». 
+
+К пятничному вечеру соблюдение правил выглядело смешанным. На джазовом концерте под закат одна группа туристов из Финляндии попыталась обычным образом хлопнуть в ладоши, прежде чем их нежно окружили сотрудники Отдела вежливости и вручили брошюру на четырёх языках. По сообщениям, они переключились на кивание через несколько минут.
+
+Муниципальные лидеры заявляют, что испытание продлится до конца августа, после чего чиновники могут рассмотреть расширение Зон тихих аплодисментов на избранные районы Риги, где дорогостоящие ремонты сделали жителей особенно уязвимыми к обычной жизни. До тех пор власти Юрмалы призывают население праздновать ответственно, тихо и, по возможности, внутренне.`
+    },
+    date: "Nov 19, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/340/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 339,
     slug: "jrmala-introduces-silent-sand-hours-after",
     title: {
@@ -96,7 +195,7 @@ Otrdienas vakarā darbinieki jau sāka uzstādīt pirmās informatīvās plāksn
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/339/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 338,
