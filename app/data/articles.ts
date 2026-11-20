@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 341,
+    slug: "riga-introduces-silent-tram-car-for-341",
+    title: {
+      en: "Riga Introduces Silent Tram Car for Passengers Who Want to Judge Others Without Small Talk",
+      lv: "Rīga ievieš klusā tramvaja vagonu pasažieriem, kuri vēlas tiesāt citus bez mazsazīšanās",
+      ru: "Рига вводит тихий трамвайный вагон для пассажиров, желающих осуждать других без светской беседы"
+    },
+    excerpt: {
+      en: "Riga public transport officials on মঙ্গলবার unveiled a new “silent tram car” designed for residents who wish to commute in complete social hostility. The pilot program, already described by city planners as “the most culturally intuitive infrastructure project in decades,” bans phone calls, eye contact, and cheerful greetings before 11:00 a.m.",
+      lv: "Rīgas sabiedriskā transporta pārstāvji otrdien atklāja jaunu „klusā tramvaja vagonu”, paredzētu iedzīvotājiem, kas vēlas braukt pilnīgā sociālajā naidā. Pilotprogramma, ko pilsētplānotāji jau nosaukuši par „kultūras ziņā saprotamāko infrastruktūras projektu desmitgadēs”, aizliedz telefona zvanus, acu kontaktu un priecīgus sveicienus pirms pulksten 11:00.",
+      ru: "Во вторник чиновники рижского транспорта представили новый «тихий трамвайный вагон», предназначенный для жителей, которые хотят ездить в полной социальной враждебности. Пилотная программа, уже названная городскими планировщиками «самым культурно интуитивным инфраструктурным проектом за десятилетия», запрещает телефонные звонки, зрительный контакт и бодрые приветствия до 11:00."
+    },
+    fullContent: {
+      en: `RIGA — In what municipal leaders are calling a landmark investment in emotional realism, Rīgas Satiksme this week launched a pilot “silent tram car” on the No. 11 route, offering commuters a dedicated space in which they can stare out the window, clutch a tote bag full of root vegetables, and silently form negative opinions about everyone else on board.
+
+The initiative, introduced Monday at a subdued ribbon-cutting ceremony outside the National Theatre, is part of the city’s new 2030 mobility strategy, Quiet Movement for a Serious Population. The first tram car entered service at 7:14 a.m., when transport officials confirmed it reached 83% occupancy within three stops, largely by passengers migrating away from a nearby student who had begun explaining podcast equipment to his friend.
+
+Under the new rules, passengers in the silent car are prohibited from taking phone calls, playing audio aloud, initiating weather-related conversations, or sighing theatrically in a way that invites follow-up questions. Signs posted in Latvian, Russian, and “meaningful silence” inform riders that acceptable behavior includes looking mildly disappointed, reading packaging from pharmacy products, and giving up one’s seat with the facial expression of someone accepting a tragic historical duty.
+
+“This is not about exclusion,” said Rīgas Satiksme spokesperson Ilze Marnauza, standing beside a laminated diagram titled Preferred Angles for Avoiding Interaction. “This is about giving people the freedom to be publicly unavailable. For too long, passengers have been forced into unpredictable exposure to friendliness, especially during rain.”
+
+According to city data, the average Riga commuter already spends 68% of a tram journey pretending not to hear something and an additional 19% trying to determine whether another passenger’s umbrella is touching them on purpose. A municipal survey of 2,400 residents found that 91% supported the silent car, 6% opposed it on constitutional grounds, and 3% refused to answer, which planners said demonstrated ideal eligibility for the service.
+
+Many riders praised the pilot for formalizing a long-standing social custom. “Usually, silence on public transport is achieved through individual effort,” said Purvciems resident Andris Liepiņš, 42, while carefully repositioning himself to avoid standing near optimism. “Now the city is finally providing institutional support. It feels European in a cold but respectable way.”
+
+Not everyone is convinced. Elīna Zepa, a 23-year-old marketing intern from Āgenskalns, said she accidentally entered the silent car while laughing at a message and was immediately “corrected by around twelve faces at once.” She described the experience as “more efficient than any formal education.”
+
+Officials said early incidents have been minimal. On Tuesday morning, one man was escorted out after saying “Well, at least the sun is out” to nobody in particular. In a separate case, inspectors issued a warning to a passenger whose reusable coffee cup bore the phrase GOOD VIBES ONLY in gold lettering.
+
+The city has already begun evaluating an expansion of the concept. Proposed additions include a “lightly disapproving family compartment” on regional trains, a queue at Central Station reserved for people who prepared their documents in advance, and a premium monthly pass allowing riders to press a button that briefly frosts the glass partition when approached by acquaintances.
+
+Mayor Vilnis Dreimanis called the silent car a practical response to the needs of the capital. “Riga is a modern city,” he said. “Our residents deserve transport options that reflect who they are: tired, dignified, and deeply unwilling to discuss their weekend plans.”
+
+By late afternoon, transport officials declared the pilot an operational success after measuring what they described as “record-low conversational leakage.” Plans are already underway for winter adaptations, including heated seats and a special section for passengers who wish to remove one glove, hold a warm bakery item, and look out at the Daugava as if remembering something nobody else could possibly understand.`,
+      lv: `RĪGA — To, ko pašvaldības vadība sauc par nozīmīgu ieguldījumu emocionālajā realizmā, šonedēļ Rīgas Satiksme nodeva ekspluatācijā pilotprojektu — „klusā tramvaja vagonu” 11. maršrutā, piedāvājot pasažieriem īpašu telpu, kurā var skatīties pa logu, stingri satvert auduma maisiņu, pilnu sakņu dārzeņu, un klusējot izveidot negatīvas domas par visiem pārējiem vagona pasažieriem.
+
+Iniciatīva pirmdien tika prezentēta uz klusas lentas griešanas ceremonijas pie Nacionālā teātra un ir daļa no pilsētas jaunās 2030. gada mobilitātes stratēģijas „Klusa kustība nopietnam iedzīvotājam”. Pirmais vagons sāka kursēt plkst. 7:14, kad transporta amatpersonas apgalvoja, ka trīs pieturu laikā tā piepildījums sasniedza 83%, galvenokārt pateicoties pasažieriem, kuri attālāki migrēja prom no blakus esoša studenta, kas sāka skaidrot podkāstu aprīkojumu draugam.
+
+Saskaņā ar jaunajiem noteikumiem klusajā vagonā pasažieriem ir aizliegts runāt pa telefonu, atskaņot audio skaļi, uzsākt ar laika apstākļiem saistītas sarunas vai teātriski nopūsties tā, lai tas mudinātu citus uz turpmākiem jautājumiem. Norādes latviešu, krievu un "jēgpilnas klusēšanas" valodā informē braucējus, ka pieņemama uzvedība ietver nedaudz vīlušos skatienu, aptiekas preču iepakojuma lasīšanu un atkāpšanos no sēdvietas sejas izteiksmē, kas līdzinās cilvēkam, kurš pieņem traģiska vēstures pienākumu.
+
+"Tas nav par izslēgšanu," sacīja Rīgas Satiksmes pārstāve Ilze Marnauza, stāvot blakus laminētai shēmai ar nosaukumu "Vēlamie leņķi, lai izvairītos no mijiedarbības". "Tas ir par došanu cilvēkiem brīvību publiski nebūt pieejamiem. Pārāk ilgi pasažieri tika spiesti neatlaidīgi sastapties ar neparedzamu draudzīgumu, īpaši lietū."
+
+Pilsētas datu pēc vidējais rīdzinieks jau tagad 68% tramvaja brauciena laika izlikas, ka neko nedzird, un vēl 19% mēģināja noskaidrot, vai cita pasažiera lietussargs viņu pieskaras tīši. Pašvaldības aptauja ar 2400 iedzīvotājiem atklāja, ka 91% atbalsta klusā vagonu, 6% iebilst konstitucionālu apsvērumu dēļ, un 3% atteicās atbildēt, ko plānotāji norādīja kā ideālu piemērotību šim pakalpojumam.
+
+Daudzi braucēji slavēja pilotprogrammu par ilgstošas sociālās paražas formalizēšanu. "Parasti klusums sabiedriskajā transportā tiek panākts ar individuālu pūliņu," sacīja Purvciema iedzīvotājs Andris Liepiņš, 42, uzmanīgi pārvietojoties, lai izvairītos no stāvēšanas tuvu optimisma avotam. "Tagad pilsēta beidzot nodrošina institucionālu atbalstu. Tas šķiet eiropiski — auksti, bet cienījami."
+
+Ne visi ir pārliecināti. Elīna Zepa, 23 gadus veca mārketinga praktikante no Āgenskalna, stāstīja, ka nejauši bija iekļuvusi klusajā vagonā, smieties par ziņu un uzreiz tika "koriģēta aptuveni divpadsmit seju vienlaikus". Viņa pieredzi raksturoja kā "efektīvāku nekā jebkāda formāla izglītība".
+
+Amatpersonas teica, ka sākotnējie incidenti bijuši minimāli. Otrdienas rītā viens vīrietis tika izvests ārā pēc tam, kad, runājot ne pie viena konkrēta, pateica: "Nu vismaz saule ir ārā." Citā gadījumā inspektori izteica brīdinājumu pasažierim, kura atkārtoti izmantojamajā kafijas krūzē ar zelta burtiem bija uzraksts GOOD VIBES ONLY.
+
+Pilsēta jau sākusi vērtēt koncepcijas paplašināšanu. Piedāvātās papildinājumu idejas ietver "viegli nosodošu ģimenes nodalījumu" reģionālajos vilcienos, rindu Centrālajā stacijā, rezervētu cilvēkiem, kas dokumentus sagatavojuši iepriekš, un premium mēnešbiļeti, kas ļautu pasažieriem nospiest pogu, lai pieklājīgi apsarmotu stikla starpsienu, kad tuvojas paziņas.
+
+Mērs Vilnis Dreimanis nosauca klusā vagona ieviešanu par praktisku atbildi galvaspilsētas vajadzībām. "Rīga ir moderna pilsēta," viņš teica. "Mūsu iedzīvotāji pelnījuši transporta iespējas, kas atspoguļo, kas viņi ir: noguruši, cienījami un dziļi nevēlas runāt par saviem nedēļas nogales plāniem."
+
+Vēlā pēcpusdienā transporta amatpersonas pasludināja pilotprojektu par operacionālu panākumu, pēc tam, kad izmērīja to, ko raksturoja kā "rekordzemu sarunu noplūdi". Jau tiek plānotas ziemas adaptācijas, tostarp apsildāmas sēdvietas un īpaša zona pasažieriem, kas vēlas vienu cimdu uz mirkli novilkt, turēt siltu maizīti un skatīties uz Daugavu tā, it kā atcerētos kaut ko, ko neviens cits nevarētu saprast.`,
+      ru: `РИГА — В том, что муниципальные власти называют эпохальным вкладом в эмоциональный реализм, Rīgas Satiksme на этой неделе запустила пилотный «тихий трамвайный вагон» на маршруте №11, предлагая пассажирам отдельное пространство, где можно уставиться в окно, сжимать сумку-тоут, набитую корнеплодами, и молча формировать негативные мнения обо всех остальных в салоне.
+
+Инициатива, представленная в понедельник на скромной церемонии перерезания ленточки у здания Национального театра, является частью новой транспортной стратегии города до 2030 года «Тихое движение для серьёзного населения». Первый вагон вошёл в эксплуатацию в 7:14 утра — чиновники подтвердили, что за три остановки его наполнили на 83%, в основном пассажиры, пересевшие от сидевшего рядом студента, который начал объяснять своему другу устройство подкаст-оборудования.
+
+По новым правилам пассажирам в тихом вагоне запрещено принимать телефонные звонки, включать аудио вслух, заводить разговор о погоде или вздыхать театрально так, чтобы провоцировать последующие вопросы. Таблички на латышском, русском и «значимом молчании» информируют, что допустимое поведение включает в себя лёгкое выражение разочарования, чтение упаковок аптечных средств и уступание места с выражением лица человека, принявшего на себя трагическую историческую обязанность.
+
+«Речь не о исключении», — сказала представитель Rīgas Satiksme Илзе Марнауза, стоя рядом с ламинированной схемой под названием «Предпочтительные углы для избегания взаимодействия». «Речь о предоставлении людям свободы быть публично недоступными. Слишком долго пассажиров принуждали к непредсказуемому контакту с дружелюбием, особенно во время дождя». 
+
+По данным города, средний рижский пассажир уже тратит 68% поездки в трамвае на то, чтобы притворяться, что ничего не слышит, и ещё 19% — пытаясь выяснить, не касается ли чей-то зонт их намеренно. Муниципальный опрос 2 400 жителей показал, что 91% поддержали тихий вагон, 6% возражали по конституционным соображениям, а 3% отказались отвечать, что, по словам планировщиков, демонстрировало идеальную пригодность для сервиса.
+
+Многие пассажиры похвалили пилот за формализацию давнего социального обычая. «Обычно тишина в общественном транспорте достигается индивидуальными усилиями», — сказал 42-летний житель Пурвциемса Андрис Лиепиньш, аккуратно переставляя себя так, чтобы не стоять рядом с оптимизмом. «Теперь город наконец предоставляет институциональную поддержку. Это ощущается по-европейски — холодно, но достойно». 
+
+Но не всем это по душе. 23-летняя стажёрка по маркетингу из Агентскалнса Элина Зепа рассказала, что случайно зашла в тихий вагон, рассмеявшись над сообщением, и была немедленно «отрекамендована примерно двенадцатью лицами одновременно». Она описала опыт как «более эффективный, чем любое формальное образование». 
+
+Чиновники заявили, что ранние инциденты были минимальными. Во вторник утром одного мужчину вывели из вагона после того, как он ничьему внятно не адресованно сказал: «Ну хоть солнце выглянуло». В другом случае инспекторы выписали предупреждение пассажиру, у которого многоразовая кружка для кофе была с надписью GOOD VIBES ONLY золотыми буквами.
+
+Город уже начал оценивать расширение концепции. Предлагаемые дополнения включают «слегка неодобрительный семейный купе» в региональных поездах, очередь на Центральном вокзале, зарезервированную для людей, заранее подготовивших документы, и премиум-абонемент, позволяющий нажать кнопку, которая на время покрывает стеклянную перегородку инеем при приближении знакомых.
+
+Мэр Вилнис Дрейманис назвал тихий вагон практическим ответом на потребности столицы. «Рига — современный город», — сказал он. «Наши жители заслуживают транспортных опций, которые отражают, кто они: уставшие, достойные и глубоко нерасположенные обсуждать свои планы на выходные». 
+
+К вечеру чиновники объявили пилотную программу оперативным успехом, зафиксировав то, что они назвали «рекордно низкой утечкой разговоров». Уже разрабатываются планы зимних адаптаций, включая подогреваемые сиденья и специальный отсек для пассажиров, которые хотят снять одну перчатку, держать тёплую булочку и смотреть на Даугаву так, словно вспоминают что-то, чего больше никто не может понять.`
+    },
+    date: "Nov 20, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/341/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 340,
     slug: "jrmala-introduces-silent-applause-zones-to-340",
     title: {
@@ -114,7 +201,7 @@ Pašvaldības vadība norāda, ka izmēģinājums turpināsies līdz augustam, p
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/340/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 339,
