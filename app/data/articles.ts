@@ -18,6 +18,107 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 342,
+    slug: "riga-introduces-official-polite-sigh-tax-342",
+    title: {
+      en: "Riga Introduces Official ‘Polite Sigh’ Tax to Monetize Citizen Disappointment During Public Transport Delays",
+      lv: "Rīga ievieš oficiālo „pieklājīgās nopūtas” nodokli, lai monetizētu iedzīvotāju vilšanos sabiedriskā transporta kavumu laikā",
+      ru: "Рига вводит официальный налог «вежливого вздоха», чтобы монетизировать разочарование граждан при задержках транспорта"
+    },
+    excerpt: {
+      en: "In a move city officials called ‘fiscally innovative and emotionally honest,’ Riga has approved a new municipal fee on audible sighing at tram stops, bus shelters, and ticket machines. Authorities say the measure will transform chronic commuter despair into a predictable revenue stream while preserving the capital’s cultural heritage of restrained public frustration.",
+      lv: "Pilsētas amatpersonu dēvēta par „fiskāli inovatīvu un emocionāli godīgu”, Rīga ir apstiprinājusi jaunu pašvaldības maksu par izklausāmām nopūtām tramvaju pieturās, autobusu būdās un biļešu aparātos. Varas iestādes apgalvo, ka pasākums pārvērtīs hronisku braucēju bezcerību par paredzamu ieņēmumu plūsmu, vienlaikus saglabājot galvaspilsētas kultūras mantojumu — atturīgu publisku neapmierinātību.",
+      ru: "В шаге, который городские чиновники назвали «финансово инновационным и эмоционально честным», Рига утвердила новый муниципальный сбор за слышимые вздохи на трамвайных остановках, в автобусных павильонах и у автоматов по продаже билетов. По их словам, мера превратит хроническое комьютерское отчаяние в предсказуемый источник дохода и при этом сохранит культурное наследие столицы — сдержанного общественного недовольства."
+    },
+    fullContent: {
+      en: `RIGA — After a 14-hour committee debate described by attendees as ‘surprisingly uplifting considering the subject matter,’ Riga City Council on Tuesday voted 38–19 to implement Europe’s first Polite Sigh Tax, a municipal levy targeting residents who emit what officials classify as ‘clearly recognizable expressions of dignified disappointment’ while waiting for delayed public transport.
+
+The measure, which takes effect on 1 November, will apply to sighs exceeding 1.7 seconds in length and registering above 42 decibels within a five-meter radius of any Rīgas Satiksme infrastructure, including benches, route maps, validators, and the heated section of bus shelters where three strangers stand silently pretending not to notice each other.
+
+According to Deputy Chair for Urban Mood Management Elīna Ozolberga, the city has ignored the economic potential of commuter exasperation for too long.
+
+‘For years, Riga residents have been producing vast quantities of high-quality disappointment without any mechanism for municipal capture,’ Ozolberga told reporters while unveiling a demonstration kiosk near Central Station. ‘In other European capitals, citizens express anger chaotically. In Riga, they do it with discipline, excellent posture, and one controlled exhale through the nose. It would be irresponsible not to regulate that.’
+
+Under the policy, first-time offenders will receive a digital warning through the Mobilly app, while repeat sighers will be charged 35 cents per incident. A discounted monthly subscription, Sigh+ , will allow unlimited weekday sighing in zones A and B for €7.99, excluding airport routes and major snowfall events, when dynamic surge pricing may apply.
+
+City analysts estimate the program could generate €12.4 million in its first year, based on pilot data collected last February at Purvciems, Ziepniekkalns, and one particularly demoralizing trolleybus stop near the Ministry of Finance. Officials recorded an average of 4.8 taxable sighs per commuter per week, with the highest concentrations occurring between 7:42 and 8:15 a.m. and immediately after hearing the phrase ‘technical reasons.’
+
+To enforce the regulation, 62 ‘acoustic civility monitors’ equipped with directional microphones will be deployed across the city. The devices, developed in cooperation with Riga Technical University, can reportedly distinguish between a taxable sigh, a weather-related murmur, and what researchers call a ‘full Baltic soul release,’ which remains exempt on cultural grounds.
+
+Not all residents are convinced. ‘This is discrimination against introverts who process suffering efficiently,’ said Ģirts Vītols, 44, while waiting for a tram that electronic signage insisted had already departed. ‘Meanwhile the loud tourists can gasp, complain, and point at maps for free. Once again the burden falls on local people who know how to be quietly miserable.’
+
+Others welcomed the clarity. Jurmala resident and daily commuter Baiba Straume said she was relieved the city had finally provided guidelines. ‘Before this, nobody knew where the line was,’ she said. ‘You’d hear a woman do one dramatic exhale near the National Library and suddenly everybody wondered: is that grief, fatigue, or premium-level annoyance? Standards matter.’
+
+Cultural historians have also entered the debate. Professor Mārtiņš Rancāns of the University of Latvia called the tax ‘a troubling but logical culmination of modern Latvian governance.’ He noted that the restrained public sigh has long served as a national instrument of social communication, ranking somewhere between a knitted brow and saying ‘nu jā’ in terms of civic significance.
+
+In response to criticism, Mayor Vilnis Kauls insisted the city is not punishing emotion but formalizing it. Revenue from the tax, he said, will be reinvested into transport improvements, public sauna vouchers, and a new emergency reserve fund for escalator-related letdowns.
+
+At a press conference closing the announcement, officials demonstrated the appeals process, under which citizens may contest accidental sighs caused by cold wind, existential reflection, or seeing the fare increase notice for the first time. Within minutes, 17 people had already submitted paperwork.
+
+By evening, commuters at several central stops appeared to be adapting. Witnesses reported clusters of passengers standing in complete silence, maintaining eye contact with the middle distance and expressing their disappointment internally, as generations before them had done whenever the system asked for just a little more.`,
+      lv: `RĪGA — Pēc 14 stundas garas komitejas debates, ko klātesošie raksturoja kā „pārsteidzoši iedvesmojošu, ņemot vērā tematu”, Rīgas domes ārkārtas sēdē otrdien ar rezultātu 38–19 tika atbalstīts Eiropas pirmais pieklājīgās nopūtas nodoklis — pašvaldības nodeva, kas vērsta uz iedzīvotājiem, kuri izsaka to, ko amatpersonas klasificē kā „skaidri atpazīstamus cienījamas vilšanās izpausmes”, kamēr gaida kavētu sabiedrisko transportu.
+
+Mērs, kas stāsies spēkā 1. novembrī, attieksies uz nopūtām, kuru ilgums pārsniedz 1,7 sekundes un kuras reģistrē virs 42 decibeliem piecu metru rādiusā ap jebkuru Rīgas Satiksmes infrastruktūru, tostarp soliņiem, maršrutu kartēm, validētājiem un apsildāmo autobusu būdu daļu, kur trīs svešinieki stāv klusi, izlikdamies, ka viens otru nemanot.
+
+Pilsētas noskaņojuma pārvaldības vietniece Elīna Ozolberga sacīja, ka pilsēta pārāk ilgi ir ignorējusi braucēju izmisuma ekonomisko potenciālu.
+
+„Gadu desmitiem Rīgas iedzīvotāji ir ražojuši milzīgas kvalitātes vilšanās rezerves bez jebkāda mehānisma pašvaldības ieguvei,” Ozolberga sacīja žurnālistiem, atklājot demonstrācijas stendu pie Centrālās stacijas. „Citās Eiropas galvaspilsētās pilsoņi dusmojas haotiski. Rīgā viņi to dara ar disciplīnu, izcilu stāju un vienu kontrolētu izelpu caur degunu. Būtu nerūpīgi to neregulēt.”
+
+Saskaņā ar politiku pirmreizēji pārkāpēji saņems digitālu brīdinājumu Mobilly lietotnē, savukārt atkārtotām nopūtām tiks iekasēti 35 centi par gadījumu. Atlaide abonementam Sigh+ ļaus neierobežoti nopūsties darbadienās zonās A un B par 7,99 €, izņemot lidostas maršrutus un lielus sniega notikumus, kad var tikt piemērota dinamiskā pieprasījuma cena.
+
+Pilsētas analītiķi lēš, ka programma pirmajā gadā varētu ģenerēt 12,4 miljonus eiro, balstoties uz pilotpētījuma datiem, kas savākti pagājušā gada februārī Purvciemā, Ziepniekkalnā un vienā īpaši nomācošā trolejbusa pieturā pie Finanšu ministrijas. Amatpersonas reģistrēja vidēji 4,8 aplikamas nopūtas uz vienu braucēju nedēļā, visvairāk koncentrējoties no pulksten 7:42 līdz 8:15 un tūlīt pēc frāzes „tehnisku iemeslu dēļ”.
+
+Lai īstenotu likuma prasības, pilsētā tiks izvietoti 62 akustiskie pieklājības monitori, aprīkoti ar virzienmikrofoniem. Ierīces, izstrādātas sadarbībā ar Rīgas Tehnisko universitāti, pēc izplatītajiem ziņojumiem spēj atšķirt aplikamu nopūtu, laikapstākļu izraisītu mormošanu un to, ko pētnieki sauc par „pilnīgu Baltijas dvēseles atbrīvošanos”, kas saglabājas atbrīvota uz kultūras pamata.
+
+Ne visi iedzīvotāji ir pārliecināti. „Tas ir diskriminācija pret introvertiem, kuri ciešanas apstrādā efektīvi,” sacīja 44 gadus vecais Ģirts Vītols, kamēr gaidīja tramvaju, kuru elektroniskā tablo apgalvoja jau esam prom. „Tikmēr skaļie tūristi var brēkt, sūdzēties un rādīt uz kartēm bez maksas. Atkal slogs krīt uz vietējiem, kas zina, kā būt klusi nelaimīgi.”
+
+Citi uzmundrināja skaidrību. Jūrmalas iedzīvotāja un ikdienas pasažiere Baiba Straume teica, ka ir atvieglota, ka pilsēta beidzot sniegusi vadlīnijas. „Agrāk neviens nezināja, kur vilkt līniju,” viņa sacīja. „Tu dzirdēji, kā pie Nacionālās bibliotēkas sieviete izdara vienu dramatisku izelpu, un pēkšņi visi domāja: vai tas ir bēdas, nogurums vai premium klases neapmierinātība? Standarti ir svarīgi.”
+
+Kultūras vēsturnieki arī iesaistījušies debatēs. Latvijas Universitātes professors Mārtiņš Rancāns nodēvēja nodokli par „traucējošu, bet loģisku mūsdienīgas Latvijas pārvaldības kulmināciju”. Viņš norādīja, ka atturīgā publiskā nopūta jau sen kalpojusi par nacionālu sociālās komunikācijas instrumentu, kas nozīmes ziņā atrodas kaut kur starp uzauļotu pieri un „nu jā”.
+
+Atbildot uz kritiku, mērs Vilnis Kauls uzsvēra, ka pilsēta nemāna emocijas sodīt, bet tās formalizēt. Nodokļa ieņēmumi, viņš sacīja, tiks reinvestēti transporta uzlabojumos, publisko pirts kuponu iegādē un jaunā ārkārtas rezervfondā eskalatoru saistītu vilšanos segšanai.
+
+Preses konferencē par paziņojuma noslēgumu amatpersonas demonstrēja apelācijas procesu, saskaņā ar kuru pilsoņi var strīdēties par nejaušām nopūtām, ko izraisījis auksts vējiņš, eksistenciāla pārdomāšana vai biļešu cenas pieauguma paziņojuma ieraudzīšana pirmo reizi. Dažu minūšu laikā 17 cilvēki jau bija iesnieguši dokumentus.
+
+Vakaram tuvojoties, vairākās centrālajās pieturvietās liecinieki stāstīja, ka pasažieri šķietami pielāgojas. Aculiecinieki ziņoja par grupiņām cilvēku, kas stāv pilnīgā klusumā, noturot skatienu vidējā tālumā un iekšēji izrādot savu vilšanos, kā to darīja paaudzes pirms viņiem, kad sistēma prasīja tikai nedaudz vairāk.`,
+      ru: `РИГА — После 14-часовых слушаний комитета, которые присутствующие охарактеризовали как «удивительно воодушевляющие, учитывая предмет обсуждения», Городской совет Риги во вторник проголосовал 38 против 19 за введение первого в Европе Налога на вежливый вздох — муниципального сбора, направленного на жителей, издающих то, что чиновники классифицируют как «четко узнаваемые проявления достойного разочарования» в ожидании задержанного общественного транспорта.
+
+Мера, вступающая в силу 1 ноября, будет применяться к вздохам продолжительностью более 1,7 секунды и уровнем звука выше 42 децибел в радиусе пяти метров от любой инфраструктуры Rīgas Satiksme, включая скамейки, схемы маршрутов, валидаторы и тёплую секцию автобусных павильонов, где три незнакомца молча стоят и притворяются, что не замечают друг друга.
+
+По словам заместителя председателя по управлению городским настроением Элины Озолберги, город слишком долго игнорировал экономический потенциал комьютерского раздражения.
+
+«В течение многих лет жители Риги производили огромные объёмы высококачественного разочарования без какого‑либо механизма муниципального отлова», — заявила Озолберга репортёрам, представляя демонстрационный киоск у Центрального вокзала. «В других европейских столицах граждане выражают гнев хаотично. В Риге они делают это дисциплинированно, с отличной осанкой и одним контролируемым выдохом через нос. Было бы безответственно не урегулировать это». 
+
+По правилам, первичное нарушение будет фиксироваться цифровым предупреждением через приложение Mobilly, а за повторные вздохи будет взиматься плата в размере 35 евроцентов за инцидент. Доступная по скидке месячная подписка Sigh+ позволит неограниченно вздыхать по будням в зонах A и B за €7,99, за исключением маршрутов до аэропорта и при серьёзных снегопадах, когда возможно динамическое повышение цен.
+
+Городские аналитики оценивают, что программа может принести €12,4 млн в первый год, исходя из пилотных данных, собранных в феврале на Пурвciemсе, Зиепниеккалнсе и на одной особенно деморализующей троллейбусной остановке возле Министерства финансов. По данным официальных записей, в среднем фиксировалось 4,8 облагаемых вздоха на одного пассажира в неделю, с наибольшей концентрацией между 7:42 и 8:15 утра и сразу после произнесения фразы «технические причины».
+
+Для обеспечения соблюдения правил по городу будет развёрнуто 62 «монитора акустической вежливости» с направленными микрофонами. Устройства, разработанные в сотрудничестве с Рижским техническим университетом, якобы умеют различать облагаемый вздох, погодный шепот и то, что исследователи называют «полным балтийским выплеском души», который по культурным соображениям остаётся освобождённым от налога.
+
+Не все жители в восторге. «Это дискриминация интровертов, которые умеют эффективно перерабатывать страдание», — сказал Гиртс Витолс, 44 года, ожидая трамвая, который электронное табло настойчиво утверждало, что уже уехал. «Между тем громкие туристы могут задыхаться, жаловаться и тыкать в схемы бесплатно. Снова бремя ложится на местных, которые знают, как тихо быть несчастными». 
+
+Другие поприветствовали понятность правил. Жительница Юрмалы и ежедневная пассажирка Байба Страуме сказала, что она облегчённо вздохнула (без звука) от того, что город наконец дал ориентиры. «Раньше никто не понимал, где та граница», — сказала она. «Ты слышал, как женщина делает один драматичный выдох рядом с Национальной библиотекой, и вдруг все ломали голову: это горе, усталость или раздражение премиум‑уровня? Стандарты имеют значение». 
+
+Культурные историки тоже включились в дискуссию. Профессор Мартиньш Ранчанc из Латвийского университета назвал налог «тревожным, но логичным завершением современной латвийской власти». Он отметил, что сдержанный общественный вздох давно служит национальным инструментом социального общения, занимая место где‑то между сведёнными бровями и фразой «ну да» по степени гражданской значимости.
+
+В ответ на критику мэр Вилнис Каулс настаивал, что город не наказывает эмоции, а формализует их. По его словам, доходы от налога будут реинвестированы в улучшение транспорта, ваучеры на общественную сауну и новый резервный фонд на случай разочарований, связанных с эскалаторами.
+
+На пресс‑конференции, закрывавшей объявление, чиновники продемонстрировали процесс апелляции, по которому граждане смогут оспорить случайные вздохи, вызванные холодным ветром, экзистенциальными раздумьями или первым знакомством с уведомлением о повышении тарифов. В течение нескольких минут уже 17 человек подали документы.
+
+К вечеру пассажиры на нескольких центральных остановках, как сообщали свидетели, начали адаптироваться. Наблюдали скопления людей, стоящих в полной тишине, устремив взгляд в середину улицы и выражающих своё разочарование внутри, как это делали поколения до них, когда система просила всего лишь немного терпения.
+
+`
+    },
+    date: "Nov 21, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/342/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 341,
     slug: "riga-introduces-silent-tram-car-for-341",
     title: {
@@ -102,7 +203,7 @@ Vēlā pēcpusdienā transporta amatpersonas pasludināja pilotprojektu par oper
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/341/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 340,
