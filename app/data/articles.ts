@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 343,
+    slug: "riga-introduces-official-municipal-sigh-to-343",
+    title: {
+      en: "Riga Introduces Official Municipal Sigh To Improve Public Transport Morale",
+      lv: "Rīga ievieš oficiālu pašvaldības nopūtu, lai uzlabotu sabiedriskā transporta morāli",
+      ru: "Рига вводит официальный муниципальный вздох, чтобы поднять мораль в общественном транспорте"
+    },
+    excerpt: {
+      en: "In a move city leaders say will modernize emotional infrastructure, Riga has approved an official municipally sanctioned sigh for use while waiting for late trams, standing in slush, and reading utility bills. Officials insist the standardized exhalation will reduce confusion caused by unregulated disappointment.",
+      lv: "Pilsētas vadītāji apgalvo, ka tas modernizēs emocionālo infrastruktūru — Rīga apstiprinājusi oficiālu, pašvaldības sankcionētu nopūtu, ko lietot, gaidot nokavējušos tramvajus, stāvot slapjājā sniegslapā un lasot komunālos rēķinus. Amatpersonas uzsver, ka standartizēta izelpa samazinās neskaidrību, ko rada neregulēta vilšanās.",
+      ru: "В шаге, который городские власти называют модернизацией эмоциональной инфраструктуры, Рига утвердила официально одобренный муниципалитетом вздох для использования в ожидании опоздавших трамваев, стоя в луже и при чтении счетов за коммунальные услуги. По словам чиновников, стандартизированное выдохновение уменьшит путаницу, вызванную нерегулируемым разочарованием."
+    },
+    fullContent: {
+      en: `RIGA — After a six-month pilot program in Purvciems, the Riga City Council on Tuesday formally adopted an Official Municipal Sigh, becoming the first capital in the Baltics to standardize low-level civic despair.
+
+The measure, passed 38–19 after two hours of procedural groaning, defines the approved sigh as “audible but dignified, carrying notes of endurance, mild betrayal, and weather-related resignation.” Beginning in November, the sigh will be recommended for use at public transport stops, in government offices, near puddles that appear to be shallow but are not, and during conversations about apartment heating costs.
+
+Deputy Mayor for Public Atmosphere Andris Vītols called the program “a practical step toward emotional consistency.”
+
+“For too long, residents have been left to produce private, improvised sighs with no guidance from the municipality,” Vītols said at a press conference outside the Central Station tram platform, where three demonstration sighs were performed for media. “Some were too theatrical. Others lacked proper depth. In one case, a man in Teika released what experts later classified as a disappointed whistle. This is not who we are.”
+
+Under the new regulations, the sigh lasts 1.8 to 2.4 seconds and should begin through the nose before exiting through slightly parted lips. A laminated chart, already distributed to neighborhood service centers, outlines variations for different urban conditions, including the “wet sneaker sigh,” the “fifth consecutive roadworks sigh,” and the advanced “salary-after-inflation sigh,” reserved for experienced adults over 31.
+
+The city’s Department of Social Rhythm commissioned acoustic researchers from the University of Latvia to identify the sound most representative of modern life in Riga. According to the 74-page report, a sample of 2,300 residents was exposed to common stimuli, including a bicycle lane ending suddenly in gravel, a text reading “maybe 10 minutes away,” and an online queue for digital identity verification.
+
+“Again and again, respondents converged on the same vocal pattern,” said lead researcher Dr. Elīna Ozola, who described the work as “the most nationally useful study of my career.” “It was lower than a Scandinavian sigh, less melodramatic than Southern Europe, and with significantly more side-to-side head movement than we originally expected.”
+
+The final model was tested on Tram No. 6 during morning rush hour, where officials recorded a 14% reduction in random muttering and a 22% increase in perceived communal understanding. Sensors installed at major stops found that when one person initiated the approved sigh, others joined within 11 seconds, creating what the report called “temporary micro-solidarity.”
+
+Not all residents support the initiative. Some critics argue the city is overreaching into private emotional life. “First they tell us where to sort glass, then how to scan parking apps, and now how to exhale,” said Imants Grīnbergs, 57, a resident of Āgenskalns who prefers what he called “a freer, more old-fashioned form of disappointment.” “My father sighed naturally, and his father before him. We did not need Brussels-shaped standards for this.”
+
+Still, support appears strongest in neighborhoods with high transfer rates between buses and trolleybuses. At a stop near Zemitāni Bridge, office administrator Linda Stroda, 34, said the program already improved her mornings. “Before, everyone suffered separately,” she said, adjusting a scarf in horizontal rain. “Now when the tram is seven minutes late for the third time, we suffer as a city.”
+
+The municipality plans a winter rollout of optional workshops titled Breathe Through It: Civic Resilience For Residents, with special sessions for newcomers and men who insist they are ‘fine.’ Officials are also considering an official silence for use after hearing someone casually mention they bought property in Jūrmala.
+
+By evening, commuters across Riga could be heard testing the new standard under real conditions. Many described it as intuitive, familiar, and only slightly more organized than the rest of public life.`,
+      lv: `RĪGA — Pēc sešu mēnešu pilotprojekta Purvciemā Rīgas dome otrdien formāli pieņēma Oficiālo pašvaldības nopūtu, kļūstot par pirmo Baltijas galvaspilsētu, kas standartizējusi zemo līmeņa pilsonisko izmisumu.
+
+Lēmums, pieņemts ar 38–19 balsojumu pēc divu stundu procedurālām žēlošanās, definē apstiprināto nopūtu kā „klausāmu, bet cienīgu, ar izturības, vieglas nodevības un ar laika apstākļiem saistītas atteikšanās niansēm.” No novembra šī nopūta tiks ieteikta lietošanai pie sabiedriskā transporta pieturām, valsts iestādēs, netālu no peļķēm, kas izskatās seklas, bet tādas nav, un sarunās par dzīvokļa apkures izmaksām.
+
+Rīcības vietnieks publiskās atmosfēras jautājumos Andris Vītols sauca programmu par „praktisku soli emocionālās konsekvences virzienā.”
+
+„Pārāk ilgi iedzīvotājiem nācās radīt privātas, improvizētas nopūtas bez pašvaldības norādes,” Vītols sacīja preses konferencē pie Centrālās stacijas tramvaja platformas, kur žurnālistiem tika demonstrētas trīs kontrolnopūtas. „Kādas bija pārāk teatrālas. Citām trūka pienācīgas dziļuma. Vienā gadījumā kāds Teikā atlaida to, ko eksperti vēlāk klasificēja kā vīlušos svilpienu. Tas neesam mēs.”
+
+Saskaņā ar jaunajiem noteikumiem nopūta ilgst 1,8–2,4 sekundes un tai jā sākas caur degunu, pirms izplūstot pa nedaudz atvērtām lūpām. Laminēta shēma, kas jau izplatīta apkārtnes servisa centros, apraksta variācijas dažādiem pilsētas apstākļiem, tostarp „mitrās kedas nopūtu”, „piektās pēc kārtas ceļa remontu nopūtu” un progresīvo „alga-pēc-inflācijas nopūtu”, kas paredzēta pieredzējušiem pieaugušajiem virs 31 gada.
+
+Pilsētas Sociālā ritma departaments pasūtīja akustikas pētniekus no Latvijas Universitātes, lai identificētu skaņu, kas visvairāk raksturo mūsdienu dzīvi Rīgā. Saskaņā ar 74 lappušu ziņojumu 2 300 iedzīvotāju paraugam tika demonstrēti ikdienišķi stimuli, tostarp veloceliņš, kas pēkšņi beidzas grants segumā, īsziņa „varbūt 10 minūšu laikā” un tiešsaistes rinda identitātes digitālās verifikācijas saņemšanai.
+
+„Vairākkārt respondenti savilkās pie tā paša vokālā modeļa,” sacīja vadošā pētniece Dr. Elīna Ozola, kura darbu raksturoja kā „manā karjerā noderīgāko pētījumu nacionālā līmenī.” „Tas bija zemāks nekā skandināvu nopūta, mazāk melodramatisks nekā Dienvideiropā un ar ievērojami vairāk galvas kustībām no sāniem uz sāniem, nekā sākotnēji gaidījām.”
+
+Galīgo modeli pārbaudīja 6. tramvajā rīta sastrēguma stundā, kur amatpersonas reģistrēja 14% samazinājumu nejaušā mūždienīgā muldēšanā un 22% pieaugumu uztvertajā kopējā sapratnē. Sensoru dati lielajās pieturvietās parādīja, ka, kad viens cilvēks uzsāka apstiprināto nopūtu, citi pievienojās 11 sekunžu laikā, radot to, ko ziņojums sauca par „pagaidu mikro-solidaritāti.”
+
+Ne visi iedzīvotāji atbalsta iniciatīvu. Daži kritiķi apgalvo, ka pilsēta iejaucas privātajā emocionālajā dzīvē. „Vispirms viņi mums saka, kur šķirot stiklu, tad kā skenēt stāvvietu aplikācijas, un tagad — kā izelpot,” sacīja Imants Grīnbergs, 57, Āgenskalna iedzīvotājs, kurš dod priekšroku tam, ko viņš sauc par „brīvāku, vecmodīgāku vilšanās formu.” „Mans tēvs nopūšājās dabiski, un arī viņa tēvs pirms viņa. Mums nebija vajadzīgas Briseles formas normas šim.”
+
+Tomēr atbalsts šķiet spēcīgāks apkaimēs ar lielu pārsēšanās intensitāti starp autobusiem un trolejbusiem. Pie pieturas pie Zemitānu tilta biroja administratora Linda Stroda, 34, sacīja, ka programma jau uzlabojusi viņas rītus. „Agrāk visi cieta atsevišķi,” viņa teica, pielāgojot šalli horizontālā lietū. „Tagad, kad tramvajs trešo reizi kavējas par septiņām minūtēm, mēs ciešam kā pilsēta.”
+
+Pašvaldība plāno ziemā rīkot izvēles darbnīcas „Izelpo to: pilsoniskā noturība iedzīvotājiem”, ar īpašām sesijām jaunpienācējiem un vīriešiem, kuri uzstāj, ka ar viņiem viss ir „ok”. Amatpersonas arī apsver oficiālu klusumu, ko lietot pēc tam, kad kāds ikdienišķi pieminēs, ka nopircis īpašumu Jūrmalā.
+
+Vakarpusē visā Rīgā varēja dzirdēt, kā pasažieri reālās situācijās pārbauda jauno standartu. Daudzi to raksturoja kā intuitīvu, pazīstamu un tikai nedaudz organizētāku nekā pārējā sabiedriskā dzīve.`,
+      ru: `РИГА — После шестимесячной пилотной программы в Purvciems Рижская городская дума во вторник официально приняла «Официальный муниципальный вздох», став первая столица в Прибалтике, стандартизировавшая низкоуровневое гражданское отчаяние.
+
+Мера, принятая 38–19 после двух часов процедурного стонов, определяет одобренный вздох как «слышимый, но достойный, несущий нотки стойкости, легкого предательства и погодного смирения». Начиная с ноября, вздох будет рекомендован для использования на остановках общественного транспорта, в государственных учреждениях, около луж, которые кажутся мелкими, но не являются таковыми, и во время разговоров о стоимости отопления в квартирах.
+
+Заместитель мэра по общественной атмосфере Андрис Вītols назвал программу «практическим шагом к эмоциональной последовательности».
+
+«Слишком долго жители оставались предоставлены сами себе, импровизируя приватные вздохи без какой-либо муниципальной инструкции», — сказал Вītols на пресс‑конференции у платформы трамвая у Центрального вокзала, где для прессы было исполнено три демонстрационных вздоха. «Некоторые были слишком театральны. Другим не хватало должной глубины. В одном случае мужчина в Teika издал то, что эксперты впоследствии классифицировали как разочарованный свист. Это не то, кем мы являемся».
+
+Согласно новым правилам, вздох должен длиться 1,8–2,4 секунды и начинаться через нос с выходом через слегка приоткрытые губы. Ламинированная схема, уже разосланная в районные сервисные центры, описывает вариации для разных городских условий, включая «вздох от промокшей кроссовки», «вздох при пятом подряд дорожном ремонте» и продвинутый «вздох-зарплата‑после‑инфляции», зарезервированный для опытных взрослых старше 31 года.
+
+Департамент социального ритма города привлек акустических исследователей из Латвийского университета для выявления звука, наиболее репрезентативного для современной рижской жизни. Согласно 74-страничному отчету, выборке из 2 300 жителей демонстрировали ряд распространенных раздражителей, включая велосипедную дорожку, внезапно заканчивающуюся гравием, сообщение «может быть, через 10 минут», и онлайн‑очередь для цифровой идентификации.
+
+«Снова и снова респонденты сходились на одном и том же вокальном узоре», — сказала ведущий исследователь доктор Элина Озола, назвавшая работу «самым национально полезным исследованием в моей карьере». «Он был ниже, чем скандинавский вздох, менее мелодраматичен, чем в странах Южной Европы, и сопровождался значительно большим боковым движением головы, чем мы изначально ожидали».
+
+Окончательная модель была протестирована в трамвае №6 во время утреннего часа пик, где чиновники зафиксировали 14% снижение случайных бормотаний и 22% рост восприятия общего взаимопонимания. Датчики, установленные на крупных остановках, показали, что когда один человек инициирует одобренный вздох, другие присоединяются в течение 11 секунд, создавая то, что в отчете назвали «временной микро‑солидарностью».
+
+Не все жители поддержали инициативу. Некоторые критики утверждают, что город вмешивается в частную эмоциональную жизнь. «Сначала они говорят нам, куда сортировать стекло, потом — как сканировать парковочные приложения, а теперь — как выдыхать», — сказал Иманц Гринбергс, 57 лет, житель Āgenskalns, который предпочитает то, что он называет «более свободной, по‑старинке формой разочарования». «Мой отец вздыхал естественно, и его отец до него. Нам не нужны стандарты по‑брюссельски для этого».
+
+Тем не менее поддержка кажется самой сильной в районах с большим количеством пересадок между автобусами и троллейбусами. На остановке у моста Zemitāni офисный администратор Линда Строда, 34 года, сказала, что программа уже улучшила её утра. «Раньше все страдали по‑отдельности», — сказала она, поправляя шарф под горизонтальным дождём. «Теперь, когда трамвай опаздывает на семь минут в третий раз, мы страдаем как город».
+
+Муниципалитет планирует зимний запуск добровольных мастерских под названием «Продыхнись: гражданская устойчивость для жителей», с отдельными сессиями для новоприбывших и для мужчин, настаивающих, что с ними «всё в порядке». Чиновники также рассматривают введение официального молчания для использования после того, как кто‑то невозмутимо упомянет, что купил недвижимость в Jūrmala.
+
+К вечеру по всему городу можно было слышать, как пассажиры испытывают новый стандарт в реальных условиях. Многие описывали его как интуитивно понятный, знакомый и лишь немного более организованный, чем остальная жизнь в общественных местах.`
+    },
+    date: "Nov 22, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/343/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 342,
     slug: "riga-introduces-official-polite-sigh-tax-342",
     title: {
@@ -116,7 +209,7 @@ Vakaram tuvojoties, vairākās centrālajās pieturvietās liecinieki stāstīja
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/342/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 341,
