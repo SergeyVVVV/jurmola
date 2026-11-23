@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 344,
+    slug: "riga-introduces-dynamic-silence-pricing-charges",
+    title: {
+      en: "Riga Introduces Dynamic Silence Pricing, Charges Louder Residents Premium For Existing Near Tram Stops",
+      lv: "Rīga ievieš dinamisko klusuma cenu sistēmu — skaļākajiem iedzīvotājiem papildmaksa par dzīvi pie tramvaja pieturām",
+      ru: "Рига вводит динамическое ценообразование тишины и взимает с шумных жителей доплату за проживание у трамвая"
+    },
+    excerpt: {
+      en: "In an effort to modernize urban living while preserving what officials call \"the city's traditional relationship with unnecessary inconvenience,\" Riga has launched a pilot program that assigns market value to peace and quiet. Residents living near tram lines, construction sites, and emotionally expressive seagulls will now pay variable silence rates based on how loudly their neighborhood fails to rest.",
+      lv: "Lai modernizētu pilsētas dzīvi, vienlaikus saglabājot to, ko amatpersonas sauc par “pilsētas tradicionālajām attiecībām ar liekām neērtībām”, Rīga uzsāk pilotprogrammu, kas piešķir tirgus vērtību mieram un klusumam. Iedzīvotāji, kas dzīvo pie tramvaju līnijām, būvniecības objektiem un emocionāli izteiksmīgiem kaijiem, tagad maksās mainīgas klusuma cenas atkarībā no tā, cik skaļi viņu apkārtne nepieļauj atpūtu.",
+      ru: "В стремлении модернизировать городскую жизнь, одновременно сохраняя то, что чиновники называют «традиционными для города отношениями с ненужными неудобствами», Рига запустила пилотную программу, которая присваивает рыночную стоимость покою и тишине. Жители возле трамвайных линий, стройплощадок и эмоционально выразительных чаек теперь будут платить переменные тарифы за тишину в зависимости от того, насколько громко их район отказывается отдыхать."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Council on Tuesday unveiled a new municipal initiative known as Dynamic Silence Pricing, a policy that will charge residents according to the theoretical amount of quiet they are not receiving. Officials described the measure as a "fair, data-driven approach" to balancing quality of life with the capital's long-standing commitment to making every simple task faintly exhausting.
+
+Under the pilot program, households in central Riga will receive monthly invoices itemizing lost silence in decibel-adjusted units called Mierpunkti, or Peace Points. The formula factors in tram screech frequency, sidewalk drilling density, neighboring renovation enthusiasm, and what the city terms "unpredictable gull sentiment" along the Daugava corridor.
+
+"For too long, silence has been enjoyed unevenly," said Deputy Housing Chairwoman Ilze Greidāne, standing beside a chart showing a direct correlation between urban noise and people staring tiredly into coffee. "Residents in Mežaparks have been benefiting from premium quiet without fully appreciating it, while people in the center have had access to a richer, more textured sound environment for free. This creates imbalance. We are simply introducing accountability."
+
+According to documents released by the municipality, the average apartment near Barona Street will owe between €18 and €43 per month depending on peak tram cornering conditions, while a top-floor flat near Riga Central Market could qualify for the newly created Cultural Resonance Surcharge, which includes trolleybus hum, distant accordion leakage, and what inspectors classified as "sporadic uncle-level shouting."
+
+The city says the pricing model was developed in partnership with the Institute for Applied Urban Calm, a consultancy founded last year by three former app developers and a man from Cēsis who once complained professionally about leaf blowers. During a six-month study involving 1,200 residents, researchers found that 71% of respondents could not tell whether their neighborhood had become quieter, but 89% agreed it felt expensive enough to be taken seriously.
+
+At a demonstration in the Āgenskalns district, municipal technicians installed a prototype Silence Meter outside a residential building and asked tenants to experience a standard Tuesday between 6:30 and 9:15 a.m. Within minutes, the device registered one tram shriek, two reversing delivery vans, a bottle collection incident, and an upstairs chair dragged with what officials called "historic determination."
+
+Local resident Mārtiņš Ozols, 34, said he initially opposed the idea until he received a brochure explaining that noise was now a premium public-private lifestyle interface. "Before, I thought I was just losing sleep," Ozols said. "Now I understand I'm participating in a dynamic acoustic ecosystem. It still sounds horrible, but in a much more official way."
+
+Not everyone is convinced. Opposition councilman Raimonds Lūsis criticized the plan as bureaucratic overreach, arguing that residents should be compensated for excessive noise rather than billed for it. "The government has discovered a revolutionary principle," Lūsis said. "If something is missing, charge people for the absence. By autumn we will all be paying separate line items for unavailable parking, delayed trains, and emotional closure."
+
+Jūrmala officials have reportedly expressed interest in adopting a seasonal version of the program that would bill summer visitors for reduced birdsong caused by Bluetooth speakers. In a statement, the resort city's urban environment department said it remains committed to sustainable tranquility and "discouraging beach-level conversations about cryptocurrency."
+
+Despite criticism, Riga plans to expand Dynamic Silence Pricing citywide by January if current results remain promising. Early data suggest the program has already reduced complaints by 12%, largely because residents now spend most of their free time trying to understand the invoice.`,
+      lv: `RĪGA — Rīgas dome otrdien prezentēja jaunu pašvaldības iniciatīvu ar nosaukumu Dinamiskā klusuma cenu noteikšana, politiku, kas iekasēs no iedzīvotājiem atbilstoši teorētiskajam klusumam, ko viņi nesaņem. Amatpersonas šo pasākumu raksturoja kā “taisnīgu, uz datiem balstītu pieeju”, kas līdzsvaro dzīves kvalitāti ar galvaspilsētas ilggadējo apņemšanos padarīt katru vienkāršu uzdevumu nedaudz izsmeļošu.
+
+Saskaņā ar pilotprogrammu, mājsaimniecības centrālajā Rīgā ik mēnesi saņems rēķinus, kuros tiks uzskaitīts zaudētais klusums decibelos pielāgotās vienībās, ko dēvē par Mierpunktiem. Formula ņem vērā tramvaja šķērsošanās klabošanas biežumu, ietvju urbšanas intensitāti, kaimiņu renovācijas entuziasmu un to, ko pilsēta dēvē par “neprognozējamo kaiju noskaņu” Daugavas koridorā.
+
+“Pārāk ilgi klusums ir bijis nevienlīdzīgi pieejams,” sacīja mājokļu komisijas priekšsēdētājas vietniece Ilze Greidāne, stāvot blakus grafikam, kurā redzama tieša korelācija starp pilsētas troksni un cilvēkiem, kuri noguruši žāvājas skatās savai kafijai. “Mežaparka iedzīvotāji ir guvuši priekšrocības no premium klusas vides, to pilnībā nenovērtējot, kamēr pilsētas centrā cilvēki bez maksas baudīja bagātāku, teksturētāku skaņu ainavu. Tas rada līdzsvara trūkumu. Mēs vienkārši ieviešam atbildību.”
+
+Pēc pašvaldības publiskotajiem dokumentiem, vidējā dzīvokļa pie Barona ielas rēķins būs no 18 līdz 43 eiro mēnesī atkarībā no tramvaja straujo līkumu stāvokļa, savukārt jumta stāva dzīvoklis pie Rīgas Centrāltirgus var pretendēt uz jaunizveidoto Kultūras rezonanses piemaksu, kas iekļauj trolejbusa dunoņu, tālāku akordeona noplūdi un to, ko inspektori klasificējuši kā “sporādisku onkuļa līmeņa kliegšanu.”
+
+Pilsēta norāda, ka cenu modeli izstrādāja sadarbībā ar Pielietotā pilsētvides miera institūtu, konsultāciju firmu, ko pagājušajā gadā dibināja trīs bijušie lietotņu izstrādātāji un vīrs no Cēsīm, kurš reiz profesionāli sūdzējās par lapu pūtajiem. Sešu mēnešu pētījumā, kurā piedalījās 1 200 iedzīvotāju, pētnieki konstatēja, ka 71% aptaujāto nespēja pateikt, vai viņu apkārtne ir kļuvusi klusāka, taču 89% piekrita, ka tā šķiet pietiekami dārga, lai to uzņemtu nopietni.
+
+Īstenošanas demonstrācijā Āgenskalna rajonā pašvaldības tehniķi pie dzīvojamās ēkas uzstādīja klusuma mērītāja prototipu un lūdza iedzīvotājus piedzīvot ierastotmau otrdienu no pulksten 6:30 līdz 9:15. Dažu minūšu laikā ierīce reģistrēja vienu tramvaja šķērscikšņu, divus atpakaļgaitas piegādes furgonus, gadījumu ar pudeļu vākšanu un augšstāva krēsla stumšanu ar to, ko amatpersonas nosauca par “vēsturisku apņēmību.”
+
+Vietējais iedzīvotājs Mārtiņš Ozols, 34, sacīja, ka sākotnēji bija pret ideju, līdz saņēma bukletu, kurā izskaidrots, ka troksnis tagad ir premium publiski–privātais dzīvesveida interfeiss. “Agrāk domāju, ka vienkārši zaudēju miegu,” sacīja Ozols. “Tagad saprotu, ka piedalos dinamiskā akustiskā ekosistēmā. Joprojām skan šausmīgi, bet daudz oficiālāk.”
+
+Ne visi ir pārliecināti. Pretējās partijas domes deputāts Raimonds Lūsis kritizēja plānu kā birokrātisku pārmērīgumu, apgalvojot, ka iedzīvotājiem būtu jāsaņem kompensācija par pārmērīgo trokšņu, nevis jāmaksā par tiem. “Valdība ir atklājusi revolucionāru principu,” sacīja Lūsis. “Ja kaut kas trūkst, iekasējiet par trūkumu. Rudenī mēs visi maksāsim atsevišķas rēķina pozīcijas par nepieejamu stāvvietu, kavētiem vilcieniem un emocionālo noslēgumu.”
+
+Ziņots, ka Jūrmalas amatpersonas izrādījušas interesi pieņemt sezonālu programmas versiju, kas vasaras apmeklētājiem rēķinātu par samazinātu putnu dziesmu, ko izraisījuši Bluetooth skaļruņi. Kurorta pilsētas pilsētvides nodaļa paziņoja, ka tā paliek uzticīga ilgtspējīgam klusumam un “atbaida pludmales līmeņa sarunas par kriptovalūtām.”
+
+Neskatoties uz kritiku, Rīga plāno paplašināt Dinamiskās klusuma cenu sistēmu visā pilsētā līdz janvārim, ja pašreizējie rezultāti būs cerīgi. Agrīnie dati liecina, ka programma jau samazinājusi sūdzību skaitu par 12%, galvenokārt tāpēc, ka iedzīvotāji tagad lielāko daļu brīvā laika pavada, mēģinot saprast rēķinu.`,
+      ru: `РИГА — Во вторник Рижская городская дума представила новую муниципальную инициативу под названием «Динамическое ценообразование тишины» — политику, по которой с жителей будут взимать плату в зависимости от теоретического объема тишины, которой они не получают. Чиновники охарактеризовали меру как «справедливый, основанный на данных подход» к уравновесиванию качества жизни с давней приверженностью столицы делать каждое простое действие слегка утомительным.
+
+В рамках пилотной программы семьи в центральной части Риги будут ежемесячно получать счета с детализацией утраченной тишины в децибельно скорректированных единицах под названием Mierpunkti, или мирпункты (Peace Points). Формула учитывает частоту визга трамваев, плотность сверления на тротуарах, энтузиазм соседей при ремонтах и то, что город называет «непредсказуемым настроением чаек» вдоль коридора Даугавы.
+
+«Слишком долго тишина распределялась неравномерно», — сказала заместитель председателя по жилищным вопросам Илзе Грейдане, стоя рядом с графиком, на котором демонстрировалась прямая корреляция между городским шумом и уставшим взглядом людей, уставившихся в кофе. «Жители Мезапаркса получают преимущество премиальной тишины, не полностью её ценя, тогда как люди в центре бесплатно пользуются более богатой, более текстурированной звуковой средой. Это создает дисбаланс. Мы просто вводим подотчетность.»
+
+Согласно документам, опубликованным муниципалитетом, средняя квартира возле улицы Барона будет должна от €18 до €43 в месяц в зависимости от условий, при которых трамвай закладывает один или другой угол, в то время как квартира на верхнем этаже возле Рижского центрального рынка может подпасть под вновь созданную надбавку «Культурного резонанса», включающую гул троллейбуса, дальний протекающий аккордеон и то, что инспекторы классифицировали как «спорадические дядьковские крики». 
+
+Город утверждает, что модель ценообразования была разработана в партнерстве с Институтом прикладного городского спокойствия, консалтинговой фирмой, основанной в прошлом году тремя бывшими разработчиками приложений и мужчиной из Цесиса, который однажды профессионально жаловался на воздуходувки для листьев. В ходе шестимесячного исследования с участием 1 200 жителей исследователи выяснили, что 71% респондентов не могли сказать, стал ли их район тише, но 89% согласились с тем, что он достаточно дорог, чтобы к этому отнестись серьезно.
+
+На демонстрации в районе Агенскалнс муниципальные техники установили прототип «Измерителя тишины» у жилого дома и попросили жильцов испытать стандартный вторник с 6:30 до 9:15 утра. Через несколько минут устройство зафиксировало один визг трамвая, два задних хода фургонов доставки, инцидент по сбору бутылок и тащение стула с верхнего этажа с тем, что чиновники назвали «исторической решимостью». 
+
+Местный житель Мартиньш Озолс, 34 года, сказал, что сначала он был против идеи, пока не получил брошюру, объясняющую, что шум теперь — это премиальный интерфейс частно-государственного образа жизни. «Раньше я думал, что просто теряю сон», — сказал Озолс. «Теперь я понимаю, что участвую в динамической акустической экосистеме. Всё ещё звучит ужасно, но теперь это звучит намного официальнее.»
+
+Не все убедились. Оппозиционный депутат Раймондс Лусис раскритиковал план как бюрократический чрезмерный захват, утверждая, что жителей следует компенсировать за избыточный шум, а не выставлять им счет за него. «Правительство открыло революционный принцип», — сказал Лусис. «Если чего-то не хватает, взыскивайте плату за отсутствие. К осени мы все будем платить отдельные статьи за недоступную парковку, задержанные поезда и эмоциональное закрытие.»
+
+Сообщается, что чиновники Юрмалы выразили интерес к принятию сезонной версии программы, которая будет выставлять счёт летним отдыхающим за уменьшение птичьих трелей из‑за Bluetooth‑колонок. В заявлении городской службы по вопросам городской среды курортный город сказал, что остаётся привержен устойчивой тишине и «демотивации пляжных разговоров о криптовалюте». 
+
+Несмотря на критику, Рига планирует распространить Динамическое ценообразование тишины по всему городу к январю, если текущие результаты останутся обнадеживающими. Первичные данные показывают, что программа уже снизила число жалоб на 12%, главным образом потому, что жители теперь проводят большую часть свободного времени, пытаясь разобраться в счёте.`
+    },
+    date: "Nov 23, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/344/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 343,
     slug: "riga-introduces-official-municipal-sigh-to-343",
     title: {
@@ -108,7 +189,7 @@ Vakarpusē visā Rīgā varēja dzirdēt, kā pasažieri reālās situācijās p
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/343/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 342,
