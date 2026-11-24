@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 345,
+    slug: "riga-introduces-polite-silence-zones-on-345",
+    title: {
+      en: "Riga Introduces ‘Polite Silence Zones’ on Public Transport After Study Finds Residents Wasting 11 Hours Per Year on Audible Sighing",
+      lv: "Rīga ievieš 'Pieklājīgās klusuma zonas' sabiedriskajā transportā pēc pētījuma, kas atklāja — iedzīvotāji gadā izšķērdē 11 stundas uz dzirdamiem nopūtieniem",
+      ru: "Рига вводит «Зоны вежливого молчания» в общественном транспорте после исследования, показавшего, что жители теряют 11 часов в год на слышные вздохи"
+    },
+    excerpt: {
+      en: "Riga City Council has approved the creation of designated ‘Polite Silence Zones’ on trams, trolleybuses, and selected marshrutkas in an effort to preserve what officials describe as the capital’s “intangible tradition of emotionally informative quiet.” The decision follows a municipal study concluding that excessive muttering, speakerphone use, and theatrical exhalation have pushed the city’s passive-aggressive atmosphere beyond sustainable levels.",
+      lv: "Rīgas dome apstiprinājusi izveidot īpašas 'Pieklājīgās klusuma zonas' tramvajos, trolejbusos un atlasītās maršrutkās, lai saglabātu to, ko amatpersonas dēvē par galvaspilsētas 'nemateriālo emocionāli informatīvo klusumu.' Lēmums seko pašvaldības pētījumam, kurā konstatēts, ka pārmērīga murmināšana, skaļruņa režīma izmantošana un teatrālas izelpas ir novedušas pilsētas pasīvi-agresīvo atmosfēru pāri ilgtspējīgām robežām.",
+      ru: "Рижская городская дума одобрила создание специальных «Зон вежливого молчания» в трамваях, троллейбусах и отдельных маршрутках в попытке сохранить то, что чиновники называют «нематериальной традицией эмоционально информативного молчания» столицы. Решение последовало за муниципальным исследованием, заключившим, что чрезмерное бормотание, разговоры по громкой связи и театральные выдохи довели пассивно-агрессивную атмосферу города до предела."
+    },
+    fullContent: {
+      en: `RIGA — In a move city leaders are calling “both modern and deeply ancestral,” the Riga City Council voted Thursday to establish ‘Polite Silence Zones’ on public transport, where passengers will be expected to communicate exclusively through meaningful eyebrow movement, coat adjustment, and, in urgent cases, a brief glance at the floor.
+
+The new rules, set to begin on 1 November, will apply to the rear third of all Trams 4, 6, and 11, the middle section of trolleybuses during peak commuting hours, and one experimentally silent marshrutka that will circulate without announcement near the Central Market until it is inevitably mistaken for a private shuttle and abandoned.
+
+According to the 78-page report commissioned by the Department of Civic Atmosphere and Seasonal Endurance, the average Riga resident loses 11 hours and 14 minutes annually to “avoidable acoustic social friction,” a category that includes phone calls beginning with “I’m on the tram,” aggressive whispering, and the prolonged opening of sunflower seeds in enclosed spaces.
+
+“We are not banning sound,” said Deputy Transport Committee Chair Ilze Skujiņa, standing before a diagram showing acceptable and unacceptable forms of public breathing. “We are simply restoring the delicate soundscape that made Riga what it is: the soft rattle of tram windows, one distant cough, and thirty-six people silently judging a teenager’s Bluetooth speaker.”
+
+Under the program, signage will identify the Silence Zones with a pale gray icon of a person saying absolutely nothing. Violations will be monitored by specially trained ticket inspectors, who have completed a new 16-hour certification module on tonal disapproval and non-verbal de-escalation. First-time offenders will receive a warning card reading, ‘Please Continue Existing More Quietly.’ Repeat offenders may be relocated to the ‘Conversational Carriage,’ a pilot compartment where tourists, startup founders, and people discussing podcasts will be seated together.
+
+The city says the policy was inspired by extensive fieldwork conducted last winter, when researchers rode public transport across Riga documenting interpersonal tension metrics. One February morning on Tram 6, analysts recorded an 18-minute incident triggered by a man eating a warm egg from a napkin while watching short videos at full volume. The event caused what experts later classified as a “collective internal scream,” measurable by synchronized window-staring and one pensioner audibly saying, “Nu, protams.”
+
+Among the strongest supporters of the initiative is 62-year-old Purvciems resident Maija Ozoliņa, who called the plan “the first serious infrastructure investment in manners since the collapse of the Soviet Union.” Speaking while waiting for a trolleybus near Brīvības iela, Ozoliņa said she had long dreamed of a commute in which nobody explained their grocery list into a telephone.
+
+“If I want to hear intimate details about someone’s swollen ankle, failed renovation, and cousin in Drogheda, I will attend a family gathering like everyone else,” she said.
+
+Not all passengers are convinced. Marketing consultant Ralfs Bērziņš, 29, argued the policy discriminates against “authentic spontaneous self-expression,” though he admitted he had never used public transport without noise-cancelling headphones and “a defensive coffee.” Others questioned how the rule would apply during hockey season, when silence across Riga becomes statistically impossible.
+
+Officials insist exemptions will be granted for babies, emergency situations, and elderly passengers wishing to say “This used to be easier under a completely different timetable.” A separate appeals board will review edge cases, including involuntary tutting, dramatic bag placement, and whether a sigh counts as speech if clearly directed at municipal paving quality.
+
+At press time, the Transport Authority confirmed it was already studying a second phase of the program: ‘Reflective Queue Lanes’ at Riga Central Station, where residents may stand in line while quietly resenting those who appear less committed to waiting.`,
+      lv: `RĪGA — Solī, ko pilsētas vadītāji dēvē par 'gan modernu, gan dziļi seneku,' Rīgas dome ceturtdien nobalsoja par 'Pieklājīgo klusuma zonu' izveidi sabiedriskajā transportā, kur pasažieri tiks aicināti sazināties tikai ar jēgpilnu uzacu kustību, mēteļu sakārtošanu un, steidzamos gadījumos, īsu skatienu uz grīdu.
+
+Jaunie noteikumi, kas stāsies spēkā 1. novembrī, attieksies uz visu 4., 6. un 11. tramvaju aizmugurējo trešdaļu, trolejbusu vidējo daļu sastrēguma stundās un vienu eksperimentālu kluso maršrutku, kas kursēs bez paziņojumiem pie Centrālās tirgus, līdz to neizbēgami sajauks ar privāto transfēru un pametīs.
+
+Saskaņā ar 78 lappušu ziņojumu, ko pasūtījis Pilsoniskās atmosfēras un sezonālās izturības departaments, vidējais rīdzinieks gada laikā zaudē 11 stundas un 14 minūtes «novēršamai akustiskajai sociālajai berzei» — kategorijai, kas ietver tādus pārkāpumus kā zvani, kas sākas ar 'Es esmu tramvajā,' agresīva čukstēšana un ilgstoša saulespuķu sēklu graušana slēgtās telpās.
+
+"Mēs neaizliedzam skaņu," sacīja Satiksmes komitejas vietniece Ilze Skujiņa, stāvot pie shēmas, kurā attēloti pieļaujamie un nepieļaujamie sabiedriskās elpošanas veidi. "Mēs vienkārši atjaunojam smalko skaņu ainavu, kas padarīja Rīgu par to, kas tā ir: tramvaja logu viegla čirkstēšana, viens tāls klepus un trīsdesmitseši cilvēku klusums, vērtējot pusaudža Bluetooth skandu."
+
+Programmas ietvaros zonas tiks apzīmētas ar gaiši pelēku ikonu, kurā cilvēks saka absolūti neko. Pārkāpumus uzraudzīs speciāli apmācīti biļešu kontrolieri, kuri ir izgājuši jaunu 16 stundu sertifikācijas moduli par tonālo neapmierinātību un neverbālu deeskalāciju. Pirmreizēji pārkāpēji saņems brīdinājuma kartīti ar uzrakstu 'Lūdzu, turpiniet eksistēt klusāk.' Atkārtoti pārkāpēji var tikt pārvietoti uz 'Sarunu vagonu' — pilotkabinīti, kur tiks sēdināti tūristi, jaunuzņēmumu dibinātāji un cilvēki, kas apspriež podkāstus.
+
+Pilsēta norāda, ka politika radusies, balstoties uz plašu lauka darbu pagājušajā ziemā, kad pētnieki brauca ar sabiedrisko transportu visā Rīgā, dokumentējot starppersonu spriedzes metriku. Vienā februāra rītā 6. tramvajā analītiķi ierakstīja 18 minūšu incidentu, ko izraisīja vīrietis, ēdot siltu olu no salvetes un skatoties īsos video pilnā skaļumā. Notikums izraisīja to, ko eksperti vēlāk klasificēja kā "kolektīvu iekšēju kliedzienu," izmērāmu pēc sinhronizētas logu skatīšanās un viena pensionāra skaļas frāzes "Nu, protams."
+
+Viena no stingrākajām iniciatīvas atbalstītājām ir 62 gadus vecā Purvciema iedzīvotāja Maija Ozoliņa, kura plānu nosauca par "pirmo nopietno infrastruktūras investīciju manierēs kopš Padomju Savienības sabrukuma." Gaidot trolejbusu pie Brīvības ielas, Ozoliņa sacīja, ka ilgi ir sapņojusi par reisu, kurā neviens telefons sarakstē neiztirzā pirkumu sarakstu.
+
+"Ja es gribu dzirdēt intīmas detaļas par kāda pietūkušo potīti, neveiksmīgu remontu un brālēnu Droghedā, es eju uz ģimenes sanākšanu kā visi pārējie," viņa piebilda.
+
+Ne visi pasažieri ir pārliecināti. Mārketinga konsultants Ralfs Bērziņš, 29 gadi, apgalvoja, ka politika diskriminē pret 'autentisku spontānu pašizpausmi,' lai gan viņš atzina, ka nekad nav lietojis sabiedrisko transportu bez trokšņu slāpējošām austiņām un "aizsargkafijas." Citi apšaubīja, kā noteikums darbosies hokeja sezonā, kad klusums Rīgā statistiski kļūst neiespējams.
+
+Amatpersonas uzsver, ka atvieglojumi tiks piešķirti zīdaiņiem, ārkārtas situācijām un vecāka gadagājuma pasažieriem, kuri vēlas pateikt: "Agrāk tas bija vieglāk pilnīgi citā sarakstā." Atsevišķa apelāciju komisija izvērtēs malējus gadījumus, tostarp nebrīvprātīgas 'tsk' skaņas, dramatisku somu novietošanu un to, vai nopūta skaitās par runu, ja tā acīmredzami vērsta pret pašvaldības bruģa kvalitāti.
+
+Preses izlaiduma brīdī Satiksmes pārvalde apstiprināja, ka jau izskata programmas otro posmu: 'Atspoguļojošās rindu joslas' Rīgas Centrālajā stacijā, kur iedzīvotāji varēs stāvēt rindā, klusībā nicinot tos, kuri šķiet mazāk apņēmīgi gaidīt.`,
+      ru: `РИГА — В ходе, который городские власти называют «одновременно современным и глубоко прародительским», Рижская городская дума в четверг проголосовала за учреждение «Зон вежливого молчания» в общественном транспорте, где от пассажиров будут ожидать общения исключительно посредством содержательного движения бровями, поправки пальто и, в неотложных случаях, короткого взгляда в пол.
+
+Новые правила, которые вступят в силу 1 ноября, будут применяться к задней трети всех трамваев маршрутов 4, 6 и 11, к средней секции троллейбусов в часы пик и к одной экспериментальной «тихой» маршрутке, которая будет курсировать без объявлений рядом с Центральным рынком до тех пор, пока неизбежно не будет принята за частный трансфер и оставлена.
+
+Согласно 78-страничному докладу, заказанному Департаментом городской атмосферы и сезонной выносливости, средний рижанин ежегодно теряет 11 часов 14 минут на «избегаемое акустическое социальное трение» — категорию, в которую входят телефонные разговоры, начинающиеся со слов «Я в трамвае», агрессивное шёпотничанье и длительное вскрывание семечек в замкнутом пространстве.
+
+«Мы не запрещаем звук», — сказала заместитель председателя Транспортного комитета Илзе Скуйня, стоя перед диаграммой приемлемых и неприемлемых форм общественного дыхания. «Мы просто восстанавливаем тонкий звукоряд, который делает Ригу Ригой: тихое дребезжание трамвайных окон, один удалённый кашель и тридцать шесть человек, молча осуждающих Bluetooth-колонку подростка."
+
+В рамках программы знаки будут обозначать Зоны молчания бледно-серой пиктограммой человека, абсолютно ничего не говорящего. Нарушения будут отслеживаться специально обученными кондукторами, прошедшими новый 16-часовой сертификационный модуль по тональной выражительности неодобрения и невербальной деэскалации. Нарушителям в первый раз будут вручать предупреждающую карточку с надписью: «Пожалуйста, продолжайте существовать тише». Повторным нарушителям может быть предложено переселиться в «Разговорный вагон» — пилотный купе, где вместе будут размещены туристы, основатели стартапов и люди, обсуждающие подкасты.
+
+Город утверждает, что политика была вдохновлена обширной полевой работой прошлой зимой, когда исследователи ездили на общественном транспорте по всей Риге, документируя метрики межличностного напряжения. Одна февральская утренняя поездка в Трамвае 6 закончилась зафиксированным аналитиками 18-минутным инцидентом, вызванным мужчиной, поедавшим тёплое яйцо прямо из салфетки и одновременно смотревшим короткие видео на полной громкости. Событие вызвало то, что эксперты позже классифицировали как «коллективный внутренний крик», измеренный синхронным уставлением в окна и одной пенсионеркой, вслух произнёсшей: «Nu, protams.»
+
+Среди самых ярких сторонников инициативы — 62-летняя жительница Пурвциемса Майя Озолиня, назвавшая план «первым серьёзным инфраструктурным вложением в манеры со времён распада Советского Союза». Ожидая троллейбус возле улицы Бривибас, Озолиня сказала, что давно мечтала о поездке, в которой никто не объясняет свой список покупок в телефон.
+
+«Если я хочу услышать интимные подробности о чьей‑то опухшей лодыжке, неудачном ремонте и двоюродном в Дрогхеде, я приду на семейное собрание, как все», — добавила она.
+
+Не все пассажиры убеждены. Маркетинговый консультант Ралфс Берзиньш, 29 лет, утверждает, что политика дискриминирует «аутентичное спонтанное самовыражение», хотя признался, что никогда не ездил в общественном транспорте без шумоподавляющих наушников и «защитного кофе». Другие усомнились, как правило будет применяться в хоккейный сезон, когда молчание по статистике становится невозможным.
+
+Чиновники настаивают, что будут предоставлены исключения для младенцев, экстренных ситуаций и пожилых пассажиров, желающих сказать: «Раньше всё было проще при совершенно другом расписании». Отдельная апелляционная комиссия рассмотрит тонкие случаи, включая непроизвольное цоканье языком, драматичное размещение сумок и вопрос, считается ли вздох речью, если он явно адресован качеству городского асфальта.
+
+К моменту сдачи материала в печать Транспортное управление подтвердило, что уже изучает второй этап программы: «Рефлексивные полосы очередей» на Рижском центральном вокзале, где жители смогут стоять в очереди, тихо возмущаясь теми, кто кажется менее преданным ожиданию.`
+    },
+    date: "Nov 24, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/345/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 344,
     slug: "riga-introduces-dynamic-silence-pricing-charges",
     title: {
@@ -96,7 +183,7 @@ Neskatoties uz kritiku, Rīga plāno paplašināt Dinamiskās klusuma cenu sist�
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/344/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 343,
