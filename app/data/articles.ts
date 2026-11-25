@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 346,
+    slug: "riga-introduces-official-passive-aggressive-silence",
+    title: {
+      en: "Riga Introduces Official Passive-Aggressive Silence Zone on Tram No. 6 to Preserve National Communication Traditions",
+      lv: "Rīga ievieš oficiālu pasīvās agresijas klusuma zonu 6. tramvajā, lai saglabātu nacionālās komunikācijas tradīcijas",
+      ru: "Рига вводит официальную зону пассивно-агрессивного молчания в трамвае №6, чтобы сохранить национальные традиции общения"
+    },
+    excerpt: {
+      en: "In a move city officials say will protect Latvia’s intangible cultural heritage, Riga has designated three morning carriages on Tram No. 6 as official Passive-Aggressive Silence Zones. Commuters are encouraged to communicate exclusively through sighs, coat adjustments, and prolonged staring at fogged-up windows.",
+      lv: "Kā soli, ko pilsētas amatpersonas sauc par Latvijas nemateriālā kultūras mantojuma aizsardzību, Rīga ir noteikusi trīs rīta vagonus 6. tramvajā par oficiālajām Pasīvās Agresijas Klusuma Zonām. Pasažieri tiek aicināti sazināties tikai ar nopūtu, mēteļu sakārtošanu un ilgstošu skatienu uz iztvaikojušiem logiem.",
+      ru: "В попытке, как утверждают чиновники, защитить нематериальное культурное наследие Латвии, Рига объявила три утренних вагона трамвая №6 официальными Зонами пассивно-агрессивного молчания. Пассажиров призывают общаться исключительно через вздохи, перебрасывание пальто и продолжительное пристально смотрение на запотевшие окна."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Council on Tuesday unveiled a pilot program establishing the country’s first official Passive-Aggressive Silence Zone aboard Tram No. 6, a measure authorities describe as "long overdue recognition of how people already speak to one another before 8:45 a.m."
+
+The initiative, introduced jointly by the Department of Public Transport, the Centre for Intangible Cultural Heritage, and one woman from Purvciems who wrote 19 emails, will apply to the three middle carriages of weekday trams traveling between Ausekļa iela and Jugla during peak commuting hours. Under the new guidelines, passengers are prohibited from initiating cheerful small talk, playing motivational podcasts aloud, or saying "Happy Monday" in any language.
+
+Instead, approved modes of expression will include controlled exhalations, strategic bag placement, subtle eyebrow activity, and what the official regulations call "multi-layered silence with clear moral content." Violators may receive a warning, a disapproving glance from the conductor, or, in severe cases, be forced to sit near a person eating peeled eggs from a plastic container.
+
+"For years we have protected songs, dances, and traditional crafts," said Deputy Culture Chairwoman Ilze Dreifelde at a press conference held in a tram depot beside a bucket of sand and a faded route map from 1998. "But we ignored perhaps our most important cultural practice: communicating deep emotional complexity without technically saying anything. This is about identity, continuity, and not being bothered before coffee."
+
+City researchers say the program is backed by extensive data. A municipal survey of 1,200 commuters found that 84% considered unnecessary morning friendliness "a form of administrative violence," while 67% said they preferred being silently judged by strangers to having to discuss weather patterns with them. Another 12% said they "would rather walk to Ogre."
+
+The Silence Zone will be marked by maroon decals featuring a knitted mitten over a closed mouth, along with a bilingual notice reminding passengers that any eye contact lasting longer than three seconds may be interpreted as commentary. To assist visitors, the city has also published a 26-page etiquette leaflet titled Understanding the Baltic Pause, including practical phrases not to say and a chart distinguishing neutral silence from accusatory silence.
+
+Not everyone is convinced. "This is bureaucracy interfering with something that used to happen organically," said transport policy analyst Mārtiņš Zeibots, who nonetheless admitted the concept had merit after being accidentally greeted by a German tourist last winter. "My only concern is enforcement. Passive aggression is notoriously difficult to measure, though in Latvia we do have world-class experience."
+
+Regular passengers largely welcomed the decision. Office administrator Santa Ozoliņa, 34, said the Silence Zone finally gives legal protection to behaviors commuters have defended informally for generations. "Before, if someone sat down and started explaining their weekend sauna renovation, you had no recourse," she said, tightening her scarf while looking past the reporter. "Now there’s a framework."
+
+Jānis, a 62-year-old retired electrician who declined to give his surname because "this is still a small country," praised the rules but warned against commercialization. "Soon they’ll make an app," he said. "Young people will book premium silence with surge pricing. Then where are we? Estonia."
+
+City officials said that if the trial succeeds, similar zones could be introduced on regional buses, in selected supermarket queues, and during all family mushroom-picking excursions by 2027. As Tram No. 6 pulled away from the depot Tuesday morning, the first designated passengers observed the new policy with near-perfect discipline, expressing cautious optimism through a sequence of barely audible sighs and one exceptionally eloquent stare at the floor.`,
+      lv: `RĪGA — Rīgas dome otrdien publiskoja pilotprogrammu, kas izveido valsts pirmo oficiālo Pasīvās Agresijas Klusuma Zonu 6. tramvajā, pasākumu, ko amatpersonas raksturo kā „ilgi gaidītu atzīšanu tam, kā cilvēki jau runā viens ar otru pirms pulksten 8:45.”
+
+Iniciatīvu, ko kopīgi ieviesa Sabiedriskā transporta departaments, Nemateriālā kultūras mantojuma centrs un viena sieviete no Purvciema, kas nosūtīja 19 e‑pastus, piemēros trim vidējiem vagoniem darba dienu tramvajos, kas kursē starp Ausekļa ielu un Juglu pīķa stundās. Saskaņā ar jaunajiem noteikumiem pasažieriem aizliegts uzsākt sirsnīgas čalošanas, skaļi klausīties motivējošus podkāstus vai jebkurā valodā teikt „Laimīgu pirmdienu.”
+
+Tā vietā atļautās izpausmes formas ietver kontrolētas izelpas, stratēģisku somas novietošanu, smalkas uzacu aktivitātes un to, ko oficiālie noteikumi sauc par „daudzslāņu klusumu ar skaidru morālo saturu.” Pārkāpēji var saņemt brīdinājumu, nosodošu skatienu no konduktora vai, smagos gadījumos, piespiedu sēdēšanu blakus personai, kas ēd nomizotas olas no plastmasas trauciņa.
+
+„Gadus ilgi esam aizsargājuši dziesmas, dejas un tradicionālās amatniecības,” preses konferencē, kas notika tramvaja depo blakus smilšu spainim un izbalējušai 1998. gada maršruta kartei, sacīja kultūras priekšsēdes vietniece Ilze Dreifelde. „Bet mēs, iespējams, esam ignorējuši mūsu svarīgāko kultūras praksi: spējai komunicēt dziļu emocionālu sarežģītību, tehniski neko nesakot. Tas ir par identitāti, kontinuitāti un par to, lai tevi netraucē pirms kafijas.”
+
+Pilsētas pētnieki apgalvo, ka programma balstās uz plašiem datiem. Pašvaldības aptauja ar 1 200 pasažieriem atklāja, ka 84% uzskata nevajadzīgu rīta laipnību par „administratīvās vardarbības formu”, kamēr 67% teica, ka dod priekšroku klusumam un svešiem nosodošiem skatieniem, nevis laikapstākļu apspriešanai. Vēl 12% paziņoja, ka „labāk iet kājām līdz Ogrē.”
+
+Klusuma zonu marķēs bordo uzlīmes ar adītas cimdiņa attēlu pār aizvērtu muti, kā arī bilingvāls paziņojums, kas atgādinās pasažieriem, ka jebkura acu kontakta ilgums virs trim sekundēm var tikt interpretēts kā komentārs. Lai palīdzētu viesiem, pilsēta arī izdevusi 26 lappušu etiķetes bukletu ar nosaukumu Izprotot Baltijas pauzi, kurā iekļautas praktiskas frāzes, ko nerunāt, un shēma, kas atšķir neitrālu klusumu no apsūdzējoša klusuma.
+
+Ne visi ir pārliecināti. Transports politikas analītiķis Mārtiņš Zeibots sacīja: „Tā ir birokrātija, kas iejaucas kaut kam, kas agrāk notika dabiski,” tomēr viņš atzina, ka koncepcijai ir jēga pēc tam, kad pagājušajā ziemā nejauši viņu sveica vācu tūristi. „Mans vienīgais satraukums ir izpilde. Pasīvā agresija ir baisi grūti izmērāma, lai gan Latvijā mums ir pasaules klases pieredze.”
+
+Ikdienas pasažieri lielā mērā sveica lēmumu. Biroja administratora Santa Ozoliņa, 34, sacīja, ka Klusuma Zona beidzot sniedz juridisku aizsardzību uzvedības formām, ko pasažieri neformāli ir aizstāvējuši paaudzēm. „Agrāk, ja kāds apsēdās un sāka skaidrot sava nedēļas nogales pirtiņas remontu, tev nebija glābiņa,” viņa teica, ciešāk sasienot šalli un skatoties garām reportierim. „Tagad ir rāmis.”
+
+Jānis, 62 gadus vecs pensionēts elektriķis, kurš atteicās atklāt uzvārdu, jo „mēs taču joprojām esam maza valsts,” slavēja noteikumus, bet brīdināja par komercializāciju. „Drīz izveidos aplikāciju,” viņš teica. „Jaunieši rezervēs premium klusumu ar svārstīgām cenām. Tad kur mēs būsim? Igaunijā.”
+
+Pilsētas amatpersonas sacīja, ka, ja izmēģinājums izrādīsies veiksmīgs, līdzīgas zonas varētu ieviest reģionālajos autobusos, atlasītajās veikalu rindās un visos ģimeņu sēņu lasīšanas izbraucienos līdz 2027. gadam. Kad 6. tramvajs otrdienas rītā izbrauca no depo, pirmie nozīmētie pasažieri ievēroja jauno politiku ar gandrīz perfektu disciplīnu, izrādot piesardzīgu optimismu caur virkni knapi dzirdamu nopūtu un vienu īpaši izteiksmīgu skatienu uz grīdu.`,
+      ru: `РИГА — Во вторник Рижская городская дума представила пилотную программу, устанавливающую первую в стране официальную Зону пассивно-агрессивного молчания в трамвае №6 — меру, которую власти описывают как «давно назревшее признание того, как люди уже общаются друг с другом до 8:45 утра».
+
+Инициатива, представленная совместно Департаментом общественного транспорта, Центром нематериального культурного наследия и одной женщиной из Пурвчиемса, написавшей 19 писем, будет распространяться на три средних вагона будничных трамваев, следующих между Ausekļa iela и Jugla в часы пик. По новым правилам пассажирам запрещается начинать бодрые светские беседы, включать мотивационные подкасты вслух или говорить «Счастливого понедельника» на любом языке.
+
+Вместо этого разрешёнными способами выражения эмоций будут контролируемые выдохи, стратегическая расстановка сумок, едва заметная активность бровей и то, что в официальных правилах называется «многослойным молчанием с ясным моральным содержанием». Нарушителям могут вынести предупреждение, неодобрительный взгляд кондуктора или, в серьёзных случаях, заставить сесть рядом с человеком, поедающим очищенные яйца из пластикового контейнера.
+
+«Годы мы защищали песни, танцы и традиционные ремёсла», — заявила заместитель председателя по культуре Илзе Дрейфельде на пресс‑конференции, прошедшей в трамвайном депо возле ведра с песком и выцветшей карты маршрута 1998 года. «Но мы проигнорировали, пожалуй, нашу важнейшую культурную практику: передавать глубокую эмоциональную сложность, по сути ничего не говоря. Речь о самоидентичности, преемственности и о том, чтобы тебя не беспокоили до кофе». 
+
+Городские исследователи утверждают, что программу поддерживают обширные данные. Муниципальный опрос 1 200 пассажиров показал, что 84% считают необязательную утреннюю доброжелательность «формой административного насилия», а 67% предпочитают, чтобы их молча осуждали незнакомцы, нежели обсуждали с ними погодные паттерны. Ещё 12% заявили, что «лучше бы пешком дойти до Огре». 
+
+Зона молчания будет отмечена бордовыми наклейками с вязаной варежкой над закрытым ртом, а также двуязычным объявлением, напоминающим пассажирам, что любой зрительный контакт длительностью более трёх секунд может быть истолкован как комментарий. Чтобы помочь гостям, город также выпустил 26‑страничную брошюру с этикетом под названием «Понимание балтийской паузы», включающую практические фразы, которые не следует говорить, и таблицу, отличающую нейтральное молчание от обвинительного.
+
+Не все убедились в необходимости новшества. «Это бюрократия, вмешивающаяся в то, что раньше происходило органически», — сказал аналитик транспортной политики Мартиньш Зейботс, который тем не менее признал, что идея имеет смысл после того, как его случайно поздоровал немецкий турист прошлой зимой. «Моё единственное беспокойство — как это исполнять. Пассивная агрессия известно трудно измеряема, хотя в Латвии у нас мировой опыт». 
+
+Постоянные пассажиры в основном одобрили решение. Офисный администратор Санта Озолиня, 34 года, сказала, что Зона молчания наконец даёт правовую защиту поведениям, которые пассажиры неформально отстаивали поколениями. «Раньше, если кто‑то садился и начинал рассказывать про ремонт своей бани в выходные, у тебя не было средств защиты», — сказала она, затягивая шарф и глядя мимо репортёра. «Теперь есть рамки». 
+
+Янис, 62‑летний пенсионер‑электрик, отказавшийся называть фамилию, потому что «это всё ещё маленькая страна», похвалил правила, но предостерёг от коммерциализации. «Скоро придумают приложение», — сказал он. «Молодёжь будет бронировать премиальное молчание по повышенным тарифам. И где мы тогда? В Эстонии». 
+
+Городские чиновники заявили, что если испытание увенчается успехом, подобные зоны могут появиться в междугородних автобусах, в отдельных очередях супермаркетов и во всех семейных походах за грибами к 2027 году. Когда во вторник утром трамвай №6 отъезжал от депо, первые назначенные пассажиры соблюдали новую политику с почти идеальной дисциплиной, выражая осторожный оптимизм серией едва слышных вздохов и одним исключительно красноречивым взглядом в пол.`
+    },
+    date: "Nov 25, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/346/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 345,
     slug: "riga-introduces-polite-silence-zones-on-345",
     title: {
@@ -102,7 +183,7 @@ Preses izlaiduma brīdī Satiksmes pārvalde apstiprināja, ka jau izskata progr
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/345/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 344,
