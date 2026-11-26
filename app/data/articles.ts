@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 347,
+    slug: "jrmala-introduces-passive-aggressive-silence-zones-347",
+    title: {
+      en: "Jūrmala Introduces ‘Passive-Aggressive Silence Zones’ To Preserve Traditional Baltic Communication",
+      lv: "Jūrmala ievieš ’Pasīvi‑agresīvās klusuma zonas’, lai saglabātu tradicionālo Baltijas komunikāciju",
+      ru: "Юрмала вводит «зоны пассивно‑агрессивного молчания», чтобы сохранить традиционное балтийское общение"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have unveiled a pilot program establishing designated public areas where residents may express disappointment exclusively through meaningful pauses, distant staring, and the phrase “it’s fine” delivered in any tone except sincere. City leaders say the initiative is intended to protect an endangered form of regional communication increasingly threatened by directness.",
+      lv: "Jūrmalas pašvaldības amatpersonas ieviesušas pilotprogrammu, kas nosaka publiskas vietas, kur iedzīvotāji drīkst izrādīt neapmierinātību tikai ar jēgpilnām pauzēm, tālu skatienu un frāzi “viss kārtībā”, izteiktu jebkurā tonī, izņemot patiesu. Pilsētas vadība saka, ka iniciatīva paredzēta, lai aizsargātu apdraudētu reģionālo komunikācijas formu, ko arvien vairāk apdraud tiešums.",
+      ru: "Муниципальные власти Юрмалы представили пилотную программу создания общественных зон, где жители могут выражать недовольство исключительно с помощью содержательных пауз, взгляда в даль и фразы «всё в порядке», произнесённой любым тоном, кроме искреннего. Городские руководители заявляют, что инициатива призвана защитить исчезающий региональный способ коммуникации, всё больше подверженный прямоте."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what local authorities are calling a major investment in cultural preservation, the Jūrmala City Council on Tuesday approved the creation of five official “Passive-Aggressive Silence Zones” along the coast, in railway waiting areas, and near two supermarkets where emotional tension has historically achieved municipal significance.
+
+The program, funded through a €1.8 million blend of local cultural grants and an EU pilot scheme for intangible heritage, is designed to safeguard “traditional non-verbal dissatisfaction practices” long associated with Baltic identity. Beginning in May, residents will be encouraged to enter specially marked areas to communicate frustration through extended exhalations, controlled eyebrow movement, and silence of up to 14 minutes.
+
+“This is not negativity,” said Deputy Mayor Ilze Vītoliņa, standing beside a pale gray sign depicting a person looking out at the sea while judging someone internally. “This is our way of maintaining social order without the recklessness of honesty. For generations, people in Latvia have conveyed entire family conflicts through the arrangement of teacups and the duration of coat-buttoning. We cannot lose that.”
+
+According to a 63-page municipal assessment, direct confrontation in Jūrmala has risen 11% since 2021, while the use of loaded silence in mixed-age households has declined sharply among residents under 30. Officials partly blame streaming platforms, international travel, and “the imported habit of explaining feelings while still having them.”
+
+The designated zones will include benches positioned at emotionally inconvenient angles, low-commitment pine landscaping, and discreet audio systems broadcasting distant train sounds to encourage reflective resentment. In the Dzintari pilot area, sensors will measure atmospheric awkwardness and alert staff if interactions become “unacceptably constructive.”
+
+“We tested several prototypes,” said project consultant and semiotic urbanist Mārtiņš Eglītis, who spent eight months mapping patterns of seaside disappointment. “At first, younger users attempted to resolve misunderstandings. That was deeply destabilizing. Once we removed the brighter colors and added a laminated notice saying ‘Do As You Wish,’ usage increased by 47%.”
+
+Many residents welcomed the initiative as overdue. “Before, if I wanted to indicate to my husband that he had, once again, bought the wrong dill, I had to improvise,” said local resident Sandra Ozola, 54, outside a grocery store selected for Phase II implementation. “Now I can stand in an approved location, look at the receipt, say ‘interesting,’ and let the municipality support me.”
+
+Not everyone is convinced. Critics argue the city is overregulating a naturally occurring behavior. “Passive aggression should remain organic,” said opposition councillor Andris Feldmanis, who voted against the measure before refusing to elaborate for several meaningful seconds. “Once the state gets involved, where does it end? Licensed sighing? A permit for saying ‘wow’ in that tone?”
+
+Still, early results from a closed winter trial were promising. Researchers from the Baltic Institute of Interpersonal Weather found that households located within 300 meters of a Silence Zone reported 22% fewer loud arguments, 31% more efficient door-closing, and a measurable increase in “emotionally legible soup service.” One appendix noted that a single grandmother in Bulduri managed to communicate disapproval about an Easter table arrangement to nine relatives without forming a complete sentence.
+
+The city plans to expand the concept if summer tourism proceeds smoothly. Visitors will be given multilingual guidance cards explaining that if a Latvian says “no, no, continue,” they may under certain conditions mean the opposite.
+
+By autumn, Jūrmala hopes to submit the practice to UNESCO as a protected example of Baltic relational minimalism. Until then, officials are asking residents to respect the zones, avoid unnecessary warmth, and remember that just because nobody has said anything does not mean nothing has been said.`,
+      lv: `JŪRMALA — To, ko vietējās varas iestādes sauc par lielu ieguldījumu kultūras saglabāšanā, Jūrmalas pilsētas dome otrdien atbalstīja piecu oficiālu “Pasīvi‑agresīvo klusuma zonu” izveidi gar krastu, dzelzceļa gaiteņos un pie diviem lielveikaliem — vietās, kur emocionālā spriedze vēsturiski ir sasniegusi pašvaldības nozīmi.
+
+Programma, kas finansēta ar 1,8 miljonu eiro maisījumu no vietējiem kultūras grantiem un ES pilotprojekta nemateriālajam mantojumam, ir izstrādāta, lai aizsargātu “tradicionālās neverbālās neapmierinātības prakses”, kas ilgi saistītas ar Baltijas identitāti. No maija iedzīvotāji tiks aicināti ieiet īpaši iezīmētās vietās, lai ar izstieptām izelpām, kontrolētu uzacu kustību un klusumu līdz 14 minūtēm nodotu savu neapmierinātību.
+
+“Tas nav negatīvisms,” sacīja vietniece Ilze Vītoliņa, stāvot blakus bālganam zīmolam ar cilvēka attēlu, kas raugās jūrā, iekšēji kādu spriežot. “Tas ir mūsu veids, kā uzturēt sabiedrisko kārtību, neriskējot ar atklātības neapdomību. Gadu desmitiem latvieši ir nodevuši veselas ģimenes sāpes, izkārtojot tējas krūzītes un nosakot mēteļu pogu aizpogāšanas ilgumu. To mēs nevaram pazaudēt.”
+
+Pēc 63 lappušu pašvaldības novērtējuma, tieša konfrontācija Jūrmalā kopš 2021. gada pieaugusi par 11%, kamēr noslogotā klusuma izmantošana jaukta vecuma mājsaimniecībās strauji sarukusi iedzīvotāju vidū, kas jaunāki par 30 gadiem. Amatpersonas daļēji vaino straumēšanas platformas, starptautiskās ceļošanas un “ievesto ieradumu paskaidrot sajūtas, kamēr tās vēl ir joprojām klātesošas.”
+
+Ieviestajās zonās būs soliņi, novietoti emocionāli neērtos leņķos, zems saistību līmenis prasoša priedes apstādījumu ainava un diskrētas audio sistēmas, kas izstaro tālu vilcienu skaņas, lai veicinātu pārdomātu nepatiku. Dzintaru pilotzonā sensori mērīs atmosfēras neveiklumu un brīdinās personālu, ja mijiedarbības kļūst “nepieņemami konstruktīvas.”
+
+“Mēs pārbaudījām vairākus prototipus,” sacīja projekta konsultants un semiotiskais urbanists Mārtiņš Eglītis, kurš astoņus mēnešus kartēja piejūras vīšanās modeļus. “Sākumā jaunākie lietotāji mēģināja atrisināt pārpratumus. Tas bija dziļi destabilizējoši. Kad noņēmām spilgtākās krāsas un pievienojām laminētu paziņojumu ar uzrakstu ‘Dari kā vēlies’, lietojums pieauga par 47%.”
+
+Daudzi iedzīvotāji uzņēma iniciatīvu kā ilgi gaidītu. “Agrāk, ja gribēju norādīt vīram, ka viņš atkal nopircis nepareizo dilles bundžiņu, man nācās improvizēt,” sacīja vietējā iedzīvotāja Sandra Ozola, 54, pie veikala, izvēlēta II fāzes īstenošanai. “Tagad es varu stāvēt apstiprinātā vietā, paskatīties uz kvīti, pateikt ‘interesanti’ un ļaut pašvaldībai mani atbalstīt.”
+
+Ne visi ir pārliecināti. Kritiķi apgalvo, ka pilsēta pārlieku regulē dabiski radušos uzvedību. “Pasīvai agresijai jāpaliek organiskai,” sacīja opozīcijas deputāts Andris Feldmanis, kurš nobalsoja pret pasākumu, pirms atteicās to izskaidrot vairākas jēgpilnas sekundes. “Kad valsts iesaistās, kur tas beidzas? Licencēta nopūta? Atļauja izteikt ‘wow’ tajā tonī?”
+
+Tomēr agrīnie slēgtā ziemas izmēģinājuma rezultāti bija cerīgi. Pētnieki no Baltijas Starppersonu Laika Institūta atklāja, ka mājsaimniecības, kas atrodas 300 metru rādiusā ap klusuma zonu, ziņoja par 22% mazāk skaļiem strīdiem, 31% efektīvāku durvju aizvēršanu un izmērāmu pieaugumu “emocionāli saprotamā zupas pasniegšanā.” Vienā pielikumā atzīmēts, ka viena vecmāmiņa Bulduri spēja paziņot par neapmierinātību ar Lieldienu galda izvietojumu deviņiem radiniekiem, neveidojot pilnu teikumu.
+
+Pilsēta plāno paplašināt koncepciju, ja vasaras tūrisms noritēs gludi. Apmeklētājiem tiks izsniegtas daudzvalodu informatīvas kartītes, skaidrojot, ka, ja latvietis saka “nē, nē, turpini”, viņš zaļos apstākļos var domāt pretējo.
+
+Rudenī Jūrmala cer praksi iesniegt UNESCO kā aizsargājamu piemēru Baltijas attiecību minimalismam. Līdz tam amatpersonas lūdz iedzīvotājus cienīt zonas, izvairīties no liekas siltuma un atcerēties, ka tikai tāpēc, ka neviens neko nav teicis, vēl nenozīmē, ka nekas nav pateikts.`,
+      ru: `ЮРМАЛА — В том, что местные власти называют крупной инвестицией в сохранение культуры, Городской совет Юрмалы во вторник одобрил создание пяти официальных «Зон пассивно‑агрессивного молчания» вдоль побережья, в зонах ожидания на вокзале и возле двух супермаркетов, где эмоциональное напряжение исторически приобретало муниципальное значение.
+
+Программа, финансируемая за счёт сочетания местных грантов на культуру и пилотной схемы ЕС по нематериальному наследию на сумму €1,8 млн, нацелена на охрану «традиционных невербальных практик неудовольствия», давно связанных с балтийской идентичностью. Начиная с мая, жителей будут поощрять заходить в специально обозначенные зоны, чтобы передавать фрустрацию затяжными выдохами, контролируемыми движениями бровей и молчанием длительностью до 14 минут.
+
+«Это не негативность», — сказала заместитель мэра Ilze Vītoliņa, стоя рядом с бледно‑серой табличкой, изображающей человека, смотрящего на море и внутренне кого‑то осуждающего. «Это наш способ поддерживать общественный порядок без безрассудства честности. Поколениями люди в Латвии передавали целые семейные конфликты через расположение чайных чашек и длительность застёгивания пальто. Мы не можем это потерять». 
+
+По данным 63‑страничной муниципальной оценки, с 2021 года прямое противостояние в Юрмале выросло на 11%, в то время как использование заряженного молчания в домохозяйствах смешанного возраста резко сократилось среди жителей младше 30 лет. Власти частично винят стриминговые платформы, международные поездки и «импортированную привычку объяснять чувства, пока они ещё присутствуют». 
+
+Назначенные зоны будут включать лавочки, установленные под эмоционально неудобными углами, сосновые насаждения низкой привязанности и деликатные аудиосистемы, транслирующие отдалённый звук поезда, чтобы способствовать созерцательной обиде. В пилотной зоне Дзинтари датчики будут измерять атмосферную неловкость и оповещать персонал, если взаимодействия станут «недопустимо конструктивными». 
+
+«Мы тестировали несколько прототипов», — сказал консультант проекта и семиотический урбанист Mārtiņš Eglītis, который восемь месяцев картировал закономерности прибрежного разочарования. «Сначала молодые пользователи пытались разрешать недоразумения. Это было глубоко дестабилизирующе. Как только мы убрали более яркие цвета и добавили ламинированное объявление "Делайте как хотите", пользование увеличилось на 47%». 
+
+Многие жители приветствовали инициативу как назревшую. «Раньше, если я хотела дать понять мужу, что он опять купил не тот укроп, мне приходилось импровизировать», — сказала местная жительница Сандра Озола, 54 года, у продуктового магазина, выбранного для второй фазы. «Теперь я могу встать в одобренном месте, посмотреть на чек, сказать „интересно“ и позволить муниципалитету меня поддержать». 
+
+Не все убеждены. Критики утверждают, что город чрезмерно регулирует естественное поведение. «Пассивная агрессия должна оставаться органичной», — сказал оппозиционный советник Andris Feldmanis, который проголосовал против меры, а затем несколько значимых секунд отказался что‑либо уточнять. «Как только государство вмешивается, где это остановится? Лицензированные вздохи? Разрешение на произнесение „вау“ в том самом тоне?» 
+
+Тем не менее ранние результаты закрытого зимнего испытания обнадёжили. Исследователи из Балтийского института межличностной погоды обнаружили, что домохозяйства, расположенные в пределах 300 метров от Зоны молчания, сообщили о на 22% меньше громких ссор, на 31% более эффективном закрывании дверей и измеримом увеличении «эмоционально читабельной подачи супа». В одном приложении отмечалось, что одна бабушка в Булдури сумела выразить неодобрение по поводу оформления пасхального стола девяти родственникам, не составив ни одного полного предложения. 
+
+Город планирует расширить концепцию, если летний туризм пройдет гладко. Посетителям будут выдавать многоязычные памятки с объяснением, что если латвиец говорит «нет‑нет, продолжайте», то при определённых условиях он может подразумевать обратное. 
+
+К осени Юрмала надеется представить практику на рассмотрение ЮНЕСКО как защищённый пример балтийского реляционного минимализма. До тех пор чиновники просят жителей уважать зоны, избегать лишнего тепла и помнить: только потому, что никто ничего не сказал, это не значит, что ничего не было сказано.`
+    },
+    date: "Nov 26, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/347/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 346,
     slug: "riga-introduces-official-passive-aggressive-silence",
     title: {
@@ -96,7 +183,7 @@ Pilsētas amatpersonas sacīja, ka, ja izmēģinājums izrādīsies veiksmīgs, 
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/346/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 345,
