@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 348,
+    slug: "jrmala-residents-introduce-quiet-bidding-war",
+    title: {
+      en: "Jūrmala Residents Introduce Quiet Bidding War Over Whose Pine Tree Sounds Most Expensive in Wind",
+      lv: "Jūrmalas iedzīvotāji uzsāk klusu izsoles karu par to, kuras priedes vēja skaņa šķiet visdārgākā",
+      ru: "Жители Юрмалы затеяли тихую торговую войну — чьи сосны звучат дороже на ветру"
+    },
+    excerpt: {
+      en: "A previously unregulated aspect of Baltic prestige has entered open competition after several Jūrmala households began comparing the acoustic quality of wind passing through their pines. Municipal officials say the phenomenon has already affected property values, neighbor relations, and one unusually emotional architecture forum.",
+      lv: "Iepriekš nereregulēts Baltijas prestiža aspekts nonācis atklātā konkurencē pēc tam, kad vairāki jūrmalnieku mājokļi sāka salīdzināt vēja akustisko kvalitāti, kas pārslīd cauri viņu priedēm. Pašvaldību ierēdņi saka, ka fenomens jau ietekmējis nekustamā īpašuma vērtības, kaimiņu attiecības un vienu ārkārtīgi emocionālu arhitektūras forumu.",
+      ru: "Ранее нерегулируемый аспект балтийского престижа вошёл в открытую конкуренцию после того, как несколько хозяев домов в Юрмале начали сравнивать акустическое качество ветра, проходящего через их сосны. Муниципальные чиновники говорят, что явление уже повлияло на стоимость недвижимости, отношения между соседями и на один необычайно эмоциональный архитектурный форум."
+    },
+    fullContent: {
+      en: `JŪRMALA — What began as a casual terrace remark over sea-buckthorn tea has developed into Jūrmala’s most refined neighborhood conflict in years, as residents of the Dzintari and Bulduri districts are now openly competing over whose pine trees produce the most "financially literate" sound when struck by coastal wind.
+
+The dispute intensified last month after 54-year-old real estate consultant and amateur silence curator Mārtiņš Priedītis told guests at a garden dinner that the pines on his plot emitted "a dry, upper-middle-register whisper associated with old money and Swedish insulation standards." Within 48 hours, three neighboring households had hired private arborists, one sound engineer from Riga, and, in one case, a retired oboe teacher to evaluate the tonal character of their own trees.
+
+"You can hear immediately whether a pine has confidence," said Priedītis, standing beneath a 19-meter specimen he identified as "self-assured but not vulgar." He then played reporters a 37-second recording labeled Evening Gust No. 4, which he said had received positive comments in a closed Telegram group for coastal homeowners. "A cheap tree flaps. A serious tree implies inheritance. Mine has a restrained hiss, almost tax-resident in nature."
+
+According to a flash poll conducted by the Baltic Institute for Lifestyle Metrics, 63% of Jūrmala respondents now believe wind acoustics are "an important indicator of plot maturity," while 18% admitted they had repositioned outdoor furniture to better frame the sound of conifers during visits from acquaintances. A further 7% said they were "not ready to discuss" what their trees sounded like.
+
+Municipal authorities have attempted to calm tensions by clarifying that no official pine-sound certification currently exists. Nevertheless, the City Development Committee confirmed it had received 112 resident inquiries in two weeks regarding whether naturally aspirational tree noise could be reflected in cadastral valuation.
+
+"We are facing a legal vacuum," said committee secretary Ilze Vanaga. "At present, Latvian law can distinguish between residential, commercial, and forest land, but not between pines that sound merely healthy and pines that suggest discreet generational wealth. This is a gap many are eager to exploit."
+
+Local businesses have moved quickly. One Majori landscaping firm now offers "acoustic thinning" for €890, promising to remove branches that create "desperate frequencies." A boutique design studio near Lielupe has begun importing matte-black Scandinavian wind chimes marketed specifically to do nothing at all, allowing premium pines to "speak without interruption." Meanwhile, a Riga-based startup called SkanžuMežs has launched an app that ranks tree audio on a 100-point scale from "municipal" to "embassy-adjacent."
+
+Not all residents support the trend. School librarian Sanita Ozoliņa, whose family has lived in Jūrmala for three generations, said the competition had become exhausting. "When I was little, a pine was a pine," she said. "Now people stand in gardens with closed eyes saying things like, 'Yours is pleasant, but does it articulate solvency?' It is not normal."
+
+Still, market analysts say the practice may be here to stay. At least four new luxury developments have begun advertising "west-facing auditory vegetation," and one brochure for a renovated villa near Melluži promises "nighttime wind with notes of Helsinki board member." Real estate portal DzīvotPieklājīgi.lv has already added a new filter: 'Subtle Canopy Prestige.'
+
+As of Tuesday evening, residents on Vienības prospekts were reportedly planning Jūrmala’s first blind listening salon, where invited guests will sit in darkness and rate tree sounds without knowing the address. Organizers insist the event is not competitive, though attendees have been asked to dress in what one invitation described as "soft cashmere, if honest."`,
+      lv: `JŪRMALA — Kas sākās kā pieklusināts terases komentārs pār smiltsērkšķu tēju, ir attīstījies par Jūrmalas visizsmalcinātāko kvartāla konfliktu gadu desmitos: Dzintaru un Bulduru iedzīvotāji tagad publiski sacenšas, kuru priedes, piecērptas ar piejūras vēju, rada visvairāk "finansiāli zinošu" skaņu.
+
+Strīds saasinājās pagājušajā mēnesī, kad 54 gadus vecais nekustamā īpašuma konsultants un amatieris‑klusuma kurators Mārtiņš Priedītis viesiem dārza vakariņās paziņoja, ka viņa zemes priedes izstaro "sausu, augšējā‑vidējā tembra čuksti, kas asociējas ar 'veco naudu' un zviedru siltumizolācijas standartiem." Dažu stundu laikā trīs kaimiņu mājsaimniecības bija nolīgušas privātos arboristus, vienu skaņas inženieri no Rīgas un vienā gadījumā — arī pensijā esošu oboje skolotāju, lai novērtētu savu koku tonālo raksturu.
+
+"Jau no pirmā brīža var pateikt, vai priede ir pārliecināta," sacīja Priedītis, stāvot zem 19 metrus augsta eksemplāra, kuru viņš nosauca par "pārliecinātu, bet ne vulgāru." Viņš žurnālistiem atskaņoja 37 sekunžu ierakstu ar nosaukumu Vakara brāziens Nr. 4, ko, pēc viņa teiktā, slēgtā Telegrama grupā piejūras māju īpašnieku vidū bija saņēmis pozitīvus komentārus. "Lēta priede plandās. Svarīga priede norāda uz mantojumu. Mana izstaro atturīgu šalku, gandrīz kā nodokļu rezidenta smalka pieskaņa."
+
+Saskaņā ar ātro aptauju, ko veica Baltijas Dzīvesstila Mērījumu Institūts, 63% jūrmalnieku tagad uzskata vēja akustiku par "nozīmīgu zemesgabala brieduma rādītāju," kamēr 18% atzina, ka pārbīdījuši āra mēbeles, lai labāk ierāmētu koniferu skaņu viesu vizītēs. Vēl 7% teica, ka nav gatavi apspriest, kā viņu priedes skan.
+
+Pašvaldības iestādes mēģinājušas nomierināt spriedzi, nosakot, ka oficiāla priedes‑skaņas sertifikācija šobrīd nepastāv. Tomēr Pilsētas attīstības komiteja apstiprināja, ka divu nedēļu laikā saņēmusi 112 iedzīvotāju jautājumus par to, vai dabīgi ambicioza koku skaņa var tikt atainota kadastrālajā vērtējumā.
+
+"Mēs saskaramies ar juridisku vakuumu," sacīja komitejas sekretāre Ilze Vanaga. "Pašlaik Latvijas likumdošana spēj atšķirt dzīvojamo, komerciālo un meža zemes, bet ne atšķirt priedes, kas vienkārši izskatās un skan veselīgas, no priedēm, kas norāda uz diskrētu ģimenes kapitālu. Tā ir plaisa, ko daudzi ir gatavi izmantot."
+
+Vietējie uzņēmēji rīkojas ātri. Viens Majoru ainavu arhitektūras uzņēmums tagad piedāvā "akustisko retināšanu" par €890, solot noņemt zarus, kas rada "izmisīgas frekvences." Boutique dizaina studija pie Lielupes sāka ievest matētus melnus skandināvu vēja zvaniņus, kas tiek tirgoti tieši tā, lai nedarītu neko — ļaujot premium priedēm "runāt bez traucējumiem." Tikmēr Rīgā bāzēts startups SkanžuMežs ir izlaidis lietotni, kas novērtē koku audio 100 punktu skalā no "pašvaldības līmeņa" līdz "vēstniecības tuvumam."
+
+Ne visi iedzīvotāji atbalsta modi. Skolas bibliotekāre Sanita Ozoliņa, kuras ģimene Jūrmalā dzīvo jau trīs paaudzēs, sacīja, ka sacensība kļuvusi nogurdinoša. "Kad biju maza, priede bija priede," viņa teica. "Tagad cilvēki stāv dārzos ar aizvērtām acīm un saka lietas kā: 'Tava ir patīkama, bet vai tā artikulē maksātspēju?' Tas nav normāli."
+
+Tomēr tirgus analītiķi uzskata, ka prakse, visticamāk, paliks. Vismaz četras jaunas luksusa attīstības projektu reklāmas sāk piedāvāt "rietumpuses akustiski kvalitatīvu veģetāciju," un viena brošūra par renovētu villu pie Mellužiem sola "nakts vēju ar Hēlsinkas valdes locekļa niansēm." Nekustamā īpašuma vietne DzīvotPieklājīgi.lv jau pievienojusi jaunu filtru: 'Subtīlais koku kroņa prestižs.'
+
+Ceturtdienas vakarā tiek ziņots, ka Vienības prospekta iedzīvotāji plāno Jūrmalas pirmo aklo klausīšanās salonu, kur uzaicinātie viesi sēdēs tumsā un vērtēs koku skaņas, nezinot adresi. Organizatori uzsver, ka pasākums nav sacensība, lai gan apmeklētājiem lūgts ģērbties tā, kā vienā ielūgumā aprakstīts: "mīksts kašmirs, ja godīgi."`,
+      ru: `ЮРМАЛА — То, что началось как случайное замечание на террасе за облепиховым чаем, превратилось в самый изысканный соседский конфликт в Юрмале за последние годы: жители микрорайонов Dzintari и Bulduri теперь открыто соревнуются, чьи сосны производят более «финансово грамотное» звучание, когда их бьёт прибрежный ветер.
+
+Спор обострился в прошлом месяце после того, как 54‑летний консультант по недвижимости и любитель курирования тишины Mārtiņš Priedītis сказал гостям на садовом ужине, что сосны на его участке издают «сухой шёпот верхнего‑среднего регистра, ассоциирующийся со старыми деньгами и шведскими стандартами утепления». В течение 48 часов три соседних домохозяйства наняли частных арбористов, одного звукорежиссёра из Риги и, в одном случае, ушедшего на пенсию учителя по обою, чтобы оценить тональный характер собственных деревьев.
+
+«По звуку сразу понимаешь, есть ли у сосны уверенность», — сказал Priedītis, стоя под 19‑метровым экземпляром, который он охарактеризовал как «уверенный, но не вульгарный». Затем он дал репортёрам послушать 37‑секундную запись под названием Вечерний порыв №4, отметив, что её положительно обсуждают в закрытой Telegram‑группе для прибрежных домовладельцев. «Дешевая сосна хлопает. Серьёзная сосна намекает на наследство. У моей — сдержанный шип, по сути почти налоговый резидент». 
+
+По результатам экспресс‑опроса, проведённого Балтийским институтом измерения стиля жизни, 63% респондентов в Юрмале теперь считают акустику ветра «важным индикатором зрелости участка», тогда как 18% признались, что перед приходом знакомых переставляли уличную мебель, чтобы лучше обрамить звучание хвойных. Ещё 7% заявили, что «не готовы обсуждать» то, как звучат их деревья.
+
+Муниципальные власти попытались разрядить ситуацию, разъяснив, что официальной сертификации звучания сосен пока не существует. Тем не менее Комитет по развитию города подтвердил, что за две недели получил 112 обращений от жителей с вопросом, может ли естественно амбициозный шум деревьев быть учтён при кадастровой оценке.
+
+«Мы сталкиваемся с юридической пустотой», — сказала секретарь комитета Ilze Vanaga. «На данный момент латвийское законодательство различает жилые, коммерческие и лесные земли, но не различает сосны, которые просто звучат здорово, и сосны, которые намекают на сдержанное поколенческое богатство. Это пробел, которым многие хотят воспользоваться». 
+
+Местный бизнес отреагировал оперативно. Одна мажорская ландшафтная фирма теперь предлагает «акустическую прорежку» за €890, обещая удалить ветви, создающие «отчаянные частоты». Бутик‑дизайн‑студия у Лиелупе начала импортировать матово‑чёрные скандинавские ветровые колокольчики, продвигаемые спецподходом «чтобы ничего не делали», позволяя премиальным соснам «говорить без помех». Тем временем рижский стартап SkanžuMežs запустил приложение, оценивающее аудио деревьев по 100‑балльной шкале от «муниципального» до «приближённого к посольству».
+
+Не все жители поддерживают тренд. Школьный библиотекарь Sanita Ozoliņa, чья семья живёт в Юрмале уже три поколения, сказала, что соревнование стало утомительным. «Когда я была маленькой, сосна была просто сосной, — сказала она. — А теперь люди стоят в садах с закрытыми глазами и говорят: ‚Ваша приятна, но артикулирует ли она платёжеспособность?‘ Это ненормально». 
+
+Тем не менее аналитики рынка считают, что практика вряд ли исчезнет. По крайней мере четыре новых элитных проекта уже рекламируют «растительность с западной аудиторной экспозицией», а один буклет о восстановленной вилле возле Melluži обещает «ночной ветер с нотками члена правления Хельсинки». Портал недвижимости DzīvotPieklājīgi.lv уже добавил новый фильтр: «Тонкая престижность кроны». 
+
+К вечеру вторника жители проспекта Vienības, по сообщениям, планировали первый в Юрмале слепой салон прослушивания, где приглашённые гости будут сидеть в темноте и оценивать звучание деревьев, не зная адреса. Организаторы настаивают, что мероприятие не соревновательное, хотя участникам было предложено прийти одетыми в то, что в одном приглашении описали как «мягкий кашемир, если честно».`
+    },
+    date: "Nov 27, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/348/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 347,
     slug: "jrmala-introduces-passive-aggressive-silence-zones-347",
     title: {
@@ -102,7 +183,7 @@ Rudenī Jūrmala cer praksi iesniegt UNESCO kā aizsargājamu piemēru Baltijas 
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/347/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 346,
